@@ -1,0 +1,23 @@
+services:
+  postgres:
+    image: postgres:16-alpine
+    container_name: crossword-postgres
+    restart: unless-stopped
+    ports:
+      # Not 5432, so a local Postgres or an SSH tunnel on the default port cannot shadow it.
+      # Bookie uses 5004, Millionaire 5006; this app takes 5007.
+      - '5007:5432'
+    environment:
+      POSTGRES_USER: crossword
+      POSTGRES_PASSWORD: crossword
+      POSTGRES_DB: crossword
+    volumes:
+      - crossword_pg:/var/lib/postgresql/data
+    healthcheck:
+      test: ['CMD-SHELL', 'pg_isready -U crossword -d crossword']
+      interval: 5s
+      timeout: 5s
+      retries: 5
+
+volumes:
+  crossword_pg:

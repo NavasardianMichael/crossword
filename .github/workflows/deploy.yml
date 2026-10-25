@@ -1,0 +1,484 @@
+# =============================================================================
+# Build and deploy to production.
+#
+# Full operator documentation, including the one-time server setup and both nginx
+# server blocks: docs/DEPLOYMENT.md
+#
+# REQUIRED GITHUB SECRETS:
+#   SSH_HOST, SSH_USER, SSH_KEY, SSH_PORT (optional, default 22)
+#   APP_DIR          deployment root, e.g. /home/michael/apps/crossword
+#   ENV_API_BASE64   base64 of the API env file — DATABASE_URL, CORS_ORIGIN,
+#                    GEMINI_KEY, optionally GEMINI_MODELS, VERIFY_ENTRIES,
+#                    POOL_DAILY_CALL_BUDGET, POOL_REFILL_*, SENTRY_DSN_API.
+#                    NODE_ENV/PORT/HOST are appended below, so do not put them
+#                    in the secret.
+#   NEXT_PUBLIC_API_URL    https://api.crossword.mnavasardian.com
+#   NEXT_PUBLIC_SITE_URL   https://crossword.mnavasardian.com
+#
+# OPTIONAL (Secrets or Variables), inlined at build time — empty turns the feature off:
+#   NEXT_PUBLIC_GA_MEASUREMENT_ID, NEXT_PUBLIC_SENTRY_DSN, NEXT_PUBLIC_GOOGLE_SITE_VERIFICATION
+#   SENTRY_ORG, SENTRY_PROJECT, SENTRY_AUTH_TOKEN (source-map upload only)
+#
+# The two NEXT_PUBLIC_* values are inlined into the browser bundle, so they are
+# public by construction. They may live as repository Secrets or Variables —
+# this workflow reads secrets.* first, then vars.*. Those are different stores:
+# a value in one is invisible to the other. An empty value used to fall through
+# to localhost and ship a bundle that asked Chrome for "Apps on device".
+#
+# On-host layout:
+#   $APP_DIR/web/releases/<sha>/   Next standalone bundle (server.js, .next, public)
+#   $APP_DIR/web/current        -> releases/<sha>
+#   $APP_DIR/api/releases/<sha>/   dist, prisma, package.json, node_modules
+#   $APP_DIR/api/current        -> releases/<sha>
+#   $APP_DIR/shared/.env.api       mode 600, written by this workflow — outside every release
+# =============================================================================
+
+name: Deploy to Production
+
+on:
+  push:
+    branches: [master]
+    paths-ignore:
+      - '**.md'
+      - 'docs/**'
+      - '.claude/**'
+      - '.cursor/**'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+env:
+  KEEP_RELEASES: 3
+  WEB_PORT: 7007
+  API_PORT: 9007
+  SSH_OPTS: '-o ServerAliveInterval=30 -o ServerAliveCountMax=120 -o TCPKeepAlive=yes -o ConnectTimeout=30'
+
+# Deploys queue rather than abort: cancelling mid-script could leave `current`
+# pointing at a release whose service was never restarted.
+concurrency:
+  group: deploy-production
+  cancel-in-progress: false
+
+jobs:
+  changes:
+    name: Detect changes
+    runs-on: ubuntu-latest
+    outputs:
+      deploy_web: ${{ steps.flags.outputs.deploy_web }}
+      deploy_api: ${{ steps.flags.outputs.deploy_api }}
+      release_name: ${{ github.sha }}
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v6
+
+      - name: Path filters
+        uses: dorny/paths-filter@v4
+        id: filter
+        with:
+          filters: |
+            web:
+              - 'src/**'
+              - 'public/**'
+              - 'next.config.ts'
+              - 'postcss.config.mjs'
+              - 'tsconfig.json'
+            api:
+              - 'server/**'
+              - 'scripts/build-api-release.mjs'
+            workspace:
+              - 'package.json'
+              - 'pnpm-lock.yaml'
+              - 'pnpm-workspace.yaml'
+              - '.github/workflows/deploy.yml'
+              - '.nvmrc'
+
+      # A manual run deploys both sides; so does anything touching the shared
+      # manifests, since the lockfile governs both builds.
+      - name: Set deploy flags
+        id: flags
+        run: |
+          deploy_web=false
+          deploy_api=false
+          if [ "${{ github.event_name }}" = "workflow_dispatch" ] || \
+             [ "${{ steps.filter.outputs.workspace }}" = "true" ]; then
+            deploy_web=true
+            deploy_api=true
+          fi
+          if [ "${{ steps.filter.outputs.web }}" = "true" ]; then deploy_web=true; fi
+          if [ "${{ steps.filter.outputs.api }}" = "true" ]; then deploy_api=true; fi
+          echo "deploy_web=$deploy_web" >> "$GITHUB_OUTPUT"
+          echo "deploy_api=$deploy_api" >> "$GITHUB_OUTPUT"
+          echo "deploy_web=$deploy_web deploy_api=$deploy_api"
+
+  verify:
+    name: Verify
+    runs-on: ubuntu-latest
+    needs: changes
+    if: needs.changes.outputs.deploy_web == 'true' || needs.changes.outputs.deploy_api == 'true'
+    steps:
+      - uses: actions/checkout@v6
+      - uses: pnpm/action-setup@v5
+      - uses: actions/setup-node@v5
+        with:
+          node-version-file: '.nvmrc'
+          cache: 'pnpm'
+      - run: pnpm install --frozen-lockfile
+      # The non-build half of `pnpm verify`; the build jobs below cover the rest.
+      - run: pnpm typecheck
+      - run: pnpm typecheck:server
+      - run: pnpm gates
+      - run: pnpm lint
+      # Unit only: integration tests need Postgres and run in ci.yml on every pull request.
+      - run: pnpm --filter crossword-server db:generate
+      - run: pnpm check:messages
+      - run: pnpm test:unit
+
+  build-web:
+    name: Build / web
+    runs-on: ubuntu-latest
+    needs: [changes, verify]
+    if: needs.changes.outputs.deploy_web == 'true'
+    env:
+      NEXT_PUBLIC_API_URL: ${{ secrets.NEXT_PUBLIC_API_URL || vars.NEXT_PUBLIC_API_URL }}
+      NEXT_PUBLIC_SITE_URL: ${{ secrets.NEXT_PUBLIC_SITE_URL || vars.NEXT_PUBLIC_SITE_URL }}
+      NEXT_PUBLIC_GA_MEASUREMENT_ID: ${{ secrets.NEXT_PUBLIC_GA_MEASUREMENT_ID || vars.NEXT_PUBLIC_GA_MEASUREMENT_ID }}
+      NEXT_PUBLIC_SENTRY_DSN: ${{ secrets.NEXT_PUBLIC_SENTRY_DSN || vars.NEXT_PUBLIC_SENTRY_DSN }}
+      NEXT_PUBLIC_GOOGLE_SITE_VERIFICATION: ${{ secrets.NEXT_PUBLIC_GOOGLE_SITE_VERIFICATION || vars.NEXT_PUBLIC_GOOGLE_SITE_VERIFICATION }}
+      SENTRY_ORG: ${{ secrets.SENTRY_ORG || vars.SENTRY_ORG }}
+      SENTRY_PROJECT: ${{ secrets.SENTRY_PROJECT || vars.SENTRY_PROJECT }}
+      SENTRY_AUTH_TOKEN: ${{ secrets.SENTRY_AUTH_TOKEN }}
+    steps:
+      - uses: actions/checkout@v6
+      - uses: pnpm/action-setup@v5
+      - uses: actions/setup-node@v5
+        with:
+          node-version-file: '.nvmrc'
+          cache: 'pnpm'
+      - run: pnpm install --frozen-lockfile
+
+      # Empty or loopback here is what shipped Chrome's "Apps on device" prompt:
+      # axios and metadata fell back to localhost:9007 / :7007, and the browser's API
+      # calls then went to the visitor's own machine. Fail before that bundle ships.
+      - name: Require public origins
+        run: |
+          fail=0
+          check() {
+            name="$1"
+            value="$2"
+            if [ -z "$value" ]; then
+              echo "::error::$name is empty. Set it as a repository Secret or Variable — secrets.* and vars.* are different stores."
+              fail=1
+              return
+            fi
+            if printf '%s' "$value" | grep -Eqi 'localhost|127\.0\.0\.1|^http://'; then
+              echo "::error::$name must be a public https origin, not the local fallback. Refusing to ship a bundle that talks to the visitor's machine."
+              fail=1
+            fi
+          }
+          check NEXT_PUBLIC_API_URL "$NEXT_PUBLIC_API_URL"
+          check NEXT_PUBLIC_SITE_URL "$NEXT_PUBLIC_SITE_URL"
+          exit "$fail"
+
+      - name: Build
+        run: pnpm build
+
+      # `output: 'standalone'` traces node_modules into .next/standalone but leaves
+      # public/ and .next/static out on purpose — a CDN would normally serve them.
+      # We serve them from nginx off the same directory, so they have to be copied in.
+      - name: Assemble standalone bundle
+        run: |
+          cp -r public .next/standalone/
+          cp -r .next/static .next/standalone/.next/
+          test -f .next/standalone/server.js
+          tar -czf web-build.tar.gz -C .next/standalone .
+          echo "bundle: $(du -sh web-build.tar.gz | cut -f1)"
+
+      # Boot what actually ships. Output file tracing can copy a package's manifest
+      # without the files behind its `exports` map — @swc/helpers' `esm/` was missing
+      # exactly that way — and the result is an ERR_MODULE_NOT_FOUND that appears only
+      # when node runs server.js. `next build` stays green, and because the deploy
+      # restarts the API first, finding it on the host leaves production with a migrated
+      # database behind a frontend that will not boot.
+      #
+      # `/` is a middleware redirect to `/<locale>`, so any HTTP response proves the
+      # server booted without reaching the API or the database. Rendering a real page
+      # here would tie every build to production's uptime.
+      - name: Smoke-test the standalone bundle
+        working-directory: .next/standalone
+        env:
+          PORT: ${{ env.WEB_PORT }}
+          HOSTNAME: 127.0.0.1
+          NODE_ENV: production
+        run: |
+          node server.js > /tmp/web-smoke.log 2>&1 &
+          pid=$!
+          for i in $(seq 1 30); do
+            if ! kill -0 "$pid" 2>/dev/null; then
+              echo "::error::the standalone bundle exited before it listened on $PORT"
+              cat /tmp/web-smoke.log
+              exit 1
+            fi
+            code=$(curl -s -o /dev/null -w '%{http_code}' --max-time 5 "http://127.0.0.1:$PORT/" || true)
+            if [ -n "$code" ] && [ "$code" != "000" ]; then
+              echo "standalone bundle answered / with HTTP $code after ${i}s"
+              kill "$pid" 2>/dev/null || true
+              exit 0
+            fi
+            sleep 1
+          done
+          echo "::error::the standalone bundle never answered on port $PORT"
+          cat /tmp/web-smoke.log
+          kill "$pid" 2>/dev/null || true
+          exit 1
+
+      - uses: actions/upload-artifact@v6
+        with:
+          name: web-build
+          path: web-build.tar.gz
+          retention-days: 1
+
+  build-api:
+    name: Build / api
+    runs-on: ubuntu-latest
+    needs: [changes, verify]
+    if: needs.changes.outputs.deploy_api == 'true'
+    steps:
+      - uses: actions/checkout@v6
+      - uses: pnpm/action-setup@v5
+      - uses: actions/setup-node@v5
+        with:
+          node-version-file: '.nvmrc'
+          cache: 'pnpm'
+      - run: pnpm install --frozen-lockfile
+
+      # tsc -> server/dist, then scripts/build-api-release.mjs assembles a
+      # standalone single-package project in out/api. See that script's header for
+      # why the API cannot ship as a workspace slice or as a prebuilt node_modules.
+      - name: Build API release
+        run: pnpm build:api
+
+      # Resolve the release's own lockfile here so the host install can be
+      # --frozen-lockfile. Versions are already pinned exactly by the build script,
+      # so this only resolves transitives.
+      - name: Resolve release lockfile
+        working-directory: out/api
+        run: pnpm install --prod --lockfile-only
+
+      - name: Create API archive
+        run: |
+          tar -czf api-build.tar.gz -C out/api .
+          echo "bundle: $(du -sh api-build.tar.gz | cut -f1)"
+
+      - uses: actions/upload-artifact@v6
+        with:
+          name: api-build
+          path: api-build.tar.gz
+          retention-days: 1
+
+  deploy:
+    name: Deploy
+    runs-on: ubuntu-latest
+    needs: [changes, build-web, build-api]
+    if: |
+      always() &&
+      (needs.changes.outputs.deploy_web == 'true' || needs.changes.outputs.deploy_api == 'true') &&
+      needs.build-web.result != 'failure' &&
+      needs.build-api.result != 'failure' &&
+      needs.build-web.result != 'cancelled' &&
+      needs.build-api.result != 'cancelled'
+    steps:
+      - name: Download web artifact
+        if: needs.changes.outputs.deploy_web == 'true'
+        uses: actions/download-artifact@v7
+        with:
+          name: web-build
+
+      - name: Download API artifact
+        if: needs.changes.outputs.deploy_api == 'true'
+        uses: actions/download-artifact@v7
+        with:
+          name: api-build
+
+      - name: Setup SSH
+        uses: webfactory/ssh-agent@v0.10.0
+        with:
+          ssh-private-key: ${{ secrets.SSH_KEY }}
+
+      - name: Add server to known hosts
+        run: |
+          mkdir -p ~/.ssh
+          ssh-keyscan -p "${{ secrets.SSH_PORT || 22 }}" "${{ secrets.SSH_HOST }}" >> ~/.ssh/known_hosts
+
+      # The runtime half of the API env is owned here rather than by the secret, so
+      # it cannot drift from the paths and ports this workflow and the systemd units
+      # actually use. Stale lines are stripped before the current values are appended.
+      - name: Prepare API env file
+        if: needs.changes.outputs.deploy_api == 'true'
+        run: |
+          echo "${{ secrets.ENV_API_BASE64 }}" | base64 -d | tr -d '\r' > /tmp/env.api
+          sed -i '/^\(NODE_ENV\|PORT\|HOST\)=/d' /tmp/env.api
+          {
+            echo ""
+            echo "NODE_ENV=production"
+            echo "PORT=${{ env.API_PORT }}"
+            echo "HOST=127.0.0.1"
+          } >> /tmp/env.api
+          echo "env file: $(grep -c '=' /tmp/env.api) assignments"
+          echo "keys:"; sed -n 's/^\([A-Z_]*\)=.*/  - \1/p' /tmp/env.api
+
+      - name: Copy artifacts to host
+        run: |
+          FILES=""
+          if [ "${{ needs.changes.outputs.deploy_web }}" = "true" ]; then FILES="$FILES web-build.tar.gz"; fi
+          if [ "${{ needs.changes.outputs.deploy_api }}" = "true" ]; then FILES="$FILES api-build.tar.gz /tmp/env.api"; fi
+          scp ${{ env.SSH_OPTS }} -P "${{ secrets.SSH_PORT || 22 }}" \
+            $FILES "${{ secrets.SSH_USER }}@${{ secrets.SSH_HOST }}:/tmp/"
+
+      # Ordering is API-first, the reverse of a static-SPA deploy: the pages
+      # call the API while rendering, so the schema and the API must be new before
+      # the new pages start serving.
+      - name: Deploy
+        run: |
+          ssh ${{ env.SSH_OPTS }} -p "${{ secrets.SSH_PORT || 22 }}" \
+            "${{ secrets.SSH_USER }}@${{ secrets.SSH_HOST }}" bash -s -- \
+            "${{ secrets.APP_DIR }}" \
+            "${{ needs.changes.outputs.release_name }}" \
+            "${{ env.KEEP_RELEASES }}" \
+            "${{ needs.changes.outputs.deploy_web }}" \
+            "${{ needs.changes.outputs.deploy_api }}" \
+            "${{ env.WEB_PORT }}" \
+            "${{ env.API_PORT }}" << 'EOF'
+          set -euo pipefail
+          APP_DIR="$1"; RELEASE="$2"; KEEP="$3"
+          DEPLOY_WEB="$4"; DEPLOY_API="$5"; WEB_PORT="$6"; API_PORT="$7"
+
+          mkdir -p "$APP_DIR/shared" "$APP_DIR/web/releases" "$APP_DIR/api/releases"
+
+          wait_for() {
+            local name="$1" url="$2" unit="$3"
+            for i in $(seq 1 45); do
+              if curl -sf -o /dev/null --max-time 5 "$url"; then
+                echo "$name healthy after $((i * 2))s"
+                return 0
+              fi
+              sleep 2
+            done
+            echo "::error::$name did not become healthy within 90s ($url)"
+            systemctl status "$unit" --no-pager --lines=20 || true
+            journalctl -u "$unit" -n 200 --no-pager || true
+            return 1
+          }
+
+          if [ "$DEPLOY_API" = "true" ]; then
+            echo "==> API $RELEASE"
+            NEW="$APP_DIR/api/releases/$RELEASE"
+            rm -rf "$NEW"; mkdir -p "$NEW"
+            tar -xzf /tmp/api-build.tar.gz -C "$NEW"
+            install -m 600 /tmp/env.api "$APP_DIR/shared/.env.api"
+
+            cd "$NEW"
+
+            # `ssh host bash -s` is a non-interactive, NON-LOGIN shell: it reads neither
+            # ~/.profile nor ~/.bashrc, which on Debian returns early unless interactive.
+            # So every PATH entry a shell profile owns is invisible here, and `pnpm -v`
+            # can work when you ssh in by hand while the deploy three lines later says
+            # "command not found". Resolve it here rather than inheriting a login PATH
+            # this workflow does not control.
+            resolve_pnpm() {
+              export COREPACK_ENABLE_DOWNLOAD_PROMPT=0
+              export PNPM_HOME="${PNPM_HOME:-$HOME/.local/share/pnpm}"
+              export PATH="$PNPM_HOME:$HOME/.local/bin:/usr/local/bin:$PATH"
+              command -v pnpm >/dev/null && return 0
+
+              # The version that resolved the lockfile, straight off the release manifest,
+              # so a self-installed pnpm cannot be a major behind --frozen-lockfile.
+              want=$(node -p "require('./package.json').packageManager || 'pnpm@latest'" 2>/dev/null || echo 'pnpm@latest')
+              mkdir -p "$HOME/.local/bin"
+
+              # corepack, when the distribution ships it. Its shims live in node's own bin
+              # directory, so a node reinstall drops them; --install-directory puts ours in
+              # $HOME instead, which also needs no sudo. Naming pnpm matters: a bare
+              # `corepack enable` also shims npm.
+              if command -v corepack >/dev/null; then
+                echo "resolving pnpm through corepack"
+                corepack enable --install-directory "$HOME/.local/bin" pnpm || true
+                command -v pnpm >/dev/null && return 0
+              fi
+
+              # npm is the one package manager guaranteed to sit beside node, and this host
+              # has no corepack. --prefix keeps the install in $HOME — no sudo, and
+              # $HOME/.local/bin is already on the PATH exported above.
+              if command -v npm >/dev/null; then
+                echo "corepack absent; installing $want with npm"
+                npm install --global --prefix "$HOME/.local" "$want" || true
+                command -v pnpm >/dev/null && return 0
+              fi
+
+              echo "::error::pnpm is not reachable from a non-interactive shell, and could not be installed"
+              echo "  node:     $(command -v node || echo MISSING)"
+              echo "  npm:      $(command -v npm || echo MISSING)"
+              echo "  corepack: $(command -v corepack || echo MISSING)"
+              echo "  wanted:   $want"
+              echo "  PATH:     $PATH"
+              echo "  fix: install pnpm for the deploy user, e.g."
+              echo "       npm install --global --prefix \"$HOME/.local\" $want"
+              echo "  see docs/DEPLOYMENT.md"
+              return 1
+            }
+            resolve_pnpm
+            echo "pnpm $(pnpm --version) at $(command -v pnpm)"
+
+            # A normal install, which is what makes @prisma/client's postinstall run
+            # and fetches every native dependency for THIS host's platform. The release
+            # manifest carries `packageManager`, so this runs the same pnpm that resolved
+            # the lockfile whatever the host happens to have.
+            pnpm install --prod --frozen-lockfile
+            # Explicit: the postinstall above does not always locate the schema.
+            ./node_modules/.bin/prisma generate --schema prisma/schema.prisma
+
+            set -a; . "$APP_DIR/shared/.env.api"; set +a
+            ./node_modules/.bin/prisma migrate deploy --schema prisma/schema.prisma
+            # The hand-written seed words, prisma/seed/entries.{en,ru,hy}.json. Idempotent (it
+            # only adds new words and clues), so running it on every deploy is safe — and it
+            # keeps every pool non-empty, so a puzzle builds even before Gemini has written a
+            # word, or with GEMINI_KEY empty.
+            node dist/prisma/seed.js
+
+            ln -sfn "$NEW" "$APP_DIR/api/current"
+            sudo systemctl restart crossword-api
+            wait_for "API" "http://127.0.0.1:$API_PORT/health" crossword-api
+          fi
+
+          if [ "$DEPLOY_WEB" = "true" ]; then
+            echo "==> web $RELEASE"
+            NEW="$APP_DIR/web/releases/$RELEASE"
+            rm -rf "$NEW"; mkdir -p "$NEW"
+            tar -xzf /tmp/web-build.tar.gz -C "$NEW"
+            ln -sfn "$NEW" "$APP_DIR/web/current"
+            sudo systemctl restart crossword-web
+            # /en, never /: localePrefix is 'always', so / is a 307 by design.
+            wait_for "web" "http://127.0.0.1:$WEB_PORT/en" crossword-web
+          fi
+
+          # Keep the newest $KEEP releases so a rollback target survives.
+          for side in web api; do
+            d="$APP_DIR/$side/releases"
+            [ -d "$d" ] || continue
+            ( cd "$d" && ls -t | tail -n +$((KEEP + 1)) | xargs -r rm -rf )
+          done
+
+          rm -f /tmp/web-build.tar.gz /tmp/api-build.tar.gz /tmp/env.api
+          echo "==> done"
+          EOF
+
+      - name: Summary
+        if: always()
+        run: |
+          {
+            echo "## Deployment"
+            echo "**Release:** \`${{ needs.changes.outputs.release_name }}\`"
+            echo ""
+            if [ "${{ needs.changes.outputs.deploy_web }}" = "true" ]; then echo "- web (\`web/current\`, systemd \`crossword-web\`)"; fi
+            if [ "${{ needs.changes.outputs.deploy_api }}" = "true" ]; then echo "- api (\`api/current\`, systemd \`crossword-api\`) + \`prisma migrate deploy\`"; fi
+          } >> "$GITHUB_STEP_SUMMARY"
