@@ -84,7 +84,9 @@ export const antdTheme: ThemeConfig = {
     Input: { activeBorderColor: CORAL[500], hoverBorderColor: INK[300] },
     Tag: { defaultBg: CREAM[100], defaultColor: INK[700] },
     Collapse: { headerBg: 'transparent', contentBg: 'transparent' },
-    Tooltip: { colorBgSpotlight: INK[900] },
+    // antd sizes a tooltip to at least `controlHeight`; the global 44 px (touch targets) left
+    // one line of text sitting high in an oversized box. antd's own 32 lets the padding centre it.
+    Tooltip: { colorBgSpotlight: INK[900], controlHeight: 32 },
     Message: { contentBg: WHITE },
     Progress: { defaultColor: CORAL[500], remainingColor: CREAM[200] },
     Skeleton: { gradientFromColor: CREAM[200], gradientToColor: CREAM[100] },

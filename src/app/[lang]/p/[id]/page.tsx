@@ -16,10 +16,29 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const { id } = await params
   const puzzle = await fetchPuzzle(id)
   const t = await getTranslations()
-  const title = puzzle
-    ? `${t(`Formats.${puzzle.format}.name`)} · ${t(puzzle.topic === 'any' ? 'Topics.any' : `Topics.${puzzle.topic}.name`)}`
-    : t('Play.title')
-  return pageMetadata({ path: puzzlePath(id), title, description: t('Seo.puzzleDescription'), noIndex: true })
+  if (!puzzle)
+    return pageMetadata({
+      path: puzzlePath(id),
+      title: t('Play.title'),
+      description: t('Seo.puzzleDescription'),
+      noIndex: true,
+    })
+
+  // What a link preview shows: the kind of puzzle, never a clue or an answer.
+  const format = t(`Formats.${puzzle.format}.name`)
+  const topic = t(puzzle.topic === 'any' ? 'Topics.any' : `Topics.${puzzle.topic}.name`)
+  return pageMetadata({
+    path: puzzlePath(id),
+    title: `${format} · ${topic}`,
+    description: t('Seo.sharedPuzzleDescription', {
+      format: puzzle.format,
+      topic,
+      difficulty: t(`Difficulty.${puzzle.difficulty}`),
+      size: `${puzzle.width}×${puzzle.height}`,
+      words: puzzle.words.length,
+    }),
+    noIndex: true,
+  })
 }
 
 export default async function PuzzlePage({ params }: Props) {

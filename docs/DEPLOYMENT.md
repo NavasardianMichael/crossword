@@ -129,6 +129,7 @@ starts both services.
 
 Optional, inlined at build time (Secrets or Variables; empty turns the feature off):
 `NEXT_PUBLIC_GA_MEASUREMENT_ID`, `NEXT_PUBLIC_SENTRY_DSN`, `NEXT_PUBLIC_GOOGLE_SITE_VERIFICATION`,
+`NEXT_PUBLIC_YANDEX_VERIFICATION`, `NEXT_PUBLIC_BING_SITE_VERIFICATION`,
 and for source maps `SENTRY_ORG`, `SENTRY_PROJECT`, `SENTRY_AUTH_TOKEN`.
 
 The `NEXT_PUBLIC_*` values are inlined into the browser bundle, so they are public by
@@ -204,8 +205,11 @@ set -a; . /home/michael/apps/crossword/shared/.env.api; set +a; node dist/prisma
 ```
 
 After the first deploy, submit `https://crossword.mnavasardian.com/sitemap.xml`
-in Google Search Console (60 URLs: the 8 `INDEXABLE_ROUTES` plus 12 topic pages, × 3 locales —
-en, ru, hy — with hreflang).
+in Google Search Console, Yandex Webmaster and Bing Webmaster Tools (63 URLs: the 9
+`INDEXABLE_ROUTES` plus 12 topic pages, × 3 locales — en, ru, hy — with hreflang and x-default).
+Check a shared `/p/<id>` link in a preview debugger (Facebook Sharing Debugger, opengraph.xyz):
+it should show the title, description and `/opengraph-image`. `/llms.txt` and `/llms-full.txt`
+summarise the site for AI assistants.
 
 ## Gotchas
 

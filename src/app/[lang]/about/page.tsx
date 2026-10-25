@@ -10,5 +10,5 @@ export async function generateMetadata(): Promise<Metadata> {
 }
 
 export default function AboutPage() {
-  return <ContentPage namespace='About' />
+  return <ContentPage namespace='About' path={ROUTES.about} navKey='about' schema='about' />
 }

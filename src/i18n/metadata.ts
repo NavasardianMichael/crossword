@@ -1,5 +1,7 @@
 import type { Metadata } from 'next'
 import { lang } from 'next/root-params'
+import { getTranslations } from 'next-intl/server'
+import { OG_IMAGE_PATH, OG_IMAGE_SIZE } from '@constants/app'
 import { DEFAULT_LOCALE, isLocale, type Locale, LOCALES, OG_LOCALES } from './config'
 import { localePath } from './pathname'
 
@@ -34,23 +36,40 @@ type PageMetadataInput = {
   description: string
   /** Private pages (profile, settings) stay out of the index. */
   noIndex?: boolean
+  /** The title is complete already: skip the layout's `%s | {appName}` template (the home page). */
+  absoluteTitle?: boolean
 }
 
-/** The one builder every page's `generateMetadata` goes through: title, description, alternates, OpenGraph. */
-export const pageMetadata = async ({ path, title, description, noIndex }: PageMetadataInput): Promise<Metadata> => {
+/**
+ * The one builder every page's `generateMetadata` goes through: title, description, alternates,
+ * OpenGraph and the Twitter card. Next merges `openGraph` shallowly — a page's object replaces
+ * the layout's — so the site name, type and preview image are repeated here for every page.
+ */
+export const pageMetadata = async ({
+  path,
+  title,
+  description,
+  noIndex,
+  absoluteTitle,
+}: PageMetadataInput): Promise<Metadata> => {
   const locale = await currentLocale()
+  const t = await getTranslations()
+  const image = { url: OG_IMAGE_PATH, ...OG_IMAGE_SIZE, alt: t('Seo.ogImageAlt') }
   return {
-    title,
+    title: absoluteTitle ? { absolute: title } : title,
     description,
     alternates: await localizedAlternates(path),
     openGraph: {
+      type: 'website',
+      siteName: t('Common.appName'),
       title,
       description,
       url: localePath(locale, path),
       locale: OG_LOCALES[locale],
       alternateLocale: LOCALES.filter((each) => each !== locale).map((each) => OG_LOCALES[each]),
+      images: [image],
     },
-    twitter: { card: 'summary_large_image', title, description },
+    twitter: { card: 'summary_large_image', title, description, images: [image] },
     ...(noIndex ? { robots: { index: false, follow: true } } : {}),
   }
 }

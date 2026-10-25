@@ -1,32 +1,32 @@
 'use client'
 
 import { useState } from 'react'
+import { flushSync } from 'react-dom'
 import { Dropdown, type MenuProps } from 'antd'
-import { CheckCheck, Eraser, Eye, Flag, ListOrdered, MoreHorizontal, Settings2, Share2 } from 'lucide-react'
+import { CheckCheck, Eraser, Eye, FileDown, Flag, ListOrdered, MoreHorizontal, Printer, Settings2 } from 'lucide-react'
 import { useTranslations } from 'next-intl'
 import { usePlayStore } from '@store/puzzle/play/store'
 import type { Scope } from '@store/puzzle/play/types'
-import { toast } from '@store/toast/store'
-import { localePath } from '@i18n/pathname'
-import { puzzlePath } from '@constants/routes'
+import { trackEvent } from '@helpers/analytics'
 import { cn } from '@helpers/cn'
-import { reportError } from '@helpers/reportError'
-import { absoluteUrl } from '@helpers/url'
 import { Button } from '@components/ui/Button'
 import { Dialog } from '@components/ui/Dialog'
 import { Toggle } from '@components/ui/Toggle'
+import { PrintDialog } from './PrintDialog'
+import { BLANK_PRINT, type PrintOptions, PrintSheet } from './PrintSheet'
 import { ReportDialog } from './ReportDialog'
 import { Timer } from './Timer'
 
 /**
  * Tools around the grid, in one row on every screen: the clock, the clue list (below `lg`),
  * check and reveal (letter, word or whole puzzle — a whole reveal asks first), and a "more"
- * menu with clearing wrong letters, settings, sharing and reporting a bad clue. Labels show
- * from `sm` up; on phones the buttons are icons with accessible names.
+ * menu with clearing wrong letters, settings, printing, a PDF and reporting a bad clue (sharing sits
+ * beside the heading, in `PuzzleBoard`). Labels show from `sm` up; on phones the buttons are
+ * icons with accessible names.
  */
 type ToolbarProps = { onShowClues?: () => void; className?: string }
 
-type Overlay = 'none' | 'confirmReveal' | 'settings' | 'report'
+type Overlay = 'none' | 'confirmReveal' | 'settings' | 'print' | 'pdf' | 'report'
 
 export const Toolbar = ({ onShowClues, className }: ToolbarProps) => {
   const t = useTranslations('Play')
@@ -38,6 +38,7 @@ export const Toolbar = ({ onShowClues, className }: ToolbarProps) => {
   const clearWrong = usePlayStore.use.clearWrong()
   const setSetting = usePlayStore.use.setSetting()
   const [overlay, setOverlay] = useState<Overlay>('none')
+  const [printOptions, setPrintOptions] = useState<PrintOptions>(BLANK_PRINT)
 
   if (!puzzle) return null
   const playing = status === 'playing'
@@ -46,29 +47,23 @@ export const Toolbar = ({ onShowClues, className }: ToolbarProps) => {
   const scopeItems = (action: 'check' | 'reveal'): MenuProps['items'] =>
     (['cell', 'word', 'puzzle'] as Scope[]).map((scope) => ({ key: scope, label: t(`${action}.${scope}`) }))
 
-  const share = async () => {
-    const url = absoluteUrl(localePath(puzzle.locale, puzzlePath(puzzle.id)))
-    try {
-      if (navigator.share) await navigator.share({ title: t('shareTitle'), url })
-      else {
-        await navigator.clipboard.writeText(url)
-        toast(t('linkCopied'), 'success')
-      }
-    } catch (error) {
-      // A dismissed share sheet rejects too; only a real failure is worth reporting.
-      if ((error as Error)?.name !== 'AbortError') reportError(error, 'puzzle:share', { silent: true })
-    }
+  const print = (options: PrintOptions) => {
+    close()
+    // The sheet must carry the new options before the browser lays the page out for paper.
+    flushSync(() => setPrintOptions(options))
+    trackEvent('puzzle_printed', { format: puzzle.format, ...options })
+    window.print()
   }
 
   const moreItems: MenuProps['items'] = [
     { key: 'clearWrong', label: t('clearWrong'), icon: <Eraser aria-hidden className='size-4' />, disabled: !playing },
     { key: 'settings', label: t('settings.label'), icon: <Settings2 aria-hidden className='size-4' /> },
-    { key: 'share', label: t('share'), icon: <Share2 aria-hidden className='size-4' /> },
+    { key: 'print', label: t('print.open'), icon: <Printer aria-hidden className='size-4' /> },
+    { key: 'pdf', label: t('print.pdfOpen'), icon: <FileDown aria-hidden className='size-4' /> },
     { key: 'report', label: t('report.open'), icon: <Flag aria-hidden className='size-4' /> },
   ]
   const onMore: MenuProps['onClick'] = ({ key }) => {
     if (key === 'clearWrong') clearWrong()
-    else if (key === 'share') void share()
     else setOverlay(key as Overlay)
   }
 
@@ -150,6 +145,9 @@ export const Toolbar = ({ onShowClues, className }: ToolbarProps) => {
           />
         </div>
       </Dialog>
+      <PrintDialog mode='print' open={overlay === 'print'} onClose={close} onPrint={print} />
+      <PrintDialog mode='pdf' open={overlay === 'pdf'} onClose={close} />
+      <PrintSheet options={printOptions} />
       <ReportDialog open={overlay === 'report'} onClose={close} />
     </div>
   )

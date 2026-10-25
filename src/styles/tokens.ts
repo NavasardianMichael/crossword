@@ -115,6 +115,15 @@ export const LINE = {
 
 export const WHITE = '#ffffff'
 
+/** The share dialog's app logos, in each brand's own colour (used as SVG fills, not utilities). */
+export const SHARE_BRAND_COLORS = {
+  whatsapp: '#25d366',
+  telegram: '#26a5e4',
+  vk: '#0077ff',
+  facebook: '#0866ff',
+  x: '#000000',
+} as const
+
 /** Corner radius in px — generous and friendly. */
 export const RADII = { sm: 8, base: 12, lg: 20 } as const
 

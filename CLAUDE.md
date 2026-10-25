@@ -44,7 +44,8 @@ pnpm build:api                # server/dist + the deployable out/api release
 | Locales, routing, metadata, hreflang | `src/i18n/` · catalogues `src/messages/` |
 | Design tokens | `src/styles/tokens.ts` (owner) → `theme.ts` (antd) → `globals.css` §1 mirror + §2 `--ant-*` aliases |
 | UI kit (antd wrappers) | `src/components/ui/` (`bare/` and `layout/` render on the server) |
-| SEO: sitemap, robots, JSON-LD | `src/app/sitemap.ts`, `robots.ts`, `src/linkedDataSchema/` |
+| SEO/GEO: sitemap, robots, JSON-LD, link preview, llms.txt | `src/app/sitemap.ts`, `robots.ts`, `opengraph-image.tsx`, `llms.txt/`, `src/linkedDataSchema/`, `src/helpers/llms.ts` |
+| Sharing a puzzle (app links, copy, share sheet) | `src/components/puzzle/ShareDialog.tsx` · `src/helpers/share.ts` |
 | PWA: manifest, service worker, offline play shell | `src/app/manifest.ts`, `src/app/sw.js/route.ts` + `src/helpers/pwa.ts`, `src/app/[lang]/play/` |
 | Deploying | `docs/DEPLOYMENT.md`, `deployment/`, `.github/workflows/` |
 

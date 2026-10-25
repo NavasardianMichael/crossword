@@ -13,7 +13,7 @@
  * Sections:
  *   §0 Layer order   §1 Theme tokens   §2 antd aliases   §3 Base   §4 Typography helpers
  *   §5 Surfaces   §6 Buttons   §7 Grid marks   §8 Keyframes   §9 Utilities   §10 antd touches
- *   §11 Reduced motion
+ *   §11 Reduced motion   §12 Print
  */
 
 /* ── §0 Layer order ──────────────────────────────────────────────────────────────────── */
@@ -498,5 +498,51 @@
     animation-iteration-count: 1 !important;
     transition-duration: 0.01ms !important;
     scroll-behavior: auto !important;
+  }
+}
+
+/* ── §12 Print ───────────────────────────────────────────────────────────────────────── */
+/*
+ * A puzzle prints as components/puzzle/PrintSheet.tsx, portalled to <body> while printing:
+ * on paper everything else is hidden. Any other page prints as it is.
+ */
+@layer components {
+  .print-sheet {
+    display: none;
+  }
+
+  /* Grid lines centred on each cell edge, so neighbours share one line of even weight. */
+  .print-cell {
+    outline: 0.25mm solid var(--color-ink-900);
+    outline-offset: -0.125mm;
+  }
+
+  .print-shade {
+    background-color: color-mix(in srgb, var(--color-ink-300) 30%, white);
+  }
+
+  .print-filler {
+    background-image: repeating-linear-gradient(45deg, var(--color-ink-300) 0 0.3mm, transparent 0.3mm 1.6mm);
+  }
+}
+
+@media print {
+  @page {
+    margin: 12mm;
+  }
+
+  body:has(> .print-sheet) {
+    min-height: 0;
+    background: none;
+  }
+
+  body:has(> .print-sheet) > :not(.print-sheet) {
+    display: none !important;
+  }
+
+  .print-sheet {
+    display: block;
+    print-color-adjust: exact;
+    -webkit-print-color-adjust: exact;
   }
 }

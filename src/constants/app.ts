@@ -6,6 +6,10 @@ import { MAX_EXCLUDE } from './puzzle'
  */
 export const APP_NAME = 'Crossword AI'
 
+/** The site-wide link preview (`src/app/opengraph-image.tsx`), the size every network expects. */
+export const OG_IMAGE_PATH = '/opengraph-image'
+export const OG_IMAGE_SIZE = { width: 1200, height: 630 } as const
+
 export const SITE_URL_FALLBACK = 'http://localhost:7007'
 
 export const API_URL_FALLBACK = 'http://localhost:9007'

@@ -11,11 +11,17 @@ import { Hero } from '@components/marketing/Hero'
 import { HowItWorks } from '@components/marketing/HowItWorks'
 import { TopicGrid } from '@components/marketing/TopicGrid'
 import { JsonLd } from '@components/seo/JsonLd'
+import { AppLink } from '@components/ui/bare/AppLink'
 import { Section } from '@components/ui/layout/Section'
 
 export async function generateMetadata(): Promise<Metadata> {
   const t = await getTranslations('Seo')
-  return pageMetadata({ path: ROUTES.home, title: t('homeTitle'), description: t('homeDescription') })
+  return pageMetadata({
+    path: ROUTES.home,
+    title: t('homeTitle'),
+    description: t('homeDescription'),
+    absoluteTitle: true,
+  })
 }
 
 export default async function HomePage() {
@@ -48,6 +54,14 @@ export default async function HomePage() {
 
       <Section id='faq' title={t('faqTitle')} align='center'>
         <FaqSection namespace='Home' count={6} />
+        <p className='mt-6 text-center'>
+          <AppLink
+            href={ROUTES.faq}
+            className='font-bold text-teal-700 underline-offset-4 hover:text-coral-700 hover:underline'
+          >
+            {t('faqMore')}
+          </AppLink>
+        </p>
       </Section>
     </>
   )

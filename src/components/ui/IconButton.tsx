@@ -27,7 +27,7 @@ export const IconButton = forwardRef<HTMLButtonElement, IconButtonProps>(
           'shrink-0',
           size === 'md' ? 'size-11' : 'size-12',
           tone === 'default' && 'border-line-strong bg-white text-ink-700 hover:border-ink-300 hover:text-ink-900',
-          tone === 'accent' && 'border-coral-300 bg-coral-100 text-coral-700 hover:border-coral-500 hover:text-coral-700',
+          tone === 'accent' && 'border-lavender-300 bg-lavender-100 text-lavender-700 hover:border-lavender-500 hover:text-lavender-700',
           className
         )}
         {...rest}

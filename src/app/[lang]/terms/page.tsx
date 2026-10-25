@@ -10,5 +10,5 @@ export async function generateMetadata(): Promise<Metadata> {
 }
 
 export default function TermsPage() {
-  return <ContentPage namespace='Terms' legal />
+  return <ContentPage namespace='Terms' path={ROUTES.terms} navKey='terms' legal />
 }

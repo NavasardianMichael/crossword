@@ -1,7 +1,7 @@
 'use client'
 
 import { useState } from 'react'
-import { BookOpen, Grid3x3, History, LayoutGrid, type LucideIcon, Menu, Shapes } from 'lucide-react'
+import { BookOpen, CircleHelp, Grid3x3, History, LayoutGrid, type LucideIcon, Menu, Shapes } from 'lucide-react'
 import { useTranslations } from 'next-intl'
 import { usePathname } from '@i18n/navigation'
 import { ROUTES } from '@constants/routes'
@@ -17,6 +17,7 @@ const ITEMS: { labelKey: string; href: string; icon: LucideIcon }[] = [
   { labelKey: 'topics', href: ROUTES.topics, icon: Shapes },
   { labelKey: 'history', href: ROUTES.history, icon: History },
   { labelKey: 'rules', href: ROUTES.rules, icon: BookOpen },
+  { labelKey: 'faq', href: ROUTES.faq, icon: CircleHelp },
 ]
 
 /** Everything the desktop header shows, in a drawer — below `lg` only. */
@@ -27,7 +28,12 @@ export const MobileMenu = () => {
 
   return (
     <div className='lg:hidden'>
-      <IconButton label={t('Common.openMenu')} icon={<Menu className='size-5' />} onClick={() => setOpen(true)} aria-expanded={open} />
+      <IconButton
+        label={t('Common.openMenu')}
+        icon={<Menu className='size-5' />}
+        onClick={() => setOpen(true)}
+        aria-expanded={open}
+      />
       <Dialog open={open} onClose={() => setOpen(false)} title={t('Common.menu')} variant='drawer'>
         <nav aria-label={t('Nav.main')}>
           <ul className='flex flex-col gap-1.5'>

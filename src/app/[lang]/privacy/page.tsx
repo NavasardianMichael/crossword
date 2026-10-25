@@ -10,5 +10,5 @@ export async function generateMetadata(): Promise<Metadata> {
 }
 
 export default function PrivacyPage() {
-  return <ContentPage namespace='Privacy' legal />
+  return <ContentPage namespace='Privacy' path={ROUTES.privacy} navKey='privacy' legal />
 }

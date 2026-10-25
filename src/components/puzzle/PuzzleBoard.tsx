@@ -1,11 +1,12 @@
 'use client'
 
 import { type CSSProperties, useEffect, useState } from 'react'
-import { Plus, WifiOff } from 'lucide-react'
+import { Plus, Share2, WifiOff } from 'lucide-react'
 import { useTranslations } from 'next-intl'
 import { useCreateStore } from '@store/puzzle/create/store'
 import { usePlayStore, usePlayStoreBase } from '@store/puzzle/play/store'
 import { useCoarsePointer } from '@hooks/useCoarsePointer'
+import { useLeaveGuard } from '@hooks/useLeaveGuard'
 import { useRouter } from '@i18n/navigation'
 import type { PuzzleView } from '@constants/puzzle'
 import { puzzlePath } from '@constants/routes'
@@ -15,11 +16,13 @@ import { Button } from '@components/ui/Button'
 import { Dialog } from '@components/ui/Dialog'
 import { ErrorAlert } from '@components/ui/ErrorAlert'
 import { Spinner } from '@components/ui/Spinner'
+import { BoardViewport } from './BoardViewport'
 import { ClueBar } from './ClueBar'
 import { ClueLists } from './ClueLists'
 import { Grid } from './Grid'
 import { OnScreenKeyboard } from './OnScreenKeyboard'
 import { PuzzleHeading } from './PuzzleHeading'
+import { ShareDialog } from './ShareDialog'
 import { SolvedDialog } from './SolvedDialog'
 import { Toolbar } from './Toolbar'
 
@@ -43,11 +46,14 @@ export const PuzzleBoard = ({ id, initial }: PuzzleBoardProps) => {
   const coarse = useCoarsePointer()
   const [load, setLoad] = useState<LoadState>({ status: 'loading' })
   const [cluesOpen, setCluesOpen] = useState(false)
+  const [shareOpen, setShareOpen] = useState(false)
   const [dismissedSolve, setDismissedSolve] = useState<number | null>(null)
   const puzzle = usePlayStore.use.puzzle()
   const status = usePlayStore.use.status()
   const announcement = usePlayStore.use.announcement()
   const start = usePlayStore.use.start()
+  // A game with letters in it and not yet solved: leaving asks first.
+  const unfinished = usePlayStore((state) => state.status === 'playing' && state.entries.some(Boolean))
   const createPuzzle = useCreateStore.use.createPuzzle()
   const creating = useCreateStore.use.isPending()
   const createError = useCreateStore.use.error()
@@ -95,6 +101,8 @@ export const PuzzleBoard = ({ id, initial }: PuzzleBoardProps) => {
     }
   }, [])
 
+  useLeaveGuard(unfinished, t('leaveConfirm'))
+
   // Solved just now (not reopened solved): celebrate, until dismissed.
   const solvedOpen = announcement?.key === 'solved' && announcement.id !== dismissedSolve
   const closeSolved = () => setDismissedSolve(announcement?.id ?? null)
@@ -131,9 +139,10 @@ export const PuzzleBoard = ({ id, initial }: PuzzleBoardProps) => {
     : ''
   const showKeyboard = coarse && status === 'playing'
   // How much of the viewport the grid must leave to the chrome around it (header, heading,
-  // toolbar, clue bar — and the keyboard, four rows for Armenian), so it never scrolls away.
+  // toolbar, clue bar, zoom buttons — and the keyboard, four rows for Armenian), so it never
+  // scrolls away.
   const keyboardRows = puzzle.locale === 'hy' ? 4 : 3
-  const chrome = showKeyboard ? `${20 + keyboardRows * 3.25}rem` : '21rem'
+  const chrome = showKeyboard ? `${23.25 + keyboardRows * 3.25}rem` : '24.25rem'
   const boardStyle = {
     maxWidth: `min(100%, 46rem, calc((100dvh - ${chrome}) * ${puzzle.width} / ${puzzle.height}))`,
   } as CSSProperties
@@ -149,9 +158,19 @@ export const PuzzleBoard = ({ id, initial }: PuzzleBoardProps) => {
           <div className='flex items-center gap-3'>
             <PuzzleHeading puzzle={puzzle} />
             <Button
-              variant='primary'
+              variant='outline'
               size='sm'
               className='ms-auto shrink-0 px-3 sm:px-4'
+              onClick={() => setShareOpen(true)}
+              aria-label={t('share')}
+              icon={<Share2 aria-hidden className='size-5' />}
+            >
+              <span className='hidden sm:inline'>{t('shareShort')}</span>
+            </Button>
+            <Button
+              variant='primary'
+              size='sm'
+              className='shrink-0 px-3 sm:px-4'
               onClick={newPuzzle}
               loading={creating}
               aria-label={t('newPuzzle')}
@@ -163,9 +182,9 @@ export const PuzzleBoard = ({ id, initial }: PuzzleBoardProps) => {
           {createError ? <ErrorAlert error={createError} onRetry={newPuzzle} /> : null}
           <Toolbar onShowClues={() => setCluesOpen(true)} />
           {!coarse && <ClueBar />}
-          <div className='mx-auto w-full' style={boardStyle}>
+          <BoardViewport key={puzzle.id} columns={puzzle.width} rows={puzzle.height} className='mx-auto w-full' style={boardStyle}>
             <Grid focusOnOpen={!coarse} />
-          </div>
+          </BoardViewport>
         </div>
 
         <aside aria-label={t('allClues')} className='hidden lg:sticky lg:top-20 lg:block'>
@@ -191,6 +210,7 @@ export const PuzzleBoard = ({ id, initial }: PuzzleBoardProps) => {
         <ClueLists layout='columns' onChoose={() => setCluesOpen(false)} />
       </Dialog>
       <SolvedDialog open={solvedOpen} onClose={closeSolved} onNewPuzzle={newPuzzle} pending={creating} />
+      <ShareDialog open={shareOpen} onClose={() => setShareOpen(false)} />
     </div>
   )
 }

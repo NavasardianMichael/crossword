@@ -8,6 +8,7 @@ export const ROUTES = {
   topics: '/topics',
   history: '/history',
   rules: '/rules',
+  faq: '/faq',
   about: '/about',
   privacy: '/privacy',
   terms: '/terms',
@@ -16,7 +17,17 @@ export const ROUTES = {
 export type RouteKey = keyof typeof ROUTES
 
 /** Public pages, each emitted once per locale into the sitemap. */
-export const INDEXABLE_ROUTES: readonly RouteKey[] = ['home', 'crossword', 'scanword', 'topics', 'rules', 'about', 'privacy', 'terms']
+export const INDEXABLE_ROUTES: readonly RouteKey[] = [
+  'home',
+  'crossword',
+  'scanword',
+  'topics',
+  'rules',
+  'faq',
+  'about',
+  'privacy',
+  'terms',
+]
 
 /** URL slugs for the topic landing pages (`/topics/local-culture`). */
 export const TOPIC_SLUGS: Record<Topic, string> = {

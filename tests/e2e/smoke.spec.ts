@@ -1,4 +1,5 @@
-import { expect, type Page, test } from '@playwright/test'
+import { type Download, expect, type Page, test } from '@playwright/test'
+import { readFileSync } from 'node:fs'
 
 /**
  * The whole stack, end to end (needs `pnpm dev` with a seeded database). Gemini may be off:
@@ -31,6 +32,34 @@ test.describe('server rendering', () => {
     await expect(page.locator('link[rel="alternate"][hreflang]')).toHaveCount(4)
     await expect(page.locator('html')).toHaveAttribute('lang', 'hy')
   })
+
+  test('the home page carries one title and a link preview', async ({ page }) => {
+    await page.goto('/en')
+    // The home title is complete on its own: the layout's "| Crossword AI" template is not added twice.
+    await expect(page).toHaveTitle(/^[^|]*\| Crossword AI$/)
+    await expect(page.locator('meta[property="og:site_name"]')).toHaveAttribute('content', 'Crossword AI')
+    await expect(page.locator('meta[property="og:image"]')).toHaveAttribute('content', /\/opengraph-image$/)
+  })
+
+  test('the FAQ page answers in full, with FAQPage data', async ({ page }) => {
+    await page.goto('/hy/faq')
+    await expect(page.locator('h1')).toHaveText('Հարցեր և պատասխաններ')
+    const data = (await page.locator('script[type="application/ld+json"]').allTextContents()).map((text) => JSON.parse(text))
+    const faq = data.find((each) => each['@type'] === 'FAQPage')
+    expect(faq.mainEntity.length).toBeGreaterThanOrEqual(15)
+    // Every answer is in the server HTML, not only in the structured data.
+    await expect(page.getByText(faq.mainEntity[0].acceptedAnswer.text)).toHaveCount(1)
+  })
+})
+
+test('a puzzle is shared through the apps its language uses', async ({ page }) => {
+  await createPuzzle(page, 'ru')
+  await page.getByRole('button', { name: 'Поделиться' }).click()
+  const dialog = page.getByRole('dialog')
+  await expect(dialog.getByRole('textbox')).toHaveValue(/\/ru\/p\/[0-9A-Za-z]{10}$/)
+  const first = dialog.getByRole('link').first()
+  await expect(first).toHaveText('Telegram')
+  await expect(first).toHaveAttribute('href', /^https:\/\/t\.me\/share\/url\?url=.*%2Fru%2Fp%2F.*utm_source%3Dtelegram/)
 })
 
 test('an unprefixed visit goes to the browser language', async ({ browser }) => {
@@ -77,4 +106,67 @@ test('Armenian ո then ւ fills one cell with ՈՒ, and և is one letter', async
   await page.keyboard.press('Delete')
   await page.keyboard.press('7')
   await expect(page.locator(`[data-cell="${first}"]`)).toHaveText('և')
+})
+
+test('a scanword prints as a clean sheet, with an answer key on request', async ({ page }) => {
+  await createPuzzle(page, 'en', 'scanword')
+  await page.evaluate(() => {
+    window.print = () => window.dispatchEvent(new Event('beforeprint'))
+  })
+  await page.getByRole('button', { name: 'More' }).click()
+  await page.getByRole('menuitem', { name: 'Print', exact: true }).click()
+  await page.getByRole('switch', { name: 'Add the answers' }).click()
+  await page.getByRole('dialog').getByRole('button', { name: 'Print', exact: true }).click()
+
+  const sheet = page.locator('body > .print-sheet')
+  await expect(sheet).toHaveCount(1)
+  await expect(sheet.getByText('Answers')).toHaveCount(1)
+  await page.emulateMedia({ media: 'print' })
+  await expect(sheet).toBeVisible()
+  await expect(page.locator('main')).toBeHidden()
+
+  await page.evaluate(() => window.dispatchEvent(new Event('afterprint')))
+  await expect(sheet).toHaveCount(0)
+})
+
+test('a scanword opens as a PDF in a new tab', async ({ page }) => {
+  await createPuzzle(page, 'hy', 'scanword')
+  await page.getByRole('button', { name: 'Ավելին' }).click()
+  await page.getByRole('menuitem', { name: 'Պահել PDF-ով' }).click()
+  await page.getByRole('switch').nth(1).click()
+  // Headless Chromium has no PDF viewer: the tab's navigation to the PDF arrives as a download.
+  // Listened for as soon as the tab exists — with the fonts cached, the PDF can beat a later listener.
+  const downloaded = new Promise<Download>((resolve) => page.once('popup', (tab) => void tab.waitForEvent('download').then(resolve)))
+  await page.getByRole('dialog').getByRole('button', { name: 'Բացել PDF-ը' }).click()
+
+  const download = await downloaded
+  const head = readFileSync((await download.path())!).subarray(0, 5).toString('latin1')
+  expect(head).toBe('%PDF-')
+  await expect(page.getByRole('dialog')).toBeHidden()
+})
+
+test('leaving an unfinished game asks first', async ({ page }) => {
+  await createPuzzle(page, 'en')
+  const board = page.url()
+  await page.locator('[role="gridcell"][tabindex="0"]').focus()
+  await page.keyboard.type('q')
+
+  // An in-app link: a native confirm, which keeps the game when refused.
+  page.once('dialog', (dialog) => {
+    expect(dialog.type()).toBe('confirm')
+    void dialog.dismiss()
+  })
+  await page.getByRole('banner').getByRole('link').first().click()
+  await expect(page.getByRole('grid')).toBeVisible()
+  expect(page.url()).toBe(board)
+
+  // Reloading or closing the tab: the browser's own prompt.
+  const asked = new Promise<string>((resolve) =>
+    page.once('dialog', (dialog) => {
+      resolve(dialog.type())
+      void dialog.dismiss()
+    })
+  )
+  void page.reload().catch(() => undefined)
+  expect(await asked).toBe('beforeunload')
 })

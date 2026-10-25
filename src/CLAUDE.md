@@ -4,13 +4,20 @@
   `@i18n/navigation` (raw `next/link` and `next/navigation` routing are gated). Paths are
   locale-free constants in `constants/routes.ts`.
 - **Metadata:** every page's `generateMetadata` goes through `pageMetadata()` (self-canonical,
-  hreflang for all locales + `x-default`). Personal pages (`/p/[id]`, `/play`, `/history`) pass
-  `noIndex` and are disallowed in `robots.ts`.
+  hreflang for all locales + `x-default`, site name and the `/opengraph-image` preview — a page's
+  `openGraph` replaces the layout's). Personal pages (`/p/[id]`, `/play`, `/history`) pass
+  `noIndex`; `/play` and `/history` are also disallowed in `robots.ts`, but `/p/` is not, so
+  link-preview bots can read a shared puzzle. A preview never shows a clue or an answer.
+- **Structured data:** builders in `linkedDataSchema/`; `ContentPage` emits its own (HowTo,
+  AboutPage or WebPage + breadcrumb). Bump `CONTENT_UPDATED_AT` (`constants/legal.ts`) with the
+  public copy — it is the sitemap `lastmod` and JSON-LD `dateModified`. `/llms.txt` and
+  `/llms-full.txt` are generated from the catalogues (`helpers/llms.ts`).
 - **Data:** `api/<domain>/` (4 files) → `store/<domain>/<slice>/` → components. Server reads go
   through `helpers/serverData.ts` and degrade to empty.
 - **The board:** rules are pure helpers (`helpers/puzzle/{model,cursor,check,seen}.ts`, unit
   tested); `store/puzzle/play` sequences them, keeps the clock and saves progress to IndexedDB
-  (debounced, flushed on hide/pagehide). Typing goes through `foldTyped` / `mergeTyped` from
+  (debounced, flushed on hide/pagehide). An unfinished game with letters in it asks before
+  the page is left (`hooks/useLeaveGuard.ts`: `beforeunload` + a confirm on in-app links). Typing goes through `foldTyped` / `mergeTyped` from
   `constants/alphabet.ts` — Armenian `ո` then `ւ` completes `ու` in the cell `ո` went into.
 - **Accessibility:** the grid is an ARIA grid with one tab stop (roving tabindex), labelled
   cells, a polite live region for checks/reveals/solve, `aria-describedby` to the active clue.

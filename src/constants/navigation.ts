@@ -9,7 +9,10 @@ export const PRIMARY_NAV = [
 ] as const
 
 /** Extra links in the mobile menu and the footer. */
-export const SECONDARY_NAV = [{ labelKey: 'rules', href: ROUTES.rules }] as const
+export const SECONDARY_NAV = [
+  { labelKey: 'rules', href: ROUTES.rules },
+  { labelKey: 'faq', href: ROUTES.faq },
+] as const
 
 export const LEGAL_NAV = [
   { labelKey: 'about', href: ROUTES.about },

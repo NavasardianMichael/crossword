@@ -3,6 +3,9 @@ import { GA_ENABLED } from '@constants/analytics'
 export type AnalyticsEvent =
   | 'puzzle_created'
   | 'puzzle_solved'
+  | 'puzzle_printed'
+  | 'puzzle_pdf'
+  | 'puzzle_shared'
   | 'pwa_prompt_shown'
   | 'pwa_installed'
 

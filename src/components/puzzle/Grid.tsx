@@ -21,7 +21,7 @@ import { cellPosition } from '@helpers/puzzle/model'
  * A cell's state never rests on colour alone: wrong letters are struck through, revealed ones
  * carry a corner flag, the cursor has a thick ring.
  */
-const ARROW_ICONS: Record<Arrow, typeof ArrowRight> = {
+export const ARROW_ICONS: Record<Arrow, typeof ArrowRight> = {
   right: ArrowRight,
   down: ArrowDown,
   downRight: CornerDownRight,
@@ -29,7 +29,7 @@ const ARROW_ICONS: Record<Arrow, typeof ArrowRight> = {
 }
 
 /** Where each arrow sits on the clue cell's edge: right-pointing on the end edge, down-pointing on the bottom. */
-const ARROW_POSITION: Record<Arrow, string> = {
+export const ARROW_POSITION: Record<Arrow, string> = {
   right: 'inset-e-0 top-1/2 -translate-y-1/2 translate-x-1/2 rtl:-translate-x-1/2',
   rightDown: 'inset-e-0 top-1/2 -translate-y-1/2 translate-x-1/2 rtl:-translate-x-1/2',
   down: 'bottom-0 inset-s-1/2 translate-y-1/2 -translate-x-1/2 rtl:translate-x-1/2',

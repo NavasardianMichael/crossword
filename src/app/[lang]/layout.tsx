@@ -49,9 +49,19 @@ export async function generateMetadata(): Promise<Metadata> {
     authors: [{ name: AUTHOR.name, url: AUTHOR.url }],
     category: 'game',
     robots: { index: true, follow: true },
-    ...(process.env.NEXT_PUBLIC_GOOGLE_SITE_VERIFICATION
-      ? { verification: { google: process.env.NEXT_PUBLIC_GOOGLE_SITE_VERIFICATION } }
-      : {}),
+    verification: siteVerification(),
+  }
+}
+
+/** Search-console ownership tokens, each emitted only when set: Google, Yandex (ru) and Bing (which also feeds Copilot and ChatGPT search). */
+const siteVerification = (): Metadata['verification'] => {
+  const google = process.env.NEXT_PUBLIC_GOOGLE_SITE_VERIFICATION
+  const yandex = process.env.NEXT_PUBLIC_YANDEX_VERIFICATION
+  const bing = process.env.NEXT_PUBLIC_BING_SITE_VERIFICATION
+  return {
+    ...(google ? { google } : {}),
+    ...(yandex ? { yandex } : {}),
+    ...(bing ? { other: { 'msvalidate.01': bing } } : {}),
   }
 }
 
