@@ -12,8 +12,8 @@
 #                    POOL_DAILY_CALL_BUDGET, POOL_REFILL_*, SENTRY_DSN_API.
 #                    NODE_ENV/PORT/HOST are appended below, so do not put them
 #                    in the secret.
-#   NEXT_PUBLIC_API_URL    https://api.crossword.mnavasardian.com
-#   NEXT_PUBLIC_SITE_URL   https://crossword.mnavasardian.com
+#   NEXT_PUBLIC_API_URL    https://api.crossword.eapps.site
+#   NEXT_PUBLIC_SITE_URL   https://crossword.eapps.site
 #
 # OPTIONAL (Secrets or Variables), inlined at build time — empty turns the feature off:
 #   NEXT_PUBLIC_GA_MEASUREMENT_ID, NEXT_PUBLIC_SENTRY_DSN, NEXT_PUBLIC_GOOGLE_SITE_VERIFICATION,
@@ -32,6 +32,8 @@
 #   $APP_DIR/api/releases/<sha>/   dist, prisma, package.json, node_modules
 #   $APP_DIR/api/current        -> releases/<sha>
 #   $APP_DIR/shared/.env.api       mode 600, written by this workflow — outside every release
+#   $APP_DIR/db/                   Postgres compose + .env, created by this workflow ONCE
+#                                  (ensure_database: create-only, never recreated or rewritten)
 # =============================================================================
 
 name: Deploy to Production
@@ -125,13 +127,15 @@ jobs:
           node-version-file: '.nvmrc'
           cache: 'pnpm'
       - run: pnpm install --frozen-lockfile
+      # Before either typecheck: tests/ import server/src, whose types come from the
+      # generated Prisma client. Without it `pnpm typecheck` fails here while ci.yml passes.
+      - run: pnpm --filter crossword-server db:generate
       # The non-build half of `pnpm verify`; the build jobs below cover the rest.
       - run: pnpm typecheck
       - run: pnpm typecheck:server
       - run: pnpm gates
       - run: pnpm lint
       # Unit only: integration tests need Postgres and run in ci.yml on every pull request.
-      - run: pnpm --filter crossword-server db:generate
       - run: pnpm check:messages
       - run: pnpm test:unit
 
@@ -268,8 +272,11 @@ jobs:
         working-directory: out/api
         run: pnpm install --prod --lockfile-only
 
+      # The production compose file rides along so the deploy can create the database on
+      # a host that has none yet (ensure_database below). It is never applied to a running one.
       - name: Create API archive
         run: |
+          cp deployment/docker-compose.prod.yml out/api/
           tar -czf api-build.tar.gz -C out/api .
           echo "bundle: $(du -sh api-build.tar.gz | cut -f1)"
 
@@ -282,14 +289,17 @@ jobs:
   deploy:
     name: Deploy
     runs-on: ubuntu-latest
-    needs: [changes, build-web, build-api]
+    needs: [changes, verify, build-web, build-api]
+    # `always()` because a side with no changes skips its build job, and a skipped need
+    # would otherwise skip this job too. That is also why "not failed" is not enough: a
+    # failed verify SKIPS both builds rather than failing them. So: verify must have
+    # passed, and every side that is deploying must have built.
     if: |
       always() &&
+      needs.verify.result == 'success' &&
       (needs.changes.outputs.deploy_web == 'true' || needs.changes.outputs.deploy_api == 'true') &&
-      needs.build-web.result != 'failure' &&
-      needs.build-api.result != 'failure' &&
-      needs.build-web.result != 'cancelled' &&
-      needs.build-api.result != 'cancelled'
+      (needs.changes.outputs.deploy_web != 'true' || needs.build-web.result == 'success') &&
+      (needs.changes.outputs.deploy_api != 'true' || needs.build-api.result == 'success')
     steps:
       - name: Download web artifact
         if: needs.changes.outputs.deploy_web == 'true'
@@ -373,6 +383,77 @@ jobs:
             return 1
           }
 
+          # Creates the production Postgres when, and only when, it does not exist yet. It never
+          # recreates, reconfigures or removes anything: an existing container is at most
+          # started, an existing db/.env or compose file is never rewritten, and nothing here
+          # runs `down`, `rm` or touches a volume. If the container is gone but its volume
+          # survived, `up` reattaches that data — Postgres ignores POSTGRES_* on an initialised
+          # volume, so DATABASE_URL must still carry the password the volume was created with.
+          ensure_database() {
+            local compose_src="$1" db_dir="$APP_DIR/db"
+            local name=crossword-postgres-prod volume=crossword-prod_crossword_pg_prod
+
+            # Only the container on this host is ours to create; any other DATABASE_URL is left alone.
+            local target
+            target=$(node -e 'const u = new URL(process.env.DATABASE_URL); console.log(`${u.hostname}:${u.port}`)')
+            case "$target" in
+              127.0.0.1:5007 | localhost:5007) ;;
+              *)
+                echo "database: DATABASE_URL points at $target, not this host's container — not managed"
+                return 0
+                ;;
+            esac
+
+            if docker container inspect "$name" >/dev/null 2>&1; then
+              if [ "$(docker container inspect -f '{{.State.Running}}' "$name")" = "true" ]; then
+                echo "database: $name already running — left as is"
+              else
+                echo "database: $name exists but is stopped — starting it"
+                docker start "$name" >/dev/null
+              fi
+            else
+              mkdir -p "$db_dir"
+              [ -f "$db_dir/docker-compose.prod.yml" ] || cp "$compose_src" "$db_dir/docker-compose.prod.yml"
+              # POSTGRES_* derived from DATABASE_URL, so the two cannot disagree on a first
+              # install. Restricted to URL-safe characters: compose interpolates `$` in .env.
+              if [ ! -f "$db_dir/.env" ]; then
+                ( umask 077; node -e '
+                  const u = new URL(process.env.DATABASE_URL)
+                  const values = {
+                    POSTGRES_USER: decodeURIComponent(u.username),
+                    POSTGRES_PASSWORD: decodeURIComponent(u.password),
+                    POSTGRES_DB: u.pathname.replace(/^\//, ""),
+                  }
+                  for (const [key, value] of Object.entries(values)) {
+                    if (!/^[A-Za-z0-9._~-]+$/.test(value)) {
+                      console.error(`${key} from DATABASE_URL is empty or has characters other than A-Z a-z 0-9 . _ ~ - (use openssl rand -hex 32)`)
+                      process.exit(1)
+                    }
+                  }
+                  console.log(Object.entries(values).map(([key, value]) => `${key}=${value}`).join("\n"))
+                ' > "$db_dir/.env.new" ) || { rm -f "$db_dir/.env.new"; echo "::error::cannot derive POSTGRES_* from DATABASE_URL"; return 1; }
+                chmod 600 "$db_dir/.env.new" && mv "$db_dir/.env.new" "$db_dir/.env"
+              fi
+              if docker volume inspect "$volume" >/dev/null 2>&1; then
+                echo "database: $name missing but volume $volume exists — reattaching the existing data"
+              else
+                echo "database: creating $name with a new, empty volume $volume"
+              fi
+              ( cd "$db_dir" && docker compose -f docker-compose.prod.yml up -d --no-recreate )
+            fi
+
+            for i in $(seq 1 30); do
+              if [ "$(docker container inspect -f '{{.State.Health.Status}}' "$name" 2>/dev/null)" = "healthy" ]; then
+                echo "database: healthy"
+                return 0
+              fi
+              sleep 2
+            done
+            echo "::error::$name did not become healthy within 60s"
+            docker logs --tail 100 "$name" || true
+            return 1
+          }
+
           if [ "$DEPLOY_API" = "true" ]; then
             echo "==> API $RELEASE"
             NEW="$APP_DIR/api/releases/$RELEASE"
@@ -441,6 +522,7 @@ jobs:
             ./node_modules/.bin/prisma generate --schema prisma/schema.prisma
 
             set -a; . "$APP_DIR/shared/.env.api"; set +a
+            ensure_database "$NEW/docker-compose.prod.yml"
             ./node_modules/.bin/prisma migrate deploy --schema prisma/schema.prisma
             # The hand-written seed words, prisma/seed/entries.{en,ru,hy}.json. Idempotent (it
             # only adds new words and clues), so running it on every deploy is safe — and it

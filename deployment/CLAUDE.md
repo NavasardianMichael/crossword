@@ -1,16 +1,17 @@
 # Deployment — invariants
 
-Host-side configuration templates. Procedure, server setup and the secrets table live in
-[docs/DEPLOYMENT.md](../docs/DEPLOYMENT.md); this file holds the rules that must not break.
+Host-side configuration templates. How the pipeline works and the secrets live in
+[docs/DEPLOYMENT.md](../docs/DEPLOYMENT.md), the ordered manual setup in
+[docs/PRODUCTION_SETUP.md](../docs/PRODUCTION_SETUP.md); this file holds the rules that must not break.
 
 ```
 deployment/
-  crossword.mnavasardian.com.conf      nginx, web host -> 127.0.0.1:7007
-  api.crossword.mnavasardian.com.conf  nginx, API host -> 127.0.0.1:9007
+  crossword.eapps.site.conf      nginx, web host -> 127.0.0.1:7007
+  api.crossword.eapps.site.conf  nginx, API host -> 127.0.0.1:9007
   crossword-web.service   systemd, Next standalone
   crossword-api.service   systemd, Express
   docker-compose.prod.yml   production Postgres, loopback-bound on 5007
-  db.env.example            POSTGRES_* for that container, copied to $APP_DIR/db/.env
+  db.env.example            shape of $APP_DIR/db/.env — the first deploy writes it from DATABASE_URL
   preflight.sh              read-only readiness check, run on the host before deploying
 ```
 
@@ -35,6 +36,10 @@ here, say so in the PR: someone has to re-copy it.
 - **Two origins, deliberately.** The browser calls the API host directly at
   `NEXT_PUBLIC_API_URL`, so CORS is required: `CORS_ORIGIN` names the web host, and
   `requireSameOrigin` checks `Origin` against it.
+- **The database is create-only from CI.** `ensure_database` (deploy.yml) may create the
+  Postgres container when it is missing, or start a stopped one — never `down`, `rm`,
+  `--force-recreate`, a volume operation, or a rewrite of an existing `db/.env` /
+  compose file. Changes to `docker-compose.prod.yml` reach an existing host by hand.
 - **`shared/.env.api` lives outside the releases** — rotation deletes everything under
   `releases/`.
 - **One API process.** Rate limits, the Gemini model cooldowns and the in-flight generation

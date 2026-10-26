@@ -1,8 +1,12 @@
-# Production Postgres. Lives at $APP_DIR/db/docker-compose.prod.yml on the host
-# and is started once, by hand — the deploy workflow never touches it.
+# Production Postgres. Lives at $APP_DIR/db/docker-compose.prod.yml on the host.
 #
-#   cd $APP_DIR/db
-#   POSTGRES_PASSWORD=... docker compose -f docker-compose.prod.yml up -d
+# Created by the deploy, once: ensure_database in .github/workflows/deploy.yml copies
+# this file and writes ./.env (POSTGRES_* derived from DATABASE_URL) only when the
+# container does not exist, then runs `up -d --no-recreate`. A running database is never
+# recreated, reconfigured or removed — so an edit here reaches an existing host only by
+# hand:
+#
+#   cd $APP_DIR/db && <copy the new file here> && docker compose -f docker-compose.prod.yml up -d
 #
 # This is deliberately separate from the repo's root docker-compose.yml, which is
 # the dev database (same port, throwaway credentials, different machine).
