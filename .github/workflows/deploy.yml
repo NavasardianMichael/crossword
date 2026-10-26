@@ -126,10 +126,9 @@ jobs:
         with:
           node-version-file: '.nvmrc'
           cache: 'pnpm'
+      # Its postinstall (scripts/postinstall.mjs) generates the Prisma client that types
+      # server/src, and so tests/ and the web build; CI=true skips its migrations.
       - run: pnpm install --frozen-lockfile
-      # Before either typecheck: tests/ import server/src, whose types come from the
-      # generated Prisma client. Without it `pnpm typecheck` fails here while ci.yml passes.
-      - run: pnpm --filter crossword-server db:generate
       # The non-build half of `pnpm verify`; the build jobs below cover the rest.
       - run: pnpm typecheck
       - run: pnpm typecheck:server
@@ -258,9 +257,6 @@ jobs:
           node-version-file: '.nvmrc'
           cache: 'pnpm'
       - run: pnpm install --frozen-lockfile
-      # @prisma/client's postinstall runs from the workspace root and finds no schema there,
-      # so without this tsc sees no PrismaClient and no Prisma types.
-      - run: pnpm --filter crossword-server db:generate
 
       # tsc -> server/dist, then scripts/build-api-release.mjs assembles a
       # standalone single-package project in out/api. See that script's header for

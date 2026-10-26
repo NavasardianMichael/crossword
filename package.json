@@ -25,6 +25,7 @@
     "test:e2e": "playwright test",
     "check:messages": "node scripts/check-messages.mjs",
     "i18n:sync": "node scripts/i18n-sync.mjs",
+    "postinstall": "node scripts/postinstall.mjs",
     "prepare": "husky",
     "db:up": "docker compose up -d",
     "db:down": "docker compose down",

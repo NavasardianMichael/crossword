@@ -12,6 +12,7 @@ PostgreSQL 16 · `@google/genai` · Sentry · GA4. Built from `../who-wants-to-b
 ## Commands
 
 ```bash
+pnpm install                  # postinstall: prisma generate, then migrate deploy if Postgres is up (not in CI)
 pnpm db:up && pnpm db:setup   # Postgres in Docker (port 5007), migrate + seed the hand-written words
 pnpm dev                      # web :7007 + api :9007
 pnpm verify                   # typecheck → typecheck:server → gates → lint → test → build — run before "done"
