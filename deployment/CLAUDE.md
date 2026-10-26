@@ -12,7 +12,6 @@ deployment/
   crossword-api.service   systemd, Express
   docker-compose.prod.yml   production Postgres, loopback-bound on 5007
   db.env.example            shape of $APP_DIR/db/.env — the first deploy writes it from DATABASE_URL
-  preflight.sh              read-only readiness check, run on the host before deploying
 ```
 
 **These are templates, not live config.** Nothing deploys them — they are copied to the

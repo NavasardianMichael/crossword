@@ -77,6 +77,8 @@ if (/DATABASE_URL="?postgresql:\/\/[^\n]*@localhost:/.test(content)) {
   warn('DATABASE_URL uses `localhost` — that is the dev spelling; production needs 127.0.0.1')
 }
 if (content.includes('crossword:crossword@')) warn('DATABASE_URL still has the dev password')
+if (/DATABASE_URL="?postgresql:\/\/[^:\n]*:@/.test(content)) warn('DATABASE_URL has an empty password')
+if (/^GEMINI_KEY="?"?\s*$/m.test(content)) warn('GEMINI_KEY is empty — generation stays off, puzzles use the seed words only')
 if (owned.length || missing.length) console.error('')
 
 console.error('Paste the line below into the ENV_API_BASE64 GitHub secret:')

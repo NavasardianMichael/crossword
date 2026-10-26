@@ -42,16 +42,9 @@ so `systemctl restart` is what promotes a release.
 The app-specific manual steps — DNS, systemd, certificates, nginx, GitHub secrets and the first
 deploy — in the order they have to happen, are
 [PRODUCTION_SETUP.md](PRODUCTION_SETUP.md). The one ordering trap: both vhosts name
-Let's Encrypt files, so the certificates are issued through a temporary challenge-only vhost
-**before** either real vhost is enabled, with `certbot certonly --webroot` so certbot never
-rewrites the templates. Every vhost (the API's included) keeps a `:80` ACME location, which is
-what `certbot renew` uses.
-
-`preflight.sh` changes nothing. It checks Node and pnpm the way the deploy reaches them, that
-the deploy user can run Docker, Postgres (if it exists yet: reachable as the configured role,
-published on loopback only), both units installed and enabled, passwordless `systemctl
-restart`, `nginx -t`, and that 7007/9007/5007 are free or held by these units. Fix everything
-it reports before the first deploy.
+Let's Encrypt files, so the certificates are issued **before** either vhost is enabled, with
+`certbot certonly --nginx`: certbot answers the challenge through nginx by
+itself and never rewrites the templates, and `certbot renew` reuses the same method.
 
 The first deploy creates the release directories and the database, migrates, seeds the word
 pool and starts both services.
@@ -93,18 +86,18 @@ refuses anything else, since compose would interpolate `$` in `.env`.
 | `SSH_PORT`             | optional, defaults to 22                                      |
 | `APP_DIR`              | `/home/michael/apps/crossword`                              |
 | `ENV_API_BASE64`       | see below                                                     |
-| `NEXT_PUBLIC_API_URL`  | `https://api.crossword.eapps.site`  |
-| `NEXT_PUBLIC_SITE_URL` | `https://crossword.eapps.site`      |
+| `NEXT_PUBLIC_API_URL`  | `https://api.crossword.eapps.site`                            |
+| `NEXT_PUBLIC_SITE_URL` | `https://crossword.eapps.site`                                |
 
-Optional, inlined at build time (Secrets or Variables; empty turns the feature off):
-`NEXT_PUBLIC_GA_MEASUREMENT_ID`, `NEXT_PUBLIC_SENTRY_DSN`, `NEXT_PUBLIC_GOOGLE_SITE_VERIFICATION`,
-`NEXT_PUBLIC_YANDEX_VERIFICATION`, `NEXT_PUBLIC_BING_SITE_VERIFICATION`,
-and for source maps `SENTRY_ORG`, `SENTRY_PROJECT`, `SENTRY_AUTH_TOKEN`.
+Optional, inlined at build time (empty turns the feature off): `NEXT_PUBLIC_GA_MEASUREMENT_ID`,
+`NEXT_PUBLIC_SENTRY_DSN`, `NEXT_PUBLIC_GOOGLE_SITE_VERIFICATION`,
+`NEXT_PUBLIC_YANDEX_VERIFICATION`, `NEXT_PUBLIC_BING_SITE_VERIFICATION`, and for source maps
+`SENTRY_ORG`, `SENTRY_PROJECT`, `SENTRY_AUTH_TOKEN`.
 
-The `NEXT_PUBLIC_*` values are inlined into the browser bundle, so they are public by
-construction. The workflow reads `secrets.*` first, then `vars.*` — different stores, a value
-in one is invisible to the other. Deploy fails closed if either origin is missing, loopback or
-`http://`.
+All of them are kept as Secrets. The `NEXT_PUBLIC_*` values are public anyway (inlined into the
+browser bundle); the workflow also accepts them as Variables (`secrets.*` first, then
+`vars.*`), so a Secret with the same name as a Variable wins. Deploy fails closed if either
+origin is missing, loopback or `http://`.
 
 `ENV_API_BASE64` holds group A of `server/.env.example`: `DATABASE_URL`, `CORS_ORIGIN`,
 `GEMINI_KEY`, optionally `GEMINI_MODELS`, `VERIFY_ENTRIES`, `POOL_DAILY_CALL_BUDGET`,
@@ -182,11 +175,12 @@ summarise the site for AI assistants.
 
 ## Gotchas
 
-- **Three hostnames, three certificates.** `crossword.eapps.site` (the app),
-  `www.crossword.eapps.site` (301 to the app, HTTP and HTTPS) and `api.crossword.eapps.site`
-  (HTTPS only — its `:80` answers the ACME challenge and drops everything else) each have their
-  own Let's Encrypt certificate, issued and renewed by certbot over HTTP-01 (`webroot`, the
-  `:80` ACME location in each vhost). If the zone is on Cloudflare, all three records stay
+- **Three hostnames, two certificates.** `crossword.eapps.site` (the app) and
+  `www.crossword.eapps.site` (301 to the app, HTTP and HTTPS) share one Let's Encrypt
+  certificate, named after the app host; `api.crossword.eapps.site` (HTTPS only — its `:80`
+  drops every connection) has its own. Both are issued and renewed by certbot over HTTP-01 with the nginx authenticator, which
+  adds its challenge location to the matching `:80` server only for the moment of the check.
+  If the zone is on Cloudflare, all three records stay
   **DNS only**: Universal SSL does not cover two-label names like `api.crossword…`, and
   proxying would break HTTP-01 renewal.
 - **`deploy` needs `verify` to have passed, not merely "not failed".** A failed `verify` skips

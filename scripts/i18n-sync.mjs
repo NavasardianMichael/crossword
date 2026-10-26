@@ -19,7 +19,7 @@
  * shows the translation, not a reformatted file. Anything the patcher cannot place falls back
  * to a full rewrite.
  *
- * The key is read from the environment, or from server/.env when unset.
+ * The key is read from the environment, or from server/.env.development.local when unset.
  */
 import { createRequire } from 'node:module'
 import { existsSync, readFileSync, writeFileSync } from 'node:fs'
@@ -38,7 +38,7 @@ const BRAND = 'Crossword AI'
 const readKey = () => {
   if (process.env.GEMINI_KEY) return process.env.GEMINI_KEY
   try {
-    const env = readFileSync(path.join(ROOT, 'server/.env'), 'utf8')
+    const env = readFileSync(path.join(ROOT, 'server/.env.development.local'), 'utf8')
     return /^GEMINI_KEY="?([^"\n]*)"?/m.exec(env)?.[1] ?? ''
   } catch {
     return ''
@@ -158,7 +158,7 @@ const patchText = (text, english, before, after) => {
 const main = async () => {
   const key = readKey()
   if (!key) {
-    console.error('GEMINI_KEY is not set (environment or server/.env).')
+    console.error('GEMINI_KEY is not set (environment or server/.env.development.local).')
     process.exit(1)
   }
   const { GoogleGenAI } = serverRequire('@google/genai')

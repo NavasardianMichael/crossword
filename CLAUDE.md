@@ -21,6 +21,7 @@ pnpm test:e2e                 # Playwright, needs `pnpm dev` running
 pnpm check:messages           # ru/hy catalogues match en.json (keys, placeholders, plurals)
 pnpm --filter crossword-server exec tsx prisma/check-seed.ts [locale]   # validate seed words + prompt material
 pnpm build:api                # server/dist + the deployable out/api release
+pnpm env:base64 production | clip   # server/.env.production.local -> the ENV_API_BASE64 secret
 ```
 
 ## Where things live
@@ -85,3 +86,5 @@ Per-layer rules: `src/CLAUDE.md` (web) and `server/CLAUDE.md` (API).
   `requestLocale` must never be destructured — that silently makes every page dynamic.
 - `useSearchParams` needs a `<Suspense>` boundary; read `window.location` instead (see `OfflinePlay`).
 - Integration tests only ever touch `crossword_test` (guarded in `tests/setup/integration.ts`).
+- **The API's env file is picked by `NODE_ENV`:** `server/.env.<NODE_ENV>.local`, `development`
+  when unset (`server/src/load-env.ts`, shared by `prisma.config.ts`). There is no `server/.env`.

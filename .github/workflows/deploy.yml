@@ -15,16 +15,16 @@
 #   NEXT_PUBLIC_API_URL    https://api.crossword.eapps.site
 #   NEXT_PUBLIC_SITE_URL   https://crossword.eapps.site
 #
-# OPTIONAL (Secrets or Variables), inlined at build time — empty turns the feature off:
+# OPTIONAL SECRETS, inlined at build time — empty turns the feature off:
 #   NEXT_PUBLIC_GA_MEASUREMENT_ID, NEXT_PUBLIC_SENTRY_DSN, NEXT_PUBLIC_GOOGLE_SITE_VERIFICATION,
 #   NEXT_PUBLIC_YANDEX_VERIFICATION, NEXT_PUBLIC_BING_SITE_VERIFICATION
 #   SENTRY_ORG, SENTRY_PROJECT, SENTRY_AUTH_TOKEN (source-map upload only)
 #
-# The two NEXT_PUBLIC_* values are inlined into the browser bundle, so they are
-# public by construction. They may live as repository Secrets or Variables —
-# this workflow reads secrets.* first, then vars.*. Those are different stores:
-# a value in one is invisible to the other. An empty value used to fall through
-# to localhost and ship a bundle that asked Chrome for "Apps on device".
+# The NEXT_PUBLIC_* values are inlined into the browser bundle, so they are public by
+# construction. They are kept as Secrets, but this workflow also accepts Variables: it
+# reads secrets.* first, then vars.*. Those are different stores: a value in one is
+# invisible to the other, and a Secret with the same name as a Variable wins. An empty
+# value used to fall through to localhost and ship a bundle that asked Chrome for "Apps on device".
 #
 # On-host layout:
 #   $APP_DIR/web/releases/<sha>/   Next standalone bundle (server.js, .next, public)
@@ -258,6 +258,9 @@ jobs:
           node-version-file: '.nvmrc'
           cache: 'pnpm'
       - run: pnpm install --frozen-lockfile
+      # @prisma/client's postinstall runs from the workspace root and finds no schema there,
+      # so without this tsc sees no PrismaClient and no Prisma types.
+      - run: pnpm --filter crossword-server db:generate
 
       # tsc -> server/dist, then scripts/build-api-release.mjs assembles a
       # standalone single-package project in out/api. See that script's header for
