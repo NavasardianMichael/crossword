@@ -1,0 +1,39 @@
+# =============================================================================
+# systemd — web (Next.js standalone). Install to /etc/systemd/system/crossword-web.service
+# Paths assume APP_DIR=/home/michael/apps/crossword.
+#
+# WorkingDirectory is the `current` symlink, resolved at start, so `systemctl restart` is
+# what promotes a release. Never point it at a concrete releases/<sha> path.
+# =============================================================================
+[Unit]
+Description=Crossword AI — web (Next.js)
+After=network-online.target
+Wants=network-online.target
+
+[Service]
+Type=simple
+User=michael
+Group=michael
+WorkingDirectory=/home/michael/apps/crossword/web/current
+Environment=NODE_ENV=production
+Environment=PORT=7007
+Environment=HOSTNAME=127.0.0.1
+# Server-rendered pages (and ISR regeneration) reach the API over loopback, not through
+# nginx and the public TLS hop. The browser still uses NEXT_PUBLIC_API_URL.
+Environment=API_INTERNAL_URL=http://127.0.0.1:9007
+ExecStart=/usr/bin/node server.js
+Restart=always
+RestartSec=2
+KillSignal=SIGTERM
+TimeoutStopSec=30
+NoNewPrivileges=true
+PrivateTmp=true
+ProtectSystem=strict
+ProtectHome=read-only
+# ISR writes regenerated pages into the release's own .next/cache.
+ReadWritePaths=/home/michael/apps/crossword/web
+StandardOutput=journal
+StandardError=journal
+
+[Install]
+WantedBy=multi-user.target

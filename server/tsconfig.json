@@ -1,0 +1,20 @@
+{
+  "compilerOptions": {
+    "target": "ES2022",
+    "module": "NodeNext",
+    "moduleResolution": "NodeNext",
+    "lib": ["ES2022"],
+    "outDir": "dist",
+    "rootDir": ".",
+    "strict": true,
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "resolveJsonModule": true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    // `pnpm build` emits `dist/src/index.js`, which the production systemd unit runs.
+    // `pnpm typecheck:server` passes --noEmit on the CLI.
+    "noEmit": false
+  },
+  "include": ["src/**/*", "prisma/seed.ts", "prisma.config.ts"]
+}

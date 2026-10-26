@@ -1,0 +1,93 @@
+# =============================================================================
+# CI — the `pnpm verify` gate, on every pull request.
+#
+# Steps are spelled out individually so the Actions UI names the gate that broke,
+# in the order `verify` runs them: fastest-failing first.
+#
+# The integration tests need Postgres: a service container provides it, and
+# tests/setup/integration.ts creates and migrates `crossword_test` in it.
+# `next build` needs no API: every server fetch degrades to empty and ISR fills
+# the pages in after deploy.
+# =============================================================================
+
+name: CI
+
+on:
+  pull_request:
+    branches: [master]
+
+permissions:
+  contents: read
+
+concurrency:
+  group: ci-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  ci:
+    name: CI
+    runs-on: ubuntu-latest
+
+    services:
+      postgres:
+        image: postgres:16-alpine
+        env:
+          POSTGRES_USER: crossword
+          POSTGRES_PASSWORD: crossword
+          POSTGRES_DB: crossword
+        ports:
+          - 5007:5432
+        options: >-
+          --health-cmd "pg_isready -U crossword -d crossword"
+          --health-interval 5s
+          --health-timeout 5s
+          --health-retries 10
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v6
+
+      - name: Setup pnpm
+        uses: pnpm/action-setup@v5
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v5
+        with:
+          node-version-file: '.nvmrc'
+          cache: 'pnpm'
+
+      - name: Install dependencies
+        run: pnpm install --frozen-lockfile
+
+      - name: Generate Prisma client
+        run: pnpm --filter crossword-server db:generate
+
+      - name: Typecheck (web)
+        run: pnpm typecheck
+
+      - name: Typecheck (server)
+        run: pnpm typecheck:server
+
+      - name: Grep gates
+        run: pnpm gates
+
+      - name: Lint
+        run: pnpm lint
+
+      - name: Message catalogues
+        run: pnpm check:messages
+
+      - name: Unit tests
+        run: pnpm test:unit
+
+      - name: Integration tests
+        run: pnpm test:integration
+
+      - name: Build (web)
+        run: pnpm build
+        env:
+          NEXT_PUBLIC_API_URL: ${{ secrets.NEXT_PUBLIC_API_URL || vars.NEXT_PUBLIC_API_URL }}
+          NEXT_PUBLIC_SITE_URL: ${{ secrets.NEXT_PUBLIC_SITE_URL || vars.NEXT_PUBLIC_SITE_URL }}
+
+      - name: Build (API release)
+        run: pnpm build:api

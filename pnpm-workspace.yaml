@@ -1,0 +1,21 @@
+packages:
+  - server
+
+onlyBuiltDependencies:
+  - '@prisma/client'
+  - '@prisma/engines'
+  - prisma
+
+ignoredBuiltDependencies:
+  - esbuild
+  - unrs-resolver
+
+overrides:
+  typescript-eslint: 8.67.0
+  '@typescript-eslint/parser': 8.67.0
+  '@typescript-eslint/eslint-plugin': 8.67.0
+  '@typescript-eslint/typescript-estree': 8.67.0
+  '@typescript-eslint/utils': 8.67.0
+  '@typescript-eslint/type-utils': 8.67.0
+  '@typescript-eslint/project-service': 8.67.0
+  '@typescript-eslint/tsconfig-utils': 8.67.0

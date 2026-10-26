@@ -1,0 +1,34 @@
+# =============================================================================
+# systemd — API (Express). Install to /etc/systemd/system/crossword-api.service
+# Paths assume APP_DIR=/home/michael/apps/crossword.
+#
+# The env file is written by the deploy workflow (mode 600): ENV_API_BASE64 plus the three
+# runtime keys it owns (NODE_ENV, PORT=9007, HOST=127.0.0.1). systemd's
+# EnvironmentFile is not dotenv — no `export`, no multi-line values.
+# =============================================================================
+[Unit]
+Description=Crossword AI — API (Express)
+After=network-online.target docker.service
+Wants=network-online.target
+
+[Service]
+Type=simple
+User=michael
+Group=michael
+WorkingDirectory=/home/michael/apps/crossword/api/current
+EnvironmentFile=/home/michael/apps/crossword/shared/.env.api
+ExecStart=/usr/bin/node dist/src/index.js
+Restart=always
+RestartSec=2
+KillSignal=SIGTERM
+TimeoutStopSec=30
+NoNewPrivileges=true
+PrivateTmp=true
+ProtectSystem=strict
+ProtectHome=read-only
+# No ReadWritePaths: the API writes nothing to disk — all of its state is in Postgres.
+StandardOutput=journal
+StandardError=journal
+
+[Install]
+WantedBy=multi-user.target

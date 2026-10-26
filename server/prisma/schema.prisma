@@ -1,0 +1,170 @@
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+}
+
+enum PuzzleFormat {
+  classic
+  scanword
+}
+
+enum EntryOrigin {
+  ai
+  seed
+}
+
+/// Proper nouns are fair answers only in the topics about them (geography, local culture).
+enum EntryKind {
+  common
+  proper
+}
+
+/// `full` clues go in the classic Across/Down lists; `short` ones fit inside a scanword cell.
+enum ClueStyle {
+  full
+  short
+}
+
+/// One answer word of one language. The id *is* the word's identity: devices keep the ids
+/// they were shown and exclude them, so an answer never comes back — not even with a new clue.
+/// **Never delete a row** — retire it. A deleted word could be generated again under a new id
+/// and slip past every device's seen-list.
+model Entry {
+  id          Int         @id @default(autoincrement())
+  locale      String
+  /// Normalized cell string (`lib/alphabet.ts`): lowercase, `ё` folded, no stress marks.
+  answer      String
+  /// As the language writes it, for reports and admin views: "ёлка", "Երևան".
+  display     String
+  /// In cells, not code units — Armenian `ու` is one cell.
+  length      Int
+  /// The first cell token; generation spreads its starting letters with it.
+  firstCell   String
+  /// Merged when the same word is generated under another topic.
+  topics      String[]
+  /// 1 everyday … 3 rare.
+  difficulty  Int
+  kind        EntryKind   @default(common)
+  origin      EntryOrigin @default(ai)
+  model       String?
+  /// Placed in a stored puzzle — not merely drawn as a candidate.
+  servedCount Int         @default(0)
+  /// Reveals reported by solvers: a word revealed often is harder than its label says.
+  revealCount Int         @default(0)
+  reportCount Int         @default(0)
+  retiredAt   DateTime?
+  createdAt   DateTime    @default(now())
+
+  clues   Clue[]
+  reports EntryReport[]
+
+  @@unique([locale, answer])
+  @@index([locale, difficulty, length])
+  @@index([locale, firstCell])
+  @@index([topics], type: Gin)
+}
+
+model Clue {
+  id          String    @id @default(uuid())
+  entryId     Int
+  entry       Entry     @relation(fields: [entryId], references: [id], onDelete: Cascade)
+  style       ClueStyle
+  text        String
+  /// Normalized text, so a reworded duplicate of the same clue collides.
+  hash        String
+  /// 1 a direct definition … 3 oblique.
+  difficulty  Int
+  /// Passed the judge pass (`services/entryGen.ts`); seed clues are hand-checked.
+  verified    Boolean   @default(false)
+  servedCount Int       @default(0)
+  reportCount Int       @default(0)
+  retiredAt   DateTime?
+  model       String?
+  createdAt   DateTime  @default(now())
+
+  @@unique([entryId, hash])
+  @@index([entryId, style])
+}
+
+/// An immutable snapshot: retiring or rewording a clue never changes a puzzle someone shared.
+model Puzzle {
+  /// 10 base62 characters — short enough for a link, too many to guess.
+  id            String       @id
+  locale        String
+  format        PuzzleFormat
+  topic         String
+  difficulty    Int
+  size          String
+  width         Int
+  height        Int
+  seed          Int
+  /// `LAYOUT_VERSION` of the engine that built it.
+  layoutVersion Int
+  /// The `PuzzleView` minus `id` and `createdAt`.
+  data          Json
+  entryIds      Int[]
+  clueIds       String[]
+  playCount     Int          @default(0)
+  solveCount    Int          @default(0)
+  createdAt     DateTime     @default(now())
+
+  @@index([locale, createdAt])
+}
+
+model EntryReport {
+  id          String   @id @default(uuid())
+  entryId     Int
+  entry       Entry    @relation(fields: [entryId], references: [id], onDelete: Cascade)
+  clueId      String?
+  puzzleId    String?
+  /// A hash of the reporter's IP — enough to stop one person retiring a clue alone.
+  reporterKey String
+  reason      String
+  createdAt   DateTime @default(now())
+
+  @@unique([entryId, reporterKey])
+}
+
+/// What players ask for, so the refill job tops up those buckets first.
+model PoolDemand {
+  locale          String
+  topic           String
+  difficulty      Int
+  requests        Int      @default(0)
+  /// The longest seen-list a request brought: how deep the keenest player has eaten in.
+  maxExclude      Int      @default(0)
+  /// A request found too few unseen words; refill this bucket before the others.
+  urgent          Boolean  @default(false)
+  lastRequestedAt DateTime @default(now())
+
+  @@id([locale, topic, difficulty])
+}
+
+/// One row per Gemini generation call: spreads subtopics and starting letters, caps the daily
+/// budget, and shows when a slice of vocabulary is running dry (`inserted` falling behind `valid`).
+model GenerationLog {
+  id            String   @id @default(uuid())
+  locale        String
+  topic         String
+  subtopic      String
+  difficulty    Int
+  letters       String[]
+  model         String
+  promptVariant String
+  /// Gemini calls this generation cost, the judge pass included.
+  calls         Int      @default(1)
+  returned      Int
+  valid         Int
+  verified      Int
+  inserted      Int
+  mergedClues   Int
+  ms            Int
+  createdAt     DateTime @default(now())
+
+  @@index([locale, topic, createdAt])
+  @@index([createdAt])
+}

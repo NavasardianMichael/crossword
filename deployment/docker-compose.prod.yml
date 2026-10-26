@@ -1,0 +1,40 @@
+# Production Postgres. Lives at $APP_DIR/db/docker-compose.prod.yml on the host
+# and is started once, by hand — the deploy workflow never touches it.
+#
+#   cd $APP_DIR/db
+#   POSTGRES_PASSWORD=... docker compose -f docker-compose.prod.yml up -d
+#
+# This is deliberately separate from the repo's root docker-compose.yml, which is
+# the dev database (same port, throwaway credentials, different machine).
+
+name: crossword-prod
+
+services:
+  postgres:
+    image: postgres:16-alpine
+    container_name: crossword-postgres-prod
+    restart: unless-stopped
+    ports:
+      # host:container. 5007 because the target server already has a Postgres on
+      # 5432 and bookie publishes 5004. Loopback only — nothing outside the host should
+      # ever reach it.
+      - '127.0.0.1:5007:5432'
+    environment:
+      POSTGRES_USER: ${POSTGRES_USER:-crossword}
+      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD:?set POSTGRES_PASSWORD}
+      POSTGRES_DB: ${POSTGRES_DB:-crossword}
+    volumes:
+      - crossword_pg_prod:/var/lib/postgresql/data
+    healthcheck:
+      test: ['CMD-SHELL', 'pg_isready -U ${POSTGRES_USER:-crossword} -d ${POSTGRES_DB:-crossword}']
+      interval: 10s
+      timeout: 5s
+      retries: 5
+    logging:
+      driver: json-file
+      options:
+        max-size: '10m'
+        max-file: '3'
+
+volumes:
+  crossword_pg_prod:

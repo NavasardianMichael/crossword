@@ -1,0 +1,2458 @@
+[
+  {
+    "word": "idea",
+    "topics": ["general"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Light-bulb moment",
+    "shortClue": "Notion"
+  },
+  {
+    "word": "era",
+    "topics": ["general"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Long span of history",
+    "shortClue": "Epoch"
+  },
+  {
+    "word": "ease",
+    "topics": ["general"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Freedom from difficulty",
+    "shortClue": "Comfort"
+  },
+  {
+    "word": "inert",
+    "topics": ["general"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Not moving or reacting",
+    "shortClue": "Motionless"
+  },
+  {
+    "word": "omit",
+    "topics": ["general"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Leave out",
+    "shortClue": "Skip"
+  },
+  {
+    "word": "ensue",
+    "topics": ["general"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Follow as a result",
+    "shortClue": "Come next"
+  },
+  {
+    "word": "tenet",
+    "topics": ["general"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Core principle of a belief system",
+    "shortClue": "Doctrine"
+  },
+  {
+    "word": "alert",
+    "topics": ["general"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Wide awake and watchful",
+    "shortClue": "On guard"
+  },
+  {
+    "word": "scent",
+    "topics": ["general"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Pleasant smell",
+    "shortClue": "Aroma"
+  },
+  {
+    "word": "agenda",
+    "topics": ["general"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "List of items for a meeting",
+    "shortClue": "Docket"
+  },
+  {
+    "word": "errand",
+    "topics": ["general"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Quick trip to the post office, say",
+    "shortClue": "Chore"
+  },
+  {
+    "word": "patience",
+    "topics": ["general"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Virtue of those who can wait",
+    "shortClue": "Forbearance"
+  },
+  {
+    "word": "rumor",
+    "topics": ["general"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Unverified gossip",
+    "shortClue": "Hearsay"
+  },
+  {
+    "word": "riddle",
+    "topics": ["general"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Puzzling question",
+    "shortClue": "Enigma"
+  },
+  {
+    "word": "nuance",
+    "topics": ["general"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Subtle shade of meaning",
+    "shortClue": "Subtlety"
+  },
+  {
+    "word": "zenith",
+    "topics": ["general"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Highest point",
+    "shortClue": "Peak"
+  },
+  {
+    "word": "epitome",
+    "topics": ["general"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Perfect example",
+    "shortClue": "Embodiment"
+  },
+  {
+    "word": "ephemeral",
+    "topics": ["general"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Lasting a very short time",
+    "shortClue": "Fleeting"
+  },
+  {
+    "word": "sagacious",
+    "topics": ["general"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Wise and shrewd",
+    "shortClue": "Astute"
+  },
+  {
+    "word": "ubiquitous",
+    "topics": ["general"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Seemingly found everywhere",
+    "shortClue": "Omnipresent"
+  },
+  {
+    "word": "serendipity",
+    "topics": ["general"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Happy accident",
+    "shortClue": "Lucky chance"
+  },
+  {
+    "word": "ambiguous",
+    "topics": ["general"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Open to more than one reading",
+    "shortClue": "Unclear"
+  },
+  {
+    "word": "alas",
+    "topics": ["general"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Sigh of regret",
+    "shortClue": "Sadly"
+  },
+  {
+    "word": "ego",
+    "topics": ["general"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Sense of self",
+    "shortClue": "Self-esteem"
+  },
+  {
+    "word": "awe",
+    "topics": ["general"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Wonder mixed with reverence",
+    "shortClue": "Wonder"
+  },
+  {
+    "word": "ire",
+    "topics": ["general"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Fury or wrath",
+    "shortClue": "Anger"
+  },
+  {
+    "word": "oath",
+    "topics": ["general"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Solemn promise",
+    "shortClue": "Vow"
+  },
+  {
+    "word": "ennui",
+    "topics": ["general"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Listless boredom",
+    "shortClue": "Tedium"
+  },
+  {
+    "word": "lucid",
+    "topics": ["general"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Clear and easy to follow",
+    "shortClue": "Coherent"
+  },
+  {
+    "word": "ado",
+    "topics": ["general", "arts"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Much ___ About Nothing",
+    "shortClue": "Fuss"
+  },
+  {
+    "word": "tote",
+    "topics": ["general", "home"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Canvas shopping bag",
+    "shortClue": "Carryall"
+  },
+  {
+    "word": "aloe",
+    "topics": ["nature"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Succulent with a soothing gel",
+    "shortClue": "Sunburn soother"
+  },
+  {
+    "word": "moss",
+    "topics": ["nature"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Soft green growth on rocks and logs",
+    "shortClue": "Forest carpet"
+  },
+  {
+    "word": "fern",
+    "topics": ["nature"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Frond-bearing plant of shady woods",
+    "shortClue": "Frond plant"
+  },
+  {
+    "word": "oak",
+    "topics": ["nature"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Tree that grows from an acorn",
+    "shortClue": "Acorn tree"
+  },
+  {
+    "word": "elm",
+    "topics": ["nature"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Shade tree on many a Main Street",
+    "shortClue": "Main Street tree"
+  },
+  {
+    "word": "dew",
+    "topics": ["nature"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Morning moisture on the grass",
+    "shortClue": "Morning drops"
+  },
+  {
+    "word": "tide",
+    "topics": ["nature"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Rise and fall of the sea",
+    "shortClue": "Ebb and flow"
+  },
+  {
+    "word": "dune",
+    "topics": ["nature", "geography"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Wind-shaped mound at the beach",
+    "shortClue": "Sand hill"
+  },
+  {
+    "word": "petal",
+    "topics": ["nature"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Part of a daisy plucked in \"loves me, loves me not\"",
+    "shortClue": "Bloom part"
+  },
+  {
+    "word": "glacier",
+    "topics": ["nature", "geography"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Slow-moving river of ice",
+    "shortClue": "Ice mass"
+  },
+  {
+    "word": "blossom",
+    "topics": ["nature"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Flower on a fruit tree",
+    "shortClue": "Bloom"
+  },
+  {
+    "word": "sapling",
+    "topics": ["nature"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Young tree, still thin in the trunk",
+    "shortClue": "Young tree"
+  },
+  {
+    "word": "tundra",
+    "topics": ["nature", "geography"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Treeless Arctic plain",
+    "shortClue": "Arctic plain"
+  },
+  {
+    "word": "equinox",
+    "topics": ["nature", "science"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Day of roughly equal light and dark",
+    "shortClue": "Season starter"
+  },
+  {
+    "word": "hurricane",
+    "topics": ["nature"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Named Atlantic storm",
+    "shortClue": "Cyclone"
+  },
+  {
+    "word": "chlorophyll",
+    "topics": ["nature", "science"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Green pigment in leaves",
+    "shortClue": "Leaf pigment"
+  },
+  {
+    "word": "sequoia",
+    "topics": ["nature"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Giant California conifer",
+    "shortClue": "Redwood"
+  },
+  {
+    "word": "humus",
+    "topics": ["nature"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Dark organic matter in soil",
+    "shortClue": "Decayed matter"
+  },
+  {
+    "word": "loam",
+    "topics": ["nature"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Rich, crumbly garden soil",
+    "shortClue": "Rich soil"
+  },
+  {
+    "word": "aspen",
+    "topics": ["nature"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Quaking tree of the Rockies",
+    "shortClue": "Quaking tree"
+  },
+  {
+    "word": "stalactite",
+    "topics": ["nature", "science"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "It hangs from a cave ceiling",
+    "shortClue": "Cave icicle"
+  },
+  {
+    "word": "deciduous",
+    "topics": ["nature"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Shedding its leaves each fall",
+    "shortClue": "Leaf-shedding"
+  },
+  {
+    "word": "zephyr",
+    "topics": ["nature"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Gentle west wind, poetically",
+    "shortClue": "Soft breeze"
+  },
+  {
+    "word": "eel",
+    "topics": ["animals"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Slippery, snakelike swimmer",
+    "shortClue": "Moray, e.g."
+  },
+  {
+    "word": "emu",
+    "topics": ["animals"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Big flightless bird of Australia",
+    "shortClue": "Outback bird"
+  },
+  {
+    "word": "gnu",
+    "topics": ["animals"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Horned grazer of the Serengeti",
+    "shortClue": "Wildebeest"
+  },
+  {
+    "word": "owl",
+    "topics": ["animals"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Night hunter that hoots",
+    "shortClue": "Hooter"
+  },
+  {
+    "word": "asp",
+    "topics": ["animals"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Snake of the Cleopatra legend",
+    "shortClue": "Egyptian cobra"
+  },
+  {
+    "word": "ewe",
+    "topics": ["animals"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Female sheep",
+    "shortClue": "Lamb's mother"
+  },
+  {
+    "word": "otter",
+    "topics": ["animals"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Whiskered swimmer that slides down muddy banks",
+    "shortClue": "River swimmer"
+  },
+  {
+    "word": "moose",
+    "topics": ["animals"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Antlered giant of the Maine woods",
+    "shortClue": "Bullwinkle, e.g."
+  },
+  {
+    "word": "heron",
+    "topics": ["animals"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Long-legged wading bird",
+    "shortClue": "Wader"
+  },
+  {
+    "word": "raccoon",
+    "topics": ["animals"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Masked bandit of the trash can",
+    "shortClue": "Night forager"
+  },
+  {
+    "word": "beaver",
+    "topics": ["animals"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Dam-building rodent",
+    "shortClue": "Dam builder"
+  },
+  {
+    "word": "armadillo",
+    "topics": ["animals"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Armored critter of Texas",
+    "shortClue": "Shelled mammal"
+  },
+  {
+    "word": "chameleon",
+    "topics": ["animals"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Lizard with a sticky tongue and swiveling eyes",
+    "shortClue": "Color changer"
+  },
+  {
+    "word": "hummingbird",
+    "topics": ["animals"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Tiny hoverer at the feeder",
+    "shortClue": "Nectar sipper"
+  },
+  {
+    "word": "pangolin",
+    "topics": ["animals"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Scaly mammal that curls into a ball",
+    "shortClue": "Scaly anteater"
+  },
+  {
+    "word": "narwhal",
+    "topics": ["animals"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Arctic whale whose tusk fed unicorn legends",
+    "shortClue": "Tusked whale"
+  },
+  {
+    "word": "tortoise",
+    "topics": ["animals"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "The hare's slow but steady rival",
+    "shortClue": "Slow racer"
+  },
+  {
+    "word": "lemur",
+    "topics": ["animals"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Ring-tailed primate of Madagascar",
+    "shortClue": "Island primate"
+  },
+  {
+    "word": "ocelot",
+    "topics": ["animals"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Spotted wildcat of the Americas",
+    "shortClue": "Wildcat"
+  },
+  {
+    "word": "oat",
+    "topics": ["food"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Grain in a granola bar",
+    "shortClue": "Cereal grain"
+  },
+  {
+    "word": "rye",
+    "topics": ["food"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Grain for deli bread",
+    "shortClue": "Bread grain"
+  },
+  {
+    "word": "bagel",
+    "topics": ["food"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Ring of bread with a schmear",
+    "shortClue": "Deli roll"
+  },
+  {
+    "word": "gravy",
+    "topics": ["food"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Sauce made from pan drippings",
+    "shortClue": "Brown sauce"
+  },
+  {
+    "word": "pecan",
+    "topics": ["food"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Nut in a Southern pie",
+    "shortClue": "Pie nut"
+  },
+  {
+    "word": "grits",
+    "topics": ["food"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Southern breakfast porridge",
+    "shortClue": "Hominy dish"
+  },
+  {
+    "word": "brisket",
+    "topics": ["food"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Beef cut smoked low and slow in Texas",
+    "shortClue": "Beef cut"
+  },
+  {
+    "word": "biscuit",
+    "topics": ["food"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Flaky Southern bread served with gravy",
+    "shortClue": "Flaky roll"
+  },
+  {
+    "word": "chowder",
+    "topics": ["food"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Creamy New England soup",
+    "shortClue": "Clam soup"
+  },
+  {
+    "word": "succotash",
+    "topics": ["food"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Lima bean and corn side dish",
+    "shortClue": "Bean dish"
+  },
+  {
+    "word": "guacamole",
+    "topics": ["food"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Avocado dip served with tortilla chips",
+    "shortClue": "Chip dip"
+  },
+  {
+    "word": "jambalaya",
+    "topics": ["food"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Louisiana rice dish with sausage and shrimp",
+    "shortClue": "Cajun rice dish"
+  },
+  {
+    "word": "nutmeg",
+    "topics": ["food"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Spice grated over eggnog",
+    "shortClue": "Eggnog spice"
+  },
+  {
+    "word": "saffron",
+    "topics": ["food"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Priciest spice by weight",
+    "shortClue": "Paella spice"
+  },
+  {
+    "word": "umami",
+    "topics": ["food"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Savory fifth taste",
+    "shortClue": "Savory taste"
+  },
+  {
+    "word": "truffle",
+    "topics": ["food"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Pricey fungus snuffled out by pigs",
+    "shortClue": "Fancy fungus"
+  },
+  {
+    "word": "isle",
+    "topics": ["geography"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Small island, in poetry",
+    "shortClue": "Atoll, e.g."
+  },
+  {
+    "word": "mesa",
+    "topics": ["geography"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Flat-topped hill of the Southwest",
+    "shortClue": "Tableland"
+  },
+  {
+    "word": "butte",
+    "topics": ["geography"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Isolated hill with steep sides",
+    "shortClue": "Lone hill"
+  },
+  {
+    "word": "bayou",
+    "topics": ["geography"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Sluggish Louisiana backwater",
+    "shortClue": "Swampy creek"
+  },
+  {
+    "word": "fjord",
+    "topics": ["geography"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Narrow sea inlet of Norway",
+    "shortClue": "Sea inlet"
+  },
+  {
+    "word": "atoll",
+    "topics": ["geography"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Ring-shaped coral island",
+    "shortClue": "Coral ring"
+  },
+  {
+    "word": "archipelago",
+    "topics": ["geography"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Chain of islands",
+    "shortClue": "Island chain"
+  },
+  {
+    "word": "volcano",
+    "topics": ["geography", "nature"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Mountain that may erupt",
+    "shortClue": "Lava spout"
+  },
+  {
+    "word": "isthmus",
+    "topics": ["geography"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Narrow land bridge, like Panama",
+    "shortClue": "Land bridge"
+  },
+  {
+    "word": "tributary",
+    "topics": ["geography"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Stream feeding a larger river",
+    "shortClue": "Feeder stream"
+  },
+  {
+    "word": "Ohio",
+    "topics": ["geography"],
+    "difficulty": 1,
+    "kind": "proper",
+    "clue": "State whose capital is Columbus",
+    "shortClue": "Buckeye State"
+  },
+  {
+    "word": "Utah",
+    "topics": ["geography"],
+    "difficulty": 1,
+    "kind": "proper",
+    "clue": "State whose capital is Salt Lake City",
+    "shortClue": "Beehive State"
+  },
+  {
+    "word": "Erie",
+    "topics": ["geography"],
+    "difficulty": 1,
+    "kind": "proper",
+    "clue": "Great Lake between Huron and Ontario",
+    "shortClue": "Great Lake"
+  },
+  {
+    "word": "Nile",
+    "topics": ["geography"],
+    "difficulty": 1,
+    "kind": "proper",
+    "clue": "Longest river in Africa",
+    "shortClue": "Cairo's river"
+  },
+  {
+    "word": "Andes",
+    "topics": ["geography"],
+    "difficulty": 2,
+    "kind": "proper",
+    "clue": "World's longest continental mountain range",
+    "shortClue": "Chilean range"
+  },
+  {
+    "word": "Cairo",
+    "topics": ["geography"],
+    "difficulty": 1,
+    "kind": "proper",
+    "clue": "Capital city near the Giza pyramids",
+    "shortClue": "Egypt's capital"
+  },
+  {
+    "word": "Mississippi",
+    "topics": ["geography"],
+    "difficulty": 1,
+    "kind": "proper",
+    "clue": "River that flows past New Orleans to the Gulf",
+    "shortClue": "Old Man River"
+  },
+  {
+    "word": "Kilimanjaro",
+    "topics": ["geography"],
+    "difficulty": 2,
+    "kind": "proper",
+    "clue": "Africa's highest peak",
+    "shortClue": "Tanzanian peak"
+  },
+  {
+    "word": "Manhattan",
+    "topics": ["geography", "localCulture"],
+    "difficulty": 1,
+    "kind": "proper",
+    "clue": "Island borough with Central Park",
+    "shortClue": "Big Apple core"
+  },
+  {
+    "word": "czar",
+    "topics": ["history"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Russian ruler before 1917",
+    "shortClue": "Russian emperor"
+  },
+  {
+    "word": "pharaoh",
+    "topics": ["history"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Ruler of ancient Egypt",
+    "shortClue": "Egyptian king"
+  },
+  {
+    "word": "treaty",
+    "topics": ["history"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Formal peace pact",
+    "shortClue": "Pact"
+  },
+  {
+    "word": "pioneer",
+    "topics": ["history"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Covered-wagon settler",
+    "shortClue": "Settler"
+  },
+  {
+    "word": "musket",
+    "topics": ["history"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Revolutionary War firearm",
+    "shortClue": "Old firearm"
+  },
+  {
+    "word": "armor",
+    "topics": ["history"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Knight's metal suit",
+    "shortClue": "Chain mail"
+  },
+  {
+    "word": "relic",
+    "topics": ["history"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Object surviving from the distant past",
+    "shortClue": "Artifact"
+  },
+  {
+    "word": "dynasty",
+    "topics": ["history"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Line of hereditary rulers",
+    "shortClue": "Ming, e.g."
+  },
+  {
+    "word": "chariot",
+    "topics": ["history"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Horse-drawn war vehicle of antiquity",
+    "shortClue": "Ben-Hur's ride"
+  },
+  {
+    "word": "gladiator",
+    "topics": ["history"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Combatant at the Colosseum",
+    "shortClue": "Arena fighter"
+  },
+  {
+    "word": "archaeology",
+    "topics": ["history", "science"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Study of ancient sites and artifacts",
+    "shortClue": "Digging science"
+  },
+  {
+    "word": "hieroglyph",
+    "topics": ["history"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Picture symbol carved in a tomb wall",
+    "shortClue": "Egyptian symbol"
+  },
+  {
+    "word": "caravel",
+    "topics": ["history"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Small ship of the Age of Exploration",
+    "shortClue": "Nina, e.g."
+  },
+  {
+    "word": "abacus",
+    "topics": ["history"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Counting frame with sliding beads",
+    "shortClue": "Bead counter"
+  },
+  {
+    "word": "minuteman",
+    "topics": ["history", "localCulture"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Revolutionary militiaman ready at a moment's notice",
+    "shortClue": "Patriot soldier"
+  },
+  {
+    "word": "vassal",
+    "topics": ["history"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Feudal underling",
+    "shortClue": "Liege's man"
+  },
+  {
+    "word": "serf",
+    "topics": ["history"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Feudal farm laborer",
+    "shortClue": "Peasant"
+  },
+  {
+    "word": "atom",
+    "topics": ["science"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Smallest unit of an element",
+    "shortClue": "Particle"
+  },
+  {
+    "word": "gene",
+    "topics": ["science"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Unit of heredity",
+    "shortClue": "DNA segment"
+  },
+  {
+    "word": "ion",
+    "topics": ["science"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Electrically charged particle",
+    "shortClue": "Charged atom"
+  },
+  {
+    "word": "orbit",
+    "topics": ["science"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Path around the sun",
+    "shortClue": "Circuit"
+  },
+  {
+    "word": "comet",
+    "topics": ["science"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Icy body with a glowing tail",
+    "shortClue": "Icy visitor"
+  },
+  {
+    "word": "fossil",
+    "topics": ["science"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Ancient remains preserved in rock",
+    "shortClue": "Trilobite, e.g."
+  },
+  {
+    "word": "quartz",
+    "topics": ["science"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Crystal that keeps time in a watch",
+    "shortClue": "Clock crystal"
+  },
+  {
+    "word": "gravity",
+    "topics": ["science"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Force that keeps us on the ground",
+    "shortClue": "Newton's force"
+  },
+  {
+    "word": "telescope",
+    "topics": ["science"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Stargazer's instrument",
+    "shortClue": "Hubble, e.g."
+  },
+  {
+    "word": "hypothesis",
+    "topics": ["science"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Testable scientific guess",
+    "shortClue": "Educated guess"
+  },
+  {
+    "word": "catalyst",
+    "topics": ["science"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Substance that speeds a reaction without being used up",
+    "shortClue": "Accelerant"
+  },
+  {
+    "word": "velocity",
+    "topics": ["science"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Speed with a direction",
+    "shortClue": "Speed"
+  },
+  {
+    "word": "nebula",
+    "topics": ["science"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Interstellar cloud of gas and dust",
+    "shortClue": "Star nursery"
+  },
+  {
+    "word": "entropy",
+    "topics": ["science"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Measure of disorder in a system",
+    "shortClue": "Disorder"
+  },
+  {
+    "word": "enzyme",
+    "topics": ["science"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Protein that speeds a reaction in the body",
+    "shortClue": "Lactase, e.g."
+  },
+  {
+    "word": "quasar",
+    "topics": ["science"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Very bright, very distant galactic core",
+    "shortClue": "Cosmic beacon"
+  },
+  {
+    "word": "litmus",
+    "topics": ["science"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Paper used in an acid test",
+    "shortClue": "Acid tester"
+  },
+  {
+    "word": "astronaut",
+    "topics": ["science", "professions"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Crew member aboard the space station",
+    "shortClue": "Spacefarer"
+  },
+  {
+    "word": "ace",
+    "topics": ["sport"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Unreturned tennis serve",
+    "shortClue": "Tennis winner"
+  },
+  {
+    "word": "tee",
+    "topics": ["sport"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Golf ball's peg",
+    "shortClue": "Golf peg"
+  },
+  {
+    "word": "par",
+    "topics": ["sport"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Expected score on a golf hole",
+    "shortClue": "Golf norm"
+  },
+  {
+    "word": "puck",
+    "topics": ["sport"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Rubber disk on the ice",
+    "shortClue": "Hockey disk"
+  },
+  {
+    "word": "bunt",
+    "topics": ["sport"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Short, soft baseball hit",
+    "shortClue": "Sacrifice hit"
+  },
+  {
+    "word": "inning",
+    "topics": ["sport"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "One of nine in a baseball game",
+    "shortClue": "Frame"
+  },
+  {
+    "word": "umpire",
+    "topics": ["sport"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Official who calls balls and strikes",
+    "shortClue": "Plate official"
+  },
+  {
+    "word": "relay",
+    "topics": ["sport"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Race with baton handoffs",
+    "shortClue": "Baton race"
+  },
+  {
+    "word": "slalom",
+    "topics": ["sport"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Zigzag downhill ski race",
+    "shortClue": "Ski race"
+  },
+  {
+    "word": "touchdown",
+    "topics": ["sport"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Six-point football score",
+    "shortClue": "Six points"
+  },
+  {
+    "word": "bullpen",
+    "topics": ["sport"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Relief pitchers' warm-up area",
+    "shortClue": "Relief area"
+  },
+  {
+    "word": "shortstop",
+    "topics": ["sport"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Infielder between second and third",
+    "shortClue": "Infielder"
+  },
+  {
+    "word": "javelin",
+    "topics": ["sport"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Spear thrown in track and field",
+    "shortClue": "Thrown spear"
+  },
+  {
+    "word": "decathlon",
+    "topics": ["sport"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Ten-event track and field contest",
+    "shortClue": "Ten events"
+  },
+  {
+    "word": "regatta",
+    "topics": ["sport"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Series of boat races",
+    "shortClue": "Rowing meet"
+  },
+  {
+    "word": "epee",
+    "topics": ["sport"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Fencing sword with a large guard",
+    "shortClue": "Fencing blade"
+  },
+  {
+    "word": "caddie",
+    "topics": ["sport"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Golfer's bag carrier",
+    "shortClue": "Bag toter"
+  },
+  {
+    "word": "aria",
+    "topics": ["arts"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Solo in an opera",
+    "shortClue": "Opera solo"
+  },
+  {
+    "word": "oboe",
+    "topics": ["arts"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Double-reed woodwind",
+    "shortClue": "Reed instrument"
+  },
+  {
+    "word": "ode",
+    "topics": ["arts"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Lyric tribute, like one by Keats",
+    "shortClue": "Praise poem"
+  },
+  {
+    "word": "cello",
+    "topics": ["arts"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Yo-Yo Ma's instrument",
+    "shortClue": "Bowed instrument"
+  },
+  {
+    "word": "tempo",
+    "topics": ["arts"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Pace of a piece of music",
+    "shortClue": "Pace"
+  },
+  {
+    "word": "aside",
+    "topics": ["arts"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Remark an actor makes to the audience",
+    "shortClue": "Stage whisper"
+  },
+  {
+    "word": "sonnet",
+    "topics": ["arts"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Fourteen-line poem",
+    "shortClue": "Fourteen lines"
+  },
+  {
+    "word": "mural",
+    "topics": ["arts"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Painting on a wall",
+    "shortClue": "Wall art"
+  },
+  {
+    "word": "ballet",
+    "topics": ["arts"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Swan Lake, for one",
+    "shortClue": "Dance form"
+  },
+  {
+    "word": "encore",
+    "topics": ["arts"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Audience's call for more",
+    "shortClue": "Bonus song"
+  },
+  {
+    "word": "watercolor",
+    "topics": ["arts"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Translucent painting medium",
+    "shortClue": "Aquarelle"
+  },
+  {
+    "word": "crescendo",
+    "topics": ["arts"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Gradual increase in volume",
+    "shortClue": "Swell"
+  },
+  {
+    "word": "libretto",
+    "topics": ["arts"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Words of an opera",
+    "shortClue": "Opera text"
+  },
+  {
+    "word": "fresco",
+    "topics": ["arts"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Technique of the Sistine Chapel ceiling",
+    "shortClue": "Plaster art"
+  },
+  {
+    "word": "haiku",
+    "topics": ["arts"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Seventeen-syllable poem",
+    "shortClue": "Short poem"
+  },
+  {
+    "word": "sonata",
+    "topics": ["arts"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Beethoven's Moonlight, for one",
+    "shortClue": "Piano piece"
+  },
+  {
+    "word": "chiaroscuro",
+    "topics": ["arts"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Painter's play of light and shadow",
+    "shortClue": "Light and shade"
+  },
+  {
+    "word": "motif",
+    "topics": ["arts"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Recurring theme in a work",
+    "shortClue": "Theme"
+  },
+  {
+    "word": "sofa",
+    "topics": ["home"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Living room seat for three",
+    "shortClue": "Couch"
+  },
+  {
+    "word": "rug",
+    "topics": ["home"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Floor covering",
+    "shortClue": "Mat"
+  },
+  {
+    "word": "oven",
+    "topics": ["home"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Kitchen appliance for roasting",
+    "shortClue": "Baker's box"
+  },
+  {
+    "word": "attic",
+    "topics": ["home"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Space under the roof",
+    "shortClue": "Garret"
+  },
+  {
+    "word": "porch",
+    "topics": ["home"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Covered entry with a swing",
+    "shortClue": "Veranda"
+  },
+  {
+    "word": "quilt",
+    "topics": ["home"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Patchwork bed cover",
+    "shortClue": "Bed cover"
+  },
+  {
+    "word": "pantry",
+    "topics": ["home"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Food storage closet",
+    "shortClue": "Larder"
+  },
+  {
+    "word": "faucet",
+    "topics": ["home"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Sink fixture",
+    "shortClue": "Spigot"
+  },
+  {
+    "word": "toaster",
+    "topics": ["home"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Pop-up kitchen appliance",
+    "shortClue": "Bread browner"
+  },
+  {
+    "word": "doormat",
+    "topics": ["home"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Welcome greeter on the stoop",
+    "shortClue": "Shoe wiper"
+  },
+  {
+    "word": "chandelier",
+    "topics": ["home"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Hanging light with crystals",
+    "shortClue": "Ceiling light"
+  },
+  {
+    "word": "thermostat",
+    "topics": ["home"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Wall dial for the heat",
+    "shortClue": "Heat control"
+  },
+  {
+    "word": "banister",
+    "topics": ["home"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Stair railing",
+    "shortClue": "Handrail"
+  },
+  {
+    "word": "skillet",
+    "topics": ["home"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Cast-iron pan for cornbread",
+    "shortClue": "Frying pan"
+  },
+  {
+    "word": "colander",
+    "topics": ["home"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Perforated bowl for draining pasta",
+    "shortClue": "Strainer"
+  },
+  {
+    "word": "ottoman",
+    "topics": ["home"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Padded footrest",
+    "shortClue": "Footstool"
+  },
+  {
+    "word": "duvet",
+    "topics": ["home"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Fluffy quilt in a removable cover",
+    "shortClue": "Comforter"
+  },
+  {
+    "word": "linoleum",
+    "topics": ["home"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Kitchen flooring material",
+    "shortClue": "Floor covering"
+  },
+  {
+    "word": "vestibule",
+    "topics": ["home"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Small entrance hall",
+    "shortClue": "Foyer"
+  },
+  {
+    "word": "wainscot",
+    "topics": ["home"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Wood paneling on a lower wall",
+    "shortClue": "Wall paneling"
+  },
+  {
+    "word": "refrigerator",
+    "topics": ["home"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Kitchen appliance that keeps food cold",
+    "shortClue": "Icebox"
+  },
+  {
+    "word": "chef",
+    "topics": ["professions"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Kitchen boss",
+    "shortClue": "Head cook"
+  },
+  {
+    "word": "nurse",
+    "topics": ["professions"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Hospital caregiver",
+    "shortClue": "Caregiver"
+  },
+  {
+    "word": "pilot",
+    "topics": ["professions"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "One in the cockpit",
+    "shortClue": "Aviator"
+  },
+  {
+    "word": "tailor",
+    "topics": ["professions"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "One who alters suits",
+    "shortClue": "Clothes fitter"
+  },
+  {
+    "word": "barber",
+    "topics": ["professions"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Haircutter with a striped pole",
+    "shortClue": "Hair trimmer"
+  },
+  {
+    "word": "plumber",
+    "topics": ["professions"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Pro who unclogs drains",
+    "shortClue": "Pipe fixer"
+  },
+  {
+    "word": "surgeon",
+    "topics": ["professions"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Operating room doctor",
+    "shortClue": "Scalpel user"
+  },
+  {
+    "word": "electrician",
+    "topics": ["professions"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Pro who installs outlets and wiring",
+    "shortClue": "Wire worker"
+  },
+  {
+    "word": "florist",
+    "topics": ["professions"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Bouquet arranger",
+    "shortClue": "Bouquet maker"
+  },
+  {
+    "word": "locksmith",
+    "topics": ["professions"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Pro who cuts keys and fixes deadbolts",
+    "shortClue": "Key maker"
+  },
+  {
+    "word": "cobbler",
+    "topics": ["professions"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Shoe repairer",
+    "shortClue": "Shoe fixer"
+  },
+  {
+    "word": "blacksmith",
+    "topics": ["professions", "history"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Horseshoe maker at the anvil",
+    "shortClue": "Forge worker"
+  },
+  {
+    "word": "notary",
+    "topics": ["professions"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Official who stamps documents",
+    "shortClue": "Stamp official"
+  },
+  {
+    "word": "curator",
+    "topics": ["professions"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Museum collection manager",
+    "shortClue": "Museum keeper"
+  },
+  {
+    "word": "cartographer",
+    "topics": ["professions", "geography"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Maker of atlases and charts",
+    "shortClue": "Mapmaker"
+  },
+  {
+    "word": "actuary",
+    "topics": ["professions"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Insurance risk calculator",
+    "shortClue": "Risk analyst"
+  },
+  {
+    "word": "sommelier",
+    "topics": ["professions"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Restaurant wine expert",
+    "shortClue": "Wine steward"
+  },
+  {
+    "word": "zookeeper",
+    "topics": ["professions", "animals"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Caretaker at the lion house",
+    "shortClue": "Animal tender"
+  },
+  {
+    "word": "rodeo",
+    "topics": ["localCulture"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Bronco-busting show",
+    "shortClue": "Cowboy show"
+  },
+  {
+    "word": "banjo",
+    "topics": ["localCulture", "arts"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Bluegrass instrument with five strings",
+    "shortClue": "Picker's axe"
+  },
+  {
+    "word": "jazz",
+    "topics": ["localCulture", "arts"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Music born in New Orleans",
+    "shortClue": "Swing"
+  },
+  {
+    "word": "diner",
+    "topics": ["localCulture", "food"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Roadside eatery with booths",
+    "shortClue": "Greasy spoon"
+  },
+  {
+    "word": "turkey",
+    "topics": ["localCulture", "animals"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Thanksgiving centerpiece",
+    "shortClue": "Holiday bird"
+  },
+  {
+    "word": "eggnog",
+    "topics": ["localCulture", "food"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Creamy holiday drink",
+    "shortClue": "Yule drink"
+  },
+  {
+    "word": "tailgate",
+    "topics": ["localCulture", "sport"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Pregame parking lot party",
+    "shortClue": "Lot party"
+  },
+  {
+    "word": "bluegrass",
+    "topics": ["localCulture", "arts"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Kentucky mountain music with banjos",
+    "shortClue": "Mountain music"
+  },
+  {
+    "word": "pumpkin",
+    "topics": ["localCulture", "food"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Jack-o'-lantern gourd",
+    "shortClue": "Halloween gourd"
+  },
+  {
+    "word": "groundhog",
+    "topics": ["localCulture", "animals"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Furry February forecaster",
+    "shortClue": "Woodchuck"
+  },
+  {
+    "word": "lumberjack",
+    "topics": ["localCulture", "professions"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Paul Bunyan, for one",
+    "shortClue": "Logger"
+  },
+  {
+    "word": "limerick",
+    "topics": ["localCulture", "arts"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Five-line comic verse",
+    "shortClue": "Witty verse"
+  },
+  {
+    "word": "Halloween",
+    "topics": ["localCulture"],
+    "difficulty": 1,
+    "kind": "proper",
+    "clue": "Holiday on October 31",
+    "shortClue": "Trick-or-treat night"
+  },
+  {
+    "word": "Thanksgiving",
+    "topics": ["localCulture"],
+    "difficulty": 1,
+    "kind": "proper",
+    "clue": "November holiday with turkey and pie",
+    "shortClue": "Turkey Day"
+  },
+  {
+    "word": "Bigfoot",
+    "topics": ["localCulture"],
+    "difficulty": 1,
+    "kind": "proper",
+    "clue": "Hairy legend of the Pacific Northwest",
+    "shortClue": "Sasquatch"
+  },
+  {
+    "word": "Gatsby",
+    "topics": ["localCulture"],
+    "difficulty": 2,
+    "kind": "proper",
+    "clue": "Fitzgerald title character who throws lavish parties",
+    "shortClue": "West Egg's Jay"
+  },
+  {
+    "word": "Sawyer",
+    "topics": ["localCulture"],
+    "difficulty": 1,
+    "kind": "proper",
+    "clue": "Tom of Mark Twain fame",
+    "shortClue": "Twain's Tom"
+  },
+  {
+    "word": "Dorothy",
+    "topics": ["localCulture"],
+    "difficulty": 1,
+    "kind": "proper",
+    "clue": "Kansas girl who went over the rainbow",
+    "shortClue": "Toto's owner"
+  },
+  {
+    "word": "Broadway",
+    "topics": ["localCulture"],
+    "difficulty": 1,
+    "kind": "proper",
+    "clue": "New York's theater district",
+    "shortClue": "Great White Way"
+  },
+  {
+    "word": "Ichabod",
+    "topics": ["localCulture"],
+    "difficulty": 3,
+    "kind": "proper",
+    "clue": "Crane of Sleepy Hollow",
+    "shortClue": "Mr. Crane"
+  },
+  {
+    "word": "Ahab",
+    "topics": ["localCulture"],
+    "difficulty": 2,
+    "kind": "proper",
+    "clue": "Captain of the Pequod",
+    "shortClue": "Moby-Dick captain"
+  },
+  {
+    "word": "Gotham",
+    "topics": ["localCulture"],
+    "difficulty": 3,
+    "kind": "proper",
+    "clue": "Washington Irving's name for New York City",
+    "shortClue": "NYC nickname"
+  },
+  {
+    "word": "aplomb",
+    "topics": ["general"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Poise under pressure",
+    "shortClue": "Composure"
+  },
+  {
+    "word": "ilk",
+    "topics": ["general"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Kind or sort, often disparagingly",
+    "shortClue": "Sort"
+  },
+  {
+    "word": "acme",
+    "topics": ["general"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Peak of perfection",
+    "shortClue": "Pinnacle"
+  },
+  {
+    "word": "mien",
+    "topics": ["general"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Outward air or demeanor",
+    "shortClue": "Bearing"
+  },
+  {
+    "word": "sere",
+    "topics": ["general"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Dry and withered",
+    "shortClue": "Parched"
+  },
+  {
+    "word": "tapir",
+    "topics": ["animals"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Hoofed mammal with a short, flexible snout",
+    "shortClue": "Snouted grazer"
+  },
+  {
+    "word": "Sahara",
+    "topics": ["geography"],
+    "difficulty": 1,
+    "kind": "proper",
+    "clue": "Vast desert of North Africa",
+    "shortClue": "African desert"
+  },
+  {
+    "word": "steppe",
+    "topics": ["geography"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Vast grassy plain of Eurasia",
+    "shortClue": "Eurasian plain"
+  },
+  {
+    "word": "moat",
+    "topics": ["history"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Watery ring around a castle",
+    "shortClue": "Castle ditch"
+  },
+  {
+    "word": "lance",
+    "topics": ["history"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Jousting knight's weapon",
+    "shortClue": "Tilting pole"
+  },
+  {
+    "word": "fief",
+    "topics": ["history"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Estate granted to a vassal",
+    "shortClue": "Feudal estate"
+  },
+  {
+    "word": "yore",
+    "topics": ["history"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Days of ___ (long ago)",
+    "shortClue": "Olden days"
+  },
+  {
+    "word": "joust",
+    "topics": ["history"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Tilt on horseback",
+    "shortClue": "Tourney bout"
+  },
+  {
+    "word": "mummy",
+    "topics": ["history"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Wrapped remains in an Egyptian tomb",
+    "shortClue": "Tomb resident"
+  },
+  {
+    "word": "helix",
+    "topics": ["science"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Spiral shape of DNA",
+    "shortClue": "Spiral"
+  },
+  {
+    "word": "ohm",
+    "topics": ["science"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Unit of electrical resistance",
+    "shortClue": "Resistance unit"
+  },
+  {
+    "word": "quark",
+    "topics": ["science"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Building block of a proton",
+    "shortClue": "Subatomic bit"
+  },
+  {
+    "word": "prism",
+    "topics": ["science"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Glass that splits light into a rainbow",
+    "shortClue": "Light splitter"
+  },
+  {
+    "word": "radon",
+    "topics": ["science"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Radioactive gas tested for in basements",
+    "shortClue": "Noble gas"
+  },
+  {
+    "word": "luge",
+    "topics": ["sport"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Feet-first Olympic sled race",
+    "shortClue": "Sled event"
+  },
+  {
+    "word": "lob",
+    "topics": ["sport"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "High, arcing tennis shot",
+    "shortClue": "Lofted shot"
+  },
+  {
+    "word": "mulligan",
+    "topics": ["sport"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Do-over in a friendly round of golf",
+    "shortClue": "Golf do-over"
+  },
+  {
+    "word": "coda",
+    "topics": ["arts"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Closing passage of a piece of music",
+    "shortClue": "Finale"
+  },
+  {
+    "word": "eave",
+    "topics": ["home"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Roof edge that overhangs a wall",
+    "shortClue": "Roof overhang"
+  },
+  {
+    "word": "tutor",
+    "topics": ["professions"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Private teacher",
+    "shortClue": "Coach"
+  },
+  {
+    "word": "valet",
+    "topics": ["professions"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Hotel car parker",
+    "shortClue": "Car parker"
+  },
+  {
+    "word": "usher",
+    "topics": ["professions"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Theater seat guide",
+    "shortClue": "Seat guide"
+  },
+  {
+    "word": "medic",
+    "topics": ["professions"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Battlefield first-aid giver",
+    "shortClue": "Army doctor"
+  },
+  {
+    "word": "luau",
+    "topics": ["localCulture"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Hawaiian feast with a roast pig",
+    "shortClue": "Island party"
+  },
+  {
+    "word": "journey",
+    "topics": ["general"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Long trip from place to place",
+    "shortClue": "Trek"
+  },
+  {
+    "word": "mystery",
+    "topics": ["general"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Whodunit, for one",
+    "shortClue": "Puzzle"
+  },
+  {
+    "word": "courage",
+    "topics": ["general"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Bravery in the face of danger",
+    "shortClue": "Valor"
+  },
+  {
+    "word": "tranquil",
+    "topics": ["general"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Calm and peaceful",
+    "shortClue": "Serene"
+  },
+  {
+    "word": "meticulous",
+    "topics": ["general"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Extremely careful about details",
+    "shortClue": "Painstaking"
+  },
+  {
+    "word": "nostalgia",
+    "topics": ["general"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Wistful longing for the past",
+    "shortClue": "Wistfulness"
+  },
+  {
+    "word": "whimsical",
+    "topics": ["general"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Playfully fanciful",
+    "shortClue": "Fanciful"
+  },
+  {
+    "word": "labyrinth",
+    "topics": ["general"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Maze of Greek myth",
+    "shortClue": "Maze"
+  },
+  {
+    "word": "paradox",
+    "topics": ["general"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Statement that seems to contradict itself",
+    "shortClue": "Contradiction"
+  },
+  {
+    "word": "whisper",
+    "topics": ["general"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Speak very softly",
+    "shortClue": "Murmur"
+  },
+  {
+    "word": "blunder",
+    "topics": ["general"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Clumsy mistake",
+    "shortClue": "Gaffe"
+  },
+  {
+    "word": "cinnamon",
+    "topics": ["food"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Spice in a sticky bun",
+    "shortClue": "Bark spice"
+  },
+  {
+    "word": "molasses",
+    "topics": ["food"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Dark syrup in gingerbread",
+    "shortClue": "Treacle"
+  },
+  {
+    "word": "casserole",
+    "topics": ["food"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Baked one-dish meal",
+    "shortClue": "Hot dish"
+  },
+  {
+    "word": "buttermilk",
+    "topics": ["food"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Tangy dairy liquid in pancake batter",
+    "shortClue": "Tangy dairy"
+  },
+  {
+    "word": "paprika",
+    "topics": ["food"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Red spice in goulash",
+    "shortClue": "Goulash spice"
+  },
+  {
+    "word": "referee",
+    "topics": ["sport"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Official in a striped shirt",
+    "shortClue": "Official"
+  },
+  {
+    "word": "lacrosse",
+    "topics": ["sport"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Stick-and-net sport of Native American origin",
+    "shortClue": "Stick sport"
+  },
+  {
+    "word": "triathlon",
+    "topics": ["sport"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Swim-bike-run race",
+    "shortClue": "Ironman, e.g."
+  },
+  {
+    "word": "bobsled",
+    "topics": ["sport"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Olympic team event on an icy chute",
+    "shortClue": "Chute racer"
+  },
+  {
+    "word": "folklore",
+    "topics": ["localCulture"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Traditional tales of a people",
+    "shortClue": "Legends"
+  },
+  {
+    "word": "hoedown",
+    "topics": ["localCulture"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Lively square dance party",
+    "shortClue": "Barn dance"
+  },
+  {
+    "word": "parchment",
+    "topics": ["history"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Old writing surface made from animal skin",
+    "shortClue": "Vellum"
+  },
+  {
+    "word": "renaissance",
+    "topics": ["history"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Age of Leonardo and Michelangelo",
+    "shortClue": "Rebirth era"
+  },
+  {
+    "word": "aqueduct",
+    "topics": ["history"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Roman channel for carrying water",
+    "shortClue": "Water bridge"
+  },
+  {
+    "word": "palette",
+    "topics": ["arts"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Painter's mixing board",
+    "shortClue": "Paint board"
+  },
+  {
+    "word": "pirouette",
+    "topics": ["arts"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Spin on one foot in ballet",
+    "shortClue": "Ballet spin"
+  },
+  {
+    "word": "mantel",
+    "topics": ["home"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Shelf above a fireplace",
+    "shortClue": "Fireplace shelf"
+  },
+  {
+    "word": "skylight",
+    "topics": ["home"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Window set into a roof",
+    "shortClue": "Roof window"
+  },
+  {
+    "word": "vulture",
+    "topics": ["animals"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Carrion-eating bird",
+    "shortClue": "Scavenger"
+  },
+  {
+    "word": "porcupine",
+    "topics": ["animals"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Quilled rodent",
+    "shortClue": "Quill bearer"
+  },
+  {
+    "word": "salamander",
+    "topics": ["animals"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Moist-skinned amphibian with a tail",
+    "shortClue": "Newt kin"
+  },
+  {
+    "word": "pelican",
+    "topics": ["animals"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Seabird with a pouched bill",
+    "shortClue": "Pouch bill"
+  },
+  {
+    "word": "monsoon",
+    "topics": ["nature", "geography"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Seasonal rainy wind of South Asia",
+    "shortClue": "Rainy season"
+  },
+  {
+    "word": "solstice",
+    "topics": ["nature", "science"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Longest or shortest day of the year",
+    "shortClue": "June 21, often"
+  },
+  {
+    "word": "wildflower",
+    "topics": ["nature"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Bloom that grows without cultivation",
+    "shortClue": "Field bloom"
+  },
+  {
+    "word": "pharmacist",
+    "topics": ["professions"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Prescription filler",
+    "shortClue": "Druggist"
+  },
+  {
+    "word": "estuary",
+    "topics": ["geography"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Where a river meets the tide",
+    "shortClue": "Tidal mouth"
+  },
+  {
+    "word": "savanna",
+    "topics": ["geography"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Grassland dotted with acacias",
+    "shortClue": "African plain"
+  }
+]
