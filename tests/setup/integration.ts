@@ -8,8 +8,8 @@ import path from 'node:path'
  *
  * **Fail-safe by construction.** Vitest does not pass a project's `test.env` to globalSetup,
  * so this file resolves the URL itself and refuses to touch any database not named
- * `crossword_test` — an unset variable must never fall through to `server/.env` and the
- * developer's real data.
+ * `crossword_test` — an unset variable must never fall through to
+ * `server/.env.development.local` and the developer's real data.
  */
 const SERVER_DIR = path.resolve(__dirname, '../../server')
 export const TEST_DATABASE_URL =

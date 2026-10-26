@@ -19,7 +19,7 @@ every puzzle brings words you haven't seen before.
 nvm use                         # Node 24
 pnpm install
 cp .env.example .env.local      # web
-cp server/.env.example server/.env   # API — put a free Gemini key in GEMINI_KEY (optional)
+cp server/.env.example server/.env.development.local   # API — put a free Gemini key in GEMINI_KEY (optional)
 pnpm db:up && pnpm db:setup     # Postgres on :5007, migrations, seed words
 pnpm dev                        # http://localhost:7007 (web) · http://localhost:9007 (API)
 ```
