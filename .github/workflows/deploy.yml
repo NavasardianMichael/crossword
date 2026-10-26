@@ -258,6 +258,9 @@ jobs:
           node-version-file: '.nvmrc'
           cache: 'pnpm'
       - run: pnpm install --frozen-lockfile
+      # @prisma/client's postinstall runs from the workspace root and finds no schema there,
+      # so without this tsc sees no PrismaClient and no Prisma types.
+      - run: pnpm --filter crossword-server db:generate
 
       # tsc -> server/dist, then scripts/build-api-release.mjs assembles a
       # standalone single-package project in out/api. See that script's header for
