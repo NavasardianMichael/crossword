@@ -73,15 +73,26 @@ command -v docker >/dev/null && ok "docker" || bad "docker missing"
 
 echo ""
 echo "Directories"
+# The first deploy creates these itself (mkdir -p), so a missing one is not a failure —
+# but it must be able to: it writes shared/.env.api and db/ there.
 for d in "$APP_DIR/web/releases" "$APP_DIR/api/releases" "$APP_DIR/shared" "$APP_DIR/db"; do
-  [ -d "$d" ] && ok "$d" || bad "$d missing"
+  [ -d "$d" ] && ok "$d" || note "$d — created by the first deploy"
 done
-# The deploy writes shared/.env.api there.
-[ -w "$APP_DIR/shared" ] && ok "shared/ writable" || bad "shared/ not writable by $(whoami)"
+[ -w "$APP_DIR" ] && ok "$APP_DIR writable" || bad "$APP_DIR not writable by $(whoami)"
 
 echo ""
 echo "Database"
-if docker ps --format '{{.Names}}' 2>/dev/null | grep -qx crossword-postgres-prod; then
+if ! docker ps >/dev/null 2>&1; then
+  bad "$(whoami) cannot run docker — the deploy creates and checks the database container"
+  note "fix: sudo usermod -aG docker $(whoami), then log in again"
+elif ! docker container inspect crossword-postgres-prod >/dev/null 2>&1; then
+  # Not a failure: the first API deploy creates it from DATABASE_URL (ensure_database).
+  note "crossword-postgres-prod does not exist yet — the first API deploy creates it"
+  if docker volume inspect crossword-prod_crossword_pg_prod >/dev/null 2>&1; then
+    note "its data volume already exists and will be reattached, not recreated:"
+    note "DATABASE_URL must carry the password that volume was created with"
+  fi
+elif docker ps --format '{{.Names}}' 2>/dev/null | grep -qx crossword-postgres-prod; then
   ok "crossword-postgres-prod running"
   # The schema needs no extensions; the first deploy's `prisma migrate deploy` creates
   # every table, and the seed fills the word pool right after.
@@ -93,7 +104,7 @@ if docker ps --format '{{.Names}}' 2>/dev/null | grep -qx crossword-postgres-pro
     note "POSTGRES_USER/POSTGRES_DB in \$APP_DIR/db/.env must match DATABASE_URL"
   fi
 else
-  bad "crossword-postgres-prod not running"
+  note "crossword-postgres-prod exists but is stopped — the next API deploy starts it"
 fi
 # Loopback-only is the intended posture; a 0.0.0.0 publish would expose Postgres.
 if docker port crossword-postgres-prod 5432 2>/dev/null | grep -q '^127.0.0.1:'; then

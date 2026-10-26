@@ -47,7 +47,7 @@ pnpm build:api                # server/dist + the deployable out/api release
 | SEO/GEO: sitemap, robots, JSON-LD, link preview, llms.txt | `src/app/sitemap.ts`, `robots.ts`, `opengraph-image.tsx`, `llms.txt/`, `src/linkedDataSchema/`, `src/helpers/llms.ts` |
 | Sharing a puzzle (app links, copy, share sheet) | `src/components/puzzle/ShareDialog.tsx` · `src/helpers/share.ts` |
 | PWA: manifest, service worker, offline play shell | `src/app/manifest.ts`, `src/app/sw.js/route.ts` + `src/helpers/pwa.ts`, `src/app/[lang]/play/` |
-| Deploying | `docs/DEPLOYMENT.md`, `deployment/`, `.github/workflows/` |
+| Deploying | `docs/DEPLOYMENT.md` (how) · `docs/PRODUCTION_SETUP.md` (manual setup, in order) · `deployment/`, `.github/workflows/` |
 
 Per-layer rules: `src/CLAUDE.md` (web) and `server/CLAUDE.md` (API).
 

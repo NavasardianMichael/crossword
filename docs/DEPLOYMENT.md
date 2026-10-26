@@ -6,12 +6,12 @@ Push to `master` → GitHub Actions builds → two tarballs land on the server �
 ## Shape
 
 ```
-  crossword.mnavasardian.com ──► nginx ──► 127.0.0.1:7007  crossword-web  (Next standalone)
-                                                       └────► /_next/static/  from disk
-  api.crossword.mnavasardian.com ──► nginx ──► 127.0.0.1:9007  crossword-api  (Express)
-                                                                     │
-                                                                     ▼
-                                                     127.0.0.1:5007  Postgres (Docker)
+      crossword.eapps.site ──► nginx ──► 127.0.0.1:7007  crossword-web  (Next standalone)
+                                     └────► /_next/static/  from disk
+  api.crossword.eapps.site ──► nginx ──► 127.0.0.1:9007  crossword-api  (Express)
+                                                    │
+                                                    ▼
+                                         127.0.0.1:5007  Postgres (Docker)
 ```
 
 Two origins, not one. The browser calls the **API** host directly, at `NEXT_PUBLIC_API_URL`,
@@ -30,8 +30,8 @@ $APP_DIR/                         /home/michael/apps/crossword
   api/releases/<sha>/             dist · prisma · package.json · node_modules
   api/current        -> releases/<sha>
   shared/.env.api                 mode 600, written by the deploy — outside every release
-  db/docker-compose.prod.yml
-  db/.env                         POSTGRES_* for the container
+  db/docker-compose.prod.yml      written by the first API deploy, never rewritten
+  db/.env                         POSTGRES_* derived from DATABASE_URL — same, mode 600
 ```
 
 `WorkingDirectory` in both units points at `current`; systemd resolves the symlink at start,
@@ -39,71 +39,40 @@ so `systemctl restart` is what promotes a release.
 
 ## One-time server setup
 
-Node 24, pnpm and nginx are already on the host for Bookie; step 2 is only a check.
+The app-specific manual steps — DNS, systemd, certificates, nginx, GitHub secrets and the first
+deploy — in the order they have to happen, are
+[PRODUCTION_SETUP.md](PRODUCTION_SETUP.md). The one ordering trap: both vhosts name
+Let's Encrypt files, so the certificates are issued through a temporary challenge-only vhost
+**before** either real vhost is enabled, with `certbot certonly --webroot` so certbot never
+rewrites the templates. Every vhost (the API's included) keeps a `:80` ACME location, which is
+what `certbot renew` uses.
 
-```bash
-# 1. directory tree
-sudo -u michael mkdir -p /home/michael/apps/crossword/{web/releases,api/releases,shared,db}
+`preflight.sh` changes nothing. It checks Node and pnpm the way the deploy reaches them, that
+the deploy user can run Docker, Postgres (if it exists yet: reachable as the configured role,
+published on loopback only), both units installed and enabled, passwordless `systemctl
+restart`, `nginx -t`, and that 7007/9007/5007 are free or held by these units. Fix everything
+it reports before the first deploy.
 
-# 2. toolchain (already present for Bookie — verify, don't reinstall)
-node -v                                    # v24.x
-sudo -u michael /home/michael/.local/bin/pnpm --version
+The first deploy creates the release directories and the database, migrates, seeds the word
+pool and starts both services.
 
-# 3. Postgres — its own container, port 5007 (Bookie holds 5004)
-sudo -u michael cp deployment/docker-compose.prod.yml /home/michael/apps/crossword/db/
-sudo -u michael cp deployment/db.env.example /home/michael/apps/crossword/db/.env
-openssl rand -hex 32      # paste as POSTGRES_PASSWORD in that file
-cd /home/michael/apps/crossword/db
-sudo -u michael docker compose -f docker-compose.prod.yml up -d
-# No manual schema work: `prisma migrate deploy` runs on every deploy, and the seed
-# words (prisma/seed/entries.{en,ru,hy}.json) are loaded right after.
+### The database is created by the first deploy, once
 
-# 4. systemd units
-sudo cp deployment/crossword-web.service deployment/crossword-api.service /etc/systemd/system/
-sudo systemctl daemon-reload
-sudo systemctl enable crossword-web crossword-api    # do not start yet — no release exists
+`ensure_database` in `deploy.yml` runs before every `prisma migrate deploy` and is create-only:
 
-# 5. let the deploy user restart exactly these two units
-sudo tee /etc/sudoers.d/crossword-deploy >/dev/null <<'SUDOERS'
-michael ALL=(root) NOPASSWD: /usr/bin/systemctl restart crossword-web, /usr/bin/systemctl restart crossword-api
-SUDOERS
-sudo visudo -c        # check `which systemctl` — it is /bin/systemctl on some distros
+| State on the host                         | What it does                                                        |
+| ----------------------------------------- | ------------------------------------------------------------------- |
+| `crossword-postgres-prod` running         | nothing                                                             |
+| container exists, stopped                 | `docker start` — no recreate, no config change                      |
+| no container, no volume (first deploy)    | writes `db/docker-compose.prod.yml` + `db/.env` (from `DATABASE_URL`), `up -d --no-recreate` |
+| no container, volume survives             | the same `up`, which **reattaches** the existing data               |
+| `DATABASE_URL` not `127.0.0.1:5007`        | skipped — an external database is not ours to manage                |
 
-# 6. DNS — two A records to the VPS:
-#    crossword.mnavasardian.com
-#    api.crossword.mnavasardian.com
-#    (and www.crossword… if you want the redirect). If the zone is on
-#    Cloudflare, grey-cloud the api record — see Gotchas.
-
-# 7. nginx + TLS
-# The API vhost is HTTPS-only and names files under
-# /etc/letsencrypt/live/api.crossword.mnavasardian.com/ — enable it only
-# after that cert exists, or `nginx -t` fails.
-sudo cp deployment/crossword.mnavasardian.com.conf \
-        deployment/api.crossword.mnavasardian.com.conf /etc/nginx/sites-available/
-sudo ln -s /etc/nginx/sites-available/crossword.mnavasardian.com.conf /etc/nginx/sites-enabled/
-sudo nginx -t && sudo systemctl reload nginx
-sudo certbot --nginx -d crossword.mnavasardian.com -d www.crossword.mnavasardian.com
-# The API conf has no :80 block, so use certonly with the webroot the :80 vhosts serve.
-sudo certbot certonly --webroot -w /var/www/html -d api.crossword.mnavasardian.com
-sudo ln -s /etc/nginx/sites-available/api.crossword.mnavasardian.com.conf /etc/nginx/sites-enabled/
-sudo nginx -t && sudo systemctl reload nginx
-
-# 8. CI's SSH key — reuse Bookie's deploy key or add a new one to
-#    /home/michael/.ssh/authorized_keys
-
-# 9. verify — as michael, NOT root
-sudo -u michael bash deployment/preflight.sh /home/michael/apps/crossword
-```
-
-`preflight.sh` changes nothing. It checks Node and pnpm the way the deploy reaches them, the
-directory tree, that Postgres is up, reachable as the
-configured role and published on loopback only, both units installed and enabled,
-passwordless `systemctl restart`, `nginx -t`, and that 7007/9007/5007 are free or held by
-these units. Fix everything it reports before the first deploy.
-
-The first deploy creates the release directories, migrates, seeds the word pool and
-starts both services.
+It never runs `down`, `rm` or anything on a volume, and never rewrites an existing `db/.env`
+or compose file. Postgres reads `POSTGRES_PASSWORD` only when it initialises an empty volume,
+so changing the password later is done inside Postgres (see `deployment/db.env.example`), not
+by editing either file. The password must be URL-safe (`openssl rand -hex 32`); the deploy
+refuses anything else, since compose would interpolate `$` in `.env`.
 
 ## Gemini
 
@@ -124,8 +93,8 @@ starts both services.
 | `SSH_PORT`             | optional, defaults to 22                                      |
 | `APP_DIR`              | `/home/michael/apps/crossword`                              |
 | `ENV_API_BASE64`       | see below                                                     |
-| `NEXT_PUBLIC_API_URL`  | `https://api.crossword.mnavasardian.com`  |
-| `NEXT_PUBLIC_SITE_URL` | `https://crossword.mnavasardian.com`      |
+| `NEXT_PUBLIC_API_URL`  | `https://api.crossword.eapps.site`  |
+| `NEXT_PUBLIC_SITE_URL` | `https://crossword.eapps.site`      |
 
 Optional, inlined at build time (Secrets or Variables; empty turns the feature off):
 `NEXT_PUBLIC_GA_MEASUREMENT_ID`, `NEXT_PUBLIC_SENTRY_DSN`, `NEXT_PUBLIC_GOOGLE_SITE_VERIFICATION`,
@@ -153,7 +122,7 @@ Two values must match character for character:
 |                | must equal                                                                                 |
 | -------------- | ------------------------------------------------------------------------------------------ |
 | `CORS_ORIGIN`  | `NEXT_PUBLIC_SITE_URL` — CORS allows only it, and `requireSameOrigin` compares `Origin` to it |
-| `DATABASE_URL` | `POSTGRES_USER` / `POSTGRES_PASSWORD` / `POSTGRES_DB` in `$APP_DIR/db/.env`, port 5007      |
+| `DATABASE_URL` | the credentials the Postgres volume was created with — the first deploy derives `$APP_DIR/db/.env` from it, port 5007 |
 
 ## The workflows
 
@@ -164,7 +133,7 @@ Two values must match character for character:
 
 The API deploys **first**: server-rendered pages and ISR call it, so the schema and API must
 be new before new pages serve. API side: `pnpm install --prod --frozen-lockfile` →
-`prisma generate` → `prisma migrate deploy` → `node dist/prisma/seed.js` (idempotent seed
+`prisma generate` → `ensure_database` (creates Postgres only if missing) → `prisma migrate deploy` → `node dist/prisma/seed.js` (idempotent seed
 words, `prisma/seed/entries.{en,ru,hy}.json`) → restart → poll `/health`. Web side: extract, flip the symlink, restart, poll `/en`
 (never `/`, which is a 307).
 
@@ -176,7 +145,7 @@ the API ships as a standalone package with pinned dependencies (`scripts/build-a
 
 | Port | What     | Declared in                                                                                                        |
 | ---- | -------- | ------------------------------------------------------------------------------------------------------------------ |
-| 7007 | Next     | `crossword-web.service`, `crossword.mnavasardian.com.conf`, `deploy.yml` (`WEB_PORT`)        |
+| 7007 | Next     | `crossword-web.service`, `crossword.eapps.site.conf`, `deploy.yml` (`WEB_PORT`)        |
 | 9007 | Express  | deploy's env file (`PORT`), `crossword-web.service` (`API_INTERNAL_URL`), API `.conf`, `deploy.yml` (`API_PORT`) |
 | 5007 | Postgres | `docker-compose.prod.yml`, `DATABASE_URL` inside `ENV_API_BASE64`                                                  |
 
@@ -204,7 +173,7 @@ cd /home/michael/apps/crossword/api/current
 set -a; . /home/michael/apps/crossword/shared/.env.api; set +a; node dist/prisma/seed.js
 ```
 
-After the first deploy, submit `https://crossword.mnavasardian.com/sitemap.xml`
+After the first deploy, submit `https://crossword.eapps.site/sitemap.xml`
 in Google Search Console, Yandex Webmaster and Bing Webmaster Tools (63 URLs: the 9
 `INDEXABLE_ROUTES` plus 12 topic pages, × 3 locales — en, ru, hy — with hreflang and x-default).
 Check a shared `/p/<id>` link in a preview debugger (Facebook Sharing Debugger, opengraph.xyz):
@@ -213,9 +182,16 @@ summarise the site for AI assistants.
 
 ## Gotchas
 
-- **Cloudflare Universal SSL does not cover `api.crossword.mnavasardian.com`**
-  (two labels under the zone; the free cert covers one). Grey-cloud that record and let origin
-  nginx terminate TLS, as these templates assume — the same fix as Bookie's API host.
+- **Three hostnames, three certificates.** `crossword.eapps.site` (the app),
+  `www.crossword.eapps.site` (301 to the app, HTTP and HTTPS) and `api.crossword.eapps.site`
+  (HTTPS only — its `:80` answers the ACME challenge and drops everything else) each have their
+  own Let's Encrypt certificate, issued and renewed by certbot over HTTP-01 (`webroot`, the
+  `:80` ACME location in each vhost). If the zone is on Cloudflare, all three records stay
+  **DNS only**: Universal SSL does not cover two-label names like `api.crossword…`, and
+  proxying would break HTTP-01 renewal.
+- **`deploy` needs `verify` to have passed, not merely "not failed".** A failed `verify` skips
+  both build jobs instead of failing them, so a "no failed build" condition let the deploy job
+  start anyway.
 - **Changing `NEXT_PUBLIC_*` requires a rebuild** — they are inlined.
 - **Never add `proxy_cache`** to the web host, **never strip `Origin`/`Referer`** on the API
   host, **one API process only** — see `deployment/CLAUDE.md`.
