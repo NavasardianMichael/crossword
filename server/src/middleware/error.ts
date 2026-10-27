@@ -1,4 +1,3 @@
-import * as Sentry from '@sentry/node'
 import type { NextFunction, Request, Response } from 'express'
 import { config } from '../config.js'
 import { fail } from '../lib/api-response.js'
@@ -26,10 +25,7 @@ export function errorHandler(err: unknown, _req: Request, res: Response, next: N
   }
 
   const response = resolveErrorResponse(err, config.nodeEnv === 'production')
-  if (response.status >= 500) {
-    console.error(err)
-    Sentry.captureException(err)
-  }
+  if (response.status >= 500) console.error(err)
   return fail(res, response.message, response.code, response.status)
 }
 

@@ -1,4 +1,3 @@
-import * as Sentry from '@sentry/node'
 import cors from 'cors'
 import express from 'express'
 import { config, isGeminiConfigured } from './config.js'
@@ -38,7 +37,6 @@ export function createApp() {
   // Answered in the envelope like everything else — Express's default is an HTML page.
   app.use((_req, res) => fail(res, 'Not found', 404, 404))
 
-  if (config.sentryDsn) Sentry.setupExpressErrorHandler(app)
   app.use(errorHandler)
 
   return app

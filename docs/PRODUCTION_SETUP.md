@@ -187,12 +187,11 @@ CORS_ORIGIN="https://crossword.eapps.site"
 GEMINI_KEY=""
 VERIFY_ENTRIES="true"
 POOL_DAILY_CALL_BUDGET="300"
-SENTRY_DSN_API=""
 ```
 
 The first three are required. The other keys in part A of
 [server/.env.example](../server/.env.example) (`GEMINI_MODELS`, `VERIFY_ENTRIES`,
-`POOL_DAILY_CALL_BUDGET`, `POOL_REFILL_*`, `SENTRY_DSN_API`) are optional. Leave out `NODE_ENV`,
+`POOL_DAILY_CALL_BUDGET`, `POOL_REFILL_*`) are optional. Leave out `NODE_ENV`,
 `PORT` and `HOST`: the pipeline sets them itself.
 
 Generate the `ENV_API_BASE64` value from it, straight to the clipboard. `clip` is Windows and
