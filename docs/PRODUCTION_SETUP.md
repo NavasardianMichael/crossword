@@ -1,9 +1,15 @@
 # Production setup
 
-The one-time, app-specific steps to run Crossword AI on the server, in order. The existing
-`michael` user (with sudo), Node 24, pnpm (`/home/michael/.local/bin`), Docker, nginx and certbot are
-assumed to be in place already — nothing here creates a user. How the
-pipeline works is in [DEPLOYMENT.md](DEPLOYMENT.md).
+The one-time, app-specific steps to run Crossword AI on the server, in order. Assumed to be in
+place already, so nothing here creates a user or installs them:
+
+- the existing `michael` user, with sudo
+- Node 24, and pnpm in `/home/michael/.local/bin`
+- Docker, with `michael` in the `docker` group: the deploy runs `docker compose` as `michael`,
+  without sudo, to create the database (`groups michael` lists `docker`)
+- nginx and certbot
+
+How the pipeline works is in [DEPLOYMENT.md](DEPLOYMENT.md).
 
 Nothing is downloaded on the server. Each step links the files from this repo's `deployment/`
 folder, each followed by the command that creates and opens it on the server. Open the repo file,
@@ -59,17 +65,37 @@ Paste [crossword-api.service](../deployment/crossword-api.service) into:
 sudo nano /etc/systemd/system/crossword-api.service
 ```
 
-`sudo nano` creates them owned by `root`, mode `644`. Then load them, start them on every boot,
-and let the deploy workflow restart the two services, and nothing else, without a password:
+`sudo nano` creates them owned by `root`, mode `644`. Then load them and start them on every
+boot:
 
 ```bash
 sudo systemctl daemon-reload
 sudo systemctl enable crossword-web crossword-api
-
-echo "michael ALL=(root) NOPASSWD: $(command -v systemctl) restart crossword-web, $(command -v systemctl) restart crossword-api" \
-  | sudo tee /etc/sudoers.d/crossword-deploy >/dev/null
-sudo chmod 440 /etc/sudoers.d/crossword-deploy && sudo visudo -c
 ```
+
+Then let the deploy workflow restart the two services, and nothing else, without a password.
+Open the rule file in nano through `visudo`, which checks the syntax on save and creates the
+file with the mode `440` that sudo requires:
+
+```bash
+sudo EDITOR=nano visudo -f /etc/sudoers.d/crossword-deploy
+```
+
+Paste this line, then save and exit as above:
+
+```text
+michael ALL=(root) NOPASSWD: /usr/bin/systemctl restart crossword-web, /usr/bin/systemctl restart crossword-api
+```
+
+The path must be where `systemctl` really is; `command -v systemctl` prints it, and
+`/usr/bin/systemctl` is the usual one. Check the rule works (no password prompt):
+
+```bash
+sudo -n systemctl restart crossword-api
+```
+
+Before the first deploy that restart fails because the service has nothing to run yet; what
+matters is that sudo does not ask for a password.
 
 If a `.service` file changes in the repo later, paste it again, then run
 `sudo systemctl daemon-reload && sudo systemctl restart <that unit>`.
@@ -183,8 +209,10 @@ If this file changes later, run the command again and update the `ENV_API_BASE64
 
 ## 6. GitHub secrets **[GH]** (once)
 
-Settings → Secrets and variables → Actions → **Secrets** tab → **New repository secret**. Every
-value below goes there, none in the Variables tab.
+Settings → Secrets and variables → Actions → **Secrets** tab → **Repository secrets** → **New
+repository secret**. Every value below goes there: not in the Variables tab, and not under
+Settings → Environments, whose secrets the deploy jobs cannot read (a value there arrives
+empty, and the build stops with "NEXT_PUBLIC_API_URL is empty").
 
 Deploy and server layer:
 
