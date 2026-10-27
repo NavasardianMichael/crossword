@@ -9,7 +9,7 @@
 #   APP_DIR          deployment root, e.g. /home/michael/apps/crossword
 #   ENV_API_BASE64   base64 of the API env file — DATABASE_URL, CORS_ORIGIN,
 #                    GEMINI_KEY, optionally GEMINI_MODELS, VERIFY_ENTRIES,
-#                    POOL_DAILY_CALL_BUDGET, POOL_REFILL_*, SENTRY_DSN_API.
+#                    POOL_DAILY_CALL_BUDGET, POOL_REFILL_*.
 #                    NODE_ENV/PORT/HOST are appended below, so do not put them
 #                    in the secret.
 #   NEXT_PUBLIC_API_URL    https://api.crossword.eapps.site

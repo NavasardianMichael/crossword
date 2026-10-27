@@ -101,7 +101,7 @@ origin is missing, loopback or `http://`.
 
 `ENV_API_BASE64` holds group A of `server/.env.example`: `DATABASE_URL`, `CORS_ORIGIN`,
 `GEMINI_KEY`, optionally `GEMINI_MODELS`, `VERIFY_ENTRIES`, `POOL_DAILY_CALL_BUDGET`,
-`POOL_REFILL_*`, `SENTRY_DSN_API`. Do **not** put `NODE_ENV`, `PORT` or `HOST` in it: the deploy
+`POOL_REFILL_*`. Do **not** put `NODE_ENV`, `PORT` or `HOST` in it: the deploy
 strips and rewrites those three so they cannot drift from the units.
 
 ```bash

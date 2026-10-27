@@ -38,7 +38,6 @@ export const config = {
   },
   /** Off only in the integration tests, where every request comes from one address. */
   rateLimitEnabled: process.env.RATE_LIMIT_ENABLED !== 'false',
-  sentryDsn: process.env.SENTRY_DSN_API ?? '',
 }
 
 export const isGeminiConfigured = (): boolean => Boolean(config.gemini.key)
