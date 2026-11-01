@@ -15,6 +15,18 @@ const createPuzzle = async (page: Page, locale: string, format: 'classic' | 'sca
   await expect(page.getByRole('grid')).toBeVisible()
 }
 
+/** Phones and tablets play full-screen: every board action is in the one "more" menu, and the site header steps aside. */
+const isGameLayout = (page: Page) =>
+  page.evaluate(() => window.matchMedia('screen and (width < 64rem), screen and (pointer: coarse)').matches)
+
+/** A board action: a button on desktop, a menu item in the game layout. */
+const boardAction = async (page: Page, name: string, more = 'More') => {
+  if (await isGameLayout(page)) {
+    await page.getByRole('button', { name: more }).click()
+    await page.getByRole('menuitem', { name, exact: true }).click()
+  } else await page.getByRole('button', { name }).click()
+}
+
 /** Resolves with the type of the next dialog, which is refused. */
 const refuseNextDialog = (page: Page) =>
   new Promise<string>((resolve) =>
@@ -63,7 +75,7 @@ test.describe('server rendering', () => {
 
 test('a puzzle is shared through the apps its language uses', async ({ page }) => {
   await createPuzzle(page, 'ru')
-  await page.getByRole('button', { name: 'Поделиться' }).click()
+  await boardAction(page, 'Поделиться', 'Ещё')
   const dialog = page.getByRole('dialog')
   await expect(dialog.getByRole('textbox')).toHaveValue(/\/ru\/p\/[0-9A-Za-z]{10}$/)
   const first = dialog.getByRole('link').first()
@@ -81,7 +93,7 @@ test('an unprefixed visit goes to the browser language', async ({ browser }) => 
 
 test('a crossword can be revealed to the end', async ({ page }) => {
   await createPuzzle(page, 'en')
-  await page.getByRole('button', { name: 'Reveal' }).click()
+  await boardAction(page, 'Reveal')
   await page.getByRole('menuitem', { name: 'Reveal puzzle' }).click()
   await page.getByRole('button', { name: 'Reveal everything' }).click()
   await expect(page.getByRole('dialog').getByText('Solved', { exact: false })).toBeVisible()
@@ -165,23 +177,27 @@ test('leaving an unfinished game asks first', async ({ page }) => {
     expect(dialog.type()).toBe('confirm')
     void dialog.dismiss()
   })
-  await page.getByRole('banner').getByRole('link').first().click()
+  const game = await isGameLayout(page)
+  await (game ? page.getByRole('link', { name: 'Home' }) : page.getByRole('banner').getByRole('link').first()).click()
   await expect(page.getByRole('grid')).toBeVisible()
   expect(page.url()).toBe(board)
 
   // Buttons that navigate through the router: the same confirm.
   let asked = refuseNextDialog(page)
-  await page.getByRole('button', { name: 'New puzzle' }).click()
+  await boardAction(page, 'New puzzle')
   expect(await asked).toBe('confirm')
   await expect(page.getByRole('grid')).toBeVisible()
   expect(page.url()).toBe(board)
 
-  asked = refuseNextDialog(page)
-  await page.getByRole('button', { name: 'Choose language' }).click()
-  await page.getByRole('menuitem', { name: 'Русский' }).click()
-  expect(await asked).toBe('confirm')
-  await expect(page.getByRole('grid')).toBeVisible()
-  expect(page.url()).toBe(board)
+  // The language switch lives in the site header, which the game layout hides.
+  if (!game) {
+    asked = refuseNextDialog(page)
+    await page.getByRole('button', { name: 'Choose language' }).click()
+    await page.getByRole('menuitem', { name: 'Русский' }).click()
+    expect(await asked).toBe('confirm')
+    await expect(page.getByRole('grid')).toBeVisible()
+    expect(page.url()).toBe(board)
+  }
 
   // Back to the generator: asked on the page itself, which stays put when refused.
   asked = refuseNextDialog(page)

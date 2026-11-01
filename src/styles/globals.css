@@ -14,6 +14,9 @@
  *   §0 Layer order   §1 Theme tokens   §2 antd aliases   §3 Base   §4 Typography helpers
  *   §5 Surfaces   §6 Buttons   §7 Grid marks   §8 Keyframes   §9 Utilities   §10 antd touches
  *   §11 Reduced motion   §12 Print
+ *
+ * Custom variants (§9): `game` (phones, tablets, narrow windows) and `game-page` (the same, on
+ * a page that shows a puzzle board).
  */
 
 /* ── §0 Layer order ──────────────────────────────────────────────────────────────────── */
@@ -462,6 +465,49 @@
   scrollbar-width: none;
   &::-webkit-scrollbar {
     display: none;
+  }
+}
+
+/*
+ * The game layout — phones, tablets (any touch screen) and narrow windows; `useGameLayout`
+ * reads the same query. A puzzle fills the screen like an app: the site's header and footer
+ * step aside (`game-page:hidden`) and nothing scrolls.
+ */
+@custom-variant game {
+  @media screen and (width < 64rem), screen and (pointer: coarse) {
+    @slot;
+  }
+}
+
+@custom-variant game-page {
+  @media screen and (width < 64rem), screen and (pointer: coarse) {
+    body:has([data-game-board]) & {
+      @slot;
+    }
+  }
+}
+
+/*
+ * The board's areas in that layout: the bar on top, the grid in whatever room is left, the
+ * clue and the keyboard within thumb reach. From `lg` (a landscape tablet) the clue lists sit
+ * beside the grid; on a short landscape phone the grid takes the whole height and the rest
+ * stacks beside it.
+ */
+@utility game-layout {
+  display: grid;
+  height: 100dvh;
+  overflow: hidden;
+  grid-template-columns: minmax(0, 1fr);
+  grid-template-rows: auto minmax(0, 1fr) auto auto;
+  grid-template-areas: 'bar' 'board' 'clue' 'keys';
+  @variant lg {
+    grid-template-columns: minmax(0, 1fr) 20rem;
+    grid-template-areas: 'bar bar' 'board clues' 'clue clue' 'keys keys';
+  }
+  @media (orientation: landscape) and (height < 32rem) and (width < 64rem) {
+    grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
+    grid-template-rows: auto auto minmax(0, 1fr) auto;
+    grid-template-areas: 'board bar' 'board clue' 'board .' 'board keys';
   }
 }
 

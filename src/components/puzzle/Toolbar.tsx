@@ -3,7 +3,7 @@
 import { useState } from 'react'
 import { flushSync } from 'react-dom'
 import { Dropdown, type MenuProps } from 'antd'
-import { CheckCheck, Eraser, Eye, FileDown, Flag, ListOrdered, MoreHorizontal, Printer, Settings2 } from 'lucide-react'
+import { CheckCheck, ChevronRight, Eraser, Eye, FileDown, Flag, ListOrdered, MoreHorizontal, Plus, Printer, Settings2, Share2 } from 'lucide-react'
 import { useTranslations } from 'next-intl'
 import { usePlayStore } from '@store/puzzle/play/store'
 import type { Scope } from '@store/puzzle/play/types'
@@ -18,17 +18,24 @@ import { ReportDialog } from './ReportDialog'
 import { Timer } from './Timer'
 
 /**
- * Tools around the grid, in one row on every screen: the clock, the clue list (below `lg`),
- * check and reveal (letter, word or whole puzzle — a whole reveal asks first), and a "more"
- * menu with clearing wrong letters, settings, printing, a PDF and reporting a bad clue (sharing sits
- * beside the heading, in `PuzzleBoard`). Labels show from `sm` up; on phones the buttons are
- * icons with accessible names.
+ * Tools around the grid, in one row: the clock, check and reveal (letter, word or whole
+ * puzzle — a whole reveal asks first), and a "more" menu with clearing wrong letters,
+ * settings, printing, a PDF and reporting a bad clue (sharing and a new puzzle sit beside the
+ * heading, in `PuzzleBoard`).
+ *
+ * `compact` (the game layout's top bar): the clock and one menu holding every action — a new
+ * puzzle, sharing and the clue list first, then check and reveal as submenus, then the rest.
  */
-type ToolbarProps = { onShowClues?: () => void; className?: string }
+type ToolbarProps = {
+  compact?: { onNewPuzzle: () => void; onShare: () => void; onShowClues?: () => void; creating: boolean }
+  className?: string
+}
 
 type Overlay = 'none' | 'confirmReveal' | 'settings' | 'print' | 'pdf' | 'report'
 
-export const Toolbar = ({ onShowClues, className }: ToolbarProps) => {
+const icon = 'size-4'
+
+export const Toolbar = ({ compact, className }: ToolbarProps) => {
   const t = useTranslations('Play')
   const puzzle = usePlayStore.use.puzzle()
   const status = usePlayStore.use.status()
@@ -44,8 +51,9 @@ export const Toolbar = ({ onShowClues, className }: ToolbarProps) => {
   const playing = status === 'playing'
   const close = () => setOverlay('none')
 
-  const scopeItems = (action: 'check' | 'reveal'): MenuProps['items'] =>
-    (['cell', 'word', 'puzzle'] as Scope[]).map((scope) => ({ key: scope, label: t(`${action}.${scope}`) }))
+  // Keyed `check:word`, `reveal:puzzle`…: the compact menu holds both sets at once.
+  const scopeItems = (action: 'check' | 'reveal') =>
+    (['cell', 'word', 'puzzle'] as Scope[]).map((scope) => ({ key: `${action}:${scope}`, label: t(`${action}.${scope}`) }))
 
   const print = (options: PrintOptions) => {
     close()
@@ -56,55 +64,88 @@ export const Toolbar = ({ onShowClues, className }: ToolbarProps) => {
   }
 
   const moreItems: MenuProps['items'] = [
-    { key: 'clearWrong', label: t('clearWrong'), icon: <Eraser aria-hidden className='size-4' />, disabled: !playing },
-    { key: 'settings', label: t('settings.label'), icon: <Settings2 aria-hidden className='size-4' /> },
-    { key: 'print', label: t('print.open'), icon: <Printer aria-hidden className='size-4' /> },
-    { key: 'pdf', label: t('print.pdfOpen'), icon: <FileDown aria-hidden className='size-4' /> },
-    { key: 'report', label: t('report.open'), icon: <Flag aria-hidden className='size-4' /> },
+    { key: 'clearWrong', label: t('clearWrong'), icon: <Eraser aria-hidden className={icon} />, disabled: !playing },
+    { key: 'settings', label: t('settings.label'), icon: <Settings2 aria-hidden className={icon} /> },
+    { key: 'print', label: t('print.open'), icon: <Printer aria-hidden className={icon} /> },
+    { key: 'pdf', label: t('print.pdfOpen'), icon: <FileDown aria-hidden className={icon} /> },
+    { key: 'report', label: t('report.open'), icon: <Flag aria-hidden className={icon} /> },
   ]
-  const onMore: MenuProps['onClick'] = ({ key }) => {
-    if (key === 'clearWrong') clearWrong()
-    else setOverlay(key as Overlay)
+  const compactItems: MenuProps['items'] = [
+    { key: 'newPuzzle', label: t('newPuzzle'), icon: <Plus aria-hidden className={icon} /> },
+    { key: 'share', label: t('share'), icon: <Share2 aria-hidden className={icon} /> },
+    ...(compact?.onShowClues ? [{ key: 'clues', label: t('allClues'), icon: <ListOrdered aria-hidden className={icon} /> }] : []),
+    { type: 'divider' },
+    { key: 'check', label: t('check.label'), icon: <CheckCheck aria-hidden className={icon} />, disabled: !playing, children: scopeItems('check') },
+    { key: 'reveal', label: t('reveal.label'), icon: <Eye aria-hidden className={icon} />, disabled: !playing, children: scopeItems('reveal') },
+    { type: 'divider' },
+    ...moreItems,
+  ]
+
+  const onMenu: MenuProps['onClick'] = ({ key }) => {
+    const [action, scope] = key.split(':') as [string, Scope | undefined]
+    if (action === 'check') check(scope!)
+    else if (action === 'reveal') {
+      if (scope === 'puzzle') setOverlay('confirmReveal')
+      else reveal(scope!)
+    } else if (action === 'clearWrong') clearWrong()
+    else if (action === 'clues') compact?.onShowClues?.()
+    else if (action === 'share') compact?.onShare()
+    else if (action === 'newPuzzle') compact?.onNewPuzzle()
+    else setOverlay(action as Overlay)
   }
 
   const tool = 'h-11 gap-1.5 px-3 sm:px-4'
   const label = 'hidden sm:inline'
 
+  const tools = compact ? (
+    <Dropdown
+      trigger={['click']}
+      placement='bottomRight'
+      // Submenus open on a tap, not a hover; a short screen scrolls the menu, not the page.
+      menu={{
+        items: compactItems,
+        onClick: onMenu,
+        triggerSubMenuAction: 'click',
+        // antd's own arrow is labelled "right", which would join the item's name.
+        expandIcon: <ChevronRight aria-hidden className='ms-auto size-4 text-ink-500 rtl:-scale-x-100' />,
+        className: 'max-h-[calc(100dvh-5rem)] overflow-y-auto',
+      }}
+    >
+      <Button
+        variant='outline'
+        size='sm'
+        className='h-11 px-3'
+        aria-label={t('more')}
+        loading={compact.creating}
+        icon={<MoreHorizontal aria-hidden className='size-5' />}
+      />
+    </Dropdown>
+  ) : (
+    <>
+      <Dropdown disabled={!playing} trigger={['click']} menu={{ items: scopeItems('check'), onClick: onMenu }}>
+        <Button variant='secondary' size='sm' className={tool} aria-label={t('check.label')}>
+          <CheckCheck aria-hidden className='size-5' />
+          <span className={label}>{t('check.label')}</span>
+        </Button>
+      </Dropdown>
+      <Dropdown disabled={!playing} trigger={['click']} menu={{ items: scopeItems('reveal'), onClick: onMenu }}>
+        <Button variant='sun' size='sm' className={tool} aria-label={t('reveal.label')}>
+          <Eye aria-hidden className='size-5' />
+          <span className={label}>{t('reveal.label')}</span>
+        </Button>
+      </Dropdown>
+      <Dropdown trigger={['click']} placement='bottomRight' menu={{ items: moreItems, onClick: onMenu }}>
+        <Button variant='outline' size='sm' className='h-11 px-3' aria-label={t('more')}>
+          <MoreHorizontal aria-hidden className='size-5' />
+        </Button>
+      </Dropdown>
+    </>
+  )
+
   return (
     <div className={cn('flex items-center gap-2', className)}>
       <Timer />
-      <div className='ms-auto flex items-center gap-2'>
-        {onShowClues && (
-          <Button variant='outline' size='sm' className={cn(tool, 'lg:hidden')} onClick={onShowClues} aria-label={t('allClues')}>
-            <ListOrdered aria-hidden className='size-5' />
-            <span className={label}>{t('allClues')}</span>
-          </Button>
-        )}
-        <Dropdown disabled={!playing} trigger={['click']} menu={{ items: scopeItems('check'), onClick: ({ key }) => check(key as Scope) }}>
-          <Button variant='secondary' size='sm' className={tool} aria-label={t('check.label')}>
-            <CheckCheck aria-hidden className='size-5' />
-            <span className={label}>{t('check.label')}</span>
-          </Button>
-        </Dropdown>
-        <Dropdown
-          disabled={!playing}
-          trigger={['click']}
-          menu={{
-            items: scopeItems('reveal'),
-            onClick: ({ key }) => (key === 'puzzle' ? setOverlay('confirmReveal') : reveal(key as Scope)),
-          }}
-        >
-          <Button variant='sun' size='sm' className={tool} aria-label={t('reveal.label')}>
-            <Eye aria-hidden className='size-5' />
-            <span className={label}>{t('reveal.label')}</span>
-          </Button>
-        </Dropdown>
-        <Dropdown trigger={['click']} placement='bottomRight' menu={{ items: moreItems, onClick: onMore }}>
-          <Button variant='outline' size='sm' className='h-11 px-3' aria-label={t('more')}>
-            <MoreHorizontal aria-hidden className='size-5' />
-          </Button>
-        </Dropdown>
-      </div>
+      <div className='ms-auto flex items-center gap-2'>{tools}</div>
 
       <Dialog
         open={overlay === 'confirmReveal'}

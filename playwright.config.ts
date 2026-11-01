@@ -7,8 +7,8 @@ import { defineConfig, devices } from '@playwright/test'
  *   RATE_LIMIT_ENABLED=false pnpm dev    # web :7007 + api :9007; every test shares one IP
  *   pnpm test:e2e
  *
- * Three viewports, because the board has three layouts: desktop (clue columns either side),
- * tablet (clue panel beside or below), phone (clue bar + on-screen keyboard, clue sheet).
+ * Three viewports: desktop (the board as a page, clue columns either side), and the full-screen
+ * game layout on a tablet and a phone (one menu for every action, clue bar + on-screen keyboard).
  */
 const BASE_URL = process.env.E2E_BASE_URL ?? 'http://localhost:7007'
 

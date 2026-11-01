@@ -15,6 +15,9 @@ import { IconButton } from '@components/ui/IconButton'
  */
 const GUTTER = 0.01
 
+/** The zoom buttons' row under the frame: the gap and a 44 px button. */
+const ZOOM_ROW = '3.25rem'
+
 /**
  * The frame the grid is played in, with − / + / reset under it. At the starting zoom the whole
  * grid fits; zoomed in, it scrolls and pans (see `useBoardZoom` for the gestures).
@@ -22,19 +25,24 @@ const GUTTER = 0.01
  * Three layers: the scrolling frame; a layer as wide as the zoom that clips, so a grid drawn
  * larger mid-gesture never stretches the scroll range; and the layer a gesture transforms.
  * The grid inside is passed as `children`, so a zoom change never re-renders it.
+ *
+ * `fit`: as large as the nearest size container (`[container-type:size]`) allows — width and
+ * height, the zoom row included.
  */
-type BoardViewportProps = { columns: number; rows: number; style?: CSSProperties; className?: string; children: ReactNode }
+type BoardViewportProps = { columns: number; rows: number; fit?: boolean; style?: CSSProperties; className?: string; children: ReactNode }
 
-export const BoardViewport = ({ columns, rows, style, className, children }: BoardViewportProps) => {
+export const BoardViewport = ({ columns, rows, fit, style, className, children }: BoardViewportProps) => {
   const t = useTranslations('Play.zoom')
   const coarse = useCoarsePointer()
   const { viewportRef, contentRef, zoom, zoomBy, reset } = useBoardZoom()
   const zoomed = zoom > ZOOM_MIN
   // The frame is exactly as tall as the grid plus its gutter at the starting zoom.
-  const aspectRatio = `${columns} / ${rows * (1 - 2 * GUTTER) + columns * 2 * GUTTER}`
+  const frameRows = rows * (1 - 2 * GUTTER) + columns * 2 * GUTTER
+  const aspectRatio = `${columns} / ${frameRows}`
+  const fitStyle: CSSProperties | undefined = fit ? { width: `min(100cqw, (100cqh - ${ZOOM_ROW}) * ${columns / frameRows})` } : undefined
 
   return (
-    <div className={cn('flex flex-col gap-2', className)} style={style}>
+    <div className={cn('flex flex-col gap-2', className)} style={{ ...fitStyle, ...style }}>
       <div
         ref={viewportRef}
         className={cn(
