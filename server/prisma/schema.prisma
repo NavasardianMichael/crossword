@@ -157,6 +157,11 @@ model GenerationLog {
   promptVariant String
   /// Gemini calls this generation cost, the judge pass included.
   calls         Int      @default(1)
+  /// Tokens billed for those calls. `outputTokens` excludes `thoughtTokens`; both bill as output.
+  promptTokens  Int      @default(0)
+  cachedTokens  Int      @default(0)
+  outputTokens  Int      @default(0)
+  thoughtTokens Int      @default(0)
   returned      Int
   valid         Int
   verified      Int

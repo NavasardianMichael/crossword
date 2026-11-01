@@ -49,9 +49,12 @@ export const refillTick = async (): Promise<number> => {
         continue
       }
 
-      calls += 1
       try {
-        await generateIntoPool(bucket.locale, topic, bucket.difficulty)
+        // Real calls, not generations: one generation spends up to four (two attempts, each judged).
+        const spent = (await generateIntoPool(bucket.locale, topic, bucket.difficulty)).calls
+        // Nothing spent: the daily budget ran out — the bucket stays urgent for tomorrow.
+        if (!spent) break
+        calls += spent
         await clearUrgent(bucket.locale, bucket.topic, bucket.difficulty)
       } catch (error) {
         // Quota or overload: stop for this tick; the cooldowns in lib/gemini.ts decide when to retry.

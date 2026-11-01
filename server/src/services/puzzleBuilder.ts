@@ -79,7 +79,7 @@ const topUp = async (request: BuildRequest, topic: TopicChoice): Promise<boolean
   if (!isGeminiConfigured() || inlineGenerations >= MAX_INLINE_GENERATIONS) return false
   inlineGenerations++
   try {
-    return (await generateIntoPool(request.locale, topic === 'any' ? 'general' : topic, request.difficulty)) > 0
+    return (await generateIntoPool(request.locale, topic === 'any' ? 'general' : topic, request.difficulty)).inserted > 0
   } catch (error) {
     console.warn(`[puzzle] inline generation failed for ${request.locale}/${topic}:`, (error as Error).message)
     return false

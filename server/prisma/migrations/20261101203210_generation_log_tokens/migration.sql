@@ -1,0 +1,5 @@
+-- AlterTable
+ALTER TABLE "GenerationLog" ADD COLUMN     "cachedTokens" INTEGER NOT NULL DEFAULT 0,
+ADD COLUMN     "outputTokens" INTEGER NOT NULL DEFAULT 0,
+ADD COLUMN     "promptTokens" INTEGER NOT NULL DEFAULT 0,
+ADD COLUMN     "thoughtTokens" INTEGER NOT NULL DEFAULT 0;

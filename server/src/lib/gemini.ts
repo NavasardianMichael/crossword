@@ -75,7 +75,19 @@ export type GenerateJsonOptions = {
   avoidModel?: string
 }
 
-export type GenerateJsonResult = { text: string; model: string }
+/** Billed tokens of one call. `output` excludes `thoughts`; both are billed at the output rate. */
+export type TokenUsage = { prompt: number; cached: number; output: number; thoughts: number }
+
+export const NO_USAGE: TokenUsage = { prompt: 0, cached: 0, output: 0, thoughts: 0 }
+
+export const addUsage = (a: TokenUsage, b: TokenUsage): TokenUsage => ({
+  prompt: a.prompt + b.prompt,
+  cached: a.cached + b.cached,
+  output: a.output + b.output,
+  thoughts: a.thoughts + b.thoughts,
+})
+
+export type GenerateJsonResult = { text: string; model: string; usage: TokenUsage }
 
 /** Runs the prompt down the model chain and returns the first model's raw JSON text. */
 export const generateJson = async (options: GenerateJsonOptions): Promise<GenerateJsonResult> => {
@@ -104,7 +116,17 @@ export const generateJson = async (options: GenerateJsonOptions): Promise<Genera
         contents: options.contents,
         config: { ...generationConfig, thinkingConfig: { thinkingLevel } },
       })
-      return { text: response.text ?? '', model: name }
+      const usage = response.usageMetadata
+      return {
+        text: response.text ?? '',
+        model: name,
+        usage: {
+          prompt: usage?.promptTokenCount ?? 0,
+          cached: usage?.cachedContentTokenCount ?? 0,
+          output: usage?.candidatesTokenCount ?? 0,
+          thoughts: usage?.thoughtsTokenCount ?? 0,
+        },
+      }
     } catch (error) {
       if (!FALLBACK_STATUSES.includes(getStatus(error))) throw error
       modelCooldowns.set(name, Date.now() + getCooldownMs(error))

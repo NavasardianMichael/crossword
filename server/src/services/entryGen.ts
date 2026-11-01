@@ -4,7 +4,7 @@ import { config } from '../config.js'
 import { normalizeWord } from '../lib/alphabet.js'
 import { LOCALE_CONTENT } from '../lib/content/index.js'
 import type { ContentExample } from '../lib/content/types.js'
-import { generateJson } from '../lib/gemini.js'
+import { addUsage, generateJson, NO_USAGE, type TokenUsage } from '../lib/gemini.js'
 import { type Difficulty, type Locale, PROPER_NOUN_TOPICS, type Topic } from '../lib/puzzle.js'
 
 /**
@@ -25,7 +25,7 @@ import { type Difficulty, type Locale, PROPER_NOUN_TOPICS, type Topic } from '..
 export const BATCH_SIZE = 25
 
 /** Bumped when the prompt changes, so `GenerationLog` can compare yields across versions. */
-export const PROMPT_VARIANT = 'v1'
+export const PROMPT_VARIANT = 'v2'
 
 export type Seeding = {
   subtopic: string
@@ -123,21 +123,20 @@ const JUDGE_SCHEMA: Schema = {
       type: Type.ARRAY,
       items: {
         type: Type.OBJECT,
+        // One flag, not one per criterion: the criteria are only ever ANDed, and output tokens are billed.
         properties: {
           index: { type: Type.INTEGER },
-          realWord: { type: Type.BOOLEAN },
-          rightForm: { type: Type.BOOLEAN },
-          clueCorrect: { type: Type.BOOLEAN },
-          natural: { type: Type.BOOLEAN },
+          ok: { type: Type.BOOLEAN },
         },
-        required: ['index', 'realWord', 'rightForm', 'clueCorrect', 'natural'],
+        required: ['index', 'ok'],
+        propertyOrdering: ['index', 'ok'],
       },
     },
   },
   required: ['verdicts'],
 }
 
-type Verdict = { index: number; realWord: boolean; rightForm: boolean; clueCorrect: boolean; natural: boolean }
+type Verdict = { index: number; ok: boolean }
 
 /**
  * A second opinion from a different model, acting as the puzzle editor. A blind "solve it"
@@ -149,23 +148,24 @@ export const judgeEntries = async (
   entries: ValidEntry[],
   locale: Locale,
   generatorModel: string
-): Promise<{ entries: ValidEntry[]; verified: boolean }> => {
-  if (!entries.length) return { entries, verified: true }
+): Promise<{ entries: ValidEntry[]; verified: boolean; usage: TokenUsage }> => {
+  if (!entries.length) return { entries, verified: true, usage: NO_USAGE }
   const { name, styleGuide } = LOCALE_CONTENT[locale]
   const listing = entries
     .map((entry, index) => `${index}. ${entry.word} — ${entry.clue} | ${entry.shortClue}${entry.kind === 'proper' ? ' (proper noun)' : ''}`)
     .join('\n')
 
+  let usage = NO_USAGE
   try {
-    const { text } = await generateJson({
+    const judged = await generateJson({
       avoidModel: generatorModel,
       systemInstruction: [
         `You are a strict editor of ${name} crossword puzzles and a native ${name} speaker.`,
-        'For every numbered entry "word — clue | short clue", answer:',
-        `- realWord: the word really exists in ${name} and is well known (or is a well-known proper noun when marked so).`,
-        '- rightForm: the word is in the dictionary form the style guide requires.',
-        '- clueCorrect: both clues are factually right, point at this word, and do not give away its root.',
-        `- natural: both clues read as idiomatic native ${name}, not as a translation.`,
+        'For every numbered entry "word — clue | short clue", answer ok: true only when ALL of these hold:',
+        `- the word really exists in ${name} and is well known (or is a well-known proper noun when marked so);`,
+        '- the word is in the dictionary form the style guide requires;',
+        '- both clues are factually right, point at this word, and do not give away its root;',
+        `- both clues read as idiomatic native ${name}, not as a translation.`,
         'Style guide:',
         styleGuide,
       ].join('\n'),
@@ -174,16 +174,13 @@ export const judgeEntries = async (
       temperature: 0,
       maxOutputTokens: 4096,
     })
-    const verdicts = (JSON.parse(text) as { verdicts?: unknown }).verdicts
-    if (!Array.isArray(verdicts)) return { entries, verified: false }
-    const passed = new Set(
-      (verdicts as Verdict[])
-        .filter((verdict) => verdict.realWord && verdict.rightForm && verdict.clueCorrect && verdict.natural)
-        .map((verdict) => verdict.index)
-    )
-    return { entries: entries.filter((_, index) => passed.has(index)), verified: true }
+    usage = judged.usage
+    const verdicts = (JSON.parse(judged.text) as { verdicts?: unknown }).verdicts
+    if (!Array.isArray(verdicts)) return { entries, verified: false, usage }
+    const passed = new Set((verdicts as Verdict[]).filter((verdict) => verdict.ok).map((verdict) => verdict.index))
+    return { entries: entries.filter((_, index) => passed.has(index)), verified: true, usage }
   } catch {
-    return { entries, verified: false }
+    return { entries, verified: false, usage }
   }
 }
 
@@ -193,6 +190,8 @@ export type GenerationResult = {
   verified: boolean
   /** Gemini calls spent, the judge included. */
   calls: number
+  /** Tokens billed for those calls. */
+  usage: TokenUsage
   returned: number
   valid: number
   /** Proposed words that failed validation or the judge — named in the next attempt's avoid list. */
@@ -201,7 +200,7 @@ export type GenerationResult = {
 
 /** One generation (plus the judge). Throws `AllModelsFailedError` when the chain is exhausted. */
 export const generateEntries = async (params: GenerateParams): Promise<GenerationResult> => {
-  const { text, model } = await generateJson({
+  const { text, model, usage } = await generateJson({
     systemInstruction: buildSystemInstruction(params.locale, params.seeding.examples),
     contents: buildPrompt(params),
     schema: ENTRIES_SCHEMA,
@@ -214,7 +213,7 @@ export const generateEntries = async (params: GenerateParams): Promise<Generatio
   const { entries: valid } = validateBatch(candidates, params.locale, params.topic)
   const judged = config.gemini.verifyEntries
     ? await judgeEntries(valid, params.locale, model)
-    : { entries: valid, verified: false }
+    : { entries: valid, verified: false, usage: NO_USAGE }
 
   const kept = new Set(judged.entries.map(({ answer }) => answer))
   const lower = (word: string) => word.trim().toLocaleLowerCase(params.locale)
@@ -223,6 +222,7 @@ export const generateEntries = async (params: GenerateParams): Promise<Generatio
     model,
     verified: judged.verified && config.gemini.verifyEntries,
     calls: config.gemini.verifyEntries && valid.length ? 2 : 1,
+    usage: addUsage(usage, judged.usage),
     returned: candidates.length,
     valid: valid.length,
     rejectedWords: candidates

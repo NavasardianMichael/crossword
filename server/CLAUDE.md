@@ -20,8 +20,9 @@
   pool is thin, and the slice's existing words as the avoid list. Every item passes
   `entryValidation.ts` (alphabet, length in cells, proper nouns only in their topics, script,
   giveaways) and then the judge pass; failures are dropped, never repaired.
-- **Quota:** every Gemini call is logged in `GenerationLog` (`calls`); `POOL_DAILY_CALL_BUDGET`
-  is checked before generating. Inline generation is one batch per request, two at once globally;
+- **Quota:** every Gemini call is logged in `GenerationLog` (`calls` and the billed tokens);
+  `POOL_DAILY_CALL_BUDGET` is checked before every attempt, for each call it may spend, and the
+  refill job's per-tick cap counts real calls, not generations. Inline generation is one batch per request, two at once globally;
   the refill job does the rest, demand-ordered (`PoolDemand`, urgent first).
 - **Puzzles** are immutable snapshots (`Puzzle.data` = the `PuzzleView` minus id/createdAt);
   `servedCount` counts only words actually placed. Layout is pure and seeded (`lib/layout/`),

@@ -150,24 +150,30 @@ export const callsToday = async (): Promise<number> => {
   return _sum.calls ?? 0
 }
 
+export type PoolGeneration = { inserted: number; calls: number }
+
 /** Concurrent requests for one bucket share one generation instead of each spending quota. */
-const inFlight = new Map<string, Promise<number>>()
+const inFlight = new Map<string, Promise<PoolGeneration>>()
 
 /**
- * Generates one batch into the pool and returns how many new words it stored. Two attempts: an
- * all-repeat batch is usually a fluke, and the retry names the words that were rejected.
+ * Generates one batch into the pool: how many new words it stored, and the Gemini calls it
+ * spent. Two attempts: an all-repeat batch is usually a fluke, and the retry names the words
+ * that were rejected. The budget is checked before each attempt, for every call it may spend.
  */
-export const generateIntoPool = (locale: Locale, topic: Topic, difficulty: Difficulty): Promise<number> => {
+export const generateIntoPool = (locale: Locale, topic: Topic, difficulty: Difficulty): Promise<PoolGeneration> => {
   const key = `${locale}:${topic}:${difficulty}`
   const existing = inFlight.get(key)
   if (existing) return existing
 
-  const task = (async () => {
-    if (!isGeminiConfigured() || (await callsToday()) >= config.gemini.dailyCallBudget) return 0
+  const task = (async (): Promise<PoolGeneration> => {
+    let calls = 0
+    if (!isGeminiConfigured()) return { inserted: 0, calls }
+    const callsPerAttempt = config.gemini.verifyEntries ? 2 : 1
     const random = createRandom(Date.now() >>> 0)
     const rejected: string[] = []
 
     for (let attempt = 0; attempt < 2; attempt++) {
+      if ((await callsToday()) + callsPerAttempt > config.gemini.dailyCallBudget) break
       const seeding = await pickSeeding(locale, topic, random)
       seeding.avoid.push(...rejected)
       const started = Date.now()
@@ -188,6 +194,10 @@ export const generateIntoPool = (locale: Locale, topic: Topic, difficulty: Diffi
           model: result.model,
           promptVariant: PROMPT_VARIANT,
           calls: result.calls,
+          promptTokens: result.usage.prompt,
+          cachedTokens: result.usage.cached,
+          outputTokens: result.usage.output,
+          thoughtTokens: result.usage.thoughts,
           returned: result.returned,
           valid: result.valid,
           verified: result.entries.length,
@@ -196,10 +206,11 @@ export const generateIntoPool = (locale: Locale, topic: Topic, difficulty: Diffi
           ms: Date.now() - started,
         },
       })
-      if (stored.inserted) return stored.inserted
+      calls += result.calls
+      if (stored.inserted) return { inserted: stored.inserted, calls }
       rejected.push(...result.rejectedWords)
     }
-    return 0
+    return { inserted: 0, calls }
   })().finally(() => inFlight.delete(key))
 
   inFlight.set(key, task)
