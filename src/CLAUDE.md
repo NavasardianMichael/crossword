@@ -17,7 +17,8 @@
 - **The board:** rules are pure helpers (`helpers/puzzle/{model,cursor,check,seen}.ts`, unit
   tested); `store/puzzle/play` sequences them, keeps the clock and saves progress to IndexedDB
   (debounced, flushed on hide/pagehide). An unfinished game with letters in it asks before
-  the page is left (`hooks/useLeaveGuard.ts`: `beforeunload` + a confirm on in-app links). Typing goes through `foldTyped` / `mergeTyped` from
+  the page is left (`hooks/useLeaveGuard.ts`: `beforeunload`, a confirm on in-app links and Back, and
+  `confirmLeave()` before any router call — New puzzle, the language switch). Typing goes through `foldTyped` / `mergeTyped` from
   `constants/alphabet.ts` — Armenian `ո` then `ւ` completes `ու` in the cell `ո` went into.
 - **Accessibility:** the grid is an ARIA grid with one tab stop (roving tabindex), labelled
   cells, a polite live region for checks/reveals/solve, `aria-describedby` to the active clue.

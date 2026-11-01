@@ -6,7 +6,7 @@ import { useTranslations } from 'next-intl'
 import { useCreateStore } from '@store/puzzle/create/store'
 import { usePlayStore, usePlayStoreBase } from '@store/puzzle/play/store'
 import { useCoarsePointer } from '@hooks/useCoarsePointer'
-import { useLeaveGuard } from '@hooks/useLeaveGuard'
+import { confirmLeave, useLeaveGuard } from '@hooks/useLeaveGuard'
 import { useRouter } from '@i18n/navigation'
 import type { PuzzleView } from '@constants/puzzle'
 import { puzzlePath } from '@constants/routes'
@@ -108,7 +108,7 @@ export const PuzzleBoard = ({ id, initial }: PuzzleBoardProps) => {
   const closeSolved = () => setDismissedSolve(announcement?.id ?? null)
 
   const newPuzzle = async () => {
-    if (!puzzle) return
+    if (!puzzle || !confirmLeave()) return
     const next = await createPuzzle(puzzle.locale, { format: puzzle.format, topic: puzzle.topic, difficulty: puzzle.difficulty })
     if (next) {
       closeSolved()

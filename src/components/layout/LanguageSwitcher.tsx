@@ -4,6 +4,7 @@ import { useTransition } from 'react'
 import { Dropdown } from 'antd'
 import { Check, ChevronDown, Globe } from 'lucide-react'
 import { useLocale, useTranslations } from 'next-intl'
+import { confirmLeave } from '@hooks/useLeaveGuard'
 import { setLocale } from '@i18n/actions'
 import { isLocale, type Locale, LOCALE_LABELS, LOCALES } from '@i18n/config'
 import { usePathname, useRouter } from '@i18n/navigation'
@@ -24,7 +25,7 @@ export const LanguageSwitcher = ({ className }: { className?: string }) => {
   const pathname = usePathname()
 
   const choose = (next: Locale) => {
-    if (next === locale) return
+    if (next === locale || !confirmLeave()) return
     startTransition(async () => {
       await setLocale(next)
       // Read at click time rather than via useSearchParams, which would need a Suspense boundary.

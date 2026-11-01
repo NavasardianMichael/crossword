@@ -15,6 +15,15 @@ const createPuzzle = async (page: Page, locale: string, format: 'classic' | 'sca
   await expect(page.getByRole('grid')).toBeVisible()
 }
 
+/** Resolves with the type of the next dialog, which is refused. */
+const refuseNextDialog = (page: Page) =>
+  new Promise<string>((resolve) =>
+    page.once('dialog', (dialog) => {
+      resolve(dialog.type())
+      void dialog.dismiss()
+    })
+  )
+
 test.describe('server rendering', () => {
   test.use({ javaScriptEnabled: false })
 
@@ -160,13 +169,40 @@ test('leaving an unfinished game asks first', async ({ page }) => {
   await expect(page.getByRole('grid')).toBeVisible()
   expect(page.url()).toBe(board)
 
+  // Buttons that navigate through the router: the same confirm.
+  let asked = refuseNextDialog(page)
+  await page.getByRole('button', { name: 'New puzzle' }).click()
+  expect(await asked).toBe('confirm')
+  await expect(page.getByRole('grid')).toBeVisible()
+  expect(page.url()).toBe(board)
+
+  asked = refuseNextDialog(page)
+  await page.getByRole('button', { name: 'Choose language' }).click()
+  await page.getByRole('menuitem', { name: 'Русский' }).click()
+  expect(await asked).toBe('confirm')
+  await expect(page.getByRole('grid')).toBeVisible()
+  expect(page.url()).toBe(board)
+
+  // Back to the generator: asked on the page itself, which stays put when refused.
+  asked = refuseNextDialog(page)
+  void page.goBack().catch(() => undefined)
+  expect(await asked).toBe('confirm')
+  await expect(page.getByRole('grid')).toBeVisible()
+  expect(page.url()).toBe(board)
+
   // Reloading or closing the tab: the browser's own prompt.
-  const asked = new Promise<string>((resolve) =>
-    page.once('dialog', (dialog) => {
-      resolve(dialog.type())
-      void dialog.dismiss()
-    })
-  )
+  asked = refuseNextDialog(page)
   void page.reload().catch(() => undefined)
   expect(await asked).toBe('beforeunload')
+})
+
+test('an agreed Back leaves an unfinished game in one press', async ({ page }) => {
+  await createPuzzle(page, 'en')
+  await page.locator('[role="gridcell"][tabindex="0"]').focus()
+  await page.keyboard.type('q')
+
+  page.once('dialog', (dialog) => void dialog.accept())
+  void page.goBack().catch(() => undefined)
+  await page.waitForURL((url) => url.pathname === '/en')
+  await expect(page.locator('form button[type="submit"]')).toBeVisible()
 })
