@@ -1,4 +1,4 @@
-import { MAX_EXCLUDE } from './puzzle'
+import { type Locale, MAX_EXCLUDE } from './puzzle'
 
 /**
  * The English brand: the web manifest (one per site) and JSON-LD `alternateName`. Everything a
@@ -6,8 +6,12 @@ import { MAX_EXCLUDE } from './puzzle'
  */
 export const APP_NAME = 'Crossword AI'
 
-/** The site-wide link preview (`src/app/opengraph-image.tsx`), the size every network expects. */
-export const OG_IMAGE_PATH = '/opengraph-image'
+/**
+ * Link previews (`src/app/og/`), at the size every network expects: one card per language,
+ * and one per shared puzzle. The `.png` keeps them out of the proxy's locale redirect.
+ */
+export const ogImagePath = (locale: Locale): string => `/og/${locale}.png`
+export const ogPuzzleImagePath = (id: string): string => `/og/p/${id}.png`
 export const OG_IMAGE_SIZE = { width: 1200, height: 630 } as const
 
 export const SITE_URL_FALLBACK = 'http://localhost:7007'

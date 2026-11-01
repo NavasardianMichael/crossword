@@ -19,6 +19,7 @@ pnpm verify                   # typecheck → typecheck:server → gates → lin
 pnpm test:unit                # fast, no database (layout fuzzing, alphabet, validation, board logic)
 pnpm test:integration         # real API against a throwaway crossword_test database, Gemini off
 pnpm test:e2e                 # Playwright, needs `pnpm dev` running
+pnpm screenshots              # re-capture the manifest's install screenshots, needs `pnpm dev` running
 pnpm check:messages           # ru/hy catalogues match en.json (keys, placeholders, plurals)
 pnpm --filter crossword-server exec tsx prisma/check-seed.ts [locale]   # validate seed words + prompt material
 pnpm build:api                # server/dist + the deployable out/api release
@@ -46,9 +47,9 @@ pnpm env:base64 production | clip   # server/.env.production.local -> the ENV_AP
 | Locales, routing, metadata, hreflang | `src/i18n/` · catalogues `src/messages/` |
 | Design tokens | `src/styles/tokens.ts` (owner) → `theme.ts` (antd) → `globals.css` §1 mirror + §2 `--ant-*` aliases |
 | UI kit (antd wrappers) | `src/components/ui/` (`bare/` and `layout/` render on the server) |
-| SEO/GEO: sitemap, robots, JSON-LD, link preview, llms.txt | `src/app/sitemap.ts`, `robots.ts`, `opengraph-image.tsx`, `llms.txt/`, `src/linkedDataSchema/`, `src/helpers/llms.ts` |
+| SEO/GEO: sitemap, robots, JSON-LD, link preview, llms.txt | `src/app/sitemap.ts`, `robots.ts`, `og/` + `src/components/brand/SocialCard.tsx`, `llms.txt/`, `src/linkedDataSchema/`, `src/helpers/llms.ts` |
 | Sharing a puzzle (app links, copy, share sheet) | `src/components/puzzle/ShareDialog.tsx` · `src/helpers/share.ts` |
-| PWA: manifest, service worker, offline play shell | `src/app/manifest.ts`, `src/app/sw.js/route.ts` + `src/helpers/pwa.ts`, `src/app/[lang]/play/` |
+| PWA: manifest, service worker, offline play shell | `src/app/manifest.ts` + `src/constants/pwa.ts` (screenshots in `public/screenshots/`), `src/app/sw.js/route.ts` + `src/helpers/pwa.ts`, `src/app/[lang]/play/` |
 | Deploying | `docs/DEPLOYMENT.md` (how) · `docs/PRODUCTION_SETUP.md` (manual setup, in order) · `deployment/`, `.github/workflows/` |
 
 Per-layer rules: `src/CLAUDE.md` (web) and `server/CLAUDE.md` (API).

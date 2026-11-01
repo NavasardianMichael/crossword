@@ -4,7 +4,7 @@ import { emblemSvg } from './brand'
 export const SERVICE_WORKER_URL = '/sw.js'
 
 /** Bump when the worker's behaviour or the offline document changes: old caches are dropped on activate. */
-export const PWA_CACHE_VERSION = 'v1'
+export const PWA_CACHE_VERSION = 'v2'
 
 const OFFLINE_URL = '/__offline__'
 
@@ -76,7 +76,7 @@ const skip = () => undefined;
 const isStaticAsset = (url) =>
   url.pathname.startsWith('/_next/image') ||
   url.pathname === '/manifest.webmanifest' ||
-  url.pathname === '/icon' || url.pathname === '/apple-icon' || url.pathname === '/icon-maskable' ||
+  url.pathname === '/icon' || url.pathname === '/icon-192' || url.pathname === '/apple-icon' || url.pathname === '/icon-maskable' ||
   /\\.(woff2?|ttf|png|jpe?g|webp|avif|svg|ico|json)$/.test(url.pathname);
 
 const isPage = (url) => url.origin === self.location.origin && !url.pathname.startsWith('/_next/') && !isStaticAsset(url);

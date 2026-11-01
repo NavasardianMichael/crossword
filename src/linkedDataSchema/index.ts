@@ -13,7 +13,7 @@ import type {
 } from 'schema-dts'
 import type { Locale } from '@i18n/config'
 import { localePath } from '@i18n/pathname'
-import { APP_NAME, AUTHOR, OG_IMAGE_PATH } from '@constants/app'
+import { APP_NAME, AUTHOR, ogImagePath } from '@constants/app'
 import { absoluteUrl } from '@helpers/url'
 
 /**
@@ -56,7 +56,7 @@ export const gameSchema = (
   playMode: 'SinglePlayer',
   isAccessibleForFree: true,
   offers: { '@type': 'Offer', price: 0, priceCurrency: 'USD' },
-  image: absoluteUrl(OG_IMAGE_PATH),
+  image: absoluteUrl(ogImagePath(locale)),
   author,
 })
 

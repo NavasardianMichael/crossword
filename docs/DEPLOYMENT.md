@@ -170,7 +170,8 @@ After the first deploy, submit `https://crossword.eapps.site/sitemap.xml`
 in Google Search Console, Yandex Webmaster and Bing Webmaster Tools (63 URLs: the 9
 `INDEXABLE_ROUTES` plus 12 topic pages, × 3 locales — en, ru, hy — with hreflang and x-default).
 Check a shared `/p/<id>` link in a preview debugger (Facebook Sharing Debugger, opengraph.xyz):
-it should show the title, description and `/opengraph-image`. `/llms.txt` and `/llms-full.txt`
+it should show the title, description and the puzzle's own card, `/og/p/<id>.png` (other pages
+show their language's `/og/<locale>.png`). `/llms.txt` and `/llms-full.txt`
 summarise the site for AI assistants.
 
 ## Gotchas

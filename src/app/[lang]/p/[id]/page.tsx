@@ -1,6 +1,7 @@
 import type { Metadata } from 'next'
 import { getTranslations } from 'next-intl/server'
 import { pageMetadata } from '@i18n/metadata'
+import { ogPuzzleImagePath } from '@constants/app'
 import { puzzlePath } from '@constants/routes'
 import { fetchPuzzle } from '@helpers/serverData'
 import { PuzzleBoard } from '@components/puzzle/PuzzleBoard'
@@ -27,9 +28,11 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   // What a link preview shows: the kind of puzzle, never a clue or an answer.
   const format = t(`Formats.${puzzle.format}.name`)
   const topic = t(puzzle.topic === 'any' ? 'Topics.any' : `Topics.${puzzle.topic}.name`)
+  const title = `${format} · ${topic}`
   return pageMetadata({
     path: puzzlePath(id),
-    title: `${format} · ${topic}`,
+    title,
+    image: { url: ogPuzzleImagePath(puzzle.id), alt: `${title} — ${t('Common.appName')}` },
     description: t('Seo.sharedPuzzleDescription', {
       format: puzzle.format,
       topic,

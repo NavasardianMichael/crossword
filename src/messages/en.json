@@ -77,7 +77,9 @@
     "termsDescription": "The simple terms for using Crossword AI.",
     "puzzleDescription": "A free puzzle made by Crossword AI — solve it in your browser.",
     "sharedPuzzleDescription": "A free {size} {format, select, scanword {scanword} other {crossword}} · {topic} · {difficulty} · {words, plural, one {# word} other {# words}}. Written by AI — solve it right in your browser, no sign-up.",
-    "ogImageAlt": "Crossword AI — free crosswords and scanwords in English, Russian and Armenian"
+    "ogImageAlt": "Crossword AI — free crosswords and scanwords in English, Russian and Armenian",
+    "ogPuzzleCta": "Can you solve it?",
+    "ogPuzzleMeta": "{size} · {words, plural, one {# word} other {# words}}"
   },
   "Formats": {
     "classic": {

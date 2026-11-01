@@ -1,7 +1,7 @@
 import type { Metadata } from 'next'
 import { lang } from 'next/root-params'
 import { getTranslations } from 'next-intl/server'
-import { OG_IMAGE_PATH, OG_IMAGE_SIZE } from '@constants/app'
+import { OG_IMAGE_SIZE, ogImagePath } from '@constants/app'
 import { DEFAULT_LOCALE, isLocale, type Locale, LOCALES, OG_LOCALES } from './config'
 import { localePath } from './pathname'
 
@@ -38,6 +38,8 @@ type PageMetadataInput = {
   noIndex?: boolean
   /** The title is complete already: skip the layout's `%s | {appName}` template (the home page). */
   absoluteTitle?: boolean
+  /** A preview of its own (a shared puzzle's card); otherwise the language's site card. */
+  image?: { url: string; alt: string }
 }
 
 /**
@@ -51,10 +53,11 @@ export const pageMetadata = async ({
   description,
   noIndex,
   absoluteTitle,
+  image: ownImage,
 }: PageMetadataInput): Promise<Metadata> => {
   const locale = await currentLocale()
   const t = await getTranslations()
-  const image = { url: OG_IMAGE_PATH, ...OG_IMAGE_SIZE, alt: t('Seo.ogImageAlt') }
+  const image = { ...(ownImage ?? { url: ogImagePath(locale), alt: t('Seo.ogImageAlt') }), ...OG_IMAGE_SIZE, type: 'image/png' }
   return {
     title: absoluteTitle ? { absolute: title } : title,
     description,

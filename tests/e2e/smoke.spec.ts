@@ -59,7 +59,7 @@ test.describe('server rendering', () => {
     // The home title is complete on its own: the layout's "| Crossword AI" template is not added twice.
     await expect(page).toHaveTitle(/^[^|]*\| Crossword AI$/)
     await expect(page.locator('meta[property="og:site_name"]')).toHaveAttribute('content', 'Crossword AI')
-    await expect(page.locator('meta[property="og:image"]')).toHaveAttribute('content', /\/opengraph-image$/)
+    await expect(page.locator('meta[property="og:image"]')).toHaveAttribute('content', /\/og\/en\.png$/)
   })
 
   test('the FAQ page answers in full, with FAQPage data', async ({ page }) => {
@@ -81,6 +81,16 @@ test('a puzzle is shared through the apps its language uses', async ({ page }) =
   const first = dialog.getByRole('link').first()
   await expect(first).toHaveText('Telegram')
   await expect(first).toHaveAttribute('href', /^https:\/\/t\.me\/share\/url\?url=.*%2Fru%2Fp%2F.*utm_source%3Dtelegram/)
+})
+
+test('a shared puzzle previews as its own card', async ({ page, request }) => {
+  await createPuzzle(page, 'hy')
+  const id = new URL(page.url()).pathname.split('/').pop()
+  const image = await page.locator('meta[property="og:image"]').getAttribute('content')
+  expect(image?.endsWith(`/og/p/${id}.png`)).toBe(true)
+  const response = await request.get(new URL(image!).pathname)
+  expect(response.status()).toBe(200)
+  expect(response.headers()['content-type']).toBe('image/png')
 })
 
 test('an unprefixed visit goes to the browser language', async ({ browser }) => {

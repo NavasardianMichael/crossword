@@ -19,7 +19,7 @@ import { routing } from '@i18n/routing'
 const handleI18nRouting = createMiddleware(routing)
 
 /** Extension-less metadata routes; without this list `/icon` would 307 to `/en/icon`. */
-const LOCALE_AGNOSTIC = new Set(['/icon', '/apple-icon', '/icon-maskable', '/opengraph-image', '/monitoring'])
+const LOCALE_AGNOSTIC = new Set(['/icon', '/apple-icon', '/icon-192', '/icon-maskable', '/monitoring'])
 
 const negotiateLocale = (request: NextRequest) => {
   const chosen = request.cookies.get(LOCALE_COOKIE)?.value

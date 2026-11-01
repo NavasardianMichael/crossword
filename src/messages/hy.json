@@ -77,7 +77,9 @@
     "termsDescription": "Խաչբառ AI-ից օգտվելու պարզ պայմանները։",
     "puzzleDescription": "Անվճար գլուխկոտրուկ Խաչբառ AI-ից՝ լուծիր հենց դիտարկիչում։",
     "sharedPuzzleDescription": "Անվճար {format, select, scanword {սկանվորդ} other {խաչբառ}} {size} · {topic} · {difficulty} · {words, plural, one {# բառ} other {# բառ}}։ Կազմել է արհեստական բանականությունը՝ լուծիր հենց դիտարկիչում, առանց գրանցման։",
-    "ogImageAlt": "Խաչբառ AI — անվճար խաչբառեր և սկանվորդներ հայերեն, ռուսերեն և անգլերեն"
+    "ogImageAlt": "Խաչբառ AI — անվճար խաչբառեր և սկանվորդներ հայերեն, ռուսերեն և անգլերեն",
+    "ogPuzzleCta": "Կլուծե՞ս",
+    "ogPuzzleMeta": "{size} · {words, plural, one {# բառ} other {# բառ}}"
   },
   "Formats": {
     "classic": {
