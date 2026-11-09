@@ -13,15 +13,15 @@ export const TopicGrid = async ({ withDescriptions = false }: { withDescriptions
       {TOPICS.map((topic) => {
         const { icon: Icon, tile, iconTone } = TOPIC_STYLES[topic]
         return (
-          <li key={topic}>
+          <li key={topic} className='min-w-0'>
             <AppLink
               href={topicPath(topic)}
-              className={cn('flex h-full items-start gap-3 rounded-panel border-2 p-4 transition-all hover:-translate-y-0.5 hover:shadow-chunky', tile)}
+              className={cn('flex h-full min-w-0 items-start gap-3 rounded-panel border-2 p-4 transition-all hover:-translate-y-0.5 hover:shadow-chunky', tile)}
             >
               <span className={cn('flex size-10 shrink-0 items-center justify-center rounded-xl border-2 border-ink-900', iconTone)}>
                 <Icon aria-hidden className='size-5' />
               </span>
-              <span className='min-w-0'>
+              <span className='min-w-0 wrap-anywhere'>
                 <span className='block font-display font-bold text-ink-900'>{t(`${topic}.name`)}</span>
                 {withDescriptions && <span className='mt-1 block text-body-sm text-ink-700'>{t(`${topic}.description`)}</span>}
               </span>

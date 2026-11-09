@@ -24,8 +24,8 @@ export const LanguageSwitcher = ({ className }: { className?: string }) => {
   const router = useRouter()
   const pathname = usePathname()
 
-  const choose = (next: Locale) => {
-    if (next === locale || !confirmLeave()) return
+  const choose = async (next: Locale) => {
+    if (next === locale || !(await confirmLeave())) return
     startTransition(async () => {
       await setLocale(next)
       // Read at click time rather than via useSearchParams, which would need a Suspense boundary.
@@ -40,7 +40,7 @@ export const LanguageSwitcher = ({ className }: { className?: string }) => {
       menu={{
         selectable: true,
         selectedKeys: [locale],
-        onClick: ({ key }) => isLocale(key) && choose(key),
+        onClick: ({ key }) => isLocale(key) && void choose(key),
         items: LOCALES.map((each) => ({
           key: each,
           label: (

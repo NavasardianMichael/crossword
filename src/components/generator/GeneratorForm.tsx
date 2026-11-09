@@ -13,6 +13,7 @@ import { cn } from '@helpers/cn'
 import { Button } from '@components/ui/Button'
 import { ErrorAlert } from '@components/ui/ErrorAlert'
 import { SegmentedControl } from '@components/ui/SegmentedControl'
+import { CreatePendingShield } from './CreatePendingShield'
 
 /**
  * Pick a format, a topic, a difficulty and a size, and get a puzzle of words this device has
@@ -34,6 +35,7 @@ export const GeneratorForm = ({ preset, className }: GeneratorFormProps) => {
   const hydrateOptions = useCreateStore.use.hydrateOptions()
   const setOptions = useCreateStore.use.setOptions()
   const createPuzzle = useCreateStore.use.createPuzzle()
+  const cancelCreate = useCreateStore.use.cancelCreate()
 
   useEffect(() => {
     hydrateOptions()
@@ -43,7 +45,7 @@ export const GeneratorForm = ({ preset, className }: GeneratorFormProps) => {
   }, [])
 
   const submit = async () => {
-    if (!isLocale(locale)) return
+    if (!isLocale(locale) || isPending) return
     const puzzle = await createPuzzle(locale)
     if (puzzle) router.push(puzzlePath(puzzle.id))
   }
@@ -105,13 +107,13 @@ export const GeneratorForm = ({ preset, className }: GeneratorFormProps) => {
               <label
                 key={topic}
                 className={cn(
-                  'inline-flex min-h-11 cursor-pointer items-center gap-2 rounded-full border-2 px-3.5 text-body-sm font-bold transition-all has-focus-visible:ring-4 has-focus-visible:ring-sky-300',
+                  'inline-flex max-w-full min-w-0 cursor-pointer items-center gap-2 rounded-full border-2 px-3.5 text-body-sm font-bold transition-all has-focus-visible:ring-4 has-focus-visible:ring-sky-300',
                   selected ? cn('border-ink-900 shadow-chunky', style?.chip ?? 'bg-sun-100') : 'border-line-strong bg-white hover:border-ink-300'
                 )}
               >
                 <input type='radio' name='topic' value={topic} checked={selected} onChange={() => setOptions({ topic })} className='sr-only' />
-                <Icon aria-hidden className='size-4' />
-                {t(topic === 'any' ? 'Topics.any' : `Topics.${topic}.name`)}
+                <Icon aria-hidden className='size-4 shrink-0' />
+                <span className='min-w-0 wrap-anywhere'>{t(topic === 'any' ? 'Topics.any' : `Topics.${topic}.name`)}</span>
               </label>
             )
           })}
@@ -160,6 +162,7 @@ export const GeneratorForm = ({ preset, className }: GeneratorFormProps) => {
           {isPending ? t('Generator.creatingHint') : t('Generator.freshHint')}
         </p>
       </div>
+      <CreatePendingShield active={isPending} onCancel={cancelCreate} />
     </form>
   )
 }

@@ -1,26 +1,23 @@
 'use client'
 
 import { useState } from 'react'
-import { flushSync } from 'react-dom'
 import { Dropdown, type MenuProps } from 'antd'
-import { CheckCheck, ChevronRight, Eraser, Eye, FileDown, Flag, ListOrdered, MoreHorizontal, Plus, Printer, Settings2, Share2 } from 'lucide-react'
+import { CheckCheck, ChevronRight, Eraser, Eye, FileDown, Flag, ListOrdered, MoreHorizontal, Plus, Settings2, Share2 } from 'lucide-react'
 import { useTranslations } from 'next-intl'
 import { usePlayStore } from '@store/puzzle/play/store'
 import type { Scope } from '@store/puzzle/play/types'
-import { trackEvent } from '@helpers/analytics'
 import { cn } from '@helpers/cn'
 import { Button } from '@components/ui/Button'
 import { Dialog } from '@components/ui/Dialog'
 import { Toggle } from '@components/ui/Toggle'
-import { PrintDialog } from './PrintDialog'
-import { BLANK_PRINT, type PrintOptions, PrintSheet } from './PrintSheet'
+import { PdfDialog } from './PdfDialog'
 import { ReportDialog } from './ReportDialog'
 import { Timer } from './Timer'
 
 /**
  * Tools around the grid, in one row: the clock, check and reveal (letter, word or whole
  * puzzle — a whole reveal asks first), and a "more" menu with clearing wrong letters,
- * settings, printing, a PDF and reporting a bad clue (sharing and a new puzzle sit beside the
+ * settings, a PDF and reporting a bad clue (sharing and a new puzzle sit beside the
  * heading, in `PuzzleBoard`).
  *
  * `compact` (the game layout's top bar): the clock and one menu holding every action — a new
@@ -31,7 +28,7 @@ type ToolbarProps = {
   className?: string
 }
 
-type Overlay = 'none' | 'confirmReveal' | 'settings' | 'print' | 'pdf' | 'report'
+type Overlay = 'none' | 'confirmReveal' | 'settings' | 'pdf' | 'report'
 
 const icon = 'size-4'
 
@@ -45,7 +42,6 @@ export const Toolbar = ({ compact, className }: ToolbarProps) => {
   const clearWrong = usePlayStore.use.clearWrong()
   const setSetting = usePlayStore.use.setSetting()
   const [overlay, setOverlay] = useState<Overlay>('none')
-  const [printOptions, setPrintOptions] = useState<PrintOptions>(BLANK_PRINT)
 
   if (!puzzle) return null
   const playing = status === 'playing'
@@ -55,19 +51,10 @@ export const Toolbar = ({ compact, className }: ToolbarProps) => {
   const scopeItems = (action: 'check' | 'reveal') =>
     (['cell', 'word', 'puzzle'] as Scope[]).map((scope) => ({ key: `${action}:${scope}`, label: t(`${action}.${scope}`) }))
 
-  const print = (options: PrintOptions) => {
-    close()
-    // The sheet must carry the new options before the browser lays the page out for paper.
-    flushSync(() => setPrintOptions(options))
-    trackEvent('puzzle_printed', { format: puzzle.format, ...options })
-    window.print()
-  }
-
   const moreItems: MenuProps['items'] = [
     { key: 'clearWrong', label: t('clearWrong'), icon: <Eraser aria-hidden className={icon} />, disabled: !playing },
     { key: 'settings', label: t('settings.label'), icon: <Settings2 aria-hidden className={icon} /> },
-    { key: 'print', label: t('print.open'), icon: <Printer aria-hidden className={icon} /> },
-    { key: 'pdf', label: t('print.pdfOpen'), icon: <FileDown aria-hidden className={icon} /> },
+    { key: 'pdf', label: t('pdf.open'), icon: <FileDown aria-hidden className={icon} /> },
     { key: 'report', label: t('report.open'), icon: <Flag aria-hidden className={icon} /> },
   ]
   const compactItems: MenuProps['items'] = [
@@ -186,9 +173,7 @@ export const Toolbar = ({ compact, className }: ToolbarProps) => {
           />
         </div>
       </Dialog>
-      <PrintDialog mode='print' open={overlay === 'print'} onClose={close} onPrint={print} />
-      <PrintDialog mode='pdf' open={overlay === 'pdf'} onClose={close} />
-      <PrintSheet options={printOptions} />
+      <PdfDialog open={overlay === 'pdf'} onClose={close} />
       <ReportDialog open={overlay === 'report'} onClose={close} />
     </div>
   )

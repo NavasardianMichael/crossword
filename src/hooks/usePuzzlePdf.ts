@@ -32,8 +32,8 @@ export const usePuzzlePdf = () => {
     const tab = window.open('', '_blank')
     if (tab) {
       tab.opener = null
-      tab.document.title = t('Play.print.preparing')
-      tab.document.body.textContent = t('Play.print.preparing')
+      tab.document.title = t('Play.pdf.preparing')
+      tab.document.body.textContent = t('Play.pdf.preparing')
     }
     setPending(true)
     setError(null)
@@ -44,8 +44,8 @@ export const usePuzzlePdf = () => {
         brand: t('Common.appName'),
         across: t('Play.across'),
         down: t('Play.down'),
-        answers: t('Play.print.answersTitle'),
-        playOnline: t('Play.print.playOnline', { url: absoluteUrl(localePath(puzzle.locale, puzzlePath(puzzle.id))) }),
+        answers: t('Play.pdf.answersTitle'),
+        playOnline: t('Play.pdf.playOnline', { url: absoluteUrl(localePath(puzzle.locale, puzzlePath(puzzle.id))) }),
       }
       const fonts = await loadPdfFonts(needsArmenian({ puzzle, labels }))
       const bytes = await buildPuzzlePdf(

@@ -3,13 +3,7 @@ import { useSyncExternalStore } from 'react'
 /** globals.css's `game` and `game-page` variants (which hide the site's header and footer) use the same query, on screen. */
 const QUERY = '(width < 64rem), (pointer: coarse)'
 
-// While printing, the page is measured as paper: the screen's answer is kept, so the board (and
-// the print sheet it owns) is not rebuilt in the other layout mid-print.
-let onScreen = false
-const read = () => {
-  if (!window.matchMedia('print').matches) onScreen = window.matchMedia(QUERY).matches
-  return onScreen
-}
+const read = () => window.matchMedia(QUERY).matches
 
 const subscribe = (onChange: () => void) => {
   const media = window.matchMedia(QUERY)

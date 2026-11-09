@@ -4,12 +4,12 @@ import type { Arrow, Direction, PuzzleView } from '@constants/puzzle'
 import { INK } from '@styles/tokens'
 
 /**
- * The printed sheet (components/puzzle/PrintSheet.tsx) as a real, vector PDF, built in the
- * browser — so it works offline, costs the server nothing, and its text stays selectable.
- * `pdf-lib` and the fonts load only when a PDF is asked for.
+ * The puzzle as a real, vector PDF, built in the browser — so it works offline, costs the
+ * server nothing, and its text stays selectable. `pdf-lib` and the fonts load only when a
+ * PDF is asked for.
  *
- * Laid out in top-down points (`Y` flips to PDF space at the last moment). Unlike the CSS
- * sheet, a scanword clue is fitted to its cell: the size steps down until every line fits.
+ * Laid out in top-down points (`Y` flips to PDF space at the last moment). A scanword clue
+ * is fitted to its cell: the size steps down until every line fits.
  */
 export type PdfLabels = {
   title: string

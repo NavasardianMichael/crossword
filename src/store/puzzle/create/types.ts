@@ -15,6 +15,8 @@ export type CreateState = StateCommonProps & {
 export type CreateActions = {
   hydrateOptions: () => void
   setOptions: (options: Partial<GeneratorOptions>) => void
-  /** A new puzzle of unseen words — from the prefetch queue when one is ready. `null` on failure (see `error`). */
+  /** A new puzzle of unseen words — from the prefetch queue when one is ready. `null` on failure or cancel (see `error`). */
   createPuzzle: (locale: PuzzleView['locale'], options?: Partial<GeneratorOptions>) => Promise<PuzzleView | null>
+  /** Aborts the in-flight create. A cancelled create is not an error. */
+  cancelCreate: () => void
 }

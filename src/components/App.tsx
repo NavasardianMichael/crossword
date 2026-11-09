@@ -4,6 +4,7 @@ import { AntdProvider, type AntdProviderProps } from './AntdProvider'
 import { AppEffects } from './AppEffects'
 import { Footer } from './layout/Footer'
 import { Header } from './layout/Header'
+import { LeaveGuard } from './LeaveGuard'
 import { InstallHint } from './pwa/InstallHint'
 import { PageViewTracker } from './pwa/PageViewTracker'
 import { ServiceWorkerRegistrar } from './pwa/ServiceWorkerRegistrar'
@@ -40,6 +41,7 @@ export const App = ({ children, antdLocale, direction }: AppProps) => {
         <Footer />
       </div>
       <Toaster />
+      <LeaveGuard />
       <InstallHint />
     </AntdProvider>
   )

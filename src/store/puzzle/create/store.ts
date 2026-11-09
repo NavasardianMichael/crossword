@@ -1,3 +1,4 @@
+import axios from 'axios'
 import { create } from 'zustand'
 import { combine } from 'zustand/middleware'
 import { immer } from 'zustand/middleware/immer'
@@ -22,8 +23,14 @@ const PREFETCH_DELAY_MS = 6000
 const queueKey = (locale: Locale, { format, topic, difficulty, size }: GeneratorOptions) =>
   `${locale}:${format}:${topic}:${difficulty}:${size}`
 
-/** Only the latest request may write: a double tap on "new puzzle" fires two. */
+/** Only the latest request may write. A newer create aborts the previous one. */
 let latestRequest = 0
+
+/** The create the player is waiting on, so Cancel can abort that request. */
+let inflight: AbortController | null = null
+
+const isAbort = (signal: AbortSignal, error: unknown): boolean =>
+  signal.aborted || axios.isCancel(error) || (error instanceof DOMException && error.name === 'AbortError')
 
 /** Every puzzle that reaches the device: its words become seen, and it is kept for offline play. */
 const receive = async (puzzle: PuzzleView): Promise<void> => {
@@ -76,30 +83,48 @@ export const useCreateStoreBase = create<CreateState & CreateActions>()(
           writeJson(STORAGE_KEYS.generator, get().options)
         },
 
+        cancelCreate: () => {
+          inflight?.abort()
+        },
+
         createPuzzle: async (locale, overrides) => {
           if (overrides) useCreateStoreBase.getState().setOptions(overrides)
           const options = get().options
           const request = ++latestRequest
+          inflight?.abort()
+          const controller = new AbortController()
+          inflight = controller
+          const { signal } = controller
           set((state) => {
             state.isPending = true
             state.error = null
           })
 
+          const key = queueKey(locale, options)
+          let taken: PuzzleView | undefined
+          let delivered = false
           try {
-            const queued = await takeQueued(queueKey(locale, options))
-            const puzzle = queued ?? (await createPuzzleAPI({ locale, ...options, exclude: readSeen(locale) }))
-            if (!queued) await receive(puzzle)
-            trackEvent('puzzle_created', { locale, ...options, prefetched: Boolean(queued) })
+            taken = await takeQueued(key)
+            if (signal.aborted) return null
+            const puzzle = taken ?? (await createPuzzleAPI({ locale, ...options, exclude: readSeen(locale) }, signal))
+            if (signal.aborted || request !== latestRequest) return null
+            if (!taken) await receive(puzzle)
+            if (signal.aborted || request !== latestRequest) return null
+            trackEvent('puzzle_created', { locale, ...options, prefetched: Boolean(taken) })
             prefetch(locale, options)
-            return request === latestRequest ? puzzle : null
+            delivered = true
+            return puzzle
           } catch (error) {
-            if (request === latestRequest) {
+            if (!isAbort(signal, error) && request === latestRequest) {
               set((state) => {
                 state.error = error
               })
             }
             return null
           } finally {
+            // The prefetch was already taken off the queue. Put it back when this create never opened it.
+            if (!delivered && taken) await putQueued(key, taken)
+            if (inflight === controller) inflight = null
             if (request === latestRequest) {
               set((state) => {
                 state.isPending = false

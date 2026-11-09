@@ -11,7 +11,7 @@ import { AppLink } from '@components/ui/bare/AppLink'
 export const Footer = () => {
   const t = useTranslations()
   const year = new Date().getFullYear()
-  const linkClass = 'text-body-sm font-semibold text-ink-700 transition-colors hover:text-coral-700'
+  const linkClass = 'text-body-sm font-semibold text-ink-700 transition-colors hover:text-coral-700 underline'
 
   return (
     <footer className='mt-16 border-t-2 game-page:hidden border-dashed border-line-strong bg-cream-200/60 pb-safe'>

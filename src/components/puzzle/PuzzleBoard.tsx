@@ -109,14 +109,14 @@ export const PuzzleBoard = ({ id, initial }: PuzzleBoardProps) => {
     }
   }, [])
 
-  useLeaveGuard(unfinished, t('leaveConfirm'))
+  useLeaveGuard(unfinished)
 
   // Solved just now (not reopened solved): celebrate, until dismissed.
   const solvedOpen = announcement?.key === 'solved' && announcement.id !== dismissedSolve
   const closeSolved = () => setDismissedSolve(announcement?.id ?? null)
 
   const newPuzzle = async () => {
-    if (!puzzle || !confirmLeave()) return
+    if (!puzzle || !(await confirmLeave())) return
     const next = await createPuzzle(puzzle.locale, { format: puzzle.format, topic: puzzle.topic, difficulty: puzzle.difficulty })
     if (next) {
       closeSolved()

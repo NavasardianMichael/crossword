@@ -139,27 +139,6 @@ test('Armenian ո then ւ fills one cell with ՈՒ, and և is one letter', async
   await expect(page.locator(`[data-cell="${first}"]`)).toHaveText('և')
 })
 
-test('a scanword prints as a clean sheet, with an answer key on request', async ({ page }) => {
-  await createPuzzle(page, 'en', 'scanword')
-  await page.evaluate(() => {
-    window.print = () => window.dispatchEvent(new Event('beforeprint'))
-  })
-  await page.getByRole('button', { name: 'More' }).click()
-  await page.getByRole('menuitem', { name: 'Print', exact: true }).click()
-  await page.getByRole('switch', { name: 'Add the answers' }).click()
-  await page.getByRole('dialog').getByRole('button', { name: 'Print', exact: true }).click()
-
-  const sheet = page.locator('body > .print-sheet')
-  await expect(sheet).toHaveCount(1)
-  await expect(sheet.getByText('Answers')).toHaveCount(1)
-  await page.emulateMedia({ media: 'print' })
-  await expect(sheet).toBeVisible()
-  await expect(page.locator('main')).toBeHidden()
-
-  await page.evaluate(() => window.dispatchEvent(new Event('afterprint')))
-  await expect(sheet).toHaveCount(0)
-})
-
 test('a scanword opens as a PDF in a new tab', async ({ page }) => {
   await createPuzzle(page, 'hy', 'scanword')
   await page.getByRole('button', { name: 'Ավելին' }).click()

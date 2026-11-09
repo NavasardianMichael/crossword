@@ -34,7 +34,7 @@ const keyFacts = (): string[] => {
     `${TOPICS.length} topics, ${DIFFICULTIES.length} difficulty levels (easy, medium, hard) and ${SIZES.length} sizes (small, medium, large).`,
     'No repeats: each device remembers the words it has shown and excludes them from every new puzzle.',
     'Words and clues are proposed by an AI model (Google Gemini); code builds the grid and drops any invalid word or clue.',
-    'A progressive web app: installable, and puzzles already opened play offline. Puzzles can be shared by link and printed.',
+    'A progressive web app: installable, and puzzles already opened play offline. Puzzles can be shared by link and saved as a PDF.',
     `Made by ${AUTHOR.name} (${AUTHOR.url}).`,
   ]
 }
