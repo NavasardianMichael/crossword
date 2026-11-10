@@ -3,7 +3,7 @@
 import { type CSSProperties, useEffect, useRef } from 'react'
 import { ArrowDown, ArrowRight, CornerDownRight, CornerRightDown } from 'lucide-react'
 import { useTranslations } from 'next-intl'
-import { usePlayStore } from '@store/puzzle/play/store'
+import { usePlayStore, usePlayStoreBase } from '@store/puzzle/play/store'
 import { usePuzzleKeys } from '@hooks/usePuzzleKeys'
 import { displayCell } from '@constants/alphabet'
 import type { Arrow, PuzzleView } from '@constants/puzzle'
@@ -173,7 +173,7 @@ export const Grid = ({ className, focusOnOpen = false }: GridProps) => {
                           <span className='line-clamp-3'>{clueWord.clue}</span>
                           <Icon
                             aria-hidden
-                            className={cn('absolute z-10 size-[0.75em] min-h-2 min-w-2 text-teal-700', ARROW_POSITION[clueWord.arrow!])}
+                            className={cn('absolute z-10 size-[0.75em] min-h-2 min-w-2 text-teal-700', ARROW_POSITION[clueWord.arrow!], clueWord.arrow !== 'down' && 'rtl:-scale-x-100')}
                             strokeWidth={3.5}
                           />
                         </span>
@@ -202,6 +202,11 @@ export const Grid = ({ className, focusOnOpen = false }: GridProps) => {
                   tabIndex={isCursor ? 0 : -1}
                   onClick={() => select(cell)}
                   onKeyDown={onKeyDown}
+                  onCompositionEnd={(event) => {
+                    const data = event.data
+                    if (!data) return
+                    for (const char of data) usePlayStoreBase.getState().type(char)
+                  }}
                   className={cn(
                     'relative flex cursor-pointer items-center justify-center rounded-[16%] border-[0.35cqi] border-ink-900 font-display font-bold text-ink-900 shadow-[0_0.4cqi_0_0_var(--color-ink-300)] outline-none transition-colors duration-150',
                     !inWord && !wrong && (locked && !revealed ? 'bg-mint-100' : 'bg-white'),

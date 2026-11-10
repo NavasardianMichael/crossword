@@ -5,8 +5,8 @@ import { LanguageSwitcher } from './LanguageSwitcher'
 import { MobileMenu } from './MobileMenu'
 
 /**
- * Sticky paper bar with a dashed "cut here" edge. Desktop shows the nav inline; below `lg` it
- * moves into the menu drawer. On a puzzle board in the game layout it steps aside.
+ * Sticky paper bar with a dashed "cut here" edge. Desktop shows the nav inline. The hamburger
+ * opens those links again, and sign-in. On a puzzle board in the game layout it steps aside.
  */
 export const Header = () => (
   <header className='sticky top-0 z-40 border-b-2 game-page:hidden border-dashed border-line-strong bg-cream-100/90 pt-safe backdrop-blur-md'>

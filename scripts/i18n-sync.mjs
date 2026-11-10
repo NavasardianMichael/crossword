@@ -31,7 +31,11 @@ const DIR = path.join(ROOT, 'src/messages')
 const serverRequire = createRequire(path.join(ROOT, 'server/package.json'))
 
 /** Mirrors `LOCALES` in src/constants/puzzle.ts; `en` is the source, the rest are filled. */
-const LOCALES = ['en', 'ru', 'hy']
+const LOCALES = [
+  'en', 'ru', 'hy', 'es', 'pt', 'fr', 'de', 'id', 'mr', 'it', 'pl', 'vi', 'uk',
+  'ar', 'hi', 'ko', 'bn', 'ja', 'zh', 'fa', 'nl', 'ro', 'el', 'cs', 'sv', 'hu',
+  'he', 'fil', 'ms', 'ur', 'th', 'ta', 'sw',
+]
 
 const BRAND = 'Crossword AI'
 

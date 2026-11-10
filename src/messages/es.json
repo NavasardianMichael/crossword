@@ -1,0 +1,716 @@
+{
+  "Common": {
+    "appName": "Crucigramas IA",
+    "tagline": "Crucigramas y autodefinidos gratis, escritos desde cero por inteligencia artificial y en tu idioma. Palabras nuevas en cada partida, sin repeticiones.",
+    "skipToContent": "Saltar al contenido",
+    "openMenu": "Abrir menú",
+    "menu": "Menú",
+    "close": "Cerrar",
+    "retry": "Intentar de nuevo",
+    "chooseLanguage": "Elegir idioma",
+    "language": "Idioma",
+    "copyright": "© {year} {appName}. Hecho de palabras y un poco de magia.",
+    "backOnline": "Ya volviste a tener conexión.",
+    "offline": "Estás sin conexión. Los crucigramas que ya abriste siguen disponibles.",
+    "lastUpdated": "Última actualización: {date}"
+  },
+  "Nav": {
+    "main": "Principal",
+    "footer": "Sitio",
+    "home": "Inicio",
+    "crossword": "Crucigrama",
+    "scanword": "Autodefinido",
+    "topics": "Temas",
+    "history": "Mis crucigramas",
+    "rules": "Cómo jugar",
+    "faq": "Preguntas",
+    "about": "Acerca de",
+    "privacy": "Privacidad",
+    "terms": "Condiciones",
+    "contact": "Contacto"
+  },
+  "Errors": {
+    "network": "No se puede contactar con el servidor. Revisa tu conexión e inténtalo de nuevo.",
+    "rateLimited": "¡Cuántos crucigramas en un minuto! Respira un momento y vuelve a intentarlo.",
+    "unauthorized": "Esta acción no está permitida.",
+    "notFound": "No encontramos eso.",
+    "server": "Algo falló de nuestro lado. Inténtalo de nuevo.",
+    "generic": "Algo salió mal. Inténtalo de nuevo.",
+    "details": "Detalles",
+    "pageErrorTitle": "Uy, se cayó una casilla",
+    "pageErrorBody": "Esta página encontró un error inesperado. Volver a intentarlo suele bastar.",
+    "notFoundTitle": "Esta página no está en la cuadrícula",
+    "notFoundBody": "Puede que el enlace esté viejo o mal escrito. Mejor te buscamos un crucigrama nuevo.",
+    "goHome": "Ir al inicio"
+  },
+  "Pwa": {
+    "install": "Instalar la aplicación",
+    "iosTitle": "Agrega Crucigramas IA a tu pantalla de inicio",
+    "benefit": "Ábrela como una aplicación, a pantalla completa, y sigue resolviendo tus crucigramas guardados sin conexión.",
+    "iosStep1": "Toca el botón Compartir en la barra de Safari.",
+    "iosStep2": "Elige «Agregar a pantalla de inicio». En un iPhone en español de España verás «Añadir a pantalla de inicio».",
+    "iosStep3": "Toca «Agregar» y el icono quedará en tu pantalla de inicio.",
+    "gotIt": "Entendido"
+  },
+  "Seo": {
+    "homeTitle": "Haz un crucigrama online gratis: animales, comida, geografía, historia, ciencia y deporte",
+    "homeDescription": "Crea y haz un crucigrama o un autodefinido gratis, sin registro. Crucigramas de animales, comida, geografía, historia, ciencia y deporte, con palabras nuevas cada vez.",
+    "keywords": "crucigrama, crucigramas, hacer un crucigrama, hacer crucigramas, crear un crucigrama, crear crucigrama, crucigrama online, crucigrama gratis, generador de crucigramas, autodefinido, crucigrama de animales, crucigrama de comida, crucigrama de geografía, crucigrama de historia, crucigrama de ciencia, crucigrama de deportes",
+    "crosswordTitle": "Crucigramas online gratis para resolver",
+    "crosswordDescription": "Resuelve crucigramas gratis escritos por inteligencia artificial: definiciones numeradas en horizontal y vertical, 12 temas y tres niveles. Sin registro y con palabras nuevas.",
+    "scanwordTitle": "Autodefinidos online gratis: las definiciones van en la cuadrícula",
+    "scanwordDescription": "Resuelve autodefinidos gratis: la definición está dentro de la casilla y una flecha señala la respuesta. Hechos por inteligencia artificial, sin registro, en el teléfono, la tableta o la computadora.",
+    "topicsTitle": "Crucigramas por temas: animales, comida, geografía y más",
+    "topicsDescription": "Elige el tema de tu próximo crucigrama o autodefinido: naturaleza, animales, comida, geografía, historia, ciencia, deporte, arte y más.",
+    "topicTitle": "Haz un crucigrama de {topic}: animales, comida, geografía, historia, ciencia y deporte",
+    "topicDescription": "Crucigramas y autodefinidos gratis de {topic}, creados por inteligencia artificial. {description}",
+    "historyTitle": "Mis crucigramas",
+    "historyDescription": "Crucigramas y autodefinidos que empezaste en este dispositivo y aún no terminas, con el avance guardado.",
+    "rulesTitle": "Cómo resolver crucigramas y autodefinidos",
+    "rulesDescription": "Cómo resolver un crucigrama o un autodefinido aquí: escribir, moverse por la cuadrícula, comprobar y revelar letras, y atajos de teclado.",
+    "faqTitle": "Preguntas frecuentes: crucigramas con IA, idiomas y privacidad",
+    "faqDescription": "Respuestas sobre Crucigramas IA: si es gratis, cómo escribe la inteligencia artificial, tamaños, dificultad, palabras que no se repiten, juego sin conexión y privacidad.",
+    "aboutTitle": "Acerca de: cómo se hacen nuestros crucigramas con IA",
+    "aboutDescription": "Por qué hicimos un generador de crucigramas gratis que no repite palabras, y cómo la inteligencia artificial escribe las definiciones en cada idioma.",
+    "privacyTitle": "Política de privacidad",
+    "privacyDescription": "Qué guarda Crucigramas IA, dónde y por qué. Sin cuenta y sin rastrear quién eres.",
+    "termsTitle": "Condiciones de uso",
+    "termsDescription": "Las condiciones sencillas para usar Crucigramas IA.",
+    "contactTitle": "Escríbenos",
+    "contactDescription": "¿Una pregunta, una idea o un problema con un crucigrama? Escríbenos y te respondemos al correo.",
+    "puzzleDescription": "Un pasatiempo gratis de Crucigramas IA: resuélvelo en el navegador.",
+    "sharedPuzzleDescription": "Un {format, select, scanword {autodefinido} other {crucigrama}} gratis, {size} · {topic} · {difficulty} · {words, plural, one {# palabra} other {# palabras}}. Escrito por inteligencia artificial: resuélvelo en el navegador, sin registro.",
+    "ogImageAlt": "Crucigramas IA: crucigramas y autodefinidos gratis en tu idioma",
+    "ogPuzzleCta": "¿Puedes resolverlo?",
+    "ogPuzzleMeta": "{size} · {words, plural, one {# palabra} other {# palabras}}"
+  },
+  "Formats": {
+    "classic": {
+      "name": "Crucigrama",
+      "short": "Definiciones numeradas, horizontal y vertical",
+      "description": "El de siempre: las palabras se cruzan en una cuadrícula libre y cada definición espera en las listas de horizontal y vertical.",
+      "cta": "Jugar un crucigrama"
+    },
+    "scanword": {
+      "name": "Autodefinido",
+      "short": "Las definiciones van dentro, con flechas",
+      "description": "Cada definición está en la propia cuadrícula, con una flecha hacia su respuesta. Se lee de un vistazo y cuesta dejarlo.",
+      "cta": "Jugar un autodefinido"
+    }
+  },
+  "Topics": {
+    "any": "Temas mezclados",
+    "general": {
+      "name": "Palabras de todos los días",
+      "description": "Las palabras de la vida diaria: casa, gente, tiempo y el mundo que nos rodea."
+    },
+    "nature": {
+      "name": "Naturaleza",
+      "description": "Bosques, ríos, clima, plantas y estaciones."
+    },
+    "animals": {
+      "name": "Animales",
+      "description": "Animales salvajes y domésticos, aves, peces e insectos."
+    },
+    "food": {
+      "name": "Comida y bebida",
+      "description": "Platos, ingredientes, cocinas y todo lo que llega a la mesa."
+    },
+    "geography": {
+      "name": "Geografía",
+      "description": "Países, ciudades, ríos, montañas y lugares conocidos."
+    },
+    "history": {
+      "name": "Historia",
+      "description": "Épocas, inventos, oficios y objetos del pasado."
+    },
+    "science": {
+      "name": "Ciencia",
+      "description": "Física, química, biología, el espacio y el cuerpo humano."
+    },
+    "sport": {
+      "name": "Deporte",
+      "description": "Juegos, equipamiento, competencias y las reglas del juego."
+    },
+    "arts": {
+      "name": "Arte",
+      "description": "Música, literatura, teatro, pintura y cine."
+    },
+    "home": {
+      "name": "Casa y día a día",
+      "description": "Muebles, herramientas, ropa y las cosas que usamos cada día."
+    },
+    "professions": {
+      "name": "Oficios y profesiones",
+      "description": "Trabajos, oficios, herramientas del oficio y lugares de trabajo."
+    },
+    "localCulture": {
+      "name": "Cultura hispana",
+      "description": "Fiestas, bailes, platos y lugares de España y de América Latina."
+    }
+  },
+  "Difficulty": {
+    "1": "Fácil",
+    "2": "Media",
+    "3": "Difícil"
+  },
+  "Sizes": {
+    "small": "Pequeño",
+    "medium": "Mediano",
+    "large": "Grande"
+  },
+  "Generator": {
+    "format": "Elige un formato",
+    "topic": "Elige un tema",
+    "difficulty": "Dificultad",
+    "size": "Tamaño",
+    "create": "Crear mi crucigrama",
+    "creating": "Armando tu crucigrama…",
+    "creatingHint": "Estamos eligiendo palabras que todavía no viste. Las nuevas pueden tardar unos segundos.",
+    "cancel": "Cancelar",
+    "freshHint": "Gratis y sin registro. Cada crucigrama trae palabras que aquí todavía no conoces.",
+    "exhausted": "¡Ya jugaste todas las palabras que tenemos para esta elección! Estamos escribiendo otras: prueba otro tema o vuelve en un minuto."
+  },
+  "Home": {
+    "hero": {
+      "eyebrow": "Gratis · Sin registro · Funciona sin conexión",
+      "title": "Haz un crucigrama <mark>siempre nuevo</mark> de animales, comida, geografía, historia, ciencia y deporte",
+      "subtitle": "Elige un tema y una dificultad: la inteligencia artificial escribe las definiciones en tu idioma y no repite la misma palabra dos veces.",
+      "lede": "Haz un crucigrama o un autodefinido online, gratis y sin registro. Los temas van de animales, comida y geografía a historia, ciencia, deporte, arte, casa, oficios y cultura hispana, o mézclalos todos."
+    },
+    "continueTitle": "Sigue donde lo dejaste",
+    "formatsTitle": "Dos maneras de jugar",
+    "formatsSubtitle": "Un crucigrama clásico, con listas de definiciones, o un autodefinido compacto, con las definiciones dentro de la cuadrícula.",
+    "pointsTitle": "Por qué es distinto",
+    "points": {
+      "fresh": {
+        "title": "Nunca se repite",
+        "text": "Tu dispositivo recuerda cada palabra que te mostró, así que cada crucigrama nuevo trae palabras que todavía no resolviste."
+      },
+      "native": {
+        "title": "Escrito en tu idioma",
+        "text": "Las definiciones se escriben en cada idioma como lo haría quien arma crucigramas allí, nunca traducidas de otro."
+      },
+      "ai": {
+        "title": "Lo propone la IA y lo revisa el código",
+        "text": "La inteligencia artificial sugiere palabras y definiciones; nuestros controles descartan lo que está mal escrito, es injusto o delata la respuesta."
+      },
+      "offline": {
+        "title": "Juega donde sea",
+        "text": "Instálala como una aplicación. Los crucigramas que ya abriste siguen funcionando en el avión, en el metro o donde estés."
+      }
+    },
+    "topicsTitle": "Elige un tema",
+    "topicsSubtitle": "De los pájaros del patio a los ríos famosos, o mezcla todos los temas.",
+    "faqTitle": "Preguntas y respuestas",
+    "faq1Question": "¿Crucigramas IA es realmente gratis?",
+    "faq1Answer": "Sí. Cada crucigrama y cada autodefinido se juega gratis, sin cuenta, sin registro y sin límite de cuántos resuelves.",
+    "faq2Question": "¿Voy a ver las mismas palabras otra vez?",
+    "faq2Answer": "No. Tu dispositivo guarda la lista de palabras que ya te mostró y las deja fuera de cada crucigrama nuevo. Si borras los datos del sitio en el navegador, la lista empieza de cero.",
+    "faq3Question": "¿En qué idiomas puedo jugar?",
+    "faq3Answer": "En treinta y tres idiomas, cada uno con su propio vocabulario escrito para quienes lo hablan, nunca traducido de otro: inglés, español, portugués, francés, alemán, italiano, neerlandés, polaco, checo, sueco, rumano, húngaro, indonesio, malayo, filipino, vietnamita, suajili, ruso, ucraniano, griego, árabe, persa, urdu, hebreo, hindi, maratí, bengalí, tamil, tailandés, japonés, coreano, chino y armenio.",
+    "faq4Question": "¿En qué se diferencia un crucigrama de un autodefinido?",
+    "faq4Answer": "El crucigrama pone las definiciones numeradas junto a la cuadrícula, en horizontal y vertical. El autodefinido imprime cada definición dentro de una casilla, con una flecha que indica dónde va la respuesta.",
+    "faq5Question": "¿Puedo jugar sin conexión?",
+    "faq5Answer": "Sí. Cada crucigrama que abres se guarda en tu dispositivo con tu avance, así que sigue funcionando sin conexión. Para crear uno nuevo hace falta internet.",
+    "faq6Question": "¿Y si una definición está mal?",
+    "faq6Answer": "Abre el menú ⋯ sobre la cuadrícula y elige «Informar de una definición». Cuando tres jugadores distintos informan la misma, se retira y no vuelve a aparecer.",
+    "faqMore": "Ver todas las preguntas y respuestas →"
+  },
+  "CrosswordPage": {
+    "hero": {
+      "eyebrow": "Crucigrama clásico",
+      "title": "Un crucigrama clásico, <mark>hecho para ti</mark>",
+      "plainTitle": "Crucigrama con IA",
+      "subtitle": "Definiciones numeradas en horizontal y vertical, una cuadrícula que crece desde el centro y palabras que todavía no viste.",
+      "lede": "Haz un crucigrama clásico online y gratis: definiciones numeradas en horizontal y vertical, con temas de animales, comida, geografía, historia, ciencia y deporte."
+    },
+    "rulesTitle": "Cómo funciona un crucigrama",
+    "rule1": "Cada casilla blanca lleva una letra. Las palabras van en horizontal (de izquierda a derecha) y en vertical (de arriba abajo), cruzándose.",
+    "rule2": "Cada palabra tiene un número en su primera casilla y una definición con el mismo número en la lista de horizontal o de vertical.",
+    "rule3": "Toca una casilla o una definición para empezar a escribir. Vuelve a tocar la misma casilla, o pulsa Espacio, para pasar de horizontal a vertical.",
+    "rule4": "¿Atascado? Comprueba una letra, una palabra o todo el crucigrama, o revela una letra para seguir.",
+    "topicsTitle": "Crucigramas por tema",
+    "faqTitle": "Preguntas sobre el crucigrama",
+    "faq1Question": "¿Qué tamaño tienen los crucigramas?",
+    "faq1Answer": "Elige pequeño (hasta unas 14 palabras), mediano o grande (más de 20 palabras). La cuadrícula se recorta a las palabras que contiene, así que siempre cabe en la pantalla.",
+    "faq2Question": "¿Qué hace que una definición sea fácil o difícil?",
+    "faq2Answer": "Los crucigramas fáciles usan palabras de todos los días con definiciones directas. Los difíciles usan palabras menos frecuentes y definiciones que invitan a pensarlo dos veces.",
+    "faq3Question": "¿Puedo usar el teclado?",
+    "faq3Answer": "Sí: escribe letras, muévete con las flechas, pulsa Enter para la siguiente definición y Backspace para retroceder. En el teléfono aparece el teclado del crucigrama debajo de la cuadrícula.",
+    "faq4Question": "¿Puedo compartir un crucigrama con alguien?",
+    "faq4Answer": "Sí: toca Compartir sobre la cuadrícula para copiar el enlace o enviarlo por una aplicación. Quien lo reciba verá exactamente la misma cuadrícula y las mismas definiciones."
+  },
+  "ScanwordPage": {
+    "hero": {
+      "eyebrow": "Autodefinido",
+      "title": "Autodefinidos con las pistas <mark>dentro de la cuadrícula</mark>",
+      "plainTitle": "Autodefinido con IA",
+      "subtitle": "No hay listas que recorrer: cada definición está en su casilla, con una flecha hacia la respuesta.",
+      "lede": "Haz un autodefinido online y gratis: es un crucigrama con las definiciones dentro de la cuadrícula. Los mismos temas: animales, comida, geografía, historia, ciencia y deporte."
+    },
+    "rulesTitle": "Cómo funciona un autodefinido",
+    "rule1": "Las casillas sombreadas llevan las definiciones. La flecha indica dónde empieza la respuesta y en qué dirección corre.",
+    "rule2": "Una casilla puede tener dos definiciones: la de arriba suele apuntar a la derecha y la de abajo, hacia abajo.",
+    "rule3": "Toca la casilla de la definición, o cualquier casilla de letra, para elegir una palabra. La definición completa aparece siempre en la barra de arriba.",
+    "rule4": "Las fichas de colores son solo adorno: las letras van únicamente en las casillas blancas.",
+    "topicsTitle": "Autodefinidos por tema",
+    "faqTitle": "Preguntas sobre el autodefinido",
+    "faq1Question": "¿Qué es un autodefinido?",
+    "faq1Answer": "Un autodefinido es un crucigrama con las definiciones impresas en la propia cuadrícula. Nació como crucigrama escandinavo y es un clásico de las revistas de pasatiempos en español.",
+    "faq2Question": "En el teléfono las definiciones se ven diminutas. ¿Qué hago?",
+    "faq2Answer": "Toca la casilla: la definición completa aparece en la barra de arriba. También puedes pellizcar para ampliar o abrir la lista completa.",
+    "faq3Question": "¿Por qué algunas flechas se doblan?",
+    "faq3Answer": "Si no hay sitio para la definición justo antes de la respuesta, se coloca arriba o al lado de la primera letra, y la flecha se dobla para marcar la dirección.",
+    "faq4Question": "¿Las definiciones del autodefinido son distintas?",
+    "faq4Answer": "Son más cortas: tienen que caber en una casilla, así que son unas pocas palabras como máximo."
+  },
+  "TopicsPage": {
+    "eyebrow": "Temas",
+    "title": "¿De qué quieres que trate tu crucigrama?",
+    "subtitle": "Cada tema tiene sus propias palabras en cada idioma. Elige uno, o mézclalos todos en el inicio."
+  },
+  "TopicPage": {
+    "title": "Crucigramas de {topic}",
+    "samplesTitle": "Una muestra de {topic}",
+    "samplesSubtitle": "Unas definiciones del fondo de palabras. ¿Las adivinas? En los crucigramas de verdad siempre hay otras nuevas.",
+    "showAnswer": "Mostrar la respuesta",
+    "moreTopics": "Más temas"
+  },
+  "Auth": {
+    "signIn": "Entrar",
+    "signOut": "Salir",
+    "signInTitle": "Entrar",
+    "signInSubtitle": "Usa Google, o el correo y la contraseña de tu cuenta.",
+    "signUpTitle": "Crear una cuenta",
+    "signUpSubtitle": "Te enviaremos un enlace para confirmar el correo antes de que puedas entrar.",
+    "forgotTitle": "¿Olvidaste tu contraseña?",
+    "forgotSubtitle": "Te enviaremos un enlace si hay una cuenta con este correo.",
+    "resetTitle": "Elige una contraseña nueva",
+    "resetSubtitle": "Esto te hace entrar y cierra la sesión en los demás dispositivos.",
+    "verifyTitle": "Confirma tu correo",
+    "verifySubtitle": "Abre el enlace de tu bandeja y confírmalo aquí. Los filtros de correo no pueden gastar el enlace.",
+    "google": "Continuar con Google",
+    "or": "o",
+    "name": "Nombre",
+    "email": "Correo",
+    "password": "Contraseña",
+    "passwordHint": "Al menos 8 caracteres, con una letra y un número. No uses tu correo.",
+    "confirmPassword": "Confirma la contraseña",
+    "passwordMismatch": "Las contraseñas no coinciden",
+    "required": "Este campo es obligatorio",
+    "invalidEmail": "Ese correo no parece válido",
+    "forgot": "¿Olvidaste la contraseña?",
+    "noAccount": "¿Todavía no tienes cuenta?",
+    "hasAccount": "¿Ya tienes cuenta?",
+    "submitSignIn": "Entrar",
+    "submitSignUp": "Crear cuenta",
+    "submitForgot": "Enviar el enlace",
+    "submitReset": "Guardar contraseña",
+    "submitVerify": "Confirmar correo",
+    "verifiedNotice": "Correo confirmado. Entra para continuar.",
+    "checkInbox": "Revisa {email}",
+    "checkInboxText": "Enviamos un enlace. Ábrelo y luego vuelve para entrar.",
+    "resend": "Enviar el enlace otra vez",
+    "resent": "Enviado de nuevo.",
+    "forgotSent": "Si hay una cuenta con ese correo, el enlace va en camino.",
+    "invalidCredentials": "Ese correo y esa contraseña no coinciden.",
+    "googleOnly": "Esta cuenta entra con Google.",
+    "emailNotVerified": "Primero confirma tu correo. El enlace está en tu bandeja.",
+    "emailTaken": "Ya existe una cuenta con este correo.",
+    "weakPassword": "Usa al menos 8 caracteres, con una letra y un número, y no tu propio correo.",
+    "verifyInvalid": "Este enlace de confirmación no es válido o ya venció.",
+    "resetInvalid": "Este enlace para restablecer la contraseña no es válido o ya venció.",
+    "mailFailed": "No pudimos enviar el correo. Inténtalo de nuevo.",
+    "googleErrors": {
+      "google_unavailable": "Entrar con Google no está disponible ahora.",
+      "google_denied": "Se canceló el acceso con Google.",
+      "google_failed": "El acceso con Google no se completó. Inténtalo de nuevo.",
+      "google_email_unverified": "Google no ha verificado ese correo."
+    }
+  },
+  "History": {
+    "title": "Mis crucigramas",
+    "subtitle": "Crucigramas y autodefinidos que empezaste y no terminaste. Tus letras se quedan en este dispositivo: abre cualquiera y sigue, con o sin conexión.",
+    "empty": "Todavía no hay crucigramas sin terminar. Empieza uno y te esperará aquí hasta que lo completes.",
+    "detail": "{percent}% relleno · {difficulty} · {size}",
+    "seeAll": "Ver todos los pendientes"
+  },
+  "Play": {
+    "title": "Crucigrama",
+    "loading": "Abriendo tu crucigrama…",
+    "missingTitle": "Este crucigrama no está aquí",
+    "missingText": "No está guardado en este dispositivo y ahora no se puede contactar con el servidor. Revisa el enlace o inténtalo cuando tengas conexión.",
+    "leaveTitle": "¿Salir de este crucigrama?",
+    "leaveBody": "Tus letras quedan guardadas en este dispositivo y puedes terminarlo después desde Mis crucigramas.",
+    "keepSolving": "Seguir resolviendo",
+    "leave": "Salir",
+    "newPuzzle": "Crucigrama nuevo",
+    "allClues": "Todas las definiciones",
+    "across": "Horizontal",
+    "down": "Vertical",
+    "gridLabel": "Cuadrícula",
+    "cell": {
+      "position": "Fila {row}, columna {col}",
+      "empty": "vacía",
+      "wrong": "letra incorrecta",
+      "revealed": "revelada",
+      "clue": "Definición: {clue}"
+    },
+    "wordNumbered": "{number} {dir, select, across {horizontal} other {vertical}}",
+    "wordDirection": "{dir, select, across {Horizontal} other {Vertical}}",
+    "wordLength": "{name}, {length, plural, one {# letra} other {# letras}}",
+    "wordLetter": "{name}, letra {letter} de {length}",
+    "previousWord": "Definición anterior",
+    "nextWord": "Definición siguiente",
+    "toggleDirection": "Cambiar de dirección",
+    "filled": "Relleno",
+    "keyboard": "Teclado",
+    "ime": "Escribe un carácter",
+    "erase": "Borrar",
+    "time": "Tiempo: {time}",
+    "check": {
+      "label": "Comprobar",
+      "cell": "Comprobar letra",
+      "word": "Comprobar palabra",
+      "puzzle": "Comprobar crucigrama"
+    },
+    "reveal": {
+      "label": "Revelar",
+      "cell": "Revelar letra",
+      "word": "Revelar palabra",
+      "puzzle": "Revelar crucigrama",
+      "confirmTitle": "¿Revelar todo el crucigrama?",
+      "confirmText": "Se completarán todas las respuestas y el crucigrama terminará. No se puede deshacer.",
+      "cancel": "Seguir resolviendo",
+      "confirm": "Revelar todo"
+    },
+    "clearWrong": "Borrar letras incorrectas",
+    "more": "Más",
+    "zoom": {
+      "label": "Zoom",
+      "in": "Acercar",
+      "out": "Alejar",
+      "reset": "Ver el crucigrama completo"
+    },
+    "settings": {
+      "label": "Ajustes",
+      "autoCheck": "Comprobar mientras escribo",
+      "autoCheckHint": "Marca una letra incorrecta en cuanto la escribes.",
+      "skipFilled": "Saltar casillas llenas",
+      "skipFilledHint": "Al escribir, se salta las casillas que ya tienen letra."
+    },
+    "share": "Compartir crucigrama",
+    "shareShort": "Compartir",
+    "shareTitle": "¡Prueba este crucigrama!",
+    "linkCopied": "Enlace copiado: envíaselo a quien quieras.",
+    "shareDialog": {
+      "title": "Compartir este crucigrama",
+      "description": "Quien lo reciba verá la misma cuadrícula y las mismas definiciones, gratis y sin registro.",
+      "link": "Enlace del crucigrama",
+      "copy": "Copiar",
+      "copied": "¡Copiado!",
+      "copyFailed": "No se pudo copiar: el enlace está seleccionado, así que cópialo a mano.",
+      "apps": "Enviar por una aplicación",
+      "email": "Correo",
+      "more": "Más opciones…",
+      "text": "¿Puedes resolver este {format, select, scanword {autodefinido} other {crucigrama}} de {topic}? Es gratis y lo escribió la inteligencia artificial.",
+      "textAny": "¿Puedes resolver este {format, select, scanword {autodefinido} other {crucigrama}}? Es gratis y lo escribió la inteligencia artificial."
+    },
+    "pdf": {
+      "open": "Guardar como PDF",
+      "title": "Guardar como PDF",
+      "description": "La cuadrícula lila, una de colores o en blanco y negro. Se abre en una pestaña nueva.",
+      "appearance": "Aspecto",
+      "appearanceDefault": "Predeterminado",
+      "appearanceColorful": "De colores",
+      "appearanceMono": "Blanco y negro",
+      "letters": "Incluir mis letras",
+      "lettersHint": "Muestra las letras que ya escribiste.",
+      "answers": "Añadir las respuestas",
+      "answersHint": "La cuadrícula resuelta, en una página aparte.",
+      "cancel": "Cancelar",
+      "confirm": "Abrir PDF",
+      "preparing": "Preparando tu PDF…",
+      "failed": "No se pudo crear el PDF. Inténtalo de nuevo.",
+      "answersTitle": "Respuestas",
+      "playOnline": "Juégalo en línea: {url}"
+    },
+    "report": {
+      "open": "Informar de una definición",
+      "title": "¿Qué falla en esta definición?",
+      "cancel": "Cancelar",
+      "send": "Enviar informe",
+      "thanks": "¡Gracias! Los informes nos ayudan a retirar definiciones malas.",
+      "note": "¿Qué deberíamos saber?",
+      "notePlaceholder": "Una nota breve, con tus palabras",
+      "reasons": {
+        "wrongClue": "La definición no corresponde a la respuesta",
+        "notAWord": "La respuesta no es una palabra real",
+        "offensive": "Es ofensiva o inapropiada",
+        "typo": "Hay una errata",
+        "other": "Otra cosa"
+      }
+    },
+    "solved": {
+      "title": "¡Resuelto! ¡Genial!",
+      "titleHelped": "Resuelto: muy bien.",
+      "time": "Tiempo",
+      "checks": "Comprobaciones",
+      "reveals": "Reveladas",
+      "admire": "Mirar la cuadrícula",
+      "next": "Siguiente crucigrama"
+    },
+    "announce": {
+      "checked": "{count, plural, one {# letra está mal} other {# letras están mal}}",
+      "allCorrect": "Todo lo comprobado está bien",
+      "revealed": "{count, plural, one {# letra revelada} other {# letras reveladas}}",
+      "solved": "¡Crucigrama resuelto en {seconds, plural, one {# segundo} other {# segundos}}!"
+    }
+  },
+  "Rules": {
+    "title": "Cómo jugar",
+    "subtitle": "Todo lo que necesitas para resolver un crucigrama o un autodefinido aquí, en el teléfono, la tableta o la computadora.",
+    "sections": [
+      {
+        "title": "Elegir una palabra",
+        "paragraphs": [
+          "Toca o haz clic en cualquier casilla blanca. La palabra se ilumina en amarillo y su definición aparece en la barra de arriba.",
+          "Donde se cruzan dos palabras, vuelve a tocar la misma casilla para pasar de horizontal a vertical. En un autodefinido también puedes tocar la casilla de la definición."
+        ]
+      },
+      {
+        "title": "Escribir",
+        "paragraphs": [
+          "En la computadora, escribe sin más: no hace falta cambiar la distribución del teclado. Si está en inglés, las teclas escriben las letras del idioma del crucigrama en su sitio de siempre.",
+          "En el teléfono o la tableta, el teclado del crucigrama aparece debajo de la cuadrícula. En armenio tiene las letras únicas ՈՒ y և, y cada una ocupa una casilla; si escribes ո y luego ւ, se unen solas en ՈՒ.",
+          "En los crucigramas en ruso, la letra Ё se escribe como Е, igual que en los crucigramas impresos.",
+          "En español la tilde no se escribe: café entra como CAFE. La eñe sí ocupa su propia casilla, como en niño."
+        ]
+      },
+      {
+        "title": "Moverse",
+        "paragraphs": [
+          "Las flechas pasan de una casilla a otra; una flecha cruzada respecto de la dirección actual primero gira el cursor. Enter salta a la definición siguiente y Shift+Enter a la anterior.",
+          "Backspace borra una letra y retrocede. Home y End saltan al principio y al final de la palabra. Tab sale de la cuadrícula."
+        ]
+      },
+      {
+        "title": "Pedir ayuda",
+        "paragraphs": [
+          "Comprobar tacha las letras incorrectas y deja fijas las correctas. Revelar completa una letra, una palabra o todo el crucigrama; las letras reveladas llevan una pequeña marca lila.",
+          "Activa «Comprobar mientras escribo» en los ajustes si quieres saberlo al momento."
+        ]
+      },
+      {
+        "title": "Palabras nuevas, siempre",
+        "paragraphs": [
+          "Tu dispositivo recuerda las palabras que te mostró y no vuelve a pedírtelas. Cada crucigrama nuevo está hecho de palabras que aquí todavía no viste."
+        ]
+      }
+    ]
+  },
+  "Faq": {
+    "title": "Preguntas y respuestas",
+    "subtitle": "Todo sobre Crucigramas IA en un solo lugar: los pasatiempos, cómo los escribe la inteligencia artificial, jugar en cualquier dispositivo y tu privacidad.",
+    "groups": [
+      {
+        "title": "Sobre Crucigramas IA",
+        "items": [
+          {
+            "question": "¿Qué es Crucigramas IA?",
+            "answer": "Crucigramas IA es un sitio gratis que genera crucigramas y autodefinidos en treinta y tres idiomas. Un modelo de inteligencia artificial escribe las palabras y las definiciones en cada idioma, el código arma la cuadrícula y cada dispositivo solo recibe palabras que todavía no vio."
+          },
+          {
+            "question": "¿Crucigramas IA es realmente gratis?",
+            "answer": "Sí. Cada crucigrama y cada autodefinido se juega gratis: sin cuenta, sin registro, sin suscripción y sin anuncios."
+          },
+          {
+            "question": "¿Necesito una cuenta?",
+            "answer": "No. No hay nada que registrar. Tu avance, tus ajustes y la lista de palabras que ya viste se guardan en el navegador, en tu dispositivo."
+          },
+          {
+            "question": "¿Quién hace Crucigramas IA?",
+            "answer": "Es un proyecto independiente del desarrollador Michael Navasardyan: crucigramas que se leen como si los hubiera escrito alguien de allí, en cada idioma del sitio, entre ellos el armenio, el ruso y el inglés."
+          }
+        ]
+      },
+      {
+        "title": "Los crucigramas",
+        "items": [
+          {
+            "question": "¿En qué se diferencia un crucigrama de un autodefinido?",
+            "answer": "El crucigrama lista definiciones numeradas junto a la cuadrícula, en horizontal y vertical. El autodefinido imprime cada definición dentro de una casilla, con una flecha hacia la respuesta: el formato de las revistas de pasatiempos, nacido como crucigrama escandinavo."
+          },
+          {
+            "question": "¿Qué tamaño tienen?",
+            "answer": "Hay tres tamaños. Un crucigrama clásico llena una cuadrícula de 9×9, 13×13 o 15×15 con unas 8–14, 16–24 o 22–34 palabras, y luego se recorta a lo que contiene. Un autodefinido usa 8×10, 10×13 o 13×17: más alto que ancho, porque la mayoría se resuelve en el teléfono."
+          },
+          {
+            "question": "¿En qué se distinguen los niveles?",
+            "answer": "Fácil usa palabras de todos los días con definiciones directas. Media abre un vocabulario más amplio. Difícil trae palabras menos frecuentes y definiciones que invitan a pensarlo dos veces."
+          },
+          {
+            "question": "¿Qué temas puedo elegir?",
+            "answer": "Doce: palabras de todos los días, naturaleza, animales, comida y bebida, geografía, historia, ciencia, deporte, arte, casa y día a día, oficios y cultura hispana. También puedes mezclarlos todos."
+          },
+          {
+            "question": "¿Alguna vez veré la misma palabra dos veces?",
+            "answer": "No en el mismo dispositivo. Recuerda hasta 4000 palabras por idioma, más o menos lo de 130 crucigramas, y las deja fuera de cada uno nuevo; solo después se caen de la lista las más antiguas. Si borras los datos del sitio, la lista empieza de cero."
+          },
+          {
+            "question": "¿Cómo escribe la inteligencia artificial las definiciones?",
+            "answer": "El modelo Gemini de Google escribe palabras y definiciones directamente en cada idioma, siguiendo una guía de estilo de hablantes nativos. El código comprueba cada una: el alfabeto correcto, una palabra real y una definición justa que no delate la respuesta. Una segunda pasada de inteligencia artificial hace de editor. Lo que falla se descarta, no se parchea. La cuadrícula la arma el código, no la inteligencia artificial."
+          },
+          {
+            "question": "¿Y si una definición está mal?",
+            "answer": "Abre el menú ⋯ sobre la cuadrícula y elige «Informar de una definición». Cuando tres jugadores distintos informan la misma, se retira y no vuelve a aparecer."
+          }
+        ]
+      },
+      {
+        "title": "Cómo se juega",
+        "items": [
+          {
+            "question": "¿Cómo escribo las respuestas en el teléfono o en la computadora?",
+            "answer": "En la computadora, escribe sin más: aunque el teclado esté en inglés, las teclas ponen las letras del crucigrama en su sitio de siempre y no hay que cambiar de distribución. En el teléfono o la tableta, el teclado del crucigrama aparece debajo de la cuadrícula y el del sistema no la tapa."
+          },
+          {
+            "question": "¿Puedo comprobar las respuestas o pedir una pista?",
+            "answer": "Sí. Comprobar marca las letras incorrectas en una casilla, una palabra o todo el crucigrama, y Revelar completa una letra, una palabra o todo. Activa «Comprobar mientras escribo» en los ajustes para ver el error en el momento."
+          },
+          {
+            "question": "¿Cómo se tratan la ու y la և armenias, y la Ё rusa?",
+            "answer": "En los crucigramas en armenio, ու y և son letras únicas y cada una ocupa una casilla, como en los crucigramas impresos; el teclado en pantalla tiene las dos, y escribir ո y luego ւ las une en ու. En ruso, Ё se escribe como Е, igual que en los crucigramas impresos."
+          },
+          {
+            "question": "¿Se guarda mi avance?",
+            "answer": "Sí, solo, mientras juegas. Cada crucigrama o autodefinido que empiezas y dejas a medias aparece en «Mis crucigramas», con tus letras guardadas, para que puedas seguir después, incluso sin conexión."
+          },
+          {
+            "question": "¿Puedo jugar sin conexión o instalarla como aplicación?",
+            "answer": "Sí. Crucigramas IA se instala desde el navegador como una aplicación (en el iPhone: Compartir → Agregar a pantalla de inicio). Cada crucigrama que abres se guarda con tu avance y sigue funcionando sin conexión; solo los nuevos necesitan internet."
+          },
+          {
+            "question": "¿Puedo compartir un crucigrama?",
+            "answer": "Sí. Toca Compartir sobre la cuadrícula para copiar el enlace, o envíalo por WhatsApp, Telegram, Facebook, X, VK o correo. Quien lo reciba verá exactamente la misma cuadrícula y las mismas definiciones."
+          },
+          {
+            "question": "¿Se puede jugar con teclado o con lector de pantalla?",
+            "answer": "Sí. La cuadrícula funciona por completo con el teclado y con lectores de pantalla: cada casilla tiene nombre, se anuncia la definición activa y se leen las comprobaciones y las letras reveladas. Lo incorrecto y lo revelado se marca con una forma, no solo con un color."
+          }
+        ]
+      },
+      {
+        "title": "Privacidad",
+        "items": [
+          {
+            "question": "¿Qué datos guardan?",
+            "answer": "Muy pocos. Tus crucigramas, el avance, los ajustes y la lista de palabras vistas se quedan en el navegador. El servidor guarda los crucigramas que se crean (para que un enlace compartido abra la misma cuadrícula), los informes de definiciones con un hash irreversible de la dirección IP y conteos anónimos de partidas resueltas. Sin nombres y sin perfiles."
+          },
+          {
+            "question": "¿Se envía algo mío a la inteligencia artificial?",
+            "answer": "No. A los modelos Gemini de Google solo van los ajustes del crucigrama (idioma, tema, dificultad) y listas de palabras, nunca nada sobre ti."
+          }
+        ]
+      }
+    ],
+    "ctaTitle": "¿Listo para un crucigrama nuevo?",
+    "ctaText": "Elige un tema y una dificultad: la próxima cuadrícula está a unos segundos.",
+    "cta": "Hacer un crucigrama"
+  },
+  "About": {
+    "title": "Acerca de Crucigramas IA",
+    "subtitle": "Un generador de crucigramas gratis que escribe en tu idioma y no sirve la misma palabra dos veces.",
+    "sections": [
+      {
+        "title": "Por qué lo hicimos",
+        "paragraphs": [
+          "La mayoría de los crucigramas en línea recicla una lista corta, y los traducidos se notan traducidos. Queríamos pasatiempos que parezcan escritos por alguien de allí, y que sigan siendo nuevos por muchos que resuelvas."
+        ]
+      },
+      {
+        "title": "Cómo se escriben las palabras",
+        "paragraphs": [
+          "Un modelo de inteligencia artificial escribe palabras y definiciones directamente en cada idioma, siguiendo una guía de estilo de hablantes nativos: las formas que usa el crucigrama, la norma ortográfica y el modo de definir en esa tradición.",
+          "Después, cada palabra pasa controles automáticos: el alfabeto correcto, una sola palabra real y una definición que no delate la respuesta. Una segunda inteligencia artificial hace de editor. Los informes de quien juega retiran lo que se cuele."
+        ]
+      },
+      {
+        "title": "Cómo se arma la cuadrícula",
+        "paragraphs": [
+          "La cuadrícula la arma el código, no la inteligencia artificial: un algoritmo encaja las palabras para que cada letra pertenezca a una palabra real con definición. Eso mantiene justo cada crucigrama."
+        ]
+      }
+    ]
+  },
+  "Privacy": {
+    "title": "Política de privacidad",
+    "subtitle": "En breve: sin cuenta, sin nombres y sin perfiles. Esto es todo lo que guardamos.",
+    "sections": [
+      {
+        "title": "En tu dispositivo",
+        "paragraphs": [
+          "El navegador guarda los crucigramas que abres, tu avance, tus ajustes y una lista de las palabras que ya viste, para no repetirlas. Eso se queda en tu dispositivo; si borras los datos del sitio, desaparece."
+        ]
+      },
+      {
+        "title": "En nuestro servidor",
+        "paragraphs": [
+          "Guardamos los crucigramas que se crean, para que un enlace compartido abra la misma cuadrícula. Si informas de una definición, guardamos el informe con un hash irreversible de tu dirección IP, solo para que una sola persona no pueda retirar una definición. También contamos de forma anónima cómo se juega (si se resolvió, qué palabras se revelaron) para afinar la dificultad."
+        ]
+      },
+      {
+        "title": "Proveedor de inteligencia artificial",
+        "paragraphs": [
+          "Las palabras y definiciones nuevas las escriben los modelos Gemini de Google. Solo se envían los ajustes del crucigrama (idioma, tema, dificultad) y listas de palabras: nunca nada sobre ti."
+        ]
+      },
+      {
+        "title": "Analítica e informes de error",
+        "paragraphs": [
+          "Si está activado, usamos Google Analytics para contar visitas y Sentry para recibir informes de error. Ninguno sirve para identificarte."
+        ]
+      }
+    ]
+  },
+  "Terms": {
+    "title": "Condiciones de uso",
+    "subtitle": "Crucigramas IA es gratis, para jugar y para aprender.",
+    "sections": [
+      {
+        "title": "Uso del servicio",
+        "paragraphs": [
+          "Puedes jugar, compartir e imprimir los crucigramas para uso personal y educativo. Por favor, no satures el servicio con solicitudes automáticas."
+        ]
+      },
+      {
+        "title": "Contenido escrito por inteligencia artificial",
+        "paragraphs": [
+          "Las palabras y las definiciones las escribe una inteligencia artificial y se comprueban solas, pero puede haber errores. Si encuentras uno, infórmalo: así se retiran las definiciones malas."
+        ]
+      },
+      {
+        "title": "Sin garantía",
+        "paragraphs": [
+          "El servicio se ofrece tal cual, sin garantías de disponibilidad ni de exactitud. Podemos cambiar o retirar funciones en cualquier momento."
+        ]
+      }
+    ]
+  },
+  "Contact": {
+    "title": "Escríbenos",
+    "subtitle": "¿Una pregunta, una idea o algo que no salió bien? Escríbenos y te respondemos al correo.",
+    "fullName": "Nombre",
+    "email": "Correo",
+    "message": "Mensaje",
+    "messagePlaceholder": "¿En qué podemos ayudarte?",
+    "required": "Este campo es obligatorio",
+    "invalidEmail": "Ese correo no parece válido",
+    "submit": "Enviar",
+    "sent": "Mensaje enviado",
+    "sentText": "Gracias. Te responderemos al correo en cuanto podamos.",
+    "sendAnother": "Escribir otro mensaje",
+    "tooMany": "Son muchos mensajes. Prueba de nuevo un poco más tarde."
+  }
+}

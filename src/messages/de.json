@@ -1,0 +1,716 @@
+{
+  "Common": {
+    "appName": "Kreuzworträtsel KI",
+    "tagline": "Kostenlose Kreuzworträtsel und Schwedenrätsel, die eine KI neu in deiner Sprache schreibt. In jedem Spiel neue Wörter, keines kommt wieder.",
+    "skipToContent": "Zum Inhalt springen",
+    "openMenu": "Menü öffnen",
+    "menu": "Menü",
+    "close": "Schließen",
+    "retry": "Noch einmal versuchen",
+    "chooseLanguage": "Sprache wählen",
+    "language": "Sprache",
+    "copyright": "© {year} {appName}. Gemacht aus Wörtern und einem bisschen Zauber.",
+    "backOnline": "Du bist wieder online.",
+    "offline": "Du bist offline. Rätsel, die du schon geöffnet hast, lassen sich weiterlösen.",
+    "lastUpdated": "Zuletzt aktualisiert: {date}"
+  },
+  "Nav": {
+    "main": "Hauptbereich",
+    "footer": "Seite",
+    "home": "Start",
+    "crossword": "Kreuzworträtsel",
+    "scanword": "Schwedenrätsel",
+    "topics": "Themen",
+    "history": "Meine Rätsel",
+    "rules": "Spielanleitung",
+    "faq": "Fragen",
+    "about": "Über uns",
+    "privacy": "Datenschutz",
+    "terms": "Nutzungsbedingungen",
+    "contact": "Kontakt"
+  },
+  "Errors": {
+    "network": "Der Server ist nicht erreichbar. Prüfe die Verbindung und versuch es noch einmal.",
+    "rateLimited": "Ganz schön viele Rätsel in einer Minute! Hol kurz Luft und versuch es gleich wieder.",
+    "unauthorized": "Diese Aktion ist nicht erlaubt.",
+    "notFound": "Das haben wir nicht gefunden.",
+    "server": "Bei uns ist etwas schiefgegangen. Versuch es noch einmal.",
+    "generic": "Etwas ist schiefgegangen. Versuch es noch einmal.",
+    "details": "Details",
+    "pageErrorTitle": "Hoppla, ein Feld ist heruntergefallen",
+    "pageErrorBody": "Auf dieser Seite ist ein unerwarteter Fehler passiert. Noch einmal versuchen hilft meist.",
+    "notFoundTitle": "Diese Seite steht nicht im Gitter",
+    "notFoundBody": "Der Link ist vielleicht alt oder vertippt. Suchen wir dir lieber ein frisches Rätsel.",
+    "goHome": "Zur Startseite"
+  },
+  "Pwa": {
+    "install": "App installieren",
+    "iosTitle": "Kreuzworträtsel KI zum Home-Bildschirm hinzufügen",
+    "benefit": "Öffne sie wie eine App, im Vollbild, und löse gespeicherte Rätsel auch offline weiter.",
+    "iosStep1": "Tippe in Safari auf die Taste Teilen.",
+    "iosStep2": "Wähle «Zum Home-Bildschirm».",
+    "iosStep3": "Tippe auf «Hinzufügen». Das Symbol liegt dann auf dem Home-Bildschirm.",
+    "gotIt": "Alles klar"
+  },
+  "Seo": {
+    "homeTitle": "Kreuzworträtsel erstellen, kostenlos online: Tiere, Essen, Geografie, Geschichte, Wissenschaft, Sport",
+    "homeDescription": "Erstelle und mach ein Kreuzworträtsel oder Schwedenrätsel kostenlos, ohne Anmeldung. Kreuzworträtsel zu Tieren, Essen, Geografie, Geschichte, Wissenschaft und Sport, jedes Mal mit neuen Wörtern.",
+    "keywords": "Kreuzworträtsel, Kreuzworträtsel erstellen, Kreuzworträtsel machen, Kreuzworträtsel online, Kreuzworträtsel kostenlos, Kreuzworträtsel Generator, Schwedenrätsel, Kreuzworträtsel Tiere, Kreuzworträtsel Essen, Kreuzworträtsel Geografie, Kreuzworträtsel Geschichte, Kreuzworträtsel Wissenschaft, Kreuzworträtsel Sport",
+    "crosswordTitle": "Kreuzworträtsel online kostenlos",
+    "crosswordDescription": "Löse kostenlose Kreuzworträtsel, geschrieben von einer KI: nummerierte Fragen waagerecht und senkrecht, 12 Themen, drei Schwierigkeitsstufen. Ohne Anmeldung, jedes Mal neue Wörter.",
+    "scanwordTitle": "Schwedenrätsel online kostenlos: Fragen im Gitter",
+    "scanwordDescription": "Löse kostenlose Schwedenrätsel: Die Frage steht im Feld, ein Pfeil zeigt zur Antwort. Von einer KI geschrieben, ohne Anmeldung, auf dem Handy, dem Tablet oder dem Computer.",
+    "topicsTitle": "Kreuzworträtsel nach Thema: Tiere, Essen, Geografie und mehr",
+    "topicsDescription": "Wähle das Thema für das nächste Kreuzworträtsel oder Schwedenrätsel: Natur, Tiere, Essen, Geografie, Geschichte, Wissenschaft, Sport, Kunst und mehr.",
+    "topicTitle": "Kreuzworträtsel erstellen zu {topic}: Tiere, Essen, Geografie, Geschichte, Wissenschaft, Sport",
+    "topicDescription": "Kostenlose Kreuzworträtsel und Schwedenrätsel zu {topic}, von einer KI erzeugt. {description}",
+    "historyTitle": "Meine Rätsel",
+    "historyDescription": "Kreuzworträtsel und Schwedenrätsel, die du auf diesem Gerät angefangen und noch nicht beendet hast, mit gespeichertem Fortschritt.",
+    "rulesTitle": "Kreuzworträtsel und Schwedenrätsel lösen",
+    "rulesDescription": "So löst du hier ein Kreuzworträtsel oder Schwedenrätsel: Buchstaben eingeben, im Gitter bewegen, prüfen und aufdecken, Tastaturkürzel.",
+    "faqTitle": "Häufige Fragen: KI-Kreuzworträtsel, Sprachen und Datenschutz",
+    "faqDescription": "Antworten zu Kreuzworträtsel KI: ob es kostenlos ist, wie die KI Fragen schreibt, Größen, Schwierigkeit, Wörter ohne Wiederholung, Offline-Spiel und Datenschutz.",
+    "aboutTitle": "Über uns: wie unsere KI Kreuzworträtsel macht",
+    "aboutDescription": "Warum wir einen kostenlosen Generator gebaut haben, der kein Wort wiederholt, und wie die KI die Fragen in jeder Sprache selbst schreibt.",
+    "privacyTitle": "Datenschutzerklärung",
+    "privacyDescription": "Was Kreuzworträtsel KI speichert, wo und warum. Kein Konto, keine Verfolgung, wer du bist.",
+    "termsTitle": "Nutzungsbedingungen",
+    "termsDescription": "Die einfachen Bedingungen für Kreuzworträtsel KI.",
+    "contactTitle": "Schreib uns",
+    "contactDescription": "Eine Frage, eine Idee oder ein Fehler im Rätsel? Schreib uns, wir antworten per E-Mail.",
+    "puzzleDescription": "Ein kostenloses Rätsel von Kreuzworträtsel KI. Löse es im Browser.",
+    "sharedPuzzleDescription": "Ein kostenloses {format, select, scanword {Schwedenrätsel} other {Kreuzworträtsel}}, {size} · {topic} · {difficulty} · {words, plural, one {# Wort} other {# Wörter}}. Von einer KI geschrieben. Löse es im Browser, ohne Anmeldung.",
+    "ogImageAlt": "Kreuzworträtsel KI: kostenlose Kreuzworträtsel und Schwedenrätsel in deiner Sprache",
+    "ogPuzzleCta": "Schaffst du es?",
+    "ogPuzzleMeta": "{size} · {words, plural, one {# Wort} other {# Wörter}}"
+  },
+  "Formats": {
+    "classic": {
+      "name": "Kreuzworträtsel",
+      "short": "Nummerierte Fragen, waagerecht und senkrecht",
+      "description": "Der Klassiker: Wörter kreuzen sich in einem freien Gitter, und jede Frage wartet in den Listen Waagerecht und Senkrecht.",
+      "cta": "Kreuzworträtsel spielen"
+    },
+    "scanword": {
+      "name": "Schwedenrätsel",
+      "short": "Fragen im Gitter, mit Pfeilen",
+      "description": "Jede Frage steht im Gitter, mit einem Pfeil zur Antwort. Schnell gelesen, schwer wegzulegen.",
+      "cta": "Schwedenrätsel spielen"
+    }
+  },
+  "Topics": {
+    "any": "Themen gemischt",
+    "general": {
+      "name": "Alltagswörter",
+      "description": "Wörter des täglichen Lebens: Zuhause, Menschen, Zeit und die Welt um uns herum."
+    },
+    "nature": {
+      "name": "Natur",
+      "description": "Wälder, Flüsse, Wetter, Pflanzen und Jahreszeiten."
+    },
+    "animals": {
+      "name": "Tiere",
+      "description": "Wild- und Haustiere, Vögel, Fische und Insekten."
+    },
+    "food": {
+      "name": "Essen und Trinken",
+      "description": "Gerichte, Zutaten, Küchen und alles, was auf den Tisch kommt."
+    },
+    "geography": {
+      "name": "Geografie",
+      "description": "Länder, Städte, Flüsse, Berge und bekannte Orte."
+    },
+    "history": {
+      "name": "Geschichte",
+      "description": "Epochen, Erfindungen, Handwerke und Dinge aus der Vergangenheit."
+    },
+    "science": {
+      "name": "Wissenschaft",
+      "description": "Physik, Chemie, Biologie, Weltraum und der menschliche Körper."
+    },
+    "sport": {
+      "name": "Sport",
+      "description": "Spiele, Ausrüstung, Wettkämpfe und Regeln."
+    },
+    "arts": {
+      "name": "Kunst",
+      "description": "Musik, Literatur, Theater, Malerei und Film."
+    },
+    "home": {
+      "name": "Zuhause und Alltag",
+      "description": "Möbel, Werkzeug, Kleidung und Dinge, die wir jeden Tag benutzen."
+    },
+    "professions": {
+      "name": "Berufe",
+      "description": "Berufe, Handwerke, Werkzeug des Berufs und Arbeitsorte."
+    },
+    "localCulture": {
+      "name": "Deutsche Kultur",
+      "description": "Feste, Bräuche, Gerichte und Orte aus Deutschland."
+    }
+  },
+  "Difficulty": {
+    "1": "Leicht",
+    "2": "Mittel",
+    "3": "Schwer"
+  },
+  "Sizes": {
+    "small": "Klein",
+    "medium": "Mittel",
+    "large": "Groß"
+  },
+  "Generator": {
+    "format": "Format wählen",
+    "topic": "Thema wählen",
+    "difficulty": "Schwierigkeit",
+    "size": "Größe",
+    "create": "Mein Rätsel erstellen",
+    "creating": "Dein Rätsel wird gebaut…",
+    "creatingHint": "Wir suchen Wörter, die du noch nicht gesehen hast. Neue können ein paar Sekunden dauern.",
+    "cancel": "Abbrechen",
+    "freshHint": "Kostenlos, ohne Anmeldung. Jedes Rätsel bringt Wörter, die du hier noch nicht hattest.",
+    "exhausted": "Du hast gerade alle Wörter für diese Auswahl gespielt! Wir schreiben neue. Versuch ein anderes Thema, oder komm in einer Minute wieder."
+  },
+  "Home": {
+    "hero": {
+      "eyebrow": "Kostenlos · Ohne Anmeldung · Funktioniert offline",
+      "title": "Kreuzworträtsel erstellen, <mark>immer neu</mark>: Tiere, Essen, Geografie, Geschichte, Wissenschaft und Sport",
+      "subtitle": "Wähl ein Thema und eine Schwierigkeit. Die KI schreibt die Fragen in deiner Sprache, und dasselbe Wort kommt nicht zweimal.",
+      "lede": "Mach ein Kreuzworträtsel oder Schwedenrätsel online, kostenlos und ohne Anmeldung. Die Themen reichen von Tieren, Essen und Geografie über Geschichte, Wissenschaft und Sport bis zu Kunst, Zuhause, Berufen und deutscher Kultur, oder misch sie alle."
+    },
+    "continueTitle": "Mach weiter, wo du warst",
+    "formatsTitle": "Zwei Arten zu spielen",
+    "formatsSubtitle": "Ein geräumiges Kreuzworträtsel mit Fragenlisten, oder ein kompaktes Schwedenrätsel mit den Fragen im Gitter.",
+    "pointsTitle": "Was anders ist",
+    "points": {
+      "fresh": {
+        "title": "Nichts wiederholt sich",
+        "text": "Dein Gerät merkt sich jedes Wort, das es dir gezeigt hat. Jedes neue Rätsel bringt also Wörter, die du noch nicht gelöst hast."
+      },
+      "native": {
+        "title": "In deiner Sprache geschrieben",
+        "text": "Die Fragen entstehen in jeder Sprache so, wie sie ein Rätselautor von dort stellen würde, nie übersetzt aus einer anderen."
+      },
+      "ai": {
+        "title": "Die KI schlägt vor, der Code prüft",
+        "text": "Die KI schlägt Wörter und Fragen vor. Unsere Prüfungen werfen weg, was falsch geschrieben, unfair oder verräterisch ist."
+      },
+      "offline": {
+        "title": "Überall spielbar",
+        "text": "Installier sie wie eine App. Geöffnete Rätsel laufen weiter im Flugzeug, in der U-Bahn, wo du auch bist."
+      }
+    },
+    "topicsTitle": "Wähl ein Thema",
+    "topicsSubtitle": "Von den Vögeln im Garten bis zu berühmten Flüssen, oder misch alle Themen.",
+    "faqTitle": "Fragen und Antworten",
+    "faq1Question": "Ist Kreuzworträtsel KI wirklich kostenlos?",
+    "faq1Answer": "Ja. Jedes Kreuzworträtsel und jedes Schwedenrätsel ist kostenlos, ohne Konto, ohne Anmeldung und ohne Limit, wie viele du löst.",
+    "faq2Question": "Sehe ich dieselben Wörter wieder?",
+    "faq2Answer": "Nein. Dein Gerät führt eine Liste der Wörter, die es schon gezeigt hat, und lässt sie aus jedem neuen Rätsel weg. Wenn du die Website-Daten im Browser löschst, fängt die Liste von vorn an.",
+    "faq3Question": "In welchen Sprachen kann ich spielen?",
+    "faq3Answer": "In dreiunddreißig Sprachen, jede mit eigenem Wortschatz für ihre Sprecher, nie aus einer anderen übersetzt: Englisch, Spanisch, Portugiesisch, Französisch, Deutsch, Italienisch, Niederländisch, Polnisch, Tschechisch, Schwedisch, Rumänisch, Ungarisch, Indonesisch, Malaiisch, Filipino, Vietnamesisch, Swahili, Russisch, Ukrainisch, Griechisch, Arabisch, Persisch, Urdu, Hebräisch, Hindi, Marathi, Bengalisch, Tamil, Thailändisch, Japanisch, Koreanisch, Chinesisch und Armenisch.",
+    "faq4Question": "Was ist der Unterschied zwischen Kreuzworträtsel und Schwedenrätsel?",
+    "faq4Answer": "Beim Kreuzworträtsel stehen die nummerierten Fragen neben dem Gitter, waagerecht und senkrecht. Beim Schwedenrätsel steht jede Frage in einem Feld, mit einem Pfeil zur Antwort.",
+    "faq5Question": "Kann ich offline spielen?",
+    "faq5Answer": "Ja. Jedes Rätsel, das du öffnest, wird mit deinem Fortschritt auf dem Gerät gespeichert und läuft ohne Verbindung weiter. Neue Rätsel brauchen Internet.",
+    "faq6Question": "Was, wenn eine Frage falsch ist?",
+    "faq6Answer": "Öffne das Menü ⋯ über dem Gitter und wähle «Frage melden». Melden drei verschiedene Spieler dieselbe Frage, wird sie ausgemustert und kommt nicht wieder.",
+    "faqMore": "Alle Fragen und Antworten →"
+  },
+  "CrosswordPage": {
+    "hero": {
+      "eyebrow": "Klassisches Kreuzworträtsel",
+      "title": "Ein klassisches Kreuzworträtsel, <mark>nur für dich gemacht</mark>",
+      "plainTitle": "Kreuzworträtsel mit KI",
+      "subtitle": "Nummerierte Fragen waagerecht und senkrecht, ein Gitter, das von der Mitte wächst, und Wörter, die du noch nicht gesehen hast.",
+      "lede": "Mach ein klassisches Kreuzworträtsel online und kostenlos: nummerierte Fragen waagerecht und senkrecht, zu den Themen Tiere, Essen, Geografie, Geschichte, Wissenschaft und Sport."
+    },
+    "rulesTitle": "So funktioniert ein Kreuzworträtsel",
+    "rule1": "Jedes weiße Feld trägt einen Buchstaben. Wörter laufen waagerecht (von links nach rechts) und senkrecht (von oben nach unten) und kreuzen sich.",
+    "rule2": "Jedes Wort hat eine Zahl im ersten Feld und eine Frage mit derselben Zahl in der Liste Waagerecht oder Senkrecht.",
+    "rule3": "Tippe ein Feld oder eine Frage an, um zu schreiben. Tippe dasselbe Feld noch einmal, oder drück die Leertaste, um zwischen waagerecht und senkrecht zu wechseln.",
+    "rule4": "Hängst du fest? Prüfe einen Buchstaben, ein Wort oder das ganze Rätsel, oder deck einen Buchstaben auf und mach weiter.",
+    "topicsTitle": "Kreuzworträtsel nach Thema",
+    "faqTitle": "Fragen zum Kreuzworträtsel",
+    "faq1Question": "Wie groß sind die Kreuzworträtsel?",
+    "faq1Answer": "Wähl klein (bis etwa 14 Wörter), mittel oder groß (über 20 Wörter). Das Gitter wird auf die Wörter zugeschnitten, die es enthält, und passt deshalb immer auf den Bildschirm.",
+    "faq2Question": "Was macht eine Frage leicht oder schwer?",
+    "faq2Answer": "Leichte Rätsel nutzen Alltagswörter mit direkten Erklärungen. Schwere nutzen seltenere Wörter und Fragen, bei denen man zweimal hinschaut.",
+    "faq3Question": "Kann ich die Tastatur benutzen?",
+    "faq3Answer": "Ja: Buchstaben tippen, mit den Pfeiltasten gehen, Enter für die nächste Frage, Backspace einen Schritt zurück. Auf dem Handy erscheint die eigene Tastatur unter dem Gitter.",
+    "faq4Question": "Kann ich ein Rätsel weitergeben?",
+    "faq4Answer": "Ja. Tippe über dem Gitter auf Teilen, um den Link zu kopieren oder über eine App zu schicken. Die andere Person bekommt genau dasselbe Gitter und dieselben Fragen."
+  },
+  "ScanwordPage": {
+    "hero": {
+      "eyebrow": "Schwedenrätsel",
+      "title": "Schwedenrätsel mit den Fragen <mark>im Gitter</mark>",
+      "plainTitle": "Schwedenrätsel mit KI",
+      "subtitle": "Keine Listen zum Suchen: Jede Frage steht in ihrem Feld, mit einem Pfeil zur Antwort.",
+      "lede": "Mach ein Schwedenrätsel online und kostenlos: Die Fragen stehen im Gitter. Dieselben Themen wie beim Kreuzworträtsel: Tiere, Essen, Geografie, Geschichte, Wissenschaft und Sport."
+    },
+    "rulesTitle": "So funktioniert ein Schwedenrätsel",
+    "rule1": "Getönte Felder tragen die Fragen. Der Pfeil zeigt, wo die Antwort beginnt und in welche Richtung sie läuft.",
+    "rule2": "Ein Feld kann zwei Fragen tragen: Die obere zeigt meist nach rechts, die untere nach unten.",
+    "rule3": "Tippe das Fragenfeld oder ein Buchstabenfeld an, um ein Wort zu wählen. Die volle Frage steht immer in der Leiste darüber.",
+    "rule4": "Bunte Felder sind nur Schmuck. Buchstaben kommen nur in die weißen Felder.",
+    "topicsTitle": "Schwedenrätsel nach Thema",
+    "faqTitle": "Fragen zum Schwedenrätsel",
+    "faq1Question": "Was ist ein Schwedenrätsel?",
+    "faq1Answer": "Ein Schwedenrätsel ist ein Kreuzworträtsel, dessen Fragen direkt im Gitter stehen. Es stammt vom skandinavischen Rätsel und ist in deutschen Rätselheften zu Hause.",
+    "faq2Question": "Auf dem Handy sind die Fragen winzig. Was tun?",
+    "faq2Answer": "Tippe das Feld an: Die volle Frage steht in der Leiste darüber. Du kannst auch auseinanderziehen, um zu zoomen, oder die ganze Liste öffnen.",
+    "faq3Question": "Warum knicken manche Pfeile ab?",
+    "faq3Answer": "Wenn vor der Antwort kein Platz für die Frage ist, sitzt sie über oder neben dem ersten Buchstaben, und der Pfeil knickt ab, um die Richtung zu zeigen.",
+    "faq4Question": "Sind die Fragen im Schwedenrätsel anders?",
+    "faq4Answer": "Sie sind kürzer. Eine Frage muss in ein Feld passen, also sind es höchstens ein paar Wörter."
+  },
+  "TopicsPage": {
+    "eyebrow": "Themen",
+    "title": "Worum soll dein Rätsel gehen?",
+    "subtitle": "Jedes Thema hat in jeder Sprache eigene Wörter. Wähl eines, oder misch auf der Startseite alle."
+  },
+  "TopicPage": {
+    "title": "Kreuzworträtsel zu {topic}",
+    "samplesTitle": "Ein Vorgeschmack auf {topic}",
+    "samplesSubtitle": "Ein paar Fragen aus dem Wortvorrat. Errätst du sie? Echte Rätsel bringen jedes Mal neue.",
+    "showAnswer": "Antwort zeigen",
+    "moreTopics": "Weitere Themen"
+  },
+  "Auth": {
+    "signIn": "Anmelden",
+    "signOut": "Abmelden",
+    "signInTitle": "Anmelden",
+    "signInSubtitle": "Nutze Google oder die E-Mail und das Passwort deines Kontos.",
+    "signUpTitle": "Konto anlegen",
+    "signUpSubtitle": "Wir schicken dir einen Link, mit dem du die Adresse bestätigst, bevor du dich anmelden kannst.",
+    "forgotTitle": "Passwort vergessen?",
+    "forgotSubtitle": "Wir schicken einen Link, wenn ein Konto diese Adresse nutzt.",
+    "resetTitle": "Neues Passwort wählen",
+    "resetSubtitle": "Damit meldest du dich an und meldest alle anderen Geräte ab.",
+    "verifyTitle": "E-Mail bestätigen",
+    "verifySubtitle": "Öffne den Link aus dem Posteingang und bestätige ihn hier. Mailfilter können den Link nicht verbrauchen.",
+    "google": "Weiter mit Google",
+    "or": "oder",
+    "name": "Name",
+    "email": "E-Mail",
+    "password": "Passwort",
+    "passwordHint": "Mindestens 8 Zeichen, mit einem Buchstaben und einer Zahl. Nicht deine E-Mail-Adresse.",
+    "confirmPassword": "Passwort wiederholen",
+    "passwordMismatch": "Die Passwörter stimmen nicht überein",
+    "required": "Dieses Feld wird gebraucht",
+    "invalidEmail": "Diese E-Mail-Adresse sieht nicht richtig aus",
+    "forgot": "Passwort vergessen?",
+    "noAccount": "Noch kein Konto?",
+    "hasAccount": "Schon ein Konto?",
+    "submitSignIn": "Anmelden",
+    "submitSignUp": "Konto anlegen",
+    "submitForgot": "Link senden",
+    "submitReset": "Passwort speichern",
+    "submitVerify": "E-Mail bestätigen",
+    "verifiedNotice": "E-Mail bestätigt. Melde dich an, um weiterzumachen.",
+    "checkInbox": "Schau in {email}",
+    "checkInboxText": "Wir haben einen Link geschickt. Öffne ihn und komm dann zum Anmelden zurück.",
+    "resend": "Link noch einmal senden",
+    "resent": "Noch einmal gesendet.",
+    "forgotSent": "Wenn ein Konto diese Adresse nutzt, ist der Link unterwegs.",
+    "invalidCredentials": "Diese E-Mail und dieses Passwort passen nicht zusammen.",
+    "googleOnly": "Dieses Konto meldet sich mit Google an.",
+    "emailNotVerified": "Bestätige zuerst deine E-Mail. Der Link liegt im Posteingang.",
+    "emailTaken": "Ein Konto mit dieser E-Mail gibt es schon.",
+    "weakPassword": "Nimm mindestens 8 Zeichen, mit einem Buchstaben und einer Zahl, und nicht deine E-Mail-Adresse.",
+    "verifyInvalid": "Dieser Bestätigungslink ist ungültig oder abgelaufen.",
+    "resetInvalid": "Dieser Link zum Zurücksetzen ist ungültig oder abgelaufen.",
+    "mailFailed": "Die E-Mail konnte nicht gesendet werden. Versuch es noch einmal.",
+    "googleErrors": {
+      "google_unavailable": "Die Anmeldung mit Google ist gerade nicht verfügbar.",
+      "google_denied": "Die Anmeldung mit Google wurde abgebrochen.",
+      "google_failed": "Die Anmeldung mit Google wurde nicht abgeschlossen. Versuch es noch einmal.",
+      "google_email_unverified": "Google hat diese E-Mail-Adresse nicht bestätigt."
+    }
+  },
+  "History": {
+    "title": "Meine Rätsel",
+    "subtitle": "Kreuzworträtsel und Schwedenrätsel, die du angefangen und nicht beendet hast. Deine Buchstaben bleiben auf diesem Gerät. Öffne eines und mach weiter, online oder offline.",
+    "empty": "Noch keine unfertigen Rätsel. Fang ein Kreuzworträtsel oder Schwedenrätsel an, dann wartet es hier, bis du fertig bist.",
+    "detail": "{percent} % gefüllt · {difficulty} · {size}",
+    "seeAll": "Alle unfertigen ansehen"
+  },
+  "Play": {
+    "title": "Rätsel",
+    "loading": "Dein Rätsel wird geöffnet…",
+    "missingTitle": "Dieses Rätsel ist nicht hier",
+    "missingText": "Es ist auf diesem Gerät nicht gespeichert, und der Server ist gerade nicht erreichbar. Prüfe den Link oder versuch es, wenn du online bist.",
+    "leaveTitle": "Dieses Rätsel verlassen?",
+    "leaveBody": "Deine Buchstaben bleiben auf diesem Gerät gespeichert. Du kannst es später unter Meine Rätsel zu Ende lösen.",
+    "keepSolving": "Weiterlösen",
+    "leave": "Verlassen",
+    "newPuzzle": "Neues Rätsel",
+    "allClues": "Alle Fragen",
+    "across": "Waagerecht",
+    "down": "Senkrecht",
+    "gridLabel": "Rätselgitter",
+    "cell": {
+      "position": "Zeile {row}, Spalte {col}",
+      "empty": "leer",
+      "wrong": "falscher Buchstabe",
+      "revealed": "aufgedeckt",
+      "clue": "Frage: {clue}"
+    },
+    "wordNumbered": "{number} {dir, select, across {waagerecht} other {senkrecht}}",
+    "wordDirection": "{dir, select, across {Waagerecht} other {Senkrecht}}",
+    "wordLength": "{name}, {length, plural, one {# Buchstabe} other {# Buchstaben}}",
+    "wordLetter": "{name}, Buchstabe {letter} von {length}",
+    "previousWord": "Vorherige Frage",
+    "nextWord": "Nächste Frage",
+    "toggleDirection": "Richtung wechseln",
+    "filled": "Ausgefüllt",
+    "keyboard": "Tastatur",
+    "ime": "Zeichen eingeben",
+    "erase": "Löschen",
+    "time": "Zeit: {time}",
+    "check": {
+      "label": "Prüfen",
+      "cell": "Buchstabe prüfen",
+      "word": "Wort prüfen",
+      "puzzle": "Rätsel prüfen"
+    },
+    "reveal": {
+      "label": "Aufdecken",
+      "cell": "Buchstabe aufdecken",
+      "word": "Wort aufdecken",
+      "puzzle": "Rätsel aufdecken",
+      "confirmTitle": "Das ganze Rätsel aufdecken?",
+      "confirmText": "Jede Antwort wird eingetragen und das Rätsel endet. Das lässt sich nicht rückgängig machen.",
+      "cancel": "Weiterlösen",
+      "confirm": "Alles aufdecken"
+    },
+    "clearWrong": "Falsche Buchstaben löschen",
+    "more": "Mehr",
+    "zoom": {
+      "label": "Zoom",
+      "in": "Vergrößern",
+      "out": "Verkleinern",
+      "reset": "Ganzes Rätsel zeigen"
+    },
+    "settings": {
+      "label": "Einstellungen",
+      "autoCheck": "Beim Tippen prüfen",
+      "autoCheckHint": "Markiert einen falschen Buchstaben, sobald er steht.",
+      "skipFilled": "Gefüllte Felder überspringen",
+      "skipFilledHint": "Beim Tippen werden Felder übersprungen, die schon einen Buchstaben haben."
+    },
+    "share": "Rätsel teilen",
+    "shareShort": "Teilen",
+    "shareTitle": "Probier dieses Rätsel!",
+    "linkCopied": "Link kopiert. Schick ihn weiter.",
+    "shareDialog": {
+      "title": "Dieses Rätsel teilen",
+      "description": "Die andere Person bekommt genau dasselbe Gitter und dieselben Fragen, kostenlos und ohne Anmeldung.",
+      "link": "Link zum Rätsel",
+      "copy": "Kopieren",
+      "copied": "Kopiert!",
+      "copyFailed": "Kopieren ging nicht. Der Link ist markiert, also kopier ihn von Hand.",
+      "apps": "Über eine App senden",
+      "email": "E-Mail",
+      "more": "Weitere Möglichkeiten…",
+      "text": "Schaffst du dieses {format, select, scanword {Schwedenrätsel} other {Kreuzworträtsel}} zu {topic}? Es ist kostenlos und frisch von einer KI geschrieben.",
+      "textAny": "Schaffst du dieses {format, select, scanword {Schwedenrätsel} other {Kreuzworträtsel}}? Es ist kostenlos und frisch von einer KI geschrieben."
+    },
+    "pdf": {
+      "open": "Als PDF speichern",
+      "title": "Als PDF speichern",
+      "description": "Das helllila Gitter, ein buntes oder Schwarz-Weiß. Es öffnet sich in einem neuen Tab.",
+      "appearance": "Aussehen",
+      "appearanceDefault": "Standard",
+      "appearanceColorful": "Bunt",
+      "appearanceMono": "Schwarz-Weiß",
+      "letters": "Meine Buchstaben mitnehmen",
+      "lettersHint": "Zeigt die Buchstaben, die du schon eingetragen hast.",
+      "answers": "Lösungen anhängen",
+      "answersHint": "Das gelöste Gitter, auf einer eigenen Seite.",
+      "cancel": "Abbrechen",
+      "confirm": "PDF öffnen",
+      "preparing": "Dein PDF wird vorbereitet…",
+      "failed": "Das PDF konnte nicht erstellt werden. Versuch es noch einmal.",
+      "answersTitle": "Lösungen",
+      "playOnline": "Online spielen: {url}"
+    },
+    "report": {
+      "open": "Frage melden",
+      "title": "Was stimmt an dieser Frage nicht?",
+      "cancel": "Abbrechen",
+      "send": "Meldung senden",
+      "thanks": "Danke! Meldungen helfen uns, schlechte Fragen auszumustern.",
+      "note": "Was sollen wir wissen?",
+      "notePlaceholder": "Eine kurze Notiz in deinen Worten",
+      "reasons": {
+        "wrongClue": "Die Frage passt nicht zur Antwort",
+        "notAWord": "Die Antwort ist kein echtes Wort",
+        "offensive": "Es ist beleidigend oder unpassend",
+        "typo": "Da ist ein Tippfehler",
+        "other": "Etwas anderes"
+      }
+    },
+    "solved": {
+      "title": "Gelöst! Stark!",
+      "titleHelped": "Gelöst. Gut gemacht.",
+      "time": "Zeit",
+      "checks": "Prüfungen",
+      "reveals": "Aufgedeckt",
+      "admire": "Das Gitter ansehen",
+      "next": "Nächstes Rätsel"
+    },
+    "announce": {
+      "checked": "{count, plural, one {# Buchstabe ist falsch} other {# Buchstaben sind falsch}}",
+      "allCorrect": "Alles Geprüfte stimmt",
+      "revealed": "{count, plural, one {# Buchstabe aufgedeckt} other {# Buchstaben aufgedeckt}}",
+      "solved": "Rätsel gelöst in {seconds, plural, one {# Sekunde} other {# Sekunden}}!"
+    }
+  },
+  "Rules": {
+    "title": "Spielanleitung",
+    "subtitle": "Alles, was du brauchst, um hier ein Kreuzworträtsel oder Schwedenrätsel zu lösen, auf dem Handy, dem Tablet oder dem Computer.",
+    "sections": [
+      {
+        "title": "Ein Wort wählen",
+        "paragraphs": [
+          "Tippe oder klicke ein weißes Feld. Das Wort leuchtet gelb, und seine Frage erscheint in der Leiste über dem Gitter.",
+          "Wo sich zwei Wörter kreuzen, tippe dasselbe Feld noch einmal, um zwischen waagerecht und senkrecht zu wechseln. Im Schwedenrätsel kannst du auch das Fragenfeld selbst antippen."
+        ]
+      },
+      {
+        "title": "Schreiben",
+        "paragraphs": [
+          "Am Computer tippst du einfach. Die Tastaturbelegung musst du nicht wechseln: Steht sie auf Englisch, schreiben die Tasten die Buchstaben der Rätselsprache an ihrer gewohnten Stelle.",
+          "Auf Handy oder Tablet erscheint die eigene Tastatur unter dem Gitter. Für Armenisch hat sie die Einzelbuchstaben ՈՒ und և, jeder füllt ein Feld. Tippt man ո und dann ւ, werden sie von selbst zu ՈՒ.",
+          "In russischen Rätseln wird Ё als Е geschrieben, wie in gedruckten Kreuzworträtseln.",
+          "Im Deutschen bleiben ä, ö und ü eigene Felder. ß wird als SS geschrieben: Straße kommt als STRASSE ins Gitter."
+        ]
+      },
+      {
+        "title": "Sich bewegen",
+        "paragraphs": [
+          "Die Pfeiltasten springen von Feld zu Feld. Ein Pfeil quer zur aktuellen Richtung dreht zuerst die Schreibmarke. Enter springt zur nächsten Frage, Umschalt+Enter zur vorherigen.",
+          "Backspace löscht einen Buchstaben und geht einen Schritt zurück. Pos1 und Ende springen an Anfang und Ende des Wortes. Tab verlässt das Gitter."
+        ]
+      },
+      {
+        "title": "Hilfe holen",
+        "paragraphs": [
+          "Prüfen streicht falsche Buchstaben durch und sperrt die richtigen. Aufdecken füllt einen Buchstaben, ein Wort oder das ganze Rätsel. Aufgedeckte Buchstaben tragen ein kleines lila Fähnchen.",
+          "Schalt «Beim Tippen prüfen» in den Einstellungen ein, wenn du es sofort sehen willst."
+        ]
+      },
+      {
+        "title": "Jedes Mal neue Wörter",
+        "paragraphs": [
+          "Dein Gerät merkt sich die Wörter, die es dir gezeigt hat, und fragt nicht wieder danach. Jedes neue Rätsel besteht aus Wörtern, die du hier noch nicht hattest."
+        ]
+      }
+    ]
+  },
+  "Faq": {
+    "title": "Fragen und Antworten",
+    "subtitle": "Alles zu Kreuzworträtsel KI an einem Ort: die Rätsel, wie die KI sie schreibt, das Spiel auf jedem Gerät und dein Datenschutz.",
+    "groups": [
+      {
+        "title": "Über Kreuzworträtsel KI",
+        "items": [
+          {
+            "question": "Was ist Kreuzworträtsel KI?",
+            "answer": "Kreuzworträtsel KI ist eine kostenlose Website, die Kreuzworträtsel und Schwedenrätsel in dreiunddreißig Sprachen erzeugt. Ein KI-Modell schreibt Wörter und Fragen in jeder Sprache selbst, der Code baut das Gitter, und jedes Gerät bekommt nur Wörter, die es noch nicht gesehen hat."
+          },
+          {
+            "question": "Ist es wirklich kostenlos?",
+            "answer": "Ja. Jedes Rätsel ist kostenlos: kein Konto, keine Anmeldung, kein Abo und keine Werbung."
+          },
+          {
+            "question": "Brauche ich ein Konto?",
+            "answer": "Nein. Es gibt nichts anzumelden. Fortschritt, Einstellungen und die Liste der schon gesehenen Wörter bleiben im Browser, auf deinem Gerät."
+          },
+          {
+            "question": "Wer macht Kreuzworträtsel KI?",
+            "answer": "Es ist ein unabhängiges Projekt des Entwicklers Michael Navasardyan: Rätsel, die sich lesen, als hätte sie jemand von dort geschrieben, in jeder Sprache der Seite, darunter Armenisch, Russisch und Englisch."
+          }
+        ]
+      },
+      {
+        "title": "Die Rätsel",
+        "items": [
+          {
+            "question": "Was ist der Unterschied zwischen Kreuzworträtsel und Schwedenrätsel?",
+            "answer": "Beim Kreuzworträtsel stehen die nummerierten Fragen neben dem Gitter, waagerecht und senkrecht. Beim Schwedenrätsel steht jede Frage in einem Feld, mit einem Pfeil zur Antwort. So sind die Rätselhefte voll davon."
+          },
+          {
+            "question": "Wie groß sind die Rätsel?",
+            "answer": "Es gibt drei Größen. Ein klassisches Kreuzworträtsel füllt ein Gitter von 9×9, 13×13 oder 15×15 mit etwa 8–14, 16–24 oder 22–34 Wörtern und wird dann auf den Inhalt zugeschnitten. Ein Schwedenrätsel nutzt 8×10, 10×13 oder 13×17, höher als breit, weil die meisten auf dem Handy gelöst werden."
+          },
+          {
+            "question": "Wie unterscheiden sich die Stufen?",
+            "answer": "Leicht nimmt Alltagswörter mit direkten Erklärungen. Mittel greift weiter in den Wortschatz. Schwer bringt seltenere Wörter und Fragen, bei denen man zweimal hinschaut."
+          },
+          {
+            "question": "Welche Themen kann ich wählen?",
+            "answer": "Zwölf: Alltagswörter, Natur, Tiere, Essen und Trinken, Geografie, Geschichte, Wissenschaft, Sport, Kunst, Zuhause und Alltag, Berufe und deutsche Kultur. Du kannst auch alle mischen."
+          },
+          {
+            "question": "Sehe ich ein Wort jemals zweimal?",
+            "answer": "Nicht auf demselben Gerät. Es merkt sich bis zu 4000 Wörter je Sprache, ungefähr 130 Rätsel, und lässt sie aus jedem neuen weg. Erst danach fallen die ältesten von der Liste. Löschst du die Website-Daten, beginnt die Liste von vorn."
+          },
+          {
+            "question": "Wie schreibt die KI die Fragen?",
+            "answer": "Googles Modell Gemini schreibt Wörter und Fragen direkt in jeder Sprache, nach einem Stilführer von Muttersprachlern. Der Code prüft jede: das richtige Alphabet, ein echtes Wort, eine faire Frage, die die Antwort nicht verrät. Ein zweiter KI-Durchgang redigiert. Was durchfällt, wird verworfen, nie geflickt. Das Gitter baut der Code, nicht die KI."
+          },
+          {
+            "question": "Was, wenn eine Frage falsch ist?",
+            "answer": "Öffne das Menü ⋯ über dem Gitter und wähle «Frage melden». Melden drei verschiedene Spieler dieselbe Frage, wird sie ausgemustert und kommt nicht wieder."
+          }
+        ]
+      },
+      {
+        "title": "Spielen",
+        "items": [
+          {
+            "question": "Wie gebe ich Antworten auf dem Handy oder Computer ein?",
+            "answer": "Am Computer tippst du einfach: Auch wenn die Tastatur auf Englisch steht, schreiben die Tasten die Buchstaben des Rätsels an ihrer gewohnten Stelle, ohne die Belegung zu wechseln. Auf Handy oder Tablet erscheint die eigene Tastatur unter dem Gitter, und die Systemtastatur verdeckt es nicht."
+          },
+          {
+            "question": "Kann ich Antworten prüfen oder einen Hinweis holen?",
+            "answer": "Ja. Prüfen markiert falsche Buchstaben in einem Feld, einem Wort oder dem ganzen Rätsel, und Aufdecken füllt einen Buchstaben, ein Wort oder alles. Schalt «Beim Tippen prüfen» ein, dann siehst du den Fehler im Moment, in dem er entsteht."
+          },
+          {
+            "question": "Wie werden armenisches ու und և und russisches Ё behandelt?",
+            "answer": "In armenischen Rätseln sind ու und և Einzelbuchstaben und füllen je ein Feld, wie in gedruckten Rätseln. Die Bildschirmtastatur hat beide, und ո gefolgt von ւ wird zu ու. Im Russischen wird Ё als Е geschrieben, wie im Druck."
+          },
+          {
+            "question": "Wird mein Fortschritt gespeichert?",
+            "answer": "Ja, von selbst, während du spielst. Jedes angefangene und nicht beendete Rätsel steht unter «Meine Rätsel», mit deinen Buchstaben, damit du später weitermachen kannst, auch offline."
+          },
+          {
+            "question": "Kann ich offline spielen oder es als App installieren?",
+            "answer": "Ja. Kreuzworträtsel KI lässt sich aus dem Browser wie eine App installieren (auf dem iPhone: Teilen → Zum Home-Bildschirm). Jedes geöffnete Rätsel wird mit dem Fortschritt gespeichert und läuft ohne Verbindung weiter. Nur neue Rätsel brauchen Internet."
+          },
+          {
+            "question": "Kann ich ein Rätsel teilen?",
+            "answer": "Ja. Tippe über dem Gitter auf Teilen, um den Link zu kopieren, oder schick ihn über WhatsApp, Telegram, Facebook, X, VK oder E-Mail. Die andere Person bekommt genau dasselbe Gitter und dieselben Fragen."
+          },
+          {
+            "question": "Geht das mit Tastatur oder Bildschirmleser?",
+            "answer": "Ja. Das Gitter funktioniert vollständig über die Tastatur und mit Bildschirmlesern: Jedes Feld ist benannt, die aktive Frage wird angesagt, Prüfungen und Aufdeckungen werden vorgelesen. Falsch und aufgedeckt sind an der Form zu erkennen, nicht nur an der Farbe."
+          }
+        ]
+      },
+      {
+        "title": "Datenschutz",
+        "items": [
+          {
+            "question": "Welche Daten behaltet ihr?",
+            "answer": "Sehr wenige. Deine Rätsel, der Fortschritt, die Einstellungen und die Liste gesehener Wörter bleiben im Browser. Der Server speichert erstellte Rätsel (damit ein geteilter Link dasselbe Gitter öffnet), Fragemeldungen mit einem nicht umkehrbaren Hash der IP-Adresse und anonyme Zählungen gelöster Rätsel. Keine Namen, keine Profile."
+          },
+          {
+            "question": "Geht etwas über mich an die KI?",
+            "answer": "Nein. An Googles Gemini-Modelle gehen nur die Rätseleinstellungen (Sprache, Thema, Schwierigkeit) und Wortlisten, nie etwas über dich."
+          }
+        ]
+      }
+    ],
+    "ctaTitle": "Bereit für ein frisches Rätsel?",
+    "ctaText": "Wähl ein Thema und eine Schwierigkeit. Das nächste Gitter ist ein paar Sekunden entfernt.",
+    "cta": "Kreuzworträtsel erstellen"
+  },
+  "About": {
+    "title": "Über Kreuzworträtsel KI",
+    "subtitle": "Ein kostenloser Generator, der in deiner Sprache schreibt und dasselbe Wort nie zweimal ausgibt.",
+    "sections": [
+      {
+        "title": "Warum wir das gebaut haben",
+        "paragraphs": [
+          "Die meisten Kreuzworträtsel im Netz recyceln eine kurze Wortliste, und übersetzte lesen sich übersetzt. Wir wollten Rätsel, die klingen, als hätte sie jemand von dort geschrieben, und die neu bleiben, egal wie viele du löst."
+        ]
+      },
+      {
+        "title": "Wie die Wörter entstehen",
+        "paragraphs": [
+          "Ein KI-Modell schreibt Wörter und Fragen direkt in jeder Sprache, nach einem Stilführer von Muttersprachlern: die Formen, die Rätsel nutzen, die Rechtschreibnorm, die Art, wie man in dieser Tradition fragt.",
+          "Danach läuft jedes Wort durch automatische Prüfungen: das richtige Alphabet, ein echtes Wort, eine Frage, die die Antwort nicht verrät. Eine zweite KI redigiert. Meldungen der Spieler mustern aus, was durchrutscht."
+        ]
+      },
+      {
+        "title": "Wie die Gitter gebaut werden",
+        "paragraphs": [
+          "Das Gitter baut der Code, nicht die KI: Ein Verfahren setzt die Wörter so zusammen, dass jeder Buchstabe zu einem echten Wort mit Frage gehört. So bleibt jedes Rätsel fair."
+        ]
+      }
+    ]
+  },
+  "Privacy": {
+    "title": "Datenschutzerklärung",
+    "subtitle": "Kurzfassung: kein Konto, keine Namen, keine Profile. Das hier bewahren wir auf.",
+    "sections": [
+      {
+        "title": "Auf deinem Gerät",
+        "paragraphs": [
+          "Der Browser speichert die Rätsel, die du öffnest, deinen Fortschritt, deine Einstellungen und eine Liste der Wörter, die du schon gesehen hast, damit sie nicht wiederkommen. Das bleibt auf dem Gerät. Löschst du die Website-Daten, ist es weg."
+        ]
+      },
+      {
+        "title": "Auf unserem Server",
+        "paragraphs": [
+          "Wir speichern erstellte Rätsel, damit ein geteilter Link dasselbe Gitter öffnet. Meldest du eine Frage, behalten wir die Meldung mit einem nicht umkehrbaren Hash deiner IP-Adresse, nur damit nicht eine einzelne Person eine Frage allein ausmustern kann. Wir zählen außerdem anonym, wie gespielt wird (gelöst, welche Wörter aufgedeckt wurden), um die Schwierigkeit zu justieren."
+        ]
+      },
+      {
+        "title": "KI-Anbieter",
+        "paragraphs": [
+          "Neue Wörter und Fragen schreiben Googles Gemini-Modelle. Gesendet werden nur die Rätseleinstellungen (Sprache, Thema, Schwierigkeit) und Wortlisten, nie etwas über dich."
+        ]
+      },
+      {
+        "title": "Auswertung und Fehlermeldungen",
+        "paragraphs": [
+          "Wenn es eingeschaltet ist, nutzen wir Google Analytics, um Seitenaufrufe zu zählen, und Sentry, um Fehlermeldungen zu empfangen. Beides dient nicht dazu, dich zu erkennen."
+        ]
+      }
+    ]
+  },
+  "Terms": {
+    "title": "Nutzungsbedingungen",
+    "subtitle": "Kreuzworträtsel KI ist kostenlos, zum Spielen und zum Lernen.",
+    "sections": [
+      {
+        "title": "Nutzung des Dienstes",
+        "paragraphs": [
+          "Du darfst die Rätsel für den privaten und schulischen Gebrauch spielen, teilen und drucken. Bitte überlaste den Dienst nicht mit automatischen Anfragen."
+        ]
+      },
+      {
+        "title": "Von der KI geschriebener Inhalt",
+        "paragraphs": [
+          "Wörter und Fragen schreibt eine KI, und sie werden automatisch geprüft, aber Fehler können vorkommen. Wenn du einen findest, melde ihn. So verschwinden schlechte Fragen."
+        ]
+      },
+      {
+        "title": "Keine Gewähr",
+        "paragraphs": [
+          "Der Dienst wird so bereitgestellt, wie er ist, ohne Zusage von Verfügbarkeit oder Richtigkeit. Wir können Funktionen jederzeit ändern oder einstellen."
+        ]
+      }
+    ]
+  },
+  "Contact": {
+    "title": "Schreib uns",
+    "subtitle": "Eine Frage, eine Idee oder etwas ist schiefgelaufen? Schreib uns, wir antworten per E-Mail.",
+    "fullName": "Name",
+    "email": "E-Mail",
+    "message": "Nachricht",
+    "messagePlaceholder": "Wobei können wir helfen?",
+    "required": "Dieses Feld wird gebraucht",
+    "invalidEmail": "Diese E-Mail-Adresse sieht nicht richtig aus",
+    "submit": "Senden",
+    "sent": "Nachricht gesendet",
+    "sentText": "Danke. Wir antworten so bald wie möglich per E-Mail.",
+    "sendAnother": "Noch eine Nachricht schreiben",
+    "tooMany": "Das waren zu viele Nachrichten. Versuch es etwas später noch einmal."
+  }
+}

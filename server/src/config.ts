@@ -1,6 +1,10 @@
+import { deriveCookieDomain } from './lib/cookie-domain.js'
+
 import './load-env.js'
 
 const nodeEnv = process.env.NODE_ENV ?? 'development'
+const corsOrigin = (process.env.CORS_ORIGIN ?? 'http://localhost:7007').replace(/\/+$/, '')
+const port = Number(process.env.PORT ?? 9007)
 
 const asNumber = (value: string | undefined, fallback: number): number => {
   const parsed = Number(value)
@@ -9,11 +13,31 @@ const asNumber = (value: string | undefined, fallback: number): number => {
 
 /** Every `process.env` read lives here. Secrets are read by exactly one module each. */
 export const config = {
-  port: Number(process.env.PORT ?? 9007),
+  port,
   /** Every interface in dev (a phone on the LAN can reach it); production sets 127.0.0.1. */
   host: process.env.HOST ?? '0.0.0.0',
-  corsOrigin: process.env.CORS_ORIGIN ?? 'http://localhost:7007',
+  corsOrigin,
   nodeEnv,
+  /** Signs the session cookie. The dev default is local only; production must set its own. */
+  jwtSecret: process.env.JWT_SECRET ?? 'dev-secret-change-me',
+  cookieName: 'crossword-session',
+  /** Host-only in dev. In production, the web hostname, so `api.` can set a cookie the site sees. */
+  cookieDomain: process.env.COOKIE_DOMAIN ?? deriveCookieDomain(nodeEnv, corsOrigin),
+  oauthCookieName: 'crossword-oauth',
+  oauthFlowTtlMs: 10 * 60 * 1000,
+  passwordResetTtlMs: 60 * 60 * 1000,
+  emailVerifyTtlMs: 48 * 60 * 60 * 1000,
+  /** External mail engine. `apiKey` is read only by `lib/mail.ts`. Empty logs the link in dev. */
+  mail: {
+    apiUrl: (process.env.MAIL_API_URL ?? '').replace(/\/+$/, ''),
+    apiKey: process.env.MAIL_API_KEY ?? '',
+  },
+  /** Google OAuth. `clientSecret` is read only by `lib/google-oauth.ts`. Empty hides the button. */
+  google: {
+    clientId: process.env.GOOGLE_CLIENT_ID ?? '',
+    clientSecret: process.env.GOOGLE_CLIENT_SECRET ?? '',
+    redirectUri: process.env.GOOGLE_REDIRECT_URI ?? `http://localhost:${port}/identity/google/callback`,
+  },
   /**
    * Gemini. `key` is read only by `lib/gemini.ts`. Empty disables generation: every puzzle is
    * built from the pool, which the seed keeps non-empty.
@@ -41,3 +65,6 @@ export const config = {
 }
 
 export const isGeminiConfigured = (): boolean => Boolean(config.gemini.key)
+
+export const isGoogleOAuthConfigured = (): boolean =>
+  Boolean(config.google.clientId && config.google.clientSecret && config.google.redirectUri)

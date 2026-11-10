@@ -6,6 +6,33 @@ import { createHash } from 'node:crypto'
  * every route hand-reads `req.body` through these.
  */
 
+export const MAX_EMAIL_LENGTH = 254
+
+export const isEmail = (value: string): boolean => value.length <= MAX_EMAIL_LENGTH && /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(value)
+
+/** Lowercased, or null when it is not an email. */
+export const asEmail = (value: unknown): string | null => {
+  if (typeof value !== 'string') return null
+  const email = value.trim().toLowerCase()
+  return isEmail(email) ? email : null
+}
+
+const MAX_NAME_LENGTH = 100
+
+/** A display name: trimmed, collapsed spaces, within the column. */
+export const asFullName = (value: unknown): string | undefined => {
+  if (typeof value !== 'string') return undefined
+  const name = value.trim().replace(/\s+/g, ' ')
+  return name.length > 0 && name.length <= MAX_NAME_LENGTH ? name : undefined
+}
+
+/** Trimmed text within `max`, or null when it is empty or too long. */
+export const asBoundedString = (value: unknown, max: number): string | null => {
+  if (typeof value !== 'string') return null
+  const trimmed = value.trim()
+  return trimmed.length > 0 && trimmed.length <= max ? trimmed : null
+}
+
 /** `undefined` for anything that is not a non-empty string once trimmed. */
 export const asTrimmedString = (value: unknown): string | undefined => {
   if (typeof value !== 'string') return undefined

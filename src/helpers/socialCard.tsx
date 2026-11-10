@@ -2,7 +2,7 @@ import { ImageResponse } from 'next/og'
 import { createTranslator } from 'next-intl'
 import { readFile } from 'node:fs/promises'
 import path from 'node:path'
-import { LOCALE_LABELS, LOCALES } from '@i18n/config'
+import { LOCALE_LABELS } from '@i18n/config'
 import { OG_IMAGE_SIZE } from '@constants/app'
 import type { Locale, PuzzleView } from '@constants/puzzle'
 import { getSiteUrl } from '@helpers/url'
@@ -47,7 +47,7 @@ const translator = async (locale: Locale) => {
 /** The page's language first among the language chips. */
 export const renderSiteCard = async (locale: Locale, init?: ResponseInit) => {
   const t = await translator(locale)
-  const languages = [locale, ...LOCALES.filter((each) => each !== locale)].map((each) => LOCALE_LABELS[each])
+  const languages = [LOCALE_LABELS[locale]]
   return new ImageResponse(
     <SiteCard
       appName={t('Common.appName')}

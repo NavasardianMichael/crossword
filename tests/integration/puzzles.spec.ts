@@ -2,7 +2,7 @@ import request from 'supertest'
 import { afterAll, describe, expect, it } from 'vitest'
 import { createApp } from '../../server/src/app'
 import { prisma } from '../../server/src/lib/prisma'
-import type { PuzzleView } from '../../server/src/lib/puzzle'
+import { LOCALES, type PuzzleView } from '../../server/src/lib/puzzle'
 
 /** Requests from the web app carry its Origin; the CSRF guard refuses any other. */
 const ORIGIN = 'http://localhost:7007'
@@ -24,7 +24,7 @@ describe('health', () => {
     const response = await request(app).get('/health')
     expect(response.status).toBe(200)
     expect(response.body.value.gemini).toBe(false)
-    for (const locale of ['en', 'ru', 'hy']) expect(response.body.value.pool[locale]).toBeGreaterThan(100)
+    for (const locale of LOCALES) expect(response.body.value.pool[locale]).toBeGreaterThan(100)
   })
 
   it('answers unknown routes in the envelope', async () => {
@@ -77,7 +77,7 @@ describe('POST /puzzles', () => {
   })
 
   it('rejects unsupported options', async () => {
-    expect((await create({ locale: 'fr' })).status).toBe(400)
+    expect((await create({ locale: 'xx' })).status).toBe(400)
     expect((await create({ format: 'sudoku' })).status).toBe(400)
     expect((await create({ topic: 'cars' })).status).toBe(400)
     expect((await create({ difficulty: 4 })).status).toBe(400)

@@ -19,10 +19,13 @@ import type { Difficulty, Locale, Topic, TopicChoice } from '../lib/puzzle.js'
 export type ClueStyle = 'full' | 'short'
 
 /** Letters (almost) no word of the language starts with: never asked for as starting letters. */
-const NON_INITIAL: Record<Locale, readonly string[]> = {
+const NON_INITIAL: Partial<Record<Locale, readonly string[]>> = {
   en: ['x'],
   ru: ['ъ', 'ы', 'ь', 'й'],
   hy: ['և'],
+  uk: ['ь'],
+  he: ['ך', 'ם', 'ן', 'ף', 'ץ'],
+  ja: ['ぁ', 'ぃ', 'ぅ', 'ぇ', 'ぉ', 'ゃ', 'ゅ', 'ょ', 'っ', 'ー'],
 }
 
 const DAY_MS = 24 * 60 * 60 * 1000
@@ -119,8 +122,9 @@ export const pickSeeding = async (locale: Locale, topic: Topic, random: Random):
   `
   const perLetter = new Map(counts.map(({ firstCell, count }) => [firstCell, count]))
   const letters: string[] = []
-  const options = ALPHABETS[locale].filter((letter) => !NON_INITIAL[locale].includes(letter))
-  while (letters.length < STARTING_LETTERS) {
+  const blocked = NON_INITIAL[locale] ?? []
+  const options = ALPHABETS[locale].filter((letter) => !blocked.includes(letter))
+  while (letters.length < Math.min(STARTING_LETTERS, options.length)) {
     const left = options.filter((letter) => !letters.includes(letter))
     letters.push(pickWeighted(left, (letter) => 1 / (1 + (perLetter.get(letter) ?? 0)), random))
   }
@@ -363,10 +367,11 @@ export const reportEntry = async (
   clueId: string,
   puzzleId: string,
   reporterKey: string,
-  reason: string
+  reason: string,
+  note?: string
 ): Promise<void> => {
   const created = await prisma.entryReport.createMany({
-    data: [{ entryId, clueId, puzzleId, reporterKey, reason }],
+    data: [{ entryId, clueId, puzzleId, reporterKey, reason, note }],
     skipDuplicates: true,
   })
   if (!created.count) return

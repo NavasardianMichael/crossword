@@ -1,7 +1,8 @@
-import en from '@messages/en.json'
-import hy from '@messages/hy.json'
-import ru from '@messages/ru.json'
+import type English from '@messages/en.json'
 import { createTranslator } from 'next-intl'
+import { readFileSync } from 'node:fs'
+import path from 'node:path'
+import { fileURLToPath } from 'node:url'
 import { type Locale, LOCALE_LABELS, LOCALES } from '@i18n/config'
 import { localePath } from '@i18n/pathname'
 import { APP_NAME, AUTHOR } from '@constants/app'
@@ -14,14 +15,19 @@ import { absoluteUrl } from '@helpers/url'
  * answer engines, in Markdown. Built from the catalogues and the puzzle constants, so it can
  * never drift from what the pages say. Every URL is absolute and locale-prefixed.
  */
-const MESSAGES = { en, ru, hy } as const
+const MESSAGES_DIR = path.join(path.dirname(fileURLToPath(import.meta.url)), '../messages')
 
-const translator = (locale: Locale) => createTranslator({ locale, messages: MESSAGES[locale] })
+const messagesFor = (locale: Locale) =>
+  // Locale is a closed union, and the file name is `${locale}.json` in this directory.
+  // eslint-disable-next-line security/detect-non-literal-fs-filename
+  JSON.parse(readFileSync(path.join(MESSAGES_DIR, `${locale}.json`), 'utf8')) as typeof English
+
+const translator = (locale: Locale) => createTranslator({ locale, messages: messagesFor(locale) })
 
 type Section = { title: string; paragraphs: string[] }
 type FaqGroup = { title: string; items: { question: string; answer: string }[] }
 
-const url = (locale: Locale, path: string) => absoluteUrl(localePath(locale, path))
+const url = (locale: Locale, routePath: string) => absoluteUrl(localePath(locale, routePath))
 
 /** Facts an answer engine can quote, from the constants the app itself runs on. */
 const keyFacts = (): string[] => {
@@ -50,6 +56,7 @@ const pageLinks = (locale: Locale): string[] => {
     link(t('Seo.rulesTitle'), ROUTES.rules, t('Seo.rulesDescription')),
     link(t('Seo.faqTitle'), ROUTES.faq, t('Seo.faqDescription')),
     link(t('Seo.aboutTitle'), ROUTES.about, t('Seo.aboutDescription')),
+    link(t('Seo.contactTitle'), ROUTES.contact, t('Seo.contactDescription')),
     link(t('Seo.topicsTitle'), ROUTES.topics, t('Seo.topicsDescription')),
     ...TOPICS.map((topic) =>
       link(
@@ -77,7 +84,7 @@ export const buildLlmsTxt = (): string =>
     '',
     '## Optional',
     '',
-    `- [Full text](${absoluteUrl('/llms-full.txt')}): About, How to play and every FAQ answer, in all three languages`,
+    `- [Full text](${absoluteUrl('/llms-full.txt')}): About, How to play and every FAQ answer, in every language`,
     `- [Privacy policy](${url('en', ROUTES.privacy)}): what is stored, where, and why`,
     `- [Sitemap](${absoluteUrl('/sitemap.xml')})`,
     '',

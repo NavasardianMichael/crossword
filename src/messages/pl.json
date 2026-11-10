@@ -1,0 +1,715 @@
+{
+  "Common": {
+    "appName": "Krzyżówki AI",
+    "tagline": "Darmowe krzyżówki i krzyżówki szwedzkie, pisane przez AI w twoim języku. Nowe słowa w każdej grze, bez powtórek.",
+    "skipToContent": "Przejdź do treści",
+    "openMenu": "Otwórz menu",
+    "menu": "Menu",
+    "close": "Zamknij",
+    "retry": "Spróbuj ponownie",
+    "chooseLanguage": "Wybierz język",
+    "language": "Język",
+    "copyright": "© {year} {appName}. Zrobione ze słów i odrobiny magii.",
+    "backOnline": "Znowu jesteś online.",
+    "offline": "Jesteś offline. Krzyżówki, które już otworzyłeś, nadal działają.",
+    "lastUpdated": "Ostatnia aktualizacja: {date}"
+  },
+  "Nav": {
+    "main": "Główne",
+    "footer": "Strona",
+    "home": "Start",
+    "crossword": "Krzyżówka",
+    "scanword": "Szwedzka",
+    "topics": "Tematy",
+    "history": "Moje diagramy",
+    "rules": "Jak grać",
+    "faq": "Pytania",
+    "about": "O nas",
+    "privacy": "Prywatność",
+    "terms": "Zasady",
+    "contact": "Kontakt"
+  },
+  "Errors": {
+    "network": "Nie ma połączenia z serwerem. Sprawdź sieć i spróbuj ponownie.",
+    "rateLimited": "Za dużo diagramów w ciągu minuty! Odetchnij i spróbuj za chwilę.",
+    "unauthorized": "Tej czynności nie można wykonać.",
+    "notFound": "Nie udało się tego znaleźć.",
+    "server": "Coś poszło nie tak po naszej stronie. Spróbuj ponownie.",
+    "generic": "Coś poszło nie tak. Spróbuj ponownie.",
+    "details": "Szczegóły",
+    "pageErrorTitle": "Oj, odpadło pole",
+    "pageErrorBody": "Ta strona natrafiła na niespodziewany błąd. Zwykle wystarczy spróbować jeszcze raz.",
+    "notFoundTitle": "Tej strony nie ma na diagramie",
+    "notFoundBody": "Link może być stary albo źle wpisany. Znajdziemy ci świeżą krzyżówkę.",
+    "goHome": "Przejdź na stronę główną"
+  },
+  "Pwa": {
+    "install": "Zainstaluj aplikację",
+    "iosTitle": "Dodaj Krzyżówki AI do ekranu początkowego",
+    "benefit": "Otwieraj ją jak aplikację, na pełnym ekranie, i rozwiązuj zapisane krzyżówki także offline.",
+    "iosStep1": "Stuknij przycisk Udostępnij na pasku Safari.",
+    "iosStep2": "Wybierz „Dodaj do ekranu początkowego”.",
+    "iosStep3": "Stuknij „Dodaj” — ikona pojawi się na ekranie początkowym.",
+    "gotIt": "Rozumiem"
+  },
+  "Seo": {
+    "homeTitle": "Krzyżówka online za darmo — stwórz krzyżówkę po polsku",
+    "homeDescription": "Stwórz darmową krzyżówkę albo krzyżówkę szwedzką online. Wybierz temat — zwierzęta, jedzenie, geografia, historia, nauka, sport — i poziom. Każdy diagram przynosi nowe słowa. Działa też offline.",
+    "keywords": "krzyżówka, krzyżówki online, stwórz krzyżówkę, krzyżówka polska, generator krzyżówek, krzyżówka za darmo, krzyżówka szwedzka, krzyżówka zwierzęta, krzyżówka jedzenie, krzyżówka geografia, krzyżówka historia, krzyżówka nauka, krzyżówka sport",
+    "crosswordTitle": "Krzyżówki online za darmo",
+    "crosswordDescription": "Rozwiązuj darmowe krzyżówki online, pisane przez AI: numerowane hasła poziomo i pionowo, 12 tematów, trzy poziomy. Bez rejestracji, nowe słowa w każdej grze.",
+    "scanwordTitle": "Krzyżówki szwedzkie za darmo — hasła w diagramie",
+    "scanwordDescription": "Rozwiązuj darmowe krzyżówki szwedzkie: hasła siedzą w diagramie, a strzałka wskazuje odpowiedź. Pisane przez AI, bez rejestracji, na telefonie, tablecie albo komputerze.",
+    "topicsTitle": "Tematy krzyżówek: zwierzęta, jedzenie, geografia i inne",
+    "topicsDescription": "Wybierz temat następnej krzyżówki albo krzyżówki szwedzkiej: przyroda, zwierzęta, jedzenie, geografia, historia, nauka, sport, sztuka i inne.",
+    "topicTitle": "Krzyżówka: {topic} — darmowe diagramy online",
+    "topicDescription": "Darmowe krzyżówki i krzyżówki szwedzkie o temacie {topic}, układane przez AI. {description}",
+    "historyTitle": "Moje diagramy",
+    "historyDescription": "Krzyżówki i krzyżówki szwedzkie zaczęte na tym urządzeniu i jeszcze nieukończone, z zapisanym postępem.",
+    "rulesTitle": "Jak rozwiązywać krzyżówki i krzyżówki szwedzkie",
+    "rulesDescription": "Jak rozwiązać tu krzyżówkę albo krzyżówkę szwedzką: wpisywanie, poruszanie się po diagramie, sprawdzanie i odkrywanie liter oraz skróty klawiatury.",
+    "faqTitle": "Pytania: krzyżówki AI, języki i prywatność",
+    "faqDescription": "Odpowiedzi o Krzyżówkach AI: czy to darmowe, jak AI pisze hasła, rozmiary, trudność, słowa które się nie powtarzają, gra offline, udostępnianie i prywatność.",
+    "aboutTitle": "O nas — jak powstają krzyżówki AI",
+    "aboutDescription": "Dlaczego zrobiliśmy darmowy generator krzyżówek, który nigdy nie powtarza słowa, i jak AI pisze hasła od razu w danym języku.",
+    "privacyTitle": "Polityka prywatności",
+    "privacyDescription": "Co Krzyżówki AI przechowują, gdzie i po co — bez konta i bez śledzenia, kim jesteś.",
+    "termsTitle": "Zasady korzystania",
+    "termsDescription": "Proste zasady korzystania z Krzyżówek AI.",
+    "contactTitle": "Napisz do nas",
+    "contactDescription": "Pytanie, pomysł albo błąd w krzyżówce? Napisz do nas, odpowiemy na e-mail.",
+    "puzzleDescription": "Darmowy diagram od Krzyżówek AI — rozwiąż go w przeglądarce.",
+    "sharedPuzzleDescription": "Darmowy diagram {size} {format, select, scanword {krzyżówka szwedzka} other {krzyżówka}} · {topic} · {difficulty} · {words, plural, one {# słowo} few {# słowa} many {# słów} other {# słowa}}. Napisany przez AI — rozwiąż go w przeglądarce, bez rejestracji.",
+    "ogImageAlt": "Krzyżówki AI — darmowe krzyżówki i krzyżówki szwedzkie w twoim języku",
+    "ogPuzzleCta": "Dasz radę to rozwiązać?",
+    "ogPuzzleMeta": "{size} · {words, plural, one {# słowo} few {# słowa} many {# słów} other {# słowa}}"
+  },
+  "Formats": {
+    "classic": {
+      "name": "Krzyżówka",
+      "short": "Numerowane hasła, poziomo i pionowo",
+      "description": "Klasyka: słowa krzyżują się na swobodnym diagramie, a każde hasło czeka na liście poziomej albo pionowej.",
+      "cta": "Zagraj w krzyżówkę"
+    },
+    "scanword": {
+      "name": "Krzyżówka szwedzka",
+      "short": "Hasła w diagramie, ze strzałkami",
+      "description": "Każde hasło siedzi w diagramie, a strzałka wskazuje odpowiedź — czyta się je od razu i trudno odłożyć.",
+      "cta": "Zagraj w szwedzką"
+    }
+  },
+  "Topics": {
+    "any": "Tematy mieszane",
+    "general": {
+      "name": "Słowa na co dzień",
+      "description": "Słowa zwykłego życia — dom, ludzie, czas, świat dookoła."
+    },
+    "nature": {
+      "name": "Przyroda",
+      "description": "Lasy, rzeki, pogoda, rośliny i pory roku."
+    },
+    "animals": {
+      "name": "Zwierzęta",
+      "description": "Zwierzęta dzikie i domowe, ptaki, ryby i owady."
+    },
+    "food": {
+      "name": "Jedzenie i picie",
+      "description": "Dania, składniki, kuchnia i wszystko, co staje na stole."
+    },
+    "geography": {
+      "name": "Geografia",
+      "description": "Kraje, miasta, rzeki, góry i znane miejsca."
+    },
+    "history": {
+      "name": "Historia",
+      "description": "Epoki, wynalazki, rzemiosła i przedmioty z przeszłości."
+    },
+    "science": {
+      "name": "Nauka",
+      "description": "Fizyka, chemia, biologia, kosmos i ciało człowieka."
+    },
+    "sport": {
+      "name": "Sport",
+      "description": "Gry, sprzęt, zawody i zasady gry."
+    },
+    "arts": {
+      "name": "Sztuka",
+      "description": "Muzyka, literatura, teatr, malarstwo i film."
+    },
+    "home": {
+      "name": "Dom i codzienność",
+      "description": "Meble, narzędzia, ubrania i rzeczy, których używamy codziennie."
+    },
+    "professions": {
+      "name": "Zawody",
+      "description": "Prace, rzemiosła, narzędzia fachu i miejsca pracy."
+    },
+    "localCulture": {
+      "name": "Kultura lokalna",
+      "description": "Tradycje, święta, folklor i sławne miejsca kultury danego języka."
+    }
+  },
+  "Difficulty": {
+    "1": "Łatwy",
+    "2": "Średni",
+    "3": "Trudny"
+  },
+  "Sizes": {
+    "small": "Mały",
+    "medium": "Średni",
+    "large": "Duży"
+  },
+  "Generator": {
+    "format": "Wybierz format",
+    "topic": "Wybierz temat",
+    "difficulty": "Trudność",
+    "size": "Rozmiar",
+    "create": "Ułóż mój diagram",
+    "creating": "Układamy diagram…",
+    "creatingHint": "Dobieramy słowa, których jeszcze nie widziałeś. Świeże mogą zająć kilka sekund.",
+    "cancel": "Anuluj",
+    "freshHint": "Za darmo, bez rejestracji. Każdy diagram przynosi słowa, których tu jeszcze nie spotkałeś.",
+    "exhausted": "Rozwiązałeś już wszystkie słowa, które mamy do tego wyboru! Piszemy nowe — spróbuj innego tematu albo wróć za minutę."
+  },
+  "Home": {
+    "hero": {
+      "eyebrow": "Za darmo · Bez rejestracji · Działa offline",
+      "title": "Krzyżówki, które są <mark>zawsze nowe</mark>",
+      "subtitle": "Wybierz temat i trudność — AI napisze hasła w twoim języku, a to samo słowo nie wróci drugi raz.",
+      "lede": "Stwórz darmową krzyżówkę online, bez rejestracji. Tematy od zwierząt, jedzenia i geografii po historię, naukę, sport, sztukę, dom, zawody i polską kulturę — albo wszystkie naraz."
+    },
+    "continueTitle": "Wróć tam, gdzie przerwałeś",
+    "formatsTitle": "Dwa sposoby gry",
+    "formatsSubtitle": "Przestronna klasyka z listami haseł albo zwarta krzyżówka szwedzka z hasłami w diagramie.",
+    "pointsTitle": "Czym się różni",
+    "points": {
+      "fresh": {
+        "title": "Bez powtórek",
+        "text": "Urządzenie pamięta każde pokazane słowo, więc nowy diagram przynosi tylko te, których jeszcze nie rozwiązałeś."
+      },
+      "native": {
+        "title": "Napisane w twoim języku",
+        "text": "Hasła powstają od razu w danym języku — tak, jak ułożyłby je miejscowy autor, nigdy jako przekład."
+      },
+      "ai": {
+        "title": "AI proponuje, kod sprawdza",
+        "text": "AI podsuwa słowa i hasła, a nasze kontrole odrzucają literówki, nieuczciwe definicje i podpowiedzi, które zdradzają odpowiedź."
+      },
+      "offline": {
+        "title": "Gra wszędzie",
+        "text": "Zainstaluj ją jak aplikację. Otwarte diagramy działają w samolocie, w metrze, gdziekolwiek."
+      }
+    },
+    "topicsTitle": "Wybierz temat",
+    "topicsSubtitle": "Od ptaków za oknem po znane rzeki — albo wszystko naraz.",
+    "faqTitle": "Pytania i odpowiedzi",
+    "faq1Question": "Czy Krzyżówki AI są naprawdę darmowe?",
+    "faq1Answer": "Tak. Każda krzyżówka i każda szwedzka jest darmowa, bez konta, bez rejestracji i bez limitu, ile ich rozwiążesz.",
+    "faq2Question": "Czy zobaczę te same słowa jeszcze raz?",
+    "faq2Answer": "Nie. Urządzenie trzyma listę słów już pokazanych i pomija je w każdym nowym diagramie. Jeśli wyczyścisz dane strony w przeglądarce, lista zaczyna się od nowa.",
+    "faq3Question": "W jakich językach można grać?",
+    "faq3Answer": "W trzydziestu trzech językach, każdy z własnym zbiorem słów pisanym dla jego użytkowników, nigdy przekładanym: angielski, hiszpański, portugalski, francuski, niemiecki, włoski, niderlandzki, polski, czeski, szwedzki, rumuński, węgierski, indonezyjski, malajski, filipiński, wietnamski, suahili, rosyjski, ukraiński, grecki, arabski, perski, urdu, hebrajski, hindi, marathi, bengalski, tamilski, tajski, japoński, koreański, chiński i ormiański.",
+    "faq4Question": "Czym krzyżówka różni się od szwedzkiej?",
+    "faq4Answer": "Krzyżówka podaje numerowane hasła obok diagramu, poziomo i pionowo. Krzyżówka szwedzka drukuje każde hasło w polu diagramu, a strzałka pokazuje, gdzie wpisać odpowiedź.",
+    "faq5Question": "Czy da się grać offline?",
+    "faq5Answer": "Tak. Każdy otwarty diagram zapisuje się na urządzeniu razem z postępem i działa bez sieci. Nowe diagramy potrzebują internetu.",
+    "faq6Question": "Co jeśli hasło jest błędne?",
+    "faq6Answer": "Otwórz menu ⋯ nad diagramem i wybierz „Zgłoś hasło”. Gdy trzech różnych graczy zgłosi to samo, zostaje wycofane i już nie wraca.",
+    "faqMore": "Wszystkie pytania i odpowiedzi →"
+  },
+  "CrosswordPage": {
+    "hero": {
+      "eyebrow": "Klasyczna krzyżówka",
+      "title": "Klasyczna krzyżówka, <mark>ułożona dla ciebie</mark>",
+      "plainTitle": "Krzyżówka AI",
+      "subtitle": "Numerowane hasła poziomo i pionowo, diagram rosnący od środka i słowa, których jeszcze nie widziałeś.",
+      "lede": "Zagraj w darmową klasyczną krzyżówkę online: numerowane hasła poziomo i pionowo, w tematach zwierzęta, jedzenie, geografia, historia, nauka i sport."
+    },
+    "rulesTitle": "Jak działa krzyżówka",
+    "rule1": "Każde białe pole mieści jedną literę. Słowa idą poziomo (od lewej do prawej) i pionowo (z góry na dół) i się krzyżują.",
+    "rule2": "Każde słowo ma numer w pierwszym polu i pasujące hasło na liście poziomej albo pionowej.",
+    "rule3": "Stuknij pole albo hasło, żeby zacząć pisać. Stuknij to samo pole jeszcze raz — albo naciśnij spację — żeby przełączyć poziom z pionem.",
+    "rule4": "Utknąłeś? Sprawdź literę, słowo albo cały diagram, albo odkryj literę i rusz dalej.",
+    "topicsTitle": "Krzyżówki według tematu",
+    "faqTitle": "Pytania o krzyżówkę",
+    "faq1Question": "Jak duże są krzyżówki?",
+    "faq1Answer": "Wybierz małą (do około 14 słów), średnią albo dużą (ponad 20 słów). Diagram jest przycinany do słów, które zawiera, więc zawsze mieści się na ekranie.",
+    "faq2Question": "Co sprawia, że hasło jest łatwe albo trudne?",
+    "faq2Answer": "Łatwe diagramy biorą słowa codzienne i proste definicje. Trudne — rzadsze słowa i hasła, nad którymi trzeba się zatrzymać.",
+    "faq3Question": "Czy mogę używać klawiatury?",
+    "faq3Answer": "Tak: wpisuj litery, ruszaj się strzałkami, Enter przechodzi do następnego hasła, Backspace cofa. Na telefonie pod diagramem pojawia się własna klawiatura krzyżówki.",
+    "faq4Question": "Czy mogę wysłać krzyżówkę znajomemu?",
+    "faq4Answer": "Tak — stuknij Udostępnij nad diagramem, żeby skopiować link albo wysłać go aplikacją. Znajomy dostaje dokładnie ten sam diagram i te same hasła."
+  },
+  "ScanwordPage": {
+    "hero": {
+      "eyebrow": "Krzyżówka szwedzka",
+      "title": "Szwedzkie z hasłami <mark>w diagramie</mark>",
+      "plainTitle": "Szwedzka AI",
+      "subtitle": "Żadnych list do przeszukiwania: każde hasło siedzi we własnym polu, ze strzałką do odpowiedzi.",
+      "lede": "Zagraj w darmową krzyżówkę szwedzką online: hasła siedzą w diagramie. Te same tematy co w krzyżówce — zwierzęta, jedzenie, geografia, historia, nauka, sport i inne."
+    },
+    "rulesTitle": "Jak działa krzyżówka szwedzka",
+    "rule1": "Zabarwione pola mieszczą hasła. Strzałka obok hasła pokazuje, gdzie zaczyna się odpowiedź i w którą stronę biegnie.",
+    "rule2": "Jedno pole może mieć dwa hasła: górne zwykle wskazuje w prawo, dolne w dół.",
+    "rule3": "Stuknij pole z hasłem albo dowolne pole z literą, żeby wybrać słowo. Pełne hasło zawsze widać na pasku nad diagramem.",
+    "rule4": "Kolorowe kafelki to tylko ozdoba — litery wchodzą wyłącznie w białe pola.",
+    "topicsTitle": "Szwedzkie według tematu",
+    "faqTitle": "Pytania o krzyżówkę szwedzką",
+    "faq1Question": "Czym jest krzyżówka szwedzka?",
+    "faq1Answer": "Krzyżówka szwedzka to krzyżówka z hasłami wydrukowanymi wprost w diagramie. Wywodzi się ze skandynawskiej i jest stałym gościem czasopism z łamigłówkami.",
+    "faq2Question": "Na telefonie hasła w polach są malutkie. Co zrobić?",
+    "faq2Answer": "Stuknij pole: pełne hasło zawsze pojawia się na pasku nad diagramem. Możesz też rozsunąć palce, żeby przybliżyć, albo otworzyć pełną listę haseł.",
+    "faq3Question": "Dlaczego niektóre strzałki się łamią?",
+    "faq3Answer": "Gdy nie ma miejsca na hasło tuż przed odpowiedzią, staje nad pierwszą literą albo obok niej, a strzałka zgina się, żeby pokazać kierunek.",
+    "faq4Question": "Czy hasła szwedzkiej są inne?",
+    "faq4Answer": "Są krótsze — hasło szwedzkiej musi zmieścić się w jednym polu, więc to najwyżej kilka słów."
+  },
+  "TopicsPage": {
+    "eyebrow": "Tematy",
+    "title": "O czym ma być twój diagram?",
+    "subtitle": "Każdy temat ma własne słowa w każdym języku. Wybierz jeden albo pomieszaj je wszystkie na stronie głównej."
+  },
+  "TopicPage": {
+    "title": "Krzyżówka: {topic}",
+    "samplesTitle": "Próbka tematu {topic}",
+    "samplesSubtitle": "Kilka haseł ze zbioru słów. Zgadniesz je? Prawdziwe diagramy przynoszą nowe za każdym razem.",
+    "showAnswer": "Pokaż odpowiedź",
+    "moreTopics": "Więcej tematów"
+  },
+  "Auth": {
+    "signIn": "Zaloguj się",
+    "signOut": "Wyloguj się",
+    "signInTitle": "Logowanie",
+    "signInSubtitle": "Użyj Google albo e-maila i hasła do konta.",
+    "signUpTitle": "Załóż konto",
+    "signUpSubtitle": "Wyślemy link, którym potwierdzisz adres, zanim się zalogujesz.",
+    "forgotTitle": "Nie pamiętasz hasła?",
+    "forgotSubtitle": "Jeśli konto używa tego adresu, wyślemy link.",
+    "resetTitle": "Wybierz nowe hasło",
+    "resetSubtitle": "To cię loguje i wylogowuje każde inne urządzenie.",
+    "verifyTitle": "Potwierdź e-mail",
+    "verifySubtitle": "Otwórz link ze skrzynki, a potem potwierdź go tutaj. Filtry poczty nie mogą go zużyć.",
+    "google": "Kontynuuj z Google",
+    "or": "albo",
+    "name": "Imię",
+    "email": "E-mail",
+    "password": "Hasło",
+    "passwordHint": "Co najmniej 8 znaków, z literą i cyfrą. Nie adres e-mail.",
+    "confirmPassword": "Powtórz hasło",
+    "passwordMismatch": "Hasła się nie zgadzają",
+    "required": "To pole jest wymagane",
+    "invalidEmail": "Ten adres e-mail wygląda na błędny",
+    "forgot": "Nie pamiętasz hasła?",
+    "noAccount": "Nie masz jeszcze konta?",
+    "hasAccount": "Masz już konto?",
+    "submitSignIn": "Zaloguj się",
+    "submitSignUp": "Załóż konto",
+    "submitForgot": "Wyślij link",
+    "submitReset": "Zapisz hasło",
+    "submitVerify": "Potwierdź e-mail",
+    "verifiedNotice": "E-mail potwierdzony. Zaloguj się, żeby iść dalej.",
+    "checkInbox": "Sprawdź {email}",
+    "checkInboxText": "Wysłaliśmy link. Otwórz go, a potem wróć i zaloguj się.",
+    "resend": "Wyślij link jeszcze raz",
+    "resent": "Wysłane ponownie.",
+    "forgotSent": "Jeśli konto używa tego adresu, link jest w drodze.",
+    "invalidCredentials": "Ten e-mail i hasło do siebie nie pasują.",
+    "googleOnly": "To konto loguje się przez Google.",
+    "emailNotVerified": "Najpierw potwierdź e-mail. Link jest w skrzynce.",
+    "emailTaken": "Konto z tym e-mailem już istnieje.",
+    "weakPassword": "Użyj co najmniej 8 znaków, z literą i cyfrą, i nie podawaj adresu e-mail.",
+    "verifyInvalid": "Ten link potwierdzający jest nieważny albo wygasł.",
+    "resetInvalid": "Ten link do resetu jest nieważny albo wygasł.",
+    "mailFailed": "Nie udało się wysłać e-maila. Spróbuj ponownie.",
+    "googleErrors": {
+      "google_unavailable": "Logowanie przez Google jest teraz niedostępne.",
+      "google_denied": "Logowanie przez Google zostało anulowane.",
+      "google_failed": "Logowanie przez Google nie doszło do skutku. Spróbuj ponownie.",
+      "google_email_unverified": "Google nie potwierdziło tego adresu e-mail."
+    }
+  },
+  "History": {
+    "title": "Moje diagramy",
+    "subtitle": "Krzyżówki i szwedzkie, które zacząłeś i nie skończyłeś. Litery zostają na tym urządzeniu: otwórz dowolną i graj dalej, z siecią albo bez.",
+    "empty": "Nie ma jeszcze niedokończonych diagramów. Zacznij krzyżówkę albo szwedzką, a poczeka tu, aż ją dokończysz.",
+    "detail": "{percent}% wypełnione · {difficulty} · {size}",
+    "seeAll": "Zobacz wszystkie niedokończone"
+  },
+  "Play": {
+    "title": "Diagram",
+    "loading": "Otwieramy diagram…",
+    "missingTitle": "Tego diagramu tu nie ma",
+    "missingText": "Nie jest zapisany na tym urządzeniu, a serwer teraz nie odpowiada. Sprawdź link albo spróbuj, gdy będziesz online.",
+    "leaveTitle": "Opuścić ten diagram?",
+    "leaveBody": "Litery zostają zapisane na tym urządzeniu i dokończysz go później w Moich diagramach.",
+    "keepSolving": "Rozwiązuj dalej",
+    "leave": "Wyjdź",
+    "newPuzzle": "Nowy diagram",
+    "allClues": "Wszystkie hasła",
+    "across": "Poziomo",
+    "down": "Pionowo",
+    "gridLabel": "Diagram krzyżówki",
+    "cell": {
+      "position": "Wiersz {row}, kolumna {col}",
+      "empty": "puste",
+      "wrong": "błędna litera",
+      "revealed": "odkryta",
+      "clue": "Hasło: {clue}"
+    },
+    "wordNumbered": "{number} {dir, select, across {poziomo} other {pionowo}}",
+    "wordDirection": "{dir, select, across {Poziomo} other {Pionowo}}",
+    "wordLength": "{name}, {length, plural, one {# litera} few {# litery} many {# liter} other {# litery}}",
+    "wordLetter": "{name}, litera {letter} z {length}",
+    "previousWord": "Poprzednie hasło",
+    "nextWord": "Następne hasło",
+    "toggleDirection": "Zmień kierunek",
+    "filled": "Wypełnione",
+    "keyboard": "Klawiatura",
+    "ime": "Wpisz znak",
+    "erase": "Wymaż",
+    "time": "Czas: {time}",
+    "check": {
+      "label": "Sprawdź",
+      "cell": "Sprawdź literę",
+      "word": "Sprawdź słowo",
+      "puzzle": "Sprawdź diagram"
+    },
+    "reveal": {
+      "label": "Odkryj",
+      "cell": "Odkryj literę",
+      "word": "Odkryj słowo",
+      "puzzle": "Odkryj diagram",
+      "confirmTitle": "Odkryć cały diagram?",
+      "confirmText": "Wszystkie odpowiedzi zostaną wpisane i diagram się skończy. Tego nie da się cofnąć.",
+      "cancel": "Rozwiązuj dalej",
+      "confirm": "Odkryj wszystko"
+    },
+    "clearWrong": "Wymaż błędne litery",
+    "more": "Więcej",
+    "zoom": {
+      "label": "Powiększenie",
+      "in": "Powiększ",
+      "out": "Pomniejsz",
+      "reset": "Pokaż cały diagram"
+    },
+    "settings": {
+      "label": "Ustawienia",
+      "autoCheck": "Sprawdzaj w trakcie pisania",
+      "autoCheckHint": "Oznacz błędną literę, gdy tylko ją wpiszesz.",
+      "skipFilled": "Omijaj wypełnione pola",
+      "skipFilledHint": "Pisanie przeskakuje pola, w których litera już jest."
+    },
+    "share": "Udostępnij diagram",
+    "shareShort": "Udostępnij",
+    "shareTitle": "Spróbuj tego diagramu!",
+    "linkCopied": "Link skopiowany — wyślij go znajomemu.",
+    "shareDialog": {
+      "title": "Udostępnij ten diagram",
+      "description": "Znajomy dostaje dokładnie ten sam diagram i te same hasła — za darmo, bez rejestracji.",
+      "link": "Link do diagramu",
+      "copy": "Kopiuj",
+      "copied": "Skopiowane!",
+      "copyFailed": "Nie udało się skopiować — link jest zaznaczony, skopiuj go ręcznie.",
+      "apps": "Wyślij aplikacją",
+      "email": "E-mail",
+      "more": "Więcej opcji…",
+      "text": "Rozwiążesz tę {format, select, scanword {krzyżówkę szwedzką} other {krzyżówkę}} o temacie {topic}? Jest darmowa i napisana przez AI.",
+      "textAny": "Rozwiążesz tę {format, select, scanword {krzyżówkę szwedzką} other {krzyżówkę}}? Jest darmowa i napisana przez AI."
+    },
+    "pdf": {
+      "open": "Zapisz jako PDF",
+      "title": "Zapisz jako PDF",
+      "description": "Jasny liliowy diagram, kolorowy albo czarno-biały. Otwiera się w nowej karcie.",
+      "appearance": "Wygląd",
+      "appearanceDefault": "Domyślny",
+      "appearanceColorful": "Kolorowy",
+      "appearanceMono": "Czarno-biały",
+      "letters": "Dołącz moje litery",
+      "lettersHint": "Pokaż litery, które już wpisałeś.",
+      "answers": "Dodaj odpowiedzi",
+      "answersHint": "Rozwiązany diagram, na osobnej stronie.",
+      "cancel": "Anuluj",
+      "confirm": "Otwórz PDF",
+      "preparing": "Przygotowujemy PDF…",
+      "failed": "Nie udało się zrobić PDF-a. Spróbuj ponownie.",
+      "answersTitle": "Odpowiedzi",
+      "playOnline": "Zagraj online: {url}"
+    },
+    "report": {
+      "open": "Zgłoś hasło",
+      "title": "Co jest nie tak z tym hasłem?",
+      "cancel": "Anuluj",
+      "send": "Wyślij zgłoszenie",
+      "thanks": "Dziękujemy! Zgłoszenia pomagają nam wycofywać złe hasła.",
+      "note": "Co powinniśmy wiedzieć?",
+      "notePlaceholder": "Krótka notatka, własnymi słowami",
+      "reasons": {
+        "wrongClue": "Hasło nie pasuje do odpowiedzi",
+        "notAWord": "Odpowiedź nie jest prawdziwym słowem",
+        "offensive": "Jest obraźliwe albo nie na miejscu",
+        "typo": "Jest literówka",
+        "other": "Coś innego"
+      }
+    },
+    "solved": {
+      "title": "Rozwiązane! Świetnie!",
+      "titleHelped": "Rozwiązane — brawo!",
+      "time": "Czas",
+      "checks": "Sprawdzenia",
+      "reveals": "Odkrycia",
+      "admire": "Podziwiaj diagram",
+      "next": "Następny diagram"
+    },
+    "announce": {
+      "checked": "{count, plural, one {# litera jest błędna} few {# litery są błędne} many {# liter jest błędnych} other {# litery są błędne}}",
+      "allCorrect": "Wszystko sprawdzone jest poprawne",
+      "revealed": "{count, plural, one {odkryto # literę} few {odkryto # litery} many {odkryto # liter} other {odkryto # litery}}",
+      "solved": "Diagram rozwiązany w {seconds, plural, one {# sekundę} few {# sekundy} many {# sekund} other {# sekundy}}!"
+    }
+  },
+  "Rules": {
+    "title": "Jak grać",
+    "subtitle": "Wszystko, czego trzeba, żeby rozwiązać tu krzyżówkę albo szwedzką — na telefonie, tablecie albo komputerze.",
+    "sections": [
+      {
+        "title": "Wybór słowa",
+        "paragraphs": [
+          "Stuknij albo kliknij dowolne białe pole. Słowo, do którego należy, podświetla się na żółto, a hasło pojawia się na pasku nad diagramem.",
+          "Tam, gdzie dwa słowa się krzyżują, stuknij to samo pole jeszcze raz, żeby przełączyć poziom z pionem. W szwedzkiej możesz też stuknąć samo pole hasła."
+        ]
+      },
+      {
+        "title": "Pisanie",
+        "paragraphs": [
+          "Na komputerze po prostu pisz — nie trzeba zmieniać układu klawiatury. Jeśli jest ustawiona na angielski, klawisze wpisują litery języka diagramu na swoich zwykłych miejscach.",
+          "Na telefonie albo tablecie pod diagramem pojawia się własna klawiatura krzyżówki. Po ormiańsku ma osobne litery ՈՒ i և, każda w jednym polu; wpisanie ո, a potem ւ samo składa je w ՈՒ.",
+          "W rosyjskich krzyżówkach litera Ё jest zapisywana jako Е, jak w drukowanych."
+        ]
+      },
+      {
+        "title": "Poruszanie się",
+        "paragraphs": [
+          "Strzałki przechodzą między polami; strzałka w poprzek bieżącego kierunku najpierw obraca kursor. Enter skacze do następnego hasła, Shift+Enter do poprzedniego.",
+          "Backspace kasuje literę i cofa się. Home i End skaczą na początek i koniec słowa. Tab wychodzi z diagramu."
+        ]
+      },
+      {
+        "title": "Podpowiedź",
+        "paragraphs": [
+          "Sprawdź przekreśla błędne litery na czerwono i blokuje dobre. Odkryj wpisuje literę, słowo albo cały diagram; odkryte litery mają małą fioletową chorągiewkę.",
+          "Włącz „Sprawdzaj w trakcie pisania” w ustawieniach, jeśli chcesz natychmiastową odpowiedź."
+        ]
+      },
+      {
+        "title": "Świeże słowa, za każdym razem",
+        "paragraphs": [
+          "Urządzenie pamięta słowa, które ci pokazało, i już o nie nie pyta. Każdy nowy diagram składa się ze słów, których tu jeszcze nie spotkałeś."
+        ]
+      }
+    ]
+  },
+  "Faq": {
+    "title": "Pytania i odpowiedzi",
+    "subtitle": "Wszystko o Krzyżówkach AI w jednym miejscu: diagramy, jak pisze je AI, gra na każdym urządzeniu i twoja prywatność.",
+    "groups": [
+      {
+        "title": "O Krzyżówkach AI",
+        "items": [
+          {
+            "question": "Czym są Krzyżówki AI?",
+            "answer": "Krzyżówki AI to darmowa strona, która układa krzyżówki i krzyżówki szwedzkie w trzydziestu trzech językach. Model AI pisze słowa i hasła od razu w danym języku, kod buduje diagram, a każde urządzenie dostaje tylko słowa, których jeszcze nie widziało."
+          },
+          {
+            "question": "Czy Krzyżówki AI są naprawdę darmowe?",
+            "answer": "Tak. Każda krzyżówka i każda szwedzka jest darmowa — bez konta, bez rejestracji, bez abonamentu i bez reklam."
+          },
+          {
+            "question": "Czy potrzebuję konta?",
+            "answer": "Nie. Nie ma się do czego rejestrować. Postęp, ustawienia i lista słów już widzianych zostają w przeglądarce, na twoim urządzeniu."
+          },
+          {
+            "question": "Kto robi Krzyżówki AI?",
+            "answer": "To niezależny projekt programisty Michaela Navasardyana: diagramy, które brzmią, jakby ułożył je miejscowy autor, w każdym języku strony — wśród nich ormiański, rosyjski i angielski."
+          }
+        ]
+      },
+      {
+        "title": "Diagramy",
+        "items": [
+          {
+            "question": "Czym krzyżówka różni się od szwedzkiej?",
+            "answer": "Krzyżówka podaje numerowane hasła obok diagramu, poziomo i pionowo. Krzyżówka szwedzka drukuje każde hasło w polu diagramu, a strzałka pokazuje, gdzie wpisać odpowiedź — format, którego pełno w czasopismach z łamigłówkami."
+          },
+          {
+            "question": "Jak duże są diagramy?",
+            "answer": "Są trzy rozmiary. Klasyczna krzyżówka wypełnia siatkę 9×9, 13×13 albo 15×15 mniej więcej 8–14, 16–24 albo 22–34 słowami, a potem jest przycinana do słów, które zawiera. Szwedzka używa siatki 8×10, 10×13 albo 13×17 — wyższej niż szerszej, bo większość rozwiązuje się na telefonie."
+          },
+          {
+            "question": "Czym różnią się poziomy trudności?",
+            "answer": "Łatwy bierze słowa codzienne i proste definicje. Średni sięga po szersze słownictwo. Trudny przynosi rzadsze słowa i hasła, nad którymi trzeba się zatrzymać."
+          },
+          {
+            "question": "Jakie tematy mogę wybrać?",
+            "answer": "Dwanaście: słowa na co dzień, przyroda, zwierzęta, jedzenie i picie, geografia, historia, nauka, sport, sztuka, dom i codzienność, zawody oraz kultura lokalna — albo wszystkie naraz w jednym diagramie."
+          },
+          {
+            "question": "Czy kiedykolwiek zobaczę to samo słowo dwa razy?",
+            "answer": "Nie na tym samym urządzeniu. Pamięta do 4 000 słów na język — około 130 diagramów — i pomija je w każdym nowym; dopiero potem najstarsze spadają z listy. Wyczyszczenie danych strony w przeglądarce zaczyna listę od nowa."
+          },
+          {
+            "question": "Jak AI pisze hasła?",
+            "answer": "Model Gemini od Google pisze słowa i hasła wprost w danym języku, według poradnika od rodzimych użytkowników. Kod potem sprawdza każde: właściwy alfabet, jedno prawdziwe słowo, uczciwe hasło, które nie zdradza odpowiedzi. Drugie przejście AI robi za redaktora. Co nie przejdzie, odpada i nie jest łatane. Diagram układa kod, nie AI."
+          },
+          {
+            "question": "Co jeśli hasło jest błędne?",
+            "answer": "Otwórz menu ⋯ nad diagramem i wybierz „Zgłoś hasło”. Gdy trzech różnych graczy zgłosi to samo, zostaje wycofane i już nie wraca."
+          }
+        ]
+      },
+      {
+        "title": "Gra",
+        "items": [
+          {
+            "question": "Jak wpisywać odpowiedzi na telefonie albo komputerze?",
+            "answer": "Na komputerze po prostu pisz: nawet jeśli klawiatura jest po angielsku, klawisze wpisują litery diagramu na swoich zwykłych miejscach, bez zmiany układu. Na telefonie albo tablecie pod diagramem pojawia się własna klawiatura krzyżówki, a systemowa jej nie zasłania."
+          },
+          {
+            "question": "Czy mogę sprawdzić odpowiedzi albo dostać podpowiedź?",
+            "answer": "Tak. Sprawdź oznacza błędne litery w jednym polu, w słowie albo w całym diagramie, a Odkryj wpisuje literę, słowo albo wszystko. Włącz „Sprawdzaj w trakcie pisania” w ustawieniach, żeby widzieć pomyłki od razu."
+          },
+          {
+            "question": "Jak traktowane są ormiańskie ու i և oraz rosyjskie Ё?",
+            "answer": "W ormiańskich krzyżówkach ու i և są pojedynczymi literami i każda zajmuje jedno pole, jak w drukowanych; klawiatura na ekranie ma obie, a wpisanie ո, a potem ւ składa je w ու. W rosyjskich Ё zapisuje się jako Е, jak w drukowanych."
+          },
+          {
+            "question": "Czy postęp jest zapisywany?",
+            "answer": "Tak, sam, w trakcie gry. Każda krzyżówka albo szwedzka, którą zaczniesz i zostawisz, jest na liście „Moje diagramy”, z zapisanymi literami, więc dokończysz ją później — także offline."
+          },
+          {
+            "question": "Czy da się grać offline albo zainstalować to jak aplikację?",
+            "answer": "Tak. Krzyżówki AI instalują się z przeglądarki jak aplikacja (na iPhonie: Udostępnij → Dodaj do ekranu początkowego). Każdy otwarty diagram zapisuje się z postępem i działa bez sieci; internetu potrzebują tylko nowe."
+          },
+          {
+            "question": "Czy mogę wysłać diagram znajomemu?",
+            "answer": "Tak. Stuknij Udostępnij nad diagramem, żeby skopiować link, albo wyślij go przez WhatsApp, Telegram, Facebook, X, VK albo e-mail. Znajomy dostaje dokładnie ten sam diagram i te same hasła."
+          },
+          {
+            "question": "Czy da się grać z klawiatury albo z czytnikiem ekranu?",
+            "answer": "Tak. Diagram działa w całości z klawiatury i z czytnikami ekranu: każde pole ma etykietę, aktywne hasło jest odczytywane, a sprawdzenia i odkrycia są czytane na głos. Błędne i odkryte litery poznaje się po kształcie, nie tylko po kolorze."
+          }
+        ]
+      },
+      {
+        "title": "Prywatność",
+        "items": [
+          {
+            "question": "Jakie dane przechowujecie?",
+            "answer": "Bardzo mało. Diagramy, postęp, ustawienia i lista widzianych słów zostają w przeglądarce. Serwer trzyma utworzone diagramy (żeby udostępniony link otwierał tę samą siatkę), zgłoszenia haseł z jednokierunkowym skrótem adresu IP i anonimowe liczniki rozwiązań. Bez nazwisk i bez profili."
+          },
+          {
+            "question": "Czy coś o mnie trafia do AI?",
+            "answer": "Nie. Do modeli Gemini od Google idą tylko ustawienia diagramu — język, temat, trudność — i listy słów, nigdy nic o tobie."
+          }
+        ]
+      }
+    ],
+    "ctaTitle": "Gotowy na świeży diagram?",
+    "ctaText": "Wybierz temat i trudność — następna siatka jest o kilka sekund.",
+    "cta": "Ułóż diagram"
+  },
+  "About": {
+    "title": "O Krzyżówkach AI",
+    "subtitle": "Darmowy generator diagramów, który pisze w twoim języku i nigdy nie podaje dwa razy tego samego słowa.",
+    "sections": [
+      {
+        "title": "Dlaczego to zrobiliśmy",
+        "paragraphs": [
+          "Większość krzyżówek online przerabia krótką listę słów, a przetłumaczone brzmią jak przekład. Chcieliśmy diagramów, które sprawiają wrażenie ułożonych przez miejscowego autora — i które zostają nowe, ilekolwiek ich rozwiążesz."
+        ]
+      },
+      {
+        "title": "Jak powstają słowa",
+        "paragraphs": [
+          "Model AI pisze słowa i hasła wprost w danym języku, według poradnika od rodzimych użytkowników: formy gramatyczne krzyżówek, norma pisowni, sposób, w jaki w tej tradycji układa się hasła.",
+          "Każde słowo przechodzi potem automatyczne kontrole — właściwy alfabet, jedno prawdziwe słowo, żadnego hasła, które zdradza odpowiedź — a druga AI robi za redaktora. Zgłoszenia graczy wycofują to, co się prześlizgnie."
+        ]
+      },
+      {
+        "title": "Jak powstają diagramy",
+        "paragraphs": [
+          "Samą siatkę układa kod, nie AI: algorytm składa słowa tak, że każda litera należy do prawdziwego słowa z hasłem. Dzięki temu każdy diagram jest uczciwy."
+        ]
+      }
+    ]
+  },
+  "Privacy": {
+    "title": "Polityka prywatności",
+    "subtitle": "W skrócie: bez konta, bez nazwisk, bez profilowania. Oto wszystko, co przechowujemy.",
+    "sections": [
+      {
+        "title": "Na twoim urządzeniu",
+        "paragraphs": [
+          "Przeglądarka trzyma diagramy, które otwierasz, postęp, ustawienia i listę słów już widzianych, żeby się nie powtarzały. Zostaje to na urządzeniu; wyczyszczenie danych strony to usuwa."
+        ]
+      },
+      {
+        "title": "Na naszym serwerze",
+        "paragraphs": [
+          "Przechowujemy utworzone diagramy, żeby udostępniony link otwierał tę samą siatkę. Gdy zgłaszasz hasło, zostawiamy zgłoszenie z jednokierunkowym skrótem adresu IP, tylko po to, żeby jedna osoba nie mogła sama wycofać hasła. Liczymy też anonimowo, jak się gra (rozwiązane, które słowa odkryto), żeby dostrajać trudność."
+        ]
+      },
+      {
+        "title": "Dostawca AI",
+        "paragraphs": [
+          "Nowe słowa i hasła piszą modele Gemini od Google. Wysyłane są tylko ustawienia diagramu (język, temat, trudność) i listy słów — nigdy nic o tobie."
+        ]
+      },
+      {
+        "title": "Statystyki i zgłoszenia błędów",
+        "paragraphs": [
+          "Jeśli jest włączone, używamy Google Analytics do liczenia odsłon i Sentry do odbioru zgłoszeń błędów. Żadne z nich nie służy do ustalenia, kim jesteś."
+        ]
+      }
+    ]
+  },
+  "Terms": {
+    "title": "Zasady korzystania",
+    "subtitle": "Krzyżówki AI są darmowe, dla zabawy i do nauki.",
+    "sections": [
+      {
+        "title": "Korzystanie z serwisu",
+        "paragraphs": [
+          "Możesz grać, udostępniać i drukować diagramy do użytku osobistego i edukacyjnego. Prosimy, nie obciążaj serwisu automatycznymi żądaniami."
+        ]
+      },
+      {
+        "title": "Treści pisane przez AI",
+        "paragraphs": [
+          "Słowa i hasła pisze AI i sprawdza je automat, ale pomyłki się zdarzają. Jeśli jakąś znajdziesz, zgłoś ją — tak usuwamy złe hasła."
+        ]
+      },
+      {
+        "title": "Bez gwarancji",
+        "paragraphs": [
+          "Serwis jest udostępniany taki, jaki jest, bez gwarancji dostępności ani dokładności. Możemy zmieniać albo wycofywać funkcje w dowolnej chwili."
+        ]
+      }
+    ]
+  },
+  "Contact": {
+    "title": "Napisz do nas",
+    "subtitle": "Pytanie, pomysł albo coś poszło nie tak? Napisz do nas, odpowiemy na e-mail.",
+    "fullName": "Imię",
+    "email": "E-mail",
+    "message": "Wiadomość",
+    "messagePlaceholder": "W czym możemy pomóc?",
+    "required": "To pole jest wymagane",
+    "invalidEmail": "Ten adres e-mail wygląda na błędny",
+    "submit": "Wyślij",
+    "sent": "Wiadomość wysłana",
+    "sentText": "Dziękujemy. Odpowiemy na e-mail, gdy tylko będziemy mogli.",
+    "sendAnother": "Napisz kolejną wiadomość",
+    "tooMany": "To za dużo wiadomości. Spróbuj ponownie za chwilę."
+  }
+}

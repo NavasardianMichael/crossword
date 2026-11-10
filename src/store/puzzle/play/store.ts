@@ -3,7 +3,7 @@ import { combine } from 'zustand/middleware'
 import { immer } from 'zustand/middleware/immer'
 import { sendResultAPI } from '@api/puzzles/main'
 import { appendSelectors } from '@store/appendSelectors'
-import { foldTyped, mergeTyped } from '@constants/alphabet'
+import { compositionOpen, foldTyped, mergeTyped, spillTyped } from '@constants/alphabet'
 import { STORAGE_KEYS } from '@constants/app'
 import { trackEvent } from '@helpers/analytics'
 import { saveProgress } from '@helpers/offline/db'
@@ -151,18 +151,28 @@ export const usePlayStoreBase = create<PlayState & PlayActions>()(
           const { puzzle, model, status, lastTyped, entries, cursor, marks, settings } = get()
           if (!puzzle || !model || status !== 'playing') return false
 
-          // Armenian ո then ւ: one letter, completed in the cell the ո went into.
+          // A follow-up keystroke can finish the previous cell: Armenian ո+ւ, Dutch i+j,
+          // a vowel sign, or the next jamo of a Hangul syllable.
           if (lastTyped !== null && entries[lastTyped] && !hasMark(marks, lastTyped, MARK_LOCKED)) {
             const merged = mergeTyped(entries[lastTyped]!, key, puzzle.locale)
             if (merged) {
               set((state) => {
                 state.entries[lastTyped] = merged
-                state.lastTyped = null
+                state.lastTyped = compositionOpen(merged, puzzle.locale) ? lastTyped : null
                 const wrong = settings.autoCheck && merged !== puzzle.solution[lastTyped]
                 state.marks[lastTyped] = wrong ? state.marks[lastTyped]! | MARK_WRONG : state.marks[lastTyped]! & ~MARK_WRONG
               })
               settle()
               return true
+            }
+            const spilled = spillTyped(entries[lastTyped]!, key, puzzle.locale)
+            if (spilled) {
+              set((state) => {
+                state.entries[lastTyped] = spilled.stay
+                const wrong = settings.autoCheck && spilled.stay !== puzzle.solution[lastTyped]
+                state.marks[lastTyped] = wrong ? state.marks[lastTyped]! | MARK_WRONG : state.marks[lastTyped]! & ~MARK_WRONG
+              })
+              key = spilled.next
             }
           }
 

@@ -1,0 +1,539 @@
+{
+  "Common": {
+    "appName": "Kruiswoord AI",
+    "tagline": "Gratis kruiswoordpuzzels en Zweedse puzzels, vers geschreven door AI, in jouw taal. Elke keer nieuwe woorden, nooit een herhaling.",
+    "skipToContent": "Naar de inhoud",
+    "openMenu": "Menu openen",
+    "menu": "Menu",
+    "close": "Sluiten",
+    "retry": "Opnieuw proberen",
+    "chooseLanguage": "Taal kiezen",
+    "language": "Taal",
+    "copyright": "© {year} {appName}. Gemaakt met woorden en een beetje magie.",
+    "backOnline": "Je bent weer online.",
+    "offline": "Je bent offline. Puzzels die je hebt geopend, kun je nog spelen.",
+    "lastUpdated": "Bijgewerkt: {date}"
+  },
+  "Nav": {
+    "main": "Hoofd",
+    "footer": "Site",
+    "home": "Home",
+    "crossword": "Kruiswoord",
+    "scanword": "Zweedse puzzel",
+    "topics": "Onderwerpen",
+    "history": "Mijn puzzels",
+    "rules": "Spelregels",
+    "faq": "Vragen",
+    "about": "Over",
+    "privacy": "Privacy",
+    "terms": "Voorwaarden",
+    "contact": "Contact"
+  },
+  "Errors": {
+    "network": "De server is niet bereikbaar. Controleer je verbinding en probeer het opnieuw.",
+    "rateLimited": "Dat waren veel puzzels in een minuut. Haal even adem en probeer het zo weer.",
+    "unauthorized": "Deze handeling is niet toegestaan.",
+    "notFound": "Niet gevonden.",
+    "server": "Er ging iets mis aan onze kant. Probeer het opnieuw.",
+    "generic": "Er ging iets mis. Probeer het opnieuw.",
+    "details": "Details",
+    "pageErrorTitle": "Oeps, er viel een vakje af",
+    "pageErrorBody": "Deze pagina liep tegen een onverwachte fout. Opnieuw proberen helpt meestal.",
+    "notFoundTitle": "Deze pagina staat niet in het raster",
+    "notFoundBody": "De link is misschien oud of verkeerd getypt. We zoeken een verse puzzel voor je.",
+    "goHome": "Naar de homepagina"
+  },
+  "Pwa": {
+    "install": "App installeren",
+    "iosTitle": "Zet Kruiswoord AI op je beginscherm",
+    "benefit": "Open hem als een app, schermvullend, en speel bewaarde puzzels offline verder.",
+    "iosStep1": "Tik op de deelknop in de werkbalk van Safari.",
+    "iosStep2": "Kies “Zet op beginscherm”.",
+    "iosStep3": "Tik op “Voeg toe”. Het icoon verschijnt op je beginscherm.",
+    "gotIt": "Begrepen"
+  },
+  "Seo": {
+    "homeTitle": "Gratis kruiswoordpuzzel maken | Kruiswoord AI",
+    "homeDescription": "Maak gratis online een kruiswoordpuzzel of Zweedse puzzel. Kies een onderwerp — dieren, eten, aardrijkskunde, geschiedenis, wetenschap, sport — en een niveau. Elke puzzel nieuwe woorden. Werkt offline.",
+    "keywords": "kruiswoordpuzzel, kruiswoordpuzzel maken, Nederlandse kruiswoordpuzzel, kruiswoordraadsel, gratis kruiswoordpuzzel, Zweedse puzzel, kruiswoordpuzzel dieren, kruiswoordpuzzel eten, kruiswoordpuzzel aardrijkskunde, kruiswoordpuzzel geschiedenis, kruiswoordpuzzel wetenschap, kruiswoordpuzzel sport",
+    "crosswordTitle": "Gratis kruiswoordpuzzel online",
+    "crosswordDescription": "Speel gratis kruiswoordpuzzels online, geschreven door AI: genummerde hints horizontaal en verticaal, 12 onderwerpen, drie niveaus. Geen account, elke keer nieuwe woorden.",
+    "scanwordTitle": "Gratis Zweedse puzzel online — hints in het raster",
+    "scanwordDescription": "Los gratis een Zweedse puzzel online op: de hints staan in het raster, met pijlen naar het antwoord. Geschreven door AI, geen account, op telefoon, tablet of computer.",
+    "topicsTitle": "Kruiswoordonderwerpen: dieren, eten, aardrijkskunde",
+    "topicsDescription": "Kies een onderwerp voor je volgende kruiswoordpuzzel of Zweedse puzzel: natuur, dieren, eten, aardrijkskunde, geschiedenis, wetenschap, sport, kunst en meer.",
+    "topicTitle": "{topic}-kruiswoordpuzzel — gratis online",
+    "topicDescription": "Gratis {topic}-kruiswoordpuzzels en Zweedse puzzels, gemaakt door AI. {description}",
+    "historyTitle": "Mijn puzzels",
+    "historyDescription": "Kruiswoordpuzzels en Zweedse puzzels die je op dit apparaat bent begonnen en nog niet hebt uitgespeeld, met je voortgang bewaard.",
+    "rulesTitle": "Kruiswoordpuzzel en Zweedse puzzel oplossen",
+    "rulesDescription": "Hoe je hier een kruiswoordpuzzel of Zweedse puzzel oplost: typen, door het raster bewegen, controleren en letters vrijgeven, en sneltoetsen.",
+    "faqTitle": "Vragen: gratis AI-kruiswoord, talen en privacy",
+    "faqDescription": "Antwoorden over Kruiswoord AI: is het gratis, hoe de AI hints schrijft, rastergroottes, niveau, woorden die nooit terugkomen, offline spelen, delen en privacy.",
+    "aboutTitle": "Over — hoe onze AI-kruiswoordpuzzels ontstaan",
+    "aboutDescription": "Waarom we een gratis kruiswoordgenerator maakten die nooit een woord herhaalt, en hoe de AI hints in elke taal zelf schrijft.",
+    "privacyTitle": "Privacyverklaring",
+    "privacyDescription": "Wat Kruiswoord AI bewaart, waar, en waarom. Geen account, geen profiel van wie je bent.",
+    "termsTitle": "Gebruiksvoorwaarden",
+    "termsDescription": "De eenvoudige afspraken voor het gebruik van Kruiswoord AI.",
+    "contactTitle": "Schrijf ons",
+    "contactDescription": "Een vraag, een idee of een fout in de puzzel? Schrijf ons, we antwoorden per e-mail.",
+    "puzzleDescription": "Een gratis puzzel van Kruiswoord AI — los hem op in je browser.",
+    "sharedPuzzleDescription": "Een gratis {size} {format, select, scanword {Zweedse puzzel} other {kruiswoordpuzzel}} · {topic} · {difficulty} · {words, plural, one {# woord} other {# woorden}}. Geschreven door AI — los hem meteen op in je browser, zonder account.",
+    "ogImageAlt": "Kruiswoord AI — gratis kruiswoordpuzzels en Zweedse puzzels in jouw taal",
+    "ogPuzzleCta": "Kun jij hem oplossen?",
+    "ogPuzzleMeta": "{size} · {words, plural, one {# woord} other {# woorden}}"
+  },
+  "Formats": {
+    "classic": {
+      "name": "Kruiswoord",
+      "short": "Genummerde hints, horizontaal en verticaal",
+      "description": "De klassieker: woorden kruisen in een vrij raster, en elke hint staat in de lijst ernaast.",
+      "cta": "Speel een kruiswoord"
+    },
+    "scanword": {
+      "name": "Zweedse puzzel",
+      "short": "Hints in het raster, met pijlen",
+      "description": "Elke hint staat in het raster, met een pijl naar het antwoord. Snel te lezen, lastig weg te leggen.",
+      "cta": "Speel een Zweedse puzzel"
+    }
+  },
+  "Topics": {
+    "any": "Gemengde onderwerpen",
+    "general": { "name": "Dagelijkse woorden", "description": "Woorden van alledag: huis, mensen, tijd, de wereld om je heen." },
+    "nature": { "name": "Natuur", "description": "Bossen, rivieren, weer, planten en de seizoenen." },
+    "animals": { "name": "Dieren", "description": "Wilde en tamme dieren, vogels, vissen en insecten." },
+    "food": { "name": "Eten en drinken", "description": "Gerechten, ingrediënten, de keuken en alles op tafel." },
+    "geography": { "name": "Aardrijkskunde", "description": "Landen, steden, rivieren, bergen en herkenningspunten." },
+    "history": { "name": "Geschiedenis", "description": "Tijdperken, uitvindingen, ambachten en voorwerpen van vroeger." },
+    "science": { "name": "Wetenschap", "description": "Natuurkunde, scheikunde, biologie, de ruimte en het lichaam." },
+    "sport": { "name": "Sport", "description": "Spellen, materiaal, wedstrijden en de regels." },
+    "arts": { "name": "Kunst", "description": "Muziek, literatuur, theater, schilderkunst en film." },
+    "home": { "name": "Huis en huishouden", "description": "Meubels, gereedschap, kleding en dingen die we elke dag gebruiken." },
+    "professions": { "name": "Beroepen", "description": "Banen, ambachten, gereedschap van het vak en werkplekken." },
+    "localCulture": { "name": "Eigen cultuur", "description": "Tradities, feesten, volksverhalen en bekende plekken van de cultuur achter elke taal." }
+  },
+  "Difficulty": { "1": "Makkelijk", "2": "Gemiddeld", "3": "Moeilijk" },
+  "Sizes": { "small": "Klein", "medium": "Middel", "large": "Groot" },
+  "Generator": {
+    "format": "Kies een vorm",
+    "topic": "Kies een onderwerp",
+    "difficulty": "Niveau",
+    "size": "Formaat",
+    "create": "Maak mijn puzzel",
+    "creating": "Je puzzel wordt gebouwd…",
+    "creatingHint": "We zoeken woorden die je nog niet hebt gezien. Verse woorden kunnen een paar seconden duren.",
+    "cancel": "Annuleren",
+    "freshHint": "Gratis, geen account. Elke puzzel brengt woorden die je hier nog niet bent tegengekomen.",
+    "exhausted": "Je hebt nu elk woord voor deze keuze gespeeld. We schrijven nieuwe. Kies een ander onderwerp, of kom over een minuut terug."
+  },
+  "Home": {
+    "hero": {
+      "eyebrow": "Gratis · Geen account · Werkt offline",
+      "title": "Kruiswoordpuzzels die <mark>altijd nieuw zijn</mark>",
+      "subtitle": "Kies een onderwerp en een niveau. De AI schrijft de hints in jouw taal, en hetzelfde woord krijg je geen tweede keer.",
+      "lede": "Maak gratis online een kruiswoordpuzzel of Zweedse puzzel, zonder account. Onderwerpen lopen van dieren, eten en aardrijkskunde tot geschiedenis, wetenschap, sport, kunst, huis, beroepen en eigen cultuur — of meng ze allemaal."
+    },
+    "continueTitle": "Ga verder waar je was",
+    "formatsTitle": "Twee manieren om te spelen",
+    "formatsSubtitle": "Een ruime klassieker met hintlijsten, of een compacte Zweedse puzzel met hints in het raster.",
+    "pointsTitle": "Waarom het anders is",
+    "points": {
+      "fresh": { "title": "Nooit een herhaling", "text": "Je apparaat onthoudt elk woord dat het heeft laten zien, dus elke nieuwe puzzel brengt woorden die je nog niet hebt opgelost." },
+      "native": { "title": "Geschreven in jouw taal", "text": "Hints worden in de taal zelf geschreven, zoals een plaatselijke maker ze zou zetten, nooit vertaald uit een andere taal." },
+      "ai": { "title": "Gemaakt door AI, gecontroleerd door code", "text": "De AI stelt woorden en hints voor; onze controles laten spelfouten, oneerlijke hints en antwoorden die zichzelf verraden vallen." },
+      "offline": { "title": "Speelt overal", "text": "Installeer hem als een app. Geopende puzzels blijven werken in het vliegtuig, in de metro, waar dan ook." }
+    },
+    "topicsTitle": "Kies een onderwerp",
+    "topicsSubtitle": "Van vogels in de tuin tot bekende rivieren — of meng ze allemaal.",
+    "faqTitle": "Vragen en antwoorden",
+    "faq1Question": "Is Kruiswoord AI echt gratis?",
+    "faq1Answer": "Ja. Elke kruiswoordpuzzel en Zweedse puzzel is gratis te spelen, zonder account, zonder aanmelding en zonder limiet.",
+    "faq2Question": "Krijg ik dezelfde woorden terug?",
+    "faq2Answer": "Nee. Je apparaat houdt een lijst bij van woorden die het al heeft getoond en laat die uit elke nieuwe puzzel. Wis je de sitegegevens, dan begint die lijst opnieuw.",
+    "faq3Question": "In welke talen kan ik spelen?",
+    "faq3Answer": "Drieëndertig talen, elk met een eigen woordenvoorraad, geschreven voor de sprekers en nooit vertaald: Engels, Spaans, Portugees, Frans, Duits, Italiaans, Nederlands, Pools, Tsjechisch, Zweeds, Roemeens, Hongaars, Indonesisch, Maleis, Filipijns, Vietnamees, Swahili, Russisch, Oekraïens, Grieks, Arabisch, Perzisch, Urdu, Hebreeuws, Hindi, Marathi, Bengaals, Tamil, Thai, Japans, Koreaans, Chinees en Armeens.",
+    "faq4Question": "Wat is het verschil tussen een kruiswoord en een Zweedse puzzel?",
+    "faq4Answer": "Een kruiswoord zet genummerde hints naast het raster, horizontaal en verticaal. Een Zweedse puzzel zet elke hint in een vakje, met een pijl naar waar het antwoord komt.",
+    "faq5Question": "Kan ik offline spelen?",
+    "faq5Answer": "Ja. Elke puzzel die je opent, wordt met je voortgang op het apparaat bewaard, dus hij werkt zonder verbinding. Nieuwe puzzels hebben internet nodig.",
+    "faq6Question": "Wat als een hint fout is?",
+    "faq6Answer": "Open het menu ⋯ boven het raster en kies “Meld een hint”. Als drie verschillende spelers dezelfde hint melden, gaat hij met pensioen en komt hij niet terug.",
+    "faqMore": "Alle vragen en antwoorden →"
+  },
+  "CrosswordPage": {
+    "hero": {
+      "eyebrow": "Klassieke kruiswoordpuzzel",
+      "title": "Een klassieke kruiswoordpuzzel, <mark>alleen voor jou</mark>",
+      "plainTitle": "AI-kruiswoord",
+      "subtitle": "Genummerde hints horizontaal en verticaal, een raster dat vanuit het midden groeit, en woorden die je nog niet hebt gezien.",
+      "lede": "Speel gratis een klassieke kruiswoordpuzzel online: genummerde hints horizontaal en verticaal, over dieren, eten, aardrijkskunde, geschiedenis, wetenschap en sport."
+    },
+    "rulesTitle": "Hoe een kruiswoord in elkaar zit",
+    "rule1": "Elk wit vakje heeft één letter. Woorden lopen van links naar rechts en van boven naar beneden, en kruisen elkaar.",
+    "rule2": "Elk woord heeft een nummer in het eerste vakje en een bijpassende hint in de lijst horizontaal of verticaal.",
+    "rule3": "Tik een vakje of een hint om te typen. Tik hetzelfde vakje nog eens — of druk op spatie — om tussen horizontaal en verticaal te wisselen.",
+    "rule4": "Vastgelopen? Controleer een letter, een woord of de hele puzzel, of geef een letter vrij om weer verder te kunnen.",
+    "topicsTitle": "Kruiswoordpuzzels per onderwerp",
+    "faqTitle": "Vragen over kruiswoordpuzzels",
+    "faq1Question": "Hoe groot zijn de kruiswoordpuzzels?",
+    "faq1Answer": "Klein (tot ongeveer 14 woorden), middel of groot (meer dan 20 woorden). Het raster wordt bijgesneden op de woorden, dus het past altijd op je scherm.",
+    "faq2Question": "Wat maakt een hint makkelijk of moeilijk?",
+    "faq2Answer": "Makkelijke puzzels gebruiken alledaagse woorden met een directe definitie. Moeilijke gebruiken zeldzamere woorden en hints waar je even over nadenkt.",
+    "faq3Question": "Kan ik mijn toetsenbord gebruiken?",
+    "faq3Answer": "Ja: typ letters, beweeg met de pijltjes, Enter voor de volgende hint en Backspace om terug te gaan. Op een telefoon verschijnt het eigen toetsenbord van de puzzel onder het raster.",
+    "faq4Question": "Kan ik een kruiswoord delen met een vriend?",
+    "faq4Answer": "Ja. Tik op Delen boven het raster om de link te kopiëren of via een app te sturen. Je vriend krijgt precies hetzelfde raster en dezelfde hints."
+  },
+  "ScanwordPage": {
+    "hero": {
+      "eyebrow": "Zweedse puzzel",
+      "title": "Zweedse puzzels met hints <mark>in het raster</mark>",
+      "plainTitle": "AI Zweedse puzzel",
+      "subtitle": "Geen lijsten om in te zoeken: elke hint staat in een eigen vakje, met een pijl naar het antwoord.",
+      "lede": "Speel gratis een Zweedse puzzel online: de hints staan in het raster. Dezelfde onderwerpen als de kruiswoordpuzzels — dieren, eten, aardrijkskunde, geschiedenis, wetenschap, sport en meer."
+    },
+    "rulesTitle": "Hoe een Zweedse puzzel in elkaar zit",
+    "rule1": "Gekleurde vakjes bevatten de hints. De pijl ernaast wijst waar het antwoord begint en welke kant het op gaat.",
+    "rule2": "Een hintvakje kan twee hints hebben: de bovenste wijst meestal naar rechts, de onderste naar beneden.",
+    "rule3": "Tik een hintvakje of een lettervakje om een woord te kiezen. De volledige hint staat altijd in de balk boven het raster.",
+    "rule4": "Kleurige tegels zijn alleen versiering. De letters komen alleen in de witte vakjes.",
+    "topicsTitle": "Zweedse puzzels per onderwerp",
+    "faqTitle": "Vragen over de Zweedse puzzel",
+    "faq1Question": "Wat is een Zweedse puzzel?",
+    "faq1Answer": "Een Zweedse puzzel is een kruiswoord met de hints in het raster zelf. Hij begon als de Scandinavische kruiswoordpuzzel en is geliefd in puzzelbladen in Rusland en Armenië.",
+    "faq2Question": "De hints in de vakjes zijn klein op mijn telefoon. Wat nu?",
+    "faq2Answer": "Tik het vakje: de volledige hint staat altijd in de balk boven het raster. Je kunt ook knijpen om te zoomen, of de hele hintlijst openen.",
+    "faq3Question": "Waarom buigen sommige pijlen?",
+    "faq3Answer": "Als er geen plek is voor de hint vlak voor het antwoord, staat hij boven of naast de eerste letter, en de pijl buigt om de richting te wijzen.",
+    "faq4Question": "Zijn de hints van een Zweedse puzzel anders?",
+    "faq4Answer": "Ze zijn korter. Een hint moet in één vakje passen, dus het zijn hoogstens een paar woorden."
+  },
+  "TopicsPage": {
+    "eyebrow": "Onderwerpen",
+    "title": "Waar moet je puzzel over gaan?",
+    "subtitle": "Elk onderwerp heeft in elke taal zijn eigen woorden. Kies er een, of meng ze op de homepagina."
+  },
+  "TopicPage": {
+    "title": "{topic}-kruiswoordpuzzels",
+    "samplesTitle": "Een voorproefje van {topic}",
+    "samplesSubtitle": "Een paar hints uit de woordenvoorraad. Raad je ze? Echte puzzels brengen elke keer nieuwe.",
+    "showAnswer": "Toon het antwoord",
+    "moreTopics": "Meer onderwerpen"
+  },
+  "Auth": {
+    "signIn": "Inloggen",
+    "signOut": "Uitloggen",
+    "signInTitle": "Inloggen",
+    "signInSubtitle": "Gebruik Google, of het e-mailadres en wachtwoord van je account.",
+    "signUpTitle": "Account maken",
+    "signUpSubtitle": "We mailen een link om het adres te bevestigen voordat je kunt inloggen.",
+    "forgotTitle": "Wachtwoord vergeten?",
+    "forgotSubtitle": "We mailen een link als een account dit adres gebruikt.",
+    "resetTitle": "Kies een nieuw wachtwoord",
+    "resetSubtitle": "Hiermee log je in en log je op elk ander apparaat uit.",
+    "verifyTitle": "Bevestig je e-mail",
+    "verifySubtitle": "Open de link uit je inbox en bevestig hem hier. Mailscanners kunnen de link niet verbruiken.",
+    "google": "Doorgaan met Google",
+    "or": "of",
+    "name": "Naam",
+    "email": "E-mail",
+    "password": "Wachtwoord",
+    "passwordHint": "Minstens 8 tekens, met een letter en een cijfer. Niet je e-mailadres.",
+    "confirmPassword": "Herhaal het wachtwoord",
+    "passwordMismatch": "De wachtwoorden komen niet overeen",
+    "required": "Vul dit veld in",
+    "invalidEmail": "Dit e-mailadres klopt niet",
+    "forgot": "Wachtwoord vergeten?",
+    "noAccount": "Nog geen account?",
+    "hasAccount": "Heb je al een account?",
+    "submitSignIn": "Inloggen",
+    "submitSignUp": "Account maken",
+    "submitForgot": "Stuur de link",
+    "submitReset": "Wachtwoord opslaan",
+    "submitVerify": "E-mail bevestigen",
+    "verifiedNotice": "E-mail bevestigd. Log in om verder te gaan.",
+    "checkInbox": "Kijk in {email}",
+    "checkInboxText": "We hebben een link gestuurd. Open hem en kom terug om in te loggen.",
+    "resend": "Stuur de link opnieuw",
+    "resent": "Opnieuw verstuurd.",
+    "forgotSent": "Als een account dat adres gebruikt, is de link onderweg.",
+    "invalidCredentials": "Dat e-mailadres en wachtwoord horen niet bij elkaar.",
+    "googleOnly": "Dit account logt in met Google.",
+    "emailNotVerified": "Bevestig eerst je e-mail. De link staat in je inbox.",
+    "emailTaken": "Er bestaat al een account met dit e-mailadres.",
+    "weakPassword": "Gebruik minstens 8 tekens, met een letter en een cijfer, en niet je e-mailadres.",
+    "verifyInvalid": "Deze bevestigingslink is ongeldig of verlopen.",
+    "resetInvalid": "Deze herstellink is ongeldig of verlopen.",
+    "mailFailed": "We konden de e-mail niet versturen. Probeer het opnieuw.",
+    "googleErrors": {
+      "google_unavailable": "Inloggen met Google is nu niet beschikbaar.",
+      "google_denied": "Inloggen met Google is geannuleerd.",
+      "google_failed": "Inloggen met Google is niet gelukt. Probeer het opnieuw.",
+      "google_email_unverified": "Google heeft dat e-mailadres niet geverifieerd."
+    }
+  },
+  "History": {
+    "title": "Mijn puzzels",
+    "subtitle": "Kruiswoordpuzzels en Zweedse puzzels die je bent begonnen en nog niet hebt afgemaakt. Je letters blijven op dit apparaat, online of offline.",
+    "empty": "Nog geen openstaande puzzels. Begin een kruiswoord of een Zweedse puzzel, dan wacht hij hier tot je hem afmaakt.",
+    "detail": "{percent}% ingevuld · {difficulty} · {size}",
+    "seeAll": "Alle openstaande bekijken"
+  },
+  "Play": {
+    "title": "Puzzel",
+    "loading": "Je puzzel wordt geopend…",
+    "missingTitle": "Deze puzzel is er niet",
+    "missingText": "Hij staat niet op dit apparaat en de server is nu niet bereikbaar. Controleer de link, of probeer het als je online bent.",
+    "leaveTitle": "Deze puzzel verlaten?",
+    "leaveBody": "Je letters blijven op dit apparaat bewaard. Je kunt hem later afmaken via Mijn puzzels.",
+    "keepSolving": "Blijf oplossen",
+    "leave": "Verlaten",
+    "newPuzzle": "Nieuwe puzzel",
+    "allClues": "Alle hints",
+    "across": "Horizontaal",
+    "down": "Verticaal",
+    "gridLabel": "Puzzelraster",
+    "cell": {
+      "position": "Rij {row}, kolom {col}",
+      "empty": "leeg",
+      "wrong": "verkeerde letter",
+      "revealed": "vrijgegeven",
+      "clue": "Hint: {clue}"
+    },
+    "wordNumbered": "{number} {dir, select, across {horizontaal} other {verticaal}}",
+    "wordDirection": "{dir, select, across {Horizontaal} other {Verticaal}}",
+    "wordLength": "{name}, {length, plural, one {# letter} other {# letters}}",
+    "wordLetter": "{name}, letter {letter} van {length}",
+    "previousWord": "Vorige hint",
+    "nextWord": "Volgende hint",
+    "toggleDirection": "Richting wisselen",
+    "filled": "Ingevuld",
+    "keyboard": "Toetsenbord",
+    "ime": "Typ een teken",
+    "erase": "Wissen",
+    "time": "Tijd: {time}",
+    "check": { "label": "Controleer", "cell": "Controleer letter", "word": "Controleer woord", "puzzle": "Controleer puzzel" },
+    "reveal": {
+      "label": "Toon",
+      "cell": "Toon letter",
+      "word": "Toon woord",
+      "puzzle": "Toon puzzel",
+      "confirmTitle": "De hele puzzel tonen?",
+      "confirmText": "Elk antwoord wordt ingevuld en de puzzel eindigt. Dit kun je niet ongedaan maken.",
+      "cancel": "Blijf oplossen",
+      "confirm": "Alles tonen"
+    },
+    "clearWrong": "Verkeerde letters wissen",
+    "more": "Meer",
+    "zoom": { "label": "Zoom", "in": "Inzoomen", "out": "Uitzoomen", "reset": "Hele puzzel passen" },
+    "settings": {
+      "label": "Instellingen",
+      "autoCheck": "Controleren terwijl ik typ",
+      "autoCheckHint": "Markeer een foute letter zodra hij erin staat.",
+      "skipFilled": "Ingevulde vakjes overslaan",
+      "skipFilledHint": "Typen springt over vakjes die al een letter hebben."
+    },
+    "share": "Puzzel delen",
+    "shareShort": "Delen",
+    "shareTitle": "Probeer deze puzzel!",
+    "linkCopied": "Link gekopieerd. Stuur hem naar een vriend.",
+    "shareDialog": {
+      "title": "Deel deze puzzel",
+      "description": "Je vriend krijgt precies hetzelfde raster en dezelfde hints. Gratis, geen account.",
+      "link": "Puzzellink",
+      "copy": "Kopiëren",
+      "copied": "Gekopieerd!",
+      "copyFailed": "Kopiëren lukte niet. De link is geselecteerd, dus kopieer hem met de hand.",
+      "apps": "Verstuur via een app",
+      "email": "E-mail",
+      "more": "Meer opties…",
+      "text": "Kun jij deze {topic}-{format, select, scanword {Zweedse puzzel} other {kruiswoordpuzzel}} oplossen? Hij is gratis en vers geschreven door AI.",
+      "textAny": "Kun jij deze {format, select, scanword {Zweedse puzzel} other {kruiswoordpuzzel}} oplossen? Hij is gratis en vers geschreven door AI."
+    },
+    "pdf": {
+      "open": "Opslaan als pdf",
+      "title": "Opslaan als pdf",
+      "description": "Het lichtpaarse raster, een kleurrijk raster, of zwart-wit. Het opent in een nieuw tabblad.",
+      "appearance": "Uiterlijk",
+      "appearanceDefault": "Standaard",
+      "appearanceColorful": "Kleurrijk",
+      "appearanceMono": "Zwart-wit",
+      "letters": "Mijn letters meenemen",
+      "lettersHint": "Toon de letters die je al hebt ingevuld.",
+      "answers": "Antwoorden toevoegen",
+      "answersHint": "Het opgeloste raster, op een eigen pagina.",
+      "cancel": "Annuleren",
+      "confirm": "Pdf openen",
+      "preparing": "Je pdf wordt gemaakt…",
+      "failed": "De pdf lukte niet. Probeer het opnieuw.",
+      "answersTitle": "Antwoorden",
+      "playOnline": "Speel online: {url}"
+    },
+    "report": {
+      "open": "Meld een hint",
+      "title": "Wat klopt er niet aan deze hint?",
+      "cancel": "Annuleren",
+      "send": "Melding versturen",
+      "thanks": "Dank je. Meldingen helpen ons slechte hints te laten verdwijnen.",
+      "note": "Wat moeten we weten?",
+      "notePlaceholder": "Een korte notitie, in je eigen woorden",
+      "reasons": {
+        "wrongClue": "De hint past niet bij het antwoord",
+        "notAWord": "Het antwoord is geen echt woord",
+        "offensive": "Het is kwetsend of ongepast",
+        "typo": "Er staat een typefout",
+        "other": "Iets anders"
+      }
+    },
+    "solved": {
+      "title": "Opgelost! Mooi gedaan!",
+      "titleHelped": "Opgelost — knap gedaan!",
+      "time": "Tijd",
+      "checks": "Controles",
+      "reveals": "Vrijgegeven",
+      "admire": "Bekijk het raster",
+      "next": "Volgende puzzel"
+    },
+    "announce": {
+      "checked": "{count, plural, one {# letter is fout} other {# letters zijn fout}}",
+      "allCorrect": "Alles wat gecontroleerd is, klopt",
+      "revealed": "{count, plural, one {# letter vrijgegeven} other {# letters vrijgegeven}}",
+      "solved": "Puzzel opgelost in {seconds, plural, one {# seconde} other {# seconden}}!"
+    }
+  },
+  "Rules": {
+    "title": "Spelregels",
+    "subtitle": "Alles wat je nodig hebt om hier een kruiswoord of een Zweedse puzzel op te lossen, op een telefoon, tablet of computer.",
+    "sections": [
+      {
+        "title": "Een woord kiezen",
+        "paragraphs": [
+          "Tik of klik op een wit vakje. Het woord licht geel op en de hint verschijnt in de balk boven het raster.",
+          "Waar twee woorden kruisen, tik je hetzelfde vakje nog eens om tussen horizontaal en verticaal te wisselen. In een Zweedse puzzel kun je ook het hintvakje zelf tikken."
+        ]
+      },
+      {
+        "title": "Typen",
+        "paragraphs": [
+          "Op een computer typ je gewoon. Je hoeft de toetsenbordindeling niet te wisselen: staat hij op Engels, dan typen de toetsen de letters van de puzzeltaal op hun gewone plek.",
+          "Op een telefoon of tablet verschijnt het eigen toetsenbord van de puzzel onder het raster. In het Armeens zijn ՈՒ en և elk één toets en één vakje; typ ո en daarna ւ, dan worden ze vanzelf ՈՒ.",
+          "In Russische puzzels wordt Ё als Е geschreven, zoals in gedrukte kruiswoordpuzzels.",
+          "In Nederlandse puzzels is ij één vakje. Typ i en daarna j, dan worden ze vanzelf ij. Het woord ijs telt dus als twee vakjes."
+        ]
+      },
+      {
+        "title": "Bewegen",
+        "paragraphs": [
+          "Pijltjes gaan van vakje naar vakje; een pijl dwars op de huidige richting draait eerst de cursor. Enter springt naar de volgende hint, Shift+Enter naar de vorige.",
+          "Backspace wist een letter en stapt terug. Home en End springen naar het begin en het einde van het woord. Tab verlaat het raster."
+        ]
+      },
+      {
+        "title": "Hulp",
+        "paragraphs": [
+          "Controleren zet foute letters door met een rode streep en vergrendelt de goede. Tonen vult een letter, een woord of de hele puzzel in; vrijgegeven letters krijgen een klein paars vlaggetje.",
+          "Zet “Controleren terwijl ik typ” aan in de instellingen als je meteen wilt weten of het klopt."
+        ]
+      },
+      {
+        "title": "Elke keer verse woorden",
+        "paragraphs": [
+          "Je apparaat onthoudt de woorden die het heeft getoond en vraagt er nooit meer om. Elke nieuwe puzzel bestaat uit woorden die je hier nog niet bent tegengekomen."
+        ]
+      }
+    ]
+  },
+  "Faq": {
+    "title": "Vragen en antwoorden",
+    "subtitle": "Alles over Kruiswoord AI op één plek: de puzzels, hoe de AI ze schrijft, spelen op elk apparaat, en je privacy.",
+    "groups": [
+      {
+        "title": "Over Kruiswoord AI",
+        "items": [
+          { "question": "Wat is Kruiswoord AI?", "answer": "Kruiswoord AI is een gratis website die kruiswoordpuzzels en Zweedse puzzels maakt in drieëndertig talen. Een AI schrijft de woorden en hints in elke taal zelf, code bouwt het raster, en elk apparaat krijgt alleen woorden die het nog niet heeft gezien." },
+          { "question": "Is Kruiswoord AI echt gratis?", "answer": "Ja. Elke puzzel is gratis te spelen: geen account, geen aanmelding, geen abonnement en geen advertenties." },
+          { "question": "Heb ik een account nodig?", "answer": "Nee. Er valt niets aan te melden. Je voortgang, je instellingen en de lijst met geziene woorden blijven in je browser, op je apparaat." },
+          { "question": "Wie maakt Kruiswoord AI?", "answer": "Het is een zelfstandig project van ontwikkelaar Michael Navasardyan: puzzels die lezen alsof een plaatselijke maker ze schreef, in elke taal die de site aanbiedt, onder meer Armeens, Russisch en Engels." }
+        ]
+      },
+      {
+        "title": "De puzzels",
+        "items": [
+          { "question": "Wat is het verschil tussen een kruiswoord en een Zweedse puzzel?", "answer": "Een kruiswoord zet genummerde hints naast het raster, horizontaal en verticaal. Een Zweedse puzzel drukt elke hint in een vakje, met een pijl naar het antwoord. Dat is de vorm waar puzzelbladen in Rusland en Armenië vol van staan." },
+          { "question": "Hoe groot zijn de puzzels?", "answer": "Er zijn drie formaten. Een klassieke kruiswoordpuzzel vult een raster van 9×9, 13×13 of 15×15 met ongeveer 8–14, 16–24 of 22–34 woorden, en wordt daarna bijgesneden. Een Zweedse puzzel gebruikt 8×10, 10×13 of 13×17, hoger dan breed, omdat de meeste op een telefoon worden opgelost." },
+          { "question": "Hoe verschillen de niveaus?", "answer": "Makkelijk gebruikt alledaagse woorden met een directe definitie. Gemiddeld put uit een bredere woordenschat. Moeilijk brengt zeldzamere woorden en hints waar je even over nadenkt." },
+          { "question": "Welke onderwerpen kan ik kiezen?", "answer": "Twaalf: dagelijkse woorden, natuur, dieren, eten en drinken, aardrijkskunde, geschiedenis, wetenschap, sport, kunst, huis en huishouden, beroepen en eigen cultuur — of meng ze in één puzzel." },
+          { "question": "Zie ik ooit hetzelfde woord twee keer?", "answer": "Niet op hetzelfde apparaat. Het onthoudt tot 4.000 woorden per taal — ongeveer 130 puzzels — en laat ze uit elke nieuwe puzzel; pas daarna vallen de oudste van de lijst. Sitegegevens wissen laat de lijst opnieuw beginnen." },
+          { "question": "Hoe schrijft de AI de hints?", "answer": "Het model Gemini van Google schrijft woorden en hints rechtstreeks in elke taal, volgens een stijlgids van moedertaalsprekers. Code controleert daarna alles: het juiste alfabet, één echt woord, een eerlijke hint die het antwoord niet weggeeft. Een tweede AI-ronde redigeert. Wat zakt, valt weg en wordt nooit bijgeplakt. Het raster zelf bouwt code, niet de AI." },
+          { "question": "Wat als een hint fout is?", "answer": "Open het menu ⋯ boven het raster en kies “Meld een hint”. Als drie verschillende spelers dezelfde hint melden, gaat hij met pensioen en komt hij niet terug." }
+        ]
+      },
+      {
+        "title": "Spelen",
+        "items": [
+          { "question": "Hoe typ ik antwoorden op een telefoon of computer?", "answer": "Op een computer typ je gewoon: zelfs als je toetsenbord op Engels staat, typen de toetsen de letters van de puzzel op hun gewone plek. Op een telefoon of tablet verschijnt het eigen toetsenbord onder het raster, en het systeemtoetsenbord dekt het nooit af." },
+          { "question": "Kan ik antwoorden controleren of een hint krijgen?", "answer": "Ja. Controleren markeert foute letters in één vakje, één woord of de hele puzzel, en Tonen vult een letter, een woord of alles in. Zet “Controleren terwijl ik typ” aan om fouten meteen te zien." },
+          { "question": "Hoe gaan Armeens ու en և, en Russische Ё, in hun werk?", "answer": "In Armeense puzzels zijn ու en և één letter en vullen ze elk één vakje, zoals in gedrukte Armeense kruiswoordpuzzels. Typ ո en daarna ւ, dan worden ze ու. In Russische puzzels wordt Ё als Е geschreven. In het Nederlands is ij één vakje: i gevolgd door j wordt vanzelf ij." },
+          { "question": "Wordt mijn voortgang bewaard?", "answer": "Ja, automatisch, terwijl je speelt. Elke puzzel die je begint en niet afmaakt, staat onder “Mijn puzzels”, met je letters bewaard, ook offline." },
+          { "question": "Kan ik offline spelen of hem als app installeren?", "answer": "Ja. Kruiswoord AI installeert vanuit de browser als een app (op de iPhone: Delen → Zet op beginscherm). Elke geopende puzzel blijft met je voortgang werken zonder verbinding; alleen nieuwe puzzels hebben internet nodig." },
+          { "question": "Kan ik een puzzel delen met een vriend?", "answer": "Ja. Tik op Delen boven het raster om de link te kopiëren, of stuur hem via WhatsApp, Telegram, Facebook, X, VK of e-mail. Je vriend krijgt precies hetzelfde raster en dezelfde hints." },
+          { "question": "Kan ik spelen met een toetsenbord of een schermlezer?", "answer": "Ja. Het raster werkt volledig met het toetsenbord en met schermlezers: elk vakje heeft een naam, de actieve hint wordt voorgelezen, en controles en vrijgaven ook. Foute en vrijgegeven letters zijn herkenbaar aan hun vorm, nooit alleen aan kleur." }
+        ]
+      },
+      {
+        "title": "Privacy",
+        "items": [
+          { "question": "Welke gegevens bewaren jullie?", "answer": "Heel weinig. Je puzzels, voortgang, instellingen en de lijst met geziene woorden blijven in je browser. De server bewaart de gemaakte puzzels (zodat een gedeelde link hetzelfde raster opent), hintmeldingen met een eenrichtingshash van het IP-adres, en anonieme oploscijfers. Geen namen en geen profielen." },
+          { "question": "Gaat er iets over mij naar de AI?", "answer": "Nee. Alleen puzzelinstellingen — taal, onderwerp, niveau — en woordenlijsten gaan naar de Gemini-modellen van Google, nooit iets over jou." }
+        ]
+      }
+    ],
+    "ctaTitle": "Klaar voor een verse puzzel?",
+    "ctaText": "Kies een onderwerp en een niveau. Je volgende raster is een paar seconden weg.",
+    "cta": "Maak een puzzel"
+  },
+  "About": {
+    "title": "Over Kruiswoord AI",
+    "subtitle": "Een gratis puzzelgenerator die in jouw taal schrijft en nooit twee keer hetzelfde woord geeft.",
+    "sections": [
+      { "title": "Waarom we hem maakten", "paragraphs": ["De meeste online kruiswoordpuzzels hergebruiken een korte woordenlijst, en vertaalde lezen als vertalingen. Wij wilden puzzels die aanvoelen alsof een plaatselijke maker ze schreef, en die nieuw blijven hoeveel je er ook oplost."] },
+      { "title": "Hoe de woorden worden geschreven", "paragraphs": ["Een AI schrijft woorden en hints rechtstreeks in elke taal, volgens een stijlgids van moedertaalsprekers: de woordvormen die kruiswoordpuzzels gebruiken, de spelling, de manier waarop hints in die traditie klinken.", "Elk woord gaat daarna door automatische controles — het juiste alfabet, één echt woord, geen hint die het antwoord weggeeft — en een tweede AI als redacteur. Meldingen van spelers laten weg wat er toch doorheen glipt."] },
+      { "title": "Hoe de rasters worden gebouwd", "paragraphs": ["Het raster zelf bouwt code, niet de AI: een algoritme past de woorden zo in elkaar dat elke letter bij een echt woord met een hint hoort. Daardoor blijft elke puzzel eerlijk."] }
+    ]
+  },
+  "Privacy": {
+    "title": "Privacyverklaring",
+    "subtitle": "Kort: geen account, geen namen, geen profiel. Dit is alles wat we bewaren.",
+    "sections": [
+      { "title": "Op je apparaat", "paragraphs": ["Je browser bewaart de puzzels die je opent, je voortgang, je instellingen en een lijst van woorden die je al hebt gezien, zodat ze niet terugkomen. Dat blijft op je apparaat; sitegegevens wissen haalt het weg."] },
+      { "title": "Op onze server", "paragraphs": ["We bewaren de gemaakte puzzels, zodat een gedeelde link hetzelfde raster opent. Bij een hintmelding bewaren we de melding met een eenrichtingshash van je IP-adres, alleen zodat één persoon een hint niet in zijn eentje kan laten verdwijnen. We tellen anoniem hoe puzzels worden gespeeld, om het niveau bij te stellen."] },
+      { "title": "AI-aanbieder", "paragraphs": ["Nieuwe woorden en hints worden geschreven door de Gemini-modellen van Google. Alleen de puzzelinstellingen (taal, onderwerp, niveau) en woordenlijsten gaan erheen, nooit iets over jou."] },
+      { "title": "Statistiek en foutmeldingen", "paragraphs": ["Als dat aanstaat, gebruiken we Google Analytics om paginaweergaven te tellen en Sentry om foutmeldingen te ontvangen. Geen van beide wordt gebruikt om jou te herkennen."] }
+    ]
+  },
+  "Terms": {
+    "title": "Gebruiksvoorwaarden",
+    "subtitle": "Kruiswoord AI is gratis te gebruiken, voor plezier en om iets te leren.",
+    "sections": [
+      { "title": "De dienst gebruiken", "paragraphs": ["Je mag de puzzels spelen, delen en afdrukken voor persoonlijk en educatief gebruik. Overbelast de dienst niet met geautomatiseerde verzoeken."] },
+      { "title": "Door AI geschreven inhoud", "paragraphs": ["Woorden en hints worden door AI geschreven en automatisch gecontroleerd, maar fouten kunnen voorkomen. Meld ze: zo verdwijnen slechte hints."] },
+      { "title": "Geen garantie", "paragraphs": ["De dienst wordt aangeboden zoals hij is, zonder garantie van beschikbaarheid of nauwkeurigheid. We kunnen functies op elk moment wijzigen of stopzetten."] }
+    ]
+  },
+  "Contact": {
+    "title": "Schrijf ons",
+    "subtitle": "Een vraag, een idee of iets dat misging? Schrijf ons, we antwoorden per e-mail.",
+    "fullName": "Naam",
+    "email": "E-mail",
+    "message": "Bericht",
+    "messagePlaceholder": "Waarmee kunnen we helpen?",
+    "required": "Vul dit veld in",
+    "invalidEmail": "Dit e-mailadres klopt niet",
+    "submit": "Versturen",
+    "sent": "Bericht verstuurd",
+    "sentText": "Dank je. We antwoorden zo snel mogelijk per e-mail.",
+    "sendAnother": "Nog een bericht schrijven",
+    "tooMany": "Dat zijn te veel berichten. Probeer het straks nog eens."
+  }
+}

@@ -33,6 +33,24 @@ export const fontBody = Nunito({
  */
 const SCRIPT_FAMILIES: Partial<Record<Locale, string>> = {
   hy: 'Noto Sans Armenian',
+  el: 'Noto Sans',
+  pl: 'Noto Sans',
+  cs: 'Noto Sans',
+  hu: 'Noto Sans',
+  ro: 'Noto Sans',
+  vi: 'Noto Sans',
+  ar: 'Noto Sans Arabic',
+  fa: 'Noto Sans Arabic',
+  ur: 'Noto Sans Arabic',
+  he: 'Noto Sans Hebrew',
+  hi: 'Noto Sans Devanagari',
+  mr: 'Noto Sans Devanagari',
+  bn: 'Noto Sans Bengali',
+  ta: 'Noto Sans Tamil',
+  th: 'Noto Sans Thai',
+  ko: 'Noto Sans KR',
+  ja: 'Noto Sans JP',
+  zh: 'Noto Sans SC',
 }
 
 export type ScriptFont = { family: string; href: string }

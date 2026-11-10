@@ -43,6 +43,25 @@ describe('leave guard', () => {
     expect(store().question).not.toBeNull()
   })
 
+  it('asks when forced, even though nothing is guarded', async () => {
+    const pending = store().ask(true)
+    expect(store().question).not.toBeNull()
+    store().answer(false)
+    await expect(pending).resolves.toBe(false)
+    expect(store().leaving).toBe(false)
+  })
+
+  it('asks again after an agreed leave that never happened', async () => {
+    store().setGuard('game', true)
+    const leave = store().ask()
+    store().answer(true)
+    await leave
+    store().keepGuarding()
+    expect(store().leaving).toBe(false)
+    void store().ask()
+    expect(store().question).not.toBeNull()
+  })
+
   it('drops an open question when the puzzle ends under it', async () => {
     store().setGuard('game', true)
     const pending = store().ask()

@@ -1,5 +1,6 @@
 import { type KeyboardEvent, useCallback } from 'react'
 import { usePlayStoreBase } from '@store/puzzle/play/store'
+import { getDirection } from '@i18n/config'
 import { KEY_CODE_LETTERS } from '@constants/keyboards'
 import type { ArrowKey } from '@helpers/puzzle/cursor'
 
@@ -25,8 +26,17 @@ export const usePuzzleKeys = () =>
     const arrow = ARROWS[event.key]
     let handled = true
 
-    if (arrow) play.move(arrow)
-    else if (event.key === ' ') play.toggleDirection()
+    if (arrow) {
+      const locale = play.puzzle?.locale
+      // In a right-to-left grid the columns are mirrored, so the arrow keys follow the screen.
+      const visual =
+        locale && getDirection(locale) === 'rtl' && (arrow === 'left' || arrow === 'right')
+          ? arrow === 'left'
+            ? 'right'
+            : 'left'
+          : arrow
+      play.move(visual)
+    } else if (event.key === ' ') play.toggleDirection()
     else if (event.key === 'Enter') play.nextWord(event.shiftKey)
     else if (event.key === 'Backspace') play.erase()
     else if (event.key === 'Delete') play.deleteCell()

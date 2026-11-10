@@ -32,7 +32,7 @@ export default async function HomePage() {
 
   return (
     <>
-      <JsonLd data={websiteSchema(locale, appName, seo('homeDescription'))} />
+      <JsonLd data={websiteSchema(locale, appName, seo('homeDescription'), seo('keywords'))} />
       <JsonLd data={gameSchema(locale, appName, seo('homeDescription'), ROUTES.home)} />
       <Hero namespace='Home.hero'>
         <GeneratorForm />

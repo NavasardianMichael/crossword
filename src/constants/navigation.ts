@@ -16,6 +16,7 @@ export const SECONDARY_NAV = [
 
 export const LEGAL_NAV = [
   { labelKey: 'about', href: ROUTES.about },
+  { labelKey: 'contact', href: ROUTES.contact },
   { labelKey: 'privacy', href: ROUTES.privacy },
   { labelKey: 'terms', href: ROUTES.terms },
 ] as const

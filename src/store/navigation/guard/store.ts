@@ -29,9 +29,9 @@ export const useLeaveGuardStoreBase = create<LeaveGuardState & LeaveGuardActions
           if (question && !get().question) question.resolve(false)
         },
 
-        ask: () => {
+        ask: (force = false) => {
           const { guards, leaving, question } = get()
-          if (leaving || !isGuarded(guards)) return Promise.resolve(true)
+          if (leaving || (!force && !isGuarded(guards))) return Promise.resolve(true)
           // Asked again while the dialog is up (a second Back): the newest question wins.
           question?.resolve(false)
           return new Promise<boolean>((resolve) => {
@@ -48,6 +48,12 @@ export const useLeaveGuardStoreBase = create<LeaveGuardState & LeaveGuardActions
             if (leave) state.leaving = true
           })
           question?.resolve(leave)
+        },
+
+        keepGuarding: () => {
+          set((state) => {
+            state.leaving = false
+          })
         },
       })
     )

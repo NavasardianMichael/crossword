@@ -21,8 +21,8 @@ export const getPuzzleAPI: GetPuzzleAPI['api'] = cache(async ({ id }) => {
   return processPuzzleResponse(data)
 })
 
-export const reportWordAPI: ReportWordAPI['api'] = async ({ puzzleId, wordId, reason }) => {
-  await axiosInstance.post(ENDPOINTS.report(puzzleId), { wordId, reason })
+export const reportWordAPI: ReportWordAPI['api'] = async ({ puzzleId, wordId, reason, note }) => {
+  await axiosInstance.post(ENDPOINTS.report(puzzleId), { wordId, reason, note })
   return processEmptyResponse({ value: null, error: null })
 }
 

@@ -1,5 +1,5 @@
 import { describe, expect, it } from 'vitest'
-import { ALPHABETS } from '@constants/alphabet'
+import { ALPHABETS, COMBINERS, foldTyped, OPEN_LOCALES } from '@constants/alphabet'
 import { KEY_CODE_LETTERS, KEYBOARD_ROWS } from '@constants/keyboards'
 import { LOCALES, type PuzzleView } from '@constants/puzzle'
 import { checkCells, isSolved, MARK_LOCKED, MARK_REVEALED, MARK_WRONG, revealCells } from '@helpers/puzzle/check'
@@ -112,14 +112,27 @@ describe('seen-list', () => {
 })
 
 describe('keyboards', () => {
-  it.each(LOCALES)('%s on-screen keyboard has exactly the alphabet', (locale) => {
-    expect(KEYBOARD_ROWS[locale].flat().sort()).toEqual([...ALPHABETS[locale]].sort())
+  it.each(LOCALES)('%s on-screen keyboard matches its alphabet', (locale) => {
+    const combiners = new Set(COMBINERS[locale] ?? [])
+    const keys = KEYBOARD_ROWS[locale].flat()
+    const letters = keys.filter((key) => !combiners.has(key))
+    if (OPEN_LOCALES.has(locale)) {
+      expect(letters.length).toBeGreaterThan(0)
+      for (const key of letters) expect(foldTyped(key, locale)).toBeTruthy()
+      return
+    }
+    expect(letters.sort()).toEqual([...ALPHABETS[locale]].sort())
+    expect(new Set(letters).size).toBe(letters.length)
   })
 
-  it('maps physical keys only to letters of the language (or Armenian ւ, which completes ու)', () => {
-    for (const [locale, map] of Object.entries(KEY_CODE_LETTERS)) {
+  it('maps physical keys only to letters, combiners, or Armenian ւ', () => {
+    for (const [codeLocale, map] of Object.entries(KEY_CODE_LETTERS)) {
+      const language = codeLocale as keyof typeof ALPHABETS
+      const combiners = COMBINERS[language] ?? []
       for (const letter of Object.values(map)) {
-        expect(ALPHABETS[locale as keyof typeof ALPHABETS].includes(letter) || letter === 'ւ').toBe(true)
+        expect(
+          ALPHABETS[language].includes(letter) || combiners.includes(letter) || letter === 'ւ' || Boolean(foldTyped(letter, language))
+        ).toBe(true)
       }
     }
   })

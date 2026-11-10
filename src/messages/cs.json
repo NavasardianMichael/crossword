@@ -1,0 +1,715 @@
+{
+  "Common": {
+    "appName": "Křížovky AI",
+    "tagline": "Křížovky a skandinávky zdarma, které umělá inteligence píše rovnou ve vašem jazyce. V každé hře nová slova, nic se neopakuje.",
+    "skipToContent": "Přeskočit na obsah",
+    "openMenu": "Otevřít nabídku",
+    "menu": "Nabídka",
+    "close": "Zavřít",
+    "retry": "Zkusit znovu",
+    "chooseLanguage": "Vybrat jazyk",
+    "language": "Jazyk",
+    "copyright": "© {year} {appName}. Uděláno ze slov a špetky kouzel.",
+    "backOnline": "Jste zase online.",
+    "offline": "Jste offline. Otevřené křížovky se dají dál luštit.",
+    "lastUpdated": "Naposledy aktualizováno: {date}"
+  },
+  "Nav": {
+    "main": "Hlavní",
+    "footer": "Web",
+    "home": "Domů",
+    "crossword": "Křížovka",
+    "scanword": "Skandinávka",
+    "topics": "Témata",
+    "history": "Moje křížovky",
+    "rules": "Jak luštit",
+    "faq": "Otázky",
+    "about": "O projektu",
+    "privacy": "Soukromí",
+    "terms": "Podmínky",
+    "contact": "Kontakt"
+  },
+  "Errors": {
+    "network": "Server se neozývá. Zkontrolujte připojení a zkuste to znovu.",
+    "rateLimited": "Tolik křížovek za minutu! Nadechněte se a zkuste to za chvíli.",
+    "unauthorized": "Tohle udělat nejde.",
+    "notFound": "Nic jsme nenašli.",
+    "server": "U nás se něco pokazilo. Zkuste to prosím znovu.",
+    "generic": "Něco se pokazilo. Zkuste to prosím znovu.",
+    "details": "Podrobnosti",
+    "pageErrorTitle": "Jejda, vypadlo políčko",
+    "pageErrorBody": "Tahle stránka narazila na nečekanou chybu. Obvykle pomůže to zkusit znovu.",
+    "notFoundTitle": "Tahle stránka v mřížce není",
+    "notFoundBody": "Odkaz je možná starý, nebo je v něm překlep. Najdeme vám radši čerstvou křížovku.",
+    "goHome": "Na úvodní stránku"
+  },
+  "Pwa": {
+    "install": "Nainstalovat aplikaci",
+    "iosTitle": "Přidejte si Křížovky AI na plochu",
+    "benefit": "Otevírá se jako aplikace, přes celou obrazovku, a uložené křížovky jdou luštit i bez sítě.",
+    "iosStep1": "Klepněte na tlačítko Sdílet v liště Safari.",
+    "iosStep2": "Vyberte „Přidat na plochu“.",
+    "iosStep3": "Klepněte na „Přidat“ a ikona se objeví na ploše.",
+    "gotIt": "Rozumím"
+  },
+  "Seo": {
+    "homeTitle": "Česká křížovka zdarma — vytvořit křížovku online",
+    "homeDescription": "Vytvořte křížovku nebo skandinávku zdarma. Témata: zvířata, jídlo, zeměpis, historie, věda, sport a další. Česká křížovka pokaždé s novými slovy, funguje i offline.",
+    "keywords": "křížovka, česká křížovka, vytvořit křížovku, křížovky online zdarma, skandinávka, křížovka zvířata, křížovka jídlo, křížovka zeměpis, křížovka historie, křížovka věda, křížovka sport",
+    "crosswordTitle": "Klasické křížovky online zdarma",
+    "crosswordDescription": "Luštěte klasické křížovky od umělé inteligence: číslované legendy vodorovně a svisle, 12 témat, tři obtížnosti. Bez registrace, pokaždé nová slova.",
+    "scanwordTitle": "Skandinávky online zdarma — legendy v mřížce",
+    "scanwordDescription": "Luštěte skandinávky od umělé inteligence: legendy jsou přímo v políčkách a šipky vedou k odpovědím. Zdarma, bez registrace, na telefonu, tabletu i počítači.",
+    "topicsTitle": "Křížovky podle témat: zvířata, jídlo, zeměpis",
+    "topicsDescription": "Vyberte téma další křížovky nebo skandinávky: příroda, zvířata, jídlo, zeměpis, historie, věda, sport, umění a další.",
+    "topicTitle": "Křížovky: {topic} — zdarma online",
+    "topicDescription": "Křížovky a skandinávky na téma {topic}, které skládá umělá inteligence. {description}",
+    "historyTitle": "Moje křížovky",
+    "historyDescription": "Křížovky a skandinávky, které jste na tomhle zařízení začali a nedokončili, s uloženým postupem.",
+    "rulesTitle": "Jak luštit křížovky a skandinávky",
+    "rulesDescription": "Jak u nás luštit křížovku nebo skandinávku: psaní písmen, pohyb po mřížce, kontrola, odhalení a klávesové zkratky.",
+    "faqTitle": "Otázky: křížovky zdarma, jazyky a soukromí",
+    "faqDescription": "Odpovědi o Křížovkách AI: je to zdarma, jak vznikají legendy, velikosti mřížek, obtížnost, slova bez opakování, luštění offline, sdílení a soukromí.",
+    "aboutTitle": "O projektu — jak vznikají naše křížovky",
+    "aboutDescription": "Proč jsme udělali generátor křížovek, ve kterém se slovo neopakuje, a jak umělá inteligence píše legendy rovnou v každém jazyce.",
+    "privacyTitle": "Zásady soukromí",
+    "privacyDescription": "Co Křížovky AI ukládají, kde a proč. Bez účtu a bez sledování, kdo jste.",
+    "termsTitle": "Podmínky použití",
+    "termsDescription": "Jednoduché podmínky pro používání Křížovek AI.",
+    "contactTitle": "Napište nám",
+    "contactDescription": "Otázka, nápad nebo chyba v křížovce? Napište nám, odpovíme na e-mail.",
+    "puzzleDescription": "Hádanka zdarma od Křížovek AI — vyluštěte ji v prohlížeči.",
+    "sharedPuzzleDescription": "Zdarma {size} {format, select, scanword {skandinávka} other {křížovka}} · {topic} · {difficulty} · {words, plural, one {# slovo} few {# slova} many {# slov} other {# slov}}. Napsáno umělou inteligencí — luštěte v prohlížeči, bez registrace.",
+    "ogImageAlt": "Křížovky AI — křížovky a skandinávky zdarma ve vašem jazyce",
+    "ogPuzzleCta": "Vyluštíte to?",
+    "ogPuzzleMeta": "{size} · {words, plural, one {# slovo} few {# slova} many {# slov} other {# slov}}"
+  },
+  "Formats": {
+    "classic": {
+      "name": "Křížovka",
+      "short": "Číslované legendy, vodorovně a svisle",
+      "description": "Klasika: slova se kříží ve volné mřížce a každá legenda čeká ve sloupcích vodorovně a svisle.",
+      "cta": "Luštit křížovku"
+    },
+    "scanword": {
+      "name": "Skandinávka",
+      "short": "Legendy v mřížce, se šipkami",
+      "description": "Každá legenda sedí přímo v políčku a šipka ukazuje, kam patří odpověď. Čte se rychle a odkládá těžko.",
+      "cta": "Luštit skandinávku"
+    }
+  },
+  "Topics": {
+    "any": "Smíšená témata",
+    "general": {
+      "name": "Běžná slova",
+      "description": "Slova všedního dne: domov, lidé, čas a svět kolem."
+    },
+    "nature": {
+      "name": "Příroda",
+      "description": "Lesy, řeky, počasí, rostliny a roční doby."
+    },
+    "animals": {
+      "name": "Zvířata",
+      "description": "Divoká i domácí zvířata, ptáci, ryby a hmyz."
+    },
+    "food": {
+      "name": "Jídlo a pití",
+      "description": "Pokrmy, suroviny, kuchyně a všechno na stole."
+    },
+    "geography": {
+      "name": "Zeměpis",
+      "description": "Státy, města, řeky, hory a památná místa."
+    },
+    "history": {
+      "name": "Historie",
+      "description": "Epochy, vynálezy, řemesla a věci z minulosti."
+    },
+    "science": {
+      "name": "Věda",
+      "description": "Fyzika, chemie, biologie, vesmír a lidské tělo."
+    },
+    "sport": {
+      "name": "Sport",
+      "description": "Hry, výstroj, závody a pravidla."
+    },
+    "arts": {
+      "name": "Umění",
+      "description": "Hudba, literatura, divadlo, malba a film."
+    },
+    "home": {
+      "name": "Domov",
+      "description": "Nábytek, nářadí, oblečení a věci denní potřeby."
+    },
+    "professions": {
+      "name": "Povolání",
+      "description": "Práce, řemesla, nástroje a pracoviště."
+    },
+    "localCulture": {
+      "name": "Místní kultura",
+      "description": "Zvyky, svátky, pohádky a známá místa kultury daného jazyka."
+    }
+  },
+  "Difficulty": {
+    "1": "Lehká",
+    "2": "Střední",
+    "3": "Těžká"
+  },
+  "Sizes": {
+    "small": "Malá",
+    "medium": "Střední",
+    "large": "Velká"
+  },
+  "Generator": {
+    "format": "Vyberte podobu",
+    "topic": "Vyberte téma",
+    "difficulty": "Obtížnost",
+    "size": "Velikost",
+    "create": "Sestavit křížovku",
+    "creating": "Sestavujeme křížovku…",
+    "creatingHint": "Vybíráme slova, která jste ještě neviděli. Čerstvá chvíli trvají.",
+    "cancel": "Zrušit",
+    "freshHint": "Zdarma, bez registrace. Každá křížovka přinese slova, která jste tu ještě neměli.",
+    "exhausted": "U téhle volby jste už vyluštili všechna slova, která teď máme. Píšeme nová — zkuste jiné téma, nebo se vraťte za minutu."
+  },
+  "Home": {
+    "hero": {
+      "eyebrow": "Zdarma · Bez registrace · Funguje offline",
+      "title": "Česká křížovka, která je <mark>vždy nová</mark>",
+      "subtitle": "Vyberte téma a obtížnost. Legendy píše umělá inteligence ve vašem jazyce a stejné slovo nedostanete dvakrát.",
+      "lede": "Vytvořte křížovku nebo skandinávku zdarma, bez registrace. Témata sahají od zvířat, jídla a zeměpisu po historii, vědu, sport, umění, domov, povolání a místní kulturu — nebo je smíchejte."
+    },
+    "continueTitle": "Pokračujte, kde jste skončili",
+    "formatsTitle": "Dva způsoby luštění",
+    "formatsSubtitle": "Prostorná klasika se sloupci legend, nebo úsporná skandinávka s legendami v mřížce.",
+    "pointsTitle": "V čem je to jiné",
+    "points": {
+      "fresh": {
+        "title": "Nic se neopakuje",
+        "text": "Zařízení si pamatuje každé slovo, které ukázalo, takže nová křížovka přinese ta, která jste ještě neluštili."
+      },
+      "native": {
+        "title": "Napsáno ve vašem jazyce",
+        "text": "Legendy vznikají rovnou v daném jazyce, jak by je napsal místní autor. Nepřekládají se z jiného."
+      },
+      "ai": {
+        "title": "Sestaví inteligence, zkontroluje kód",
+        "text": "Umělá inteligence navrhne slova a legendy. Kontroly zahodí překlep, nefér nápovědu i tu, která prozradí odpověď."
+      },
+      "offline": {
+        "title": "Luští se kdekoli",
+        "text": "Nainstaluje se jako aplikace. Otevřené křížovky jedou dál v letadle, v metru, kdekoli."
+      }
+    },
+    "topicsTitle": "Vyberte téma",
+    "topicsSubtitle": "Od ptáků na krmítku po známé řeky — nebo všechno najednou.",
+    "faqTitle": "Otázky a odpovědi",
+    "faq1Question": "Jsou Křížovky AI opravdu zdarma?",
+    "faq1Answer": "Ano. Každá křížovka i skandinávka je zdarma, bez účtu, bez registrace a bez limitu, kolik jich vyluštíte.",
+    "faq2Question": "Uvidím stejná slova znovu?",
+    "faq2Answer": "Ne. Zařízení si vede seznam slov, která už ukázalo, a z nových křížovek je vynechá. Když smažete data webu v prohlížeči, seznam začne odznova.",
+    "faq3Question": "V jakých jazycích se dá luštit?",
+    "faq3Answer": "Ve třiatřiceti jazycích, každý s vlastní zásobou slov pro své mluvčí, nikdy přeloženou z jiného: angličtina, španělština, portugalština, francouzština, němčina, italština, nizozemština, polština, čeština, švédština, rumunština, maďarština, indonéština, malajština, filipínština, vietnamština, svahilština, ruština, ukrajinština, řečtina, arabština, perština, urdština, hebrejština, hindština, maráthština, bengálština, tamilština, thajština, japonština, korejština, čínština a arménština.",
+    "faq4Question": "Jaký je rozdíl mezi křížovkou a skandinávkou?",
+    "faq4Answer": "Křížovka má číslované legendy vedle mřížky, vodorovně a svisle. Skandinávka tiskne každou legendu do políčka a šipka ukazuje, kam odpověď patří.",
+    "faq5Question": "Dá se luštit offline?",
+    "faq5Answer": "Ano. Každá otevřená křížovka se uloží do zařízení i s postupem, takže běží bez připojení. Nové křížovky potřebují internet.",
+    "faq6Question": "Co když je legenda špatně?",
+    "faq6Answer": "Otevřete nabídku ⋯ nad mřížkou a zvolte „Nahlásit legendu“. Když stejnou legendu nahlásí tři různí hráči, stáhne se a už se neobjeví.",
+    "faqMore": "Všechny otázky a odpovědi →"
+  },
+  "CrosswordPage": {
+    "hero": {
+      "eyebrow": "Klasická křížovka",
+      "title": "Klasická křížovka <mark>jen pro vás</mark>",
+      "plainTitle": "Křížovka AI",
+      "subtitle": "Číslované legendy vodorovně a svisle, mřížka rostoucí od středu a slova, která jste ještě neviděli.",
+      "lede": "Hrajte klasickou křížovku online zdarma: číslované legendy vodorovně a svisle, v tématech od zvířat a jídla po zeměpis, historii, vědu a sport."
+    },
+    "rulesTitle": "Jak křížovka funguje",
+    "rule1": "Každé bílé políčko drží jedno písmeno. Slova jdou vodorovně (zleva doprava) a svisle (shora dolů) a kříží se.",
+    "rule2": "Každé slovo má číslo v prvním políčku a stejnou legendu ve sloupci vodorovně nebo svisle.",
+    "rule3": "Klepněte na políčko nebo legendu a pište. Další klepnutí na stejné políčko, nebo mezerník, přepne směr.",
+    "rule4": "Nevíte si rady? Zkontrolujte písmeno, slovo nebo celou křížovku, nebo písmeno odhalte a jeďte dál.",
+    "topicsTitle": "Křížovky podle témat",
+    "faqTitle": "Otázky ke křížovce",
+    "faq1Question": "Jak jsou křížovky velké?",
+    "faq1Answer": "Vyberte malou (asi do 14 slov), střední nebo velkou (přes 20 slov). Mřížka se ořízne na slova, která drží, takže se vejde na obrazovku.",
+    "faq2Question": "Čím se liší lehká a těžká legenda?",
+    "faq2Answer": "Lehké křížovky berou běžná slova s přímým výkladem. Těžké berou řidší slova a legendy, u kterých se člověk zastaví.",
+    "faq3Question": "Jde luštit z klávesnice?",
+    "faq3Answer": "Ano: pište písmena, šipkami se pohybujte, Enter skočí na další legendu a Backspace o krok zpět. Na telefonu se pod mřížkou objeví vlastní klávesnice.",
+    "faq4Question": "Můžu křížovku poslat kamarádovi?",
+    "faq4Answer": "Ano. Klepněte na Sdílet nad mřížkou, odkaz zkopírujte nebo pošlete aplikací. Kamarád dostane tutéž mřížku a tytéž legendy."
+  },
+  "ScanwordPage": {
+    "hero": {
+      "eyebrow": "Skandinávka",
+      "title": "Skandinávka s legendami <mark>v mřížce</mark>",
+      "plainTitle": "Skandinávka AI",
+      "subtitle": "Žádné sloupce k hledání: každá legenda sedí ve svém políčku a šipka vede k odpovědi.",
+      "lede": "Hrajte skandinávku online zdarma: legendy jsou v mřížce. Stejná témata jako u křížovek — zvířata, jídlo, zeměpis, historie, věda, sport a další."
+    },
+    "rulesTitle": "Jak skandinávka funguje",
+    "rule1": "Tónovaná políčka drží legendy. Šipka u legendy ukazuje, kde odpověď začíná a kterým směrem jde.",
+    "rule2": "Jedno políčko může držet dvě legendy: horní obvykle míří doprava, dolní dolů.",
+    "rule3": "Klepněte na políčko s legendou nebo na písmeno a vyberte slovo. Celá legenda je vždy v liště nad mřížkou.",
+    "rule4": "Barevné dlaždice jsou jen ozdoba. Písmena patří jen do bílých políček.",
+    "topicsTitle": "Skandinávky podle témat",
+    "faqTitle": "Otázky ke skandinávce",
+    "faq1Question": "Co je skandinávka?",
+    "faq1Answer": "Skandinávka je křížovka s legendami vytištěnými přímo v mřížce. Vznikla jako severská křížovka a mají ji rádi v časopisech v Rusku i v Arménii.",
+    "faq2Question": "Legendy v políčkách jsou na telefonu titěrné. Co s tím?",
+    "faq2Answer": "Klepněte na políčko: celá legenda se ukáže v liště nad mřížkou. Můžete i roztáhnout prsty, nebo otevřít seznam všech legend.",
+    "faq3Question": "Proč se některé šipky lámou?",
+    "faq3Answer": "Když před odpovědí není na legendu místo, sedí nad prvním písmenem nebo vedle něj a šipka se ohne, aby ukázala směr.",
+    "faq4Question": "Jsou legendy ve skandinávce jiné?",
+    "faq4Answer": "Jsou kratší. Musí se vejít do jednoho políčka, takže mají nanejvýš pár slov."
+  },
+  "TopicsPage": {
+    "eyebrow": "Témata",
+    "title": "O čem má křížovka být?",
+    "subtitle": "Každé téma má v každém jazyce vlastní slova. Vyberte jedno, nebo je na úvodní stránce smíchejte."
+  },
+  "TopicPage": {
+    "title": "Křížovky: {topic}",
+    "samplesTitle": "Ochutnávka tématu {topic}",
+    "samplesSubtitle": "Pár legend ze zásoby. Uhodnete je? Opravdové křížovky přinesou pokaždé nové.",
+    "showAnswer": "Ukázat odpověď",
+    "moreTopics": "Další témata"
+  },
+  "Auth": {
+    "signIn": "Přihlásit se",
+    "signOut": "Odhlásit se",
+    "signInTitle": "Přihlášení",
+    "signInSubtitle": "Přes Google, nebo e-mailem a heslem k účtu.",
+    "signUpTitle": "Založit účet",
+    "signUpSubtitle": "Pošleme odkaz, kterým adresu potvrdíte, než se přihlásíte.",
+    "forgotTitle": "Zapomněli jste heslo?",
+    "forgotSubtitle": "Pokud k téhle adrese účet patří, pošleme odkaz.",
+    "resetTitle": "Zvolte nové heslo",
+    "resetSubtitle": "Tím se přihlásíte a z ostatních zařízení se odhlásíte.",
+    "verifyTitle": "Potvrďte e-mail",
+    "verifySubtitle": "Otevřete odkaz ze schránky a potvrďte ho tady. Automatické čtečky pošty odkaz nespotřebují.",
+    "google": "Pokračovat přes Google",
+    "or": "nebo",
+    "name": "Jméno",
+    "email": "E-mail",
+    "password": "Heslo",
+    "passwordHint": "Aspoň 8 znaků, písmeno a číslice. Ne vaše e-mailová adresa.",
+    "confirmPassword": "Zopakujte heslo",
+    "passwordMismatch": "Hesla se neshodují",
+    "required": "Tohle pole je povinné",
+    "invalidEmail": "Tahle e-mailová adresa nevypadá správně",
+    "forgot": "Zapomenuté heslo?",
+    "noAccount": "Ještě nemáte účet?",
+    "hasAccount": "Už účet máte?",
+    "submitSignIn": "Přihlásit se",
+    "submitSignUp": "Založit účet",
+    "submitForgot": "Poslat odkaz",
+    "submitReset": "Uložit heslo",
+    "submitVerify": "Potvrdit e-mail",
+    "verifiedNotice": "E-mail je potvrzený. Přihlaste se a pokračujte.",
+    "checkInbox": "Podívejte se na {email}",
+    "checkInboxText": "Poslali jsme odkaz. Otevřete ho a pak se vraťte a přihlaste.",
+    "resend": "Poslat odkaz znovu",
+    "resent": "Posláno znovu.",
+    "forgotSent": "Pokud k té adrese účet patří, odkaz je na cestě.",
+    "invalidCredentials": "Ten e-mail a heslo k sobě nepatří.",
+    "googleOnly": "Ten účet se přihlašuje přes Google.",
+    "emailNotVerified": "Nejdřív potvrďte e-mail. Odkaz je ve schránce.",
+    "emailTaken": "Účet s tímhle e-mailem už existuje.",
+    "weakPassword": "Použijte aspoň 8 znaků, písmeno a číslici, a ne svou e-mailovou adresu.",
+    "verifyInvalid": "Odkaz k potvrzení je neplatný, nebo jeho platnost vypršela.",
+    "resetInvalid": "Odkaz k obnovení je neplatný, nebo jeho platnost vypršela.",
+    "mailFailed": "E-mail se nepodařilo odeslat. Zkuste to prosím znovu.",
+    "googleErrors": {
+      "google_unavailable": "Přihlášení přes Google teď není k dispozici.",
+      "google_denied": "Přihlášení přes Google bylo zrušeno.",
+      "google_failed": "Přihlášení přes Google se nedokončilo. Zkuste to znovu.",
+      "google_email_unverified": "Google tu e-mailovou adresu neověřil."
+    }
+  },
+  "History": {
+    "title": "Moje křížovky",
+    "subtitle": "Křížovky a skandinávky, které jste začali a nedokončili. Písmena zůstávají v tomhle zařízení, takže je otevřete a pokračujte — online i bez sítě.",
+    "empty": "Žádná nedokončená křížovka tu ještě není. Začněte křížovku nebo skandinávku a počká tady, dokud ji nedoluštíte.",
+    "detail": "{percent} % vyplněno · {difficulty} · {size}",
+    "seeAll": "Všechny nedokončené"
+  },
+  "Play": {
+    "title": "Křížovka",
+    "loading": "Otevíráme křížovku…",
+    "missingTitle": "Tahle křížovka tu není",
+    "missingText": "V tomhle zařízení uložená není a server se teď neozývá. Zkontrolujte odkaz, nebo to zkuste, až budete online.",
+    "leaveTitle": "Odejít od křížovky?",
+    "leaveBody": "Písmena zůstanou v tomhle zařízení a později ji dokončíte v Moje křížovky.",
+    "keepSolving": "Luštit dál",
+    "leave": "Odejít",
+    "newPuzzle": "Nová křížovka",
+    "allClues": "Všechny legendy",
+    "across": "Vodorovně",
+    "down": "Svisle",
+    "gridLabel": "Mřížka",
+    "cell": {
+      "position": "Řádek {row}, sloupec {col}",
+      "empty": "prázdné",
+      "wrong": "špatné písmeno",
+      "revealed": "odhaleno",
+      "clue": "Legenda: {clue}"
+    },
+    "wordNumbered": "{number} {dir, select, across {vodorovně} other {svisle}}",
+    "wordDirection": "{dir, select, across {Vodorovně} other {Svisle}}",
+    "wordLength": "{name}, {length, plural, one {# písmeno} few {# písmena} many {# písmen} other {# písmen}}",
+    "wordLetter": "{name}, písmeno {letter} z {length}",
+    "previousWord": "Předchozí legenda",
+    "nextWord": "Další legenda",
+    "toggleDirection": "Přepnout směr",
+    "filled": "Vyplněno",
+    "keyboard": "Klávesnice",
+    "ime": "Napište znak",
+    "erase": "Smazat",
+    "time": "Čas: {time}",
+    "check": {
+      "label": "Kontrola",
+      "cell": "Zkontrolovat písmeno",
+      "word": "Zkontrolovat slovo",
+      "puzzle": "Zkontrolovat křížovku"
+    },
+    "reveal": {
+      "label": "Odhalit",
+      "cell": "Odhalit písmeno",
+      "word": "Odhalit slovo",
+      "puzzle": "Odhalit křížovku",
+      "confirmTitle": "Odhalit celou křížovku?",
+      "confirmText": "Vyplní se všechny odpovědi a křížovka skončí. Vrátit to nejde.",
+      "cancel": "Luštit dál",
+      "confirm": "Odhalit vše"
+    },
+    "clearWrong": "Smazat špatná písmena",
+    "more": "Další",
+    "zoom": {
+      "label": "Přiblížení",
+      "in": "Přiblížit",
+      "out": "Oddálit",
+      "reset": "Celá křížovka do okna"
+    },
+    "settings": {
+      "label": "Nastavení",
+      "autoCheck": "Kontrolovat při psaní",
+      "autoCheckHint": "Špatné písmeno se označí hned, jak ho napíšete.",
+      "skipFilled": "Přeskakovat vyplněná políčka",
+      "skipFilledHint": "Psaní přeskakuje políčka, ve kterých už písmeno je."
+    },
+    "share": "Sdílet křížovku",
+    "shareShort": "Sdílet",
+    "shareTitle": "Zkuste tuhle křížovku!",
+    "linkCopied": "Odkaz je zkopírovaný — pošlete ho dál.",
+    "shareDialog": {
+      "title": "Sdílet tuhle křížovku",
+      "description": "Kamarád dostane tutéž mřížku a tytéž legendy. Zdarma, bez registrace.",
+      "link": "Odkaz na křížovku",
+      "copy": "Kopírovat",
+      "copied": "Zkopírováno!",
+      "copyFailed": "Kopírování se nepovedlo. Odkaz je označený, tak ho zkopírujte ručně.",
+      "apps": "Poslat aplikací",
+      "email": "E-mail",
+      "more": "Další možnosti…",
+      "text": "Vyluštíte tuhle {topic} {format, select, scanword {skandinávku} other {křížovku}}? Je zdarma a čerstvě ji napsala umělá inteligence.",
+      "textAny": "Vyluštíte tuhle {format, select, scanword {skandinávku} other {křížovku}}? Je zdarma a čerstvě ji napsala umělá inteligence."
+    },
+    "pdf": {
+      "open": "Uložit jako PDF",
+      "title": "Uložit jako PDF",
+      "description": "Světle fialová mřížka, barevná, nebo černobílá. Otevře se na nové kartě.",
+      "appearance": "Vzhled",
+      "appearanceDefault": "Výchozí",
+      "appearanceColorful": "Barevná",
+      "appearanceMono": "Černobílá",
+      "letters": "Včetně mých písmen",
+      "lettersHint": "Ukázat písmena, která už máte vyplněná.",
+      "answers": "Přidat řešení",
+      "answersHint": "Vyplněná mřížka na vlastní stránce.",
+      "cancel": "Zrušit",
+      "confirm": "Otevřít PDF",
+      "preparing": "Připravujeme PDF…",
+      "failed": "PDF se nepodařilo udělat. Zkuste to prosím znovu.",
+      "answersTitle": "Řešení",
+      "playOnline": "Luštit online: {url}"
+    },
+    "report": {
+      "open": "Nahlásit legendu",
+      "title": "Co je na té legendě špatně?",
+      "cancel": "Zrušit",
+      "send": "Odeslat hlášení",
+      "thanks": "Díky! Hlášení pomáhají špatné legendy stáhnout.",
+      "note": "Co bychom měli vědět?",
+      "notePlaceholder": "Krátká poznámka vlastními slovy",
+      "reasons": {
+        "wrongClue": "Legenda k odpovědi nesedí",
+        "notAWord": "Odpověď není opravdové slovo",
+        "offensive": "Je to urážlivé nebo nevhodné",
+        "typo": "Je v tom překlep",
+        "other": "Něco jiného"
+      }
+    },
+    "solved": {
+      "title": "Vyluštěno! Skvěle!",
+      "titleHelped": "Vyluštěno — pěkná práce!",
+      "time": "Čas",
+      "checks": "Kontroly",
+      "reveals": "Odhalení",
+      "admire": "Pokochat se mřížkou",
+      "next": "Další křížovka"
+    },
+    "announce": {
+      "checked": "{count, plural, one {# písmeno je špatně} few {# písmena jsou špatně} many {# písmen je špatně} other {# písmen je špatně}}",
+      "allCorrect": "Všechno zkontrolované sedí",
+      "revealed": "{count, plural, one {# písmeno odhaleno} few {# písmena odhalena} many {# písmen odhaleno} other {# písmen odhaleno}}",
+      "solved": "Vyluštěno za {seconds, plural, one {# sekundu} few {# sekundy} many {# sekund} other {# sekund}}!"
+    }
+  },
+  "Rules": {
+    "title": "Jak luštit",
+    "subtitle": "Všechno, co potřebujete ke křížovce nebo skandinávce — na telefonu, tabletu i počítači.",
+    "sections": [
+      {
+        "title": "Výběr slova",
+        "paragraphs": [
+          "Klepněte nebo klikněte na bílé políčko. Slovo, ke kterému patří, se rozsvítí žlutě a jeho legenda se objeví v liště nad mřížkou.",
+          "Kde se dvě slova kříží, klepněte na stejné políčko znovu a přepnete vodorovně a svisle. Ve skandinávce jde klepnout i na políčko s legendou."
+        ]
+      },
+      {
+        "title": "Psaní",
+        "paragraphs": [
+          "Na počítači prostě pište. Rozložení klávesnice přepínat nemusíte: když je nastavená na angličtinu, klávesy píšou písmena jazyka křížovky na svých obvyklých místech.",
+          "Na telefonu nebo tabletu se pod mřížkou objeví vlastní klávesnice. U arménštiny má samostatná písmena ՈՒ a և, každé v jednom políčku; když napíšete ո a pak ւ, spojí se v ՈՒ samy.",
+          "V ruských křížovkách se písmeno Ё píše jako Е, jako v tištěných křížovkách."
+        ]
+      },
+      {
+        "title": "Pohyb",
+        "paragraphs": [
+          "Šipky chodí mezi políčky; šipka napříč aktuálním směrem nejdřív kurzor otočí. Enter skočí na další legendu, Shift+Enter na předchozí.",
+          "Backspace smaže písmeno a couvne. Home a End skočí na začátek a konec slova. Tab opustí mřížku."
+        ]
+      },
+      {
+        "title": "Nápověda",
+        "paragraphs": [
+          "Kontrola přeškrtne špatná písmena a správná zamkne. Odhalení doplní písmeno, slovo nebo celou křížovku; odhalená písmena mají malou fialovou značku.",
+          "V nastavení zapněte „Kontrolovat při psaní“, když chcete vědět hned."
+        ]
+      },
+      {
+        "title": "Pokaždé čerstvá slova",
+        "paragraphs": [
+          "Zařízení si pamatuje slova, která ukázalo, a už je nežádá. Každá nová křížovka je ze slov, která jste tu ještě nepotkali."
+        ]
+      }
+    ]
+  },
+  "Faq": {
+    "title": "Otázky a odpovědi",
+    "subtitle": "Všechno o Křížovkách AI na jednom místě: křížovky, jak je umělá inteligence píše, luštění na jakémkoli zařízení a vaše soukromí.",
+    "groups": [
+      {
+        "title": "O Křížovkách AI",
+        "items": [
+          {
+            "question": "Co jsou Křížovky AI?",
+            "answer": "Křížovky AI jsou web zdarma, který skládá křížovky a skandinávky ve třiatřiceti jazycích. Model píše slova a legendy rovnou v každém jazyce, kód staví mřížku a každé zařízení dostane jen slova, která ještě nevidělo."
+          },
+          {
+            "question": "Jsou Křížovky AI opravdu zdarma?",
+            "answer": "Ano. Každá křížovka i skandinávka je zdarma: bez účtu, bez registrace, bez předplatného a bez reklam."
+          },
+          {
+            "question": "Potřebuji účet?",
+            "answer": "Ne. Není se k čemu registrovat. Postup, nastavení a seznam už viděných slov zůstávají v prohlížeči, na vašem zařízení."
+          },
+          {
+            "question": "Kdo Křížovky AI dělá?",
+            "answer": "Je to samostatný projekt vývojáře Michaela Navasardyana: křížovky, které znějí, jako by je napsal místní autor, v každém jazyce, který web nabízí — mezi nimi arménština, ruština a angličtina."
+          }
+        ]
+      },
+      {
+        "title": "Křížovky",
+        "items": [
+          {
+            "question": "Jaký je rozdíl mezi křížovkou a skandinávkou?",
+            "answer": "Křížovka má číslované legendy vedle mřížky, vodorovně a svisle. Skandinávka tiskne každou legendu do políčka a šipka ukazuje, kam odpověď patří. Takovou mřížku mají plné časopisy v Rusku a v Arménii."
+          },
+          {
+            "question": "Jak jsou křížovky velké?",
+            "answer": "Jsou tři velikosti. Klasická křížovka plní mřížku 9×9, 13×13 nebo 15×15 zhruba 8–14, 16–24 nebo 22–34 slovy a pak se ořízne na to, co v ní je. Skandinávka má mřížku 8×10, 10×13 nebo 13×17, vyšší než širší, protože se většinou luští na telefonu."
+          },
+          {
+            "question": "Čím se liší obtížnosti?",
+            "answer": "Lehká bere běžná slova s přímým výkladem. Střední sahá do širší zásoby. Těžká přináší řidší slova a legendy, u kterých se člověk zastaví."
+          },
+          {
+            "question": "Jaká témata si můžu vybrat?",
+            "answer": "Dvanáct: běžná slova, příroda, zvířata, jídlo a pití, zeměpis, historie, věda, sport, umění, domov, povolání a místní kultura — nebo je smíchat do jedné křížovky."
+          },
+          {
+            "question": "Uvidím někdy stejné slovo dvakrát?",
+            "answer": "Na stejném zařízení ne. Pamatuje si až 4 000 slov na jazyk, asi 130 křížovek, a z nových je vynechává; teprve potom ze seznamu padají ta nejstarší. Smazání dat webu seznam vynuluje."
+          },
+          {
+            "question": "Jak umělá inteligence píše legendy?",
+            "answer": "Model Gemini od Googlu píše slova a legendy rovnou v každém jazyce podle příručky od rodilých mluvčích. Kód pak každé zkontroluje: správná abeceda, jedno opravdové slovo, férová legenda, která neprozradí odpověď. Druhý průchod dělá redaktora. Co neprojde, zahodí se, neopravuje. Mřížku staví kód, ne model."
+          },
+          {
+            "question": "Co když je legenda špatně?",
+            "answer": "Otevřete nabídku ⋯ nad mřížkou a zvolte „Nahlásit legendu“. Když stejnou legendu nahlásí tři různí hráči, stáhne se a už se neobjeví."
+          }
+        ]
+      },
+      {
+        "title": "Luštění",
+        "items": [
+          {
+            "question": "Jak psát odpovědi na telefonu a na počítači?",
+            "answer": "Na počítači prostě pište: i když je klávesnice nastavená na angličtinu, klávesy píšou písmena křížovky na svých místech, nic se nepřepíná. Na telefonu nebo tabletu se pod mřížkou objeví vlastní klávesnice a systémová ji nezakryje."
+          },
+          {
+            "question": "Můžu odpovědi zkontrolovat nebo dostat nápovědu?",
+            "answer": "Ano. Kontrola označí špatná písmena v jednom políčku, slově nebo celé křížovce a Odhalení doplní písmeno, slovo nebo všechno. V nastavení zapněte „Kontrolovat při psaní“ a chybu uvidíte hned."
+          },
+          {
+            "question": "Jak se zachází s arménským ու a և a s ruským Ё?",
+            "answer": "V arménských křížovkách jsou ու a և samostatná písmena a každé má jedno políčko, jako v tištěných arménských křížovkách. Klávesnice na obrazovce má obě a když napíšete ո a pak ւ, spojí se v ու. V ruských křížovkách se Ё píše jako Е, jako v tištěných."
+          },
+          {
+            "question": "Ukládá se postup?",
+            "answer": "Ano, sám od sebe, jak luštíte. Každá křížovka nebo skandinávka, kterou začnete a nedokončíte, je v „Moje křížovky“ i s písmeny, takže se k ní vrátíte i offline."
+          },
+          {
+            "question": "Dá se luštit offline, nebo to nainstalovat jako aplikaci?",
+            "answer": "Ano. Křížovky AI se nainstalují z prohlížeče jako aplikace (na iPhonu: Sdílet → Přidat na plochu). Každá otevřená křížovka se uloží s postupem a běží bez sítě; internet potřebují jen nové."
+          },
+          {
+            "question": "Můžu křížovku poslat kamarádovi?",
+            "answer": "Ano. Klepněte na Sdílet nad mřížkou, odkaz zkopírujte, nebo ho pošlete přes WhatsApp, Telegram, Facebook, X, VK či e-mail. Kamarád dostane tutéž mřížku a tytéž legendy."
+          },
+          {
+            "question": "Jde luštit z klávesnice nebo se čtečkou obrazovky?",
+            "answer": "Ano. Mřížka funguje celá z klávesnice i se čtečkami: každé políčko je popsané, aktivní legenda se ohlásí a kontroly i odhalení se přečtou. Špatná a odhalená písmena se liší tvarem, ne jen barvou."
+          }
+        ]
+      },
+      {
+        "title": "Soukromí",
+        "items": [
+          {
+            "question": "Jaká data si necháváte?",
+            "answer": "Velmi málo. Křížovky, postup, nastavení a seznam viděných slov zůstávají v prohlížeči. Server ukládá vytvořené křížovky, aby sdílený odkaz otevřel tutéž mřížku, hlášení legend s jednosměrným otiskem IP adresy a anonymní počty vyluštění. Žádná jména a žádné profily."
+          },
+          {
+            "question": "Posílá se o mně něco umělé inteligenci?",
+            "answer": "Ne. Modelům Gemini od Googlu jdou jen nastavení křížovky, tedy jazyk, téma a obtížnost, a seznamy slov. Nic o vás."
+          }
+        ]
+      }
+    ],
+    "ctaTitle": "Chcete čerstvou křížovku?",
+    "ctaText": "Vyberte téma a obtížnost. Další mřížka je pár sekund daleko.",
+    "cta": "Sestavit křížovku"
+  },
+  "About": {
+    "title": "O Křížovkách AI",
+    "subtitle": "Generátor křížovek zdarma, který píše ve vašem jazyce a stejné slovo nepodá dvakrát.",
+    "sections": [
+      {
+        "title": "Proč vznikly",
+        "paragraphs": [
+          "Většina křížovek na webu točí malý seznam slov a přeložené znějí jako překlad. Chtěli jsme křížovky, které působí, jako by je napsal místní autor, a které zůstanou nové, ať jich vyluštíte kolik chcete."
+        ]
+      },
+      {
+        "title": "Jak se slova píšou",
+        "paragraphs": [
+          "Model píše slova a legendy rovnou v každém jazyce podle příručky od rodilých mluvčích: tvary, které křížovky používají, pravopis a způsob, jakým se v té tradici legendy staví.",
+          "Každé slovo pak projde automatickou kontrolou: správná abeceda, jedno opravdové slovo, legenda, která neprozradí odpověď. Druhý model dělá redaktora. Co hráči nahlásí, se stáhne."
+        ]
+      },
+      {
+        "title": "Jak se staví mřížky",
+        "paragraphs": [
+          "Mřížku staví kód, ne model: algoritmus slova složí tak, aby každé písmeno patřilo ke skutečnému slovu s legendou. Proto je každá křížovka férová."
+        ]
+      }
+    ]
+  },
+  "Privacy": {
+    "title": "Zásady soukromí",
+    "subtitle": "Ve zkratce: žádný účet, žádná jména, žádné profilování. Tady je všechno, co si necháváme.",
+    "sections": [
+      {
+        "title": "Na vašem zařízení",
+        "paragraphs": [
+          "Prohlížeč ukládá křížovky, které otevřete, postup, nastavení a seznam slov, která už jste viděli, aby se neopakovala. Zůstává to u vás; smazání dat webu to odstraní."
+        ]
+      },
+      {
+        "title": "Na našem serveru",
+        "paragraphs": [
+          "Ukládáme vytvořené křížovky, aby sdílený odkaz otevřel tutéž mřížku. Když nahlásíte legendu, necháme si hlášení s jednosměrným otiskem IP adresy, jen aby jediný člověk nemohl legendu stáhnout sám. Anonymně také počítáme, jak se křížovky luští (vyřešené, která slova se odhalila), abychom ladili obtížnost."
+        ]
+      },
+      {
+        "title": "Poskytovatel umělé inteligence",
+        "paragraphs": [
+          "Nová slova a legendy píšou modely Gemini od Googlu. Posílá se jen nastavení křížovky (jazyk, téma, obtížnost) a seznamy slov. Nic o vás."
+        ]
+      },
+      {
+        "title": "Statistiky a hlášení chyb",
+        "paragraphs": [
+          "Když je to zapnuté, používáme Google Analytics k počítání zobrazení stránek a Sentry k příjmu hlášení chyb. Ani jedno neslouží k tomu, abychom vás poznali."
+        ]
+      }
+    ]
+  },
+  "Terms": {
+    "title": "Podmínky použití",
+    "subtitle": "Křížovky AI jsou zdarma, pro zábavu a pro učení.",
+    "sections": [
+      {
+        "title": "Používání služby",
+        "paragraphs": [
+          "Křížovky smíte luštit, sdílet a tisknout pro osobní a vzdělávací potřebu. Službu prosím nezatěžujte automatickými požadavky."
+        ]
+      },
+      {
+        "title": "Text od umělé inteligence",
+        "paragraphs": [
+          "Slova a legendy píše umělá inteligence a kontroluje je automat, ale chyba se stát může. Když nějakou najdete, nahlaste ji. Tak se špatné legendy stahují."
+        ]
+      },
+      {
+        "title": "Bez záruky",
+        "paragraphs": [
+          "Služba se poskytuje tak, jak je, bez záruky dostupnosti nebo přesnosti. Funkce můžeme kdykoli změnit nebo ukončit."
+        ]
+      }
+    ]
+  },
+  "Contact": {
+    "title": "Napište nám",
+    "subtitle": "Otázka, nápad nebo něco nevyšlo? Napište nám, odpovíme na e-mail.",
+    "fullName": "Jméno",
+    "email": "E-mail",
+    "message": "Zpráva",
+    "messagePlaceholder": "S čím můžeme pomoct?",
+    "required": "Tohle pole je povinné",
+    "invalidEmail": "Tahle e-mailová adresa nevypadá správně",
+    "submit": "Odeslat",
+    "sent": "Zpráva odeslána",
+    "sentText": "Děkujeme. Odpovíme na e-mail, jakmile to půjde.",
+    "sendAnother": "Napsat další zprávu",
+    "tooMany": "Je toho moc zpráv. Zkuste to za chvíli znovu."
+  }
+}

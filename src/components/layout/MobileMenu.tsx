@@ -1,11 +1,12 @@
 'use client'
 
 import { useState } from 'react'
-import { BookOpen, CircleHelp, Grid3x3, History, LayoutGrid, type LucideIcon, Menu, Shapes } from 'lucide-react'
+import { BookOpen, CircleHelp, Grid3x3, History, LayoutGrid, type LucideIcon, Mail, Menu, Shapes } from 'lucide-react'
 import { useTranslations } from 'next-intl'
 import { usePathname } from '@i18n/navigation'
 import { ROUTES } from '@constants/routes'
 import { cn } from '@helpers/cn'
+import { AuthMenu } from '@components/auth/AuthMenu'
 import { AppLink } from '@components/ui/bare/AppLink'
 import { Dialog } from '@components/ui/Dialog'
 import { IconButton } from '@components/ui/IconButton'
@@ -18,23 +19,25 @@ const ITEMS: { labelKey: string; href: string; icon: LucideIcon }[] = [
   { labelKey: 'history', href: ROUTES.history, icon: History },
   { labelKey: 'rules', href: ROUTES.rules, icon: BookOpen },
   { labelKey: 'faq', href: ROUTES.faq, icon: CircleHelp },
+  { labelKey: 'contact', href: ROUTES.contact, icon: Mail },
 ]
 
-/** Everything the desktop header shows, in a drawer — below `lg` only. */
+/** The site menu, opened from the hamburger: the same links as the header, plus sign-in. */
 export const MobileMenu = () => {
   const [open, setOpen] = useState(false)
   const t = useTranslations()
   const pathname = usePathname()
+  const close = () => setOpen(false)
 
   return (
-    <div className='lg:hidden'>
+    <div>
       <IconButton
         label={t('Common.openMenu')}
         icon={<Menu className='size-5' />}
         onClick={() => setOpen(true)}
         aria-expanded={open}
       />
-      <Dialog open={open} onClose={() => setOpen(false)} title={t('Common.menu')} variant='drawer'>
+      <Dialog open={open} onClose={close} title={t('Common.menu')} variant='drawer'>
         <nav aria-label={t('Nav.main')}>
           <ul className='flex flex-col gap-1.5'>
             {ITEMS.map(({ labelKey, href, icon: Icon }) => {
@@ -43,7 +46,7 @@ export const MobileMenu = () => {
                 <li key={href}>
                   <AppLink
                     href={href}
-                    onClick={() => setOpen(false)}
+                    onClick={close}
                     aria-current={active ? 'page' : undefined}
                     className={cn(
                       'flex min-h-12 items-center gap-3 rounded-control border-2 px-3 font-display font-bold transition-colors',
@@ -57,6 +60,9 @@ export const MobileMenu = () => {
               )
             })}
           </ul>
+          <div className='mt-3 border-t-2 border-dashed border-line-strong pt-3'>
+            <AuthMenu onNavigate={close} />
+          </div>
         </nav>
       </Dialog>
     </div>

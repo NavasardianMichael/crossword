@@ -1,0 +1,716 @@
+{
+  "Common": {
+    "appName": "Mots croisés IA",
+    "tagline": "Mots croisés et mots fléchés gratuits, écrits de bout en bout par une intelligence artificielle, dans votre langue. Des mots nouveaux à chaque partie, jamais les mêmes.",
+    "skipToContent": "Aller au contenu",
+    "openMenu": "Ouvrir le menu",
+    "menu": "Menu",
+    "close": "Fermer",
+    "retry": "Réessayer",
+    "chooseLanguage": "Choisir la langue",
+    "language": "Langue",
+    "copyright": "© {year} {appName}. Fait avec des mots et une pointe de magie.",
+    "backOnline": "Vous êtes de nouveau en ligne.",
+    "offline": "Vous êtes hors ligne. Les grilles déjà ouvertes restent jouables.",
+    "lastUpdated": "Dernière mise à jour : {date}"
+  },
+  "Nav": {
+    "main": "Principal",
+    "footer": "Site",
+    "home": "Accueil",
+    "crossword": "Mots croisés",
+    "scanword": "Mots fléchés",
+    "topics": "Thèmes",
+    "history": "Mes grilles",
+    "rules": "Comment jouer",
+    "faq": "Questions",
+    "about": "À propos",
+    "privacy": "Confidentialité",
+    "terms": "Conditions",
+    "contact": "Contact"
+  },
+  "Errors": {
+    "network": "Impossible de joindre le serveur. Vérifiez la connexion et réessayez.",
+    "rateLimited": "Que de grilles en une minute ! Respirez un peu et réessayez.",
+    "unauthorized": "Cette action n'est pas permise.",
+    "notFound": "Nous n'avons pas trouvé cela.",
+    "server": "Quelque chose a coincé de notre côté. Réessayez.",
+    "generic": "Quelque chose a mal tourné. Réessayez.",
+    "details": "Détails",
+    "pageErrorTitle": "Oups, une case est tombée",
+    "pageErrorBody": "Cette page a rencontré une erreur inattendue. Réessayer suffit en général.",
+    "notFoundTitle": "Cette page n'est pas dans la grille",
+    "notFoundBody": "Le lien est peut-être ancien ou mal saisi. Trouvons plutôt une grille toute neuve.",
+    "goHome": "Aller à l'accueil"
+  },
+  "Pwa": {
+    "install": "Installer l'application",
+    "iosTitle": "Ajoutez Mots croisés IA à l'écran d'accueil",
+    "benefit": "Ouvrez-la comme une application, en plein écran, et continuez vos grilles enregistrées même hors ligne.",
+    "iosStep1": "Touchez le bouton Partager dans la barre de Safari.",
+    "iosStep2": "Choisissez « Sur l'écran d'accueil ».",
+    "iosStep3": "Touchez « Ajouter » : l'icône apparaît sur l'écran d'accueil.",
+    "gotIt": "Compris"
+  },
+  "Seo": {
+    "homeTitle": "Faire des mots croisés en ligne gratuits : animaux, nourriture, géographie, histoire, sciences et sport",
+    "homeDescription": "Créez et faites des mots croisés ou des mots fléchés gratuits, sans inscription. Mots croisés animaux, nourriture, géographie, histoire, sciences et sport, avec des mots nouveaux à chaque fois.",
+    "keywords": "mots croisés, faire des mots croisés, créer des mots croisés, mots croisés en ligne, mots croisés gratuits, générateur de mots croisés, mots fléchés, mots croisés animaux, mots croisés nourriture, mots croisés géographie, mots croisés histoire, mots croisés sciences, mots croisés sport",
+    "crosswordTitle": "Mots croisés en ligne gratuits",
+    "crosswordDescription": "Jouez à des mots croisés gratuits écrits par une intelligence artificielle : définitions numérotées horizontalement et verticalement, 12 thèmes, trois niveaux. Sans inscription, des mots nouveaux à chaque partie.",
+    "scanwordTitle": "Mots fléchés en ligne gratuits : les définitions dans la grille",
+    "scanwordDescription": "Résolvez des mots fléchés gratuits : la définition est dans la case, avec une flèche vers la réponse. Écrits par une intelligence artificielle, sans inscription, sur téléphone, tablette ou ordinateur.",
+    "topicsTitle": "Mots croisés par thème : animaux, nourriture, géographie et plus",
+    "topicsDescription": "Choisissez le thème de vos prochains mots croisés ou mots fléchés : nature, animaux, nourriture, géographie, histoire, sciences, sport, arts et plus encore.",
+    "topicTitle": "Faire des mots croisés sur {topic} : animaux, nourriture, géographie, histoire, sciences et sport",
+    "topicDescription": "Mots croisés et mots fléchés gratuits sur {topic}, créés par une intelligence artificielle. {description}",
+    "historyTitle": "Mes grilles",
+    "historyDescription": "Mots croisés et mots fléchés commencés sur cet appareil et pas encore finis, avec votre avancement enregistré.",
+    "rulesTitle": "Comment résoudre des mots croisés et des mots fléchés",
+    "rulesDescription": "Comment résoudre des mots croisés ou des mots fléchés ici : saisie, déplacement dans la grille, vérification et révélation des lettres, raccourcis clavier.",
+    "faqTitle": "Questions fréquentes : mots croisés avec IA, langues et vie privée",
+    "faqDescription": "Réponses sur Mots croisés IA : est-ce gratuit, comment l'intelligence artificielle écrit les définitions, tailles, difficulté, mots qui ne reviennent pas, jeu hors ligne et confidentialité.",
+    "aboutTitle": "À propos : comment nos mots croisés sont écrits",
+    "aboutDescription": "Pourquoi nous avons fait un générateur de mots croisés gratuit qui ne répète jamais un mot, et comment l'intelligence artificielle écrit les définitions dans chaque langue.",
+    "privacyTitle": "Politique de confidentialité",
+    "privacyDescription": "Ce que Mots croisés IA conserve, où et pourquoi. Pas de compte, pas de pistage de qui vous êtes.",
+    "termsTitle": "Conditions d'utilisation",
+    "termsDescription": "Les conditions simples pour utiliser Mots croisés IA.",
+    "contactTitle": "Nous écrire",
+    "contactDescription": "Une question, une idée ou un souci avec une grille ? Écrivez-nous, nous répondons sur votre e-mail.",
+    "puzzleDescription": "Une grille gratuite de Mots croisés IA : à résoudre dans le navigateur.",
+    "sharedPuzzleDescription": "Un {format, select, scanword {mots fléchés} other {mots croisés}} gratuit, {size} · {topic} · {difficulty} · {words, plural, one {# mot} other {# mots}}. Écrit par une intelligence artificielle : à résoudre dans le navigateur, sans inscription.",
+    "ogImageAlt": "Mots croisés IA : mots croisés et mots fléchés gratuits dans votre langue",
+    "ogPuzzleCta": "Saurez-vous le résoudre ?",
+    "ogPuzzleMeta": "{size} · {words, plural, one {# mot} other {# mots}}"
+  },
+  "Formats": {
+    "classic": {
+      "name": "Mots croisés",
+      "short": "Définitions numérotées, horizontal et vertical",
+      "description": "Le classique : les mots se croisent dans une grille libre, et chaque définition attend dans les listes Horizontal et Vertical.",
+      "cta": "Jouer aux mots croisés"
+    },
+    "scanword": {
+      "name": "Mots fléchés",
+      "short": "Les définitions dans la grille, avec des flèches",
+      "description": "Chaque définition est dans la grille, avec une flèche vers sa réponse. Ça se lit d'un coup d'œil et c'est dur de s'arrêter.",
+      "cta": "Jouer aux mots fléchés"
+    }
+  },
+  "Topics": {
+    "any": "Thèmes mélangés",
+    "general": {
+      "name": "Mots du quotidien",
+      "description": "Les mots de la vie de tous les jours : la maison, les gens, le temps, le monde autour."
+    },
+    "nature": {
+      "name": "Nature",
+      "description": "Forêts, rivières, météo, plantes et saisons."
+    },
+    "animals": {
+      "name": "Animaux",
+      "description": "Animaux sauvages et domestiques, oiseaux, poissons et insectes."
+    },
+    "food": {
+      "name": "Cuisine",
+      "description": "Plats, ingrédients, cuisines et tout ce qui arrive à table."
+    },
+    "geography": {
+      "name": "Géographie",
+      "description": "Pays, villes, fleuves, montagnes et lieux connus."
+    },
+    "history": {
+      "name": "Histoire",
+      "description": "Époques, inventions, métiers et objets du passé."
+    },
+    "science": {
+      "name": "Sciences",
+      "description": "Physique, chimie, biologie, l'espace et le corps humain."
+    },
+    "sport": {
+      "name": "Sport",
+      "description": "Jeux, matériel, compétitions et règles."
+    },
+    "arts": {
+      "name": "Arts",
+      "description": "Musique, littérature, théâtre, peinture et cinéma."
+    },
+    "home": {
+      "name": "Maison et quotidien",
+      "description": "Meubles, outils, vêtements et les objets de tous les jours."
+    },
+    "professions": {
+      "name": "Métiers",
+      "description": "Métiers, outils du métier et lieux de travail."
+    },
+    "localCulture": {
+      "name": "Culture francophone",
+      "description": "Fêtes, danses, plats et lieux de France et du monde francophone."
+    }
+  },
+  "Difficulty": {
+    "1": "Facile",
+    "2": "Moyen",
+    "3": "Difficile"
+  },
+  "Sizes": {
+    "small": "Petite",
+    "medium": "Moyenne",
+    "large": "Grande"
+  },
+  "Generator": {
+    "format": "Choisissez un format",
+    "topic": "Choisissez un thème",
+    "difficulty": "Difficulté",
+    "size": "Taille",
+    "create": "Créer ma grille",
+    "creating": "Votre grille se construit…",
+    "creatingHint": "Nous choisissons des mots que vous n'avez pas encore vus. Les nouveaux peuvent prendre quelques secondes.",
+    "cancel": "Annuler",
+    "freshHint": "Gratuit, sans inscription. Chaque grille apporte des mots que vous n'avez pas encore croisés ici.",
+    "exhausted": "Vous avez déjà joué tous les mots que nous avons pour ce choix ! Nous en écrivons d'autres : essayez un autre thème, ou revenez dans une minute."
+  },
+  "Home": {
+    "hero": {
+      "eyebrow": "Gratuit · Sans inscription · Marche hors ligne",
+      "title": "Faire des mots croisés <mark>toujours nouveaux</mark> : animaux, nourriture, géographie, histoire, sciences et sport",
+      "subtitle": "Choisissez un thème et une difficulté : l'intelligence artificielle écrit les définitions dans votre langue, et le même mot ne revient pas deux fois.",
+      "lede": "Faites des mots croisés ou des mots fléchés en ligne, gratuits et sans inscription. Les thèmes vont des animaux, de la nourriture et de la géographie à l'histoire, aux sciences, au sport, aux arts, à la maison, aux métiers et à la culture francophone, ou mélangez-les tous."
+    },
+    "continueTitle": "Reprendre où vous en étiez",
+    "formatsTitle": "Deux façons de jouer",
+    "formatsSubtitle": "Des mots croisés spacieux, avec les listes de définitions, ou des mots fléchés compacts, avec les définitions dans la grille.",
+    "pointsTitle": "Ce qui change",
+    "points": {
+      "fresh": {
+        "title": "Jamais de répétition",
+        "text": "Votre appareil retient chaque mot qu'il vous a montré, donc chaque nouvelle grille apporte des mots que vous n'avez pas encore trouvés."
+      },
+      "native": {
+        "title": "Écrit dans votre langue",
+        "text": "Les définitions sont écrites dans chaque langue comme le ferait un verbicruciste du pays, jamais traduites d'une autre."
+      },
+      "ai": {
+        "title": "Proposé par l'IA, vérifié par le code",
+        "text": "L'intelligence artificielle propose les mots et les définitions ; nos contrôles écartent ce qui est mal orthographié, injuste ou qui donne la réponse."
+      },
+      "offline": {
+        "title": "Jouable partout",
+        "text": "Installez-la comme une application. Les grilles déjà ouvertes continuent dans l'avion, le métro, où que vous soyez."
+      }
+    },
+    "topicsTitle": "Choisissez un thème",
+    "topicsSubtitle": "Des oiseaux du jardin aux grands fleuves, ou mélangez tous les thèmes.",
+    "faqTitle": "Questions et réponses",
+    "faq1Question": "Mots croisés IA est-il vraiment gratuit ?",
+    "faq1Answer": "Oui. Chaque grille de mots croisés et chaque grille de mots fléchés se joue gratuitement, sans compte, sans inscription et sans limite du nombre de parties.",
+    "faq2Question": "Vais-je revoir les mêmes mots ?",
+    "faq2Answer": "Non. Votre appareil garde la liste des mots déjà montrés et les laisse de côté dans chaque nouvelle grille. Si vous effacez les données du site dans le navigateur, la liste repart de zéro.",
+    "faq3Question": "Dans quelles langues puis-je jouer ?",
+    "faq3Answer": "Trente-trois langues, chacune avec son propre vocabulaire écrit pour ses locuteurs, jamais traduit d'une autre : anglais, espagnol, portugais, français, allemand, italien, néerlandais, polonais, tchèque, suédois, roumain, hongrois, indonésien, malais, filipino, vietnamien, swahili, russe, ukrainien, grec, arabe, persan, ourdou, hébreu, hindi, marathi, bengali, tamoul, thaï, japonais, coréen, chinois et arménien.",
+    "faq4Question": "Quelle est la différence entre des mots croisés et des mots fléchés ?",
+    "faq4Answer": "Les mots croisés placent les définitions numérotées à côté de la grille, en horizontal et en vertical. Les mots fléchés impriment chaque définition dans une case, avec une flèche vers la réponse.",
+    "faq5Question": "Puis-je jouer hors ligne ?",
+    "faq5Answer": "Oui. Chaque grille que vous ouvrez est enregistrée sur l'appareil avec votre avancement, donc elle continue sans connexion. Une grille nouvelle a besoin d'internet.",
+    "faq6Question": "Et si une définition est fausse ?",
+    "faq6Answer": "Ouvrez le menu ⋯ au-dessus de la grille et choisissez « Signaler une définition ». Quand trois joueurs différents signalent la même, elle est retirée et ne revient plus.",
+    "faqMore": "Voir toutes les questions et réponses →"
+  },
+  "CrosswordPage": {
+    "hero": {
+      "eyebrow": "Mots croisés classiques",
+      "title": "Des mots croisés classiques, <mark>faits pour vous</mark>",
+      "plainTitle": "Mots croisés avec IA",
+      "subtitle": "Des définitions numérotées en horizontal et en vertical, une grille qui grandit depuis le centre, et des mots que vous n'avez pas encore vus.",
+      "lede": "Faites des mots croisés classiques en ligne et gratuits : définitions numérotées en horizontal et en vertical, sur les thèmes animaux, nourriture, géographie, histoire, sciences et sport."
+    },
+    "rulesTitle": "Comment marchent les mots croisés",
+    "rule1": "Chaque case blanche contient une lettre. Les mots vont en horizontal (de gauche à droite) et en vertical (de haut en bas), en se croisant.",
+    "rule2": "Chaque mot a un numéro dans sa première case et une définition du même numéro dans la liste Horizontal ou Vertical.",
+    "rule3": "Touchez une case ou une définition pour commencer à écrire. Touchez encore la même case, ou appuyez sur Espace, pour passer de l'horizontal au vertical.",
+    "rule4": "Bloqué ? Vérifiez une lettre, un mot ou toute la grille, ou révélez une lettre pour repartir.",
+    "topicsTitle": "Mots croisés par thème",
+    "faqTitle": "Questions sur les mots croisés",
+    "faq1Question": "Quelle taille font les mots croisés ?",
+    "faq1Answer": "Choisissez petite (jusqu'à environ 14 mots), moyenne ou grande (plus de 20 mots). La grille est rognée aux mots qu'elle contient, donc elle tient toujours à l'écran.",
+    "faq2Question": "Qu'est-ce qui rend une définition facile ou difficile ?",
+    "faq2Answer": "Les grilles faciles utilisent des mots du quotidien avec des définitions directes. Les difficiles utilisent des mots plus rares et des définitions qui demandent un second regard.",
+    "faq3Question": "Puis-je utiliser le clavier ?",
+    "faq3Answer": "Oui : tapez les lettres, déplacez-vous avec les flèches, Entrée pour la définition suivante et Retour arrière pour reculer. Sur téléphone, le clavier de la grille apparaît sous celle-ci.",
+    "faq4Question": "Puis-je partager une grille ?",
+    "faq4Answer": "Oui : touchez Partager au-dessus de la grille pour copier le lien ou l'envoyer par une application. Votre ami reçoit exactement la même grille et les mêmes définitions."
+  },
+  "ScanwordPage": {
+    "hero": {
+      "eyebrow": "Mots fléchés",
+      "title": "Des mots fléchés avec les définitions <mark>dans la grille</mark>",
+      "plainTitle": "Mots fléchés avec IA",
+      "subtitle": "Pas de listes à parcourir : chaque définition est dans sa case, avec une flèche vers la réponse.",
+      "lede": "Faites des mots fléchés en ligne et gratuits : les définitions sont dans la grille. Les mêmes thèmes que les mots croisés : animaux, nourriture, géographie, histoire, sciences et sport."
+    },
+    "rulesTitle": "Comment marchent les mots fléchés",
+    "rule1": "Les cases teintées portent les définitions. La flèche montre où la réponse commence et dans quel sens elle court.",
+    "rule2": "Une case peut porter deux définitions : celle du haut pointe en général à droite, celle du bas vers le bas.",
+    "rule3": "Touchez la case de la définition, ou n'importe quelle case de lettre, pour choisir un mot. La définition complète apparaît toujours dans la barre du haut.",
+    "rule4": "Les cases colorées ne sont qu'un décor : les lettres ne vont que dans les cases blanches.",
+    "topicsTitle": "Mots fléchés par thème",
+    "faqTitle": "Questions sur les mots fléchés",
+    "faq1Question": "Que sont les mots fléchés ?",
+    "faq1Answer": "Les mots fléchés sont des mots croisés dont les définitions sont imprimées dans la grille. Le format est né sous le nom de mots croisés scandinaves et reste un classique des magazines de jeux en français.",
+    "faq2Question": "Sur le téléphone, les définitions sont minuscules. Que faire ?",
+    "faq2Answer": "Touchez la case : la définition complète s'affiche dans la barre du haut. Vous pouvez aussi pincer pour zoomer, ou ouvrir la liste complète.",
+    "faq3Question": "Pourquoi certaines flèches se plient ?",
+    "faq3Answer": "Quand il n'y a pas de place pour la définition juste avant la réponse, elle se place au-dessus ou à côté de la première lettre, et la flèche se plie pour indiquer le sens.",
+    "faq4Question": "Les définitions des mots fléchés sont-elles différentes ?",
+    "faq4Answer": "Elles sont plus courtes : elles doivent tenir dans une case, donc quelques mots au plus."
+  },
+  "TopicsPage": {
+    "eyebrow": "Thèmes",
+    "title": "De quoi doit parler votre grille ?",
+    "subtitle": "Chaque thème a ses propres mots dans chaque langue. Choisissez-en un, ou mélangez-les tous depuis l'accueil."
+  },
+  "TopicPage": {
+    "title": "Mots croisés : {topic}",
+    "samplesTitle": "Un aperçu de {topic}",
+    "samplesSubtitle": "Quelques définitions du stock de mots. Vous les trouvez ? Les vraies grilles en apportent de nouvelles à chaque fois.",
+    "showAnswer": "Montrer la réponse",
+    "moreTopics": "Autres thèmes"
+  },
+  "Auth": {
+    "signIn": "Se connecter",
+    "signOut": "Se déconnecter",
+    "signInTitle": "Se connecter",
+    "signInSubtitle": "Utilisez Google, ou l'e-mail et le mot de passe de votre compte.",
+    "signUpTitle": "Créer un compte",
+    "signUpSubtitle": "Nous vous envoyons un lien pour confirmer l'adresse avant que vous puissiez vous connecter.",
+    "forgotTitle": "Mot de passe oublié ?",
+    "forgotSubtitle": "Nous envoyons un lien si un compte utilise cette adresse.",
+    "resetTitle": "Choisissez un nouveau mot de passe",
+    "resetSubtitle": "Cela vous connecte et déconnecte tous les autres appareils.",
+    "verifyTitle": "Confirmez votre e-mail",
+    "verifySubtitle": "Ouvrez le lien reçu, puis confirmez-le ici. Les filtres de courrier ne peuvent pas consommer le lien.",
+    "google": "Continuer avec Google",
+    "or": "ou",
+    "name": "Nom",
+    "email": "E-mail",
+    "password": "Mot de passe",
+    "passwordHint": "Au moins 8 caractères, avec une lettre et un chiffre. Pas votre adresse e-mail.",
+    "confirmPassword": "Confirmez le mot de passe",
+    "passwordMismatch": "Les mots de passe ne correspondent pas",
+    "required": "Ce champ est obligatoire",
+    "invalidEmail": "Cette adresse e-mail ne semble pas valide",
+    "forgot": "Mot de passe oublié ?",
+    "noAccount": "Pas encore de compte ?",
+    "hasAccount": "Vous avez déjà un compte ?",
+    "submitSignIn": "Se connecter",
+    "submitSignUp": "Créer le compte",
+    "submitForgot": "Envoyer le lien",
+    "submitReset": "Enregistrer le mot de passe",
+    "submitVerify": "Confirmer l'e-mail",
+    "verifiedNotice": "E-mail confirmé. Connectez-vous pour continuer.",
+    "checkInbox": "Regardez {email}",
+    "checkInboxText": "Nous avons envoyé un lien. Ouvrez-le, puis revenez vous connecter.",
+    "resend": "Renvoyer le lien",
+    "resent": "Renvoyé.",
+    "forgotSent": "Si un compte utilise cette adresse, le lien est en route.",
+    "invalidCredentials": "Cet e-mail et ce mot de passe ne correspondent pas.",
+    "googleOnly": "Ce compte se connecte avec Google.",
+    "emailNotVerified": "Confirmez d'abord votre e-mail. Le lien est dans votre boîte.",
+    "emailTaken": "Un compte avec cet e-mail existe déjà.",
+    "weakPassword": "Utilisez au moins 8 caractères, avec une lettre et un chiffre, et pas votre adresse e-mail.",
+    "verifyInvalid": "Ce lien de confirmation est invalide ou a expiré.",
+    "resetInvalid": "Ce lien de réinitialisation est invalide ou a expiré.",
+    "mailFailed": "Nous n'avons pas pu envoyer l'e-mail. Réessayez.",
+    "googleErrors": {
+      "google_unavailable": "La connexion Google n'est pas disponible pour le moment.",
+      "google_denied": "La connexion Google a été annulée.",
+      "google_failed": "La connexion Google ne s'est pas terminée. Réessayez.",
+      "google_email_unverified": "Google n'a pas vérifié cette adresse e-mail."
+    }
+  },
+  "History": {
+    "title": "Mes grilles",
+    "subtitle": "Mots croisés et mots fléchés commencés et pas encore finis. Vos lettres restent sur cet appareil : ouvrez-en une et continuez, en ligne ou non.",
+    "empty": "Pas encore de grille en cours. Commencez des mots croisés ou des mots fléchés : ils vous attendront ici jusqu'à la fin.",
+    "detail": "{percent} % rempli · {difficulty} · {size}",
+    "seeAll": "Voir toutes les grilles en cours"
+  },
+  "Play": {
+    "title": "Grille",
+    "loading": "Ouverture de votre grille…",
+    "missingTitle": "Cette grille n'est pas ici",
+    "missingText": "Elle n'est pas enregistrée sur cet appareil et le serveur est injoignable pour le moment. Vérifiez le lien, ou réessayez une fois en ligne.",
+    "leaveTitle": "Quitter cette grille ?",
+    "leaveBody": "Vos lettres restent enregistrées sur cet appareil, et vous pourrez finir plus tard depuis Mes grilles.",
+    "keepSolving": "Continuer",
+    "leave": "Quitter",
+    "newPuzzle": "Nouvelle grille",
+    "allClues": "Toutes les définitions",
+    "across": "Horizontal",
+    "down": "Vertical",
+    "gridLabel": "Grille",
+    "cell": {
+      "position": "Ligne {row}, colonne {col}",
+      "empty": "vide",
+      "wrong": "lettre fausse",
+      "revealed": "révélée",
+      "clue": "Définition : {clue}"
+    },
+    "wordNumbered": "{number} {dir, select, across {horizontal} other {vertical}}",
+    "wordDirection": "{dir, select, across {Horizontal} other {Vertical}}",
+    "wordLength": "{name}, {length, plural, one {# lettre} other {# lettres}}",
+    "wordLetter": "{name}, lettre {letter} sur {length}",
+    "previousWord": "Définition précédente",
+    "nextWord": "Définition suivante",
+    "toggleDirection": "Changer de sens",
+    "filled": "Rempli",
+    "keyboard": "Clavier",
+    "ime": "Saisir un caractère",
+    "erase": "Effacer",
+    "time": "Temps : {time}",
+    "check": {
+      "label": "Vérifier",
+      "cell": "Vérifier la lettre",
+      "word": "Vérifier le mot",
+      "puzzle": "Vérifier la grille"
+    },
+    "reveal": {
+      "label": "Révéler",
+      "cell": "Révéler la lettre",
+      "word": "Révéler le mot",
+      "puzzle": "Révéler la grille",
+      "confirmTitle": "Révéler toute la grille ?",
+      "confirmText": "Toutes les réponses seront remplies et la partie s'arrête. On ne peut pas revenir en arrière.",
+      "cancel": "Continuer",
+      "confirm": "Tout révéler"
+    },
+    "clearWrong": "Effacer les lettres fausses",
+    "more": "Plus",
+    "zoom": {
+      "label": "Zoom",
+      "in": "Zoom avant",
+      "out": "Zoom arrière",
+      "reset": "Voir toute la grille"
+    },
+    "settings": {
+      "label": "Réglages",
+      "autoCheck": "Vérifier en tapant",
+      "autoCheckHint": "Marque une lettre fausse dès qu'elle est posée.",
+      "skipFilled": "Sauter les cases remplies",
+      "skipFilledHint": "La saisie saute les cases qui ont déjà une lettre."
+    },
+    "share": "Partager la grille",
+    "shareShort": "Partager",
+    "shareTitle": "Essayez cette grille !",
+    "linkCopied": "Lien copié : envoyez-le à qui vous voulez.",
+    "shareDialog": {
+      "title": "Partager cette grille",
+      "description": "Votre ami reçoit exactement la même grille et les mêmes définitions, gratuitement et sans inscription.",
+      "link": "Lien de la grille",
+      "copy": "Copier",
+      "copied": "Copié !",
+      "copyFailed": "Copie impossible : le lien est sélectionné, copiez-le à la main.",
+      "apps": "Envoyer par une application",
+      "email": "E-mail",
+      "more": "Plus d'options…",
+      "text": "Saurez-vous résoudre ces {format, select, scanword {mots fléchés} other {mots croisés}} sur {topic} ? C''est gratuit, écrit par une intelligence artificielle.",
+      "textAny": "Saurez-vous résoudre ces {format, select, scanword {mots fléchés} other {mots croisés}} ? C''est gratuit, écrit par une intelligence artificielle."
+    },
+    "pdf": {
+      "open": "Enregistrer en PDF",
+      "title": "Enregistrer en PDF",
+      "description": "La grille lilas, une version colorée, ou le noir et blanc. Elle s'ouvre dans un nouvel onglet.",
+      "appearance": "Aspect",
+      "appearanceDefault": "Par défaut",
+      "appearanceColorful": "En couleurs",
+      "appearanceMono": "Noir et blanc",
+      "letters": "Inclure mes lettres",
+      "lettersHint": "Montre les lettres déjà remplies.",
+      "answers": "Ajouter les réponses",
+      "answersHint": "La grille résolue, sur une page à part.",
+      "cancel": "Annuler",
+      "confirm": "Ouvrir le PDF",
+      "preparing": "Préparation du PDF…",
+      "failed": "Impossible de créer le PDF. Réessayez.",
+      "answersTitle": "Réponses",
+      "playOnline": "Jouez en ligne : {url}"
+    },
+    "report": {
+      "open": "Signaler une définition",
+      "title": "Qu'est-ce qui ne va pas dans cette définition ?",
+      "cancel": "Annuler",
+      "send": "Envoyer le signalement",
+      "thanks": "Merci ! Les signalements nous aident à retirer les mauvaises définitions.",
+      "note": "Que devons-nous savoir ?",
+      "notePlaceholder": "Une note courte, dans vos mots",
+      "reasons": {
+        "wrongClue": "La définition ne correspond pas à la réponse",
+        "notAWord": "La réponse n'est pas un vrai mot",
+        "offensive": "C'est offensant ou déplacé",
+        "typo": "Il y a une coquille",
+        "other": "Autre chose"
+      }
+    },
+    "solved": {
+      "title": "Résolu ! Bravo !",
+      "titleHelped": "Résolu : bien joué.",
+      "time": "Temps",
+      "checks": "Vérifications",
+      "reveals": "Révélations",
+      "admire": "Admirer la grille",
+      "next": "Grille suivante"
+    },
+    "announce": {
+      "checked": "{count, plural, one {# lettre est fausse} other {# lettres sont fausses}}",
+      "allCorrect": "Tout ce qui a été vérifié est juste",
+      "revealed": "{count, plural, one {# lettre révélée} other {# lettres révélées}}",
+      "solved": "Grille résolue en {seconds, plural, one {# seconde} other {# secondes}} !"
+    }
+  },
+  "Rules": {
+    "title": "Comment jouer",
+    "subtitle": "Tout ce qu'il faut pour résoudre des mots croisés ou des mots fléchés ici, sur téléphone, tablette ou ordinateur.",
+    "sections": [
+      {
+        "title": "Choisir un mot",
+        "paragraphs": [
+          "Touchez ou cliquez une case blanche. Le mot s'allume en jaune et sa définition apparaît dans la barre au-dessus de la grille.",
+          "Là où deux mots se croisent, touchez encore la même case pour passer de l'horizontal au vertical. Dans les mots fléchés, vous pouvez aussi toucher la case de la définition."
+        ]
+      },
+      {
+        "title": "Écrire",
+        "paragraphs": [
+          "Sur ordinateur, tapez simplement : pas besoin de changer la disposition du clavier. S'il est en anglais, les touches écrivent les lettres de la langue de la grille à leur place habituelle.",
+          "Sur téléphone ou tablette, le clavier de la grille apparaît en dessous. En arménien, il a les lettres uniques ՈՒ et և, chacune dans une case ; taper ո puis ւ les réunit en ՈՒ.",
+          "Dans les grilles en russe, la lettre Ё s'écrit Е, comme dans les mots croisés imprimés.",
+          "En français, l'accent et la cédille ne s'écrivent pas : été entre comme ETE. Le œ tient dans une seule case : cœur se compose de C, Œ, U, R."
+        ]
+      },
+      {
+        "title": "Se déplacer",
+        "paragraphs": [
+          "Les flèches passent d'une case à l'autre ; une flèche en travers du sens actuel tourne d'abord le curseur. Entrée saute à la définition suivante, Maj+Entrée à la précédente.",
+          "Retour arrière efface une lettre et recule. Début et Fin sautent au début et à la fin du mot. Tabulation quitte la grille."
+        ]
+      },
+      {
+        "title": "Demander de l'aide",
+        "paragraphs": [
+          "Vérifier barre les lettres fausses et verrouille les bonnes. Révéler remplit une lettre, un mot ou toute la grille ; les lettres révélées portent un petit drapeau violet.",
+          "Activez « Vérifier en tapant » dans les réglages si vous voulez un retour immédiat."
+        ]
+      },
+      {
+        "title": "Des mots nouveaux, à chaque fois",
+        "paragraphs": [
+          "Votre appareil retient les mots qu'il vous a montrés et ne les redemande pas. Chaque nouvelle grille est faite de mots que vous n'avez pas encore rencontrés ici."
+        ]
+      }
+    ]
+  },
+  "Faq": {
+    "title": "Questions et réponses",
+    "subtitle": "Tout sur Mots croisés IA au même endroit : les grilles, la façon dont l'intelligence artificielle les écrit, le jeu sur n'importe quel appareil, et votre vie privée.",
+    "groups": [
+      {
+        "title": "À propos de Mots croisés IA",
+        "items": [
+          {
+            "question": "Qu'est-ce que Mots croisés IA ?",
+            "answer": "Mots croisés IA est un site gratuit qui génère des mots croisés et des mots fléchés en trente-trois langues. Un modèle d'intelligence artificielle écrit les mots et les définitions dans chaque langue, le code construit la grille, et chaque appareil ne reçoit que des mots qu'il n'a pas encore vus."
+          },
+          {
+            "question": "Est-ce vraiment gratuit ?",
+            "answer": "Oui. Chaque grille se joue gratuitement : pas de compte, pas d'inscription, pas d'abonnement et pas de publicité."
+          },
+          {
+            "question": "Faut-il un compte ?",
+            "answer": "Non. Il n'y a rien à créer. Votre avancement, vos réglages et la liste des mots déjà vus restent dans le navigateur, sur votre appareil."
+          },
+          {
+            "question": "Qui fait Mots croisés IA ?",
+            "answer": "C'est un projet indépendant du développeur Michael Navasardyan : des grilles qui se lisent comme si un auteur local les avait écrites, dans chaque langue du site, dont l'arménien, le russe et l'anglais."
+          }
+        ]
+      },
+      {
+        "title": "Les grilles",
+        "items": [
+          {
+            "question": "Quelle est la différence entre des mots croisés et des mots fléchés ?",
+            "answer": "Les mots croisés listent des définitions numérotées à côté de la grille, en horizontal et en vertical. Les mots fléchés impriment chaque définition dans une case, avec une flèche vers la réponse : le format né des mots croisés scandinaves."
+          },
+          {
+            "question": "Quelle taille font les grilles ?",
+            "answer": "Il y a trois tailles. Des mots croisés classiques remplissent une grille de 9×9, 13×13 ou 15×15 avec environ 8–14, 16–24 ou 22–34 mots, puis la grille est rognée à ce qu'elle contient. Des mots fléchés utilisent 8×10, 10×13 ou 13×17 : plus hauts que larges, parce que la plupart se résolvent sur téléphone."
+          },
+          {
+            "question": "Comment les niveaux se distinguent-ils ?",
+            "answer": "Facile utilise des mots du quotidien avec des définitions directes. Moyen ouvre un vocabulaire plus large. Difficile apporte des mots plus rares et des définitions qui demandent un second regard."
+          },
+          {
+            "question": "Quels thèmes puis-je choisir ?",
+            "answer": "Douze : mots du quotidien, nature, animaux, cuisine, géographie, histoire, sciences, sport, arts, maison et quotidien, métiers et culture francophone. Vous pouvez aussi tout mélanger."
+          },
+          {
+            "question": "Verrai-je un jour le même mot deux fois ?",
+            "answer": "Pas sur le même appareil. Il retient jusqu'à 4000 mots par langue, environ 130 grilles, et les laisse de côté dans chaque nouvelle grille ; ensuite seulement, les plus anciens quittent la liste. Effacer les données du site remet la liste à zéro."
+          },
+          {
+            "question": "Comment l'intelligence artificielle écrit-elle les définitions ?",
+            "answer": "Le modèle Gemini de Google écrit les mots et les définitions directement dans chaque langue, en suivant un guide de style de locuteurs natifs. Le code vérifie chacune : le bon alphabet, un vrai mot, une définition juste qui ne donne pas la réponse. Une seconde passe d'intelligence artificielle joue l'éditeur. Ce qui échoue est écarté, jamais rafistolé. La grille elle-même est construite par le code, pas par l'intelligence artificielle."
+          },
+          {
+            "question": "Et si une définition est fausse ?",
+            "answer": "Ouvrez le menu ⋯ au-dessus de la grille et choisissez « Signaler une définition ». Quand trois joueurs différents signalent la même, elle est retirée et ne revient plus."
+          }
+        ]
+      },
+      {
+        "title": "Jouer",
+        "items": [
+          {
+            "question": "Comment saisir les réponses sur téléphone ou ordinateur ?",
+            "answer": "Sur ordinateur, tapez : même si le clavier est en anglais, les touches écrivent les lettres de la grille à leur place habituelle, sans changer de disposition. Sur téléphone ou tablette, le clavier de la grille apparaît en dessous, et le clavier du système ne la recouvre pas."
+          },
+          {
+            "question": "Puis-je vérifier mes réponses ou demander un indice ?",
+            "answer": "Oui. Vérifier marque les lettres fausses dans une case, un mot ou toute la grille, et Révéler remplit une lettre, un mot ou tout. Activez « Vérifier en tapant » dans les réglages pour voir l'erreur au moment où elle se produit."
+          },
+          {
+            "question": "Comment sont traités ու et և en arménien, et Ё en russe ?",
+            "answer": "Dans les grilles en arménien, ու et և sont des lettres uniques et chacune occupe une case, comme dans les mots croisés imprimés ; le clavier à l'écran a les deux, et taper ո puis ւ les réunit en ու. En russe, Ё s'écrit Е, comme à l'imprimé."
+          },
+          {
+            "question": "Mon avancement est-il enregistré ?",
+            "answer": "Oui, tout seul, pendant que vous jouez. Chaque grille commencée et laissée en cours apparaît dans « Mes grilles », avec vos lettres, pour que vous puissiez reprendre plus tard, même hors ligne."
+          },
+          {
+            "question": "Puis-je jouer hors ligne, ou l'installer comme une application ?",
+            "answer": "Oui. Mots croisés IA s'installe depuis le navigateur comme une application (sur iPhone : Partager → Sur l'écran d'accueil). Chaque grille ouverte est enregistrée avec votre avancement et continue sans connexion ; seules les nouvelles ont besoin d'internet."
+          },
+          {
+            "question": "Puis-je partager une grille ?",
+            "answer": "Oui. Touchez Partager au-dessus de la grille pour copier le lien, ou envoyez-le par WhatsApp, Telegram, Facebook, X, VK ou e-mail. Votre ami reçoit exactement la même grille et les mêmes définitions."
+          },
+          {
+            "question": "Peut-on jouer au clavier ou avec un lecteur d'écran ?",
+            "answer": "Oui. La grille fonctionne entièrement au clavier et avec les lecteurs d'écran : chaque case est nommée, la définition active est annoncée, et les vérifications comme les révélations sont lues. Le faux et le révélé se marquent par une forme, jamais par la couleur seule."
+          }
+        ]
+      },
+      {
+        "title": "Confidentialité",
+        "items": [
+          {
+            "question": "Quelles données conservez-vous ?",
+            "answer": "Très peu. Vos grilles, l'avancement, les réglages et la liste des mots vus restent dans le navigateur. Le serveur conserve les grilles créées (pour qu'un lien partagé ouvre la même), les signalements de définition avec une empreinte irréversible de l'adresse IP, et des comptes anonymes de parties résolues. Pas de noms, pas de profils."
+          },
+          {
+            "question": "Quelque chose sur moi est-il envoyé à l'intelligence artificielle ?",
+            "answer": "Non. Seuls les réglages de la grille (langue, thème, difficulté) et des listes de mots partent vers les modèles Gemini de Google, jamais rien sur vous."
+          }
+        ]
+      }
+    ],
+    "ctaTitle": "Prêt pour une grille neuve ?",
+    "ctaText": "Choisissez un thème et une difficulté : la prochaine grille est à quelques secondes.",
+    "cta": "Faire des mots croisés"
+  },
+  "About": {
+    "title": "À propos de Mots croisés IA",
+    "subtitle": "Un générateur gratuit qui écrit dans votre langue et ne sert jamais deux fois le même mot.",
+    "sections": [
+      {
+        "title": "Pourquoi nous l'avons fait",
+        "paragraphs": [
+          "La plupart des mots croisés en ligne recyclent une courte liste, et les versions traduites sonnent traduites. Nous voulions des grilles qui semblent écrites par quelqu'un du pays, et qui restent neuves quel que soit le nombre de parties."
+        ]
+      },
+      {
+        "title": "Comment les mots sont écrits",
+        "paragraphs": [
+          "Un modèle d'intelligence artificielle écrit les mots et les définitions directement dans chaque langue, en suivant un guide de style de locuteurs natifs : les formes que les mots croisés emploient, la norme d'orthographe, la façon de définir dans cette tradition.",
+          "Chaque mot passe ensuite des contrôles automatiques : le bon alphabet, un seul vrai mot, une définition qui ne donne pas la réponse. Une seconde intelligence artificielle joue l'éditeur. Les signalements des joueurs retirent ce qui aurait passé."
+        ]
+      },
+      {
+        "title": "Comment les grilles sont construites",
+        "paragraphs": [
+          "La grille est construite par le code, pas par l'intelligence artificielle : un algorithme emboîte les mots pour que chaque lettre appartienne à un vrai mot avec une définition. C'est ce qui garde chaque grille juste."
+        ]
+      }
+    ]
+  },
+  "Privacy": {
+    "title": "Politique de confidentialité",
+    "subtitle": "En bref : pas de compte, pas de noms, pas de profilage. Voici tout ce que nous gardons.",
+    "sections": [
+      {
+        "title": "Sur votre appareil",
+        "paragraphs": [
+          "Le navigateur garde les grilles que vous ouvrez, votre avancement, vos réglages et une liste des mots déjà vus, pour ne pas les répéter. Cela reste sur l'appareil ; effacer les données du site l'enlève."
+        ]
+      },
+      {
+        "title": "Sur notre serveur",
+        "paragraphs": [
+          "Nous gardons les grilles créées, pour qu'un lien partagé ouvre la même. Quand vous signalez une définition, nous gardons le signalement avec une empreinte irréversible de votre adresse IP, seulement pour qu'une seule personne ne puisse pas retirer une définition. Nous comptons aussi, sans vous identifier, comment les grilles sont jouées (résolues, quels mots ont été révélés) afin d'ajuster la difficulté."
+        ]
+      },
+      {
+        "title": "Fournisseur d'intelligence artificielle",
+        "paragraphs": [
+          "Les mots et définitions nouveaux sont écrits par les modèles Gemini de Google. Seuls les réglages de la grille (langue, thème, difficulté) et des listes de mots sont envoyés : jamais rien sur vous."
+        ]
+      },
+      {
+        "title": "Mesure d'audience et rapports d'erreur",
+        "paragraphs": [
+          "S'ils sont activés, nous utilisons Google Analytics pour compter les visites et Sentry pour recevoir les rapports d'erreur. Ni l'un ni l'autre ne sert à vous identifier."
+        ]
+      }
+    ]
+  },
+  "Terms": {
+    "title": "Conditions d'utilisation",
+    "subtitle": "Mots croisés IA est gratuit, pour le jeu et pour apprendre.",
+    "sections": [
+      {
+        "title": "Utilisation du service",
+        "paragraphs": [
+          "Vous pouvez jouer, partager et imprimer les grilles pour un usage personnel et éducatif. Merci de ne pas surcharger le service avec des requêtes automatiques."
+        ]
+      },
+      {
+        "title": "Contenu écrit par une intelligence artificielle",
+        "paragraphs": [
+          "Les mots et les définitions sont écrits par une intelligence artificielle et vérifiés automatiquement, mais des erreurs peuvent arriver. Si vous en trouvez une, signalez-la : c'est ainsi que les mauvaises définitions sont retirées."
+        ]
+      },
+      {
+        "title": "Sans garantie",
+        "paragraphs": [
+          "Le service est fourni tel quel, sans garantie de disponibilité ni d'exactitude. Nous pouvons modifier ou retirer des fonctions à tout moment."
+        ]
+      }
+    ]
+  },
+  "Contact": {
+    "title": "Nous écrire",
+    "subtitle": "Une question, une idée ou quelque chose qui cloche ? Écrivez-nous, nous répondons sur votre e-mail.",
+    "fullName": "Nom",
+    "email": "E-mail",
+    "message": "Message",
+    "messagePlaceholder": "Comment pouvons-nous vous aider ?",
+    "required": "Ce champ est obligatoire",
+    "invalidEmail": "Cette adresse e-mail ne semble pas valide",
+    "submit": "Envoyer",
+    "sent": "Message envoyé",
+    "sentText": "Merci. Nous vous répondrons par e-mail dès que possible.",
+    "sendAnother": "Écrire un autre message",
+    "tooMany": "Beaucoup de messages d’un coup. Réessayez un peu plus tard."
+  }
+}

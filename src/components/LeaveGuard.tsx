@@ -25,7 +25,8 @@ const isLeaving = () => useLeaveGuardStoreBase.getState().leaving
  *   listener runs before Next's `Link` handler, holds the navigation and asks; "leave" replays the click;
  * - **the back button** — a sentinel history entry on top of the page: going back lands on the
  *   page itself, which is put back and the question asked; "leave" goes back past both;
- * - **a router call** (a new puzzle, the language switch) — its caller awaits `confirmLeave()` first.
+ * - **a router call** (the language switch) — its caller awaits `confirmLeave()` first. A new
+ *   puzzle asks the same way as soon as the game has started, even before a letter is typed.
  *
  * Once the player agrees, `leaving` lets the navigation through, so a full page load that
  * follows does not ask a second time.

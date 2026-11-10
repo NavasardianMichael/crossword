@@ -1,0 +1,716 @@
+{
+  "Common": {
+    "appName": "Palavras Cruzadas IA",
+    "tagline": "Palavras cruzadas e autodefinidos grátis, escritos do zero por inteligência artificial e no seu idioma. Palavras novas em cada partida, sem repetição.",
+    "skipToContent": "Pular para o conteúdo",
+    "openMenu": "Abrir menu",
+    "menu": "Menu",
+    "close": "Fechar",
+    "retry": "Tentar de novo",
+    "chooseLanguage": "Escolher idioma",
+    "language": "Idioma",
+    "copyright": "© {year} {appName}. Feito de palavras e um pouco de magia.",
+    "backOnline": "Você voltou a ficar online.",
+    "offline": "Você está offline. As palavras cruzadas que você já abriu continuam disponíveis.",
+    "lastUpdated": "Atualizado em: {date}"
+  },
+  "Nav": {
+    "main": "Principal",
+    "footer": "Site",
+    "home": "Início",
+    "crossword": "Palavras cruzadas",
+    "scanword": "Autodefinido",
+    "topics": "Temas",
+    "history": "Minhas palavras cruzadas",
+    "rules": "Como jogar",
+    "faq": "Perguntas",
+    "about": "Sobre",
+    "privacy": "Privacidade",
+    "terms": "Termos",
+    "contact": "Contato"
+  },
+  "Errors": {
+    "network": "Não dá para alcançar o servidor. Confira a conexão e tente de novo.",
+    "rateLimited": "Quantas palavras cruzadas num minuto! Respire um pouco e tente de novo.",
+    "unauthorized": "Essa ação não é permitida.",
+    "notFound": "Não encontramos isso.",
+    "server": "Algo deu errado do nosso lado. Tente de novo.",
+    "generic": "Algo deu errado. Tente de novo.",
+    "details": "Detalhes",
+    "pageErrorTitle": "Opa, uma casa caiu da grade",
+    "pageErrorBody": "Esta página encontrou um erro inesperado. Tentar de novo costuma resolver.",
+    "notFoundTitle": "Esta página não está na grade",
+    "notFoundBody": "O link pode estar velho ou digitado errado. Vamos achar umas palavras cruzadas novas para você.",
+    "goHome": "Ir para o início"
+  },
+  "Pwa": {
+    "install": "Instalar o aplicativo",
+    "iosTitle": "Adicione Palavras Cruzadas IA à Tela de Início",
+    "benefit": "Abra como um aplicativo, em tela cheia, e continue resolvendo o que você salvou mesmo offline.",
+    "iosStep1": "Toque no botão Compartilhar na barra do Safari.",
+    "iosStep2": "Escolha «Adicionar à Tela de Início».",
+    "iosStep3": "Toque em «Adicionar» e o ícone aparece na Tela de Início.",
+    "gotIt": "Entendi"
+  },
+  "Seo": {
+    "homeTitle": "Fazer palavras cruzadas online grátis: animais, comida, geografia, história, ciência e esporte",
+    "homeDescription": "Crie e faça palavras cruzadas ou um autodefinido grátis, sem cadastro. Palavras cruzadas de animais, comida, geografia, história, ciência e esporte, com palavras novas toda vez.",
+    "keywords": "palavras cruzadas, fazer palavras cruzadas, criar palavras cruzadas, palavras cruzadas online, palavras cruzadas grátis, gerador de palavras cruzadas, autodefinido, palavras cruzadas suecas, palavras cruzadas de animais, palavras cruzadas de comida, palavras cruzadas de geografia, palavras cruzadas de história, palavras cruzadas de ciência, palavras cruzadas de esporte",
+    "crosswordTitle": "Palavras cruzadas online grátis",
+    "crosswordDescription": "Resolva palavras cruzadas grátis escritas por inteligência artificial: dicas numeradas na horizontal e na vertical, 12 temas e três níveis. Sem cadastro e com palavras novas.",
+    "scanwordTitle": "Autodefinidos online grátis: as dicas ficam na grade",
+    "scanwordDescription": "Resolva autodefinidos grátis, as palavras cruzadas suecas: a dica fica dentro da casa e uma seta aponta a resposta. Feitos por inteligência artificial, sem cadastro, no celular, no tablet ou no computador.",
+    "topicsTitle": "Palavras cruzadas por tema: animais, comida, geografia e mais",
+    "topicsDescription": "Escolha o tema das próximas palavras cruzadas ou do autodefinido: natureza, animais, comida, geografia, história, ciência, esporte, arte e mais.",
+    "topicTitle": "Fazer palavras cruzadas de {topic}: animais, comida, geografia, história, ciência e esporte",
+    "topicDescription": "Palavras cruzadas e autodefinidos grátis de {topic}, criados por inteligência artificial. {description}",
+    "historyTitle": "Minhas palavras cruzadas",
+    "historyDescription": "Palavras cruzadas e autodefinidos que você começou neste aparelho e ainda não terminou, com o progresso salvo.",
+    "rulesTitle": "Como resolver palavras cruzadas e autodefinidos",
+    "rulesDescription": "Como resolver palavras cruzadas ou um autodefinido aqui: digitar, andar pela grade, conferir e revelar letras, e atalhos de teclado.",
+    "faqTitle": "Perguntas frequentes: palavras cruzadas com IA, idiomas e privacidade",
+    "faqDescription": "Respostas sobre Palavras Cruzadas IA: se é grátis, como a inteligência artificial escreve, tamanhos, dificuldade, palavras que não se repetem, jogo offline e privacidade.",
+    "aboutTitle": "Sobre: como a IA faz as palavras cruzadas",
+    "aboutDescription": "Por que fizemos um gerador de palavras cruzadas grátis que não repete palavra, e como a inteligência artificial escreve as dicas em cada idioma.",
+    "privacyTitle": "Política de privacidade",
+    "privacyDescription": "O que Palavras Cruzadas IA guarda, onde e por quê. Sem conta e sem rastrear quem você é.",
+    "termsTitle": "Termos de uso",
+    "termsDescription": "Os termos simples para usar Palavras Cruzadas IA.",
+    "contactTitle": "Fale conosco",
+    "contactDescription": "Uma dúvida, uma ideia ou um problema no jogo? Escreva para a gente e respondemos no seu e-mail.",
+    "puzzleDescription": "Um passatempo grátis de Palavras Cruzadas IA: resolva no navegador.",
+    "sharedPuzzleDescription": "Um {format, select, scanword {autodefinido} other {palavras cruzadas}} grátis, {size} · {topic} · {difficulty} · {words, plural, one {# palavra} other {# palavras}}. Escrito por inteligência artificial: resolva no navegador, sem cadastro.",
+    "ogImageAlt": "Palavras Cruzadas IA: palavras cruzadas e autodefinidos grátis no seu idioma",
+    "ogPuzzleCta": "Você consegue resolver?",
+    "ogPuzzleMeta": "{size} · {words, plural, one {# palavra} other {# palavras}}"
+  },
+  "Formats": {
+    "classic": {
+      "name": "Palavras cruzadas",
+      "short": "Dicas numeradas, horizontal e vertical",
+      "description": "O clássico: as palavras se cruzam numa grade livre e cada dica espera nas listas de horizontal e vertical.",
+      "cta": "Jogar palavras cruzadas"
+    },
+    "scanword": {
+      "name": "Autodefinido",
+      "short": "As dicas ficam dentro, com setas",
+      "description": "Cada dica fica na própria grade, com uma seta para a resposta. Dá para ler num relance e é difícil largar.",
+      "cta": "Jogar um autodefinido"
+    }
+  },
+  "Topics": {
+    "any": "Temas misturados",
+    "general": {
+      "name": "Palavras do dia a dia",
+      "description": "As palavras da vida comum: casa, gente, tempo e o mundo ao redor."
+    },
+    "nature": {
+      "name": "Natureza",
+      "description": "Florestas, rios, clima, plantas e estações."
+    },
+    "animals": {
+      "name": "Animais",
+      "description": "Animais selvagens e domésticos, aves, peixes e insetos."
+    },
+    "food": {
+      "name": "Comida e bebida",
+      "description": "Pratos, ingredientes, cozinhas e tudo o que chega à mesa."
+    },
+    "geography": {
+      "name": "Geografia",
+      "description": "Países, cidades, rios, montanhas e lugares conhecidos."
+    },
+    "history": {
+      "name": "História",
+      "description": "Épocas, invenções, ofícios e objetos do passado."
+    },
+    "science": {
+      "name": "Ciência",
+      "description": "Física, química, biologia, o espaço e o corpo humano."
+    },
+    "sport": {
+      "name": "Esporte",
+      "description": "Jogos, equipamento, competições e as regras."
+    },
+    "arts": {
+      "name": "Arte",
+      "description": "Música, literatura, teatro, pintura e cinema."
+    },
+    "home": {
+      "name": "Casa e dia a dia",
+      "description": "Móveis, ferramentas, roupas e as coisas que usamos todo dia."
+    },
+    "professions": {
+      "name": "Profissões",
+      "description": "Trabalhos, ofícios, ferramentas do ofício e locais de trabalho."
+    },
+    "localCulture": {
+      "name": "Cultura brasileira",
+      "description": "Festas, danças, pratos e lugares do Brasil."
+    }
+  },
+  "Difficulty": {
+    "1": "Fácil",
+    "2": "Médio",
+    "3": "Difícil"
+  },
+  "Sizes": {
+    "small": "Pequeno",
+    "medium": "Médio",
+    "large": "Grande"
+  },
+  "Generator": {
+    "format": "Escolha um formato",
+    "topic": "Escolha um tema",
+    "difficulty": "Dificuldade",
+    "size": "Tamanho",
+    "create": "Criar minhas palavras cruzadas",
+    "creating": "Montando suas palavras cruzadas…",
+    "creatingHint": "Estamos escolhendo palavras que você ainda não viu. As novas podem levar alguns segundos.",
+    "cancel": "Cancelar",
+    "freshHint": "Grátis e sem cadastro. Cada grade traz palavras que você ainda não encontrou aqui.",
+    "exhausted": "Você já jogou todas as palavras que temos para essa escolha! Estamos escrevendo outras: tente outro tema ou volte em um minuto."
+  },
+  "Home": {
+    "hero": {
+      "eyebrow": "Grátis · Sem cadastro · Funciona offline",
+      "title": "Fazer palavras cruzadas <mark>sempre novas</mark> de animais, comida, geografia, história, ciência e esporte",
+      "subtitle": "Escolha um tema e uma dificuldade: a inteligência artificial escreve as dicas no seu idioma e não repete a mesma palavra duas vezes.",
+      "lede": "Faça palavras cruzadas ou um autodefinido online, grátis e sem cadastro. Os temas vão de animais, comida e geografia a história, ciência, esporte, arte, casa, profissões e cultura brasileira, ou misture todos."
+    },
+    "continueTitle": "Continue de onde parou",
+    "formatsTitle": "Dois jeitos de jogar",
+    "formatsSubtitle": "Palavras cruzadas clássicas, com listas de dicas, ou um autodefinido compacto, com as dicas dentro da grade.",
+    "pointsTitle": "Por que é diferente",
+    "points": {
+      "fresh": {
+        "title": "Nunca repete",
+        "text": "Seu aparelho lembra cada palavra que mostrou, então cada grade nova traz palavras que você ainda não resolveu."
+      },
+      "native": {
+        "title": "Escrito no seu idioma",
+        "text": "As dicas são escritas em cada idioma como quem faz palavras cruzadas ali escreveria, nunca traduzidas de outro."
+      },
+      "ai": {
+        "title": "A IA propõe, o código confere",
+        "text": "A inteligência artificial sugere palavras e dicas; nossas checagens descartam o que está escrito errado, é injusto ou entrega a resposta."
+      },
+      "offline": {
+        "title": "Jogue em qualquer lugar",
+        "text": "Instale como um aplicativo. O que você já abriu continua funcionando no avião, no metrô, onde você estiver."
+      }
+    },
+    "topicsTitle": "Escolha um tema",
+    "topicsSubtitle": "Dos passarinhos do quintal aos rios famosos, ou misture todos os temas.",
+    "faqTitle": "Perguntas e respostas",
+    "faq1Question": "Palavras Cruzadas IA é mesmo grátis?",
+    "faq1Answer": "Sim. Cada grade de palavras cruzadas e cada autodefinido é grátis, sem conta, sem cadastro e sem limite de quantos você resolve.",
+    "faq2Question": "Vou ver as mesmas palavras de novo?",
+    "faq2Answer": "Não. Seu aparelho guarda a lista das palavras que já mostrou e deixa elas de fora de cada grade nova. Se você limpar os dados do site no navegador, a lista começa do zero.",
+    "faq3Question": "Em quais idiomas posso jogar?",
+    "faq3Answer": "Em trinta e três idiomas, cada um com o próprio vocabulário escrito para quem fala essa língua, nunca traduzido de outra: inglês, espanhol, português, francês, alemão, italiano, neerlandês, polonês, tcheco, sueco, romeno, húngaro, indonésio, malaio, filipino, vietnamita, suaíli, russo, ucraniano, grego, árabe, persa, urdu, hebraico, hindi, marata, bengali, tâmil, tailandês, japonês, coreano, chinês e armênio.",
+    "faq4Question": "Qual é a diferença entre palavras cruzadas e autodefinido?",
+    "faq4Answer": "Nas palavras cruzadas, as dicas numeradas ficam ao lado da grade, na horizontal e na vertical. No autodefinido, cada dica está dentro de uma casa, com uma seta mostrando onde a resposta entra. É o formato das palavras cruzadas suecas.",
+    "faq5Question": "Posso jogar offline?",
+    "faq5Answer": "Sim. Cada grade que você abre fica salva no aparelho, com o seu progresso, e continua funcionando sem conexão. Para criar uma nova, precisa de internet.",
+    "faq6Question": "E se uma dica estiver errada?",
+    "faq6Answer": "Abra o menu ⋯ acima da grade e escolha «Informar uma dica». Quando três jogadores diferentes informam a mesma, ela sai de circulação e não volta.",
+    "faqMore": "Ver todas as perguntas e respostas →"
+  },
+  "CrosswordPage": {
+    "hero": {
+      "eyebrow": "Palavras cruzadas clássicas",
+      "title": "Palavras cruzadas clássicas, <mark>feitas para você</mark>",
+      "plainTitle": "Palavras cruzadas com IA",
+      "subtitle": "Dicas numeradas na horizontal e na vertical, uma grade que cresce do meio e palavras que você ainda não viu.",
+      "lede": "Faça palavras cruzadas clássicas online e grátis: dicas numeradas na horizontal e na vertical, com temas de animais, comida, geografia, história, ciência e esporte."
+    },
+    "rulesTitle": "Como funcionam as palavras cruzadas",
+    "rule1": "Cada casa branca leva uma letra. As palavras vão na horizontal (da esquerda para a direita) e na vertical (de cima para baixo), cruzando umas com as outras.",
+    "rule2": "Cada palavra tem um número na primeira casa e uma dica com o mesmo número na lista de horizontal ou de vertical.",
+    "rule3": "Toque numa casa ou numa dica para começar a digitar. Toque de novo na mesma casa, ou pressione Espaço, para alternar entre horizontal e vertical.",
+    "rule4": "Travou? Confira uma letra, uma palavra ou a grade inteira, ou revele uma letra para seguir.",
+    "topicsTitle": "Palavras cruzadas por tema",
+    "faqTitle": "Perguntas sobre palavras cruzadas",
+    "faq1Question": "Qual é o tamanho das palavras cruzadas?",
+    "faq1Answer": "Escolha pequeno (até umas 14 palavras), médio ou grande (mais de 20 palavras). A grade é cortada no tamanho das palavras, então sempre cabe na tela.",
+    "faq2Question": "O que torna uma dica fácil ou difícil?",
+    "faq2Answer": "No fácil, as palavras são do dia a dia e as dicas são diretas. No difícil, as palavras são mais raras e as dicas pedem uma segunda pensada.",
+    "faq3Question": "Posso usar o teclado?",
+    "faq3Answer": "Sim: digite as letras, ande com as setas, pressione Enter para a próxima dica e Backspace para voltar. No celular, o teclado do jogo aparece embaixo da grade.",
+    "faq4Question": "Posso compartilhar com alguém?",
+    "faq4Answer": "Sim: toque em Compartilhar acima da grade para copiar o link ou enviar por um aplicativo. Quem receber vê exatamente a mesma grade e as mesmas dicas."
+  },
+  "ScanwordPage": {
+    "hero": {
+      "eyebrow": "Autodefinido",
+      "title": "Autodefinidos com as dicas <mark>dentro da grade</mark>",
+      "plainTitle": "Autodefinido com IA",
+      "subtitle": "Não há listas para vasculhar: cada dica fica na própria casa, com uma seta para a resposta.",
+      "lede": "Faça um autodefinido online e grátis: são palavras cruzadas suecas, com as dicas dentro da grade. Os mesmos temas: animais, comida, geografia, história, ciência e esporte."
+    },
+    "rulesTitle": "Como funciona um autodefinido",
+    "rule1": "As casas sombreadas levam as dicas. A seta mostra onde a resposta começa e para que lado ela segue.",
+    "rule2": "Uma casa pode ter duas dicas: a de cima costuma apontar para a direita e a de baixo, para baixo.",
+    "rule3": "Toque na casa da dica, ou em qualquer casa de letra, para escolher uma palavra. A dica completa aparece sempre na barra de cima.",
+    "rule4": "Os quadradinhos coloridos são só enfeite: as letras entram apenas nas casas brancas.",
+    "topicsTitle": "Autodefinidos por tema",
+    "faqTitle": "Perguntas sobre o autodefinido",
+    "faq1Question": "O que é um autodefinido?",
+    "faq1Answer": "Um autodefinido é uma variante das palavras cruzadas, com as dicas impressas na própria grade. Nasceu como palavras cruzadas suecas e é o formato das revistas de passatempo.",
+    "faq2Question": "No celular as dicas ficam minúsculas. O que eu faço?",
+    "faq2Answer": "Toque na casa: a dica completa aparece na barra de cima. Você também pode pinçar para ampliar ou abrir a lista inteira.",
+    "faq3Question": "Por que algumas setas entortam?",
+    "faq3Answer": "Quando não cabe a dica logo antes da resposta, ela fica acima ou ao lado da primeira letra, e a seta entorta para mostrar a direção.",
+    "faq4Question": "As dicas do autodefinido são diferentes?",
+    "faq4Answer": "São mais curtas: precisam caber numa casa, então são poucas palavras no máximo."
+  },
+  "TopicsPage": {
+    "eyebrow": "Temas",
+    "title": "Sobre o que você quer as palavras cruzadas?",
+    "subtitle": "Cada tema tem as próprias palavras em cada idioma. Escolha um, ou misture todos na página inicial."
+  },
+  "TopicPage": {
+    "title": "Palavras cruzadas de {topic}",
+    "samplesTitle": "Uma amostra de {topic}",
+    "samplesSubtitle": "Algumas dicas do banco de palavras. Consegue adivinhar? Nas grades de verdade sempre vêm outras novas.",
+    "showAnswer": "Mostrar a resposta",
+    "moreTopics": "Mais temas"
+  },
+  "Auth": {
+    "signIn": "Entrar",
+    "signOut": "Sair",
+    "signInTitle": "Entrar",
+    "signInSubtitle": "Use o Google, ou o e-mail e a senha da sua conta.",
+    "signUpTitle": "Criar uma conta",
+    "signUpSubtitle": "Vamos enviar um link para confirmar o e-mail antes de você entrar.",
+    "forgotTitle": "Esqueceu a senha?",
+    "forgotSubtitle": "Enviaremos um link se houver uma conta com este e-mail.",
+    "resetTitle": "Escolha uma senha nova",
+    "resetSubtitle": "Isso faz você entrar e encerra a sessão nos outros aparelhos.",
+    "verifyTitle": "Confirme seu e-mail",
+    "verifySubtitle": "Abra o link da caixa de entrada e confirme aqui. Filtros de e-mail não conseguem gastar o link.",
+    "google": "Continuar com o Google",
+    "or": "ou",
+    "name": "Nome",
+    "email": "E-mail",
+    "password": "Senha",
+    "passwordHint": "Pelo menos 8 caracteres, com uma letra e um número. Não use o seu e-mail.",
+    "confirmPassword": "Confirme a senha",
+    "passwordMismatch": "As senhas não coincidem",
+    "required": "Preencha este campo",
+    "invalidEmail": "Esse e-mail não parece válido",
+    "forgot": "Esqueceu a senha?",
+    "noAccount": "Ainda não tem conta?",
+    "hasAccount": "Já tem conta?",
+    "submitSignIn": "Entrar",
+    "submitSignUp": "Criar conta",
+    "submitForgot": "Enviar o link",
+    "submitReset": "Salvar senha",
+    "submitVerify": "Confirmar e-mail",
+    "verifiedNotice": "E-mail confirmado. Entre para continuar.",
+    "checkInbox": "Confira {email}",
+    "checkInboxText": "Enviamos um link. Abra e depois volte para entrar.",
+    "resend": "Enviar o link de novo",
+    "resent": "Enviado de novo.",
+    "forgotSent": "Se houver uma conta com esse e-mail, o link está a caminho.",
+    "invalidCredentials": "Esse e-mail e essa senha não combinam.",
+    "googleOnly": "Esta conta entra com o Google.",
+    "emailNotVerified": "Confirme o e-mail primeiro. O link está na sua caixa de entrada.",
+    "emailTaken": "Já existe uma conta com este e-mail.",
+    "weakPassword": "Use pelo menos 8 caracteres, com uma letra e um número, e não o seu e-mail.",
+    "verifyInvalid": "Este link de confirmação é inválido ou já venceu.",
+    "resetInvalid": "Este link para redefinir a senha é inválido ou já venceu.",
+    "mailFailed": "Não conseguimos enviar o e-mail. Tente de novo.",
+    "googleErrors": {
+      "google_unavailable": "Entrar com o Google não está disponível agora.",
+      "google_denied": "O acesso com o Google foi cancelado.",
+      "google_failed": "O acesso com o Google não foi concluído. Tente de novo.",
+      "google_email_unverified": "O Google não verificou esse e-mail."
+    }
+  },
+  "History": {
+    "title": "Minhas palavras cruzadas",
+    "subtitle": "Palavras cruzadas e autodefinidos que você começou e não terminou. Suas letras ficam neste aparelho: abra qualquer um e continue, online ou offline.",
+    "empty": "Ainda não há grades sem terminar. Comece uma e ela espera aqui até você completar.",
+    "detail": "{percent}% preenchido · {difficulty} · {size}",
+    "seeAll": "Ver todas as pendentes"
+  },
+  "Play": {
+    "title": "Palavras cruzadas",
+    "loading": "Abrindo sua grade…",
+    "missingTitle": "Esta grade não está aqui",
+    "missingText": "Ela não está salva neste aparelho e o servidor não pode ser alcançado agora. Confira o link ou tente de novo quando estiver online.",
+    "leaveTitle": "Sair desta grade?",
+    "leaveBody": "Suas letras ficam salvas neste aparelho e você pode terminar depois em Minhas palavras cruzadas.",
+    "keepSolving": "Continuar resolvendo",
+    "leave": "Sair",
+    "newPuzzle": "Nova grade",
+    "allClues": "Todas as dicas",
+    "across": "Horizontal",
+    "down": "Vertical",
+    "gridLabel": "Grade",
+    "cell": {
+      "position": "Linha {row}, coluna {col}",
+      "empty": "vazia",
+      "wrong": "letra errada",
+      "revealed": "revelada",
+      "clue": "Dica: {clue}"
+    },
+    "wordNumbered": "{number} {dir, select, across {horizontal} other {vertical}}",
+    "wordDirection": "{dir, select, across {Horizontal} other {Vertical}}",
+    "wordLength": "{name}, {length, plural, one {# letra} other {# letras}}",
+    "wordLetter": "{name}, letra {letter} de {length}",
+    "previousWord": "Dica anterior",
+    "nextWord": "Próxima dica",
+    "toggleDirection": "Trocar a direção",
+    "filled": "Preenchido",
+    "keyboard": "Teclado",
+    "ime": "Digite um caractere",
+    "erase": "Apagar",
+    "time": "Tempo: {time}",
+    "check": {
+      "label": "Conferir",
+      "cell": "Conferir letra",
+      "word": "Conferir palavra",
+      "puzzle": "Conferir a grade"
+    },
+    "reveal": {
+      "label": "Revelar",
+      "cell": "Revelar letra",
+      "word": "Revelar palavra",
+      "puzzle": "Revelar a grade",
+      "confirmTitle": "Revelar a grade inteira?",
+      "confirmText": "Todas as respostas serão preenchidas e a partida termina. Não dá para desfazer.",
+      "cancel": "Continuar resolvendo",
+      "confirm": "Revelar tudo"
+    },
+    "clearWrong": "Apagar letras erradas",
+    "more": "Mais",
+    "zoom": {
+      "label": "Zoom",
+      "in": "Aproximar",
+      "out": "Afastar",
+      "reset": "Ver a grade inteira"
+    },
+    "settings": {
+      "label": "Ajustes",
+      "autoCheck": "Conferir enquanto digito",
+      "autoCheckHint": "Marca uma letra errada assim que ela entra.",
+      "skipFilled": "Pular casas preenchidas",
+      "skipFilledHint": "Ao digitar, pula as casas que já têm letra."
+    },
+    "share": "Compartilhar",
+    "shareShort": "Compartilhar",
+    "shareTitle": "Experimente esta grade!",
+    "linkCopied": "Link copiado: manda para quem você quiser.",
+    "shareDialog": {
+      "title": "Compartilhar esta grade",
+      "description": "Quem receber vê a mesma grade e as mesmas dicas, grátis e sem cadastro.",
+      "link": "Link da grade",
+      "copy": "Copiar",
+      "copied": "Copiado!",
+      "copyFailed": "Não deu para copiar: o link está selecionado, então copie à mão.",
+      "apps": "Enviar por um aplicativo",
+      "email": "E-mail",
+      "more": "Mais opções…",
+      "text": "Você consegue resolver este {format, select, scanword {autodefinido} other {palavras cruzadas}} de {topic}? É grátis e foi escrito por inteligência artificial.",
+      "textAny": "Você consegue resolver este {format, select, scanword {autodefinido} other {palavras cruzadas}}? É grátis e foi escrito por inteligência artificial."
+    },
+    "pdf": {
+      "open": "Salvar como PDF",
+      "title": "Salvar como PDF",
+      "description": "A grade lilás, uma colorida ou em preto e branco. Abre numa aba nova.",
+      "appearance": "Aparência",
+      "appearanceDefault": "Padrão",
+      "appearanceColorful": "Colorida",
+      "appearanceMono": "Preto e branco",
+      "letters": "Incluir minhas letras",
+      "lettersHint": "Mostra as letras que você já preencheu.",
+      "answers": "Incluir as respostas",
+      "answersHint": "A grade resolvida, numa página à parte.",
+      "cancel": "Cancelar",
+      "confirm": "Abrir PDF",
+      "preparing": "Preparando o PDF…",
+      "failed": "Não deu para criar o PDF. Tente de novo.",
+      "answersTitle": "Respostas",
+      "playOnline": "Jogue online: {url}"
+    },
+    "report": {
+      "open": "Informar uma dica",
+      "title": "O que há de errado nesta dica?",
+      "cancel": "Cancelar",
+      "send": "Enviar informe",
+      "thanks": "Obrigado! Os informes ajudam a aposentar dicas ruins.",
+      "note": "O que devemos saber?",
+      "notePlaceholder": "Uma nota curta, com as suas palavras",
+      "reasons": {
+        "wrongClue": "A dica não combina com a resposta",
+        "notAWord": "A resposta não é uma palavra de verdade",
+        "offensive": "É ofensiva ou inadequada",
+        "typo": "Tem um erro de digitação",
+        "other": "Outra coisa"
+      }
+    },
+    "solved": {
+      "title": "Resolvido! Demais!",
+      "titleHelped": "Resolvido: muito bem.",
+      "time": "Tempo",
+      "checks": "Conferências",
+      "reveals": "Reveladas",
+      "admire": "Olhar a grade",
+      "next": "Próxima grade"
+    },
+    "announce": {
+      "checked": "{count, plural, one {# letra está errada} other {# letras estão erradas}}",
+      "allCorrect": "Tudo o que foi conferido está certo",
+      "revealed": "{count, plural, one {# letra revelada} other {# letras reveladas}}",
+      "solved": "Grade resolvida em {seconds, plural, one {# segundo} other {# segundos}}!"
+    }
+  },
+  "Rules": {
+    "title": "Como jogar",
+    "subtitle": "Tudo o que você precisa para resolver palavras cruzadas ou um autodefinido aqui, no celular, no tablet ou no computador.",
+    "sections": [
+      {
+        "title": "Escolher uma palavra",
+        "paragraphs": [
+          "Toque ou clique em qualquer casa branca. A palavra acende em amarelo e a dica aparece na barra de cima.",
+          "Onde duas palavras se cruzam, toque de novo na mesma casa para alternar entre horizontal e vertical. No autodefinido você também pode tocar a casa da dica."
+        ]
+      },
+      {
+        "title": "Digitar",
+        "paragraphs": [
+          "No computador, é só digitar: não precisa trocar o layout do teclado. Se estiver em inglês, as teclas escrevem as letras do idioma da grade no lugar de sempre.",
+          "No celular ou no tablet, o teclado do jogo aparece embaixo da grade. Em armênio ele tem as letras únicas ՈՒ e և, e cada uma ocupa uma casa; se você digitar ո e depois ւ, elas se juntam em ՈՒ.",
+          "Nas palavras cruzadas em russo, a letra Ё se escreve como Е, como nos passatempos impressos.",
+          "Em português, acento e cedilha não se escrevem: não entra como NAO e coração como CORACAO."
+        ]
+      },
+      {
+        "title": "Andar pela grade",
+        "paragraphs": [
+          "As setas passam de uma casa a outra; uma seta atravessada em relação à direção atual primeiro vira o cursor. Enter pula para a próxima dica e Shift+Enter para a anterior.",
+          "Backspace apaga uma letra e volta um passo. Home e End pulam para o começo e o fim da palavra. Tab sai da grade."
+        ]
+      },
+      {
+        "title": "Pedir ajuda",
+        "paragraphs": [
+          "Conferir risca as letras erradas e trava as certas. Revelar completa uma letra, uma palavra ou a grade inteira; as letras reveladas levam uma marquinha roxa.",
+          "Ative «Conferir enquanto digito» nos ajustes se quiser saber na hora."
+        ]
+      },
+      {
+        "title": "Palavras novas, sempre",
+        "paragraphs": [
+          "Seu aparelho lembra as palavras que mostrou e não pede de novo. Cada grade nova é feita de palavras que você ainda não encontrou aqui."
+        ]
+      }
+    ]
+  },
+  "Faq": {
+    "title": "Perguntas e respostas",
+    "subtitle": "Tudo sobre Palavras Cruzadas IA num só lugar: as grades, como a inteligência artificial escreve, jogar em qualquer aparelho e a sua privacidade.",
+    "groups": [
+      {
+        "title": "Sobre Palavras Cruzadas IA",
+        "items": [
+          {
+            "question": "O que é Palavras Cruzadas IA?",
+            "answer": "Palavras Cruzadas IA é um site grátis que gera palavras cruzadas e autodefinidos em trinta e três idiomas. Um modelo de inteligência artificial escreve as palavras e as dicas em cada idioma, o código monta a grade e cada aparelho só recebe palavras que ainda não viu."
+          },
+          {
+            "question": "É mesmo grátis?",
+            "answer": "Sim. Cada grade é grátis: sem conta, sem cadastro, sem assinatura e sem anúncios."
+          },
+          {
+            "question": "Preciso de uma conta?",
+            "answer": "Não. Não há o que cadastrar. Seu progresso, seus ajustes e a lista de palavras que você já viu ficam no navegador, no seu aparelho."
+          },
+          {
+            "question": "Quem faz Palavras Cruzadas IA?",
+            "answer": "É um projeto independente do desenvolvedor Michael Navasardyan: passatempos que soam como se alguém dali tivesse escrito, em cada idioma do site, entre eles armênio, russo e inglês."
+          }
+        ]
+      },
+      {
+        "title": "As grades",
+        "items": [
+          {
+            "question": "Qual é a diferença entre palavras cruzadas e autodefinido?",
+            "answer": "Nas palavras cruzadas, as dicas numeradas ficam ao lado da grade, na horizontal e na vertical. No autodefinido, cada dica está impressa numa casa, com uma seta para a resposta: o formato das palavras cruzadas suecas."
+          },
+          {
+            "question": "Qual é o tamanho?",
+            "answer": "Há três tamanhos. As palavras cruzadas clássicas enchem uma grade de 9×9, 13×13 ou 15×15 com cerca de 8–14, 16–24 ou 22–34 palavras, e depois a grade é cortada no que coube. O autodefinido usa 8×10, 10×13 ou 13×17: mais alto do que largo, porque a maioria se resolve no celular."
+          },
+          {
+            "question": "Como os níveis se distinguem?",
+            "answer": "Fácil usa palavras do dia a dia com dicas diretas. Médio abre um vocabulário mais amplo. Difícil traz palavras mais raras e dicas que pedem uma segunda pensada."
+          },
+          {
+            "question": "Quais temas posso escolher?",
+            "answer": "Doze: palavras do dia a dia, natureza, animais, comida e bebida, geografia, história, ciência, esporte, arte, casa e dia a dia, profissões e cultura brasileira. Você também pode misturar todos."
+          },
+          {
+            "question": "Alguma vez vou ver a mesma palavra duas vezes?",
+            "answer": "Não no mesmo aparelho. Ele lembra até 4000 palavras por idioma, mais ou menos o de 130 grades, e deixa elas de fora de cada uma nova; só depois as mais antigas saem da lista. Se você limpar os dados do site, a lista recomeça."
+          },
+          {
+            "question": "Como a inteligência artificial escreve as dicas?",
+            "answer": "O modelo Gemini, do Google, escreve palavras e dicas direto em cada idioma, seguindo um guia de estilo de falantes nativos. O código confere cada uma: o alfabeto certo, uma palavra real e uma dica justa que não entrega a resposta. Uma segunda passada de inteligência artificial faz o papel de editor. O que falha é descartado, não remendado. A grade é montada pelo código, não pela inteligência artificial."
+          },
+          {
+            "question": "E se uma dica estiver errada?",
+            "answer": "Abra o menu ⋯ acima da grade e escolha «Informar uma dica». Quando três jogadores diferentes informam a mesma, ela sai de circulação e não volta."
+          }
+        ]
+      },
+      {
+        "title": "Como jogar",
+        "items": [
+          {
+            "question": "Como digito as respostas no celular ou no computador?",
+            "answer": "No computador, é só digitar: mesmo com o teclado em inglês, as teclas escrevem as letras da grade no lugar de sempre e não há layout para trocar. No celular ou no tablet, o teclado do jogo aparece embaixo da grade e o do sistema não a cobre."
+          },
+          {
+            "question": "Posso conferir as respostas ou pedir uma pista?",
+            "answer": "Sim. Conferir marca as letras erradas numa casa, numa palavra ou na grade inteira, e Revelar completa uma letra, uma palavra ou tudo. Ative «Conferir enquanto digito» nos ajustes para ver o erro na hora."
+          },
+          {
+            "question": "Como funcionam ու e և em armênio, e o Ё em russo?",
+            "answer": "Nas grades em armênio, ու e և são letras únicas e cada uma ocupa uma casa, como nos passatempos impressos; o teclado na tela tem as duas, e digitar ո e depois ւ junta as duas em ու. Em russo, Ё se escreve como Е, como nos impressos."
+          },
+          {
+            "question": "Meu progresso fica salvo?",
+            "answer": "Sim, sozinho, enquanto você joga. Cada grade que você começa e deixa pela metade aparece em «Minhas palavras cruzadas», com as letras salvas, para continuar depois, até offline."
+          },
+          {
+            "question": "Posso jogar offline ou instalar como aplicativo?",
+            "answer": "Sim. Palavras Cruzadas IA se instala pelo navegador como um aplicativo (no iPhone: Compartilhar → Adicionar à Tela de Início). Cada grade que você abre fica salva com o progresso e continua sem conexão; só as novas precisam de internet."
+          },
+          {
+            "question": "Posso compartilhar uma grade?",
+            "answer": "Sim. Toque em Compartilhar acima da grade para copiar o link, ou envie por WhatsApp, Telegram, Facebook, X, VK ou e-mail. Quem receber vê exatamente a mesma grade e as mesmas dicas."
+          },
+          {
+            "question": "Dá para jogar com teclado ou leitor de tela?",
+            "answer": "Sim. A grade funciona inteira pelo teclado e com leitores de tela: cada casa tem nome, a dica ativa é anunciada e as conferências e as letras reveladas são lidas. O errado e o revelado se marcam por uma forma, não só por uma cor."
+          }
+        ]
+      },
+      {
+        "title": "Privacidade",
+        "items": [
+          {
+            "question": "Que dados vocês guardam?",
+            "answer": "Muito pouco. Suas grades, o progresso, os ajustes e a lista de palavras vistas ficam no navegador. O servidor guarda as grades criadas (para um link compartilhado abrir a mesma), os informes de dica com um hash irreversível do endereço IP e contagens anônimas de partidas resolvidas. Sem nomes e sem perfis."
+          },
+          {
+            "question": "Algo meu é enviado à inteligência artificial?",
+            "answer": "Não. Aos modelos Gemini, do Google, só vão os ajustes da grade (idioma, tema, dificuldade) e listas de palavras, nunca nada sobre você."
+          }
+        ]
+      }
+    ],
+    "ctaTitle": "Pronto para uma grade nova?",
+    "ctaText": "Escolha um tema e uma dificuldade: a próxima grade está a alguns segundos.",
+    "cta": "Fazer palavras cruzadas"
+  },
+  "About": {
+    "title": "Sobre Palavras Cruzadas IA",
+    "subtitle": "Um gerador grátis que escreve no seu idioma e não serve a mesma palavra duas vezes.",
+    "sections": [
+      {
+        "title": "Por que fizemos",
+        "paragraphs": [
+          "A maioria das palavras cruzadas online recicla uma lista curta, e as traduzidas soam traduzidas. Queríamos passatempos que parecessem escritos por alguém dali, e que continuassem novos por mais que você resolva."
+        ]
+      },
+      {
+        "title": "Como as palavras são escritas",
+        "paragraphs": [
+          "Um modelo de inteligência artificial escreve palavras e dicas direto em cada idioma, seguindo um guia de estilo de falantes nativos: as formas que o passatempo usa, a norma ortográfica e o jeito de definir nessa tradição.",
+          "Depois, cada palavra passa por checagens automáticas: o alfabeto certo, uma palavra real só e uma dica que não entrega a resposta. Uma segunda inteligência artificial faz de editor. Os informes de quem joga aposentam o que escapar."
+        ]
+      },
+      {
+        "title": "Como a grade é montada",
+        "paragraphs": [
+          "A grade é montada pelo código, não pela inteligência artificial: um algoritmo encaixa as palavras para que cada letra pertença a uma palavra real com dica. É isso que mantém cada partida justa."
+        ]
+      }
+    ]
+  },
+  "Privacy": {
+    "title": "Política de privacidade",
+    "subtitle": "Em resumo: sem conta, sem nomes e sem perfil. Isto é tudo o que guardamos.",
+    "sections": [
+      {
+        "title": "No seu aparelho",
+        "paragraphs": [
+          "O navegador guarda as grades que você abre, o progresso, os ajustes e uma lista das palavras que você já viu, para não repetir. Isso fica no aparelho; se você limpar os dados do site, some."
+        ]
+      },
+      {
+        "title": "No nosso servidor",
+        "paragraphs": [
+          "Guardamos as grades criadas, para um link compartilhado abrir a mesma. Se você informa uma dica, guardamos o informe com um hash irreversível do seu endereço IP, só para uma pessoa sozinha não aposentar uma dica. Também contamos de forma anônima como se joga (se resolveu, quais palavras foram reveladas) para afinar a dificuldade."
+        ]
+      },
+      {
+        "title": "Provedor de inteligência artificial",
+        "paragraphs": [
+          "Palavras e dicas novas são escritas pelos modelos Gemini, do Google. Só são enviados os ajustes da grade (idioma, tema, dificuldade) e listas de palavras: nunca nada sobre você."
+        ]
+      },
+      {
+        "title": "Análise e informes de erro",
+        "paragraphs": [
+          "Se estiver ligado, usamos o Google Analytics para contar visitas e o Sentry para receber informes de erro. Nenhum dos dois serve para identificar você."
+        ]
+      }
+    ]
+  },
+  "Terms": {
+    "title": "Termos de uso",
+    "subtitle": "Palavras Cruzadas IA é grátis, para jogar e para aprender.",
+    "sections": [
+      {
+        "title": "Uso do serviço",
+        "paragraphs": [
+          "Você pode jogar, compartilhar e imprimir as grades para uso pessoal e educativo. Por favor, não sobrecarregue o serviço com pedidos automáticos."
+        ]
+      },
+      {
+        "title": "Conteúdo escrito por inteligência artificial",
+        "paragraphs": [
+          "As palavras e as dicas são escritas por inteligência artificial e conferidas automaticamente, mas erros podem acontecer. Se encontrar um, informe: é assim que dicas ruins saem."
+        ]
+      },
+      {
+        "title": "Sem garantia",
+        "paragraphs": [
+          "O serviço é oferecido como está, sem garantias de disponibilidade ou de exatidão. Podemos mudar ou retirar funções a qualquer momento."
+        ]
+      }
+    ]
+  },
+  "Contact": {
+    "title": "Fale conosco",
+    "subtitle": "Uma dúvida, uma ideia ou algo que não deu certo? Escreva para a gente e respondemos no seu e-mail.",
+    "fullName": "Nome",
+    "email": "E-mail",
+    "message": "Mensagem",
+    "messagePlaceholder": "Como podemos ajudar?",
+    "required": "Preencha este campo",
+    "invalidEmail": "Esse e-mail não parece válido",
+    "submit": "Enviar",
+    "sent": "Mensagem enviada",
+    "sentText": "Obrigado. Respondemos no seu e-mail assim que pudermos.",
+    "sendAnother": "Escrever outra mensagem",
+    "tooMany": "Foram muitas mensagens. Tente de novo daqui a pouco."
+  }
+}

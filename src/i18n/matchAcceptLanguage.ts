@@ -58,11 +58,15 @@ export const matchAcceptLanguage = (header: string | null | undefined): Locale =
     if (!byPrimary.has(primary)) byPrimary.set(primary, locale)
   }
 
+  // Legacy primary tags browsers still send.
+  const aliases: Record<string, Locale> = { tl: 'fil', iw: 'he', in: 'id' }
+
   for (const { tag } of requested) {
     const exact = byLowercase.get(tag)
     if (exact) return exact
 
-    const fallback = byPrimary.get(primarySubtag(tag))
+    const primary = primarySubtag(tag)
+    const fallback = byPrimary.get(primary) ?? aliases[primary]
     if (fallback) return fallback
   }
 

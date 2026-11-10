@@ -20,5 +20,6 @@ export const useLeaveGuard = (active: boolean) => {
 /**
  * For a navigation that is not a link (a router call behind a button or a menu): asks the
  * question of the guard that is up, if any. True when there is nothing to ask or the player agreed.
+ * `force` asks anyway — starting another puzzle replaces one whose clock is already running.
  */
-export const confirmLeave = (): Promise<boolean> => useLeaveGuardStoreBase.getState().ask()
+export const confirmLeave = (force = false): Promise<boolean> => useLeaveGuardStoreBase.getState().ask(force)

@@ -8,8 +8,9 @@ import {
   isSize,
   isTopicChoice,
   MAX_EXCLUDE,
+  MAX_REPORT_NOTE,
 } from '../lib/puzzle.js'
-import { asIdArray, asInteger, isPuzzleId, reporterKeyFor } from '../lib/request.js'
+import { asIdArray, asInteger, asTrimmedString, isPuzzleId, reporterKeyFor } from '../lib/request.js'
 import { asyncHandler } from '../middleware/error.js'
 import { rateLimit } from '../middleware/rateLimit.js'
 import { recordResult, reportEntry } from '../services/entryPool.js'
@@ -60,13 +61,15 @@ puzzlesRouter.post(
     if (!isPuzzleId(id)) return fail(res, 'Invalid puzzle id', 400, 400)
     const reason = req.body?.reason
     if (!isReportReason(reason)) return fail(res, 'Unsupported reason', 400)
+    const note = asTrimmedString(req.body?.note)
+    if (reason === 'other' && (!note || note.length > MAX_REPORT_NOTE)) return fail(res, 'A note is required', 400)
 
     const refs = await puzzleWordRefs(id)
     if (!refs) return fail(res, 'Puzzle not found', 404, 404)
     const wordId = asInteger(req.body?.wordId, 0, refs.entryIds.length - 1)
     if (wordId === undefined) return fail(res, 'Invalid word', 400)
 
-    await reportEntry(refs.entryIds[wordId]!, refs.clueIds[wordId]!, id, reporterKeyFor(req), reason)
+    await reportEntry(refs.entryIds[wordId]!, refs.clueIds[wordId]!, id, reporterKeyFor(req), reason, reason === 'other' ? note : undefined)
     return ok(res, null)
   })
 )

@@ -1,0 +1,715 @@
+{
+  "Common": {
+    "appName": "Chemshabongo AI",
+    "tagline": "Chemshabongo na skanwodi bure, zilizoandikwa upya kwa Kiswahili. Maneno mapya kila mchezo, bila kurudia.",
+    "skipToContent": "Ruka hadi maudhui",
+    "openMenu": "Fungua menyu",
+    "menu": "Menyu",
+    "close": "Funga",
+    "retry": "Jaribu tena",
+    "chooseLanguage": "Chagua lugha",
+    "language": "Lugha",
+    "copyright": "© {year} {appName}. Imetengenezwa kwa maneno na uchawi kidogo.",
+    "backOnline": "Umerudi mtandaoni.",
+    "offline": "Uko nje ya mtandao. Chemshabongo ulizofungua bado zinachezeka.",
+    "lastUpdated": "Ilisasishwa mwisho: {date}"
+  },
+  "Nav": {
+    "main": "Kuu",
+    "footer": "Tovuti",
+    "home": "Mwanzo",
+    "crossword": "Chemshabongo",
+    "scanword": "Skanwodi",
+    "topics": "Mada",
+    "history": "Michezo yangu",
+    "rules": "Jinsi ya kucheza",
+    "faq": "Maswali",
+    "about": "Kuhusu",
+    "privacy": "Faragha",
+    "terms": "Masharti",
+    "contact": "Wasiliana"
+  },
+  "Errors": {
+    "network": "Seva haipatikani. Kagua muunganisho wako kisha ujaribu tena.",
+    "rateLimited": "Michezo mingi mno kwa dakika moja! Pumua kidogo, kisha ujaribu tena.",
+    "unauthorized": "Kitendo hiki hakiruhusiwi.",
+    "notFound": "Hatukuipata.",
+    "server": "Kuna hitilafu upande wetu. Tafadhali jaribu tena.",
+    "generic": "Kuna kitu kimeenda vibaya. Tafadhali jaribu tena.",
+    "details": "Maelezo",
+    "pageErrorTitle": "Lo, kisanduku kimeanguka",
+    "pageErrorBody": "Ukurasa huu umekumbana na hitilafu isiyotarajiwa. Kujaribu tena kwa kawaida husaidia.",
+    "notFoundTitle": "Ukurasa huu haupo kwenye gridi",
+    "notFoundBody": "Kiungo kinaweza kuwa kizee au kimeandikwa vibaya. Hebu tukutafutie mchezo mpya.",
+    "goHome": "Nenda mwanzo"
+  },
+  "Pwa": {
+    "install": "Sakinisha programu",
+    "iosTitle": "Ongeza Chemshabongo AI kwenye Skrini ya Nyumbani",
+    "benefit": "Ifungue kama programu, skrini nzima — na uendelee kucheza michezo iliyohifadhiwa nje ya mtandao.",
+    "iosStep1": "Gusa kitufe cha Kushiriki (Share) kwenye upau wa Safari.",
+    "iosStep2": "Chagua “Ongeza kwenye Skrini ya Nyumbani” (Add to Home Screen).",
+    "iosStep3": "Gusa “Ongeza” (Add) — ikoni ya programu inaonekana kwenye Skrini ya Nyumbani.",
+    "gotIt": "Nimeelewa"
+  },
+  "Seo": {
+    "homeTitle": "Chemshabongo ya Kiswahili Bure | Tengeneza Chemshabongo",
+    "homeDescription": "Tengeneza chemshabongo ya Kiswahili bure mtandaoni. Chagua wanyama, chakula, jiografia, historia, sayansi, michezo na zaidi. Maneno mapya kila mchezo, inafanya kazi nje ya mtandao.",
+    "keywords": "chemshabongo, tengeneza chemshabongo, chemshabongo ya kiswahili, chemshabongo bure, chemshabongo mtandaoni, wanyama, chakula, jiografia, historia, sayansi, michezo, chemshabongo ya wanyama, chemshabongo ya chakula, chemshabongo ya jiografia, chemshabongo ya historia, chemshabongo ya sayansi, chemshabongo ya michezo",
+    "crosswordTitle": "Chemshabongo Bure Mtandaoni",
+    "crosswordDescription": "Cheza chemshabongo bure mtandaoni, iliyoandikwa na AI: vidokezo vyenye namba kwa mlalo na wima, mada 12, viwango vitatu. Bila kujisajili, maneno mapya kila mchezo.",
+    "scanwordTitle": "Skanwodi Bure — Vidokezo Ndani ya Gridi",
+    "scanwordDescription": "Tatua skanwodi bure: vidokezo viko ndani ya gridi, vikiwa na mishale kuelekea majibu. Imeandikwa na AI, bila kujisajili, kwenye simu, kompyuta kibao au kompyuta.",
+    "topicsTitle": "Mada za Chemshabongo: Wanyama, Chakula, Jiografia na Zaidi",
+    "topicsDescription": "Chagua mada ya chemshabongo au skanwodi ijayo: mazingira, wanyama, chakula, jiografia, historia, sayansi, michezo, sanaa na zaidi.",
+    "topicTitle": "{topic} — chemshabongo bure",
+    "topicDescription": "Chemshabongo na skanwodi za {topic} bure, zilizotengenezwa na AI. {description}",
+    "historyTitle": "Michezo yangu",
+    "historyDescription": "Chemshabongo na skanwodi ulizoanza kwenye kifaa hiki na hujamaliza, pamoja na maendeleo yaliyohifadhiwa.",
+    "rulesTitle": "Jinsi ya Kucheza Chemshabongo na Skanwodi",
+    "rulesDescription": "Jinsi ya kutatua chemshabongo au skanwodi hapa: kuandika, kusogea kwenye gridi, kukagua na kufichua herufi, na mikato ya kibodi.",
+    "faqTitle": "Maswali: Chemshabongo ya AI, Lugha na Faragha",
+    "faqDescription": "Majibu kuhusu Chemshabongo AI: je ni bure, AI huandikaje vidokezo, ukubwa wa gridi, ugumu, maneno yasiyorudiwa, kucheza nje ya mtandao, kushiriki na faragha.",
+    "aboutTitle": "Kuhusu — Jinsi Chemshabongo za AI Hutengenezwa",
+    "aboutDescription": "Kwa nini tulitengeneza chemshabongo bure ambayo hairudii neno, na jinsi AI huandika vidokezo moja kwa moja katika kila lugha.",
+    "privacyTitle": "Sera ya faragha",
+    "privacyDescription": "Chemshabongo AI huhifadhi nini, wapi, na kwa nini — hakuna akaunti, hakuna ufuatiliaji wa wewe ni nani.",
+    "termsTitle": "Masharti ya matumizi",
+    "termsDescription": "Masharti mafupi ya kutumia Chemshabongo AI.",
+    "contactTitle": "Tuandikie",
+    "contactDescription": "Una swali, wazo, au tatizo kwenye fumbo? Tuandikie, tutajibu kwa barua pepe.",
+    "puzzleDescription": "Mchezo bure kutoka Chemshabongo AI — utatue kwenye kivinjari chako.",
+    "sharedPuzzleDescription": "{format, select, scanword {Skanwodi} other {Chemshabongo}} bure {size} · {topic} · {difficulty} · {words, plural, one {neno #} other {maneno #}}. Imeandikwa na AI — itatue kwenye kivinjari, bila kujisajili.",
+    "ogImageAlt": "Chemshabongo AI — chemshabongo na skanwodi bure katika lugha yako",
+    "ogPuzzleCta": "Je, unaweza kuitatua?",
+    "ogPuzzleMeta": "{size} · {words, plural, one {neno #} other {maneno #}}"
+  },
+  "Formats": {
+    "classic": {
+      "name": "Chemshabongo",
+      "short": "Vidokezo vyenye namba, mlalo na wima",
+      "description": "Ya kawaida: maneno yanakatiza katika gridi huru, na kila kidokezo kinasubiri kwenye orodha ya Mlalo na Wima.",
+      "cta": "Cheza chemshabongo"
+    },
+    "scanword": {
+      "name": "Skanwodi",
+      "short": "Vidokezo ndani ya gridi, vikiwa na mishale",
+      "description": "Kila kidokezo kiko ndani ya gridi pamoja na mshale unaoelekeza jibu — rahisi kusoma, vigumu kuacha.",
+      "cta": "Cheza skanwodi"
+    }
+  },
+  "Topics": {
+    "any": "Mada mchanganyiko",
+    "general": {
+      "name": "Maneno ya kila siku",
+      "description": "Maneno ya maisha ya kila siku — nyumba, watu, wakati, dunia inayotuzunguka."
+    },
+    "nature": {
+      "name": "Mazingira",
+      "description": "Misitu, mito, hali ya hewa, mimea na misimu."
+    },
+    "animals": {
+      "name": "Wanyama",
+      "description": "Wanyama wa pori na wa nyumbani, ndege, samaki na wadudu."
+    },
+    "food": {
+      "name": "Chakula na vinywaji",
+      "description": "Vyakula, viungo, jiko na vyote vilivyo mezani."
+    },
+    "geography": {
+      "name": "Jiografia",
+      "description": "Nchi, miji, mito, milima na maeneo maarufu."
+    },
+    "history": {
+      "name": "Historia",
+      "description": "Enzi, uvumbuzi, ufundi na vitu vya kale."
+    },
+    "science": {
+      "name": "Sayansi",
+      "description": "Fizikia, kemia, biolojia, anga na mwili wa binadamu."
+    },
+    "sport": {
+      "name": "Michezo",
+      "description": "Mashindano, vifaa vya wachezaji, na kanuni za mchezo."
+    },
+    "arts": {
+      "name": "Sanaa",
+      "description": "Muziki, fasihi, tamthilia, uchoraji na filamu."
+    },
+    "home": {
+      "name": "Nyumbani",
+      "description": "Samani, zana, nguo na vitu tunavyotumia kila siku."
+    },
+    "professions": {
+      "name": "Kazi",
+      "description": "Kazi, ufundi, zana na sehemu za kazi."
+    },
+    "localCulture": {
+      "name": "Utamaduni wa kienyeji",
+      "description": "Mila, sikukuu, hadithi na maeneo maarufu ya Kenya na Tanzania."
+    }
+  },
+  "Difficulty": {
+    "1": "Rahisi",
+    "2": "Wastani",
+    "3": "Ngumu"
+  },
+  "Sizes": {
+    "small": "Ndogo",
+    "medium": "Wastani",
+    "large": "Kubwa"
+  },
+  "Generator": {
+    "format": "Chagua umbo",
+    "topic": "Chagua mada",
+    "difficulty": "Ugumu",
+    "size": "Ukubwa",
+    "create": "Tengeneza mchezo wangu",
+    "creating": "Inatengeneza mchezo wako…",
+    "creatingHint": "Inachagua maneno ambayo hujayaona. Mapya yanaweza kuchukua sekunde chache.",
+    "cancel": "Ghairi",
+    "freshHint": "Bure, bila kujisajili. Kila mchezo huleta maneno ambayo hujayaona hapa.",
+    "exhausted": "Umeshamaliza maneno yote tuliyo nayo kwa chaguo hili sasa! Tunaandika mapya — jaribu mada nyingine, au urudi baada ya dakika."
+  },
+  "Home": {
+    "hero": {
+      "eyebrow": "Bure · Bila kujisajili · Inafanya kazi nje ya mtandao",
+      "title": "Chemshabongo ambayo <mark>huwa mpya</mark>",
+      "subtitle": "Chagua mada na ugumu — AI huandika vidokezo katika lugha yako, na neno hilohilo halijirudii.",
+      "lede": "Tengeneza chemshabongo au skanwodi bure mtandaoni, bila kujisajili. Mada zinaanzia wanyama, chakula na jiografia hadi historia, sayansi, michezo, sanaa, nyumbani, kazi na utamaduni — au zichanganye zote."
+    },
+    "continueTitle": "Endelea ulipoishia",
+    "formatsTitle": "Njia mbili za kucheza",
+    "formatsSubtitle": "Chemshabongo pana yenye orodha za vidokezo, au skanwodi iliyobana yenye vidokezo ndani ya gridi.",
+    "pointsTitle": "Kwa nini ni tofauti",
+    "points": {
+      "fresh": {
+        "title": "Hairudiwi",
+        "text": "Kifaa chako hukumbuka kila neno lililoonyeshwa, hivyo kila mchezo mpya huleta maneno ambayo hujayatatua."
+      },
+      "native": {
+        "title": "Imeandikwa katika lugha yako",
+        "text": "Vidokezo huandikwa moja kwa moja katika kila lugha — kama mwandishi wa chemshabongo wa huko, si tafsiri kutoka lugha nyingine."
+      },
+      "ai": {
+        "title": "Imetengenezwa na AI, imekaguliwa na msimbo",
+        "text": "AI hupendekeza maneno na vidokezo; ukaguzi wetu huondoa yaliyoandikwa vibaya, yasiyo haki, au yanayotoa jibu."
+      },
+      "offline": {
+        "title": "Inachezeka popote",
+        "text": "Isakinishe kama programu. Michezo uliyofungua inaendelea kufanya kazi ndegeni, kwenye basi, popote."
+      }
+    },
+    "topicsTitle": "Chagua mada",
+    "topicsSubtitle": "Kutoka ndege wa uani hadi mito maarufu — au zichanganye zote.",
+    "faqTitle": "Maswali na majibu",
+    "faq1Question": "Je, Chemshabongo AI ni bure kweli?",
+    "faq1Answer": "Ndiyo. Kila chemshabongo na skanwodi inachezeka bure, bila akaunti, bila kujisajili, na bila kikomo cha idadi unayotatua.",
+    "faq2Question": "Je, nitaona maneno yale yale tena?",
+    "faq2Answer": "Hapana. Kifaa chako huhifadhi orodha ya maneno ambayo tayari yameonyeshwa na kuyaacha nje ya kila mchezo mpya. Ukifuta data ya tovuti kwenye kivinjari, orodha huanza upya.",
+    "faq3Question": "Naweza kucheza kwa lugha zipi?",
+    "faq3Answer": "Lugha thelathini na tatu, kila moja ikiwa na hazina yake ya maneno kwa wazungumzaji wake, bila kutafsiriwa kutoka nyingine: Kiingereza, Kihispania, Kireno, Kifaransa, Kijerumani, Kiitaliano, Kiholanzi, Kipolandi, Kicheki, Kiswidi, Kiromania, Kihungaria, Kiindonesia, Kimalei, Kifilipino, Kivietinamu, Kiswahili, Kirusi, Kiukreni, Kigiriki, Kiarabu, Kiajemi, Kiurdu, Kiebrania, Kihindi, Kimarathi, Kibengali, Kitamil, Kithai, Kijapani, Kikorea, Kichina na Kiarmenia. Kiswahili hapa ni cha Kenya na Tanzania.",
+    "faq4Question": "Kuna tofauti gani kati ya chemshabongo na skanwodi?",
+    "faq4Answer": "Chemshabongo huorodhesha vidokezo vyenye namba kando ya gridi, Mlalo na Wima. Skanwodi huchapisha kila kidokezo ndani ya kisanduku, pamoja na mshale unaoelekeza jibu.",
+    "faq5Question": "Naweza kucheza nje ya mtandao?",
+    "faq5Answer": "Ndiyo. Kila mchezo unaofungua huhifadhiwa kwenye kifaa pamoja na maendeleo yako, hivyo unaendelea bila muunganisho. Michezo mipya inahitaji intaneti.",
+    "faq6Question": "Je, kidokezo kikiwa kibaya?",
+    "faq6Answer": "Fungua menyu ya ⋯ juu ya gridi na uchague “Ripoti kidokezo”. Wachezaji watatu tofauti wakiripoti kidokezo kile kile, kinaondolewa wala hakionekani tena.",
+    "faqMore": "Tazama maswali na majibu yote →"
+  },
+  "CrosswordPage": {
+    "hero": {
+      "eyebrow": "Chemshabongo ya kawaida",
+      "title": "Chemshabongo ya kawaida, <mark>iliyotengenezwa kwa ajili yako</mark>",
+      "plainTitle": "Chemshabongo AI",
+      "subtitle": "Vidokezo vya Mlalo na Wima vyenye namba, gridi inayokua kutoka katikati, na maneno ambayo hujayaona.",
+      "lede": "Cheza chemshabongo ya kawaida bure mtandaoni: vidokezo vyenye namba kwa mlalo na wima, katika mada za wanyama na chakula hadi jiografia, historia, sayansi na michezo."
+    },
+    "rulesTitle": "Chemshabongo hufanyaje kazi",
+    "rule1": "Kila kisanduku cheupe hubeba herufi moja. Maneno huenda mlalo (kushoto kwenda kulia) na wima (juu kwenda chini), yakikatizana.",
+    "rule2": "Kila neno lina namba kwenye kisanduku chake cha kwanza na kidokezo kinacholingana kwenye orodha ya Mlalo au Wima.",
+    "rule3": "Gusa kisanduku au kidokezo ili uanze kuandika. Gusa kisanduku kile kile tena — au bonyeza Space — kubadili kati ya Mlalo na Wima.",
+    "rule4": "Umekwama? Kagua herufi, neno au mchezo wote, au fichua herufi ili uendelee.",
+    "topicsTitle": "Chemshabongo kwa mada",
+    "faqTitle": "Maswali kuhusu chemshabongo",
+    "faq1Question": "Chemshabongo ni kubwa kiasi gani?",
+    "faq1Answer": "Chagua ndogo (hadi maneno yapata 14), wastani au kubwa (zaidi ya maneno 20). Gridi hukatwa kulingana na maneno iliyo nayo, hivyo daima inafaa kwenye skrini.",
+    "faq2Question": "Nini hufanya kidokezo kiwe rahisi au kigumu?",
+    "faq2Answer": "Michezo rahisi hutumia maneno ya kila siku yenye maelezo ya moja kwa moja. Migumu hutumia maneno adimu na vidokezo vinavyokufanya ufikiri mara mbili.",
+    "faq3Question": "Naweza kutumia kibodi?",
+    "faq3Answer": "Ndiyo: andika herufi, sogea kwa vishale, bonyeza Enter kwa kidokezo kinachofuata na Backspace kurudi nyuma. Kwenye simu, kibodi ya mchezo inaonekana chini ya gridi.",
+    "faq4Question": "Naweza kumshirikisha rafiki chemshabongo?",
+    "faq4Answer": "Ndiyo — gusa Shiriki juu ya gridi kunakili kiungo au kukituma kupitia programu. Rafiki yako anapata gridi na vidokezo vile vile."
+  },
+  "ScanwordPage": {
+    "hero": {
+      "eyebrow": "Skanwodi",
+      "title": "Skanwodi zenye vidokezo <mark>ndani ya gridi</mark>",
+      "plainTitle": "Skanwodi AI",
+      "subtitle": "Hakuna orodha ya kutafuta: kila kidokezo kiko katika kisanduku chake, pamoja na mshale kuelekea jibu.",
+      "lede": "Cheza skanwodi bure mtandaoni: vidokezo viko ndani ya gridi. Mada zilezile za chemshabongo — wanyama, chakula, jiografia, historia, sayansi, michezo na zaidi."
+    },
+    "rulesTitle": "Skanwodi hufanyaje kazi",
+    "rule1": "Visanduku vyenye rangi hubeba vidokezo. Mshale kando ya kidokezo huonyesha jibu linaanzia wapi na linaelekea upande gani.",
+    "rule2": "Kisanduku cha kidokezo kinaweza kubeba vidokezo viwili: cha juu kwa kawaida huelekea kulia, cha chini chini.",
+    "rule3": "Gusa kisanduku cha kidokezo, au kisanduku chochote cha herufi, kuchagua neno. Kidokezo kamili daima huonekana kwenye upau juu ya gridi.",
+    "rule4": "Vigae vya rangi ni mapambo tu — herufi huingia katika visanduku vyeupe pekee.",
+    "topicsTitle": "Skanwodi kwa mada",
+    "faqTitle": "Maswali kuhusu skanwodi",
+    "faq1Question": "Skanwodi ni nini?",
+    "faq1Answer": "Skanwodi ni chemshabongo ambayo vidokezo vyake vimechapishwa ndani ya gridi. Ilianza kama chemshabongo ya Skandinavia na inapendwa na majarida ya michezo ya akili nchini Urusi na Armenia.",
+    "faq2Question": "Vidokezo ndani ya visanduku ni vidogo kwenye simu yangu. Nifanye nini?",
+    "faq2Answer": "Gusa kisanduku: kidokezo kamili daima huonekana kwenye upau juu ya gridi. Unaweza pia kubana ili kukuza, au kufungua orodha kamili ya vidokezo.",
+    "faq3Question": "Kwa nini baadhi ya mishale hupinda?",
+    "faq3Answer": "Hakuna nafasi ya kidokezo kabla ya jibu, hukaa juu au kando ya herufi ya kwanza, na mshale hupinda kuonyesha mwelekeo.",
+    "faq4Question": "Vidokezo vya skanwodi ni tofauti?",
+    "faq4Answer": "Ni vifupi — kidokezo cha skanwodi lazima kiingie katika kisanduku kimoja, hivyo ni maneno machache tu."
+  },
+  "TopicsPage": {
+    "eyebrow": "Mada",
+    "title": "Mchezo wako uwe kuhusu nini?",
+    "subtitle": "Kila mada ina maneno yake katika kila lugha. Chagua moja, au zichanganye zote kwenye ukurasa wa mwanzo."
+  },
+  "TopicPage": {
+    "title": "Chemshabongo ya {topic}",
+    "samplesTitle": "Ladha ya {topic}",
+    "samplesSubtitle": "Vidokezo vichache kutoka kwenye hazina ya maneno. Je, unaweza kuvitambua? Michezo halisi huleta vipya kila mara.",
+    "showAnswer": "Onyesha jibu",
+    "moreTopics": "Mada zaidi"
+  },
+  "Auth": {
+    "signIn": "Ingia",
+    "signOut": "Toka",
+    "signInTitle": "Ingia",
+    "signInSubtitle": "Tumia Google, au barua pepe na nenosiri la akaunti yako.",
+    "signUpTitle": "Fungua akaunti",
+    "signUpSubtitle": "Tutakutumia kiungo kwa barua pepe kuthibitisha anwani kabla hujaingia.",
+    "forgotTitle": "Umesahau nenosiri?",
+    "forgotSubtitle": "Tutatuma kiungo ikiwa akaunti inatumia anwani hii.",
+    "resetTitle": "Chagua nenosiri jipya",
+    "resetSubtitle": "Hii inakuingiza na kutoa vifaa vingine vyote.",
+    "verifyTitle": "Thibitisha barua pepe yako",
+    "verifySubtitle": "Fungua kiungo kutoka kwenye kikasha, kisha kithibitishe hapa. Vichanganuzi vya barua haviwezi kutumia kiungo.",
+    "google": "Endelea na Google",
+    "or": "au",
+    "name": "Jina",
+    "email": "Barua pepe",
+    "password": "Nenosiri",
+    "passwordHint": "Angalau herufi 8, ikiwa na herufi na namba. Si anwani yako ya barua pepe.",
+    "confirmPassword": "Rudia nenosiri",
+    "passwordMismatch": "Manenosiri hayafanani",
+    "required": "Jaza sehemu hii",
+    "invalidEmail": "Barua pepe hii haionekani sahihi",
+    "forgot": "Umesahau nenosiri?",
+    "noAccount": "Bado huna akaunti?",
+    "hasAccount": "Tayari una akaunti?",
+    "submitSignIn": "Ingia",
+    "submitSignUp": "Fungua akaunti",
+    "submitForgot": "Tuma kiungo",
+    "submitReset": "Hifadhi nenosiri",
+    "submitVerify": "Thibitisha barua pepe",
+    "verifiedNotice": "Barua pepe imethibitishwa. Ingia ili uendelee.",
+    "checkInbox": "Kagua {email}",
+    "checkInboxText": "Tumetuma kiungo. Kifungue, kisha urudi na uingie.",
+    "resend": "Tuma kiungo tena",
+    "resent": "Imetumwa tena.",
+    "forgotSent": "Ikiwa akaunti inatumia anwani hiyo, kiungo kiko njiani.",
+    "invalidCredentials": "Barua pepe na nenosiri hivyo havilingani.",
+    "googleOnly": "Akaunti hii inaingia kwa Google.",
+    "emailNotVerified": "Thibitisha barua pepe kwanza. Kiungo kiko kwenye kikasha chako.",
+    "emailTaken": "Akaunti yenye barua pepe hii tayari ipo.",
+    "weakPassword": "Tumia angalau herufi 8, ikiwa na herufi na namba, na si anwani yako ya barua pepe.",
+    "verifyInvalid": "Kiungo hiki cha uthibitisho si halali au kimeisha muda.",
+    "resetInvalid": "Kiungo hiki cha kuweka upya si halali au kimeisha muda.",
+    "mailFailed": "Hatukuweza kutuma barua pepe. Tafadhali jaribu tena.",
+    "googleErrors": {
+      "google_unavailable": "Kuingia kwa Google hakupatikani kwa sasa.",
+      "google_denied": "Kuingia kwa Google kumeghairiwa.",
+      "google_failed": "Kuingia kwa Google hakukukamilika. Tafadhali jaribu tena.",
+      "google_email_unverified": "Google haijathibitisha anwani hiyo ya barua pepe."
+    }
+  },
+  "History": {
+    "title": "Michezo yangu",
+    "subtitle": "Chemshabongo na skanwodi ulizoanza na hujamaliza. Herufi zako hubaki kwenye kifaa hiki, hivyo fungua mojawapo uendelee — mtandaoni au nje.",
+    "empty": "Bado hakuna michezo ambayo haijamalizika. Anza chemshabongo au skanwodi, itakusubiri hapa hadi uimalize.",
+    "detail": "{percent}% imejazwa · {difficulty} · {size}",
+    "seeAll": "Tazama zote ambazo hazijamalizika"
+  },
+  "Play": {
+    "title": "Mchezo",
+    "loading": "Inafungua mchezo wako…",
+    "missingTitle": "Mchezo huu haupo hapa",
+    "missingText": "Haujahifadhiwa kwenye kifaa hiki na seva haipatikani sasa. Kagua kiungo, au ujaribu tena ukiwa mtandaoni.",
+    "leaveTitle": "Unataka kuondoka kwenye mchezo huu?",
+    "leaveBody": "Herufi zako hubaki kwenye kifaa hiki, na unaweza kuumaliza baadaye kutoka Michezo yangu.",
+    "keepSolving": "Endelea kutatua",
+    "leave": "Ondoka",
+    "newPuzzle": "Mchezo mpya",
+    "allClues": "Vidokezo vyote",
+    "across": "Mlalo",
+    "down": "Wima",
+    "gridLabel": "Gridi ya mchezo",
+    "cell": {
+      "position": "Safu {row}, safu wima {col}",
+      "empty": "tupu",
+      "wrong": "herufi si sahihi",
+      "revealed": "imefichuliwa",
+      "clue": "Kidokezo: {clue}"
+    },
+    "wordNumbered": "{number} {dir, select, across {mlalo} other {wima}}",
+    "wordDirection": "{dir, select, across {Mlalo} other {Wima}}",
+    "wordLength": "{name}, {length, plural, one {herufi #} other {herufi #}}",
+    "wordLetter": "{name}, herufi {letter} kati ya {length}",
+    "previousWord": "Kidokezo kilichotangulia",
+    "nextWord": "Kidokezo kinachofuata",
+    "toggleDirection": "Badili mwelekeo",
+    "filled": "Imejazwa",
+    "keyboard": "Kibodi",
+    "ime": "Andika herufi",
+    "erase": "Futa",
+    "time": "Muda: {time}",
+    "check": {
+      "label": "Kagua",
+      "cell": "Kagua herufi",
+      "word": "Kagua neno",
+      "puzzle": "Kagua mchezo"
+    },
+    "reveal": {
+      "label": "Fichua",
+      "cell": "Fichua herufi",
+      "word": "Fichua neno",
+      "puzzle": "Fichua mchezo",
+      "confirmTitle": "Ufichue mchezo wote?",
+      "confirmText": "Kila jibu litajazwa na mchezo utaisha. Hili haliwezi kutenduliwa.",
+      "cancel": "Endelea kutatua",
+      "confirm": "Fichua vyote"
+    },
+    "clearWrong": "Futa herufi zisizo sahihi",
+    "more": "Zaidi",
+    "zoom": {
+      "label": "Kuza",
+      "in": "Kuza ndani",
+      "out": "Kuza nje",
+      "reset": "Onyesha mchezo wote"
+    },
+    "settings": {
+      "label": "Mipangilio",
+      "autoCheck": "Kagua ninapoandika",
+      "autoCheckHint": "Weka alama kwenye herufi isiyo sahihi mara inapoingia.",
+      "skipFilled": "Ruka visanduku vilivyojazwa",
+      "skipFilledHint": "Kuandika huruka visanduku ambavyo tayari vina herufi."
+    },
+    "share": "Shiriki mchezo",
+    "shareShort": "Shiriki",
+    "shareTitle": "Jaribu mchezo huu!",
+    "linkCopied": "Kiungo kimenakiliwa — tuma kwa rafiki.",
+    "shareDialog": {
+      "title": "Shiriki mchezo huu",
+      "description": "Rafiki yako anapata gridi na vidokezo vile vile — bure, bila kujisajili.",
+      "link": "Kiungo cha mchezo",
+      "copy": "Nakili",
+      "copied": "Imenakiliwa!",
+      "copyFailed": "Haikunakiliwa — kiungo kimechaguliwa, hivyo kinakili kwa mkono.",
+      "apps": "Tuma kupitia programu",
+      "email": "Barua pepe",
+      "more": "Chaguo zaidi…",
+      "text": "Je, unaweza kutatua {topic} {format, select, scanword {skanwodi} other {chemshabongo}} hii? Ni bure, na imeandikwa upya na AI.",
+      "textAny": "Je, unaweza kutatua {format, select, scanword {skanwodi} other {chemshabongo}} hii? Ni bure, na imeandikwa upya na AI."
+    },
+    "pdf": {
+      "open": "Hifadhi kama PDF",
+      "title": "Hifadhi kama PDF",
+      "description": "Gridi ya zambarau hafifu, yenye rangi, au nyeusi na nyeupe. Inafunguka kwenye kichupo kipya.",
+      "appearance": "Mwonekano",
+      "appearanceDefault": "Chaguo-msingi",
+      "appearanceColorful": "Yenye rangi",
+      "appearanceMono": "Nyeusi na nyeupe",
+      "letters": "Jumuisha herufi zangu",
+      "lettersHint": "Onyesha herufi ambazo tayari umejaza.",
+      "answers": "Ongeza majibu",
+      "answersHint": "Gridi iliyotatuliwa, kwenye ukurasa wake.",
+      "cancel": "Ghairi",
+      "confirm": "Fungua PDF",
+      "preparing": "Inaandaa PDF yako…",
+      "failed": "Hatukuweza kutengeneza PDF. Tafadhali jaribu tena.",
+      "answersTitle": "Majibu",
+      "playOnline": "Cheza mtandaoni: {url}"
+    },
+    "report": {
+      "open": "Ripoti kidokezo",
+      "title": "Nini kibaya kwenye kidokezo hiki?",
+      "cancel": "Ghairi",
+      "send": "Tuma ripoti",
+      "thanks": "Asante! Ripoti hutusaidia kuondoa vidokezo vibaya.",
+      "note": "Tufahamu nini?",
+      "notePlaceholder": "Dokezo fupi, kwa maneno yako",
+      "reasons": {
+        "wrongClue": "Kidokezo hakiendani na jibu",
+        "notAWord": "Jibu si neno halisi",
+        "offensive": "Linakera au halifai",
+        "typo": "Kuna kosa la tahajia",
+        "other": "Kitu kingine"
+      }
+    },
+    "solved": {
+      "title": "Umetatua! Hongera!",
+      "titleHelped": "Umetatua — vizuri sana!",
+      "time": "Muda",
+      "checks": "Ukaguzi",
+      "reveals": "Ufichuzi",
+      "admire": "Angalia gridi",
+      "next": "Mchezo ufuatao"
+    },
+    "announce": {
+      "checked": "{count, plural, one {herufi # si sahihi} other {herufi # si sahihi}}",
+      "allCorrect": "Vyote vilivyokaguliwa ni sahihi",
+      "revealed": "{count, plural, one {herufi # imefichuliwa} other {herufi # zimefichuliwa}}",
+      "solved": "Mchezo umetatuliwa kwa {seconds, plural, one {sekunde #} other {sekunde #}}!"
+    }
+  },
+  "Rules": {
+    "title": "Jinsi ya kucheza",
+    "subtitle": "Unachohitaji kutatua chemshabongo au skanwodi hapa — kwenye simu, kompyuta kibao au kompyuta.",
+    "sections": [
+      {
+        "title": "Kuchagua neno",
+        "paragraphs": [
+          "Gusa au bofya kisanduku chochote cheupe. Neno husisitwa kwa njano, na kidokezo chake huonekana kwenye upau juu ya gridi.",
+          "Palipo maneno mawili yanayokatizana, gusa kisanduku kile kile tena kubadili kati ya Mlalo na Wima. Katika skanwodi unaweza pia kugusa kisanduku cha kidokezo chenyewe."
+        ]
+      },
+      {
+        "title": "Kuandika",
+        "paragraphs": [
+          "Kwenye kompyuta, andika tu — huhitaji kubadili mpangilio wa kibodi: ikiwa kibodi yako ni ya Kiingereza, vitufe huandika herufi za mchezo mahali pake pa kawaida.",
+          "Kwenye simu au kompyuta kibao, kibodi ya mchezo huonekana chini ya gridi. Chemshabongo ya Kiswahili hutumia herufi a hadi z, herufi moja kwa kisanduku.",
+          "Tahajia ni Kiswahili sanifu cha Kenya na Tanzania. Maneno yenye apostrofi, kama ng'ombe, hayatumiki kama majibu."
+        ]
+      },
+      {
+        "title": "Kusogea",
+        "paragraphs": [
+          "Vishale husogeza kati ya visanduku; kishale kinachovuka mwelekeo wa sasa kwanza hugeuza kishale. Enter inaruka hadi kidokezo kinachofuata, Shift+Enter hadi kilichotangulia.",
+          "Backspace hufuta herufi na kurudi nyuma. Home na End huruka mwanzo na mwisho wa neno. Tab huondoka kwenye gridi."
+        ]
+      },
+      {
+        "title": "Kupata msaada",
+        "paragraphs": [
+          "Kagua huweka mstari mwekundu kwenye herufi zisizo sahihi na kufunga zile sahihi. Fichua hujaza herufi, neno au mchezo wote; herufi zilizofichuliwa huwa na bendera ndogo ya zambarau.",
+          "Washa “Kagua ninapoandika” kwenye mipangilio ikiwa unataka majibu ya papo hapo."
+        ]
+      },
+      {
+        "title": "Maneno mapya, kila mara",
+        "paragraphs": [
+          "Kifaa chako hukumbuka maneno ambayo yameonyeshwa na hayakuombi tena. Kila mchezo mpya umetengenezwa kwa maneno ambayo hujayaona hapa."
+        ]
+      }
+    ]
+  },
+  "Faq": {
+    "title": "Maswali na majibu",
+    "subtitle": "Yote kuhusu Chemshabongo AI mahali pamoja: michezo, jinsi AI inavyoandika, kucheza kwenye kifaa chochote, na faragha yako.",
+    "groups": [
+      {
+        "title": "Kuhusu Chemshabongo AI",
+        "items": [
+          {
+            "question": "Chemshabongo AI ni nini?",
+            "answer": "Chemshabongo AI ni tovuti bure inayotengeneza chemshabongo na skanwodi katika lugha thelathini na tatu. Modeli ya AI huandika maneno na vidokezo moja kwa moja katika kila lugha, msimbo hujenga gridi, na kila kifaa hupata maneno ambayo hakijayaona tu."
+          },
+          {
+            "question": "Je, Chemshabongo AI ni bure kweli?",
+            "answer": "Ndiyo. Kila chemshabongo na skanwodi inachezeka bure — bila akaunti, bila kujisajili, bila usajili na bila matangazo."
+          },
+          {
+            "question": "Je, nahitaji akaunti?",
+            "answer": "Hapana. Hakuna cha kujisajili. Maendeleo yako, mipangilio na orodha ya maneno uliyoyaona huhifadhiwa kwenye kivinjari, kwenye kifaa chako."
+          },
+          {
+            "question": "Nani anatengeneza Chemshabongo AI?",
+            "answer": "Ni mradi huru wa mtengenezaji Michael Navasardyan: michezo inayosomeka kana kwamba mwandishi wa huko ndiye aliyeiandika, katika kila lugha inayotolewa — Kiswahili, Kiarmenia, Kirusi na Kiingereza miongoni mwao."
+          }
+        ]
+      },
+      {
+        "title": "Michezo",
+        "items": [
+          {
+            "question": "Kuna tofauti gani kati ya chemshabongo na skanwodi?",
+            "answer": "Chemshabongo huorodhesha vidokezo vyenye namba kando ya gridi, Mlalo na Wima. Skanwodi huchapisha kila kidokezo ndani ya kisanduku, pamoja na mshale unaoelekeza jibu — umbo linalojaza majarida ya michezo ya akili nchini Urusi na Armenia."
+          },
+          {
+            "question": "Michezo ni mikubwa kiasi gani?",
+            "answer": "Kuna ukubwa tatu. Chemshabongo ya kawaida hujaza gridi ya 9×9, 13×13 au 15×15 kwa maneno yapata 8–14, 16–24 au 22–34, kisha hukatwa kulingana na maneno. Skanwodi hutumia gridi ya 8×10, 10×13 au 13×17 — ndefu kuliko upana, kwa sababu nyingi hutatuliwa kwenye simu."
+          },
+          {
+            "question": "Viwango vya ugumu vinatofautianaje?",
+            "answer": "Rahisi hutumia maneno ya kila siku yenye maelezo ya moja kwa moja. Wastani huchota msamiati mpana zaidi. Ngumu huleta maneno adimu na vidokezo vinavyokufanya ufikiri mara mbili."
+          },
+          {
+            "question": "Naweza kuchagua mada zipi?",
+            "answer": "Kumi na mbili: maneno ya kila siku, mazingira, wanyama, chakula na vinywaji, jiografia, historia, sayansi, michezo, sanaa, nyumbani, kazi na utamaduni wa kienyeji — au zichanganye zote katika mchezo mmoja."
+          },
+          {
+            "question": "Je, nitaona neno lile lile mara mbili?",
+            "answer": "Si kwenye kifaa kile kile. Hukumbuka hadi maneno 4,000 kwa kila lugha — yapata michezo 130 — na kuyaacha nje ya kila mchezo mpya; baada ya hapo tu yale ya zamani zaidi huondoka kwenye orodha. Kufuta data ya tovuti huanza orodha upya."
+          },
+          {
+            "question": "AI huandikaje vidokezo?",
+            "answer": "Modeli ya Gemini ya Google huandika maneno na vidokezo moja kwa moja katika kila lugha, ikifuata mwongozo wa wazungumzaji asilia. Msimbo kisha hukagua kila kimoja — alfabeti sahihi, neno moja halisi, kidokezo cha haki kisichotoa jibu — na upitaji wa pili wa AI hufanya kazi ya mhariri. Kinachoshindwa huondolewa, hakitengenezwi. Gridi yenyewe hujengwa na msimbo, si na AI."
+          },
+          {
+            "question": "Je, kidokezo kikiwa kibaya?",
+            "answer": "Fungua menyu ya ⋯ juu ya gridi na uchague “Ripoti kidokezo”. Wachezaji watatu tofauti wakiripoti kidokezo kile kile, kinaondolewa wala hakionekani tena."
+          }
+        ]
+      },
+      {
+        "title": "Kucheza",
+        "items": [
+          {
+            "question": "Ninaandikaje majibu kwenye simu au kompyuta?",
+            "answer": "Kwenye kompyuta, andika tu: hata kibodi ikiwa ya Kiingereza, vitufe huandika herufi za mchezo mahali pake pa kawaida, hivyo hakuna mpangilio wa kubadili. Kwenye simu au kompyuta kibao, kibodi ya mchezo huonekana chini ya gridi, na kibodi ya mfumo haiifuniki."
+          },
+          {
+            "question": "Naweza kukagua majibu au kupata msaada?",
+            "answer": "Ndiyo. Kagua huweka alama kwenye herufi zisizo sahihi katika kisanduku kimoja, neno moja au mchezo wote, na Fichua hujaza herufi, neno au vyote. Washa “Kagua ninapoandika” kwenye mipangilio kuona makosa mara unapoyafanya."
+          },
+          {
+            "question": "Herufi za Kiarmenia ու na և, na Ё ya Kirusi, hushughulikiwaje?",
+            "answer": "Katika chemshabongo za Kiarmenia, ու na և ni herufi moja moja na kila moja hujaza kisanduku kimoja, kama kwenye chemshabongo zilizochapishwa; kibodi ya skrini inazo zote mbili, na kuandika ո kisha ւ huzifunga kuwa ու. Katika chemshabongo za Kirusi, Ё huandikwa kama Е, kama kwenye zilizochapishwa."
+          },
+          {
+            "question": "Je, maendeleo yangu yanahifadhiwa?",
+            "answer": "Ndiyo, kiotomatiki, unapocheza. Kila chemshabongo au skanwodi unayoanza na kuiacha haijamalizika huorodheshwa chini ya “Michezo yangu”, herufi zako zikiwa zimehifadhiwa, ili uendelee baadaye — hata nje ya mtandao."
+          },
+          {
+            "question": "Naweza kucheza nje ya mtandao, au kuisakinisha kama programu?",
+            "answer": "Ndiyo. Chemshabongo AI husakinishwa kutoka kwenye kivinjari kama programu (kwenye iPhone: Share → Add to Home Screen). Kila mchezo unaofungua huhifadhiwa pamoja na maendeleo na unaendelea bila muunganisho; michezo mipya pekee inahitaji intaneti."
+          },
+          {
+            "question": "Naweza kumshirikisha rafiki mchezo?",
+            "answer": "Ndiyo. Gusa Shiriki juu ya gridi kunakili kiungo, au ukitume kupitia WhatsApp, Telegram, Facebook, X, VK au barua pepe. Rafiki yako anapata gridi na vidokezo vile vile."
+          },
+          {
+            "question": "Naweza kucheza kwa kibodi au kisoma skrini?",
+            "answer": "Ndiyo. Gridi inafanya kazi kikamilifu kwa kibodi na kwa visoma skrini: kila kisanduku kina lebo, kidokezo tendaji hutangazwa, na ukaguzi pamoja na ufichuzi husomwa. Herufi zisizo sahihi na zilizofichuliwa huwekwa alama kwa umbo, si kwa rangi pekee."
+          }
+        ]
+      },
+      {
+        "title": "Faragha",
+        "items": [
+          {
+            "question": "Mnahifadhi data gani?",
+            "answer": "Kidogo sana. Michezo yako, maendeleo, mipangilio na orodha ya maneno uliyoyaona hubaki kwenye kivinjari chako. Seva huhifadhi michezo inayotengenezwa (ili kiungo cha kushiriki kifungue gridi ile ile), ripoti za vidokezo pamoja na heshi ya njia moja ya anwani ya IP, na hesabu zisizo na jina za utatuzi. Hakuna majina wala wasifu."
+          },
+          {
+            "question": "Je, chochote kukuhusu mimi hutumwa kwa AI?",
+            "answer": "Hapana. Mipangilio ya mchezo pekee — lugha, mada, ugumu — na orodha za maneno huenda kwenye modeli za Gemini za Google, kamwe si chochote kukuhusu wewe."
+          }
+        ]
+      }
+    ],
+    "ctaTitle": "Uko tayari kwa mchezo mpya?",
+    "ctaText": "Chagua mada na ugumu — gridi ijayo iko sekunde chache.",
+    "cta": "Tengeneza mchezo"
+  },
+  "About": {
+    "title": "Kuhusu Chemshabongo AI",
+    "subtitle": "Kitengenezaji cha michezo bure kinachoandika katika lugha yako na kisichowahi kutoa neno lile lile mara mbili.",
+    "sections": [
+      {
+        "title": "Kwa nini tuliitengeneza",
+        "paragraphs": [
+          "Chemshabongo nyingi mtandaoni hurudia orodha ndogo ya maneno, na zilizotafsiriwa zinasikika kama tafsiri. Tulitaka michezo inayoonekana imeandikwa na mwandishi wa huko — na inayobaki mpya hata ukitatua nyingi."
+        ]
+      },
+      {
+        "title": "Maneno huandikwaje",
+        "paragraphs": [
+          "Modeli ya AI huandika maneno na vidokezo moja kwa moja katika kila lugha, ikifuata mwongozo wa wazungumzaji asilia: maumbo ya kisarufi yanayotumiwa na chemshabongo, tahajia sanifu, na jinsi vidokezo vinavyowekwa katika utamaduni wa michezo ya lugha hiyo.",
+          "Kila neno kisha hupitia ukaguzi wa kiotomatiki — alfabeti sahihi, neno moja halisi, hakuna kidokezo kinachotoa jibu — na AI ya pili hufanya kazi ya mhariri. Ripoti za wachezaji huondoa chochote kinachopita."
+        ]
+      },
+      {
+        "title": "Gridi hujengwaje",
+        "paragraphs": [
+          "Gridi yenyewe hujengwa na msimbo, si na AI: algoriti hupanga maneno ili kila herufi iwe ya neno halisi lenye kidokezo. Hicho ndicho kinachofanya kila mchezo uwe wa haki."
+        ]
+      }
+    ]
+  },
+  "Privacy": {
+    "title": "Sera ya faragha",
+    "subtitle": "Kwa ufupi: hakuna akaunti, hakuna majina, hakuna uundaji wa wasifu. Hiki ndicho tunachohifadhi.",
+    "sections": [
+      {
+        "title": "Kwenye kifaa chako",
+        "paragraphs": [
+          "Kivinjari chako huhifadhi michezo unayofungua, maendeleo, mipangilio na orodha ya maneno ambayo tayari umeyaona, ili yasiweze kurudiwa. Hii hubaki kwenye kifaa chako; kufuta data ya tovuti huiondoa."
+        ]
+      },
+      {
+        "title": "Kwenye seva yetu",
+        "paragraphs": [
+          "Tunahifadhi michezo inayotengenezwa, ili kiungo cha kushiriki kifungue gridi ile ile. Unaporipoti kidokezo tunahifadhi ripoti pamoja na heshi ya njia moja ya anwani yako ya IP, ili mtu mmoja asiweze kuondoa kidokezo peke yake. Pia tunahesabu bila majina jinsi michezo inavyochezwa (imetatuliwa, maneno yapi yalifichuliwa) ili kurekebisha ugumu."
+        ]
+      },
+      {
+        "title": "Mtoa huduma wa AI",
+        "paragraphs": [
+          "Maneno na vidokezo vipya huandikwa na modeli za Gemini za Google. Mipangilio ya mchezo pekee (lugha, mada, ugumu) na orodha za maneno hutumwa — kamwe si chochote kukuhusu wewe."
+        ]
+      },
+      {
+        "title": "Takwimu na ripoti za hitilafu",
+        "paragraphs": [
+          "Ikewashwa, tunatumia Google Analytics kuhesabu mitazamo ya kurasa na Sentry kupokea ripoti za hitilafu. Hakuna kinachotumika kukutambua."
+        ]
+      }
+    ]
+  },
+  "Terms": {
+    "title": "Masharti ya matumizi",
+    "subtitle": "Chemshabongo AI ni bure kutumia, kwa starehe na kujifunza.",
+    "sections": [
+      {
+        "title": "Kutumia huduma",
+        "paragraphs": [
+          "Unaweza kucheza, kushiriki na kuchapisha michezo kwa matumizi ya kibinafsi na elimu. Tafadhali usiilemee huduma kwa maombi ya kiotomatiki."
+        ]
+      },
+      {
+        "title": "Maudhui yaliyoandikwa na AI",
+        "paragraphs": [
+          "Maneno na vidokezo huandikwa na AI na hukaguliwa kiotomatiki, lakini makosa yanaweza kutokea. Ukipata kimoja, liripoti — ndivyo vidokezo vibaya vinavyoondolewa."
+        ]
+      },
+      {
+        "title": "Hakuna dhamana",
+        "paragraphs": [
+          "Huduma hutolewa jinsi ilivyo, bila dhamana ya upatikanaji au usahihi. Tunaweza kubadili au kusitisha vipengele wakati wowote."
+        ]
+      }
+    ]
+  },
+  "Contact": {
+    "title": "Tuandikie",
+    "subtitle": "Una swali, wazo, au kitu hakikuenda vizuri? Tuandikie, tutajibu kwa barua pepe.",
+    "fullName": "Jina",
+    "email": "Barua pepe",
+    "message": "Ujumbe",
+    "messagePlaceholder": "Tunawezaje kusaidia?",
+    "required": "Jaza sehemu hii",
+    "invalidEmail": "Barua pepe hii haionekani sahihi",
+    "submit": "Tuma",
+    "sent": "Ujumbe umetumwa",
+    "sentText": "Asante. Tutajibu barua pepe yako haraka iwezekanavyo.",
+    "sendAnother": "Andika ujumbe mwingine",
+    "tooMany": "Ujumbe umezidi. Jaribu tena baadaye kidogo."
+  }
+}

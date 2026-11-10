@@ -107,6 +107,17 @@ export const SKY = {
   700: '#1b5a92',
 } as const
 
+/**
+ * Neutral ink for a black-and-white PDF. On-screen lettering is plum, which would tint a sheet
+ * that is meant to print with no colour.
+ */
+export const PRINT = {
+  ink: '#1a1a1a',
+  muted: '#5a5a5a',
+  paper: '#f2f2f2',
+  hatch: '#8d8d8d',
+} as const
+
 /** Hairlines on cream and white. */
 export const LINE = {
   subtle: '#efe2cb',

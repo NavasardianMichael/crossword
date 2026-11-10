@@ -83,16 +83,21 @@ const buildSystemInstruction = (locale: Locale, examples: readonly ContentExampl
 
 const buildPrompt = ({ locale, topic, difficulty, seeding }: GenerateParams): string => {
   const { topicNames, difficultyGuide } = LOCALE_CONTENT[locale]
+  const shortCells = locale === 'zh' || locale === 'ja' || locale === 'ko' || locale === 'hi' || locale === 'mr' || locale === 'bn' || locale === 'ta' || locale === 'th'
   const lines = [
     `Write ${BATCH_SIZE} new entries.`,
     `Topic: ${topicNames[topic]}. Focus on: ${seeding.subtopic}.`,
     `Difficulty: ${difficultyGuide[difficulty]}`,
-    `Every word must start with one of these letters: ${seeding.letters.join(', ')} — at least 3 words for each letter.`,
-    'Word lengths: about 10 words of 3–5 letters, 10 of 6–8 letters, 5 of 9 letters or more.',
+    shortCells
+      ? 'Word lengths: about 10 words of 2–3 cells, 10 of 4–6 cells, 5 of 7 cells or more. Count cells, not code points: one Han character, one Hangul syllable, one kana, or one akshara.'
+      : 'Word lengths: about 10 words of 3–5 letters, 10 of 6–8 letters, 5 of 9 letters or more.',
     PROPER_NOUN_TOPICS.includes(topic)
       ? 'Well-known proper nouns of this topic are welcome, but at most a third of the batch.'
       : 'No proper nouns at all.',
   ]
+  if (seeding.letters.length) {
+    lines.splice(3, 0, `Every word must start with one of these letters: ${seeding.letters.join(', ')} — at least 3 words for each letter.`)
+  }
   if (seeding.avoid.length) {
     lines.push(`These words are already used — do not write any of them, or any word of the same root:\n${seeding.avoid.join(', ')}`)
   }

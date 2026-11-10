@@ -7,6 +7,28 @@ datasource db {
   url      = env("DATABASE_URL")
 }
 
+/// An account. Signs in with a password, Google, or both.
+model User {
+  id                     String    @id @default(cuid())
+  email                  String    @unique
+  fullName               String
+  /// Null for a Google-only account.
+  passwordHash           String?
+  googleId               String?   @unique
+  avatarUrl              String?
+  /// Set when the inbox was proven: Google vouched for it, or the owner opened an emailed link.
+  /// A password account cannot sign in until it is set.
+  emailVerifiedAt        DateTime?
+  emailVerifyTokenHash   String?   @unique
+  emailVerifyExpiresAt   DateTime?
+  /// Bumped when the password changes; every older session cookie stops being honoured.
+  tokenVersion           Int       @default(0)
+  passwordResetTokenHash String?   @unique
+  passwordResetExpiresAt DateTime?
+  createdAt              DateTime  @default(now())
+  updatedAt              DateTime  @updatedAt
+}
+
 enum PuzzleFormat {
   classic
   scanword
@@ -124,6 +146,8 @@ model EntryReport {
   /// A hash of the reporter's IP — enough to stop one person retiring a clue alone.
   reporterKey String
   reason      String
+  /// The player's own words, only when `reason` is `other`.
+  note        String?
   createdAt   DateTime @default(now())
 
   @@unique([entryId, reporterKey])

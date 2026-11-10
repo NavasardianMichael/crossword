@@ -10,13 +10,12 @@ try {
   process.exit(0)
 }
 
-const FILE_FIELDS = ['file_path', 'notebook_path', 'path', 'glob', 'command']
-const toolInput = input.tool_input ?? {}
-const targets = FILE_FIELDS.map((field) => toolInput[field]).filter((value) => typeof value === 'string')
+const { file_path, notebook_path, path, glob, command } = input.tool_input ?? {}
+const targets = [file_path, notebook_path, path, glob, command].filter((value) => typeof value === 'string')
 
 // A dotenv file name: preceded by a separator (so a property access on `process` does not count),
 // followed by nothing, a further `.suffix` or a glob.
-const DOTENV = new RegExp(String.raw`(^|[^\w$])\.` + 'env' + String.raw`([.\w*-]*)`, 'g')
+const DOTENV = /(^|[^\w$])\.env([.\w*-]*)/g
 const namesSecretEnv = (text) =>
   [...text.matchAll(DOTENV)].some(([, , suffix]) => suffix !== '.example' && (suffix === '' || /^[.*]/.test(suffix)))
 

@@ -12,10 +12,9 @@ import { cn } from '@helpers/cn'
 import { Button } from '@components/ui/Button'
 
 /**
- * Three languages fit a menu. Each is shown by its own name (an endonym, with `lang`), so
- * someone who cannot read the current UI can still find theirs. Switching keeps the page and
- * its query. Puzzles are written per language, so a puzzle page keeps its own language's
- * grid — the interface around it changes.
+ * Every language is shown by its own name (an endonym, with `lang`), so someone who cannot read
+ * the current UI can still find theirs. The menu scrolls. Switching keeps the page and its
+ * query. A puzzle page keeps its own language's grid — the interface around it changes.
  */
 export const LanguageSwitcher = ({ className }: { className?: string }) => {
   const [isPending, startTransition] = useTransition()
@@ -37,8 +36,9 @@ export const LanguageSwitcher = ({ className }: { className?: string }) => {
     <Dropdown
       trigger={['click']}
       placement='bottomRight'
-      menu={{
-        selectable: true,
+        menu={{
+          className: 'max-h-[70vh] overflow-y-auto',
+          selectable: true,
         selectedKeys: [locale],
         onClick: ({ key }) => isLocale(key) && void choose(key),
         items: LOCALES.map((each) => ({

@@ -1,0 +1,539 @@
+{
+  "Common": {
+    "appName": "Rebus AI",
+    "tagline": "Cuvinte încrucișate și rebusuri scandinave gratuite, scrise pe loc de inteligența artificială, în limba ta. Cuvinte noi la fiecare joc, niciodată aceleași.",
+    "skipToContent": "Sari la conținut",
+    "openMenu": "Deschide meniul",
+    "menu": "Meniu",
+    "close": "Închide",
+    "retry": "Încearcă din nou",
+    "chooseLanguage": "Alege limba",
+    "language": "Limbă",
+    "copyright": "© {year} {appName}. Făcut din cuvinte și un pic de magie.",
+    "backOnline": "Ești din nou online.",
+    "offline": "Ești offline. Rebusurile deschise se pot juca în continuare.",
+    "lastUpdated": "Actualizat: {date}"
+  },
+  "Nav": {
+    "main": "Principal",
+    "footer": "Site",
+    "home": "Acasă",
+    "crossword": "Cuvinte încrucișate",
+    "scanword": "Rebus scandinav",
+    "topics": "Teme",
+    "history": "Rebusurile mele",
+    "rules": "Cum se joacă",
+    "faq": "Întrebări",
+    "about": "Despre",
+    "privacy": "Confidențialitate",
+    "terms": "Termeni",
+    "contact": "Contact"
+  },
+  "Errors": {
+    "network": "Serverul nu răspunde. Verifică legătura și încearcă din nou.",
+    "rateLimited": "Au fost multe rebusuri într-un minut. Respiră și încearcă iar peste puțin.",
+    "unauthorized": "Acțiunea nu este permisă.",
+    "notFound": "Nu am găsit.",
+    "server": "Ceva n-a mers la noi. Te rugăm să încerci din nou.",
+    "generic": "Ceva n-a mers. Te rugăm să încerci din nou.",
+    "details": "Detalii",
+    "pageErrorTitle": "Hopa, a căzut o căsuță",
+    "pageErrorBody": "Pagina a dat de o eroare neașteptată. De obicei, o nouă încercare ajută.",
+    "notFoundTitle": "Pagina asta nu e în careu",
+    "notFoundBody": "Legătura poate fi veche sau scrisă greșit. Îți găsim un rebus nou.",
+    "goHome": "La pagina de start"
+  },
+  "Pwa": {
+    "install": "Instalează aplicația",
+    "iosTitle": "Pune Rebus AI pe ecranul principal",
+    "benefit": "Deschide-l ca pe o aplicație, pe tot ecranul, și joacă offline rebusurile salvate.",
+    "iosStep1": "Atinge butonul Partajează din bara Safari.",
+    "iosStep2": "Alege „Adaugă la ecranul principal”.",
+    "iosStep3": "Atinge „Adaugă”. Iconița apare pe ecranul principal.",
+    "gotIt": "Am înțeles"
+  },
+  "Seo": {
+    "homeTitle": "Cuvinte încrucișate gratis | Fă un rebus online",
+    "homeDescription": "Fă gratis un rebus sau cuvinte încrucișate online. Alege o temă — animale, mâncare, geografie, istorie, știință, sport — și dificultatea. Fiecare careu aduce cuvinte noi. Merge și offline.",
+    "keywords": "cuvinte încrucișate, rebus, fă un rebus, rebus în română, cuvinte încrucișate online, rebus scandinav, rebus animale, rebus mâncare, rebus geografie, rebus istorie, rebus știință, rebus sport",
+    "crosswordTitle": "Cuvinte încrucișate online, gratis",
+    "crosswordDescription": "Joacă gratis cuvinte încrucișate online, scrise de inteligența artificială: definiții numerotate pe orizontală și verticală, 12 teme, trei niveluri. Fără cont, cuvinte noi de fiecare dată.",
+    "scanwordTitle": "Rebus scandinav gratis — definițiile în careu",
+    "scanwordDescription": "Rezolvă gratis un rebus scandinav online: definițiile stau în careu, cu săgeți spre răspuns. Scris de inteligența artificială, fără cont, pe telefon, tabletă sau calculator.",
+    "topicsTitle": "Teme de rebus: animale, mâncare, geografie",
+    "topicsDescription": "Alege o temă pentru următorul rebus: natură, animale, mâncare, geografie, istorie, știință, sport, arte și altele.",
+    "topicTitle": "Rebus {topic} — careuri gratuite online",
+    "topicDescription": "Rebusuri și careuri scandinave gratuite despre {topic}, făcute de inteligența artificială. {description}",
+    "historyTitle": "Rebusurile mele",
+    "historyDescription": "Cuvintele încrucișate și rebusurile scandinave începute pe acest aparat și neterminate, cu progresul păstrat.",
+    "rulesTitle": "Cum se rezolvă cuvintele încrucișate și rebusul scandinav",
+    "rulesDescription": "Cum rezolvi aici un careu: scrierea literelor, deplasarea, verificarea și dezvăluirea, și scurtăturile de tastatură.",
+    "faqTitle": "Întrebări: rebus AI gratuit, limbi și confidențialitate",
+    "faqDescription": "Răspunsuri despre Rebus AI: e gratis, cum scrie inteligența artificială definițiile, mărimea careului, dificultatea, cuvintele care nu se repetă, jocul offline, partajarea și confidențialitatea.",
+    "aboutTitle": "Despre — cum se fac rebusurile noastre",
+    "aboutDescription": "De ce am făcut un generator gratuit de cuvinte încrucișate care nu repetă niciun cuvânt, și cum scrie inteligența artificială definițiile direct în fiecare limbă.",
+    "privacyTitle": "Politica de confidențialitate",
+    "privacyDescription": "Ce păstrează Rebus AI, unde și de ce. Fără cont și fără urmărirea identității.",
+    "termsTitle": "Termeni de utilizare",
+    "termsDescription": "Regulile simple pentru folosirea Rebus AI.",
+    "contactTitle": "Scrie-ne",
+    "contactDescription": "O întrebare, o idee sau o problemă la rebus? Scrie-ne și îți răspundem pe e-mail.",
+    "puzzleDescription": "Un careu gratuit făcut de Rebus AI — rezolvă-l în browser.",
+    "sharedPuzzleDescription": "Un {format, select, scanword {rebus scandinav} other {rebus}} {size} gratuit · {topic} · {difficulty} · {words, plural, one {# cuvânt} few {# cuvinte} other {# de cuvinte}}. Scris de inteligența artificială — rezolvă-l în browser, fără cont.",
+    "ogImageAlt": "Rebus AI — cuvinte încrucișate și rebusuri scandinave gratuite, în limba ta",
+    "ogPuzzleCta": "Îl poți rezolva?",
+    "ogPuzzleMeta": "{size} · {words, plural, one {# cuvânt} few {# cuvinte} other {# de cuvinte}}"
+  },
+  "Formats": {
+    "classic": {
+      "name": "Cuvinte încrucișate",
+      "short": "Definiții numerotate, pe orizontală și verticală",
+      "description": "Clasicul: cuvintele se încrucișează într-un careu liber, iar definițiile stau în listele de alături.",
+      "cta": "Joacă un rebus"
+    },
+    "scanword": {
+      "name": "Rebus scandinav",
+      "short": "Definițiile în careu, cu săgeți",
+      "description": "Fiecare definiție stă în careu, cu o săgeată spre răspuns. Se citește repede și se lasă greu.",
+      "cta": "Joacă un rebus scandinav"
+    }
+  },
+  "Topics": {
+    "any": "Teme amestecate",
+    "general": { "name": "Cuvinte de zi cu zi", "description": "Cuvintele vieții de toate zilele: casă, oameni, timp, lumea din jur." },
+    "nature": { "name": "Natură", "description": "Păduri, râuri, vreme, plante și anotimpuri." },
+    "animals": { "name": "Animale", "description": "Animale sălbatice și domestice, păsări, pești și insecte." },
+    "food": { "name": "Mâncare și băutură", "description": "Feluri, ingrediente, bucătărie și tot ce e pe masă." },
+    "geography": { "name": "Geografie", "description": "Țări, orașe, râuri, munți și locuri cunoscute." },
+    "history": { "name": "Istorie", "description": "Epoci, invenții, meșteșuguri și obiecte din trecut." },
+    "science": { "name": "Știință", "description": "Fizică, chimie, biologie, cosmos și corpul omenesc." },
+    "sport": { "name": "Sport", "description": "Jocuri, echipament, întreceri și reguli." },
+    "arts": { "name": "Arte", "description": "Muzică, literatură, teatru, pictură și film." },
+    "home": { "name": "Casă și gospodărie", "description": "Mobilă, unelte, haine și lucrurile de toate zilele." },
+    "professions": { "name": "Meserii", "description": "Meserii, meșteșuguri, unelte și locuri de muncă." },
+    "localCulture": { "name": "Cultură locală", "description": "Tradiții, sărbători, folclor și locuri cunoscute ale culturii din spatele fiecărei limbi." }
+  },
+  "Difficulty": { "1": "Ușor", "2": "Mediu", "3": "Greu" },
+  "Sizes": { "small": "Mic", "medium": "Mediu", "large": "Mare" },
+  "Generator": {
+    "format": "Alege forma",
+    "topic": "Alege o temă",
+    "difficulty": "Dificultate",
+    "size": "Mărime",
+    "create": "Fă-mi careul",
+    "creating": "Se construiește careul…",
+    "creatingHint": "Alegem cuvinte pe care nu le-ai văzut. Cele noi pot dura câteva secunde.",
+    "cancel": "Renunță",
+    "freshHint": "Gratis, fără cont. Fiecare careu aduce cuvinte pe care nu le-ai întâlnit aici.",
+    "exhausted": "Ai jucat, deocamdată, toate cuvintele pentru alegerea asta. Scriem altele. Încearcă altă temă sau revino peste un minut."
+  },
+  "Home": {
+    "hero": {
+      "eyebrow": "Gratis · Fără cont · Merge offline",
+      "title": "Cuvinte încrucișate <mark>mereu noi</mark>",
+      "subtitle": "Alegi tema și dificultatea. Inteligența artificială scrie definițiile în limba ta, iar același cuvânt nu mai apare.",
+      "lede": "Fă gratis un rebus sau cuvinte încrucișate online, fără cont. Temele merg de la animale, mâncare și geografie la istorie, știință, sport, arte, casă, meserii și cultură locală — sau le amesteci pe toate."
+    },
+    "continueTitle": "Continuă de unde ai rămas",
+    "formatsTitle": "Două feluri de joc",
+    "formatsSubtitle": "Un clasic încăpător, cu liste de definiții, sau un rebus scandinav strâns, cu definițiile în careu.",
+    "pointsTitle": "Cu ce se deosebește",
+    "points": {
+      "fresh": { "title": "Nicio repetare", "text": "Aparatul ține minte fiecare cuvânt arătat, așa că noul careu aduce cuvinte pe care nu le-ai rezolvat încă." },
+      "native": { "title": "Scris în limba ta", "text": "Definițiile sunt scrise direct în fiecare limbă, cum le-ar pune un autor de rebus de-al locului, nu traduse din alta." },
+      "ai": { "title": "Făcut de AI, verificat de cod", "text": "Inteligența artificială propune cuvinte și definiții; verificările noastre lasă deoparte ce e scris greșit, nedrept sau dă răspunsul de gol." },
+      "offline": { "title": "Se joacă oriunde", "text": "Instalează-l ca pe o aplicație. Careurile deschise merg în avion, în metrou, oriunde." }
+    },
+    "topicsTitle": "Alege o temă",
+    "topicsSubtitle": "De la păsările din curte la râuri cunoscute — sau amestecă-le.",
+    "faqTitle": "Întrebări și răspunsuri",
+    "faq1Question": "Rebus AI este chiar gratis?",
+    "faq1Answer": "Da. Orice careu se joacă gratis, fără cont, fără înscriere și fără limită.",
+    "faq2Question": "O să văd aceleași cuvinte?",
+    "faq2Answer": "Nu. Aparatul ține o listă a cuvintelor arătate și le lasă afară din fiecare careu nou. Dacă ștergi datele site-ului, lista o ia de la capăt.",
+    "faq3Question": "În ce limbi pot juca?",
+    "faq3Answer": "În treizeci și trei de limbi, fiecare cu propriile cuvinte, scrise pentru vorbitorii ei, niciodată traduse: engleză, spaniolă, portugheză, franceză, germană, italiană, neerlandeză, poloneză, cehă, suedeză, română, maghiară, indoneziană, malaeză, filipineză, vietnameză, swahili, rusă, ucraineană, greacă, arabă, persană, urdu, ebraică, hindi, marathi, bengaleză, tamilă, thailandeză, japoneză, coreeană, chineză și armeană.",
+    "faq4Question": "Care e diferența dintre cuvintele încrucișate și rebusul scandinav?",
+    "faq4Answer": "La cuvintele încrucișate, definițiile numerotate stau lângă careu, pe orizontală și pe verticală. La rebusul scandinav, fiecare definiție e înscrisă într-o căsuță, cu o săgeată spre răspuns.",
+    "faq5Question": "Pot juca offline?",
+    "faq5Answer": "Da. Fiecare careu deschis se salvează pe aparat, cu progresul tău, deci merge fără rețea. Careurile noi au nevoie de internet.",
+    "faq6Question": "Ce fac dacă o definiție e greșită?",
+    "faq6Answer": "Deschide meniul ⋯ de deasupra careului și alege „Raportează definiția”. Când trei jucători diferiți raportează aceeași definiție, ea iese și nu mai apare.",
+    "faqMore": "Toate întrebările și răspunsurile →"
+  },
+  "CrosswordPage": {
+    "hero": {
+      "eyebrow": "Cuvinte încrucișate clasice",
+      "title": "Un rebus clasic, <mark>făcut pentru tine</mark>",
+      "plainTitle": "Rebus AI",
+      "subtitle": "Definiții numerotate pe orizontală și verticală, un careu care crește din mijloc și cuvinte pe care nu le-ai văzut.",
+      "lede": "Joacă gratis cuvinte încrucișate online: definiții numerotate pe orizontală și verticală, teme de la animale și mâncare la geografie, istorie, știință și sport."
+    },
+    "rulesTitle": "Cum e făcut un rebus",
+    "rule1": "Fiecare căsuță albă ține o literă. Cuvintele merg de la stânga la dreapta și de sus în jos și se încrucișează.",
+    "rule2": "Fiecare cuvânt are un număr în prima căsuță și o definiție cu același număr, pe orizontală sau pe verticală.",
+    "rule3": "Atinge o căsuță sau o definiție și începe să scrii. Atinge aceeași căsuță încă o dată — sau apasă spațiu — ca să treci de la orizontală la verticală.",
+    "rule4": "Te-ai blocat? Verifică o literă, un cuvânt sau tot careul, ori dezvăluie o literă ca să mergi mai departe.",
+    "topicsTitle": "Rebusuri pe teme",
+    "faqTitle": "Întrebări despre cuvintele încrucișate",
+    "faq1Question": "Cât de mari sunt careurile?",
+    "faq1Answer": "Mic (până pe la 14 cuvinte), mediu sau mare (peste 20 de cuvinte). Careul se taie pe cuvintele pe care le ține, deci încape mereu pe ecran.",
+    "faq2Question": "Ce face o definiție ușoară sau grea?",
+    "faq2Answer": "Cele ușoare folosesc cuvinte de toate zilele, cu definiții directe. Cele grele folosesc cuvinte mai rare și definiții la care te gândești de două ori.",
+    "faq3Question": "Pot folosi tastatura?",
+    "faq3Answer": "Da: scrii literele, te miști cu săgețile, Enter trece la definiția următoare, Backspace dă înapoi. Pe telefon, tastatura careului apare sub grilă.",
+    "faq4Question": "Pot trimite un rebus unui prieten?",
+    "faq4Answer": "Da. Atinge Distribuie deasupra careului ca să copiezi legătura sau să o trimiți printr-o aplicație. Prietenul primește exact același careu și aceleași definiții."
+  },
+  "ScanwordPage": {
+    "hero": {
+      "eyebrow": "Rebus scandinav",
+      "title": "Rebus scandinav, cu definițiile <mark>în careu</mark>",
+      "plainTitle": "Rebus scandinav AI",
+      "subtitle": "Fără liste de căutat: fiecare definiție stă într-o căsuță, cu o săgeată spre răspuns.",
+      "lede": "Joacă gratis un rebus scandinav online: definițiile stau în careu. Aceleași teme — animale, mâncare, geografie, istorie, știință, sport și altele."
+    },
+    "rulesTitle": "Cum e făcut un rebus scandinav",
+    "rule1": "Căsuțele colorate țin definițiile. Săgeata arată de unde pornește răspunsul și încotro merge.",
+    "rule2": "O căsuță poate ține două definiții: cea de sus arată de obicei spre dreapta, cea de jos în jos.",
+    "rule3": "Atinge căsuța definiției sau orice literă ca să alegi un cuvânt. Definiția întreagă apare mereu în bara de deasupra careului.",
+    "rule4": "Pătrățelele colorate sunt doar podoabă. Literele intră numai în căsuțele albe.",
+    "topicsTitle": "Rebusuri scandinave pe teme",
+    "faqTitle": "Întrebări despre rebusul scandinav",
+    "faq1Question": "Ce este un rebus scandinav?",
+    "faq1Answer": "Un rebus scandinav este un careu cu definițiile tipărite chiar în grilă. A pornit ca rebusul scandinav și e îndrăgit în revistele de enigmistică din Rusia și Armenia.",
+    "faq2Question": "Definițiile din căsuțe sunt mici pe telefon. Ce fac?",
+    "faq2Answer": "Atinge căsuța: definiția întreagă apare mereu în bara de deasupra. Poți și ciupi ca să mărești, sau deschide lista completă.",
+    "faq3Question": "De ce se îndoaie unele săgeți?",
+    "faq3Answer": "Când nu e loc pentru definiție chiar înaintea răspunsului, ea stă deasupra sau lângă prima literă, iar săgeata se îndoaie ca să arate direcția.",
+    "faq4Question": "Definițiile sunt altfel?",
+    "faq4Answer": "Sunt mai scurte. Trebuie să încapă într-o singură căsuță, deci au cel mult câteva cuvinte."
+  },
+  "TopicsPage": {
+    "eyebrow": "Teme",
+    "title": "Despre ce să fie careul?",
+    "subtitle": "Fiecare temă are cuvintele ei, în fiecare limbă. Alege una sau amestecă-le pe pagina de start."
+  },
+  "TopicPage": {
+    "title": "Rebus {topic}",
+    "samplesTitle": "O gustare din {topic}",
+    "samplesSubtitle": "Câteva definiții din fondul de cuvinte. Le ghicești? Careurile adevărate aduc altele, de fiecare dată.",
+    "showAnswer": "Arată răspunsul",
+    "moreTopics": "Mai multe teme"
+  },
+  "Auth": {
+    "signIn": "Intră în cont",
+    "signOut": "Ieși din cont",
+    "signInTitle": "Intră în cont",
+    "signInSubtitle": "Folosește Google sau e-mailul și parola contului.",
+    "signUpTitle": "Creează un cont",
+    "signUpSubtitle": "Îți trimitem o legătură ca să confirmi adresa înainte să intri.",
+    "forgotTitle": "Ai uitat parola?",
+    "forgotSubtitle": "Trimitem o legătură dacă un cont folosește adresa asta.",
+    "resetTitle": "Alege o parolă nouă",
+    "resetSubtitle": "Asta te conectează și te deconectează de pe celelalte aparate.",
+    "verifyTitle": "Confirmă e-mailul",
+    "verifySubtitle": "Deschide legătura din inbox, apoi confirm-o aici. Scanerele de e-mail nu pot consuma legătura.",
+    "google": "Continuă cu Google",
+    "or": "sau",
+    "name": "Nume",
+    "email": "E-mail",
+    "password": "Parolă",
+    "passwordHint": "Cel puțin 8 caractere, cu o literă și o cifră. Nu adresa de e-mail.",
+    "confirmPassword": "Confirmă parola",
+    "passwordMismatch": "Parolele nu coincid",
+    "required": "Câmpul acesta e obligatoriu",
+    "invalidEmail": "Adresa de e-mail nu pare validă",
+    "forgot": "Ai uitat parola?",
+    "noAccount": "Nu ai încă un cont?",
+    "hasAccount": "Ai deja un cont?",
+    "submitSignIn": "Intră în cont",
+    "submitSignUp": "Creează contul",
+    "submitForgot": "Trimite legătura",
+    "submitReset": "Salvează parola",
+    "submitVerify": "Confirmă e-mailul",
+    "verifiedNotice": "E-mail confirmat. Intră în cont ca să continui.",
+    "checkInbox": "Verifică {email}",
+    "checkInboxText": "Am trimis o legătură. Deschide-o, apoi revino și intră în cont.",
+    "resend": "Trimite legătura din nou",
+    "resent": "Trimisă din nou.",
+    "forgotSent": "Dacă un cont folosește adresa, legătura e pe drum.",
+    "invalidCredentials": "E-mailul și parola nu se potrivesc.",
+    "googleOnly": "Contul ăsta intră cu Google.",
+    "emailNotVerified": "Confirmă mai întâi e-mailul. Legătura e în inbox.",
+    "emailTaken": "Există deja un cont cu acest e-mail.",
+    "weakPassword": "Folosește cel puțin 8 caractere, cu o literă și o cifră, și nu adresa de e-mail.",
+    "verifyInvalid": "Legătura de confirmare nu e validă sau a expirat.",
+    "resetInvalid": "Legătura de resetare nu e validă sau a expirat.",
+    "mailFailed": "N-am putut trimite e-mailul. Încearcă din nou.",
+    "googleErrors": {
+      "google_unavailable": "Intrarea cu Google nu e disponibilă acum.",
+      "google_denied": "Intrarea cu Google a fost anulată.",
+      "google_failed": "Intrarea cu Google nu s-a încheiat. Încearcă din nou.",
+      "google_email_unverified": "Google n-a verificat adresa de e-mail."
+    }
+  },
+  "History": {
+    "title": "Rebusurile mele",
+    "subtitle": "Careurile începute și neterminate. Literele rămân pe acest aparat, online sau offline.",
+    "empty": "Niciun careu neterminat. Începe un rebus și te așteaptă aici până îl termini.",
+    "detail": "{percent}% completat · {difficulty} · {size}",
+    "seeAll": "Vezi toate neterminate"
+  },
+  "Play": {
+    "title": "Careu",
+    "loading": "Se deschide careul…",
+    "missingTitle": "Careul nu e aici",
+    "missingText": "Nu e salvat pe acest aparat, iar serverul nu răspunde acum. Verifică legătura sau încearcă când ești online.",
+    "leaveTitle": "Lași careul?",
+    "leaveBody": "Literele rămân pe acest aparat. Îl poți termina mai târziu din Rebusurile mele.",
+    "keepSolving": "Continuă",
+    "leave": "Pleacă",
+    "newPuzzle": "Careu nou",
+    "allClues": "Toate definițiile",
+    "across": "Orizontal",
+    "down": "Vertical",
+    "gridLabel": "Careul",
+    "cell": {
+      "position": "Rândul {row}, coloana {col}",
+      "empty": "goală",
+      "wrong": "literă greșită",
+      "revealed": "dezvăluită",
+      "clue": "Definiție: {clue}"
+    },
+    "wordNumbered": "{number} {dir, select, across {orizontal} other {vertical}}",
+    "wordDirection": "{dir, select, across {Orizontal} other {Vertical}}",
+    "wordLength": "{name}, {length, plural, one {# literă} few {# litere} other {# de litere}}",
+    "wordLetter": "{name}, litera {letter} din {length}",
+    "previousWord": "Definiția anterioară",
+    "nextWord": "Definiția următoare",
+    "toggleDirection": "Schimbă direcția",
+    "filled": "Completat",
+    "keyboard": "Tastatură",
+    "ime": "Scrie un semn",
+    "erase": "Șterge",
+    "time": "Timp: {time}",
+    "check": { "label": "Verifică", "cell": "Verifică litera", "word": "Verifică cuvântul", "puzzle": "Verifică careul" },
+    "reveal": {
+      "label": "Dezvăluie",
+      "cell": "Dezvăluie litera",
+      "word": "Dezvăluie cuvântul",
+      "puzzle": "Dezvăluie careul",
+      "confirmTitle": "Dezvălui tot careul?",
+      "confirmText": "Toate răspunsurile se completează și careul se încheie. Nu se poate anula.",
+      "cancel": "Continuă",
+      "confirm": "Dezvăluie tot"
+    },
+    "clearWrong": "Șterge literele greșite",
+    "more": "Mai mult",
+    "zoom": { "label": "Zoom", "in": "Mărește", "out": "Micșorează", "reset": "Încadrează careul" },
+    "settings": {
+      "label": "Setări",
+      "autoCheck": "Verifică pe măsură ce scriu",
+      "autoCheckHint": "Marchează litera greșită de îndată ce intră.",
+      "skipFilled": "Sari peste căsuțele pline",
+      "skipFilledHint": "Scrierea sare peste căsuțele care au deja o literă."
+    },
+    "share": "Distribuie careul",
+    "shareShort": "Distribuie",
+    "shareTitle": "Încearcă careul ăsta!",
+    "linkCopied": "Legătură copiată. Trimite-o unui prieten.",
+    "shareDialog": {
+      "title": "Distribuie careul",
+      "description": "Prietenul primește același careu și aceleași definiții. Gratis, fără cont.",
+      "link": "Legătura careului",
+      "copy": "Copiază",
+      "copied": "Copiat!",
+      "copyFailed": "N-am putut copia. Legătura e selectată, deci copiaz-o de mână.",
+      "apps": "Trimite printr-o aplicație",
+      "email": "E-mail",
+      "more": "Mai multe…",
+      "text": "Poți rezolva acest {format, select, scanword {rebus scandinav} other {rebus}} despre {topic}? E gratis și scris pe loc de inteligența artificială.",
+      "textAny": "Poți rezolva acest {format, select, scanword {rebus scandinav} other {rebus}}? E gratis și scris pe loc de inteligența artificială."
+    },
+    "pdf": {
+      "open": "Salvează ca PDF",
+      "title": "Salvează ca PDF",
+      "description": "Careul liliachiu, unul colorat sau alb-negru. Se deschide într-o filă nouă.",
+      "appearance": "Înfățișare",
+      "appearanceDefault": "Implicit",
+      "appearanceColorful": "Colorat",
+      "appearanceMono": "Alb-negru",
+      "letters": "Include literele mele",
+      "lettersHint": "Arată literele pe care le-ai scris deja.",
+      "answers": "Adaugă răspunsurile",
+      "answersHint": "Careul rezolvat, pe o pagină separată.",
+      "cancel": "Renunță",
+      "confirm": "Deschide PDF-ul",
+      "preparing": "Se pregătește PDF-ul…",
+      "failed": "PDF-ul n-a putut fi făcut. Încearcă din nou.",
+      "answersTitle": "Răspunsuri",
+      "playOnline": "Joacă online: {url}"
+    },
+    "report": {
+      "open": "Raportează definiția",
+      "title": "Ce nu e în regulă cu definiția?",
+      "cancel": "Renunță",
+      "send": "Trimite raportul",
+      "thanks": "Mulțumim. Rapoartele ne ajută să retragem definițiile proaste.",
+      "note": "Ce ar trebui să știm?",
+      "notePlaceholder": "O notă scurtă, cu cuvintele tale",
+      "reasons": {
+        "wrongClue": "Definiția nu se potrivește cu răspunsul",
+        "notAWord": "Răspunsul nu e un cuvânt real",
+        "offensive": "E jignitor sau nepotrivit",
+        "typo": "E o greșeală de scriere",
+        "other": "Altceva"
+      }
+    },
+    "solved": {
+      "title": "Rezolvat! Bravo!",
+      "titleHelped": "Rezolvat — frumos!",
+      "time": "Timp",
+      "checks": "Verificări",
+      "reveals": "Dezvăluiri",
+      "admire": "Privește careul",
+      "next": "Careul următor"
+    },
+    "announce": {
+      "checked": "{count, plural, one {# literă e greșită} few {# litere sunt greșite} other {# de litere sunt greșite}}",
+      "allCorrect": "Tot ce s-a verificat e corect",
+      "revealed": "{count, plural, one {# literă dezvăluită} few {# litere dezvăluite} other {# de litere dezvăluite}}",
+      "solved": "Careu rezolvat în {seconds, plural, one {# secundă} few {# secunde} other {# de secunde}}!"
+    }
+  },
+  "Rules": {
+    "title": "Cum se joacă",
+    "subtitle": "Tot ce îți trebuie ca să rezolvi aici un rebus, pe telefon, tabletă sau calculator.",
+    "sections": [
+      {
+        "title": "Alegi un cuvânt",
+        "paragraphs": [
+          "Atinge orice căsuță albă. Cuvântul se aprinde galben, iar definiția apare în bara de deasupra careului.",
+          "Unde se încrucișează două cuvinte, atinge aceeași căsuță încă o dată ca să treci de la orizontală la verticală. La rebusul scandinav poți atinge și căsuța definiției."
+        ]
+      },
+      {
+        "title": "Scrierea",
+        "paragraphs": [
+          "Pe calculator scrii direct. Nu trebuie să schimbi tastatura: dacă e pe engleză, tastele scriu literele limbii careului în locurile lor obișnuite.",
+          "Pe telefon sau tabletă, tastatura careului apare sub grilă. În armeană, ՈՒ și և sunt fiecare o tastă și o căsuță; dacă scrii ո și apoi ւ, se unesc singure în ՈՒ.",
+          "În rebusurile rusești, Ё se scrie Е, ca în careurile tipărite.",
+          "În română păstrează ă, â, î, ș și ț. ș și ț au virgulă dedesubt, nu sedilă."
+        ]
+      },
+      {
+        "title": "Deplasarea",
+        "paragraphs": [
+          "Săgețile mută cursorul între căsuțe; o săgeată de-a curmezișul întoarce mai întâi direcția. Enter sare la definiția următoare, Shift+Enter la cea dinainte.",
+          "Backspace șterge o literă și dă un pas înapoi. Home și End sar la începutul și la sfârșitul cuvântului. Tab iese din careu."
+        ]
+      },
+      {
+        "title": "Ajutor",
+        "paragraphs": [
+          "Verificarea taie cu roșu literele greșite și le fixează pe cele bune. Dezvăluirea umple o literă, un cuvânt sau tot careul; literele dezvăluite au un steguleț violet.",
+          "Pornește „Verifică pe măsură ce scriu” dacă vrei să vezi greșeala pe loc."
+        ]
+      },
+      {
+        "title": "Cuvinte noi, de fiecare dată",
+        "paragraphs": [
+          "Aparatul ține minte cuvintele arătate și nu le mai cere. Fiecare careu nou e făcut din cuvinte pe care nu le-ai întâlnit aici."
+        ]
+      }
+    ]
+  },
+  "Faq": {
+    "title": "Întrebări și răspunsuri",
+    "subtitle": "Totul despre Rebus AI într-un singur loc: careurile, cum le scrie inteligența artificială, jocul pe orice aparat și confidențialitatea.",
+    "groups": [
+      {
+        "title": "Despre Rebus AI",
+        "items": [
+          { "question": "Ce este Rebus AI?", "answer": "Rebus AI este un site gratuit care face cuvinte încrucișate și rebusuri scandinave în treizeci și trei de limbi. Un model scrie cuvintele și definițiile direct în fiecare limbă, codul construiește careul, iar fiecare aparat primește doar cuvinte pe care nu le-a văzut." },
+          { "question": "Rebus AI este chiar gratis?", "answer": "Da. Orice careu se joacă gratis: fără cont, fără înscriere, fără abonament și fără reclame." },
+          { "question": "Am nevoie de cont?", "answer": "Nu. Nu e nimic de înregistrat. Progresul, setările și lista cuvintelor văzute stau în browser, pe aparatul tău." },
+          { "question": "Cine face Rebus AI?", "answer": "Este un proiect independent al dezvoltatorului Michael Navasardyan: careuri care se citesc ca și cum le-ar fi scris un autor de-al locului, în fiecare limbă a site-ului, între care armeana, rusa și engleza." }
+        ]
+      },
+      {
+        "title": "Careurile",
+        "items": [
+          { "question": "Care e diferența dintre cuvintele încrucișate și rebusul scandinav?", "answer": "La cuvintele încrucișate, definițiile numerotate stau lângă careu. La rebusul scandinav, fiecare definiție e tipărită într-o căsuță, cu o săgeată spre răspuns, forma plină în revistele de enigmistică din Rusia și Armenia." },
+          { "question": "Cât de mari sunt careurile?", "answer": "Sunt trei mărimi. Un rebus clasic umple o grilă de 9×9, 13×13 sau 15×15 cu vreo 8–14, 16–24 sau 22–34 de cuvinte, apoi se taie pe ele. Rebusul scandinav folosește 8×10, 10×13 sau 13×17, mai înalt decât lat, pentru că cele mai multe se rezolvă pe telefon." },
+          { "question": "Cum diferă nivelurile?", "answer": "Ușor folosește cuvinte de toate zilele, cu definiții directe. Mediu trage dintr-un vocabular mai larg. Greu aduce cuvinte mai rare și definiții la care te gândești de două ori." },
+          { "question": "Ce teme pot alege?", "answer": "Douăsprezece: cuvinte de zi cu zi, natură, animale, mâncare și băutură, geografie, istorie, știință, sport, arte, casă, meserii și cultură locală — sau le amesteci într-un singur careu." },
+          { "question": "Voi vedea același cuvânt de două ori?", "answer": "Nu pe același aparat. Ține minte până la 4.000 de cuvinte pe limbă — cam 130 de careuri — și le lasă afară; abia apoi cad cele mai vechi. Ștergerea datelor site-ului o ia de la capăt." },
+          { "question": "Cum scrie inteligența artificială definițiile?", "answer": "Modelul Gemini de la Google scrie cuvinte și definiții direct în fiecare limbă, după un ghid de stil al vorbitorilor nativi. Codul verifică apoi fiecare intrare: alfabetul potrivit, un singur cuvânt real, o definiție cinstită care nu dă răspunsul. O a doua trecere face pe redactorul. Ce nu trece se aruncă, nu se cârpește. Careul îl construiește codul, nu modelul." },
+          { "question": "Ce fac dacă o definiție e greșită?", "answer": "Deschide meniul ⋯ de deasupra careului și alege „Raportează definiția”. Când trei jucători diferiți raportează aceeași definiție, ea iese pentru totdeauna." }
+        ]
+      },
+      {
+        "title": "Jocul",
+        "items": [
+          { "question": "Cum scriu răspunsurile pe telefon sau pe calculator?", "answer": "Pe calculator scrii direct: chiar dacă tastatura e pe engleză, tastele scriu literele careului în locurile lor. Pe telefon sau tabletă, tastatura careului apare sub grilă, iar cea a sistemului n-o acoperă." },
+          { "question": "Pot verifica răspunsurile sau cere un indiciu?", "answer": "Da. Verificarea marchează literele greșite într-o căsuță, un cuvânt sau tot careul, iar Dezvăluirea umple o literă, un cuvânt sau totul. Pornește „Verifică pe măsură ce scriu” ca să vezi greșeala pe loc." },
+          { "question": "Cum sunt tratate ու și և din armeană și Ё din rusă?", "answer": "În careurile armenești, ու și և sunt câte o literă și ocupă câte o căsuță, ca în rebusurile tipărite; dacă scrii ո și apoi ւ, se unesc în ու. În rusă, Ё se scrie Е. În română, ă, â, î, ș și ț se păstrează, iar ș și ț au virgulă dedesubt." },
+          { "question": "Progresul se salvează?", "answer": "Da, singur, pe măsură ce joci. Careurile începute și lăsate neterminate stau la „Rebusurile mele”, cu literele păstrate, chiar și offline." },
+          { "question": "Pot juca offline sau să-l instalez ca aplicație?", "answer": "Da. Rebus AI se instalează din browser ca o aplicație (pe iPhone: Partajează → Adaugă la ecranul principal). Fiecare careu deschis merge mai departe fără rețea; doar cele noi au nevoie de internet." },
+          { "question": "Pot trimite un careu unui prieten?", "answer": "Da. Atinge Distribuie ca să copiezi legătura sau trimite-o prin WhatsApp, Telegram, Facebook, X, VK sau e-mail. Prietenul primește exact același careu și aceleași definiții." },
+          { "question": "Pot juca cu tastatura sau cu un cititor de ecran?", "answer": "Da. Careul merge de la tastatură și cu cititoare de ecran: fiecare căsuță are nume, definiția activă e anunțată, iar verificările și dezvăluirile sunt citite. Literele greșite și cele dezvăluite se văd după formă, nu doar după culoare." }
+        ]
+      },
+      {
+        "title": "Confidențialitate",
+        "items": [
+          { "question": "Ce date păstrați?", "answer": "Foarte puține. Careurile, progresul, setările și lista cuvintelor văzute stau în browser. Serverul păstrează careurile create (ca o legătură partajată să deschidă aceeași grilă), rapoartele cu un rezumat unidirecțional al adresei IP și numărători anonime. Fără nume și fără profiluri." },
+          { "question": "Ajunge ceva despre mine la inteligența artificială?", "answer": "Nu. La modelele Gemini de la Google pleacă doar setările careului — limbă, temă, dificultate — și liste de cuvinte, niciodată ceva despre tine." }
+        ]
+      }
+    ],
+    "ctaTitle": "Gata de un careu nou?",
+    "ctaText": "Alege tema și dificultatea. Următoarea grilă e la câteva secunde.",
+    "cta": "Fă un rebus"
+  },
+  "About": {
+    "title": "Despre Rebus AI",
+    "subtitle": "Un generator gratuit care scrie în limba ta și nu dă niciodată același cuvânt de două ori.",
+    "sections": [
+      { "title": "De ce l-am făcut", "paragraphs": ["Cele mai multe rebusuri online reciclează o listă scurtă, iar cele traduse se citesc ca traduceri. Voiam careuri care par scrise de un autor de-al locului și care rămân noi oricâte ai rezolva."] },
+      { "title": "Cum se scriu cuvintele", "paragraphs": ["Un model scrie cuvinte și definiții direct în fiecare limbă, după un ghid de stil al vorbitorilor nativi: formele pe care le folosesc rebusurile, norma de scriere, felul în care se formulează definițiile.", "Fiecare cuvânt trece apoi prin verificări automate — alfabetul potrivit, un singur cuvânt real, nicio definiție care dă răspunsul — și printr-un al doilea model, ca redactor. Rapoartele jucătorilor scot ce a scăpat."] },
+      { "title": "Cum se construiesc careurile", "paragraphs": ["Careul îl construiește codul, nu modelul: un algoritm așază cuvintele astfel încât fiecare literă să țină de un cuvânt real, cu definiție. Așa rămâne fiecare rebus cinstit."] }
+    ]
+  },
+  "Privacy": {
+    "title": "Politica de confidențialitate",
+    "subtitle": "Pe scurt: fără cont, fără nume, fără profil. Iată tot ce păstrăm.",
+    "sections": [
+      { "title": "Pe aparatul tău", "paragraphs": ["Browserul păstrează careurile deschise, progresul, setările și o listă a cuvintelor văzute, ca să nu se repete. Rămân pe aparat; ștergerea datelor site-ului le scoate."] },
+      { "title": "Pe serverul nostru", "paragraphs": ["Păstrăm careurile create, ca o legătură partajată să deschidă aceeași grilă. Când raportezi o definiție, păstrăm raportul cu un rezumat unidirecțional al adresei IP, doar ca o singură persoană să nu poată retrage o definiție de una singură. Numărăm anonim cum se joacă careurile, ca să potrivim dificultatea."] },
+      { "title": "Furnizorul de AI", "paragraphs": ["Cuvintele și definițiile noi sunt scrise de modelele Gemini de la Google. Pleacă doar setările careului (limbă, temă, dificultate) și liste de cuvinte, niciodată ceva despre tine."] },
+      { "title": "Statistici și rapoarte de eroare", "paragraphs": ["Dacă sunt pornite, folosim Google Analytics ca să numărăm vizitele și Sentry ca să primim erorile. Niciuna nu e folosită ca să te identifice."] }
+    ]
+  },
+  "Terms": {
+    "title": "Termeni de utilizare",
+    "subtitle": "Rebus AI e gratuit, pentru joacă și pentru învățat.",
+    "sections": [
+      { "title": "Folosirea serviciului", "paragraphs": ["Poți juca, împărți și tipări careurile pentru uz personal și educativ. Te rugăm să nu încarci serviciul cu cereri automate."] },
+      { "title": "Conținut scris de AI", "paragraphs": ["Cuvintele și definițiile sunt scrise de inteligența artificială și verificate automat, dar se mai poate strecura o greșeală. Dacă găsești una, raporteaz-o: așa ies definițiile proaste."] },
+      { "title": "Fără garanție", "paragraphs": ["Serviciul e oferit ca atare, fără garanția că va fi mereu disponibil sau exact. Putem schimba sau opri funcții oricând."] }
+    ]
+  },
+  "Contact": {
+    "title": "Scrie-ne",
+    "subtitle": "O întrebare, o idee sau ceva n-a mers bine? Scrie-ne și îți răspundem pe e-mail.",
+    "fullName": "Nume",
+    "email": "E-mail",
+    "message": "Mesaj",
+    "messagePlaceholder": "Cu ce te putem ajuta?",
+    "required": "Câmpul acesta e obligatoriu",
+    "invalidEmail": "Adresa de e-mail nu pare validă",
+    "submit": "Trimite",
+    "sent": "Mesaj trimis",
+    "sentText": "Mulțumim. Îți răspundem pe e-mail cât de curând.",
+    "sendAnother": "Scrie un alt mesaj",
+    "tooMany": "Sunt prea multe mesaje. Încearcă din nou puțin mai târziu."
+  }
+}

@@ -15,7 +15,7 @@ export const Footer = () => {
 
   return (
     <footer className='mt-16 border-t-2 game-page:hidden border-dashed border-line-strong bg-cream-200/60 pb-safe'>
-      <div className='container-page grid gap-10 py-12 md:grid-cols-[1.3fr_1fr_1fr]'>
+      <div className='container-page grid gap-10 py-12 md:grid-cols-2'>
         <div className='flex flex-col gap-3'>
           <div className='flex items-center gap-3'>
             <Emblem className='size-12' />
@@ -32,9 +32,9 @@ export const Footer = () => {
           ))}
         </nav>
 
-        <div>
+        <div className='md:col-span-2'>
           <h2 className='eyebrow mb-3'>{t('Common.language')}</h2>
-          <ul className='flex flex-col gap-2'>
+          <ul className='flex flex-wrap gap-x-4 gap-y-2'>
             {LOCALES.map((locale) => (
               <li key={locale}>
                 <AppLink href='/' locale={locale} lang={locale} hrefLang={locale} className={linkClass}>

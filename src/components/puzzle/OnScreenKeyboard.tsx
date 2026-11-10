@@ -1,9 +1,10 @@
 'use client'
 
+import { useRef } from 'react'
 import { Delete, Repeat } from 'lucide-react'
 import { useTranslations } from 'next-intl'
 import { usePlayStore } from '@store/puzzle/play/store'
-import { displayCell } from '@constants/alphabet'
+import { displayCell, OPEN_LOCALES } from '@constants/alphabet'
 import { KEYBOARD_ROWS } from '@constants/keyboards'
 import { cn } from '@helpers/cn'
 
@@ -21,6 +22,16 @@ export const OnScreenKeyboard = ({ className }: { className?: string }) => {
   const type = usePlayStore.use.type()
   const erase = usePlayStore.use.erase()
   const toggleDirection = usePlayStore.use.toggleDirection()
+  const busy = useRef(false)
+  const commit = (text: string) => {
+    const value = text.normalize('NFC').replace(/\s+/g, '')
+    if (!value || busy.current) return
+    busy.current = true
+    for (const char of value) type(char)
+    queueMicrotask(() => {
+      busy.current = false
+    })
+  }
 
   if (!puzzle) return null
   const rows = KEYBOARD_ROWS[puzzle.locale]
@@ -32,10 +43,33 @@ export const OnScreenKeyboard = ({ className }: { className?: string }) => {
       role='group'
       aria-label={t('keyboard')}
       lang={puzzle.locale}
+      dir='ltr'
       className={cn('flex flex-col gap-1.5 rounded-t-panel border-t-2 border-ink-900 bg-cream-200 px-1.5 pt-2 pb-[max(0.5rem,var(--safe-bottom))]', className)}
     >
+      {OPEN_LOCALES.has(puzzle.locale) && (
+        <input
+          lang={puzzle.locale}
+          dir='auto'
+          aria-label={t('ime')}
+          placeholder={t('ime')}
+          autoCapitalize='off'
+          autoCorrect='off'
+          spellCheck={false}
+          className='mx-1 h-11 rounded-[10px] border-2 border-ink-900 bg-white px-3 font-display text-body font-bold text-ink-900 outline-none focus:bg-sun-100'
+          onCompositionEnd={(event) => {
+            commit(event.data)
+            event.currentTarget.value = ''
+          }}
+          onInput={(event) => {
+            const native = event.nativeEvent
+            if (!(native instanceof InputEvent) || native.isComposing || native.inputType === 'insertCompositionText') return
+            commit(event.currentTarget.value)
+            event.currentTarget.value = ''
+          }}
+        />
+      )}
       {rows.map((row, index) => (
-        <div key={index} className='flex gap-1'>
+        <div key={index} className='flex gap-1 overflow-x-auto'>
           {index === rows.length - 1 && (
             <button
               type='button'
@@ -53,7 +87,7 @@ export const OnScreenKeyboard = ({ className }: { className?: string }) => {
               type='button'
               onPointerDown={(event) => event.preventDefault()}
               onClick={() => type(token)}
-              className={cn(keyClass, token.length > 1 && 'text-body-sm sm:text-body')}
+              className={cn(keyClass, 'min-w-8 shrink-0', token.length > 1 && 'text-body-sm sm:text-body')}
             >
               {displayCell(token, puzzle.locale)}
             </button>

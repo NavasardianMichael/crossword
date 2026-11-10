@@ -10,8 +10,14 @@ export const ROUTES = {
   rules: '/rules',
   faq: '/faq',
   about: '/about',
+  contact: '/contact',
   privacy: '/privacy',
   terms: '/terms',
+  signIn: '/auth/sign-in',
+  signUp: '/auth/sign-up',
+  forgotPassword: '/auth/forgot-password',
+  resetPassword: '/auth/reset-password',
+  verifyEmail: '/auth/verify-email',
 } as const
 
 export type RouteKey = keyof typeof ROUTES
@@ -25,6 +31,7 @@ export const INDEXABLE_ROUTES: readonly RouteKey[] = [
   'rules',
   'faq',
   'about',
+  'contact',
   'privacy',
   'terms',
 ]

@@ -14,7 +14,7 @@ import { routing } from '@i18n/routing'
  *    (`matchAcceptLanguage`, which beats next-intl's own negotiation for real users).
  * 2. **Hand off to next-intl**, which validates the prefix.
  *
- * There is no auth guard: the app has no accounts.
+ * There is no auth guard: puzzles stay playable without an account. Sign-in lives under `/auth`.
  */
 const handleI18nRouting = createMiddleware(routing)
 

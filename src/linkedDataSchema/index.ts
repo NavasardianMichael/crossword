@@ -24,7 +24,7 @@ import { absoluteUrl } from '@helpers/url'
 const author: Person = { '@type': 'Person', name: AUTHOR.name, url: AUTHOR.url }
 
 /** `name` is the brand in the page's language; the English brand is the `alternateName`. */
-export const websiteSchema = (locale: Locale, name: string, description: string): WithContext<WebSite> => ({
+export const websiteSchema = (locale: Locale, name: string, description: string, keywords?: string): WithContext<WebSite> => ({
   '@context': 'https://schema.org',
   '@type': 'WebSite',
   name,
@@ -32,6 +32,7 @@ export const websiteSchema = (locale: Locale, name: string, description: string)
   url: absoluteUrl(localePath(locale, '/')),
   inLanguage: locale,
   description,
+  ...(keywords ? { keywords } : {}),
   image: absoluteUrl('/icon'),
   author,
   publisher: author,

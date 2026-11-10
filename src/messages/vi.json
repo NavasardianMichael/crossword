@@ -1,0 +1,715 @@
+{
+  "Common": {
+    "appName": "Ô chữ AI",
+    "tagline": "Ô chữ và ô chữ mũi tên miễn phí, do AI viết bằng chính ngôn ngữ của bạn. Mỗi ván là chữ mới, không bao giờ lặp.",
+    "skipToContent": "Nhảy tới nội dung",
+    "openMenu": "Mở menu",
+    "menu": "Menu",
+    "close": "Đóng",
+    "retry": "Thử lại",
+    "chooseLanguage": "Chọn ngôn ngữ",
+    "language": "Ngôn ngữ",
+    "copyright": "© {year} {appName}. Làm từ chữ và một chút phép màu.",
+    "backOnline": "Bạn đã có mạng trở lại.",
+    "offline": "Bạn đang ngoại tuyến. Những ô chữ đã mở vẫn chơi được.",
+    "lastUpdated": "Cập nhật lần cuối: {date}"
+  },
+  "Nav": {
+    "main": "Chính",
+    "footer": "Trang",
+    "home": "Trang chủ",
+    "crossword": "Ô chữ",
+    "scanword": "Ô mũi tên",
+    "topics": "Chủ đề",
+    "history": "Ô chữ của tôi",
+    "rules": "Cách chơi",
+    "faq": "Hỏi đáp",
+    "about": "Giới thiệu",
+    "privacy": "Riêng tư",
+    "terms": "Điều khoản",
+    "contact": "Liên hệ"
+  },
+  "Errors": {
+    "network": "Không tới được máy chủ. Kiểm tra kết nối rồi thử lại.",
+    "rateLimited": "Quá nhiều ô chữ trong một phút! Nghỉ một chút rồi thử lại.",
+    "unauthorized": "Thao tác này không được phép.",
+    "notFound": "Không tìm thấy.",
+    "server": "Phía chúng tôi có trục trặc. Xin thử lại.",
+    "generic": "Có gì đó không ổn. Xin thử lại.",
+    "details": "Chi tiết",
+    "pageErrorTitle": "Ối, rơi mất một ô",
+    "pageErrorBody": "Trang này gặp lỗi bất ngờ. Thử lại thường là xong.",
+    "notFoundTitle": "Trang này không có trong lưới",
+    "notFoundBody": "Liên kết có thể cũ hoặc gõ nhầm. Để chúng tôi tìm cho bạn một ô chữ mới.",
+    "goHome": "Về trang chủ"
+  },
+  "Pwa": {
+    "install": "Cài ứng dụng",
+    "iosTitle": "Thêm Ô chữ AI vào Màn hình chính",
+    "benefit": "Mở như một ứng dụng, toàn màn hình, và chơi tiếp các ô chữ đã lưu khi không có mạng.",
+    "iosStep1": "Chạm nút Chia sẻ trên thanh Safari.",
+    "iosStep2": "Chọn “Thêm vào Màn hình chính”.",
+    "iosStep3": "Chạm “Thêm” — biểu tượng hiện trên Màn hình chính.",
+    "gotIt": "Đã hiểu"
+  },
+  "Seo": {
+    "homeTitle": "Ô chữ online miễn phí — tạo ô chữ tiếng Việt",
+    "homeDescription": "Tạo ô chữ hoặc ô chữ mũi tên miễn phí. Chọn chủ đề — động vật, ẩm thực, địa lý, lịch sử, khoa học, thể thao — và độ khó. Mỗi ván là chữ mới. Chơi được cả khi ngoại tuyến.",
+    "keywords": "ô chữ, ô chữ online, tạo ô chữ, ô chữ tiếng Việt, trò chơi ô chữ, ô chữ miễn phí, ô chữ mũi tên, ô chữ động vật, ô chữ ẩm thực, ô chữ địa lý, ô chữ lịch sử, ô chữ khoa học, ô chữ thể thao",
+    "crosswordTitle": "Ô chữ online miễn phí",
+    "crosswordDescription": "Chơi ô chữ miễn phí online, do AI viết: gợi ý đánh số hàng ngang và hàng dọc, 12 chủ đề, ba mức độ. Không cần đăng ký, mỗi ván là chữ mới.",
+    "scanwordTitle": "Ô chữ mũi tên miễn phí — gợi ý nằm trong lưới",
+    "scanwordDescription": "Giải ô chữ mũi tên miễn phí: gợi ý nằm ngay trong lưới, mũi tên chỉ tới đáp án. AI viết, không cần đăng ký, trên điện thoại, máy tính bảng hay máy tính.",
+    "topicsTitle": "Chủ đề ô chữ: động vật, ẩm thực, địa lý và hơn thế",
+    "topicsDescription": "Chọn chủ đề cho ô chữ hoặc ô chữ mũi tên tiếp theo: thiên nhiên, động vật, ẩm thực, địa lý, lịch sử, khoa học, thể thao, nghệ thuật và hơn thế.",
+    "topicTitle": "Ô chữ {topic} — chơi miễn phí online",
+    "topicDescription": "Ô chữ và ô chữ mũi tên miễn phí về {topic}, do AI tạo. {description}",
+    "historyTitle": "Ô chữ của tôi",
+    "historyDescription": "Ô chữ và ô chữ mũi tên đã bắt đầu trên thiết bị này mà chưa xong, tiến độ được lưu.",
+    "rulesTitle": "Cách chơi ô chữ và ô chữ mũi tên",
+    "rulesDescription": "Cách giải ô chữ hoặc ô chữ mũi tên ở đây: gõ chữ, di chuyển trên lưới, kiểm tra và mở chữ, cùng phím tắt.",
+    "faqTitle": "Hỏi đáp: ô chữ AI, ngôn ngữ và riêng tư",
+    "faqDescription": "Giải đáp về Ô chữ AI: có miễn phí không, AI viết gợi ý ra sao, kích thước lưới, độ khó, chữ không lặp, chơi ngoại tuyến, chia sẻ và riêng tư.",
+    "aboutTitle": "Giới thiệu — ô chữ AI được làm thế nào",
+    "aboutDescription": "Vì sao chúng tôi làm trình tạo ô chữ miễn phí không bao giờ lặp một từ, và AI viết gợi ý thẳng bằng từng ngôn ngữ ra sao.",
+    "privacyTitle": "Chính sách riêng tư",
+    "privacyDescription": "Ô chữ AI lưu gì, ở đâu và vì sao — không tài khoản, không theo dõi bạn là ai.",
+    "termsTitle": "Điều khoản sử dụng",
+    "termsDescription": "Điều khoản giản dị để dùng Ô chữ AI.",
+    "contactTitle": "Viết cho chúng tôi",
+    "contactDescription": "Có câu hỏi, ý tưởng hay lỗi trong ô chữ? Viết cho chúng tôi, chúng tôi trả lời qua email.",
+    "puzzleDescription": "Một ô chữ miễn phí của Ô chữ AI — giải ngay trên trình duyệt.",
+    "sharedPuzzleDescription": "Ô chữ miễn phí cỡ {size} {format, select, scanword {ô chữ mũi tên} other {ô chữ}} · {topic} · {difficulty} · {words, plural, other {# từ}}. AI viết — giải ngay trên trình duyệt, không cần đăng ký.",
+    "ogImageAlt": "Ô chữ AI — ô chữ và ô chữ mũi tên miễn phí bằng ngôn ngữ của bạn",
+    "ogPuzzleCta": "Bạn giải được không?",
+    "ogPuzzleMeta": "{size} · {words, plural, other {# từ}}"
+  },
+  "Formats": {
+    "classic": {
+      "name": "Ô chữ",
+      "short": "Gợi ý đánh số, hàng ngang và hàng dọc",
+      "description": "Kiểu cổ điển: các từ cắt nhau trên lưới tự do, mỗi gợi ý nằm ở danh sách hàng ngang và hàng dọc.",
+      "cta": "Chơi một ô chữ"
+    },
+    "scanword": {
+      "name": "Ô chữ mũi tên",
+      "short": "Gợi ý trong lưới, có mũi tên",
+      "description": "Mỗi gợi ý nằm ngay trong lưới, mũi tên chỉ tới đáp án — đọc một cái là thấy, mà khó buông.",
+      "cta": "Chơi ô chữ mũi tên"
+    }
+  },
+  "Topics": {
+    "any": "Trộn chủ đề",
+    "general": {
+      "name": "Chữ đời thường",
+      "description": "Chữ của đời sống hằng ngày — nhà, người, thời gian, thế giới quanh ta."
+    },
+    "nature": {
+      "name": "Thiên nhiên",
+      "description": "Rừng, sông, thời tiết, cây cỏ và các mùa."
+    },
+    "animals": {
+      "name": "Động vật",
+      "description": "Thú hoang và thú nuôi, chim, cá và côn trùng."
+    },
+    "food": {
+      "name": "Ẩm thực",
+      "description": "Món ăn, nguyên liệu, bếp và mọi thứ trên mâm."
+    },
+    "geography": {
+      "name": "Địa lý",
+      "description": "Nước, thành phố, sông, núi và những nơi nổi tiếng."
+    },
+    "history": {
+      "name": "Lịch sử",
+      "description": "Thời đại, phát minh, nghề xưa và đồ vật của quá khứ."
+    },
+    "science": {
+      "name": "Khoa học",
+      "description": "Vật lý, hóa học, sinh học, vũ trụ và cơ thể người."
+    },
+    "sport": {
+      "name": "Thể thao",
+      "description": "Môn chơi, dụng cụ, giải đấu và luật chơi."
+    },
+    "arts": {
+      "name": "Nghệ thuật",
+      "description": "Nhạc, văn, kịch, hội họa và phim."
+    },
+    "home": {
+      "name": "Nhà cửa",
+      "description": "Đồ gỗ, dụng cụ, quần áo và những thứ dùng mỗi ngày."
+    },
+    "professions": {
+      "name": "Nghề nghiệp",
+      "description": "Việc làm, nghề thủ công, đồ nghề và nơi làm việc."
+    },
+    "localCulture": {
+      "name": "Văn hóa địa phương",
+      "description": "Phong tục, ngày lễ, folklore và nơi nổi tiếng của nền văn hóa mỗi ngôn ngữ."
+    }
+  },
+  "Difficulty": {
+    "1": "Dễ",
+    "2": "Vừa",
+    "3": "Khó"
+  },
+  "Sizes": {
+    "small": "Nhỏ",
+    "medium": "Vừa",
+    "large": "Lớn"
+  },
+  "Generator": {
+    "format": "Chọn dạng",
+    "topic": "Chọn chủ đề",
+    "difficulty": "Độ khó",
+    "size": "Cỡ",
+    "create": "Tạo ô chữ của tôi",
+    "creating": "Đang dựng ô chữ…",
+    "creatingHint": "Đang chọn những từ bạn chưa gặp. Từ mới có thể mất vài giây.",
+    "cancel": "Hủy",
+    "freshHint": "Miễn phí, không cần đăng ký. Mỗi ô chữ mang tới những từ bạn chưa gặp ở đây.",
+    "exhausted": "Bạn đã chơi hết chữ chúng tôi đang có cho lựa chọn này! Chúng tôi đang viết thêm — thử chủ đề khác, hoặc quay lại sau một phút."
+  },
+  "Home": {
+    "hero": {
+      "eyebrow": "Miễn phí · Không đăng ký · Chơi ngoại tuyến",
+      "title": "Ô chữ <mark>luôn mới</mark>",
+      "subtitle": "Chọn chủ đề và độ khó — AI viết gợi ý bằng ngôn ngữ của bạn, và một từ không xuất hiện hai lần.",
+      "lede": "Tạo ô chữ tiếng Việt miễn phí online, không cần đăng ký. Chủ đề từ động vật, ẩm thực, địa lý đến lịch sử, khoa học, thể thao, nghệ thuật, nhà cửa, nghề nghiệp và văn hóa — hoặc trộn tất cả."
+    },
+    "continueTitle": "Chơi tiếp chỗ đã dừng",
+    "formatsTitle": "Hai cách chơi",
+    "formatsSubtitle": "Ô chữ cổ điển rộng rãi với danh sách gợi ý, hoặc ô chữ mũi tên gọn, gợi ý nằm trong lưới.",
+    "pointsTitle": "Khác ở chỗ nào",
+    "points": {
+      "fresh": {
+        "title": "Không bao giờ lặp",
+        "text": "Thiết bị nhớ mọi từ đã cho bạn thấy, nên ô chữ mới chỉ mang những từ bạn chưa giải."
+      },
+      "native": {
+        "title": "Viết bằng ngôn ngữ của bạn",
+        "text": "Gợi ý được viết thẳng bằng từng ngôn ngữ, như người ra đề bản xứ sẽ đặt, không dịch từ ngôn ngữ khác."
+      },
+      "ai": {
+        "title": "AI đề xuất, mã kiểm tra",
+        "text": "AI gợi ý từ và câu hỏi; phần kiểm tra của chúng tôi loại chữ sai, câu không công bằng hoặc câu làm lộ đáp án."
+      },
+      "offline": {
+        "title": "Chơi ở đâu cũng được",
+        "text": "Cài như một ứng dụng. Ô chữ đã mở vẫn chạy trên máy bay, dưới tàu điện, bất cứ đâu."
+      }
+    },
+    "topicsTitle": "Chọn một chủ đề",
+    "topicsSubtitle": "Từ chim ngoài vườn đến những dòng sông nổi tiếng — hoặc trộn hết.",
+    "faqTitle": "Hỏi và đáp",
+    "faq1Question": "Ô chữ AI có thật sự miễn phí?",
+    "faq1Answer": "Có. Mọi ô chữ và ô chữ mũi tên đều miễn phí, không tài khoản, không đăng ký, không giới hạn số ván bạn giải.",
+    "faq2Question": "Tôi có gặp lại cùng một từ không?",
+    "faq2Answer": "Không. Thiết bị giữ danh sách những từ đã hiện và bỏ chúng khỏi mọi ô chữ mới. Nếu bạn xóa dữ liệu trang trong trình duyệt, danh sách bắt đầu lại.",
+    "faq3Question": "Chơi được những ngôn ngữ nào?",
+    "faq3Answer": "Ba mươi ba ngôn ngữ, mỗi ngôn ngữ một kho từ viết cho người nói ngôn ngữ ấy, không dịch từ ngôn ngữ khác: tiếng Anh, Tây Ban Nha, Bồ Đào Nha, Pháp, Đức, Ý, Hà Lan, Ba Lan, Séc, Thụy Điển, Romania, Hungary, Indonesia, Mã Lai, Filipino, Việt, Swahili, Nga, Ukraina, Hy Lạp, Ả Rập, Ba Tư, Urdu, Do Thái, Hindi, Marathi, Bengal, Tamil, Thái, Nhật, Hàn, Trung và Armenia.",
+    "faq4Question": "Ô chữ khác ô chữ mũi tên chỗ nào?",
+    "faq4Answer": "Ô chữ liệt kê gợi ý đánh số cạnh lưới, hàng ngang và hàng dọc. Ô chữ mũi tên in mỗi gợi ý trong một ô, mũi tên chỉ chỗ điền đáp án.",
+    "faq5Question": "Chơi ngoại tuyến được không?",
+    "faq5Answer": "Được. Mỗi ô chữ bạn mở được lưu trên thiết bị cùng tiến độ, nên vẫn chạy khi mất mạng. Ô chữ mới thì cần internet.",
+    "faq6Question": "Gợi ý sai thì sao?",
+    "faq6Answer": "Mở menu ⋯ phía trên lưới và chọn “Báo một gợi ý”. Khi ba người chơi khác nhau báo cùng một gợi ý, gợi ý đó bị rút và không xuất hiện nữa.",
+    "faqMore": "Mọi câu hỏi và trả lời →"
+  },
+  "CrosswordPage": {
+    "hero": {
+      "eyebrow": "Ô chữ cổ điển",
+      "title": "Ô chữ cổ điển, <mark>làm riêng cho bạn</mark>",
+      "plainTitle": "Ô chữ AI",
+      "subtitle": "Gợi ý đánh số hàng ngang và hàng dọc, lưới mọc từ giữa, và những từ bạn chưa gặp.",
+      "lede": "Chơi ô chữ cổ điển miễn phí online: gợi ý đánh số hàng ngang và hàng dọc, chủ đề từ động vật, ẩm thực đến địa lý, lịch sử, khoa học và thể thao."
+    },
+    "rulesTitle": "Ô chữ hoạt động thế nào",
+    "rule1": "Mỗi ô trắng chứa một chữ. Từ chạy ngang (trái sang phải) và dọc (trên xuống dưới), cắt nhau.",
+    "rule2": "Mỗi từ có một số ở ô đầu và một gợi ý tương ứng trong danh sách hàng ngang hoặc hàng dọc.",
+    "rule3": "Chạm một ô hoặc một gợi ý để bắt đầu gõ. Chạm lại ô đó — hoặc nhấn phím cách — để đổi giữa ngang và dọc.",
+    "rule4": "Bí? Kiểm tra một chữ, một từ hoặc cả ô chữ, hoặc mở một chữ để đi tiếp.",
+    "topicsTitle": "Ô chữ theo chủ đề",
+    "faqTitle": "Câu hỏi về ô chữ",
+    "faq1Question": "Ô chữ lớn cỡ nào?",
+    "faq1Answer": "Chọn nhỏ (khoảng đến 14 từ), vừa hoặc lớn (trên 20 từ). Lưới được cắt vừa các từ nó chứa, nên luôn vừa màn hình.",
+    "faq2Question": "Điều gì làm một gợi ý dễ hoặc khó?",
+    "faq2Answer": "Ô dễ dùng chữ hằng ngày và định nghĩa thẳng. Ô khó dùng chữ hiếm hơn và gợi ý khiến bạn phải nghĩ hai lần.",
+    "faq3Question": "Tôi dùng bàn phím được không?",
+    "faq3Answer": "Được: gõ chữ, di chuyển bằng phím mũi tên, Enter sang gợi ý kế, Backspace lùi lại. Trên điện thoại, bàn phím của ô chữ hiện dưới lưới.",
+    "faq4Question": "Tôi gửi một ô chữ cho bạn được không?",
+    "faq4Answer": "Được — chạm Chia sẻ phía trên lưới để chép liên kết hoặc gửi qua một ứng dụng. Bạn của bạn nhận đúng lưới và đúng gợi ý."
+  },
+  "ScanwordPage": {
+    "hero": {
+      "eyebrow": "Ô chữ mũi tên",
+      "title": "Ô chữ mũi tên, gợi ý <mark>nằm trong lưới</mark>",
+      "plainTitle": "Ô mũi tên AI",
+      "subtitle": "Không phải lục danh sách: mỗi gợi ý nằm trong ô của nó, có mũi tên tới đáp án.",
+      "lede": "Chơi ô chữ mũi tên miễn phí online: gợi ý nằm trong lưới. Cùng chủ đề với ô chữ — động vật, ẩm thực, địa lý, lịch sử, khoa học, thể thao và hơn thế."
+    },
+    "rulesTitle": "Ô chữ mũi tên hoạt động thế nào",
+    "rule1": "Ô màu giữ gợi ý. Mũi tên cạnh gợi ý cho biết đáp án bắt đầu ở đâu và chạy về hướng nào.",
+    "rule2": "Một ô có thể chứa hai gợi ý: gợi ý trên thường chỉ sang phải, gợi ý dưới chỉ xuống.",
+    "rule3": "Chạm ô gợi ý, hoặc bất kỳ ô chữ nào, để chọn một từ. Gợi ý đầy đủ luôn hiện trên thanh phía trên lưới.",
+    "rule4": "Những ô màu chỉ là trang trí — chữ chỉ đi vào ô trắng.",
+    "topicsTitle": "Ô chữ mũi tên theo chủ đề",
+    "faqTitle": "Câu hỏi về ô chữ mũi tên",
+    "faq1Question": "Ô chữ mũi tên là gì?",
+    "faq1Answer": "Ô chữ mũi tên là ô chữ có gợi ý in ngay trong lưới. Nó bắt nguồn từ ô chữ Scandinavia và rất được ưa trên các tạp chí đố vui.",
+    "faq2Question": "Trên điện thoại, chữ trong ô nhỏ quá. Làm sao?",
+    "faq2Answer": "Chạm ô đó: gợi ý đầy đủ luôn hiện trên thanh phía trên lưới. Bạn cũng có thể tách hai ngón để phóng to, hoặc mở danh sách gợi ý.",
+    "faq3Question": "Sao có mũi tên bị gập?",
+    "faq3Answer": "Khi không còn chỗ cho gợi ý ngay trước đáp án, gợi ý nằm phía trên hoặc bên chữ đầu, và mũi tên gập để chỉ hướng.",
+    "faq4Question": "Gợi ý của ô chữ mũi tên có khác không?",
+    "faq4Answer": "Ngắn hơn — gợi ý phải vừa một ô, nên chỉ vài từ là cùng."
+  },
+  "TopicsPage": {
+    "eyebrow": "Chủ đề",
+    "title": "Ô chữ của bạn nên nói về gì?",
+    "subtitle": "Mỗi chủ đề có chữ riêng ở mỗi ngôn ngữ. Chọn một, hoặc trộn hết ở trang chủ."
+  },
+  "TopicPage": {
+    "title": "Ô chữ {topic}",
+    "samplesTitle": "Vài gợi ý về {topic}",
+    "samplesSubtitle": "Một ít gợi ý từ kho chữ. Bạn đoán được không? Ô chữ thật mỗi lần mang tới gợi ý mới.",
+    "showAnswer": "Hiện đáp án",
+    "moreTopics": "Chủ đề khác"
+  },
+  "Auth": {
+    "signIn": "Đăng nhập",
+    "signOut": "Đăng xuất",
+    "signInTitle": "Đăng nhập",
+    "signInSubtitle": "Dùng Google, hoặc email và mật khẩu của tài khoản.",
+    "signUpTitle": "Tạo tài khoản",
+    "signUpSubtitle": "Chúng tôi gửi một liên kết để bạn xác nhận địa chỉ trước khi đăng nhập.",
+    "forgotTitle": "Quên mật khẩu?",
+    "forgotSubtitle": "Nếu có tài khoản dùng địa chỉ này, chúng tôi sẽ gửi liên kết.",
+    "resetTitle": "Chọn mật khẩu mới",
+    "resetSubtitle": "Việc này đăng nhập bạn và đăng xuất mọi thiết bị khác.",
+    "verifyTitle": "Xác nhận email",
+    "verifySubtitle": "Mở liên kết trong hộp thư, rồi xác nhận ở đây. Bộ lọc thư không dùng được liên kết đó.",
+    "google": "Tiếp tục với Google",
+    "or": "hoặc",
+    "name": "Tên",
+    "email": "Email",
+    "password": "Mật khẩu",
+    "passwordHint": "Ít nhất 8 ký tự, có một chữ và một số. Không phải địa chỉ email.",
+    "confirmPassword": "Nhập lại mật khẩu",
+    "passwordMismatch": "Hai mật khẩu không khớp",
+    "required": "Hãy điền ô này",
+    "invalidEmail": "Email này có vẻ không đúng",
+    "forgot": "Quên mật khẩu?",
+    "noAccount": "Chưa có tài khoản?",
+    "hasAccount": "Đã có tài khoản?",
+    "submitSignIn": "Đăng nhập",
+    "submitSignUp": "Tạo tài khoản",
+    "submitForgot": "Gửi liên kết",
+    "submitReset": "Lưu mật khẩu",
+    "submitVerify": "Xác nhận email",
+    "verifiedNotice": "Đã xác nhận email. Đăng nhập để tiếp tục.",
+    "checkInbox": "Xem {email}",
+    "checkInboxText": "Chúng tôi đã gửi một liên kết. Mở nó, rồi quay lại và đăng nhập.",
+    "resend": "Gửi lại liên kết",
+    "resent": "Đã gửi lại.",
+    "forgotSent": "Nếu có tài khoản dùng địa chỉ đó, liên kết đang trên đường tới.",
+    "invalidCredentials": "Email và mật khẩu không khớp.",
+    "googleOnly": "Tài khoản này đăng nhập bằng Google.",
+    "emailNotVerified": "Hãy xác nhận email trước. Liên kết nằm trong hộp thư.",
+    "emailTaken": "Đã có tài khoản với email này.",
+    "weakPassword": "Dùng ít nhất 8 ký tự, có một chữ và một số, và không phải địa chỉ email.",
+    "verifyInvalid": "Liên kết xác nhận này không hợp lệ hoặc đã hết hạn.",
+    "resetInvalid": "Liên kết đặt lại này không hợp lệ hoặc đã hết hạn.",
+    "mailFailed": "Không gửi được email. Xin thử lại.",
+    "googleErrors": {
+      "google_unavailable": "Đăng nhập Google hiện không dùng được.",
+      "google_denied": "Đăng nhập Google đã bị hủy.",
+      "google_failed": "Đăng nhập Google không xong. Xin thử lại.",
+      "google_email_unverified": "Google chưa xác minh địa chỉ email đó."
+    }
+  },
+  "History": {
+    "title": "Ô chữ của tôi",
+    "subtitle": "Ô chữ và ô chữ mũi tên bạn đã bắt đầu mà chưa xong. Chữ nằm trên thiết bị này: mở bất kỳ ván nào và chơi tiếp, có mạng hay không.",
+    "empty": "Chưa có ô chữ đang dở. Bắt đầu một ô chữ hoặc ô chữ mũi tên, nó sẽ chờ ở đây đến khi bạn giải xong.",
+    "detail": "Đã điền {percent}% · {difficulty} · {size}",
+    "seeAll": "Xem mọi ván đang dở"
+  },
+  "Play": {
+    "title": "Ô chữ",
+    "loading": "Đang mở ô chữ…",
+    "missingTitle": "Ô chữ này không có ở đây",
+    "missingText": "Nó không được lưu trên thiết bị này và máy chủ hiện không tới được. Kiểm tra liên kết, hoặc thử lại khi có mạng.",
+    "leaveTitle": "Rời ô chữ này?",
+    "leaveBody": "Chữ vẫn được lưu trên thiết bị này, bạn giải nốt sau trong Ô chữ của tôi.",
+    "keepSolving": "Giải tiếp",
+    "leave": "Rời",
+    "newPuzzle": "Ô chữ mới",
+    "allClues": "Mọi gợi ý",
+    "across": "Hàng ngang",
+    "down": "Hàng dọc",
+    "gridLabel": "Lưới ô chữ",
+    "cell": {
+      "position": "Hàng {row}, cột {col}",
+      "empty": "trống",
+      "wrong": "chữ sai",
+      "revealed": "đã mở",
+      "clue": "Gợi ý: {clue}"
+    },
+    "wordNumbered": "{number} {dir, select, across {hàng ngang} other {hàng dọc}}",
+    "wordDirection": "{dir, select, across {Hàng ngang} other {Hàng dọc}}",
+    "wordLength": "{name}, {length, plural, other {# chữ}}",
+    "wordLetter": "{name}, chữ {letter} trên {length}",
+    "previousWord": "Gợi ý trước",
+    "nextWord": "Gợi ý sau",
+    "toggleDirection": "Đổi hướng",
+    "filled": "Đã điền",
+    "keyboard": "Bàn phím",
+    "ime": "Gõ một ký tự",
+    "erase": "Xóa",
+    "time": "Thời gian: {time}",
+    "check": {
+      "label": "Kiểm tra",
+      "cell": "Kiểm tra chữ",
+      "word": "Kiểm tra từ",
+      "puzzle": "Kiểm tra cả ô"
+    },
+    "reveal": {
+      "label": "Mở",
+      "cell": "Mở một chữ",
+      "word": "Mở cả từ",
+      "puzzle": "Mở cả ô",
+      "confirmTitle": "Mở cả ô chữ?",
+      "confirmText": "Mọi đáp án sẽ được điền và ván kết thúc. Không hoàn tác được.",
+      "cancel": "Giải tiếp",
+      "confirm": "Mở tất cả"
+    },
+    "clearWrong": "Xóa chữ sai",
+    "more": "Thêm",
+    "zoom": {
+      "label": "Phóng",
+      "in": "Phóng to",
+      "out": "Thu nhỏ",
+      "reset": "Vừa cả ô chữ"
+    },
+    "settings": {
+      "label": "Cài đặt",
+      "autoCheck": "Kiểm tra khi đang gõ",
+      "autoCheckHint": "Đánh dấu chữ sai ngay khi nó được điền.",
+      "skipFilled": "Nhảy ô đã có chữ",
+      "skipFilledHint": "Khi gõ, con trỏ nhảy qua ô đã có chữ."
+    },
+    "share": "Chia sẻ ô chữ",
+    "shareShort": "Chia sẻ",
+    "shareTitle": "Thử ô chữ này!",
+    "linkCopied": "Đã chép liên kết — gửi cho bạn bè.",
+    "shareDialog": {
+      "title": "Chia sẻ ô chữ này",
+      "description": "Bạn của bạn nhận đúng lưới và đúng gợi ý — miễn phí, không cần đăng ký.",
+      "link": "Liên kết ô chữ",
+      "copy": "Chép",
+      "copied": "Đã chép!",
+      "copyFailed": "Không chép được — liên kết đang được chọn, hãy chép tay.",
+      "apps": "Gửi qua ứng dụng",
+      "email": "Email",
+      "more": "Thêm lựa chọn…",
+      "text": "Bạn giải được {format, select, scanword {ô chữ mũi tên} other {ô chữ}} chủ đề {topic} này không? Miễn phí, và AI vừa viết.",
+      "textAny": "Bạn giải được {format, select, scanword {ô chữ mũi tên} other {ô chữ}} này không? Miễn phí, và AI vừa viết."
+    },
+    "pdf": {
+      "open": "Lưu PDF",
+      "title": "Lưu PDF",
+      "description": "Lưới tím nhạt, lưới nhiều màu, hoặc đen trắng. Mở ở thẻ mới.",
+      "appearance": "Dáng",
+      "appearanceDefault": "Mặc định",
+      "appearanceColorful": "Nhiều màu",
+      "appearanceMono": "Đen trắng",
+      "letters": "Kèm chữ tôi đã điền",
+      "lettersHint": "Hiện những chữ bạn đã điền.",
+      "answers": "Thêm đáp án",
+      "answersHint": "Lưới đã giải, trên một trang riêng.",
+      "cancel": "Hủy",
+      "confirm": "Mở PDF",
+      "preparing": "Đang chuẩn bị PDF…",
+      "failed": "Không tạo được PDF. Xin thử lại.",
+      "answersTitle": "Đáp án",
+      "playOnline": "Chơi online: {url}"
+    },
+    "report": {
+      "open": "Báo một gợi ý",
+      "title": "Gợi ý này sai chỗ nào?",
+      "cancel": "Hủy",
+      "send": "Gửi báo cáo",
+      "thanks": "Cảm ơn! Báo cáo giúp chúng tôi rút những gợi ý kém.",
+      "note": "Chúng tôi nên biết điều gì?",
+      "notePlaceholder": "Một dòng ngắn, bằng lời của bạn",
+      "reasons": {
+        "wrongClue": "Gợi ý không khớp đáp án",
+        "notAWord": "Đáp án không phải từ thật",
+        "offensive": "Phản cảm hoặc không phù hợp",
+        "typo": "Có lỗi chính tả",
+        "other": "Chuyện khác"
+      }
+    },
+    "solved": {
+      "title": "Xong! Giỏi lắm!",
+      "titleHelped": "Xong — khá đấy!",
+      "time": "Thời gian",
+      "checks": "Lần kiểm tra",
+      "reveals": "Lần mở chữ",
+      "admire": "Ngắm lưới",
+      "next": "Ô chữ tiếp"
+    },
+    "announce": {
+      "checked": "{count, plural, other {# chữ sai}}",
+      "allCorrect": "Những chỗ đã kiểm tra đều đúng",
+      "revealed": "{count, plural, other {đã mở # chữ}}",
+      "solved": "Giải xong trong {seconds, plural, other {# giây}}!"
+    }
+  },
+  "Rules": {
+    "title": "Cách chơi",
+    "subtitle": "Mọi thứ cần để giải một ô chữ hoặc ô chữ mũi tên ở đây — trên điện thoại, máy tính bảng hay máy tính.",
+    "sections": [
+      {
+        "title": "Chọn một từ",
+        "paragraphs": [
+          "Chạm hoặc bấm một ô trắng. Từ chứa ô đó sáng vàng, và gợi ý hiện trên thanh phía trên lưới.",
+          "Chỗ hai từ cắt nhau, chạm lại ô đó để đổi giữa hàng ngang và hàng dọc. Với ô chữ mũi tên, bạn cũng có thể chạm chính ô gợi ý."
+        ]
+      },
+      {
+        "title": "Gõ chữ",
+        "paragraphs": [
+          "Trên máy tính, cứ gõ — không cần đổi bố cục bàn phím. Nếu bàn phím đang để tiếng Anh, các phím gõ chữ của ngôn ngữ ô chữ ở vị trí quen thuộc.",
+          "Trên điện thoại hoặc máy tính bảng, bàn phím của ô chữ hiện dưới lưới. Với tiếng Armenia, bàn phím có chữ ՈՒ và և, mỗi chữ một ô; gõ ո rồi ւ thì chúng tự ghép thành ՈՒ.",
+          "Trong ô chữ tiếng Nga, chữ Ё được viết thành Е, như trên báo in."
+        ]
+      },
+      {
+        "title": "Di chuyển",
+        "paragraphs": [
+          "Phím mũi tên đi giữa các ô; mũi tên cắt hướng hiện tại thì xoay con trỏ trước. Enter nhảy tới gợi ý sau, Shift+Enter về gợi ý trước.",
+          "Backspace xóa một chữ và lùi lại. Home và End nhảy tới đầu và cuối từ. Tab rời khỏi lưới."
+        ]
+      },
+      {
+        "title": "Khi bí",
+        "paragraphs": [
+          "Kiểm tra gạch ngang chữ sai bằng nét đỏ và khóa chữ đúng. Mở chữ điền một chữ, một từ hoặc cả ô; chữ được mở có một lá cờ tím nhỏ.",
+          "Bật “Kiểm tra khi đang gõ” trong cài đặt nếu bạn muốn biết ngay."
+        ]
+      },
+      {
+        "title": "Chữ mới, mỗi lần",
+        "paragraphs": [
+          "Thiết bị nhớ những từ đã cho bạn thấy và không hỏi lại. Mỗi ô chữ mới gồm những từ bạn chưa gặp ở đây."
+        ]
+      }
+    ]
+  },
+  "Faq": {
+    "title": "Hỏi và đáp",
+    "subtitle": "Mọi điều về Ô chữ AI ở một chỗ: các ván, cách AI viết, chơi trên mọi thiết bị, và sự riêng tư của bạn.",
+    "groups": [
+      {
+        "title": "Về Ô chữ AI",
+        "items": [
+          {
+            "question": "Ô chữ AI là gì?",
+            "answer": "Ô chữ AI là trang miễn phí tạo ô chữ và ô chữ mũi tên bằng ba mươi ba ngôn ngữ. Một mô hình AI viết từ và gợi ý thẳng bằng từng ngôn ngữ, mã dựng lưới, và mỗi thiết bị chỉ nhận những từ nó chưa thấy."
+          },
+          {
+            "question": "Ô chữ AI có thật sự miễn phí?",
+            "answer": "Có. Mọi ô chữ và ô chữ mũi tên đều miễn phí — không tài khoản, không đăng ký, không gói thuê bao và không quảng cáo."
+          },
+          {
+            "question": "Tôi có cần tài khoản không?",
+            "answer": "Không. Không có gì để đăng ký. Tiến độ, cài đặt và danh sách từ đã thấy nằm trong trình duyệt, trên thiết bị của bạn."
+          },
+          {
+            "question": "Ai làm Ô chữ AI?",
+            "answer": "Đây là dự án độc lập của lập trình viên Michael Navasardyan: những ô chữ đọc như người ra đề bản xứ viết, bằng mỗi ngôn ngữ trang có — trong đó có tiếng Armenia, Nga và Anh."
+          }
+        ]
+      },
+      {
+        "title": "Các ván",
+        "items": [
+          {
+            "question": "Ô chữ khác ô chữ mũi tên chỗ nào?",
+            "answer": "Ô chữ liệt kê gợi ý đánh số cạnh lưới, hàng ngang và hàng dọc. Ô chữ mũi tên in mỗi gợi ý trong một ô, mũi tên chỉ chỗ điền đáp án — dạng mà tạp chí đố vui hay dùng."
+          },
+          {
+            "question": "Lưới lớn cỡ nào?",
+            "answer": "Có ba cỡ. Ô chữ cổ điển lấp lưới 9×9, 13×13 hoặc 15×15 với khoảng 8–14, 16–24 hoặc 22–34 từ, rồi được cắt vừa các từ nó chứa. Ô chữ mũi tên dùng lưới 8×10, 10×13 hoặc 13×17 — cao hơn rộng, vì phần lớn được giải trên điện thoại."
+          },
+          {
+            "question": "Các mức độ khác nhau thế nào?",
+            "answer": "Dễ dùng chữ hằng ngày và định nghĩa thẳng. Vừa lấy vốn từ rộng hơn. Khó mang chữ hiếm hơn và gợi ý khiến bạn phải nghĩ hai lần."
+          },
+          {
+            "question": "Tôi chọn được những chủ đề nào?",
+            "answer": "Mười hai: chữ đời thường, thiên nhiên, động vật, ẩm thực, địa lý, lịch sử, khoa học, thể thao, nghệ thuật, nhà cửa, nghề nghiệp và văn hóa địa phương — hoặc trộn hết trong một ván."
+          },
+          {
+            "question": "Tôi có bao giờ thấy cùng một từ hai lần?",
+            "answer": "Không trên cùng một thiết bị. Nó nhớ tới 4.000 từ mỗi ngôn ngữ — khoảng 130 ván — và bỏ chúng khỏi mọi ván mới; chỉ sau đó những từ cũ nhất mới rời danh sách. Xóa dữ liệu trang trong trình duyệt thì danh sách bắt đầu lại."
+          },
+          {
+            "question": "AI viết gợi ý thế nào?",
+            "answer": "Mô hình Gemini của Google viết từ và gợi ý thẳng bằng từng ngôn ngữ, theo cẩm nang của người bản ngữ. Mã rồi kiểm tra từng mục — đúng bảng chữ, một từ thật, gợi ý công bằng không làm lộ đáp án — và một lượt AI thứ hai đóng vai biên tập. Cái không đạt thì bị bỏ, không vá. Lưới do mã dựng, không phải AI."
+          },
+          {
+            "question": "Gợi ý sai thì sao?",
+            "answer": "Mở menu ⋯ phía trên lưới và chọn “Báo một gợi ý”. Khi ba người chơi khác nhau báo cùng một gợi ý, gợi ý đó bị rút và không xuất hiện nữa."
+          }
+        ]
+      },
+      {
+        "title": "Khi chơi",
+        "items": [
+          {
+            "question": "Gõ đáp án trên điện thoại hoặc máy tính thế nào?",
+            "answer": "Trên máy tính, cứ gõ: dù bàn phím đang để tiếng Anh, các phím vẫn gõ chữ của ô chữ ở vị trí quen thuộc, không phải đổi bố cục. Trên điện thoại hoặc máy tính bảng, bàn phím của ô chữ hiện dưới lưới, và bàn phím hệ thống không che nó."
+          },
+          {
+            "question": "Tôi kiểm tra đáp án hoặc xin gợi ý được không?",
+            "answer": "Được. Kiểm tra đánh dấu chữ sai ở một ô, một từ hoặc cả lưới, còn Mở điền một chữ, một từ hoặc tất cả. Bật “Kiểm tra khi đang gõ” trong cài đặt để thấy lỗi ngay lúc mắc."
+          },
+          {
+            "question": "Chữ Armenia ու và և, cùng Ё của tiếng Nga, được xử lý ra sao?",
+            "answer": "Trong ô chữ Armenia, ու và և là từng chữ một và mỗi chữ chiếm một ô, như trên báo in; bàn phím trên màn hình có cả hai, và gõ ո rồi ւ thì chúng ghép thành ու. Trong ô chữ Nga, Ё được viết thành Е, như trên báo in."
+          },
+          {
+            "question": "Tiến độ có được lưu không?",
+            "answer": "Có, tự động, trong lúc bạn chơi. Mỗi ô chữ hoặc ô chữ mũi tên bạn bắt đầu rồi bỏ dở nằm trong “Ô chữ của tôi”, chữ đã điền được giữ, nên bạn chơi tiếp sau — kể cả khi ngoại tuyến."
+          },
+          {
+            "question": "Chơi ngoại tuyến, hoặc cài như ứng dụng, được không?",
+            "answer": "Được. Ô chữ AI cài từ trình duyệt như một ứng dụng (trên iPhone: Chia sẻ → Thêm vào Màn hình chính). Mỗi ô chữ bạn mở được lưu cùng tiến độ và vẫn chạy khi mất mạng; chỉ ô chữ mới cần internet."
+          },
+          {
+            "question": "Tôi gửi một ô chữ cho bạn được không?",
+            "answer": "Được. Chạm Chia sẻ phía trên lưới để chép liên kết, hoặc gửi qua WhatsApp, Telegram, Facebook, X, VK hay email. Bạn của bạn nhận đúng lưới và đúng gợi ý."
+          },
+          {
+            "question": "Chơi bằng bàn phím hoặc trình đọc màn hình được không?",
+            "answer": "Được. Lưới chạy hoàn toàn từ bàn phím và với trình đọc màn hình: mỗi ô có nhãn, gợi ý đang chọn được đọc lên, kiểm tra và mở chữ cũng được đọc. Chữ sai và chữ đã mở được phân biệt bằng hình, không chỉ bằng màu."
+          }
+        ]
+      },
+      {
+        "title": "Riêng tư",
+        "items": [
+          {
+            "question": "Các bạn giữ dữ liệu gì?",
+            "answer": "Rất ít. Ô chữ, tiến độ, cài đặt và danh sách từ đã thấy nằm trong trình duyệt. Máy chủ giữ các ô chữ đã tạo (để liên kết chia sẻ mở đúng lưới), báo cáo gợi ý kèm một mã một chiều của địa chỉ IP, và số lượt giải ẩn danh. Không tên, không hồ sơ."
+          },
+          {
+            "question": "Có gì về tôi được gửi cho AI không?",
+            "answer": "Không. Tới các mô hình Gemini của Google chỉ có thiết lập ô chữ — ngôn ngữ, chủ đề, độ khó — và danh sách từ, không bao giờ có gì về bạn."
+          }
+        ]
+      }
+    ],
+    "ctaTitle": "Sẵn sàng cho một ô chữ mới?",
+    "ctaText": "Chọn chủ đề và độ khó — lưới kế tiếp chỉ vài giây nữa.",
+    "cta": "Tạo một ô chữ"
+  },
+  "About": {
+    "title": "Về Ô chữ AI",
+    "subtitle": "Trình tạo ô chữ miễn phí, viết bằng ngôn ngữ của bạn và không đưa cùng một từ hai lần.",
+    "sections": [
+      {
+        "title": "Vì sao chúng tôi làm",
+        "paragraphs": [
+          "Phần lớn ô chữ online xoay vòng một danh sách từ ngắn, còn bản dịch thì đọc như bản dịch. Chúng tôi muốn những ván như người ra đề bản xứ viết — và vẫn mới dù bạn giải bao nhiêu."
+        ]
+      },
+      {
+        "title": "Chữ được viết thế nào",
+        "paragraphs": [
+          "Một mô hình AI viết từ và gợi ý thẳng bằng từng ngôn ngữ, theo cẩm nang của người bản ngữ: dạng ngữ pháp ô chữ hay dùng, chuẩn chính tả, cách đặt gợi ý trong truyền thống đố của ngôn ngữ ấy.",
+          "Mỗi từ rồi qua kiểm tra tự động — đúng bảng chữ, một từ thật, không gợi ý nào làm lộ đáp án — và một AI thứ hai đóng vai biên tập. Báo cáo của người chơi rút những gì lọt lưới."
+        ]
+      },
+      {
+        "title": "Lưới được dựng thế nào",
+        "paragraphs": [
+          "Chính lưới do mã dựng, không phải AI: một thuật toán ghép các từ sao cho mỗi chữ thuộc một từ thật, có gợi ý. Nhờ vậy mỗi ván đều công bằng."
+        ]
+      }
+    ]
+  },
+  "Privacy": {
+    "title": "Chính sách riêng tư",
+    "subtitle": "Ngắn gọn: không tài khoản, không tên, không hồ sơ. Đây là mọi thứ chúng tôi giữ.",
+    "sections": [
+      {
+        "title": "Trên thiết bị của bạn",
+        "paragraphs": [
+          "Trình duyệt giữ các ô chữ bạn mở, tiến độ, cài đặt và danh sách từ đã thấy, để chúng không lặp. Mọi thứ ở trên thiết bị; xóa dữ liệu trang là mất."
+        ]
+      },
+      {
+        "title": "Trên máy chủ của chúng tôi",
+        "paragraphs": [
+          "Chúng tôi giữ các ô chữ đã tạo, để liên kết chia sẻ mở đúng lưới. Khi bạn báo một gợi ý, chúng tôi giữ báo cáo kèm mã một chiều của địa chỉ IP, chỉ để một người không tự rút được một gợi ý. Chúng tôi cũng đếm ẩn danh cách chơi (đã giải, từ nào được mở) để chỉnh độ khó."
+        ]
+      },
+      {
+        "title": "Bên cung cấp AI",
+        "paragraphs": [
+          "Từ và gợi ý mới do các mô hình Gemini của Google viết. Chỉ thiết lập ô chữ (ngôn ngữ, chủ đề, độ khó) và danh sách từ được gửi — không bao giờ có gì về bạn."
+        ]
+      },
+      {
+        "title": "Thống kê và báo lỗi",
+        "paragraphs": [
+          "Nếu bật, chúng tôi dùng Google Analytics để đếm lượt xem trang và Sentry để nhận báo lỗi. Không cái nào dùng để nhận ra bạn."
+        ]
+      }
+    ]
+  },
+  "Terms": {
+    "title": "Điều khoản sử dụng",
+    "subtitle": "Ô chữ AI miễn phí, để chơi và để học.",
+    "sections": [
+      {
+        "title": "Dùng dịch vụ",
+        "paragraphs": [
+          "Bạn có thể chơi, chia sẻ và in các ô chữ cho việc cá nhân và học tập. Xin đừng làm dịch vụ quá tải bằng yêu cầu tự động."
+        ]
+      },
+      {
+        "title": "Nội dung do AI viết",
+        "paragraphs": [
+          "Từ và gợi ý do AI viết và được kiểm tra tự động, nhưng vẫn có thể sai. Nếu thấy, hãy báo — đó là cách gợi ý kém bị gỡ."
+        ]
+      },
+      {
+        "title": "Không bảo đảm",
+        "paragraphs": [
+          "Dịch vụ được cung cấp như hiện có, không bảo đảm lúc nào cũng chạy hay lúc nào cũng đúng. Chúng tôi có thể đổi hoặc ngừng tính năng bất cứ lúc nào."
+        ]
+      }
+    ]
+  },
+  "Contact": {
+    "title": "Viết cho chúng tôi",
+    "subtitle": "Có câu hỏi, ý tưởng hay điều gì chưa ổn? Viết cho chúng tôi, chúng tôi trả lời qua email.",
+    "fullName": "Tên",
+    "email": "Email",
+    "message": "Lời nhắn",
+    "messagePlaceholder": "Chúng tôi có thể giúp gì?",
+    "required": "Hãy điền ô này",
+    "invalidEmail": "Email này có vẻ không đúng",
+    "submit": "Gửi",
+    "sent": "Đã gửi",
+    "sentText": "Cảm ơn bạn. Chúng tôi sẽ trả lời qua email sớm nhất có thể.",
+    "sendAnother": "Viết thêm lời nhắn",
+    "tooMany": "Bạn đã gửi quá nhiều. Hãy thử lại sau một lát."
+  }
+}

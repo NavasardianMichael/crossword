@@ -10,11 +10,46 @@ import type { Locale } from '@constants/puzzle'
 export const SHARE_TARGETS = ['whatsapp', 'telegram', 'vk', 'facebook', 'x', 'email'] as const
 export type ShareTarget = (typeof SHARE_TARGETS)[number]
 
-/** Most-used first: Telegram and VK lead where people speak Russian and Armenian. */
+/** Most-used first. Every locale lists each target once; the test checks the set, not the ranking. */
+const rank = (first: readonly ShareTarget[]): readonly ShareTarget[] => [
+  ...first,
+  ...SHARE_TARGETS.filter((target) => !first.includes(target)),
+]
+
 export const SHARE_ORDER: Record<Locale, readonly ShareTarget[]> = {
-  en: ['whatsapp', 'x', 'facebook', 'telegram', 'email', 'vk'],
-  ru: ['telegram', 'whatsapp', 'vk', 'email', 'facebook', 'x'],
-  hy: ['telegram', 'whatsapp', 'facebook', 'vk', 'email', 'x'],
+  en: rank(['whatsapp', 'x', 'facebook', 'telegram', 'email']),
+  ru: rank(['telegram', 'whatsapp', 'vk', 'email', 'facebook']),
+  hy: rank(['telegram', 'whatsapp', 'facebook', 'vk', 'email']),
+  uk: rank(['telegram', 'whatsapp', 'facebook', 'email']),
+  es: rank(['whatsapp', 'telegram', 'facebook', 'x']),
+  pt: rank(['whatsapp', 'telegram', 'facebook', 'x']),
+  fr: rank(['whatsapp', 'facebook', 'telegram', 'x']),
+  de: rank(['whatsapp', 'telegram', 'facebook', 'email']),
+  it: rank(['whatsapp', 'telegram', 'facebook', 'email']),
+  nl: rank(['whatsapp', 'telegram', 'facebook', 'email']),
+  pl: rank(['facebook', 'whatsapp', 'telegram', 'email']),
+  cs: rank(['facebook', 'whatsapp', 'telegram', 'email']),
+  sv: rank(['whatsapp', 'facebook', 'telegram', 'email']),
+  ro: rank(['whatsapp', 'facebook', 'telegram', 'email']),
+  hu: rank(['facebook', 'whatsapp', 'telegram', 'email']),
+  el: rank(['whatsapp', 'facebook', 'telegram', 'email']),
+  id: rank(['whatsapp', 'telegram', 'facebook', 'x']),
+  ms: rank(['whatsapp', 'telegram', 'facebook', 'x']),
+  fil: rank(['facebook', 'whatsapp', 'telegram', 'x']),
+  vi: rank(['facebook', 'telegram', 'whatsapp', 'x']),
+  th: rank(['facebook', 'whatsapp', 'telegram', 'x']),
+  ar: rank(['whatsapp', 'telegram', 'facebook', 'x']),
+  fa: rank(['telegram', 'whatsapp', 'facebook', 'email']),
+  ur: rank(['whatsapp', 'facebook', 'telegram', 'x']),
+  he: rank(['whatsapp', 'telegram', 'facebook', 'email']),
+  hi: rank(['whatsapp', 'telegram', 'facebook', 'x']),
+  mr: rank(['whatsapp', 'telegram', 'facebook', 'x']),
+  bn: rank(['whatsapp', 'facebook', 'telegram', 'x']),
+  ta: rank(['whatsapp', 'telegram', 'facebook', 'x']),
+  sw: rank(['whatsapp', 'facebook', 'telegram', 'x']),
+  zh: rank(['telegram', 'email', 'whatsapp', 'facebook']),
+  ja: rank(['x', 'email', 'facebook', 'telegram']),
+  ko: rank(['facebook', 'x', 'telegram', 'email']),
 }
 
 /** Brand names stay as the brands write them; email is a word, so it is translated (`Play.shareDialog.email`). */

@@ -9,8 +9,46 @@
  */
 // --- twin: keep identical below this line ---
 
-/** The languages puzzles are written in. Each has its own word pool, never translated. */
-export const LOCALES = ['en', 'ru', 'hy'] as const
+/**
+ * The languages puzzles are written in. Each has its own word pool, never translated.
+ * `en`, `ru` and `hy` stay first: English is the default, and the other two were here from the start.
+ * Marathi (`mr`) stands in for Turkish. `zh` is Simplified Chinese.
+ */
+export const LOCALES = [
+  'en',
+  'ru',
+  'hy',
+  'es',
+  'pt',
+  'fr',
+  'de',
+  'id',
+  'mr',
+  'it',
+  'pl',
+  'vi',
+  'uk',
+  'ar',
+  'hi',
+  'ko',
+  'bn',
+  'ja',
+  'zh',
+  'fa',
+  'nl',
+  'ro',
+  'el',
+  'cs',
+  'sv',
+  'hu',
+  'he',
+  'fil',
+  'ms',
+  'ur',
+  'th',
+  'ta',
+  'sw',
+] as const
 export type Locale = (typeof LOCALES)[number]
 
 export const isLocale = (value: unknown): value is Locale => LOCALES.includes(value as Locale)
@@ -90,8 +128,11 @@ export const MAX_EXCLUDE = 4000
 export const MAX_CLUE_LENGTH = 90
 export const MAX_SHORT_CLUE_LENGTH = 24
 
-export const REPORT_REASONS = ['wrongClue', 'notAWord', 'offensive', 'typo'] as const
+export const REPORT_REASONS = ['wrongClue', 'notAWord', 'offensive', 'typo', 'other'] as const
 export type ReportReason = (typeof REPORT_REASONS)[number]
+
+/** A custom note, only when the reason is `other`. */
+export const MAX_REPORT_NOTE = 500
 
 export const isReportReason = (value: unknown): value is ReportReason => REPORT_REASONS.includes(value as ReportReason)
 

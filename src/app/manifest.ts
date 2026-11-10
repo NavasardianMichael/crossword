@@ -12,7 +12,7 @@ export default function manifest(): MetadataRoute.Manifest {
     id: '/',
     name: APP_NAME,
     short_name: 'Crossword',
-    description: 'Free AI crosswords and scanwords in English, Russian and Armenian — new words every game.',
+    description: 'Free AI crosswords and scanwords in your language — new words every game.',
     lang: DEFAULT_LOCALE,
     dir: 'ltr',
     // localePrefix is 'always', so '/' is a redirect; a start_url that redirects can loop.

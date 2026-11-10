@@ -24,7 +24,7 @@ export type CreatePuzzleAPI = Endpoint<{ payload: CreatePuzzlePayload; response:
 
 export type GetPuzzleAPI = Endpoint<{ payload: { id: string }; response: PuzzleView; processed: PuzzleView }>
 
-export type ReportPayload = { puzzleId: string; wordId: number; reason: ReportReason }
+export type ReportPayload = { puzzleId: string; wordId: number; reason: ReportReason; note?: string }
 
 export type ReportWordAPI = Endpoint<{ payload: ReportPayload; response: null; processed: null }>
 

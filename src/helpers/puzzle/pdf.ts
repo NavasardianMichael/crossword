@@ -1,7 +1,7 @@
 import type { PDFFont, PDFPage } from 'pdf-lib'
 import { displayCell } from '@constants/alphabet'
 import type { Arrow, Direction, PuzzleView } from '@constants/puzzle'
-import { INK } from '@styles/tokens'
+import { CORAL, INK, LAVENDER, MINT, PRINT, SKY, SUN, TEAL } from '@styles/tokens'
 
 /**
  * The puzzle as a real, vector PDF, built in the browser — so it works offline, costs the
@@ -23,6 +23,10 @@ export type PdfLabels = {
   playOnline: string
 }
 
+/** `default` is today's light-purple grid; `colorful` the on-screen crayons; `mono` true black and white. */
+export const PDF_APPEARANCES = ['default', 'colorful', 'mono'] as const
+export type PdfAppearance = (typeof PDF_APPEARANCES)[number]
+
 export type PdfInput = {
   puzzle: PuzzleView
   labels: PdfLabels
@@ -31,7 +35,21 @@ export type PdfInput = {
   /** An answer key on a page of its own. */
   answers: boolean
   pageSize: 'a4' | 'letter'
+  /** Omitted means `default`, so older callers keep the light-purple sheet. */
+  appearance?: PdfAppearance
 }
+
+/** Scanword stickers, in the same order as the on-screen tiles. */
+const STICKERS = [
+  { fill: CORAL[100], mark: CORAL[300], block: CORAL[400] },
+  { fill: TEAL[100], mark: TEAL[300], block: TEAL[400] },
+  { fill: SUN[100], mark: SUN[300], block: SUN[400] },
+  { fill: LAVENDER[100], mark: LAVENDER[300], block: LAVENDER[400] },
+  { fill: MINT[100], mark: MINT[300], block: MINT[400] },
+  { fill: SKY[100], mark: SKY[300], block: SKY[400] },
+] as const
+
+const sticker = (stamp: number) => STICKERS[Math.abs(stamp) % STICKERS.length]!
 
 /** Static TrueType instances (OFL): Rubik and Nunito cover Latin + Cyrillic, Noto Sans Armenian the rest. */
 const FONT_FILES = {
@@ -120,6 +138,7 @@ export const buildPuzzlePdf = async (input: PdfInput, fonts: PdfFonts): Promise<
   const { PDFDocument, rgb } = await import('pdf-lib')
   const fontkit = (await import('@pdf-lib/fontkit')).default
   const { puzzle, labels } = input
+  const appearance = input.appearance ?? 'default'
 
   const pdf = await PDFDocument.create()
   pdf.registerFontkit(fontkit)
@@ -140,14 +159,20 @@ export const buildPuzzlePdf = async (input: PdfInput, fonts: PdfFonts): Promise<
     bold: { latin: bodyBold, armenian: armenianBold },
   } satisfies Record<string, Face>
 
-  const ink = hexToRgb(rgb, INK[900])
-  const muted = hexToRgb(rgb, INK[700])
-  const shade = hexToRgb(rgb, INK[300], 0.3)
-  const hatch = hexToRgb(rgb, INK[300])
+  const paint = (hex: string, mix = 1) => hexToRgb(rgb, hex, mix)
+  const ink = paint(appearance === 'mono' ? PRINT.ink : INK[900])
+  const muted = paint(appearance === 'mono' ? PRINT.muted : INK[700])
+  const clueFill = paint(appearance === 'colorful' ? TEAL[100] : appearance === 'mono' ? PRINT.paper : INK[300], appearance === 'default' ? 0.3 : 1)
+  const clueInk = paint(appearance === 'colorful' ? TEAL[700] : appearance === 'mono' ? PRINT.ink : INK[900])
+  const ruleColor = paint(appearance === 'colorful' ? CORAL[500] : appearance === 'mono' ? PRINT.ink : INK[900])
+  const hatchOf = (stamp: number): Colour => paint(appearance === 'colorful' ? sticker(stamp).mark : appearance === 'mono' ? PRINT.hatch : INK[300])
 
   const [pageWidth, pageHeight] = PAGE_SIZES[input.pageSize]
   const contentWidth = pageWidth - 2 * MARGIN
-  const bottom = pageHeight - MARGIN
+  // One line in the bottom margin of every page, so the grid and clues stop above it.
+  const playSize = 8
+  const playBaseline = pageHeight - MARGIN
+  const bottom = playBaseline - playSize - 3 * MM
   let page: PDFPage = pdf.addPage([pageWidth, pageHeight])
 
   // ── drawing, in top-down coordinates ──
@@ -185,7 +210,7 @@ export const buildPuzzlePdf = async (input: PdfInput, fonts: PdfFonts): Promise<
     text(labels.subtitle, MARGIN + widthOf(labels.title, faces.display, titleSize) + 3 * MM, baseline, 10, faces.body)
     text(labels.brand, pageWidth - MARGIN - widthOf(labels.brand, faces.display, 10), baseline, 10, faces.display)
     const rule = baseline + 2 * MM
-    rect(MARGIN, rule, contentWidth, 1.1, { fill: ink })
+    rect(MARGIN, rule, contentWidth, 1.1, { fill: ruleColor })
     return rule + 5 * MM
   }
 
@@ -194,26 +219,26 @@ export const buildPuzzlePdf = async (input: PdfInput, fonts: PdfFonts): Promise<
     const head = a * 0.45
     const line = Math.max(0.6, cell * 0.025)
     const right = (tipX: number, tipY: number) =>
-      path(`M ${tipX} ${tipY} L ${tipX - head} ${tipY - head * 0.6} L ${tipX - head} ${tipY + head * 0.6} Z`, { fill: ink })
+      path(`M ${tipX} ${tipY} L ${tipX - head} ${tipY - head * 0.6} L ${tipX - head} ${tipY + head * 0.6} Z`, { fill: clueInk })
     const down = (tipX: number, tipY: number) =>
-      path(`M ${tipX} ${tipY} L ${tipX - head * 0.6} ${tipY - head} L ${tipX + head * 0.6} ${tipY - head} Z`, { fill: ink })
+      path(`M ${tipX} ${tipY} L ${tipX - head * 0.6} ${tipY - head} L ${tipX + head * 0.6} ${tipY - head} Z`, { fill: clueInk })
     const edgeX = x + width
     const edgeY = y + height
     const midX = x + width / 2
     const midY = y + height / 2
     if (kind === 'right') {
-      path(`M ${edgeX - a / 2} ${midY} L ${edgeX + a / 2 - head} ${midY}`, { stroke: ink, line })
+      path(`M ${edgeX - a / 2} ${midY} L ${edgeX + a / 2 - head} ${midY}`, { stroke: clueInk, line })
       right(edgeX + a / 2, midY)
     } else if (kind === 'down') {
-      path(`M ${midX} ${edgeY - a / 2} L ${midX} ${edgeY + a / 2 - head}`, { stroke: ink, line })
+      path(`M ${midX} ${edgeY - a / 2} L ${midX} ${edgeY + a / 2 - head}`, { stroke: clueInk, line })
       down(midX, edgeY + a / 2)
     } else if (kind === 'downRight') {
       const turnY = edgeY + a * 0.35
-      path(`M ${midX - a / 2} ${edgeY - a * 0.35} L ${midX - a / 2} ${turnY} L ${midX + a / 2 - head} ${turnY}`, { stroke: ink, line })
+      path(`M ${midX - a / 2} ${edgeY - a * 0.35} L ${midX - a / 2} ${turnY} L ${midX + a / 2 - head} ${turnY}`, { stroke: clueInk, line })
       right(midX + a / 2, turnY)
     } else {
       const turnX = edgeX + a * 0.35
-      path(`M ${edgeX - a * 0.35} ${midY - a / 2} L ${turnX} ${midY - a / 2} L ${turnX} ${midY + a / 2 - head}`, { stroke: ink, line })
+      path(`M ${edgeX - a * 0.35} ${midY - a / 2} L ${turnX} ${midY - a / 2} L ${turnX} ${midY + a / 2 - head}`, { stroke: clueInk, line })
       down(turnX, midY + a / 2)
     }
   }
@@ -246,8 +271,10 @@ export const buildPuzzlePdf = async (input: PdfInput, fonts: PdfFonts): Promise<
     // Fills first, then every line, then type and arrows on top.
     puzzle.cells.forEach((view, index) => {
       const { x, y } = at(index)
-      if (view.k === 'C') rect(x, y, cell, cell, { fill: shade })
+      if (view.k === 'C') rect(x, y, cell, cell, { fill: clueFill })
       if (view.k === 'B' && puzzle.format === 'scanword') {
+        const stamp = view.d ?? index
+        if (appearance === 'colorful') rect(x, y, cell, cell, { fill: paint(sticker(stamp).fill) })
         const gap = 1.6 * MM
         let d = ''
         for (let c = gap; c < 2 * cell; c += gap) {
@@ -255,13 +282,17 @@ export const buildPuzzlePdf = async (input: PdfInput, fonts: PdfFonts): Promise<
           const toX = Math.min(cell, c)
           d += ` M ${x + fromX} ${y + c - fromX} L ${x + toX} ${y + c - toX}`
         }
-        path(d, { stroke: hatch, line: 0.5 })
+        path(d, { stroke: hatchOf(stamp), line: 0.5 })
+      }
+      if (view.k === 'B' && puzzle.format === 'classic' && appearance !== 'default') {
+        const fill = appearance === 'mono' ? ink : paint(sticker(index).block)
+        rect(x, y, cell, cell, { fill })
       }
     })
     puzzle.cells.forEach((view, index) => {
       if (view.k === 'B' && puzzle.format !== 'scanword') return
       const { x, y } = at(index)
-      rect(x, y, cell, cell, { stroke: ink })
+      rect(x, y, cell, cell, { stroke: view.k === 'C' ? clueInk : ink })
     })
     puzzle.cells.forEach((view, index) => {
       const { x, y } = at(index)
@@ -282,7 +313,7 @@ export const buildPuzzlePdf = async (input: PdfInput, fonts: PdfFonts): Promise<
         view.clues.forEach((id, part) => {
           const word = puzzle.words[id]!
           const partTop = y + part * partHeight
-          if (part > 0) rect(x, partTop, cell, 0.5, { fill: ink })
+          if (part > 0) rect(x, partTop, cell, 0.5, { fill: clueInk })
           const pad = cell * 0.09
           const { lines, size } = fitClue(word.clue, cell - 2 * pad, partHeight - pad, cell)
           const lineHeight = size * 1.08
@@ -374,23 +405,24 @@ export const buildPuzzlePdf = async (input: PdfInput, fonts: PdfFonts): Promise<
   // ── the sheet ──
   const top = header()
   const ratio = puzzle.width / puzzle.height
-  const footerSpace = 8 * MM
   const width =
     puzzle.format === 'scanword'
-      ? Math.min(contentWidth, (bottom - top - footerSpace) * ratio)
+      ? Math.min(contentWidth, (bottom - top) * ratio)
       : Math.min(contentWidth, 125 * MM, 150 * MM * ratio)
-  let y = grid(top, width, input.letters, false)
-  if (puzzle.format === 'classic') y = clueLists(y + 5 * MM)
-  if (y + footerSpace > bottom) {
-    page = pdf.addPage([pageWidth, pageHeight])
-    y = MARGIN
-  }
-  text(labels.playOnline, MARGIN, y + 4 * MM + 8, 8, faces.body, muted)
+  const gridBottom = grid(top, width, input.letters, false)
+  if (puzzle.format === 'classic') clueLists(gridBottom + 5 * MM)
 
   if (input.answers) {
     page = pdf.addPage([pageWidth, pageHeight])
     text(labels.answers, MARGIN, MARGIN + 14, 14, faces.display)
     grid(MARGIN + 14 + 5 * MM, Math.min(contentWidth, 120 * MM, 170 * MM * ratio), puzzle.solution, true)
+  }
+
+  // The same corner on every sheet, including a clue page and the answer key.
+  const playX = pageWidth - MARGIN - widthOf(labels.playOnline, faces.body, playSize)
+  for (const sheet of pdf.getPages()) {
+    page = sheet
+    text(labels.playOnline, playX, playBaseline, playSize, faces.body, muted)
   }
 
   pdf.setTitle(`${labels.title} — ${labels.subtitle}`, { showInWindowTitleBar: true })

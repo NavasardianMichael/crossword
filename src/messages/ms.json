@@ -1,0 +1,715 @@
+{
+  "Common": {
+    "appName": "Silang Kata AI",
+    "tagline": "Teka silang kata dan teka petak percuma, ditulis segar dalam Bahasa Melayu. Perkataan baharu setiap permainan, tidak pernah berulang.",
+    "skipToContent": "Langkau ke kandungan",
+    "openMenu": "Buka menu",
+    "menu": "Menu",
+    "close": "Tutup",
+    "retry": "Cuba lagi",
+    "chooseLanguage": "Pilih bahasa",
+    "language": "Bahasa",
+    "copyright": "© {year} {appName}. Dibuat dengan perkataan dan sedikit magis.",
+    "backOnline": "Anda kembali dalam talian.",
+    "offline": "Anda di luar talian. Teka yang sudah dibuka masih boleh dimainkan.",
+    "lastUpdated": "Kemas kini terakhir: {date}"
+  },
+  "Nav": {
+    "main": "Utama",
+    "footer": "Laman",
+    "home": "Laman utama",
+    "crossword": "Teka silang kata",
+    "scanword": "Teka petak",
+    "topics": "Topik",
+    "history": "Teka saya",
+    "rules": "Cara main",
+    "faq": "Soalan lazim",
+    "about": "Perihal",
+    "privacy": "Privasi",
+    "terms": "Syarat",
+    "contact": "Hubungi"
+  },
+  "Errors": {
+    "network": "Pelayan tidak dapat dihubungi. Semak sambungan anda dan cuba lagi.",
+    "rateLimited": "Terlalu banyak teka dalam seminit! Tarik nafas dahulu, kemudian cuba lagi.",
+    "unauthorized": "Tindakan ini tidak dibenarkan.",
+    "notFound": "Kami tidak menjumpainya.",
+    "server": "Ada gangguan di pihak kami. Sila cuba lagi.",
+    "generic": "Sesuatu tidak kena. Sila cuba lagi.",
+    "details": "Butiran",
+    "pageErrorTitle": "Aduh, satu petak tertanggal",
+    "pageErrorBody": "Halaman ini terkena ralat yang tidak dijangka. Cuba lagi biasanya memadai.",
+    "notFoundTitle": "Halaman ini tiada dalam kekisi",
+    "notFoundBody": "Pautan mungkin lama atau tersalah taip. Mari cari teka yang baharu.",
+    "goHome": "Ke laman utama"
+  },
+  "Pwa": {
+    "install": "Pasang aplikasi",
+    "iosTitle": "Tambah Silang Kata AI ke Skrin Utama",
+    "benefit": "Buka seperti aplikasi, skrin penuh — dan terus main teka yang tersimpan walaupun di luar talian.",
+    "iosStep1": "Ketik butang Kongsi (Share) pada bar alat Safari.",
+    "iosStep2": "Pilih “Tambah ke Skrin Utama” (Add to Home Screen).",
+    "iosStep3": "Ketik “Tambah” (Add) — ikon aplikasi muncul di Skrin Utama.",
+    "gotIt": "Faham"
+  },
+  "Seo": {
+    "homeTitle": "Teka Silang Kata Melayu Percuma | Buat Teka Silang Kata",
+    "homeDescription": "Buat teka silang kata Melayu percuma dalam talian. Pilih haiwan, makanan, geografi, sejarah, sains, sukan dan lagi. Perkataan baharu setiap permainan, boleh di luar talian.",
+    "keywords": "teka silang kata, buat teka silang kata, teka silang kata melayu, silang kata bahasa melayu, teka silang kata percuma, silang kata dalam talian, haiwan, makanan, geografi, sejarah, sains, sukan, silang kata haiwan, silang kata makanan, silang kata geografi, silang kata sejarah, silang kata sains, silang kata sukan",
+    "crosswordTitle": "Teka Silang Kata Percuma dalam Talian",
+    "crosswordDescription": "Main teka silang kata percuma dalam talian, ditulis oleh AI: petunjuk bernombor melintang dan menegak, 12 topik, tiga tahap kesukaran. Tanpa daftar, perkataan baharu setiap permainan.",
+    "scanwordTitle": "Teka Petak Percuma — Petunjuk di Dalam Kekisi",
+    "scanwordDescription": "Selesaikan teka petak percuma: petunjuk duduk di dalam kekisi, dengan anak panah ke jawapan. Ditulis oleh AI, tanpa daftar, di telefon, tablet atau komputer.",
+    "topicsTitle": "Topik Teka Silang Kata: Haiwan, Makanan, Geografi dan Lagi",
+    "topicsDescription": "Pilih topik untuk teka silang kata atau teka petak seterusnya: alam, haiwan, makanan, geografi, sejarah, sains, sukan, seni dan lagi.",
+    "topicTitle": "{topic} — teka silang kata percuma",
+    "topicDescription": "Teka silang kata dan teka petak {topic} percuma, dijana oleh AI. {description}",
+    "historyTitle": "Teka saya",
+    "historyDescription": "Teka silang kata dan teka petak yang anda mulakan pada peranti ini dan belum selesai, dengan kemajuan yang tersimpan.",
+    "rulesTitle": "Cara Main Teka Silang Kata dan Teka Petak",
+    "rulesDescription": "Cara selesaikan teka silang kata atau teka petak di sini: menaip, bergerak dalam kekisi, menyemak dan mendedahkan huruf, serta pintasan papan kekunci.",
+    "faqTitle": "Soalan Lazim: Teka Silang Kata AI, Bahasa dan Privasi",
+    "faqDescription": "Jawapan tentang Silang Kata AI: adakah percuma, bagaimana AI menulis petunjuk, saiz kekisi, kesukaran, perkataan yang tidak berulang, main di luar talian, perkongsian dan privasi.",
+    "aboutTitle": "Perihal — Bagaimana Teka Silang Kata AI Dihasilkan",
+    "aboutDescription": "Mengapa kami bina penjana teka silang kata percuma yang tidak pernah mengulang perkataan, dan bagaimana AI menulis petunjuk secara asli dalam setiap bahasa.",
+    "privacyTitle": "Dasar privasi",
+    "privacyDescription": "Apa yang Silang Kata AI simpan, di mana, dan mengapa — tiada akaun, tiada penjejakan identiti anda.",
+    "termsTitle": "Syarat penggunaan",
+    "termsDescription": "Syarat ringkas untuk menggunakan Silang Kata AI.",
+    "contactTitle": "Tulis kepada kami",
+    "contactDescription": "Ada soalan, idea atau masalah dalam teka-teki? Tulis kepada kami, kami balas melalui e-mel.",
+    "puzzleDescription": "Teka percuma daripada Silang Kata AI — selesaikan dalam pelayar anda.",
+    "sharedPuzzleDescription": "{format, select, scanword {Teka petak} other {Teka silang kata}} percuma {size} · {topic} · {difficulty} · {words, plural, other {# perkataan}}. Ditulis oleh AI — selesaikan dalam pelayar, tanpa daftar.",
+    "ogImageAlt": "Silang Kata AI — teka silang kata dan teka petak percuma dalam bahasa anda",
+    "ogPuzzleCta": "Boleh selesaikan?",
+    "ogPuzzleMeta": "{size} · {words, plural, other {# perkataan}}"
+  },
+  "Formats": {
+    "classic": {
+      "name": "Teka silang kata",
+      "short": "Petunjuk bernombor, melintang dan menegak",
+      "description": "Yang klasik: perkataan bersilang dalam kekisi bebas, dan setiap petunjuk menunggu dalam senarai Melintang serta Menegak.",
+      "cta": "Main teka silang kata"
+    },
+    "scanword": {
+      "name": "Teka petak",
+      "short": "Petunjuk di dalam kekisi, dengan anak panah",
+      "description": "Setiap petunjuk duduk dalam kekisi dengan anak panah ke jawapannya — cepat dibaca, sukar ditinggalkan.",
+      "cta": "Main teka petak"
+    }
+  },
+  "Topics": {
+    "any": "Pelbagai topik",
+    "general": {
+      "name": "Perkataan harian",
+      "description": "Perkataan kehidupan seharian — rumah, orang, masa, dunia di sekeliling kita."
+    },
+    "nature": {
+      "name": "Alam",
+      "description": "Hutan, sungai, cuaca, tumbuhan dan musim."
+    },
+    "animals": {
+      "name": "Haiwan",
+      "description": "Haiwan liar dan ternakan, burung, ikan serta serangga."
+    },
+    "food": {
+      "name": "Makanan dan minuman",
+      "description": "Hidangan, bahan, dapur dan segala yang ada di meja."
+    },
+    "geography": {
+      "name": "Geografi",
+      "description": "Negara, bandar, sungai, gunung dan tempat terkenal."
+    },
+    "history": {
+      "name": "Sejarah",
+      "description": "Zaman, ciptaan, kraf dan benda daripada masa silam."
+    },
+    "science": {
+      "name": "Sains",
+      "description": "Fizik, kimia, biologi, angkasa dan tubuh manusia."
+    },
+    "sport": {
+      "name": "Sukan",
+      "description": "Permainan, peralatan atlet, pertandingan dan peraturan main."
+    },
+    "arts": {
+      "name": "Seni",
+      "description": "Muzik, sastera, teater, lukisan dan filem."
+    },
+    "home": {
+      "name": "Rumah dan harian",
+      "description": "Perabot, alat, pakaian dan benda yang digunakan setiap hari."
+    },
+    "professions": {
+      "name": "Pekerjaan",
+      "description": "Kerja, kemahiran, alatan dan tempat kerja."
+    },
+    "localCulture": {
+      "name": "Budaya tempatan",
+      "description": "Tradisi, perayaan, cerita rakyat dan tempat terkenal di Malaysia."
+    }
+  },
+  "Difficulty": {
+    "1": "Mudah",
+    "2": "Sederhana",
+    "3": "Sukar"
+  },
+  "Sizes": {
+    "small": "Kecil",
+    "medium": "Sederhana",
+    "large": "Besar"
+  },
+  "Generator": {
+    "format": "Pilih bentuk",
+    "topic": "Pilih topik",
+    "difficulty": "Kesukaran",
+    "size": "Saiz",
+    "create": "Buat teka saya",
+    "creating": "Sedang membina teka anda…",
+    "creatingHint": "Memilih perkataan yang belum anda lihat. Yang baharu mungkin mengambil beberapa saat.",
+    "cancel": "Batal",
+    "freshHint": "Percuma, tanpa daftar. Setiap teka membawa perkataan yang belum anda temui di sini.",
+    "exhausted": "Anda sudah main semua perkataan yang ada untuk pilihan ini! Kami sedang menulis yang baharu — cuba topik lain, atau kembali sebentar lagi."
+  },
+  "Home": {
+    "hero": {
+      "eyebrow": "Percuma · Tanpa daftar · Boleh di luar talian",
+      "title": "Teka silang kata yang <mark>sentiasa baharu</mark>",
+      "subtitle": "Pilih topik dan kesukaran — AI menulis petunjuk dalam bahasa anda, dan perkataan yang sama tidak keluar dua kali.",
+      "lede": "Buat teka silang kata atau teka petak percuma dalam talian, tanpa daftar. Topiknya dari haiwan, makanan dan geografi hingga sejarah, sains, sukan, seni, rumah, pekerjaan dan budaya tempatan — atau campur semuanya."
+    },
+    "continueTitle": "Sambung dari tadi",
+    "formatsTitle": "Dua cara bermain",
+    "formatsSubtitle": "Teka silang kata yang luas dengan senarai petunjuk, atau teka petak yang padat dengan petunjuk di dalam kekisi.",
+    "pointsTitle": "Mengapa ia berbeza",
+    "points": {
+      "fresh": {
+        "title": "Tidak pernah berulang",
+        "text": "Peranti anda mengingati setiap perkataan yang telah ditunjukkan, jadi setiap teka baharu membawa perkataan yang belum anda selesaikan."
+      },
+      "native": {
+        "title": "Ditulis dalam bahasa anda",
+        "text": "Petunjuk ditulis secara asli dalam setiap bahasa — seperti pengarang teka tempatan, bukan terjemahan dari bahasa lain."
+      },
+      "ai": {
+        "title": "Dibuat oleh AI, disemak oleh kod",
+        "text": "AI mencadangkan perkataan dan petunjuk; semakan kami membuang yang salah eja, tidak adil, atau yang membocorkan jawapan."
+      },
+      "offline": {
+        "title": "Boleh dimain di mana-mana",
+        "text": "Pasang seperti aplikasi. Teka yang sudah dibuka terus berfungsi di kapal terbang, dalam LRT, di mana-mana."
+      }
+    },
+    "topicsTitle": "Pilih topik",
+    "topicsSubtitle": "Dari burung halaman hingga sungai terkenal — atau campur semuanya.",
+    "faqTitle": "Soalan dan jawapan",
+    "faq1Question": "Adakah Silang Kata AI benar-benar percuma?",
+    "faq1Answer": "Ya. Setiap teka silang kata dan teka petak percuma dimainkan, tanpa akaun, tanpa daftar, dan tanpa had bilangan yang anda selesaikan.",
+    "faq2Question": "Adakah saya akan nampak perkataan yang sama lagi?",
+    "faq2Answer": "Tidak. Peranti anda menyimpan senarai perkataan yang sudah ditunjukkan dan meninggalkannya daripada setiap teka baharu. Jika anda padam data laman pada pelayar, senarai itu bermula semula.",
+    "faq3Question": "Bahasa apa yang boleh saya main?",
+    "faq3Answer": "Tiga puluh tiga bahasa, masing-masing dengan himpunan perkataan sendiri untuk penuturnya, tidak pernah diterjemah dari bahasa lain: Inggeris, Sepanyol, Portugis, Perancis, Jerman, Itali, Belanda, Poland, Czech, Sweden, Romania, Hungary, Indonesia, Melayu, Filipino, Vietnam, Swahili, Rusia, Ukraine, Yunani, Arab, Parsi, Urdu, Ibrani, Hindi, Marathi, Bengali, Tamil, Thai, Jepun, Korea, Cina dan Armenia. Bahasa Melayu di sini ialah Bahasa Melayu Malaysia, bukan Indonesia.",
+    "faq4Question": "Apa bezanya teka silang kata dengan teka petak?",
+    "faq4Answer": "Teka silang kata menyenaraikan petunjuk bernombor di sebelah kekisi, Melintang dan Menegak. Teka petak meletakkan setiap petunjuk di dalam petak, dengan anak panah ke tempat jawapan.",
+    "faq5Question": "Bolehkah saya main di luar talian?",
+    "faq5Answer": "Ya. Setiap teka yang anda buka disimpan pada peranti bersama kemajuan anda, jadi ia terus berfungsi tanpa sambungan. Teka baharu memerlukan internet.",
+    "faq6Question": "Bagaimana jika petunjuk salah?",
+    "faq6Answer": "Buka menu ⋯ di atas kekisi dan pilih “Laporkan petunjuk”. Apabila tiga pemain berbeza melaporkan petunjuk yang sama, ia ditamatkan dan tidak muncul lagi.",
+    "faqMore": "Lihat semua soalan dan jawapan →"
+  },
+  "CrosswordPage": {
+    "hero": {
+      "eyebrow": "Teka silang kata klasik",
+      "title": "Teka silang kata klasik, <mark>hanya untuk anda</mark>",
+      "plainTitle": "Teka Silang Kata AI",
+      "subtitle": "Petunjuk Melintang dan Menegak bernombor, kekisi yang tumbuh dari tengah, dan perkataan yang belum anda lihat.",
+      "lede": "Main teka silang kata klasik percuma dalam talian: petunjuk bernombor melintang dan menegak, dengan topik dari haiwan dan makanan hingga geografi, sejarah, sains dan sukan."
+    },
+    "rulesTitle": "Bagaimana teka silang kata berfungsi",
+    "rule1": "Setiap petak putih memuatkan satu huruf. Perkataan berjalan melintang (kiri ke kanan) dan menegak (atas ke bawah), bersilang antara satu sama lain.",
+    "rule2": "Setiap perkataan ada nombor pada petak pertamanya dan petunjuk yang sepadan dalam senarai Melintang atau Menegak.",
+    "rule3": "Ketik petak atau petunjuk untuk mula menaip. Ketik petak yang sama sekali lagi — atau tekan Space — untuk bertukar antara Melintang dan Menegak.",
+    "rule4": "Tersangkut? Semak satu huruf, satu perkataan atau seluruh teka, atau dedahkan satu huruf untuk meneruskan.",
+    "topicsTitle": "Teka silang kata mengikut topik",
+    "faqTitle": "Soalan tentang teka silang kata",
+    "faq1Question": "Berapa besar teka silang katanya?",
+    "faq1Answer": "Pilih kecil (kira-kira 14 perkataan), sederhana atau besar (lebih 20 perkataan). Kekisi dipotong mengikut perkataan yang ada, jadi ia sentiasa muat pada skrin.",
+    "faq2Question": "Apa yang membuat petunjuk mudah atau sukar?",
+    "faq2Answer": "Teka mudah memakai perkataan harian dengan takrif terus. Yang sukar memakai perkataan jarang dan petunjuk yang membuat anda berfikir dua kali.",
+    "faq3Question": "Bolehkah saya guna papan kekunci?",
+    "faq3Answer": "Ya: taip huruf, gerak dengan kekunci anak panah, tekan Enter untuk petunjuk seterusnya dan Backspace untuk undur. Pada telefon, papan kekunci teka muncul di bawah kekisi.",
+    "faq4Question": "Bolehkah saya kongsi teka silang kata dengan kawan?",
+    "faq4Answer": "Ya — ketik Kongsi di atas kekisi untuk salin pautan atau hantar melalui aplikasi. Kawan anda mendapat kekisi dan petunjuk yang sama."
+  },
+  "ScanwordPage": {
+    "hero": {
+      "eyebrow": "Teka petak",
+      "title": "Teka petak dengan petunjuk <mark>di dalam kekisi</mark>",
+      "plainTitle": "Teka Petak AI",
+      "subtitle": "Tiada senarai untuk dicari: setiap petunjuk duduk dalam petaknya sendiri, dengan anak panah ke jawapan.",
+      "lede": "Main teka petak percuma dalam talian: petunjuk duduk di dalam kekisi. Topik yang sama seperti teka silang kata — haiwan, makanan, geografi, sejarah, sains, sukan dan lagi."
+    },
+    "rulesTitle": "Bagaimana teka petak berfungsi",
+    "rule1": "Petak berwarna memuatkan petunjuk. Anak panah di sebelah petunjuk menunjukkan tempat jawapan bermula dan arahnya.",
+    "rule2": "Satu petak petunjuk boleh memuatkan dua petunjuk: yang atas biasanya menunjuk ke kanan, yang bawah ke bawah.",
+    "rule3": "Ketik petak petunjuk, atau mana-mana petak huruf, untuk memilih perkataan. Petunjuk penuh sentiasa muncul pada bar di atas kekisi.",
+    "rule4": "Jubin berwarna hanyalah hiasan — huruf hanya masuk dalam petak putih.",
+    "topicsTitle": "Teka petak mengikut topik",
+    "faqTitle": "Soalan tentang teka petak",
+    "faq1Question": "Apa itu teka petak?",
+    "faq1Answer": "Teka petak ialah teka silang kata yang petunjuknya dicetak terus dalam kekisi. Bentuk ini bermula sebagai teka silang kata Scandinavia dan digemari majalah teka di Rusia serta Armenia.",
+    "faq2Question": "Petunjuk dalam petak terlalu kecil pada telefon saya. Apa boleh dibuat?",
+    "faq2Answer": "Ketik petak itu: petunjuk penuh sentiasa muncul pada bar di atas kekisi. Anda juga boleh cubit untuk zum, atau buka senarai petunjuk penuh.",
+    "faq3Question": "Mengapa ada anak panah yang membengkok?",
+    "faq3Answer": "Apabila tiada ruang untuk petunjuk terus sebelum jawapan, ia duduk di atas atau di sisi huruf pertama, dan anak panah membengkok untuk menunjukkan arah.",
+    "faq4Question": "Adakah petunjuk teka petak berbeza?",
+    "faq4Answer": "Lebih pendek — petunjuk teka petak mesti muat dalam satu petak, jadi paling banyak beberapa patah perkataan."
+  },
+  "TopicsPage": {
+    "eyebrow": "Topik",
+    "title": "Teka anda mahu tentang apa?",
+    "subtitle": "Setiap topik ada perkataannya sendiri dalam setiap bahasa. Pilih satu, atau campur semuanya di laman utama."
+  },
+  "TopicPage": {
+    "title": "Teka silang kata {topic}",
+    "samplesTitle": "Cicipan {topic}",
+    "samplesSubtitle": "Beberapa petunjuk dari himpunan perkataan. Boleh teka? Teka sebenar membawa yang baharu setiap kali.",
+    "showAnswer": "Tunjuk jawapan",
+    "moreTopics": "Topik lain"
+  },
+  "Auth": {
+    "signIn": "Log masuk",
+    "signOut": "Log keluar",
+    "signInTitle": "Log masuk",
+    "signInSubtitle": "Guna Google, atau e-mel dan kata laluan akaun anda.",
+    "signUpTitle": "Buat akaun",
+    "signUpSubtitle": "Kami akan e-mel pautan untuk sahkan alamat sebelum anda boleh log masuk.",
+    "forgotTitle": "Lupa kata laluan?",
+    "forgotSubtitle": "Kami akan e-mel pautan jika ada akaun yang memakai alamat ini.",
+    "resetTitle": "Pilih kata laluan baharu",
+    "resetSubtitle": "Ini melog masuk anda dan melog keluar semua peranti lain.",
+    "verifyTitle": "Sahkan e-mel anda",
+    "verifySubtitle": "Buka pautan dari peti masuk, kemudian sahkan di sini. Pengimbas mel tidak boleh menggunakan pautan itu.",
+    "google": "Teruskan dengan Google",
+    "or": "atau",
+    "name": "Nama",
+    "email": "E-mel",
+    "password": "Kata laluan",
+    "passwordHint": "Sekurang-kurangnya 8 aksara, dengan huruf dan nombor. Bukan alamat e-mel anda.",
+    "confirmPassword": "Ulang kata laluan",
+    "passwordMismatch": "Kata laluan tidak sama",
+    "required": "Ruangan ini wajib diisi",
+    "invalidEmail": "E-mel ini nampaknya tidak sah",
+    "forgot": "Lupa kata laluan?",
+    "noAccount": "Belum ada akaun?",
+    "hasAccount": "Sudah ada akaun?",
+    "submitSignIn": "Log masuk",
+    "submitSignUp": "Buat akaun",
+    "submitForgot": "Hantar pautan",
+    "submitReset": "Simpan kata laluan",
+    "submitVerify": "Sahkan e-mel",
+    "verifiedNotice": "E-mel disahkan. Log masuk untuk teruskan.",
+    "checkInbox": "Semak {email}",
+    "checkInboxText": "Kami hantar pautan. Buka pautan itu, kemudian kembali dan log masuk.",
+    "resend": "Hantar pautan sekali lagi",
+    "resent": "Dihantar semula.",
+    "forgotSent": "Jika ada akaun yang memakai alamat itu, pautan sedang dihantar.",
+    "invalidCredentials": "E-mel dan kata laluan itu tidak sepadan.",
+    "googleOnly": "Akaun ini log masuk dengan Google.",
+    "emailNotVerified": "Sahkan e-mel dahulu. Pautan ada dalam peti masuk.",
+    "emailTaken": "Akaun dengan e-mel ini sudah wujud.",
+    "weakPassword": "Guna sekurang-kurangnya 8 aksara, dengan huruf dan nombor, dan bukan alamat e-mel anda.",
+    "verifyInvalid": "Pautan pengesahan ini tidak sah atau sudah luput.",
+    "resetInvalid": "Pautan tetapan semula ini tidak sah atau sudah luput.",
+    "mailFailed": "Kami tidak dapat menghantar e-mel. Sila cuba lagi.",
+    "googleErrors": {
+      "google_unavailable": "Log masuk Google tidak tersedia buat masa ini.",
+      "google_denied": "Log masuk Google dibatalkan.",
+      "google_failed": "Log masuk Google tidak selesai. Sila cuba lagi.",
+      "google_email_unverified": "Google belum mengesahkan alamat e-mel itu."
+    }
+  },
+  "History": {
+    "title": "Teka saya",
+    "subtitle": "Teka silang kata dan teka petak yang anda mulakan dan belum selesai. Huruf anda kekal pada peranti ini, jadi buka mana-mana dan sambung — dalam talian atau luar talian.",
+    "empty": "Belum ada teka yang belum selesai. Mulakan teka silang kata atau teka petak, dan ia akan menunggu di sini sampai anda habiskan.",
+    "detail": "{percent}% terisi · {difficulty} · {size}",
+    "seeAll": "Lihat semua yang belum selesai"
+  },
+  "Play": {
+    "title": "Teka",
+    "loading": "Membuka teka anda…",
+    "missingTitle": "Teka ini tiada di sini",
+    "missingText": "Ia tidak tersimpan pada peranti ini dan pelayan tidak dapat dihubungi sekarang. Semak pautan, atau cuba lagi apabila anda dalam talian.",
+    "leaveTitle": "Tinggalkan teka ini?",
+    "leaveBody": "Huruf anda kekal tersimpan pada peranti ini, dan anda boleh habiskan kemudian dari Teka saya.",
+    "keepSolving": "Teruskan menyelesaikan",
+    "leave": "Tinggalkan",
+    "newPuzzle": "Teka baharu",
+    "allClues": "Semua petunjuk",
+    "across": "Melintang",
+    "down": "Menegak",
+    "gridLabel": "Kekisi teka",
+    "cell": {
+      "position": "Baris {row}, lajur {col}",
+      "empty": "kosong",
+      "wrong": "huruf salah",
+      "revealed": "didedahkan",
+      "clue": "Petunjuk: {clue}"
+    },
+    "wordNumbered": "{number} {dir, select, across {melintang} other {menegak}}",
+    "wordDirection": "{dir, select, across {Melintang} other {Menegak}}",
+    "wordLength": "{name}, {length, plural, other {# huruf}}",
+    "wordLetter": "{name}, huruf {letter} daripada {length}",
+    "previousWord": "Petunjuk sebelumnya",
+    "nextWord": "Petunjuk seterusnya",
+    "toggleDirection": "Tukar arah",
+    "filled": "Sudah diisi",
+    "keyboard": "Papan kekunci",
+    "ime": "Taip satu huruf",
+    "erase": "Padam",
+    "time": "Masa: {time}",
+    "check": {
+      "label": "Semak",
+      "cell": "Semak huruf",
+      "word": "Semak perkataan",
+      "puzzle": "Semak teka"
+    },
+    "reveal": {
+      "label": "Dedah",
+      "cell": "Dedah huruf",
+      "word": "Dedah perkataan",
+      "puzzle": "Dedah teka",
+      "confirmTitle": "Dedah seluruh teka?",
+      "confirmText": "Setiap jawapan akan diisi dan teka akan tamat. Ini tidak boleh diundur.",
+      "cancel": "Teruskan menyelesaikan",
+      "confirm": "Dedah semua"
+    },
+    "clearWrong": "Padam huruf salah",
+    "more": "Lagi",
+    "zoom": {
+      "label": "Zum",
+      "in": "Zum masuk",
+      "out": "Zum keluar",
+      "reset": "Muatkan seluruh teka"
+    },
+    "settings": {
+      "label": "Tetapan",
+      "autoCheck": "Semak semasa menaip",
+      "autoCheckHint": "Tandakan huruf salah sebaik saja ia dimasukkan.",
+      "skipFilled": "Langkau petak terisi",
+      "skipFilledHint": "Menaip melompat petak yang sudah ada huruf."
+    },
+    "share": "Kongsi teka",
+    "shareShort": "Kongsi",
+    "shareTitle": "Cuba teka ini!",
+    "linkCopied": "Pautan disalin — hantar kepada kawan.",
+    "shareDialog": {
+      "title": "Kongsi teka ini",
+      "description": "Kawan anda mendapat kekisi dan petunjuk yang sama — percuma, tanpa daftar.",
+      "link": "Pautan teka",
+      "copy": "Salin",
+      "copied": "Disalin!",
+      "copyFailed": "Tidak dapat disalin — pautan sudah dipilih, jadi salin secara manual.",
+      "apps": "Hantar melalui aplikasi",
+      "email": "E-mel",
+      "more": "Pilihan lain…",
+      "text": "Boleh selesaikan {topic} {format, select, scanword {teka petak} other {teka silang kata}} ini? Percuma, dan ditulis segar oleh AI.",
+      "textAny": "Boleh selesaikan {format, select, scanword {teka petak} other {teka silang kata}} ini? Percuma, dan ditulis segar oleh AI."
+    },
+    "pdf": {
+      "open": "Simpan sebagai PDF",
+      "title": "Simpan sebagai PDF",
+      "description": "Kekisi ungu muda, yang berwarna, atau hitam putih. Ia terbuka dalam tab baharu.",
+      "appearance": "Rupa",
+      "appearanceDefault": "Asal",
+      "appearanceColorful": "Berwarna",
+      "appearanceMono": "Hitam putih",
+      "letters": "Sertakan huruf saya",
+      "lettersHint": "Tunjukkan huruf yang sudah anda isi.",
+      "answers": "Tambah jawapan",
+      "answersHint": "Kekisi yang sudah selesai, pada halaman sendiri.",
+      "cancel": "Batal",
+      "confirm": "Buka PDF",
+      "preparing": "Menyediakan PDF anda…",
+      "failed": "Tidak dapat membuat PDF. Sila cuba lagi.",
+      "answersTitle": "Jawapan",
+      "playOnline": "Main dalam talian: {url}"
+    },
+    "report": {
+      "open": "Laporkan petunjuk",
+      "title": "Apa yang tidak kena dengan petunjuk ini?",
+      "cancel": "Batal",
+      "send": "Hantar laporan",
+      "thanks": "Terima kasih! Laporan membantu kami menamatkan petunjuk yang buruk.",
+      "note": "Apa yang perlu kami tahu?",
+      "notePlaceholder": "Nota ringkas, dengan kata-kata anda sendiri",
+      "reasons": {
+        "wrongClue": "Petunjuk tidak sepadan dengan jawapan",
+        "notAWord": "Jawapan bukan perkataan yang sebenar",
+        "offensive": "Ia menyinggung atau tidak sesuai",
+        "typo": "Ada salah eja",
+        "other": "Lain-lain"
+      }
+    },
+    "solved": {
+      "title": "Selesai! Bagus!",
+      "titleHelped": "Selesai — syabas!",
+      "time": "Masa",
+      "checks": "Semakan",
+      "reveals": "Pendedahan",
+      "admire": "Nikmati kekisi",
+      "next": "Teka seterusnya"
+    },
+    "announce": {
+      "checked": "{count, plural, other {# huruf silap}}",
+      "allCorrect": "Semua yang disemak adalah betul",
+      "revealed": "{count, plural, other {# huruf didedahkan}}",
+      "solved": "Teka selesai dalam {seconds, plural, other {# saat}}!"
+    }
+  },
+  "Rules": {
+    "title": "Cara main",
+    "subtitle": "Semua yang anda perlukan untuk selesaikan teka silang kata atau teka petak di sini — pada telefon, tablet atau komputer.",
+    "sections": [
+      {
+        "title": "Memilih perkataan",
+        "paragraphs": [
+          "Ketik atau klik mana-mana petak putih. Perkataan itu menyala kuning, dan petunjuknya muncul pada bar di atas kekisi.",
+          "Di tempat dua perkataan bersilang, ketik petak yang sama sekali lagi untuk bertukar antara Melintang dan Menegak. Dalam teka petak anda juga boleh ketik petak petunjuk itu sendiri."
+        ]
+      },
+      {
+        "title": "Menaip",
+        "paragraphs": [
+          "Pada komputer, terus taip — tidak perlu tukar susunan papan kekunci: jika papan kekunci anda dalam Inggeris, kekunci menaip huruf teka di tempat yang biasa.",
+          "Pada telefon atau tablet, papan kekunci teka muncul di bawah kekisi. Teka Bahasa Melayu memakai huruf a hingga z, satu huruf satu petak, dalam ejaan Malaysia.",
+          "Ejaannya Bahasa Melayu Malaysia: tasik bukan danau, jepun bukan jepang, tingkap bukan jendela, haiwan bukan hewan, sukan bukan olahraga."
+        ]
+      },
+      {
+        "title": "Bergerak dalam kekisi",
+        "paragraphs": [
+          "Kekunci anak panah bergerak antara petak; anak panah merentasi arah semasa mula-mula memusing kursor. Enter meloncat ke petunjuk seterusnya, Shift+Enter ke yang sebelumnya.",
+          "Backspace memadam huruf dan undur. Home dan End meloncat ke hujung perkataan. Tab keluar dari kekisi."
+        ]
+      },
+      {
+        "title": "Mendapat bantuan",
+        "paragraphs": [
+          "Semak menanda huruf salah dengan coretan merah dan mengunci yang betul. Dedah mengisi satu huruf, satu perkataan atau seluruh teka; huruf yang didedahkan membawa bendera ungu kecil.",
+          "Hidupkan “Semak semasa menaip” dalam tetapan jika anda mahu maklum balas serta-merta."
+        ]
+      },
+      {
+        "title": "Perkataan baharu, setiap kali",
+        "paragraphs": [
+          "Peranti anda mengingati perkataan yang telah ditunjukkan dan tidak memintanya lagi. Setiap teka baharu terdiri daripada perkataan yang belum anda temui di sini."
+        ]
+      }
+    ]
+  },
+  "Faq": {
+    "title": "Soalan dan jawapan",
+    "subtitle": "Semua tentang Silang Kata AI di satu tempat: teka, cara AI menulisnya, bermain pada apa-apa peranti, dan privasi anda.",
+    "groups": [
+      {
+        "title": "Tentang Silang Kata AI",
+        "items": [
+          {
+            "question": "Apa itu Silang Kata AI?",
+            "answer": "Silang Kata AI ialah laman percuma yang menjana teka silang kata dan teka petak dalam tiga puluh tiga bahasa. Model AI menulis perkataan dan petunjuk secara asli dalam setiap bahasa, kod membina kekisi, dan setiap peranti hanya mendapat perkataan yang belum dilihat."
+          },
+          {
+            "question": "Adakah Silang Kata AI benar-benar percuma?",
+            "answer": "Ya. Setiap teka silang kata dan teka petak percuma dimainkan — tanpa akaun, tanpa daftar, tanpa langganan dan tanpa iklan."
+          },
+          {
+            "question": "Perlukah saya akaun?",
+            "answer": "Tidak. Tiada apa yang perlu didaftar. Kemajuan, tetapan dan senarai perkataan yang sudah anda lihat disimpan dalam pelayar, pada peranti anda."
+          },
+          {
+            "question": "Siapa yang membuat Silang Kata AI?",
+            "answer": "Ini projek bebas oleh pembangun Michael Navasardyan: teka yang terbaca seolah-olah ditulis pengarang tempatan, dalam setiap bahasa yang ditawarkan laman ini — termasuk Bahasa Melayu, Armenia, Rusia dan Inggeris."
+          }
+        ]
+      },
+      {
+        "title": "Teka-teki",
+        "items": [
+          {
+            "question": "Apa bezanya teka silang kata dengan teka petak?",
+            "answer": "Teka silang kata menyenaraikan petunjuk bernombor di sebelah kekisi, Melintang dan Menegak. Teka petak mencetak setiap petunjuk di dalam petak, dengan anak panah ke tempat jawapan — bentuk yang memenuhi majalah teka di Rusia dan Armenia."
+          },
+          {
+            "question": "Berapa besar teka-tekinya?",
+            "answer": "Ada tiga saiz. Teka silang kata klasik mengisi kekisi 9×9, 13×13 atau 15×15 dengan kira-kira 8–14, 16–24 atau 22–34 perkataan, kemudian dipotong mengikut perkataan yang ada. Teka petak memakai kekisi 8×10, 10×13 atau 13×17 — lebih tinggi daripada lebar, kerana kebanyakannya diselesaikan di telefon."
+          },
+          {
+            "question": "Bagaimana tahap kesukaran berbeza?",
+            "answer": "Mudah memakai perkataan harian dengan takrif terus. Sederhana menarik perbendaharaan yang lebih luas. Sukar membawa perkataan jarang dan petunjuk yang membuat anda berfikir dua kali."
+          },
+          {
+            "question": "Topik apa yang boleh saya pilih?",
+            "answer": "Dua belas: perkataan harian, alam, haiwan, makanan dan minuman, geografi, sejarah, sains, sukan, seni, rumah dan harian, pekerjaan serta budaya tempatan — atau campur semuanya dalam satu teka."
+          },
+          {
+            "question": "Adakah saya akan nampak perkataan yang sama dua kali?",
+            "answer": "Tidak pada peranti yang sama. Ia mengingati sehingga 4,000 perkataan bagi setiap bahasa — kira-kira 130 teka — dan meninggalkannya daripada setiap teka baharu; selepas itu barulah yang paling lama gugur dari senarai. Memadam data laman pada pelayar memulakan senarai semula."
+          },
+          {
+            "question": "Bagaimana AI menulis petunjuk?",
+            "answer": "Model Gemini Google menulis perkataan dan petunjuk terus dalam setiap bahasa, mengikut panduan gaya penutur asli. Kod kemudian menyemak setiap satu — abjad yang betul, satu perkataan sebenar, petunjuk adil yang tidak membocorkan jawapan — dan laluan AI kedua bertindak sebagai editor. Yang gagal dibuang, tidak ditampal. Kekisi sendiri dibina oleh kod, bukan oleh AI."
+          },
+          {
+            "question": "Bagaimana jika petunjuk salah?",
+            "answer": "Buka menu ⋯ di atas kekisi dan pilih “Laporkan petunjuk”. Apabila tiga pemain berbeza melaporkan petunjuk yang sama, ia ditamatkan dan tidak muncul lagi."
+          }
+        ]
+      },
+      {
+        "title": "Bermain",
+        "items": [
+          {
+            "question": "Bagaimana saya menaip jawapan pada telefon atau komputer?",
+            "answer": "Pada komputer, terus taip: walaupun papan kekunci anda dalam Inggeris, kekunci menaip huruf teka di tempat yang biasa, jadi tiada susunan yang perlu ditukar. Pada telefon atau tablet, papan kekunci teka muncul di bawah kekisi, dan papan kekunci sistem tidak menutupnya."
+          },
+          {
+            "question": "Bolehkah saya semak jawapan atau minta bantuan?",
+            "answer": "Ya. Semak menanda huruf salah dalam satu petak, satu perkataan atau seluruh teka, dan Dedah mengisi satu huruf, satu perkataan atau semuanya. Hidupkan “Semak semasa menaip” dalam tetapan untuk nampak kesilapan sebaik saja ia dibuat."
+          },
+          {
+            "question": "Bagaimana huruf Armenia ու dan և, serta Ё Rusia, dikendalikan?",
+            "answer": "Dalam teka Armenia, ու dan և ialah huruf tunggal dan masing-masing mengisi satu petak, seperti teka silang kata Armenia yang bercetak; papan kekunci skrin ada kedua-duanya, dan menaip ո kemudian ւ menggabungkannya menjadi ու. Dalam teka Rusia, Ё ditulis sebagai Е, seperti teka yang bercetak."
+          },
+          {
+            "question": "Adakah kemajuan saya disimpan?",
+            "answer": "Ya, secara automatik, semasa anda bermain. Setiap teka silang kata atau teka petak yang anda mulakan dan tinggalkan belum selesai disenaraikan di “Teka saya”, dengan huruf anda tersimpan, supaya anda boleh sambung kemudian — walaupun di luar talian."
+          },
+          {
+            "question": "Bolehkah saya main di luar talian, atau pasang sebagai aplikasi?",
+            "answer": "Ya. Silang Kata AI dipasang dari pelayar seperti aplikasi (pada iPhone: Share → Add to Home Screen). Setiap teka yang anda buka disimpan bersama kemajuan dan terus berfungsi tanpa sambungan; hanya teka baharu memerlukan internet."
+          },
+          {
+            "question": "Bolehkah saya kongsi teka dengan kawan?",
+            "answer": "Ya. Ketik Kongsi di atas kekisi untuk salin pautan, atau hantar melalui WhatsApp, Telegram, Facebook, X, VK atau e-mel. Kawan anda mendapat kekisi dan petunjuk yang sama."
+          },
+          {
+            "question": "Bolehkah saya main dengan papan kekunci atau pembaca skrin?",
+            "answer": "Ya. Kekisi berfungsi sepenuhnya dari papan kekunci dan dengan pembaca skrin: setiap petak dilabel, petunjuk aktif diumumkan, dan semakan serta pendedahan dibacakan. Huruf salah dan yang didedahkan ditanda dengan bentuk, bukan dengan warna semata-mata."
+          }
+        ]
+      },
+      {
+        "title": "Privasi",
+        "items": [
+          {
+            "question": "Data apa yang anda simpan?",
+            "answer": "Sangat sedikit. Teka, kemajuan, tetapan dan senarai perkataan yang sudah dilihat kekal dalam pelayar anda. Pelayan menyimpan teka yang dicipta (supaya pautan kongsi membuka kekisi yang sama), laporan petunjuk dengan cincang sehala alamat IP, dan kiraan penyelesaian tanpa nama. Tiada nama dan tiada profil."
+          },
+          {
+            "question": "Adakah apa-apa tentang saya dihantar kepada AI?",
+            "answer": "Tidak. Hanya tetapan teka — bahasa, topik, kesukaran — dan senarai perkataan dihantar ke model Gemini Google, tidak pernah apa-apa tentang anda."
+          }
+        ]
+      }
+    ],
+    "ctaTitle": "Sedia untuk teka yang baharu?",
+    "ctaText": "Pilih topik dan kesukaran — kekisi seterusnya beberapa saat lagi.",
+    "cta": "Buat teka"
+  },
+  "About": {
+    "title": "Perihal Silang Kata AI",
+    "subtitle": "Penjana teka percuma yang menulis dalam bahasa anda dan tidak pernah menghidang perkataan yang sama dua kali.",
+    "sections": [
+      {
+        "title": "Mengapa kami membuatnya",
+        "paragraphs": [
+          "Kebanyakan teka silang kata dalam talian mengitar semula senarai perkataan yang kecil, dan yang diterjemah berbunyi seperti terjemahan. Kami mahu teka yang terasa ditulis oleh pengarang tempatan — dan yang kekal baharu tidak kira berapa banyak anda selesaikan."
+        ]
+      },
+      {
+        "title": "Bagaimana perkataan ditulis",
+        "paragraphs": [
+          "Model AI menulis perkataan dan petunjuk terus dalam setiap bahasa, mengikut panduan gaya penutur asli: bentuk nahu yang dipakai teka silang kata, norma ejaan, dan cara petunjuk diungkapkan dalam tradisi teka bahasa itu.",
+          "Setiap perkataan kemudian melalui semakan automatik — abjad yang betul, satu perkataan sebenar, tiada petunjuk yang membocorkan jawapan — dan AI kedua bertindak sebagai editor. Laporan pemain menamatkan apa-apa yang terlepas."
+        ]
+      },
+      {
+        "title": "Bagaimana kekisi dibina",
+        "paragraphs": [
+          "Kekisi sendiri dibina oleh kod, bukan oleh AI: algoritma menyusun perkataan supaya setiap huruf milik perkataan sebenar yang ada petunjuk. Itulah yang menjaga setiap teka adil."
+        ]
+      }
+    ]
+  },
+  "Privacy": {
+    "title": "Dasar privasi",
+    "subtitle": "Versi ringkas: tiada akaun, tiada nama, tiada pemprofilan. Inilah semua yang kami simpan.",
+    "sections": [
+      {
+        "title": "Pada peranti anda",
+        "paragraphs": [
+          "Pelayar anda menyimpan teka yang anda buka, kemajuan, tetapan dan senarai perkataan yang sudah dilihat, supaya ia tidak berulang. Ini kekal pada peranti anda; memadam data laman akan membuangnya."
+        ]
+      },
+      {
+        "title": "Pada pelayan kami",
+        "paragraphs": [
+          "Kami menyimpan teka yang dicipta, supaya pautan kongsi membuka kekisi yang sama. Apabila anda melaporkan petunjuk, kami simpan laporan itu dengan cincang sehala alamat IP anda, hanya supaya seorang tidak boleh menamatkan petunjuk bersendirian. Kami juga mengira secara tanpa nama bagaimana teka dimainkan (selesai, perkataan mana yang didedahkan) untuk melaras kesukaran."
+        ]
+      },
+      {
+        "title": "Pembekal AI",
+        "paragraphs": [
+          "Perkataan dan petunjuk baharu ditulis oleh model Gemini Google. Hanya tetapan teka (bahasa, topik, kesukaran) dan senarai perkataan dihantar — tidak pernah apa-apa tentang anda."
+        ]
+      },
+      {
+        "title": "Analitik dan laporan ralat",
+        "paragraphs": [
+          "Jika dihidupkan, kami guna Google Analytics untuk mengira tontonan halaman dan Sentry untuk menerima laporan ralat. Kedua-duanya tidak digunakan untuk mengenal pasti anda."
+        ]
+      }
+    ]
+  },
+  "Terms": {
+    "title": "Syarat penggunaan",
+    "subtitle": "Silang Kata AI percuma digunakan, untuk keseronokan dan pembelajaran.",
+    "sections": [
+      {
+        "title": "Menggunakan perkhidmatan",
+        "paragraphs": [
+          "Anda boleh main, kongsi dan cetak teka untuk kegunaan peribadi dan pendidikan. Tolong jangan bebankan perkhidmatan dengan permintaan automatik."
+        ]
+      },
+      {
+        "title": "Kandungan yang ditulis AI",
+        "paragraphs": [
+          "Perkataan dan petunjuk ditulis oleh AI dan disemak secara automatik, tetapi kesilapan boleh berlaku. Jika anda jumpa satu, laporkan — begitulah petunjuk yang buruk dibuang."
+        ]
+      },
+      {
+        "title": "Tiada jaminan",
+        "paragraphs": [
+          "Perkhidmatan diberikan seadanya, tanpa jaminan ketersediaan atau ketepatan. Kami boleh mengubah atau menghentikan ciri pada bila-bila masa."
+        ]
+      }
+    ]
+  },
+  "Contact": {
+    "title": "Tulis kepada kami",
+    "subtitle": "Ada soalan, idea atau sesuatu yang tidak kena? Tulis kepada kami, kami balas melalui e-mel.",
+    "fullName": "Nama",
+    "email": "E-mel",
+    "message": "Mesej",
+    "messagePlaceholder": "Bagaimana kami boleh bantu?",
+    "required": "Ruangan ini wajib diisi",
+    "invalidEmail": "E-mel ini nampaknya tidak sah",
+    "submit": "Hantar",
+    "sent": "Mesej telah dihantar",
+    "sentText": "Terima kasih. Kami akan membalas e-mel anda secepat mungkin.",
+    "sendAnother": "Tulis mesej lain",
+    "tooMany": "Terlalu banyak mesej. Cuba lagi sebentar lagi."
+  }
+}

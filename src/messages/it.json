@@ -1,0 +1,715 @@
+{
+  "Common": {
+    "appName": "Cruciverba IA",
+    "tagline": "Cruciverba e schemi svedesi gratis, scritti dall’IA nella tua lingua. Parole nuove a ogni gioco, mai una ripetizione.",
+    "skipToContent": "Vai al contenuto",
+    "openMenu": "Apri il menu",
+    "menu": "Menu",
+    "close": "Chiudi",
+    "retry": "Riprova",
+    "chooseLanguage": "Scegli la lingua",
+    "language": "Lingua",
+    "copyright": "© {year} {appName}. Fatto di parole e di un pizzico di magia.",
+    "backOnline": "Sei di nuovo online.",
+    "offline": "Sei offline. I cruciverba che hai già aperto si possono ancora giocare.",
+    "lastUpdated": "Ultimo aggiornamento: {date}"
+  },
+  "Nav": {
+    "main": "Principale",
+    "footer": "Sito",
+    "home": "Home",
+    "crossword": "Cruciverba",
+    "scanword": "Schema svedese",
+    "topics": "Temi",
+    "history": "I miei schemi",
+    "rules": "Come si gioca",
+    "faq": "Domande",
+    "about": "Chi siamo",
+    "privacy": "Privacy",
+    "terms": "Condizioni",
+    "contact": "Contatti"
+  },
+  "Errors": {
+    "network": "Il server non risponde. Controlla la connessione e riprova.",
+    "rateLimited": "Troppi schemi in un minuto! Prendi fiato e riprova tra poco.",
+    "unauthorized": "Questa azione non è consentita.",
+    "notFound": "Non l’abbiamo trovato.",
+    "server": "Qualcosa è andato storto da noi. Riprova.",
+    "generic": "Qualcosa è andato storto. Riprova.",
+    "details": "Dettagli",
+    "pageErrorTitle": "Ops, è caduta una casella",
+    "pageErrorBody": "Questa pagina ha incontrato un errore imprevisto. Di solito riprovare basta.",
+    "notFoundTitle": "Questa pagina non è nello schema",
+    "notFoundBody": "Il link può essere vecchio o scritto male. Ti troviamo un cruciverba nuovo.",
+    "goHome": "Vai alla home"
+  },
+  "Pwa": {
+    "install": "Installa l’app",
+    "iosTitle": "Aggiungi Cruciverba IA alla schermata Home",
+    "benefit": "Aprila come un’app, a schermo intero, e continua i cruciverba salvati anche offline.",
+    "iosStep1": "Tocca il pulsante Condividi nella barra di Safari.",
+    "iosStep2": "Scegli «Aggiungi a Home».",
+    "iosStep3": "Tocca «Aggiungi»: l’icona compare sulla schermata Home.",
+    "gotIt": "Capito"
+  },
+  "Seo": {
+    "homeTitle": "Cruciverba online gratis — crea un cruciverba italiano",
+    "homeDescription": "Crea un cruciverba o uno schema svedese gratis. Scegli un tema — animali, cibo, geografia, storia, scienza, sport — e la difficoltà. Ogni schema porta parole nuove. Funziona anche offline.",
+    "keywords": "cruciverba, cruciverba online, crea un cruciverba, cruciverba italiano, parole crociate, generatore di cruciverba, cruciverba gratis, schema svedese, cruciverba animali, cruciverba cibo, cruciverba geografia, cruciverba storia, cruciverba scienza, cruciverba sport",
+    "crosswordTitle": "Cruciverba gratis online",
+    "crosswordDescription": "Gioca a cruciverba gratis online, scritti dall’IA: definizioni numerate in orizzontale e verticale, 12 temi, tre livelli. Senza registrazione, parole nuove a ogni partita.",
+    "scanwordTitle": "Schemi svedesi gratis — le definizioni nella griglia",
+    "scanwordDescription": "Risolvi schemi svedesi gratis: le definizioni stanno nella griglia, con una freccia verso la soluzione. Scritti dall’IA, senza registrazione, da telefono, tablet o computer.",
+    "topicsTitle": "Temi dei cruciverba: animali, cibo, geografia e altro",
+    "topicsDescription": "Scegli il tema del prossimo cruciverba o schema svedese: natura, animali, cibo, geografia, storia, scienza, sport, arte e altro.",
+    "topicTitle": "Cruciverba su {topic} — schemi gratis online",
+    "topicDescription": "Cruciverba e schemi svedesi gratis su {topic}, generati dall’IA. {description}",
+    "historyTitle": "I miei schemi",
+    "historyDescription": "Cruciverba e schemi svedesi iniziati su questo dispositivo e non ancora finiti, con i progressi salvati.",
+    "rulesTitle": "Come si gioca a cruciverba e schemi svedesi",
+    "rulesDescription": "Come risolvere un cruciverba o uno schema svedese qui: scrivere, spostarsi nella griglia, controllare e rivelare le lettere, e le scorciatoie da tastiera.",
+    "faqTitle": "Domande: cruciverba con IA, lingue e privacy",
+    "faqDescription": "Risposte su Cruciverba IA: è gratis, come l’IA scrive le definizioni, le dimensioni, la difficoltà, le parole che non si ripetono, il gioco offline, la condivisione e la privacy.",
+    "aboutTitle": "Chi siamo — come nascono i cruciverba con l’IA",
+    "aboutDescription": "Perché abbiamo fatto un generatore di cruciverba gratis che non ripete mai una parola, e come l’IA scrive le definizioni in ogni lingua.",
+    "privacyTitle": "Informativa sulla privacy",
+    "privacyDescription": "Che cosa conserva Cruciverba IA, dove e perché: niente account, niente tracciamento di chi sei.",
+    "termsTitle": "Condizioni d’uso",
+    "termsDescription": "Le condizioni semplici per usare Cruciverba IA.",
+    "contactTitle": "Scrivici",
+    "contactDescription": "Una domanda, un’idea o un problema con uno schema? Scrivici e ti rispondiamo via email.",
+    "puzzleDescription": "Uno schema gratis di Cruciverba IA: risolvilo nel browser.",
+    "sharedPuzzleDescription": "Uno schema gratis {size} {format, select, scanword {schema svedese} other {cruciverba}} · {topic} · {difficulty} · {words, plural, one {# parola} other {# parole}}. Scritto dall’IA: risolvilo nel browser, senza registrazione.",
+    "ogImageAlt": "Cruciverba IA — cruciverba e schemi svedesi gratis nella tua lingua",
+    "ogPuzzleCta": "Riesci a risolverlo?",
+    "ogPuzzleMeta": "{size} · {words, plural, one {# parola} other {# parole}}"
+  },
+  "Formats": {
+    "classic": {
+      "name": "Cruciverba",
+      "short": "Definizioni numerate, orizzontali e verticali",
+      "description": "Il classico: le parole si incrociano in una griglia libera e ogni definizione aspetta negli elenchi Orizzontali e Verticali.",
+      "cta": "Gioca a un cruciverba"
+    },
+    "scanword": {
+      "name": "Schema svedese",
+      "short": "Definizioni nella griglia, con le frecce",
+      "description": "Ogni definizione sta nella griglia, con una freccia che indica la soluzione: si legge in un attimo e si fatica a posarlo.",
+      "cta": "Gioca a uno schema svedese"
+    }
+  },
+  "Topics": {
+    "any": "Temi misti",
+    "general": {
+      "name": "Parole di tutti i giorni",
+      "description": "Le parole della vita quotidiana: casa, persone, tempo, il mondo intorno."
+    },
+    "nature": {
+      "name": "Natura",
+      "description": "Boschi, fiumi, tempo atmosferico, piante e stagioni."
+    },
+    "animals": {
+      "name": "Animali",
+      "description": "Animali selvatici e domestici, uccelli, pesci e insetti."
+    },
+    "food": {
+      "name": "Cibo e bevande",
+      "description": "Piatti, ingredienti, cucina e tutto ciò che sta in tavola."
+    },
+    "geography": {
+      "name": "Geografia",
+      "description": "Paesi, città, fiumi, montagne e luoghi celebri."
+    },
+    "history": {
+      "name": "Storia",
+      "description": "Epoche, invenzioni, mestieri e oggetti del passato."
+    },
+    "science": {
+      "name": "Scienza",
+      "description": "Fisica, chimica, biologia, spazio e corpo umano."
+    },
+    "sport": {
+      "name": "Sport",
+      "description": "Giochi, attrezzi, gare e regole del gioco."
+    },
+    "arts": {
+      "name": "Arte",
+      "description": "Musica, letteratura, teatro, pittura e cinema."
+    },
+    "home": {
+      "name": "Casa e quotidiano",
+      "description": "Mobili, attrezzi, vestiti e le cose che usiamo ogni giorno."
+    },
+    "professions": {
+      "name": "Mestieri",
+      "description": "Lavori, arti, attrezzi del mestiere e luoghi di lavoro."
+    },
+    "localCulture": {
+      "name": "Cultura locale",
+      "description": "Tradizioni, feste, folklore e luoghi famosi della cultura di ogni lingua."
+    }
+  },
+  "Difficulty": {
+    "1": "Facile",
+    "2": "Medio",
+    "3": "Difficile"
+  },
+  "Sizes": {
+    "small": "Piccolo",
+    "medium": "Medio",
+    "large": "Grande"
+  },
+  "Generator": {
+    "format": "Scegli il formato",
+    "topic": "Scegli un tema",
+    "difficulty": "Difficoltà",
+    "size": "Dimensione",
+    "create": "Crea il mio schema",
+    "creating": "Stiamo componendo lo schema…",
+    "creatingHint": "Scegliamo parole che non hai ancora visto. Quelle nuove possono richiedere qualche secondo.",
+    "cancel": "Annulla",
+    "freshHint": "Gratis, senza registrazione. Ogni schema porta parole che qui non hai ancora incontrato.",
+    "exhausted": "Hai già giocato tutte le parole che abbiamo per questa scelta! Ne stiamo scrivendo di nuove: prova un altro tema, oppure torna tra un minuto."
+  },
+  "Home": {
+    "hero": {
+      "eyebrow": "Gratis · Senza registrazione · Funziona offline",
+      "title": "Cruciverba <mark>sempre nuovi</mark>",
+      "subtitle": "Scegli un tema e una difficoltà: l’IA scrive le definizioni nella tua lingua e la stessa parola non torna due volte.",
+      "lede": "Crea un cruciverba italiano gratis online, senza registrarti. I temi vanno da animali, cibo e geografia a storia, scienza, sport, arte, casa, mestieri e cultura — oppure mescolali tutti."
+    },
+    "continueTitle": "Riprendi da dove eri rimasto",
+    "formatsTitle": "Due modi di giocare",
+    "formatsSubtitle": "Un classico arioso con gli elenchi delle definizioni, oppure uno schema svedese compatto con le definizioni nella griglia.",
+    "pointsTitle": "Perché è diverso",
+    "points": {
+      "fresh": {
+        "title": "Mai una ripetizione",
+        "text": "Il dispositivo ricorda ogni parola che ti ha mostrato, così ogni schema nuovo porta parole che non hai ancora risolto."
+      },
+      "native": {
+        "title": "Scritto nella tua lingua",
+        "text": "Le definizioni nascono in ogni lingua, come le metterebbe un autore locale, mai tradotte da un’altra."
+      },
+      "ai": {
+        "title": "L’IA propone, il codice controlla",
+        "text": "L’IA suggerisce parole e definizioni; i nostri controlli scartano ciò che è scritto male, ingiusto o che rivela la soluzione."
+      },
+      "offline": {
+        "title": "Si gioca ovunque",
+        "text": "Installala come un’app. Gli schemi che hai aperto continuano a funzionare in aereo, in metro, dovunque."
+      }
+    },
+    "topicsTitle": "Scegli un tema",
+    "topicsSubtitle": "Dagli uccelli del giardino ai fiumi famosi — o mescola tutto.",
+    "faqTitle": "Domande e risposte",
+    "faq1Question": "Cruciverba IA è davvero gratis?",
+    "faq1Answer": "Sì. Ogni cruciverba e ogni schema svedese è gratis, senza account, senza registrazione e senza limiti a quanti ne risolvi.",
+    "faq2Question": "Rivedrò le stesse parole?",
+    "faq2Answer": "No. Il dispositivo tiene l’elenco delle parole già mostrate e le lascia fuori da ogni schema nuovo. Se cancelli i dati del sito nel browser, l’elenco ricomincia.",
+    "faq3Question": "In quali lingue si può giocare?",
+    "faq3Answer": "Trentatré lingue, ciascuna con il proprio vocabolario scritto per chi la parla, mai tradotto da un’altra: inglese, spagnolo, portoghese, francese, tedesco, italiano, olandese, polacco, ceco, svedese, rumeno, ungherese, indonesiano, malese, filippino, vietnamita, swahili, russo, ucraino, greco, arabo, persiano, urdu, ebraico, hindi, marathi, bengalese, tamil, thailandese, giapponese, coreano, cinese e armeno.",
+    "faq4Question": "Che differenza c’è tra cruciverba e schema svedese?",
+    "faq4Answer": "Il cruciverba elenca le definizioni numerate accanto alla griglia, in orizzontale e in verticale. Lo schema svedese stampa ogni definizione in una casella, con una freccia che indica dove va la soluzione.",
+    "faq5Question": "Si può giocare offline?",
+    "faq5Answer": "Sì. Ogni schema che apri viene salvato sul dispositivo con i tuoi progressi, e continua a funzionare senza connessione. Per gli schemi nuovi serve internet.",
+    "faq6Question": "E se una definizione è sbagliata?",
+    "faq6Answer": "Apri il menu ⋯ sopra la griglia e scegli «Segnala una definizione». Quando tre giocatori diversi segnalano la stessa, viene ritirata e non compare più.",
+    "faqMore": "Tutte le domande e le risposte →"
+  },
+  "CrosswordPage": {
+    "hero": {
+      "eyebrow": "Cruciverba classico",
+      "title": "Un cruciverba classico, <mark>fatto per te</mark>",
+      "plainTitle": "Cruciverba IA",
+      "subtitle": "Definizioni numerate in orizzontale e verticale, una griglia che cresce dal centro e parole che non hai ancora visto.",
+      "lede": "Gioca a un cruciverba classico gratis online: definizioni numerate in orizzontale e verticale, sui temi animali, cibo, geografia, storia, scienza e sport."
+    },
+    "rulesTitle": "Come funziona un cruciverba",
+    "rule1": "Ogni casella bianca contiene una lettera. Le parole vanno in orizzontale (da sinistra a destra) e in verticale (dall’alto in basso) e si incrociano.",
+    "rule2": "Ogni parola ha un numero nella prima casella e la definizione corrispondente nell’elenco Orizzontali o Verticali.",
+    "rule3": "Tocca una casella o una definizione per iniziare a scrivere. Tocca di nuovo la stessa casella — o premi Spazio — per passare da orizzontale a verticale.",
+    "rule4": "Bloccato? Controlla una lettera, una parola o tutto lo schema, oppure rivela una lettera per ripartire.",
+    "topicsTitle": "Cruciverba per tema",
+    "faqTitle": "Domande sul cruciverba",
+    "faq1Question": "Quanto sono grandi i cruciverba?",
+    "faq1Answer": "Scegli piccolo (fino a circa 14 parole), medio o grande (oltre 20 parole). La griglia viene ritagliata sulle parole che contiene, così entra sempre nello schermo.",
+    "faq2Question": "Che cosa rende una definizione facile o difficile?",
+    "faq2Answer": "Gli schemi facili usano parole di tutti i giorni con definizioni dirette. Quelli difficili usano parole più rare e definizioni che fanno pensare due volte.",
+    "faq3Question": "Posso usare la tastiera?",
+    "faq3Answer": "Sì: scrivi le lettere, spostati con le frecce, premi Invio per la definizione successiva e Backspace per tornare indietro. Sul telefono compare la tastiera dello schema, sotto la griglia.",
+    "faq4Question": "Posso condividere un cruciverba con un amico?",
+    "faq4Answer": "Sì: tocca Condividi sopra la griglia per copiare il link o inviarlo con un’app. Il tuo amico riceve esattamente la stessa griglia e le stesse definizioni."
+  },
+  "ScanwordPage": {
+    "hero": {
+      "eyebrow": "Schema svedese",
+      "title": "Schemi svedesi con le definizioni <mark>nella griglia</mark>",
+      "plainTitle": "Schema svedese IA",
+      "subtitle": "Niente elenchi da cercare: ogni definizione sta nella sua casella, con una freccia verso la soluzione.",
+      "lede": "Gioca a uno schema svedese gratis online: le definizioni stanno nella griglia. Gli stessi temi del cruciverba — animali, cibo, geografia, storia, scienza, sport e altro."
+    },
+    "rulesTitle": "Come funziona uno schema svedese",
+    "rule1": "Le caselle colorate contengono le definizioni. La freccia accanto a una definizione mostra dove inizia la soluzione e in che direzione corre.",
+    "rule2": "Una casella può contenere due definizioni: quella in alto di solito punta a destra, quella in basso verso il basso.",
+    "rule3": "Tocca una casella-definizione, o una casella lettera, per scegliere una parola. La definizione intera compare sempre nella barra sopra la griglia.",
+    "rule4": "Le tessere colorate sono solo decorazione: le lettere vanno soltanto nelle caselle bianche.",
+    "topicsTitle": "Schemi svedesi per tema",
+    "faqTitle": "Domande sullo schema svedese",
+    "faq1Question": "Che cos’è uno schema svedese?",
+    "faq1Answer": "Uno schema svedese è un cruciverba con le definizioni stampate nella griglia. Nasce come cruciverba scandinavo ed è amatissimo sulle riviste di enigmistica.",
+    "faq2Question": "Sul telefono le definizioni nelle caselle sono minuscole. Che faccio?",
+    "faq2Answer": "Tocca la casella: la definizione intera compare sempre nella barra sopra la griglia. Puoi anche pizzicare per ingrandire, o aprire l’elenco completo.",
+    "faq3Question": "Perché alcune frecce si piegano?",
+    "faq3Answer": "Se non c’è posto per la definizione subito prima della soluzione, sta sopra o di fianco alla prima lettera, e la freccia si piega per indicare la direzione.",
+    "faq4Question": "Le definizioni dello schema svedese sono diverse?",
+    "faq4Answer": "Sono più corte: devono entrare in una casella, quindi sono al massimo poche parole."
+  },
+  "TopicsPage": {
+    "eyebrow": "Temi",
+    "title": "Di che cosa deve parlare il tuo schema?",
+    "subtitle": "Ogni tema ha le sue parole in ogni lingua. Scegline uno, o mescolali tutti dalla home."
+  },
+  "TopicPage": {
+    "title": "Cruciverba su {topic}",
+    "samplesTitle": "Un assaggio di {topic}",
+    "samplesSubtitle": "Qualche definizione dal vocabolario. Le indovini? Gli schemi veri ne portano di nuove ogni volta.",
+    "showAnswer": "Mostra la soluzione",
+    "moreTopics": "Altri temi"
+  },
+  "Auth": {
+    "signIn": "Entra",
+    "signOut": "Esci",
+    "signInTitle": "Entra",
+    "signInSubtitle": "Usa Google, oppure l’e-mail e la password del tuo account.",
+    "signUpTitle": "Crea un account",
+    "signUpSubtitle": "Ti inviamo un link per confermare l’indirizzo prima di poter entrare.",
+    "forgotTitle": "Password dimenticata?",
+    "forgotSubtitle": "Se un account usa questo indirizzo, ti inviamo un link.",
+    "resetTitle": "Scegli una password nuova",
+    "resetSubtitle": "Così entri e esci da ogni altro dispositivo.",
+    "verifyTitle": "Conferma l’e-mail",
+    "verifySubtitle": "Apri il link dalla posta, poi confermalo qui. I filtri automatici non possono consumarlo.",
+    "google": "Continua con Google",
+    "or": "oppure",
+    "name": "Nome",
+    "email": "E-mail",
+    "password": "Password",
+    "passwordHint": "Almeno 8 caratteri, con una lettera e un numero. Non l’indirizzo e-mail.",
+    "confirmPassword": "Ripeti la password",
+    "passwordMismatch": "Le password non coincidono",
+    "required": "Questo campo è obbligatorio",
+    "invalidEmail": "Questa email non sembra valida",
+    "forgot": "Password dimenticata?",
+    "noAccount": "Non hai ancora un account?",
+    "hasAccount": "Hai già un account?",
+    "submitSignIn": "Entra",
+    "submitSignUp": "Crea l’account",
+    "submitForgot": "Invia il link",
+    "submitReset": "Salva la password",
+    "submitVerify": "Conferma l’e-mail",
+    "verifiedNotice": "E-mail confermata. Entra per continuare.",
+    "checkInbox": "Controlla {email}",
+    "checkInboxText": "Abbiamo inviato un link. Aprilo, poi torna qui ed entra.",
+    "resend": "Invia di nuovo il link",
+    "resent": "Inviato di nuovo.",
+    "forgotSent": "Se un account usa quell’indirizzo, il link è in viaggio.",
+    "invalidCredentials": "E-mail e password non coincidono.",
+    "googleOnly": "Questo account entra con Google.",
+    "emailNotVerified": "Prima conferma l’e-mail. Il link è nella posta.",
+    "emailTaken": "Esiste già un account con questa e-mail.",
+    "weakPassword": "Usa almeno 8 caratteri, con una lettera e un numero, e non l’indirizzo e-mail.",
+    "verifyInvalid": "Questo link di conferma non è valido oppure è scaduto.",
+    "resetInvalid": "Questo link di reimpostazione non è valido oppure è scaduto.",
+    "mailFailed": "Non siamo riusciti a inviare l’e-mail. Riprova.",
+    "googleErrors": {
+      "google_unavailable": "L’accesso con Google non è disponibile adesso.",
+      "google_denied": "L’accesso con Google è stato annullato.",
+      "google_failed": "L’accesso con Google non è andato a buon fine. Riprova.",
+      "google_email_unverified": "Google non ha verificato questo indirizzo e-mail."
+    }
+  },
+  "History": {
+    "title": "I miei schemi",
+    "subtitle": "Cruciverba e schemi svedesi che hai iniziato e non hai finito. Le lettere restano su questo dispositivo: aprine uno e continua, online o no.",
+    "empty": "Non ci sono schemi da finire. Inizia un cruciverba o uno schema svedese e resterà qui fino a quando lo completi.",
+    "detail": "{percent}% riempito · {difficulty} · {size}",
+    "seeAll": "Vedi tutti quelli da finire"
+  },
+  "Play": {
+    "title": "Schema",
+    "loading": "Apertura dello schema…",
+    "missingTitle": "Questo schema non è qui",
+    "missingText": "Non è salvato su questo dispositivo e il server adesso non risponde. Controlla il link, oppure riprova quando sei online.",
+    "leaveTitle": "Lasciare questo schema?",
+    "leaveBody": "Le lettere restano salvate su questo dispositivo e puoi finirlo più tardi da I miei schemi.",
+    "keepSolving": "Continua a risolvere",
+    "leave": "Esci",
+    "newPuzzle": "Schema nuovo",
+    "allClues": "Tutte le definizioni",
+    "across": "Orizzontali",
+    "down": "Verticali",
+    "gridLabel": "Griglia dello schema",
+    "cell": {
+      "position": "Riga {row}, colonna {col}",
+      "empty": "vuota",
+      "wrong": "lettera sbagliata",
+      "revealed": "rivelata",
+      "clue": "Definizione: {clue}"
+    },
+    "wordNumbered": "{number} {dir, select, across {orizzontale} other {verticale}}",
+    "wordDirection": "{dir, select, across {Orizzontale} other {Verticale}}",
+    "wordLength": "{name}, {length, plural, one {# lettera} other {# lettere}}",
+    "wordLetter": "{name}, lettera {letter} di {length}",
+    "previousWord": "Definizione precedente",
+    "nextWord": "Definizione successiva",
+    "toggleDirection": "Cambia direzione",
+    "filled": "Riempito",
+    "keyboard": "Tastiera",
+    "ime": "Scrivi un carattere",
+    "erase": "Cancella",
+    "time": "Tempo: {time}",
+    "check": {
+      "label": "Controlla",
+      "cell": "Controlla la lettera",
+      "word": "Controlla la parola",
+      "puzzle": "Controlla lo schema"
+    },
+    "reveal": {
+      "label": "Rivela",
+      "cell": "Rivela la lettera",
+      "word": "Rivela la parola",
+      "puzzle": "Rivela lo schema",
+      "confirmTitle": "Rivelare tutto lo schema?",
+      "confirmText": "Ogni soluzione verrà riempita e lo schema finirà. Non si può annullare.",
+      "cancel": "Continua a risolvere",
+      "confirm": "Rivela tutto"
+    },
+    "clearWrong": "Cancella le lettere sbagliate",
+    "more": "Altro",
+    "zoom": {
+      "label": "Zoom",
+      "in": "Ingrandisci",
+      "out": "Riduci",
+      "reset": "Mostra tutto lo schema"
+    },
+    "settings": {
+      "label": "Impostazioni",
+      "autoCheck": "Controlla mentre scrivo",
+      "autoCheckHint": "Segna una lettera sbagliata appena la inserisci.",
+      "skipFilled": "Salta le caselle piene",
+      "skipFilledHint": "La scrittura salta le caselle che hanno già una lettera."
+    },
+    "share": "Condividi lo schema",
+    "shareShort": "Condividi",
+    "shareTitle": "Prova questo schema!",
+    "linkCopied": "Link copiato: invialo a un amico.",
+    "shareDialog": {
+      "title": "Condividi questo schema",
+      "description": "Il tuo amico riceve la stessa griglia e le stesse definizioni: gratis, senza registrazione.",
+      "link": "Link dello schema",
+      "copy": "Copia",
+      "copied": "Copiato!",
+      "copyFailed": "Copia non riuscita: il link è selezionato, copialo a mano.",
+      "apps": "Invia con un’app",
+      "email": "E-mail",
+      "more": "Altre opzioni…",
+      "text": "Riesci a risolvere questo {format, select, scanword {schema svedese} other {cruciverba}} su {topic}? È gratis e scritto dall’IA.",
+      "textAny": "Riesci a risolvere questo {format, select, scanword {schema svedese} other {cruciverba}}? È gratis e scritto dall’IA."
+    },
+    "pdf": {
+      "open": "Salva in PDF",
+      "title": "Salva in PDF",
+      "description": "La griglia lilla, una colorata, oppure in bianco e nero. Si apre in una scheda nuova.",
+      "appearance": "Aspetto",
+      "appearanceDefault": "Predefinito",
+      "appearanceColorful": "A colori",
+      "appearanceMono": "Bianco e nero",
+      "letters": "Includi le mie lettere",
+      "lettersHint": "Mostra le lettere che hai già scritto.",
+      "answers": "Aggiungi le soluzioni",
+      "answersHint": "La griglia risolta, su una pagina a sé.",
+      "cancel": "Annulla",
+      "confirm": "Apri il PDF",
+      "preparing": "Preparazione del PDF…",
+      "failed": "Non siamo riusciti a creare il PDF. Riprova.",
+      "answersTitle": "Soluzioni",
+      "playOnline": "Giocalo online: {url}"
+    },
+    "report": {
+      "open": "Segnala una definizione",
+      "title": "Che cosa non va in questa definizione?",
+      "cancel": "Annulla",
+      "send": "Invia la segnalazione",
+      "thanks": "Grazie! Le segnalazioni ci aiutano a ritirare le definizioni sbagliate.",
+      "note": "Che cosa dobbiamo sapere?",
+      "notePlaceholder": "Una nota breve, con parole tue",
+      "reasons": {
+        "wrongClue": "La definizione non corrisponde alla soluzione",
+        "notAWord": "La soluzione non è una parola vera",
+        "offensive": "È offensiva o fuori luogo",
+        "typo": "C’è un refuso",
+        "other": "Altro"
+      }
+    },
+    "solved": {
+      "title": "Risolto! Bravo!",
+      "titleHelped": "Risolto: ben fatto!",
+      "time": "Tempo",
+      "checks": "Controlli",
+      "reveals": "Rivelazioni",
+      "admire": "Ammira la griglia",
+      "next": "Schema successivo"
+    },
+    "announce": {
+      "checked": "{count, plural, one {# lettera è sbagliata} other {# lettere sono sbagliate}}",
+      "allCorrect": "Tutto ciò che hai controllato è giusto",
+      "revealed": "{count, plural, one {# lettera rivelata} other {# lettere rivelate}}",
+      "solved": "Schema risolto in {seconds, plural, one {# secondo} other {# secondi}}!"
+    }
+  },
+  "Rules": {
+    "title": "Come si gioca",
+    "subtitle": "Tutto quello che serve per risolvere un cruciverba o uno schema svedese qui — sul telefono, sul tablet o al computer.",
+    "sections": [
+      {
+        "title": "Scegliere una parola",
+        "paragraphs": [
+          "Tocca o fai clic su una casella bianca. La parola a cui appartiene si illumina di giallo e la definizione compare nella barra sopra la griglia.",
+          "Dove due parole si incrociano, tocca di nuovo la stessa casella per passare da orizzontale a verticale. Nello schema svedese puoi anche toccare la casella della definizione."
+        ]
+      },
+      {
+        "title": "Scrivere",
+        "paragraphs": [
+          "Al computer basta digitare: non serve cambiare il layout della tastiera. Se è impostata sull’inglese, i tasti scrivono le lettere della lingua dello schema al loro posto abituale.",
+          "Sul telefono o sul tablet compare la tastiera dello schema, sotto la griglia. In armeno ha le lettere singole ՈՒ e և, ciascuna in una casella; scrivere ո e poi ւ le unisce in ՈՒ da sole.",
+          "Nei cruciverba russi la lettera Ё si scrive Е, come sulla carta stampata."
+        ]
+      },
+      {
+        "title": "Spostarsi",
+        "paragraphs": [
+          "Le frecce si muovono tra le caselle; una freccia di traverso rispetto alla direzione attuale prima ruota il cursore. Invio salta alla definizione successiva, Maiusc+Invio a quella precedente.",
+          "Backspace cancella una lettera e torna indietro. Home e Fine saltano all’inizio e alla fine della parola. Tab esce dalla griglia."
+        ]
+      },
+      {
+        "title": "Un aiuto",
+        "paragraphs": [
+          "Controlla segna le lettere sbagliate con una barratura rossa e blocca quelle giuste. Rivela riempie una lettera, una parola o tutto lo schema; le lettere rivelate portano una piccola bandierina viola.",
+          "Attiva «Controlla mentre scrivo» nelle impostazioni se vuoi un riscontro immediato."
+        ]
+      },
+      {
+        "title": "Parole nuove, ogni volta",
+        "paragraphs": [
+          "Il dispositivo ricorda le parole che ti ha mostrato e non te le chiede più. Ogni schema nuovo è fatto di parole che qui non hai ancora incontrato."
+        ]
+      }
+    ]
+  },
+  "Faq": {
+    "title": "Domande e risposte",
+    "subtitle": "Tutto su Cruciverba IA in un solo posto: gli schemi, come li scrive l’IA, il gioco su ogni dispositivo e la tua privacy.",
+    "groups": [
+      {
+        "title": "Su Cruciverba IA",
+        "items": [
+          {
+            "question": "Che cos’è Cruciverba IA?",
+            "answer": "Cruciverba IA è un sito gratis che genera cruciverba e schemi svedesi in trentatré lingue. Un modello di IA scrive parole e definizioni in ogni lingua, il codice costruisce la griglia e ogni dispositivo riceve solo parole che non ha già visto."
+          },
+          {
+            "question": "Cruciverba IA è davvero gratis?",
+            "answer": "Sì. Ogni cruciverba e ogni schema svedese è gratis: niente account, niente registrazione, niente abbonamento e niente pubblicità."
+          },
+          {
+            "question": "Serve un account?",
+            "answer": "No. Non c’è nulla da registrare. I progressi, le impostazioni e l’elenco delle parole già viste restano nel browser, sul tuo dispositivo."
+          },
+          {
+            "question": "Chi fa Cruciverba IA?",
+            "answer": "È un progetto indipendente dello sviluppatore Michael Navasardyan: schemi che sembrano scritti da un autore locale, in ogni lingua del sito — tra cui armeno, russo e inglese."
+          }
+        ]
+      },
+      {
+        "title": "Gli schemi",
+        "items": [
+          {
+            "question": "Che differenza c’è tra cruciverba e schema svedese?",
+            "answer": "Il cruciverba elenca le definizioni numerate accanto alla griglia, in orizzontale e in verticale. Lo schema svedese stampa ogni definizione in una casella, con una freccia che indica dove va la soluzione: il formato di cui sono piene le riviste di enigmistica."
+          },
+          {
+            "question": "Quanto sono grandi gli schemi?",
+            "answer": "Ci sono tre misure. Un cruciverba classico riempie una griglia 9×9, 13×13 o 15×15 con circa 8–14, 16–24 o 22–34 parole, poi viene ritagliato sulle parole che contiene. Uno schema svedese usa una griglia 8×10, 10×13 o 13×17, più alta che larga, perché quasi tutti si risolvono sul telefono."
+          },
+          {
+            "question": "Come cambiano i livelli di difficoltà?",
+            "answer": "Facile usa parole di tutti i giorni con definizioni dirette. Medio attinge a un vocabolario più ampio. Difficile porta parole più rare e definizioni che fanno pensare due volte."
+          },
+          {
+            "question": "Quali temi posso scegliere?",
+            "answer": "Dodici: parole di tutti i giorni, natura, animali, cibo e bevande, geografia, storia, scienza, sport, arte, casa e quotidiano, mestieri e cultura locale — oppure mescolarli tutti in un solo schema."
+          },
+          {
+            "question": "Vedrò mai due volte la stessa parola?",
+            "answer": "Non sullo stesso dispositivo. Ricorda fino a 4.000 parole per lingua — circa 130 schemi — e le lascia fuori da ogni schema nuovo; solo dopo cadono dall’elenco le più vecchie. Cancellare i dati del sito nel browser fa ricominciare l’elenco."
+          },
+          {
+            "question": "Come scrive le definizioni l’IA?",
+            "answer": "Il modello Gemini di Google scrive parole e definizioni direttamente in ogni lingua, seguendo una guida di stile di parlanti nativi. Il codice poi controlla ciascuna: l’alfabeto giusto, una parola vera, una definizione onesta che non rivela la soluzione. Un secondo passaggio di IA fa da redattore. Ciò che non passa viene scartato, mai rattoppato. La griglia la costruisce il codice, non l’IA."
+          },
+          {
+            "question": "E se una definizione è sbagliata?",
+            "answer": "Apri il menu ⋯ sopra la griglia e scegli «Segnala una definizione». Quando tre giocatori diversi segnalano la stessa, viene ritirata e non compare più."
+          }
+        ]
+      },
+      {
+        "title": "Giocare",
+        "items": [
+          {
+            "question": "Come si scrivono le soluzioni sul telefono o al computer?",
+            "answer": "Al computer basta digitare: anche se la tastiera è in inglese, i tasti scrivono le lettere dello schema al loro posto abituale, senza cambiare layout. Sul telefono o sul tablet compare la tastiera dello schema sotto la griglia, e quella di sistema non la copre."
+          },
+          {
+            "question": "Posso controllare le soluzioni o avere un aiuto?",
+            "answer": "Sì. Controlla segna le lettere sbagliate in una casella, in una parola o in tutto lo schema, e Rivela riempie una lettera, una parola o tutto. Attiva «Controlla mentre scrivo» nelle impostazioni per vedere gli errori nel momento in cui li fai."
+          },
+          {
+            "question": "Come si trattano le armeni ու e և, e la Ё russa?",
+            "answer": "Nei cruciverba armeni ու e և sono lettere singole e ciascuna occupa una casella, come sulla carta; la tastiera a schermo le ha entrambe, e scrivere ո e poi ւ le unisce in ու. Nei cruciverba russi Ё si scrive Е, come sulla carta."
+          },
+          {
+            "question": "I progressi vengono salvati?",
+            "answer": "Sì, da soli, mentre giochi. Ogni cruciverba o schema svedese che inizi e lasci a metà compare in «I miei schemi», con le lettere salvate, così puoi riprenderlo dopo — anche offline."
+          },
+          {
+            "question": "Si può giocare offline, o installarlo come app?",
+            "answer": "Sì. Cruciverba IA si installa dal browser come un’app (su iPhone: Condividi → Aggiungi a Home). Ogni schema che apri viene salvato con i progressi e continua a funzionare senza connessione; solo gli schemi nuovi hanno bisogno di internet."
+          },
+          {
+            "question": "Posso condividere uno schema con un amico?",
+            "answer": "Sì. Tocca Condividi sopra la griglia per copiare il link, oppure invialo con WhatsApp, Telegram, Facebook, X, VK o e-mail. Il tuo amico riceve esattamente la stessa griglia e le stesse definizioni."
+          },
+          {
+            "question": "Si può giocare con la tastiera o un lettore di schermo?",
+            "answer": "Sì. La griglia funziona tutta da tastiera e con i lettori di schermo: ogni casella ha un’etichetta, la definizione attiva viene annunciata, e controlli e rivelazioni vengono letti. Le lettere sbagliate e quelle rivelate si distinguono dalla forma, non solo dal colore."
+          }
+        ]
+      },
+      {
+        "title": "Privacy",
+        "items": [
+          {
+            "question": "Quali dati conservate?",
+            "answer": "Pochissimi. Schemi, progressi, impostazioni e l’elenco delle parole viste restano nel browser. Il server conserva gli schemi creati (così un link condiviso apre la stessa griglia), le segnalazioni delle definizioni con un’impronta irreversibile dell’indirizzo IP e conteggi anonimi delle soluzioni. Niente nomi e niente profili."
+          },
+          {
+            "question": "All’IA arriva qualcosa su di me?",
+            "answer": "No. Ai modelli Gemini di Google vanno solo le impostazioni dello schema — lingua, tema, difficoltà — e gli elenchi di parole, mai nulla su di te."
+          }
+        ]
+      }
+    ],
+    "ctaTitle": "Pronto per uno schema nuovo?",
+    "ctaText": "Scegli un tema e una difficoltà: la prossima griglia è a pochi secondi.",
+    "cta": "Crea uno schema"
+  },
+  "About": {
+    "title": "Su Cruciverba IA",
+    "subtitle": "Un generatore di schemi gratis che scrive nella tua lingua e non serve mai due volte la stessa parola.",
+    "sections": [
+      {
+        "title": "Perché l’abbiamo fatto",
+        "paragraphs": [
+          "Quasi tutti i cruciverba online riciclano un elenco corto di parole, e quelli tradotti si sentono tradotti. Volevamo schemi che sembrassero scritti da un autore locale — e che restassero nuovi per quanti ne risolvi."
+        ]
+      },
+      {
+        "title": "Come nascono le parole",
+        "paragraphs": [
+          "Un modello di IA scrive parole e definizioni direttamente in ogni lingua, seguendo una guida di stile di parlanti nativi: le forme grammaticali dei cruciverba, la norma ortografica, il modo in cui si formulano le definizioni in quella tradizione enigmistica.",
+          "Ogni parola passa poi controlli automatici — l’alfabeto giusto, una parola sola e vera, nessuna definizione che riveli la soluzione — e una seconda IA fa da redattore. Le segnalazioni dei giocatori ritirano ciò che sfugge."
+        ]
+      },
+      {
+        "title": "Come si costruiscono le griglie",
+        "paragraphs": [
+          "La griglia la costruisce il codice, non l’IA: un algoritmo incastra le parole così che ogni lettera appartenga a una parola vera, con una definizione. È questo che rende onesto ogni schema."
+        ]
+      }
+    ]
+  },
+  "Privacy": {
+    "title": "Informativa sulla privacy",
+    "subtitle": "In breve: niente account, niente nomi, niente profili. Ecco tutto ciò che conserviamo.",
+    "sections": [
+      {
+        "title": "Sul tuo dispositivo",
+        "paragraphs": [
+          "Il browser conserva gli schemi che apri, i progressi, le impostazioni e l’elenco delle parole già viste, così non si ripetono. Resta sul dispositivo; cancellare i dati del sito lo rimuove."
+        ]
+      },
+      {
+        "title": "Sul nostro server",
+        "paragraphs": [
+          "Conserviamo gli schemi creati, così un link condiviso apre la stessa griglia. Quando segnali una definizione teniamo la segnalazione con un’impronta irreversibile del tuo indirizzo IP, solo perché una persona sola non possa ritirare una definizione. Contiamo anche, in modo anonimo, come si gioca (risolto, quali parole sono state rivelate) per regolare la difficoltà."
+        ]
+      },
+      {
+        "title": "Fornitore di IA",
+        "paragraphs": [
+          "Le parole e le definizioni nuove le scrivono i modelli Gemini di Google. Vengono inviate solo le impostazioni dello schema (lingua, tema, difficoltà) e gli elenchi di parole: mai nulla su di te."
+        ]
+      },
+      {
+        "title": "Statistiche e segnalazioni di errori",
+        "paragraphs": [
+          "Se è attivo, usiamo Google Analytics per contare le pagine viste e Sentry per ricevere le segnalazioni di errori. Nessuno dei due serve a identificarti."
+        ]
+      }
+    ]
+  },
+  "Terms": {
+    "title": "Condizioni d’uso",
+    "subtitle": "Cruciverba IA è gratis, per il gusto di giocare e di imparare.",
+    "sections": [
+      {
+        "title": "Uso del servizio",
+        "paragraphs": [
+          "Puoi giocare, condividere e stampare gli schemi per uso personale e didattico. Ti chiediamo di non sovraccaricare il servizio con richieste automatiche."
+        ]
+      },
+      {
+        "title": "Contenuti scritti dall’IA",
+        "paragraphs": [
+          "Parole e definizioni sono scritte dall’IA e controllate in automatico, ma gli errori possono capitare. Se ne trovi uno, segnalalo: è così che le definizioni sbagliate vengono tolte."
+        ]
+      },
+      {
+        "title": "Nessuna garanzia",
+        "paragraphs": [
+          "Il servizio è offerto così com’è, senza garanzie di disponibilità o di esattezza. Possiamo modificare o ritirare funzioni in qualsiasi momento."
+        ]
+      }
+    ]
+  },
+  "Contact": {
+    "title": "Scrivici",
+    "subtitle": "Una domanda, un’idea o qualcosa che non ha funzionato? Scrivici e ti rispondiamo via email.",
+    "fullName": "Nome",
+    "email": "Email",
+    "message": "Messaggio",
+    "messagePlaceholder": "Come possiamo aiutarti?",
+    "required": "Questo campo è obbligatorio",
+    "invalidEmail": "Questa email non sembra valida",
+    "submit": "Invia",
+    "sent": "Messaggio inviato",
+    "sentText": "Grazie. Ti risponderemo via email appena possibile.",
+    "sendAnother": "Scrivi un altro messaggio",
+    "tooMany": "Sono troppi messaggi. Riprova tra un po’."
+  }
+}

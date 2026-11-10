@@ -2,7 +2,7 @@ import { readFile } from 'node:fs/promises'
 import path from 'node:path'
 import { fileURLToPath } from 'node:url'
 import type { LocaleContent, SeedEntry } from '../src/lib/content/types.js'
-import { DIFFICULTIES, isLocale, type Locale, PROPER_NOUN_TOPICS, TOPICS } from '../src/lib/puzzle.js'
+import { DIFFICULTIES, isLocale, type Locale, LOCALES, PROPER_NOUN_TOPICS, TOPICS } from '../src/lib/puzzle.js'
 import { validateEntry } from '../src/services/entryValidation.js'
 
 /**
@@ -66,7 +66,7 @@ export const checkLocale = async (locale: Locale): Promise<string[]> => {
 
 const main = async () => {
   const requested = process.argv.slice(2).filter(isLocale)
-  const errors = (await Promise.all((requested.length ? requested : (['en', 'ru', 'hy'] as const)).map(checkLocale))).flat()
+  const errors = (await Promise.all((requested.length ? requested : [...LOCALES]).map(checkLocale))).flat()
   for (const error of errors) console.error(error)
   if (errors.length) {
     console.error(`${errors.length} invalid item(s)`)

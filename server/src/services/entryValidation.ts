@@ -1,5 +1,5 @@
 import { createHash } from 'node:crypto'
-import { cellCount, normalizeWord, SCRIPTS, toCells } from '../lib/alphabet.js'
+import { cellCount, CLUE_FOREIGN, normalizeWord, SCRIPTS, toCells } from '../lib/alphabet.js'
 import { minStem } from '../lib/layout/grid.js'
 import {
   type Difficulty,
@@ -50,12 +50,11 @@ const MAX_SHORT_CLUE_WORDS = 3
 /** Letters an inflection or a close derivation adds to a stem: `лес` → `лесами`, `garden` → `gardener`. */
 const MAX_INFLECTION = 3
 
-/** Letters of another script in a clue mean the model mixed languages ("по-английски", a Latin brand). */
-const FOREIGN_SCRIPTS: Record<Locale, RegExp> = {
-  en: /[Ѐ-ӿԱ-և]/,
-  ru: /[a-zԱ-և]/i,
-  hy: /[a-zЀ-ӿ]/i,
-}
+/** Letters of another script in a clue mean the model mixed languages. Owned by `alphabet.ts`. */
+const FOREIGN_SCRIPTS = CLUE_FOREIGN
+
+/** Chinese, Japanese, Korean and the abugidas keep two-cell words; everyone else starts at 3. */
+const TWO_CELL = new Set<Locale>(['zh', 'ja', 'ko', 'hi', 'mr', 'bn', 'ta', 'th'])
 
 /** Collapses whitespace and trims; non-strings become ''. */
 export const clip = (text: unknown, maxLength: number): string =>
@@ -116,7 +115,8 @@ export const validateEntry = (candidate: CandidateEntry, locale: Locale, topic: 
   if (!answer) return { rejection: 'notAWord' }
 
   const length = cellCount(answer, locale)
-  if (length < MIN_WORD_LENGTH || length > MAX_WORD_LENGTH) return { rejection: 'length' }
+  const minimum = TWO_CELL.has(locale) ? 2 : MIN_WORD_LENGTH
+  if (length < minimum || length > MAX_WORD_LENGTH) return { rejection: 'length' }
   if (candidate.kind === 'proper' && !PROPER_NOUN_TOPICS.includes(topic)) return { rejection: 'properNoun' }
 
   const clue = clip(candidate.clue, MAX_CLUE_LENGTH)

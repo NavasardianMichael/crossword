@@ -36,6 +36,9 @@ export const Hero = async ({ namespace, children }: HeroProps) => {
           {t.rich('title', { mark: (chunks) => <span className='highlight-sun'>{chunks}</span> })}
         </h1>
         <p className='max-w-2xl text-body text-ink-700 sm:text-h3 sm:font-normal'>{t('subtitle')}</p>
+        <p id='language-intro' className='max-w-3xl text-body-sm leading-relaxed text-ink-700'>
+          {t('lede')}
+        </p>
       </div>
       {children && <div className='container-page relative max-w-4xl pb-6'>{children}</div>}
     </section>

@@ -7,6 +7,8 @@ export type AnalyticsEvent =
   | 'puzzle_shared'
   | 'pwa_prompt_shown'
   | 'pwa_installed'
+  | 'login'
+  | 'sign_up'
 
 type DataLayerWindow = Window & { dataLayer?: unknown[] }
 

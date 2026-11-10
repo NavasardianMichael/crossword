@@ -1,0 +1,716 @@
+{
+  "Common": {
+    "appName": "Teka-Teki Silang AI",
+    "tagline": "Teka-teki silang dan silang Swedia gratis, ditulis dari nol oleh kecerdasan buatan dalam bahasamu. Kata baru setiap permainan, tidak pernah berulang.",
+    "skipToContent": "Langsung ke isi",
+    "openMenu": "Buka menu",
+    "menu": "Menu",
+    "close": "Tutup",
+    "retry": "Coba lagi",
+    "chooseLanguage": "Pilih bahasa",
+    "language": "Bahasa",
+    "copyright": "© {year} {appName}. Dibuat dari kata dan sedikit keajaiban.",
+    "backOnline": "Kamu sudah kembali daring.",
+    "offline": "Kamu sedang luring. Teka-teki yang sudah dibuka tetap bisa dimainkan.",
+    "lastUpdated": "Diperbarui: {date}"
+  },
+  "Nav": {
+    "main": "Utama",
+    "footer": "Situs",
+    "home": "Beranda",
+    "crossword": "Teka-teki silang",
+    "scanword": "Silang Swedia",
+    "topics": "Topik",
+    "history": "Teka-tekiku",
+    "rules": "Cara main",
+    "faq": "Pertanyaan",
+    "about": "Tentang",
+    "privacy": "Privasi",
+    "terms": "Ketentuan",
+    "contact": "Kontak"
+  },
+  "Errors": {
+    "network": "Server tidak terjangkau. Periksa koneksi lalu coba lagi.",
+    "rateLimited": "Banyak sekali teka-teki dalam semenit! Tarik napas sebentar, lalu coba lagi.",
+    "unauthorized": "Tindakan ini tidak diizinkan.",
+    "notFound": "Itu tidak ketemu.",
+    "server": "Ada yang salah di pihak kami. Coba lagi.",
+    "generic": "Ada yang tidak beres. Coba lagi.",
+    "details": "Rincian",
+    "pageErrorTitle": "Ups, satu kotak terlepas",
+    "pageErrorBody": "Halaman ini mengalami galat yang tidak terduga. Mencoba lagi biasanya menolong.",
+    "notFoundTitle": "Halaman ini tidak ada di kisi",
+    "notFoundBody": "Tautannya mungkin sudah usang atau salah ketik. Lebih baik kami carikan teka-teki yang baru.",
+    "goHome": "Ke beranda"
+  },
+  "Pwa": {
+    "install": "Pasang aplikasi",
+    "iosTitle": "Tambahkan Teka-Teki Silang AI ke Layar Utama",
+    "benefit": "Buka seperti aplikasi, layar penuh, dan lanjutkan teka-teki tersimpan meski tanpa internet.",
+    "iosStep1": "Ketuk tombol Bagikan di bilah Safari.",
+    "iosStep2": "Pilih «Tambahkan ke Layar Utama».",
+    "iosStep3": "Ketuk «Tambah». Ikon aplikasi muncul di Layar Utama.",
+    "gotIt": "Mengerti"
+  },
+  "Seo": {
+    "homeTitle": "Buat teka teki silang online gratis: hewan, makanan, geografi, sejarah, sains, olahraga",
+    "homeDescription": "Buat teka-teki silang atau silang Swedia gratis, tanpa daftar. Teka teki silang hewan, makanan, geografi, sejarah, sains, dan olahraga, dengan kata baru setiap kali.",
+    "keywords": "teka teki silang, teka-teki silang, buat teka teki silang, membuat teka-teki silang, TTS online, TTS gratis, generator teka teki silang, silang Swedia, teka teki silang hewan, teka teki silang makanan, teka teki silang geografi, teka teki silang sejarah, teka teki silang sains, teka teki silang olahraga",
+    "crosswordTitle": "Teka-teki silang online gratis",
+    "crosswordDescription": "Mainkan teka-teki silang gratis yang ditulis kecerdasan buatan: petunjuk bernomor mendatar dan menurun, 12 topik, tiga tingkat. Tanpa daftar, kata baru setiap permainan.",
+    "scanwordTitle": "Silang Swedia online gratis: petunjuk di dalam kisi",
+    "scanwordDescription": "Selesaikan silang Swedia gratis: petunjuknya ada di dalam kotak, panah menunjuk ke jawaban. Ditulis kecerdasan buatan, tanpa daftar, di ponsel, tablet, atau komputer.",
+    "topicsTitle": "Teka-teki silang menurut topik: hewan, makanan, geografi, dan lain-lain",
+    "topicsDescription": "Pilih topik untuk teka-teki silang atau silang Swedia berikutnya: alam, hewan, makanan, geografi, sejarah, sains, olahraga, seni, dan lain-lain.",
+    "topicTitle": "Buat teka teki silang {topic}: hewan, makanan, geografi, sejarah, sains, olahraga",
+    "topicDescription": "Teka-teki silang dan silang Swedia gratis tentang {topic}, dibuat kecerdasan buatan. {description}",
+    "historyTitle": "Teka-tekiku",
+    "historyDescription": "Teka-teki silang dan silang Swedia yang kamu mulai di perangkat ini dan belum selesai, dengan kemajuan yang tersimpan.",
+    "rulesTitle": "Cara mengisi teka-teki silang dan silang Swedia",
+    "rulesDescription": "Cara menyelesaikan teka-teki silang atau silang Swedia di sini: mengetik, berpindah di kisi, memeriksa dan membuka huruf, serta pintasan papan ketik.",
+    "faqTitle": "Pertanyaan umum: TTS dengan AI, bahasa, dan privasi",
+    "faqDescription": "Jawaban tentang Teka-Teki Silang AI: apakah gratis, bagaimana kecerdasan buatan menulis petunjuk, ukuran, tingkat, kata yang tidak berulang, main tanpa internet, dan privasi.",
+    "aboutTitle": "Tentang: bagaimana AI membuat teka-teki silang",
+    "aboutDescription": "Mengapa kami membuat pembuat teka-teki silang gratis yang tidak pernah mengulang kata, dan bagaimana kecerdasan buatan menulis petunjuk di setiap bahasa.",
+    "privacyTitle": "Kebijakan privasi",
+    "privacyDescription": "Apa yang disimpan Teka-Teki Silang AI, di mana, dan mengapa. Tanpa akun, tanpa melacak siapa kamu.",
+    "termsTitle": "Ketentuan penggunaan",
+    "termsDescription": "Ketentuan sederhana untuk memakai Teka-Teki Silang AI.",
+    "contactTitle": "Hubungi kami",
+    "contactDescription": "Ada pertanyaan, ide, atau masalah di teka-teki? Tulis ke kami, kami membalas lewat email.",
+    "puzzleDescription": "Teka-teki gratis dari Teka-Teki Silang AI. Selesaikan di peramban.",
+    "sharedPuzzleDescription": "{format, select, scanword {Silang Swedia} other {Teka-teki silang}} gratis, {size} · {topic} · {difficulty} · {words, plural, one {# kata} other {# kata}}. Ditulis kecerdasan buatan. Selesaikan di peramban, tanpa daftar.",
+    "ogImageAlt": "Teka-Teki Silang AI: teka-teki silang dan silang Swedia gratis dalam bahasamu",
+    "ogPuzzleCta": "Bisakah kamu menyelesaikannya?",
+    "ogPuzzleMeta": "{size} · {words, plural, one {# kata} other {# kata}}"
+  },
+  "Formats": {
+    "classic": {
+      "name": "Teka-teki silang",
+      "short": "Petunjuk bernomor, mendatar dan menurun",
+      "description": "Yang klasik: kata-kata bersilangan di kisi bebas, dan setiap petunjuk menunggu di daftar Mendatar dan Menurun.",
+      "cta": "Main teka-teki silang"
+    },
+    "scanword": {
+      "name": "Silang Swedia",
+      "short": "Petunjuk di dalam kisi, dengan panah",
+      "description": "Setiap petunjuk ada di kisi, dengan panah ke jawabannya. Cepat dibaca, sulit ditinggalkan.",
+      "cta": "Main silang Swedia"
+    }
+  },
+  "Topics": {
+    "any": "Topik campur",
+    "general": {
+      "name": "Kata sehari-hari",
+      "description": "Kata kehidupan biasa: rumah, orang, waktu, dan dunia di sekitar kita."
+    },
+    "nature": {
+      "name": "Alam",
+      "description": "Hutan, sungai, cuaca, tumbuhan, dan musim."
+    },
+    "animals": {
+      "name": "Hewan",
+      "description": "Hewan liar dan peliharaan, burung, ikan, dan serangga."
+    },
+    "food": {
+      "name": "Makanan dan minuman",
+      "description": "Hidangan, bahan, dapur, dan segala yang ada di meja."
+    },
+    "geography": {
+      "name": "Geografi",
+      "description": "Negara, kota, sungai, gunung, dan tempat yang dikenal."
+    },
+    "history": {
+      "name": "Sejarah",
+      "description": "Zaman, penemuan, kerajinan, dan benda masa lalu."
+    },
+    "science": {
+      "name": "Sains",
+      "description": "Fisika, kimia, biologi, angkasa, dan tubuh manusia."
+    },
+    "sport": {
+      "name": "Olahraga",
+      "description": "Pertandingan, perlengkapan, lomba, dan aturan main."
+    },
+    "arts": {
+      "name": "Seni",
+      "description": "Musik, sastra, teater, lukis, dan film."
+    },
+    "home": {
+      "name": "Rumah dan sehari-hari",
+      "description": "Perabot, perkakas, pakaian, dan barang yang dipakai setiap hari."
+    },
+    "professions": {
+      "name": "Profesi",
+      "description": "Pekerjaan, keahlian, perkakas kerja, dan tempat kerja."
+    },
+    "localCulture": {
+      "name": "Budaya Indonesia",
+      "description": "Tradisi, hari raya, cerita, dan tempat yang hidup dalam budaya Indonesia."
+    }
+  },
+  "Difficulty": {
+    "1": "Mudah",
+    "2": "Sedang",
+    "3": "Sulit"
+  },
+  "Sizes": {
+    "small": "Kecil",
+    "medium": "Sedang",
+    "large": "Besar"
+  },
+  "Generator": {
+    "format": "Pilih format",
+    "topic": "Pilih topik",
+    "difficulty": "Tingkat",
+    "size": "Ukuran",
+    "create": "Buat teka-teki",
+    "creating": "Teka-tekimu sedang disusun…",
+    "creatingHint": "Kami memilih kata yang belum pernah kamu lihat. Kata baru bisa butuh beberapa detik.",
+    "cancel": "Batal",
+    "freshHint": "Gratis, tanpa daftar. Setiap teka-teki membawa kata yang belum kamu temui di sini.",
+    "exhausted": "Kamu sudah memainkan semua kata yang kami punya untuk pilihan ini! Kami sedang menulis yang baru. Coba topik lain, atau kembali sebentar lagi."
+  },
+  "Home": {
+    "hero": {
+      "eyebrow": "Gratis · Tanpa daftar · Tetap jalan tanpa internet",
+      "title": "Buat teka teki silang <mark>yang selalu baru</mark>: hewan, makanan, geografi, sejarah, sains, dan olahraga",
+      "subtitle": "Pilih topik dan tingkat kesulitan. Kecerdasan buatan menulis petunjuk dalam bahasamu, dan kata yang sama tidak muncul dua kali.",
+      "lede": "Buat teka-teki silang atau silang Swedia daring, gratis dan tanpa daftar. Topiknya dari hewan, makanan, dan geografi sampai sejarah, sains, olahraga, seni, rumah, profesi, dan budaya Indonesia, atau campur semuanya."
+    },
+    "continueTitle": "Lanjutkan dari tadi",
+    "formatsTitle": "Dua cara bermain",
+    "formatsSubtitle": "Teka-teki silang yang lega, dengan daftar petunjuk, atau silang Swedia yang ringkas, dengan petunjuk di dalam kisi.",
+    "pointsTitle": "Yang membedakan",
+    "points": {
+      "fresh": {
+        "title": "Tidak pernah berulang",
+        "text": "Perangkatmu mengingat setiap kata yang sudah ditampilkan, jadi setiap teka-teki baru membawa kata yang belum kamu pecahkan."
+      },
+      "native": {
+        "title": "Ditulis dalam bahasamu",
+        "text": "Petunjuk ditulis di setiap bahasa seperti penulis teka-teki setempat, tidak pernah diterjemahkan dari bahasa lain."
+      },
+      "ai": {
+        "title": "AI yang mengusulkan, kode yang memeriksa",
+        "text": "Kecerdasan buatan mengusulkan kata dan petunjuk. Pemeriksaan kami membuang yang salah eja, tidak adil, atau membocorkan jawaban."
+      },
+      "offline": {
+        "title": "Bisa dimainkan di mana saja",
+        "text": "Pasang seperti aplikasi. Teka-teki yang sudah dibuka tetap jalan di pesawat, di kereta, di mana pun kamu berada."
+      }
+    },
+    "topicsTitle": "Pilih topik",
+    "topicsSubtitle": "Dari burung di halaman sampai sungai yang terkenal, atau campur semua topik.",
+    "faqTitle": "Pertanyaan dan jawaban",
+    "faq1Question": "Apakah Teka-Teki Silang AI benar-benar gratis?",
+    "faq1Answer": "Ya. Setiap teka-teki silang dan silang Swedia gratis, tanpa akun, tanpa daftar, dan tanpa batas berapa banyak yang kamu selesaikan.",
+    "faq2Question": "Apakah kata yang sama akan muncul lagi?",
+    "faq2Answer": "Tidak. Perangkatmu menyimpan daftar kata yang sudah ditampilkan dan mengeluarkannya dari setiap teka-teki baru. Jika data situs di peramban dihapus, daftar itu mulai dari awal.",
+    "faq3Question": "Dalam bahasa apa saya bisa bermain?",
+    "faq3Answer": "Tiga puluh tiga bahasa, masing-masing dengan kumpulan kata sendiri yang ditulis untuk penuturnya, tidak diterjemahkan dari bahasa lain: Inggris, Spanyol, Portugis, Prancis, Jerman, Italia, Belanda, Polandia, Ceko, Swedia, Rumania, Hungaria, Indonesia, Melayu, Filipino, Vietnam, Swahili, Rusia, Ukraina, Yunani, Arab, Persia, Urdu, Ibrani, Hindi, Marathi, Bengali, Tamil, Thai, Jepang, Korea, Tionghoa, dan Armenia.",
+    "faq4Question": "Apa beda teka-teki silang dan silang Swedia?",
+    "faq4Answer": "Teka-teki silang menaruh petunjuk bernomor di samping kisi, mendatar dan menurun. Silang Swedia mencetak setiap petunjuk di dalam kotak, dengan panah yang menunjukkan tempat jawabannya.",
+    "faq5Question": "Bisakah main tanpa internet?",
+    "faq5Answer": "Bisa. Setiap teka-teki yang kamu buka tersimpan di perangkat beserta kemajuanmu, jadi tetap jalan tanpa sambungan. Teka-teki baru butuh internet.",
+    "faq6Question": "Kalau petunjuknya salah?",
+    "faq6Answer": "Buka menu ⋯ di atas kisi dan pilih «Laporkan petunjuk». Setelah tiga pemain berbeda melaporkan petunjuk yang sama, petunjuk itu dipensiunkan dan tidak muncul lagi.",
+    "faqMore": "Lihat semua pertanyaan dan jawaban →"
+  },
+  "CrosswordPage": {
+    "hero": {
+      "eyebrow": "Teka-teki silang klasik",
+      "title": "Teka-teki silang klasik, <mark>dibuat untukmu</mark>",
+      "plainTitle": "Teka-teki silang dengan AI",
+      "subtitle": "Petunjuk bernomor mendatar dan menurun, kisi yang tumbuh dari tengah, dan kata yang belum pernah kamu lihat.",
+      "lede": "Buat teka-teki silang klasik daring dan gratis: petunjuk bernomor mendatar dan menurun, dengan topik hewan, makanan, geografi, sejarah, sains, dan olahraga."
+    },
+    "rulesTitle": "Cara kerja teka-teki silang",
+    "rule1": "Setiap kotak putih berisi satu huruf. Kata berjalan mendatar (kiri ke kanan) dan menurun (atas ke bawah), saling bersilangan.",
+    "rule2": "Setiap kata punya nomor di kotak pertamanya dan petunjuk bernomor sama di daftar Mendatar atau Menurun.",
+    "rule3": "Ketuk kotak atau petunjuk untuk mulai mengetik. Ketuk kotak yang sama lagi, atau tekan Spasi, untuk beralih antara mendatar dan menurun.",
+    "rule4": "Macet? Periksa satu huruf, satu kata, atau seluruh teka-teki, atau buka satu huruf supaya bisa lanjut.",
+    "topicsTitle": "Teka-teki silang menurut topik",
+    "faqTitle": "Pertanyaan tentang teka-teki silang",
+    "faq1Question": "Seberapa besar teka-teki silangnya?",
+    "faq1Answer": "Pilih kecil (sampai kira-kira 14 kata), sedang, atau besar (lebih dari 20 kata). Kisi dipotong sesuai kata yang ada, jadi selalu muat di layar.",
+    "faq2Question": "Apa yang membuat petunjuk mudah atau sulit?",
+    "faq2Answer": "Yang mudah memakai kata sehari-hari dengan arti yang langsung. Yang sulit memakai kata yang lebih jarang dan petunjuk yang perlu dipikir dua kali.",
+    "faq3Question": "Bisakah memakai papan ketik?",
+    "faq3Answer": "Bisa: ketik huruf, bergerak dengan tombol panah, tekan Enter untuk petunjuk berikutnya dan Backspace untuk mundur. Di ponsel, papan ketik permainan muncul di bawah kisi.",
+    "faq4Question": "Bisakah berbagi teka-teki dengan teman?",
+    "faq4Answer": "Bisa. Ketuk Bagikan di atas kisi untuk menyalin tautan atau mengirimnya lewat aplikasi. Temanmu mendapat kisi dan petunjuk yang sama persis."
+  },
+  "ScanwordPage": {
+    "hero": {
+      "eyebrow": "Silang Swedia",
+      "title": "Silang Swedia dengan petunjuk <mark>di dalam kisi</mark>",
+      "plainTitle": "Silang Swedia dengan AI",
+      "subtitle": "Tidak ada daftar yang dicari: setiap petunjuk ada di kotaknya, dengan panah ke jawaban.",
+      "lede": "Buat silang Swedia daring dan gratis: petunjuknya ada di dalam kisi. Topiknya sama dengan teka-teki silang: hewan, makanan, geografi, sejarah, sains, dan olahraga."
+    },
+    "rulesTitle": "Cara kerja silang Swedia",
+    "rule1": "Kotak berwarna membawa petunjuk. Panah menunjukkan tempat jawaban mulai dan arahnya.",
+    "rule2": "Satu kotak bisa memuat dua petunjuk: yang atas biasanya menunjuk ke kanan, yang bawah ke bawah.",
+    "rule3": "Ketuk kotak petunjuk, atau kotak huruf mana pun, untuk memilih kata. Petunjuk lengkap selalu muncul di bilah atas.",
+    "rule4": "Ubin warna-warni hanya hiasan. Huruf hanya masuk ke kotak putih.",
+    "topicsTitle": "Silang Swedia menurut topik",
+    "faqTitle": "Pertanyaan tentang silang Swedia",
+    "faq1Question": "Apa itu silang Swedia?",
+    "faq1Answer": "Silang Swedia adalah teka-teki silang yang petunjuknya tercetak di dalam kisi. Bentuknya bermula dari teka-teki silang Skandinavia.",
+    "faq2Question": "Di ponsel petunjuknya kecil sekali. Apa yang bisa dilakukan?",
+    "faq2Answer": "Ketuk kotaknya: petunjuk lengkap selalu tampil di bilah atas. Kamu juga bisa mencubit untuk memperbesar, atau membuka daftar lengkap.",
+    "faq3Question": "Mengapa ada panah yang berbelok?",
+    "faq3Answer": "Kalau tidak ada tempat untuk petunjuk tepat sebelum jawaban, petunjuk itu duduk di atas atau di samping huruf pertama, dan panahnya berbelok untuk menunjukkan arah.",
+    "faq4Question": "Apakah petunjuk silang Swedia berbeda?",
+    "faq4Answer": "Lebih pendek. Petunjuk harus muat dalam satu kotak, jadi paling banyak beberapa kata."
+  },
+  "TopicsPage": {
+    "eyebrow": "Topik",
+    "title": "Tekamu mau tentang apa?",
+    "subtitle": "Setiap topik punya katanya sendiri di setiap bahasa. Pilih satu, atau campur semuanya di beranda."
+  },
+  "TopicPage": {
+    "title": "Teka-teki silang {topic}",
+    "samplesTitle": "Cicipan {topic}",
+    "samplesSubtitle": "Beberapa petunjuk dari kumpulan kata. Bisakah kamu menebaknya? Teka-teki sungguhan selalu membawa yang baru.",
+    "showAnswer": "Tampilkan jawaban",
+    "moreTopics": "Topik lain"
+  },
+  "Auth": {
+    "signIn": "Masuk",
+    "signOut": "Keluar",
+    "signInTitle": "Masuk",
+    "signInSubtitle": "Pakai Google, atau surel dan kata sandi akunmu.",
+    "signUpTitle": "Buat akun",
+    "signUpSubtitle": "Kami mengirim tautan untuk menguatkan alamat surel sebelum kamu bisa masuk.",
+    "forgotTitle": "Lupa kata sandi?",
+    "forgotSubtitle": "Kami mengirim tautan jika ada akun yang memakai alamat ini.",
+    "resetTitle": "Pilih kata sandi baru",
+    "resetSubtitle": "Ini membuatmu masuk dan mengeluarkan semua perangkat lain.",
+    "verifyTitle": "Kuatkan surelmu",
+    "verifySubtitle": "Buka tautan dari kotak masuk, lalu kuatkan di sini. Penyaring surel tidak bisa menghabiskan tautan itu.",
+    "google": "Lanjut dengan Google",
+    "or": "atau",
+    "name": "Nama",
+    "email": "Surel",
+    "password": "Kata sandi",
+    "passwordHint": "Paling sedikit 8 karakter, dengan huruf dan angka. Jangan pakai alamat surelmu.",
+    "confirmPassword": "Ulangi kata sandi",
+    "passwordMismatch": "Kata sandi tidak sama",
+    "required": "Bagian ini wajib diisi",
+    "invalidEmail": "Email itu tampaknya tidak valid",
+    "forgot": "Lupa kata sandi?",
+    "noAccount": "Belum punya akun?",
+    "hasAccount": "Sudah punya akun?",
+    "submitSignIn": "Masuk",
+    "submitSignUp": "Buat akun",
+    "submitForgot": "Kirim tautan",
+    "submitReset": "Simpan kata sandi",
+    "submitVerify": "Kuatkan surel",
+    "verifiedNotice": "Surel sudah dikuatkan. Masuk untuk melanjutkan.",
+    "checkInbox": "Periksa {email}",
+    "checkInboxText": "Kami mengirim tautan. Buka, lalu kembali untuk masuk.",
+    "resend": "Kirim tautan lagi",
+    "resent": "Terkirim lagi.",
+    "forgotSent": "Jika ada akun dengan alamat itu, tautannya sedang dalam perjalanan.",
+    "invalidCredentials": "Surel dan kata sandi itu tidak cocok.",
+    "googleOnly": "Akun ini masuk lewat Google.",
+    "emailNotVerified": "Kuatkan surel dulu. Tautannya ada di kotak masuk.",
+    "emailTaken": "Akun dengan surel ini sudah ada.",
+    "weakPassword": "Pakai paling sedikit 8 karakter, dengan huruf dan angka, dan jangan pakai alamat surelmu.",
+    "verifyInvalid": "Tautan penguatan ini tidak sah atau sudah kedaluwarsa.",
+    "resetInvalid": "Tautan pengaturan ulang ini tidak sah atau sudah kedaluwarsa.",
+    "mailFailed": "Surel tidak terkirim. Coba lagi.",
+    "googleErrors": {
+      "google_unavailable": "Masuk dengan Google sedang tidak tersedia.",
+      "google_denied": "Masuk dengan Google dibatalkan.",
+      "google_failed": "Masuk dengan Google tidak selesai. Coba lagi.",
+      "google_email_unverified": "Google belum menguatkan alamat surel itu."
+    }
+  },
+  "History": {
+    "title": "Teka-tekiku",
+    "subtitle": "Teka-teki silang dan silang Swedia yang kamu mulai dan belum selesai. Hurufmu tinggal di perangkat ini: buka yang mana saja dan lanjutkan, daring atau luring.",
+    "empty": "Belum ada teka-teki yang tertunda. Mulai teka-teki silang atau silang Swedia, nanti ia menunggu di sini sampai selesai.",
+    "detail": "{percent}% terisi · {difficulty} · {size}",
+    "seeAll": "Lihat semua yang belum selesai"
+  },
+  "Play": {
+    "title": "Teka-teki",
+    "loading": "Membuka teka-tekimu…",
+    "missingTitle": "Teka-teki ini tidak ada di sini",
+    "missingText": "Teka-teki ini tidak tersimpan di perangkat ini dan server tidak terjangkau sekarang. Periksa tautannya, atau coba lagi saat daring.",
+    "leaveTitle": "Tinggalkan teka-teki ini?",
+    "leaveBody": "Hurufmu tetap tersimpan di perangkat ini, dan kamu bisa menyelesaikannya nanti dari Teka-tekiku.",
+    "keepSolving": "Lanjut mengisi",
+    "leave": "Tinggalkan",
+    "newPuzzle": "Teka-teki baru",
+    "allClues": "Semua petunjuk",
+    "across": "Mendatar",
+    "down": "Menurun",
+    "gridLabel": "Kisi teka-teki",
+    "cell": {
+      "position": "Baris {row}, kolom {col}",
+      "empty": "kosong",
+      "wrong": "huruf salah",
+      "revealed": "terbuka",
+      "clue": "Petunjuk: {clue}"
+    },
+    "wordNumbered": "{number} {dir, select, across {mendatar} other {menurun}}",
+    "wordDirection": "{dir, select, across {Mendatar} other {Menurun}}",
+    "wordLength": "{name}, {length, plural, one {# huruf} other {# huruf}}",
+    "wordLetter": "{name}, huruf {letter} dari {length}",
+    "previousWord": "Petunjuk sebelumnya",
+    "nextWord": "Petunjuk berikutnya",
+    "toggleDirection": "Ganti arah",
+    "filled": "Terisi",
+    "keyboard": "Papan ketik",
+    "ime": "Ketik satu karakter",
+    "erase": "Hapus",
+    "time": "Waktu: {time}",
+    "check": {
+      "label": "Periksa",
+      "cell": "Periksa huruf",
+      "word": "Periksa kata",
+      "puzzle": "Periksa teka-teki"
+    },
+    "reveal": {
+      "label": "Buka",
+      "cell": "Buka huruf",
+      "word": "Buka kata",
+      "puzzle": "Buka teka-teki",
+      "confirmTitle": "Buka seluruh teka-teki?",
+      "confirmText": "Semua jawaban akan terisi dan permainan berakhir. Ini tidak bisa dibatalkan.",
+      "cancel": "Lanjut mengisi",
+      "confirm": "Buka semuanya"
+    },
+    "clearWrong": "Hapus huruf yang salah",
+    "more": "Lainnya",
+    "zoom": {
+      "label": "Perbesar",
+      "in": "Perbesar",
+      "out": "Perkecil",
+      "reset": "Lihat seluruh teka-teki"
+    },
+    "settings": {
+      "label": "Pengaturan",
+      "autoCheck": "Periksa sambil mengetik",
+      "autoCheckHint": "Tandai huruf yang salah begitu huruf itu masuk.",
+      "skipFilled": "Lewati kotak yang sudah terisi",
+      "skipFilledHint": "Saat mengetik, lompati kotak yang sudah ada hurufnya."
+    },
+    "share": "Bagikan teka-teki",
+    "shareShort": "Bagikan",
+    "shareTitle": "Coba teka-teki ini!",
+    "linkCopied": "Tautan tersalin. Kirimkan ke teman.",
+    "shareDialog": {
+      "title": "Bagikan teka-teki ini",
+      "description": "Temanmu mendapat kisi dan petunjuk yang sama persis, gratis dan tanpa daftar.",
+      "link": "Tautan teka-teki",
+      "copy": "Salin",
+      "copied": "Tersalin!",
+      "copyFailed": "Tidak tersalin. Tautannya sudah terpilih, jadi salin dengan tangan.",
+      "apps": "Kirim lewat aplikasi",
+      "email": "Surel",
+      "more": "Pilihan lain…",
+      "text": "Bisakah kamu menyelesaikan {format, select, scanword {silang Swedia} other {teka-teki silang}} {topic} ini? Gratis, dan ditulis segar oleh kecerdasan buatan.",
+      "textAny": "Bisakah kamu menyelesaikan {format, select, scanword {silang Swedia} other {teka-teki silang}} ini? Gratis, dan ditulis segar oleh kecerdasan buatan."
+    },
+    "pdf": {
+      "open": "Simpan sebagai PDF",
+      "title": "Simpan sebagai PDF",
+      "description": "Kisi ungu muda, yang berwarna, atau hitam putih. Terbuka di tab baru.",
+      "appearance": "Tampilan",
+      "appearanceDefault": "Bawaan",
+      "appearanceColorful": "Berwarna",
+      "appearanceMono": "Hitam putih",
+      "letters": "Sertakan hurufku",
+      "lettersHint": "Tampilkan huruf yang sudah kamu isi.",
+      "answers": "Tambahkan jawaban",
+      "answersHint": "Kisi yang sudah terpecahkan, di halaman sendiri.",
+      "cancel": "Batal",
+      "confirm": "Buka PDF",
+      "preparing": "PDF sedang disiapkan…",
+      "failed": "PDF tidak terbuat. Coba lagi.",
+      "answersTitle": "Jawaban",
+      "playOnline": "Mainkan daring: {url}"
+    },
+    "report": {
+      "open": "Laporkan petunjuk",
+      "title": "Apa yang salah pada petunjuk ini?",
+      "cancel": "Batal",
+      "send": "Kirim laporan",
+      "thanks": "Terima kasih! Laporan membantu kami memensiunkan petunjuk yang buruk.",
+      "note": "Apa yang perlu kami tahu?",
+      "notePlaceholder": "Catatan singkat, dengan katamu sendiri",
+      "reasons": {
+        "wrongClue": "Petunjuk tidak cocok dengan jawaban",
+        "notAWord": "Jawabannya bukan kata yang sungguhan",
+        "offensive": "Menyinggung atau tidak pantas",
+        "typo": "Ada salah ketik",
+        "other": "Yang lain"
+      }
+    },
+    "solved": {
+      "title": "Selesai! Hebat!",
+      "titleHelped": "Selesai. Bagus sekali.",
+      "time": "Waktu",
+      "checks": "Pemeriksaan",
+      "reveals": "Yang dibuka",
+      "admire": "Lihat kisinya",
+      "next": "Teka-teki berikutnya"
+    },
+    "announce": {
+      "checked": "{count, plural, one {# huruf salah} other {# huruf salah}}",
+      "allCorrect": "Semua yang diperiksa sudah benar",
+      "revealed": "{count, plural, one {# huruf terbuka} other {# huruf terbuka}}",
+      "solved": "Teka-teki selesai dalam {seconds, plural, one {# detik} other {# detik}}!"
+    }
+  },
+  "Rules": {
+    "title": "Cara main",
+    "subtitle": "Semua yang kamu perlukan untuk menyelesaikan teka-teki silang atau silang Swedia di sini, di ponsel, tablet, atau komputer.",
+    "sections": [
+      {
+        "title": "Memilih kata",
+        "paragraphs": [
+          "Ketuk atau klik kotak putih mana pun. Katanya menyala kuning, dan petunjuknya muncul di bilah di atas kisi.",
+          "Di tempat dua kata bersilangan, ketuk kotak yang sama lagi untuk beralih antara mendatar dan menurun. Pada silang Swedia kamu juga bisa mengetuk kotak petunjuknya."
+        ]
+      },
+      {
+        "title": "Mengetik",
+        "paragraphs": [
+          "Di komputer, ketik saja. Tata letak papan ketik tidak perlu diganti: kalau papan ketik dalam bahasa Inggris, tombolnya mengetik huruf bahasa teka-teki di tempat yang biasa.",
+          "Di ponsel atau tablet, papan ketik permainan muncul di bawah kisi. Untuk bahasa Armenia ada huruf tunggal ՈՒ dan և, masing-masing mengisi satu kotak. Mengetik ո lalu ւ menyatukan keduanya menjadi ՈՒ.",
+          "Pada teka-teki bahasa Rusia, huruf Ё ditulis sebagai Е, seperti di teka-teki cetak.",
+          "Bahasa Indonesia memakai huruf Latin biasa, tanpa aksen."
+        ]
+      },
+      {
+        "title": "Berpindah",
+        "paragraphs": [
+          "Tombol panah berpindah antar kotak. Panah yang memotong arah sekarang mula-mula memutar kursor. Enter meloncat ke petunjuk berikutnya, Shift+Enter ke yang sebelumnya.",
+          "Backspace menghapus satu huruf dan mundur selangkah. Home dan End meloncat ke awal dan akhir kata. Tab meninggalkan kisi."
+        ]
+      },
+      {
+        "title": "Minta bantuan",
+        "paragraphs": [
+          "Periksa mencoret huruf yang salah dan mengunci yang benar. Buka mengisi satu huruf, satu kata, atau seluruh teka-teki. Huruf yang dibuka membawa bendera ungu kecil.",
+          "Nyalakan «Periksa sambil mengetik» di pengaturan kalau kamu ingin tahu saat itu juga."
+        ]
+      },
+      {
+        "title": "Kata baru, setiap kali",
+        "paragraphs": [
+          "Perangkatmu mengingat kata yang sudah ditampilkan dan tidak memintanya lagi. Setiap teka-teki baru tersusun dari kata yang belum kamu temui di sini."
+        ]
+      }
+    ]
+  },
+  "Faq": {
+    "title": "Pertanyaan dan jawaban",
+    "subtitle": "Semua tentang Teka-Teki Silang AI di satu tempat: teka-tekinya, cara kecerdasan buatan menulisnya, bermain di perangkat apa pun, dan privasimu.",
+    "groups": [
+      {
+        "title": "Tentang Teka-Teki Silang AI",
+        "items": [
+          {
+            "question": "Apa itu Teka-Teki Silang AI?",
+            "answer": "Teka-Teki Silang AI adalah situs gratis yang membuat teka-teki silang dan silang Swedia dalam tiga puluh tiga bahasa. Model kecerdasan buatan menulis kata dan petunjuk di setiap bahasa, kode menyusun kisi, dan setiap perangkat hanya mendapat kata yang belum pernah dilihat."
+          },
+          {
+            "question": "Benarkah semuanya gratis?",
+            "answer": "Ya. Setiap teka-teki silang dan silang Swedia gratis: tanpa akun, tanpa daftar, tanpa langganan, dan tanpa iklan."
+          },
+          {
+            "question": "Apakah saya perlu akun?",
+            "answer": "Tidak. Tidak ada yang perlu didaftarkan. Kemajuan, pengaturan, dan daftar kata yang sudah dilihat tersimpan di peramban, di perangkatmu."
+          },
+          {
+            "question": "Siapa yang membuat Teka-Teki Silang AI?",
+            "answer": "Ini proyek mandiri pengembang Michael Navasardyan: teka-teki yang terbaca seolah penulis setempat yang menulisnya, dalam setiap bahasa di situs, termasuk bahasa Armenia, Rusia, dan Inggris."
+          }
+        ]
+      },
+      {
+        "title": "Teka-tekinya",
+        "items": [
+          {
+            "question": "Apa beda teka-teki silang dan silang Swedia?",
+            "answer": "Teka-teki silang menaruh petunjuk bernomor di samping kisi, mendatar dan menurun. Silang Swedia mencetak setiap petunjuk di dalam kotak, dengan panah ke tempat jawabannya. Bentuk ini bermula dari teka-teki silang Skandinavia."
+          },
+          {
+            "question": "Seberapa besar teka-tekinya?",
+            "answer": "Ada tiga ukuran. Teka-teki silang klasik mengisi kisi 9×9, 13×13, atau 15×15 dengan kira-kira 8–14, 16–24, atau 22–34 kata, lalu kisi dipotong sesuai isinya. Silang Swedia memakai 8×10, 10×13, atau 13×17, lebih tinggi daripada lebar, karena kebanyakan diselesaikan di ponsel."
+          },
+          {
+            "question": "Bagaimana tingkat kesulitan dibedakan?",
+            "answer": "Mudah memakai kata sehari-hari dengan arti yang langsung. Sedang membuka kosakata yang lebih luas. Sulit membawa kata yang lebih jarang dan petunjuk yang perlu dipikir dua kali."
+          },
+          {
+            "question": "Topik apa yang bisa dipilih?",
+            "answer": "Dua belas: kata sehari-hari, alam, hewan, makanan dan minuman, geografi, sejarah, sains, olahraga, seni, rumah dan sehari-hari, profesi, dan budaya Indonesia. Semuanya juga bisa dicampur."
+          },
+          {
+            "question": "Apakah satu kata bisa muncul dua kali?",
+            "answer": "Tidak di perangkat yang sama. Perangkat mengingat sampai 4.000 kata per bahasa, kira-kira 130 teka-teki, dan mengeluarkannya dari setiap teka-teki baru. Baru setelah itu kata yang paling lama keluar dari daftar. Menghapus data situs mengulang daftar dari awal."
+          },
+          {
+            "question": "Bagaimana kecerdasan buatan menulis petunjuk?",
+            "answer": "Model Gemini dari Google menulis kata dan petunjuk langsung dalam setiap bahasa, mengikuti panduan gaya penutur asli. Kode memeriksa masing-masing: alfabet yang benar, satu kata yang sungguhan, petunjuk yang adil dan tidak membocorkan jawaban. Lintasan kecerdasan buatan yang kedua bertindak sebagai penyunting. Yang gagal dibuang, tidak ditambal. Kisinya disusun kode, bukan kecerdasan buatan."
+          },
+          {
+            "question": "Kalau petunjuknya salah?",
+            "answer": "Buka menu ⋯ di atas kisi dan pilih «Laporkan petunjuk». Setelah tiga pemain berbeda melaporkan petunjuk yang sama, petunjuk itu dipensiunkan dan tidak muncul lagi."
+          }
+        ]
+      },
+      {
+        "title": "Bermain",
+        "items": [
+          {
+            "question": "Bagaimana cara mengetik jawaban di ponsel atau komputer?",
+            "answer": "Di komputer, ketik saja: meski papan ketik dalam bahasa Inggris, tombolnya mengetik huruf teka-teki di tempat yang biasa, jadi tata letak tidak perlu diganti. Di ponsel atau tablet, papan ketik permainan muncul di bawah kisi, dan papan ketik sistem tidak menutupinya."
+          },
+          {
+            "question": "Bisakah memeriksa jawaban atau minta bantuan?",
+            "answer": "Bisa. Periksa menandai huruf yang salah pada satu kotak, satu kata, atau seluruh teka-teki, dan Buka mengisi satu huruf, satu kata, atau semuanya. Nyalakan «Periksa sambil mengetik» di pengaturan untuk melihat kesalahan begitu terjadi."
+          },
+          {
+            "question": "Bagaimana ու dan և dalam bahasa Armenia, serta Ё dalam bahasa Rusia?",
+            "answer": "Pada teka-teki bahasa Armenia, ու dan և adalah huruf tunggal dan masing-masing mengisi satu kotak, seperti di teka-teki cetak. Papan ketik di layar punya keduanya, dan mengetik ո lalu ւ menyatukan keduanya menjadi ու. Dalam bahasa Rusia, Ё ditulis sebagai Е, seperti di cetakan."
+          },
+          {
+            "question": "Apakah kemajuan saya tersimpan?",
+            "answer": "Ya, dengan sendirinya, selagi kamu bermain. Setiap teka-teki silang atau silang Swedia yang kamu mulai dan tinggalkan belum selesai tercantum di «Teka-tekiku», dengan hurufmu tersimpan, supaya bisa dilanjutkan nanti, bahkan tanpa internet."
+          },
+          {
+            "question": "Bisakah main tanpa internet, atau dipasang sebagai aplikasi?",
+            "answer": "Bisa. Teka-Teki Silang AI dipasang dari peramban seperti aplikasi (di iPhone: Bagikan → Tambahkan ke Layar Utama). Setiap teka-teki yang dibuka tersimpan beserta kemajuanmu dan tetap jalan tanpa sambungan. Hanya teka-teki baru yang butuh internet."
+          },
+          {
+            "question": "Bisakah berbagi teka-teki?",
+            "answer": "Bisa. Ketuk Bagikan di atas kisi untuk menyalin tautan, atau kirim lewat WhatsApp, Telegram, Facebook, X, VK, atau surel. Temanmu mendapat kisi dan petunjuk yang sama persis."
+          },
+          {
+            "question": "Bisakah main dengan papan ketik atau pembaca layar?",
+            "answer": "Bisa. Kisi bekerja sepenuhnya dari papan ketik dan dengan pembaca layar: setiap kotak bernama, petunjuk yang aktif diumumkan, dan pemeriksaan serta pembukaan dibacakan. Yang salah dan yang terbuka ditandai dengan bentuk, bukan hanya dengan warna."
+          }
+        ]
+      },
+      {
+        "title": "Privasi",
+        "items": [
+          {
+            "question": "Data apa yang disimpan?",
+            "answer": "Sangat sedikit. Teka-teki, kemajuan, pengaturan, dan daftar kata yang sudah dilihat tinggal di peramban. Server menyimpan teka-teki yang dibuat (supaya tautan yang dibagikan membuka kisi yang sama), laporan petunjuk dengan hash satu arah dari alamat IP, dan hitungan anonim teka-teki yang selesai. Tanpa nama dan tanpa profil."
+          },
+          {
+            "question": "Apakah ada data tentang saya yang dikirim ke kecerdasan buatan?",
+            "answer": "Tidak. Yang dikirim ke model Gemini dari Google hanya pengaturan teka-teki (bahasa, topik, tingkat) dan daftar kata, tidak pernah apa pun tentang kamu."
+          }
+        ]
+      }
+    ],
+    "ctaTitle": "Siap untuk teka-teki yang baru?",
+    "ctaText": "Pilih topik dan tingkat kesulitan. Kisi berikutnya tinggal beberapa detik lagi.",
+    "cta": "Buat teka-teki silang"
+  },
+  "About": {
+    "title": "Tentang Teka-Teki Silang AI",
+    "subtitle": "Pembuat teka-teki gratis yang menulis dalam bahasamu dan tidak pernah menyajikan kata yang sama dua kali.",
+    "sections": [
+      {
+        "title": "Mengapa kami membuatnya",
+        "paragraphs": [
+          "Kebanyakan teka-teki silang daring mendaur ulang daftar kata yang pendek, dan yang diterjemahkan terasa seperti terjemahan. Kami ingin teka-teki yang terasa ditulis orang setempat, dan tetap baru sebanyak apa pun yang kamu selesaikan."
+        ]
+      },
+      {
+        "title": "Bagaimana kata ditulis",
+        "paragraphs": [
+          "Model kecerdasan buatan menulis kata dan petunjuk langsung dalam setiap bahasa, mengikuti panduan gaya penutur asli: bentuk kata yang dipakai teka-teki, ejaan yang berlaku, dan cara petunjuk disusun dalam tradisi bahasa itu.",
+          "Setiap kata lalu melewati pemeriksaan otomatis: alfabet yang benar, satu kata yang sungguhan, petunjuk yang tidak membocorkan jawaban. Kecerdasan buatan kedua bertindak sebagai penyunting. Laporan pemain memensiunkan yang lolos."
+        ]
+      },
+      {
+        "title": "Bagaimana kisi disusun",
+        "paragraphs": [
+          "Kisinya disusun oleh kode, bukan oleh kecerdasan buatan: sebuah algoritma merangkai kata supaya setiap huruf milik kata yang sungguhan dan punya petunjuk. Itulah yang menjaga setiap teka-teki tetap adil."
+        ]
+      }
+    ]
+  },
+  "Privacy": {
+    "title": "Kebijakan privasi",
+    "subtitle": "Versi singkat: tanpa akun, tanpa nama, tanpa profil. Inilah semua yang kami simpan.",
+    "sections": [
+      {
+        "title": "Di perangkatmu",
+        "paragraphs": [
+          "Peramban menyimpan teka-teki yang kamu buka, kemajuanmu, pengaturanmu, dan daftar kata yang sudah dilihat, supaya tidak berulang. Itu tinggal di perangkat. Menghapus data situs menghilangkannya."
+        ]
+      },
+      {
+        "title": "Di server kami",
+        "paragraphs": [
+          "Kami menyimpan teka-teki yang dibuat, supaya tautan yang dibagikan membuka kisi yang sama. Saat kamu melaporkan petunjuk, kami menyimpan laporan itu dengan hash satu arah dari alamat IP, hanya supaya satu orang tidak bisa memensiunkan petunjuk sendirian. Kami juga menghitung secara anonim bagaimana teka-teki dimainkan (selesai, kata mana yang dibuka) untuk menala tingkat kesulitan."
+        ]
+      },
+      {
+        "title": "Penyedia kecerdasan buatan",
+        "paragraphs": [
+          "Kata dan petunjuk baru ditulis oleh model Gemini dari Google. Yang dikirim hanya pengaturan teka-teki (bahasa, topik, tingkat) dan daftar kata, tidak pernah apa pun tentang kamu."
+        ]
+      },
+      {
+        "title": "Analitik dan laporan galat",
+        "paragraphs": [
+          "Jika diaktifkan, kami memakai Google Analytics untuk menghitung kunjungan halaman dan Sentry untuk menerima laporan galat. Keduanya tidak dipakai untuk mengenali kamu."
+        ]
+      }
+    ]
+  },
+  "Terms": {
+    "title": "Ketentuan penggunaan",
+    "subtitle": "Teka-Teki Silang AI gratis, untuk bermain dan belajar.",
+    "sections": [
+      {
+        "title": "Memakai layanan",
+        "paragraphs": [
+          "Kamu boleh bermain, berbagi, dan mencetak teka-teki untuk keperluan pribadi dan pendidikan. Mohon jangan membebani layanan dengan permintaan otomatis."
+        ]
+      },
+      {
+        "title": "Isi yang ditulis kecerdasan buatan",
+        "paragraphs": [
+          "Kata dan petunjuk ditulis kecerdasan buatan dan diperiksa secara otomatis, tetapi kekeliruan bisa terjadi. Jika kamu menemukannya, laporkan. Begitulah petunjuk yang buruk disingkirkan."
+        ]
+      },
+      {
+        "title": "Tanpa jaminan",
+        "paragraphs": [
+          "Layanan disediakan apa adanya, tanpa jaminan ketersediaan atau ketepatan. Kami dapat mengubah atau menghentikan fitur kapan saja."
+        ]
+      }
+    ]
+  },
+  "Contact": {
+    "title": "Hubungi kami",
+    "subtitle": "Ada pertanyaan, ide, atau sesuatu yang tidak beres? Tulis ke kami, kami membalas lewat email.",
+    "fullName": "Nama",
+    "email": "Email",
+    "message": "Pesan",
+    "messagePlaceholder": "Apa yang bisa kami bantu?",
+    "required": "Bagian ini wajib diisi",
+    "invalidEmail": "Email itu tampaknya tidak valid",
+    "submit": "Kirim",
+    "sent": "Pesan terkirim",
+    "sentText": "Terima kasih. Kami akan membalas ke email Anda secepatnya.",
+    "sendAnother": "Tulis pesan lain",
+    "tooMany": "Pesannya terlalu banyak. Coba lagi nanti."
+  }
+}

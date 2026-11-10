@@ -1,6 +1,7 @@
 import { readFileSync } from 'node:fs'
 import path from 'node:path'
-import { PDFDocument } from 'pdf-lib'
+import { inflateSync } from 'node:zlib'
+import { PDFArray, PDFDocument, PDFName, PDFRawStream } from 'pdf-lib'
 import { describe, expect, it } from 'vitest'
 import type { PuzzleView } from '@constants/puzzle'
 import { buildPuzzlePdf, needsArmenian, type PdfFonts, type PdfLabels, wrapText } from '@helpers/puzzle/pdf'
@@ -71,6 +72,24 @@ const scanword: PuzzleView = {
 
 const pages = async (bytes: Uint8Array) => (await PDFDocument.load(bytes)).getPageCount()
 
+/** Content streams are compressed; inflate each page so a watermark can be counted. */
+const pageSources = (doc: PDFDocument): string[] =>
+  doc.getPages().map((page) => {
+    const contents = page.node.lookup(PDFName.of('Contents'))
+    const items = contents instanceof PDFArray ? contents.asArray() : [contents]
+    return items
+      .map((item) => {
+        const stream = page.doc.context.lookup(item)
+        if (!(stream instanceof PDFRawStream)) return ''
+        try {
+          return inflateSync(stream.contents).toString('latin1')
+        } catch {
+          return Buffer.from(stream.contents).toString('latin1')
+        }
+      })
+      .join('\n')
+  })
+
 describe('puzzle PDF', () => {
   it('lays out a crossword with its clue lists, and an answer key on a second page', async () => {
     const bytes = await buildPuzzlePdf({ puzzle: classic, labels: LABELS, answers: true, pageSize: 'letter' }, FONTS)
@@ -78,6 +97,11 @@ describe('puzzle PDF', () => {
     const doc = await PDFDocument.load(bytes)
     expect(doc.getTitle()).toBe('Crossword — Animals · Easy')
     expect(doc.getPage(0).getSize()).toEqual({ width: 612, height: 792 })
+    // The play-online line sits in the bottom-right corner of every page. Text is stored as
+    // glyph ids, so the corner is the shared text matrix: x in the right half, y on the margin.
+    const corners = pageSources(doc).map((source) => source.match(/1 0 0 1 ([\d.]+) 34\.01574803149606 Tm/))
+    expect(corners).toHaveLength(2)
+    expect(corners.every((match) => match !== null && Number(match[1]) > 612 / 2)).toBe(true)
   })
 
   it('draws an Armenian scanword, with the player letters, on one A4 page', async () => {
@@ -91,6 +115,15 @@ describe('puzzle PDF', () => {
     expect(needsArmenian({ puzzle: classic, labels: LABELS })).toBe(false)
     expect(needsArmenian({ puzzle: classic, labels: { ...LABELS, brand: 'Խաչբառ AI' } })).toBe(true)
     expect(needsArmenian({ puzzle: scanword, labels: LABELS })).toBe(true)
+  })
+
+  it('builds the colourful sheet and the black-and-white sheet', async () => {
+    for (const appearance of ['colorful', 'mono'] as const) {
+      const crossword = await buildPuzzlePdf({ puzzle: classic, labels: LABELS, answers: false, pageSize: 'a4', appearance }, FONTS)
+      const scan = await buildPuzzlePdf({ puzzle: scanword, labels: LABELS, answers: false, pageSize: 'a4', appearance }, FONTS)
+      expect(await pages(crossword)).toBe(1)
+      expect(await pages(scan)).toBe(1)
+    }
   })
 
   it('refuses to build without its fonts', async () => {

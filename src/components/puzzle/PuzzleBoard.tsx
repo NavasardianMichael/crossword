@@ -3,6 +3,7 @@
 import { type CSSProperties, useEffect, useState } from 'react'
 import { House, Plus, Share2, WifiOff } from 'lucide-react'
 import { useTranslations } from 'next-intl'
+import { useLeaveGuardStoreBase } from '@store/navigation/guard/store'
 import { useCreateStore } from '@store/puzzle/create/store'
 import { usePlayStore, usePlayStoreBase } from '@store/puzzle/play/store'
 import { useCoarsePointer } from '@hooks/useCoarsePointer'
@@ -116,12 +117,16 @@ export const PuzzleBoard = ({ id, initial }: PuzzleBoardProps) => {
   const closeSolved = () => setDismissedSolve(announcement?.id ?? null)
 
   const newPuzzle = async () => {
-    if (!puzzle || !(await confirmLeave())) return
+    if (!puzzle) return
+    // The clock is already running, so this asks even before the first letter. A solved puzzle does not.
+    if (!(await confirmLeave(status === 'playing'))) return
     const next = await createPuzzle(puzzle.locale, { format: puzzle.format, topic: puzzle.topic, difficulty: puzzle.difficulty })
-    if (next) {
-      closeSolved()
-      router.push(puzzlePath(next.id))
+    if (!next) {
+      useLeaveGuardStoreBase.getState().keepGuarding()
+      return
     }
+    closeSolved()
+    router.push(puzzlePath(next.id))
   }
 
   if (load.status === 'loading' || (load.status === 'ready' && puzzle?.id !== id)) {

@@ -6,11 +6,11 @@ import { usePlayStore } from '@store/puzzle/play/store'
 import { localePath } from '@i18n/pathname'
 import { puzzlePath } from '@constants/routes'
 import { trackEvent } from '@helpers/analytics'
-import { buildPuzzlePdf, loadPdfFonts, needsArmenian, type PdfLabels } from '@helpers/puzzle/pdf'
+import { buildPuzzlePdf, loadPdfFonts, needsArmenian, type PdfAppearance, type PdfLabels } from '@helpers/puzzle/pdf'
 import { reportError } from '@helpers/reportError'
 import { absoluteUrl } from '@helpers/url'
 
-export type PdfOptions = { letters: boolean; answers: boolean }
+export type PdfOptions = { letters: boolean; answers: boolean; appearance: PdfAppearance }
 
 /** US and Canadian printers take Letter; everyone else A4. */
 const pageSizeFor = (language: string) => (/-(US|CA)$/i.test(language) ? 'letter' : 'a4')
@@ -54,6 +54,7 @@ export const usePuzzlePdf = () => {
           labels,
           letters: options.letters ? entries : undefined,
           answers: options.answers,
+          appearance: options.appearance,
           pageSize: pageSizeFor(navigator.language),
         },
         fonts

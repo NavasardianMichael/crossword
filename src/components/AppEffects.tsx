@@ -2,6 +2,7 @@
 
 import { useEffect } from 'react'
 import { useTranslations } from 'next-intl'
+import { useAuthStore } from '@store/auth/store'
 import { usePlayStore } from '@store/puzzle/play/store'
 import { toast } from '@store/toast/store'
 
@@ -12,11 +13,16 @@ import { toast } from '@store/toast/store'
  */
 export const AppEffects = () => {
   const hydrateSettings = usePlayStore.use.hydrateSettings()
+  const getMe = useAuthStore.use.getMe()
   const t = useTranslations('Common')
 
   useEffect(() => {
     hydrateSettings()
   }, [hydrateSettings])
+
+  useEffect(() => {
+    void getMe()
+  }, [getMe])
 
   useEffect(() => {
     const onOnline = () => toast(t('backOnline'), 'success')
