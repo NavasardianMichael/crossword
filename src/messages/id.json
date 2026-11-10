@@ -22,6 +22,7 @@
     "scanword": "Silang Swedia",
     "topics": "Topik",
     "history": "Teka-tekiku",
+    "credits": "Kredit",
     "rules": "Cara main",
     "faq": "Pertanyaan",
     "about": "Tentang",
@@ -66,6 +67,9 @@
     "topicDescription": "Teka-teki silang dan silang Swedia gratis tentang {topic}, dibuat kecerdasan buatan. {description}",
     "historyTitle": "Teka-tekiku",
     "historyDescription": "Teka-teki silang dan silang Swedia yang kamu mulai di perangkat ini dan belum selesai, dengan kemajuan yang tersimpan.",
+    "creditsTitle": "Kredit & harga",
+    "creditsDescription": "Satu teka-teki silang gratis setiap bulan, lalu paket kredit tanpa langganan: biaya tiap teka-teki dan cara membeli kredit.",
+    "paymentTitle": "Pembayaran",
     "rulesTitle": "Cara mengisi teka-teki silang dan silang Swedia",
     "rulesDescription": "Cara menyelesaikan teka-teki silang atau silang Swedia di sini: mengetik, berpindah di kisi, memeriksa dan membuka huruf, serta pintasan papan ketik.",
     "faqTitle": "Pertanyaan umum: TTS dengan AI, bahasa, dan privasi",
@@ -73,7 +77,7 @@
     "aboutTitle": "Tentang: bagaimana AI membuat teka-teki silang",
     "aboutDescription": "Mengapa kami membuat pembuat teka-teki silang gratis yang tidak pernah mengulang kata, dan bagaimana kecerdasan buatan menulis petunjuk di setiap bahasa.",
     "privacyTitle": "Kebijakan privasi",
-    "privacyDescription": "Apa yang disimpan Teka-Teki Silang AI, di mana, dan mengapa. Tanpa akun, tanpa melacak siapa kamu.",
+    "privacyDescription": "Apa yang disimpan Teka-Teki Silang AI, di mana, dan alasannya — termasuk akun dan pembayaran, tanpa melacak siapa kamu.",
     "termsTitle": "Ketentuan penggunaan",
     "termsDescription": "Ketentuan sederhana untuk memakai Teka-Teki Silang AI.",
     "contactTitle": "Hubungi kami",
@@ -168,12 +172,25 @@
     "creating": "Teka-tekimu sedang disusun…",
     "creatingHint": "Kami memilih kata yang belum pernah kamu lihat. Kata baru bisa butuh beberapa detik.",
     "cancel": "Batal",
-    "freshHint": "Gratis, tanpa daftar. Setiap teka-teki membawa kata yang belum kamu temui di sini.",
+    "freshHint": "Setiap teka-teki menghadirkan kata-kata yang belum pernah kamu temui di sini.",
     "exhausted": "Kamu sudah memainkan semua kata yang kami punya untuk pilihan ini! Kami sedang menulis yang baru. Coba topik lain, atau kembali sebentar lagi."
+  },
+  "Billing": {
+    "credits": "{count, plural, other {#}} kredit",
+    "balance": "Saldomu: {count, plural, other {#}} kredit",
+    "cost": "Teka-teki ini: {count, plural, other {#}} kredit",
+    "freeNow": "Yang ini gratis — teka-teki gratismu bulan ini.",
+    "youHave": "Kamu punya {count, plural, other {#}} kredit.",
+    "notEnough": "Kredit tidak cukup untuk teka-teki ini.",
+    "guestUsed": "Kamu sudah menggunakan teka-teki gratis bulan ini. Masuk untuk dapat satu teka-teki gratis lagi setiap bulan dan untuk membeli kredit.",
+    "refusedSignIn": "Teka-teki gratis bulan ini sudah digunakan. Masuk untuk mendapatkan satu lagi, dan untuk membeli kredit.",
+    "refusedCredits": "Kredit tidak cukup untuk teka-teki ini. Isi ulang untuk lanjut bermain.",
+    "signIn": "Masuk",
+    "buyCredits": "Beli kredit"
   },
   "Home": {
     "hero": {
-      "eyebrow": "Gratis · Tanpa daftar · Tetap jalan tanpa internet",
+      "eyebrow": "Gratis dicoba · Tanpa langganan · Bisa offline",
       "title": "Buat teka teki silang <mark>yang selalu baru</mark>: hewan, makanan, geografi, sejarah, sains, dan olahraga",
       "subtitle": "Pilih topik dan tingkat kesulitan. Kecerdasan buatan menulis petunjuk dalam bahasamu, dan kata yang sama tidak muncul dua kali.",
       "lede": "Buat teka-teki silang atau silang Swedia daring, gratis dan tanpa daftar. Topiknya dari hewan, makanan, dan geografi sampai sejarah, sains, olahraga, seni, rumah, profesi, dan budaya Indonesia, atau campur semuanya."
@@ -203,8 +220,8 @@
     "topicsTitle": "Pilih topik",
     "topicsSubtitle": "Dari burung di halaman sampai sungai yang terkenal, atau campur semua topik.",
     "faqTitle": "Pertanyaan dan jawaban",
-    "faq1Question": "Apakah Teka-Teki Silang AI benar-benar gratis?",
-    "faq1Answer": "Ya. Setiap teka-teki silang dan silang Swedia gratis, tanpa akun, tanpa daftar, dan tanpa batas berapa banyak yang kamu selesaikan.",
+    "faq1Question": "Apakah Teka-Teki Silang AI gratis?",
+    "faq1Answer": "Teka-teki pertamamu setiap bulan gratis tanpa perlu mendaftar, dan masuk akun menambah satu teka-teki gratis lagi. Setelah itu, teka-teki menggunakan kredit yang dibeli sekali tanpa langganan. Memainkan teka-teki yang dibagikan seseorang kepadamu selalu gratis.",
     "faq2Question": "Apakah kata yang sama akan muncul lagi?",
     "faq2Answer": "Tidak. Perangkatmu menyimpan daftar kata yang sudah ditampilkan dan mengeluarkannya dari setiap teka-teki baru. Jika data situs di peramban dihapus, daftar itu mulai dari awal.",
     "faq3Question": "Dalam bahasa apa saya bisa bermain?",
@@ -519,52 +536,56 @@
         "items": [
           {
             "question": "Apa itu Teka-Teki Silang AI?",
-            "answer": "Teka-Teki Silang AI adalah situs gratis yang membuat teka-teki silang dan silang Swedia dalam tiga puluh tiga bahasa. Model kecerdasan buatan menulis kata dan petunjuk di setiap bahasa, kode menyusun kisi, dan setiap perangkat hanya mendapat kata yang belum pernah dilihat."
+            "answer": "Teka-Teki Silang AI adalah situs web yang membuat teka-teki silang dan scanword dalam 33 bahasa. Model AI menulis kata dan petunjuk secara alami dalam setiap bahasa, kode menyusun kotaknya, dan setiap perangkat hanya mendapatkan kata yang belum pernah dilihat sebelumnya."
           },
           {
-            "question": "Benarkah semuanya gratis?",
-            "answer": "Ya. Setiap teka-teki silang dan silang Swedia gratis: tanpa akun, tanpa daftar, tanpa langganan, dan tanpa iklan."
+            "question": "Apakah Teka-Teki Silang AI gratis?",
+            "answer": "Sebagian. Teka-teki pertamamu setiap bulan gratis tanpa perlu mendaftar, dan masuk akun menambah teka-teki gratis kedua setiap bulan. Sisanya, teka-teki dibayar dengan kredit: kamu membeli paket sekali — tidak ada langganan, kredit tidak pernah kadaluarsa, dan tidak ada iklan. Memainkan teka-teki yang dibagikan seseorang kepadamu selalu gratis."
           },
           {
-            "question": "Apakah saya perlu akun?",
-            "answer": "Tidak. Tidak ada yang perlu didaftarkan. Kemajuan, pengaturan, dan daftar kata yang sudah dilihat tersimpan di peramban, di perangkatmu."
+            "question": "Apakah aku perlu akun?",
+            "answer": "Tidak perlu untuk teka-teki gratismu bulan ini: kemajuan, pengaturan, dan kata-kata yang sudah kamu lihat disimpan di browsermu. Akun menambah teka-teki gratis kedua setiap bulan dan memungkinkanmu membeli serta menyimpan kredit."
+          },
+          {
+            "question": "Berapa biaya satu teka-teki?",
+            "answer": "Teka-teki kecil berbiaya 5 kredit, sedang 10 kredit, dan besar 15 kredit; tingkat kesulitan sedang menambah 1 kredit dan sulit menambah 2 kredit. Kredit tersedia dalam paket 200 seharga $4,99, 600 seharga $11,99, dan 2.000 seharga $29,99. Halaman pembayaran menunjukkan harga dalam mata uangmu, termasuk pajak jika berlaku."
           },
           {
             "question": "Siapa yang membuat Teka-Teki Silang AI?",
-            "answer": "Ini proyek mandiri pengembang Michael Navasardyan: teka-teki yang terbaca seolah penulis setempat yang menulisnya, dalam setiap bahasa di situs, termasuk bahasa Armenia, Rusia, dan Inggris."
+            "answer": "Ini adalah proyek independen oleh pengembang Michael Navasardyan: teka-teki yang terasa seolah ditulis oleh penutur asli dalam setiap bahasa yang disediakan situs ini — termasuk bahasa Armenia, Rusia, dan Inggris."
           }
         ]
       },
       {
-        "title": "Teka-tekinya",
+        "title": "Teka-teki",
         "items": [
           {
-            "question": "Apa beda teka-teki silang dan silang Swedia?",
-            "answer": "Teka-teki silang menaruh petunjuk bernomor di samping kisi, mendatar dan menurun. Silang Swedia mencetak setiap petunjuk di dalam kotak, dengan panah ke tempat jawabannya. Bentuk ini bermula dari teka-teki silang Skandinavia."
+            "question": "Apa perbedaan antara teka-teki silang dan scanword?",
+            "answer": "Teka-teki silang menampilkan daftar petunjuk bernomor di samping kotak (Mendatar dan Menurun). Scanword mencetak setiap petunjuk di dalam sel kotak, dengan tanda panah menunjuk ke tempat jawabannya — format yang sangat populer di majalah teka-teki di Rusia dan Armenia."
           },
           {
-            "question": "Seberapa besar teka-tekinya?",
-            "answer": "Ada tiga ukuran. Teka-teki silang klasik mengisi kisi 9×9, 13×13, atau 15×15 dengan kira-kira 8–14, 16–24, atau 22–34 kata, lalu kisi dipotong sesuai isinya. Silang Swedia memakai 8×10, 10×13, atau 13×17, lebih tinggi daripada lebar, karena kebanyakan diselesaikan di ponsel."
+            "question": "Seberapa besar ukuran teka-tekinya?",
+            "answer": "Ada tiga ukuran. Teka-teki silang klasik mengisi kotak 9×9, 13×13, atau 15×15 dengan sekitar 8–14, 16–24, atau 22–34 kata, lalu dipotong menyesuaikan kata yang ada. Scanword menggunakan kotak 8×10, 10×13, atau 13×17 — lebih tinggi daripada lebarnya, karena sebagian besar dimainkan di ponsel."
           },
           {
-            "question": "Bagaimana tingkat kesulitan dibedakan?",
-            "answer": "Mudah memakai kata sehari-hari dengan arti yang langsung. Sedang membuka kosakata yang lebih luas. Sulit membawa kata yang lebih jarang dan petunjuk yang perlu dipikir dua kali."
+            "question": "Bagaimana perbedaan tingkat kesulitannya?",
+            "answer": "Mudah menggunakan kata-kata sehari-hari dengan definisi langsung. Sedang menggunakan kosakata yang lebih luas. Sulit menghadirkan kata-kata yang lebih jarang dan petunjuk yang membuatmu berpikir dua kali."
           },
           {
-            "question": "Topik apa yang bisa dipilih?",
-            "answer": "Dua belas: kata sehari-hari, alam, hewan, makanan dan minuman, geografi, sejarah, sains, olahraga, seni, rumah dan sehari-hari, profesi, dan budaya Indonesia. Semuanya juga bisa dicampur."
+            "question": "Topik apa saja yang bisa kupilih?",
+            "answer": "Dua belas topik: kata sehari-hari, alam, hewan, makanan & minuman, geografi, sejarah, sains, olahraga, seni, rumah & harian, profesi, dan budaya lokal — atau campur semuanya dalam satu teka-teki."
           },
           {
-            "question": "Apakah satu kata bisa muncul dua kali?",
-            "answer": "Tidak di perangkat yang sama. Perangkat mengingat sampai 4.000 kata per bahasa, kira-kira 130 teka-teki, dan mengeluarkannya dari setiap teka-teki baru. Baru setelah itu kata yang paling lama keluar dari daftar. Menghapus data situs mengulang daftar dari awal."
+            "question": "Apakah aku akan melihat kata yang sama dua kali?",
+            "answer": "Tidak pada perangkat yang sama. Sistem mengingat hingga 4.000 kata per bahasa — setara sekitar 130 teka-teki — dan mengecualikannya dari setiap teka-teki baru; baru setelah itu kata tertua dihapus dari daftar. Menghapus data situs di browsermu akan mengulang daftar dari awal."
           },
           {
-            "question": "Bagaimana kecerdasan buatan menulis petunjuk?",
-            "answer": "Model Gemini dari Google menulis kata dan petunjuk langsung dalam setiap bahasa, mengikuti panduan gaya penutur asli. Kode memeriksa masing-masing: alfabet yang benar, satu kata yang sungguhan, petunjuk yang adil dan tidak membocorkan jawaban. Lintasan kecerdasan buatan yang kedua bertindak sebagai penyunting. Yang gagal dibuang, tidak ditambal. Kisinya disusun kode, bukan kecerdasan buatan."
+            "question": "Bagaimana AI menulis petunjuknya?",
+            "answer": "Model Gemini dari Google menulis kata dan petunjuk secara langsung dalam setiap bahasa, mengikuti panduan gaya dari penutur asli. Kode kemudian memeriksa semuanya — abjad yang benar, kata yang nyata, petunjuk adil yang tidak membocorkan jawaban — dan tahap AI kedua bertindak sebagai editor. Apa pun yang gagal akan dibuang, tidak pernah ditambal. Kotaknya sendiri dibuat oleh kode, bukan oleh AI."
           },
           {
-            "question": "Kalau petunjuknya salah?",
-            "answer": "Buka menu ⋯ di atas kisi dan pilih «Laporkan petunjuk». Setelah tiga pemain berbeda melaporkan petunjuk yang sama, petunjuk itu dipensiunkan dan tidak muncul lagi."
+            "question": "Bagaimana jika ada petunjuk yang salah?",
+            "answer": "Buka menu ⋯ di atas kotak dan pilih \"Laporkan petunjuk\". Setelah tiga pemain berbeda melaporkan petunjuk yang sama, petunjuk tersebut ditarik dan tidak akan muncul lagi."
           }
         ]
       },
@@ -573,31 +594,31 @@
         "items": [
           {
             "question": "Bagaimana cara mengetik jawaban di ponsel atau komputer?",
-            "answer": "Di komputer, ketik saja: meski papan ketik dalam bahasa Inggris, tombolnya mengetik huruf teka-teki di tempat yang biasa, jadi tata letak tidak perlu diganti. Di ponsel atau tablet, papan ketik permainan muncul di bawah kisi, dan papan ketik sistem tidak menutupinya."
+            "answer": "Di komputer, tinggal ketik: meskipun papan ketikmu disetel ke bahasa Inggris, tombol akan mengetik huruf teka-teki di tempat biasanya, jadi tidak perlu mengganti tata letak. Di ponsel atau tablet, papan ketik bawaan teka-teki muncul di bawah kotak, dan papan ketik sistem tidak akan pernah menutupinya."
           },
           {
-            "question": "Bisakah memeriksa jawaban atau minta bantuan?",
-            "answer": "Bisa. Periksa menandai huruf yang salah pada satu kotak, satu kata, atau seluruh teka-teki, dan Buka mengisi satu huruf, satu kata, atau semuanya. Nyalakan «Periksa sambil mengetik» di pengaturan untuk melihat kesalahan begitu terjadi."
+            "question": "Bisakah aku memeriksa jawaban atau meminta petunjuk?",
+            "answer": "Bisa. Periksa menandai huruf yang salah di satu sel, satu kata, atau seluruh teka-teki, dan Buka akan mengisi huruf, kata, atau semuanya. Aktifkan \"Periksa saat mengetik\" di pengaturan untuk melihat kesalahan begitu kamu mengetiknya."
           },
           {
-            "question": "Bagaimana ու dan և dalam bahasa Armenia, serta Ё dalam bahasa Rusia?",
-            "answer": "Pada teka-teki bahasa Armenia, ու dan և adalah huruf tunggal dan masing-masing mengisi satu kotak, seperti di teka-teki cetak. Papan ketik di layar punya keduanya, dan mengetik ո lalu ւ menyatukan keduanya menjadi ու. Dalam bahasa Rusia, Ё ditulis sebagai Е, seperti di cetakan."
+            "question": "Bagaimana huruf ու dan և dalam bahasa Armenia, serta Ё dalam bahasa Rusia ditangani?",
+            "answer": "Dalam teka-teki bahasa Armenia, ու dan և adalah huruf tunggal dan masing-masing mengisi satu sel, seperti pada teka-teki silang cetak Armenia; papan ketik di layar memiliki keduanya, dan mengetik ո lalu ւ akan menggabungkannya menjadi ու. Dalam teka-teki bahasa Rusia, Ё ditulis sebagai Е, seperti pada teka-teki silang cetak."
           },
           {
-            "question": "Apakah kemajuan saya tersimpan?",
-            "answer": "Ya, dengan sendirinya, selagi kamu bermain. Setiap teka-teki silang atau silang Swedia yang kamu mulai dan tinggalkan belum selesai tercantum di «Teka-tekiku», dengan hurufmu tersimpan, supaya bisa dilanjutkan nanti, bahkan tanpa internet."
+            "question": "Apakah kemajuanku tersimpan?",
+            "answer": "Ya, otomatis saat kamu bermain. Setiap teka-teki silang atau scanword yang kamu mulai dan belum selesai akan terdaftar di bawah \"Teka-teki saya\", dengan huruf-hurufmu tersimpan, sehingga kamu bisa melanjutkannya nanti — bahkan saat offline."
           },
           {
-            "question": "Bisakah main tanpa internet, atau dipasang sebagai aplikasi?",
-            "answer": "Bisa. Teka-Teki Silang AI dipasang dari peramban seperti aplikasi (di iPhone: Bagikan → Tambahkan ke Layar Utama). Setiap teka-teki yang dibuka tersimpan beserta kemajuanmu dan tetap jalan tanpa sambungan. Hanya teka-teki baru yang butuh internet."
+            "question": "Bisakah aku bermain offline, atau memasangnya sebagai aplikasi?",
+            "answer": "Bisa. Teka-Teki Silang AI dapat dipasang dari browsermu seperti aplikasi (di iPhone: Bagikan → Tambahkan ke Layar Utama). Setiap teka-teki yang kamu buka tersimpan beserta kemajuanmu dan tetap berfungsi tanpa koneksi; hanya teka-teki baru yang membutuhkan internet."
           },
           {
-            "question": "Bisakah berbagi teka-teki?",
-            "answer": "Bisa. Ketuk Bagikan di atas kisi untuk menyalin tautan, atau kirim lewat WhatsApp, Telegram, Facebook, X, VK, atau surel. Temanmu mendapat kisi dan petunjuk yang sama persis."
+            "question": "Bisakah aku membagikan teka-teki kepada teman?",
+            "answer": "Bisa. Ketuk Bagikan di atas kotak untuk menyalin tautan, atau kirim melalui WhatsApp, Telegram, Facebook, X, VK, atau email. Temanmu mendapatkan kotak dan petunjuk yang sama persis."
           },
           {
-            "question": "Bisakah main dengan papan ketik atau pembaca layar?",
-            "answer": "Bisa. Kisi bekerja sepenuhnya dari papan ketik dan dengan pembaca layar: setiap kotak bernama, petunjuk yang aktif diumumkan, dan pemeriksaan serta pembukaan dibacakan. Yang salah dan yang terbuka ditandai dengan bentuk, bukan hanya dengan warna."
+            "question": "Bisakah aku bermain dengan papan ketik atau pembaca layar?",
+            "answer": "Bisa. Kotak berfungsi penuh dari papan ketik dan pembaca layar: setiap sel diberi label, petunjuk aktif dibacakan, serta pemeriksaan dan pembukaan jawaban dibacakan. Huruf yang salah dan terbuka ditandai dengan bentuk, tidak hanya dengan warna."
           }
         ]
       },
@@ -605,12 +626,12 @@
         "title": "Privasi",
         "items": [
           {
-            "question": "Data apa yang disimpan?",
-            "answer": "Sangat sedikit. Teka-teki, kemajuan, pengaturan, dan daftar kata yang sudah dilihat tinggal di peramban. Server menyimpan teka-teki yang dibuat (supaya tautan yang dibagikan membuka kisi yang sama), laporan petunjuk dengan hash satu arah dari alamat IP, dan hitungan anonim teka-teki yang selesai. Tanpa nama dan tanpa profil."
+            "question": "Data apa saja yang disimpan?",
+            "answer": "Sangat sedikit. Teka-teki, kemajuan, pengaturan, dan daftar kata yang sudah kamu lihat tetap berada di browsermu. Server menyimpan teka-teki yang dibuat (agar tautan yang dibagikan membuka kotak yang sama), laporan petunjuk dengan hash satu arah dari alamat IP, dan jumlah penyelesaian anonim. Tidak ada nama dan tidak ada profil."
           },
           {
-            "question": "Apakah ada data tentang saya yang dikirim ke kecerdasan buatan?",
-            "answer": "Tidak. Yang dikirim ke model Gemini dari Google hanya pengaturan teka-teki (bahasa, topik, tingkat) dan daftar kata, tidak pernah apa pun tentang kamu."
+            "question": "Apakah ada informasi tentang saya yang dikirim ke AI?",
+            "answer": "Tidak ada. Hanya pengaturan teka-teki — bahasa, topik, tingkat kesulitan — dan daftar kata yang dikirim ke model Gemini Google, tidak pernah ada data tentang kamu."
           }
         ]
       }
@@ -646,57 +667,129 @@
   },
   "Privacy": {
     "title": "Kebijakan privasi",
-    "subtitle": "Versi singkat: tanpa akun, tanpa nama, tanpa profil. Inilah semua yang kami simpan.",
+    "subtitle": "Versi singkat: akun hanya jika kamu mau, tanpa pembuatan profil. Ini semua yang kami simpan.",
     "sections": [
       {
         "title": "Di perangkatmu",
         "paragraphs": [
-          "Peramban menyimpan teka-teki yang kamu buka, kemajuanmu, pengaturanmu, dan daftar kata yang sudah dilihat, supaya tidak berulang. Itu tinggal di perangkat. Menghapus data situs menghilangkannya."
+          "Browsermu menyimpan teka-teki yang kamu buka, kemajuanmu, pengaturanmu, dan daftar kata yang sudah kamu lihat agar tidak terulang. Ini tetap berada di perangkatmu; menghapus data situs akan menghapusnya."
         ]
       },
       {
         "title": "Di server kami",
         "paragraphs": [
-          "Kami menyimpan teka-teki yang dibuat, supaya tautan yang dibagikan membuka kisi yang sama. Saat kamu melaporkan petunjuk, kami menyimpan laporan itu dengan hash satu arah dari alamat IP, hanya supaya satu orang tidak bisa memensiunkan petunjuk sendirian. Kami juga menghitung secara anonim bagaimana teka-teki dimainkan (selesai, kata mana yang dibuka) untuk menala tingkat kesulitan."
+          "Kami menyimpan teka-teki yang dibuat agar tautan yang dibagikan membuka kotak yang sama. Saat kamu melaporkan petunjuk, kami menyimpan laporan tersebut dengan hash satu arah dari alamat IP-mu, hanya agar satu orang tidak dapat menarik petunjuk sendirian. Kami juga menghitung secara anonim bagaimana teka-teki dimainkan (diselesaikan, kata mana yang dibuka) untuk menyesuaikan tingkat kesulitan.",
+          "Untuk memberikan satu teka-teki gratis setiap bulan kepada setiap perangkat, situs menetapkan cookie yang berisi pengidentifikasi acak. Pada setiap teka-teki gratis, kami menyimpan pengidentifikasi tersebut dan hash satu arah dari alamat IP-mu."
         ]
       },
       {
-        "title": "Penyedia kecerdasan buatan",
+        "title": "Akun dan kredit",
         "paragraphs": [
-          "Kata dan petunjuk baru ditulis oleh model Gemini dari Google. Yang dikirim hanya pengaturan teka-teki (bahasa, topik, tingkat) dan daftar kata, tidak pernah apa pun tentang kamu."
+          "Jika kamu membuat akun, kami menyimpan namamu, alamat emailmu, dan saat kamu masuk dengan Google, foto profil Google-mu. Kami juga menyimpan saldo kreditmu dan riwayatnya: setiap pembelian, setiap teka-teki yang dibayar, dan setiap pengembalian dana."
         ]
       },
       {
-        "title": "Analitik dan laporan galat",
+        "title": "Pembayaran",
         "paragraphs": [
-          "Jika diaktifkan, kami memakai Google Analytics untuk menghitung kunjungan halaman dan Sentry untuk menerima laporan galat. Keduanya tidak dipakai untuk mengenali kamu."
+          "Pembayaran diproses oleh Paddle.com, Merchant of Record kami. Paddle mengumpulkan rincian pembayaran dan negara penagihanmu berdasarkan kebijakan privasinya sendiri; kami tidak pernah melihat nomor kartumu. Dari Paddle kami menerima jumlah, mata uang, pajak, dan jenis metode pembayaran untuk setiap pembelian."
+        ]
+      },
+      {
+        "title": "Penyedia AI",
+        "paragraphs": [
+          "Kata dan petunjuk baru ditulis oleh model Gemini Google. Hanya pengaturan teka-teki (bahasa, topik, tingkat kesulitan) dan daftar kata yang dikirim — tidak pernah ada data tentang kamu."
+        ]
+      },
+      {
+        "title": "Analitik dan laporan kesalahan",
+        "paragraphs": [
+          "Jika diaktifkan, kami menggunakan Google Analytics untuk menghitung tayangan halaman dan Sentry untuk menerima laporan kesalahan. Keduanya tidak digunakan untuk mengidentifikasimu."
         ]
       }
     ]
   },
   "Terms": {
     "title": "Ketentuan penggunaan",
-    "subtitle": "Teka-Teki Silang AI gratis, untuk bermain dan belajar.",
+    "subtitle": "Teka-Teki Silang AI adalah untuk hiburan dan belajar. Ketentuan ini mencakup permainan dan pembelian kredit.",
     "sections": [
       {
-        "title": "Memakai layanan",
+        "title": "Menggunakan layanan",
         "paragraphs": [
-          "Kamu boleh bermain, berbagi, dan mencetak teka-teki untuk keperluan pribadi dan pendidikan. Mohon jangan membebani layanan dengan permintaan otomatis."
+          "Kamu boleh memainkan, membagikan, dan mencetak teka-teki untuk penggunaan pribadi dan pendidikan. Harap jangan membebani layanan dengan permintaan otomatis."
         ]
       },
       {
-        "title": "Isi yang ditulis kecerdasan buatan",
+        "title": "Teka-teki gratis dan kredit",
         "paragraphs": [
-          "Kata dan petunjuk ditulis kecerdasan buatan dan diperiksa secara otomatis, tetapi kekeliruan bisa terjadi. Jika kamu menemukannya, laporkan. Begitulah petunjuk yang buruk disingkirkan."
+          "Setiap perangkat mendapatkan satu teka-teki gratis setiap bulan kalender, dan setiap akun mendapatkan satu lagi. Teka-teki lainnya dibayar dengan kredit, dengan harga yang ditampilkan sebelum kamu membuatnya; teka-teki hanya dikenakan biaya saat dibuat, dan membuka teka-teki yang tersimpan itu gratis.",
+          "Kredit dibeli dalam paket dengan pembayaran sekali — tidak ada langganan — dan tidak pernah kadaluarsa. Kredit tidak memiliki nilai tunai dan tidak dapat ditransfer."
         ]
       },
       {
-        "title": "Tanpa jaminan",
+        "title": "Pembayaran",
         "paragraphs": [
-          "Layanan disediakan apa adanya, tanpa jaminan ketersediaan atau ketepatan. Kami dapat mengubah atau menghentikan fitur kapan saja."
+          "Proses pemesanan kami dilakukan oleh pengecer online kami, Paddle.com. Paddle.com adalah Merchant of Record untuk semua pesanan kami. Paddle menyediakan semua layanan pelanggan dan menangani pengembalian."
+        ]
+      },
+      {
+        "title": "Pengembalian dana",
+        "paragraphs": [
+          "Kamu dapat meminta pengembalian dana untuk paket kredit dalam waktu 14 hari setelah pembelian, melalui Paddle atau dengan menulis surat kepada kami. Pengembalian dana akan menarik kembali kredit paket dari saldomu. Kredit yang sudah digunakan tidak dapat dikembalikan, jadi paket yang telah digunakan sebagian dapat dikembalikan sebagian."
+        ]
+      },
+      {
+        "title": "Konten bertuliskan AI",
+        "paragraphs": [
+          "Kata dan petunjuk ditulis oleh AI dan diperiksa secara otomatis, tetapi kesalahan bisa saja terjadi. Jika kamu menemukannya, laporkan — begitulah cara petunjuk yang buruk dihapus."
+        ]
+      },
+      {
+        "title": "Tanpa garansi",
+        "paragraphs": [
+          "Layanan ini disediakan apa adanya, tanpa jaminan ketersediaan atau akurasi. Kami dapat mengubah atau menghentikan fitur kapan saja."
         ]
       }
     ]
+  },
+  "Credits": {
+    "title": "Kredit",
+    "subtitle": "Satu teka-teki gratis setiap bulan. Setelah itu, bayar hanya untuk teka-teki yang kamu buat — tanpa langganan, dan kredit tidak pernah kadaluarsa.",
+    "balanceTitle": "Saldomu",
+    "freeAvailable": "Teka-teki gratismu bulan ini sudah menunggu.",
+    "freeUsed": "Teka-teki gratis bulan ini sudah digunakan. Teka-teki berikutnya hadir pada {date}.",
+    "guestTitle": "Dapatkan lebih banyak teka-teki gratis",
+    "guestText": "Masuk untuk mendapatkan teka-teki gratis setiap bulan di akunmu, dan untuk membeli kredit.",
+    "pricesTitle": "Biaya teka-teki",
+    "pricesText": "Dalam kredit, berdasarkan ukuran dan tingkat kesulitan. Membuka teka-teki yang dibagikan seseorang kepadamu, atau dari riwayatmu, selalu gratis.",
+    "size": "Ukuran",
+    "packsTitle": "Paket kredit",
+    "packs": {
+      "starter": "Pemula",
+      "popular": "Populer",
+      "big": "Besar"
+    },
+    "popularBadge": "Paling populer",
+    "bestValueBadge": "Paling hemat",
+    "packPuzzles": "Sekitar {count} teka-teki sedang",
+    "buy": "Beli",
+    "signInToBuy": "Masuk untuk membeli",
+    "shopClosed": "Pembelian kredit sedang tidak tersedia saat ini. Silakan cek lagi nanti.",
+    "checkoutFailed": "Kami tidak dapat membuka halaman pembayaran. Silakan coba lagi.",
+    "paddleNote": "Pembayaran diproses oleh Paddle.com, pengecer dan Merchant of Record kami. Harga sudah termasuk PPN atau pajak penjualan jika berlaku; harga akhir dalam mata uangmu ditampilkan saat pembayaran.",
+    "refundsNote": "Pengembalian dana diatur dalam ketentuan penggunaan."
+  },
+  "Payments": {
+    "checkoutTitle": "Pembayaran",
+    "opening": "Membuka halaman pembayaran aman…",
+    "checkoutUnavailable": "Halaman pembayaran tidak dapat dibuka. Silakan coba lagi dari halaman kredit.",
+    "backToCredits": "Kembali ke kredit",
+    "verifying": "Mengonfirmasi pembayaranmu…",
+    "successTitle": "Terima kasih!",
+    "successText": "{count, plural, other {#}} kredit telah ditambahkan ke saldomu.",
+    "pendingText": "Pembayaranmu berhasil. Kredit akan muncul di saldomu dalam beberapa menit.",
+    "failedText": "Pembayaran tidak berhasil, jadi tidak ada biaya yang dikenakan. Kamu dapat mencoba lagi.",
+    "verifyError": "Kami tidak dapat mengonfirmasi pembayaran saat ini. Jika kamu sudah dikenakan biaya, kredit akan tetap masuk — periksa saldomu dalam beberapa menit.",
+    "makePuzzle": "Buat teka-teki"
   },
   "Contact": {
     "title": "Hubungi kami",

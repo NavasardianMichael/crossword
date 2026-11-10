@@ -1,5 +1,7 @@
 import { Router } from 'express'
+import { config } from '../config.js'
 import { fail, ok } from '../lib/api-response.js'
+import { payerOf } from '../lib/payer.js'
 import {
   isDifficulty,
   isFormat,
@@ -9,10 +11,12 @@ import {
   isTopicChoice,
   MAX_EXCLUDE,
   MAX_REPORT_NOTE,
+  puzzleCredits,
 } from '../lib/puzzle.js'
 import { asIdArray, asInteger, asTrimmedString, isPuzzleId, reporterKeyFor } from '../lib/request.js'
-import { asyncHandler } from '../middleware/error.js'
+import { asyncHandler, HttpError } from '../middleware/error.js'
 import { rateLimit } from '../middleware/rateLimit.js'
+import { assertCanPay, chargeForPuzzle } from '../services/billing.js'
 import { recordResult, reportEntry } from '../services/entryPool.js'
 import { buildPuzzle, getPuzzle, puzzleWordRefs } from '../services/puzzleBuilder.js'
 
@@ -22,6 +26,9 @@ export const puzzlesRouter = Router()
  * POST /puzzles — a new puzzle of words this device has not seen (`exclude`: the entry ids it
  * was shown before, newest last). Solutions travel with the puzzle: it is a casual game, so
  * checking happens instantly on the device and a loaded puzzle plays offline.
+ *
+ * Paid: this month's free puzzle, else credits (`services/billing.ts`). A refusal is a 402 with
+ * `BILLING_CODE.signInRequired` (a guest) or `insufficientCredits`, and stores nothing.
  */
 puzzlesRouter.post(
   '/',
@@ -35,7 +42,20 @@ puzzlesRouter.post(
     if (!isSize(size)) return fail(res, 'Unsupported size', 400)
 
     const exclude = asIdArray(req.body?.exclude, MAX_EXCLUDE)
-    const puzzle = await buildPuzzle({ locale, format, topic, difficulty, size, exclude })
+    if (!config.billing.enabled) return ok(res, await buildPuzzle({ locale, format, topic, difficulty, size, exclude }), 201)
+
+    const payer = payerOf(req, res)
+    await assertCanPay(payer, puzzleCredits(size, difficulty))
+
+    // The player pressed Cancel (the request was aborted): charge nothing, store nothing.
+    let abandoned = false
+    res.on('close', () => {
+      if (!res.writableFinished) abandoned = true
+    })
+    const puzzle = await buildPuzzle({ locale, format, topic, difficulty, size, exclude }, (tx, puzzleId, builtSize) => {
+      if (abandoned) throw new HttpError(499, 'Client closed the request', 499)
+      return chargeForPuzzle(tx, payer, puzzleCredits(builtSize, difficulty), puzzleId)
+    })
     return ok(res, puzzle, 201)
   })
 )

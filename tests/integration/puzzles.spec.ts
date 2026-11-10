@@ -1,13 +1,24 @@
 import request from 'supertest'
-import { afterAll, describe, expect, it } from 'vitest'
+import { afterAll, beforeAll, describe, expect, it } from 'vitest'
 import { createApp } from '../../server/src/app'
 import { prisma } from '../../server/src/lib/prisma'
 import { LOCALES, type PuzzleView } from '../../server/src/lib/puzzle'
+import { signSession } from '../../server/src/lib/session'
 
 /** Requests from the web app carry its Origin; the CSRF guard refuses any other. */
 const ORIGIN = 'http://localhost:7007'
 
 const app = createApp()
+
+/** Building is paid (`billing.spec.ts` covers that); these tests build as an account with credits to spare. */
+let cookie = ''
+
+beforeAll(async () => {
+  const user = await prisma.user.create({
+    data: { email: 'puzzles@test.local', fullName: 'Puzzle Tester', emailVerifiedAt: new Date(), credits: 1_000_000 },
+  })
+  cookie = `crossword-session=${signSession({ userId: user.id, tokenVersion: user.tokenVersion })}`
+})
 
 afterAll(async () => {
   await prisma.$disconnect()
@@ -17,6 +28,7 @@ const create = (body: Record<string, unknown>) =>
   request(app)
     .post('/puzzles')
     .set('Origin', ORIGIN)
+    .set('Cookie', cookie)
     .send({ locale: 'en', format: 'classic', topic: 'any', difficulty: 3, size: 'small', exclude: [], ...body })
 
 describe('health', () => {

@@ -22,6 +22,7 @@
     "scanword": "Autodefinido",
     "topics": "Temas",
     "history": "Mis crucigramas",
+    "credits": "Créditos",
     "rules": "Cómo jugar",
     "faq": "Preguntas",
     "about": "Acerca de",
@@ -66,6 +67,9 @@
     "topicDescription": "Crucigramas y autodefinidos gratis de {topic}, creados por inteligencia artificial. {description}",
     "historyTitle": "Mis crucigramas",
     "historyDescription": "Crucigramas y autodefinidos que empezaste en este dispositivo y aún no terminas, con el avance guardado.",
+    "creditsTitle": "Créditos y precios",
+    "creditsDescription": "Un crucigrama gratis cada mes y luego paquetes de créditos sin suscripción: cuánto cuesta cada rompecabezas y cómo comprar créditos.",
+    "paymentTitle": "Pago",
     "rulesTitle": "Cómo resolver crucigramas y autodefinidos",
     "rulesDescription": "Cómo resolver un crucigrama o un autodefinido aquí: escribir, moverse por la cuadrícula, comprobar y revelar letras, y atajos de teclado.",
     "faqTitle": "Preguntas frecuentes: crucigramas con IA, idiomas y privacidad",
@@ -73,7 +77,7 @@
     "aboutTitle": "Acerca de: cómo se hacen nuestros crucigramas con IA",
     "aboutDescription": "Por qué hicimos un generador de crucigramas gratis que no repite palabras, y cómo la inteligencia artificial escribe las definiciones en cada idioma.",
     "privacyTitle": "Política de privacidad",
-    "privacyDescription": "Qué guarda Crucigramas IA, dónde y por qué. Sin cuenta y sin rastrear quién eres.",
+    "privacyDescription": "Qué guarda Crucigramas IA, dónde y por qué, incluidas las cuentas y los pagos, sin ningún tipo de rastreo personal.",
     "termsTitle": "Condiciones de uso",
     "termsDescription": "Las condiciones sencillas para usar Crucigramas IA.",
     "contactTitle": "Escríbenos",
@@ -168,12 +172,25 @@
     "creating": "Armando tu crucigrama…",
     "creatingHint": "Estamos eligiendo palabras que todavía no viste. Las nuevas pueden tardar unos segundos.",
     "cancel": "Cancelar",
-    "freshHint": "Gratis y sin registro. Cada crucigrama trae palabras que aquí todavía no conoces.",
+    "freshHint": "Cada crucigrama trae palabras que no has visto antes por aquí.",
     "exhausted": "¡Ya jugaste todas las palabras que tenemos para esta elección! Estamos escribiendo otras: prueba otro tema o vuelve en un minuto."
+  },
+  "Billing": {
+    "credits": "{count, plural, one {# crédito} other {# créditos}}",
+    "balance": "Tu saldo: {count, plural, one {# crédito} other {# créditos}}",
+    "cost": "Este crucigrama: {count, plural, one {# crédito} other {# créditos}}",
+    "freeNow": "Este es gratis: tu crucigrama gratuito del mes.",
+    "youHave": "Tienes {count, plural, one {# crédito} other {# créditos}}.",
+    "notEnough": "No tienes suficientes créditos para este crucigrama.",
+    "guestUsed": "Ya has usado el crucigrama gratis de este mes. Inicia sesión para conseguir uno más cada mes y comprar créditos.",
+    "refusedSignIn": "Ya usaste el crucigrama gratis de este mes. Inicia sesión para obtener otro y comprar créditos.",
+    "refusedCredits": "No tienes suficientes créditos para este crucigrama. Recarga para seguir jugando.",
+    "signIn": "Iniciar sesión",
+    "buyCredits": "Comprar créditos"
   },
   "Home": {
     "hero": {
-      "eyebrow": "Gratis · Sin registro · Funciona sin conexión",
+      "eyebrow": "Prueba gratis · Sin suscripción · Funciona sin conexión",
       "title": "Haz un crucigrama <mark>siempre nuevo</mark> de animales, comida, geografía, historia, ciencia y deporte",
       "subtitle": "Elige un tema y una dificultad: la inteligencia artificial escribe las definiciones en tu idioma y no repite la misma palabra dos veces.",
       "lede": "Haz un crucigrama o un autodefinido online, gratis y sin registro. Los temas van de animales, comida y geografía a historia, ciencia, deporte, arte, casa, oficios y cultura hispana, o mézclalos todos."
@@ -203,8 +220,8 @@
     "topicsTitle": "Elige un tema",
     "topicsSubtitle": "De los pájaros del patio a los ríos famosos, o mezcla todos los temas.",
     "faqTitle": "Preguntas y respuestas",
-    "faq1Question": "¿Crucigramas IA es realmente gratis?",
-    "faq1Answer": "Sí. Cada crucigrama y cada autodefinido se juega gratis, sin cuenta, sin registro y sin límite de cuántos resuelves.",
+    "faq1Question": "¿Crucigramas IA es gratis?",
+    "faq1Answer": "Tu primer crucigrama de cada mes es gratis sin registrarte, y si inicias sesión añades uno más. Después, los crucigramas cuestan créditos que se compran una sola vez, sin suscripciones. Jugar a un crucigrama que alguien haya compartido contigo es siempre gratis.",
     "faq2Question": "¿Voy a ver las mismas palabras otra vez?",
     "faq2Answer": "No. Tu dispositivo guarda la lista de palabras que ya te mostró y las deja fuera de cada crucigrama nuevo. Si borras los datos del sitio en el navegador, la lista empieza de cero.",
     "faq3Question": "¿En qué idiomas puedo jugar?",
@@ -519,19 +536,23 @@
         "items": [
           {
             "question": "¿Qué es Crucigramas IA?",
-            "answer": "Crucigramas IA es un sitio gratis que genera crucigramas y autodefinidos en treinta y tres idiomas. Un modelo de inteligencia artificial escribe las palabras y las definiciones en cada idioma, el código arma la cuadrícula y cada dispositivo solo recibe palabras que todavía no vio."
+            "answer": "Crucigramas IA es una web que genera crucigramas y autodefinidos en 33 idiomas. Un modelo de IA escribe las palabras y las pistas de forma nativa en cada idioma, el código genera la cuadrícula y cada dispositivo recibe solo palabras que no ha visto antes."
           },
           {
-            "question": "¿Crucigramas IA es realmente gratis?",
-            "answer": "Sí. Cada crucigrama y cada autodefinido se juega gratis: sin cuenta, sin registro, sin suscripción y sin anuncios."
+            "question": "¿Crucigramas IA es gratis?",
+            "answer": "En parte. Tu primer crucigrama de cada mes es gratis sin registrarte, y si inicias sesión se añade un segundo crucigrama gratis al mes. Más allá de eso, los crucigramas se pagan con créditos: compras un paquete una sola vez (no hay suscripciones, los créditos no caducan y no hay anuncios). Jugar a un crucigrama que alguien compartió contigo es siempre gratis."
           },
           {
             "question": "¿Necesito una cuenta?",
-            "answer": "No. No hay nada que registrar. Tu avance, tus ajustes y la lista de palabras que ya viste se guardan en el navegador, en tu dispositivo."
+            "answer": "No para tu crucigrama gratis del mes: tu progreso, tus ajustes y las palabras que ya has visto se guardan en tu navegador. Una cuenta te da un segundo crucigrama gratis cada mes y te permite comprar créditos y conservarlos."
           },
           {
-            "question": "¿Quién hace Crucigramas IA?",
-            "answer": "Es un proyecto independiente del desarrollador Michael Navasardyan: crucigramas que se leen como si los hubiera escrito alguien de allí, en cada idioma del sitio, entre ellos el armenio, el ruso y el inglés."
+            "question": "¿Cuánto cuesta un crucigrama?",
+            "answer": "Un crucigrama pequeño cuesta 5 créditos, uno mediano 10 y uno grande 15; la dificultad media suma 1 crédito y la difícil suma 2. Los créditos se venden en paquetes de 200 por 4,99 $, 600 por 11,99 $ y 2000 por 29,99 $. En el pago se muestra el precio en tu moneda, con impuestos si corresponden."
+          },
+          {
+            "question": "¿Quién creó Crucigramas IA?",
+            "answer": "Es un proyecto independiente del desarrollador Michael Navasardyan: crucigramas que se leen como si los hubiera escrito un autor local en cada idioma disponible, como armenio, ruso o inglés."
           }
         ]
       },
@@ -539,65 +560,65 @@
         "title": "Los crucigramas",
         "items": [
           {
-            "question": "¿En qué se diferencia un crucigrama de un autodefinido?",
-            "answer": "El crucigrama lista definiciones numeradas junto a la cuadrícula, en horizontal y vertical. El autodefinido imprime cada definición dentro de una casilla, con una flecha hacia la respuesta: el formato de las revistas de pasatiempos, nacido como crucigrama escandinavo."
+            "question": "¿Cuál es la diferencia entre un crucigrama y un autodefinido?",
+            "answer": "Un crucigrama lista las pistas numeradas junto a la cuadrícula (horizontales y verticales). Un autodefinido lleva cada pista dentro de una casilla de la cuadrícula, con una flecha que indica dónde va la respuesta: el formato típico de las revistas de pasatiempos."
           },
           {
-            "question": "¿Qué tamaño tienen?",
-            "answer": "Hay tres tamaños. Un crucigrama clásico llena una cuadrícula de 9×9, 13×13 o 15×15 con unas 8–14, 16–24 o 22–34 palabras, y luego se recorta a lo que contiene. Un autodefinido usa 8×10, 10×13 o 13×17: más alto que ancho, porque la mayoría se resuelve en el teléfono."
+            "question": "¿Qué tamaño tienen los crucigramas?",
+            "answer": "Hay tres tamaños. Un crucigrama clásico usa una cuadrícula de 9×9, 13×13 o 15×15 con unas 8-14, 16-24 o 22-34 palabras, y luego se recorta al espacio que ocupan. Un autodefinido usa una cuadrícula de 8×10, 10×13 o 13×17 (más alta que ancha, porque la mayoría se resuelven en el móvil)."
           },
           {
-            "question": "¿En qué se distinguen los niveles?",
-            "answer": "Fácil usa palabras de todos los días con definiciones directas. Media abre un vocabulario más amplio. Difícil trae palabras menos frecuentes y definiciones que invitan a pensarlo dos veces."
+            "question": "¿En qué se diferencian los niveles de dificultad?",
+            "answer": "Fácil usa palabras cotidianas con definiciones directas. Medio recurre a un vocabulario más amplio. Difícil incluye palabras más raras y pistas que te harán pensar dos veces."
           },
           {
             "question": "¿Qué temas puedo elegir?",
-            "answer": "Doce: palabras de todos los días, naturaleza, animales, comida y bebida, geografía, historia, ciencia, deporte, arte, casa y día a día, oficios y cultura hispana. También puedes mezclarlos todos."
+            "answer": "Doce: palabras cotidianas, naturaleza, animales, comida y bebida, geografía, historia, ciencia, deportes, arte, hogar y día a día, profesiones y cultura local; o puedes mezclarlos todos en un solo crucigrama."
           },
           {
-            "question": "¿Alguna vez veré la misma palabra dos veces?",
-            "answer": "No en el mismo dispositivo. Recuerda hasta 4000 palabras por idioma, más o menos lo de 130 crucigramas, y las deja fuera de cada uno nuevo; solo después se caen de la lista las más antiguas. Si borras los datos del sitio, la lista empieza de cero."
+            "question": "¿Volveré a ver la misma palabra dos veces?",
+            "answer": "No en el mismo dispositivo. Recuerda hasta 4000 palabras por idioma (el equivalente a unos 130 crucigramas) y las excluye de cada nuevo juego; solo después de eso se van borrando las más antiguas de la lista. Si limpias los datos del sitio en tu navegador, la lista vuelve a empezar."
           },
           {
-            "question": "¿Cómo escribe la inteligencia artificial las definiciones?",
-            "answer": "El modelo Gemini de Google escribe palabras y definiciones directamente en cada idioma, siguiendo una guía de estilo de hablantes nativos. El código comprueba cada una: el alfabeto correcto, una palabra real y una definición justa que no delate la respuesta. Una segunda pasada de inteligencia artificial hace de editor. Lo que falla se descarta, no se parchea. La cuadrícula la arma el código, no la inteligencia artificial."
+            "question": "¿Cómo escribe la IA las pistas?",
+            "answer": "El modelo Gemini de Google escribe las palabras y las pistas directamente en cada idioma, siguiendo una guía de estilo hecha por hablantes nativos. Luego, el código comprueba cada una (alfabeto correcto, una sola palabra real, pista justa que no desvele la respuesta) y una segunda revisión por IA actúa como editora. Lo que falla se descarta, nunca se parchea. La cuadrícula en sí la genera el código, no la IA."
           },
           {
-            "question": "¿Y si una definición está mal?",
-            "answer": "Abre el menú ⋯ sobre la cuadrícula y elige «Informar de una definición». Cuando tres jugadores distintos informan la misma, se retira y no vuelve a aparecer."
+            "question": "¿Y si una pista es incorrecta?",
+            "answer": "Abre el menú ⋯ encima de la cuadrícula y elige «Reportar pista». En cuanto tres jugadores distintos reportan la misma pista, esta se retira y no vuelve a aparecer."
           }
         ]
       },
       {
-        "title": "Cómo se juega",
+        "title": "Cómo jugar",
         "items": [
           {
-            "question": "¿Cómo escribo las respuestas en el teléfono o en la computadora?",
-            "answer": "En la computadora, escribe sin más: aunque el teclado esté en inglés, las teclas ponen las letras del crucigrama en su sitio de siempre y no hay que cambiar de distribución. En el teléfono o la tableta, el teclado del crucigrama aparece debajo de la cuadrícula y el del sistema no la tapa."
+            "question": "¿Cómo escribo las respuestas en el móvil o en el ordenador?",
+            "answer": "En el ordenador, simplemente escribe: aunque tu teclado esté en inglés, la web escribe las letras del juego en su sitio habitual, así que no tienes que cambiar la distribución. En un móvil o tableta, el teclado propio del juego aparece debajo de la cuadrícula y el teclado del sistema nunca lo tapa."
           },
           {
-            "question": "¿Puedo comprobar las respuestas o pedir una pista?",
-            "answer": "Sí. Comprobar marca las letras incorrectas en una casilla, una palabra o todo el crucigrama, y Revelar completa una letra, una palabra o todo. Activa «Comprobar mientras escribo» en los ajustes para ver el error en el momento."
+            "question": "¿Puedo comprobar mis respuestas u obtener una pista?",
+            "answer": "Sí. Comprobar marca las letras incorrectas en una casilla, una palabra o todo el juego, y Revelar rellena una letra, una palabra o todo. Activa «Comprobar al escribir» en los ajustes para ver los errores al instante."
           },
           {
-            "question": "¿Cómo se tratan la ու y la և armenias, y la Ё rusa?",
-            "answer": "En los crucigramas en armenio, ու y և son letras únicas y cada una ocupa una casilla, como en los crucigramas impresos; el teclado en pantalla tiene las dos, y escribir ո y luego ւ las une en ու. En ruso, Ё se escribe como Е, igual que en los crucigramas impresos."
+            "question": "¿Cómo se gestionan ու y և en armenio, o la Ё en ruso?",
+            "answer": "En armenio, ու y և son letras individuales y cada una ocupa una casilla, como en los crucigramas impresos; el teclado en pantalla tiene ambas, y al escribir ո y luego ւ se unen en ու. En ruso, la Ё se escribe como Е, como en los crucigramas impresos."
           },
           {
-            "question": "¿Se guarda mi avance?",
-            "answer": "Sí, solo, mientras juegas. Cada crucigrama o autodefinido que empiezas y dejas a medias aparece en «Mis crucigramas», con tus letras guardadas, para que puedas seguir después, incluso sin conexión."
+            "question": "¿Se guarda mi progreso?",
+            "answer": "Sí, automáticamente a medida que juegas. Todos los crucigramas o autodefinidos que empieces y dejes a medias aparecen en «Mis crucigramas», con tus letras guardadas, para que puedas continuarlos más tarde, incluso sin conexión."
           },
           {
-            "question": "¿Puedo jugar sin conexión o instalarla como aplicación?",
-            "answer": "Sí. Crucigramas IA se instala desde el navegador como una aplicación (en el iPhone: Compartir → Agregar a pantalla de inicio). Cada crucigrama que abres se guarda con tu avance y sigue funcionando sin conexión; solo los nuevos necesitan internet."
+            "question": "¿Puedo jugar sin conexión o instalarlo como una aplicación?",
+            "answer": "Sí. Crucigramas IA se instala desde tu navegador como una app (en iPhone: Compartir → Añadir a la pantalla de inicio). Cada crucigrama que abres se guarda con tu progreso y funciona sin conexión; solo los nuevos crucigramas necesitan internet."
           },
           {
-            "question": "¿Puedo compartir un crucigrama?",
-            "answer": "Sí. Toca Compartir sobre la cuadrícula para copiar el enlace, o envíalo por WhatsApp, Telegram, Facebook, X, VK o correo. Quien lo reciba verá exactamente la misma cuadrícula y las mismas definiciones."
+            "question": "¿Puedo compartir un crucigrama con un amigo?",
+            "answer": "Sí. Toca Compartir encima de la cuadrícula para copiar el enlace, o envíalo por WhatsApp, Telegram, Facebook, X, VK o correo electrónico. Tu amigo recibirá exactamente la misma cuadrícula y las mismas pistas."
           },
           {
-            "question": "¿Se puede jugar con teclado o con lector de pantalla?",
-            "answer": "Sí. La cuadrícula funciona por completo con el teclado y con lectores de pantalla: cada casilla tiene nombre, se anuncia la definición activa y se leen las comprobaciones y las letras reveladas. Lo incorrecto y lo revelado se marca con una forma, no solo con un color."
+            "question": "¿Puedo jugar con un teclado o un lector de pantalla?",
+            "answer": "Sí. La cuadrícula funciona al 100 % desde el teclado y con lectores de pantalla: cada casilla está etiquetada, se anuncia la pista activa y se leen las comprobaciones y revelaciones. Las letras incorrectas y reveladas se marcan por forma, nunca solo por color."
           }
         ]
       },
@@ -606,11 +627,11 @@
         "items": [
           {
             "question": "¿Qué datos guardan?",
-            "answer": "Muy pocos. Tus crucigramas, el avance, los ajustes y la lista de palabras vistas se quedan en el navegador. El servidor guarda los crucigramas que se crean (para que un enlace compartido abra la misma cuadrícula), los informes de definiciones con un hash irreversible de la dirección IP y conteos anónimos de partidas resueltas. Sin nombres y sin perfiles."
+            "answer": "Muy pocos. Tus crucigramas, progreso, ajustes y la lista de palabras vistas se quedan en tu navegador. El servidor guarda los crucigramas creados (para que un enlace compartido abra la misma cuadrícula), los reportes de pistas con un código único no reversible de la dirección IP y estadísticas anónimas de resolución. Sin nombres ni perfiles."
           },
           {
-            "question": "¿Se envía algo mío a la inteligencia artificial?",
-            "answer": "No. A los modelos Gemini de Google solo van los ajustes del crucigrama (idioma, tema, dificultad) y listas de palabras, nunca nada sobre ti."
+            "question": "¿Se envía algo sobre mí a la IA?",
+            "answer": "No. Solo los ajustes del crucigrama (idioma, tema, dificultad) y las listas de palabras se envían a los modelos Gemini de Google; nunca nada sobre ti."
           }
         ]
       }
@@ -646,57 +667,129 @@
   },
   "Privacy": {
     "title": "Política de privacidad",
-    "subtitle": "En breve: sin cuenta, sin nombres y sin perfiles. Esto es todo lo que guardamos.",
+    "subtitle": "En resumen: solo creas cuenta si quieres y no hacemos perfiles. Aquí tienes todo lo que guardamos.",
     "sections": [
       {
         "title": "En tu dispositivo",
         "paragraphs": [
-          "El navegador guarda los crucigramas que abres, tu avance, tus ajustes y una lista de las palabras que ya viste, para no repetirlas. Eso se queda en tu dispositivo; si borras los datos del sitio, desaparece."
+          "Tu navegador guarda los crucigramas que abres, tu progreso, tus ajustes y una lista de las palabras que ya has visto para no repetirlas. Todo esto se queda en tu dispositivo; borrar los datos del sitio lo elimina."
         ]
       },
       {
         "title": "En nuestro servidor",
         "paragraphs": [
-          "Guardamos los crucigramas que se crean, para que un enlace compartido abra la misma cuadrícula. Si informas de una definición, guardamos el informe con un hash irreversible de tu dirección IP, solo para que una sola persona no pueda retirar una definición. También contamos de forma anónima cómo se juega (si se resolvió, qué palabras se revelaron) para afinar la dificultad."
+          "Guardamos los crucigramas creados para que un enlace compartido abra la misma cuadrícula. Cuando reportas una pista guardamos el reporte con un código único no reversible de tu dirección IP, únicamente para evitar que una sola persona retire una pista por su cuenta. También contamos de forma anónima cómo se juegan los crucigramas (si se resuelven, qué palabras se revelaron) para ajustar la dificultad.",
+          "Para ofrecer a cada dispositivo su crucigrama gratis al mes, el sitio usa una cookie con un identificador aleatorio. Con cada crucigrama gratis guardamos ese identificador y un código no reversible de tu IP."
         ]
       },
       {
-        "title": "Proveedor de inteligencia artificial",
+        "title": "Cuentas y créditos",
         "paragraphs": [
-          "Las palabras y definiciones nuevas las escriben los modelos Gemini de Google. Solo se envían los ajustes del crucigrama (idioma, tema, dificultad) y listas de palabras: nunca nada sobre ti."
+          "Si creas una cuenta, guardamos tu nombre, tu correo electrónico y, si inicias sesión con Google, tu foto de perfil de Google. También guardamos tu saldo de créditos y su historial: cada compra, cada crucigrama pagado y cada reembolso."
         ]
       },
       {
-        "title": "Analítica e informes de error",
+        "title": "Pagos",
         "paragraphs": [
-          "Si está activado, usamos Google Analytics para contar visitas y Sentry para recibir informes de error. Ninguno sirve para identificarte."
+          "Los pagos los procesa Paddle.com, nuestro vendedor autorizado. Paddle recopila tus datos de pago y país de facturación bajo su propia política de privacidad; nosotros nunca vemos tu número de tarjeta. De Paddle recibimos el importe, la moneda, los impuestos y el tipo de método de pago de cada compra."
+        ]
+      },
+      {
+        "title": "Proveedor de IA",
+        "paragraphs": [
+          "Las nuevas palabras y pistas las generan los modelos Gemini de Google. Solo se envían los ajustes del crucigrama (idioma, tema, dificultad) y las listas de palabras; nunca nada sobre ti."
+        ]
+      },
+      {
+        "title": "Analítica y reportes de errores",
+        "paragraphs": [
+          "Si está activado, usamos Google Analytics para contar las visitas a las páginas y Sentry para recibir reportes de errores. Ninguno se usa para identificarte."
         ]
       }
     ]
   },
   "Terms": {
     "title": "Condiciones de uso",
-    "subtitle": "Crucigramas IA es gratis, para jugar y para aprender.",
+    "subtitle": "Crucigramas IA es para divertirse y aprender. Términos sobre el uso y la compra de créditos.",
     "sections": [
       {
         "title": "Uso del servicio",
         "paragraphs": [
-          "Puedes jugar, compartir e imprimir los crucigramas para uso personal y educativo. Por favor, no satures el servicio con solicitudes automáticas."
+          "Puedes jugar, compartir e imprimir los crucigramas para uso personal y educativo. Por favor, no sobrecargues el servicio con peticiones automatizadas."
         ]
       },
       {
-        "title": "Contenido escrito por inteligencia artificial",
+        "title": "Crucigramas gratis y créditos",
         "paragraphs": [
-          "Las palabras y las definiciones las escribe una inteligencia artificial y se comprueban solas, pero puede haber errores. Si encuentras uno, infórmalo: así se retiran las definiciones malas."
+          "Cada dispositivo obtiene un crucigrama gratis cada mes natural, y cada cuenta uno más. Los demás crucigramas se pagan con créditos, al precio mostrado antes de crearlos; solo se cobra al generarlo, y abrir un crucigrama guardado es siempre gratis.",
+          "Los créditos se compran en paquetes mediante un pago único (sin suscripción) y nunca caducan. No tienen valor en efectivo y no se pueden transferir."
+        ]
+      },
+      {
+        "title": "Pagos",
+        "paragraphs": [
+          "El proceso de compra lo gestiona nuestro distribuidor en línea Paddle.com. Paddle.com es el comerciante autorizado para todos nuestros pedidos. Paddle atiende las consultas de servicio al cliente y gestiona las devoluciones."
+        ]
+      },
+      {
+        "title": "Reembolsos",
+        "paragraphs": [
+          "Puedes solicitar el reembolso de un paquete de créditos dentro de los 14 días posteriores a la compra, a través de Paddle o escribiéndonos. El reembolso descuenta los créditos del paquete de tu saldo. Los créditos gastados no se pueden devolver, por lo que un paquete usado parcialmente se reembolsará de forma proporcional."
+        ]
+      },
+      {
+        "title": "Contenido generado por IA",
+        "paragraphs": [
+          "Las palabras y las pistas las escribe la IA y se revisan automáticamente, pero pueden ocurrir errores. Si encuentras uno, repórtalo: así eliminamos las pistas incorrectas."
         ]
       },
       {
         "title": "Sin garantía",
         "paragraphs": [
-          "El servicio se ofrece tal cual, sin garantías de disponibilidad ni de exactitud. Podemos cambiar o retirar funciones en cualquier momento."
+          "El servicio se proporciona «tal cual», sin garantías de disponibilidad o precisión. Podemos modificar o interrumpir funciones en cualquier momento."
         ]
       }
     ]
+  },
+  "Credits": {
+    "title": "Créditos",
+    "subtitle": "Un crucigrama gratis cada mes. Después, paga solo por los que generes: sin suscripción y los créditos no caducan.",
+    "balanceTitle": "Tu saldo",
+    "freeAvailable": "Tu crucigrama gratis de este mes te está esperando.",
+    "freeUsed": "Ya usaste el crucigrama gratis de este mes. El próximo estará disponible el {date}.",
+    "guestTitle": "Consigue más crucigramas gratis",
+    "guestText": "Inicia sesión para recibir un crucigrama gratis cada mes en tu cuenta y para comprar créditos.",
+    "pricesTitle": "Cuánto cuesta un crucigrama",
+    "pricesText": "En créditos, según el tamaño y la dificultad. Abrir un crucigrama que te hayan compartido o uno de tu historial es siempre gratis.",
+    "size": "Tamaño",
+    "packsTitle": "Paquetes de créditos",
+    "packs": {
+      "starter": "Inicial",
+      "popular": "Popular",
+      "big": "Grande"
+    },
+    "popularBadge": "El más popular",
+    "bestValueBadge": "Mejor relación calidad-precio",
+    "packPuzzles": "Unos {count} crucigramas medianos",
+    "buy": "Comprar",
+    "signInToBuy": "Inicia sesión para comprar",
+    "shopClosed": "La compra de créditos no está disponible en este momento. Vuelve a intentarlo pronto.",
+    "checkoutFailed": "No hemos podido abrir la pasarela de pago. Por favor, inténtalo de nuevo.",
+    "paddleNote": "Los pagos los procesa Paddle.com, nuestro revendedor y comerciante autorizado. Los precios incluyen IVA o impuestos sobre las ventas según corresponda; el precio final en tu moneda se muestra al pagar.",
+    "refundsNote": "Los reembolsos se explican en los términos de uso."
+  },
+  "Payments": {
+    "checkoutTitle": "Pago",
+    "opening": "Abriendo la pasarela de pago segura…",
+    "checkoutUnavailable": "No se pudo abrir el pago. Por favor, inténtalo de nuevo desde la página de créditos.",
+    "backToCredits": "Volver a créditos",
+    "verifying": "Confirmando tu pago…",
+    "successTitle": "¡Muchas gracias!",
+    "successText": "{count, plural, one {Se ha añadido # crédito} other {Se han añadido # créditos}} a tu saldo.",
+    "pendingText": "Tu pago se ha realizado con éxito. Los créditos aparecerán en tu saldo en unos minutos.",
+    "failedText": "El pago no se ha podido procesar, por lo que no se te ha cobrado nada. Puedes volver a intentarlo.",
+    "verifyError": "No hemos podido confirmar el pago en este momento. Si se te cobró, los créditos llegarán de todos modos: revisa tu saldo en unos minutos.",
+    "makePuzzle": "Crear un crucigrama"
   },
   "Contact": {
     "title": "Escríbenos",

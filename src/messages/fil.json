@@ -22,6 +22,7 @@
     "scanword": "Skanword",
     "topics": "Paksa",
     "history": "Mga palaisipan ko",
+    "credits": "Credits",
     "rules": "Paano laruin",
     "faq": "Mga tanong",
     "about": "Tungkol",
@@ -66,6 +67,9 @@
     "topicDescription": "Libreng krusigrama at skanword tungkol sa {topic}, gawa ng AI. {description}",
     "historyTitle": "Mga palaisipan ko",
     "historyDescription": "Mga krusigrama at skanword na sinimulan mo sa aparatong ito at hindi pa natatapos, kasama ang naka-save na progreso.",
+    "creditsTitle": "Credits & prices",
+    "creditsDescription": "One free crossword every month, then credit packs with no subscription: what each puzzle costs, and how to buy credits.",
+    "paymentTitle": "Payment",
     "rulesTitle": "Paano lutasin ang krusigrama at skanword",
     "rulesDescription": "Paano lutasin dito ang krusigrama o skanword: pag-type, paggalaw sa parilya, pagsuri, pagbubunyag, at shortcut sa keyboard.",
     "faqTitle": "Mga tanong: libreng krusigrama, mga wika at pribasiya",
@@ -73,7 +77,7 @@
     "aboutTitle": "Tungkol — paano ginagawa ang aming krusigrama",
     "aboutDescription": "Bakit gumawa kami ng generator ng krusigrama na hindi inuulit ang salita, at paano sumusulat ang AI ng pahiwatig nang mismo sa bawat wika.",
     "privacyTitle": "Patakaran sa pribasiya",
-    "privacyDescription": "Ano ang itinatago ng Krusigrama AI, saan at bakit. Walang account at walang pagsubaybay kung sino ka.",
+    "privacyDescription": "Kung ano ang iniiimbak ng Krusigrama AI, saan, at bakit — kasama ang mga account at pagbabayad, at walang pag-track sa kung sino ka.",
     "termsTitle": "Mga tuntunin sa paggamit",
     "termsDescription": "Ang simpleng tuntunin sa paggamit ng Krusigrama AI.",
     "contactTitle": "Sulatan kami",
@@ -100,21 +104,65 @@
   },
   "Topics": {
     "any": "Pinaghalong paksa",
-    "general": { "name": "Pang-araw-araw na salita", "description": "Mga salita ng araw-araw: tahanan, tao, oras at ang mundong paligid." },
-    "nature": { "name": "Kalikasan", "description": "Gubat, ilog, panahon, halaman at mga panahon." },
-    "animals": { "name": "Hayop", "description": "Mailap at alagang hayop, ibon, isda at insekto." },
-    "food": { "name": "Pagkain at inumin", "description": "Ulam, sangkap, kusina at lahat ng nasa hapag." },
-    "geography": { "name": "Heograpiya", "description": "Bansa, lungsod, ilog, bundok at kilalang lugar." },
-    "history": { "name": "Kasaysayan", "description": "Panahon, imbensiyon, gawain at mga bagay ng nakaraan." },
-    "science": { "name": "Agham", "description": "Pisika, kimika, biyolohiya, kalawakan at katawan ng tao." },
-    "sport": { "name": "Isports", "description": "Laro, kagamitan, paligsahan at mga tuntunin." },
-    "arts": { "name": "Sining", "description": "Musika, panitikan, tanghalan, pintura at pelikula." },
-    "home": { "name": "Tahanan", "description": "Muwebles, kasangkapan, damit at mga gamit sa araw-araw." },
-    "professions": { "name": "Hanapbuhay", "description": "Trabaho, gawaing kamay, kasangkapan at lugar ng trabaho." },
-    "localCulture": { "name": "Lokal na kultura", "description": "Tradisyon, pista, alamat at kilalang lugar ng kulturang nasa likod ng wika." }
+    "general": {
+      "name": "Pang-araw-araw na salita",
+      "description": "Mga salita ng araw-araw: tahanan, tao, oras at ang mundong paligid."
+    },
+    "nature": {
+      "name": "Kalikasan",
+      "description": "Gubat, ilog, panahon, halaman at mga panahon."
+    },
+    "animals": {
+      "name": "Hayop",
+      "description": "Mailap at alagang hayop, ibon, isda at insekto."
+    },
+    "food": {
+      "name": "Pagkain at inumin",
+      "description": "Ulam, sangkap, kusina at lahat ng nasa hapag."
+    },
+    "geography": {
+      "name": "Heograpiya",
+      "description": "Bansa, lungsod, ilog, bundok at kilalang lugar."
+    },
+    "history": {
+      "name": "Kasaysayan",
+      "description": "Panahon, imbensiyon, gawain at mga bagay ng nakaraan."
+    },
+    "science": {
+      "name": "Agham",
+      "description": "Pisika, kimika, biyolohiya, kalawakan at katawan ng tao."
+    },
+    "sport": {
+      "name": "Isports",
+      "description": "Laro, kagamitan, paligsahan at mga tuntunin."
+    },
+    "arts": {
+      "name": "Sining",
+      "description": "Musika, panitikan, tanghalan, pintura at pelikula."
+    },
+    "home": {
+      "name": "Tahanan",
+      "description": "Muwebles, kasangkapan, damit at mga gamit sa araw-araw."
+    },
+    "professions": {
+      "name": "Hanapbuhay",
+      "description": "Trabaho, gawaing kamay, kasangkapan at lugar ng trabaho."
+    },
+    "localCulture": {
+      "name": "Lokal na kultura",
+      "description": "Tradisyon, pista, alamat at kilalang lugar ng kulturang nasa likod ng wika."
+    }
   },
-  "Difficulty": { "1": "Madali", "2": "Katamtaman", "3": "Mahirap" },
-  "Sizes": { "small": "Maliit", "medium": "Katamtaman", "large": "Malaki" },
+  "Difficulty": {
+    "1": "Madali",
+    "2": "Katamtaman",
+    "3": "Mahirap"
+  },
+  "Sizes": {
+    "small": "Maliit",
+    "medium": "Katamtaman",
+    "large": "Malaki"
+  },
   "Generator": {
     "format": "Pumili ng anyo",
     "topic": "Pumili ng paksa",
@@ -124,12 +172,25 @@
     "creating": "Ginagawa ang palaisipan mo…",
     "creatingHint": "Pumipili kami ng salitang hindi mo pa nakikita. Ang mga bago ay puwedeng tumagal ng ilang segundo.",
     "cancel": "Kanselahin",
-    "freshHint": "Libre, walang rehistrasyon. Bawat palaisipan ay may salitang hindi mo pa natatagpo rito.",
+    "freshHint": "Bawat puzzle ay nagdadala ng mga salitang hindi mo pa nakikita rito dati.",
     "exhausted": "Nalaro mo na ang lahat ng salita namin para sa piliing ito. Sumusulat kami ng bago — sumubok ng ibang paksa, o bumalik pagkalipas ng isang minuto."
+  },
+  "Billing": {
+    "credits": "{count, plural, one {# credit} other {# credits}}",
+    "balance": "Your balance: {count, plural, one {# credit} other {# credits}}",
+    "cost": "This puzzle: {count, plural, one {# credit} other {# credits}}",
+    "freeNow": "This one is free — your free puzzle of the month.",
+    "youHave": "You have {count, plural, one {# credit} other {# credits}}.",
+    "notEnough": "Not enough credits for this puzzle.",
+    "guestUsed": "You've used this month's free puzzle. Sign in for one more free puzzle every month, and to buy credits.",
+    "refusedSignIn": "This month's free puzzle is used. Sign in to get another one, and to buy credits.",
+    "refusedCredits": "Not enough credits for this puzzle. Top up to keep playing.",
+    "signIn": "Sign in",
+    "buyCredits": "Buy credits"
   },
   "Home": {
     "hero": {
-      "eyebrow": "Libre · Walang rehistrasyon · Gumagana kahit offline",
+      "eyebrow": "Libreng subukan · Walang subscription · Gumagana offline",
       "title": "Krusigrama sa Filipino na <mark>laging bago</mark>",
       "subtitle": "Pumili ng paksa at antas. Isinusulat ng AI ang pahiwatig sa iyong wika, at hindi mo makukuha ang parehong salita nang dalawang beses.",
       "lede": "Gumawa ng krusigrama o skanword nang libre, walang rehistrasyon. Ang mga paksa ay mula sa hayop, pagkain at heograpiya hanggang kasaysayan, agham, isports, sining, tahanan, hanapbuhay at lokal na kultura — o haluin silang lahat."
@@ -139,16 +200,28 @@
     "formatsSubtitle": "Maluwag na klasiko na may listahan ng pahiwatig, o masinsing skanword na ang pahiwatig ay nasa loob ng parilya.",
     "pointsTitle": "Bakit iba ito",
     "points": {
-      "fresh": { "title": "Walang ulit", "text": "Natatandaan ng aparato ang bawat salitang ipinakita nito, kaya ang bagong palaisipan ay gawa sa mga hindi mo pa nalulutas." },
-      "native": { "title": "Isinulat sa iyong wika", "text": "Ang mga pahiwatig ay isinusulat mismo sa bawat wika, gaya ng gagawin ng lokal na may-akda. Hindi ito salin." },
-      "ai": { "title": "Iminumungkahi ng AI, sinusuri ng code", "text": "Iminumungkahi ng AI ang mga salita at pahiwatig. Itinatapon ng mga pagsusuri ang maling baybay, ang hindi patas, at ang nagbubunyag ng sagot." },
-      "offline": { "title": "Puwede kahit saan", "text": "I-install ito na parang app. Ang nabuksan mo nang palaisipan ay tuloy pa rin sa eroplano, sa tren, kahit saan." }
+      "fresh": {
+        "title": "Walang ulit",
+        "text": "Natatandaan ng aparato ang bawat salitang ipinakita nito, kaya ang bagong palaisipan ay gawa sa mga hindi mo pa nalulutas."
+      },
+      "native": {
+        "title": "Isinulat sa iyong wika",
+        "text": "Ang mga pahiwatig ay isinusulat mismo sa bawat wika, gaya ng gagawin ng lokal na may-akda. Hindi ito salin."
+      },
+      "ai": {
+        "title": "Iminumungkahi ng AI, sinusuri ng code",
+        "text": "Iminumungkahi ng AI ang mga salita at pahiwatig. Itinatapon ng mga pagsusuri ang maling baybay, ang hindi patas, at ang nagbubunyag ng sagot."
+      },
+      "offline": {
+        "title": "Puwede kahit saan",
+        "text": "I-install ito na parang app. Ang nabuksan mo nang palaisipan ay tuloy pa rin sa eroplano, sa tren, kahit saan."
+      }
     },
     "topicsTitle": "Pumili ng paksa",
     "topicsSubtitle": "Mula sa ibon sa bakuran hanggang sa kilalang ilog — o haluin lahat.",
     "faqTitle": "Mga tanong at sagot",
-    "faq1Question": "Libre ba talaga ang Krusigrama AI?",
-    "faq1Answer": "Oo. Libre ang bawat krusigrama at skanword, walang account, walang rehistrasyon, at walang hangganan kung ilan ang lulutasin mo.",
+    "faq1Question": "Libre ba ang Krusigrama AI?",
+    "faq1Answer": "Libre ang una mong puzzle bawat buwan kahit walang sign-up, at ang pag-sign in ay nagdaragdag ng isa pa. Pagkatapos noon, ang mga puzzle ay nagkakahalaga ng credits, na binibili nang minsan lang at walang subscription. Libre palaging laruin ang puzzle na ibinahagi sa iyo ng iba.",
     "faq2Question": "Makikita ko ba ulit ang parehong salita?",
     "faq2Answer": "Hindi. May listahan ang aparato ng mga salitang naipakita na, at iniiwan ang mga iyon sa bawat bagong palaisipan. Kapag binura mo ang data ng site sa browser, magsisimula ulit ang listahan.",
     "faq3Question": "Sa anong mga wika puwedeng maglaro?",
@@ -313,7 +386,12 @@
     "ime": "Mag-type ng karakter",
     "erase": "Burahin",
     "time": "Oras: {time}",
-    "check": { "label": "Suriin", "cell": "Suriin ang titik", "word": "Suriin ang salita", "puzzle": "Suriin ang palaisipan" },
+    "check": {
+      "label": "Suriin",
+      "cell": "Suriin ang titik",
+      "word": "Suriin ang salita",
+      "puzzle": "Suriin ang palaisipan"
+    },
     "reveal": {
       "label": "Ibunyag",
       "cell": "Ibunyag ang titik",
@@ -326,7 +404,12 @@
     },
     "clearWrong": "Burahin ang maling titik",
     "more": "Iba pa",
-    "zoom": { "label": "Zoom", "in": "Palakihin", "out": "Paliitin", "reset": "Kasya ang buong palaisipan" },
+    "zoom": {
+      "label": "Zoom",
+      "in": "Palakihin",
+      "out": "Paliitin",
+      "reset": "Kasya ang buong palaisipan"
+    },
     "settings": {
       "label": "Mga setting",
       "autoCheck": "Suriin habang nagta-type",
@@ -406,45 +489,151 @@
     "title": "Paano laruin",
     "subtitle": "Lahat ng kailangan para lutasin ang krusigrama o skanword — sa telepono, tablet o computer.",
     "sections": [
-      { "title": "Pagpili ng salita", "paragraphs": ["I-tap o i-click ang anumang puting kahon. Didilaw ang salitang kinabibilangan nito, at lilitaw ang pahiwatig sa bar sa itaas ng parilya.", "Kung nagsasalubong ang dalawang salita, i-tap ulit ang parehong kahon para magpalit sa pagitan ng pahalang at patayo. Sa skanword, puwede ring i-tap ang kahon ng pahiwatig."] },
-      { "title": "Pag-type", "paragraphs": ["Sa computer, mag-type lang. Hindi kailangang magpalit ng layout: kung Ingles ang keyboard, ang mga key ay nagta-type ng mga titik ng wika ng palaisipan sa karaniwan nilang puwesto.", "Sa telepono o tablet, lilitaw ang sariling keyboard ng palaisipan sa ilalim ng parilya. Sa Armenian, may mga titik na ՈՒ at և, isa bawat kahon; kapag nag-type ka ng ո tapos ւ, kusang nagiging ՈՒ.", "Sa mga palaisipang Ruso, ang titik na Ё ay isinusulat bilang Е, gaya sa nakalimbag na krusigrama."] },
-      { "title": "Paggalaw", "paragraphs": ["Ang mga arrow key ay gumagalaw sa pagitan ng mga kahon; ang arrow na pahalang sa kasalukuyang direksiyon ay unang pinipihit ang cursor. Ang Enter ay tumalon sa susunod na pahiwatig, ang Shift+Enter sa nauna.", "Ang Backspace ay nagbubura ng titik at umaatras. Ang Home at End ay tumalon sa simula at dulo ng salita. Ang Tab ay umaalis sa parilya."] },
-      { "title": "Tulong", "paragraphs": ["Ang pagsuri ay may guhit sa maling titik at ikinakandado ang tama. Ang pagbubunyag ay pinupunan ang isang titik, isang salita o ang buong palaisipan; may maliit na lilang watawat ang nabunyag na titik.", "I-on ang “Suriin habang nagta-type” sa mga setting kung gusto mo ng agarang sagot."] },
-      { "title": "Bagong salita, sa bawat beses", "paragraphs": ["Natatandaan ng aparato ang mga salitang ipinakita nito at hindi na ito hinihingi ulit. Ang bawat bagong palaisipan ay gawa sa mga salitang hindi mo pa natatagpo rito."] }
+      {
+        "title": "Pagpili ng salita",
+        "paragraphs": [
+          "I-tap o i-click ang anumang puting kahon. Didilaw ang salitang kinabibilangan nito, at lilitaw ang pahiwatig sa bar sa itaas ng parilya.",
+          "Kung nagsasalubong ang dalawang salita, i-tap ulit ang parehong kahon para magpalit sa pagitan ng pahalang at patayo. Sa skanword, puwede ring i-tap ang kahon ng pahiwatig."
+        ]
+      },
+      {
+        "title": "Pag-type",
+        "paragraphs": [
+          "Sa computer, mag-type lang. Hindi kailangang magpalit ng layout: kung Ingles ang keyboard, ang mga key ay nagta-type ng mga titik ng wika ng palaisipan sa karaniwan nilang puwesto.",
+          "Sa telepono o tablet, lilitaw ang sariling keyboard ng palaisipan sa ilalim ng parilya. Sa Armenian, may mga titik na ՈՒ at և, isa bawat kahon; kapag nag-type ka ng ո tapos ւ, kusang nagiging ՈՒ.",
+          "Sa mga palaisipang Ruso, ang titik na Ё ay isinusulat bilang Е, gaya sa nakalimbag na krusigrama."
+        ]
+      },
+      {
+        "title": "Paggalaw",
+        "paragraphs": [
+          "Ang mga arrow key ay gumagalaw sa pagitan ng mga kahon; ang arrow na pahalang sa kasalukuyang direksiyon ay unang pinipihit ang cursor. Ang Enter ay tumalon sa susunod na pahiwatig, ang Shift+Enter sa nauna.",
+          "Ang Backspace ay nagbubura ng titik at umaatras. Ang Home at End ay tumalon sa simula at dulo ng salita. Ang Tab ay umaalis sa parilya."
+        ]
+      },
+      {
+        "title": "Tulong",
+        "paragraphs": [
+          "Ang pagsuri ay may guhit sa maling titik at ikinakandado ang tama. Ang pagbubunyag ay pinupunan ang isang titik, isang salita o ang buong palaisipan; may maliit na lilang watawat ang nabunyag na titik.",
+          "I-on ang “Suriin habang nagta-type” sa mga setting kung gusto mo ng agarang sagot."
+        ]
+      },
+      {
+        "title": "Bagong salita, sa bawat beses",
+        "paragraphs": [
+          "Natatandaan ng aparato ang mga salitang ipinakita nito at hindi na ito hinihingi ulit. Ang bawat bagong palaisipan ay gawa sa mga salitang hindi mo pa natatagpo rito."
+        ]
+      }
     ]
   },
   "Faq": {
     "title": "Mga tanong at sagot",
     "subtitle": "Lahat tungkol sa Krusigrama AI sa isang lugar: ang mga palaisipan, kung paano isinusulat ng AI, ang paglalaro sa anumang aparato, at ang pribasiya mo.",
     "groups": [
-      { "title": "Tungkol sa Krusigrama AI", "items": [
-        { "question": "Ano ang Krusigrama AI?", "answer": "Ang Krusigrama AI ay libreng website na gumagawa ng krusigrama at skanword sa tatlumpu't tatlong wika. Isang modelo ang sumusulat ng salita at pahiwatig mismo sa bawat wika, ang code ang bumubuo ng parilya, at ang bawat aparato ay nakakakuha lang ng salitang hindi pa nito nakikita." },
-        { "question": "Libre ba talaga ang Krusigrama AI?", "answer": "Oo. Libre ang bawat krusigrama at skanword — walang account, walang rehistrasyon, walang subscription at walang ad." },
-        { "question": "Kailangan ko ba ng account?", "answer": "Hindi. Walang dapat lagyan ng rehistrasyon. Ang progreso, ang mga setting at ang listahan ng mga salitang nakita mo na ay nasa browser, sa aparato mo." },
-        { "question": "Sino ang gumagawa ng Krusigrama AI?", "answer": "Malayang proyekto ito ng developer na si Michael Navasardyan: mga palaisipang parang isinulat ng lokal na may-akda, sa bawat wikang iniaalok ng site — kabilang ang Armenian, Ruso at Ingles." }
-      ] },
-      { "title": "Ang mga palaisipan", "items": [
-        { "question": "Ano ang pagkakaiba ng krusigrama at skanword?", "answer": "Ang krusigrama ay may numerong pahiwatig sa tabi ng parilya, pahalang at patayo. Ang skanword ay inilalagay ang bawat pahiwatig sa loob ng kahon, na may palaso kung saan pupunta ang sagot — ang anyong puno ang mga magasing palaisipan sa Rusya at Armenia." },
-        { "question": "Gaano kalaki ang mga palaisipan?", "answer": "May tatlong laki. Ang klasikong krusigrama ay pumupuno ng parilyang 9×9, 13×13 o 15×15 na may mga 8–14, 16–24 o 22–34 na salita, tapos pinuputol sa mga salitang laman nito. Ang skanword ay gumagamit ng parilyang 8×10, 10×13 o 13×17 — mas mataas kaysa lapad, dahil karamihan ay nilulutas sa telepono." },
-        { "question": "Paano nagkakaiba ang mga antas?", "answer": "Ang madali ay gumagamit ng pang-araw-araw na salita na may tuwirang kahulugan. Ang katamtaman ay kumukuha sa mas malawak na talasalitaan. Ang mahirap ay nagdadala ng mas bihirang salita at pahiwatig na kailangan pag-isipan." },
-        { "question": "Anong mga paksa ang puwede kong piliin?", "answer": "Labindalawa: pang-araw-araw na salita, kalikasan, hayop, pagkain at inumin, heograpiya, kasaysayan, agham, isports, sining, tahanan, hanapbuhay at lokal na kultura — o haluin lahat sa isang palaisipan." },
-        { "question": "Makikita ko ba ang parehong salita nang dalawang beses?", "answer": "Hindi sa parehong aparato. Natatandaan nito ang hanggang 4,000 salita kada wika — mga 130 palaisipan — at iniiwan ang mga iyon sa bawat bago; saka lang nahuhulog ang pinakaluma. Ang pagbura ng data ng site ay nagsisimula ulit ng listahan." },
-        { "question": "Paano sumusulat ang AI ng mga pahiwatig?", "answer": "Ang modelong Gemini ng Google ay sumusulat ng salita at pahiwatig mismo sa bawat wika, ayon sa gabay ng mga katutubong nagsasalita. Sinusuri ng code ang bawat isa — tamang alpabeto, isang totoong salita, patas na pahiwatig na hindi nagbubunyag ng sagot — at isang pangalawang AI ang nagsisilbing editor. Ang nabibigo ay itinatapon, hindi tinatakpan. Ang parilya ay ginagawa ng code, hindi ng AI." },
-        { "question": "Paano kung mali ang pahiwatig?", "answer": "Buksan ang menu na ⋯ sa itaas ng parilya at piliin ang “Iulat ang pahiwatig”. Kapag tatlong magkakaibang manlalaro ang nag-ulat ng parehong pahiwatig, aalisin ito at hindi na lilitaw." }
-      ] },
-      { "title": "Paglalaro", "items": [
-        { "question": "Paano mag-type ng sagot sa telepono at sa computer?", "answer": "Sa computer, mag-type lang: kahit Ingles ang keyboard, ang mga key ay nagta-type ng mga titik ng palaisipan sa karaniwan nilang puwesto, kaya walang layout na papalitan. Sa telepono o tablet, lilitaw ang sariling keyboard ng palaisipan sa ilalim ng parilya, at hindi ito natatakpan ng keyboard ng sistema." },
-        { "question": "Puwede ko bang suriin ang sagot o humingi ng tulong?", "answer": "Oo. Minamarkahan ng Suriin ang maling titik sa isang kahon, isang salita o sa buong palaisipan, at pinupunan ng Ibunyag ang isang titik, isang salita o lahat. I-on ang “Suriin habang nagta-type” para makita ang mali sa sandaling gawin mo ito." },
-        { "question": "Paano hinahawakan ang Armenian na ու at և, at ang Rusong Ё?", "answer": "Sa mga palaisipang Armenian, ang ու at և ay iisang titik at pinupuno ng bawat isa ang isang kahon, gaya sa nakalimbag na krusigramang Armenian. Nasa keyboard sa iskrin ang dalawa, at kapag nag-type ka ng ո tapos ւ, nagiging ու. Sa mga palaisipang Ruso, ang Ё ay isinusulat bilang Е, gaya sa nakalimbag." },
-        { "question": "Nase-save ba ang progreso ko?", "answer": "Oo, nang kusa, habang naglalaro ka. Ang bawat krusigrama o skanword na sinimulan mo at iniwang hindi tapos ay nasa “Mga palaisipan ko”, kasama ang mga titik, kaya puwede mong ipagpatuloy mamaya — kahit offline." },
-        { "question": "Puwede bang maglaro nang offline, o i-install ito bilang app?", "answer": "Oo. Nai-install ang Krusigrama AI mula sa browser na parang app (sa iPhone: Share → Add to Home Screen). Nase-save ang bawat palaisipang binubuksan mo kasama ang progreso at gumagana nang walang koneksiyon; ang mga bago lang ang kailangan ng internet." },
-        { "question": "Puwede ko bang ibahagi ang palaisipan sa kaibigan?", "answer": "Oo. I-tap ang Share sa itaas ng parilya para kopyahin ang kawing, o ipadala ito sa WhatsApp, Telegram, Facebook, X, VK o email. Makukuha ng kaibigan ang eksaktong parehong parilya at pahiwatig." },
-        { "question": "Puwede bang maglaro gamit ang keyboard o screen reader?", "answer": "Oo. Ganap na gumagana ang parilya mula sa keyboard at sa screen reader: may label ang bawat kahon, binabasa ang aktibong pahiwatig, at binabasa ang mga pagsusuri at pagbubunyag. Ang maling titik at ang nabunyag ay minamarkahan ng hugis, hindi ng kulay lang." }
-      ] },
-      { "title": "Pribasiya", "items": [
-        { "question": "Anong datos ang itinatago ninyo?", "answer": "Napakakaunti. Ang mga palaisipan, progreso, setting at listahan ng nakitang salita ay nananatili sa browser. Itinatago ng server ang mga palaisipang nagawa, para mabuksan ng ibinahaging kawing ang parehong parilya, ang mga ulat na may one-way na hash ng IP address, at anonymous na bilang ng paglutas. Walang pangalan at walang profile." },
-        { "question": "May ipinapadala ba tungkol sa akin sa AI?", "answer": "Wala. Ang mga setting lang ng palaisipan — wika, paksa, antas — at mga listahan ng salita ang napupunta sa mga modelong Gemini ng Google, hindi kailanman ang anumang tungkol sa iyo." }
-      ] }
+      {
+        "title": "Tungkol sa Krusigrama AI",
+        "items": [
+          {
+            "question": "Ano ang Krusigrama AI?",
+            "answer": "Ang Krusigrama AI ay isang website na gumagawa ng mga crossword at scanword sa tatlumpu't tatlong wika. Isang AI model ang sumusulat ng mga salita at clue nang native sa bawat wika, code ang gumagawa ng grid, at bawat device ay nakakakuha lamang ng mga salitang hindi pa nito nakikita."
+          },
+          {
+            "question": "Libre ba ang Krusigrama AI?",
+            "answer": "Bahagya. Libre ang una mong puzzle bawat buwan kahit walang sign-up, at ang pag-sign in ay nagdaragdag ng pangalawang libreng puzzle bawat buwan. Higit pa roon, ang mga puzzle ay binabayaran ng credits: bibili ka ng pack nang minsan lang — walang subscription, hindi napapanis ang credits, at walang ads. Libre palaging laruin ang puzzle na ibinahagi sa iyo ng iba."
+          },
+          {
+            "question": "Kailangan ko ba ng account?",
+            "answer": "Hindi para sa libre mong puzzle sa buwan: ang iyong progress, mga setting, at mga salitang nakita mo na ay itinataas sa iyong browser. Ang pagkakaroon ng account ay nagdaragdag ng pangalawang libreng puzzle bawat buwan at nagpapahintulot sa iyong bumili at mag-imbak ng credits."
+          },
+          {
+            "question": "Magkano ang halaga ng isang puzzle?",
+            "answer": "Ang maliit na puzzle ay nagkakahalaga ng 5 credits, ang katamtaman ay 10, at ang malaki ay 15; ang medium na hirap ay nagdaragdag ng 1 credit at ang hard ay 2. Ang credits ay mabibili sa mga pack na 200 para sa $4.99, 600 para sa $11.99, at 2,000 para sa $29.99. Ipinapakita sa checkout ang presyo sa iyong pera, kasama ang buwis kung naaangkop."
+          },
+          {
+            "question": "Sino ang gumawa ng Krusigrama AI?",
+            "answer": "Ito ay isang independiyenteng proyekto ng developer na si Michael Navasardyan: mga puzzle na parang isinulat ng isang lokal na may-akda sa bawat wikang inaalok ng site — kabilang ang Armenian, Russian, at Ingles."
+          }
+        ]
+      },
+      {
+        "title": "Ang mga puzzle",
+        "items": [
+          {
+            "question": "Ano ang pagkakaiba ng crossword at scanword?",
+            "answer": "Ang crossword ay naglilista ng may numerong clues sa tabi ng grid, Pahalang (Across) at Pababa (Down). Ang scanword naman ay naglilimbag ng bawat clue sa loob mismo ng cell ng grid, na may arrow na nakaturo sa pupuntahan ng sagot — ang format na karaniwan sa mga puzzle magazine sa Russia at Armenia."
+          },
+          {
+            "question": "Gaano kalaki ang mga puzzle?",
+            "answer": "May tatlong laki. Ang klasikong crossword ay pumupuno sa 9×9, 13×13, o 15×15 na grid na may humigit-kumulang 8–14, 16–24, o 22–34 na salita, tsaka ito iki-crop batay sa mga salitang kasama. Ang scanword ay gumagamit ng 8×10, 10×13, o 13×17 na grid — mas matangkad kaysa malapad, dahil karamihan ay nilalaro sa telepono."
+          },
+          {
+            "question": "Paano nagkakaiba ang mga antas ng hirap?",
+            "answer": "Ang Easy ay gumagamit ng mga pang-araw-araw na salita na may direktang kahulugan. Ang Medium ay gumagamit ng mas malawak na bokabularyo. Ang Hard ay nagdadala ng mas madalang na salita at mga clue na magpapaisip sa iyo nang dalawang beses."
+          },
+          {
+            "question": "Anong mga paksa ang pwede kong piliin?",
+            "answer": "Labindalawa: pang-araw-araw na salita, kalikasan, mga hayop, pagkain at inumin, heograpiya, kasaysayan, agham, isports, sining, tahanan at pamumuhay, mga propesyon, at lokal na kultura — o paghaluin ang lahat sa isang puzzle."
+          },
+          {
+            "question": "Makakakita pa ba ako ng parehong salita nang dalawang beses?",
+            "answer": "Hindi sa parehong device. Natatandaan nito ang hanggang 4,000 salita bawat wika — humigit-kumulang 130 puzzle ang katumbas — at hindi na isinasama ang mga ito sa mga bagong puzzle; kapag napuno na, tsaka pa lang matatanggal sa listahan ang pinakamatatanda. Ang pag-clear ng site data sa browser mo ay magre-reset ng listahan."
+          },
+          {
+            "question": "Paano isinusulat ng AI ang mga clue?",
+            "answer": "Ang Gemini model ng Google ang sumusulat ng mga salita at clue nang direkta sa bawat wika, kasunod ng style guide mula sa mga native speaker. Pagkatapos ay sinusuri ng code ang bawat isa — tamang alpabeto, totoong salita, patas na clue na hindi agad nagbibigay ng sagot — at isang pangalawang AI pass ang nagsisilbing editor. Anumang pumalya ay itinatapon at hindi na inaayos. Ang mismong grid ay ginawa ng code, hindi ng AI."
+          },
+          {
+            "question": "Paano kung mali ang isang clue?",
+            "answer": "Buksan ang menu na ⋯ sa itaas ng grid at piliin ang “Mag-report ng clue”. Kapag tatlong magkakaibang manlalaro ang nag-report ng parehong clue, ititigil na ito at hindi na muling lalabas."
+          }
+        ]
+      },
+      {
+        "title": "Paglalaro",
+        "items": [
+          {
+            "question": "Paano ako magttype ng sagot sa telepono o kompyuter?",
+            "answer": "Sa kompyuter, mag-type lang: kahit nakaset sa Ingles ang keyboard mo, ang mga key ay nagttype ng tamang titik ng puzzle sa karaniwang pwesto ng mga ito, kaya walang layout na kailangang palitan. Sa telepono o tablet, ang sariling keyboard ng puzzle ay lalabas sa ibaba ng grid, at hindi ito kailanman matatakpan ng keyboard ng sistema."
+          },
+          {
+            "question": "Pwede ko bang suriin ang aking sagot o humingi ng hint?",
+            "answer": "Oo. Ang Check ay nagmamarka ng maling titik sa isang cell, isang salita, o sa buong puzzle, at ang Reveal naman ay naglalagay ng titik, salita, o ng lahat. I-on ang “I-check habang nagttype” sa mga setting upang makita agad ang mga pagkakamali kapag ginawa mo ang mga ito."
+          },
+          {
+            "question": "Paano pinangangasiwaan ang Armenian na ու at և, at Russian na Ё?",
+            "answer": "Sa mga Armenian puzzle, ang ու at և ay iisang titik at bawat isa ay pumupuno sa isang cell, tulad sa mga nakalimbag na Armenian crossword; ang on-screen keyboard ay may parehong titik, at ang pag-type ng ո at pagkatapos ay ւ ay nag-uugnay sa kanila bilang ու. Sa mga Russian puzzle, ang Ё ay isinusulat bilang Е, tulad sa mga nakalimbag na crossword."
+          },
+          {
+            "question": "Nai-save ba ang progress ko?",
+            "answer": "Oo, awtomatiko habang naglalaro ka. Bawat crossword o scanword na sinimulan mo at iniwang hindi tapos ay nakalista sa ilalim ng “Aking mga puzzle”, kasama ang mga na-type mong titik, kaya maaari mong ipagpatuloy ang alinman sa kanila kahit kailan — kahit offline."
+          },
+          {
+            "question": "Pwede ko ba itong laruin offline, o i-install bilang app?",
+            "answer": "Oo. Ang Krusigrama AI ay maaaring i-install mula sa iyong browser tulad ng isang app (sa iPhone: Ibahagi → Idagdag sa Home Screen). Bawat puzzle na bubuksan mo ay nai-save kasama ang iyong progress at patuloy na gagana nang walang koneksyon; ang mga bagong puzzle lamang ang nangangailangan ng internet."
+          },
+          {
+            "question": "Pwede ko bang ibahagi ang puzzle sa isang kaibigan?",
+            "answer": "Oo. I-tap ang Ibahagi sa itaas ng grid upang kopyahin ang link, o isend ito sa WhatsApp, Telegram, Facebook, X, VK, o email. Makukuha ng kaibigan mo ang eksaktong parehong grid at mga clue."
+          },
+          {
+            "question": "Pwede ba akong maglaro gamit ang keyboard o screen reader?",
+            "answer": "Oo. Ang grid ay kumpletong gumagana gamit ang keyboard at mga screen reader: bawat cell ay may label, inaanunsyo ang aktibong clue, at binabasa ang mga check at reveal. Ang mga mali at na-reveal na titik ay minamarkahan sa hugis, hindi sa kulay lamang."
+          }
+        ]
+      },
+      {
+        "title": "Data at Privacy",
+        "items": [
+          {
+            "question": "Anong data ang itinatago ninyo?",
+            "answer": "Kakaunti lang. Ang iyong mga puzzle, progress, setting, at listahan ng nakitang salita ay nananatili sa iyong browser. Ang server ay nag-iimbak ng mga puzzle na ginawa (upang ang ibinahaging link ay magbukas ng parehong grid), mga report ng clue na may one-way hash ng IP address, at anonimong bilang ng pagtatapos. Walang mga pangalan at walang mga profile."
+          },
+          {
+            "question": "Mayroon bang anumang impormasyon tungkol sa akin na ipinapadala sa AI?",
+            "answer": "Wala. Ang mga setting lang ng puzzle — wika, paksa, hirap — at mga listahan ng salita ang ipinapadala sa mga Gemini model ng Google, at kailanman ay walang anumang tungkol sa iyo."
+          }
+        ]
+      }
     ],
     "ctaTitle": "Handa na sa bagong palaisipan?",
     "ctaText": "Pumili ng paksa at antas — ilang segundo na lang ang susunod na parilya.",
@@ -454,29 +643,152 @@
     "title": "Tungkol sa Krusigrama AI",
     "subtitle": "Libreng generator ng palaisipan na sumusulat sa iyong wika at hindi naghahain ng parehong salita nang dalawang beses.",
     "sections": [
-      { "title": "Bakit namin ginawa", "paragraphs": ["Karamihan ng krusigrama online ay inuulit ang maliit na listahan ng salita, at ang isinalin ay tunog salin. Gusto namin ng palaisipang parang isinulat ng lokal na may-akda — at nananatiling bago kahit ilan pa ang lutasin mo."] },
-      { "title": "Paano isinusulat ang mga salita", "paragraphs": ["Isang modelo ang sumusulat ng salita at pahiwatig mismo sa bawat wika, ayon sa gabay ng mga katutubong nagsasalita: ang mga anyong ginagamit ng krusigrama, ang tamang baybay, at kung paano binubuo ang pahiwatig sa tradisyon ng wikang iyon.", "Dumadaan ang bawat salita sa awtomatikong pagsusuri — tamang alpabeto, isang totoong salita, pahiwatig na hindi nagbubunyag ng sagot — at isang pangalawang modelo ang editor. Inaalis ang anumang inuulat ng mga manlalaro."] },
-      { "title": "Paano binubuo ang mga parilya", "paragraphs": ["Ang parilya mismo ay ginagawa ng code, hindi ng AI: pinagkakabit ng isang algorithm ang mga salita nang sa gayon ang bawat titik ay kabilang sa totoong salitang may pahiwatig. Iyan ang nagpapanatiling patas ng bawat palaisipan."] }
+      {
+        "title": "Bakit namin ginawa",
+        "paragraphs": [
+          "Karamihan ng krusigrama online ay inuulit ang maliit na listahan ng salita, at ang isinalin ay tunog salin. Gusto namin ng palaisipang parang isinulat ng lokal na may-akda — at nananatiling bago kahit ilan pa ang lutasin mo."
+        ]
+      },
+      {
+        "title": "Paano isinusulat ang mga salita",
+        "paragraphs": [
+          "Isang modelo ang sumusulat ng salita at pahiwatig mismo sa bawat wika, ayon sa gabay ng mga katutubong nagsasalita: ang mga anyong ginagamit ng krusigrama, ang tamang baybay, at kung paano binubuo ang pahiwatig sa tradisyon ng wikang iyon.",
+          "Dumadaan ang bawat salita sa awtomatikong pagsusuri — tamang alpabeto, isang totoong salita, pahiwatig na hindi nagbubunyag ng sagot — at isang pangalawang modelo ang editor. Inaalis ang anumang inuulat ng mga manlalaro."
+        ]
+      },
+      {
+        "title": "Paano binubuo ang mga parilya",
+        "paragraphs": [
+          "Ang parilya mismo ay ginagawa ng code, hindi ng AI: pinagkakabit ng isang algorithm ang mga salita nang sa gayon ang bawat titik ay kabilang sa totoong salitang may pahiwatig. Iyan ang nagpapanatiling patas ng bawat palaisipan."
+        ]
+      }
     ]
   },
   "Privacy": {
     "title": "Patakaran sa pribasiya",
-    "subtitle": "Maikli: walang account, walang pangalan, walang profiling. Narito ang lahat ng itinatago namin.",
+    "subtitle": "Maikling bersyon: mag-account lang kung gusto mo, walang profiling. Narito ang lahat ng iniiimbak namin.",
     "sections": [
-      { "title": "Sa aparato mo", "paragraphs": ["Itinatago ng browser ang mga palaisipang binubuksan mo, ang progreso, ang mga setting at ang listahan ng mga salitang nakita mo na, para hindi maulit. Nanatili ito sa aparato mo; nawawala ito kapag binura mo ang data ng site."] },
-      { "title": "Sa server namin", "paragraphs": ["Itinatago namin ang mga palaisipang nagawa, para mabuksan ng ibinahaging kawing ang parehong parilya. Kapag nag-ulat ka ng pahiwatig, itinatago namin ang ulat na may one-way na hash ng IP address mo, para lang hindi mag-isa makapag-alis ng pahiwatig ang isang tao. Binibilang din namin nang anonymous kung paano nilalaro ang mga palaisipan (nalutas, aling mga salita ang nabunyag) para ayusin ang antas."] },
-      { "title": "Tagapagbigay ng AI", "paragraphs": ["Ang mga bagong salita at pahiwatig ay isinusulat ng mga modelong Gemini ng Google. Ang mga setting lang ng palaisipan (wika, paksa, antas) at mga listahan ng salita ang ipinapadala — hindi kailanman ang anumang tungkol sa iyo."] },
-      { "title": "Analytics at mga ulat ng error", "paragraphs": ["Kung naka-on, ginagamit namin ang Google Analytics para bilangin ang page view at ang Sentry para tumanggap ng ulat ng error. Hindi ginagamit ang alinman para kilalanin ka."] }
+      {
+        "title": "Sa iyong device",
+        "paragraphs": [
+          "Iniiimbak ng iyong browser ang mga puzzle na binubuksan mo, ang iyong progress, mga setting, at ang listahan ng mga salitang nakita mo na, upang hindi na sila maulit. Nananatili ito sa iyong device; ang pag-clear ng site data ay nag-aalis nito."
+        ]
+      },
+      {
+        "title": "Sa aming server",
+        "paragraphs": [
+          "Iniiimbak namin ang mga ginagawang puzzle upang ang ibinahaging link ay magbukas ng parehong grid. Kapag nag-report ka ng clue, itinatakda namin ang report kasama ang one-way hash ng iyong IP address, upang hindi basta mabura ng isang tao ang clue nang mag-isa. Nagbibilang din kami nang anonymous sa kung paano nilalaro ang mga puzzle (kung na-solve, aling mga salita ang na-reveal) upang i-adjust ang antas ng hirap.",
+          "Upang bigyan ang bawat device ng libreng puzzle bawat buwan, ang site ay naglalagay ng cookie na may random identifier. Sa bawat libreng puzzle, itinatago namin ang identifier na iyon at ang one-way hash ng iyong IP address."
+        ]
+      },
+      {
+        "title": "Mga account at credits",
+        "paragraphs": [
+          "Kung gagawa ka ng account, itinatago namin ang iyong pangalan, email address, at kapag nag-sign in ka gamit ang Google, ang larawan ng iyong Google profile. Itinatago rin namin ang balance ng iyong credit at ang kasaysayan nito: bawat pagbili, bawat puzzle na binayaran, at bawat refund."
+        ]
+      },
+      {
+        "title": "Mga Pagbabayad",
+        "paragraphs": [
+          "Ang mga pagbabayad ay pinoproseso ng Paddle.com, ang aming Merchant of Record. Kinokolekta ng Paddle ang iyong mga detalye sa pagbabayad at bansa para sa billing sa ilalim ng sarili nitong privacy policy; hindi namin kailanman nakikita ang numero ng iyong card. Mula sa Paddle, natatanggap namin ang halaga, pera, buwis, at uri ng paraan ng pagbabayad sa bawat pagbili."
+        ]
+      },
+      {
+        "title": "Provider ng AI",
+        "paragraphs": [
+          "Ang mga bagong salita at clue ay isinusulat ng mga Gemini model ng Google. Ang mga setting lang ng puzzle (wika, paksa, hirap) at listahan ng mga salita ang ipinapadala — kailanman ay walang kasamang impormasyon tungkol sa iyo."
+        ]
+      },
+      {
+        "title": "Analytics at mga report ng error",
+        "paragraphs": [
+          "Kapag naka-enable, gumagamit kami ng Google Analytics upang magbilang ng mga page view at Sentry upang makatanggap ng mga report ng error. Wala sa dalawang ito ang ginagamit upang kilalanin ka."
+        ]
+      }
     ]
   },
   "Terms": {
     "title": "Mga tuntunin sa paggamit",
-    "subtitle": "Libre ang Krusigrama AI, para sa kasiyahan at pagkatuto.",
+    "subtitle": "Ang Krusigrama AI ay para sa kasiyahan at pag-aaral. Sakop ng mga tuntuning ito ang paglalaro at pagbili ng credits.",
     "sections": [
-      { "title": "Paggamit ng serbisyo", "paragraphs": ["Puwede mong laruin, ibahagi at i-print ang mga palaisipan para sa personal at pang-edukasyong gamit. Huwag po sanang pahirapan ang serbisyo ng awtomatikong request."] },
-      { "title": "Tekstong isinulat ng AI", "paragraphs": ["Ang mga salita at pahiwatig ay isinusulat ng AI at awtomatikong sinusuri, ngunit puwedeng magkaroon ng mali. Kapag may nahanap ka, iulat ito — ganoon naaalis ang masamang pahiwatig."] },
-      { "title": "Walang garantiya", "paragraphs": ["Ang serbisyo ay ibinibigay nang ganito, walang garantiya ng availability o katumpakan. Puwede naming baguhin o itigil ang mga feature anumang oras."] }
+      {
+        "title": "Paggamit ng serbisyo",
+        "paragraphs": [
+          "Maaari mong laruin, ibahagi, at i-print ang mga puzzle para sa personal at edukasyonal na paggamit. Pakiusap na huwag i-overload ang serbisyo gamit ang mga automated request."
+        ]
+      },
+      {
+        "title": "Mga libreng puzzle at credits",
+        "paragraphs": [
+          "Ang bawat device ay nakakakuha ng isang libreng puzzle bawat buwan sa kalendaryo, at ang bawat account ay nakakakuha ng isa pa. Ang iba pang puzzle ay binabayaran ng credits, sa presyong ipinapakita bago ka gumawa; ang puzzle ay sinisingil lamang kapag ito ay nagawa na, at ang pagbubukas ng nai-save na puzzle ay libre.",
+          "Ang credits ay binibili sa mga pack sa pamamagitan ng isang beses na pagbabayad — walang subscription — at hindi sila kailanman napapanis. Wala silang cash value at hindi pwedeng i-transfer."
+        ]
+      },
+      {
+        "title": "Mga Pagbabayad",
+        "paragraphs": [
+          "Ang aming proseso ng pag-order ay pinapatakbo ng aming online reseller na Paddle.com. Ang Paddle.com ang Merchant of Record para sa lahat ng aming order. Ang Paddle ang nagbibigay ng lahat ng serbisyo sa customer at nag-aasikaso ng mga pagbabalik."
+        ]
+      },
+      {
+        "title": "Mga Refund",
+        "paragraphs": [
+          "Maaari kang humiling ng refund para sa credit pack sa loob ng 14 araw mula sa pagbili nito, sa pamamagitan ng Paddle o sa pagsulat sa amin. Ang refund ay nag-aalis ng credits ng pack mula sa iyong balance. Ang mga credit na nagamit na ay hindi na mababawi, kaya ang pack na bahagyang nagamit na ay maaaring i-refund nang bahagya lamang."
+        ]
+      },
+      {
+        "title": "Nilalaman na isinulat ng AI",
+        "paragraphs": [
+          "Ang mga salita at clue ay isinusulat ng AI at awtomatikong sinusuri, ngunit maaaring magkaroon ng mga pagkakamali. Kung makakita ka ng isa, i-report ito — dyan natatanggal ang mga maling clue."
+        ]
+      },
+      {
+        "title": "Walang warranty",
+        "paragraphs": [
+          "Ang serbisyo ay ibinibigay nang \"as is\", nang walang garantiya ng availability o kawastuhan. Maaari naming baguhin o itigil ang mga feature anumang oras."
+        ]
+      }
     ]
+  },
+  "Credits": {
+    "title": "Credits",
+    "subtitle": "One free puzzle every month. After that, pay only for the puzzles you make — no subscription, and credits never expire.",
+    "balanceTitle": "Your balance",
+    "freeAvailable": "Your free puzzle of this month is waiting.",
+    "freeUsed": "This month's free puzzle is used. The next one comes on {date}.",
+    "guestTitle": "Get more free puzzles",
+    "guestText": "Sign in to get a free puzzle every month on your account, and to buy credits.",
+    "pricesTitle": "What a puzzle costs",
+    "pricesText": "In credits, by size and difficulty. Opening a puzzle someone shared with you, or one from your history, is always free.",
+    "size": "Size",
+    "packsTitle": "Credit packs",
+    "packs": {
+      "starter": "Starter",
+      "popular": "Popular",
+      "big": "Big"
+    },
+    "popularBadge": "Most popular",
+    "bestValueBadge": "Best value",
+    "packPuzzles": "About {count} medium puzzles",
+    "buy": "Buy",
+    "signInToBuy": "Sign in to buy",
+    "shopClosed": "Buying credits isn't available right now. Please check back soon.",
+    "checkoutFailed": "We couldn't open the checkout. Please try again.",
+    "paddleNote": "Payments are processed by Paddle.com, our reseller and Merchant of Record. Prices include VAT or sales tax where it applies; the final price in your currency is shown at checkout.",
+    "refundsNote": "Refunds are covered in the terms of use."
+  },
+  "Payments": {
+    "checkoutTitle": "Checkout",
+    "opening": "Opening the secure checkout…",
+    "checkoutUnavailable": "The checkout couldn't open. Please try again from the credits page.",
+    "backToCredits": "Back to credits",
+    "verifying": "Confirming your payment…",
+    "successTitle": "Thank you!",
+    "successText": "{count, plural, one {# credit was} other {# credits were}} added to your balance.",
+    "pendingText": "Your payment went through. The credits will appear on your balance within a few minutes.",
+    "failedText": "The payment didn't go through, so nothing was charged. You can try again.",
+    "verifyError": "We couldn't confirm the payment right now. If you were charged, the credits will still arrive — check your balance in a few minutes.",
+    "makePuzzle": "Make a puzzle"
   },
   "Contact": {
     "title": "Sulatan kami",

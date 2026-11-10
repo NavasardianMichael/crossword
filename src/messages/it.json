@@ -22,6 +22,7 @@
     "scanword": "Schema svedese",
     "topics": "Temi",
     "history": "I miei schemi",
+    "credits": "Crediti",
     "rules": "Come si gioca",
     "faq": "Domande",
     "about": "Chi siamo",
@@ -66,6 +67,9 @@
     "topicDescription": "Cruciverba e schemi svedesi gratis su {topic}, generati dall’IA. {description}",
     "historyTitle": "I miei schemi",
     "historyDescription": "Cruciverba e schemi svedesi iniziati su questo dispositivo e non ancora finiti, con i progressi salvati.",
+    "creditsTitle": "Crediti e prezzi",
+    "creditsDescription": "Un cruciverba gratis ogni mese, poi pacchetti di crediti senza abbonamento: quanto costa ogni puzzle e come acquistare i crediti.",
+    "paymentTitle": "Pagamento",
     "rulesTitle": "Come si gioca a cruciverba e schemi svedesi",
     "rulesDescription": "Come risolvere un cruciverba o uno schema svedese qui: scrivere, spostarsi nella griglia, controllare e rivelare le lettere, e le scorciatoie da tastiera.",
     "faqTitle": "Domande: cruciverba con IA, lingue e privacy",
@@ -73,7 +77,7 @@
     "aboutTitle": "Chi siamo — come nascono i cruciverba con l’IA",
     "aboutDescription": "Perché abbiamo fatto un generatore di cruciverba gratis che non ripete mai una parola, e come l’IA scrive le definizioni in ogni lingua.",
     "privacyTitle": "Informativa sulla privacy",
-    "privacyDescription": "Che cosa conserva Cruciverba IA, dove e perché: niente account, niente tracciamento di chi sei.",
+    "privacyDescription": "Cosa memorizza Cruciverba IA, dove e perché — account e pagamenti inclusi, e nessun tracciamento della tua identità.",
     "termsTitle": "Condizioni d’uso",
     "termsDescription": "Le condizioni semplici per usare Cruciverba IA.",
     "contactTitle": "Scrivici",
@@ -168,12 +172,25 @@
     "creating": "Stiamo componendo lo schema…",
     "creatingHint": "Scegliamo parole che non hai ancora visto. Quelle nuove possono richiedere qualche secondo.",
     "cancel": "Annulla",
-    "freshHint": "Gratis, senza registrazione. Ogni schema porta parole che qui non hai ancora incontrato.",
+    "freshHint": "Ogni puzzle propone parole che non hai mai visto qui prima.",
     "exhausted": "Hai già giocato tutte le parole che abbiamo per questa scelta! Ne stiamo scrivendo di nuove: prova un altro tema, oppure torna tra un minuto."
+  },
+  "Billing": {
+    "credits": "{count, plural, one {# credito} other {# crediti}}",
+    "balance": "Il tuo saldo: {count, plural, one {# credito} other {# crediti}}",
+    "cost": "Questo puzzle: {count, plural, one {# credito} other {# crediti}}",
+    "freeNow": "Questo è gratis — è il tuo puzzle gratuito del mese.",
+    "youHave": "Hai {count, plural, one {# credito} other {# crediti}}.",
+    "notEnough": "Crediti insufficienti per questo puzzle.",
+    "guestUsed": "Hai usato il puzzle gratis di questo mese. Accedi per averne un altro gratis ogni mese e per acquistare crediti.",
+    "refusedSignIn": "Il puzzle gratis di questo mese è stato usato. Accedi per ottenerne un altro e per acquistare crediti.",
+    "refusedCredits": "Crediti insufficienti per questo puzzle. Ricarica per continuare a giocare.",
+    "signIn": "Accedi",
+    "buyCredits": "Acquista crediti"
   },
   "Home": {
     "hero": {
-      "eyebrow": "Gratis · Senza registrazione · Funziona offline",
+      "eyebrow": "Provalo gratis · Nessun abbonamento · Funziona offline",
       "title": "Cruciverba <mark>sempre nuovi</mark>",
       "subtitle": "Scegli un tema e una difficoltà: l’IA scrive le definizioni nella tua lingua e la stessa parola non torna due volte.",
       "lede": "Crea un cruciverba italiano gratis online, senza registrarti. I temi vanno da animali, cibo e geografia a storia, scienza, sport, arte, casa, mestieri e cultura — oppure mescolali tutti."
@@ -203,8 +220,8 @@
     "topicsTitle": "Scegli un tema",
     "topicsSubtitle": "Dagli uccelli del giardino ai fiumi famosi — o mescola tutto.",
     "faqTitle": "Domande e risposte",
-    "faq1Question": "Cruciverba IA è davvero gratis?",
-    "faq1Answer": "Sì. Ogni cruciverba e ogni schema svedese è gratis, senza account, senza registrazione e senza limiti a quanti ne risolvi.",
+    "faq1Question": "Cruciverba IA è gratuito?",
+    "faq1Answer": "Il tuo primo puzzle ogni mese è gratis, senza registrazione, e accedendo ne aggiungi un altro. Dopodiché, i puzzle costano crediti, che si acquistano una tantum senza abbonamento. Giocare a un puzzle condiviso da qualcuno è sempre gratis.",
     "faq2Question": "Rivedrò le stesse parole?",
     "faq2Answer": "No. Il dispositivo tiene l’elenco delle parole già mostrate e le lascia fuori da ogni schema nuovo. Se cancelli i dati del sito nel browser, l’elenco ricomincia.",
     "faq3Question": "In quali lingue si può giocare?",
@@ -514,89 +531,93 @@
     "subtitle": "Tutto su Cruciverba IA in un solo posto: gli schemi, come li scrive l’IA, il gioco su ogni dispositivo e la tua privacy.",
     "groups": [
       {
-        "title": "Su Cruciverba IA",
+        "title": "Info su Cruciverba IA",
         "items": [
           {
-            "question": "Che cos’è Cruciverba IA?",
-            "answer": "Cruciverba IA è un sito gratis che genera cruciverba e schemi svedesi in trentatré lingue. Un modello di IA scrive parole e definizioni in ogni lingua, il codice costruisce la griglia e ogni dispositivo riceve solo parole che non ha già visto."
+            "question": "Cos'è Cruciverba IA?",
+            "answer": "Cruciverba IA è un sito web che genera cruciverba e scansionati in trentatré lingue. Un modello di IA scrive le parole e le definizioni in modo naturale in ciascuna lingua, un codice genera la griglia e ogni dispositivo riceve solo parole che non ha mai visto prima."
           },
           {
-            "question": "Cruciverba IA è davvero gratis?",
-            "answer": "Sì. Ogni cruciverba e ogni schema svedese è gratis: niente account, niente registrazione, niente abbonamento e niente pubblicità."
+            "question": "Cruciverba IA è gratuito?",
+            "answer": "In parte. Il tuo primo puzzle ogni mese è gratuito, senza registrazione, e accedendo ne sblocchi un secondo gratis al mese. Oltre a questo, i puzzle si pagano con i crediti: acquisti un pacchetto una volta sola — non c'è abbonamento, i crediti non scadono mai e non c'è pubblicità. Giocare a un puzzle condiviso da qualcun altro è sempre gratuito."
           },
           {
-            "question": "Serve un account?",
-            "answer": "No. Non c’è nulla da registrare. I progressi, le impostazioni e l’elenco delle parole già viste restano nel browser, sul tuo dispositivo."
+            "question": "Ho bisogno di un account?",
+            "answer": "Non per il tuo puzzle gratis del mese: i tuoi progressi, le impostazioni e le parole che hai già visto sono salvati nel tuo browser. Un account aggiunge un secondo puzzle gratis ogni mese e ti permette di acquistare e conservare i crediti."
           },
           {
-            "question": "Chi fa Cruciverba IA?",
-            "answer": "È un progetto indipendente dello sviluppatore Michael Navasardyan: schemi che sembrano scritti da un autore locale, in ogni lingua del sito — tra cui armeno, russo e inglese."
+            "question": "Quanto costa un puzzle?",
+            "answer": "Un puzzle piccolo costa 5 crediti, uno medio 10 e uno grande 15; la difficoltà media aggiunge 1 credito e quella difficile 2. I crediti sono venduti in pacchetti da 200 a 4,99 €, 600 a 11,99 € e 2.000 a 29,99 €. Il pagamento mostra il prezzo nella tua valuta, tasse incluse dove applicabili."
+          },
+          {
+            "question": "Chi c'è dietro a Cruciverba IA?",
+            "answer": "È un progetto indipendente dello sviluppatore Michael Navasardyan: puzzle creati come se fossero stati scritti da un autore madrelingua, per tutte le lingue offerte dal sito — tra cui armeno, russo e inglese."
           }
         ]
       },
       {
-        "title": "Gli schemi",
+        "title": "I puzzle",
         "items": [
           {
-            "question": "Che differenza c’è tra cruciverba e schema svedese?",
-            "answer": "Il cruciverba elenca le definizioni numerate accanto alla griglia, in orizzontale e in verticale. Lo schema svedese stampa ogni definizione in una casella, con una freccia che indica dove va la soluzione: il formato di cui sono piene le riviste di enigmistica."
+            "question": "Qual è la differenza tra un cruciverba e uno scansionato?",
+            "answer": "Un cruciverba elenca definizioni numerate accanto alla griglia, Orizzontali e Verticali. Uno scansionato stampa ogni definizione all'interno di una casella della griglia, con una freccia che indica dove va la risposta — il formato classico di cui sono piene le riviste di enigmistica."
           },
           {
-            "question": "Quanto sono grandi gli schemi?",
-            "answer": "Ci sono tre misure. Un cruciverba classico riempie una griglia 9×9, 13×13 o 15×15 con circa 8–14, 16–24 o 22–34 parole, poi viene ritagliato sulle parole che contiene. Uno schema svedese usa una griglia 8×10, 10×13 o 13×17, più alta che larga, perché quasi tutti si risolvono sul telefono."
+            "question": "Quanto sono grandi i puzzle?",
+            "answer": "Ci sono tre dimensioni. Un cruciverba classico riempie una griglia 9×9, 13×13 o 15×15 con circa 8–14, 16–24 o 22–34 parole, poi viene ritagliato sulle parole che contiene. Uno scansionato usa una griglia 8×10, 10×13 o 13×17 — più alta che larga, perché la maggior parte viene risolta su smartphone."
           },
           {
-            "question": "Come cambiano i livelli di difficoltà?",
-            "answer": "Facile usa parole di tutti i giorni con definizioni dirette. Medio attinge a un vocabolario più ampio. Difficile porta parole più rare e definizioni che fanno pensare due volte."
+            "question": "In cosa differiscono i livelli di difficoltà?",
+            "answer": "Facile usa parole di tutti i giorni con definizioni dirette. Medio attinge a un vocabolario più ampio. Difficile propone parole più rare e definizioni che ti fanno riflettere."
           },
           {
-            "question": "Quali temi posso scegliere?",
-            "answer": "Dodici: parole di tutti i giorni, natura, animali, cibo e bevande, geografia, storia, scienza, sport, arte, casa e quotidiano, mestieri e cultura locale — oppure mescolarli tutti in un solo schema."
+            "question": "Quali argomenti posso scegliere?",
+            "answer": "Dodici: parole di tutti i giorni, natura, animali, cibo e bevande, geografia, storia, scienza, sport, arte, casa e vita quotidiana, professioni e cultura locale — oppure puoi mescolarli tutti in un solo puzzle."
           },
           {
-            "question": "Vedrò mai due volte la stessa parola?",
-            "answer": "Non sullo stesso dispositivo. Ricorda fino a 4.000 parole per lingua — circa 130 schemi — e le lascia fuori da ogni schema nuovo; solo dopo cadono dall’elenco le più vecchie. Cancellare i dati del sito nel browser fa ricominciare l’elenco."
+            "question": "Rivedrò mai la stessa parola due volte?",
+            "answer": "Non sullo stesso dispositivo. Memorizza fino a 4.000 parole per lingua — circa 130 puzzle — ed evita di ripeterle in ogni nuovo puzzle; solo dopo questo limite le più vecchie vengono rimosse dall'elenco. Cancellare i dati del sito dal browser azzera la lista."
           },
           {
-            "question": "Come scrive le definizioni l’IA?",
-            "answer": "Il modello Gemini di Google scrive parole e definizioni direttamente in ogni lingua, seguendo una guida di stile di parlanti nativi. Il codice poi controlla ciascuna: l’alfabeto giusto, una parola vera, una definizione onesta che non rivela la soluzione. Un secondo passaggio di IA fa da redattore. Ciò che non passa viene scartato, mai rattoppato. La griglia la costruisce il codice, non l’IA."
+            "question": "Come fa l'IA a scrivere le definizioni?",
+            "answer": "Il modello Gemini di Google scrive parole e definizioni direttamente in ciascuna lingua, seguendo le linee guida di autori madrelingua. Un codice controlla poi ogni elemento — l'alfabeto corretto, una parola reale, una definizione corretta che non sveli la risposta — e un secondo passaggio di IA fa da revisore. Tutto ciò che non passa viene scartato, mai corretto a metà. La griglia vera e propria è generata dal codice, non dall'IA."
           },
           {
             "question": "E se una definizione è sbagliata?",
-            "answer": "Apri il menu ⋯ sopra la griglia e scegli «Segnala una definizione». Quando tre giocatori diversi segnalano la stessa, viene ritirata e non compare più."
+            "answer": "Apri il menu ⋯ sopra la griglia e scegli \"Segnala una definizione\". Quando tre giocatori diversi segnalano la stessa definizione, questa viene ritirata e non apparirà mai più."
           }
         ]
       },
       {
-        "title": "Giocare",
+        "title": "Come si gioca",
         "items": [
           {
-            "question": "Come si scrivono le soluzioni sul telefono o al computer?",
-            "answer": "Al computer basta digitare: anche se la tastiera è in inglese, i tasti scrivono le lettere dello schema al loro posto abituale, senza cambiare layout. Sul telefono o sul tablet compare la tastiera dello schema sotto la griglia, e quella di sistema non la copre."
+            "question": "Come digito le risposte da telefono o computer?",
+            "answer": "Su computer basta digitare: anche se la tastiera è impostata su un'altra lingua, i tasti scriveranno le lettere del puzzle al posto giusto. Su smartphone o tablet, la tastiera del puzzle appare sotto la griglia e quella del sistema non la coprirà mai."
           },
           {
-            "question": "Posso controllare le soluzioni o avere un aiuto?",
-            "answer": "Sì. Controlla segna le lettere sbagliate in una casella, in una parola o in tutto lo schema, e Rivela riempie una lettera, una parola o tutto. Attiva «Controlla mentre scrivo» nelle impostazioni per vedere gli errori nel momento in cui li fai."
+            "question": "Posso controllare le risposte o chiedere un aiuto?",
+            "answer": "Sì. \"Verifica\" evidenzia le lettere sbagliate in una casella, in una parola o nell'intero puzzle, mentre \"Rivelatore\" inserisce una lettera, una parola o tutto il cruciverba. Attiva \"Verifica mentre digito\" nelle impostazioni per vedere gli errori al momento."
           },
           {
-            "question": "Come si trattano le armeni ու e և, e la Ё russa?",
-            "answer": "Nei cruciverba armeni ու e և sono lettere singole e ciascuna occupa una casella, come sulla carta; la tastiera a schermo le ha entrambe, e scrivere ո e poi ւ le unisce in ու. Nei cruciverba russi Ё si scrive Е, come sulla carta."
+            "question": "Come vengono gestite le lettere speciali come ու e և in armeno, o Ё in russo?",
+            "answer": "Nei puzzle armeni ու e և sono lettere singole e occupano una sola casella, come nei cruciverba stampati in armeno; la tastiera a schermo le ha entrambe, e digitando ո e poi ւ le unisce in ու. Nei puzzle russi la Ё è scritta come Е, proprio come sui giornali."
           },
           {
-            "question": "I progressi vengono salvati?",
-            "answer": "Sì, da soli, mentre giochi. Ogni cruciverba o schema svedese che inizi e lasci a metà compare in «I miei schemi», con le lettere salvate, così puoi riprenderlo dopo — anche offline."
+            "question": "I miei progressi vengono salvati?",
+            "answer": "Sì, automaticamente mentre giochi. Ogni cruciverba o scansionato iniziato e lasciato incompleto è elencato in \"I miei puzzle\", con le tue lettere salvate, così puoi riprenderlo in qualsiasi momento — anche offline."
           },
           {
-            "question": "Si può giocare offline, o installarlo come app?",
-            "answer": "Sì. Cruciverba IA si installa dal browser come un’app (su iPhone: Condividi → Aggiungi a Home). Ogni schema che apri viene salvato con i progressi e continua a funzionare senza connessione; solo gli schemi nuovi hanno bisogno di internet."
+            "question": "Posso giocare offline o installarla come app?",
+            "answer": "Sì. Cruciverba IA si installa dal browser come un'app (su iPhone: Condividi → Aggiungi alla schermata Home). Ogni puzzle che apri viene salvato insieme ai tuoi progressi e continua a funzionare senza connessione; solo per i nuovi puzzle serve internet."
           },
           {
-            "question": "Posso condividere uno schema con un amico?",
-            "answer": "Sì. Tocca Condividi sopra la griglia per copiare il link, oppure invialo con WhatsApp, Telegram, Facebook, X, VK o e-mail. Il tuo amico riceve esattamente la stessa griglia e le stesse definizioni."
+            "question": "Posso condividere un puzzle con un amico?",
+            "answer": "Sì. Tocca Condividi sopra la griglia per copiare il link, oppure invialo tramite WhatsApp, Telegram, Facebook, X, VK o email. Il tuo amico riceverà esattamente la stessa griglia e le stesse definizioni."
           },
           {
-            "question": "Si può giocare con la tastiera o un lettore di schermo?",
-            "answer": "Sì. La griglia funziona tutta da tastiera e con i lettori di schermo: ogni casella ha un’etichetta, la definizione attiva viene annunciata, e controlli e rivelazioni vengono letti. Le lettere sbagliate e quelle rivelate si distinguono dalla forma, non solo dal colore."
+            "question": "Posso giocare con una tastiera o uno screen reader?",
+            "answer": "Sì. La griglia è completamente accessibile da tastiera e con gli screen reader: ogni casella è etichettata, la definizione attiva viene annunciata e le verifiche o i suggerimenti vengono letti ad alta voce. Le lettere errate e quelle rivelate sono distinte dalla forma, mai solo dal colore."
           }
         ]
       },
@@ -605,11 +626,11 @@
         "items": [
           {
             "question": "Quali dati conservate?",
-            "answer": "Pochissimi. Schemi, progressi, impostazioni e l’elenco delle parole viste restano nel browser. Il server conserva gli schemi creati (così un link condiviso apre la stessa griglia), le segnalazioni delle definizioni con un’impronta irreversibile dell’indirizzo IP e conteggi anonimi delle soluzioni. Niente nomi e niente profili."
+            "answer": "Pochissimi. I tuoi puzzle, i progressi, le impostazioni e l'elenco delle parole viste rimangono nel tuo browser. Il server memorizza i puzzle creati (così un link condiviso apre la stessa griglia), le segnalazioni di definizioni con un hash unidirezionale dell'indirizzo IP e il numero di risoluzioni anonime. Nessun nome e nessun profilo."
           },
           {
-            "question": "All’IA arriva qualcosa su di me?",
-            "answer": "No. Ai modelli Gemini di Google vanno solo le impostazioni dello schema — lingua, tema, difficoltà — e gli elenchi di parole, mai nulla su di te."
+            "question": "Viene inviato qualcosa su di me all'IA?",
+            "answer": "No. Ai modelli Gemini di Google vengono inviate solo le impostazioni del puzzle — lingua, argomento, difficoltà — e gli elenchi di parole, mai i tuoi dati personali."
           }
         ]
       }
@@ -645,57 +666,129 @@
   },
   "Privacy": {
     "title": "Informativa sulla privacy",
-    "subtitle": "In breve: niente account, niente nomi, niente profili. Ecco tutto ciò che conserviamo.",
+    "subtitle": "In breve: un account solo se lo desideri, nessuna profilazione. Ecco tutto quello che conserviamo.",
     "sections": [
       {
         "title": "Sul tuo dispositivo",
         "paragraphs": [
-          "Il browser conserva gli schemi che apri, i progressi, le impostazioni e l’elenco delle parole già viste, così non si ripetono. Resta sul dispositivo; cancellare i dati del sito lo rimuove."
+          "Il tuo browser memorizza i puzzle che apri, i tuoi progressi, le impostazioni e un elenco di parole già viste, per evitare che si ripetano. Questi dati restano sul tuo dispositivo; cancellare i dati del sito li rimuoverà."
         ]
       },
       {
         "title": "Sul nostro server",
         "paragraphs": [
-          "Conserviamo gli schemi creati, così un link condiviso apre la stessa griglia. Quando segnali una definizione teniamo la segnalazione con un’impronta irreversibile del tuo indirizzo IP, solo perché una persona sola non possa ritirare una definizione. Contiamo anche, in modo anonimo, come si gioca (risolto, quali parole sono state rivelate) per regolare la difficoltà."
+          "Memorizziamo i puzzle creati, in modo che un link condiviso apra la stessa griglia. Quando segnali una definizione, conserviamo la segnalazione con un hash unidirezionale del tuo indirizzo IP, solo per evitare che una singola persona elimini una definizione da sola. Contiamo anche in modo anonimo come vengono giocati i puzzle (risolti, quali parole sono state svelate) per calibrare la difficoltà.",
+          "Per offrire a ciascun dispositivo il suo puzzle gratuito del mese, il sito imposta un cookie contenente un identificatore casuale. Per ogni puzzle gratis, conserviamo tale identificatore e un hash unidirezionale del tuo indirizzo IP."
+        ]
+      },
+      {
+        "title": "Account e crediti",
+        "paragraphs": [
+          "Se crei un account, conserviamo il tuo nome, l'indirizzo email e, quando accedi con Google, la foto del tuo profilo Google. Conserviamo anche il saldo dei tuoi crediti e la relativa cronologia: ogni acquisto, ogni puzzle pagato e ogni rimborso."
+        ]
+      },
+      {
+        "title": "Pagamenti",
+        "paragraphs": [
+          "I pagamenti sono gestiti da Paddle.com, il nostro Merchant of Record. Paddle raccoglie i dettagli del tuo pagamento e il paese di fatturazione in base alla propria informativa sulla privacy; noi non vediamo mai il numero della tua carta. Da Paddle riceviamo l'importo, la valuta, le tasse e il tipo di metodo di pagamento di ciascun acquisto."
         ]
       },
       {
         "title": "Fornitore di IA",
         "paragraphs": [
-          "Le parole e le definizioni nuove le scrivono i modelli Gemini di Google. Vengono inviate solo le impostazioni dello schema (lingua, tema, difficoltà) e gli elenchi di parole: mai nulla su di te."
+          "Le nuove parole e definizioni sono scritte dai modelli Gemini di Google. Vengono inviate solo le impostazioni del puzzle (lingua, argomento, difficoltà) e gli elenchi di parole — mai dati personali."
         ]
       },
       {
-        "title": "Statistiche e segnalazioni di errori",
+        "title": "Analisi e report sugli errori",
         "paragraphs": [
-          "Se è attivo, usiamo Google Analytics per contare le pagine viste e Sentry per ricevere le segnalazioni di errori. Nessuno dei due serve a identificarti."
+          "Se abilitato, utilizziamo Google Analytics per contare le visualizzazioni di pagina e Sentry per ricevere report sugli errori. Nessuno dei due viene utilizzato per identificarti."
         ]
       }
     ]
   },
   "Terms": {
     "title": "Condizioni d’uso",
-    "subtitle": "Cruciverba IA è gratis, per il gusto di giocare e di imparare.",
+    "subtitle": "Cruciverba IA è fatto per divertirsi e imparare. Questi termini regolano l'uso del gioco e l'acquisto dei crediti.",
     "sections": [
       {
         "title": "Uso del servizio",
         "paragraphs": [
-          "Puoi giocare, condividere e stampare gli schemi per uso personale e didattico. Ti chiediamo di non sovraccaricare il servizio con richieste automatiche."
+          "Puoi giocare, condividere e stampare i puzzle per uso personale ed educativo. Ti chiediamo solo di non sovraccaricare il servizio con richieste automatizzate."
         ]
       },
       {
-        "title": "Contenuti scritti dall’IA",
+        "title": "Puzzle gratuiti e crediti",
         "paragraphs": [
-          "Parole e definizioni sono scritte dall’IA e controllate in automatico, ma gli errori possono capitare. Se ne trovi uno, segnalalo: è così che le definizioni sbagliate vengono tolte."
+          "Ogni dispositivo riceve un puzzle gratuito ogni mese solare, e ogni account uno in più. Gli altri puzzle si pagano con i crediti, al prezzo mostrato prima della creazione; un puzzle viene addebitato solo quando viene generato, mentre aprire un puzzle salvato è sempre gratuito.",
+          "I crediti si acquistano in pacchetti con un unico pagamento — non c'è abbonamento — e non scadono mai. Non hanno valore monetario e non possono essere trasferiti."
+        ]
+      },
+      {
+        "title": "Pagamenti",
+        "paragraphs": [
+          "Il nostro processo d'ordine è gestito dal nostro rivenditore online Paddle.com. Paddle.com è il Merchant of Record per tutti i nostri ordini. Paddle fornisce l'assistenza clienti e gestisce i resi."
+        ]
+      },
+      {
+        "title": "Rimborsi",
+        "paragraphs": [
+          "Puoi richiedere il rimborso di un pacchetto di crediti entro 14 giorni dall'acquisto, tramite Paddle o scrivendoci direttamente. Il rimborso detrae i crediti del pacchetto dal tuo saldo. I crediti già spesi non possono essere restituiti, quindi un pacchetto parzialmente utilizzato potrà essere rimborsato solo in parte."
+        ]
+      },
+      {
+        "title": "Contenuti generati dall'IA",
+        "paragraphs": [
+          "Le parole e le definizioni sono scritte dall'IA e verificate automaticamente, ma possono verificarsi imprecisioni. Se trovi un errore, segnalalo: è così che rimuoviamo le definizioni errate."
         ]
       },
       {
         "title": "Nessuna garanzia",
         "paragraphs": [
-          "Il servizio è offerto così com’è, senza garanzie di disponibilità o di esattezza. Possiamo modificare o ritirare funzioni in qualsiasi momento."
+          "Il servizio è fornito \"così com'è\", senza garanzie di disponibilità o accuratezza. Possiamo modificare o interrompere funzionalità in qualsiasi momento."
         ]
       }
     ]
+  },
+  "Credits": {
+    "title": "Crediti",
+    "subtitle": "Un puzzle gratis ogni mese. Dopodiché, paghi solo per i puzzle che crei — nessun abbonamento e i crediti non scadono mai.",
+    "balanceTitle": "Il tuo saldo",
+    "freeAvailable": "Il tuo puzzle gratuito di questo mese ti sta aspettando.",
+    "freeUsed": "Il puzzle gratis di questo mese è stato usato. Il prossimo sarà disponibile il {date}.",
+    "guestTitle": "Ottieni altri puzzle gratis",
+    "guestText": "Accedi per ricevere un puzzle gratis ogni mese sul tuo account e per acquistare crediti.",
+    "pricesTitle": "Quanto costa un puzzle",
+    "pricesText": "In crediti, in base a dimensioni e difficoltà. Aprire un puzzle condiviso da qualcuno o presente nella tua cronologia è sempre gratuito.",
+    "size": "Dimensione",
+    "packsTitle": "Pacchetti di crediti",
+    "packs": {
+      "starter": "Base",
+      "popular": "Popolare",
+      "big": "Scorta"
+    },
+    "popularBadge": "Il più scelto",
+    "bestValueBadge": "Miglior valore",
+    "packPuzzles": "Circa {count} puzzle medi",
+    "buy": "Acquista",
+    "signInToBuy": "Accedi per acquistare",
+    "shopClosed": "L'acquisto di crediti non è al momento disponibile. Riprova a breve.",
+    "checkoutFailed": "Impossibile aprire la pagina di pagamento. Riprova.",
+    "paddleNote": "I pagamenti sono gestiti da Paddle.com, il nostro rivenditore e Merchant of Record. I prezzi includono l'IVA o le tasse sulle vendite ove applicabili; il prezzo finale nella tua valuta è mostrato al momento del pagamento.",
+    "refundsNote": "I rimborsi sono regolati nei termini di utilizzo."
+  },
+  "Payments": {
+    "checkoutTitle": "Cassa",
+    "opening": "Apertura della cassa sicura…",
+    "checkoutUnavailable": "Impossibile aprire la cassa. Riprova dalla pagina dei crediti.",
+    "backToCredits": "Torna ai crediti",
+    "verifying": "Conferma del pagamento in corso…",
+    "successTitle": "Grazie!",
+    "successText": "{count, plural, one {# credito è stato aggiunto} other {# crediti sono stati aggiunti}} al tuo saldo.",
+    "pendingText": "Il pagamento è andato a buon fine. I crediti appariranno sul tuo saldo entro pochi minuti.",
+    "failedText": "Il pagamento non è andato a buon fine, quindi non è stato addebitato nulla. Puoi riprovare.",
+    "verifyError": "Non siamo riusciti a confermare il pagamento in questo momento. Se ti è stato addebitato l'importo, i crediti arriveranno comunque — controlla il tuo saldo tra qualche minuto.",
+    "makePuzzle": "Crea un puzzle"
   },
   "Contact": {
     "title": "Scrivici",

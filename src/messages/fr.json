@@ -22,6 +22,7 @@
     "scanword": "Mots fléchés",
     "topics": "Thèmes",
     "history": "Mes grilles",
+    "credits": "Crédits",
     "rules": "Comment jouer",
     "faq": "Questions",
     "about": "À propos",
@@ -66,6 +67,9 @@
     "topicDescription": "Mots croisés et mots fléchés gratuits sur {topic}, créés par une intelligence artificielle. {description}",
     "historyTitle": "Mes grilles",
     "historyDescription": "Mots croisés et mots fléchés commencés sur cet appareil et pas encore finis, avec votre avancement enregistré.",
+    "creditsTitle": "Crédits et tarifs",
+    "creditsDescription": "Un mot croisé gratuit chaque mois, puis des recharges de crédits sans abonnement : découvrez le coût de chaque grille et comment acheter des crédits.",
+    "paymentTitle": "Paiement",
     "rulesTitle": "Comment résoudre des mots croisés et des mots fléchés",
     "rulesDescription": "Comment résoudre des mots croisés ou des mots fléchés ici : saisie, déplacement dans la grille, vérification et révélation des lettres, raccourcis clavier.",
     "faqTitle": "Questions fréquentes : mots croisés avec IA, langues et vie privée",
@@ -73,7 +77,7 @@
     "aboutTitle": "À propos : comment nos mots croisés sont écrits",
     "aboutDescription": "Pourquoi nous avons fait un générateur de mots croisés gratuit qui ne répète jamais un mot, et comment l'intelligence artificielle écrit les définitions dans chaque langue.",
     "privacyTitle": "Politique de confidentialité",
-    "privacyDescription": "Ce que Mots croisés IA conserve, où et pourquoi. Pas de compte, pas de pistage de qui vous êtes.",
+    "privacyDescription": "Ce que Mots croisés IA conserve, où et pourquoi — comptes et paiements inclus, sans aucun suivi de votre identité.",
     "termsTitle": "Conditions d'utilisation",
     "termsDescription": "Les conditions simples pour utiliser Mots croisés IA.",
     "contactTitle": "Nous écrire",
@@ -168,12 +172,25 @@
     "creating": "Votre grille se construit…",
     "creatingHint": "Nous choisissons des mots que vous n'avez pas encore vus. Les nouveaux peuvent prendre quelques secondes.",
     "cancel": "Annuler",
-    "freshHint": "Gratuit, sans inscription. Chaque grille apporte des mots que vous n'avez pas encore croisés ici.",
+    "freshHint": "Chaque grille apporte de nouveaux mots que vous n'avez pas encore croisés ici.",
     "exhausted": "Vous avez déjà joué tous les mots que nous avons pour ce choix ! Nous en écrivons d'autres : essayez un autre thème, ou revenez dans une minute."
+  },
+  "Billing": {
+    "credits": "{count, plural, one {# crédit} other {# crédits}}",
+    "balance": "Votre solde : {count, plural, one {# crédit} other {# crédits}}",
+    "cost": "Cette grille : {count, plural, one {# crédit} other {# crédits}}",
+    "freeNow": "Celle-ci est gratuite — c'est votre grille offerte du mois.",
+    "youHave": "Vous avez {count, plural, one {# crédit} other {# crédits}}.",
+    "notEnough": "Pas assez de crédits pour cette grille.",
+    "guestUsed": "Vous avez utilisé votre grille gratuite du mois. Connectez-vous pour en obtenir une de plus chaque mois et pour acheter des crédits.",
+    "refusedSignIn": "La grille gratuite de ce mois a été utilisée. Connectez-vous pour en débloquer une autre et acheter des crédits.",
+    "refusedCredits": "Crédits insuffisants pour cette grille. Rechargez votre solde pour continuer à jouer.",
+    "signIn": "Se connecter",
+    "buyCredits": "Acheter des crédits"
   },
   "Home": {
     "hero": {
-      "eyebrow": "Gratuit · Sans inscription · Marche hors ligne",
+      "eyebrow": "Essai gratuit · Sans abonnement · Fonctionne hors ligne",
       "title": "Faire des mots croisés <mark>toujours nouveaux</mark> : animaux, nourriture, géographie, histoire, sciences et sport",
       "subtitle": "Choisissez un thème et une difficulté : l'intelligence artificielle écrit les définitions dans votre langue, et le même mot ne revient pas deux fois.",
       "lede": "Faites des mots croisés ou des mots fléchés en ligne, gratuits et sans inscription. Les thèmes vont des animaux, de la nourriture et de la géographie à l'histoire, aux sciences, au sport, aux arts, à la maison, aux métiers et à la culture francophone, ou mélangez-les tous."
@@ -203,8 +220,8 @@
     "topicsTitle": "Choisissez un thème",
     "topicsSubtitle": "Des oiseaux du jardin aux grands fleuves, ou mélangez tous les thèmes.",
     "faqTitle": "Questions et réponses",
-    "faq1Question": "Mots croisés IA est-il vraiment gratuit ?",
-    "faq1Answer": "Oui. Chaque grille de mots croisés et chaque grille de mots fléchés se joue gratuitement, sans compte, sans inscription et sans limite du nombre de parties.",
+    "faq1Question": "Est-ce que Mots croisés IA est gratuit ?",
+    "faq1Answer": "Votre première grille de chaque mois est gratuite, sans inscription, et vous en obtenez une deuxième en vous connectant. Ensuite, les grilles coûtent des crédits, achetés à l'unité sans abonnement. Jouer à une grille partagée par un ami est toujours gratuit.",
     "faq2Question": "Vais-je revoir les mêmes mots ?",
     "faq2Answer": "Non. Votre appareil garde la liste des mots déjà montrés et les laisse de côté dans chaque nouvelle grille. Si vous effacez les données du site dans le navigateur, la liste repart de zéro.",
     "faq3Question": "Dans quelles langues puis-je jouer ?",
@@ -519,19 +536,23 @@
         "items": [
           {
             "question": "Qu'est-ce que Mots croisés IA ?",
-            "answer": "Mots croisés IA est un site gratuit qui génère des mots croisés et des mots fléchés en trente-trois langues. Un modèle d'intelligence artificielle écrit les mots et les définitions dans chaque langue, le code construit la grille, et chaque appareil ne reçoit que des mots qu'il n'a pas encore vus."
+            "answer": "Mots croisés IA est un site qui génère des mots croisés et des mots fléchés dans trente-trois langues. Un modèle d'IA rédige les mots et les définitions de manière native dans chaque langue, le code génère la grille, et chaque appareil ne reçoit que des mots qu'il n'a encore jamais vus."
           },
           {
-            "question": "Est-ce vraiment gratuit ?",
-            "answer": "Oui. Chaque grille se joue gratuitement : pas de compte, pas d'inscription, pas d'abonnement et pas de publicité."
+            "question": "Est-ce que Mots croisés IA est gratuit ?",
+            "answer": "En partie. Votre première grille chaque mois est gratuite, sans inscription, et vous en débloquez une deuxième en vous connectant. Au-delà, les grilles sont payées avec des crédits : vous achetez une recharge à l'unité — sans abonnement, les crédits n'expirent jamais et il n'y a pas de publicité. Jouer à une grille qu'on a partagée avec vous est toujours gratuit."
           },
           {
-            "question": "Faut-il un compte ?",
-            "answer": "Non. Il n'y a rien à créer. Votre avancement, vos réglages et la liste des mots déjà vus restent dans le navigateur, sur votre appareil."
+            "question": "Faut-il créer un compte ?",
+            "answer": "Pas pour votre grille gratuite du mois : votre progression, vos réglages et les mots déjà vus sont conservés dans votre navigateur. Un compte vous donne accès à une deuxième grille gratuite chaque mois et vous permet d'acheter et de conserver des crédits."
           },
           {
-            "question": "Qui fait Mots croisés IA ?",
-            "answer": "C'est un projet indépendant du développeur Michael Navasardyan : des grilles qui se lisent comme si un auteur local les avait écrites, dans chaque langue du site, dont l'arménien, le russe et l'anglais."
+            "question": "Combien coûte une grille ?",
+            "answer": "Une petite grille coûte 5 crédits, une moyenne 10 et une grande 15 ; la difficulté moyenne ajoute 1 crédit et la difficulté difficile ajoute 2 crédits. Les crédits s'achètent en packs de 200 pour 4,99 $, 600 pour 11,99 $ et 2 000 pour 29,99 $. La caisse affiche le prix dans votre devise, taxes comprises le cas échéant."
+          },
+          {
+            "question": "Qui a créé Mots croisés IA ?",
+            "answer": "C'est un projet indépendant développé par Michael Navasardyan : des grilles rédigées comme si un auteur local les avait créées, dans toutes les langues proposées par le site — notamment l'arménien, le russe et l'anglais."
           }
         ]
       },
@@ -539,65 +560,65 @@
         "title": "Les grilles",
         "items": [
           {
-            "question": "Quelle est la différence entre des mots croisés et des mots fléchés ?",
-            "answer": "Les mots croisés listent des définitions numérotées à côté de la grille, en horizontal et en vertical. Les mots fléchés impriment chaque définition dans une case, avec une flèche vers la réponse : le format né des mots croisés scandinaves."
+            "question": "Quelle est la différence entre mots croisés et mots fléchés ?",
+            "answer": "Les mots croisés affichent une liste de définitions numérotées à côté de la grille (Horizontale et Verticale). Les mots fléchés intègrent chaque définition directement dans une case de la grille, avec une flèche pointant vers la réponse — le format très populaire dans les magazines de jeux en Russie et en Arménie."
           },
           {
-            "question": "Quelle taille font les grilles ?",
-            "answer": "Il y a trois tailles. Des mots croisés classiques remplissent une grille de 9×9, 13×13 ou 15×15 avec environ 8–14, 16–24 ou 22–34 mots, puis la grille est rognée à ce qu'elle contient. Des mots fléchés utilisent 8×10, 10×13 ou 13×17 : plus hauts que larges, parce que la plupart se résolvent sur téléphone."
+            "question": "Quelles sont les tailles de grilles disponibles ?",
+            "answer": "Il y a trois tailles. Un mot croisé classique utilise une grille de 9×9, 13×13 ou 15×15 avec environ 8–14, 16–24 ou 22–34 mots, puis est ajusté aux mots qu'il contient. Un mot fléché utilise une grille de 8×10, 10×13 ou 13×17 — plus haute que large, idéale pour jouer sur téléphone."
           },
           {
-            "question": "Comment les niveaux se distinguent-ils ?",
-            "answer": "Facile utilise des mots du quotidien avec des définitions directes. Moyen ouvre un vocabulaire plus large. Difficile apporte des mots plus rares et des définitions qui demandent un second regard."
+            "question": "Comment fonctionnent les niveaux de difficulté ?",
+            "answer": "Le niveau Facile utilise des mots du quotidien avec des définitions directes. Le niveau Moyen fait appel à un vocabulaire plus large. Le niveau Difficile propose des mots plus rares et des définitions qui font réfléchir à deux fois."
           },
           {
             "question": "Quels thèmes puis-je choisir ?",
-            "answer": "Douze : mots du quotidien, nature, animaux, cuisine, géographie, histoire, sciences, sport, arts, maison et quotidien, métiers et culture francophone. Vous pouvez aussi tout mélanger."
+            "answer": "Douze thèmes : mots du quotidien, nature, animaux, cuisine et boissons, géographie, histoire, sciences, sport, arts, maison et vie courante, métiers et culture locale — ou un mélange de tout dans une même grille."
           },
           {
-            "question": "Verrai-je un jour le même mot deux fois ?",
-            "answer": "Pas sur le même appareil. Il retient jusqu'à 4000 mots par langue, environ 130 grilles, et les laisse de côté dans chaque nouvelle grille ; ensuite seulement, les plus anciens quittent la liste. Effacer les données du site remet la liste à zéro."
+            "question": "Revendrai-je un jour le même mot ?",
+            "answer": "Pas sur le même appareil. Le système mémorise jusqu'à 4 000 mots par langue — soit environ 130 grilles — et les écarte de chaque nouvelle création ; ce n'est qu'après cela que les mots les plus anciens réapparaissent. Effacer les données de votre navigateur réinitialise la liste."
           },
           {
-            "question": "Comment l'intelligence artificielle écrit-elle les définitions ?",
-            "answer": "Le modèle Gemini de Google écrit les mots et les définitions directement dans chaque langue, en suivant un guide de style de locuteurs natifs. Le code vérifie chacune : le bon alphabet, un vrai mot, une définition juste qui ne donne pas la réponse. Une seconde passe d'intelligence artificielle joue l'éditeur. Ce qui échoue est écarté, jamais rafistolé. La grille elle-même est construite par le code, pas par l'intelligence artificielle."
+            "question": "Comment l'IA rédige-t-elle les définitions ?",
+            "answer": "Le modèle Gemini de Google génère les mots et les définitions directement dans chaque langue, en suivant un guide de style conçu par des locuteurs natifs. Le code vérifie ensuite chaque élément — bon alphabet, mot réel, définition équitable qui ne donne pas la réponse — et une seconde passe d'IA agit comme éditeur. Tout ce qui échoue est rejeté. La grille elle-même est construite par du code, pas par l'IA."
           },
           {
-            "question": "Et si une définition est fausse ?",
-            "answer": "Ouvrez le menu ⋯ au-dessus de la grille et choisissez « Signaler une définition ». Quand trois joueurs différents signalent la même, elle est retirée et ne revient plus."
+            "question": "Que faire si une définition est erronée ?",
+            "answer": "Ouvrez le menu ⋯ au-dessus de la grille et choisissez « Signaler une définition ». Dès que trois joueurs différents ont signalé la même définition, elle est retirée et n'apparaît plus jamais."
           }
         ]
       },
       {
-        "title": "Jouer",
+        "title": "Le jeu",
         "items": [
           {
-            "question": "Comment saisir les réponses sur téléphone ou ordinateur ?",
-            "answer": "Sur ordinateur, tapez : même si le clavier est en anglais, les touches écrivent les lettres de la grille à leur place habituelle, sans changer de disposition. Sur téléphone ou tablette, le clavier de la grille apparaît en dessous, et le clavier du système ne la recouvre pas."
+            "question": "Comment saisir les réponses sur ordinateur ou téléphone ?",
+            "answer": "Sur ordinateur, il suffit de taper : même si votre clavier est en anglais, les touches saisissent les lettres de la grille à leur emplacement habituel, pas besoin de changer de disposition. Sur téléphone ou tablette, le clavier intégré du jeu apparaît sous la grille sans jamais être masqué par le clavier système."
           },
           {
-            "question": "Puis-je vérifier mes réponses ou demander un indice ?",
-            "answer": "Oui. Vérifier marque les lettres fausses dans une case, un mot ou toute la grille, et Révéler remplit une lettre, un mot ou tout. Activez « Vérifier en tapant » dans les réglages pour voir l'erreur au moment où elle se produit."
+            "question": "Puis-je vérifier mes réponses ou obtenir un indice ?",
+            "answer": "Oui. « Vérifier » marque les erreurs dans une case, un mot ou toute la grille, et « Révéler » dévoile une lettre, un mot ou l'ensemble. Activez « Vérifier pendant la saisie » dans les réglages pour voir les erreurs instantanément."
           },
           {
-            "question": "Comment sont traités ու et և en arménien, et Ё en russe ?",
-            "answer": "Dans les grilles en arménien, ու et և sont des lettres uniques et chacune occupe une case, comme dans les mots croisés imprimés ; le clavier à l'écran a les deux, et taper ո puis ւ les réunit en ու. En russe, Ё s'écrit Е, comme à l'imprimé."
+            "question": "Comment sont gérées les lettres arméniennes ու et և, ainsi que le Ё russe ?",
+            "answer": "Dans les grilles en arménien, ու et և sont des lettres uniques et occupent chacune une seule case, comme dans la presse imprimée ; le clavier virtuel les inclut toutes les deux, et taper ո puis ւ les fusionne en ու. Dans les grilles en russe, le Ё s'écrit Е, comme dans les mots croisés imprimés."
           },
           {
-            "question": "Mon avancement est-il enregistré ?",
-            "answer": "Oui, tout seul, pendant que vous jouez. Chaque grille commencée et laissée en cours apparaît dans « Mes grilles », avec vos lettres, pour que vous puissiez reprendre plus tard, même hors ligne."
+            "question": "Ma progression est-elle sauvegardée ?",
+            "answer": "Oui, automatiquement au fil du jeu. Chaque grille commencée et laissée incomplète est listée sous « Mes grilles », avec vos lettres enregistrées pour que vous puissiez la reprendre plus tard — même hors ligne."
           },
           {
-            "question": "Puis-je jouer hors ligne, ou l'installer comme une application ?",
-            "answer": "Oui. Mots croisés IA s'installe depuis le navigateur comme une application (sur iPhone : Partager → Sur l'écran d'accueil). Chaque grille ouverte est enregistrée avec votre avancement et continue sans connexion ; seules les nouvelles ont besoin d'internet."
+            "question": "Puis-je jouer hors ligne ou installer l'application ?",
+            "answer": "Oui. Mots croisés IA s'installe depuis votre navigateur comme une application (sur iPhone : Partager → Sur l'écran d'accueil). Chaque grille ouverte est enregistrée avec votre progression et reste jouable sans connexion ; seul le chargement de nouvelles grilles nécessite Internet."
           },
           {
-            "question": "Puis-je partager une grille ?",
-            "answer": "Oui. Touchez Partager au-dessus de la grille pour copier le lien, ou envoyez-le par WhatsApp, Telegram, Facebook, X, VK ou e-mail. Votre ami reçoit exactement la même grille et les mêmes définitions."
+            "question": "Puis-je partager une grille avec un ami ?",
+            "answer": "Oui. Appuyez sur Partager au-dessus de la grille pour copier le lien, ou envoyez-le via WhatsApp, Telegram, Facebook, X, VK ou e-mail. Votre ami obtiendra exactement la même grille et les mêmes définitions."
           },
           {
-            "question": "Peut-on jouer au clavier ou avec un lecteur d'écran ?",
-            "answer": "Oui. La grille fonctionne entièrement au clavier et avec les lecteurs d'écran : chaque case est nommée, la définition active est annoncée, et les vérifications comme les révélations sont lues. Le faux et le révélé se marquent par une forme, jamais par la couleur seule."
+            "question": "Puis-je jouer au clavier ou avec un lecteur d'écran ?",
+            "answer": "Oui. La grille est entièrement accessible au clavier et aux lecteurs d'écran : chaque case est étiquetée, la définition active est énoncée, et les vérifications ou révélations sont lues à haute voix. Les lettres erronées ou révélées sont indiquées par des formes, jamais uniquement par la couleur."
           }
         ]
       },
@@ -606,11 +627,11 @@
         "items": [
           {
             "question": "Quelles données conservez-vous ?",
-            "answer": "Très peu. Vos grilles, l'avancement, les réglages et la liste des mots vus restent dans le navigateur. Le serveur conserve les grilles créées (pour qu'un lien partagé ouvre la même), les signalements de définition avec une empreinte irréversible de l'adresse IP, et des comptes anonymes de parties résolues. Pas de noms, pas de profils."
+            "answer": "Très peu. Vos grilles, votre progression, vos réglages et la liste des mots vus restent dans votre navigateur. Le serveur conserve les grilles créées (pour qu'un lien partagé ouvre la même grille), les signalements de définitions avec un hachage unidirectionnel de l'adresse IP, et des statistiques de résolution anonymes. Aucun nom ni profil."
           },
           {
-            "question": "Quelque chose sur moi est-il envoyé à l'intelligence artificielle ?",
-            "answer": "Non. Seuls les réglages de la grille (langue, thème, difficulté) et des listes de mots partent vers les modèles Gemini de Google, jamais rien sur vous."
+            "question": "Des informations me concernant sont-elles transmises à l'IA ?",
+            "answer": "Non. Seuls les paramètres de la grille — langue, thème, difficulté — et les listes de mots sont transmis aux modèles Gemini de Google, jamais d'informations personnelles."
           }
         ]
       }
@@ -646,57 +667,129 @@
   },
   "Privacy": {
     "title": "Politique de confidentialité",
-    "subtitle": "En bref : pas de compte, pas de noms, pas de profilage. Voici tout ce que nous gardons.",
+    "subtitle": "En résumé : un compte uniquement si vous le souhaitez, pas de profilage. Voici tout ce que nous conservons.",
     "sections": [
       {
         "title": "Sur votre appareil",
         "paragraphs": [
-          "Le navigateur garde les grilles que vous ouvrez, votre avancement, vos réglages et une liste des mots déjà vus, pour ne pas les répéter. Cela reste sur l'appareil ; effacer les données du site l'enlève."
+          "Votre navigateur stocke les grilles que vous ouvrez, votre progression, vos réglages et la liste des mots déjà vus afin qu'ils ne se répètent pas. Ces données restent sur votre appareil ; vider les données du site les efface."
         ]
       },
       {
         "title": "Sur notre serveur",
         "paragraphs": [
-          "Nous gardons les grilles créées, pour qu'un lien partagé ouvre la même. Quand vous signalez une définition, nous gardons le signalement avec une empreinte irréversible de votre adresse IP, seulement pour qu'une seule personne ne puisse pas retirer une définition. Nous comptons aussi, sans vous identifier, comment les grilles sont jouées (résolues, quels mots ont été révélés) afin d'ajuster la difficulté."
+          "Nous enregistrons les grilles créées afin qu'un lien partagé affiche toujours la même grille. Lorsque vous signalez une définition, nous conservons le signalement avec un hachage unidirectionnel de votre adresse IP pour éviter qu'une personne ne retire une définition seule. Nous comptons également de façon anonyme la façon dont les grilles sont jouées (résolues, mots révélés) pour ajuster la difficulté.",
+          "Pour attribuer à chaque appareil sa grille gratuite du mois, le site dépose un cookie contenant un identifiant aléatoire. À chaque grille gratuite générée, nous conservons cet identifiant et un hachage unidirectionnel de votre adresse IP."
         ]
       },
       {
-        "title": "Fournisseur d'intelligence artificielle",
+        "title": "Comptes et crédits",
         "paragraphs": [
-          "Les mots et définitions nouveaux sont écrits par les modèles Gemini de Google. Seuls les réglages de la grille (langue, thème, difficulté) et des listes de mots sont envoyés : jamais rien sur vous."
+          "Si vous créez un compte, nous conservons votre nom, votre adresse e-mail et, en cas de connexion via Google, votre photo de profil Google. Nous gardons aussi l'historique de vos crédits : chaque achat, chaque grille payée et chaque remboursement."
         ]
       },
       {
-        "title": "Mesure d'audience et rapports d'erreur",
+        "title": "Paiements",
         "paragraphs": [
-          "S'ils sont activés, nous utilisons Google Analytics pour compter les visites et Sentry pour recevoir les rapports d'erreur. Ni l'un ni l'autre ne sert à vous identifier."
+          "Les paiements sont traités par Paddle.com, notre revendeur officiel. Paddle collecte vos coordonnées de paiement et votre pays de facturation selon sa propre politique de confidentialité ; nous ne voyons jamais votre numéro de carte. Paddle nous transmet uniquement le montant, la devise, les taxes et le mode de paiement de chaque transaction."
+        ]
+      },
+      {
+        "title": "Fournisseur d'IA",
+        "paragraphs": [
+          "Les nouveaux mots et définitions sont générés par les modèles Gemini de Google. Seuls les réglages de la grille (langue, thème, difficulté) et les listes de mots sont transmis — aucune donnée personnelle."
+        ]
+      },
+      {
+        "title": "Analytique et rapports d'erreurs",
+        "paragraphs": [
+          "Si l'option est activée, nous utilisons Google Analytics pour compter les pages vues et Sentry pour recevoir les rapports d'erreurs. Ni l'un ni l'autre ne sont utilisés pour vous identifier."
         ]
       }
     ]
   },
   "Terms": {
     "title": "Conditions d'utilisation",
-    "subtitle": "Mots croisés IA est gratuit, pour le jeu et pour apprendre.",
+    "subtitle": "Mots croisés IA est conçu pour le plaisir et l'apprentissage. Ces conditions régissent l'utilisation du jeu et l'achat de crédits.",
     "sections": [
       {
         "title": "Utilisation du service",
         "paragraphs": [
-          "Vous pouvez jouer, partager et imprimer les grilles pour un usage personnel et éducatif. Merci de ne pas surcharger le service avec des requêtes automatiques."
+          "Vous pouvez jouer, partager et imprimer les grilles pour un usage personnel et éducatif. Merci de ne pas surcharger le service avec des requêtes automatisées."
         ]
       },
       {
-        "title": "Contenu écrit par une intelligence artificielle",
+        "title": "Grilles gratuites et crédits",
         "paragraphs": [
-          "Les mots et les définitions sont écrits par une intelligence artificielle et vérifiés automatiquement, mais des erreurs peuvent arriver. Si vous en trouvez une, signalez-la : c'est ainsi que les mauvaises définitions sont retirées."
+          "Chaque appareil bénéficie d'une grille gratuite par mois calendaire, et chaque compte d'une grille supplémentaire. Les autres grilles sont payées avec des crédits, au tarif indiqué avant la création ; une grille n'est débitée que lors de sa génération, et réouvrir une grille enregistrée est toujours gratuit.",
+          "Les crédits sont achetés par packs en paiement unique — sans aucun abonnement — et n'expirent jamais. Ils n'ont pas de valeur marchande et ne peuvent pas être transférés."
         ]
       },
       {
-        "title": "Sans garantie",
+        "title": "Paiements",
         "paragraphs": [
-          "Le service est fourni tel quel, sans garantie de disponibilité ni d'exactitude. Nous pouvons modifier ou retirer des fonctions à tout moment."
+          "Notre processus de commande est géré par notre revendeur en ligne Paddle.com. Paddle.com est le revendeur officiel (Merchant of Record) pour toutes nos commandes. Paddle gère le service client et les retours."
+        ]
+      },
+      {
+        "title": "Remboursements",
+        "paragraphs": [
+          "Vous pouvez demander le remboursement d'un pack de crédits dans les 14 jours suivant l'achat, via Paddle ou en nous écrivant. Le remboursement retire les crédits du pack de votre solde. Les crédits déjà consommés ne peuvent pas être restitués ; un pack partiellement utilisé pourra donc être remboursé au prorata."
+        ]
+      },
+      {
+        "title": "Contenu généré par IA",
+        "paragraphs": [
+          "Les mots et définitions sont rédigés par IA et vérifiés automatiquement, mais des erreurs restent possibles. Si vous en trouvez une, signalez-la — c'est ainsi que les définitions incorrectes sont retirées."
+        ]
+      },
+      {
+        "title": "Exclusion de garantie",
+        "paragraphs": [
+          "Le service est fourni « en l'état », sans garantie de disponibilité ou d'exactitude. Nous nous réservons le droit de modifier ou d'interrompre des fonctionnalités à tout moment."
         ]
       }
     ]
+  },
+  "Credits": {
+    "title": "Crédits",
+    "subtitle": "Une grille gratuite chaque mois. Ensuite, ne payez que pour les grilles que vous créez — sans abonnement, et les crédits n'expirent jamais.",
+    "balanceTitle": "Votre solde",
+    "freeAvailable": "Votre grille gratuite du mois vous attend.",
+    "freeUsed": "La grille gratuite de ce mois a été utilisée. La prochaine arrive le {date}.",
+    "guestTitle": "Obtenez plus de grilles gratuites",
+    "guestText": "Connectez-vous pour recevoir une grille gratuite chaque mois sur votre compte et pouvoir acheter des crédits.",
+    "pricesTitle": "Coût d'une grille",
+    "pricesText": "En crédits, selon la taille et la difficulté. Ouvrir une grille partagée par un ami ou issue de votre historique est toujours gratuit.",
+    "size": "Taille",
+    "packsTitle": "Packs de crédits",
+    "packs": {
+      "starter": "Découverte",
+      "popular": "Populaire",
+      "big": "Maxi"
+    },
+    "popularBadge": "Le plus populaire",
+    "bestValueBadge": "Meilleure offre",
+    "packPuzzles": "Environ {count} grilles moyennes",
+    "buy": "Acheter",
+    "signInToBuy": "Se connecter pour acheter",
+    "shopClosed": "L'achat de crédits est indisponible pour le moment. Revenez bientôt !",
+    "checkoutFailed": "Impossible d'ouvrir la caisse. Veuillez réessayer.",
+    "paddleNote": "Les paiements sont traités par Paddle.com, notre revendeur officiel. Les prix incluent la TVA ou la taxe sur les ventes applicable ; le prix final dans votre devise est affiché au moment du paiement.",
+    "refundsNote": "Les conditions de remboursement sont détaillées dans les conditions d'utilisation."
+  },
+  "Payments": {
+    "checkoutTitle": "Paiement",
+    "opening": "Ouverture de la caisse sécurisée…",
+    "checkoutUnavailable": "La caisse n'a pas pu s'ouvrir. Veuillez réessayer depuis la page des crédits.",
+    "backToCredits": "Retour aux crédits",
+    "verifying": "Validation de votre paiement…",
+    "successTitle": "Merci !",
+    "successText": "{count, plural, one {# crédit a été ajouté} other {# crédits ont été ajoutés}} à votre solde.",
+    "pendingText": "Votre paiement a été accepté. Les crédits apparaîtront sur votre solde d'ici quelques minutes.",
+    "failedText": "Le paiement n'a pas abouti, rien ne vous a été débité. Vous pouvez réessayer.",
+    "verifyError": "Impossible de confirmer le paiement pour le moment. Si vous avez été débité, vos crédits arriveront quand même — vérifiez votre solde dans quelques minutes.",
+    "makePuzzle": "Créer une grille"
   },
   "Contact": {
     "title": "Nous écrire",

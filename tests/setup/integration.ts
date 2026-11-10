@@ -29,7 +29,19 @@ const { PrismaClient } = createRequire(path.join(SERVER_DIR, 'package.json'))('@
   PrismaClient: new (options: { datasources: { db: { url: string } } }) => SetupClient
 }
 
-const TABLES = ['EntryReport', 'Clue', 'Entry', 'Puzzle', 'PoolDemand', 'GenerationLog', 'User']
+const TABLES = [
+  'EntryReport',
+  'Clue',
+  'Entry',
+  'Puzzle',
+  'PoolDemand',
+  'GenerationLog',
+  'CreditEntry',
+  'Payment',
+  'PaymentEvent',
+  'FreePuzzle',
+  'User',
+]
 
 export default async function setup() {
   if (databaseName(TEST_DATABASE_URL) !== 'crossword_test') {

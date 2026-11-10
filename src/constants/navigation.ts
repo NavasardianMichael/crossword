@@ -6,6 +6,7 @@ export const PRIMARY_NAV = [
   { labelKey: 'scanword', href: ROUTES.scanword },
   { labelKey: 'topics', href: ROUTES.topics },
   { labelKey: 'history', href: ROUTES.history },
+  { labelKey: 'credits', href: ROUTES.credits },
 ] as const
 
 /** Extra links in the mobile menu and the footer. */

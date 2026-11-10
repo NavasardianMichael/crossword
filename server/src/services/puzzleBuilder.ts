@@ -1,3 +1,4 @@
+import type { Prisma } from '@prisma/client'
 import { randomBytes, randomInt } from 'node:crypto'
 import {
   type Candidate,
@@ -32,6 +33,9 @@ import { HttpError } from '../middleware/error.js'
  *
  * When the pool cannot fill the request, the builder degrades rather than repeats: one inline
  * Gemini batch, then any topic, then a smaller grid — and only then `503 pool_exhausted`.
+ *
+ * A `charge` runs inside the transaction that stores the puzzle, for the size actually built
+ * (a smaller grid costs less): when it throws, nothing is stored.
  */
 
 export type BuildRequest = {
@@ -42,6 +46,8 @@ export type BuildRequest = {
   size: PuzzleSize
   exclude: readonly number[]
 }
+
+export type Charge = (tx: Prisma.TransactionClient, puzzleId: string, size: PuzzleSize) => Promise<void>
 
 /** Wall-clock budget per layout: it runs on the event loop. */
 const LAYOUT_BUDGET_MS = 250
@@ -90,7 +96,7 @@ const topUp = async (request: BuildRequest, topic: TopicChoice): Promise<boolean
 
 const smallerSizes = (size: PuzzleSize): PuzzleSize[] => SIZES.slice(0, SIZES.indexOf(size) + 1).reverse()
 
-export const buildPuzzle = async (request: BuildRequest): Promise<PuzzleView> => {
+export const buildPuzzle = async (request: BuildRequest, charge?: Charge): Promise<PuzzleView> => {
   const topics: TopicChoice[] = request.topic === 'any' ? ['any'] : [request.topic, 'any']
   let urgent = false
   let toppedUp = false
@@ -126,7 +132,7 @@ export const buildPuzzle = async (request: BuildRequest): Promise<PuzzleView> =>
       void recordDemand(request.locale, request.topic, request.difficulty, request.exclude.length, urgent).catch(
         (error: unknown) => console.error('[puzzle] demand', error)
       )
-      return storePuzzle(request, size, seed, layout, candidates)
+      return storePuzzle(request, size, seed, layout, candidates, charge)
     }
   }
 
@@ -141,7 +147,8 @@ const storePuzzle = async (
   size: PuzzleSize,
   seed: number,
   layout: NonNullable<ReturnType<typeof layoutPuzzle>>,
-  candidates: readonly Candidate[]
+  candidates: readonly Candidate[],
+  charge: Charge | undefined
 ): Promise<PuzzleView> => {
   const placed = layout.words.map(({ word }) => candidates[word]!)
   const style: ClueStyle = request.format === 'classic' ? 'full' : 'short'
@@ -180,8 +187,8 @@ const storePuzzle = async (
 
   const entryIds = placed.map(({ id: entryId }) => entryId)
   const clueIds = chosen.map(({ id: clueId }) => clueId)
-  const [puzzle] = await prisma.$transaction([
-    prisma.puzzle.create({
+  const puzzle = await prisma.$transaction(async (tx) => {
+    const created = await tx.puzzle.create({
       data: {
         id,
         locale: request.locale,
@@ -198,10 +205,12 @@ const storePuzzle = async (
         clueIds,
       },
       select: { createdAt: true },
-    }),
-    prisma.entry.updateMany({ where: { id: { in: entryIds } }, data: { servedCount: { increment: 1 } } }),
-    prisma.clue.updateMany({ where: { id: { in: clueIds } }, data: { servedCount: { increment: 1 } } }),
-  ])
+    })
+    await tx.entry.updateMany({ where: { id: { in: entryIds } }, data: { servedCount: { increment: 1 } } })
+    await tx.clue.updateMany({ where: { id: { in: clueIds } }, data: { servedCount: { increment: 1 } } })
+    await charge?.(tx, id, size)
+    return created
+  })
 
   return { id, ...data, createdAt: puzzle.createdAt.toISOString() }
 }

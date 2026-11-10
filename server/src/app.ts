@@ -6,6 +6,7 @@ import { fail, ok } from './lib/api-response.js'
 import { optionalAuth } from './middleware/auth.js'
 import { requireSameOrigin } from './middleware/csrf.js'
 import { asyncHandler, errorHandler } from './middleware/error.js'
+import { billingRouter, paddleWebhookRouter } from './routes/billing.js'
 import { contactRouter } from './routes/contact.js'
 import { identityRouter } from './routes/identity.js'
 import { puzzlesRouter } from './routes/puzzles.js'
@@ -23,6 +24,8 @@ export function createApp() {
   app.disable('x-powered-by')
 
   app.use(cors({ origin: config.corsOrigin, credentials: true }))
+  // Paddle signs the raw bytes and is not the web app: ahead of the JSON parser and the origin check.
+  app.use('/billing/webhook', paddleWebhookRouter)
   // A seen-list of 4,000 ids is about 30 KB of JSON.
   app.use(express.json({ limit: '64kb' }))
   app.use(cookieParser())
@@ -39,6 +42,7 @@ export function createApp() {
     })
   )
 
+  app.use('/billing', billingRouter)
   app.use('/contact', contactRouter)
   app.use('/identity', identityRouter)
   app.use('/puzzles', puzzlesRouter)

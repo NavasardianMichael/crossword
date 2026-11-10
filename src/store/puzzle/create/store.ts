@@ -4,24 +4,19 @@ import { combine } from 'zustand/middleware'
 import { immer } from 'zustand/middleware/immer'
 import { createPuzzleAPI } from '@api/puzzles/main'
 import { appendSelectors } from '@store/appendSelectors'
+import { useBillingStoreBase } from '@store/billing/store'
 import { STORAGE_KEYS } from '@constants/app'
-import { isDifficulty, isFormat, isSize, isTopicChoice, type Locale, type PuzzleView } from '@constants/puzzle'
+import { isDifficulty, isFormat, isSize, isTopicChoice, type PuzzleView } from '@constants/puzzle'
 import { trackEvent } from '@helpers/analytics'
-import { hasQueued, putQueued, savePuzzle, takeQueued } from '@helpers/offline/db'
+import { billingRefusal } from '@helpers/billing'
+import { savePuzzle } from '@helpers/offline/db'
 import { addSeen, readSeen } from '@helpers/puzzle/seen'
-import { reportError } from '@helpers/reportError'
 import { readJson, writeJson } from '@helpers/storage'
 import type { CreateActions, CreateState, GeneratorOptions } from './types'
 
 const DEFAULT_OPTIONS: GeneratorOptions = { format: 'classic', topic: 'any', difficulty: 1, size: 'medium' }
 
 const initialState: CreateState = { options: DEFAULT_OPTIONS, isPending: false, error: null }
-
-/** Prefetching waits until the page has settled, so it never competes with the puzzle being opened. */
-const PREFETCH_DELAY_MS = 6000
-
-const queueKey = (locale: Locale, { format, topic, difficulty, size }: GeneratorOptions) =>
-  `${locale}:${format}:${topic}:${difficulty}:${size}`
 
 /** Only the latest request may write. A newer create aborts the previous one. */
 let latestRequest = 0
@@ -39,24 +34,6 @@ const receive = async (puzzle: PuzzleView): Promise<void> => {
     puzzle.words.map(({ entryId }) => entryId)
   )
   await savePuzzle(puzzle)
-}
-
-/**
- * Fetches the next puzzle of the same settings in the background, so "new puzzle" opens
- * instantly — and offline. Its words count as seen on arrival, like any puzzle's.
- */
-const prefetch = (locale: Locale, options: GeneratorOptions) => {
-  setTimeout(async () => {
-    try {
-      const key = queueKey(locale, options)
-      if (!navigator.onLine || (await hasQueued(key))) return
-      const puzzle = await createPuzzleAPI({ locale, ...options, exclude: readSeen(locale) })
-      await receive(puzzle)
-      await putQueued(key, puzzle)
-    } catch (error) {
-      reportError(error, 'puzzle:prefetch', { silent: true })
-    }
-  }, PREFETCH_DELAY_MS)
 }
 
 export const useCreateStoreBase = create<CreateState & CreateActions>()(
@@ -100,21 +77,20 @@ export const useCreateStoreBase = create<CreateState & CreateActions>()(
             state.error = null
           })
 
-          const key = queueKey(locale, options)
-          let taken: PuzzleView | undefined
-          let delivered = false
           try {
-            taken = await takeQueued(key)
-            if (signal.aborted) return null
-            const puzzle = taken ?? (await createPuzzleAPI({ locale, ...options, exclude: readSeen(locale) }, signal))
+            const puzzle = await createPuzzleAPI({ locale, ...options, exclude: readSeen(locale) }, signal)
+            // It arrived, so it was paid for: keep it (in the history) even if the player cancelled just now.
+            await receive(puzzle)
+            void useBillingStoreBase.getState().refresh()
             if (signal.aborted || request !== latestRequest) return null
-            if (!taken) await receive(puzzle)
-            if (signal.aborted || request !== latestRequest) return null
-            trackEvent('puzzle_created', { locale, ...options, prefetched: Boolean(taken) })
-            prefetch(locale, options)
-            delivered = true
+            trackEvent('puzzle_created', { locale, ...options })
             return puzzle
           } catch (error) {
+            const refusal = billingRefusal(error)
+            if (refusal) {
+              void useBillingStoreBase.getState().refresh()
+              trackEvent('puzzle_refused', { locale, reason: refusal })
+            }
             if (!isAbort(signal, error) && request === latestRequest) {
               set((state) => {
                 state.error = error
@@ -122,8 +98,6 @@ export const useCreateStoreBase = create<CreateState & CreateActions>()(
             }
             return null
           } finally {
-            // The prefetch was already taken off the queue. Put it back when this create never opened it.
-            if (!delivered && taken) await putQueued(key, taken)
             if (inflight === controller) inflight = null
             if (request === latestRequest) {
               set((state) => {

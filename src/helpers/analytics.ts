@@ -9,6 +9,10 @@ export type AnalyticsEvent =
   | 'pwa_installed'
   | 'login'
   | 'sign_up'
+  /** A create refused for want of the free puzzle or credits (`reason`). */
+  | 'puzzle_refused'
+  | 'begin_checkout'
+  | 'purchase'
 
 type DataLayerWindow = Window & { dataLayer?: unknown[] }
 

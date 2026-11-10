@@ -22,6 +22,7 @@
     "scanword": "Skandinávka",
     "topics": "Témata",
     "history": "Moje křížovky",
+    "credits": "Kredity",
     "rules": "Jak luštit",
     "faq": "Otázky",
     "about": "O projektu",
@@ -66,6 +67,9 @@
     "topicDescription": "Křížovky a skandinávky na téma {topic}, které skládá umělá inteligence. {description}",
     "historyTitle": "Moje křížovky",
     "historyDescription": "Křížovky a skandinávky, které jste na tomhle zařízení začali a nedokončili, s uloženým postupem.",
+    "creditsTitle": "Kredity a ceny",
+    "creditsDescription": "Jedna křížovka každý měsíc zdarma, pak balíčky kreditů bez předplatného: kolik která luštovka stojí a jak kredity koupit.",
+    "paymentTitle": "Platba",
     "rulesTitle": "Jak luštit křížovky a skandinávky",
     "rulesDescription": "Jak u nás luštit křížovku nebo skandinávku: psaní písmen, pohyb po mřížce, kontrola, odhalení a klávesové zkratky.",
     "faqTitle": "Otázky: křížovky zdarma, jazyky a soukromí",
@@ -73,7 +77,7 @@
     "aboutTitle": "O projektu — jak vznikají naše křížovky",
     "aboutDescription": "Proč jsme udělali generátor křížovek, ve kterém se slovo neopakuje, a jak umělá inteligence píše legendy rovnou v každém jazyce.",
     "privacyTitle": "Zásady soukromí",
-    "privacyDescription": "Co Křížovky AI ukládají, kde a proč. Bez účtu a bez sledování, kdo jste.",
+    "privacyDescription": "Co Křížovky AI ukládají, kde a proč — včetně účtů a plateb, bez jakéhokoli sledování vaší identity.",
     "termsTitle": "Podmínky použití",
     "termsDescription": "Jednoduché podmínky pro používání Křížovek AI.",
     "contactTitle": "Napište nám",
@@ -168,12 +172,25 @@
     "creating": "Sestavujeme křížovku…",
     "creatingHint": "Vybíráme slova, která jste ještě neviděli. Čerstvá chvíli trvají.",
     "cancel": "Zrušit",
-    "freshHint": "Zdarma, bez registrace. Každá křížovka přinese slova, která jste tu ještě neměli.",
+    "freshHint": "Každá křížovka přináší slova, která jsi tu ještě neviděl.",
     "exhausted": "U téhle volby jste už vyluštili všechna slova, která teď máme. Píšeme nová — zkuste jiné téma, nebo se vraťte za minutu."
+  },
+  "Billing": {
+    "credits": "{count, plural, one {# kredit} few {# kredity} many {# kreditu} other {# kreditů}}",
+    "balance": "Tvůj zůstatek: {count, plural, one {# kredit} few {# kredity} many {# kreditu} other {# kreditů}}",
+    "cost": "Tato křížovka: {count, plural, one {# kredit} few {# kredity} many {# kreditu} other {# kreditů}}",
+    "freeNow": "Tato je zdarma — tvoje bezplatná křížovka pro tento měsíc.",
+    "youHave": "Máš {count, plural, one {# kredit} few {# kredity} many {# kreditu} other {# kreditů}}.",
+    "notEnough": "Na tuto křížovku nemáš dostatek kreditů.",
+    "guestUsed": "Bezplatnou křížovku na tento měsíc už máš vyčerpanou. Přihlas se pro další křížovku zdarma každý měsíc a pro nákup kreditů.",
+    "refusedSignIn": "Bezplatná křížovka na tento měsíc je vyčerpaná. Přihlas se, abys získal další a mohl si dokoupit kredity.",
+    "refusedCredits": "Na tuto křížovku nemáš dostatek kreditů. Dobij si je a hraj dál.",
+    "signIn": "Přihlásit se",
+    "buyCredits": "Koupit kredity"
   },
   "Home": {
     "hero": {
-      "eyebrow": "Zdarma · Bez registrace · Funguje offline",
+      "eyebrow": "Vyzkoušej zdarma · Bez předplatného · Funguje offline",
       "title": "Česká křížovka, která je <mark>vždy nová</mark>",
       "subtitle": "Vyberte téma a obtížnost. Legendy píše umělá inteligence ve vašem jazyce a stejné slovo nedostanete dvakrát.",
       "lede": "Vytvořte křížovku nebo skandinávku zdarma, bez registrace. Témata sahají od zvířat, jídla a zeměpisu po historii, vědu, sport, umění, domov, povolání a místní kulturu — nebo je smíchejte."
@@ -203,8 +220,8 @@
     "topicsTitle": "Vyberte téma",
     "topicsSubtitle": "Od ptáků na krmítku po známé řeky — nebo všechno najednou.",
     "faqTitle": "Otázky a odpovědi",
-    "faq1Question": "Jsou Křížovky AI opravdu zdarma?",
-    "faq1Answer": "Ano. Každá křížovka i skandinávka je zdarma, bez účtu, bez registrace a bez limitu, kolik jich vyluštíte.",
+    "faq1Question": "Jsou Křížovky AI zdarma?",
+    "faq1Answer": "Tvoje první křížovka každý měsíc je zdarma a bez registrace, přihlášení přidá další jednu. Poté křížovky stojí kredity, které si kupuješ jednorázově bez předplatného. Luštění křížovky, kterou s tebou někdo sdílel, je vždy zdarma.",
     "faq2Question": "Uvidím stejná slova znovu?",
     "faq2Answer": "Ne. Zařízení si vede seznam slov, která už ukázalo, a z nových křížovek je vynechá. Když smažete data webu v prohlížeči, seznam začne odznova.",
     "faq3Question": "V jakých jazycích se dá luštit?",
@@ -518,19 +535,23 @@
         "items": [
           {
             "question": "Co jsou Křížovky AI?",
-            "answer": "Křížovky AI jsou web zdarma, který skládá křížovky a skandinávky ve třiatřiceti jazycích. Model píše slova a legendy rovnou v každém jazyce, kód staví mřížku a každé zařízení dostane jen slova, která ještě nevidělo."
+            "answer": "Křížovky AI je webová stránka, která generuje křížovky a skandovačky ve třiceti třech jazycích. Model AI píše slova a nápovědy přirozeně v daném jazyce, kód vytváří mřížku a každé zařízení dostává pouze slova, která ještě nevidělo."
           },
           {
-            "question": "Jsou Křížovky AI opravdu zdarma?",
-            "answer": "Ano. Každá křížovka i skandinávka je zdarma: bez účtu, bez registrace, bez předplatného a bez reklam."
+            "question": "Jsou Křížovky AI zdarma?",
+            "answer": "Částečně. Tvoje první křížovka každý měsíc je zdarma bez registrace a přihlášení ti přidá druhou zdarma každý měsíc. Nad to se za křížovky platí kredity: koupíš si jednorázový balíček — neexistuje žádné předplatné, kredity nikdy nepropadnou a nejsou tu žádné reklamy. Hraní křížovky, kterou s tebou někdo sdílel, je vždy zdarma."
           },
           {
             "question": "Potřebuji účet?",
-            "answer": "Ne. Není se k čemu registrovat. Postup, nastavení a seznam už viděných slov zůstávají v prohlížeči, na vašem zařízení."
+            "answer": "Pro bezplatnou křížovku měsíce ne: tvůj postup, nastavení a již viděná slova se ukládají v prohlížeči. Účet přidá druhou křížovku zdarma každý měsíc a umožní ti kupovat a uchovávat kredity."
           },
           {
-            "question": "Kdo Křížovky AI dělá?",
-            "answer": "Je to samostatný projekt vývojáře Michaela Navasardyana: křížovky, které znějí, jako by je napsal místní autor, v každém jazyce, který web nabízí — mezi nimi arménština, ruština a angličtina."
+            "question": "Kolik křížovka stojí?",
+            "answer": "Malá křížovka stojí 5 kreditů, střední 10 a velká 15; střední obtížnost přidává 1 kredit a těžká 2. Kredity se prodávají v balíčcích po 200 za 4,99 $, 600 za 11,99 $ a 2 000 za 29,99 $. Pokladna zobrazuje cenu v tvé měně včetně případné daně."
+          },
+          {
+            "question": "Kdo stojí za Křížovkami AI?",
+            "answer": "Je to nezávislý projekt vývojáře Michaela Navasardyana: křížovky, které působí, jako by je napsal rodilý autor v každém z nabízených jazyků — mimo jiné v arménštině, ruštině a angličtině."
           }
         ]
       },
@@ -538,65 +559,65 @@
         "title": "Křížovky",
         "items": [
           {
-            "question": "Jaký je rozdíl mezi křížovkou a skandinávkou?",
-            "answer": "Křížovka má číslované legendy vedle mřížky, vodorovně a svisle. Skandinávka tiskne každou legendu do políčka a šipka ukazuje, kam odpověď patří. Takovou mřížku mají plné časopisy v Rusku a v Arménii."
+            "question": "Jaký je rozdíl mezi klasickou křížovkou a skandovačkou?",
+            "answer": "Klasická křížovka má očíslované legendy vedle mřížky (Vodorovně a Svisle). Skandovačka má každou nápovědu přímo v buňce mřížky se šipkou ukazující na směr odpovědi — formát oblíbený v časopisech s křížovkami."
           },
           {
-            "question": "Jak jsou křížovky velké?",
-            "answer": "Jsou tři velikosti. Klasická křížovka plní mřížku 9×9, 13×13 nebo 15×15 zhruba 8–14, 16–24 nebo 22–34 slovy a pak se ořízne na to, co v ní je. Skandinávka má mřížku 8×10, 10×13 nebo 13×17, vyšší než širší, protože se většinou luští na telefonu."
+            "question": "Jak velké jsou křížovky?",
+            "answer": "Na výběr jsou tři velikosti. Klasická křížovka vyplní mřížku 9×9, 13×13 nebo 15×15 s přibližně 8–14, 16–24 nebo 22–34 slovy a následně se ořízne podle obsažených slov. Skandovačka používá mřížku 8×10, 10×13 nebo 13×17 — vyšší než širší, protože většina lidí luští na telefonu."
           },
           {
-            "question": "Čím se liší obtížnosti?",
-            "answer": "Lehká bere běžná slova s přímým výkladem. Střední sahá do širší zásoby. Těžká přináší řidší slova a legendy, u kterých se člověk zastaví."
+            "question": "Čím se liší úrovně obtížnosti?",
+            "answer": "Lehká používá běžná slova s přímými definicemi. Střední čerpá ze širší slovní zásoby. Těžká přináší vzácnější slova a nápovědy, které tě donutí se zamyslet."
           },
           {
-            "question": "Jaká témata si můžu vybrat?",
-            "answer": "Dvanáct: běžná slova, příroda, zvířata, jídlo a pití, zeměpis, historie, věda, sport, umění, domov, povolání a místní kultura — nebo je smíchat do jedné křížovky."
+            "question": "Jaká témata si mohu vybrat?",
+            "answer": "Dvanáct: běžná slova, příroda, zvířata, jídlo a pití, geografie, historie, věda, sport, umění, domov a život, profese a místní kultura — nebo je všechny namíchat do jedné křížovky."
           },
           {
             "question": "Uvidím někdy stejné slovo dvakrát?",
-            "answer": "Na stejném zařízení ne. Pamatuje si až 4 000 slov na jazyk, asi 130 křížovek, a z nových je vynechává; teprve potom ze seznamu padají ta nejstarší. Smazání dat webu seznam vynuluje."
+            "answer": "Na stejném zařízení ne. Pamatujeme si až 4 000 slov na jazyk — což vystačí asi na 130 křížovek — a vynecháváme je z každé nové křížovky; teprve potom se nejstarší slova ze seznamu vymažou. Vymazáním dat stránky v prohlížeči se seznam resetuje."
           },
           {
-            "question": "Jak umělá inteligence píše legendy?",
-            "answer": "Model Gemini od Googlu píše slova a legendy rovnou v každém jazyce podle příručky od rodilých mluvčích. Kód pak každé zkontroluje: správná abeceda, jedno opravdové slovo, férová legenda, která neprozradí odpověď. Druhý průchod dělá redaktora. Co neprojde, zahodí se, neopravuje. Mřížku staví kód, ne model."
+            "question": "Jak AI vytváří nápovědy?",
+            "answer": "Model Gemini od Googlu píše slova a nápovědy přímo v daném jazyce podle pokynů od rodilých mluvčích. Kód pak každé slovo zkontroluje — správná abeceda, reálné slovo, férová nápověda, která neprozrazuje odpověď — a druhý průchod AI funguje jako editor. Cokoliv nevyhovuje, je vyřazeno. Samotnou mřížku staví kód, ne AI."
           },
           {
-            "question": "Co když je legenda špatně?",
-            "answer": "Otevřete nabídku ⋯ nad mřížkou a zvolte „Nahlásit legendu“. Když stejnou legendu nahlásí tři různí hráči, stáhne se a už se neobjeví."
+            "question": "Co když je nápověda chybná?",
+            "answer": "Otevři nabídku ⋯ nad mřížkou a zvol „Nahlásit nápovědu“. Jakmile stejnou nápovědu nahlásí tři různí hráči, je vyřazena a už se nikdy neobjeví."
           }
         ]
       },
       {
-        "title": "Luštění",
+        "title": "Hraní",
         "items": [
           {
-            "question": "Jak psát odpovědi na telefonu a na počítači?",
-            "answer": "Na počítači prostě pište: i když je klávesnice nastavená na angličtinu, klávesy píšou písmena křížovky na svých místech, nic se nepřepíná. Na telefonu nebo tabletu se pod mřížkou objeví vlastní klávesnice a systémová ji nezakryje."
+            "question": "Jak se zadávají odpovědi na telefonu nebo počítači?",
+            "answer": "Na počítači stačí psát: i když máš klávesnici nastavenou na angličtinu, klávesy píší písmena křížovky na jejich obvyklých místech, takže nemusíš přepínat rozvržení. Na telefonu nebo tabletu se pod mřížkou objeví vlastní klávesnice křížovky a systémová klávesnice ji nikdy nezakryje."
           },
           {
-            "question": "Můžu odpovědi zkontrolovat nebo dostat nápovědu?",
-            "answer": "Ano. Kontrola označí špatná písmena v jednom políčku, slově nebo celé křížovce a Odhalení doplní písmeno, slovo nebo všechno. V nastavení zapněte „Kontrolovat při psaní“ a chybu uvidíte hned."
+            "question": "Mohu si zkontrolovat odpovědi nebo získat nápovědu?",
+            "answer": "Ano. Funkce Kontrola označí špatná písmena v jedné buňce, jednom slově nebo celé křížovce a Odhalit vyplní písmeno, slovo nebo všechno. V nastavení můžeš zapnout „Kontrolovat při psaní“ a uvidíš chyby hned, jak je uděláš."
           },
           {
-            "question": "Jak se zachází s arménským ու a և a s ruským Ё?",
-            "answer": "V arménských křížovkách jsou ու a և samostatná písmena a každé má jedno políčko, jako v tištěných arménských křížovkách. Klávesnice na obrazovce má obě a když napíšete ո a pak ւ, spojí se v ու. V ruských křížovkách se Ё píše jako Е, jako v tištěných."
+            "question": "Jak se zachází s arménskými ու a և nebo ruským Ё?",
+            "answer": "V arménských křížovkách jsou ու a և samostatná písmena a každé zabírá jednu buňku, stejně jako v tištěných arménských křížovkách; klávesnice na obrazovce má obě a napsáním ո a následně ւ se spojí do ու. V ruských křížovkách se Ё píše jako Е, jako v tištěných křížovkách."
           },
           {
-            "question": "Ukládá se postup?",
-            "answer": "Ano, sám od sebe, jak luštíte. Každá křížovka nebo skandinávka, kterou začnete a nedokončíte, je v „Moje křížovky“ i s písmeny, takže se k ní vrátíte i offline."
+            "question": "Ukládá se můj postup?",
+            "answer": "Ano, automaticky během hraní. Každá rozdělaná křížovka nebo skandovačka je uvedena v sekci „Moje křížovky“ se všemi uloženými písmeny, takže můžeš v luštění kdykoli pokračovat — i offline."
           },
           {
-            "question": "Dá se luštit offline, nebo to nainstalovat jako aplikaci?",
-            "answer": "Ano. Křížovky AI se nainstalují z prohlížeče jako aplikace (na iPhonu: Sdílet → Přidat na plochu). Každá otevřená křížovka se uloží s postupem a běží bez sítě; internet potřebují jen nové."
+            "question": "Mohu hrát offline nebo si hru nainstalovat jako aplikaci?",
+            "answer": "Ano. Křížovky AI lze nainstalovat z prohlížeče jako aplikaci (na iPhone: Sdílet → Přidat na plochu). Každá otevřená křížovka se uloží s tvým postupem a funguje dál i bez připojení; pouze nové křížovky vyžadují internet."
           },
           {
-            "question": "Můžu křížovku poslat kamarádovi?",
-            "answer": "Ano. Klepněte na Sdílet nad mřížkou, odkaz zkopírujte, nebo ho pošlete přes WhatsApp, Telegram, Facebook, X, VK či e-mail. Kamarád dostane tutéž mřížku a tytéž legendy."
+            "question": "Mohu křížovku sdílet s kamarádem?",
+            "answer": "Ano. Klepnutím na Sdílet nad mřížkou zkopíruješ odkaz nebo ho pošleš přes WhatsApp, Telegram, Facebook, X, VK či e-mail. Kamarád získá úplně stejnou mřížku i nápovědy."
           },
           {
-            "question": "Jde luštit z klávesnice nebo se čtečkou obrazovky?",
-            "answer": "Ano. Mřížka funguje celá z klávesnice i se čtečkami: každé políčko je popsané, aktivní legenda se ohlásí a kontroly i odhalení se přečtou. Špatná a odhalená písmena se liší tvarem, ne jen barvou."
+            "question": "Mohu hrát pomocí klávesnice nebo čtečky obrazovky?",
+            "answer": "Ano. Mřížka plně funguje z klávesnice i se čtečkami obrazovky: každá buňka je popsaná, aktivní nápověda je přečtena a kontroly i odhalení jsou předčítány. Špatná a odhalená písmena jsou rozlišena tvarem, nikdy ne pouze barvou."
           }
         ]
       },
@@ -604,12 +625,12 @@
         "title": "Soukromí",
         "items": [
           {
-            "question": "Jaká data si necháváte?",
-            "answer": "Velmi málo. Křížovky, postup, nastavení a seznam viděných slov zůstávají v prohlížeči. Server ukládá vytvořené křížovky, aby sdílený odkaz otevřel tutéž mřížku, hlášení legend s jednosměrným otiskem IP adresy a anonymní počty vyluštění. Žádná jména a žádné profily."
+            "question": "Jaké údaje uchováváte?",
+            "answer": "Velmi málo. Tvoje křížovky, postup, nastavení a seznam viděných slov zůstávají v tvém prohlížeči. Server ukládá vytvořené křížovky (aby sdílený odkaz otevřel stejnou mřížku), hlášení nápověd s jednosměrným hashem IP adresy a anonymní počty vyřešení. Žádná jména, žádné profily."
           },
           {
-            "question": "Posílá se o mně něco umělé inteligenci?",
-            "answer": "Ne. Modelům Gemini od Googlu jdou jen nastavení křížovky, tedy jazyk, téma a obtížnost, a seznamy slov. Nic o vás."
+            "question": "Posílá se o mně něco do AI?",
+            "answer": "Ne. Modely Gemini od Googlu dostávají pouze nastavení křížovky — jazyk, téma, obtížnost — a seznamy slov, nikdy nic o tobě."
           }
         ]
       }
@@ -645,57 +666,129 @@
   },
   "Privacy": {
     "title": "Zásady soukromí",
-    "subtitle": "Ve zkratce: žádný účet, žádná jména, žádné profilování. Tady je všechno, co si necháváme.",
+    "subtitle": "Stručně: účet jen pokud chceš, žádné profilování. Zde je vše, co uchováváme.",
     "sections": [
       {
-        "title": "Na vašem zařízení",
+        "title": "Ve tvém zařízení",
         "paragraphs": [
-          "Prohlížeč ukládá křížovky, které otevřete, postup, nastavení a seznam slov, která už jste viděli, aby se neopakovala. Zůstává to u vás; smazání dat webu to odstraní."
+          "Tvůj prohlížeč ukládá otevřené křížovky, postup, nastavení a seznam slov, která jsi už viděl, aby se neopakovala. To zůstává v tvém zařízení; vymazáním dat stránky se tyto údaje odstraní."
         ]
       },
       {
         "title": "Na našem serveru",
         "paragraphs": [
-          "Ukládáme vytvořené křížovky, aby sdílený odkaz otevřel tutéž mřížku. Když nahlásíte legendu, necháme si hlášení s jednosměrným otiskem IP adresy, jen aby jediný člověk nemohl legendu stáhnout sám. Anonymně také počítáme, jak se křížovky luští (vyřešené, která slova se odhalila), abychom ladili obtížnost."
+          "Ukládáme vytvořené křížovky, aby sdílený odkaz otevřel stejnou mřížku. Když nahlásíš nápovědu, uložíme hlášení s jednosměrným hashem tvojí IP adresy pouze proto, aby jeden člověk nemohl nápovědu vyřadit sám. Anonymně také počítáme, jak se křížovky hrají (vyřešení, která slova byla odhalena), abychom ladili obtížnost.",
+          "Aby každé zařízení získalo svou bezplatnou křížovku měsíce, stránka nastavuje cookie s náhodným identifikátorem. S každou bezplatnou křížovkou si tento identifikátor a jednosměrný hash IP adresy ukládáme."
         ]
       },
       {
-        "title": "Poskytovatel umělé inteligence",
+        "title": "Účty a kredity",
         "paragraphs": [
-          "Nová slova a legendy píšou modely Gemini od Googlu. Posílá se jen nastavení křížovky (jazyk, téma, obtížnost) a seznamy slov. Nic o vás."
+          "Pokud si vytvoříš účet, uchováváme tvé jméno, e-mailovou adresu a při přihlášení přes Google i tvůj profilový obrázek z Googlu. Ukládáme také tvůj zůstatek kreditů a jeho historii: každý nákup, každou zaplacenou křížovku a každé vrácení peněz."
         ]
       },
       {
-        "title": "Statistiky a hlášení chyb",
+        "title": "Platby",
         "paragraphs": [
-          "Když je to zapnuté, používáme Google Analytics k počítání zobrazení stránek a Sentry k příjmu hlášení chyb. Ani jedno neslouží k tomu, abychom vás poznali."
+          "Platby zpracovává společnost Paddle.com, náš pověřený prodejce (Merchant of Record). Paddle shromažďuje tvoje platební údaje a zemi fakturace podle svých vlastních zásad ochrany soukromí; číslo tvojí karty nikdy nevidíme. Od Paddle dostáváme částku, měnu, daň a typ platební metody každého nákupu."
+        ]
+      },
+      {
+        "title": "Poskytovatel AI",
+        "paragraphs": [
+          "Nová slova a nápovědy píší modely Gemini od Googlu. Posílají se pouze nastavení křížovky (jazyk, téma, obtížnost) a seznamy slov — nikdy nic o tobě."
+        ]
+      },
+      {
+        "title": "Analytika a chybová hlášení",
+        "paragraphs": [
+          "Pokud je to povoleno, používáme Google Analytics k počítání zobrazení stránek a Sentry k přijímání hlášení o chybách. Ani jedno se nepoužívá k tvojí identifikaci."
         ]
       }
     ]
   },
   "Terms": {
     "title": "Podmínky použití",
-    "subtitle": "Křížovky AI jsou zdarma, pro zábavu a pro učení.",
+    "subtitle": "Křížovky AI slouží pro zábavu a učení. Tyto podmínky pokrývají hraní a nákup kreditů.",
     "sections": [
       {
         "title": "Používání služby",
         "paragraphs": [
-          "Křížovky smíte luštit, sdílet a tisknout pro osobní a vzdělávací potřebu. Službu prosím nezatěžujte automatickými požadavky."
+          "Křížovky můžeš hrát, sdílet a tisknout pro osobní a vzdělávací účely. Prosíme, nepřetěžuj službu automatizovanými požadavky."
         ]
       },
       {
-        "title": "Text od umělé inteligence",
+        "title": "Křížovky zdarma a kredity",
         "paragraphs": [
-          "Slova a legendy píše umělá inteligence a kontroluje je automat, ale chyba se stát může. Když nějakou najdete, nahlaste ji. Tak se špatné legendy stahují."
+          "Každé zařízení získá jednu křížovku zdarma každý kalendářní měsíc a každý účet ještě jednu navíc. Ostatní křížovky se platí kredity za cenu zobrazenou před jejím vytvořením; křížovka je zaúčtována až při jejím vygenerování a otevření uložené křížovky je zdarma.",
+          "Kredity se kupují v balíčcích jednorázovou platbou — neexistuje žádné předplatné — a jejich platnost nikdy nekončí. Nemají žádnou peněžní hodnotu a nelze je převádět."
+        ]
+      },
+      {
+        "title": "Platby",
+        "paragraphs": [
+          "Náš objednávkový proces zajišťuje náš online prodejce Paddle.com. Paddle.com je pověřeným prodejcem (Merchant of Record) pro všechny naše objednávky. Paddle vyřizuje všechny dotazy zákaznického servisu a řeší vrácení zboží."
+        ]
+      },
+      {
+        "title": "Vrácení peněz",
+        "paragraphs": [
+          "O vrácení peněz za balíček kreditů můžeš požádat do 14 dnů od jeho zakoupení, a to prostřednictvím Paddle nebo napsáním přímo nám. Vrácení peněz odebere kredity z balíčku z tvého zůstatku. Již utracené kredity nelze vrátit, takže částečně využitý balíček může být vrácen jen částečně."
+        ]
+      },
+      {
+        "title": "Obsah vytvořený AI",
+        "paragraphs": [
+          "Slova a nápovědy píše AI a jsou kontrolována automaticky, ale může dojít k chybám. Pokud nějakou najdeš, nahlás ji — tak se špatné nápovědy odstraňují."
         ]
       },
       {
         "title": "Bez záruky",
         "paragraphs": [
-          "Služba se poskytuje tak, jak je, bez záruky dostupnosti nebo přesnosti. Funkce můžeme kdykoli změnit nebo ukončit."
+          "Služba je poskytována tak, jak je, bez záruk dostupnosti nebo přesnosti. Funkce můžeme kdykoli změnit nebo zrušit."
         ]
       }
     ]
+  },
+  "Credits": {
+    "title": "Kredity",
+    "subtitle": "Jedna křížovka každý měsíc zdarma. Potom platíš jen za křížovky, které vytvoříš — žádné předplatné a kredity nikdy nepropadnou.",
+    "balanceTitle": "Tvůj zůstatek",
+    "freeAvailable": "Tvoje bezplatná křížovka pro tento měsíc je připravena.",
+    "freeUsed": "Bezplatná křížovka na tento měsíc je vyčerpaná. Další bude k dispozici {date}.",
+    "guestTitle": "Získej více křížovek zdarma",
+    "guestText": "Přihlas se, abys získal křížovku zdarma každý měsíc ke svému účtu a mohls kupovat kredity.",
+    "pricesTitle": "Kolik stojí křížovka",
+    "pricesText": "V kreditech, podle velikosti a obtížnosti. Otevření křížovky, kterou s tebou někdo sdílel, nebo křížovky z historie je vždy zdarma.",
+    "size": "Velikost",
+    "packsTitle": "Balíčky kreditů",
+    "packs": {
+      "starter": "Startovací",
+      "popular": "Oblíbený",
+      "big": "Velký"
+    },
+    "popularBadge": "Nejoblíbenější",
+    "bestValueBadge": "Nejvýhodnější",
+    "packPuzzles": "Cca {count} středních křížovek",
+    "buy": "Koupit",
+    "signInToBuy": "Přihlásit se pro nákup",
+    "shopClosed": "Nákup kreditů teď není k dispozici. Zkus to prosím brzy znova.",
+    "checkoutFailed": "Nepodařilo se otevřít pokladnu. Zkus to prosím znovu.",
+    "paddleNote": "Platby zpracovává Paddle.com, náš prodejce a Merchant of Record. Ceny zahrnují DPH nebo daň z prodeje tam, kde se uplatňuje; konečná cena v tvé měně se zobrazí při placení.",
+    "refundsNote": "Podmínky vrácení peněz jsou popsány v podmínkách použití."
+  },
+  "Payments": {
+    "checkoutTitle": "Pokladna",
+    "opening": "Otevírám zabezpečenou pokladnu…",
+    "checkoutUnavailable": "Pokladnu se nepodařilo otevřít. Zkus to prosím znovu ze stránky kreditů.",
+    "backToCredits": "Zpět ke kreditům",
+    "verifying": "Potvrzujeme tvoji platbu…",
+    "successTitle": "Děkujeme!",
+    "successText": "Na tvůj zůstatek {count, plural, one {byl přidán # kredit} few {byly přidány # kredity} many {bylo přidáno # kreditů} other {bylo přidáno # kreditů}}.",
+    "pendingText": "Tvoje platba proběhla. Kredity se na tvém zůstatku objeví během několika minut.",
+    "failedText": "Platba neproběhla, takže ti nebylo nic účtováno. Můžeš to zkusit znovu.",
+    "verifyError": "Platbu se nepodařilo okamžitě potvrdit. Pokud ti byly peníze odečteny, kredity stejně dorazí — zkontroluj zůstatek za pár minut.",
+    "makePuzzle": "Vytvořit křížovku"
   },
   "Contact": {
     "title": "Napište nám",

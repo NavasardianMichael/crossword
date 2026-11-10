@@ -145,6 +145,14 @@ const GATES = [
     pattern: /gemini\.key/,
     skip: /^server\/src\/(lib\/gemini|config)\.ts$/,
   },
+  {
+    name: 'no Paddle secrets outside lib/paddle.ts',
+    why: 'One reader per secret — server/CLAUDE.md',
+    root: 'server/src',
+    exts: ['.ts'],
+    pattern: /paddle\.(apiKey|webhookSecrets)/,
+    skip: /^server\/src\/(lib\/paddle|config)\.ts$/,
+  },
 ]
 
 const walk = (dir, exts, out = []) => {

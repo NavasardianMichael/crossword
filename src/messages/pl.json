@@ -22,6 +22,7 @@
     "scanword": "Szwedzka",
     "topics": "Tematy",
     "history": "Moje diagramy",
+    "credits": "Kredyty",
     "rules": "Jak grać",
     "faq": "Pytania",
     "about": "O nas",
@@ -66,6 +67,9 @@
     "topicDescription": "Darmowe krzyżówki i krzyżówki szwedzkie o temacie {topic}, układane przez AI. {description}",
     "historyTitle": "Moje diagramy",
     "historyDescription": "Krzyżówki i krzyżówki szwedzkie zaczęte na tym urządzeniu i jeszcze nieukończone, z zapisanym postępem.",
+    "creditsTitle": "Kredyty i ceny",
+    "creditsDescription": "Jedna darmowa krzyżówka w miesiącu, a potem pakiety kredytów bez subskrypcji: ile kosztuje każda łamigłówka i jak kupić kredyty.",
+    "paymentTitle": "Płatność",
     "rulesTitle": "Jak rozwiązywać krzyżówki i krzyżówki szwedzkie",
     "rulesDescription": "Jak rozwiązać tu krzyżówkę albo krzyżówkę szwedzką: wpisywanie, poruszanie się po diagramie, sprawdzanie i odkrywanie liter oraz skróty klawiatury.",
     "faqTitle": "Pytania: krzyżówki AI, języki i prywatność",
@@ -73,7 +77,7 @@
     "aboutTitle": "O nas — jak powstają krzyżówki AI",
     "aboutDescription": "Dlaczego zrobiliśmy darmowy generator krzyżówek, który nigdy nie powtarza słowa, i jak AI pisze hasła od razu w danym języku.",
     "privacyTitle": "Polityka prywatności",
-    "privacyDescription": "Co Krzyżówki AI przechowują, gdzie i po co — bez konta i bez śledzenia, kim jesteś.",
+    "privacyDescription": "Co Krzyżówki AI przechowują, gdzie i dlaczego — w tym konta i płatności, bez śledzenia Twojej tożsamości.",
     "termsTitle": "Zasady korzystania",
     "termsDescription": "Proste zasady korzystania z Krzyżówek AI.",
     "contactTitle": "Napisz do nas",
@@ -168,12 +172,25 @@
     "creating": "Układamy diagram…",
     "creatingHint": "Dobieramy słowa, których jeszcze nie widziałeś. Świeże mogą zająć kilka sekund.",
     "cancel": "Anuluj",
-    "freshHint": "Za darmo, bez rejestracji. Każdy diagram przynosi słowa, których tu jeszcze nie spotkałeś.",
+    "freshHint": "Każda łamigłówka przynosi słowa, których jeszcze tu nie widziałeś.",
     "exhausted": "Rozwiązałeś już wszystkie słowa, które mamy do tego wyboru! Piszemy nowe — spróbuj innego tematu albo wróć za minutę."
+  },
+  "Billing": {
+    "credits": "{count, plural, one {# kredyt} few {# kredyty} many {# kredytów} other {# kredytu}}",
+    "balance": "Twoje saldo: {count, plural, one {# kredyt} few {# kredyty} many {# kredytów} other {# kredytu}}",
+    "cost": "Ta łamigłówka: {count, plural, one {# kredyt} few {# kredyty} many {# kredytów} other {# kredytu}}",
+    "freeNow": "Ta jest darmowa — to Twoja darmowa łamigłówka w tym miesiącu.",
+    "youHave": "Masz {count, plural, one {# kredyt} few {# kredyty} many {# kredytów} other {# kredytu}}.",
+    "notEnough": "Za mało kredytów na tę łamigłówkę.",
+    "guestUsed": "Wykorzystałeś już darmową łamigłówkę w tym miesiącu. Zaloguj się, aby dostać jeszcze jedną darmową co miesiąc i kupować kredyty.",
+    "refusedSignIn": "Darmowa łamigłówka na ten miesiąc została wykorzystana. Zaloguj się, aby otrzymać kolejną i kupować kredyty.",
+    "refusedCredits": "Za mało kredytów na tę łamigłówkę. Doładuj konto, aby grać dalej.",
+    "signIn": "Zaloguj się",
+    "buyCredits": "Kup kredyty"
   },
   "Home": {
     "hero": {
-      "eyebrow": "Za darmo · Bez rejestracji · Działa offline",
+      "eyebrow": "Wypróbuj za darmo · Bez subskrypcji · Działa offline",
       "title": "Krzyżówki, które są <mark>zawsze nowe</mark>",
       "subtitle": "Wybierz temat i trudność — AI napisze hasła w twoim języku, a to samo słowo nie wróci drugi raz.",
       "lede": "Stwórz darmową krzyżówkę online, bez rejestracji. Tematy od zwierząt, jedzenia i geografii po historię, naukę, sport, sztukę, dom, zawody i polską kulturę — albo wszystkie naraz."
@@ -203,8 +220,8 @@
     "topicsTitle": "Wybierz temat",
     "topicsSubtitle": "Od ptaków za oknem po znane rzeki — albo wszystko naraz.",
     "faqTitle": "Pytania i odpowiedzi",
-    "faq1Question": "Czy Krzyżówki AI są naprawdę darmowe?",
-    "faq1Answer": "Tak. Każda krzyżówka i każda szwedzka jest darmowa, bez konta, bez rejestracji i bez limitu, ile ich rozwiążesz.",
+    "faq1Question": "Czy Krzyżówki AI są darmowe?",
+    "faq1Answer": "Twoja pierwsza łamigłówka w każdym miesiącu jest darmowa bez rejestracji, a zalogowanie się dodaje kolejną. Potem łamigłówki kosztują kredyty, kupowane jednorazowo bez subskrypcji. Gra w łamigłówkę udostępnioną przez kogoś jest zawsze darmowa.",
     "faq2Question": "Czy zobaczę te same słowa jeszcze raz?",
     "faq2Answer": "Nie. Urządzenie trzyma listę słów już pokazanych i pomija je w każdym nowym diagramie. Jeśli wyczyścisz dane strony w przeglądarce, lista zaczyna się od nowa.",
     "faq3Question": "W jakich językach można grać?",
@@ -518,85 +535,89 @@
         "items": [
           {
             "question": "Czym są Krzyżówki AI?",
-            "answer": "Krzyżówki AI to darmowa strona, która układa krzyżówki i krzyżówki szwedzkie w trzydziestu trzech językach. Model AI pisze słowa i hasła od razu w danym języku, kod buduje diagram, a każde urządzenie dostaje tylko słowa, których jeszcze nie widziało."
+            "answer": "Krzyżówki AI to strona internetowa generująca krzyżówki i panamerykanki w trzydziestu trzech językach. Model AI tworzy słowa i hasła naturalnie w każdym języku, kod buduje siatkę, a każde urządzenie otrzymuje tylko te słowa, których wcześniej nie widziało."
           },
           {
-            "question": "Czy Krzyżówki AI są naprawdę darmowe?",
-            "answer": "Tak. Każda krzyżówka i każda szwedzka jest darmowa — bez konta, bez rejestracji, bez abonamentu i bez reklam."
+            "question": "Czy Krzyżówki AI są darmowe?",
+            "answer": "Częściowo. Twoja pierwsza łamigłówka w miesiącu jest darmowa bez rejestracji, a zalogowanie się dodaje drugą darmową każdego miesiąca. Poza tym łamigłówki są płatne kredytami: kupujesz pakiet jednorazowo — nie ma subskrypcji, kredyty nigdy nie wygasają i nie ma reklam. Gra w łamigłówkę udostępnioną przez kogoś jest zawsze darmowa."
           },
           {
             "question": "Czy potrzebuję konta?",
-            "answer": "Nie. Nie ma się do czego rejestrować. Postęp, ustawienia i lista słów już widzianych zostają w przeglądarce, na twoim urządzeniu."
+            "answer": "Nie do darmowej łamigłówki w miesiącu: Twoje postępy, ustawienia i już widziane słowa są zapisywane w przeglądarce. Konto dodaje drugą darmową łamigłówkę każdego miesiąca oraz pozwala kupować i zachowywać kredyty."
           },
           {
-            "question": "Kto robi Krzyżówki AI?",
-            "answer": "To niezależny projekt programisty Michaela Navasardyana: diagramy, które brzmią, jakby ułożył je miejscowy autor, w każdym języku strony — wśród nich ormiański, rosyjski i angielski."
+            "question": "Ile kosztuje łamigłówka?",
+            "answer": "Mała łamigłówka kosztuje 5 kredytów, średnia 10, a duża 15; średni poziom trudności dodaje 1 kredyt, a trudny 2. Kredyty są dostępne w pakietach: 200 za 4,99 USD, 600 za 11,99 USD i 2000 za 29,99 USD. Przy kasie zobaczysz cenę w swojej walucie, z uwzględnieniem podatku, jeśli dotyczy."
+          },
+          {
+            "question": "Kto stoi za Krzyżówkami AI?",
+            "answer": "To niezależny projekt programisty Michaela Navasardyana: łamigłówki, które czyta się tak, jakby napisał je rodzimy autor w każdym z oferowanych języków — w tym po ormiańsku, rosyjsku i angielsku."
           }
         ]
       },
       {
-        "title": "Diagramy",
+        "title": "Łamigłówki",
         "items": [
           {
-            "question": "Czym krzyżówka różni się od szwedzkiej?",
-            "answer": "Krzyżówka podaje numerowane hasła obok diagramu, poziomo i pionowo. Krzyżówka szwedzka drukuje każde hasło w polu diagramu, a strzałka pokazuje, gdzie wpisać odpowiedź — format, którego pełno w czasopismach z łamigłówkami."
+            "question": "Jaka jest różnica między krzyżówką a panamerykanką?",
+            "answer": "Klasyczna krzyżówka ma ponumerowane hasła obok siatki (Poziomo i Pionowo). Panamerykanka (krzyżówka hetmańska/skanword) ma każde hasło wpisane wewnątrz kratki siatki ze strzałką wskazującą miejsce odpowiedzi — to format niezwykle popularny w czasopismach w Rosji i Armenii."
           },
           {
-            "question": "Jak duże są diagramy?",
-            "answer": "Są trzy rozmiary. Klasyczna krzyżówka wypełnia siatkę 9×9, 13×13 albo 15×15 mniej więcej 8–14, 16–24 albo 22–34 słowami, a potem jest przycinana do słów, które zawiera. Szwedzka używa siatki 8×10, 10×13 albo 13×17 — wyższej niż szerszej, bo większość rozwiązuje się na telefonie."
+            "question": "Jak duże są łamigłówki?",
+            "answer": "Dostępne są trzy rozmiary. Klasyczna krzyżówka wypełnia siatkę 9×9, 13×13 lub 15×15 z około 8–14, 16–24 lub 22–34 słowami, a następnie jest przycinana do zawartych słów. Panamerykanka używa siatki 8×10, 10×13 lub 13×17 — wyższej niż szerszej, ponieważ większość osób rozwiązuje je na telefonie."
           },
           {
             "question": "Czym różnią się poziomy trudności?",
-            "answer": "Łatwy bierze słowa codzienne i proste definicje. Średni sięga po szersze słownictwo. Trudny przynosi rzadsze słowa i hasła, nad którymi trzeba się zatrzymać."
+            "answer": "Łatwy używa codziennych słów z prostymi definicjami. Średni sięga po szersze słownictwo. Trudny przynosi rzadsze słowa i definicje, które zmuszają do głębszego zastanowienia."
           },
           {
             "question": "Jakie tematy mogę wybrać?",
-            "answer": "Dwanaście: słowa na co dzień, przyroda, zwierzęta, jedzenie i picie, geografia, historia, nauka, sport, sztuka, dom i codzienność, zawody oraz kultura lokalna — albo wszystkie naraz w jednym diagramie."
+            "answer": "Dwanaście: słowa codzienne, natura, zwierzęta, jedzenie i picie, geografia, historia, nauka, sport, sztuka, dom i codzienność, zawody oraz kultura lokalna — albo pomieszaj je wszystkie w jednej łamigłówce."
           },
           {
             "question": "Czy kiedykolwiek zobaczę to samo słowo dwa razy?",
-            "answer": "Nie na tym samym urządzeniu. Pamięta do 4 000 słów na język — około 130 diagramów — i pomija je w każdym nowym; dopiero potem najstarsze spadają z listy. Wyczyszczenie danych strony w przeglądarce zaczyna listę od nowa."
+            "answer": "Nie na tym samym urządzeniu. System zapamiętuje do 4000 słów na język — co wystarcza na około 130 łamigłówek — i pomija je w każdej nowej gry; dopiero po osiągnięciu tego limitu najstarsze słowa usuwane są z listy. Wyczyszczenie danych strony w przeglądarce resetuje tę listę."
           },
           {
-            "question": "Jak AI pisze hasła?",
-            "answer": "Model Gemini od Google pisze słowa i hasła wprost w danym języku, według poradnika od rodzimych użytkowników. Kod potem sprawdza każde: właściwy alfabet, jedno prawdziwe słowo, uczciwe hasło, które nie zdradza odpowiedzi. Drugie przejście AI robi za redaktora. Co nie przejdzie, odpada i nie jest łatane. Diagram układa kod, nie AI."
+            "question": "Jak AI tworzy definicje haseł?",
+            "answer": "Model Gemini od Google pisze słowa i definicje bezpośrednio w danym języku, podążając za przewodnikiem stylu przygotowanym przez rodzimych użytkowników. Następnie kod sprawdza każde z nich — właściwy alfabet, jedno prawdziwe słowo, uczciwe hasło niezdradzające odpowiedzi — a drugi przebieg AI działa jako edytor. Wszystko, co nie przejdzie weryfikacji, jest odrzucane. Sama siatka jest budowana przez kod, nie przez AI."
           },
           {
-            "question": "Co jeśli hasło jest błędne?",
-            "answer": "Otwórz menu ⋯ nad diagramem i wybierz „Zgłoś hasło”. Gdy trzech różnych graczy zgłosi to samo, zostaje wycofane i już nie wraca."
+            "question": "Co jeśli podana definicja jest błędna?",
+            "answer": "Otwórz menu ⋯ nad siatką i wybierz „Zgłoś definicję”. Gdy trzech różnych graczy zgłosi tę samą definicję, zostanie ona wycofana i nigdy więcej się nie pojawi."
           }
         ]
       },
       {
-        "title": "Gra",
+        "title": "Rozgrywka",
         "items": [
           {
-            "question": "Jak wpisywać odpowiedzi na telefonie albo komputerze?",
-            "answer": "Na komputerze po prostu pisz: nawet jeśli klawiatura jest po angielsku, klawisze wpisują litery diagramu na swoich zwykłych miejscach, bez zmiany układu. Na telefonie albo tablecie pod diagramem pojawia się własna klawiatura krzyżówki, a systemowa jej nie zasłania."
+            "question": "Jak wpisywać odpowiedzi na telefonie lub komputerze?",
+            "answer": "Na komputerze po prostu pisz: nawet jeśli Twoja klawiatura jest ustawiona na inny język, klawisze wpisują litery łamigłówki na ich zwykłych miejscach. Na telefonie lub tablecie pod siatką pojawia się własna klawiatura łamigłówki, a klawiatura systemowa nigdy jej nie zasłania."
           },
           {
-            "question": "Czy mogę sprawdzić odpowiedzi albo dostać podpowiedź?",
-            "answer": "Tak. Sprawdź oznacza błędne litery w jednym polu, w słowie albo w całym diagramie, a Odkryj wpisuje literę, słowo albo wszystko. Włącz „Sprawdzaj w trakcie pisania” w ustawieniach, żeby widzieć pomyłki od razu."
+            "question": "Czy mogę sprawdzić moje odpowiedzi lub skorzystać z podpowiedzi?",
+            "answer": "Tak. Opcja „Sprawdź” zaznacza błędne litery w jednej kratce, jednym słowie lub całej łamigłówce, a „Odkryj” wpisuje literę, słowo lub wszystko. Włącz „Sprawdzaj podczas pisania” w ustawieniach, aby widzieć błędy w momencie ich popełnienia."
           },
           {
-            "question": "Jak traktowane są ormiańskie ու i և oraz rosyjskie Ё?",
-            "answer": "W ormiańskich krzyżówkach ու i և są pojedynczymi literami i każda zajmuje jedno pole, jak w drukowanych; klawiatura na ekranie ma obie, a wpisanie ո, a potem ւ składa je w ու. W rosyjskich Ё zapisuje się jako Е, jak w drukowanych."
+            "question": "Jak traktowane są ormiańskie litery ու i և oraz rosyjskie Ё?",
+            "answer": "W ormiańskich krzyżówkach ու i և to pojedyncze litery i każda zajmuje jedną kratkę; ekranowa klawiatura ma obie. W rosyjskich krzyżówkach Ё jest zapisywane jako Е, tak jak w drukowanych wydaniach."
           },
           {
-            "question": "Czy postęp jest zapisywany?",
-            "answer": "Tak, sam, w trakcie gry. Każda krzyżówka albo szwedzka, którą zaczniesz i zostawisz, jest na liście „Moje diagramy”, z zapisanymi literami, więc dokończysz ją później — także offline."
+            "question": "Czy moje postępy są zapisywane?",
+            "answer": "Tak, automatycznie w trakcie gry. Każda rozpoczęta i niedokończona krzyżówka lub panamerykanka znajduje się w zakładce „Moje łamigłówki” z zapisanymi literami, dzięki czemu możesz kontynuować dowolną z nich później — nawet offline."
           },
           {
-            "question": "Czy da się grać offline albo zainstalować to jak aplikację?",
-            "answer": "Tak. Krzyżówki AI instalują się z przeglądarki jak aplikacja (na iPhonie: Udostępnij → Dodaj do ekranu początkowego). Każdy otwarty diagram zapisuje się z postępem i działa bez sieci; internetu potrzebują tylko nowe."
+            "question": "Czy mogę grać offline lub zainstalować grę jako aplikację?",
+            "answer": "Tak. Krzyżówki AI instalują się z przeglądarki jak aplikacja (na iPhone: Udostępnij → Dodaj do ekranu początkowego). Każda otwarta łamigłówka jest zapisywana wraz z postępami i działa bez połączenia z siecią; tylko nowe łamigłówki wymagają internetu."
           },
           {
-            "question": "Czy mogę wysłać diagram znajomemu?",
-            "answer": "Tak. Stuknij Udostępnij nad diagramem, żeby skopiować link, albo wyślij go przez WhatsApp, Telegram, Facebook, X, VK albo e-mail. Znajomy dostaje dokładnie ten sam diagram i te same hasła."
+            "question": "Czy mogę udostępnić łamigłówkę znajomemu?",
+            "answer": "Tak. Stuknij Udostępnij nad siatką, aby skopiować link lub wysłać go przez WhatsApp, Telegram, Facebook, X, VK albo e-mail. Twój znajomy otrzyma dokładnie tę samą siatkę i definicje."
           },
           {
-            "question": "Czy da się grać z klawiatury albo z czytnikiem ekranu?",
-            "answer": "Tak. Diagram działa w całości z klawiatury i z czytnikami ekranu: każde pole ma etykietę, aktywne hasło jest odczytywane, a sprawdzenia i odkrycia są czytane na głos. Błędne i odkryte litery poznaje się po kształcie, nie tylko po kolorze."
+            "question": "Czy mogę grać za pomocą klawiatury lub czytnika ekranu?",
+            "answer": "Tak. Siatka działa w pełni z klawiatury i z czytnikami ekranu: każda komórka jest etykietowana, aktywne hasło jest odczytywane, a sprawdzenia i odkrycia są na głos komunikowane. Błędne i odkryte litery są oznaczane kształtem, nigdy tylko kolorem."
           }
         ]
       },
@@ -605,11 +626,11 @@
         "items": [
           {
             "question": "Jakie dane przechowujecie?",
-            "answer": "Bardzo mało. Diagramy, postęp, ustawienia i lista widzianych słów zostają w przeglądarce. Serwer trzyma utworzone diagramy (żeby udostępniony link otwierał tę samą siatkę), zgłoszenia haseł z jednokierunkowym skrótem adresu IP i anonimowe liczniki rozwiązań. Bez nazwisk i bez profili."
+            "answer": "Bardzo mało. Twoje łamigłówki, postępy, ustawienia i lista widzianych słów pozostają w Twojej przeglądarce. Serwer przechowuje utworzone łamigłówki (aby udostępniony link otwierał tę samą siatkę), zgłoszenia haseł z jednokierunkowym hashem adresu IP oraz anonimowe statystyki rozwiązań. Bez nazwisk i bez profili."
           },
           {
-            "question": "Czy coś o mnie trafia do AI?",
-            "answer": "Nie. Do modeli Gemini od Google idą tylko ustawienia diagramu — język, temat, trudność — i listy słów, nigdy nic o tobie."
+            "question": "Czy jakiekolwiek dane o mnie są wysyłane do AI?",
+            "answer": "Nie. Do modeli Gemini firmy Google trafiają tylko ustawienia łamigłówki — język, temat, poziom trudności — oraz listy słów, nigdy nic o Tobie."
           }
         ]
       }
@@ -645,57 +666,129 @@
   },
   "Privacy": {
     "title": "Polityka prywatności",
-    "subtitle": "W skrócie: bez konta, bez nazwisk, bez profilowania. Oto wszystko, co przechowujemy.",
+    "subtitle": "W skrócie: konto tylko jeśli chcesz, bez profilowania. Oto wszystko, co przechowujemy.",
     "sections": [
       {
-        "title": "Na twoim urządzeniu",
+        "title": "Na Twoim urządzeniu",
         "paragraphs": [
-          "Przeglądarka trzyma diagramy, które otwierasz, postęp, ustawienia i listę słów już widzianych, żeby się nie powtarzały. Zostaje to na urządzeniu; wyczyszczenie danych strony to usuwa."
+          "Twoja przeglądarka zapamiętuje otwarte łamigłówki, postępy, ustawienia oraz listę słów, które już widziałeś, aby się nie powtarzały. Pozostaje to na Twoim urządzeniu; wyczyszczenie danych strony to usuwa."
         ]
       },
       {
         "title": "Na naszym serwerze",
         "paragraphs": [
-          "Przechowujemy utworzone diagramy, żeby udostępniony link otwierał tę samą siatkę. Gdy zgłaszasz hasło, zostawiamy zgłoszenie z jednokierunkowym skrótem adresu IP, tylko po to, żeby jedna osoba nie mogła sama wycofać hasła. Liczymy też anonimowo, jak się gra (rozwiązane, które słowa odkryto), żeby dostrajać trudność."
+          "Przechowujemy utworzone łamigłówki, aby udostępniony link otwierał tę samą siatkę. Gdy zgłaszasz definicję, zachowujemy zgłoszenie z jednokierunkowym hashem Twojego adresu IP, tylko po to, by jedna osoba nie mogła sama wycofać hasła. Liczymy też anonimowo, jak rozgrywane są łamigłówki (rozwiązane, które słowa zostały odkryte), aby dostosować poziom trudności.",
+          "Aby przyznać każdemu urządzeniu darmową łamigłówkę w miesiącu, strona ustawia plik cookie z losowym identyfikatorem. Przy każdej darmowej łamigłówce zachowujemy ten identyfikator oraz jednokierunkowy hash Twojego adresu IP."
+        ]
+      },
+      {
+        "title": "Konta i kredyty",
+        "paragraphs": [
+          "Jeśli utworzysz konto, przechowujemy Twoje imię i nazwisko, adres e-mail oraz, gdy logujesz się przez Google, Twoje zdjęcie profilowe z Google. Przechowujemy również Twoje saldo kredytów i jego historię: zakup, opłaconą łamigłówkę i każdy zwrot."
+        ]
+      },
+      {
+        "title": "Płatności",
+        "paragraphs": [
+          "Płatności są przetwarzane przez Paddle.com, naszego Oficjalnego Sprzedawcę (Merchant of Record). Paddle zbiera dane płatnicze i kraj rozliczeniowy zgodnie z własną polityką prywatności; nigdy nie widzimy numeru Twojej karty. Od Paddle otrzymujemy kwotę, walutę, podatek i typ metody płatności każdego zakupu."
         ]
       },
       {
         "title": "Dostawca AI",
         "paragraphs": [
-          "Nowe słowa i hasła piszą modele Gemini od Google. Wysyłane są tylko ustawienia diagramu (język, temat, trudność) i listy słów — nigdy nic o tobie."
+          "Nowe słowa i definicje są tworzone przez modele Gemini firmy Google. Wysyłane są tylko ustawienia łamigłówki (język, temat, poziom trudności) oraz listy słów — nigdy żadne informacje o Tobie."
         ]
       },
       {
-        "title": "Statystyki i zgłoszenia błędów",
+        "title": "Analityka i raporty o błędach",
         "paragraphs": [
-          "Jeśli jest włączone, używamy Google Analytics do liczenia odsłon i Sentry do odbioru zgłoszeń błędów. Żadne z nich nie służy do ustalenia, kim jesteś."
+          "Jeśli wyrazisz zgodę, używamy Google Analytics do zliczania odsłon oraz Sentry do odbierania raportów o błędach. Żadne z nich nie służy do Twojej identyfikacji."
         ]
       }
     ]
   },
   "Terms": {
     "title": "Zasady korzystania",
-    "subtitle": "Krzyżówki AI są darmowe, dla zabawy i do nauki.",
+    "subtitle": "Krzyżówki AI służą zabawie i nauce. Niniejszy regulamin obejmuje korzystanie z gry i zakup kredytów.",
     "sections": [
       {
-        "title": "Korzystanie z serwisu",
+        "title": "Korzystanie z usługi",
         "paragraphs": [
-          "Możesz grać, udostępniać i drukować diagramy do użytku osobistego i edukacyjnego. Prosimy, nie obciążaj serwisu automatycznymi żądaniami."
+          "Możesz grać, udostępniać i drukować łamigłówki do użytku osobistego i edukacyjnego. Prosimy nie przeciążać usługi automatycznymi zapytaniami."
+        ]
+      },
+      {
+        "title": "Darmowe łamigłówki i kredyty",
+        "paragraphs": [
+          "Każde urządzenie otrzymuje jedną darmową łamigłówkę w miesiącu kalendarzowym, a każde konto jeszcze jedną. Inne łamigłówki są opłacane kredytami, po cenie pokazanej przed utworzeniem; opłata za łamigłówkę jest pobierana tylko przy jej wygenerowaniu, a otwarcie zapisanej jest darmowe.",
+          "Kredyty kupuje się w pakietach za pomocą jednorazowej płatności — nie ma subskrypcji — i nigdy nie wygasają. Nie mają wartości gotówkowej i nie można ich przenosić."
+        ]
+      },
+      {
+        "title": "Płatności",
+        "paragraphs": [
+          "Nasz proces zamawiania jest prowadzony przez naszego sprzedawcę internetowego Paddle.com. Paddle.com jest Oficjalnym Sprzedawcą (Merchant of Record) dla wszystkich naszych zamówień. Paddle obsługuje wszystkie zapytania obsługi klienta i zwroty."
+        ]
+      },
+      {
+        "title": "Zwroty",
+        "paragraphs": [
+          "Możesz poprosić o zwrot pakietu kredytów w ciągu 14 dni od zakupu, za pośrednictwem Paddle lub pisząc do nas. Zwrot odejmuje kredyty z pakietu z Twojego salda. Kredyty już wydane nie mogą zostać zwrócone, więc pakiet, który został częściowo zużyty, może zostać zwrócony częściowo."
         ]
       },
       {
         "title": "Treści pisane przez AI",
         "paragraphs": [
-          "Słowa i hasła pisze AI i sprawdza je automat, ale pomyłki się zdarzają. Jeśli jakąś znajdziesz, zgłoś ją — tak usuwamy złe hasła."
+          "Słowa i definicje są tworzone przez AI i sprawdzane automatycznie, ale mogą zdarzyć się błędy. Jeśli jakiś znajdziesz, zgłoś go — w ten sposób usuwane są złe definicje."
         ]
       },
       {
-        "title": "Bez gwarancji",
+        "title": "Brak gwarancji",
         "paragraphs": [
-          "Serwis jest udostępniany taki, jaki jest, bez gwarancji dostępności ani dokładności. Możemy zmieniać albo wycofywać funkcje w dowolnej chwili."
+          "Usługa jest świadczona w stanie takim, w jakim się znajduje, bez gwarancji dostępności ani dokładności. Może ulec zmianie lub wycofaniu w dowolnym momencie."
         ]
       }
     ]
+  },
+  "Credits": {
+    "title": "Kredyty",
+    "subtitle": "Jedna darmowa łamigłówka co miesiąc. Potem płać tylko za łamigłówki, które tworzysz — bez subskrypcji, a kredyty nigdy nie wygasają.",
+    "balanceTitle": "Twoje saldo",
+    "freeAvailable": "Twoja darmowa łamigłówka w tym miesiącu czeka.",
+    "freeUsed": "Darmowa łamigłówka na ten miesiąc została wykorzystana. Następna pojawi się {date}.",
+    "guestTitle": "Zyskaj więcej darmowych łamigłówek",
+    "guestText": "Zaloguj się, aby otrzymywać darmową łamigłówkę co miesiąc na swoim koncie i kupować kredyty.",
+    "pricesTitle": "Ile kosztuje łamigłówka",
+    "pricesText": "W kredytach, według rozmiaru i trudności. Otwarcie łamigłówki udostępnionej przez kogoś lub z Twojej historii jest zawsze darmowe.",
+    "size": "Rozmiar",
+    "packsTitle": "Pakiety kredytów",
+    "packs": {
+      "starter": "Na start",
+      "popular": "Popularny",
+      "big": "Duży"
+    },
+    "popularBadge": "Najpopularniejszy",
+    "bestValueBadge": "Najlepsza okazja",
+    "packPuzzles": "Około {count} średnich łamigłówek",
+    "buy": "Kup",
+    "signInToBuy": "Zaloguj się, aby kupić",
+    "shopClosed": "Zakup kredytów jest w tej chwili niedostępny. Spróbuj ponownie wkrótce.",
+    "checkoutFailed": "Nie udało się otworzyć kasy. Spróbuj ponownie.",
+    "paddleNote": "Płatności są przetwarzane przez Paddle.com, naszego sprzedawcę i Oficjalnego Sprzedawcę (Merchant of Record). Ceny zawierają podatek VAT, jeśli dotyczy; ostateczna cena w Twojej walucie jest widoczna przy kasie.",
+    "refundsNote": "Zwroty zostały opisane w regulaminie."
+  },
+  "Payments": {
+    "checkoutTitle": "Kasa",
+    "opening": "Otwieranie bezpiecznej kasy…",
+    "checkoutUnavailable": "Nie udało się otworzyć kasy. Spróbuj ponownie ze strony kredytów.",
+    "backToCredits": "Powrót do kredytów",
+    "verifying": "Potwierdzanie płatności…",
+    "successTitle": "Dziękujemy!",
+    "successText": "{count, plural, one {# kredyt został dodany} few {# kredyty zostały dodane} many {# kredytów zostało dodanych} other {# kredytu zostało dodanych}} do Twojego salda.",
+    "pendingText": "Twoja płatność przeszła. Kredyty pojawią się na Twoim saldzie w ciągu kilku minut.",
+    "failedText": "Płatność nie powiodła się, więc opłata nie została pobrana. Możesz spróbować ponownie.",
+    "verifyError": "Nie mogliśmy teraz potwierdzić płatności. Jeśli pobrano środki, kredyty i tak dotrą — sprawdź saldo za parę minut.",
+    "makePuzzle": "Stwórz łamigłówkę"
   },
   "Contact": {
     "title": "Napisz do nas",

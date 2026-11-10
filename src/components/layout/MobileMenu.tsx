@@ -1,7 +1,7 @@
 'use client'
 
 import { useState } from 'react'
-import { BookOpen, CircleHelp, Grid3x3, History, LayoutGrid, type LucideIcon, Mail, Menu, Shapes } from 'lucide-react'
+import { BookOpen, CircleHelp, Coins, Grid3x3, History, LayoutGrid, type LucideIcon, Mail, Menu, Shapes } from 'lucide-react'
 import { useTranslations } from 'next-intl'
 import { usePathname } from '@i18n/navigation'
 import { ROUTES } from '@constants/routes'
@@ -17,6 +17,7 @@ const ITEMS: { labelKey: string; href: string; icon: LucideIcon }[] = [
   { labelKey: 'scanword', href: ROUTES.scanword, icon: LayoutGrid },
   { labelKey: 'topics', href: ROUTES.topics, icon: Shapes },
   { labelKey: 'history', href: ROUTES.history, icon: History },
+  { labelKey: 'credits', href: ROUTES.credits, icon: Coins },
   { labelKey: 'rules', href: ROUTES.rules, icon: BookOpen },
   { labelKey: 'faq', href: ROUTES.faq, icon: CircleHelp },
   { labelKey: 'contact', href: ROUTES.contact, icon: Mail },

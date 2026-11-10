@@ -42,6 +42,12 @@ export default defineConfig({
             CORS_ORIGIN: 'http://localhost:7007',
             POOL_REFILL_ENABLED: 'false',
             RATE_LIMIT_ENABLED: 'false',
+            // Paddle: no API key (the shop is closed), but webhooks verify against this secret.
+            PADDLE_API_KEY: '',
+            PADDLE_WEBHOOK_SECRET: 'pdl_ntfset_test_secret',
+            PADDLE_PRICE_ID_STARTER: 'pri_test_starter',
+            PADDLE_PRICE_ID_POPULAR: 'pri_test_popular',
+            PADDLE_PRICE_ID_BIG: 'pri_test_big',
           },
         },
       },

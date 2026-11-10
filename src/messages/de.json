@@ -22,6 +22,7 @@
     "scanword": "Schwedenrätsel",
     "topics": "Themen",
     "history": "Meine Rätsel",
+    "credits": "Guthaben",
     "rules": "Spielanleitung",
     "faq": "Fragen",
     "about": "Über uns",
@@ -66,6 +67,9 @@
     "topicDescription": "Kostenlose Kreuzworträtsel und Schwedenrätsel zu {topic}, von einer KI erzeugt. {description}",
     "historyTitle": "Meine Rätsel",
     "historyDescription": "Kreuzworträtsel und Schwedenrätsel, die du auf diesem Gerät angefangen und noch nicht beendet hast, mit gespeichertem Fortschritt.",
+    "creditsTitle": "Guthaben & Preise",
+    "creditsDescription": "Ein kostenloses Rätsel pro Monat, danach Guthaben-Pakete ohne Abo: Was jedes Rätsel kostet und wie du Guthaben kaufst.",
+    "paymentTitle": "Zahlung",
     "rulesTitle": "Kreuzworträtsel und Schwedenrätsel lösen",
     "rulesDescription": "So löst du hier ein Kreuzworträtsel oder Schwedenrätsel: Buchstaben eingeben, im Gitter bewegen, prüfen und aufdecken, Tastaturkürzel.",
     "faqTitle": "Häufige Fragen: KI-Kreuzworträtsel, Sprachen und Datenschutz",
@@ -73,7 +77,7 @@
     "aboutTitle": "Über uns: wie unsere KI Kreuzworträtsel macht",
     "aboutDescription": "Warum wir einen kostenlosen Generator gebaut haben, der kein Wort wiederholt, und wie die KI die Fragen in jeder Sprache selbst schreibt.",
     "privacyTitle": "Datenschutzerklärung",
-    "privacyDescription": "Was Kreuzworträtsel KI speichert, wo und warum. Kein Konto, keine Verfolgung, wer du bist.",
+    "privacyDescription": "Was Kreuzworträtsel KI speichert, wo und warum – einschließlich Konten und Zahlungen, und ganz ohne Tracking deiner Person.",
     "termsTitle": "Nutzungsbedingungen",
     "termsDescription": "Die einfachen Bedingungen für Kreuzworträtsel KI.",
     "contactTitle": "Schreib uns",
@@ -168,12 +172,25 @@
     "creating": "Dein Rätsel wird gebaut…",
     "creatingHint": "Wir suchen Wörter, die du noch nicht gesehen hast. Neue können ein paar Sekunden dauern.",
     "cancel": "Abbrechen",
-    "freshHint": "Kostenlos, ohne Anmeldung. Jedes Rätsel bringt Wörter, die du hier noch nicht hattest.",
+    "freshHint": "Jedes Rätsel enthält Wörter, die du hier noch nicht gesehen hast.",
     "exhausted": "Du hast gerade alle Wörter für diese Auswahl gespielt! Wir schreiben neue. Versuch ein anderes Thema, oder komm in einer Minute wieder."
+  },
+  "Billing": {
+    "credits": "{count, plural, one {# Guthabenpunkt} other {# Guthabenpunkte}}",
+    "balance": "Dein Guthaben: {count, plural, one {# Guthabenpunkt} other {# Guthabenpunkte}}",
+    "cost": "Dieses Rätsel: {count, plural, one {# Guthabenpunkt} other {# Guthabenpunkte}}",
+    "freeNow": "Dieses Rätsel ist gratis – dein kostenloses Rätsel des Monats.",
+    "youHave": "Du hast {count, plural, one {# Guthabenpunkt} other {# Guthabenpunkte}}.",
+    "notEnough": "Nicht genug Guthaben für dieses Rätsel.",
+    "guestUsed": "Du hast das kostenlose Rätsel dieses Monats aufgebraucht. Melde dich an, um jeden Monat ein weiteres Gratis-Rätsel zu erhalten und Guthaben zu kaufen.",
+    "refusedSignIn": "Das gratis Rätsel für diesen Monat ist aufgebraucht. Melde dich an, um ein weiteres zu erhalten und Guthaben zu kaufen.",
+    "refusedCredits": "Nicht genug Guthaben für dieses Rätsel. Lade dein Konto auf, um weiterzuspielen.",
+    "signIn": "Anmelden",
+    "buyCredits": "Guthaben kaufen"
   },
   "Home": {
     "hero": {
-      "eyebrow": "Kostenlos · Ohne Anmeldung · Funktioniert offline",
+      "eyebrow": "Kostenlos testen · Kein Abo · Funktioniert offline",
       "title": "Kreuzworträtsel erstellen, <mark>immer neu</mark>: Tiere, Essen, Geografie, Geschichte, Wissenschaft und Sport",
       "subtitle": "Wähl ein Thema und eine Schwierigkeit. Die KI schreibt die Fragen in deiner Sprache, und dasselbe Wort kommt nicht zweimal.",
       "lede": "Mach ein Kreuzworträtsel oder Schwedenrätsel online, kostenlos und ohne Anmeldung. Die Themen reichen von Tieren, Essen und Geografie über Geschichte, Wissenschaft und Sport bis zu Kunst, Zuhause, Berufen und deutscher Kultur, oder misch sie alle."
@@ -203,8 +220,8 @@
     "topicsTitle": "Wähl ein Thema",
     "topicsSubtitle": "Von den Vögeln im Garten bis zu berühmten Flüssen, oder misch alle Themen.",
     "faqTitle": "Fragen und Antworten",
-    "faq1Question": "Ist Kreuzworträtsel KI wirklich kostenlos?",
-    "faq1Answer": "Ja. Jedes Kreuzworträtsel und jedes Schwedenrätsel ist kostenlos, ohne Konto, ohne Anmeldung und ohne Limit, wie viele du löst.",
+    "faq1Question": "Ist Kreuzworträtsel KI kostenlos?",
+    "faq1Answer": "Dein erstes Rätsel in jedem Monat ist kostenlos, ganz ohne Registrierung. Durch die Anmeldung erhältst du ein weiteres gratis. Danach kosten Rätsel Guthaben, das du einmalig und ohne Abo kaufst. Ein Rätsel zu spielen, das jemand mit dir geteilt hat, ist immer kostenlos.",
     "faq2Question": "Sehe ich dieselben Wörter wieder?",
     "faq2Answer": "Nein. Dein Gerät führt eine Liste der Wörter, die es schon gezeigt hat, und lässt sie aus jedem neuen Rätsel weg. Wenn du die Website-Daten im Browser löschst, fängt die Liste von vorn an.",
     "faq3Question": "In welchen Sprachen kann ich spielen?",
@@ -519,19 +536,23 @@
         "items": [
           {
             "question": "Was ist Kreuzworträtsel KI?",
-            "answer": "Kreuzworträtsel KI ist eine kostenlose Website, die Kreuzworträtsel und Schwedenrätsel in dreiunddreißig Sprachen erzeugt. Ein KI-Modell schreibt Wörter und Fragen in jeder Sprache selbst, der Code baut das Gitter, und jedes Gerät bekommt nur Wörter, die es noch nicht gesehen hat."
+            "answer": "Kreuzworträtsel KI ist eine Website, die Kreuzworträtsel und Schwedenrätsel in dreiunddreißig Sprachen generiert. Ein KI-Modell schreibt die Wörter und Hinweise muttersprachlich für jede Sprache, ein Programm erstellt das Gitter, und jedes Gerät erhält nur Wörter, die es noch nicht gesehen hat."
           },
           {
-            "question": "Ist es wirklich kostenlos?",
-            "answer": "Ja. Jedes Rätsel ist kostenlos: kein Konto, keine Anmeldung, kein Abo und keine Werbung."
+            "question": "Ist Kreuzworträtsel KI kostenlos?",
+            "answer": "Teilweise. Dein erstes Rätsel in jedem Monat ist kostenlos, ganz ohne Anmelden. Mit einer Anmeldung erhältst du ein zweites Gratis-Rätsel pro Monat. Darüber hinaus werden Rätsel mit Guthaben bezahlt: Du kaufst einmalig ein Paket – es gibt kein Abo, das Guthaben verfällt nie und es gibt keine Werbung. Ein Rätsel zu spielen, das jemand mit dir geteilt hat, ist immer gratis."
           },
           {
             "question": "Brauche ich ein Konto?",
-            "answer": "Nein. Es gibt nichts anzumelden. Fortschritt, Einstellungen und die Liste der schon gesehenen Wörter bleiben im Browser, auf deinem Gerät."
+            "answer": "Nicht für dein monatliches Gratis-Rätsel: Dein Fortschritt, deine Einstellungen und die Wörter, die du bereits gesehen hast, werden in deinem Browser gespeichert. Ein Konto bringt dir ein zweites kostenloses Rätsel pro Monat und ermöglicht es dir, Guthaben zu kaufen und zu behalten."
           },
           {
-            "question": "Wer macht Kreuzworträtsel KI?",
-            "answer": "Es ist ein unabhängiges Projekt des Entwicklers Michael Navasardyan: Rätsel, die sich lesen, als hätte sie jemand von dort geschrieben, in jeder Sprache der Seite, darunter Armenisch, Russisch und Englisch."
+            "question": "Wie viel kostet ein Rätsel?",
+            "answer": "Ein kleines Rätsel kostet 5 Punkte, ein mittleres 10 und ein großes 15; mittlere Schwierigkeit kostet 1 Punkt extra, schwere 2 Punkte extra. Guthaben gibt es in Paketen von 200 Punkten für 4,99 $, 600 für 11,99 $ und 2.000 für 29,99 $. Der Kassenbereich zeigt den Preis in deiner Währung inkl. eventueller Steuern an."
+          },
+          {
+            "question": "Wer steckt hinter Kreuzworträtsel KI?",
+            "answer": "Es ist ein unabhängiges Projekt des Entwicklers Michael Navasardyan: Rätsel, die sich so lesen, als hätte sie ein lokaler Autor verfasst – in allen angebotenen Sprachen, darunter Armenisch, Russisch und Englisch."
           }
         ]
       },
@@ -539,32 +560,32 @@
         "title": "Die Rätsel",
         "items": [
           {
-            "question": "Was ist der Unterschied zwischen Kreuzworträtsel und Schwedenrätsel?",
-            "answer": "Beim Kreuzworträtsel stehen die nummerierten Fragen neben dem Gitter, waagerecht und senkrecht. Beim Schwedenrätsel steht jede Frage in einem Feld, mit einem Pfeil zur Antwort. So sind die Rätselhefte voll davon."
+            "question": "Was ist der Unterschied zwischen einem Kreuzworträtsel und einem Schwedenrätsel?",
+            "answer": "Ein klassisches Kreuzworträtsel listet nummerierte Hinweise neben dem Gitter auf (Waagerecht und Senkrecht). Ein Schwedenrätsel enthält die Hinweise direkt in den Gitterkästchen mit einem Pfeil, der in Richtung der Antwort zeigt – genau das Format, mit dem Rätselmagazine in vielen Ländern gefüllt sind."
           },
           {
             "question": "Wie groß sind die Rätsel?",
-            "answer": "Es gibt drei Größen. Ein klassisches Kreuzworträtsel füllt ein Gitter von 9×9, 13×13 oder 15×15 mit etwa 8–14, 16–24 oder 22–34 Wörtern und wird dann auf den Inhalt zugeschnitten. Ein Schwedenrätsel nutzt 8×10, 10×13 oder 13×17, höher als breit, weil die meisten auf dem Handy gelöst werden."
+            "answer": "Es gibt drei Größen. Ein klassisches Kreuzworträtsel füllt ein 9×9, 13×13 oder 15×15 Gitter mit etwa 8–14, 16–24 oder 22–34 Wörtern und wird dann auf die enthaltenen Wörter zugeschnitten. Ein Schwedenrätsel nutzt ein 8×10, 10×13 oder 13×17 Gitter – höher als breit, da die meisten Rätsel auf dem Smartphone gelöst werden."
           },
           {
-            "question": "Wie unterscheiden sich die Stufen?",
-            "answer": "Leicht nimmt Alltagswörter mit direkten Erklärungen. Mittel greift weiter in den Wortschatz. Schwer bringt seltenere Wörter und Fragen, bei denen man zweimal hinschaut."
+            "question": "Wie unterscheiden sich die Schwierigkeitsgrade?",
+            "answer": "Einfach nutzt alltägliche Wörter mit direkten Definitionen. Mittel greift auf einen umfangreicheren Wortschatz zurück. Schwer bringt seltenere Wörter und Hinweise, die dich zweimal nachdenken lassen."
           },
           {
             "question": "Welche Themen kann ich wählen?",
-            "answer": "Zwölf: Alltagswörter, Natur, Tiere, Essen und Trinken, Geografie, Geschichte, Wissenschaft, Sport, Kunst, Zuhause und Alltag, Berufe und deutsche Kultur. Du kannst auch alle mischen."
+            "answer": "Zwölf Themen: Alltags Wörter, Natur, Tiere, Essen & Trinken, Geografie, Geschichte, Wissenschaft, Sport, Kunst, Haushalt & Alltag, Berufe und Lokalkultur – oder du mischst sie alle in einem Rätsel."
           },
           {
-            "question": "Sehe ich ein Wort jemals zweimal?",
-            "answer": "Nicht auf demselben Gerät. Es merkt sich bis zu 4000 Wörter je Sprache, ungefähr 130 Rätsel, und lässt sie aus jedem neuen weg. Erst danach fallen die ältesten von der Liste. Löschst du die Website-Daten, beginnt die Liste von vorn."
+            "question": "Sieht man dasselbe Wort zweimal?",
+            "answer": "Nicht auf demselben Gerät. Es merkt sich bis zu 4.000 Wörter pro Sprache – das reicht für etwa 130 Rätsel – und schließt diese bei jedem neuen Rätsel aus. Erst danach fallen die ältesten Wörter aus der Liste. Das Löschen deiner Browserdaten setzt die Liste zurück."
           },
           {
-            "question": "Wie schreibt die KI die Fragen?",
-            "answer": "Googles Modell Gemini schreibt Wörter und Fragen direkt in jeder Sprache, nach einem Stilführer von Muttersprachlern. Der Code prüft jede: das richtige Alphabet, ein echtes Wort, eine faire Frage, die die Antwort nicht verrät. Ein zweiter KI-Durchgang redigiert. Was durchfällt, wird verworfen, nie geflickt. Das Gitter baut der Code, nicht die KI."
+            "question": "Wie schreibt die KI die Hinweise?",
+            "answer": "Das Gemini-Modell von Google schreibt Wörter und Hinweise direkt in der jeweiligen Sprache und folgt dabei einem Stilfaden von Muttersprachlern. Ein Code prüft danach jeden Eintrag – auf das richtige Alphabet, ein echtes Wort und einen fairen Hinweis, der die Antwort nicht verrät. Ein zweiter KI-Durchlauf fungiert als Lektor. Alles, was durchfällt, wird verworfen. Das Gitter selbst wird von Code gebaut, nicht von der KI."
           },
           {
-            "question": "Was, wenn eine Frage falsch ist?",
-            "answer": "Öffne das Menü ⋯ über dem Gitter und wähle «Frage melden». Melden drei verschiedene Spieler dieselbe Frage, wird sie ausgemustert und kommt nicht wieder."
+            "question": "Was ist, wenn ein Hinweis falsch ist?",
+            "answer": "Öffne das ⋯ Menü über dem Gitter und wähle „Hinweis melden“. Sobald drei verschiedene Spieler denselben Hinweis melden, wird er entfernt und erscheint nie wieder."
           }
         ]
       },
@@ -572,32 +593,32 @@
         "title": "Spielen",
         "items": [
           {
-            "question": "Wie gebe ich Antworten auf dem Handy oder Computer ein?",
-            "answer": "Am Computer tippst du einfach: Auch wenn die Tastatur auf Englisch steht, schreiben die Tasten die Buchstaben des Rätsels an ihrer gewohnten Stelle, ohne die Belegung zu wechseln. Auf Handy oder Tablet erscheint die eigene Tastatur unter dem Gitter, und die Systemtastatur verdeckt es nicht."
+            "question": "Wie tippe ich Antworten auf einem Smartphone oder Computer?",
+            "answer": "Auf dem Computer tippst du einfach los: Selbst wenn deine Tastatur auf Englisch steht, tippen die Tasten die Buchstaben des Rätsels an ihren gewohnten Stellen – du musst kein Layout wechseln. Auf dem Smartphone oder Tablet erscheint die eigene Tastatur des Rätsels unter dem Gitter, sodass die Systemtastatur nie etwas verdeckt."
           },
           {
-            "question": "Kann ich Antworten prüfen oder einen Hinweis holen?",
-            "answer": "Ja. Prüfen markiert falsche Buchstaben in einem Feld, einem Wort oder dem ganzen Rätsel, und Aufdecken füllt einen Buchstaben, ein Wort oder alles. Schalt «Beim Tippen prüfen» ein, dann siehst du den Fehler im Moment, in dem er entsteht."
+            "question": "Kann ich meine Antworten überprüfen oder einen Tipp bekommen?",
+            "answer": "Ja. „Prüfen“ markiert falsche Buchstaben in einem Kästchen, einem Wort oder im gesamten Rätsel, und „Enthüllen“ füllt einen Buchstaben, ein Wort oder alles aus. Aktiviere „Beim Tippen prüfen“ in den Einstellungen, um Fehler sofort zu sehen."
           },
           {
-            "question": "Wie werden armenisches ու und և und russisches Ё behandelt?",
-            "answer": "In armenischen Rätseln sind ու und և Einzelbuchstaben und füllen je ein Feld, wie in gedruckten Rätseln. Die Bildschirmtastatur hat beide, und ո gefolgt von ւ wird zu ու. Im Russischen wird Ё als Е geschrieben, wie im Druck."
+            "question": "Wie werden armenisch ու und և sowie russisch Ё gehandhabt?",
+            "answer": "In armenischen Rätseln sind ու und և einzelne Buchstaben und füllen jeweils ein Kästchen; die Bildschirmtastatur enthält beide. In russischen Rätseln wird Ё als Е geschrieben, genau wie in gedruckten Rätseln."
           },
           {
             "question": "Wird mein Fortschritt gespeichert?",
-            "answer": "Ja, von selbst, während du spielst. Jedes angefangene und nicht beendete Rätsel steht unter «Meine Rätsel», mit deinen Buchstaben, damit du später weitermachen kannst, auch offline."
+            "answer": "Ja, automatisch während des Spielens. Jedes angefangene Kreuzwort- oder Schwedenrätsel wird unter „Meine Rätsel“ mit deinen gespeicherten Buchstaben aufgelistet, sodass du jederzeit weitermachen kannst – sogar offline."
           },
           {
             "question": "Kann ich offline spielen oder es als App installieren?",
-            "answer": "Ja. Kreuzworträtsel KI lässt sich aus dem Browser wie eine App installieren (auf dem iPhone: Teilen → Zum Home-Bildschirm). Jedes geöffnete Rätsel wird mit dem Fortschritt gespeichert und läuft ohne Verbindung weiter. Nur neue Rätsel brauchen Internet."
+            "answer": "Ja. Kreuzworträtsel KI lässt sich aus deinem Browser wie eine App installieren (auf dem iPhone: Teilen → Zum Home-Bildschirm). Jedes geöffnete Rätsel wird mit deinem Fortschritt gespeichert und funktioniert ohne Internetverbindung weiter. Nur für neue Rätsel brauchst du Internet."
           },
           {
-            "question": "Kann ich ein Rätsel teilen?",
-            "answer": "Ja. Tippe über dem Gitter auf Teilen, um den Link zu kopieren, oder schick ihn über WhatsApp, Telegram, Facebook, X, VK oder E-Mail. Die andere Person bekommt genau dasselbe Gitter und dieselben Fragen."
+            "question": "Kann ich ein Rätsel mit Freunden teilen?",
+            "answer": "Ja. Tippe auf „Teilen“ über dem Gitter, um den Link zu kopieren, oder sende ihn über WhatsApp, Telegram, Facebook, X, VK oder E-Mail. Deine Freunde erhalten genau dasselbe Gitter und dieselben Hinweise."
           },
           {
-            "question": "Geht das mit Tastatur oder Bildschirmleser?",
-            "answer": "Ja. Das Gitter funktioniert vollständig über die Tastatur und mit Bildschirmlesern: Jedes Feld ist benannt, die aktive Frage wird angesagt, Prüfungen und Aufdeckungen werden vorgelesen. Falsch und aufgedeckt sind an der Form zu erkennen, nicht nur an der Farbe."
+            "question": "Kann ich mit Tastatur oder Screenreader spielen?",
+            "answer": "Ja. Das Gitter lässt sich vollständig über die Tastatur und mit Screenreadern bedienen: Jedes Kästchen ist beschriftet, der aktive Hinweis wird angesagt, und Prüfungen sowie Enthüllungen werden vorgelesen. Falsche und aufgedeckte Buchstaben sind durch Formen und nie allein durch Farbe markiert."
           }
         ]
       },
@@ -605,12 +626,12 @@
         "title": "Datenschutz",
         "items": [
           {
-            "question": "Welche Daten behaltet ihr?",
-            "answer": "Sehr wenige. Deine Rätsel, der Fortschritt, die Einstellungen und die Liste gesehener Wörter bleiben im Browser. Der Server speichert erstellte Rätsel (damit ein geteilter Link dasselbe Gitter öffnet), Fragemeldungen mit einem nicht umkehrbaren Hash der IP-Adresse und anonyme Zählungen gelöster Rätsel. Keine Namen, keine Profile."
+            "question": "Welche Daten werden gespeichert?",
+            "answer": "Sehr wenige. Deine Rätsel, dein Fortschritt, deine Einstellungen und die Liste der gesehenen Wörter bleiben in deinem Browser. Der Server speichert die erstellten Rätsel (damit ein geteilter Link dasselbe Gitter öffnet), Hinweismeldungen mit einem Anonymisierungs-Hash der IP-Adresse und anonyme Lösungszahlen. Keine Namen, keine Profile."
           },
           {
-            "question": "Geht etwas über mich an die KI?",
-            "answer": "Nein. An Googles Gemini-Modelle gehen nur die Rätseleinstellungen (Sprache, Thema, Schwierigkeit) und Wortlisten, nie etwas über dich."
+            "question": "Wird etwas über mich an die KI gesendet?",
+            "answer": "Nein. Nur Rätseleinstellungen (Sprache, Thema, Schwierigkeit) und Wortlisten werden an die Gemini-Modelle von Google gesendet – niemals persönliche Daten über dich."
           }
         ]
       }
@@ -646,57 +667,129 @@
   },
   "Privacy": {
     "title": "Datenschutzerklärung",
-    "subtitle": "Kurzfassung: kein Konto, keine Namen, keine Profile. Das hier bewahren wir auf.",
+    "subtitle": "Kurzfassung: Ein Konto nur, wenn du möchtest, kein Profiling. Hier ist alles, was wir speichern.",
     "sections": [
       {
         "title": "Auf deinem Gerät",
         "paragraphs": [
-          "Der Browser speichert die Rätsel, die du öffnest, deinen Fortschritt, deine Einstellungen und eine Liste der Wörter, die du schon gesehen hast, damit sie nicht wiederkommen. Das bleibt auf dem Gerät. Löschst du die Website-Daten, ist es weg."
+          "Dein Browser speichert die von dir geöffneten Rätsel, deinen Fortschritt, deine Einstellungen und eine Liste der Wörter, die du bereits gesehen hast, damit sie sich nicht wiederholen. Dies bleibt auf deinem Gerät; das Löschen von Website-Daten entfernt diese Informationen."
         ]
       },
       {
         "title": "Auf unserem Server",
         "paragraphs": [
-          "Wir speichern erstellte Rätsel, damit ein geteilter Link dasselbe Gitter öffnet. Meldest du eine Frage, behalten wir die Meldung mit einem nicht umkehrbaren Hash deiner IP-Adresse, nur damit nicht eine einzelne Person eine Frage allein ausmustern kann. Wir zählen außerdem anonym, wie gespielt wird (gelöst, welche Wörter aufgedeckt wurden), um die Schwierigkeit zu justieren."
+          "Wir speichern die erstellten Rätsel, damit ein geteilter Link dasselbe Gitter öffnet. Wenn du einen Hinweis meldest, speichern wir die Meldung mit einem Einweg-Hash deiner IP-Adresse, damit nicht eine einzelne Person allein einen Hinweis entfernen kann. Wir zählen außerdem anonym, wie Rätsel gespielt werden (gelöst, welche Wörter enthüllt wurden), um die Schwierigkeit anzupassen.",
+          "Um jedem Gerät sein monatliches Gratis-Rätsel zu gewähren, setzt die Website ein Cookie mit einer zufälligen Kennung. Bei jedem Gratis-Rätsel speichern wir diese Kennung und einen Einweg-Hash deiner IP-Adresse."
+        ]
+      },
+      {
+        "title": "Konten und Guthaben",
+        "paragraphs": [
+          "Wenn du ein Konto erstellst, speichern wir deinen Namen, deine E-Mail-Adresse und, wenn du dich mit Google anmeldest, dein Google-Profilbild. Wir speichern auch deinen Guthabenstand und dessen Verlauf: jeden Kauf, jedes bezahlte Rätsel und jede Rückerstattung."
+        ]
+      },
+      {
+        "title": "Zahlungen",
+        "paragraphs": [
+          "Zahlungen werden von Paddle.com abgewickelt, unserem Händler des Vertrauens (Merchant of Record). Paddle erhebt deine Zahlungsdaten und dein Rechnungsland gemäß seiner eigenen Datenschutzrichtlinie; wir sehen deine Kartennummer nie. Von Paddle erhalten wir den Betrag, die Währung, die Steuer und die Zahlungsart jedes Kaufs."
         ]
       },
       {
         "title": "KI-Anbieter",
         "paragraphs": [
-          "Neue Wörter und Fragen schreiben Googles Gemini-Modelle. Gesendet werden nur die Rätseleinstellungen (Sprache, Thema, Schwierigkeit) und Wortlisten, nie etwas über dich."
+          "Neue Wörter und Hinweise werden von den Gemini-Modellen von Google geschrieben. Es werden nur die Rätseleinstellungen (Sprache, Thema, Schwierigkeit) und Wortlisten gesendet – niemals persönliche Daten."
         ]
       },
       {
-        "title": "Auswertung und Fehlermeldungen",
+        "title": "Analysen und Fehlerberichte",
         "paragraphs": [
-          "Wenn es eingeschaltet ist, nutzen wir Google Analytics, um Seitenaufrufe zu zählen, und Sentry, um Fehlermeldungen zu empfangen. Beides dient nicht dazu, dich zu erkennen."
+          "Sofern aktiviert, nutzen wir Google Analytics zur Zählung von Seitenaufrufen und Sentry für Fehlerberichte. Keines von beidem wird verwendet, um dich zu identifizieren."
         ]
       }
     ]
   },
   "Terms": {
     "title": "Nutzungsbedingungen",
-    "subtitle": "Kreuzworträtsel KI ist kostenlos, zum Spielen und zum Lernen.",
+    "subtitle": "Kreuzworträtsel KI dient der Unterhaltung und dem Lernen. Diese Bedingungen gelten für das Spielen und den Kauf von Guthaben.",
     "sections": [
       {
         "title": "Nutzung des Dienstes",
         "paragraphs": [
-          "Du darfst die Rätsel für den privaten und schulischen Gebrauch spielen, teilen und drucken. Bitte überlaste den Dienst nicht mit automatischen Anfragen."
+          "Du darfst die Rätsel für den persönlichen und Bildungsgebrauch spielen, teilen und ausdrucken. Bitte überlaste den Dienst nicht mit automatisierten Anfragen."
         ]
       },
       {
-        "title": "Von der KI geschriebener Inhalt",
+        "title": "Kostenlose Rätsel und Guthaben",
         "paragraphs": [
-          "Wörter und Fragen schreibt eine KI, und sie werden automatisch geprüft, aber Fehler können vorkommen. Wenn du einen findest, melde ihn. So verschwinden schlechte Fragen."
+          "Jedes Gerät erhält in jedem Kalendermonat ein kostenloses Rätsel, und jedes Konto ein weiteres. Andere Rätsel werden mit Guthaben bezahlt, zum Preis, der vor der Erstellung angezeigt wird; ein Rätsel wird erst berechnet, wenn es erstellt wird, und das Öffnen eines gespeicherten Rätsels ist kostenlos.",
+          "Guthaben wird in Paketen mit einer einmaligen Zahlung gekauft – es gibt kein Abo – und es verfällt nie. Guthaben hat keinen Geldwert und kann nicht übertragen werden."
         ]
       },
       {
-        "title": "Keine Gewähr",
+        "title": "Zahlungen",
         "paragraphs": [
-          "Der Dienst wird so bereitgestellt, wie er ist, ohne Zusage von Verfügbarkeit oder Richtigkeit. Wir können Funktionen jederzeit ändern oder einstellen."
+          "Unser Bestellvorgang wird von unserem Online-Wiederverkäufer Paddle.com durchgeführt. Paddle.com ist der Merchant of Record für alle unsere Bestellungen. Paddle kümmert sich um alle Kundenservice-Anfragen und Abwicklungen von Rückgaben."
+        ]
+      },
+      {
+        "title": "Rückerstattungen",
+        "paragraphs": [
+          "Du kannst innerhalb von 14 Tagen nach dem Kauf eine Rückerstattung für ein Guthaben-Paket über Paddle oder per E-Mail an uns anfordern. Bei einer Rückerstattung werden die Punkte des Pakets von deinem Guthaben abgezogen. Bereits ausgegebenes Guthaben kann nicht zurückerstattet werden, daher kann ein teilweise genutztes Paket nur teilweise erstattet werden."
+        ]
+      },
+      {
+        "title": "KI-generierte Inhalte",
+        "paragraphs": [
+          "Wörter und Hinweise werden von einer KI geschrieben und automatisch geprüft, aber Fehler können vorkommen. Wenn du einen findest, melde ihn bitte – so werden schlechte Hinweise entfernt."
+        ]
+      },
+      {
+        "title": "Keine Gewährleistung",
+        "paragraphs": [
+          "Der Dienst wird ohne Mängelgewähr bereitgestellt, ohne Garantien für Verfügbarkeit oder Richtigkeit. Wir können Funktionen jederzeit ändern oder einstellen."
         ]
       }
     ]
+  },
+  "Credits": {
+    "title": "Guthaben",
+    "subtitle": "Ein kostenloses Rätsel jeden Monat. Danach zahlst du nur für die Rätsel, die du erstellst – kein Abo, und das Guthaben verfällt nie.",
+    "balanceTitle": "Dein Kontostand",
+    "freeAvailable": "Dein kostenloses Rätsel für diesen Monat wartet auf dich.",
+    "freeUsed": "Das kostenlose Rätsel dieses Monats wurde genutzt. Das nächste gibt es am {date}.",
+    "guestTitle": "Hole dir mehr Gratis-Rätsel",
+    "guestText": "Melde dich an, um jeden Monat ein kostenloses Rätsel für dein Konto zu erhalten und Guthaben zu kaufen.",
+    "pricesTitle": "Was ein Rätsel kostet",
+    "pricesText": "In Guthabenpunkten, nach Größe und Schwierigkeitsgrad. Das Öffnen eines geteilten Rätsels oder eines Rätsels aus deinem Verlauf ist immer kostenlos.",
+    "size": "Größe",
+    "packsTitle": "Guthaben-Pakete",
+    "packs": {
+      "starter": "Starter",
+      "popular": "Beliebt",
+      "big": "Groß"
+    },
+    "popularBadge": "Am beliebtesten",
+    "bestValueBadge": "Bester Wert",
+    "packPuzzles": "Ca. {count} mittlere Rätsel",
+    "buy": "Kaufen",
+    "signInToBuy": "Zum Kaufen anmelden",
+    "shopClosed": "Der Kauf von Guthaben ist derzeit nicht verfügbar. Bitte schau bald wieder vorbei.",
+    "checkoutFailed": "Der Kassenbereich konnte nicht geöffnet werden. Bitte versuche es erneut.",
+    "paddleNote": "Zahlungen werden von Paddle.com abgewickelt, unserem Händler und Merchant of Record. Die Preise enthalten die MwSt. oder Umsatzsteuer, wo anwendbar; der Endpreis in deiner Währung wird an der Kasse angezeigt.",
+    "refundsNote": "Rückerstattungen sind in den Nutzungsbedingungen geregelt."
+  },
+  "Payments": {
+    "checkoutTitle": "Kasse",
+    "opening": "Sichere Kasse wird geöffnet…",
+    "checkoutUnavailable": "Die Kasse konnte nicht geöffnet werden. Bitte versuche es von der Guthaben-Seite erneut.",
+    "backToCredits": "Zurück zum Guthaben",
+    "verifying": "Zahlung wird bestätigt…",
+    "successTitle": "Vielen Dank!",
+    "successText": "{count, plural, one {# Guthabenpunkt wurde} other {# Guthabenpunkte wurden}} deinem Kontostand gutgeschrieben.",
+    "pendingText": "Deine Zahlung war erfolgreich. Das Guthaben wird in wenigen Minuten auf deinem Konto erscheinen.",
+    "failedText": "Die Zahlung war nicht erfolgreich, es wurde nichts abbucht. Du kannst es erneut versuchen.",
+    "verifyError": "Wir konnten die Zahlung derzeit nicht bestätigen. Wenn du belastet wurdest, trifft das Guthaben trotzdem ein – überprüfe deinen Kontostand in ein paar Minuten.",
+    "makePuzzle": "Rätsel erstellen"
   },
   "Contact": {
     "title": "Schreib uns",

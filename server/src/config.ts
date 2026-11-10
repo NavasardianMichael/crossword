@@ -21,6 +21,8 @@ export const config = {
   /** Signs the session cookie. The dev default is local only; production must set its own. */
   jwtSecret: process.env.JWT_SECRET ?? 'dev-secret-change-me',
   cookieName: 'crossword-session',
+  /** Marks a guest device's free puzzle of the month (`lib/payer.ts`). */
+  guestCookieName: 'crossword-guest',
   /** Host-only in dev. In production, the web hostname, so `api.` can set a cookie the site sees. */
   cookieDomain: process.env.COOKIE_DOMAIN ?? deriveCookieDomain(nodeEnv, corsOrigin),
   oauthCookieName: 'crossword-oauth',
@@ -60,11 +62,41 @@ export const config = {
     /** Gemini calls per tick — the free quota is per minute and per day, so this stays small. */
     maxCallsPerTick: asNumber(process.env.POOL_REFILL_MAX_CALLS, 2),
   },
+  /**
+   * Paddle Billing — one-time credit packs (`docs/BILLING.md`). `apiKey` and `webhookSecrets`
+   * are read only by `lib/paddle.ts`. Without a key the shop is closed; free puzzles still work.
+   */
+  paddle: {
+    apiKey: process.env.PADDLE_API_KEY ?? '',
+    /** Comma-separated, so the old and the new destination's secrets both verify during a rotation. */
+    webhookSecrets: (process.env.PADDLE_WEBHOOK_SECRET ?? '')
+      .split(',')
+      .map((secret) => secret.trim())
+      .filter(Boolean),
+    sandbox: process.env.PADDLE_SANDBOX === 'true',
+    /** One Paddle price per pack in `CREDIT_PACKS` (`lib/puzzle.ts`). */
+    priceIds: {
+      starter: process.env.PADDLE_PRICE_ID_STARTER ?? '',
+      popular: process.env.PADDLE_PRICE_ID_POPULAR ?? '',
+      big: process.env.PADDLE_PRICE_ID_BIG ?? '',
+    },
+  },
+  billing: {
+    /**
+     * Off only for e2e runs (`BILLING_ENABLED=false pnpm dev`), where every test is a guest on one
+     * IP and would use up the free puzzle. Never off in production.
+     */
+    enabled: nodeEnv === 'production' || process.env.BILLING_ENABLED !== 'false',
+    /** Guest devices one IP address may take a free puzzle for each month — a household or an office, not a farm. */
+    guestFreePerIp: asNumber(process.env.GUEST_FREE_PER_IP, 3),
+  },
   /** Off only in the integration tests, where every request comes from one address. */
   rateLimitEnabled: process.env.RATE_LIMIT_ENABLED !== 'false',
 }
 
 export const isGeminiConfigured = (): boolean => Boolean(config.gemini.key)
+
+export const isPaddleConfigured = (): boolean => Boolean(config.paddle.apiKey)
 
 export const isGoogleOAuthConfigured = (): boolean =>
   Boolean(config.google.clientId && config.google.clientSecret && config.google.redirectUri)

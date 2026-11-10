@@ -33,7 +33,10 @@
   (Modal or sheet), `SegmentedControl`, `Chip`, `Toggle`, `Spinner`, `ErrorAlert`, `Toaster`.
   Bare `Modal`/`Drawer` are gated.
 - **Offline:** every received puzzle is saved to IndexedDB; the service worker sends an
-  uncached `/[lang]/p/<id>` visit to the precached `/[lang]/play?id=<id>` shell. A prefetched
-  next puzzle per generator setting waits in the `queue` store.
+  uncached `/[lang]/p/<id>` visit to the precached `/[lang]/play?id=<id>` shell. Nothing is
+  prefetched: every puzzle is paid for when built (`docs/BILLING.md`).
+- **Billing:** `store/billing` holds the balance and this month's free puzzle, refreshed on
+  sign-in/out and after every create. A 402 from `POST /puzzles` goes through `CreateErrorAlert`
+  (sign in / buy credits), never a retry. Paddle.js runs only on `/[lang]/payments/checkout`.
 - **Hydration:** anything read from the device (settings, saved games, the seen-list) is read
   after mount; the server render assumes defaults.

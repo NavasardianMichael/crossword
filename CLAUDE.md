@@ -1,6 +1,7 @@
 # Crossword AI
 
-A free AI crossword and scanword generator in English, Russian and Armenian. A Next.js App
+An AI crossword and scanword generator in thirty-three languages: one free puzzle a month, then
+credits (`docs/BILLING.md`). A Next.js App
 Router PWA and an Express/Prisma API in `server/`, in one pnpm workspace. Words and clues are
 written by Gemini natively per language and pooled in Postgres; every device excludes the
 words it has seen, so nothing ever repeats. Hand-written seed words are the non-AI fallback.
@@ -18,7 +19,7 @@ pnpm dev                      # web :7007 + api :9007
 pnpm verify                   # typecheck → typecheck:server → gates → lint → test → build — run before "done"
 pnpm test:unit                # fast, no database (layout fuzzing, alphabet, validation, board logic)
 pnpm test:integration         # real API against a throwaway crossword_test database, Gemini off
-pnpm test:e2e                 # Playwright, needs `pnpm dev` running
+pnpm test:e2e                 # Playwright, needs `RATE_LIMIT_ENABLED=false BILLING_ENABLED=false pnpm dev`
 pnpm screenshots              # re-capture the manifest's install screenshots, needs `pnpm dev` running
 pnpm check:messages           # ru/hy catalogues match en.json (keys, placeholders, plurals)
 pnpm --filter crossword-server exec tsx prisma/check-seed.ts [locale]   # validate seed words + prompt material
@@ -40,7 +41,8 @@ pnpm env:base64 production | clip   # server/.env.production.local -> the ENV_AP
 | Building + storing a puzzle, fallback ladder | `server/src/services/puzzleBuilder.ts` · routes `server/src/routes/puzzles.ts` |
 | Gemini (model chain, cooldowns, the only key reader) | `server/src/lib/gemini.ts` |
 | The board (grid, clue bar, lists, keyboard, toolbar) | `src/components/puzzle/` · state `src/store/puzzle/play/` · rules `src/helpers/puzzle/` |
-| Creating puzzles, seen-list, prefetch queue | `src/store/puzzle/create/` · `src/helpers/puzzle/seen.ts` · `src/helpers/offline/db.ts` |
+| Creating puzzles, seen-list | `src/store/puzzle/create/` · `src/helpers/puzzle/seen.ts` · `src/helpers/offline/db.ts` |
+| Billing: free puzzle, credits, Paddle | `docs/BILLING.md` (model) · `docs/PADDLE_SETUP.md` (manual setup) · `server/src/services/billing.ts`, `lib/paddle.ts`, `routes/billing.ts` · prices `CREDIT_PACKS`/`SIZE_CREDITS` in the puzzle twins · web `src/components/billing/`, `src/store/billing/` |
 | Keyboards (on-screen rows, physical-key fallback) | `src/constants/keyboards.ts` |
 | Topic colours and icons | `src/constants/topicStyles.ts` |
 | HTTP calls from the web | `src/api/puzzles/` — `endpoints`, `types`, `processors`, `main` |
@@ -74,7 +76,10 @@ Per-layer rules: `src/CLAUDE.md` (web) and `server/CLAUDE.md` (API).
 
 - **No word may ever repeat for a device.** Entry ids are the identity a device excludes: never
   delete an `Entry` (retire it), never re-key one, and add a puzzle's ids to the seen-list when
-  it *arrives* (created, prefetched or opened from a link). A gate forbids deleting entries.
+  it *arrives* (created or opened from a link). A gate forbids deleting entries.
+- **Money moves only with a ledger row.** `User.credits` changes in the same transaction as a
+  `CreditEntry`; a puzzle is charged in the transaction that stores it. Webhooks are idempotent by
+  `PaymentEvent.id` and the `Payment.status` guard — test redelivery when touching them.
 - **Lengths are in cells, not string length.** Always `toCells` / `cellCount`. Armenian `ու`
   is one cell, `և` is one cell, and `'և'.toUpperCase()` is the classical `ԵՒ` — print letters
   with `displayCell`, never CSS `uppercase` (gated in `src/components/puzzle`).

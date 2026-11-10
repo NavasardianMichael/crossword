@@ -18,6 +18,11 @@ export const ROUTES = {
   forgotPassword: '/auth/forgot-password',
   resetPassword: '/auth/reset-password',
   verifyEmail: '/auth/verify-email',
+  credits: '/credits',
+  /** Paddle's "default payment link": Paddle.js opens the overlay here (`?_ptxn=txn_…`). */
+  paymentsCheckout: '/payments/checkout',
+  /** Where a paid checkout lands, waiting for the webhook (`?id=txn_…`). */
+  paymentsReturn: '/payments/return',
 } as const
 
 export type RouteKey = keyof typeof ROUTES

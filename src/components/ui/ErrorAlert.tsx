@@ -1,5 +1,6 @@
 'use client'
 
+import type { ReactNode } from 'react'
 import { Alert } from 'antd'
 import { RotateCcw } from 'lucide-react'
 import { useTranslations } from 'next-intl'
@@ -11,6 +12,8 @@ export type ErrorAlertProps = {
   /** Overrides the kind-based copy with a context-specific sentence. */
   message?: string
   onRetry?: () => void
+  /** Replaces the retry button — a way forward when retrying cannot help. */
+  action?: ReactNode
   className?: string
 }
 
@@ -19,7 +22,7 @@ export type ErrorAlertProps = {
  * error *kind* in production, the original message added underneath in development. Never
  * renders a server's own text.
  */
-export const ErrorAlert = ({ error, message, onRetry, className }: ErrorAlertProps) => {
+export const ErrorAlert = ({ error, message, onRetry, action, className }: ErrorAlertProps) => {
   const t = useTranslations()
   const { kind, details } = classifyError(error)
 
@@ -38,11 +41,12 @@ export const ErrorAlert = ({ error, message, onRetry, className }: ErrorAlertPro
         ) : undefined
       }
       action={
-        onRetry && (
+        action ??
+        (onRetry && (
           <Button variant='outline' size='sm' onClick={onRetry} icon={<RotateCcw aria-hidden className='size-4' />}>
             {t('Common.retry')}
           </Button>
-        )
+        ))
       }
     />
   )

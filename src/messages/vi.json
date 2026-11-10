@@ -22,6 +22,7 @@
     "scanword": "Ô mũi tên",
     "topics": "Chủ đề",
     "history": "Ô chữ của tôi",
+    "credits": "Tín dụng",
     "rules": "Cách chơi",
     "faq": "Hỏi đáp",
     "about": "Giới thiệu",
@@ -66,6 +67,9 @@
     "topicDescription": "Ô chữ và ô chữ mũi tên miễn phí về {topic}, do AI tạo. {description}",
     "historyTitle": "Ô chữ của tôi",
     "historyDescription": "Ô chữ và ô chữ mũi tên đã bắt đầu trên thiết bị này mà chưa xong, tiến độ được lưu.",
+    "creditsTitle": "Tín dụng & giá cả",
+    "creditsDescription": "Một câu đố ô chữ miễn phí mỗi tháng, sau đó là các gói tín dụng không cần đăng ký: chi phí từng câu đố và cách mua tín dụng.",
+    "paymentTitle": "Thanh toán",
     "rulesTitle": "Cách chơi ô chữ và ô chữ mũi tên",
     "rulesDescription": "Cách giải ô chữ hoặc ô chữ mũi tên ở đây: gõ chữ, di chuyển trên lưới, kiểm tra và mở chữ, cùng phím tắt.",
     "faqTitle": "Hỏi đáp: ô chữ AI, ngôn ngữ và riêng tư",
@@ -73,7 +77,7 @@
     "aboutTitle": "Giới thiệu — ô chữ AI được làm thế nào",
     "aboutDescription": "Vì sao chúng tôi làm trình tạo ô chữ miễn phí không bao giờ lặp một từ, và AI viết gợi ý thẳng bằng từng ngôn ngữ ra sao.",
     "privacyTitle": "Chính sách riêng tư",
-    "privacyDescription": "Ô chữ AI lưu gì, ở đâu và vì sao — không tài khoản, không theo dõi bạn là ai.",
+    "privacyDescription": "Những gì Ô chữ AI lưu trữ, ở đâu và tại sao — bao gồm tài khoản và thanh toán, và không theo dõi danh tính của bạn.",
     "termsTitle": "Điều khoản sử dụng",
     "termsDescription": "Điều khoản giản dị để dùng Ô chữ AI.",
     "contactTitle": "Viết cho chúng tôi",
@@ -168,12 +172,25 @@
     "creating": "Đang dựng ô chữ…",
     "creatingHint": "Đang chọn những từ bạn chưa gặp. Từ mới có thể mất vài giây.",
     "cancel": "Hủy",
-    "freshHint": "Miễn phí, không cần đăng ký. Mỗi ô chữ mang tới những từ bạn chưa gặp ở đây.",
+    "freshHint": "Mỗi câu đố mang đến những từ bạn chưa từng gặp ở đây trước đây.",
     "exhausted": "Bạn đã chơi hết chữ chúng tôi đang có cho lựa chọn này! Chúng tôi đang viết thêm — thử chủ đề khác, hoặc quay lại sau một phút."
+  },
+  "Billing": {
+    "credits": "{count, plural, other {# tín dụng}}",
+    "balance": "Số dư của bạn: {count, plural, other {# tín dụng}}",
+    "cost": "Câu đố này: {count, plural, other {# tín dụng}}",
+    "freeNow": "Câu đố này miễn phí — câu đố miễn phí của bạn trong tháng này.",
+    "youHave": "Bạn có {count, plural, other {# tín dụng}}.",
+    "notEnough": "Không đủ tín dụng cho câu đố này.",
+    "guestUsed": "Bạn đã dùng hết câu đố miễn phí của tháng này. Đăng nhập để nhận thêm một câu đố miễn phí mỗi tháng và mua tín dụng.",
+    "refusedSignIn": "Câu đố miễn phí của tháng này đã được sử dụng. Đăng nhập để nhận thêm câu đố khác và mua tín dụng.",
+    "refusedCredits": "Không đủ tín dụng cho câu đố này. Nạp thêm để tiếp tục chơi.",
+    "signIn": "Đăng nhập",
+    "buyCredits": "Mua tín dụng"
   },
   "Home": {
     "hero": {
-      "eyebrow": "Miễn phí · Không đăng ký · Chơi ngoại tuyến",
+      "eyebrow": "Dùng thử miễn phí · Không cần đăng ký gói · Hoạt động ngoại tuyến",
       "title": "Ô chữ <mark>luôn mới</mark>",
       "subtitle": "Chọn chủ đề và độ khó — AI viết gợi ý bằng ngôn ngữ của bạn, và một từ không xuất hiện hai lần.",
       "lede": "Tạo ô chữ tiếng Việt miễn phí online, không cần đăng ký. Chủ đề từ động vật, ẩm thực, địa lý đến lịch sử, khoa học, thể thao, nghệ thuật, nhà cửa, nghề nghiệp và văn hóa — hoặc trộn tất cả."
@@ -203,8 +220,8 @@
     "topicsTitle": "Chọn một chủ đề",
     "topicsSubtitle": "Từ chim ngoài vườn đến những dòng sông nổi tiếng — hoặc trộn hết.",
     "faqTitle": "Hỏi và đáp",
-    "faq1Question": "Ô chữ AI có thật sự miễn phí?",
-    "faq1Answer": "Có. Mọi ô chữ và ô chữ mũi tên đều miễn phí, không tài khoản, không đăng ký, không giới hạn số ván bạn giải.",
+    "faq1Question": "Ô chữ AI có miễn phí không?",
+    "faq1Answer": "Câu đố đầu tiên mỗi tháng của bạn là miễn phí và không cần đăng ký, đăng nhập sẽ cộng thêm một câu đố nữa. Sau đó, các câu đố tốn tín dụng, mua một lần và không cần gia hạn hàng tháng. Chơi câu đố do ai đó chia sẻ với bạn thì luôn miễn phí.",
     "faq2Question": "Tôi có gặp lại cùng một từ không?",
     "faq2Answer": "Không. Thiết bị giữ danh sách những từ đã hiện và bỏ chúng khỏi mọi ô chữ mới. Nếu bạn xóa dữ liệu trang trong trình duyệt, danh sách bắt đầu lại.",
     "faq3Question": "Chơi được những ngôn ngữ nào?",
@@ -518,98 +535,102 @@
         "items": [
           {
             "question": "Ô chữ AI là gì?",
-            "answer": "Ô chữ AI là trang miễn phí tạo ô chữ và ô chữ mũi tên bằng ba mươi ba ngôn ngữ. Một mô hình AI viết từ và gợi ý thẳng bằng từng ngôn ngữ, mã dựng lưới, và mỗi thiết bị chỉ nhận những từ nó chưa thấy."
+            "answer": "Ô chữ AI là trang web tạo các ô chữ và scanword bằng 33 ngôn ngữ. Mô hình AI viết các từ và gợi ý một cách tự nhiên theo từng ngôn ngữ, mã nguồn sẽ dựng lưới, và mỗi thiết bị chỉ nhận được những từ chưa từng thấy trước đây."
           },
           {
-            "question": "Ô chữ AI có thật sự miễn phí?",
-            "answer": "Có. Mọi ô chữ và ô chữ mũi tên đều miễn phí — không tài khoản, không đăng ký, không gói thuê bao và không quảng cáo."
+            "question": "Ô chữ AI có miễn phí không?",
+            "answer": "Một phần. Câu đố đầu tiên mỗi tháng là miễn phí không cần đăng ký, và đăng nhập sẽ có thêm câu đố miễn phí thứ hai mỗi tháng. Ngoài ra, các câu đố được trả bằng tín dụng: bạn mua gói một lần — không có phí đăng ký định kỳ, tín dụng không bao giờ hết hạn và không có quảng cáo. Chơi câu đố do ai đó chia sẻ luôn miễn phí."
           },
           {
             "question": "Tôi có cần tài khoản không?",
-            "answer": "Không. Không có gì để đăng ký. Tiến độ, cài đặt và danh sách từ đã thấy nằm trong trình duyệt, trên thiết bị của bạn."
+            "answer": "Không cần đối với câu đố miễn phí hàng tháng: tiến trình, cài đặt và các từ bạn đã thấy đều được lưu trong trình duyệt. Tài khoản giúp bạn nhận thêm câu đố miễn phí thứ hai mỗi tháng, cho phép mua và tích trữ tín dụng."
           },
           {
-            "question": "Ai làm Ô chữ AI?",
-            "answer": "Đây là dự án độc lập của lập trình viên Michael Navasardyan: những ô chữ đọc như người ra đề bản xứ viết, bằng mỗi ngôn ngữ trang có — trong đó có tiếng Armenia, Nga và Anh."
+            "question": "Một câu đố có giá bao nhiêu?",
+            "answer": "Câu đố nhỏ tốn 5 tín dụng, trung bình 10 và lớn 15; độ khó trung bình cộng 1 tín dụng và khó cộng 2. Tín dụng bán theo gói 200 giá $4.99, 600 giá $11.99 và 2.000 giá $29.99. Màn hình thanh toán sẽ hiển thị giá theo đơn vị tiền tệ của bạn, kèm thuế nếu có."
+          },
+          {
+            "question": "Ai tạo ra Ô chữ AI?",
+            "answer": "Đây là dự án độc lập của lập trình viên Michael Navasardyan: các câu đố được tạo ra tự nhiên như do tác giả bản địa viết, bằng mọi ngôn ngữ mà trang web hỗ trợ — bao gồm tiếng Armenia, tiếng Nga và tiếng Anh."
           }
         ]
       },
       {
-        "title": "Các ván",
+        "title": "Các câu đố",
         "items": [
           {
-            "question": "Ô chữ khác ô chữ mũi tên chỗ nào?",
-            "answer": "Ô chữ liệt kê gợi ý đánh số cạnh lưới, hàng ngang và hàng dọc. Ô chữ mũi tên in mỗi gợi ý trong một ô, mũi tên chỉ chỗ điền đáp án — dạng mà tạp chí đố vui hay dùng."
+            "question": "Sự khác biệt giữa ô chữ truyền thống và scanword là gì?",
+            "answer": "Ô chữ truyền thống liệt kê các gợi ý được đánh số bên cạnh lưới (Ngang và Dọc). Scanword in trực tiếp gợi ý bên trong ô lưới kèm mũi tên chỉ hướng câu trả lời — định dạng rất phổ biến trên các tạp chí câu đố ở Nga và Armenia."
           },
           {
-            "question": "Lưới lớn cỡ nào?",
-            "answer": "Có ba cỡ. Ô chữ cổ điển lấp lưới 9×9, 13×13 hoặc 15×15 với khoảng 8–14, 16–24 hoặc 22–34 từ, rồi được cắt vừa các từ nó chứa. Ô chữ mũi tên dùng lưới 8×10, 10×13 hoặc 13×17 — cao hơn rộng, vì phần lớn được giải trên điện thoại."
+            "question": "Kích thước các câu đố như thế nào?",
+            "answer": "Có ba kích thước. Ô chữ cổ điển điền vào lưới 9×9, 13×13 hoặc 15×15 với khoảng 8–14, 16–24 hoặc 22–34 từ, sau đó cắt gọn theo số từ chứa trong đó. Scanword sử dụng lưới 8×10, 10×13 hoặc 13×17 — chiều cao lớn hơn chiều rộng vì hầu hết được giải trên điện thoại."
           },
           {
-            "question": "Các mức độ khác nhau thế nào?",
-            "answer": "Dễ dùng chữ hằng ngày và định nghĩa thẳng. Vừa lấy vốn từ rộng hơn. Khó mang chữ hiếm hơn và gợi ý khiến bạn phải nghĩ hai lần."
+            "question": "Các mức độ khó khác nhau như thế nào?",
+            "answer": "Mức Dễ dùng từ ngữ thông dụng với định nghĩa trực tiếp. Mức Trung bình mở rộng vốn từ hơn. Mức Khó mang đến những từ hiếm gặp và gợi ý khiến bạn phải suy nghĩ kỹ."
           },
           {
-            "question": "Tôi chọn được những chủ đề nào?",
-            "answer": "Mười hai: chữ đời thường, thiên nhiên, động vật, ẩm thực, địa lý, lịch sử, khoa học, thể thao, nghệ thuật, nhà cửa, nghề nghiệp và văn hóa địa phương — hoặc trộn hết trong một ván."
+            "question": "Tôi có thể chọn những chủ đề nào?",
+            "answer": "Có 12 chủ đề: từ ngữ hàng ngày, thiên nhiên, động vật, ẩm thực, địa lý, lịch sử, khoa học, thể thao, nghệ thuật, nhà cửa & đời sống, nghề nghiệp và văn hóa địa phương — hoặc trộn tất cả vào một câu đố."
           },
           {
-            "question": "Tôi có bao giờ thấy cùng một từ hai lần?",
-            "answer": "Không trên cùng một thiết bị. Nó nhớ tới 4.000 từ mỗi ngôn ngữ — khoảng 130 ván — và bỏ chúng khỏi mọi ván mới; chỉ sau đó những từ cũ nhất mới rời danh sách. Xóa dữ liệu trang trong trình duyệt thì danh sách bắt đầu lại."
+            "question": "Tôi có bao giờ gặp lại một từ hai lần không?",
+            "answer": "Không trên cùng một thiết bị. Hệ thống nhớ tối đa 4.000 từ cho mỗi ngôn ngữ — tương đương khoảng 130 câu đố — và loại chúng khỏi mọi câu đố mới; chỉ sau đó các từ cũ nhất mới bị xóa khỏi danh sách. Việc xóa dữ liệu trang web trong trình duyệt sẽ làm mới danh sách này."
           },
           {
-            "question": "AI viết gợi ý thế nào?",
-            "answer": "Mô hình Gemini của Google viết từ và gợi ý thẳng bằng từng ngôn ngữ, theo cẩm nang của người bản ngữ. Mã rồi kiểm tra từng mục — đúng bảng chữ, một từ thật, gợi ý công bằng không làm lộ đáp án — và một lượt AI thứ hai đóng vai biên tập. Cái không đạt thì bị bỏ, không vá. Lưới do mã dựng, không phải AI."
+            "question": "AI viết gợi ý như thế nào?",
+            "answer": "Mô hình Gemini của Google viết từ và gợi ý trực tiếp bằng từng ngôn ngữ, tuân theo hướng dẫn phong cách từ người bản xứ. Mã nguồn sau đó kiểm tra từng từ — bảng chữ cái chuẩn, từ có thật, gợi ý công bằng không làm lộ đáp án — và bước AI thứ hai đóng vai trò biên tập viên. Bất kỳ từ nào không đạt sẽ bị loại bỏ, không sửa chữa. Bản thân lưới ô chữ được tạo bởi mã nguồn chứ không phải AI."
           },
           {
-            "question": "Gợi ý sai thì sao?",
-            "answer": "Mở menu ⋯ phía trên lưới và chọn “Báo một gợi ý”. Khi ba người chơi khác nhau báo cùng một gợi ý, gợi ý đó bị rút và không xuất hiện nữa."
+            "question": "Nếu một gợi ý bị sai thì sao?",
+            "answer": "Hãy mở menu ⋯ phía trên lưới và chọn “Báo cáo gợi ý”. Khi có ba người chơi khác nhau báo cáo cùng một gợi ý, nó sẽ bị loại bỏ và không bao giờ xuất hiện nữa."
           }
         ]
       },
       {
-        "title": "Khi chơi",
+        "title": "Trải nghiệm chơi",
         "items": [
           {
-            "question": "Gõ đáp án trên điện thoại hoặc máy tính thế nào?",
-            "answer": "Trên máy tính, cứ gõ: dù bàn phím đang để tiếng Anh, các phím vẫn gõ chữ của ô chữ ở vị trí quen thuộc, không phải đổi bố cục. Trên điện thoại hoặc máy tính bảng, bàn phím của ô chữ hiện dưới lưới, và bàn phím hệ thống không che nó."
+            "question": "Làm thế nào để nhập câu trả lời trên điện thoại hoặc máy tính?",
+            "answer": "Trên máy tính, bạn chỉ cần gõ: ngay cả khi bàn phím đặt tiếng Anh, các phím vẫn nhập đúng ký tự của câu đố ở vị trí quen thuộc, nên không cần chuyển đổi kiểu gõ. Trên điện thoại hoặc máy tính bảng, bàn phím riêng của câu đố xuất hiện bên dưới lưới và bàn phím hệ thống sẽ không che mất nó."
           },
           {
-            "question": "Tôi kiểm tra đáp án hoặc xin gợi ý được không?",
-            "answer": "Được. Kiểm tra đánh dấu chữ sai ở một ô, một từ hoặc cả lưới, còn Mở điền một chữ, một từ hoặc tất cả. Bật “Kiểm tra khi đang gõ” trong cài đặt để thấy lỗi ngay lúc mắc."
+            "question": "Tôi có thể kiểm tra câu trả lời hoặc nhận gợi ý không?",
+            "answer": "Có. Chức năng Kiểm tra sẽ đánh dấu ký tự sai trong một ô, một từ hoặc toàn bộ câu đố, còn Tiết lộ sẽ điền giúp một ký tự, một từ hoặc tất cả. Bật “Kiểm tra khi nhập” trong cài đặt để thấy lỗi ngay khi bạn gõ."
           },
           {
-            "question": "Chữ Armenia ու và և, cùng Ё của tiếng Nga, được xử lý ra sao?",
-            "answer": "Trong ô chữ Armenia, ու và և là từng chữ một và mỗi chữ chiếm một ô, như trên báo in; bàn phím trên màn hình có cả hai, và gõ ո rồi ւ thì chúng ghép thành ու. Trong ô chữ Nga, Ё được viết thành Е, như trên báo in."
+            "question": "Các chữ cái ու và և trong tiếng Armenia, và Ё trong tiếng Nga được xử lý thế nào?",
+            "answer": "Trong câu đố tiếng Armenia, ու và և là các chữ cái đơn và mỗi chữ chiếm một ô, giống như ô chữ in; bàn phím trên màn hình có cả hai, và gõ ո rồi ւ sẽ ghép thành ու. Trong câu đố tiếng Nga, Ё được viết là Е, giống như trên báo in."
           },
           {
-            "question": "Tiến độ có được lưu không?",
-            "answer": "Có, tự động, trong lúc bạn chơi. Mỗi ô chữ hoặc ô chữ mũi tên bạn bắt đầu rồi bỏ dở nằm trong “Ô chữ của tôi”, chữ đã điền được giữ, nên bạn chơi tiếp sau — kể cả khi ngoại tuyến."
+            "question": "Tiến trình của tôi có được lưu không?",
+            "answer": "Có, tự động khi bạn chơi. Mọi ô chữ hoặc scanword bạn bắt đầu nhưng chưa hoàn thành đều được liệt kê trong “Câu đố của tôi”, với các chữ cái đã nhập được lưu lại để bạn tiếp tục bất cứ lúc nào — kể cả khi ngoại tuyến."
           },
           {
-            "question": "Chơi ngoại tuyến, hoặc cài như ứng dụng, được không?",
-            "answer": "Được. Ô chữ AI cài từ trình duyệt như một ứng dụng (trên iPhone: Chia sẻ → Thêm vào Màn hình chính). Mỗi ô chữ bạn mở được lưu cùng tiến độ và vẫn chạy khi mất mạng; chỉ ô chữ mới cần internet."
+            "question": "Tôi có thể chơi ngoại tuyến hoặc cài đặt như một ứng dụng không?",
+            "answer": "Có. Ô chữ AI có thể cài đặt từ trình duyệt như một ứng dụng (trên iPhone: Chia sẻ → Thêm vào Màn hình chính). Mọi câu đố bạn mở đều được lưu cùng tiến trình và tiếp tục hoạt động mà không cần kết nối mạng; chỉ câu đố mới mới cần internet."
           },
           {
-            "question": "Tôi gửi một ô chữ cho bạn được không?",
-            "answer": "Được. Chạm Chia sẻ phía trên lưới để chép liên kết, hoặc gửi qua WhatsApp, Telegram, Facebook, X, VK hay email. Bạn của bạn nhận đúng lưới và đúng gợi ý."
+            "question": "Tôi có thể chia sẻ câu đố với bạn bè không?",
+            "answer": "Có. Chạm vào Chia sẻ phía trên lưới để sao chép liên kết, hoặc gửi qua WhatsApp, Telegram, Facebook, X, VK hoặc email. Bạn của bạn sẽ nhận được chính xác cùng một lưới và gợi ý."
           },
           {
-            "question": "Chơi bằng bàn phím hoặc trình đọc màn hình được không?",
-            "answer": "Được. Lưới chạy hoàn toàn từ bàn phím và với trình đọc màn hình: mỗi ô có nhãn, gợi ý đang chọn được đọc lên, kiểm tra và mở chữ cũng được đọc. Chữ sai và chữ đã mở được phân biệt bằng hình, không chỉ bằng màu."
+            "question": "Tôi có thể chơi bằng bàn phím hoặc trình đọc màn hình không?",
+            "answer": "Có. Lưới hoạt động hoàn toàn bằng bàn phím và trình đọc màn hình: mỗi ô đều được dán nhãn, gợi ý đang chọn được đọc lên, cùng các thông báo kiểm tra hay tiết lộ. Các chữ cái sai hoặc được tiết lộ được đánh dấu bằng hình dạng, không chỉ bằng màu sắc."
           }
         ]
       },
       {
-        "title": "Riêng tư",
+        "title": "Quyền riêng tư",
         "items": [
           {
-            "question": "Các bạn giữ dữ liệu gì?",
-            "answer": "Rất ít. Ô chữ, tiến độ, cài đặt và danh sách từ đã thấy nằm trong trình duyệt. Máy chủ giữ các ô chữ đã tạo (để liên kết chia sẻ mở đúng lưới), báo cáo gợi ý kèm một mã một chiều của địa chỉ IP, và số lượt giải ẩn danh. Không tên, không hồ sơ."
+            "question": "Bạn lưu trữ những dữ liệu nào?",
+            "answer": "Rất ít. Các câu đố, tiến trình, cài đặt và danh sách từ đã thấy của bạn đều nằm trong trình duyệt. Máy chủ chỉ lưu các câu đố được tạo (để liên kết chia sẻ mở ra cùng một lưới), báo cáo gợi ý kèm mã hóa một chiều địa chỉ IP, và số lượt giải ẩn danh. Không có tên và không có hồ sơ cá nhân."
           },
           {
-            "question": "Có gì về tôi được gửi cho AI không?",
-            "answer": "Không. Tới các mô hình Gemini của Google chỉ có thiết lập ô chữ — ngôn ngữ, chủ đề, độ khó — và danh sách từ, không bao giờ có gì về bạn."
+            "question": "Có thông tin nào về tôi được gửi cho AI không?",
+            "answer": "Không. Chỉ có cài đặt câu đố — ngôn ngữ, chủ đề, độ khó — và danh sách các từ được gửi đến mô hình Gemini của Google, hoàn toàn không có thông tin cá nhân của bạn."
           }
         ]
       }
@@ -645,57 +666,129 @@
   },
   "Privacy": {
     "title": "Chính sách riêng tư",
-    "subtitle": "Ngắn gọn: không tài khoản, không tên, không hồ sơ. Đây là mọi thứ chúng tôi giữ.",
+    "subtitle": "Tóm tắt: chỉ tạo tài khoản nếu bạn muốn, không thu thập hồ sơ cá nhân. Đây là toàn bộ những gì chúng tôi lưu trữ.",
     "sections": [
       {
         "title": "Trên thiết bị của bạn",
         "paragraphs": [
-          "Trình duyệt giữ các ô chữ bạn mở, tiến độ, cài đặt và danh sách từ đã thấy, để chúng không lặp. Mọi thứ ở trên thiết bị; xóa dữ liệu trang là mất."
+          "Trình duyệt lưu các câu đố bạn mở, tiến trình, cài đặt và danh sách các từ bạn đã thấy để chúng không bị lặp lại. Dữ liệu này nằm trên thiết bị của bạn; việc xóa dữ liệu trang web sẽ xóa sạch nó."
         ]
       },
       {
         "title": "Trên máy chủ của chúng tôi",
         "paragraphs": [
-          "Chúng tôi giữ các ô chữ đã tạo, để liên kết chia sẻ mở đúng lưới. Khi bạn báo một gợi ý, chúng tôi giữ báo cáo kèm mã một chiều của địa chỉ IP, chỉ để một người không tự rút được một gợi ý. Chúng tôi cũng đếm ẩn danh cách chơi (đã giải, từ nào được mở) để chỉnh độ khó."
+          "Chúng tôi lưu trữ các câu đố được tạo ra để liên kết được chia sẻ mở cùng một lưới ô chữ. Khi bạn báo cáo một gợi ý, chúng tôi lưu báo cáo đó cùng mã hóa một chiều địa chỉ IP của bạn, mục đích chỉ để một người không thể tự mình loại bỏ một gợi ý. Chúng tôi cũng đếm ẩn danh cách các câu đố được chơi (đã giải, những từ nào được tiết lộ) để điều chỉnh độ khó.",
+          "Để cung cấp cho mỗi thiết bị câu đố miễn phí hàng tháng, trang web đặt một cookie chứa mã định danh ngẫu nhiên. Với mỗi câu đố miễn phí, chúng tôi lưu mã định danh đó và mã hóa một chiều địa chỉ IP của bạn."
         ]
       },
       {
-        "title": "Bên cung cấp AI",
+        "title": "Tài khoản và tín dụng",
         "paragraphs": [
-          "Từ và gợi ý mới do các mô hình Gemini của Google viết. Chỉ thiết lập ô chữ (ngôn ngữ, chủ đề, độ khó) và danh sách từ được gửi — không bao giờ có gì về bạn."
+          "Nếu bạn tạo tài khoản, chúng tôi lưu tên, địa chỉ email và ảnh đại diện Google (khi bạn đăng nhập bằng Google). Chúng tôi cũng lưu số dư tín dụng và lịch sử: từng lần mua, từng câu đố đã trả tiền và từng khoản hoàn tiền."
         ]
       },
       {
-        "title": "Thống kê và báo lỗi",
+        "title": "Thanh toán",
         "paragraphs": [
-          "Nếu bật, chúng tôi dùng Google Analytics để đếm lượt xem trang và Sentry để nhận báo lỗi. Không cái nào dùng để nhận ra bạn."
+          "Thanh toán được xử lý bởi Paddle.com, Thương nhân Hồ sơ (Merchant of Record) của chúng tôi. Paddle thu thập chi tiết thanh toán và quốc gia thanh toán của bạn theo chính sách quyền riêng tư riêng của họ; chúng tôi không bao giờ thấy số thẻ của bạn. Từ Paddle, chúng tôi nhận được số tiền, loại tiền tệ, thuế và phương thức thanh toán của mỗi giao dịch."
+        ]
+      },
+      {
+        "title": "Nhà cung cấp AI",
+        "paragraphs": [
+          "Các từ và gợi ý mới được viết bởi các mô hình Gemini của Google. Chỉ có cài đặt câu đố (ngôn ngữ, chủ đề, độ khó) và danh sách từ được gửi đi — không bao giờ gửi bất kỳ thông tin nào về bạn."
+        ]
+      },
+      {
+        "title": "Phân tích và báo cáo lỗi",
+        "paragraphs": [
+          "Nếu được bật, chúng tôi sử dụng Google Analytics để đếm lượt xem trang và Sentry để nhận báo cáo lỗi. Cả hai đều không được dùng để định danh bạn."
         ]
       }
     ]
   },
   "Terms": {
     "title": "Điều khoản sử dụng",
-    "subtitle": "Ô chữ AI miễn phí, để chơi và để học.",
+    "subtitle": "Ô chữ AI dành cho mục đích giải trí và học tập. Các điều khoản này bao gồm việc chơi và mua tín dụng.",
     "sections": [
       {
-        "title": "Dùng dịch vụ",
+        "title": "Sử dụng dịch vụ",
         "paragraphs": [
-          "Bạn có thể chơi, chia sẻ và in các ô chữ cho việc cá nhân và học tập. Xin đừng làm dịch vụ quá tải bằng yêu cầu tự động."
+          "Bạn có thể chơi, chia sẻ và in các câu đố cho mục đích cá nhân và giáo dục. Vui lòng không làm quá tải dịch vụ bằng các yêu cầu tự động."
+        ]
+      },
+      {
+        "title": "Câu đố miễn phí và tín dụng",
+        "paragraphs": [
+          "Mỗi thiết bị nhận được một câu đố miễn phí mỗi tháng lịch, và mỗi tài khoản nhận thêm một câu đố nữa. Các câu đố khác được trả bằng tín dụng, theo giá hiển thị trước khi bạn tạo; câu đố chỉ tính phí khi nó được tạo ra, và việc mở một câu đố đã lưu là hoàn toàn miễn phí.",
+          "Tín dụng được mua theo gói bằng thanh toán một lần — không có phí đăng ký định kỳ — và không bao giờ hết hạn. Chúng không có giá trị quy đổi thành tiền mặt và không thể chuyển nhượng."
+        ]
+      },
+      {
+        "title": "Thanh toán",
+        "paragraphs": [
+          "Quy trình đặt hàng của chúng tôi được thực hiện bởi đại lý bán hàng trực tuyến Paddle.com. Paddle.com là Thương nhân Hồ sơ cho tất cả các đơn hàng của chúng tôi. Paddle cung cấp mọi dịch vụ hỗ trợ khách hàng và xử lý việc trả hàng."
+        ]
+      },
+      {
+        "title": "Hoàn tiền",
+        "paragraphs": [
+          "Bạn có thể yêu cầu hoàn tiền gói tín dụng trong vòng 14 ngày kể từ ngày mua, thông qua Paddle hoặc bằng cách viết thư cho chúng tôi. Việc hoàn tiền sẽ thu hồi số tín dụng của gói đó từ số dư của bạn. Tín dụng đã sử dụng không thể trả lại, vì vậy gói đã dùng một phần có thể được hoàn tiền một phần."
         ]
       },
       {
         "title": "Nội dung do AI viết",
         "paragraphs": [
-          "Từ và gợi ý do AI viết và được kiểm tra tự động, nhưng vẫn có thể sai. Nếu thấy, hãy báo — đó là cách gợi ý kém bị gỡ."
+          "Các từ và gợi ý do AI viết và được kiểm tra tự động, nhưng sai sót vẫn có thể xảy ra. Nếu bạn tìm thấy lỗi, hãy báo cáo — đó là cách các gợi ý dở bị loại bỏ."
         ]
       },
       {
         "title": "Không bảo đảm",
         "paragraphs": [
-          "Dịch vụ được cung cấp như hiện có, không bảo đảm lúc nào cũng chạy hay lúc nào cũng đúng. Chúng tôi có thể đổi hoặc ngừng tính năng bất cứ lúc nào."
+          "Dịch vụ được cung cấp \"nguyên trạng\", không có đảm bảo về tính khả dụng hoặc độ chính xác. Chúng tôi có thể thay đổi hoặc ngừng các tính năng bất kỳ lúc nào."
         ]
       }
     ]
+  },
+  "Credits": {
+    "title": "Tín dụng",
+    "subtitle": "Một câu đố miễn phí mỗi tháng. Sau đó, chỉ trả tiền cho các câu đố bạn tạo — không cần đăng ký gói, và tín dụng không bao giờ hết hạn.",
+    "balanceTitle": "Số dư của bạn",
+    "freeAvailable": "Câu đố miễn phí của bạn trong tháng này đang chờ.",
+    "freeUsed": "Câu đố miễn phí của tháng này đã dùng hết. Câu đố tiếp theo sẽ có vào {date}.",
+    "guestTitle": "Nhận thêm câu đố miễn phí",
+    "guestText": "Đăng nhập để nhận một câu đố miễn phí hàng tháng vào tài khoản của bạn, và để mua tín dụng.",
+    "pricesTitle": "Chi phí một câu đố",
+    "pricesText": "Tính bằng tín dụng, theo kích thước và độ khó. Mở một câu đố do ai đó chia sẻ, hoặc từ lịch sử của bạn, luôn miễn phí.",
+    "size": "Kích thước",
+    "packsTitle": "Các gói tín dụng",
+    "packs": {
+      "starter": "Cơ bản",
+      "popular": "Phổ biến",
+      "big": "Lớn"
+    },
+    "popularBadge": "Phổ biến nhất",
+    "bestValueBadge": "Hời nhất",
+    "packPuzzles": "Khoảng {count} câu đố trung bình",
+    "buy": "Mua",
+    "signInToBuy": "Đăng nhập để mua",
+    "shopClosed": "Tính năng mua tín dụng tạm thời không khả dụng. Vui lòng quay lại sau.",
+    "checkoutFailed": "Không thể mở trang thanh toán. Vui lòng thử lại.",
+    "paddleNote": "Thanh toán được xử lý bởi Paddle.com, đại lý và Thương nhân Hồ sơ của chúng tôi. Giá đã bao gồm VAT hoặc thuế tiêu thụ nơi áp dụng; giá cuối cùng theo đơn vị tiền tệ của bạn sẽ hiển thị khi thanh toán.",
+    "refundsNote": "Chính sách hoàn tiền được quy định trong điều khoản sử dụng."
+  },
+  "Payments": {
+    "checkoutTitle": "Thanh toán",
+    "opening": "Đang mở trang thanh toán an toàn…",
+    "checkoutUnavailable": "Không thể mở trang thanh toán. Vui lòng thử lại từ trang tín dụng.",
+    "backToCredits": "Quay lại trang tín dụng",
+    "verifying": "Đang xác nhận thanh toán của bạn…",
+    "successTitle": "Cảm ơn bạn!",
+    "successText": "{count, plural, other {# tín dụng đã được}} cộng vào số dư của bạn.",
+    "pendingText": "Thanh toán của bạn đã thành công. Tín dụng sẽ xuất hiện trong số dư sau vài phút.",
+    "failedText": "Thanh toán không thành công nên bạn chưa bị trừ tiền. Bạn có thể thử lại.",
+    "verifyError": "Hiện chưa thể xác nhận thanh toán. Nếu bạn đã bị trừ tiền, tín dụng vẫn sẽ được cộng — hãy kiểm tra lại số dư sau vài phút.",
+    "makePuzzle": "Tạo câu đố"
   },
   "Contact": {
     "title": "Viết cho chúng tôi",

@@ -25,8 +25,121 @@ model User {
   tokenVersion           Int       @default(0)
   passwordResetTokenHash String?   @unique
   passwordResetExpiresAt DateTime?
+  /// Spendable credits: the running sum of `CreditEntry.delta`, kept here so a charge is one
+  /// conditional update (`credits >= price`). Never negative.
+  credits                Int       @default(0)
   createdAt              DateTime  @default(now())
   updatedAt              DateTime  @updatedAt
+
+  creditEntries CreditEntry[]
+  payments      Payment[]
+}
+
+enum CreditReason {
+  /// A paid credit pack.
+  purchase
+  /// A puzzle built.
+  generation
+  /// A refund or chargeback taking a pack's credits back.
+  refund
+}
+
+/// Append-only: every change to a balance, with the balance after it. Never updated or deleted.
+model CreditEntry {
+  id           String       @id @default(uuid())
+  userId       String
+  user         User         @relation(fields: [userId], references: [id])
+  delta        Int
+  balanceAfter Int
+  reason       CreditReason
+  /// `generation`: the puzzle it paid for.
+  puzzleId     String?
+  /// `purchase` and `refund`: the Paddle transaction (`txn_…`).
+  paymentId    String?
+  /// `refund`: the Paddle adjustment (`adj_…`) — unique, so one is applied once.
+  adjustmentId String?      @unique
+  createdAt    DateTime     @default(now())
+
+  @@index([userId, createdAt])
+  @@index([paymentId])
+}
+
+enum PaymentStatus {
+  /// Checkout opened, not paid (yet).
+  pending
+  completed
+  /// A payment attempt was declined; the customer may still retry in the same checkout.
+  failed
+  /// Fully refunded or charged back.
+  refunded
+}
+
+/// One Paddle transaction for one credit pack — created when the checkout opens, completed by
+/// the webhook. The webhook trusts this row (who, which pack), not the payload's `custom_data`.
+model Payment {
+  /// The Paddle transaction id (`txn_…`).
+  id              String        @id
+  userId          String
+  user            User          @relation(fields: [userId], references: [id])
+  pack            String
+  priceId         String
+  credits         Int
+  status          PaymentStatus @default(pending)
+  /// Paddle's totals from the completed transaction, in the currency's lowest unit (cents).
+  currency        String?
+  /// What the customer paid, tax included.
+  total           Int?
+  tax             Int?
+  /// Paddle's fee.
+  fee             Int?
+  /// What is left for us, in `currency`.
+  earnings        Int?
+  /// `earnings` converted to the payout currency — the number to sum across currencies.
+  payoutCurrency  String?
+  payoutEarnings  Int?
+  paymentMethod   String?
+  customerId      String?
+  /// Credits taken back by refunds and chargebacks.
+  refundedCredits Int           @default(0)
+  completedAt     DateTime?
+  createdAt       DateTime      @default(now())
+  updatedAt       DateTime      @updatedAt
+
+  @@index([userId, createdAt])
+  @@index([status, createdAt])
+}
+
+/// Every verified Paddle webhook, stored raw before it is handled: the audit trail, and a
+/// redelivered event (same `event_id`) is handled once.
+model PaymentEvent {
+  /// Paddle's `event_id` (`evt_…`).
+  id            String    @id
+  type          String
+  transactionId String?
+  occurredAt    DateTime
+  payload       Json
+  /// Null until handled; a failed handling answers 500 and Paddle redelivers.
+  processedAt   DateTime?
+  receivedAt    DateTime  @default(now())
+
+  @@index([transactionId])
+  @@index([type, receivedAt])
+}
+
+/// A free monthly puzzle claimed — one per (month, holder). `holder` is `user:<id>` or
+/// `guest:<id>` (an httpOnly cookie the API sets).
+model FreePuzzle {
+  id        String   @id @default(uuid())
+  /// UTC calendar month, `2026-11`.
+  month     String
+  holder    String
+  /// A hash of the IP: caps how many guest devices one address may claim for in a month.
+  ipKey     String
+  puzzleId  String
+  createdAt DateTime @default(now())
+
+  @@unique([month, holder])
+  @@index([month, ipKey])
 }
 
 enum PuzzleFormat {

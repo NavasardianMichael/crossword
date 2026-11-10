@@ -9,7 +9,8 @@
 #   APP_DIR          deployment root, e.g. /home/michael/apps/crossword
 #   ENV_API_BASE64   base64 of the API env file — DATABASE_URL, CORS_ORIGIN,
 #                    GEMINI_KEY, optionally GEMINI_MODELS, VERIFY_ENTRIES,
-#                    POOL_DAILY_CALL_BUDGET, POOL_REFILL_*.
+#                    POOL_DAILY_CALL_BUDGET, POOL_REFILL_*, and the Paddle set:
+#                    PADDLE_API_KEY, PADDLE_WEBHOOK_SECRET, PADDLE_PRICE_ID_* (docs/PADDLE_SETUP.md).
 #                    NODE_ENV/PORT/HOST are appended below, so do not put them
 #                    in the secret.
 #   NEXT_PUBLIC_API_URL    https://api.crossword.eapps.site
@@ -17,7 +18,8 @@
 #
 # OPTIONAL SECRETS, inlined at build time — empty turns the feature off:
 #   NEXT_PUBLIC_GA_MEASUREMENT_ID, NEXT_PUBLIC_SENTRY_DSN, NEXT_PUBLIC_GOOGLE_SITE_VERIFICATION,
-#   NEXT_PUBLIC_YANDEX_VERIFICATION, NEXT_PUBLIC_BING_SITE_VERIFICATION
+#   NEXT_PUBLIC_YANDEX_VERIFICATION, NEXT_PUBLIC_BING_SITE_VERIFICATION,
+#   NEXT_PUBLIC_PADDLE_CLIENT_TOKEN, NEXT_PUBLIC_PADDLE_ENV (without the token, credits cannot be bought)
 #   SENTRY_ORG, SENTRY_PROJECT, SENTRY_AUTH_TOKEN (source-map upload only)
 #
 # The NEXT_PUBLIC_* values are inlined into the browser bundle, so they are public by
@@ -151,6 +153,8 @@ jobs:
       NEXT_PUBLIC_GOOGLE_SITE_VERIFICATION: ${{ secrets.NEXT_PUBLIC_GOOGLE_SITE_VERIFICATION || vars.NEXT_PUBLIC_GOOGLE_SITE_VERIFICATION }}
       NEXT_PUBLIC_YANDEX_VERIFICATION: ${{ secrets.NEXT_PUBLIC_YANDEX_VERIFICATION || vars.NEXT_PUBLIC_YANDEX_VERIFICATION }}
       NEXT_PUBLIC_BING_SITE_VERIFICATION: ${{ secrets.NEXT_PUBLIC_BING_SITE_VERIFICATION || vars.NEXT_PUBLIC_BING_SITE_VERIFICATION }}
+      NEXT_PUBLIC_PADDLE_CLIENT_TOKEN: ${{ secrets.NEXT_PUBLIC_PADDLE_CLIENT_TOKEN || vars.NEXT_PUBLIC_PADDLE_CLIENT_TOKEN }}
+      NEXT_PUBLIC_PADDLE_ENV: ${{ secrets.NEXT_PUBLIC_PADDLE_ENV || vars.NEXT_PUBLIC_PADDLE_ENV }}
       SENTRY_ORG: ${{ secrets.SENTRY_ORG || vars.SENTRY_ORG }}
       SENTRY_PROJECT: ${{ secrets.SENTRY_PROJECT || vars.SENTRY_PROJECT }}
       SENTRY_AUTH_TOKEN: ${{ secrets.SENTRY_AUTH_TOKEN }}

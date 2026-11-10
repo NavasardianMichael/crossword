@@ -10,8 +10,9 @@ import { DIFFICULTIES, FORMATS, isLocale, SIZES, type TopicChoice,TOPICS } from 
 import { puzzlePath } from '@constants/routes'
 import { TOPIC_STYLES } from '@constants/topicStyles'
 import { cn } from '@helpers/cn'
+import { CreateErrorAlert } from '@components/billing/CreateErrorAlert'
+import { PuzzleCost } from '@components/billing/PuzzleCost'
 import { Button } from '@components/ui/Button'
-import { ErrorAlert } from '@components/ui/ErrorAlert'
 import { SegmentedControl } from '@components/ui/SegmentedControl'
 import { CreatePendingShield } from './CreatePendingShield'
 
@@ -145,9 +146,10 @@ export const GeneratorForm = ({ preset, className }: GeneratorFormProps) => {
         </div>
       </div>
 
-      {error ? <ErrorAlert error={error} message={generatorError(t, error)} onRetry={submit} /> : null}
+      {error ? <CreateErrorAlert error={error} message={generatorError(t, error)} onRetry={submit} /> : null}
 
       <div className='flex flex-col items-center gap-2'>
+        <PuzzleCost size={options.size} difficulty={options.difficulty} />
         <Button
           type='submit'
           size='lg'

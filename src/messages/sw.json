@@ -22,6 +22,7 @@
     "scanword": "Skanwodi",
     "topics": "Mada",
     "history": "Michezo yangu",
+    "credits": "Credits",
     "rules": "Jinsi ya kucheza",
     "faq": "Maswali",
     "about": "Kuhusu",
@@ -66,6 +67,9 @@
     "topicDescription": "Chemshabongo na skanwodi za {topic} bure, zilizotengenezwa na AI. {description}",
     "historyTitle": "Michezo yangu",
     "historyDescription": "Chemshabongo na skanwodi ulizoanza kwenye kifaa hiki na hujamaliza, pamoja na maendeleo yaliyohifadhiwa.",
+    "creditsTitle": "Credits & prices",
+    "creditsDescription": "One free crossword every month, then credit packs with no subscription: what each puzzle costs, and how to buy credits.",
+    "paymentTitle": "Payment",
     "rulesTitle": "Jinsi ya Kucheza Chemshabongo na Skanwodi",
     "rulesDescription": "Jinsi ya kutatua chemshabongo au skanwodi hapa: kuandika, kusogea kwenye gridi, kukagua na kufichua herufi, na mikato ya kibodi.",
     "faqTitle": "Maswali: Chemshabongo ya AI, Lugha na Faragha",
@@ -73,7 +77,7 @@
     "aboutTitle": "Kuhusu — Jinsi Chemshabongo za AI Hutengenezwa",
     "aboutDescription": "Kwa nini tulitengeneza chemshabongo bure ambayo hairudii neno, na jinsi AI huandika vidokezo moja kwa moja katika kila lugha.",
     "privacyTitle": "Sera ya faragha",
-    "privacyDescription": "Chemshabongo AI huhifadhi nini, wapi, na kwa nini — hakuna akaunti, hakuna ufuatiliaji wa wewe ni nani.",
+    "privacyDescription": "Kile ambacho Chemshabongo AI inahifadhi, wapi, na kwa nini — ikiwa ni pamoja na akaunti na malipo, bila kufuatilia wewe ni nani.",
     "termsTitle": "Masharti ya matumizi",
     "termsDescription": "Masharti mafupi ya kutumia Chemshabongo AI.",
     "contactTitle": "Tuandikie",
@@ -168,12 +172,25 @@
     "creating": "Inatengeneza mchezo wako…",
     "creatingHint": "Inachagua maneno ambayo hujayaona. Mapya yanaweza kuchukua sekunde chache.",
     "cancel": "Ghairi",
-    "freshHint": "Bure, bila kujisajili. Kila mchezo huleta maneno ambayo hujayaona hapa.",
+    "freshHint": "Kila fumbo linaleta maneno ambayo hujawahi kuyaona hapa kabla.",
     "exhausted": "Umeshamaliza maneno yote tuliyo nayo kwa chaguo hili sasa! Tunaandika mapya — jaribu mada nyingine, au urudi baada ya dakika."
+  },
+  "Billing": {
+    "credits": "{count, plural, one {# credit} other {# credits}}",
+    "balance": "Your balance: {count, plural, one {# credit} other {# credits}}",
+    "cost": "This puzzle: {count, plural, one {# credit} other {# credits}}",
+    "freeNow": "This one is free — your free puzzle of the month.",
+    "youHave": "You have {count, plural, one {# credit} other {# credits}}.",
+    "notEnough": "Not enough credits for this puzzle.",
+    "guestUsed": "You've used this month's free puzzle. Sign in for one more free puzzle every month, and to buy credits.",
+    "refusedSignIn": "This month's free puzzle is used. Sign in to get another one, and to buy credits.",
+    "refusedCredits": "Not enough credits for this puzzle. Top up to keep playing.",
+    "signIn": "Sign in",
+    "buyCredits": "Buy credits"
   },
   "Home": {
     "hero": {
-      "eyebrow": "Bure · Bila kujisajili · Inafanya kazi nje ya mtandao",
+      "eyebrow": "Bure kujaribu · Bila usajili wa kila mwezi · Inafanya kazi bila mtandao",
       "title": "Chemshabongo ambayo <mark>huwa mpya</mark>",
       "subtitle": "Chagua mada na ugumu — AI huandika vidokezo katika lugha yako, na neno hilohilo halijirudii.",
       "lede": "Tengeneza chemshabongo au skanwodi bure mtandaoni, bila kujisajili. Mada zinaanzia wanyama, chakula na jiografia hadi historia, sayansi, michezo, sanaa, nyumbani, kazi na utamaduni — au zichanganye zote."
@@ -203,8 +220,8 @@
     "topicsTitle": "Chagua mada",
     "topicsSubtitle": "Kutoka ndege wa uani hadi mito maarufu — au zichanganye zote.",
     "faqTitle": "Maswali na majibu",
-    "faq1Question": "Je, Chemshabongo AI ni bure kweli?",
-    "faq1Answer": "Ndiyo. Kila chemshabongo na skanwodi inachezeka bure, bila akaunti, bila kujisajili, na bila kikomo cha idadi unayotatua.",
+    "faq1Question": "Je, Chemshabongo AI ni bure?",
+    "faq1Answer": "Fumbo lako la kwanza kila mwezi ni bure, bila hitaji la kujisajili, na ukiingia kwenye akaunti unapata fumbo moja zaidi. Baada ya hapo, mafumbo yanagharimu salio la mikopo (credits), linalonunuliwa mara moja bila usajili wa kila mwezi. Kucheza fumbo uliloshirikishwa na mtu mwingine ni bure kila wakati.",
     "faq2Question": "Je, nitaona maneno yale yale tena?",
     "faq2Answer": "Hapana. Kifaa chako huhifadhi orodha ya maneno ambayo tayari yameonyeshwa na kuyaacha nje ya kila mchezo mpya. Ukifuta data ya tovuti kwenye kivinjari, orodha huanza upya.",
     "faq3Question": "Naweza kucheza kwa lugha zipi?",
@@ -518,52 +535,56 @@
         "items": [
           {
             "question": "Chemshabongo AI ni nini?",
-            "answer": "Chemshabongo AI ni tovuti bure inayotengeneza chemshabongo na skanwodi katika lugha thelathini na tatu. Modeli ya AI huandika maneno na vidokezo moja kwa moja katika kila lugha, msimbo hujenga gridi, na kila kifaa hupata maneno ambayo hakijayaona tu."
+            "answer": "Chemshabongo AI ni tovuti inayotengeneza mafumbo ya maneno (crosswords na scanwords) katika lugha thelathini na tatu. Mfumo wa AI huandika maneno na maelezo yake asilia kwa kila lugha, msimbo wa kompyuta unajenga fremu, na kila kifaa kinapata tu maneno ambacho hakijawahi kuyaona kabla."
           },
           {
-            "question": "Je, Chemshabongo AI ni bure kweli?",
-            "answer": "Ndiyo. Kila chemshabongo na skanwodi inachezeka bure — bila akaunti, bila kujisajili, bila usajili na bila matangazo."
+            "question": "Je, Chemshabongo AI ni bure?",
+            "answer": "Kwa kiasi fulani. Fumbo lako la kwanza kila mwezi ni bure, bila kujisajili, na kuingia kwenye akaunti kunaongeza fumbo la pili la bure kila mwezi. Zaidi ya hapo, mafumbo yanalipiwa kwa mikopo: unanunua kifurushi mara moja — hakuna usajili wa kila mwezi, mikopo haiishi muda wake, na hakuna matangazo. Kucheza fumbo uliloshirikishwa na mtu mwingine ni bure kila wakati."
           },
           {
-            "question": "Je, nahitaji akaunti?",
-            "answer": "Hapana. Hakuna cha kujisajili. Maendeleo yako, mipangilio na orodha ya maneno uliyoyaona huhifadhiwa kwenye kivinjari, kwenye kifaa chako."
+            "question": "Je, ninahitaji akaunti?",
+            "answer": "Sio kwa fumbo lako la bure la mwezi: maendeleo yako, mipangilio yako na maneno uliyokwisha yaona yanahifadhiwa kwenye kivinjari chako. Akaunti inakuongezea fumbo la pili la bure kila mwezi na inakuwezesha kununua mikopo na kuilinda."
           },
           {
-            "question": "Nani anatengeneza Chemshabongo AI?",
-            "answer": "Ni mradi huru wa mtengenezaji Michael Navasardyan: michezo inayosomeka kana kwamba mwandishi wa huko ndiye aliyeiandika, katika kila lugha inayotolewa — Kiswahili, Kiarmenia, Kirusi na Kiingereza miongoni mwao."
+            "question": "Fumbo moja linagharimu kiasi gani?",
+            "answer": "Fumbo dogo linagharimu mikopo 5, la wastani mikopo 10 na kubwa mikopo 15; ugumu wa wastani unaongeza mshazi 1 na ugumu wa juu unaongeza mikopo 2. Mikopo inapatikana kwa vifurushi vya 200 kwa $4.99, 600 kwa $11.99 na 2,000 kwa $29.99. Ukurasa wa malipo unaonyesha bei kwa sarafu yako, pamoja na kodi mahali inapohusika."
+          },
+          {
+            "question": "Nani anayetengeneza Chemshabongo AI?",
+            "answer": "Ni mradi wa kujitegemea wa msanidi programu Michael Navasardyan: mafumbo yanayosomeka kana kwamba yameandikwa na mwandishi wa eneo husika, katika kila lugha ambayo tovuti inatoa — ikiwa ni pamoja na Kiamenia, Kirusi na Kiingereza."
           }
         ]
       },
       {
-        "title": "Michezo",
+        "title": "Mafumbo",
         "items": [
           {
-            "question": "Kuna tofauti gani kati ya chemshabongo na skanwodi?",
-            "answer": "Chemshabongo huorodhesha vidokezo vyenye namba kando ya gridi, Mlalo na Wima. Skanwodi huchapisha kila kidokezo ndani ya kisanduku, pamoja na mshale unaoelekeza jibu — umbo linalojaza majarida ya michezo ya akili nchini Urusi na Armenia."
+            "question": "Kuna tofauti gani kati ya crossword na scanword?",
+            "answer": "Crossword inaorodhesha maelezo yenye nambari kando ya fremu, Kwenda Kushoto na Kwenda Chini. Scanword inachapisha kila maelezo ndani ya kisanduku cha fremu yenyewe, ikiwa na mshale unaoelekeza mahali ambapo jibu lake linakwenda — mfumo ambao magazeti ya mafumbo kote Urusi na Armenia yamejaa."
           },
           {
-            "question": "Michezo ni mikubwa kiasi gani?",
-            "answer": "Kuna ukubwa tatu. Chemshabongo ya kawaida hujaza gridi ya 9×9, 13×13 au 15×15 kwa maneno yapata 8–14, 16–24 au 22–34, kisha hukatwa kulingana na maneno. Skanwodi hutumia gridi ya 8×10, 10×13 au 13×17 — ndefu kuliko upana, kwa sababu nyingi hutatuliwa kwenye simu."
+            "question": "Mafumbo yana ukubwa gani?",
+            "answer": "Kuna ukubwa wa aina tatu. Crossword ya kawaida inajaza fremu ya 9×9, 13×13 au 15×15 yenye takriban maneno 8–14, 16–24 au 22–34, kisha inakatwa kulingana na maneno iliyo nayo. Scanword inatumia fremu ya 8×10, 10×13 au 13×17 — ndefu zaidi kuliko upana wake, kwa sababu mengi yanatatuliwa kwenye simu."
           },
           {
-            "question": "Viwango vya ugumu vinatofautianaje?",
-            "answer": "Rahisi hutumia maneno ya kila siku yenye maelezo ya moja kwa moja. Wastani huchota msamiati mpana zaidi. Ngumu huleta maneno adimu na vidokezo vinavyokufanya ufikiri mara mbili."
+            "question": "Viwango vya ugumu vinatofautiana vipi?",
+            "answer": "Rahisi inatumia maneno ya kila siku yenye maana za moja kwa moja. Wa Wastani inatumia bokari pana zaidi ya maneno. Ngumu inaleta maneno nadra zaidi na maelezo yanayokufanya ufikirie mara mbili."
           },
           {
-            "question": "Naweza kuchagua mada zipi?",
-            "answer": "Kumi na mbili: maneno ya kila siku, mazingira, wanyama, chakula na vinywaji, jiografia, historia, sayansi, michezo, sanaa, nyumbani, kazi na utamaduni wa kienyeji — au zichanganye zote katika mchezo mmoja."
+            "question": "Ni mada gani ninazoweza kuchagua?",
+            "answer": "Kumi na mbili: maneno ya kila siku, asili, wanyama, chakula na vinywaji, jiografia, historia, sayansi, michezo, sanaa, nyumbani na maisha ya kila siku, taaluma na utamaduni wa eneo — au changanya zote kwenye fumbo moja."
           },
           {
             "question": "Je, nitaona neno lile lile mara mbili?",
-            "answer": "Si kwenye kifaa kile kile. Hukumbuka hadi maneno 4,000 kwa kila lugha — yapata michezo 130 — na kuyaacha nje ya kila mchezo mpya; baada ya hapo tu yale ya zamani zaidi huondoka kwenye orodha. Kufuta data ya tovuti huanza orodha upya."
+            "answer": "Sio kwenye kifaa kile kile. Inakumbuka hadi maneno 4,000 kwa kila lugha — sawa na mafumbo 130 hivi — na kuyaacha nje ya kila fumbo jipya; ni baada ya hapo tu ambapo maneno ya zamani zaidi huondolewa kwenye orodha. Kufuta data ya tovuti kwenye kivinjari chako kunaanza orodha hiyo upya."
           },
           {
-            "question": "AI huandikaje vidokezo?",
-            "answer": "Modeli ya Gemini ya Google huandika maneno na vidokezo moja kwa moja katika kila lugha, ikifuata mwongozo wa wazungumzaji asilia. Msimbo kisha hukagua kila kimoja — alfabeti sahihi, neno moja halisi, kidokezo cha haki kisichotoa jibu — na upitaji wa pili wa AI hufanya kazi ya mhariri. Kinachoshindwa huondolewa, hakitengenezwi. Gridi yenyewe hujengwa na msimbo, si na AI."
+            "question": "AI inawazaje kuandika maelezo ya maneno?",
+            "answer": "Mfano wa Gemini wa Google unaandika maneno na maelezo moja kwa moja katika kila lugha, ukifuata mwongozo wa mtindo ulioandikwa na wazungumzaji asilia. Kisha msimbo unakagua kila neno — alfabeti sahihi, neno moja halisi, maelezo ya haki yasiyotoa jibu wazi — na ukaguzi wa pili wa AI unafanya kazi kama mhariri. Kitu chochote kinachofeli kinaondolewa kabisa. Fremu yenyewe inajengwa na msimbo, si na AI."
           },
           {
-            "question": "Je, kidokezo kikiwa kibaya?",
-            "answer": "Fungua menyu ya ⋯ juu ya gridi na uchague “Ripoti kidokezo”. Wachezaji watatu tofauti wakiripoti kidokezo kile kile, kinaondolewa wala hakionekani tena."
+            "question": "Vipi ikiwa maelezo ya neno si sahihi?",
+            "answer": "Fungua menyu ya ⋯ juu ya fremu na uchague \"Ripoti maelezo\". Mara wachezaji watatu tofauti wanaporipoti maelezo yale yale, yanaondolewa na hayatatokea tena."
           }
         ]
       },
@@ -571,32 +592,32 @@
         "title": "Kucheza",
         "items": [
           {
-            "question": "Ninaandikaje majibu kwenye simu au kompyuta?",
-            "answer": "Kwenye kompyuta, andika tu: hata kibodi ikiwa ya Kiingereza, vitufe huandika herufi za mchezo mahali pake pa kawaida, hivyo hakuna mpangilio wa kubadili. Kwenye simu au kompyuta kibao, kibodi ya mchezo huonekana chini ya gridi, na kibodi ya mfumo haiifuniki."
+            "question": "Ninawezaje kuandika majibu kwenye simu au kompyuta?",
+            "answer": "Kwenye kompyuta, andika tu: hata kama kibodi yako imewekwa Kadi ya Kiingereza, vifunguo vinaandika herufi za fumbo katika nafasi zao za kawaida, kwa hivyo hakuna mpangilio wa kubadilisha. Kwenye simu au kompyuta mpakato, kibodi ya fumbo lenyewe inatokea chini ya fremu, na kibodi ya mfumo haitoifunika."
           },
           {
-            "question": "Naweza kukagua majibu au kupata msaada?",
-            "answer": "Ndiyo. Kagua huweka alama kwenye herufi zisizo sahihi katika kisanduku kimoja, neno moja au mchezo wote, na Fichua hujaza herufi, neno au vyote. Washa “Kagua ninapoandika” kwenye mipangilio kuona makosa mara unapoyafanya."
+            "question": "Je, ninaweza kukagua majibu yangu au kupata dokezo?",
+            "answer": "Ndiyo. Ukaguzi unamulika herufi zisizosahihi katika kisanduku kimoja, neno moja au fumbo zima, na Fichua inajaza herufi, neno au kila kitu. Washa \"Kagua ninapoandika\" kwenye mipangilio ili uone makosa wakati huo huo unapoyafanya."
           },
           {
-            "question": "Herufi za Kiarmenia ու na և, na Ё ya Kirusi, hushughulikiwaje?",
-            "answer": "Katika chemshabongo za Kiarmenia, ու na և ni herufi moja moja na kila moja hujaza kisanduku kimoja, kama kwenye chemshabongo zilizochapishwa; kibodi ya skrini inazo zote mbili, na kuandika ո kisha ւ huzifunga kuwa ու. Katika chemshabongo za Kirusi, Ё huandikwa kama Е, kama kwenye zilizochapishwa."
+            "question": "Herufi za Kiamenia ու na և, na ya Kirusi Ё, zinashughulikiwaje?",
+            "answer": "Katika mafumbo ya Kiamenia ու na և ni herufi moja moja na kila moja inajaza kisanduku kimoja, kama katika mafumbo yaliyochapishwa ya Kiamenia; kibodi ya kwenye skrini ina zote mbili, na kuandika ո kisha ւ kunaziunganisha kuwa ու. Katika mafumbo ya Kirusi Ё inaandikwa kama Е, kama katika mafumbo yaliyochapishwa."
           },
           {
             "question": "Je, maendeleo yangu yanahifadhiwa?",
-            "answer": "Ndiyo, kiotomatiki, unapocheza. Kila chemshabongo au skanwodi unayoanza na kuiacha haijamalizika huorodheshwa chini ya “Michezo yangu”, herufi zako zikiwa zimehifadhiwa, ili uendelee baadaye — hata nje ya mtandao."
+            "answer": "Ndiyo, kiotomatiki, unapoendelea kucheza. Kila crossword au scanword unayoanza na kuiacha bila kumaliza inaorodheshwa chini ya \"Mafumbo yangu\", herufi zako zikiwa zimehifadhiwa, ili uweze kuendelea nayo baadaye — hata bila mtandao."
           },
           {
-            "question": "Naweza kucheza nje ya mtandao, au kuisakinisha kama programu?",
-            "answer": "Ndiyo. Chemshabongo AI husakinishwa kutoka kwenye kivinjari kama programu (kwenye iPhone: Share → Add to Home Screen). Kila mchezo unaofungua huhifadhiwa pamoja na maendeleo na unaendelea bila muunganisho; michezo mipya pekee inahitaji intaneti."
+            "question": "Je, ninaweza kucheza bila mtandao, au kuisakinisha kama programu?",
+            "answer": "Ndiyo. Chemshabongo AI inasakinishwa kutoka kwenye kivinjari chako kama programu (kwenye iPhone: Shiriki → Ongeza kwenye Skrini ya Nyumbani). Kila fumbo unalofungua linahifadhiwa pamoja na maendeleo yako na linaendelea kufanya kazi bila muunganisho; ni mafumbo mapya tu yanayohitaji mtandao."
           },
           {
-            "question": "Naweza kumshirikisha rafiki mchezo?",
-            "answer": "Ndiyo. Gusa Shiriki juu ya gridi kunakili kiungo, au ukitume kupitia WhatsApp, Telegram, Facebook, X, VK au barua pepe. Rafiki yako anapata gridi na vidokezo vile vile."
+            "question": "Je, ninaweza kushiriki fumbo na rafiki?",
+            "answer": "Ndiyo. Gusa Shiriki juu ya fremu ili kunakili kiungo, au utume kupitia WhatsApp, Telegram, Facebook, X, VK au barua pepe. Rafiki yako anapata fremu na maelezo yale yale kabisa."
           },
           {
-            "question": "Naweza kucheza kwa kibodi au kisoma skrini?",
-            "answer": "Ndiyo. Gridi inafanya kazi kikamilifu kwa kibodi na kwa visoma skrini: kila kisanduku kina lebo, kidokezo tendaji hutangazwa, na ukaguzi pamoja na ufichuzi husomwa. Herufi zisizo sahihi na zilizofichuliwa huwekwa alama kwa umbo, si kwa rangi pekee."
+            "question": "Je, ninaweza kucheza kwa kutumia kibodi au kisoma skrini?",
+            "answer": "Ndiyo. Fremu inafanya kazi kikamilifu kutoka kwenye kibodi na kwa visoma skrini: kila kisanduku kina lebo, maelezo yanayotumika yanatangazwa, na ukaguzi pamoja na ufichuaji unasomwa kwa sauti. Herufi zisizo sahihi na zilizofichuliwa zimewekwa alama kwa umbo, si kwa rangi pekee."
           }
         ]
       },
@@ -604,12 +625,12 @@
         "title": "Faragha",
         "items": [
           {
-            "question": "Mnahifadhi data gani?",
-            "answer": "Kidogo sana. Michezo yako, maendeleo, mipangilio na orodha ya maneno uliyoyaona hubaki kwenye kivinjari chako. Seva huhifadhi michezo inayotengenezwa (ili kiungo cha kushiriki kifungue gridi ile ile), ripoti za vidokezo pamoja na heshi ya njia moja ya anwani ya IP, na hesabu zisizo na jina za utatuzi. Hakuna majina wala wasifu."
+            "question": "Ni data gani mnahifadhi?",
+            "answer": "Kidogo sana. Mafumbo yako, maendeleo, mipangilio na orodha ya maneno yaliyoonekana vinabaki kwenye kivinjari chako. Seva inahifadhi mafumbo yaliyotengenezwa (ili kiungo kilichoshirikiwa kifungue fremu ile ile), ripoti za maelezo zenye alama isiyoweza kubadilishwa ya anwani ya IP, na hesabu zisizojulikana za utatuzi. Hakuna majina wala wasifu."
           },
           {
-            "question": "Je, chochote kukuhusu mimi hutumwa kwa AI?",
-            "answer": "Hapana. Mipangilio ya mchezo pekee — lugha, mada, ugumu — na orodha za maneno huenda kwenye modeli za Gemini za Google, kamwe si chochote kukuhusu wewe."
+            "question": "Je, kuna chochote kunihusu kinachotumwa kwa AI?",
+            "answer": "Hapana. Mipangilio tu ya fumbo — lugha, mada, ugumu — na orodha za maneno ndivyo vinavyotumwa kwenye mifano ya Gemini ya Google, hakuna chochote kinachokuhusu wewe."
           }
         ]
       }
@@ -645,57 +666,129 @@
   },
   "Privacy": {
     "title": "Sera ya faragha",
-    "subtitle": "Kwa ufupi: hakuna akaunti, hakuna majina, hakuna uundaji wa wasifu. Hiki ndicho tunachohifadhi.",
+    "subtitle": "Kwa kifupi: akaunti ni ikiwa tu unataka, hakuna ukusanyaji wa wasifu. Hapa kuna kila kitu tunachohifadhi.",
     "sections": [
       {
         "title": "Kwenye kifaa chako",
         "paragraphs": [
-          "Kivinjari chako huhifadhi michezo unayofungua, maendeleo, mipangilio na orodha ya maneno ambayo tayari umeyaona, ili yasiweze kurudiwa. Hii hubaki kwenye kifaa chako; kufuta data ya tovuti huiondoa."
+          "Kivinjari chako kinahifadhi mafumbo unayofungua, maendeleo yako, mipangilio yako na orodha ya maneno uliyokwisha yaona, ili yasirudiwe tena. Hii inabaki kwenye kifaa chako; kufuta data ya tovuti kunaiondoa."
         ]
       },
       {
-        "title": "Kwenye seva yetu",
+        "title": "Kwenye seva wetu",
         "paragraphs": [
-          "Tunahifadhi michezo inayotengenezwa, ili kiungo cha kushiriki kifungue gridi ile ile. Unaporipoti kidokezo tunahifadhi ripoti pamoja na heshi ya njia moja ya anwani yako ya IP, ili mtu mmoja asiweze kuondoa kidokezo peke yake. Pia tunahesabu bila majina jinsi michezo inavyochezwa (imetatuliwa, maneno yapi yalifichuliwa) ili kurekebisha ugumu."
+          "Tunahifadhi mafumbo yaliyotengenezwa, ili kiungo kilichoshirikiwa kifungue fremu ile ile. Unaporipoti maelezo tunahifadhi ripoti hiyo pamoja na alama isiyoweza kubadilishwa ya anwani yako ya IP, ili tu mtu mmoja asiweze kuondoa maelezo peke yake. Pia tunahesabu bila jina jinsi mafumbo yanavyochezwa (yaliyotatuliwa, ni maneno gani yalifichuliwa) ili kurekebisha kiwango cha ugumu.",
+          "Ili kukipa kila kifaa fumbo lake la bure la mwezi, tovuti inaweka kuki yenye kitambulisho cha nasibu. Kwa kila fumbo la bure tunahifadhi kitambulisho hicho na alama isiyoweza kubadilishwa ya anwani yako ya IP."
+        ]
+      },
+      {
+        "title": "Akaunti na mikopo",
+        "paragraphs": [
+          "Ukiunda akaunti, tunahifadhi jina lako, barua pepe yako na, unapoingia kwa kutumia Google, picha yako ya wasifu wa Google. Pia tunahifadhi salio lako la mikopo na historia yake: kila ununuzi, kila fumbo lililolipiwa na kila urejeshaji wa fedha."
+        ]
+      },
+      {
+        "title": "Malipo",
+        "paragraphs": [
+          "Malipo yanashughulikiwa na Paddle.com, Muuzaji wetu Rasmi (Merchant of Record). Paddle inakusanya maelezo yako ya malipo na nchi ya kulipia chini ya sera yake ya faragha; hatuoni nambari yako ya kadi kamwe. Kutoka Paddle tunapokea kiasi, sarafu, kodi na aina ya njia ya malipo ya kila ununuzi."
         ]
       },
       {
         "title": "Mtoa huduma wa AI",
         "paragraphs": [
-          "Maneno na vidokezo vipya huandikwa na modeli za Gemini za Google. Mipangilio ya mchezo pekee (lugha, mada, ugumu) na orodha za maneno hutumwa — kamwe si chochote kukuhusu wewe."
+          "Maneno mapya na maelezo yanaandikwa na mifano ya Gemini ya Google. Mipangilio tu ya fumbo (lugha, mada, ugumu) na orodha za maneno ndivyo vinavyotumwa — hakuna chochote kinachokuhusu wewe."
         ]
       },
       {
-        "title": "Takwimu na ripoti za hitilafu",
+        "title": "Uchanganuzi na ripoti za makosa",
         "paragraphs": [
-          "Ikewashwa, tunatumia Google Analytics kuhesabu mitazamo ya kurasa na Sentry kupokea ripoti za hitilafu. Hakuna kinachotumika kukutambua."
+          "Ikiwa imewezeshwa, tunatumia Google Analytics kuhesabu ziara za ukurasa na Sentry kupokea ripoti za makosa. Hakuna inayotumika kumtambulisha mtu."
         ]
       }
     ]
   },
   "Terms": {
     "title": "Masharti ya matumizi",
-    "subtitle": "Chemshabongo AI ni bure kutumia, kwa starehe na kujifunza.",
+    "subtitle": "Chemshabongo AI ni kwa ajili ya burudani na kujifunza. Vigezo hivi vinahusu kuicheza na kununua mikopo.",
     "sections": [
       {
         "title": "Kutumia huduma",
         "paragraphs": [
-          "Unaweza kucheza, kushiriki na kuchapisha michezo kwa matumizi ya kibinafsi na elimu. Tafadhali usiilemee huduma kwa maombi ya kiotomatiki."
+          "Unaweza kucheza, kushiriki na kuchapisha mafumbo kwa matumizi ya kibinafsi na ya kielimu. Tafadhali usiletee huduma hii mzigo mkubwa kwa maombi ya kiotomatiki."
+        ]
+      },
+      {
+        "title": "Mafumbo ya bure na mikopo",
+        "paragraphs": [
+          "Kila kifaa kinapata fumbo moja la bure kila mwezi wa kalenda, na kila akaunti inapata moja zaidi. Mafumbo mengine yanalipiwa kwa mikopo, kwa bei inayoonyeshwa kabla hujatengeneza moja; fumbo linatozwa tu linapotengenezwa, na kufungua fumbo lililohifadhiwa ni bure.",
+          "Mikopo inafanywa kwa ununuzi wa vifurushi kwa malipo ya mara moja — hakuna usajili wa kila mwezi — na haipotezi muda wake. Haina thamani ya fedha taslimu na haiwezi kuhamishwa."
+        ]
+      },
+      {
+        "title": "Malipo",
+        "paragraphs": [
+          "Mchakato wetu wa kuagiza unasimamiwa na muuzaji wetu wa mtandaoni Paddle.com. Paddle.com ni Muuzaji Rasmi wa maagizo yetu yote. Paddle inatoa maswali yote ya huduma kwa wateja na inashughulikia urejeshaji."
+        ]
+      },
+      {
+        "title": "Urejeshaji wa fedha",
+        "paragraphs": [
+          "Unaweza kuomba urejeshaji wa fedha wa kifurushi cha mikopo ndani ya siku 14 baada ya kukinunua, kupitia Paddle au kwa kutuandikia. Urejeshaji unachukua mikopo ya kifurushi hicho kutoka kwenye salio lako. Mikopo iliyokwisha tumika haiwezi kurudishwa, kwa hivyo kifurushi kilichotumika kwa sehemu kinaweza kurejeshwa kiasi tu."
         ]
       },
       {
         "title": "Maudhui yaliyoandikwa na AI",
         "paragraphs": [
-          "Maneno na vidokezo huandikwa na AI na hukaguliwa kiotomatiki, lakini makosa yanaweza kutokea. Ukipata kimoja, liripoti — ndivyo vidokezo vibaya vinavyoondolewa."
+          "Maneno na maelezo yanaandikwa na AI na kukaguliwa kiotomatiki, lakini makosa yanaweza kutokea. Ukipata kosa, liripoti — hivyo ndivyo maelezo mabaya yanavyoondolewa."
         ]
       },
       {
         "title": "Hakuna dhamana",
         "paragraphs": [
-          "Huduma hutolewa jinsi ilivyo, bila dhamana ya upatikanaji au usahihi. Tunaweza kubadili au kusitisha vipengele wakati wowote."
+          "Huduma inatolewa kama ilivyo, bila udhamini wa kupatikana au usahihi. Tunaweza kubadilisha au kusitisha vipengele wakati wowote."
         ]
       }
     ]
+  },
+  "Credits": {
+    "title": "Credits",
+    "subtitle": "One free puzzle every month. After that, pay only for the puzzles you make — no subscription, and credits never expire.",
+    "balanceTitle": "Your balance",
+    "freeAvailable": "Your free puzzle of this month is waiting.",
+    "freeUsed": "This month's free puzzle is used. The next one comes on {date}.",
+    "guestTitle": "Get more free puzzles",
+    "guestText": "Sign in to get a free puzzle every month on your account, and to buy credits.",
+    "pricesTitle": "What a puzzle costs",
+    "pricesText": "In credits, by size and difficulty. Opening a puzzle someone shared with you, or one from your history, is always free.",
+    "size": "Size",
+    "packsTitle": "Credit packs",
+    "packs": {
+      "starter": "Starter",
+      "popular": "Popular",
+      "big": "Big"
+    },
+    "popularBadge": "Most popular",
+    "bestValueBadge": "Best value",
+    "packPuzzles": "About {count} medium puzzles",
+    "buy": "Buy",
+    "signInToBuy": "Sign in to buy",
+    "shopClosed": "Buying credits isn't available right now. Please check back soon.",
+    "checkoutFailed": "We couldn't open the checkout. Please try again.",
+    "paddleNote": "Payments are processed by Paddle.com, our reseller and Merchant of Record. Prices include VAT or sales tax where it applies; the final price in your currency is shown at checkout.",
+    "refundsNote": "Refunds are covered in the terms of use."
+  },
+  "Payments": {
+    "checkoutTitle": "Checkout",
+    "opening": "Opening the secure checkout…",
+    "checkoutUnavailable": "The checkout couldn't open. Please try again from the credits page.",
+    "backToCredits": "Back to credits",
+    "verifying": "Confirming your payment…",
+    "successTitle": "Thank you!",
+    "successText": "{count, plural, one {# credit was} other {# credits were}} added to your balance.",
+    "pendingText": "Your payment went through. The credits will appear on your balance within a few minutes.",
+    "failedText": "The payment didn't go through, so nothing was charged. You can try again.",
+    "verifyError": "We couldn't confirm the payment right now. If you were charged, the credits will still arrive — check your balance in a few minutes.",
+    "makePuzzle": "Make a puzzle"
   },
   "Contact": {
     "title": "Tuandikie",

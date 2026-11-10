@@ -181,3 +181,31 @@ export type PuzzleView = {
   solution: string[]
   createdAt: string
 }
+
+/**
+ * Credits: what a new puzzle costs, by size plus a step per difficulty — 5 to 17. Opening a
+ * stored puzzle (a shared link, history) is free; only building one is charged.
+ * `docs/BILLING.md` is the business model in one page — change both together.
+ */
+export const SIZE_CREDITS: Record<PuzzleSize, number> = { small: 5, medium: 10, large: 15 }
+export const DIFFICULTY_CREDITS: Record<Difficulty, number> = { 1: 0, 2: 1, 3: 2 }
+
+export const puzzleCredits = (size: PuzzleSize, difficulty: Difficulty): number => SIZE_CREDITS[size] + DIFFICULTY_CREDITS[difficulty]
+
+/** Paid once; credits never expire. `usd` is the list price, shown until Paddle's localized one arrives. */
+export const CREDIT_PACKS = [
+  { id: 'starter', credits: 200, usd: 4.99 },
+  { id: 'popular', credits: 600, usd: 11.99 },
+  { id: 'big', credits: 2000, usd: 29.99 },
+] as const
+export type CreditPackId = (typeof CREDIT_PACKS)[number]['id']
+
+export const isCreditPackId = (value: unknown): value is CreditPackId => CREDIT_PACKS.some(({ id }) => id === value)
+
+/** Envelope codes of a refused `POST /puzzles` (HTTP 402). */
+export const BILLING_CODE = {
+  /** A guest has used this month's free puzzle: signing in gives another and lets them buy credits. */
+  signInRequired: 4021,
+  /** Signed in, this month's free puzzle used, and the balance is below the puzzle's price. */
+  insufficientCredits: 4022,
+} as const

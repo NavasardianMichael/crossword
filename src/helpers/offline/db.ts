@@ -7,7 +7,8 @@ import { reportError } from '@helpers/reportError'
  * The device's own storage, so a started puzzle survives reloads and plays offline:
  * - `puzzles` — every puzzle the device received, keyed by id;
  * - `progress` — the player's letters, marks, cursor and clock per puzzle;
- * - `queue` — one prefetched puzzle per generator setting, ready before it is asked for.
+ * - `queue` — no longer read or written: it held prefetched puzzles, and every puzzle is now paid
+ *   for when built, so none is built before it is asked for. Kept in the schema of existing databases.
  *
  * Every accessor fails soft: IndexedDB can be missing (old browsers, some private modes) and
  * the game must still run online without it.
@@ -89,19 +90,3 @@ export const listSavedGames = () =>
     },
     [] as SavedGame[]
   )
-
-export const takeQueued = (key: string) =>
-  soft(
-    'takeQueued',
-    async (db) => {
-      const queued = await db.get('queue', key)
-      if (queued) await db.delete('queue', key)
-      return queued?.puzzle
-    },
-    undefined
-  )
-
-export const hasQueued = (key: string) => soft('hasQueued', async (db) => Boolean(await db.getKey('queue', key)), false)
-
-export const putQueued = (key: string, puzzle: PuzzleView) =>
-  soft('putQueued', (db) => db.put('queue', { key, puzzle, queuedAt: Date.now() }).then(() => undefined), undefined)

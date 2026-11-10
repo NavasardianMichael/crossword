@@ -22,6 +22,7 @@
     "scanword": "Rebus scandinav",
     "topics": "Teme",
     "history": "Rebusurile mele",
+    "credits": "Credite",
     "rules": "Cum se joacă",
     "faq": "Întrebări",
     "about": "Despre",
@@ -66,6 +67,9 @@
     "topicDescription": "Rebusuri și careuri scandinave gratuite despre {topic}, făcute de inteligența artificială. {description}",
     "historyTitle": "Rebusurile mele",
     "historyDescription": "Cuvintele încrucișate și rebusurile scandinave începute pe acest aparat și neterminate, cu progresul păstrat.",
+    "creditsTitle": "Credite și prețuri",
+    "creditsDescription": "Un rebus gratuit în fiecare lună, apoi pachete de credite fără abonament: cât costă fiecare puzzle și cum cumperi credite.",
+    "paymentTitle": "Plată",
     "rulesTitle": "Cum se rezolvă cuvintele încrucișate și rebusul scandinav",
     "rulesDescription": "Cum rezolvi aici un careu: scrierea literelor, deplasarea, verificarea și dezvăluirea, și scurtăturile de tastatură.",
     "faqTitle": "Întrebări: rebus AI gratuit, limbi și confidențialitate",
@@ -73,7 +77,7 @@
     "aboutTitle": "Despre — cum se fac rebusurile noastre",
     "aboutDescription": "De ce am făcut un generator gratuit de cuvinte încrucișate care nu repetă niciun cuvânt, și cum scrie inteligența artificială definițiile direct în fiecare limbă.",
     "privacyTitle": "Politica de confidențialitate",
-    "privacyDescription": "Ce păstrează Rebus AI, unde și de ce. Fără cont și fără urmărirea identității.",
+    "privacyDescription": "Ce stochează Rebus AI, unde și de ce — inclusiv conturile și plățile, fără a-ți urmări identitatea.",
     "termsTitle": "Termeni de utilizare",
     "termsDescription": "Regulile simple pentru folosirea Rebus AI.",
     "contactTitle": "Scrie-ne",
@@ -100,21 +104,65 @@
   },
   "Topics": {
     "any": "Teme amestecate",
-    "general": { "name": "Cuvinte de zi cu zi", "description": "Cuvintele vieții de toate zilele: casă, oameni, timp, lumea din jur." },
-    "nature": { "name": "Natură", "description": "Păduri, râuri, vreme, plante și anotimpuri." },
-    "animals": { "name": "Animale", "description": "Animale sălbatice și domestice, păsări, pești și insecte." },
-    "food": { "name": "Mâncare și băutură", "description": "Feluri, ingrediente, bucătărie și tot ce e pe masă." },
-    "geography": { "name": "Geografie", "description": "Țări, orașe, râuri, munți și locuri cunoscute." },
-    "history": { "name": "Istorie", "description": "Epoci, invenții, meșteșuguri și obiecte din trecut." },
-    "science": { "name": "Știință", "description": "Fizică, chimie, biologie, cosmos și corpul omenesc." },
-    "sport": { "name": "Sport", "description": "Jocuri, echipament, întreceri și reguli." },
-    "arts": { "name": "Arte", "description": "Muzică, literatură, teatru, pictură și film." },
-    "home": { "name": "Casă și gospodărie", "description": "Mobilă, unelte, haine și lucrurile de toate zilele." },
-    "professions": { "name": "Meserii", "description": "Meserii, meșteșuguri, unelte și locuri de muncă." },
-    "localCulture": { "name": "Cultură locală", "description": "Tradiții, sărbători, folclor și locuri cunoscute ale culturii din spatele fiecărei limbi." }
+    "general": {
+      "name": "Cuvinte de zi cu zi",
+      "description": "Cuvintele vieții de toate zilele: casă, oameni, timp, lumea din jur."
+    },
+    "nature": {
+      "name": "Natură",
+      "description": "Păduri, râuri, vreme, plante și anotimpuri."
+    },
+    "animals": {
+      "name": "Animale",
+      "description": "Animale sălbatice și domestice, păsări, pești și insecte."
+    },
+    "food": {
+      "name": "Mâncare și băutură",
+      "description": "Feluri, ingrediente, bucătărie și tot ce e pe masă."
+    },
+    "geography": {
+      "name": "Geografie",
+      "description": "Țări, orașe, râuri, munți și locuri cunoscute."
+    },
+    "history": {
+      "name": "Istorie",
+      "description": "Epoci, invenții, meșteșuguri și obiecte din trecut."
+    },
+    "science": {
+      "name": "Știință",
+      "description": "Fizică, chimie, biologie, cosmos și corpul omenesc."
+    },
+    "sport": {
+      "name": "Sport",
+      "description": "Jocuri, echipament, întreceri și reguli."
+    },
+    "arts": {
+      "name": "Arte",
+      "description": "Muzică, literatură, teatru, pictură și film."
+    },
+    "home": {
+      "name": "Casă și gospodărie",
+      "description": "Mobilă, unelte, haine și lucrurile de toate zilele."
+    },
+    "professions": {
+      "name": "Meserii",
+      "description": "Meserii, meșteșuguri, unelte și locuri de muncă."
+    },
+    "localCulture": {
+      "name": "Cultură locală",
+      "description": "Tradiții, sărbători, folclor și locuri cunoscute ale culturii din spatele fiecărei limbi."
+    }
   },
-  "Difficulty": { "1": "Ușor", "2": "Mediu", "3": "Greu" },
-  "Sizes": { "small": "Mic", "medium": "Mediu", "large": "Mare" },
+  "Difficulty": {
+    "1": "Ușor",
+    "2": "Mediu",
+    "3": "Greu"
+  },
+  "Sizes": {
+    "small": "Mic",
+    "medium": "Mediu",
+    "large": "Mare"
+  },
   "Generator": {
     "format": "Alege forma",
     "topic": "Alege o temă",
@@ -124,12 +172,25 @@
     "creating": "Se construiește careul…",
     "creatingHint": "Alegem cuvinte pe care nu le-ai văzut. Cele noi pot dura câteva secunde.",
     "cancel": "Renunță",
-    "freshHint": "Gratis, fără cont. Fiecare careu aduce cuvinte pe care nu le-ai întâlnit aici.",
+    "freshHint": "Fiecare puzzle aduce cuvinte pe care nu le-ai mai întâlnit aici.",
     "exhausted": "Ai jucat, deocamdată, toate cuvintele pentru alegerea asta. Scriem altele. Încearcă altă temă sau revino peste un minut."
+  },
+  "Billing": {
+    "credits": "{count, plural, one {# credit} few {# credite} other {# de credite}}",
+    "balance": "Balanța ta: {count, plural, one {# credit} few {# credite} other {# de credite}}",
+    "cost": "Acest puzzle: {count, plural, one {# credit} few {# credite} other {# de credite}}",
+    "freeNow": "Acesta este gratuit — puzzle-ul tău gratuit din această lună.",
+    "youHave": "Ai {count, plural, one {# credit} few {# credite} other {# de credite}}.",
+    "notEnough": "Nu ai destule credite pentru acest puzzle.",
+    "guestUsed": "Ai folosit puzzle-ul gratuit din această lună. Autentifică-te pentru încă un puzzle gratuit în fiecare lună și pentru a cumpăra credite.",
+    "refusedSignIn": "Puzzle-ul gratuit din această lună a fost folosit. Autentifică-te pentru a primi altul și pentru a cumpăra credite.",
+    "refusedCredits": "Nu ai destule credite pentru acest puzzle. Reîncarcă pentru a continua jocul.",
+    "signIn": "Autentifică-te",
+    "buyCredits": "Cumpără credite"
   },
   "Home": {
     "hero": {
-      "eyebrow": "Gratis · Fără cont · Merge offline",
+      "eyebrow": "Gratuit de încercat · Fără abonament · Funcționează offline",
       "title": "Cuvinte încrucișate <mark>mereu noi</mark>",
       "subtitle": "Alegi tema și dificultatea. Inteligența artificială scrie definițiile în limba ta, iar același cuvânt nu mai apare.",
       "lede": "Fă gratis un rebus sau cuvinte încrucișate online, fără cont. Temele merg de la animale, mâncare și geografie la istorie, știință, sport, arte, casă, meserii și cultură locală — sau le amesteci pe toate."
@@ -139,16 +200,28 @@
     "formatsSubtitle": "Un clasic încăpător, cu liste de definiții, sau un rebus scandinav strâns, cu definițiile în careu.",
     "pointsTitle": "Cu ce se deosebește",
     "points": {
-      "fresh": { "title": "Nicio repetare", "text": "Aparatul ține minte fiecare cuvânt arătat, așa că noul careu aduce cuvinte pe care nu le-ai rezolvat încă." },
-      "native": { "title": "Scris în limba ta", "text": "Definițiile sunt scrise direct în fiecare limbă, cum le-ar pune un autor de rebus de-al locului, nu traduse din alta." },
-      "ai": { "title": "Făcut de AI, verificat de cod", "text": "Inteligența artificială propune cuvinte și definiții; verificările noastre lasă deoparte ce e scris greșit, nedrept sau dă răspunsul de gol." },
-      "offline": { "title": "Se joacă oriunde", "text": "Instalează-l ca pe o aplicație. Careurile deschise merg în avion, în metrou, oriunde." }
+      "fresh": {
+        "title": "Nicio repetare",
+        "text": "Aparatul ține minte fiecare cuvânt arătat, așa că noul careu aduce cuvinte pe care nu le-ai rezolvat încă."
+      },
+      "native": {
+        "title": "Scris în limba ta",
+        "text": "Definițiile sunt scrise direct în fiecare limbă, cum le-ar pune un autor de rebus de-al locului, nu traduse din alta."
+      },
+      "ai": {
+        "title": "Făcut de AI, verificat de cod",
+        "text": "Inteligența artificială propune cuvinte și definiții; verificările noastre lasă deoparte ce e scris greșit, nedrept sau dă răspunsul de gol."
+      },
+      "offline": {
+        "title": "Se joacă oriunde",
+        "text": "Instalează-l ca pe o aplicație. Careurile deschise merg în avion, în metrou, oriunde."
+      }
     },
     "topicsTitle": "Alege o temă",
     "topicsSubtitle": "De la păsările din curte la râuri cunoscute — sau amestecă-le.",
     "faqTitle": "Întrebări și răspunsuri",
-    "faq1Question": "Rebus AI este chiar gratis?",
-    "faq1Answer": "Da. Orice careu se joacă gratis, fără cont, fără înscriere și fără limită.",
+    "faq1Question": "Este Rebus AI gratuit?",
+    "faq1Answer": "Primul tău puzzle din fiecare lună este gratuit, fără înregistrare, iar dacă te autentifici mai primești încă unul. După aceea, puzzle-urile costă credite, cumpărate o singură dată, fără abonament. Să joci un puzzle trimis de cineva este întotdeauna gratuit.",
     "faq2Question": "O să văd aceleași cuvinte?",
     "faq2Answer": "Nu. Aparatul ține o listă a cuvintelor arătate și le lasă afară din fiecare careu nou. Dacă ștergi datele site-ului, lista o ia de la capăt.",
     "faq3Question": "În ce limbi pot juca?",
@@ -313,7 +386,12 @@
     "ime": "Scrie un semn",
     "erase": "Șterge",
     "time": "Timp: {time}",
-    "check": { "label": "Verifică", "cell": "Verifică litera", "word": "Verifică cuvântul", "puzzle": "Verifică careul" },
+    "check": {
+      "label": "Verifică",
+      "cell": "Verifică litera",
+      "word": "Verifică cuvântul",
+      "puzzle": "Verifică careul"
+    },
     "reveal": {
       "label": "Dezvăluie",
       "cell": "Dezvăluie litera",
@@ -326,7 +404,12 @@
     },
     "clearWrong": "Șterge literele greșite",
     "more": "Mai mult",
-    "zoom": { "label": "Zoom", "in": "Mărește", "out": "Micșorează", "reset": "Încadrează careul" },
+    "zoom": {
+      "label": "Zoom",
+      "in": "Mărește",
+      "out": "Micșorează",
+      "reset": "Încadrează careul"
+    },
     "settings": {
       "label": "Setări",
       "autoCheck": "Verifică pe măsură ce scriu",
@@ -451,41 +534,105 @@
       {
         "title": "Despre Rebus AI",
         "items": [
-          { "question": "Ce este Rebus AI?", "answer": "Rebus AI este un site gratuit care face cuvinte încrucișate și rebusuri scandinave în treizeci și trei de limbi. Un model scrie cuvintele și definițiile direct în fiecare limbă, codul construiește careul, iar fiecare aparat primește doar cuvinte pe care nu le-a văzut." },
-          { "question": "Rebus AI este chiar gratis?", "answer": "Da. Orice careu se joacă gratis: fără cont, fără înscriere, fără abonament și fără reclame." },
-          { "question": "Am nevoie de cont?", "answer": "Nu. Nu e nimic de înregistrat. Progresul, setările și lista cuvintelor văzute stau în browser, pe aparatul tău." },
-          { "question": "Cine face Rebus AI?", "answer": "Este un proiect independent al dezvoltatorului Michael Navasardyan: careuri care se citesc ca și cum le-ar fi scris un autor de-al locului, în fiecare limbă a site-ului, între care armeana, rusa și engleza." }
+          {
+            "question": "Ce este Rebus AI?",
+            "answer": "Rebus AI este un site web care generează rebusuri și scanworduri în treizeci și trei de limbi. Un model AI scrie cuvintele și indiciile nativ în fiecare limbă, codul construiește grila, iar fiecare dispozitiv primește doar cuvinte pe care nu le-a mai văzut."
+          },
+          {
+            "question": "Este Rebus AI gratuit?",
+            "answer": "Parțial. Primul tău puzzle din fiecare lună este gratuit, fără înregistrare, iar autentificarea adaugă un al doilea puzzle gratuit în fiecare lună. În rest, puzzle-urile se plătesc cu credite: cumperi un pachet o singură dată — nu există abonament, creditele nu expiră niciodată și nu există reclame. Jocul unui puzzle distribuit de altcineva este întotdeauna gratuit."
+          },
+          {
+            "question": "Am nevoie de un cont?",
+            "answer": "Nu și pentru puzzle-ul gratuit al lunii: progresul tău, setările și cuvintele deja văzute sunt păstrate în browser. Un cont îți aduce un al doilea puzzle gratuit în fiecare lună și îți permite să cumperi și să păstrezi credite."
+          },
+          {
+            "question": "Cât costă un puzzle?",
+            "answer": "Un puzzle mic costă 5 credite, unul mediu 10 și unul mare 15; dificultatea medie adaugă 1 credit, iar cea grea adaugă 2. Creditele vin în pachete de 200 pentru $4.99, 600 pentru $11.99 și 2.000 pentru $29.99. La finalizarea comenzii vei vedea prețul în moneda ta, cu taxe incluse acolo unde se aplică."
+          },
+          {
+            "question": "Cine a creat Rebus AI?",
+            "answer": "Este un proiect independent al dezvoltatorului Michael Navasardyan: puzzle-uri scrise ca și cum ar fi create de un autor local, în fiecare limbă oferită de site — printre care armeana, rusa și engleza."
+          }
         ]
       },
       {
-        "title": "Careurile",
+        "title": "Puzzle-urile",
         "items": [
-          { "question": "Care e diferența dintre cuvintele încrucișate și rebusul scandinav?", "answer": "La cuvintele încrucișate, definițiile numerotate stau lângă careu. La rebusul scandinav, fiecare definiție e tipărită într-o căsuță, cu o săgeată spre răspuns, forma plină în revistele de enigmistică din Rusia și Armenia." },
-          { "question": "Cât de mari sunt careurile?", "answer": "Sunt trei mărimi. Un rebus clasic umple o grilă de 9×9, 13×13 sau 15×15 cu vreo 8–14, 16–24 sau 22–34 de cuvinte, apoi se taie pe ele. Rebusul scandinav folosește 8×10, 10×13 sau 13×17, mai înalt decât lat, pentru că cele mai multe se rezolvă pe telefon." },
-          { "question": "Cum diferă nivelurile?", "answer": "Ușor folosește cuvinte de toate zilele, cu definiții directe. Mediu trage dintr-un vocabular mai larg. Greu aduce cuvinte mai rare și definiții la care te gândești de două ori." },
-          { "question": "Ce teme pot alege?", "answer": "Douăsprezece: cuvinte de zi cu zi, natură, animale, mâncare și băutură, geografie, istorie, știință, sport, arte, casă, meserii și cultură locală — sau le amesteci într-un singur careu." },
-          { "question": "Voi vedea același cuvânt de două ori?", "answer": "Nu pe același aparat. Ține minte până la 4.000 de cuvinte pe limbă — cam 130 de careuri — și le lasă afară; abia apoi cad cele mai vechi. Ștergerea datelor site-ului o ia de la capăt." },
-          { "question": "Cum scrie inteligența artificială definițiile?", "answer": "Modelul Gemini de la Google scrie cuvinte și definiții direct în fiecare limbă, după un ghid de stil al vorbitorilor nativi. Codul verifică apoi fiecare intrare: alfabetul potrivit, un singur cuvânt real, o definiție cinstită care nu dă răspunsul. O a doua trecere face pe redactorul. Ce nu trece se aruncă, nu se cârpește. Careul îl construiește codul, nu modelul." },
-          { "question": "Ce fac dacă o definiție e greșită?", "answer": "Deschide meniul ⋯ de deasupra careului și alege „Raportează definiția”. Când trei jucători diferiți raportează aceeași definiție, ea iese pentru totdeauna." }
+          {
+            "question": "Care este diferența dintre un rebus și un scanword?",
+            "answer": "Un rebus listează indiciile numerotate lângă grilă, pe Orizontală și Verticallă. Un scanword afișează fiecare indiciu direct într-o celulă din grilă, cu o săgeată care arată unde vine răspunsul — formatul extrem de popular în revistele din Rusia și Armenia."
+          },
+          {
+            "question": "Cât de mari sunt puzzle-urile?",
+            "answer": "Există trei dimensiuni. Un rebus clasic umple o grilă de 9×9, 13×13 sau 15×15 cu aproximativ 8–14, 16–24 sau 22–34 de cuvinte, apoi este decupat pe potriva cuvintelor. Un scanword folosește o grilă de 8×10, 10×13 sau 13×17 — mai înaltă decât lată, deoarece majoritatea sunt rezolvate pe telefon."
+          },
+          {
+            "question": "Cum diferă nivelurile de dificultate?",
+            "answer": "Nivelul Ușor folosește cuvinte uzuale cu definiții directe. Nivelul Mediu apelează la un vocabular mai larg. Nivelul Greu aduce cuvinte mai rare și indicii care te pun pe gânduri."
+          },
+          {
+            "question": "Ce teme pot alege?",
+            "answer": "Douăsprezece: cuvinte de zi cu zi, natură, animale, mâncare și băutură, geografie, istorie, știință, sport, artă, casă și gospodărie, profesii și cultură locală — sau le poți amesteca pe toate într-un singur puzzle."
+          },
+          {
+            "question": "Voi revedea vreodată același cuvânt?",
+            "answer": "Nu pe același dispozitiv. Memorează până la 4.000 de cuvinte per limbă — echivalentul a aproximativ 130 de puzzle-uri — și le omite din fiecare puzzle nou; abia după aceea cele mai vechi sunt eliminate din listă. Ștergerea datelor site-ului din browser resetează lista."
+          },
+          {
+            "question": "Cum scrie AI-ul indiciile?",
+            "answer": "Modelul Gemini de la Google scrie cuvintele și indiciile direct în fiecare limbă, urmând un ghid de stil creat de vorbitori nativi. Codul verifică apoi fiecare intrare — alfabetul corect, un cuvânt real, un indiciu corect care nu dă răspunsul pe față — iar o a doua trecere AI acționează ca un editor. Tot ce e greșit este eliminat, nu cârpit. Grila în sine este construită prin cod, nu de AI."
+          },
+          {
+            "question": "Ce fac dacă un indiciu este greșit?",
+            "answer": "Deschide meniul ⋯ deasupra grilei și alege „Raportează un indiciu”. După ce trei jucători diferiți raportează același indiciu, acesta este retras și nu va mai apărea niciodată."
+          }
         ]
       },
       {
-        "title": "Jocul",
+        "title": "Cum se joacă",
         "items": [
-          { "question": "Cum scriu răspunsurile pe telefon sau pe calculator?", "answer": "Pe calculator scrii direct: chiar dacă tastatura e pe engleză, tastele scriu literele careului în locurile lor. Pe telefon sau tabletă, tastatura careului apare sub grilă, iar cea a sistemului n-o acoperă." },
-          { "question": "Pot verifica răspunsurile sau cere un indiciu?", "answer": "Da. Verificarea marchează literele greșite într-o căsuță, un cuvânt sau tot careul, iar Dezvăluirea umple o literă, un cuvânt sau totul. Pornește „Verifică pe măsură ce scriu” ca să vezi greșeala pe loc." },
-          { "question": "Cum sunt tratate ու și և din armeană și Ё din rusă?", "answer": "În careurile armenești, ու și և sunt câte o literă și ocupă câte o căsuță, ca în rebusurile tipărite; dacă scrii ո și apoi ւ, se unesc în ու. În rusă, Ё se scrie Е. În română, ă, â, î, ș și ț se păstrează, iar ș și ț au virgulă dedesubt." },
-          { "question": "Progresul se salvează?", "answer": "Da, singur, pe măsură ce joci. Careurile începute și lăsate neterminate stau la „Rebusurile mele”, cu literele păstrate, chiar și offline." },
-          { "question": "Pot juca offline sau să-l instalez ca aplicație?", "answer": "Da. Rebus AI se instalează din browser ca o aplicație (pe iPhone: Partajează → Adaugă la ecranul principal). Fiecare careu deschis merge mai departe fără rețea; doar cele noi au nevoie de internet." },
-          { "question": "Pot trimite un careu unui prieten?", "answer": "Da. Atinge Distribuie ca să copiezi legătura sau trimite-o prin WhatsApp, Telegram, Facebook, X, VK sau e-mail. Prietenul primește exact același careu și aceleași definiții." },
-          { "question": "Pot juca cu tastatura sau cu un cititor de ecran?", "answer": "Da. Careul merge de la tastatură și cu cititoare de ecran: fiecare căsuță are nume, definiția activă e anunțată, iar verificările și dezvăluirile sunt citite. Literele greșite și cele dezvăluite se văd după formă, nu doar după culoare." }
+          {
+            "question": "Cum introduc răspunsurile pe telefon sau computer?",
+            "answer": "Pe computer, pur și simplu tastează: chiar dacă tastatura ta este setată pe engleză, tastele vor introduce literele puzzle-ului în locurile lor obișnuite, deci nu trebuie să schimbi dispunerea. Pe telefon sau tabletă, tastatura propriu-zisă a puzzle-ului apare sub grilă, iar tastatura sistemului nu o va acoperi niciodată."
+          },
+          {
+            "question": "Pot să-mi verific răspunsurile sau să primesc un indiciu?",
+            "answer": "Da. Opțiunea Verifică marchează literele greșite dintr-o celulă, un cuvânt sau din întregul puzzle, iar Dezvăluie completează o literă, un cuvânt sau totul. Activează „Verifică pe măsură ce tastez” în setări pentru a vedea greșelile imediat ce le faci."
+          },
+          {
+            "question": "Cum sunt gestionate literele armenești ու și և, respectiv Ё din rusă?",
+            "answer": "În puzzle-urile în armeană ու și և sunt litere unice și fiecare ocupă o singură celulă, la fel ca în rebusurile tipărite; tastatura de pe ecran le are pe ambele, iar tastarea ո urmat de ւ le unește în ու. În puzzle-urile în rusă, Ё este scris ca Е, la fel ca în rebusurile tipărite."
+          },
+          {
+            "question": "Progresul meu este salvat?",
+            "answer": "Da, automat, pe măsură ce joci. Fiecare rebus sau scanword pe care îl începi și îl lași neterminat este listat la „Puzzle-urile mele”, cu literele tale salvate, astfel încât să poți continua oricând — chiar și offline."
+          },
+          {
+            "question": "Pot juca offline sau îl pot instala ca aplicație?",
+            "answer": "Da. Rebus AI se instalează din browser ca o aplicație (pe iPhone: Distribuie → Adăugare la ecranul principal). Fiecare puzzle deschis este salvat împreună cu progresul tău și continuă să funcționeze fără conexiune; doar puzzle-urile noi au nevoie de internet."
+          },
+          {
+            "question": "Pot trimite un puzzle unui prieten?",
+            "answer": "Da. Apasă pe Distribuie deasupra grilei pentru a copia linkul sau trimite-l prin WhatsApp, Telegram, Facebook, X, VK sau e-mail. Prietenul tău va primi exact aceeași grilă și aceleași indicii."
+          },
+          {
+            "question": "Pot juca folosind o tastatură sau un cititor de ecran?",
+            "answer": "Da. Grila funcționează complet de la tastatură și cu cititoare de ecran: fiecare celulă este etichetată, indiciul activ este anunțat, iar verificările și dezvăluirile sunt citite cu voce tare. Literele greșite și cele dezvăluite sunt marcate prin formă, nu doar prin culoare."
+          }
         ]
       },
       {
         "title": "Confidențialitate",
         "items": [
-          { "question": "Ce date păstrați?", "answer": "Foarte puține. Careurile, progresul, setările și lista cuvintelor văzute stau în browser. Serverul păstrează careurile create (ca o legătură partajată să deschidă aceeași grilă), rapoartele cu un rezumat unidirecțional al adresei IP și numărători anonime. Fără nume și fără profiluri." },
-          { "question": "Ajunge ceva despre mine la inteligența artificială?", "answer": "Nu. La modelele Gemini de la Google pleacă doar setările careului — limbă, temă, dificultate — și liste de cuvinte, niciodată ceva despre tine." }
+          {
+            "question": "Ce date păstrați?",
+            "answer": "Foarte puține. Puzzle-urile, progresul, setările și lista de cuvinte văzute rămân în browserul tău. Serverul stochează puzzle-urile create (astfel încât un link distribuit să deschidă aceeași grilă), raportările de indicii cu un hash unidirecțional al adresei IP și numărători anonime de rezolvări. Fără nume și fără profiluri."
+          },
+          {
+            "question": "Se trimite ceva despre mine către AI?",
+            "answer": "Nu. Doar setările puzzle-ului — limba, tema, dificultatea — și listele de cuvinte merg către modelele Gemini de la Google, niciodată date despre tine."
+          }
         ]
       }
     ],
@@ -497,29 +644,152 @@
     "title": "Despre Rebus AI",
     "subtitle": "Un generator gratuit care scrie în limba ta și nu dă niciodată același cuvânt de două ori.",
     "sections": [
-      { "title": "De ce l-am făcut", "paragraphs": ["Cele mai multe rebusuri online reciclează o listă scurtă, iar cele traduse se citesc ca traduceri. Voiam careuri care par scrise de un autor de-al locului și care rămân noi oricâte ai rezolva."] },
-      { "title": "Cum se scriu cuvintele", "paragraphs": ["Un model scrie cuvinte și definiții direct în fiecare limbă, după un ghid de stil al vorbitorilor nativi: formele pe care le folosesc rebusurile, norma de scriere, felul în care se formulează definițiile.", "Fiecare cuvânt trece apoi prin verificări automate — alfabetul potrivit, un singur cuvânt real, nicio definiție care dă răspunsul — și printr-un al doilea model, ca redactor. Rapoartele jucătorilor scot ce a scăpat."] },
-      { "title": "Cum se construiesc careurile", "paragraphs": ["Careul îl construiește codul, nu modelul: un algoritm așază cuvintele astfel încât fiecare literă să țină de un cuvânt real, cu definiție. Așa rămâne fiecare rebus cinstit."] }
+      {
+        "title": "De ce l-am făcut",
+        "paragraphs": [
+          "Cele mai multe rebusuri online reciclează o listă scurtă, iar cele traduse se citesc ca traduceri. Voiam careuri care par scrise de un autor de-al locului și care rămân noi oricâte ai rezolva."
+        ]
+      },
+      {
+        "title": "Cum se scriu cuvintele",
+        "paragraphs": [
+          "Un model scrie cuvinte și definiții direct în fiecare limbă, după un ghid de stil al vorbitorilor nativi: formele pe care le folosesc rebusurile, norma de scriere, felul în care se formulează definițiile.",
+          "Fiecare cuvânt trece apoi prin verificări automate — alfabetul potrivit, un singur cuvânt real, nicio definiție care dă răspunsul — și printr-un al doilea model, ca redactor. Rapoartele jucătorilor scot ce a scăpat."
+        ]
+      },
+      {
+        "title": "Cum se construiesc careurile",
+        "paragraphs": [
+          "Careul îl construiește codul, nu modelul: un algoritm așază cuvintele astfel încât fiecare literă să țină de un cuvânt real, cu definiție. Așa rămâne fiecare rebus cinstit."
+        ]
+      }
     ]
   },
   "Privacy": {
     "title": "Politica de confidențialitate",
-    "subtitle": "Pe scurt: fără cont, fără nume, fără profil. Iată tot ce păstrăm.",
+    "subtitle": "Versiunea scurtă: îți faci cont doar dacă vrei, fără profilare. Iată tot ce păstrăm.",
     "sections": [
-      { "title": "Pe aparatul tău", "paragraphs": ["Browserul păstrează careurile deschise, progresul, setările și o listă a cuvintelor văzute, ca să nu se repete. Rămân pe aparat; ștergerea datelor site-ului le scoate."] },
-      { "title": "Pe serverul nostru", "paragraphs": ["Păstrăm careurile create, ca o legătură partajată să deschidă aceeași grilă. Când raportezi o definiție, păstrăm raportul cu un rezumat unidirecțional al adresei IP, doar ca o singură persoană să nu poată retrage o definiție de una singură. Numărăm anonim cum se joacă careurile, ca să potrivim dificultatea."] },
-      { "title": "Furnizorul de AI", "paragraphs": ["Cuvintele și definițiile noi sunt scrise de modelele Gemini de la Google. Pleacă doar setările careului (limbă, temă, dificultate) și liste de cuvinte, niciodată ceva despre tine."] },
-      { "title": "Statistici și rapoarte de eroare", "paragraphs": ["Dacă sunt pornite, folosim Google Analytics ca să numărăm vizitele și Sentry ca să primim erorile. Niciuna nu e folosită ca să te identifice."] }
+      {
+        "title": "Pe dispozitivul tău",
+        "paragraphs": [
+          "Browserul tău stochează puzzle-urile pe care le deschizi, progresul, setările și o listă a cuvintelor deja văzute, astfel încât acestea să nu se mai repete. Acestea rămân pe dispozitivul tău; ștergerea datelor site-ului le elimină."
+        ]
+      },
+      {
+        "title": "Pe serverul nostru",
+        "paragraphs": [
+          "Stocăm puzzle-urile create, astfel încât un link distribuit să deschidă aceeași grilă. Când raportezi un indiciu, păstrăm raportul împreună cu un hash unidirecțional al adresei tale IP, doar pentru ca o singură persoană să nu poată retrage un indiciu de una singură. De asemenea, numărăm anonim cum sunt jucate puzzle-urile (rezolvate, ce cuvinte au fost dezvăluite) pentru a ajusta dificultatea.",
+          "Pentru a oferi fiecărui dispozitiv puzzle-ul gratuit al lunii, site-ul setează un cookie care conține un identificator aleatoriu. La fiecare puzzle gratuit păstrăm acel identificator și un hash unidirecțional al adresei tale IP."
+        ]
+      },
+      {
+        "title": "Conturi și credite",
+        "paragraphs": [
+          "Dacă îți creezi un cont, îți păstrăm numele, adresa de e-mail și, dacă te autentifici cu Google, poza de profil Google. Păstrăm, de asemenea, soldul de credite și istoricul acestuia: fiecare achiziție, fiecare puzzle plătit și fiecare rambursare."
+        ]
+      },
+      {
+        "title": "Plăți",
+        "paragraphs": [
+          "Plățile sunt procesate de Paddle.com, Comersantul nostru de Înregistrare (Merchant of Record). Paddle colectează detaliile tale de plată și țara de facturare conform propriei politici de confidențialitate; noi nu vedem niciodată numărul cardului tău. De la Paddle primim suma, moneda, taxa și tipul metodei de plată pentru fiecare achiziție."
+        ]
+      },
+      {
+        "title": "Furnizorul AI",
+        "paragraphs": [
+          "Cuvintele și indiciile noi sunt scrise de modelele Gemini de la Google. Sunt trimise doar setările puzzle-ului (limbă, temă, dificultate) și listele de cuvinte — niciodată informații despre tine."
+        ]
+      },
+      {
+        "title": "Analiză și rapoarte de erori",
+        "paragraphs": [
+          "Dacă sunt activate, folosim Google Analytics pentru a număra afișările de pagină și Sentry pentru a primi rapoarte de erori. Niciunul nu este folosit pentru a te identifica."
+        ]
+      }
     ]
   },
   "Terms": {
     "title": "Termeni de utilizare",
-    "subtitle": "Rebus AI e gratuit, pentru joacă și pentru învățat.",
+    "subtitle": "Rebus AI este pentru distracție și învățare. Acești termeni acoperă jocul și cumpărarea de credite.",
     "sections": [
-      { "title": "Folosirea serviciului", "paragraphs": ["Poți juca, împărți și tipări careurile pentru uz personal și educativ. Te rugăm să nu încarci serviciul cu cereri automate."] },
-      { "title": "Conținut scris de AI", "paragraphs": ["Cuvintele și definițiile sunt scrise de inteligența artificială și verificate automat, dar se mai poate strecura o greșeală. Dacă găsești una, raporteaz-o: așa ies definițiile proaste."] },
-      { "title": "Fără garanție", "paragraphs": ["Serviciul e oferit ca atare, fără garanția că va fi mereu disponibil sau exact. Putem schimba sau opri funcții oricând."] }
+      {
+        "title": "Utilizarea serviciului",
+        "paragraphs": [
+          "Poți juca, distribui și imprima puzzle-urile pentru uz personal și educațional. Te rugăm să nu supraîncarci serviciul cu solicitări automate."
+        ]
+      },
+      {
+        "title": "Puzzle-uri gratuite și credite",
+        "paragraphs": [
+          "Fiecare dispozitiv primește un puzzle gratuit în fiecare lună calendaristică, iar fiecare cont încă unul. Celelalte puzzle-uri se plătesc cu credite, la prețul afișat înainte de a genera unul; un puzzle este taxat doar când este generat, iar deschiderea unui puzzle salvat este gratuită.",
+          "Creditele se cumpără în pachete printr-o plată unică — nu există abonament — și nu expiră niciodată. Ele nu au valoare în bani și nu pot fi transferate."
+        ]
+      },
+      {
+        "title": "Plăți",
+        "paragraphs": [
+          "Procesul nostru de comandă este derulat de revânzătorul nostru online Paddle.com. Paddle.com este Merchant of Record (Comersantul de Înregistrare) pentru toate comenzile noastre. Paddle oferă asistență clienților și gestionează returnările."
+        ]
+      },
+      {
+        "title": "Rambursări",
+        "paragraphs": [
+          "Poți solicita rambursarea unui pachet de credite în termen de 14 zile de la cumpărare, prin Paddle sau scriindu-ne nouă. O rambursare va retrage creditele pachetului din soldul tău. Creditele deja consumate nu pot fi returnate, astfel încât un pachet utilizat parțial poate fi rambursat doar parțial."
+        ]
+      },
+      {
+        "title": "Conținut scris de AI",
+        "paragraphs": [
+          "Cuvintele și indiciile sunt scrise de AI și verificate automat, însă pot apărea greșeli. Dacă găsești una, raporteaz-o — așa eliminăm indiciile slabe."
+        ]
+      },
+      {
+        "title": "Fără garanții",
+        "paragraphs": [
+          "Serviciul este oferit ca atare, fără garanții privind disponibilitatea sau acuratețea. Putem modifica sau întrerupe funcționalități în orice moment."
+        ]
+      }
     ]
+  },
+  "Credits": {
+    "title": "Credite",
+    "subtitle": "Un puzzle gratuit în fiecare lună. După aceea, plătești doar pentru puzzle-urile pe care le creezi — fără abonament, iar creditele nu expiră niciodată.",
+    "balanceTitle": "Balanța ta",
+    "freeAvailable": "Puzzle-ul tău gratuit din această lună te așteaptă.",
+    "freeUsed": "Puzzle-ul gratuit din această lună a fost folosit. Următorul vine pe {date}.",
+    "guestTitle": "Primește mai multe puzzle-uri gratuite",
+    "guestText": "Autentifică-te pentru a primi un puzzle gratuit în fiecare lună în contul tău și pentru a cumpăra credite.",
+    "pricesTitle": "Cât costă un puzzle",
+    "pricesText": "În credite, după mărime și dificultate. Deschiderea unui puzzle distribuit de altcineva sau din istoricul tău este întotdeauna gratuită.",
+    "size": "Mărime",
+    "packsTitle": "Pachete de credite",
+    "packs": {
+      "starter": "Starter",
+      "popular": "Popular",
+      "big": "Mare"
+    },
+    "popularBadge": "Cel mai popular",
+    "bestValueBadge": "Cea mai bună ofertă",
+    "packPuzzles": "Aproximativ {count} puzzle-uri medii",
+    "buy": "Cumpără",
+    "signInToBuy": "Autentifică-te pentru a cumpăra",
+    "shopClosed": "Cumpărarea de credite nu este disponibilă momentan. Te rugăm să revii curând.",
+    "checkoutFailed": "Nu am putut deschide pagina de plată. Te rugăm să încerci din nou.",
+    "paddleNote": "Plățile sunt procesate de Paddle.com, revânzătorul nostru și Merchant of Record. Prețurile includ TVA sau taxa pe vânzări unde se aplică; prețul final în moneda ta este afișat la finalizarea comenzii.",
+    "refundsNote": "Rambursările sunt detaliate în termenii de utilizare."
+  },
+  "Payments": {
+    "checkoutTitle": "Finalizare comandă",
+    "opening": "Se deschide pagina securizată de plată…",
+    "checkoutUnavailable": "Pagina de plată nu s-a putut deschide. Te rugăm să încerci din nou din pagina de credite.",
+    "backToCredits": "Înapoi la credite",
+    "verifying": "Se confirmă plata…",
+    "successTitle": "Îți mulțumim!",
+    "successText": "{count, plural, one {# credit a fost adăugat} few {# credite au fost adăugate} other {# de credite au fost adăugate}} la balanța ta.",
+    "pendingText": "Plata a fost procesată. Creditele vor apărea în balanța ta în câteva minute.",
+    "failedText": "Plata nu a reșit, așa că nu ai fost taxat. Poți încerca din nou.",
+    "verifyError": "Nu am putut confirma plata momentan. Dacă ai fost taxat, creditele vor sosi oricum — verifică-ți balanța în câteva minute.",
+    "makePuzzle": "Creează un puzzle"
   },
   "Contact": {
     "title": "Scrie-ne",

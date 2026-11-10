@@ -4,7 +4,7 @@ import { defineConfig, devices } from '@playwright/test'
  * E2E is opt-in, not part of `pnpm test`: it needs the whole stack running.
  *
  *   pnpm db:up && pnpm db:setup
- *   RATE_LIMIT_ENABLED=false pnpm dev    # web :7007 + api :9007; every test shares one IP
+ *   RATE_LIMIT_ENABLED=false BILLING_ENABLED=false pnpm dev    # web :7007 + api :9007; every test shares one IP
  *   pnpm test:e2e
  *
  * Three viewports: desktop (the board as a page, clue columns either side), and the full-screen

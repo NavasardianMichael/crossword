@@ -16,7 +16,7 @@ export default function robots(): MetadataRoute.Robots {
     rules: {
       userAgent: '*',
       allow: '/',
-      disallow: ['/*/play', `/*${ROUTES.history}`, '/monitoring'],
+      disallow: ['/*/play', `/*${ROUTES.history}`, '/*/payments', '/monitoring'],
     },
     sitemap: absoluteUrl('/sitemap.xml'),
   }

@@ -15,9 +15,9 @@ import { puzzlePath } from '@constants/routes'
 import { cn } from '@helpers/cn'
 import { loadProgress, loadPuzzle, savePuzzle } from '@helpers/offline/db'
 import { addSeen } from '@helpers/puzzle/seen'
+import { CreateErrorAlert } from '@components/billing/CreateErrorAlert'
 import { Button } from '@components/ui/Button'
 import { Dialog } from '@components/ui/Dialog'
-import { ErrorAlert } from '@components/ui/ErrorAlert'
 import { IconLink } from '@components/ui/IconLink'
 import { Spinner } from '@components/ui/Spinner'
 import { BoardViewport } from './BoardViewport'
@@ -175,7 +175,7 @@ export const PuzzleBoard = ({ id, initial }: PuzzleBoardProps) => {
               className='ms-auto shrink-0'
             />
           </div>
-          {createError ? <ErrorAlert error={createError} onRetry={newPuzzle} /> : null}
+          {createError ? <CreateErrorAlert error={createError} onRetry={newPuzzle} /> : null}
         </div>
 
         <div className='flex min-h-0 items-center justify-center p-2 ps-[max(0.5rem,var(--safe-left))] [container-type:size] [grid-area:board]'>
@@ -239,7 +239,7 @@ export const PuzzleBoard = ({ id, initial }: PuzzleBoardProps) => {
             <span className='hidden sm:inline'>{t('newPuzzle')}</span>
           </Button>
         </div>
-        {createError ? <ErrorAlert error={createError} onRetry={newPuzzle} /> : null}
+        {createError ? <CreateErrorAlert error={createError} onRetry={newPuzzle} /> : null}
         <Toolbar />
         <ClueBar />
         <BoardViewport key={puzzle.id} columns={puzzle.width} rows={puzzle.height} className='mx-auto w-full' style={boardStyle}>

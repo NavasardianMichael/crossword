@@ -22,6 +22,7 @@
     "scanword": "Skandináv",
     "topics": "Témák",
     "history": "Rejtvényeim",
+    "credits": "Credits",
     "rules": "Hogyan fejts",
     "faq": "Kérdések",
     "about": "Rólunk",
@@ -66,6 +67,9 @@
     "topicDescription": "Ingyenes keresztrejtvény és skandináv rejtvény a(z) {topic} témában, mesterséges intelligenciával. {description}",
     "historyTitle": "Rejtvényeim",
     "historyDescription": "Keresztrejtvények és skandináv rejtvények, amelyeket ezen az eszközön elkezdtél és nem fejeztél be, mentett állással.",
+    "creditsTitle": "Credits & prices",
+    "creditsDescription": "One free crossword every month, then credit packs with no subscription: what each puzzle costs, and how to buy credits.",
+    "paymentTitle": "Payment",
     "rulesTitle": "Hogyan fejts keresztrejtvényt és skandinávot",
     "rulesDescription": "Hogyan fejts nálunk keresztrejtvényt vagy skandináv rejtvényt: betűk, mozgás a rácsban, ellenőrzés, felfedés és billentyűk.",
     "faqTitle": "Kérdések: ingyenes keresztrejtvény, nyelvek, adatvédelem",
@@ -73,7 +77,7 @@
     "aboutTitle": "Rólunk — hogyan készülnek a rejtvények",
     "aboutDescription": "Miért csináltunk olyan keresztrejtvény-készítőt, amelyben egy szó sem ismétlődik, és hogyan ír a mesterséges intelligencia minden nyelven helyben.",
     "privacyTitle": "Adatvédelmi tájékoztató",
-    "privacyDescription": "Mit tárol a Keresztrejtvény AI, hol és miért. Fiók nélkül, anélkül hogy követnénk, ki vagy.",
+    "privacyDescription": "Mit tárol a Keresztrejtvény AI, hol és miért – beleértve a fiókokat és a fizetéseket, a személyed nyomon követése nélkül.",
     "termsTitle": "Felhasználási feltételek",
     "termsDescription": "Az egyszerű feltételek a Keresztrejtvény AI használatához.",
     "contactTitle": "Írj nekünk",
@@ -100,21 +104,65 @@
   },
   "Topics": {
     "any": "Kevert témák",
-    "general": { "name": "Mindennapi szavak", "description": "A hétköznap szavai: otthon, emberek, idő és a világ körülöttünk." },
-    "nature": { "name": "Természet", "description": "Erdők, folyók, időjárás, növények és évszakok." },
-    "animals": { "name": "Állatok", "description": "Vad és házi állatok, madarak, halak és rovarok." },
-    "food": { "name": "Étel és ital", "description": "Ételek, alapanyagok, konyha és minden, ami az asztalon van." },
-    "geography": { "name": "Földrajz", "description": "Országok, városok, folyók, hegyek és ismert helyek." },
-    "history": { "name": "Történelem", "description": "Korok, találmányok, mesterségek és a múlt tárgyai." },
-    "science": { "name": "Tudomány", "description": "Fizika, kémia, biológia, űr és az emberi test." },
-    "sport": { "name": "Sport", "description": "Játékok, felszerelés, versenyek és szabályok." },
-    "arts": { "name": "Művészet", "description": "Zene, irodalom, színház, festészet és film." },
-    "home": { "name": "Otthon", "description": "Bútor, szerszám, ruha és a mindennap használt dolgok." },
-    "professions": { "name": "Foglalkozások", "description": "Munkák, mesterségek, szerszámok és munkahelyek." },
-    "localCulture": { "name": "Helyi kultúra", "description": "Szokások, ünnepek, mesék és a nyelv kultúrájának ismert helyei." }
+    "general": {
+      "name": "Mindennapi szavak",
+      "description": "A hétköznap szavai: otthon, emberek, idő és a világ körülöttünk."
+    },
+    "nature": {
+      "name": "Természet",
+      "description": "Erdők, folyók, időjárás, növények és évszakok."
+    },
+    "animals": {
+      "name": "Állatok",
+      "description": "Vad és házi állatok, madarak, halak és rovarok."
+    },
+    "food": {
+      "name": "Étel és ital",
+      "description": "Ételek, alapanyagok, konyha és minden, ami az asztalon van."
+    },
+    "geography": {
+      "name": "Földrajz",
+      "description": "Országok, városok, folyók, hegyek és ismert helyek."
+    },
+    "history": {
+      "name": "Történelem",
+      "description": "Korok, találmányok, mesterségek és a múlt tárgyai."
+    },
+    "science": {
+      "name": "Tudomány",
+      "description": "Fizika, kémia, biológia, űr és az emberi test."
+    },
+    "sport": {
+      "name": "Sport",
+      "description": "Játékok, felszerelés, versenyek és szabályok."
+    },
+    "arts": {
+      "name": "Művészet",
+      "description": "Zene, irodalom, színház, festészet és film."
+    },
+    "home": {
+      "name": "Otthon",
+      "description": "Bútor, szerszám, ruha és a mindennap használt dolgok."
+    },
+    "professions": {
+      "name": "Foglalkozások",
+      "description": "Munkák, mesterségek, szerszámok és munkahelyek."
+    },
+    "localCulture": {
+      "name": "Helyi kultúra",
+      "description": "Szokások, ünnepek, mesék és a nyelv kultúrájának ismert helyei."
+    }
   },
-  "Difficulty": { "1": "Könnyű", "2": "Közepes", "3": "Nehéz" },
-  "Sizes": { "small": "Kis", "medium": "Közepes", "large": "Nagy" },
+  "Difficulty": {
+    "1": "Könnyű",
+    "2": "Közepes",
+    "3": "Nehéz"
+  },
+  "Sizes": {
+    "small": "Kis",
+    "medium": "Közepes",
+    "large": "Nagy"
+  },
   "Generator": {
     "format": "Válassz formát",
     "topic": "Válassz témát",
@@ -124,12 +172,25 @@
     "creating": "Készül a rejtvényed…",
     "creatingHint": "Olyan szavakat válogatunk, amelyeket még nem láttál. A frissek pár másodpercig tarthatnak.",
     "cancel": "Mégse",
-    "freshHint": "Ingyenes, regisztráció nélkül. Minden rejtvény olyan szavakat hoz, amelyekkel itt még nem találkoztál.",
+    "freshHint": "Minden rejtvény olyan szavakat hoz, amikkel itt még nem találkoztál.",
     "exhausted": "Ehhez a választáshoz most minden szavunkat kifejtetted. Újakat írunk — próbálj másik témát, vagy gyere vissza egy perc múlva."
+  },
+  "Billing": {
+    "credits": "{count, plural, one {# credit} other {# credits}}",
+    "balance": "Your balance: {count, plural, one {# credit} other {# credits}}",
+    "cost": "This puzzle: {count, plural, one {# credit} other {# credits}}",
+    "freeNow": "This one is free — your free puzzle of the month.",
+    "youHave": "You have {count, plural, one {# credit} other {# credits}}.",
+    "notEnough": "Not enough credits for this puzzle.",
+    "guestUsed": "You've used this month's free puzzle. Sign in for one more free puzzle every month, and to buy credits.",
+    "refusedSignIn": "This month's free puzzle is used. Sign in to get another one, and to buy credits.",
+    "refusedCredits": "Not enough credits for this puzzle. Top up to keep playing.",
+    "signIn": "Sign in",
+    "buyCredits": "Buy credits"
   },
   "Home": {
     "hero": {
-      "eyebrow": "Ingyenes · Regisztráció nélkül · Offline is megy",
+      "eyebrow": "Ingyenesen kipróbálható · Nincs előfizetés · Offline is működik",
       "title": "Magyar keresztrejtvény, amely <mark>mindig új</mark>",
       "subtitle": "Válassz témát és nehézséget. A meghatározásokat a mesterséges intelligencia a te nyelveden írja, és egy szót sem kapsz kétszer.",
       "lede": "Keresztrejtvény készítése vagy skandináv rejtvény ingyen, regisztráció nélkül. A témák az állatoktól, az ételtől és a földrajztól a történelemig, a tudományig, a sportig, a művészetig, az otthonig, a foglalkozásokig és a helyi kultúráig érnek — vagy keverd őket."
@@ -139,16 +200,28 @@
     "formatsSubtitle": "Tágas klasszikus meghatározáslistával, vagy tömör skandináv, a meghatározásokkal a rácsban.",
     "pointsTitle": "Miben más",
     "points": {
-      "fresh": { "title": "Soha nincs ismétlés", "text": "Az eszköz megjegyzi minden szót, amelyet mutatott, így az új rejtvény olyanokból áll, amelyeket még nem fejtettél." },
-      "native": { "title": "A te nyelveden írva", "text": "A meghatározások minden nyelven helyben születnek, ahogy egy helyi szerző fogalmazná. Nem fordítás." },
-      "ai": { "title": "Az intelligencia javasol, a kód ellenőriz", "text": "A mesterséges intelligencia szavakat és meghatározásokat javasol. Az ellenőrzés eldobja a hibásat, a tisztességtelent és azt, amely elárulja a megfejtést." },
-      "offline": { "title": "Bárhol fejthető", "text": "Telepítsd alkalmazásként. A megnyitott rejtvények mennek a repülőn, a metrón, bárhol." }
+      "fresh": {
+        "title": "Soha nincs ismétlés",
+        "text": "Az eszköz megjegyzi minden szót, amelyet mutatott, így az új rejtvény olyanokból áll, amelyeket még nem fejtettél."
+      },
+      "native": {
+        "title": "A te nyelveden írva",
+        "text": "A meghatározások minden nyelven helyben születnek, ahogy egy helyi szerző fogalmazná. Nem fordítás."
+      },
+      "ai": {
+        "title": "Az intelligencia javasol, a kód ellenőriz",
+        "text": "A mesterséges intelligencia szavakat és meghatározásokat javasol. Az ellenőrzés eldobja a hibásat, a tisztességtelent és azt, amely elárulja a megfejtést."
+      },
+      "offline": {
+        "title": "Bárhol fejthető",
+        "text": "Telepítsd alkalmazásként. A megnyitott rejtvények mennek a repülőn, a metrón, bárhol."
+      }
     },
     "topicsTitle": "Válassz témát",
     "topicsSubtitle": "A kerti madaraktól a híres folyókig — vagy keverd mindet.",
     "faqTitle": "Kérdések és válaszok",
-    "faq1Question": "A Keresztrejtvény AI tényleg ingyenes?",
-    "faq1Answer": "Igen. Minden keresztrejtvény és skandináv rejtvény ingyenes, fiók és regisztráció nélkül, és nincs felső határ, hányat fejtesz ki.",
+    "faq1Question": "Ingyenes a Keresztrejtvény AI?",
+    "faq1Answer": "Az első rejtvényed minden hónapban ingyenes regisztráció nélkül is, a bejelentkezés pedig ad egy másodikat. Ezen felül a rejtvények kreditekbe kerülnek, amelyeket egyszeri vásárlással szerezhetsz meg, előfizetés nélkül. Ha valaki megosztott veled egy rejtvényt, annak a játéka mindig ingyenes.",
     "faq2Question": "Ugyanazokat a szavakat látom újra?",
     "faq2Answer": "Nem. Az eszköz listát vezet a már mutatott szavakról, és kihagyja őket az új rejtvényekből. Ha törlöd a webhely adatait, a lista elölről kezdődik.",
     "faq3Question": "Milyen nyelveken lehet fejteni?",
@@ -313,7 +386,12 @@
     "ime": "Írj egy karaktert",
     "erase": "Törlés",
     "time": "Idő: {time}",
-    "check": { "label": "Ellenőrzés", "cell": "Betű ellenőrzése", "word": "Szó ellenőrzése", "puzzle": "Rejtvény ellenőrzése" },
+    "check": {
+      "label": "Ellenőrzés",
+      "cell": "Betű ellenőrzése",
+      "word": "Szó ellenőrzése",
+      "puzzle": "Rejtvény ellenőrzése"
+    },
     "reveal": {
       "label": "Felfedés",
       "cell": "Betű felfedése",
@@ -326,7 +404,12 @@
     },
     "clearWrong": "Hibás betűk törlése",
     "more": "Több",
-    "zoom": { "label": "Nagyítás", "in": "Nagyítás", "out": "Kicsinyítés", "reset": "Az egész rejtvény a képernyőre" },
+    "zoom": {
+      "label": "Nagyítás",
+      "in": "Nagyítás",
+      "out": "Kicsinyítés",
+      "reset": "Az egész rejtvény a képernyőre"
+    },
     "settings": {
       "label": "Beállítások",
       "autoCheck": "Ellenőrzés gépelés közben",
@@ -406,45 +489,151 @@
     "title": "Hogyan fejts",
     "subtitle": "Minden, ami egy keresztrejtvényhez vagy skandinávhoz kell — telefonon, táblagépen vagy számítógépen.",
     "sections": [
-      { "title": "Szó választása", "paragraphs": ["Koppints vagy kattints egy fehér mezőre. A szó, amelyhez tartozik, sárgán világít, és a meghatározása megjelenik a rács fölötti sávban.", "Ahol két szó keresztezi egymást, koppints újra ugyanarra a mezőre, és váltasz a vízszintes és a függőleges között. Skandinávban a meghatározás mezőjére is koppinthatsz."] },
-      { "title": "Gépelés", "paragraphs": ["Számítógépen csak írj. A billentyűzetkiosztást nem kell váltani: ha angolra van állítva, a billentyűk a rejtvény nyelvének betűit írják a megszokott helyükön.", "Telefonon vagy táblagépen a rejtvény saját billentyűzete jelenik meg a rács alatt. Örményben a ՈՒ és az և külön betű, mindegyik egy mező; ha ո-t, majd ւ-t írsz, maguktól ՈՒ lesz belőlük.", "Az orosz rejtvényekben a Ё betű Е-ként jelenik meg, ahogy a nyomtatott keresztrejtvényekben."] },
-      { "title": "Mozgás", "paragraphs": ["A nyilak a mezők között járnak; az aktuális irányra merőleges nyíl előbb megfordítja a kurzort. Az Enter a következő meghatározásra ugrik, a Shift+Enter az előzőre.", "A Backspace töröl egy betűt, és visszalép. A Home és az End a szó elejére és végére ugrik. A Tab elhagyja a rácsot."] },
-      { "title": "Segítség", "paragraphs": ["Az ellenőrzés áthúzza a hibás betűket, és rögzíti a helyeseket. A felfedés beír egy betűt, egy szót vagy az egész rejtvényt; a felfedett betűkön kis lila jel van.", "Kapcsold be az „Ellenőrzés gépelés közben” beállítást, ha azonnal látni akarod."] },
-      { "title": "Mindig friss szavak", "paragraphs": ["Az eszköz megjegyzi a mutatott szavakat, és többé nem kéri őket. Minden új rejtvény olyan szavakból áll, amelyekkel itt még nem találkoztál."] }
+      {
+        "title": "Szó választása",
+        "paragraphs": [
+          "Koppints vagy kattints egy fehér mezőre. A szó, amelyhez tartozik, sárgán világít, és a meghatározása megjelenik a rács fölötti sávban.",
+          "Ahol két szó keresztezi egymást, koppints újra ugyanarra a mezőre, és váltasz a vízszintes és a függőleges között. Skandinávban a meghatározás mezőjére is koppinthatsz."
+        ]
+      },
+      {
+        "title": "Gépelés",
+        "paragraphs": [
+          "Számítógépen csak írj. A billentyűzetkiosztást nem kell váltani: ha angolra van állítva, a billentyűk a rejtvény nyelvének betűit írják a megszokott helyükön.",
+          "Telefonon vagy táblagépen a rejtvény saját billentyűzete jelenik meg a rács alatt. Örményben a ՈՒ és az և külön betű, mindegyik egy mező; ha ո-t, majd ւ-t írsz, maguktól ՈՒ lesz belőlük.",
+          "Az orosz rejtvényekben a Ё betű Е-ként jelenik meg, ahogy a nyomtatott keresztrejtvényekben."
+        ]
+      },
+      {
+        "title": "Mozgás",
+        "paragraphs": [
+          "A nyilak a mezők között járnak; az aktuális irányra merőleges nyíl előbb megfordítja a kurzort. Az Enter a következő meghatározásra ugrik, a Shift+Enter az előzőre.",
+          "A Backspace töröl egy betűt, és visszalép. A Home és az End a szó elejére és végére ugrik. A Tab elhagyja a rácsot."
+        ]
+      },
+      {
+        "title": "Segítség",
+        "paragraphs": [
+          "Az ellenőrzés áthúzza a hibás betűket, és rögzíti a helyeseket. A felfedés beír egy betűt, egy szót vagy az egész rejtvényt; a felfedett betűkön kis lila jel van.",
+          "Kapcsold be az „Ellenőrzés gépelés közben” beállítást, ha azonnal látni akarod."
+        ]
+      },
+      {
+        "title": "Mindig friss szavak",
+        "paragraphs": [
+          "Az eszköz megjegyzi a mutatott szavakat, és többé nem kéri őket. Minden új rejtvény olyan szavakból áll, amelyekkel itt még nem találkoztál."
+        ]
+      }
     ]
   },
   "Faq": {
     "title": "Kérdések és válaszok",
     "subtitle": "Minden a Keresztrejtvény AI-ról egy helyen: a rejtvények, ahogy a mesterséges intelligencia írja őket, a játék bármely eszközön, és az adataid.",
     "groups": [
-      { "title": "A Keresztrejtvény AI-ról", "items": [
-        { "question": "Mi a Keresztrejtvény AI?", "answer": "A Keresztrejtvény AI ingyenes weboldal, amely harminchárom nyelven készít keresztrejtvényt és skandináv rejtvényt. Egy modell helyben írja a szavakat és a meghatározásokat, a kód építi a rácsot, és minden eszköz csak olyan szavakat kap, amelyeket még nem látott." },
-        { "question": "Tényleg ingyenes?", "answer": "Igen. Minden keresztrejtvény és skandináv ingyenes: nincs fiók, nincs regisztráció, nincs előfizetés és nincs reklám." },
-        { "question": "Kell fiók?", "answer": "Nem. Nincs mire regisztrálni. Az állásod, a beállításaid és a már látott szavak listája a böngészőben, az eszközödön marad." },
-        { "question": "Ki készíti?", "answer": "Michael Navasardyan fejlesztő önálló projektje: rejtvények, amelyek úgy szólnak, mintha helyi szerző írta volna őket, a web minden nyelvén — örményül, oroszul és angolul is." }
-      ] },
-      { "title": "A rejtvények", "items": [
-        { "question": "Mi a különbség a keresztrejtvény és a skandináv között?", "answer": "A keresztrejtvény számozott meghatározásokat sorol a rács mellé, vízszintesen és függőlegesen. A skandináv minden meghatározást egy mezőbe nyomtat, nyíllal a megfejtés felé — ilyenekkel vannak tele az orosz és az örmény rejtvényújságok." },
-        { "question": "Mekkorák a rejtvények?", "answer": "Három méret van. A klasszikus keresztrejtvény 9×9-es, 13×13-as vagy 15×15-ös rácsot tölt meg nagyjából 8–14, 16–24 vagy 22–34 szóval, majd a benne lévő szavakra vágódik. A skandináv 8×10-es, 10×13-as vagy 13×17-es rácsot használ, magasabbat, mint széleset, mert a legtöbbet telefonon fejtik." },
-        { "question": "Miben térnek el a nehézségi szintek?", "answer": "A könnyű mindennapi szavakat használ egyenes meghatározással. A közepes szélesebb szókincsből merít. A nehéz ritkább szavakat hoz, és olyan meghatározást, amelyen el kell gondolkodni." },
-        { "question": "Milyen témákat választhatok?", "answer": "Tizenkettőt: mindennapi szavak, természet, állatok, étel és ital, földrajz, történelem, tudomány, sport, művészet, otthon, foglalkozások és helyi kultúra — vagy keverd őket egy rejtvényben." },
-        { "question": "Látok valaha kétszer ugyanolyan szót?", "answer": "Ugyanazon az eszközön nem. Nyelvenként legfeljebb 4000 szót jegyez meg — körülbelül 130 rejtvényt —, és kihagyja őket az újakból; csak utána esnek le a legrégebbiek. A webhely adatainak törlése elölről indítja a listát." },
-        { "question": "Hogyan írja a mesterséges intelligencia a meghatározásokat?", "answer": "A Google Gemini modellje minden nyelven helyben ír szavakat és meghatározásokat, anyanyelvi stíluskalauz szerint. A kód ezután mindegyiket ellenőrzi: jó ábécé, egy valódi szó, tisztességes meghatározás, amely nem árulja el a megfejtést. Egy második menet szerkesztőként dolgozik. Ami elbukik, kiesik, nem javítjuk. A rácsot a kód építi, nem a modell." },
-        { "question": "Mi van, ha egy meghatározás hibás?", "answer": "Nyisd meg a ⋯ menüt a rács fölött, és válaszd a „Meghatározás jelentése” pontot. Ha három különböző játékos jelenti ugyanazt, kivonjuk, és többé nem jelenik meg." }
-      ] },
-      { "title": "Fejtés", "items": [
-        { "question": "Hogyan írjam a megfejtést telefonon és számítógépen?", "answer": "Számítógépen csak írj: ha a billentyűzet angolra van állítva is, a billentyűk a rejtvény betűit írják a megszokott helyükön, nem kell kiosztást váltani. Telefonon vagy táblagépen a rejtvény saját billentyűzete jelenik meg a rács alatt, és a rendszeré nem takarja el." },
-        { "question": "Ellenőrizhetem a választ, vagy kérhetek segítséget?", "answer": "Igen. Az ellenőrzés megjelöli a hibás betűket egy mezőben, egy szóban vagy az egész rejtvényben, a felfedés pedig beír egy betűt, egy szót vagy mindent. Kapcsold be az „Ellenőrzés gépelés közben” beállítást, és a hibát abban a pillanatban látod." },
-        { "question": "Hogyan kezeli az örmény ու-t és és-t, és az orosz Ё-t?", "answer": "Az örmény rejtvényekben az ու és az és külön betű, és mindegyik egy mezőt tölt ki, ahogy a nyomtatott örmény keresztrejtvényekben. A képernyős billentyűzeten mindkettő megvan, és ha ո-t, majd ւ-t írsz, ու lesz belőlük. Az orosz rejtvényekben a Ё betű Е-ként jelenik meg, ahogy a nyomtatottakban." },
-        { "question": "Elmentődik az állásom?", "answer": "Igen, magától, ahogy fejtesz. Minden keresztrejtvény vagy skandináv, amelyet elkezdesz és befejezetlenül hagysz, a „Rejtvényeim” között van, a betűkkel együtt, úgyhogy később is folytathatod — offline is." },
-        { "question": "Lehet offline játszani, vagy alkalmazásként telepíteni?", "answer": "Igen. A Keresztrejtvény AI a böngészőből települ alkalmazásként (iPhone-on: Megosztás → Hozzáadás a kezdőképernyőhöz). Minden megnyitott rejtvény az állásoddal együtt mentődik, és kapcsolat nélkül is megy; csak az újakhoz kell internet." },
-        { "question": "Elküldhetem egy ismerősnek?", "answer": "Igen. Koppints a Megosztás gombra a rács fölött, másold a linket, vagy küldd el WhatsAppon, Telegramon, Facebookon, X-en, VK-n vagy e-mailben. Az ismerősöd pontosan ugyanazt a rácsot és meghatározásokat kapja." },
-        { "question": "Lehet billentyűzettel vagy képernyőolvasóval fejteni?", "answer": "Igen. A rács teljesen működik billentyűzetről és képernyőolvasóval: minden mezőnek neve van, az aktív meghatározást felolvassa, az ellenőrzést és a felfedést is. A hibás és a felfedett betűk alakkal is jelölve vannak, nem csak színnel." }
-      ] },
-      { "title": "Adatvédelem", "items": [
-        { "question": "Milyen adatokat tartotok meg?", "answer": "Nagyon keveset. A rejtvényeid, az állásod, a beállításaid és a látott szavak listája a böngészőben marad. A szerver tárolja a készült rejtvényeket, hogy a megosztott link ugyanazt a rácsot nyissa, a jelentéseket az IP-cím egyirányú lenyomatával, és névtelen fejtési számokat. Nincsenek nevek és nincsenek profilok." },
-        { "question": "Küldtök rólam valamit a mesterséges intelligenciának?", "answer": "Nem. A Google Gemini modelljeinek csak a rejtvény beállításai mennek — nyelv, téma, nehézség — és szólisták. Soha semmi rólad." }
-      ] }
+      {
+        "title": "A Keresztrejtvény AI-ról",
+        "items": [
+          {
+            "question": "Mi az a Keresztrejtvény AI?",
+            "answer": "A Keresztrejtvény AI egy weboldal, amely keresztrejtvényeket és skandináv rejtvényeket generál harminchárom nyelven. Egy AI modell írja a szavakat és a meghatározásokat anyanyelvi szinten mindegyik nyelven, a kód építi fel a rácsot, és minden eszköz csak olyan szavakat kap, amiket még nem látott."
+          },
+          {
+            "question": "Ingyenes a Keresztrejtvény AI?",
+            "answer": "Részben. Az első rejtvényed minden hónapban ingyenes regisztráció nélkül is, a bejelentkezés pedig ad egy második ingyeneset havonta. Ezen túl a rejtvényekért kreditekkel fizethetsz: egyszeri csomagot veszel — nincs előfizetés, a kreditek soha nem járnak le, és nincsenek reklámok. A veled megosztott rejtvények játéka mindig ingyenes."
+          },
+          {
+            "question": "Szükségem van fiókra?",
+            "answer": "A havi ingyenes rejtvényedhez nem: a haladásod, a beállításaid és a már látott szavak a böngésződben maradnak. A fiók ad egy második ingyenes rejtvényt minden hónapban, és lehetővé teszi a kreditek vásárlását és megőrzését."
+          },
+          {
+            "question": "Mennyibe kerül egy rejtvény?",
+            "answer": "Egy kis rejtvény 5 kreditbe, egy közepes 10-be és egy nagy 15-be kerül; a közepes nehézség +1 kreditet, a nehéz +2-t ad hozzá. A krediteket csomagban veheted meg: 200 kredit $4.99, 600 kredit $11.99 és 2000 kredit $29.99. A fizetésnél a saját pénznemedben látod az árat, adóval együtt, ahol az alkalmazandó."
+          },
+          {
+            "question": "Ki készíti a Keresztrejtvény AI-t?",
+            "answer": "Ez egy független projekt Michael Navasardyan fejlesztőtől: olyan rejtvények, amelyek mintha egy helyi szerző tollából születtek volna minden elérhető nyelven — beleértve az örményt, az oroszt és az angolt is."
+          }
+        ]
+      },
+      {
+        "title": "A rejtvények",
+        "items": [
+          {
+            "question": "Mi a különbség a keresztrejtvény és a skandináv rejtvény között?",
+            "answer": "A keresztrejtvény a rács mellett számozva listázza a meghatározásokat (vízszintes és függőleges). A skandináv rejtvény a rács egy-egy cellájába nyomtatja a meghatározást egy nyíllal, ami a válasz helyére mutat — ilyenekkel vannak tele az orosz és örmény rejtvényújságok."
+          },
+          {
+            "question": "Mekkorák a rejtvények?",
+            "answer": "Harom méret van. A klasszikus keresztrejtvény 9×9-es, 13×13-as vagy 15×15-ös rácsot tölt meg körülbelül 8–14, 16–24 vagy 22–34 szóval, majd a szavak méretére vágja azt. A skandináv rejtvény 8×10-es, 10×13-as vagy 13×17-es rácsot használ — magasabb, mint amilyen széles, mert a legtöbben telefonon fejtik."
+          },
+          {
+            "question": "Miben különböznek a nehézségi szintek?",
+            "answer": "A könnyű mindennapi szavakat használ egyértelmű meghatározásokkal. A közepes szélesebb szókincsből merít. A nehéz ritkább szavakat és olyan meghatározásokat hoz, amik elgondolkodtatnak."
+          },
+          {
+            "question": "Milyen témák közül választhatok?",
+            "answer": "Tizenkettő: mindennapi szavak, természet, állatok, étel és ital, földrajz, történelem, tudomány, sport, művészetek, otthon és mindennapok, hivatások és helyi kultúra — vagy keverheted is mindet egy rejtvényben."
+          },
+          {
+            "question": "Előfordulhat, hogy kétszer látom ugyanazt a szót?",
+            "answer": "Ugyanazon az eszközön nem. Akár 4000 szóra is emlékszik nyelvenként — ez kb. 130 rejtvénynek felel meg —, és kihagyja őket minden új rejtvényből; csak ezután kerülnek le a legrégebbi szavak a listáról. A böngésző adatainak törlése újraindítja a listát."
+          },
+          {
+            "question": "Hogyan írja az AI a meghatározásokat?",
+            "answer": "A Google Gemini modellje közvetlenül az adott nyelven írja a szavakat és meghatározásokat, követve az anyanyelvi beszélők által írt stílusútmutatót. Ezután kód ellenőriz mindent — a megfelelő ábécét, hogy létező szó-e, és hogy a meghatározás korrekt-e —, majd egy második AI kör szerkesztőként működik. Ami megbukik, az kiesik. Magát a rácsot a kód építi fel, nem az AI."
+          },
+          {
+            "question": "Mi van, ha egy meghatározás hibás?",
+            "answer": "Nyisd meg a ⋯ menüt a rács felett, és válaszd a „Meghatározás jelentése” lehetőséget. Amint három különböző játékos jelent egy meghatározást, az végleg kikerül a rendszerből."
+          }
+        ]
+      },
+      {
+        "title": "Játék",
+        "items": [
+          {
+            "question": "Hogyan írhatom be a válaszokat telefonon vagy számítógépen?",
+            "answer": "Számítógépen csak gépelj: még ha a billentyűzeted angolra is van állítva, a billentyűk a rejtvény betűit a megszokott helyükön írják be. Telefonon vagy táblagépen a rejtvény saját billentyűzete jelenik meg a rács alatt, és a rendszer billentyűzete soha nem takarja el."
+          },
+          {
+            "question": "Ellenőrizhetem a válaszaimat, vagy kérhetek segítséget?",
+            "answer": "Igen. Az Ellenőrzés megjelöli a hibás betűket egy cellában, egy szóban vagy az egész rejtvényben, a Felfedés pedig beír egy betűt, egy szót vagy mindent. Kapcsold be a „Gépelés közbeni ellenőrzés” opciót a beállításokban, hogy azonnal lásd a hibákat."
+          },
+          {
+            "question": "Hogyan kezeli a rendszer az örmény ու és և, valamint az orosz Ё betűket?",
+            "answer": "Az örmény rejtvényekben az ու és և önálló betűk és egy-egy cellát töltenek ki; a képernyőn megjelenő billentyűzeten mindkettő ott van. Az orosz rejtvényekben a Ё betűt Е-ként írjuk, ahogy a nyomtatott rejtvényekben is."
+          },
+          {
+            "question": "Elmentődik a haladásom?",
+            "answer": "Igen, automatikusan, játék közben. Minden elkezdett és félbehagyott keresztrejtvény vagy skandináv rejtvény megjelenik a „Rejtvényeim” alatt a beírt betűiddel együtt, így később bármikor folytathatod őket — akár offline is."
+          },
+          {
+            "question": "Játszhatok offline, vagy telepíthetem alkalmazásként?",
+            "answer": "Igen. A Keresztrejtvény AI telepíthető a böngészőből alkalmazásként (iPhone-on: Megosztás → Főképernyőhöz adás). Minden megnyitott rejtvény elmentődik a haladásoddal együtt, és internetkapcsolat nélkül is működik; csak az új rejtvényekhez kell internet."
+          },
+          {
+            "question": "Megoszthatok egy rejtvényt egy barátommal?",
+            "answer": "Igen. Koppints a Megosztás gombra a rács felett a hivatkozás másolásához, vagy küldd el WhatsAppon, Telegramon, Facebookon, X-en, VK-n vagy emailben. A barátod pontosan ugyanazt a rácsot és meghatározásokat kapja."
+          },
+          {
+            "question": "Játszhatok billentyűzettel vagy képernyőolvasóval?",
+            "answer": "Igen. A rács teljes mértékben működik billentyűzetről és képernyőolvasóval is: minden cella fel van címkézve, az aktív meghatározás felolvasásra kerül, és az ellenőrzéseket, felfedéseket is felolvassa a rendszer. A hibás és felfedett betűket forma jelöli, nem csak szín."
+          }
+        ]
+      },
+      {
+        "title": "Adatvédelem",
+        "items": [
+          {
+            "question": "Milyen adatokat őriztek meg?",
+            "answer": "Nagyon keveset. A rejtvényeid, a haladásod, a beállításaid és a látott szavak listája a böngésződben maradnak. A szerver a létrehozott rejtvényeket tárolja (hogy a megosztott link ugyanazt a rácsot nyissa meg), a meghatározások jelentéseit az IP-cím egyirányú kivonatával (hash), valamint az névtelen megoldási statisztikákat. Nincsenek nevek és nincsenek profilok."
+          },
+          {
+            "question": "Bármilyen adatom eljut az AI-hoz?",
+            "answer": "Nem. Csak a rejtvény beállításai — nyelv, téma, nehézség — és a szavak listája kerül a Google Gemini modelljeihez, rólad semmi."
+          }
+        ]
+      }
     ],
     "ctaTitle": "Jöhet egy friss rejtvény?",
     "ctaText": "Válassz témát és nehézséget — a következő rács pár másodperc.",
@@ -454,29 +643,152 @@
     "title": "A Keresztrejtvény AI-ról",
     "subtitle": "Ingyenes rejtvénykészítő, amely a te nyelveden ír, és ugyanazt a szót nem adja kétszer.",
     "sections": [
-      { "title": "Miért csináltuk", "paragraphs": ["A legtöbb online keresztrejtvény egy kis szólistát forgat, a lefordítottak pedig fordításnak hangzanak. Olyan rejtvényeket akartunk, amelyeket mintha helyi szerző írt volna, és amelyek újak maradnak, akárhányat fejtesz ki."] },
-      { "title": "Hogyan íródnak a szavak", "paragraphs": ["Egy modell minden nyelven helyben ír szavakat és meghatározásokat, anyanyelvi stíluskalauz szerint: a keresztrejtvények alakjai, a helyesírás, és ahogy abban a hagyományban a meghatározás szól.", "Minden szó ezután automatikus ellenőrzésen megy át: jó ábécé, egy valódi szó, meghatározás, amely nem árulja el a megfejtést. Egy második modell szerkesztő. Amit a játékosok jelentenek, azt kivonjuk."] },
-      { "title": "Hogyan épül a rács", "paragraphs": ["A rácsot a kód építi, nem a modell: egy algoritmus úgy illeszti a szavakat, hogy minden betű valódi, meghatározással ellátott szóhoz tartozzon. Ettől tisztességes minden rejtvény."] }
+      {
+        "title": "Miért csináltuk",
+        "paragraphs": [
+          "A legtöbb online keresztrejtvény egy kis szólistát forgat, a lefordítottak pedig fordításnak hangzanak. Olyan rejtvényeket akartunk, amelyeket mintha helyi szerző írt volna, és amelyek újak maradnak, akárhányat fejtesz ki."
+        ]
+      },
+      {
+        "title": "Hogyan íródnak a szavak",
+        "paragraphs": [
+          "Egy modell minden nyelven helyben ír szavakat és meghatározásokat, anyanyelvi stíluskalauz szerint: a keresztrejtvények alakjai, a helyesírás, és ahogy abban a hagyományban a meghatározás szól.",
+          "Minden szó ezután automatikus ellenőrzésen megy át: jó ábécé, egy valódi szó, meghatározás, amely nem árulja el a megfejtést. Egy második modell szerkesztő. Amit a játékosok jelentenek, azt kivonjuk."
+        ]
+      },
+      {
+        "title": "Hogyan épül a rács",
+        "paragraphs": [
+          "A rácsot a kód építi, nem a modell: egy algoritmus úgy illeszti a szavakat, hogy minden betű valódi, meghatározással ellátott szóhoz tartozzon. Ettől tisztességes minden rejtvény."
+        ]
+      }
     ]
   },
   "Privacy": {
     "title": "Adatvédelmi tájékoztató",
-    "subtitle": "Röviden: nincs fiók, nincsenek nevek, nincs profilalkotás. Itt van minden, amit megőrzünk.",
+    "subtitle": "Röviden: fiók csak akkor kell, ha szeretnél egyet, nincs profilalkotás. Íme minden, amit tárolunk.",
     "sections": [
-      { "title": "Az eszközödön", "paragraphs": ["A böngésző tárolja a megnyitott rejtvényeket, az állásodat, a beállításaidat és a már látott szavak listáját, hogy ne ismétlődjenek. Az eszközödön marad; a webhely adatainak törlése eltávolítja."] },
-      { "title": "A szerverünkön", "paragraphs": ["Tároljuk a készült rejtvényeket, hogy a megosztott link ugyanazt a rácsot nyissa. Ha jelentesz egy meghatározást, a jelentést az IP-címed egyirányú lenyomatával őrizzük, csak azért, hogy egy ember egyedül ne vonhasson ki egy meghatározást. Névtelenül azt is számoljuk, hogyan fejtik a rejtvényeket (megfejtve, mely szavak fedődtek fel), hogy hangoljuk a nehézséget."] },
-      { "title": "A mesterséges intelligencia szolgáltatója", "paragraphs": ["Az új szavakat és meghatározásokat a Google Gemini modelljei írják. Csak a rejtvény beállításai (nyelv, téma, nehézség) és a szólisták mennek el — soha semmi rólad."] },
-      { "title": "Statisztika és hibajelentések", "paragraphs": ["Ha be van kapcsolva, a Google Analytics számolja az oldalmegtekintéseket, a Sentry pedig hibajelentéseket kap. Egyik sem arra való, hogy azonosítsunk."] }
+      {
+        "title": "Az eszközödön",
+        "paragraphs": [
+          "A böngésződ tárolja a megnyitott rejtvényeket, a haladásodat, a beállításaidat és a már látott szavak listáját, hogy ne ismétlődjenek. Ez az eszközödön marad; az adatok törlése eltávolítja ezt."
+        ]
+      },
+      {
+        "title": "A szerverünkön",
+        "paragraphs": [
+          "Eltároljuk a létrehozott rejtvényeket, hogy a megosztott link ugyanazt a rácsot nyissa meg. Amikor jelentesz egy meghatározást, eltároljuk a jelentést az IP-címed egyirányú kivonatával (hash), kizárólag azért, hogy egy személy ne tudjon egyedül kivonni egy meghatározást. Névtelenül számoljuk a rejtvények teljesítését is a nehézség finomításához.",
+          "Ahhoz, hogy minden eszköz megkaphassa a havi ingyenes rejtvényét, az oldal elhelyez egy véletlenszerű azonosítót tartalmazó sütit. Minden ingyenes rejtvény esetén elmentjük ezt az azonosítót és az IP-címed egyirányú kivonatát."
+        ]
+      },
+      {
+        "title": "Fiókok és kreditek",
+        "paragraphs": [
+          "Ha fiókot hozol létre, elmentjük a nevedet, az email címedet, és ha Google-lal jelentkezel be, a Google profilképedet. Megőrizzük a kreditegyenlegedet és annak előzményeit is: minden vásárlást, minden kifizetett rejtvényt és minden visszatérítést."
+        ]
+      },
+      {
+        "title": "Fizetések",
+        "paragraphs": [
+          "A fizetéseket a Paddle.com, a hivatalos viszonteladónk kezeli. A Paddle a saját adatvédelmi irányelvei szerint gyűjti be a fizetési adataidat és a számlázási országot; a kártyaszámodat soha nem látjuk. A Paddle-től megkapjuk az egyes vásárlások összegét, pénznemét, adóját és a fizetési módot."
+        ]
+      },
+      {
+        "title": "AI szolgáltató",
+        "paragraphs": [
+          "Az új szavakat és meghatározásokat a Google Gemini modelljei írják. Csak a rejtvény beállításai (nyelv, téma, nehézség) és a szavak listája kerül átadásra — rólad semmi."
+        ]
+      },
+      {
+        "title": "Analitika és hibajelentések",
+        "paragraphs": [
+          "Engedélyezés esetén a Google Analytics szolgáltatást használjuk az oldalmegtekintések számlálására, és a Sentry-t a hibajelentések fogadására. Egyik sem használható az azonosításodra."
+        ]
+      }
     ]
   },
   "Terms": {
     "title": "Felhasználási feltételek",
-    "subtitle": "A Keresztrejtvény AI ingyenes, szórakozásra és tanulásra.",
+    "subtitle": "A Keresztrejtvény AI a szórakozást és a tanulást szolgálja. Ezek a feltételek a játékra és a kreditvásárlásra vonatkoznak.",
     "sections": [
-      { "title": "A szolgáltatás használata", "paragraphs": ["A rejtvényeket fejtheted, megoszthatod és kinyomtathatod személyes és oktatási célra. Kérjük, ne terheld a szolgáltatást automatikus kérésekkel."] },
-      { "title": "Mesterséges intelligencia írta szöveg", "paragraphs": ["A szavakat és a meghatározásokat mesterséges intelligencia írja, és automatika ellenőrzi, de hiba előfordulhat. Ha találsz egyet, jelentsd — így kerülnek ki a rossz meghatározások."] },
-      { "title": "Jótállás nélkül", "paragraphs": ["A szolgáltatást úgy adjuk, ahogy van, elérhetőségre vagy pontosságra vonatkozó jótállás nélkül. A funkciókat bármikor módosíthatjuk vagy megszüntethetjük."] }
+      {
+        "title": "A szolgáltatás használata",
+        "paragraphs": [
+          "A rejtvényeket személyes és oktatási célokra játszhatod, megoszthatod és kinyomtathatod. Kérjük, ne terheld túl a szolgáltatást automatizált kérésekkel."
+        ]
+      },
+      {
+        "title": "Ingyenes rejtvények és kreditek",
+        "paragraphs": [
+          "Minden eszköz kap egy ingyenes rejtvényt minden naptári hónapban, és minden fiók még egyet. A többi rejtvényért kreditekkel kell fizetni a létrehozás előtt látható áron; a kredit levonása csak a generáláskor történik, a tárolt rejtvények megnyitása ingyenes.",
+          "A krediteket egyszeri fizetéssel vásárolhatod meg csomagokban — nincs előfizetés —, és soha nem járnak le. Készpénzre nem válthatók és nem ruházhatók át."
+        ]
+      },
+      {
+        "title": "Fizetések",
+        "paragraphs": [
+          "A megrendelési folyamatot online viszonteladónk, a Paddle.com bonyolítja le. A Paddle.com a hivatalos viszonteladó (Merchant of Record) minden megrendelésünkhöz. A Paddle kezeli az összes ügyfélszolgálati megkeresést és a visszatérítéseket."
+        ]
+      },
+      {
+        "title": "Visszatérítések",
+        "paragraphs": [
+          "A kreditcsomag vásárlásától számított 14 napon belül kérhetsz visszatérítést a Paddle-en keresztül vagy nekünk írva. A visszatérítés visszavonja a csomag kreditjeit az egyenlegedből. A már elköltött krediteket nem lehet visszatéríteni, így a részben felhasznált csomagok arányosan téríthetők vissza."
+        ]
+      },
+      {
+        "title": "AI által írt tartalom",
+        "paragraphs": [
+          "A szavakat és a meghatározásokat AI írja és automatikus rendszer ellenőrzi, de hibák előfordulhatnak. Ha találsz egyet, jelentsd — így távolítjuk el a rossz meghatározásokat."
+        ]
+      },
+      {
+        "title": "Nincs garancia",
+        "paragraphs": [
+          "A szolgáltatást jelenlegi állapotában nyújtjuk, az elérhetőségre vagy a pontosságra vonatkozó garanciák nélkül. Bármikor módosíthatunk vagy megszüntethetünk funkciókat."
+        ]
+      }
     ]
+  },
+  "Credits": {
+    "title": "Credits",
+    "subtitle": "One free puzzle every month. After that, pay only for the puzzles you make — no subscription, and credits never expire.",
+    "balanceTitle": "Your balance",
+    "freeAvailable": "Your free puzzle of this month is waiting.",
+    "freeUsed": "This month's free puzzle is used. The next one comes on {date}.",
+    "guestTitle": "Get more free puzzles",
+    "guestText": "Sign in to get a free puzzle every month on your account, and to buy credits.",
+    "pricesTitle": "What a puzzle costs",
+    "pricesText": "In credits, by size and difficulty. Opening a puzzle someone shared with you, or one from your history, is always free.",
+    "size": "Size",
+    "packsTitle": "Credit packs",
+    "packs": {
+      "starter": "Starter",
+      "popular": "Popular",
+      "big": "Big"
+    },
+    "popularBadge": "Most popular",
+    "bestValueBadge": "Best value",
+    "packPuzzles": "About {count} medium puzzles",
+    "buy": "Buy",
+    "signInToBuy": "Sign in to buy",
+    "shopClosed": "Buying credits isn't available right now. Please check back soon.",
+    "checkoutFailed": "We couldn't open the checkout. Please try again.",
+    "paddleNote": "Payments are processed by Paddle.com, our reseller and Merchant of Record. Prices include VAT or sales tax where it applies; the final price in your currency is shown at checkout.",
+    "refundsNote": "Refunds are covered in the terms of use."
+  },
+  "Payments": {
+    "checkoutTitle": "Checkout",
+    "opening": "Opening the secure checkout…",
+    "checkoutUnavailable": "The checkout couldn't open. Please try again from the credits page.",
+    "backToCredits": "Back to credits",
+    "verifying": "Confirming your payment…",
+    "successTitle": "Thank you!",
+    "successText": "{count, plural, one {# credit was} other {# credits were}} added to your balance.",
+    "pendingText": "Your payment went through. The credits will appear on your balance within a few minutes.",
+    "failedText": "The payment didn't go through, so nothing was charged. You can try again.",
+    "verifyError": "We couldn't confirm the payment right now. If you were charged, the credits will still arrive — check your balance in a few minutes.",
+    "makePuzzle": "Make a puzzle"
   },
   "Contact": {
     "title": "Írj nekünk",

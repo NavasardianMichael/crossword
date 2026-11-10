@@ -22,6 +22,7 @@
     "scanword": "Zweedse puzzel",
     "topics": "Onderwerpen",
     "history": "Mijn puzzels",
+    "credits": "Credits",
     "rules": "Spelregels",
     "faq": "Vragen",
     "about": "Over",
@@ -66,6 +67,9 @@
     "topicDescription": "Gratis {topic}-kruiswoordpuzzels en Zweedse puzzels, gemaakt door AI. {description}",
     "historyTitle": "Mijn puzzels",
     "historyDescription": "Kruiswoordpuzzels en Zweedse puzzels die je op dit apparaat bent begonnen en nog niet hebt uitgespeeld, met je voortgang bewaard.",
+    "creditsTitle": "Credits & prijzen",
+    "creditsDescription": "Elke maand één gratis kruiswoordraadsel, daarna creditpakketten zonder abonnement: wat elke puzzel kost en hoe je credits koopt.",
+    "paymentTitle": "Betaling",
     "rulesTitle": "Kruiswoordpuzzel en Zweedse puzzel oplossen",
     "rulesDescription": "Hoe je hier een kruiswoordpuzzel of Zweedse puzzel oplost: typen, door het raster bewegen, controleren en letters vrijgeven, en sneltoetsen.",
     "faqTitle": "Vragen: gratis AI-kruiswoord, talen en privacy",
@@ -73,7 +77,7 @@
     "aboutTitle": "Over — hoe onze AI-kruiswoordpuzzels ontstaan",
     "aboutDescription": "Waarom we een gratis kruiswoordgenerator maakten die nooit een woord herhaalt, en hoe de AI hints in elke taal zelf schrijft.",
     "privacyTitle": "Privacyverklaring",
-    "privacyDescription": "Wat Kruiswoord AI bewaart, waar, en waarom. Geen account, geen profiel van wie je bent.",
+    "privacyDescription": "Wat Kruiswoord AI opslaat, waar en waarom — inclusief accounts en betalingen, en zonder tracking van wie je bent.",
     "termsTitle": "Gebruiksvoorwaarden",
     "termsDescription": "De eenvoudige afspraken voor het gebruik van Kruiswoord AI.",
     "contactTitle": "Schrijf ons",
@@ -100,21 +104,65 @@
   },
   "Topics": {
     "any": "Gemengde onderwerpen",
-    "general": { "name": "Dagelijkse woorden", "description": "Woorden van alledag: huis, mensen, tijd, de wereld om je heen." },
-    "nature": { "name": "Natuur", "description": "Bossen, rivieren, weer, planten en de seizoenen." },
-    "animals": { "name": "Dieren", "description": "Wilde en tamme dieren, vogels, vissen en insecten." },
-    "food": { "name": "Eten en drinken", "description": "Gerechten, ingrediënten, de keuken en alles op tafel." },
-    "geography": { "name": "Aardrijkskunde", "description": "Landen, steden, rivieren, bergen en herkenningspunten." },
-    "history": { "name": "Geschiedenis", "description": "Tijdperken, uitvindingen, ambachten en voorwerpen van vroeger." },
-    "science": { "name": "Wetenschap", "description": "Natuurkunde, scheikunde, biologie, de ruimte en het lichaam." },
-    "sport": { "name": "Sport", "description": "Spellen, materiaal, wedstrijden en de regels." },
-    "arts": { "name": "Kunst", "description": "Muziek, literatuur, theater, schilderkunst en film." },
-    "home": { "name": "Huis en huishouden", "description": "Meubels, gereedschap, kleding en dingen die we elke dag gebruiken." },
-    "professions": { "name": "Beroepen", "description": "Banen, ambachten, gereedschap van het vak en werkplekken." },
-    "localCulture": { "name": "Eigen cultuur", "description": "Tradities, feesten, volksverhalen en bekende plekken van de cultuur achter elke taal." }
+    "general": {
+      "name": "Dagelijkse woorden",
+      "description": "Woorden van alledag: huis, mensen, tijd, de wereld om je heen."
+    },
+    "nature": {
+      "name": "Natuur",
+      "description": "Bossen, rivieren, weer, planten en de seizoenen."
+    },
+    "animals": {
+      "name": "Dieren",
+      "description": "Wilde en tamme dieren, vogels, vissen en insecten."
+    },
+    "food": {
+      "name": "Eten en drinken",
+      "description": "Gerechten, ingrediënten, de keuken en alles op tafel."
+    },
+    "geography": {
+      "name": "Aardrijkskunde",
+      "description": "Landen, steden, rivieren, bergen en herkenningspunten."
+    },
+    "history": {
+      "name": "Geschiedenis",
+      "description": "Tijdperken, uitvindingen, ambachten en voorwerpen van vroeger."
+    },
+    "science": {
+      "name": "Wetenschap",
+      "description": "Natuurkunde, scheikunde, biologie, de ruimte en het lichaam."
+    },
+    "sport": {
+      "name": "Sport",
+      "description": "Spellen, materiaal, wedstrijden en de regels."
+    },
+    "arts": {
+      "name": "Kunst",
+      "description": "Muziek, literatuur, theater, schilderkunst en film."
+    },
+    "home": {
+      "name": "Huis en huishouden",
+      "description": "Meubels, gereedschap, kleding en dingen die we elke dag gebruiken."
+    },
+    "professions": {
+      "name": "Beroepen",
+      "description": "Banen, ambachten, gereedschap van het vak en werkplekken."
+    },
+    "localCulture": {
+      "name": "Eigen cultuur",
+      "description": "Tradities, feesten, volksverhalen en bekende plekken van de cultuur achter elke taal."
+    }
   },
-  "Difficulty": { "1": "Makkelijk", "2": "Gemiddeld", "3": "Moeilijk" },
-  "Sizes": { "small": "Klein", "medium": "Middel", "large": "Groot" },
+  "Difficulty": {
+    "1": "Makkelijk",
+    "2": "Gemiddeld",
+    "3": "Moeilijk"
+  },
+  "Sizes": {
+    "small": "Klein",
+    "medium": "Middel",
+    "large": "Groot"
+  },
   "Generator": {
     "format": "Kies een vorm",
     "topic": "Kies een onderwerp",
@@ -124,12 +172,25 @@
     "creating": "Je puzzel wordt gebouwd…",
     "creatingHint": "We zoeken woorden die je nog niet hebt gezien. Verse woorden kunnen een paar seconden duren.",
     "cancel": "Annuleren",
-    "freshHint": "Gratis, geen account. Elke puzzel brengt woorden die je hier nog niet bent tegengekomen.",
+    "freshHint": "Elke puzzel bevat woorden die je hier nog niet eerder bent tegengekomen.",
     "exhausted": "Je hebt nu elk woord voor deze keuze gespeeld. We schrijven nieuwe. Kies een ander onderwerp, of kom over een minuut terug."
+  },
+  "Billing": {
+    "credits": "{count, plural, one {# credit} other {# credits}}",
+    "balance": "Je saldo: {count, plural, one {# credit} other {# credits}}",
+    "cost": "Deze puzzel: {count, plural, one {# credit} other {# credits}}",
+    "freeNow": "Deze is gratis — je gratis puzzel van de maand.",
+    "youHave": "Je hebt {count, plural, one {# credit} other {# credits}}.",
+    "notEnough": "Niet genoeg credits voor deze puzzel.",
+    "guestUsed": "Je hebt de gratis puzzel van deze maand gebruikt. Log in voor nog een gratis puzzel elke maand en om credits te kopen.",
+    "refusedSignIn": "De gratis puzzel van deze maand is gebruikt. Log in om er nog een te krijgen en om credits te kopen.",
+    "refusedCredits": "Niet genoeg credits voor deze puzzel. Waardeer op om verder te spelen.",
+    "signIn": "Inloggen",
+    "buyCredits": "Credits kopen"
   },
   "Home": {
     "hero": {
-      "eyebrow": "Gratis · Geen account · Werkt offline",
+      "eyebrow": "Gratis proberen · Geen abonnement · Werkt offline",
       "title": "Kruiswoordpuzzels die <mark>altijd nieuw zijn</mark>",
       "subtitle": "Kies een onderwerp en een niveau. De AI schrijft de hints in jouw taal, en hetzelfde woord krijg je geen tweede keer.",
       "lede": "Maak gratis online een kruiswoordpuzzel of Zweedse puzzel, zonder account. Onderwerpen lopen van dieren, eten en aardrijkskunde tot geschiedenis, wetenschap, sport, kunst, huis, beroepen en eigen cultuur — of meng ze allemaal."
@@ -139,16 +200,28 @@
     "formatsSubtitle": "Een ruime klassieker met hintlijsten, of een compacte Zweedse puzzel met hints in het raster.",
     "pointsTitle": "Waarom het anders is",
     "points": {
-      "fresh": { "title": "Nooit een herhaling", "text": "Je apparaat onthoudt elk woord dat het heeft laten zien, dus elke nieuwe puzzel brengt woorden die je nog niet hebt opgelost." },
-      "native": { "title": "Geschreven in jouw taal", "text": "Hints worden in de taal zelf geschreven, zoals een plaatselijke maker ze zou zetten, nooit vertaald uit een andere taal." },
-      "ai": { "title": "Gemaakt door AI, gecontroleerd door code", "text": "De AI stelt woorden en hints voor; onze controles laten spelfouten, oneerlijke hints en antwoorden die zichzelf verraden vallen." },
-      "offline": { "title": "Speelt overal", "text": "Installeer hem als een app. Geopende puzzels blijven werken in het vliegtuig, in de metro, waar dan ook." }
+      "fresh": {
+        "title": "Nooit een herhaling",
+        "text": "Je apparaat onthoudt elk woord dat het heeft laten zien, dus elke nieuwe puzzel brengt woorden die je nog niet hebt opgelost."
+      },
+      "native": {
+        "title": "Geschreven in jouw taal",
+        "text": "Hints worden in de taal zelf geschreven, zoals een plaatselijke maker ze zou zetten, nooit vertaald uit een andere taal."
+      },
+      "ai": {
+        "title": "Gemaakt door AI, gecontroleerd door code",
+        "text": "De AI stelt woorden en hints voor; onze controles laten spelfouten, oneerlijke hints en antwoorden die zichzelf verraden vallen."
+      },
+      "offline": {
+        "title": "Speelt overal",
+        "text": "Installeer hem als een app. Geopende puzzels blijven werken in het vliegtuig, in de metro, waar dan ook."
+      }
     },
     "topicsTitle": "Kies een onderwerp",
     "topicsSubtitle": "Van vogels in de tuin tot bekende rivieren — of meng ze allemaal.",
     "faqTitle": "Vragen en antwoorden",
-    "faq1Question": "Is Kruiswoord AI echt gratis?",
-    "faq1Answer": "Ja. Elke kruiswoordpuzzel en Zweedse puzzel is gratis te spelen, zonder account, zonder aanmelding en zonder limiet.",
+    "faq1Question": "Is Kruiswoord AI gratis?",
+    "faq1Answer": "Je eerste puzzel elke maand is gratis, zonder registratie, en inloggen voegt er nog een toe. Daarna kosten puzzels credits, die je eenmalig koopt zonder abonnement. Een puzzel spelen die iemand met je heeft gedeeld, is altijd gratis.",
     "faq2Question": "Krijg ik dezelfde woorden terug?",
     "faq2Answer": "Nee. Je apparaat houdt een lijst bij van woorden die het al heeft getoond en laat die uit elke nieuwe puzzel. Wis je de sitegegevens, dan begint die lijst opnieuw.",
     "faq3Question": "In welke talen kan ik spelen?",
@@ -313,7 +386,12 @@
     "ime": "Typ een teken",
     "erase": "Wissen",
     "time": "Tijd: {time}",
-    "check": { "label": "Controleer", "cell": "Controleer letter", "word": "Controleer woord", "puzzle": "Controleer puzzel" },
+    "check": {
+      "label": "Controleer",
+      "cell": "Controleer letter",
+      "word": "Controleer woord",
+      "puzzle": "Controleer puzzel"
+    },
     "reveal": {
       "label": "Toon",
       "cell": "Toon letter",
@@ -326,7 +404,12 @@
     },
     "clearWrong": "Verkeerde letters wissen",
     "more": "Meer",
-    "zoom": { "label": "Zoom", "in": "Inzoomen", "out": "Uitzoomen", "reset": "Hele puzzel passen" },
+    "zoom": {
+      "label": "Zoom",
+      "in": "Inzoomen",
+      "out": "Uitzoomen",
+      "reset": "Hele puzzel passen"
+    },
     "settings": {
       "label": "Instellingen",
       "autoCheck": "Controleren terwijl ik typ",
@@ -451,41 +534,105 @@
       {
         "title": "Over Kruiswoord AI",
         "items": [
-          { "question": "Wat is Kruiswoord AI?", "answer": "Kruiswoord AI is een gratis website die kruiswoordpuzzels en Zweedse puzzels maakt in drieëndertig talen. Een AI schrijft de woorden en hints in elke taal zelf, code bouwt het raster, en elk apparaat krijgt alleen woorden die het nog niet heeft gezien." },
-          { "question": "Is Kruiswoord AI echt gratis?", "answer": "Ja. Elke puzzel is gratis te spelen: geen account, geen aanmelding, geen abonnement en geen advertenties." },
-          { "question": "Heb ik een account nodig?", "answer": "Nee. Er valt niets aan te melden. Je voortgang, je instellingen en de lijst met geziene woorden blijven in je browser, op je apparaat." },
-          { "question": "Wie maakt Kruiswoord AI?", "answer": "Het is een zelfstandig project van ontwikkelaar Michael Navasardyan: puzzels die lezen alsof een plaatselijke maker ze schreef, in elke taal die de site aanbiedt, onder meer Armeens, Russisch en Engels." }
+          {
+            "question": "Wat is Kruiswoord AI?",
+            "answer": "Kruiswoord AI is een website die kruiswoordraadsels en scandiagrammen genereert in drieëndertig talen. Een AI-model schrijft de woorden en omschrijvingen als een moedertaalspreker in elke taal, code bouwt het raster en elk apparaat krijgt alleen woorden die het nog niet eerder heeft gezien."
+          },
+          {
+            "question": "Is Kruiswoord AI gratis?",
+            "answer": "Gedeeltelijk. Je eerste puzzel elke maand is gratis, zonder registratie, en inloggen voegt elke maand een tweede gratis puzzel toe. Daarbovenop worden puzzels betaald met credits: je koopt eenmalig een pakket — er is geen abonnement, credits verlopen nooit en er zijn geen advertenties. Een puzzel spelen die iemand met je heeft gedeeld, is altijd gratis."
+          },
+          {
+            "question": "Heb ik een account nodig?",
+            "answer": "Niet voor je gratis puzzel van de maand: je voortgang, je instellingen en de woorden die je al hebt gezien, worden in je browser bewaard. Een account voegt elke maand een tweede gratis puzzel toe en stelt je in staat om credits te kopen en te bewaren."
+          },
+          {
+            "question": "Hoeveel kost een puzzel?",
+            "answer": "Een kleine puzzel kost 5 credits, een middelgrote 10 en een grote 15; een gemiddelde moeilijkheidsgraad voegt 1 credit toe en moeilijk voegt 2 credits toe. Credits zijn verkrijgbaar in pakketten van 200 voor € 4,99, 600 voor € 11,99 en 2.000 voor € 29,99. Bij het afrekenen zie je de prijs in je eigen valuta, inclusief belastingen waar van toepassing."
+          },
+          {
+            "question": "Wie maakt Kruiswoord AI?",
+            "answer": "Het is een onafhankelijk project van ontwikkelaar Michael Navasardyan: puzzels die lezen alsof een lokale auteur ze heeft geschreven, in elke taal die de site aanbiedt — waaronder Armeens, Russisch en Engels."
+          }
         ]
       },
       {
         "title": "De puzzels",
         "items": [
-          { "question": "Wat is het verschil tussen een kruiswoord en een Zweedse puzzel?", "answer": "Een kruiswoord zet genummerde hints naast het raster, horizontaal en verticaal. Een Zweedse puzzel drukt elke hint in een vakje, met een pijl naar het antwoord. Dat is de vorm waar puzzelbladen in Rusland en Armenië vol van staan." },
-          { "question": "Hoe groot zijn de puzzels?", "answer": "Er zijn drie formaten. Een klassieke kruiswoordpuzzel vult een raster van 9×9, 13×13 of 15×15 met ongeveer 8–14, 16–24 of 22–34 woorden, en wordt daarna bijgesneden. Een Zweedse puzzel gebruikt 8×10, 10×13 of 13×17, hoger dan breed, omdat de meeste op een telefoon worden opgelost." },
-          { "question": "Hoe verschillen de niveaus?", "answer": "Makkelijk gebruikt alledaagse woorden met een directe definitie. Gemiddeld put uit een bredere woordenschat. Moeilijk brengt zeldzamere woorden en hints waar je even over nadenkt." },
-          { "question": "Welke onderwerpen kan ik kiezen?", "answer": "Twaalf: dagelijkse woorden, natuur, dieren, eten en drinken, aardrijkskunde, geschiedenis, wetenschap, sport, kunst, huis en huishouden, beroepen en eigen cultuur — of meng ze in één puzzel." },
-          { "question": "Zie ik ooit hetzelfde woord twee keer?", "answer": "Niet op hetzelfde apparaat. Het onthoudt tot 4.000 woorden per taal — ongeveer 130 puzzels — en laat ze uit elke nieuwe puzzel; pas daarna vallen de oudste van de lijst. Sitegegevens wissen laat de lijst opnieuw beginnen." },
-          { "question": "Hoe schrijft de AI de hints?", "answer": "Het model Gemini van Google schrijft woorden en hints rechtstreeks in elke taal, volgens een stijlgids van moedertaalsprekers. Code controleert daarna alles: het juiste alfabet, één echt woord, een eerlijke hint die het antwoord niet weggeeft. Een tweede AI-ronde redigeert. Wat zakt, valt weg en wordt nooit bijgeplakt. Het raster zelf bouwt code, niet de AI." },
-          { "question": "Wat als een hint fout is?", "answer": "Open het menu ⋯ boven het raster en kies “Meld een hint”. Als drie verschillende spelers dezelfde hint melden, gaat hij met pensioen en komt hij niet terug." }
+          {
+            "question": "Wat is het verschil tussen een kruiswoordraadsel en een scandiagram?",
+            "answer": "Een kruiswoordraadsel toont genummerde omschrijvingen naast het raster, Horizontaal en Verticaal. Een scandiagram toont elke omschrijving in een rastercel, met een pijl die naar het antwoord wijst — de vorm waar puzzelboeken in bijvoorbeeld Rusland en Armenië vol mee staan."
+          },
+          {
+            "question": "Hoe groot zijn de puzzels?",
+            "answer": "Er zijn drie maten. Een klassiek kruiswoordraadsel vult een raster van 9×9, 13×13 of 15×15 met ongeveer 8–14, 16–24 of 22–34 woorden en wordt daarna bijgesneden tot de woorden die erin staan. Een scandiagram gebruikt een raster van 8×10, 10×13 of 13×17 — hoger dan breed, omdat de meeste op een telefoon worden opgelost."
+          },
+          {
+            "question": "Hoe verschillen de moeilijkheidsgraden?",
+            "answer": "Makkelijk gebruikt alledaagse woorden met directe definities. Gemiddeld maakt gebruik van een bredere woordenschat. Moeilijk brengt zeldzamere woorden en omschrijvingen die je twee keer laten nadenken."
+          },
+          {
+            "question": "Welke onderwerpen kan ik kiezen?",
+            "answer": "Twaalf: alledaagse woorden, natuur, dieren, eten & drinken, geografie, geschiedenis, wetenschap, sport, kunst, huis & tuin, beroepen en lokale cultuur — of mix ze allemaal in één puzzel."
+          },
+          {
+            "question": "Zie ik ooit twee keer hetzelfde woord?",
+            "answer": "Niet op hetzelfde apparaat. Het onthoudt tot 4.000 woorden per taal — goed voor zo'n 130 puzzels — en sluit ze uit van elke nieuwe puzzel; pas daarna verdwijnen de oudste van de lijst. Het wissen van je browsergegevens begint de lijst opnieuw."
+          },
+          {
+            "question": "Hoe schrijft de AI de omschrijvingen?",
+            "answer": "Google's Gemini-model schrijft woorden en omschrijvingen direct in elke taal, volgens een stijlfiguur opgesteld door moedertaalsprekers. Code controleert vervolgens alles — het juiste alfabet, één echt woord, een eerlijke omschrijving die het antwoord niet verraadt — en een tweede AI-stap fungeert als redacteur. Alles wat niet voldoet wordt verwijderd, nooit aangepast. Het raster zelf wordt gebouwd door code, niet door de AI."
+          },
+          {
+            "question": "Wat als een omschrijving fout is?",
+            "answer": "Open het ⋯ menu boven het raster en kies \"Omschrijving melden\". Zodra drie verschillende spelers dezelfde omschrijving melden, wordt deze ingetrokken en verschijnt hij nooit meer."
+          }
         ]
       },
       {
         "title": "Spelen",
         "items": [
-          { "question": "Hoe typ ik antwoorden op een telefoon of computer?", "answer": "Op een computer typ je gewoon: zelfs als je toetsenbord op Engels staat, typen de toetsen de letters van de puzzel op hun gewone plek. Op een telefoon of tablet verschijnt het eigen toetsenbord onder het raster, en het systeemtoetsenbord dekt het nooit af." },
-          { "question": "Kan ik antwoorden controleren of een hint krijgen?", "answer": "Ja. Controleren markeert foute letters in één vakje, één woord of de hele puzzel, en Tonen vult een letter, een woord of alles in. Zet “Controleren terwijl ik typ” aan om fouten meteen te zien." },
-          { "question": "Hoe gaan Armeens ու en և, en Russische Ё, in hun werk?", "answer": "In Armeense puzzels zijn ու en և één letter en vullen ze elk één vakje, zoals in gedrukte Armeense kruiswoordpuzzels. Typ ո en daarna ւ, dan worden ze ու. In Russische puzzels wordt Ё als Е geschreven. In het Nederlands is ij één vakje: i gevolgd door j wordt vanzelf ij." },
-          { "question": "Wordt mijn voortgang bewaard?", "answer": "Ja, automatisch, terwijl je speelt. Elke puzzel die je begint en niet afmaakt, staat onder “Mijn puzzels”, met je letters bewaard, ook offline." },
-          { "question": "Kan ik offline spelen of hem als app installeren?", "answer": "Ja. Kruiswoord AI installeert vanuit de browser als een app (op de iPhone: Delen → Zet op beginscherm). Elke geopende puzzel blijft met je voortgang werken zonder verbinding; alleen nieuwe puzzels hebben internet nodig." },
-          { "question": "Kan ik een puzzel delen met een vriend?", "answer": "Ja. Tik op Delen boven het raster om de link te kopiëren, of stuur hem via WhatsApp, Telegram, Facebook, X, VK of e-mail. Je vriend krijgt precies hetzelfde raster en dezelfde hints." },
-          { "question": "Kan ik spelen met een toetsenbord of een schermlezer?", "answer": "Ja. Het raster werkt volledig met het toetsenbord en met schermlezers: elk vakje heeft een naam, de actieve hint wordt voorgelezen, en controles en vrijgaven ook. Foute en vrijgegeven letters zijn herkenbaar aan hun vorm, nooit alleen aan kleur." }
+          {
+            "question": "Hoe typ ik antwoorden op een telefoon of computer?",
+            "answer": "Typ op een computer gewoon op je toetsenbord: zelfs als je toetsenbord op Engels staat ingesteld, typen de toetsen de letters van de puzzel op hun gebruikelijke plaats, dus je hoeft geen indeling te wisselen. Op een telefoon of tablet verschijnt het eigen toetsenbord van de puzzel onder het raster, en het systeemtoetsenbord bedekt dit nooit."
+          },
+          {
+            "question": "Kan ik mijn antwoorden controleren of een hint krijgen?",
+            "answer": "Ja. Controleer markeert verkeerde letters in één cel, één woord of de hele puzzel, en Onthul vult een letter, een woord of alles in. Schakel \"Controleren tijdens typen\" in bij de instellingen om fouten te zien op het moment dat je ze maakt."
+          },
+          {
+            "question": "Hoe wordt omgegaan met de Armeense ու en և, en de Russische Ё?",
+            "answer": "In Armeense puzzels zijn ու en և enkele letters en vullen ze elk één cel, net als in gedrukte Armeense kruiswoordraadsels; het schermtoetsenbord heeft beide, en het typen van ո en vervolgens ւ voegt ze samen tot ու. In Russische puzzels wordt Ё geschreven als Е, net als in gedrukte raadsels."
+          },
+          {
+            "question": "Wordt mijn voortgang opgeslagen?",
+            "answer": "Ja, automatisch, terwijl je speelt. Elk kruiswoordraadsel of scandiagram dat je begint en onvoltooid laat, staat vermeld onder \"Mijn puzzels\", met je ingevulde letters opgeslagen, zodat je er later mee verder kunt — zelfs offline."
+          },
+          {
+            "question": "Kan ik offline spelen of het installeren als een app?",
+            "answer": "Ja. Kruiswoord AI kan vanuit je browser worden geïnstalleerd als een app (op iPhone: Delen → Zet op home-scherm). Elke puzzel die je opent wordt opgeslagen met je voortgang en blijft werken zonder verbinding; alleen voor nieuwe puzzels is internet nodig."
+          },
+          {
+            "question": "Kan ik een puzzel delen met een vriend?",
+            "answer": "Ja. Tik op Delen boven het raster om de link te kopiëren, of verstuur deze via WhatsApp, Telegram, Facebook, X, VK of e-mail. Je vriend krijgt exact hetzelfde raster en dezelfde omschrijvingen."
+          },
+          {
+            "question": "Kan ik spelen met een toetsenbord of schermlezer?",
+            "answer": "Ja. Het raster werkt volledig vanaf het toetsenbord en met schermlezers: elke cel is gelabeld, de actieve omschrijving wordt voorgelezen, en controles en onthullingen worden voorgelezen. Foutieve en onthulde letters worden gemarkeerd door vorm, nooit alleen door kleur."
+          }
         ]
       },
       {
         "title": "Privacy",
         "items": [
-          { "question": "Welke gegevens bewaren jullie?", "answer": "Heel weinig. Je puzzels, voortgang, instellingen en de lijst met geziene woorden blijven in je browser. De server bewaart de gemaakte puzzels (zodat een gedeelde link hetzelfde raster opent), hintmeldingen met een eenrichtingshash van het IP-adres, en anonieme oploscijfers. Geen namen en geen profielen." },
-          { "question": "Gaat er iets over mij naar de AI?", "answer": "Nee. Alleen puzzelinstellingen — taal, onderwerp, niveau — en woordenlijsten gaan naar de Gemini-modellen van Google, nooit iets over jou." }
+          {
+            "question": "Welke gegevens bewaren jullie?",
+            "answer": "Heel weinig. Je puzzels, voortgang, instellingen en de lijst met geziene woorden blijven in je browser. De server slaat de gemaakte puzzels op (zodat een gedeelde link hetzelfde raster opent), meldingen van omschrijvingen met een eenrichtingshash van het IP-adres, en anonieme aantallen oplossingen. Geen namen en geen profielen."
+          },
+          {
+            "question": "Wordt er iets over mij naar de AI gestuurd?",
+            "answer": "Nee. Alleen puzzelinstellingen — taal, onderwerp, moeilijkheidsgraad — en lijsten met woorden gaan naar de Gemini-modellen van Google, nooit iets over jou."
+          }
         ]
       }
     ],
@@ -497,29 +644,152 @@
     "title": "Over Kruiswoord AI",
     "subtitle": "Een gratis puzzelgenerator die in jouw taal schrijft en nooit twee keer hetzelfde woord geeft.",
     "sections": [
-      { "title": "Waarom we hem maakten", "paragraphs": ["De meeste online kruiswoordpuzzels hergebruiken een korte woordenlijst, en vertaalde lezen als vertalingen. Wij wilden puzzels die aanvoelen alsof een plaatselijke maker ze schreef, en die nieuw blijven hoeveel je er ook oplost."] },
-      { "title": "Hoe de woorden worden geschreven", "paragraphs": ["Een AI schrijft woorden en hints rechtstreeks in elke taal, volgens een stijlgids van moedertaalsprekers: de woordvormen die kruiswoordpuzzels gebruiken, de spelling, de manier waarop hints in die traditie klinken.", "Elk woord gaat daarna door automatische controles — het juiste alfabet, één echt woord, geen hint die het antwoord weggeeft — en een tweede AI als redacteur. Meldingen van spelers laten weg wat er toch doorheen glipt."] },
-      { "title": "Hoe de rasters worden gebouwd", "paragraphs": ["Het raster zelf bouwt code, niet de AI: een algoritme past de woorden zo in elkaar dat elke letter bij een echt woord met een hint hoort. Daardoor blijft elke puzzel eerlijk."] }
+      {
+        "title": "Waarom we hem maakten",
+        "paragraphs": [
+          "De meeste online kruiswoordpuzzels hergebruiken een korte woordenlijst, en vertaalde lezen als vertalingen. Wij wilden puzzels die aanvoelen alsof een plaatselijke maker ze schreef, en die nieuw blijven hoeveel je er ook oplost."
+        ]
+      },
+      {
+        "title": "Hoe de woorden worden geschreven",
+        "paragraphs": [
+          "Een AI schrijft woorden en hints rechtstreeks in elke taal, volgens een stijlgids van moedertaalsprekers: de woordvormen die kruiswoordpuzzels gebruiken, de spelling, de manier waarop hints in die traditie klinken.",
+          "Elk woord gaat daarna door automatische controles — het juiste alfabet, één echt woord, geen hint die het antwoord weggeeft — en een tweede AI als redacteur. Meldingen van spelers laten weg wat er toch doorheen glipt."
+        ]
+      },
+      {
+        "title": "Hoe de rasters worden gebouwd",
+        "paragraphs": [
+          "Het raster zelf bouwt code, niet de AI: een algoritme past de woorden zo in elkaar dat elke letter bij een echt woord met een hint hoort. Daardoor blijft elke puzzel eerlijk."
+        ]
+      }
     ]
   },
   "Privacy": {
     "title": "Privacyverklaring",
-    "subtitle": "Kort: geen account, geen namen, geen profiel. Dit is alles wat we bewaren.",
+    "subtitle": "Korte versie: alleen een account als je dat wilt, geen profilering. Hier is alles wat we bewaren.",
     "sections": [
-      { "title": "Op je apparaat", "paragraphs": ["Je browser bewaart de puzzels die je opent, je voortgang, je instellingen en een lijst van woorden die je al hebt gezien, zodat ze niet terugkomen. Dat blijft op je apparaat; sitegegevens wissen haalt het weg."] },
-      { "title": "Op onze server", "paragraphs": ["We bewaren de gemaakte puzzels, zodat een gedeelde link hetzelfde raster opent. Bij een hintmelding bewaren we de melding met een eenrichtingshash van je IP-adres, alleen zodat één persoon een hint niet in zijn eentje kan laten verdwijnen. We tellen anoniem hoe puzzels worden gespeeld, om het niveau bij te stellen."] },
-      { "title": "AI-aanbieder", "paragraphs": ["Nieuwe woorden en hints worden geschreven door de Gemini-modellen van Google. Alleen de puzzelinstellingen (taal, onderwerp, niveau) en woordenlijsten gaan erheen, nooit iets over jou."] },
-      { "title": "Statistiek en foutmeldingen", "paragraphs": ["Als dat aanstaat, gebruiken we Google Analytics om paginaweergaven te tellen en Sentry om foutmeldingen te ontvangen. Geen van beide wordt gebruikt om jou te herkennen."] }
+      {
+        "title": "Op je apparaat",
+        "paragraphs": [
+          "Je browser slaat de puzzels op die je opent, je voortgang, je instellingen en een lijst met de woorden die je al hebt gezien, zodat ze nooit worden herhaald. Dit blijft op je apparaat; het wissen van de sitegegevens verwijdert dit."
+        ]
+      },
+      {
+        "title": "Op onze server",
+        "paragraphs": [
+          "We slaan de puzzels op die worden gemaakt, zodat een gedeelde link hetzelfde raster opent. Wanneer je een omschrijving meldt, bewaren we het rapport met een eenrichtingshash van je IP-adres, alleen om te voorkomen dat één persoon een omschrijving alleen kan intrekken. We tellen ook anoniem hoe puzzels worden gespeeld (opgelost, welke woorden zijn onthuld) om de moeilijkheidsgraad af te stemmen.",
+          "Om elk apparaat zijn gratis puzzel van de maand te geven, plaatst de site een cookie met een willekeurige ID. Bij elke gratis puzzel bewaren we die ID en een eenrichtingshash van je IP-adres."
+        ]
+      },
+      {
+        "title": "Accounts en credits",
+        "paragraphs": [
+          "Als je een account aanmaakt, bewaren we je naam, je e-mailadres en, wanneer je inlogt met Google, je Google-profielfoto. We bewaren ook je creditsaldo en de geschiedenis ervan: elke aankoop, elke betaalde puzzel en elke terugbetaling."
+        ]
+      },
+      {
+        "title": "Betalingen",
+        "paragraphs": [
+          "Betalingen worden verwerkt door Paddle.com, onze Merchant of Record. Paddle verzamelt je betaalgegevens en het land van facturering onder hun eigen privacybeleid; wij zien je kaartnummer nooit. Van Paddle ontvangen we het bedrag, de valuta, de belasting en het type betaalmethode van elke aankoop."
+        ]
+      },
+      {
+        "title": "AI-provider",
+        "paragraphs": [
+          "Nieuwe woorden en omschrijvingen worden geschreven door de Gemini-modellen van Google. Alleen de puzzelinstellingen (taal, onderwerp, moeilijkheidsgraad) en lijsten met woorden worden verzonden — nooit iets over jou."
+        ]
+      },
+      {
+        "title": "Analyses en foutrapporten",
+        "paragraphs": [
+          "Indien ingeschakeld, gebruiken we Google Analytics om paginaweergaven te tellen en Sentry om foutrapporten te ontvangen. Geen van beide wordt gebruikt om je te identificeren."
+        ]
+      }
     ]
   },
   "Terms": {
     "title": "Gebruiksvoorwaarden",
-    "subtitle": "Kruiswoord AI is gratis te gebruiken, voor plezier en om iets te leren.",
+    "subtitle": "Kruiswoord AI is voor plezier en educatie. Deze voorwaarden hebben betrekking op het spelen en het kopen van credits.",
     "sections": [
-      { "title": "De dienst gebruiken", "paragraphs": ["Je mag de puzzels spelen, delen en afdrukken voor persoonlijk en educatief gebruik. Overbelast de dienst niet met geautomatiseerde verzoeken."] },
-      { "title": "Door AI geschreven inhoud", "paragraphs": ["Woorden en hints worden door AI geschreven en automatisch gecontroleerd, maar fouten kunnen voorkomen. Meld ze: zo verdwijnen slechte hints."] },
-      { "title": "Geen garantie", "paragraphs": ["De dienst wordt aangeboden zoals hij is, zonder garantie van beschikbaarheid of nauwkeurigheid. We kunnen functies op elk moment wijzigen of stopzetten."] }
+      {
+        "title": "Het gebruik van de dienst",
+        "paragraphs": [
+          "Je mag de puzzels spelen, delen en afdrukken voor persoonlijk en educatief gebruik. Overbelast de dienst a.u.b. niet met geautomatiseerde verzoeken."
+        ]
+      },
+      {
+        "title": "Gratis puzzels en credits",
+        "paragraphs": [
+          "Elk apparaat krijgt één gratis puzzel per kalendermand, en elk account nog een. Andere puzzels worden betaald met credits, tegen de prijs die wordt getoond voordat je er een maakt; een puzzel wordt pas in rekening gebracht wanneer deze is gebouwd, en het openen van een opgeslagen puzzel is gratis.",
+          "Credits worden gekocht in pakketten met een eenmalige betaling — er is geen abonnement — en ze verlopen nooit. Ze hebben geen contante waarde en kunnen niet worden overgedragen."
+        ]
+      },
+      {
+        "title": "Betalingen",
+        "paragraphs": [
+          "Ons bestelproces wordt uitgevoerd door onze online wederverkoper Paddle.com. Paddle.com is de Merchant of Record voor al onze bestellingen. Paddle verzorgt alle klantenserviceverzoeken en afhandeling van retourzendingen."
+        ]
+      },
+      {
+        "title": "Terugbetalingen",
+        "paragraphs": [
+          "Je kunt binnen 14 dagen na aankoop een terugbetaling van een creditpakket aanvragen, via Paddle of door ons te schrijven. Bij een terugbetaling worden de credits van het pakket van je saldo afgehaald. Reeds uitgegeven credits kunnen niet worden geretourneerd, dus een pakket dat gedeeltelijk is gebruikt, kan gedeeltelijk worden terugbetaald."
+        ]
+      },
+      {
+        "title": "Door AI geschreven inhoud",
+        "paragraphs": [
+          "Woorden en omschrijvingen worden geschreven door AI en automatisch gecontroleerd, maar er kunnen fouten optreden. Als je er een vindt, meld deze dan — dat is hoe slechte omschrijvingen worden verwijderd."
+        ]
+      },
+      {
+        "title": "Geen garantie",
+        "paragraphs": [
+          "De dienst wordt geleverd 'zoals deze is', zonder garanties van beschikbaarheid of nauwkeurigheid. We kunnen functies op elk moment wijzigen of stopzetten."
+        ]
+      }
     ]
+  },
+  "Credits": {
+    "title": "Credits",
+    "subtitle": "Elke maand één gratis puzzel. Daarna betaal je alleen voor de puzzels die je maakt — geen abonnement, en credits verlopen nooit.",
+    "balanceTitle": "Je saldo",
+    "freeAvailable": "Je gratis puzzel van deze maand staat voor je klaar.",
+    "freeUsed": "De gratis puzzel van deze maand is gebruikt. De volgende komt op {date}.",
+    "guestTitle": "Krijg meer gratis puzzels",
+    "guestText": "Log in om elke maand een gratis puzzel op je account te krijgen en om credits te kopen.",
+    "pricesTitle": "Wat een puzzel kost",
+    "pricesText": "In credits, op basis van grootte en moeilijkheidsgraad. Een puzzel openen die iemand met je heeft gedeeld, of een uit je geschiedenis, is altijd gratis.",
+    "size": "Grootte",
+    "packsTitle": "Creditpakketten",
+    "packs": {
+      "starter": "Starter",
+      "popular": "Populair",
+      "big": "Groot"
+    },
+    "popularBadge": "Meest populair",
+    "bestValueBadge": "Voordeligst",
+    "packPuzzles": "Ongeveer {count} gemiddelde puzzels",
+    "buy": "Kopen",
+    "signInToBuy": "Log in om te kopen",
+    "shopClosed": "Credits kopen is op dit moment niet beschikbaar. Kom binnenkort terug.",
+    "checkoutFailed": "We konden het afrekenen niet openen. Probeer het opnieuw.",
+    "paddleNote": "Betalingen worden verwerkt door Paddle.com, onze reseller en Merchant of Record. Prijzen zijn inclusief btw of omzetbelasting waar van toepassing; de definitieve prijs in je valuta wordt getoond bij het afrekenen.",
+    "refundsNote": "Terugbetalingen worden behandeld in de gebruiksvoorwaarden."
+  },
+  "Payments": {
+    "checkoutTitle": "Afrekenen",
+    "opening": "Beveiligde kassa openen…",
+    "checkoutUnavailable": "De kassa kon niet worden geopend. Probeer het opnieuw vanaf de creditspagina.",
+    "backToCredits": "Terug naar credits",
+    "verifying": "Je betaling bevestigen…",
+    "successTitle": "Bedankt!",
+    "successText": "{count, plural, one {# credit is} other {# credits zijn}} toegevoegd aan je saldo.",
+    "pendingText": "Je betaling is gelukt. De credits verschijnen binnen enkele minuten op je saldo.",
+    "failedText": "De betaling is niet gelukt, dus er is niets in rekening gebracht. Je kunt het opnieuw proberen.",
+    "verifyError": "We konden de betaling op dit moment niet bevestigen. Als er wel geld is afgeschreven, komen de credits alsnog aan — controleer je saldo over een paar minuten.",
+    "makePuzzle": "Maak een puzzel"
   },
   "Contact": {
     "title": "Schrijf ons",

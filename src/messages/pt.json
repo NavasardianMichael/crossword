@@ -22,6 +22,7 @@
     "scanword": "Autodefinido",
     "topics": "Temas",
     "history": "Minhas palavras cruzadas",
+    "credits": "Créditos",
     "rules": "Como jogar",
     "faq": "Perguntas",
     "about": "Sobre",
@@ -66,6 +67,9 @@
     "topicDescription": "Palavras cruzadas e autodefinidos grátis de {topic}, criados por inteligência artificial. {description}",
     "historyTitle": "Minhas palavras cruzadas",
     "historyDescription": "Palavras cruzadas e autodefinidos que você começou neste aparelho e ainda não terminou, com o progresso salvo.",
+    "creditsTitle": "Créditos e preços",
+    "creditsDescription": "Um jogo grátis por mês, depois pacotes de créditos sem assinatura: quanto custa cada jogo e como comprar créditos.",
+    "paymentTitle": "Pagamento",
     "rulesTitle": "Como resolver palavras cruzadas e autodefinidos",
     "rulesDescription": "Como resolver palavras cruzadas ou um autodefinido aqui: digitar, andar pela grade, conferir e revelar letras, e atalhos de teclado.",
     "faqTitle": "Perguntas frequentes: palavras cruzadas com IA, idiomas e privacidade",
@@ -73,7 +77,7 @@
     "aboutTitle": "Sobre: como a IA faz as palavras cruzadas",
     "aboutDescription": "Por que fizemos um gerador de palavras cruzadas grátis que não repete palavra, e como a inteligência artificial escreve as dicas em cada idioma.",
     "privacyTitle": "Política de privacidade",
-    "privacyDescription": "O que Palavras Cruzadas IA guarda, onde e por quê. Sem conta e sem rastrear quem você é.",
+    "privacyDescription": "O que o Palavras Cruzadas IA armazena, onde e por quê — contas e pagamentos incluídos, e sem rastreamento de quem você é.",
     "termsTitle": "Termos de uso",
     "termsDescription": "Os termos simples para usar Palavras Cruzadas IA.",
     "contactTitle": "Fale conosco",
@@ -168,12 +172,25 @@
     "creating": "Montando suas palavras cruzadas…",
     "creatingHint": "Estamos escolhendo palavras que você ainda não viu. As novas podem levar alguns segundos.",
     "cancel": "Cancelar",
-    "freshHint": "Grátis e sem cadastro. Cada grade traz palavras que você ainda não encontrou aqui.",
+    "freshHint": "Cada jogo traz palavras que você ainda não viu por aqui.",
     "exhausted": "Você já jogou todas as palavras que temos para essa escolha! Estamos escrevendo outras: tente outro tema ou volte em um minuto."
+  },
+  "Billing": {
+    "credits": "{count, plural, one {# crédito} other {# créditos}}",
+    "balance": "Seu saldo: {count, plural, one {# crédito} other {# créditos}}",
+    "cost": "Este jogo: {count, plural, one {# crédito} other {# créditos}}",
+    "freeNow": "Este é grátis — o seu jogo gratuito do mês.",
+    "youHave": "Você tem {count, plural, one {# crédito} other {# créditos}}.",
+    "notEnough": "Créditos insuficientes para este jogo.",
+    "guestUsed": "Você já usou o jogo grátis deste mês. Faça login para ganhar mais um jogo grátis todo mês e para comprar créditos.",
+    "refusedSignIn": "O jogo grátis deste mês foi usado. Faça login para ganhar outro e para comprar créditos.",
+    "refusedCredits": "Créditos insuficientes para este jogo. Recarregue para continuar jogando.",
+    "signIn": "Entrar",
+    "buyCredits": "Comprar créditos"
   },
   "Home": {
     "hero": {
-      "eyebrow": "Grátis · Sem cadastro · Funciona offline",
+      "eyebrow": "Grátis para testar · Sem assinatura · Funciona offline",
       "title": "Fazer palavras cruzadas <mark>sempre novas</mark> de animais, comida, geografia, história, ciência e esporte",
       "subtitle": "Escolha um tema e uma dificuldade: a inteligência artificial escreve as dicas no seu idioma e não repete a mesma palavra duas vezes.",
       "lede": "Faça palavras cruzadas ou um autodefinido online, grátis e sem cadastro. Os temas vão de animais, comida e geografia a história, ciência, esporte, arte, casa, profissões e cultura brasileira, ou misture todos."
@@ -203,8 +220,8 @@
     "topicsTitle": "Escolha um tema",
     "topicsSubtitle": "Dos passarinhos do quintal aos rios famosos, ou misture todos os temas.",
     "faqTitle": "Perguntas e respostas",
-    "faq1Question": "Palavras Cruzadas IA é mesmo grátis?",
-    "faq1Answer": "Sim. Cada grade de palavras cruzadas e cada autodefinido é grátis, sem conta, sem cadastro e sem limite de quantos você resolve.",
+    "faq1Question": "O Palavras Cruzadas IA é gratuito?",
+    "faq1Answer": "O seu primeiro jogo de cada mês é grátis, sem necessidade de cadastro, e fazer login adiciona mais um. Depois disso, os jogos custam créditos, comprados avulso sem assinatura. Jogar uma partida que alguém compartilhou com você é sempre grátis.",
     "faq2Question": "Vou ver as mesmas palavras de novo?",
     "faq2Answer": "Não. Seu aparelho guarda a lista das palavras que já mostrou e deixa elas de fora de cada grade nova. Se você limpar os dados do site no navegador, a lista começa do zero.",
     "faq3Question": "Em quais idiomas posso jogar?",
@@ -515,89 +532,93 @@
     "subtitle": "Tudo sobre Palavras Cruzadas IA num só lugar: as grades, como a inteligência artificial escreve, jogar em qualquer aparelho e a sua privacidade.",
     "groups": [
       {
-        "title": "Sobre Palavras Cruzadas IA",
+        "title": "Sobre o Palavras Cruzadas IA",
         "items": [
           {
-            "question": "O que é Palavras Cruzadas IA?",
-            "answer": "Palavras Cruzadas IA é um site grátis que gera palavras cruzadas e autodefinidos em trinta e três idiomas. Um modelo de inteligência artificial escreve as palavras e as dicas em cada idioma, o código monta a grade e cada aparelho só recebe palavras que ainda não viu."
+            "question": "O que é o Palavras Cruzadas IA?",
+            "answer": "O Palavras Cruzadas IA é um site que gera palavras cruzadas e diretas em trinta e três idiomas. Um modelo de IA escreve as palavras e dicas nativamente em cada idioma, o código monta a grade, e cada dispositivo só recebe palavras que ainda não viu."
           },
           {
-            "question": "É mesmo grátis?",
-            "answer": "Sim. Cada grade é grátis: sem conta, sem cadastro, sem assinatura e sem anúncios."
+            "question": "O Palavras Cruzadas IA é gratuito?",
+            "answer": "Em parte. O seu primeiro jogo todo mês é grátis, sem precisar se cadastrar, e fazer login garante um segundo jogo grátis por mês. Além disso, os jogos são pagos com créditos: você compra um pacote uma vez — não há assinatura, os créditos nunca expiram e não há anúncios. Jogar um jogo que compartilharam com você é sempre grátis."
           },
           {
             "question": "Preciso de uma conta?",
-            "answer": "Não. Não há o que cadastrar. Seu progresso, seus ajustes e a lista de palavras que você já viu ficam no navegador, no seu aparelho."
+            "answer": "Não para o seu jogo grátis do mês: seu progresso, suas configurações e as palavras que você já viu ficam salvos no seu navegador. Uma conta adiciona um segundo jogo grátis todo mês e permite que você compre créditos e os guarde."
           },
           {
-            "question": "Quem faz Palavras Cruzadas IA?",
-            "answer": "É um projeto independente do desenvolvedor Michael Navasardyan: passatempos que soam como se alguém dali tivesse escrito, em cada idioma do site, entre eles armênio, russo e inglês."
+            "question": "Quanto custa um jogo?",
+            "answer": "Um jogo pequeno custa 5 créditos, um médio 10 e um grande 15; a dificuldade média adiciona 1 crédito e a difícil adiciona 2. Os créditos vêm em pacotes de 200 por R$ 4,99, 600 por R$ 11,99 e 2.000 por R$ 29,99 (ou o equivalente na sua moeda). A tela de pagamento mostra o preço final com impostos onde aplicável."
+          },
+          {
+            "question": "Quem criou o Palavras Cruzadas IA?",
+            "answer": "É um projeto independente do desenvolvedor Michael Navasardyan: jogos que parecem ter sido escritos por um autor local, em cada idioma oferecido pelo site — entre eles o armênio, o russo e o inglês."
           }
         ]
       },
       {
-        "title": "As grades",
+        "title": "Os jogos",
         "items": [
           {
-            "question": "Qual é a diferença entre palavras cruzadas e autodefinido?",
-            "answer": "Nas palavras cruzadas, as dicas numeradas ficam ao lado da grade, na horizontal e na vertical. No autodefinido, cada dica está impressa numa casa, com uma seta para a resposta: o formato das palavras cruzadas suecas."
+            "question": "Qual é a diferença entre palavras cruzadas e diretas?",
+            "answer": "Nas palavras cruzadas tradicionais, as dicas numeradas ficam ao lado da grade (Horizontais e Verticais). Nas palavras diretas (scanwords), cada dica fica dentro de uma célula da grade, com uma seta indicando onde fica a resposta."
           },
           {
-            "question": "Qual é o tamanho?",
-            "answer": "Há três tamanhos. As palavras cruzadas clássicas enchem uma grade de 9×9, 13×13 ou 15×15 com cerca de 8–14, 16–24 ou 22–34 palavras, e depois a grade é cortada no que coube. O autodefinido usa 8×10, 10×13 ou 13×17: mais alto do que largo, porque a maioria se resolve no celular."
+            "question": "Qual é o tamanho dos jogos?",
+            "answer": "Existem três tamanhos. As palavras cruzadas clássicas usam grades de 9×9, 13×13 ou 15×15 com cerca de 8–14, 16–24 ou 22–34 palavras. As diretas usam grades de 8×10, 10×13 ou 13×17 — mais altas do que largas, ideais para jogar no celular."
           },
           {
-            "question": "Como os níveis se distinguem?",
-            "answer": "Fácil usa palavras do dia a dia com dicas diretas. Médio abre um vocabulário mais amplo. Difícil traz palavras mais raras e dicas que pedem uma segunda pensada."
+            "question": "Como os níveis de dificuldade se diferenciam?",
+            "answer": "O modo Fácil usa palavras do dia a dia com definições diretas. O Médio exige um vocabulário mais amplo. O Difícil traz palavras mais raras e dicas para fazer você pensar bastante."
           },
           {
             "question": "Quais temas posso escolher?",
-            "answer": "Doze: palavras do dia a dia, natureza, animais, comida e bebida, geografia, história, ciência, esporte, arte, casa e dia a dia, profissões e cultura brasileira. Você também pode misturar todos."
+            "answer": "São doze: palavras do cotidiano, natureza, animais, comida e bebida, geografia, história, ciência, esportes, artes, casa e dia a dia, profissões e cultura local — ou você pode misturar tudo em um único jogo."
           },
           {
-            "question": "Alguma vez vou ver a mesma palavra duas vezes?",
-            "answer": "Não no mesmo aparelho. Ele lembra até 4000 palavras por idioma, mais ou menos o de 130 grades, e deixa elas de fora de cada uma nova; só depois as mais antigas saem da lista. Se você limpar os dados do site, a lista recomeça."
+            "question": "Vou ver a mesma palavra duas vezes?",
+            "answer": "Não no mesmo dispositivo. O sistema lembra de até 4.000 palavras por idioma — o equivalente a cerca de 130 jogos — e as deixa de fora de cada novo jogo. Só depois disso as mais antigas voltam para a lista. Limpar os dados do site no navegador reinicia essa contagem."
           },
           {
-            "question": "Como a inteligência artificial escreve as dicas?",
-            "answer": "O modelo Gemini, do Google, escreve palavras e dicas direto em cada idioma, seguindo um guia de estilo de falantes nativos. O código confere cada uma: o alfabeto certo, uma palavra real e uma dica justa que não entrega a resposta. Uma segunda passada de inteligência artificial faz o papel de editor. O que falha é descartado, não remendado. A grade é montada pelo código, não pela inteligência artificial."
+            "question": "Como a IA escreve as dicas?",
+            "answer": "O modelo Gemini da Google cria palavras e dicas diretamente em cada idioma, seguindo um guia de estilo feito por falantes nativos. O código então verifica tudo — alfabeto correto, palavras reais, dicas honestas que não entregam a resposta — e uma segunda etapa de IA atua como revisora. O que falha é descartado. A grade em si é montada por código, não pela IA."
           },
           {
             "question": "E se uma dica estiver errada?",
-            "answer": "Abra o menu ⋯ acima da grade e escolha «Informar uma dica». Quando três jogadores diferentes informam a mesma, ela sai de circulação e não volta."
+            "answer": "Abra o menu ⋯ acima da grade e escolha “Reportar uma dica”. Quando três jogadores diferentes reportarem a mesma dica, ela é aposentada e nunca mais aparece."
           }
         ]
       },
       {
-        "title": "Como jogar",
+        "title": "Jogando",
         "items": [
           {
-            "question": "Como digito as respostas no celular ou no computador?",
-            "answer": "No computador, é só digitar: mesmo com o teclado em inglês, as teclas escrevem as letras da grade no lugar de sempre e não há layout para trocar. No celular ou no tablet, o teclado do jogo aparece embaixo da grade e o do sistema não a cobre."
+            "question": "Como digito as respostas no celular ou computador?",
+            "answer": "No computador, basta digitar: mesmo se seu teclado estiver em outro idioma, as teclas inserem as letras certas no local correto. No celular ou tablet, o teclado do próprio jogo aparece abaixo da grade, sem ser coberto pelo teclado do sistema."
           },
           {
-            "question": "Posso conferir as respostas ou pedir uma pista?",
-            "answer": "Sim. Conferir marca as letras erradas numa casa, numa palavra ou na grade inteira, e Revelar completa uma letra, uma palavra ou tudo. Ative «Conferir enquanto digito» nos ajustes para ver o erro na hora."
+            "question": "Posso conferir minhas respostas ou pedir uma dica?",
+            "answer": "Sim. A opção 'Verificar' marca letras erradas em uma célula, palavra ou no jogo todo. A opção 'Revelar' preenche uma letra, palavra ou tudo. Ative 'Verificar ao digitar' nas configurações para ver erros no momento em que os comete."
           },
           {
-            "question": "Como funcionam ու e և em armênio, e o Ё em russo?",
-            "answer": "Nas grades em armênio, ու e և são letras únicas e cada uma ocupa uma casa, como nos passatempos impressos; o teclado na tela tem as duas, e digitar ո e depois ւ junta as duas em ու. Em russo, Ё se escreve como Е, como nos impressos."
+            "question": "Como são tratadas as letras especiais em armênio (ու, և) e russo (Ё)?",
+            "answer": "Nos jogos em armênio, ու e և são letras únicas e ocupam uma célula cada; digitar ո e depois ւ junta as duas. Nos jogos em russo, Ё é escrita como Е, como nas cruzadas impressas."
           },
           {
-            "question": "Meu progresso fica salvo?",
-            "answer": "Sim, sozinho, enquanto você joga. Cada grade que você começa e deixa pela metade aparece em «Minhas palavras cruzadas», com as letras salvas, para continuar depois, até offline."
+            "question": "Meu progresso é salvo?",
+            "answer": "Sim, automaticamente enquanto você joga. Qualquer jogo iniciado fica listado em “Meus jogos”, com suas letras salvas para você continuar mais tarde — até mesmo offline."
           },
           {
-            "question": "Posso jogar offline ou instalar como aplicativo?",
-            "answer": "Sim. Palavras Cruzadas IA se instala pelo navegador como um aplicativo (no iPhone: Compartilhar → Adicionar à Tela de Início). Cada grade que você abre fica salva com o progresso e continua sem conexão; só as novas precisam de internet."
+            "question": "Posso jogar offline ou instalar como um aplicativo?",
+            "answer": "Sim. O Palavras Cruzadas IA pode ser instalado direto pelo seu navegador como um app (no iPhone: Compartilhar → Adicionar à Tela de Início). Todos os jogos abertos ficam salvos e funcionam sem internet; apenas novos jogos exigem conexão."
           },
           {
-            "question": "Posso compartilhar uma grade?",
-            "answer": "Sim. Toque em Compartilhar acima da grade para copiar o link, ou envie por WhatsApp, Telegram, Facebook, X, VK ou e-mail. Quem receber vê exatamente a mesma grade e as mesmas dicas."
+            "question": "Posso compartilhar um jogo com um amigo?",
+            "answer": "Sim. Toque em Compartilhar acima da grade para copiar o link ou enviar pelo WhatsApp, Telegram, Facebook, X, VK ou e-mail. Seu amigo jogará exatamente a mesma grade e as mesmas dicas."
           },
           {
-            "question": "Dá para jogar com teclado ou leitor de tela?",
-            "answer": "Sim. A grade funciona inteira pelo teclado e com leitores de tela: cada casa tem nome, a dica ativa é anunciada e as conferências e as letras reveladas são lidas. O errado e o revelado se marcam por uma forma, não só por uma cor."
+            "question": "Posso jogar usando apenas o teclado ou leitor de tela?",
+            "answer": "Sim. A grade funciona perfeitamente pelo teclado e com leitores de tela: cada célula é rotulada, a dica ativa é anunciada, e as verificações são lidas em voz alta. Letras erradas ou reveladas são destacadas por formato, nunca apenas por cor."
           }
         ]
       },
@@ -605,12 +626,12 @@
         "title": "Privacidade",
         "items": [
           {
-            "question": "Que dados vocês guardam?",
-            "answer": "Muito pouco. Suas grades, o progresso, os ajustes e a lista de palavras vistas ficam no navegador. O servidor guarda as grades criadas (para um link compartilhado abrir a mesma), os informes de dica com um hash irreversível do endereço IP e contagens anônimas de partidas resolvidas. Sem nomes e sem perfis."
+            "question": "Quais dados vocês guardam?",
+            "answer": "Muito pouco. Seus jogos, progresso, configurações e lista de palavras vistas ficam apenas no seu navegador. O servidor armazena os jogos criados (para que um link compartilhado abra a mesma grade), denúncias de dicas com um hash anônimo do IP e estatísticas anônimas de solução. Sem nomes ou perfis."
           },
           {
-            "question": "Algo meu é enviado à inteligência artificial?",
-            "answer": "Não. Aos modelos Gemini, do Google, só vão os ajustes da grade (idioma, tema, dificuldade) e listas de palavras, nunca nada sobre você."
+            "question": "Alguma informação minha é enviada para a IA?",
+            "answer": "Não. Apenas as configurações do jogo (idioma, tema, dificuldade) e listas de palavras são enviadas para os modelos Gemini da Google, nunca nada sobre você."
           }
         ]
       }
@@ -646,57 +667,129 @@
   },
   "Privacy": {
     "title": "Política de privacidade",
-    "subtitle": "Em resumo: sem conta, sem nomes e sem perfil. Isto é tudo o que guardamos.",
+    "subtitle": "Resumo: crie uma conta só se quiser, sem criação de perfis. Aqui está tudo o que guardamos.",
     "sections": [
       {
-        "title": "No seu aparelho",
+        "title": "No seu dispositivo",
         "paragraphs": [
-          "O navegador guarda as grades que você abre, o progresso, os ajustes e uma lista das palavras que você já viu, para não repetir. Isso fica no aparelho; se você limpar os dados do site, some."
+          "Seu navegador armazena os jogos abertos, seu progresso, configurações e a lista de palavras que você já viu para que não se repitam. Tudo isso fica no seu dispositivo; limpar os dados do site remove essas informações."
         ]
       },
       {
         "title": "No nosso servidor",
         "paragraphs": [
-          "Guardamos as grades criadas, para um link compartilhado abrir a mesma. Se você informa uma dica, guardamos o informe com um hash irreversível do seu endereço IP, só para uma pessoa sozinha não aposentar uma dica. Também contamos de forma anônima como se joga (se resolveu, quais palavras foram reveladas) para afinar a dificuldade."
+          "Armazenamos os jogos criados para que um link compartilhado abra a mesma grade. Quando você reporta uma dica, guardamos o relato com um hash anônimo do seu IP, apenas para evitar que uma única pessoa desative uma dica sozinha. Também contamos de forma anônima como os jogos são jogados para ajustar a dificuldade.",
+          "Para dar a cada dispositivo o jogo grátis do mês, o site define um cookie com um identificador aleatório. A cada jogo grátis, guardamos esse identificador e um hash anônimo do seu IP."
         ]
       },
       {
-        "title": "Provedor de inteligência artificial",
+        "title": "Contas e créditos",
         "paragraphs": [
-          "Palavras e dicas novas são escritas pelos modelos Gemini, do Google. Só são enviados os ajustes da grade (idioma, tema, dificuldade) e listas de palavras: nunca nada sobre você."
+          "Se você criar uma conta, guardamos seu nome, e-mail e, ao entrar com o Google, a foto do seu perfil. Também mantemos seu saldo de créditos e o histórico: cada compra, jogo pago e reembolso."
         ]
       },
       {
-        "title": "Análise e informes de erro",
+        "title": "Pagamentos",
         "paragraphs": [
-          "Se estiver ligado, usamos o Google Analytics para contar visitas e o Sentry para receber informes de erro. Nenhum dos dois serve para identificar você."
+          "Os pagamentos são processados pela Paddle.com, nossa revendedora oficial. A Paddle coleta seus dados de pagamento e país de cobrança sob sua própria política de privacidade; nunca vemos o número do seu cartão. Da Paddle, recebemos apenas o valor, moeda, impostos e a forma de pagamento."
+        ]
+      },
+      {
+        "title": "Provedor de IA",
+        "paragraphs": [
+          "Novas palavras e dicas são geradas pelos modelos Gemini da Google. Apenas as configurações do jogo (idioma, tema, dificuldade) e listas de palavras são enviadas — nunca nada pessoal."
+        ]
+      },
+      {
+        "title": "Análises e relatórios de erros",
+        "paragraphs": [
+          "Se ativado, usamos o Google Analytics para contar visualizações de página e o Sentry para receber relatórios de erros. Nenhum dos dois é usado para identificar você."
         ]
       }
     ]
   },
   "Terms": {
     "title": "Termos de uso",
-    "subtitle": "Palavras Cruzadas IA é grátis, para jogar e para aprender.",
+    "subtitle": "O Palavras Cruzadas IA é para diversão e aprendizado. Estes termos cobrem o uso e a compra de créditos.",
     "sections": [
       {
         "title": "Uso do serviço",
         "paragraphs": [
-          "Você pode jogar, compartilhar e imprimir as grades para uso pessoal e educativo. Por favor, não sobrecarregue o serviço com pedidos automáticos."
+          "Você pode jogar, compartilhar e imprimir os jogos para uso pessoal e educacional. Por favor, não sobrecarregue o serviço com requisições automatizadas."
         ]
       },
       {
-        "title": "Conteúdo escrito por inteligência artificial",
+        "title": "Jogos gratuitos e créditos",
         "paragraphs": [
-          "As palavras e as dicas são escritas por inteligência artificial e conferidas automaticamente, mas erros podem acontecer. Se encontrar um, informe: é assim que dicas ruins saem."
+          "Cada dispositivo ganha um jogo grátis por mês civil, e cada conta ganha mais um. Outros jogos são pagos com créditos, pelo preço exibido antes da criação; o crédito só é cobrado quando o jogo é gerado, e abrir um jogo salvo é sempre grátis.",
+          "Os créditos são comprados em pacotes com pagamento único — não há assinatura — e nunca expiram. Eles não possuem valor em dinheiro e não podem ser transferidos."
         ]
       },
       {
-        "title": "Sem garantia",
+        "title": "Pagamentos",
         "paragraphs": [
-          "O serviço é oferecido como está, sem garantias de disponibilidade ou de exatidão. Podemos mudar ou retirar funções a qualquer momento."
+          "Nosso processo de pedido é conduzido pela revendedora online Paddle.com, a Comerciante de Registro de todos os pedidos. A Paddle é responsável pelo atendimento ao cliente e devoluções."
+        ]
+      },
+      {
+        "title": "Reembolsos",
+        "paragraphs": [
+          "Você pode solicitar o reembolso de um pacote de créditos em até 14 dias após a compra, pela Paddle ou escrevendo para nós. O reembolso retira os créditos do seu saldo. Créditos já usados não podem ser devolvidos, portanto pacotes parcialmente usados poderão ter reembolso parcial."
+        ]
+      },
+      {
+        "title": "Conteúdo gerado por IA",
+        "paragraphs": [
+          "Palavras e dicas são escritas por IA e revisadas automaticamente, mas erros podem acontecer. Se encontrar algum, reportes — é assim que removemos dicas ruins."
+        ]
+      },
+      {
+        "title": "Sem garantias",
+        "paragraphs": [
+          "O serviço é fornecido 'como está', sem garantias de disponibilidade ou precisão. Podemos alterar ou descontinuar recursos a qualquer momento."
         ]
       }
     ]
+  },
+  "Credits": {
+    "title": "Créditos",
+    "subtitle": "Um jogo grátis todo mês. Depois, pague apenas pelos jogos que criar — sem assinatura, e os créditos nunca expiram.",
+    "balanceTitle": "Seu saldo",
+    "freeAvailable": "Seu jogo grátis deste mês está te esperando.",
+    "freeUsed": "O jogo grátis deste mês já foi usado. O próximo estará disponível em {date}.",
+    "guestTitle": "Ganhe mais jogos grátis",
+    "guestText": "Faça login para receber um jogo grátis todo mês na sua conta e para comprar créditos.",
+    "pricesTitle": "Quanto custa um jogo",
+    "pricesText": "Em créditos, por tamanho e dificuldade. Abrir um jogo compartilhado com você ou do seu histórico é sempre grátis.",
+    "size": "Tamanho",
+    "packsTitle": "Pacotes de créditos",
+    "packs": {
+      "starter": "Iniciante",
+      "popular": "Popular",
+      "big": "Grande"
+    },
+    "popularBadge": "Mais popular",
+    "bestValueBadge": "Melhor custo-benefício",
+    "packPuzzles": "Cerca de {count} jogos médios",
+    "buy": "Comprar",
+    "signInToBuy": "Entre para comprar",
+    "shopClosed": "A compra de créditos não está disponível no momento. Tente novamente em breve.",
+    "checkoutFailed": "Não foi possível abrir a tela de pagamento. Tente novamente.",
+    "paddleNote": "Os pagamentos são processados pela Paddle.com, nossa revendedora e Comerciante de Registro. Os preços incluem impostos onde aplicável; o valor final na sua moeda é exibido na finalização da compra.",
+    "refundsNote": "Os reembolsos estão detalhados nos termos de uso."
+  },
+  "Payments": {
+    "checkoutTitle": "Pagamento",
+    "opening": "Abrindo a tela de pagamento segura…",
+    "checkoutUnavailable": "Não foi possível abrir a tela de pagamento. Tente novamente pela página de créditos.",
+    "backToCredits": "Voltar aos créditos",
+    "verifying": "Confirmando seu pagamento…",
+    "successTitle": "Muito obrigado!",
+    "successText": "{count, plural, one {# crédito foi adicionado} other {# créditos foram adicionados}} ao seu saldo.",
+    "pendingText": "Seu pagamento foi aprovado. Os créditos aparecerão no seu saldo em alguns minutos.",
+    "failedText": "O pagamento não foi concluído, então nada foi cobrado. Você pode tentar novamente.",
+    "verifyError": "Não foi possível confirmar o pagamento agora. Se você foi cobrado, os créditos chegarão em breve — confira seu saldo em alguns minutos.",
+    "makePuzzle": "Criar um jogo"
   },
   "Contact": {
     "title": "Fale conosco",

@@ -22,6 +22,7 @@
     "scanword": "Teka petak",
     "topics": "Topik",
     "history": "Teka saya",
+    "credits": "Credits",
     "rules": "Cara main",
     "faq": "Soalan lazim",
     "about": "Perihal",
@@ -66,6 +67,9 @@
     "topicDescription": "Teka silang kata dan teka petak {topic} percuma, dijana oleh AI. {description}",
     "historyTitle": "Teka saya",
     "historyDescription": "Teka silang kata dan teka petak yang anda mulakan pada peranti ini dan belum selesai, dengan kemajuan yang tersimpan.",
+    "creditsTitle": "Credits & prices",
+    "creditsDescription": "One free crossword every month, then credit packs with no subscription: what each puzzle costs, and how to buy credits.",
+    "paymentTitle": "Payment",
     "rulesTitle": "Cara Main Teka Silang Kata dan Teka Petak",
     "rulesDescription": "Cara selesaikan teka silang kata atau teka petak di sini: menaip, bergerak dalam kekisi, menyemak dan mendedahkan huruf, serta pintasan papan kekunci.",
     "faqTitle": "Soalan Lazim: Teka Silang Kata AI, Bahasa dan Privasi",
@@ -73,7 +77,7 @@
     "aboutTitle": "Perihal — Bagaimana Teka Silang Kata AI Dihasilkan",
     "aboutDescription": "Mengapa kami bina penjana teka silang kata percuma yang tidak pernah mengulang perkataan, dan bagaimana AI menulis petunjuk secara asli dalam setiap bahasa.",
     "privacyTitle": "Dasar privasi",
-    "privacyDescription": "Apa yang Silang Kata AI simpan, di mana, dan mengapa — tiada akaun, tiada penjejakan identiti anda.",
+    "privacyDescription": "Apa yang disimpan oleh Silang Kata AI, di mana dan sebabnya — termasuk akaun dan pembayaran, serta tanpa penjejakan identiti anda.",
     "termsTitle": "Syarat penggunaan",
     "termsDescription": "Syarat ringkas untuk menggunakan Silang Kata AI.",
     "contactTitle": "Tulis kepada kami",
@@ -168,12 +172,25 @@
     "creating": "Sedang membina teka anda…",
     "creatingHint": "Memilih perkataan yang belum anda lihat. Yang baharu mungkin mengambil beberapa saat.",
     "cancel": "Batal",
-    "freshHint": "Percuma, tanpa daftar. Setiap teka membawa perkataan yang belum anda temui di sini.",
+    "freshHint": "Setiap teka-teki membawakan kata-kata yang belum pernah anda temui di sini sebelum ini.",
     "exhausted": "Anda sudah main semua perkataan yang ada untuk pilihan ini! Kami sedang menulis yang baharu — cuba topik lain, atau kembali sebentar lagi."
+  },
+  "Billing": {
+    "credits": "{count, plural, one {# credit} other {# credits}}",
+    "balance": "Your balance: {count, plural, one {# credit} other {# credits}}",
+    "cost": "This puzzle: {count, plural, one {# credit} other {# credits}}",
+    "freeNow": "This one is free — your free puzzle of the month.",
+    "youHave": "You have {count, plural, one {# credit} other {# credits}}.",
+    "notEnough": "Not enough credits for this puzzle.",
+    "guestUsed": "You've used this month's free puzzle. Sign in for one more free puzzle every month, and to buy credits.",
+    "refusedSignIn": "This month's free puzzle is used. Sign in to get another one, and to buy credits.",
+    "refusedCredits": "Not enough credits for this puzzle. Top up to keep playing.",
+    "signIn": "Sign in",
+    "buyCredits": "Buy credits"
   },
   "Home": {
     "hero": {
-      "eyebrow": "Percuma · Tanpa daftar · Boleh di luar talian",
+      "eyebrow": "Percuma untuk dicuba · Tanpa langganan · Berfungsi di luar talian",
       "title": "Teka silang kata yang <mark>sentiasa baharu</mark>",
       "subtitle": "Pilih topik dan kesukaran — AI menulis petunjuk dalam bahasa anda, dan perkataan yang sama tidak keluar dua kali.",
       "lede": "Buat teka silang kata atau teka petak percuma dalam talian, tanpa daftar. Topiknya dari haiwan, makanan dan geografi hingga sejarah, sains, sukan, seni, rumah, pekerjaan dan budaya tempatan — atau campur semuanya."
@@ -203,8 +220,8 @@
     "topicsTitle": "Pilih topik",
     "topicsSubtitle": "Dari burung halaman hingga sungai terkenal — atau campur semuanya.",
     "faqTitle": "Soalan dan jawapan",
-    "faq1Question": "Adakah Silang Kata AI benar-benar percuma?",
-    "faq1Answer": "Ya. Setiap teka silang kata dan teka petak percuma dimainkan, tanpa akaun, tanpa daftar, dan tanpa had bilangan yang anda selesaikan.",
+    "faq1Question": "Adakah Silang Kata AI percuma?",
+    "faq1Answer": "Teka-teki pertama anda setiap bulan adalah percuma tanpa perlu mendaftar, dan mendaftar masuk menambah satu lagi teka-teki percuma. Selepas itu, teka-teki memerlukan kredit yang dibeli sekali sahaja tanpa langganan. Memainkan teka-teki yang dikongsi oleh orang lain sentiasa percuma.",
     "faq2Question": "Adakah saya akan nampak perkataan yang sama lagi?",
     "faq2Answer": "Tidak. Peranti anda menyimpan senarai perkataan yang sudah ditunjukkan dan meninggalkannya daripada setiap teka baharu. Jika anda padam data laman pada pelayar, senarai itu bermula semula.",
     "faq3Question": "Bahasa apa yang boleh saya main?",
@@ -514,23 +531,27 @@
     "subtitle": "Semua tentang Silang Kata AI di satu tempat: teka, cara AI menulisnya, bermain pada apa-apa peranti, dan privasi anda.",
     "groups": [
       {
-        "title": "Tentang Silang Kata AI",
+        "title": "Mengenai Silang Kata AI",
         "items": [
           {
-            "question": "Apa itu Silang Kata AI?",
-            "answer": "Silang Kata AI ialah laman percuma yang menjana teka silang kata dan teka petak dalam tiga puluh tiga bahasa. Model AI menulis perkataan dan petunjuk secara asli dalam setiap bahasa, kod membina kekisi, dan setiap peranti hanya mendapat perkataan yang belum dilihat."
+            "question": "Apakah Silang Kata AI?",
+            "answer": "Silang Kata AI ialah laman web yang menjana silang kata dan teka-teki imbas dalam tiga puluh tiga bahasa. Model AI menulis perkataan dan petunjuk secara asli dalam setiap bahasa, kod membina kisi, dan setiap peranti hanya menerima perkataan yang belum pernah dilihat sebelum ini."
           },
           {
-            "question": "Adakah Silang Kata AI benar-benar percuma?",
-            "answer": "Ya. Setiap teka silang kata dan teka petak percuma dimainkan — tanpa akaun, tanpa daftar, tanpa langganan dan tanpa iklan."
+            "question": "Adakah Silang Kata AI percuma?",
+            "answer": "Bahagian tertentu percuma. Teka-teki pertama anda setiap bulan adalah percuma tanpa mendaftar, dan mendaftar masuk menambah teka-teki percuma kedua setiap bulan. Selebihnya, teka-teki dibayar dengan kredit: anda membeli pek sekali sahaja — tiada langganan, kredit tidak pernah luput, dan tiada iklan. Memainkan teka-teki yang dikongsi oleh orang lain sentiasa percuma."
           },
           {
-            "question": "Perlukah saya akaun?",
-            "answer": "Tidak. Tiada apa yang perlu didaftar. Kemajuan, tetapan dan senarai perkataan yang sudah anda lihat disimpan dalam pelayar, pada peranti anda."
+            "question": "Adakah saya memerlukan akaun?",
+            "answer": "Tidak perlu untuk teka-teki percuma anda bulan ini: kemajuan, tetapan dan perkataan yang telah anda lihat disimpan dalam pelayar anda. Akaun menambah teka-teki percuma kedua setiap bulan dan membolehkan anda membeli serta menyimpan kredit."
           },
           {
-            "question": "Siapa yang membuat Silang Kata AI?",
-            "answer": "Ini projek bebas oleh pembangun Michael Navasardyan: teka yang terbaca seolah-olah ditulis pengarang tempatan, dalam setiap bahasa yang ditawarkan laman ini — termasuk Bahasa Melayu, Armenia, Rusia dan Inggeris."
+            "question": "Berapakah kos satu teka-teki?",
+            "answer": "Teka-teki kecil berharga 5 kredit, sederhana 10 dan besar 15; tahap kesukaran sederhana menambah 1 kredit dan sukar menambah 2 kredit. Kredit dijual dalam pek 200 untuk $4.99, 600 untuk $11.99 dan 2,000 untuk $29.99. Halaman pembayaran menunjukkan harga dalam mata wang anda, termasuk cukai jika berkenaan."
+          },
+          {
+            "question": "Siapa yang membina Silang Kata AI?",
+            "answer": "Ia merupakan projek bebas oleh pembangun Michael Navasardyan: teka-teki yang ditulis seolah-olah oleh penulis tempatan dalam setiap bahasa yang ditawarkan — termasuk Armenia, Rusia dan Inggeris."
           }
         ]
       },
@@ -538,32 +559,32 @@
         "title": "Teka-teki",
         "items": [
           {
-            "question": "Apa bezanya teka silang kata dengan teka petak?",
-            "answer": "Teka silang kata menyenaraikan petunjuk bernombor di sebelah kekisi, Melintang dan Menegak. Teka petak mencetak setiap petunjuk di dalam petak, dengan anak panah ke tempat jawapan — bentuk yang memenuhi majalah teka di Rusia dan Armenia."
+            "question": "Apakah perbezaan antara silang kata dan teka-teki imbas?",
+            "answer": "Silang kata menyenaraikan petunjuk bernombor di sebelah kisi, Melintang dan Menegak. Teka-teki imbas memaparkan setiap petunjuk di dalam petak kisi, dengan anak panah menunjukkan arah jawapannya — format yang biasa dijumpai dalam majalah teka-teki di Rusia dan Armenia."
           },
           {
-            "question": "Berapa besar teka-tekinya?",
-            "answer": "Ada tiga saiz. Teka silang kata klasik mengisi kekisi 9×9, 13×13 atau 15×15 dengan kira-kira 8–14, 16–24 atau 22–34 perkataan, kemudian dipotong mengikut perkataan yang ada. Teka petak memakai kekisi 8×10, 10×13 atau 13×17 — lebih tinggi daripada lebar, kerana kebanyakannya diselesaikan di telefon."
+            "question": "Berapakah saiz teka-teki ini?",
+            "answer": "Terdapat tiga saiz. Silang kata klasik mengisi kisi 9×9, 13×13 atau 15×15 dengan sekitar 8–14, 16–24 atau 22–34 perkataan, kemudian dipotong mengikut perkataan yang ada. Teka-teki imbas menggunakan kisi 8×10, 10×13 atau 13×17 — lebih tinggi daripada lebarnya kerana kebanyakan orang menyelesaikannya di telefon."
           },
           {
-            "question": "Bagaimana tahap kesukaran berbeza?",
-            "answer": "Mudah memakai perkataan harian dengan takrif terus. Sederhana menarik perbendaharaan yang lebih luas. Sukar membawa perkataan jarang dan petunjuk yang membuat anda berfikir dua kali."
+            "question": "Bagaimanakah tahap kesukaran berbeza?",
+            "answer": "Mudah menggunakan perkataan harian dengan definisi langsung. Sederhana menggunakan perbendaharaan kata yang lebih luas. Sukar membawakan perkataan yang lebih jarang ditemui dan petunjuk yang membuat anda berfikir dua kali."
           },
           {
-            "question": "Topik apa yang boleh saya pilih?",
-            "answer": "Dua belas: perkataan harian, alam, haiwan, makanan dan minuman, geografi, sejarah, sains, sukan, seni, rumah dan harian, pekerjaan serta budaya tempatan — atau campur semuanya dalam satu teka."
+            "question": "Apakah topik yang boleh saya pilih?",
+            "answer": "Dua belas: perkataan harian, alam semula jadi, haiwan, makanan & minuman, geografi, sejarah, sains, sukan, seni, rumah & harian, kerjaya dan budaya tempatan — atau gabungkan semuanya dalam satu teka-teki."
           },
           {
-            "question": "Adakah saya akan nampak perkataan yang sama dua kali?",
-            "answer": "Tidak pada peranti yang sama. Ia mengingati sehingga 4,000 perkataan bagi setiap bahasa — kira-kira 130 teka — dan meninggalkannya daripada setiap teka baharu; selepas itu barulah yang paling lama gugur dari senarai. Memadam data laman pada pelayar memulakan senarai semula."
+            "question": "Adakah saya akan melihat perkataan yang sama dua kali?",
+            "answer": "Tidak pada peranti yang sama. Ia mengingati sehingga 4,000 perkataan setiap bahasa — kira-kira bernilai 130 teka-teki — dan mengelakkannya daripada teka-teki baharu; hanya selepas itu perkataan tertua dikeluarkan daripada senarai. Membersihkan data tapak pelayar anda akan memulakan semula senarai tersebut."
           },
           {
-            "question": "Bagaimana AI menulis petunjuk?",
-            "answer": "Model Gemini Google menulis perkataan dan petunjuk terus dalam setiap bahasa, mengikut panduan gaya penutur asli. Kod kemudian menyemak setiap satu — abjad yang betul, satu perkataan sebenar, petunjuk adil yang tidak membocorkan jawapan — dan laluan AI kedua bertindak sebagai editor. Yang gagal dibuang, tidak ditampal. Kekisi sendiri dibina oleh kod, bukan oleh AI."
+            "question": "Bagaimanakah AI menulis petunjuk?",
+            "answer": "Model Gemini daripada Google menulis perkataan dan petunjuk secara terus dalam setiap bahasa mengikut panduan gaya daripada penutur asli. Kod kemudian menyemak setiap satu — abjad yang betul, perkataan sebenar, petunjuk adil yang tidak mendedahkan jawapan — dan semakan AI kedua bertindak sebagai penyunting. Mana-mana yang gagal akan dibuang. Kisi itu sendiri dibina oleh kod, bukan oleh AI."
           },
           {
             "question": "Bagaimana jika petunjuk salah?",
-            "answer": "Buka menu ⋯ di atas kekisi dan pilih “Laporkan petunjuk”. Apabila tiga pemain berbeza melaporkan petunjuk yang sama, ia ditamatkan dan tidak muncul lagi."
+            "answer": "Buka menu ⋯ di atas kisi dan pilih \"Laporkan petunjuk\". Apabila tiga pemain berbeza melaporkan petunjuk yang sama, petunjuk itu akan dipadamkan dan tidak akan muncul lagi."
           }
         ]
       },
@@ -571,32 +592,32 @@
         "title": "Bermain",
         "items": [
           {
-            "question": "Bagaimana saya menaip jawapan pada telefon atau komputer?",
-            "answer": "Pada komputer, terus taip: walaupun papan kekunci anda dalam Inggeris, kekunci menaip huruf teka di tempat yang biasa, jadi tiada susunan yang perlu ditukar. Pada telefon atau tablet, papan kekunci teka muncul di bawah kekisi, dan papan kekunci sistem tidak menutupnya."
+            "question": "Bagaimanakah cara menaip jawapan di telefon atau komputer?",
+            "answer": "Di komputer, taip sahaja: walaupun papan kekunci anda ditetapkan kepada bahasa Inggeris, kekunci akan menaip huruf teka-teki di tempat biasa, jadi tiada susun atur yang perlu ditukar. Di telefon atau tablet, papan kekunci teka-teki sendiri akan muncul di bawah kisi dan papan kekunci sistem tidak akan menutupnya."
           },
           {
-            "question": "Bolehkah saya semak jawapan atau minta bantuan?",
-            "answer": "Ya. Semak menanda huruf salah dalam satu petak, satu perkataan atau seluruh teka, dan Dedah mengisi satu huruf, satu perkataan atau semuanya. Hidupkan “Semak semasa menaip” dalam tetapan untuk nampak kesilapan sebaik saja ia dibuat."
+            "question": "Bolehkah saya menyemak jawapan atau mendapatkan petunjuk?",
+            "answer": "Boleh. Semakan menandakan huruf yang salah dalam satu petak, satu perkataan atau seluruh teka-teki, manakala Dedahkan akan mengisi huruf, perkataan atau keseluruhan jawapan. Hidupkan \"Semak semasa menaip\" dalam tetapan untuk melihat kesilapan sebaik sahaja anda menaipnya."
           },
           {
-            "question": "Bagaimana huruf Armenia ու dan և, serta Ё Rusia, dikendalikan?",
-            "answer": "Dalam teka Armenia, ու dan և ialah huruf tunggal dan masing-masing mengisi satu petak, seperti teka silang kata Armenia yang bercetak; papan kekunci skrin ada kedua-duanya, dan menaip ո kemudian ւ menggabungkannya menjadi ու. Dalam teka Rusia, Ё ditulis sebagai Е, seperti teka yang bercetak."
+            "question": "Bagaimanakah huruf Armenia ու dan և, serta huruf Rusia Ё dikendalikan?",
+            "answer": "Dalam teka-teki Armenia, ու dan և ialah huruf tunggal dan masing-masing mengisi satu petak, seperti dalam silang kata bercetak Armenia; papan kekunci pada skrin mempunyai kedua-duanya, dan menaip ո kemudian ւ akan menggabungkannya menjadi ու. Dalam teka-teki Rusia, Ё ditulis sebagai Е, seperti dalam silang kata bercetak."
           },
           {
             "question": "Adakah kemajuan saya disimpan?",
-            "answer": "Ya, secara automatik, semasa anda bermain. Setiap teka silang kata atau teka petak yang anda mulakan dan tinggalkan belum selesai disenaraikan di “Teka saya”, dengan huruf anda tersimpan, supaya anda boleh sambung kemudian — walaupun di luar talian."
+            "answer": "Ya, secara automatik semasa anda bermain. Setiap silang kata atau teka-teki imbas yang anda mulakan dan tinggalkan belum selesai akan disenaraikan di bawah \"Teka-teki saya\", dengan huruf anda disimpan, jadi anda boleh menyambungnya kemudian — walaupun secara luar talian."
           },
           {
-            "question": "Bolehkah saya main di luar talian, atau pasang sebagai aplikasi?",
-            "answer": "Ya. Silang Kata AI dipasang dari pelayar seperti aplikasi (pada iPhone: Share → Add to Home Screen). Setiap teka yang anda buka disimpan bersama kemajuan dan terus berfungsi tanpa sambungan; hanya teka baharu memerlukan internet."
+            "question": "Bolehkah saya bermain secara luar talian, atau memasangnya sebagai aplikasi?",
+            "answer": "Boleh. Silang Kata AI boleh dipasang daripada pelayar anda seperti aplikasi (di iPhone: Kongsi → Tambah ke Skrin Utama). Setiap teka-teki yang anda buka disimpan bersama kemajuan anda dan terus berfungsi tanpa sambungan; hanya teka-teki baharu yang memerlukan internet."
           },
           {
-            "question": "Bolehkah saya kongsi teka dengan kawan?",
-            "answer": "Ya. Ketik Kongsi di atas kekisi untuk salin pautan, atau hantar melalui WhatsApp, Telegram, Facebook, X, VK atau e-mel. Kawan anda mendapat kekisi dan petunjuk yang sama."
+            "question": "Bolehkah saya berkongsi teka-teki dengan rakan?",
+            "answer": "Boleh. Ketik Kongsi di atas kisi untuk menyalin pautan, atau hantarkannya melalui WhatsApp, Telegram, Facebook, X, VK atau e-mel. Rakan anda akan mendapat kisi dan petunjuk yang sama tepat."
           },
           {
-            "question": "Bolehkah saya main dengan papan kekunci atau pembaca skrin?",
-            "answer": "Ya. Kekisi berfungsi sepenuhnya dari papan kekunci dan dengan pembaca skrin: setiap petak dilabel, petunjuk aktif diumumkan, dan semakan serta pendedahan dibacakan. Huruf salah dan yang didedahkan ditanda dengan bentuk, bukan dengan warna semata-mata."
+            "question": "Bolehkah saya bermain menggunakan papan kekunci atau pembaca skrin?",
+            "answer": "Boleh. Kisi berfungsi sepenuhnya dengan papan kekunci dan pembaca skrin: setiap petak dilabelkan, petunjuk aktif diumumkan, serta semakan dan pendedahan dibacakan. Huruf yang salah dan didedahkan ditandakan dengan bentuk, bukan warna sahaja."
           }
         ]
       },
@@ -604,12 +625,12 @@
         "title": "Privasi",
         "items": [
           {
-            "question": "Data apa yang anda simpan?",
-            "answer": "Sangat sedikit. Teka, kemajuan, tetapan dan senarai perkataan yang sudah dilihat kekal dalam pelayar anda. Pelayan menyimpan teka yang dicipta (supaya pautan kongsi membuka kekisi yang sama), laporan petunjuk dengan cincang sehala alamat IP, dan kiraan penyelesaian tanpa nama. Tiada nama dan tiada profil."
+            "question": "Apakah data yang anda simpan?",
+            "answer": "Sangat sedikit. Teka-teki, kemajuan, tetapan dan senarai perkataan yang telah dilihat kekal dalam pelayar anda. Pelayan menyimpan teka-teki yang dicipta (supaya pautan yang dikongsi membuka kisi yang sama), laporan petunjuk dengan hash satu arah alamat IP, dan bilangan penyelesaian tanpa nama. Tiada nama dan tiada profil."
           },
           {
-            "question": "Adakah apa-apa tentang saya dihantar kepada AI?",
-            "answer": "Tidak. Hanya tetapan teka — bahasa, topik, kesukaran — dan senarai perkataan dihantar ke model Gemini Google, tidak pernah apa-apa tentang anda."
+            "question": "Adakah sebarang maklumat peribadi saya dihantar kepada AI?",
+            "answer": "Tidak. Hanya tetapan teka-teki — bahasa, topik, kesukaran — dan senarai perkataan yang dihantar kepada model Gemini Google, tidak pernah ada maklumat peribadi anda."
           }
         ]
       }
@@ -645,57 +666,129 @@
   },
   "Privacy": {
     "title": "Dasar privasi",
-    "subtitle": "Versi ringkas: tiada akaun, tiada nama, tiada pemprofilan. Inilah semua yang kami simpan.",
+    "subtitle": "Ringkasnya: akaun hanya jika anda mahukannya, tiada pembentukan profil. Ini adalah semua yang kami simpan.",
     "sections": [
       {
         "title": "Pada peranti anda",
         "paragraphs": [
-          "Pelayar anda menyimpan teka yang anda buka, kemajuan, tetapan dan senarai perkataan yang sudah dilihat, supaya ia tidak berulang. Ini kekal pada peranti anda; memadam data laman akan membuangnya."
+          "Pelayar anda menyimpan teka-teki yang anda buka, kemajuan anda, tetapan anda dan senarai perkataan yang telah anda lihat, jadi ia tidak akan diulang. Ini kekal pada peranti anda; membersihkan data tapak akan memadamkannya."
         ]
       },
       {
         "title": "Pada pelayan kami",
         "paragraphs": [
-          "Kami menyimpan teka yang dicipta, supaya pautan kongsi membuka kekisi yang sama. Apabila anda melaporkan petunjuk, kami simpan laporan itu dengan cincang sehala alamat IP anda, hanya supaya seorang tidak boleh menamatkan petunjuk bersendirian. Kami juga mengira secara tanpa nama bagaimana teka dimainkan (selesai, perkataan mana yang didedahkan) untuk melaras kesukaran."
+          "Kami menyimpan teka-teki yang dicipta supaya pautan yang dikongsi membuka kisi yang sama. Apabila anda melaporkan petunjuk, kami menyimpan laporan tersebut dengan hash satu arah alamat IP anda, bertujuan supaya seorang individu tidak boleh memadamkan petunjuk secara bersendirian. Kami juga mengira secara tanpa nama bagaimana teka-teki dimainkan (diselesaikan, perkataan yang didedahkan) untuk melaras kesukaran.",
+          "Untuk memberikan setiap peranti teka-teki percuma bulanan, tapak ini menetapkan kuki yang mengandungi pengenalpasti rawak. Bagi setiap teka-teki percuma, kami menyimpan pengenalpasti tersebut dan hash satu arah alamat IP anda."
         ]
       },
       {
-        "title": "Pembekal AI",
+        "title": "Akaun dan kredit",
         "paragraphs": [
-          "Perkataan dan petunjuk baharu ditulis oleh model Gemini Google. Hanya tetapan teka (bahasa, topik, kesukaran) dan senarai perkataan dihantar — tidak pernah apa-apa tentang anda."
+          "Jika anda mencipta akaun, kami menyimpan nama anda, alamat e-mel anda dan, apabila anda log masuk dengan Google, gambar profil Google anda. Kami juga menyimpan baki kredit anda dan sejarahnya: setiap pembelian, setiap teka-teki yang dibayar dan setiap bayaran balik."
+        ]
+      },
+      {
+        "title": "Pembayaran",
+        "paragraphs": [
+          "Pembayaran dikendalikan oleh Paddle.com, Pedagang Rekod kami. Paddle mengumpul butiran pembayaran dan negara pengebilan anda di bawah dasar privasinya sendiri; kami tidak pernah melihat nombor kad anda. Daripada Paddle, kami menerima jumlah, mata wang, cukai dan jenis kaedah pembayaran untuk setiap pembelian."
+        ]
+      },
+      {
+        "title": "Penyedia AI",
+        "paragraphs": [
+          "Perkataan dan petunjuk baharu ditulis oleh model Gemini Google. Hanya tetapan teka-teki (bahasa, topik, kesukaran) dan senarai perkataan yang dihantar — tiada maklumat peribadi anda."
         ]
       },
       {
         "title": "Analitik dan laporan ralat",
         "paragraphs": [
-          "Jika dihidupkan, kami guna Google Analytics untuk mengira tontonan halaman dan Sentry untuk menerima laporan ralat. Kedua-duanya tidak digunakan untuk mengenal pasti anda."
+          "Jika didayakan, kami menggunakan Google Analytics untuk mengira paparan halaman dan Sentry untuk menerima laporan ralat. Kedua-duanya tidak digunakan untuk mengenal pasti anda."
         ]
       }
     ]
   },
   "Terms": {
     "title": "Syarat penggunaan",
-    "subtitle": "Silang Kata AI percuma digunakan, untuk keseronokan dan pembelajaran.",
+    "subtitle": "Silang Kata AI adalah untuk keseronokan dan pembelajaran. Terma ini merangkumi penggunaan permainan dan pembelian kredit.",
     "sections": [
       {
         "title": "Menggunakan perkhidmatan",
         "paragraphs": [
-          "Anda boleh main, kongsi dan cetak teka untuk kegunaan peribadi dan pendidikan. Tolong jangan bebankan perkhidmatan dengan permintaan automatik."
+          "Anda boleh bermain, berkongsi dan mencetak teka-teki untuk kegunaan peribadi dan pendidikan. Sila jangan membebani perkhidmatan dengan permintaan automatik."
         ]
       },
       {
-        "title": "Kandungan yang ditulis AI",
+        "title": "Teka-teki percuma dan kredit",
         "paragraphs": [
-          "Perkataan dan petunjuk ditulis oleh AI dan disemak secara automatik, tetapi kesilapan boleh berlaku. Jika anda jumpa satu, laporkan — begitulah petunjuk yang buruk dibuang."
+          "Setiap peranti mendapat satu teka-teki percuma setiap bulan kalendar, dan setiap akaun mendapat satu lagi. Teka-teki lain dibayar menggunakan kredit, pada harga yang ditunjukkan sebelum anda menciptanya; kredit hanya dikenakan apabila teka-teki dibina, dan membuka teka-teki yang disimpan adalah percuma.",
+          "Kredit dibeli dalam pek melalui pembayaran sekali sahaja — tiada langganan — dan ia tidak pernah luput. Kredit tidak mempunyai nilai tunai dan tidak boleh dipindahkan."
+        ]
+      },
+      {
+        "title": "Pembayaran",
+        "paragraphs": [
+          "Proses pesanan kami dikendalikan oleh penjual semula dalam talian kami, Paddle.com. Paddle.com ialah Pedagang Rekod untuk semua pesanan kami. Paddle menguruskan semua pertanyaan khidmat pelanggan dan mengendalikan pemulangan."
+        ]
+      },
+      {
+        "title": "Bayaran balik",
+        "paragraphs": [
+          "Anda boleh meminta bayaran balik pek kredit dalam tempoh 14 hari selepas membelinya, melalui Paddle atau dengan menulis kepada kami. Bayaran balik akan menolak kredit pek tersebut daripada baki anda. Kredit yang telah digunakan tidak boleh dikembalikan, jadi pek yang telah digunakan sebahagiannya boleh dibayar balik secara separa."
+        ]
+      },
+      {
+        "title": "Kandungan tulisan AI",
+        "paragraphs": [
+          "Perkataan dan petunjuk ditulis oleh AI dan disemak secara automatik, tetapi kesilapan boleh berlaku. Jika anda menemui kesilapan, laporkannya — itulah cara petunjuk yang tidak elok dialih keluar."
         ]
       },
       {
         "title": "Tiada jaminan",
         "paragraphs": [
-          "Perkhidmatan diberikan seadanya, tanpa jaminan ketersediaan atau ketepatan. Kami boleh mengubah atau menghentikan ciri pada bila-bila masa."
+          "Perkhidmatan ini disediakan seadanya, tanpa jaminan ketersediaan atau ketepatan. Kami boleh mengubah atau menamatkan ciri pada bila-bila masa."
         ]
       }
     ]
+  },
+  "Credits": {
+    "title": "Credits",
+    "subtitle": "One free puzzle every month. After that, pay only for the puzzles you make — no subscription, and credits never expire.",
+    "balanceTitle": "Your balance",
+    "freeAvailable": "Your free puzzle of this month is waiting.",
+    "freeUsed": "This month's free puzzle is used. The next one comes on {date}.",
+    "guestTitle": "Get more free puzzles",
+    "guestText": "Sign in to get a free puzzle every month on your account, and to buy credits.",
+    "pricesTitle": "What a puzzle costs",
+    "pricesText": "In credits, by size and difficulty. Opening a puzzle someone shared with you, or one from your history, is always free.",
+    "size": "Size",
+    "packsTitle": "Credit packs",
+    "packs": {
+      "starter": "Starter",
+      "popular": "Popular",
+      "big": "Big"
+    },
+    "popularBadge": "Most popular",
+    "bestValueBadge": "Best value",
+    "packPuzzles": "About {count} medium puzzles",
+    "buy": "Buy",
+    "signInToBuy": "Sign in to buy",
+    "shopClosed": "Buying credits isn't available right now. Please check back soon.",
+    "checkoutFailed": "We couldn't open the checkout. Please try again.",
+    "paddleNote": "Payments are processed by Paddle.com, our reseller and Merchant of Record. Prices include VAT or sales tax where it applies; the final price in your currency is shown at checkout.",
+    "refundsNote": "Refunds are covered in the terms of use."
+  },
+  "Payments": {
+    "checkoutTitle": "Checkout",
+    "opening": "Opening the secure checkout…",
+    "checkoutUnavailable": "The checkout couldn't open. Please try again from the credits page.",
+    "backToCredits": "Back to credits",
+    "verifying": "Confirming your payment…",
+    "successTitle": "Thank you!",
+    "successText": "{count, plural, one {# credit was} other {# credits were}} added to your balance.",
+    "pendingText": "Your payment went through. The credits will appear on your balance within a few minutes.",
+    "failedText": "The payment didn't go through, so nothing was charged. You can try again.",
+    "verifyError": "We couldn't confirm the payment right now. If you were charged, the credits will still arrive — check your balance in a few minutes.",
+    "makePuzzle": "Make a puzzle"
   },
   "Contact": {
     "title": "Tulis kepada kami",

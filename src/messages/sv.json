@@ -22,6 +22,7 @@
     "scanword": "Rutkorsord",
     "topics": "Ämnen",
     "history": "Mina korsord",
+    "credits": "Credits",
     "rules": "Så löser du",
     "faq": "Frågor",
     "about": "Om oss",
@@ -66,6 +67,9 @@
     "topicDescription": "Gratis korsord och rutkorsord om {topic}, skrivna av AI. {description}",
     "historyTitle": "Mina korsord",
     "historyDescription": "Korsord och rutkorsord du börjat på den här enheten och inte avslutat, med sparat läge.",
+    "creditsTitle": "Credits & prices",
+    "creditsDescription": "One free crossword every month, then credit packs with no subscription: what each puzzle costs, and how to buy credits.",
+    "paymentTitle": "Payment",
     "rulesTitle": "Så löser du korsord och rutkorsord",
     "rulesDescription": "Så löser du ett korsord eller rutkorsord här: skriva bokstäver, röra sig i rutnätet, kontrollera, avslöja och kortkommandon.",
     "faqTitle": "Frågor: gratis korsord, språk och integritet",
@@ -73,7 +77,7 @@
     "aboutTitle": "Om oss — så görs våra korsord",
     "aboutDescription": "Varför vi byggde en korsordsgenerator som aldrig upprepar ett ord, och hur AI skriver ledtrådar direkt på varje språk.",
     "privacyTitle": "Integritetspolicy",
-    "privacyDescription": "Vad Korsord AI sparar, var och varför. Inget konto och ingen spårning av vem du är.",
+    "privacyDescription": "Vad Korsord AI sparar, var och varför — inklusive konton och betalningar, och ingen spårning av vem du är.",
     "termsTitle": "Användarvillkor",
     "termsDescription": "De enkla villkoren för att använda Korsord AI.",
     "contactTitle": "Skriv till oss",
@@ -100,21 +104,65 @@
   },
   "Topics": {
     "any": "Blandade ämnen",
-    "general": { "name": "Vardagsord", "description": "Orden i vardagen: hem, människor, tid och världen runt oss." },
-    "nature": { "name": "Natur", "description": "Skog, sjöar, väder, växter och årstider." },
-    "animals": { "name": "Djur", "description": "Vilda och tama djur, fåglar, fiskar och insekter." },
-    "food": { "name": "Mat och dryck", "description": "Rätter, råvaror, kök och allt på bordet." },
-    "geography": { "name": "Geografi", "description": "Länder, städer, älvar, berg och kända platser." },
-    "history": { "name": "Historia", "description": "Epoker, uppfinningar, hantverk och ting från förr." },
-    "science": { "name": "Vetenskap", "description": "Fysik, kemi, biologi, rymden och kroppen." },
-    "sport": { "name": "Sport", "description": "Spel, utrustning, tävlingar och regler." },
-    "arts": { "name": "Konst", "description": "Musik, litteratur, teater, måleri och film." },
-    "home": { "name": "Hem", "description": "Möbler, verktyg, kläder och saker vi använder varje dag." },
-    "professions": { "name": "Yrken", "description": "Jobb, hantverk, redskap och arbetsplatser." },
-    "localCulture": { "name": "Lokal kultur", "description": "Traditioner, högtider, sagor och kända platser i kulturens hemland." }
+    "general": {
+      "name": "Vardagsord",
+      "description": "Orden i vardagen: hem, människor, tid och världen runt oss."
+    },
+    "nature": {
+      "name": "Natur",
+      "description": "Skog, sjöar, väder, växter och årstider."
+    },
+    "animals": {
+      "name": "Djur",
+      "description": "Vilda och tama djur, fåglar, fiskar och insekter."
+    },
+    "food": {
+      "name": "Mat och dryck",
+      "description": "Rätter, råvaror, kök och allt på bordet."
+    },
+    "geography": {
+      "name": "Geografi",
+      "description": "Länder, städer, älvar, berg och kända platser."
+    },
+    "history": {
+      "name": "Historia",
+      "description": "Epoker, uppfinningar, hantverk och ting från förr."
+    },
+    "science": {
+      "name": "Vetenskap",
+      "description": "Fysik, kemi, biologi, rymden och kroppen."
+    },
+    "sport": {
+      "name": "Sport",
+      "description": "Spel, utrustning, tävlingar och regler."
+    },
+    "arts": {
+      "name": "Konst",
+      "description": "Musik, litteratur, teater, måleri och film."
+    },
+    "home": {
+      "name": "Hem",
+      "description": "Möbler, verktyg, kläder och saker vi använder varje dag."
+    },
+    "professions": {
+      "name": "Yrken",
+      "description": "Jobb, hantverk, redskap och arbetsplatser."
+    },
+    "localCulture": {
+      "name": "Lokal kultur",
+      "description": "Traditioner, högtider, sagor och kända platser i kulturens hemland."
+    }
   },
-  "Difficulty": { "1": "Lätt", "2": "Medel", "3": "Svår" },
-  "Sizes": { "small": "Liten", "medium": "Mellan", "large": "Stor" },
+  "Difficulty": {
+    "1": "Lätt",
+    "2": "Medel",
+    "3": "Svår"
+  },
+  "Sizes": {
+    "small": "Liten",
+    "medium": "Mellan",
+    "large": "Stor"
+  },
   "Generator": {
     "format": "Välj form",
     "topic": "Välj ämne",
@@ -124,12 +172,25 @@
     "creating": "Bygger ditt korsord…",
     "creatingHint": "Vi plockar ord du inte sett än. Färska kan ta några sekunder.",
     "cancel": "Avbryt",
-    "freshHint": "Gratis, utan konto. Varje korsord har ord du inte mött här förut.",
+    "freshHint": "Varje pussel innehåller ord som du inte har stött på här tidigare.",
     "exhausted": "Du har löst alla ord vi har för det här valet just nu. Vi skriver nya — prova ett annat ämne, eller kom tillbaka om en minut."
+  },
+  "Billing": {
+    "credits": "{count, plural, one {# credit} other {# credits}}",
+    "balance": "Your balance: {count, plural, one {# credit} other {# credits}}",
+    "cost": "This puzzle: {count, plural, one {# credit} other {# credits}}",
+    "freeNow": "This one is free — your free puzzle of the month.",
+    "youHave": "You have {count, plural, one {# credit} other {# credits}}.",
+    "notEnough": "Not enough credits for this puzzle.",
+    "guestUsed": "You've used this month's free puzzle. Sign in for one more free puzzle every month, and to buy credits.",
+    "refusedSignIn": "This month's free puzzle is used. Sign in to get another one, and to buy credits.",
+    "refusedCredits": "Not enough credits for this puzzle. Top up to keep playing.",
+    "signIn": "Sign in",
+    "buyCredits": "Buy credits"
   },
   "Home": {
     "hero": {
-      "eyebrow": "Gratis · Utan konto · Fungerar offline",
+      "eyebrow": "Gratis att testa · Ingen prenumeration · Fungerar offline",
       "title": "Ett svenskt korsord som <mark>alltid är nytt</mark>",
       "subtitle": "Välj ämne och svårighet. AI skriver ledtrådarna på ditt språk, och du får aldrig samma ord två gånger.",
       "lede": "Gör ett korsord eller rutkorsord gratis, utan konto. Ämnena går från djur, mat och geografi till historia, vetenskap, sport, konst, hem, yrken och lokal kultur — eller blanda dem."
@@ -139,16 +200,28 @@
     "formatsSubtitle": "Ett rymligt klassiskt korsord med ledtrådslistor, eller ett tätt rutkorsord med ledtrådarna i rutorna.",
     "pointsTitle": "Det som skiljer",
     "points": {
-      "fresh": { "title": "Aldrig en upprepning", "text": "Enheten minns varje ord den visat, så nästa korsord består av ord du inte löst än." },
-      "native": { "title": "Skrivet på ditt språk", "text": "Ledtrådarna skrivs direkt på varje språk, så som en lokal konstruktör skulle göra. De översätts inte." },
-      "ai": { "title": "AI föreslår, koden granskar", "text": "AI föreslår ord och ledtrådar. Kontrollerna släpper inte igenom felstavning, orättvisa eller ledtrådar som röjer svaret." },
-      "offline": { "title": "Fungerar var som helst", "text": "Installera den som en app. Öppnade korsord fortsätter på planet, i tunnelbanan, var som helst." }
+      "fresh": {
+        "title": "Aldrig en upprepning",
+        "text": "Enheten minns varje ord den visat, så nästa korsord består av ord du inte löst än."
+      },
+      "native": {
+        "title": "Skrivet på ditt språk",
+        "text": "Ledtrådarna skrivs direkt på varje språk, så som en lokal konstruktör skulle göra. De översätts inte."
+      },
+      "ai": {
+        "title": "AI föreslår, koden granskar",
+        "text": "AI föreslår ord och ledtrådar. Kontrollerna släpper inte igenom felstavning, orättvisa eller ledtrådar som röjer svaret."
+      },
+      "offline": {
+        "title": "Fungerar var som helst",
+        "text": "Installera den som en app. Öppnade korsord fortsätter på planet, i tunnelbanan, var som helst."
+      }
     },
     "topicsTitle": "Välj ett ämne",
     "topicsSubtitle": "Från fåglar vid matningen till kända älvar — eller blanda allt.",
     "faqTitle": "Frågor och svar",
-    "faq1Question": "Är Korsord AI verkligen gratis?",
-    "faq1Answer": "Ja. Varje korsord och rutkorsord är gratis, utan konto, utan registrering och utan tak för hur många du löser.",
+    "faq1Question": "Är Korsord AI gratis?",
+    "faq1Answer": "Ditt första pussel varje månad är gratis helt utan konto, och loggar du in får du ett till. Därefter kostar pusslen krediter som köps som engångsköp utan prenumeration. Att spela ett pussel som någon delat med dig är alltid gratis.",
     "faq2Question": "Får jag samma ord igen?",
     "faq2Answer": "Nej. Enheten har en lista över ord den redan visat och lämnar dem utanför varje nytt korsord. Rensar du webbplatsens data börjar listan om.",
     "faq3Question": "Vilka språk kan jag spela på?",
@@ -313,7 +386,12 @@
     "ime": "Skriv ett tecken",
     "erase": "Radera",
     "time": "Tid: {time}",
-    "check": { "label": "Kontrollera", "cell": "Kontrollera bokstav", "word": "Kontrollera ord", "puzzle": "Kontrollera korsordet" },
+    "check": {
+      "label": "Kontrollera",
+      "cell": "Kontrollera bokstav",
+      "word": "Kontrollera ord",
+      "puzzle": "Kontrollera korsordet"
+    },
     "reveal": {
       "label": "Avslöja",
       "cell": "Avslöja bokstav",
@@ -326,7 +404,12 @@
     },
     "clearWrong": "Rensa fel bokstäver",
     "more": "Mer",
-    "zoom": { "label": "Zoom", "in": "Zooma in", "out": "Zooma ut", "reset": "Hela korsordet i vyn" },
+    "zoom": {
+      "label": "Zoom",
+      "in": "Zooma in",
+      "out": "Zooma ut",
+      "reset": "Hela korsordet i vyn"
+    },
     "settings": {
       "label": "Inställningar",
       "autoCheck": "Kontrollera medan jag skriver",
@@ -406,45 +489,151 @@
     "title": "Så löser du",
     "subtitle": "Allt du behöver för ett korsord eller rutkorsord — på telefon, surfplatta eller dator.",
     "sections": [
-      { "title": "Välja ett ord", "paragraphs": ["Tryck eller klicka på en vit ruta. Ordet den hör till lyser gult, och ledtråden syns i listen ovanför rutnätet.", "Där två ord korsas trycker du på samma ruta igen för att byta mellan vågrätt och lodrätt. I ett rutkorsord kan du också trycka på ledtrådsrutan."] },
-      { "title": "Skriva", "paragraphs": ["På en dator skriver du bara. Du behöver inte byta tangentbord: om det står på engelska skriver tangenterna korsordets bokstäver på sina vanliga platser.", "På telefon eller surfplatta syns korsordets eget tangentbord under rutnätet. För armeniska finns bokstäverna ՈՒ och և, var och en i en ruta; skriver du ո och sedan ւ blir de ՈՒ av sig själva.", "I ryska korsord skrivs Ё som Е, som i tryckta korsord."] },
-      { "title": "Röra sig", "paragraphs": ["Piltangenterna går mellan rutorna; en pil på tvären mot riktningen vänder först markören. Enter hoppar till nästa ledtråd, Skift+Enter till den förra.", "Backspace raderar en bokstav och tar ett steg tillbaka. Home och End hoppar till ordets början och slut. Tab lämnar rutnätet."] },
-      { "title": "Hjälp", "paragraphs": ["Kontrollera stryker fel bokstäver och låser de rätta. Avslöja fyller i en bokstav, ett ord eller hela korsordet; avslöjade bokstäver får en liten lila markering.", "Slå på ”Kontrollera medan jag skriver” i inställningarna om du vill ha besked direkt."] },
-      { "title": "Färska ord, varje gång", "paragraphs": ["Enheten minns orden den visat och ber aldrig om dem igen. Varje nytt korsord består av ord du inte mött här än."] }
+      {
+        "title": "Välja ett ord",
+        "paragraphs": [
+          "Tryck eller klicka på en vit ruta. Ordet den hör till lyser gult, och ledtråden syns i listen ovanför rutnätet.",
+          "Där två ord korsas trycker du på samma ruta igen för att byta mellan vågrätt och lodrätt. I ett rutkorsord kan du också trycka på ledtrådsrutan."
+        ]
+      },
+      {
+        "title": "Skriva",
+        "paragraphs": [
+          "På en dator skriver du bara. Du behöver inte byta tangentbord: om det står på engelska skriver tangenterna korsordets bokstäver på sina vanliga platser.",
+          "På telefon eller surfplatta syns korsordets eget tangentbord under rutnätet. För armeniska finns bokstäverna ՈՒ och և, var och en i en ruta; skriver du ո och sedan ւ blir de ՈՒ av sig själva.",
+          "I ryska korsord skrivs Ё som Е, som i tryckta korsord."
+        ]
+      },
+      {
+        "title": "Röra sig",
+        "paragraphs": [
+          "Piltangenterna går mellan rutorna; en pil på tvären mot riktningen vänder först markören. Enter hoppar till nästa ledtråd, Skift+Enter till den förra.",
+          "Backspace raderar en bokstav och tar ett steg tillbaka. Home och End hoppar till ordets början och slut. Tab lämnar rutnätet."
+        ]
+      },
+      {
+        "title": "Hjälp",
+        "paragraphs": [
+          "Kontrollera stryker fel bokstäver och låser de rätta. Avslöja fyller i en bokstav, ett ord eller hela korsordet; avslöjade bokstäver får en liten lila markering.",
+          "Slå på ”Kontrollera medan jag skriver” i inställningarna om du vill ha besked direkt."
+        ]
+      },
+      {
+        "title": "Färska ord, varje gång",
+        "paragraphs": [
+          "Enheten minns orden den visat och ber aldrig om dem igen. Varje nytt korsord består av ord du inte mött här än."
+        ]
+      }
     ]
   },
   "Faq": {
     "title": "Frågor och svar",
     "subtitle": "Allt om Korsord AI på ett ställe: korsorden, hur AI skriver dem, spel på vilken enhet som helst och din integritet.",
     "groups": [
-      { "title": "Om Korsord AI", "items": [
-        { "question": "Vad är Korsord AI?", "answer": "Korsord AI är en gratis webbplats som gör korsord och rutkorsord på trettiotre språk. En modell skriver ord och ledtrådar direkt på varje språk, koden bygger rutnätet, och varje enhet får bara ord den inte sett förut." },
-        { "question": "Är Korsord AI verkligen gratis?", "answer": "Ja. Varje korsord och rutkorsord är gratis — inget konto, ingen registrering, ingen prenumeration och ingen reklam." },
-        { "question": "Behöver jag ett konto?", "answer": "Nej. Det finns inget att registrera sig för. Ditt läge, dina inställningar och listan över sedda ord ligger i webbläsaren, på din enhet." },
-        { "question": "Vem gör Korsord AI?", "answer": "Det är ett fristående projekt av utvecklaren Michael Navasardyan: korsord som låter som om en lokal konstruktör skrivit dem, på varje språk sajten erbjuder — armeniska, ryska och engelska bland dem." }
-      ] },
-      { "title": "Korsorden", "items": [
-        { "question": "Vad är skillnaden mellan ett korsord och ett rutkorsord?", "answer": "Ett korsord har numrerade ledtrådar bredvid rutnätet, vågrätt och lodrätt. Ett rutkorsord trycker varje ledtråd i en ruta, med en pil mot svaret — formen som tidningar i Ryssland och Armenien är fulla av." },
-        { "question": "Hur stora är korsorden?", "answer": "Det finns tre storlekar. Ett klassiskt korsord fyller ett rutnät på 9×9, 13×13 eller 15×15 med ungefär 8–14, 16–24 eller 22–34 ord och beskärs sedan efter det som lagts. Ett rutkorsord använder 8×10, 10×13 eller 13×17 — högre än brett, eftersom de flesta löses på telefon." },
-        { "question": "Hur skiljer sig svårighetsgraderna?", "answer": "Lätt använder vardagsord med raka definitioner. Medel tar en bredare ordskatt. Svår tar ovanligare ord och ledtrådar som kräver en extra tanke." },
-        { "question": "Vilka ämnen kan jag välja?", "answer": "Tolv: vardagsord, natur, djur, mat och dryck, geografi, historia, vetenskap, sport, konst, hem, yrken och lokal kultur — eller blanda dem i ett korsord." },
-        { "question": "Får jag någonsin samma ord två gånger?", "answer": "Inte på samma enhet. Den minns upp till 4 000 ord per språk — ungefär 130 korsord — och lämnar dem utanför varje nytt; först därefter ramlar de äldsta av listan. Rensar du webbplatsens data börjar listan om." },
-        { "question": "Hur skriver AI ledtrådarna?", "answer": "Googles modell Gemini skriver ord och ledtrådar direkt på varje språk, efter en stilguide av modersmålstalare. Koden kontrollerar sedan vart och ett — rätt alfabet, ett riktigt ord, en rättvis ledtråd som inte röjer svaret — och ett andra AI-pass är redaktör. Det som faller släpps, det lagas inte. Rutnätet byggs av kod, inte av AI." },
-        { "question": "Om en ledtråd är fel?", "answer": "Öppna menyn ⋯ ovanför rutnätet och välj ”Rapportera en ledtråd”. När tre olika spelare rapporterar samma ledtråd tas den ur bruk." }
-      ] },
-      { "title": "Att lösa", "items": [
-        { "question": "Hur skriver jag svar på telefon och dator?", "answer": "På en dator skriver du bara: även om tangentbordet står på engelska skriver tangenterna korsordets bokstäver på sina vanliga platser, så inget läge behöver bytas. På telefon eller surfplatta syns korsordets eget tangentbord under rutnätet, och systemets täcker det aldrig." },
-        { "question": "Kan jag kontrollera svaren eller få en ledtråd?", "answer": "Ja. Kontrollera markerar fel bokstäver i en ruta, ett ord eller hela korsordet, och Avslöja fyller i en bokstav, ett ord eller allt. Slå på ”Kontrollera medan jag skriver” om du vill se felet i samma stund." },
-        { "question": "Hur hanteras armeniska ու och և, och ryskt Ё?", "answer": "I armeniska korsord är ու och և egna bokstäver och var och en fyller en ruta, som i tryckta armeniska korsord. Tangentbordet på skärmen har båda, och skriver du ո och sedan ւ blir de ու. I ryska korsord skrivs Ё som Е, som i tryckta korsord." },
-        { "question": "Sparas mitt läge?", "answer": "Ja, automatiskt medan du löser. Varje korsord eller rutkorsord du börjar och lämnar ofärdigt listas under ”Mina korsord”, med bokstäverna sparade, så du kan fortsätta senare — även offline." },
-        { "question": "Kan jag spela offline eller installera det som en app?", "answer": "Ja. Korsord AI installeras från webbläsaren som en app (på iPhone: Dela → Lägg till på hemskärmen). Varje korsord du öppnar sparas med ditt läge och fungerar utan uppkoppling; bara nya korsord behöver internet." },
-        { "question": "Kan jag dela ett korsord med en vän?", "answer": "Ja. Tryck på Dela ovanför rutnätet för att kopiera länken, eller skicka den via WhatsApp, Telegram, Facebook, X, VK eller e-post. Vännen får exakt samma rutnät och ledtrådar." },
-        { "question": "Kan jag spela med tangentbord eller skärmläsare?", "answer": "Ja. Rutnätet fungerar helt från tangentbordet och med skärmläsare: varje ruta är namngiven, den aktiva ledtråden läses upp, och kontroller och avslöjanden sägs högt. Fel och avslöjade bokstäver markeras med form, inte bara med färg." }
-      ] },
-      { "title": "Integritet", "items": [
-        { "question": "Vilka uppgifter sparar ni?", "answer": "Mycket lite. Dina korsord, ditt läge, dina inställningar och listan över sedda ord stannar i webbläsaren. Servern sparar korsord som skapas, så att en delad länk öppnar samma rutnät, rapporter med en envägshash av IP-adressen och anonyma lösningsräkningar. Inga namn och inga profiler." },
-        { "question": "Skickas något om mig till AI:n?", "answer": "Nej. Bara korsordets inställningar — språk, ämne, svårighet — och ordlistor går till Googles Gemini-modeller, aldrig något om dig." }
-      ] }
+      {
+        "title": "Om Korsord AI",
+        "items": [
+          {
+            "question": "Vad är Korsord AI?",
+            "answer": "Korsord AI är en webbplats som skapar korsord och krysord på trettiotre språk. En AI-modell skriver orden och ledtrådarna direkt på varje språk, kod bygger rutnätet, och varje enhet får bara ord som den inte har sett tidigare."
+          },
+          {
+            "question": "Är Korsord AI gratis?",
+            "answer": "Delvis. Ditt första pussel varje månad är gratis utan konto, och loggar du in får du ett andra gratispussel varje månad. Utöver det betalas pussel med krediter: du köper ett paketerbjudande en gång — det finns ingen prenumeration, krediterna går aldrig ut och det finns inga annonser. Att spela ett pussel som någon delat med dig är alltid gratis."
+          },
+          {
+            "question": "Behöver jag ett konto?",
+            "answer": "Inte för ditt gratis pussel varje månad: dina framsteg, dina inställningar och de ord du redan har sett sparas i din webbläsare. Ett konto ger dig ett andra gratispussel varje månad och gör att du kan köpa och spara krediter."
+          },
+          {
+            "question": "Hur mycket kostar ett pussel?",
+            "answer": "Ett litet pussel kostar 5 krediter, ett medelstort 10 och ett stort 15; medelsvår nivå lägger till 1 kredit och svår lägger till 2. Krediter köps i paket om 200 för 4,99 $, 600 för 11,99 $ och 2 000 för 29,99 $. I kassan visas priset i din valuta, inklusive skatt där det gäller."
+          },
+          {
+            "question": "Vem gör Korsord AI?",
+            "answer": "Det är ett självständigt projekt av utvecklaren Michael Navasardyan: pussel som känns som om en lokal författare har skrivit dem på varje språk som webbplatsen erbjuder — bland dem armeniska, ryska och engelska."
+          }
+        ]
+      },
+      {
+        "title": "Pusslen",
+        "items": [
+          {
+            "question": "Vad är skillnaden mellan ett korsord och ett krysord?",
+            "answer": "Ett korsord listar numrerade ledtrådar bredvid rutnätet, Vågrätt och Lodrätt. Ett krysord har varje ledtråd tryckt i en ruta i själva rutnätet, med en pil som pekar mot var svaret ska skriva — ett format som är väldigt populärt i korsordstidningar i Ryssland och Armenien."
+          },
+          {
+            "question": "Hur stora är pusslen?",
+            "answer": "Det finns tre storlekar. Ett klassiskt korsord fyller ett 9×9-, 13×13- eller 15×15-rutnät med ungefär 8–14, 16–24 eller 22–34 ord, och beskärs sedan till de ord det innehåller. Ett krysord använder ett 8×10-, 10×13- eller 13×17-rutnät — högre än det är brett, eftersom de flesta löser dem på mobilen."
+          },
+          {
+            "question": "Hur skiljer sig svårighetsgraderna?",
+            "answer": "Lätt använder vardagliga ord med direkta definitioner. Medel använder ett bredare ordförråd. Svår innehåller ovanligare ord och ledtrådar som får dig att tänka till en extra gång."
+          },
+          {
+            "question": "Vilka ämnen kan jag välja?",
+            "answer": "Tolv stycken: vardagsord, natur, djur, mat & dryck, geografi, historia, vetenskap, sport, konst, hem & vardag, yrken och lokal kultur — eller blanda alla i ett och samma pussel."
+          },
+          {
+            "question": "Kommer jag någonsin att se samma ord två gånger?",
+            "answer": "Inte på samma enhet. Den kommer ihåg upp till 4 000 ord per språk — vilket motsvarar ungefär 130 pussel — och utesluter dem från alla nya pussel; först därefter tas de äldsta orden bort från listan. Om du rensar webbplatsdata i webbläsaren börjar listan om."
+          },
+          {
+            "question": "Hur skriver AI ledtrådarna?",
+            "answer": "Googles Gemini-modell skriver ord och ledtrådar direkt på varje språk enligt en stilguide skapad av personer med språket som modersmål. Kod kontrollerar sedan allt — rätt alfabet, ett riktigt ord, en rättvis ledtråd som inte avslöjar svaret — och en andra AI-granskning fungerar som redaktör. Allt som misslyckas tas bort och ändras aldrig i efterhand. Själva rutnätet byggs av kod, inte av AI."
+          },
+          {
+            "question": "Vad händer om en ledtråd är felaktig?",
+            "answer": "Öppna ⋯-menyn ovanför rutnätet och välj ”Rapportera ledtråd”. När tre olika spelare har rapporterat samma ledtråd tas den bort och visas aldrig mer."
+          }
+        ]
+      },
+      {
+        "title": "Att spela",
+        "items": [
+          {
+            "question": "Hur skriver jag svar på mobilen eller datorn?",
+            "answer": "På datorn är det bara att skriva: även om ditt tangentbord är inställt på engelska skriver tangenterna pusslets bokstäver på sina vanliga platser, så du slipper byta tangentbordslayout. På en mobil eller surfplatta visas pusslets egna tangentbord under rutnätet, och systemtangentbordet täcker det aldrig."
+          },
+          {
+            "question": "Kan jag kontrollera mina svar eller få en ledtråd?",
+            "answer": "Ja. Rätta markerar felaktiga bokstäver i en ruta, ett ord eller hela pusslet, och Visa fyller i en bokstav, ett ord eller alltihop. Slå på ”Rätta när jag skriver” i inställningarna för att se misstag direkt när du gör dem."
+          },
+          {
+            "question": "Hur hanteras armeniska ու och և, samt ryska Ё?",
+            "answer": "I armeniska pussel är ու och և enskilda bokstäver och fyller en ruta vardera, precis som i tryckta armeniska korsord. Skärmtangentbordet har båda, och om du skriver ո och sedan ւ slås de ihop till ու. I ryska pussel skrivs Ё som Е, precis som i tryckta korsord."
+          },
+          {
+            "question": "Sparas mina framsteg?",
+            "answer": "Ja, automatiskt medan du spelar. Alla korsord eller krysord du påbörjar och lämnar oavslutade listas under ”Mina pussel”, med dina bokstäver sparade, så att du kan fortsätta med vilket som helst av dem senare — även offline."
+          },
+          {
+            "question": "Kan jag spela offline eller installera det som en app?",
+            "answer": "Ja. Korsord AI kan installeras från din webbläsare som en app (på iPhone: Dela → Lägg till på hemmaskärmen). Varje pussel du öppnar sparas med dina framsteg och fortsätter att fungera utan anslutning; bara nya pussel kräver internet."
+          },
+          {
+            "question": "Kan jag dela ett pussel med en vän?",
+            "answer": "Ja. Tryck på Dela ovanför rutnätet för att kopiera länken, eller skicka den via WhatsApp, Telegram, Facebook, X, VK eller e-post. Din vän får exakt samma rutnät och ledtrådar."
+          },
+          {
+            "question": "Kan jag spela med ett tangentbord eller en skärmläsare?",
+            "answer": "Ja. Rutnätet fungerar helt med tangentbord och skärmläsare: varje ruta är märkt, den aktiva ledtråden läses upp, och rättningar och avslöjanden läses också upp. Felaktiga och avslöjade bokstäver markeras med form, aldrig enbart med färg."
+          }
+        ]
+      },
+      {
+        "title": "Integritet",
+        "items": [
+          {
+            "question": "Vilka data sparar ni?",
+            "answer": "Väldigt lite. Dina pussel, framsteg, inställningar och listan över sedda ord ligger kvar i din webbläsare. Servern sparar pusslen som skapas (så att en delad länk öppnar samma rutnät), ledtrådsrapporter med en envägshash av IP-adressen samt anonym lösningsstatistik. Inga namn och inga profiler."
+          },
+          {
+            "question": "Skickas något om mig till AI:n?",
+            "answer": "Nej. Endast pusselinställningar — språk, ämne, svårighetsgrad — och ordlistor skickas till Googles Gemini-modeller, aldrig någonting om dig."
+          }
+        ]
+      }
     ],
     "ctaTitle": "Redo för ett färskt korsord?",
     "ctaText": "Välj ämne och svårighet — nästa rutnät är några sekunder bort.",
@@ -454,29 +643,152 @@
     "title": "Om Korsord AI",
     "subtitle": "En gratis korsordsgenerator som skriver på ditt språk och aldrig serverar samma ord två gånger.",
     "sections": [
-      { "title": "Varför vi gjorde det", "paragraphs": ["De flesta korsord på nätet återanvänder en liten ordlista, och de flesta översatta låter som översättningar. Vi ville ha korsord som känns skrivna av en lokal konstruktör — och som förblir nya hur många du än löser."] },
-      { "title": "Hur orden skrivs", "paragraphs": ["En modell skriver ord och ledtrådar direkt på varje språk, efter en stilguide av modersmålstalare: de former korsord använder, stavningsnormen och hur ledtrådar formuleras i den traditionen.", "Varje ord går sedan igenom automatiska kontroller — rätt alfabet, ett riktigt ord, ingen ledtråd som röjer svaret — och en andra modell är redaktör. Spelares rapporter tar bort det som slinker igenom."] },
-      { "title": "Hur rutnäten byggs", "paragraphs": ["Själva rutnätet byggs av kod, inte av AI: en algoritm fogar ihop orden så att varje bokstav hör till ett riktigt ord med en ledtråd. Det är det som gör varje korsord rättvist."] }
+      {
+        "title": "Varför vi gjorde det",
+        "paragraphs": [
+          "De flesta korsord på nätet återanvänder en liten ordlista, och de flesta översatta låter som översättningar. Vi ville ha korsord som känns skrivna av en lokal konstruktör — och som förblir nya hur många du än löser."
+        ]
+      },
+      {
+        "title": "Hur orden skrivs",
+        "paragraphs": [
+          "En modell skriver ord och ledtrådar direkt på varje språk, efter en stilguide av modersmålstalare: de former korsord använder, stavningsnormen och hur ledtrådar formuleras i den traditionen.",
+          "Varje ord går sedan igenom automatiska kontroller — rätt alfabet, ett riktigt ord, ingen ledtråd som röjer svaret — och en andra modell är redaktör. Spelares rapporter tar bort det som slinker igenom."
+        ]
+      },
+      {
+        "title": "Hur rutnäten byggs",
+        "paragraphs": [
+          "Själva rutnätet byggs av kod, inte av AI: en algoritm fogar ihop orden så att varje bokstav hör till ett riktigt ord med en ledtråd. Det är det som gör varje korsord rättvist."
+        ]
+      }
     ]
   },
   "Privacy": {
     "title": "Integritetspolicy",
-    "subtitle": "Kort version: inget konto, inga namn, ingen profilering. Här är allt vi sparar.",
+    "subtitle": "Kort version: ett konto bara om du vill ha ett, ingen profilering. Här är allt vi sparar.",
     "sections": [
-      { "title": "På din enhet", "paragraphs": ["Webbläsaren sparar korsorden du öppnar, ditt läge, dina inställningar och en lista över ord du redan sett, så att de inte upprepas. Det stannar på din enhet; rensar du webbplatsens data försvinner det."] },
-      { "title": "På vår server", "paragraphs": ["Vi sparar korsord som skapas, så att en delad länk öppnar samma rutnät. När du rapporterar en ledtråd sparar vi rapporten med en envägshash av din IP-adress, bara så att en person inte kan ta bort en ledtråd ensam. Vi räknar också anonymt hur korsord löses (lösta, vilka ord som avslöjades) för att ställa in svårigheten."] },
-      { "title": "AI-leverantör", "paragraphs": ["Nya ord och ledtrådar skrivs av Googles Gemini-modeller. Bara korsordets inställningar (språk, ämne, svårighet) och ordlistor skickas — aldrig något om dig."] },
-      { "title": "Statistik och felrapporter", "paragraphs": ["Om det är påslaget använder vi Google Analytics för att räkna sidvisningar och Sentry för att ta emot felrapporter. Inget av dem används för att identifiera dig."] }
+      {
+        "title": "På din enhet",
+        "paragraphs": [
+          "Din webbläsare sparar pusslen du öppnar, dina framsteg, dina inställningar och en lista över orden du redan har sett, så att de aldrig upprepas. Detta ligger kvar på din enhet; om du rensar webbplatsdata tas det bort."
+        ]
+      },
+      {
+        "title": "På vår server",
+        "paragraphs": [
+          "Vi sparar pusslen som skapas så att en delad länk öppnar samma rutnät. När du rapporterar en ledtråd sparar vi rapporten med en envägshash av din IP-adress, enbart för att en enskild person inte ska kunna ta bort en ledtråd på egen hand. Vi räknar också anonymt hur pussel spelas (om de löses och vilka ord som avslöjades) för att finjustera svårighetsgraden.",
+          "För att ge varje enhet dess gratis pussel för månaden sätter webbplatsen en cookie med en slumpmässig identifierare. Vid varje gratispussel sparar vi den identifieraren och en envägshash av din IP-adress."
+        ]
+      },
+      {
+        "title": "Konton och krediter",
+        "paragraphs": [
+          "Om du skapar ett konto sparar vi ditt namn, din e-postadress och, om du loggar in med Google, din Google-profilbild. Vi sparar även ditt kreditsaldo och dess historik: varje köp, varje betalt pussel och varje återbetalning."
+        ]
+      },
+      {
+        "title": "Betalningar",
+        "paragraphs": [
+          "Betalningar behandlas av Paddle.com, vår Merchant of Record. Paddle samlar in dina betalningsuppgifter och faktureringsland enligt sin egen integritetspolicy; vi ser aldrig ditt kortnummer. Från Paddle får vi belopp, valuta, skatt och betalningsmetod för varje köp."
+        ]
+      },
+      {
+        "title": "AI-leverantör",
+        "paragraphs": [
+          "Nya ord och ledtrådar skrivs av Googles Gemini-modeller. Endast pusselinställningarna (språk, ämne, svårighetsgrad) och ordlistor skickas — aldrig någonting om dig."
+        ]
+      },
+      {
+        "title": "Analys och felrapportering",
+        "paragraphs": [
+          "Om det är aktiverat använder vi Google Analytics för att räkna sidvisningar och Sentry för att ta emot felrapporter. Inget av verktygen används för att identifiera dig."
+        ]
+      }
     ]
   },
   "Terms": {
     "title": "Användarvillkor",
-    "subtitle": "Korsord AI är gratis att använda, för nöje och lärande.",
+    "subtitle": "Korsord AI är till för nöje och lärande. Dessa villkor täcker användning och köp av krediter.",
     "sections": [
-      { "title": "Att använda tjänsten", "paragraphs": ["Du får lösa, dela och skriva ut korsorden för personligt bruk och undervisning. Belasta inte tjänsten med automatiska anrop."] },
-      { "title": "Text skriven av AI", "paragraphs": ["Ord och ledtrådar skrivs av AI och kontrolleras automatiskt, men fel kan hända. Hittar du ett, rapportera det — så tas dåliga ledtrådar bort."] },
-      { "title": "Ingen garanti", "paragraphs": ["Tjänsten tillhandahålls som den är, utan garantier om tillgänglighet eller riktighet. Vi kan ändra eller ta bort funktioner när som helst."] }
+      {
+        "title": "Användning av tjänsten",
+        "paragraphs": [
+          "Du får spela, dela och skriva ut pusslen för personligt bruk och i utbildningssyfte. Överbelasta inte tjänsten med automatiserade anrop."
+        ]
+      },
+      {
+        "title": "Gratispussel och krediter",
+        "paragraphs": [
+          "Varje enhet får ett gratispussel varje kalendermånad, och varje konto ytterligare ett. Övriga pussel betalas med krediter till det pris som visas innan du skapar ett. Krediter dras först när pusslet byggs, och att öppna ett redan sparat pussel är gratis.",
+          "Krediter köps i paket via engångsbetalning — det finns ingen prenumeration — och de går aldrig ut. De har inget kontantvärde och kan inte överföras."
+        ]
+      },
+      {
+        "title": "Betalningar",
+        "paragraphs": [
+          "Vår beställningsprocess hanteras av vår återförsäljare online, Paddle.com. Paddle.com är Merchant of Record för alla våra beställningar. Paddle hanterar alla kundtjänstärenden och returer."
+        ]
+      },
+      {
+        "title": "Återbetalningar",
+        "paragraphs": [
+          "Du kan begära återbetalning för ett kreditpaket inom 14 dagar från köpet, via Paddle eller genom att skriva till oss. En återbetalning drar av paketets krediter från ditt saldo. Redan använda krediter kan inte lämnas tillbaka, så ett paket som delvis har använts kan återbetalas delvis."
+        ]
+      },
+      {
+        "title": "AI-skapat innehåll",
+        "paragraphs": [
+          "Ord och ledtrådar skrivs av AI och kontrolleras automatiskt, men fel kan uppstå. Om du hittar ett fel kan du rapportera det — det är så dåliga ledtrådar tas bort."
+        ]
+      },
+      {
+        "title": "Ingen garanti",
+        "paragraphs": [
+          "Tjänsten tillhandahålls i befintligt skick, utan garantier om tillgänglighet eller korrekthet. Vi kan när som helst ändra eller ta bort funktioner."
+        ]
+      }
     ]
+  },
+  "Credits": {
+    "title": "Credits",
+    "subtitle": "One free puzzle every month. After that, pay only for the puzzles you make — no subscription, and credits never expire.",
+    "balanceTitle": "Your balance",
+    "freeAvailable": "Your free puzzle of this month is waiting.",
+    "freeUsed": "This month's free puzzle is used. The next one comes on {date}.",
+    "guestTitle": "Get more free puzzles",
+    "guestText": "Sign in to get a free puzzle every month on your account, and to buy credits.",
+    "pricesTitle": "What a puzzle costs",
+    "pricesText": "In credits, by size and difficulty. Opening a puzzle someone shared with you, or one from your history, is always free.",
+    "size": "Size",
+    "packsTitle": "Credit packs",
+    "packs": {
+      "starter": "Starter",
+      "popular": "Popular",
+      "big": "Big"
+    },
+    "popularBadge": "Most popular",
+    "bestValueBadge": "Best value",
+    "packPuzzles": "About {count} medium puzzles",
+    "buy": "Buy",
+    "signInToBuy": "Sign in to buy",
+    "shopClosed": "Buying credits isn't available right now. Please check back soon.",
+    "checkoutFailed": "We couldn't open the checkout. Please try again.",
+    "paddleNote": "Payments are processed by Paddle.com, our reseller and Merchant of Record. Prices include VAT or sales tax where it applies; the final price in your currency is shown at checkout.",
+    "refundsNote": "Refunds are covered in the terms of use."
+  },
+  "Payments": {
+    "checkoutTitle": "Checkout",
+    "opening": "Opening the secure checkout…",
+    "checkoutUnavailable": "The checkout couldn't open. Please try again from the credits page.",
+    "backToCredits": "Back to credits",
+    "verifying": "Confirming your payment…",
+    "successTitle": "Thank you!",
+    "successText": "{count, plural, one {# credit was} other {# credits were}} added to your balance.",
+    "pendingText": "Your payment went through. The credits will appear on your balance within a few minutes.",
+    "failedText": "The payment didn't go through, so nothing was charged. You can try again.",
+    "verifyError": "We couldn't confirm the payment right now. If you were charged, the credits will still arrive — check your balance in a few minutes.",
+    "makePuzzle": "Make a puzzle"
   },
   "Contact": {
     "title": "Skriv till oss",
