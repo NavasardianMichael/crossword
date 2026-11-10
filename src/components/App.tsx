@@ -6,7 +6,6 @@ import { Footer } from './layout/Footer'
 import { Header } from './layout/Header'
 import { LeaveGuard } from './LeaveGuard'
 import { InstallHint } from './pwa/InstallHint'
-import { PageViewTracker } from './pwa/PageViewTracker'
 import { ServiceWorkerRegistrar } from './pwa/ServiceWorkerRegistrar'
 import { Toaster } from './ui/Toaster'
 
@@ -32,7 +31,6 @@ export const App = ({ children, antdLocale, direction }: AppProps) => {
       </a>
       <AppEffects />
       <ServiceWorkerRegistrar />
-      <PageViewTracker />
       <div className='flex min-h-dvh flex-col'>
         <Header />
         <main id='main' className='flex-1'>

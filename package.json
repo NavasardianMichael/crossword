@@ -39,6 +39,7 @@
   },
   "dependencies": {
     "@ant-design/nextjs-registry": "^1.3.0",
+    "@next/third-parties": "^16.4.6",
     "@paddle/paddle-js": "^1.6.6",
     "@pdf-lib/fontkit": "^1.1.1",
     "@sentry/nextjs": "^11.9.0",

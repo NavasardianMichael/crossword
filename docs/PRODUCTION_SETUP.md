@@ -242,6 +242,10 @@ feature off:
 A saved secret cannot be viewed again, and logs show it as `***`. To check or fix one, overwrite
 it with the right value.
 
+With Google Analytics on, GA records full page URLs. Keep one-time links out of it: GA → Admin →
+Data streams → the web stream → **Redact data** → turn on **Query parameters** and list `token`
+(password reset and email verification links).
+
 Unlike `.env.local`, these are not a file: change one here, then redeploy the web (re-run
 **Deploy to Production**), because they are built into the bundle.
 

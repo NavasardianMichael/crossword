@@ -2,16 +2,15 @@ import type { CSSProperties, ReactNode } from 'react'
 import { AntdRegistry } from '@ant-design/nextjs-registry'
 import type { Metadata, Viewport } from 'next'
 import { notFound } from 'next/navigation'
-import Script from 'next/script'
 import { hasLocale, NextIntlClientProvider } from 'next-intl'
 import { getTranslations } from 'next-intl/server'
 import { getAntdLocale } from '@i18n/antdLocale'
 import { getDirection, LOCALES } from '@i18n/config'
 import { routing } from '@i18n/routing'
-import { GA_ENABLED, GA_INIT_SCRIPT, GA_SCRIPT_SRC } from '@constants/analytics'
 import { AUTHOR } from '@constants/app'
 import { cn } from '@helpers/cn'
 import { getSiteUrl } from '@helpers/url'
+import { Analytics } from '@components/analytics/Analytics'
 import { App } from '@components/App'
 import '@styles/globals.css'
 import { fontBody, fontHeading, getScriptFont } from '@styles/fonts'
@@ -118,14 +117,7 @@ export default async function RootLayout({ children, params }: Props) {
             </App>
           </NextIntlClientProvider>
         </AntdRegistry>
-        {GA_ENABLED && (
-          <>
-            <Script src={GA_SCRIPT_SRC} strategy='afterInteractive' />
-            <Script id='ga-init' strategy='afterInteractive'>
-              {GA_INIT_SCRIPT}
-            </Script>
-          </>
-        )}
+        <Analytics />
       </body>
     </html>
   )

@@ -25,14 +25,17 @@ const nextConfig: NextConfig = {
   },
 }
 
-// Source maps upload only when CI provides SENTRY_AUTH_TOKEN; the SDK runs whenever a DSN is set.
+/**
+ * Sentry's build step. Source maps go up only when the build has `SENTRY_AUTH_TOKEN` (with
+ * `SENTRY_ORG` / `SENTRY_PROJECT`, which the plugin reads itself), and are then removed from
+ * the bundle. Events reach Sentry through a tunnel route on this origin, so ad blockers that
+ * drop requests to sentry.io do not drop the errors with them. The tunnel is a fixed path, not
+ * a random one: `proxy.ts` must know it to leave it without a locale prefix.
+ */
 export default withSentryConfig(withNextIntl(nextConfig), {
-  org: process.env.SENTRY_ORG,
-  project: process.env.SENTRY_PROJECT,
-  authToken: process.env.SENTRY_AUTH_TOKEN,
-  sourcemaps: { disable: !process.env.SENTRY_AUTH_TOKEN },
-  widenClientFileUpload: true,
   silent: !process.env.CI,
-  // Error reports go through this app's own URL, so ad blockers don't drop them.
+  telemetry: false,
   tunnelRoute: '/monitoring',
+  widenClientFileUpload: true,
+  sourcemaps: { disable: !process.env.SENTRY_AUTH_TOKEN },
 })

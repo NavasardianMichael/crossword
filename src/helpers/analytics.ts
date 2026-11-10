@@ -1,4 +1,11 @@
-import { GA_ENABLED } from '@constants/analytics'
+import { sendGAEvent } from '@next/third-parties/google'
+
+/**
+ * Google Analytics 4. `NEXT_PUBLIC_GA_MEASUREMENT_ID` is inlined at build time; empty — local
+ * dev, CI — means no tag and no events. Page views are GA's own (initial load and history
+ * changes, through `components/analytics/Analytics.tsx`).
+ */
+export const GA_ID = process.env.NEXT_PUBLIC_GA_MEASUREMENT_ID?.trim() ?? ''
 
 export type AnalyticsEvent =
   | 'puzzle_created'
@@ -14,26 +21,6 @@ export type AnalyticsEvent =
   | 'begin_checkout'
   | 'purchase'
 
-type DataLayerWindow = Window & { dataLayer?: unknown[] }
-
-/** Queues a gtag command; gtag.js reads the queue once it loads. It must push the real `arguments` object. */
-const gtag: (...args: unknown[]) => void = function () {
-  const analyticsWindow = window as DataLayerWindow
-  analyticsWindow.dataLayer = analyticsWindow.dataLayer || []
-  // eslint-disable-next-line prefer-rest-params
-  analyticsWindow.dataLayer.push(arguments)
-}
-
-export const trackEvent = (event: AnalyticsEvent, params: Record<string, unknown> = {}) => {
-  if (!GA_ENABLED || typeof window === 'undefined') return
-  gtag('event', event, params)
-}
-
-export const trackPageView = (path: string) => {
-  if (!GA_ENABLED || typeof window === 'undefined') return
-  gtag('event', 'page_view', {
-    page_path: path,
-    page_title: document.title,
-    page_location: `${window.location.origin}${path}`,
-  })
+export const trackEvent = (event: AnalyticsEvent, params: Record<string, unknown> = {}): void => {
+  if (GA_ID) sendGAEvent('event', event, params)
 }
