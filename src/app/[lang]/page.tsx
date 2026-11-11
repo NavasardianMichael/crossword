@@ -34,7 +34,7 @@ export default async function HomePage() {
     <>
       <JsonLd data={websiteSchema(locale, appName, seo('homeDescription'), seo('keywords'))} />
       <JsonLd data={gameSchema(locale, appName, seo('homeDescription'), ROUTES.home)} />
-      <Hero namespace='Home.hero' tiles='languages'>
+      <Hero namespace='Home.hero' languageTiles>
         <GeneratorForm />
       </Hero>
 

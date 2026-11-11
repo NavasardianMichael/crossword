@@ -4,18 +4,12 @@ import { type Locale, LOCALES } from '@constants/puzzle'
 import { cn } from '@helpers/cn'
 
 /**
- * The page-opening band: a headline with a marker-pen word, and loose letter tiles floating in
- * the margins (decoration only — hidden from assistive tech, still under reduced motion).
+ * The page-opening band: a headline with a marker-pen word and, on the home page only, loose
+ * letter tiles floating in the margins (decoration only — hidden from assistive tech, still
+ * under reduced motion).
  */
 const TILE_CLASS =
   'absolute hidden size-14 animate-float items-center justify-center rounded-2xl border-2 border-ink-900 font-display text-h2 font-extrabold shadow-chunky'
-
-const CORNER_TILES = [
-  { letter: 'A', className: 'bg-coral-300 inset-s-[4%] top-8 [--tilt:-8deg]' },
-  { letter: 'Ж', className: 'bg-teal-300 inset-e-[6%] top-14 [--tilt:10deg] [animation-delay:1.2s]' },
-  { letter: 'Ք', className: 'bg-sun-300 inset-s-[10%] bottom-6 [--tilt:6deg] [animation-delay:2.1s]' },
-  { letter: 'Z', className: 'bg-lavender-300 inset-e-[12%] bottom-10 [--tilt:-12deg] [animation-delay:0.6s]' },
-]
 
 /** A letter that belongs to each language — typed by `Locale`, so a new language needs its tile. */
 const LANGUAGE_LETTERS: Record<Locale, string> = {
@@ -90,26 +84,21 @@ const LANGUAGE_TILES = LOCALES.map((locale, i) => {
 
 type HeroProps = {
   namespace: string
-  /** `languages`: a tile for every language, for a hero tall enough to hold them all. */
-  tiles?: 'corners' | 'languages'
+  /** A tile for every language — the home page's, the only hero tall enough to hold them all. */
+  languageTiles?: boolean
   children?: React.ReactNode
 }
 
-export const Hero = async ({ namespace, tiles = 'corners', children }: HeroProps) => {
+export const Hero = async ({ namespace, languageTiles, children }: HeroProps) => {
   const t = await getTranslations(namespace)
   return (
     <section className='relative overflow-hidden'>
-      {tiles === 'languages'
-        ? LANGUAGE_TILES.map(({ key, letter, className, style }) => (
-            <span key={key} aria-hidden className={cn(TILE_CLASS, className)} style={style}>
-              {letter}
-            </span>
-          ))
-        : CORNER_TILES.map(({ letter, className }) => (
-            <span key={letter} aria-hidden className={cn(TILE_CLASS, 'md:flex', className)}>
-              {letter}
-            </span>
-          ))}
+      {languageTiles &&
+        LANGUAGE_TILES.map(({ key, letter, className, style }) => (
+          <span key={key} aria-hidden className={cn(TILE_CLASS, className)} style={style}>
+            {letter}
+          </span>
+        ))}
       <div className='container-page relative flex flex-col items-center gap-5 pt-10 pb-8 text-center sm:pt-16'>
         <p className='eyebrow rounded-full border-2 border-teal-600 bg-teal-100 px-3 py-1'>{t('eyebrow')}</p>
         <h1 className='max-w-4xl text-display font-extrabold text-ink-900'>
