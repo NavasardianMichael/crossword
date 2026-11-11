@@ -5,7 +5,7 @@ import { Grid3x3, LayoutGrid, Shuffle, Sparkles } from 'lucide-react'
 import { useLocale, useTranslations } from 'next-intl'
 import { useCreateStore } from '@store/puzzle/create/store'
 import type { GeneratorOptions } from '@store/puzzle/create/types'
-import { useRouter } from '@i18n/navigation'
+import { usePendingRouter } from '@hooks/useNavigationPending'
 import { DIFFICULTIES, FORMATS, isLocale, SIZES, type TopicChoice,TOPICS } from '@constants/puzzle'
 import { puzzlePath } from '@constants/routes'
 import { TOPIC_STYLES } from '@constants/topicStyles'
@@ -29,7 +29,7 @@ const FORMAT_ICONS = { classic: Grid3x3, scanword: LayoutGrid } as const
 export const GeneratorForm = ({ preset, className }: GeneratorFormProps) => {
   const t = useTranslations()
   const locale = useLocale()
-  const router = useRouter()
+  const router = usePendingRouter()
   const options = useCreateStore.use.options()
   const isPending = useCreateStore.use.isPending()
   const error = useCreateStore.use.error()

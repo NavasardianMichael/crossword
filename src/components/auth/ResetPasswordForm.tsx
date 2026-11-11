@@ -34,7 +34,7 @@ export const ResetPasswordForm = ({ token }: { token?: string }) => {
   const messageKey = authErrorKey(error)
 
   return (
-    <Form<Values> layout='vertical' requiredMark={false} onFinish={onFinish} disabled={pending}>
+    <Form<Values> layout='vertical' noValidate requiredMark={false} onFinish={onFinish} disabled={pending}>
       <Form.Item name='password' label={t('password')} extra={t('passwordHint')} rules={passwordRules(t('required'), t('weakPassword'))}>
         <Input.Password size='large' autoComplete='new-password' maxLength={PASSWORD_MAX_LENGTH} />
       </Form.Item>
@@ -47,7 +47,7 @@ export const ResetPasswordForm = ({ token }: { token?: string }) => {
         <Input.Password size='large' autoComplete='new-password' maxLength={PASSWORD_MAX_LENGTH} />
       </Form.Item>
       {error ? <ErrorAlert error={error} message={messageKey ? t(messageKey) : undefined} className='mb-4' /> : null}
-      <Button type='submit' fullWidth loading={pending}>
+      <Button type='submit' fullWidth loading={pending} className='mt-4'>
         {t('submitReset')}
       </Button>
     </Form>

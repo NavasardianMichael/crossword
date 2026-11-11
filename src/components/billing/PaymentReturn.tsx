@@ -5,7 +5,7 @@ import { CircleCheck, CircleX, Clock } from 'lucide-react'
 import { useTranslations } from 'next-intl'
 import { getPaymentAPI } from '@api/billing/main'
 import { useBillingStoreBase } from '@store/billing/store'
-import { useRouter } from '@i18n/navigation'
+import { usePendingRouter } from '@hooks/useNavigationPending'
 import { PAYMENT_ID_QUERY } from '@constants/paddle'
 import { ROUTES } from '@constants/routes'
 import { trackEvent } from '@helpers/analytics'
@@ -27,7 +27,7 @@ type ReturnState =
 /** After Paddle's overlay reports a payment: waits for the webhook to add the credits, then says so. */
 export const PaymentReturn = () => {
   const t = useTranslations('Payments')
-  const router = useRouter()
+  const router = usePendingRouter()
   const [state, setState] = useState<ReturnState>({ kind: 'verifying' })
 
   useEffect(() => {

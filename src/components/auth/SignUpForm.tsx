@@ -67,7 +67,7 @@ export const SignUpForm = ({ returnTo }: { returnTo?: string }) => {
   return (
     <div className='flex flex-col gap-4'>
       <GoogleButton returnTo={safeReturn} />
-      <Form<Values> layout='vertical' requiredMark={false} onFinish={onFinish} disabled={pending}>
+      <Form<Values> layout='vertical' noValidate requiredMark={false} onFinish={onFinish} disabled={pending}>
         <Form.Item name='fullName' label={t('name')} rules={[{ required: true, whitespace: true, message: t('required') }]}>
           <Input size='large' autoComplete='name' maxLength={100} />
         </Form.Item>
@@ -101,7 +101,7 @@ export const SignUpForm = ({ returnTo }: { returnTo?: string }) => {
         {error ? (
           <ErrorAlert error={error} message={messageKey ? t(messageKey) : mailFailed ? t('mailFailed') : undefined} className='mb-4' />
         ) : null}
-        <Button type='submit' fullWidth loading={pending}>
+        <Button type='submit' fullWidth loading={pending} className='mt-4'>
           {t('submitSignUp')}
         </Button>
       </Form>

@@ -34,7 +34,7 @@ export const ForgotPasswordForm = () => {
   const mailFailed = axios.isAxiosError(error) && error.response?.status === 503
 
   return (
-    <Form<{ email: string }> layout='vertical' requiredMark={false} onFinish={onFinish} disabled={pending}>
+    <Form<{ email: string }> layout='vertical' noValidate requiredMark={false} onFinish={onFinish} disabled={pending}>
       <Form.Item
         name='email'
         label={t('email')}
@@ -46,7 +46,7 @@ export const ForgotPasswordForm = () => {
         <Input size='large' type='email' autoComplete='email' />
       </Form.Item>
       {error ? <ErrorAlert error={error} message={mailFailed ? t('mailFailed') : undefined} className='mb-4' /> : null}
-      <Button type='submit' fullWidth loading={pending}>
+      <Button type='submit' fullWidth loading={pending} className='mt-4'>
         {t('submitForgot')}
       </Button>
       <p className='mt-4 mb-0 text-center text-body-sm'>

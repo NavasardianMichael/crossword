@@ -61,6 +61,17 @@ const GATES = [
     root: 'src',
     exts: TS,
     pattern: /from 'next\/link'/,
+    // `useLinkStatus` only: it feeds the progress bar from inside AppLink.
+    skip: /^src\/components\/ui\/bare\/LinkPending\.tsx$/,
+  },
+  {
+    name: 'router navigations show the progress bar',
+    why: 'Use usePendingRouter (hooks/useNavigationPending.ts): a bare useRouter push/replace loads the next page with no sign of it',
+    root: 'src',
+    exts: TS,
+    pattern: /\buseRouter\(\)/,
+    // The wrapper itself, and the language switch, which runs its own transition and reports it.
+    skip: /^src\/(hooks\/useNavigationPending\.ts|components\/layout\/LanguageSwitcher\.tsx)$/,
   },
   {
     name: "no raw `next/navigation` routing",
@@ -106,6 +117,14 @@ const GATES = [
     exts: TSX,
     pattern: /<(Modal|Drawer)\b/,
     skip: /^src\/components\/ui\/Dialog\.tsx$/,
+  },
+  {
+    name: 'antd forms turn off browser validation',
+    why: "`noValidate` on every <Form>: a type='email' field otherwise gets the browser's own popup beside antd's error",
+    root: 'src',
+    exts: TSX,
+    pattern: /<Form\b(?!\.)/,
+    excludeLine: /\bnoValidate\b/,
   },
   {
     name: 'no deprecated antd props',

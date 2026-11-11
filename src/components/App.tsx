@@ -5,6 +5,7 @@ import { AppEffects } from './AppEffects'
 import { Footer } from './layout/Footer'
 import { Header } from './layout/Header'
 import { LeaveGuard } from './LeaveGuard'
+import { NavigationProgress } from './NavigationProgress'
 import { InstallHint } from './pwa/InstallHint'
 import { ServiceWorkerRegistrar } from './pwa/ServiceWorkerRegistrar'
 import { Toaster } from './ui/Toaster'
@@ -29,6 +30,7 @@ export const App = ({ children, antdLocale, direction }: AppProps) => {
       >
         {t('skipToContent')}
       </a>
+      <NavigationProgress />
       <AppEffects />
       <ServiceWorkerRegistrar />
       <div className='flex min-h-dvh flex-col'>

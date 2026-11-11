@@ -3,7 +3,7 @@
 import { useState } from 'react'
 import { useTranslations } from 'next-intl'
 import { verifyEmailAPI } from '@api/auth/main'
-import { useRouter } from '@i18n/navigation'
+import { usePendingRouter } from '@hooks/useNavigationPending'
 import { isSafeReturnPath, RETURN_TO_QUERY, VERIFIED_QUERY } from '@constants/auth'
 import { ROUTES } from '@constants/routes'
 import { authErrorKey } from '@helpers/authError'
@@ -12,7 +12,7 @@ import { ErrorAlert } from '@components/ui/ErrorAlert'
 
 export const VerifyEmailForm = ({ token, returnTo }: { token?: string; returnTo?: string }) => {
   const t = useTranslations('Auth')
-  const router = useRouter()
+  const router = usePendingRouter()
   const [pending, setPending] = useState(false)
   const [error, setError] = useState<unknown>(null)
   const safeReturn = isSafeReturnPath(returnTo) ? returnTo : undefined

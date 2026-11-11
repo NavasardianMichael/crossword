@@ -3,7 +3,7 @@
 import { useEffect, useState } from 'react'
 import { initializePaddle, type Paddle, type PaddleEventData } from '@paddle/paddle-js'
 import { useTranslations } from 'next-intl'
-import { useRouter } from '@i18n/navigation'
+import { usePendingRouter } from '@hooks/useNavigationPending'
 import { PADDLE_CLIENT_TOKEN, PADDLE_ENVIRONMENT, PADDLE_TRANSACTION_QUERY, PAYMENT_ID_QUERY } from '@constants/paddle'
 import { ROUTES } from '@constants/routes'
 import { reportError } from '@helpers/reportError'
@@ -20,7 +20,7 @@ import { Spinner } from '@components/ui/Spinner'
  */
 export const PaddleCheckout = () => {
   const t = useTranslations('Payments')
-  const router = useRouter()
+  const router = usePendingRouter()
   const [error, setError] = useState<unknown>(() =>
     PADDLE_CLIENT_TOKEN ? null : new Error('NEXT_PUBLIC_PADDLE_CLIENT_TOKEN is not set: the checkout overlay cannot open')
   )

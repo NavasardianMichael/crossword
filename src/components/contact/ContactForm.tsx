@@ -61,7 +61,7 @@ export const ContactForm = () => {
   const tooMany = axios.isAxiosError(error) && error.response?.status === 429
 
   return (
-    <Form<ContactPayload> form={form} layout='vertical' requiredMark={false} onFinish={onFinish} disabled={sending}>
+    <Form<ContactPayload> form={form} layout='vertical' noValidate requiredMark={false} onFinish={onFinish} disabled={sending}>
       <Form.Item name='fullName' label={t('fullName')} rules={[{ required: true, whitespace: true, message: t('required') }]}>
         <Input size='large' autoComplete='name' maxLength={100} />
       </Form.Item>

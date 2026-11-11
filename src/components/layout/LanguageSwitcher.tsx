@@ -5,6 +5,7 @@ import { Dropdown } from 'antd'
 import { Check, ChevronDown, Globe } from 'lucide-react'
 import { useLocale, useTranslations } from 'next-intl'
 import { confirmLeave } from '@hooks/useLeaveGuard'
+import { useNavigationPending } from '@hooks/useNavigationPending'
 import { setLocale } from '@i18n/actions'
 import { isLocale, type Locale, LOCALE_LABELS, LOCALES } from '@i18n/config'
 import { usePathname, useRouter } from '@i18n/navigation'
@@ -18,6 +19,8 @@ import { Button } from '@components/ui/Button'
  */
 export const LanguageSwitcher = ({ className }: { className?: string }) => {
   const [isPending, startTransition] = useTransition()
+  // Its own transition (the locale cookie, then the route), so it reports to the progress bar itself.
+  useNavigationPending(isPending)
   const locale = useLocale()
   const t = useTranslations('Common')
   const router = useRouter()

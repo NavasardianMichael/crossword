@@ -61,7 +61,7 @@ export const SignInForm = ({ returnTo, googleError, verified }: SignInFormProps)
       {verified && <Alert type='success' showIcon title={t('verifiedNotice')} />}
       {googleError && <Alert type='warning' showIcon title={t(`googleErrors.${googleError}`)} />}
       <GoogleButton returnTo={safeReturn} />
-      <Form<Values> layout='vertical' requiredMark={false} onFinish={onFinish} disabled={pending}>
+      <Form<Values> layout='vertical' noValidate requiredMark={false} onFinish={onFinish} disabled={pending}>
         <Form.Item
           name='email'
           label={t('email')}
@@ -97,7 +97,7 @@ export const SignInForm = ({ returnTo, googleError, verified }: SignInFormProps)
             }
           />
         )}
-        <Button type='submit' fullWidth loading={pending}>
+        <Button type='submit' fullWidth loading={pending} className='mt-4'>
           {t('submitSignIn')}
         </Button>
       </Form>

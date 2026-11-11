@@ -9,7 +9,7 @@ import { usePlayStore, usePlayStoreBase } from '@store/puzzle/play/store'
 import { useCoarsePointer } from '@hooks/useCoarsePointer'
 import { useGameLayout } from '@hooks/useGameLayout'
 import { confirmLeave, useLeaveGuard } from '@hooks/useLeaveGuard'
-import { useRouter } from '@i18n/navigation'
+import { usePendingRouter } from '@hooks/useNavigationPending'
 import type { PuzzleView } from '@constants/puzzle'
 import { puzzlePath } from '@constants/routes'
 import { cn } from '@helpers/cn'
@@ -50,7 +50,7 @@ type LoadState = { status: 'loading' } | { status: 'ready' } | { status: 'missin
 export const PuzzleBoard = ({ id, initial }: PuzzleBoardProps) => {
   const t = useTranslations('Play')
   const tNav = useTranslations('Nav')
-  const router = useRouter()
+  const router = usePendingRouter()
   const coarse = useCoarsePointer()
   const game = useGameLayout()
   const [load, setLoad] = useState<LoadState>({ status: 'loading' })
