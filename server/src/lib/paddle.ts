@@ -40,17 +40,17 @@ const post = async <T>(operation: string, path: string, body: unknown): Promise<
   return json.data
 }
 
-export type CreatedTransaction = { id: string; checkout?: { url?: string | null } | null }
+export type CreatedTransaction = { id: string }
 
 /**
- * A draft transaction for one price. Paddle answers with `checkout.url` = our `checkoutUrl` plus
- * `?_ptxn=txn_…`; that page loads Paddle.js, which opens the overlay for the transaction.
+ * A draft transaction for one price. No `checkout.url` is passed: Paddle accepts only approved
+ * domains there, which rules out localhost in development. Our checkout page opens the overlay
+ * from the transaction id instead, and Paddle.js itself opens only on approved domains in live.
  */
-export const createTransaction = (input: { priceId: string; checkoutUrl: string; customData: Record<string, string> }) =>
+export const createTransaction = (input: { priceId: string; customData: Record<string, string> }) =>
   post<CreatedTransaction>('checkout', '/transactions', {
     items: [{ price_id: input.priceId, quantity: 1 }],
     custom_data: input.customData,
-    checkout: { url: input.checkoutUrl },
   })
 
 type PricingPreview = { details?: { line_items?: { price?: { id?: string }; formatted_totals?: { total?: string } }[] } }

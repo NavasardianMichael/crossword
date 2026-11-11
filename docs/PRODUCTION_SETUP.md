@@ -36,7 +36,8 @@ in production:
 | **Server** | `server/.env.development.local`, from [server/.env.example](../server/.env.example) | `server/.env.production.local` on your PC → `ENV_API_BASE64` (steps 5–6) → the pipeline writes `/home/michael/apps/crossword/shared/.env.api` |
 
 The app's values are all public: every `NEXT_PUBLIC_*` value ends up in the browser bundle. The
-server's are secret: the database password and the Gemini key.
+server's are secret: the database password, the session secret, and the Gemini, Google, mail
+and Paddle keys.
 
 ## 1. DNS **[DNS]** (once)
 
@@ -178,21 +179,77 @@ it is the same command in every terminal):
 node -e "console.log(require('crypto').randomBytes(32).toString('hex'))"
 ```
 
-`server/.env.production.local` (git-ignored). Put the password after `crossword:` and your key
-from https://aistudio.google.com/apikey in `GEMINI_KEY`:
+Then the session secret, generated the same way and kept the same way. It signs every sign-in
+cookie. Changing it later signs everyone out. Without it the API falls back to a public dev
+value, and anyone could forge a session and spend another account's credits:
 
-```dotenv
-DATABASE_URL="postgresql://crossword:<that password>@127.0.0.1:5007/crossword?schema=public"
-CORS_ORIGIN="https://crossword.eapps.site"
-GEMINI_KEY=""
-VERIFY_ENTRIES="true"
-POOL_DAILY_CALL_BUDGET="300"
+```bash
+node -e "console.log(require('crypto').randomBytes(64).toString('hex'))"
 ```
 
-The first three are required. The other keys in part A of
-[server/.env.example](../server/.env.example) (`GEMINI_MODELS`, `VERIFY_ENTRIES`,
-`POOL_DAILY_CALL_BUDGET`, `POOL_REFILL_*`) are optional. Leave out `NODE_ENV`,
-`PORT` and `HOST`: the pipeline sets them itself.
+`server/.env.production.local` (git-ignored). This is every variable the API reads, each set to
+its production value or to the default it falls back to when left out. Fill in the four
+required ones: the database password after `crossword:`, the session secret, and your key from
+https://aistudio.google.com/apikey in `GEMINI_KEY`:
+
+```dotenv
+# --- Required ---------------------------------------------------------------
+DATABASE_URL="postgresql://crossword:<that password>@127.0.0.1:5007/crossword?schema=public"
+# Must equal NEXT_PUBLIC_SITE_URL (step 6), no trailing slash.
+CORS_ORIGIN="https://crossword.eapps.site"
+JWT_SECRET="<the session secret>"
+# Empty = no generation: puzzles are built from the seed words only.
+GEMINI_KEY=""
+
+# --- Gemini and the word pool (defaults) -------------------------------------
+# Model chain, cheapest first, name[:thinkingLevel].
+GEMINI_MODELS="gemini-3.5-flash-lite:MINIMAL,gemini-3.6-flash:LOW,gemini-3.8-flash:LOW"
+# The second "judge" pass over every generated batch.
+VERIFY_ENTRIES="true"
+# Gemini calls per UTC day, generation and judge together.
+POOL_DAILY_CALL_BUDGET="300"
+# The background job that keeps the word pool stocked.
+POOL_REFILL_ENABLED="true"
+POOL_REFILL_INTERVAL_MS="60000"
+POOL_REFILL_TARGET="300"
+POOL_REFILL_MAX_CALLS="2"
+
+# --- Accounts (defaults) -----------------------------------------------------
+# The sign-in cookie's domain. Left out, it is CORS_ORIGIN's hostname, which also covers api.
+COOKIE_DOMAIN="crossword.eapps.site"
+# Google sign-in. Empty client id or secret hides the button.
+GOOGLE_CLIENT_ID=""
+GOOGLE_CLIENT_SECRET=""
+GOOGLE_REDIRECT_URI="https://api.crossword.eapps.site/identity/google/callback"
+# Mail engine for verification and password-reset links. Empty = production refuses to send.
+MAIL_API_URL=""
+MAIL_API_KEY=""
+
+# --- Paddle (defaults; values from docs/PADDLE_SETUP.md, live part) ----------
+# Empty = the shop is closed: packs show list prices, checkout answers 503.
+PADDLE_API_KEY=""
+# Comma-separated while rotating secrets.
+PADDLE_WEBHOOK_SECRET=""
+# "true" only for the sandbox. Live is "false".
+PADDLE_SANDBOX="false"
+PADDLE_PRICE_ID_STARTER=""
+PADDLE_PRICE_ID_POPULAR=""
+PADDLE_PRICE_ID_BIG=""
+# Guest devices one IP address may take a free puzzle for each month.
+GUEST_FREE_PER_IP="3"
+```
+
+Never set these in this file:
+
+- `NODE_ENV`, `PORT` and `HOST`: the pipeline sets them itself.
+- `RATE_LIMIT_ENABLED` and `BILLING_ENABLED`: they are switches for local e2e runs.
+  `RATE_LIMIT_ENABLED="false"` would turn off the API's per-IP rate limits in production.
+  `BILLING_ENABLED` is ignored in production.
+
+Do not set a value to `""` unless the comment above it says empty is allowed. An empty
+`COOKIE_DOMAIN` makes the cookie host-only, so the site stops seeing the sign-in. An empty
+`GOOGLE_REDIRECT_URI` turns Google sign-in off. To use a default, leave the line out or copy the
+value shown.
 
 Generate the `ENV_API_BASE64` value from it, straight to the clipboard. `clip` is Windows and
 works in PowerShell, Command Prompt and Git Bash alike (on macOS use `| pbcopy`):

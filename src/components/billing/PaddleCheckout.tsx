@@ -1,7 +1,7 @@
 'use client'
 
 import { useEffect, useState } from 'react'
-import { initializePaddle, type PaddleEventData } from '@paddle/paddle-js'
+import { initializePaddle, type Paddle, type PaddleEventData } from '@paddle/paddle-js'
 import { useTranslations } from 'next-intl'
 import { useRouter } from '@i18n/navigation'
 import { PADDLE_CLIENT_TOKEN, PADDLE_ENVIRONMENT, PADDLE_TRANSACTION_QUERY, PAYMENT_ID_QUERY } from '@constants/paddle'
@@ -12,8 +12,9 @@ import { ErrorAlert } from '@components/ui/ErrorAlert'
 import { Spinner } from '@components/ui/Spinner'
 
 /**
- * Paddle's "default payment link". The API's checkout URL is this page plus `?_ptxn=txn_…`;
- * Paddle.js, once initialized, sees the parameter and opens the overlay for that transaction.
+ * The checkout page. The API's checkout URL is this page plus `?_ptxn=txn_…`, the shape of
+ * Paddle's "default payment link"; Paddle.js, once initialized, sees the parameter and opens
+ * the overlay for that transaction.
  * Paid → the return page waits for the webhook. Closed unpaid → back to the credits page.
  * Docs: https://developer.paddle.com/build/transactions/default-payment-link
  */
@@ -38,9 +39,12 @@ export const PaddleCheckout = () => {
 
     let cancelled = false
     let completed = false
+    let paddle: Paddle | undefined
     const onEvent = (event: PaddleEventData) => {
       if (event.name === 'checkout.completed') {
         completed = true
+        // The overlay lives on <body> and outlives a client-side navigation; our return page takes over.
+        paddle?.Checkout.close()
         router.replace({ pathname: ROUTES.paymentsReturn, query: { [PAYMENT_ID_QUERY]: transactionId } })
       } else if (event.name === 'checkout.closed' && !completed) {
         router.replace(ROUTES.credits)
@@ -48,8 +52,9 @@ export const PaddleCheckout = () => {
     }
 
     initializePaddle({ environment: PADDLE_ENVIRONMENT, token: PADDLE_CLIENT_TOKEN, eventCallback: onEvent })
-      .then((paddle) => {
-        if (!paddle) throw new Error('Paddle.js did not load')
+      .then((instance) => {
+        if (!instance) throw new Error('Paddle.js did not load')
+        paddle = instance
       })
       .catch((failure: unknown) => {
         reportError(failure, 'paddle:init')

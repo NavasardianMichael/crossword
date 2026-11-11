@@ -34,7 +34,7 @@ the smaller size is charged.
 | `popular` | 600 | $11.99 | $0.020 | 54 |
 | `big` | 2000 | $29.99 | $0.015 | 181 |
 
-The real price is the Paddle price (`PADDLE_PRICE_ID_*`). Paddle localizes currency and adds tax.
+The real price is the Paddle price (`PADDLE_PRICE_ID_*`). Paddle localizes the currency. Prices include tax: the buyer pays the price shown, and VAT or sales tax comes out of it.
 `CREDIT_PACKS.usd` is only shown until Paddle answers.
 
 ## Costs (why these numbers)

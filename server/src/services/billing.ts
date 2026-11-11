@@ -126,9 +126,14 @@ export const listPacks = async (customerIp: string | undefined): Promise<PackVie
   }))
 }
 
+/** Paddle's own reason is added outside production; the web shows translated copy either way. */
+const checkoutFailed = (detail: string): HttpError =>
+  new HttpError(502, config.nodeEnv === 'production' ? 'checkout_failed' : `checkout_failed: ${detail}`, 502)
+
 /**
  * Opens a Paddle transaction for one pack and records it as a pending `Payment`. The browser
- * goes to `checkoutUrl` — our `/[lang]/payments/checkout` page, where Paddle.js opens the overlay.
+ * goes to `checkoutUrl` — our `/[lang]/payments/checkout?_ptxn=txn_…`, where Paddle.js opens
+ * the overlay for that transaction (the same URL Paddle builds from a default payment link).
  */
 export const startCheckout = async (userId: string, pack: CreditPackId, locale: Locale): Promise<{ checkoutUrl: string; paymentId: string }> => {
   const priceId = priceIdOf(pack)
@@ -137,17 +142,12 @@ export const startCheckout = async (userId: string, pack: CreditPackId, locale: 
 
   let transaction: CreatedTransaction
   try {
-    transaction = await createTransaction({
-      priceId,
-      checkoutUrl: `${config.corsOrigin}/${locale}/payments/checkout`,
-      customData: { userId, pack },
-    })
+    transaction = await createTransaction({ priceId, customData: { userId, pack } })
   } catch (error) {
-    if (error instanceof PaddleError) throw new HttpError(502, 'checkout_failed', 502)
+    if (error instanceof PaddleError) throw checkoutFailed(`${error.message} [request ${error.requestId ?? '?'}]`)
     throw error
   }
-  const checkoutUrl = transaction.checkout?.url
-  if (!checkoutUrl) throw new HttpError(502, 'checkout_failed', 502)
+  const checkoutUrl = `${config.corsOrigin}/${locale}/payments/checkout?_ptxn=${encodeURIComponent(transaction.id)}`
 
   await prisma.payment.create({ data: { id: transaction.id, userId, pack, priceId, credits } })
   console.info('[billing] checkout opened', { paymentId: transaction.id, userId, pack })
