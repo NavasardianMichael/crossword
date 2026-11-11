@@ -185,7 +185,7 @@ export const PuzzleBoard = ({ id, initial }: PuzzleBoardProps) => {
         </div>
 
         <aside aria-label={t('allClues')} className='hidden min-h-0 py-2 pe-6 lg:block [grid-area:clues]'>
-          <ClueLists className='panel h-full overflow-y-auto p-4' />
+          <ClueLists className='panel thin-scrollbar h-full overflow-y-auto p-4' />
         </aside>
 
         {/* Tall enough for a two-line clue, so the grid keeps still from word to word. */}
@@ -205,13 +205,14 @@ export const PuzzleBoard = ({ id, initial }: PuzzleBoardProps) => {
   // How much of the viewport the grid must leave to the chrome around it (header, heading,
   // toolbar, clue bar, zoom buttons), so it never scrolls away.
   const boardStyle = {
-    maxWidth: `min(100%, 46rem, calc((100dvh - 24.25rem) * ${puzzle.width} / ${puzzle.height}))`,
+    maxWidth: `min(100%, 56rem, calc((100dvh - 24.25rem) * ${puzzle.width} / ${puzzle.height}))`,
   } as CSSProperties
 
   return (
-    <div className='container-page grid grid-cols-[minmax(0,1fr)_20rem] items-start gap-6 pt-6 xl:grid-cols-[17rem_minmax(0,1fr)_17rem]'>
+    // Wider than the site's other pages: the grid and both clue columns use the whole screen.
+    <div className='container-page grid max-w-[104rem] grid-cols-[minmax(0,1fr)_20rem] items-start gap-6 pt-6 xl:grid-cols-[19rem_minmax(0,1fr)_19rem] min-[96rem]:grid-cols-[22rem_minmax(0,1fr)_22rem]'>
       <aside aria-label={t('across')} className='sticky top-20 hidden xl:block'>
-        <ClueLists only='across' className='panel max-h-[calc(100dvh-7rem)] overflow-y-auto p-4' />
+        <ClueLists only='across' className='panel thin-scrollbar max-h-[calc(100dvh-7rem)] overflow-y-auto p-4' />
       </aside>
 
       <div className='flex min-w-0 flex-col gap-3'>
@@ -248,8 +249,8 @@ export const PuzzleBoard = ({ id, initial }: PuzzleBoardProps) => {
       </div>
 
       <aside aria-label={t('allClues')} className='sticky top-20'>
-        <ClueLists className='panel max-h-[calc(100dvh-7rem)] overflow-y-auto p-4 xl:hidden' />
-        <ClueLists only='down' className='panel hidden max-h-[calc(100dvh-7rem)] overflow-y-auto p-4 xl:flex' />
+        <ClueLists className='panel thin-scrollbar max-h-[calc(100dvh-7rem)] overflow-y-auto p-4 xl:hidden' />
+        <ClueLists only='down' className='panel thin-scrollbar hidden max-h-[calc(100dvh-7rem)] overflow-y-auto p-4 xl:flex' />
       </aside>
       {dialogs}
     </div>

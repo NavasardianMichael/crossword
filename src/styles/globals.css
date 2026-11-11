@@ -461,6 +461,10 @@
   padding-bottom: var(--safe-bottom);
 }
 
+@utility thin-scrollbar {
+  scrollbar-width: thin;
+}
+
 @utility no-scrollbar {
   scrollbar-width: none;
   &::-webkit-scrollbar {
