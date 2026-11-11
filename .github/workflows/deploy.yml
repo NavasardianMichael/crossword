@@ -342,6 +342,10 @@ jobs:
           } >> /tmp/env.api
           echo "env file: $(grep -c '=' /tmp/env.api) assignments"
           echo "keys:"; sed -n 's/^\([A-Z_]*\)=.*/  - \1/p' /tmp/env.api
+          if ! grep -Eq '^DATABASE_URL=.+' /tmp/env.api; then
+            echo "::error::ENV_API_BASE64 has no non-empty DATABASE_URL line (regenerate it: pnpm env:base64 production)"
+            exit 1
+          fi
 
       - name: Copy artifacts to host
         run: |
@@ -524,7 +528,16 @@ jobs:
             # Explicit: the postinstall above does not always locate the schema.
             ./node_modules/.bin/prisma generate --schema prisma/schema.prisma
 
-            set -a; . "$APP_DIR/shared/.env.api"; set +a
+            # Read literally, as systemd's EnvironmentFile does, never sourced: as shell code an
+            # `&` in a URL (`?schema=public&connection_limit=5`) backgrounds the assignment and
+            # a `$` in a password expands, so DATABASE_URL arrives empty or wrong.
+            while IFS= read -r line || [ -n "$line" ]; do
+              [[ "$line" =~ ^[A-Za-z_][A-Za-z0-9_]*= ]] || continue
+              key="${line%%=*}"; value="${line#*=}"
+              case "$value" in \"*\" | \'*\') value="${value:1:${#value}-2}" ;; esac
+              export "$key=$value"
+            done < "$APP_DIR/shared/.env.api"
+            : "${DATABASE_URL:?DATABASE_URL is not set in $APP_DIR/shared/.env.api}"
             ensure_database "$NEW/docker-compose.prod.yml"
             ./node_modules/.bin/prisma migrate deploy --schema prisma/schema.prisma
             # The hand-written seed words, prisma/seed/entries.{en,ru,hy}.json. Idempotent (it
