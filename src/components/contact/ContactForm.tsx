@@ -84,13 +84,13 @@ export const ContactForm = () => {
           showCount
         />
       </Form.Item>
-      <div className='absolute -left-[10000px] h-px w-px overflow-hidden' aria-hidden='true'>
+      <div className='absolute left-[-10000px] h-px w-px overflow-hidden' aria-hidden='true'>
         <Form.Item name='website' label='Website'>
           <Input tabIndex={-1} autoComplete='off' />
         </Form.Item>
       </div>
       {error ? <ErrorAlert error={error} message={tooMany ? t('tooMany') : undefined} className='mb-4' /> : null}
-      <Button type='submit' fullWidth loading={sending}>
+      <Button type='submit' fullWidth loading={sending} className='mt-4'>
         {t('submit')}
       </Button>
     </Form>

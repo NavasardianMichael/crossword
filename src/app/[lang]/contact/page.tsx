@@ -36,7 +36,7 @@ export default async function ContactPage() {
           { name: nav('contact'), path: ROUTES.contact },
         ])}
       />
-      <div className='container-page max-w-lg pb-16'>
+      <div className='container-page max-w-2xl pb-16'>
         <PageHeader title={t('title')} subtitle={t('subtitle')} />
         <div className='panel p-5 sm:p-7'>
           <ContactForm />

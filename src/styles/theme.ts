@@ -79,6 +79,7 @@ export const antdTheme: ThemeConfig = {
       itemHoverBg: CREAM[300],
       itemSelectedBg: WHITE,
       itemSelectedColor: INK[900],
+      trackPadding: 6,
     },
     Select: { optionSelectedBg: CORAL[100], optionSelectedColor: INK[900], optionActiveBg: CREAM[100] },
     Input: { activeBorderColor: CORAL[500], hoverBorderColor: INK[300] },

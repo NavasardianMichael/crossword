@@ -153,10 +153,14 @@ export const CreditsView = () => {
             const badge = BADGES[pack.id]
             return (
               <li key={pack.id}>
-                <Card className={cn('flex h-full flex-col gap-2', pack.id === 'popular' && 'border-ink-900 shadow-chunky')}>
-                  <div className='flex items-center justify-between gap-2'>
+                <Card className={cn('flex h-full flex-col gap-2 hyphens-auto wrap-anywhere', pack.id === 'popular' && 'border-ink-900 shadow-chunky')}>
+                  <div className='flex flex-wrap items-center justify-between gap-2'>
                     <h3 className='font-display font-bold'>{t(`packs.${pack.id}`)}</h3>
-                    {badge ? <span className='rounded-full bg-sun-200 px-2.5 py-0.5 text-caption font-bold'>{t(badge)}</span> : null}
+                    {badge ? (
+                      <span className='max-w-full rounded-full bg-sun-200 px-2.5 py-0.5 text-caption font-bold wrap-anywhere'>
+                        {t(badge)}
+                      </span>
+                    ) : null}
                   </div>
                   <p className='font-display text-h2 font-extrabold'>{tAll('Billing.credits', { count: pack.credits })}</p>
                   <p className='text-h3 font-bold'>{pack.price ?? format.number(pack.usd, { style: 'currency', currency: 'USD' })}</p>
