@@ -163,7 +163,7 @@ export const CreditsView = () => {
                   <p className='text-body-sm text-ink-500'>{t('packPuzzles', { count: Math.floor(pack.credits / TYPICAL_PUZZLE) })}</p>
                   <div className='mt-auto pt-2'>
                     {status && !status.signedIn ? (
-                      <ButtonLink href={signInHref} variant='outline' fullWidth>
+                      <ButtonLink href={signInHref} variant='outline' fullWidth wrap>
                         {t('signInToBuy')}
                       </ButtonLink>
                     ) : (
