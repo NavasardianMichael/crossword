@@ -2,7 +2,7 @@ import { ImageResponse } from 'next/og'
 import { createTranslator } from 'next-intl'
 import { readFile } from 'node:fs/promises'
 import path from 'node:path'
-import { LOCALE_LABELS } from '@i18n/config'
+import { getDirection, LOCALE_LABELS } from '@i18n/config'
 import { OG_IMAGE_SIZE } from '@constants/app'
 import type { Locale, PuzzleView } from '@constants/puzzle'
 import { getSiteUrl } from '@helpers/url'
@@ -38,8 +38,16 @@ const loadFonts = (): Promise<SocialCardFont[]> => {
   return fonts
 }
 
+/**
+ * satori lays text out left to right only (Hebrew comes out reversed), and its shaper crashes on
+ * Arabic script (`لا`, and the GSUB tables of Nunito and Noto Sans Armenian). Right-to-left
+ * languages get the English card.
+ */
+const cardLocale = (locale: Locale): Locale => (getDirection(locale) === 'rtl' ? 'en' : locale)
+
 /** Route handlers sit outside `[lang]`, so the request config cannot pick the catalogue: it is loaded here. */
-const translator = async (locale: Locale) => {
+const translator = async (requested: Locale) => {
+  const locale = cardLocale(requested)
   const messages = (await import(`../messages/${locale}.json`)).default
   return createTranslator({ locale, messages })
 }
@@ -47,7 +55,7 @@ const translator = async (locale: Locale) => {
 /** The page's language first among the language chips. */
 export const renderSiteCard = async (locale: Locale, init?: ResponseInit) => {
   const t = await translator(locale)
-  const languages = [LOCALE_LABELS[locale]]
+  const languages = [LOCALE_LABELS[cardLocale(locale)]]
   return new ImageResponse(
     <SiteCard
       appName={t('Common.appName')}
@@ -60,7 +68,7 @@ export const renderSiteCard = async (locale: Locale, init?: ResponseInit) => {
   )
 }
 
-/** In the puzzle's own language, whoever shares it. */
+/** In the puzzle's own language, whoever shares it (English for a right-to-left one, see `cardLocale`). */
 export const renderPuzzleCard = async (puzzle: PuzzleView, init?: ResponseInit) => {
   const t = await translator(puzzle.locale)
   return new ImageResponse(
