@@ -57,7 +57,7 @@ export const LanguageSwitcher = ({ className }: { className?: string }) => {
         size='sm'
         aria-label={t('chooseLanguage')}
         loading={isPending}
-        className={cn('h-11 gap-1.5 px-3', className)}
+        className={cn('h-11 gap-1 px-2.5 xl:gap-1.5 xl:px-3', className)}
       >
         <Globe aria-hidden className='size-5' />
         <span className='hidden uppercase sm:inline'>{locale}</span>
