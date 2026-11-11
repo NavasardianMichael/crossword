@@ -61,7 +61,6 @@ export const SignInForm = ({ returnTo, googleError, verified }: SignInFormProps)
       {verified && <Alert type='success' showIcon title={t('verifiedNotice')} />}
       {googleError && <Alert type='warning' showIcon title={t(`googleErrors.${googleError}`)} />}
       <GoogleButton returnTo={safeReturn} />
-      <p className='text-center text-caption font-bold tracking-wide text-ink-500 uppercase'>{t('or')}</p>
       <Form<Values> layout='vertical' requiredMark={false} onFinish={onFinish} disabled={pending}>
         <Form.Item
           name='email'

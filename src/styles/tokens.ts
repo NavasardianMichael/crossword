@@ -135,6 +135,14 @@ export const SHARE_BRAND_COLORS = {
   x: '#000000',
 } as const
 
+/** The four colours of Google's "G" on the sign-in button (SVG fills, not utilities). */
+export const GOOGLE_BRAND_COLORS = {
+  blue: '#4285f4',
+  green: '#34a853',
+  yellow: '#fbbc05',
+  red: '#ea4335',
+} as const
+
 /** Corner radius in px — generous and friendly. */
 export const RADII = { sm: 8, base: 12, lg: 20 } as const
 

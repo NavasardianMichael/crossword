@@ -67,7 +67,6 @@ export const SignUpForm = ({ returnTo }: { returnTo?: string }) => {
   return (
     <div className='flex flex-col gap-4'>
       <GoogleButton returnTo={safeReturn} />
-      <p className='text-center text-caption font-bold tracking-wide text-ink-500 uppercase'>{t('or')}</p>
       <Form<Values> layout='vertical' requiredMark={false} onFinish={onFinish} disabled={pending}>
         <Form.Item name='fullName' label={t('name')} rules={[{ required: true, whitespace: true, message: t('required') }]}>
           <Input size='large' autoComplete='name' maxLength={100} />
