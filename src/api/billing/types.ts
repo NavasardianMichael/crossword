@@ -1,5 +1,6 @@
 import type { Endpoint } from '@interfaces/api'
 import type { CreditPackId, Locale } from '@constants/puzzle'
+import type { ClientInfo } from '@helpers/clientInfo'
 
 /** `server/src/services/billing.ts` — `BillingStatus`. */
 export type BillingStatus = {
@@ -23,7 +24,8 @@ export type CreditPack = {
 
 export type PaymentStatus = { status: 'pending' | 'completed' | 'failed' | 'refunded'; credits: number }
 
-export type CheckoutPayload = { pack: CreditPackId; locale: Locale }
+/** `client`: what the browser says about its device, for the admin's purchase mail only. */
+export type CheckoutPayload = { pack: CreditPackId; locale: Locale; client?: ClientInfo }
 export type Checkout = { checkoutUrl: string; paymentId: string }
 
 export type GetBillingStatusAPI = Endpoint<{ payload: void; response: BillingStatus; processed: BillingStatus }>

@@ -787,8 +787,9 @@
     "successTitle": "Îți mulțumim!",
     "successText": "{count, plural, one {# credit a fost adăugat} few {# credite au fost adăugate} other {# de credite au fost adăugate}} la balanța ta.",
     "pendingText": "Plata a fost procesată. Creditele vor apărea în balanța ta în câteva minute.",
-    "failedText": "Plata nu a reșit, așa că nu ai fost taxat. Poți încerca din nou.",
     "verifyError": "Nu am putut confirma plata momentan. Dacă ai fost taxat, creditele vor sosi oricum — verifică-ți balanța în câteva minute.",
+    "lateHelp": "Nu trebuie să aștepți pe această pagină. Dacă creditele nu au ajuns într-o oră, scrie-ne și rezolvăm.",
+    "contactUs": "Scrie-ne",
     "makePuzzle": "Creează un puzzle"
   },
   "Contact": {

@@ -20,6 +20,7 @@ import {
 } from '@constants/puzzle'
 import { ROUTES } from '@constants/routes'
 import { trackEvent } from '@helpers/analytics'
+import { collectClientInfo } from '@helpers/clientInfo'
 import { cn } from '@helpers/cn'
 import { reportError } from '@helpers/reportError'
 import { AppLink, ButtonLink } from '@components/ui/bare/AppLink'
@@ -67,7 +68,7 @@ export const CreditsView = () => {
     setBuying(pack)
     setCheckoutError(null)
     try {
-      const { checkoutUrl } = await startCheckoutAPI({ pack, locale })
+      const { checkoutUrl } = await startCheckoutAPI({ pack, locale, client: collectClientInfo() })
       trackEvent('begin_checkout', { pack })
       // Paddle's URL is our own checkout page plus `?_ptxn=…`; a full load, so Paddle.js starts clean.
       window.location.assign(checkoutUrl)

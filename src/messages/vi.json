@@ -786,8 +786,9 @@
     "successTitle": "Cảm ơn bạn!",
     "successText": "{count, plural, other {# tín dụng đã được}} cộng vào số dư của bạn.",
     "pendingText": "Thanh toán của bạn đã thành công. Tín dụng sẽ xuất hiện trong số dư sau vài phút.",
-    "failedText": "Thanh toán không thành công nên bạn chưa bị trừ tiền. Bạn có thể thử lại.",
     "verifyError": "Hiện chưa thể xác nhận thanh toán. Nếu bạn đã bị trừ tiền, tín dụng vẫn sẽ được cộng — hãy kiểm tra lại số dư sau vài phút.",
+    "lateHelp": "Bạn không cần chờ ở trang này. Nếu sau một giờ tín dụng vẫn chưa được cộng, hãy nhắn cho chúng tôi để được hỗ trợ.",
+    "contactUs": "Liên hệ với chúng tôi",
     "makePuzzle": "Tạo câu đố"
   },
   "Contact": {

@@ -90,6 +90,26 @@ Approved `refund` / `chargeback` adjustments take back the pack's credits (a sha
 partial refund), but never more than the balance holds: credits already spent stay spent. Each
 adjustment is applied once (`CreditEntry.adjustmentId` is unique). Refunds are issued in the Paddle dashboard.
 
+## Admin mails
+
+The admin inbox (the mail engine's internal endpoint) hears of every purchase step —
+`server/src/services/paymentNotifications.ts`, built by `paymentMail.ts`:
+
+| Mail | When | Device facts |
+|---|---|---|
+| Checkout opened | `POST /billing/checkout` opened a Paddle transaction | yes — the click on "Buy" |
+| Checkout FAILED to open | Paddle refused the transaction (bad key or price id?) | yes |
+| Credits added | the webhook completed the payment (once, by the status guard) | no — a webhook |
+| Refund approved / CHARGEBACK | an approved adjustment took credits back (once per adjustment) | no |
+| Payment NOT credited — settle it by hand | a completed transaction with no `Payment` row, or not the pack's price | no |
+
+- Sent only in production; elsewhere each mail prints to the API log.
+- Fire and forget: a failed mail is logged, never fails a checkout or a webhook.
+- Checkout mails are capped at 30 an hour (the engine's budget is shared with account mail);
+  mails about money that moved are never capped.
+- Device facts are what the request and the browser say (`lib/request-info.ts`,
+  `src/helpers/clientInfo.ts`): unverified, for reading only, never for a decision.
+
 ## Changing prices
 
 - Puzzle price: `SIZE_CREDITS` / `DIFFICULTY_CREDITS` in both twin files.

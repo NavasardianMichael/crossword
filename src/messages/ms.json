@@ -786,8 +786,9 @@
     "successTitle": "Thank you!",
     "successText": "{count, plural, one {# credit was} other {# credits were}} added to your balance.",
     "pendingText": "Your payment went through. The credits will appear on your balance within a few minutes.",
-    "failedText": "The payment didn't go through, so nothing was charged. You can try again.",
     "verifyError": "We couldn't confirm the payment right now. If you were charged, the credits will still arrive — check your balance in a few minutes.",
+    "lateHelp": "There's no need to wait on this page. If the credits haven't arrived within an hour, write to us and we'll sort it out.",
+    "contactUs": "Contact us",
     "makePuzzle": "Make a puzzle"
   },
   "Contact": {

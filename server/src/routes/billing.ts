@@ -3,6 +3,7 @@ import { fail, ok } from '../lib/api-response.js'
 import { verifyWebhookSignature } from '../lib/paddle.js'
 import { payerOf } from '../lib/payer.js'
 import { isCreditPackId, isLocale } from '../lib/puzzle.js'
+import { readRequestInfo } from '../lib/request-info.js'
 import { requireAuth, sessionOf } from '../middleware/auth.js'
 import { asyncHandler } from '../middleware/error.js'
 import { rateLimit } from '../middleware/rateLimit.js'
@@ -30,7 +31,10 @@ billingRouter.get(
   })
 )
 
-/** POST /billing/checkout — `{ pack, locale }`: a Paddle checkout for one pack. Signed in only. */
+/**
+ * POST /billing/checkout — `{ pack, locale, client? }`: a Paddle checkout for one pack. Signed in
+ * only. `client` is what the browser says about its device, for the admin mail.
+ */
 billingRouter.post(
   '/checkout',
   requireAuth,
@@ -39,7 +43,7 @@ billingRouter.post(
     const { pack, locale } = req.body ?? {}
     if (!isCreditPackId(pack)) return fail(res, 'Unsupported pack', 400)
     if (!isLocale(locale)) return fail(res, 'Unsupported locale', 400)
-    ok(res, await startCheckout(sessionOf(req).userId, pack, locale), 201)
+    ok(res, await startCheckout(sessionOf(req).userId, pack, locale, readRequestInfo(req)), 201)
   })
 )
 

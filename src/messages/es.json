@@ -787,8 +787,9 @@
     "successTitle": "¡Muchas gracias!",
     "successText": "{count, plural, one {Se ha añadido # crédito} other {Se han añadido # créditos}} a tu saldo.",
     "pendingText": "Tu pago se ha realizado con éxito. Los créditos aparecerán en tu saldo en unos minutos.",
-    "failedText": "El pago no se ha podido procesar, por lo que no se te ha cobrado nada. Puedes volver a intentarlo.",
     "verifyError": "No hemos podido confirmar el pago en este momento. Si se te cobró, los créditos llegarán de todos modos: revisa tu saldo en unos minutos.",
+    "lateHelp": "No hace falta que esperes en esta página. Si los créditos no han llegado en una hora, escríbenos y lo resolveremos.",
+    "contactUs": "Escríbenos",
     "makePuzzle": "Crear un crucigrama"
   },
   "Contact": {

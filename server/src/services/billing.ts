@@ -1,9 +1,17 @@
 import type { Prisma } from '@prisma/client'
+import {
+  notifyAdjustment,
+  notifyCheckoutFailed,
+  notifyCheckoutStarted,
+  notifyCreditsAdded,
+  notifyUnmatchedPayment,
+} from './paymentNotifications.js'
 import { config, isPaddleConfigured } from '../config.js'
 import { type CreatedTransaction, createTransaction, PaddleError, previewPrices } from '../lib/paddle.js'
 import type { Payer } from '../lib/payer.js'
 import { prisma } from '../lib/prisma.js'
 import { BILLING_CODE, CREDIT_PACKS, type CreditPackId, type Locale } from '../lib/puzzle.js'
+import type { RequestInfo } from '../lib/request-info.js'
 import { HttpError } from '../middleware/error.js'
 
 /**
@@ -14,6 +22,8 @@ import { HttpError } from '../middleware/error.js'
  * - A puzzle is charged inside the transaction that stores it: a refused charge stores nothing.
  * - Purchases are Paddle transactions. The webhook stores each event raw (`PaymentEvent`), then
  *   applies it once — the status guard on `Payment` makes a redelivery a no-op.
+ * - The admin hears of every checkout, purchase, refund and chargeback, and of a payment that
+ *   could not be credited (`paymentNotifications.ts`), fire and forget.
  */
 
 type Db = Prisma.TransactionClient
@@ -134,8 +144,14 @@ const checkoutFailed = (detail: string): HttpError =>
  * Opens a Paddle transaction for one pack and records it as a pending `Payment`. The browser
  * goes to `checkoutUrl` — our `/[lang]/payments/checkout?_ptxn=txn_…`, where Paddle.js opens
  * the overlay for that transaction (the same URL Paddle builds from a default payment link).
+ * `request` is the click on "Buy", for the admin mail only.
  */
-export const startCheckout = async (userId: string, pack: CreditPackId, locale: Locale): Promise<{ checkoutUrl: string; paymentId: string }> => {
+export const startCheckout = async (
+  userId: string,
+  pack: CreditPackId,
+  locale: Locale,
+  request: RequestInfo | null = null
+): Promise<{ checkoutUrl: string; paymentId: string }> => {
   const priceId = priceIdOf(pack)
   if (!isPaddleConfigured() || !priceId) throw new HttpError(503, 'shop_closed', 503)
   const credits = CREDIT_PACKS.find(({ id }) => id === pack)!.credits
@@ -144,13 +160,18 @@ export const startCheckout = async (userId: string, pack: CreditPackId, locale: 
   try {
     transaction = await createTransaction({ priceId, customData: { userId, pack } })
   } catch (error) {
-    if (error instanceof PaddleError) throw checkoutFailed(`${error.message} [request ${error.requestId ?? '?'}]`)
+    if (error instanceof PaddleError) {
+      const detail = `${error.message} [request ${error.requestId ?? '?'}]`
+      void notifyCheckoutFailed(userId, { id: pack, credits, priceId }, detail, request)
+      throw checkoutFailed(detail)
+    }
     throw error
   }
   const checkoutUrl = `${config.corsOrigin}/${locale}/payments/checkout?_ptxn=${encodeURIComponent(transaction.id)}`
 
   await prisma.payment.create({ data: { id: transaction.id, userId, pack, priceId, credits } })
   console.info('[billing] checkout opened', { paymentId: transaction.id, userId, pack })
+  void notifyCheckoutStarted(transaction.id, request)
   return { checkoutUrl, paymentId: transaction.id }
 }
 
@@ -213,7 +234,7 @@ export const receiveWebhook = async (event: PaddleEvent): Promise<void> => {
 
   switch (type) {
     case 'transaction.completed':
-      await completePayment(data as TransactionData)
+      await completePayment(data as TransactionData, id)
       break
     case 'transaction.payment_failed':
       await failPayment(data as TransactionData)
@@ -228,15 +249,17 @@ export const receiveWebhook = async (event: PaddleEvent): Promise<void> => {
   await prisma.paymentEvent.update({ where: { id }, data: { processedAt: new Date() } })
 }
 
-const completePayment = async (data: TransactionData): Promise<void> => {
+const completePayment = async (data: TransactionData, eventId: string): Promise<void> => {
   const payment = data.id ? await prisma.payment.findUnique({ where: { id: data.id } }) : null
   if (!payment) {
     // Not opened by our checkout (a dashboard sale?). The raw event is in PaymentEvent to settle by hand.
     console.error('[billing] completed transaction has no Payment row', { transactionId: data.id })
+    void notifyUnmatchedPayment(data.id ?? '— (none in the payload)', eventId, 'no Payment row: not opened by our checkout')
     return
   }
   if (!data.items?.some((item) => item.price?.id === payment.priceId)) {
     console.error('[billing] completed transaction does not carry the pack price', { paymentId: payment.id, priceId: payment.priceId })
+    void notifyUnmatchedPayment(payment.id, eventId, `the transaction does not carry the ${payment.pack} pack's price (${payment.priceId})`)
     return
   }
 
@@ -273,7 +296,10 @@ const completePayment = async (data: TransactionData): Promise<void> => {
     })
     return true
   })
-  if (added) console.info('[billing] credits added', { paymentId: payment.id, userId: payment.userId, credits: payment.credits })
+  if (added) {
+    console.info('[billing] credits added', { paymentId: payment.id, userId: payment.userId, credits: payment.credits })
+    void notifyCreditsAdded(payment.id)
+  }
 }
 
 const failPayment = async (data: TransactionData): Promise<void> => {
@@ -288,7 +314,7 @@ const failPayment = async (data: TransactionData): Promise<void> => {
  */
 const applyAdjustment = async (data: AdjustmentData): Promise<void> => {
   if ((data.action !== 'refund' && data.action !== 'chargeback') || data.status !== 'approved' || !data.id) return
-  const adjustmentId = data.id
+  const { id: adjustmentId, action } = data
   const payment = data.transaction_id ? await prisma.payment.findUnique({ where: { id: data.transaction_id } }) : null
   if (!payment || (payment.status !== 'completed' && payment.status !== 'refunded')) {
     console.error('[billing] adjustment for an unknown or unpaid transaction', { adjustmentId, transactionId: data.transaction_id })
@@ -299,8 +325,8 @@ const applyAdjustment = async (data: AdjustmentData): Promise<void> => {
   const share = data.type === 'full' || !refunded || !payment.total ? 1 : Math.min(1, refunded / payment.total)
   const back = Math.round(payment.credits * share)
 
-  await prisma.$transaction(async (tx) => {
-    if (await tx.creditEntry.findUnique({ where: { adjustmentId }, select: { id: true } })) return
+  const takenBack = await prisma.$transaction(async (tx) => {
+    if (await tx.creditEntry.findUnique({ where: { adjustmentId }, select: { id: true } })) return null
     const [user] = await tx.$queryRaw<{ credits: number }[]>`SELECT "credits" FROM "User" WHERE "id" = ${payment.userId} FOR UPDATE`
     const taken = Math.min(back, user!.credits)
     const [row] = await tx.$queryRaw<{ credits: number }[]>`
@@ -318,6 +344,8 @@ const applyAdjustment = async (data: AdjustmentData): Promise<void> => {
     if (data.type === 'full' || refundedCredits >= payment.credits) {
       await tx.payment.update({ where: { id: payment.id }, data: { status: 'refunded' } })
     }
-    console.info('[billing] credits taken back', { adjustmentId, paymentId: payment.id, action: data.action, back, taken })
+    console.info('[billing] credits taken back', { adjustmentId, paymentId: payment.id, action, back, taken })
+    return taken
   })
+  if (takenBack !== null) void notifyAdjustment(payment.id, { action, adjustmentId, back, taken: takenBack })
 }

@@ -787,8 +787,9 @@
     "successTitle": "Terima kasih!",
     "successText": "{count, plural, other {#}} kredit telah ditambahkan ke saldomu.",
     "pendingText": "Pembayaranmu berhasil. Kredit akan muncul di saldomu dalam beberapa menit.",
-    "failedText": "Pembayaran tidak berhasil, jadi tidak ada biaya yang dikenakan. Kamu dapat mencoba lagi.",
     "verifyError": "Kami tidak dapat mengonfirmasi pembayaran saat ini. Jika kamu sudah dikenakan biaya, kredit akan tetap masuk — periksa saldomu dalam beberapa menit.",
+    "lateHelp": "Tidak perlu menunggu di halaman ini. Jika kredit belum masuk dalam satu jam, kirimi kami pesan dan kami akan menyelesaikannya.",
+    "contactUs": "Hubungi kami",
     "makePuzzle": "Buat teka-teki"
   },
   "Contact": {

@@ -787,8 +787,9 @@
     "successTitle": "非常感谢！",
     "successText": "已成功向你的余额添加 {count, plural, other {#}} 个积分。",
     "pendingText": "你的付款已完成。积分将在几分钟内显示在你的余额中。",
-    "failedText": "付款未成功，未扣除任何费用。你可以重新尝试。",
     "verifyError": "暂时无法确认该笔付款。如果你已被扣款，积分仍会到账——请在几分钟后检查余额。",
+    "lateHelp": "无需在此页面等待。如果一小时后积分仍未到账，请联系我们，我们会为你处理。",
+    "contactUs": "联系我们",
     "makePuzzle": "生成新谜题"
   },
   "Contact": {

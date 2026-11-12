@@ -42,7 +42,7 @@ pnpm env:base64 production | clip   # server/.env.production.local -> the ENV_AP
 | Gemini (model chain, cooldowns, the only key reader) | `server/src/lib/gemini.ts` |
 | The board (grid, clue bar, lists, keyboard, toolbar) | `src/components/puzzle/` · state `src/store/puzzle/play/` · rules `src/helpers/puzzle/` |
 | Creating puzzles, seen-list | `src/store/puzzle/create/` · `src/helpers/puzzle/seen.ts` · `src/helpers/offline/db.ts` |
-| Billing: free puzzle, credits, Paddle | `docs/BILLING.md` (model) · `docs/PADDLE_SETUP.md` (manual setup) · `server/src/services/billing.ts`, `lib/paddle.ts`, `routes/billing.ts` · prices `CREDIT_PACKS`/`SIZE_CREDITS` in the puzzle twins · web `src/components/billing/`, `src/store/billing/` |
+| Billing: free puzzle, credits, Paddle | `docs/BILLING.md` (model) · `docs/PADDLE_SETUP.md` (manual setup) · `server/src/services/billing.ts`, `paymentNotifications.ts` (admin mails), `lib/paddle.ts`, `routes/billing.ts` · prices `CREDIT_PACKS`/`SIZE_CREDITS` in the puzzle twins · web `src/components/billing/`, `src/store/billing/` |
 | Keyboards (on-screen rows, physical-key fallback) | `src/constants/keyboards.ts` |
 | Topic colours and icons | `src/constants/topicStyles.ts` |
 | HTTP calls from the web | `src/api/puzzles/` — `endpoints`, `types`, `processors`, `main` |

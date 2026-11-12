@@ -787,8 +787,9 @@
     "successTitle": "Muito obrigado!",
     "successText": "{count, plural, one {# crédito foi adicionado} other {# créditos foram adicionados}} ao seu saldo.",
     "pendingText": "Seu pagamento foi aprovado. Os créditos aparecerão no seu saldo em alguns minutos.",
-    "failedText": "O pagamento não foi concluído, então nada foi cobrado. Você pode tentar novamente.",
     "verifyError": "Não foi possível confirmar o pagamento agora. Se você foi cobrado, os créditos chegarão em breve — confira seu saldo em alguns minutos.",
+    "lateHelp": "Não precisa esperar nesta página. Se os créditos não chegarem em até uma hora, fale com a gente que resolvemos.",
+    "contactUs": "Fale conosco",
     "makePuzzle": "Criar um jogo"
   },
   "Contact": {

@@ -786,8 +786,9 @@
     "successTitle": "Dziękujemy!",
     "successText": "{count, plural, one {# kredyt został dodany} few {# kredyty zostały dodane} many {# kredytów zostało dodanych} other {# kredytu zostało dodanych}} do Twojego salda.",
     "pendingText": "Twoja płatność przeszła. Kredyty pojawią się na Twoim saldzie w ciągu kilku minut.",
-    "failedText": "Płatność nie powiodła się, więc opłata nie została pobrana. Możesz spróbować ponownie.",
     "verifyError": "Nie mogliśmy teraz potwierdzić płatności. Jeśli pobrano środki, kredyty i tak dotrą — sprawdź saldo za parę minut.",
+    "lateHelp": "Nie musisz czekać na tej stronie. Jeśli kredyty nie pojawią się w ciągu godziny, napisz do nas — wszystko wyjaśnimy.",
+    "contactUs": "Napisz do nas",
     "makePuzzle": "Stwórz łamigłówkę"
   },
   "Contact": {

@@ -1,7 +1,7 @@
 'use client'
 
 import { useEffect, useState } from 'react'
-import { CircleCheck, CircleX, Clock } from 'lucide-react'
+import { CircleCheck, Clock } from 'lucide-react'
 import { useTranslations } from 'next-intl'
 import { getPaymentAPI } from '@api/billing/main'
 import { useBillingStoreBase } from '@store/billing/store'
@@ -17,14 +17,16 @@ const POLL_INTERVAL_MS = 2000
 /** Webhooks usually land within seconds; past this the credits are "on their way", not lost. */
 const POLL_TIMEOUT_MS = 60_000
 
-type ReturnState =
-  | { kind: 'verifying' }
-  | { kind: 'completed'; credits: number }
-  | { kind: 'pending' }
-  | { kind: 'failed' }
-  | { kind: 'error'; error: unknown }
+type ReturnState = { kind: 'verifying' } | { kind: 'completed'; credits: number } | { kind: 'pending' } | { kind: 'error'; error: unknown }
 
-/** After Paddle's overlay reports a payment: waits for the webhook to add the credits, then says so. */
+/**
+ * After Paddle's overlay reports a payment: waits for the webhook to add the credits, then says so.
+ *
+ * Only `checkout.completed` sends a buyer here, so the page never says the payment failed: a
+ * `failed` status is an earlier declined card in the same overlay, and the completed webhook
+ * is still on its way. When polling stops before it lands, the page says the credits will
+ * come by themselves — no need to wait here — and how to reach us if they do not.
+ */
 export const PaymentReturn = () => {
   const t = useTranslations('Payments')
   const router = usePendingRouter()
@@ -50,9 +52,7 @@ export const PaymentReturn = () => {
           trackEvent('purchase', { credits: payment.credits })
           return setState({ kind: 'completed', credits: payment.credits })
         }
-        if (Date.now() - startedAt > POLL_TIMEOUT_MS) {
-          return setState(payment.status === 'failed' ? { kind: 'failed' } : { kind: 'pending' })
-        }
+        if (Date.now() - startedAt > POLL_TIMEOUT_MS) return setState({ kind: 'pending' })
         timer = setTimeout(() => void poll(), POLL_INTERVAL_MS)
       } catch (error) {
         if (!cancelled) setState({ kind: 'error', error })
@@ -67,30 +67,41 @@ export const PaymentReturn = () => {
   }, [router])
 
   if (state.kind === 'verifying') return <Spinner size='lg' label={t('verifying')} />
-  if (state.kind === 'error') return <ErrorAlert error={state.error} message={t('verifyError')} className='w-full max-w-md' />
 
-  const { icon, title, text } = {
-    completed: { icon: <CircleCheck aria-hidden className='size-14 text-mint-600' />, title: t('successTitle'), text: state.kind === 'completed' ? t('successText', { count: state.credits }) : '' },
-    pending: { icon: <Clock aria-hidden className='size-14 text-ink-500' />, title: t('successTitle'), text: t('pendingText') },
-    failed: { icon: <CircleX aria-hidden className='size-14 text-coral-600' />, title: '', text: t('failedText') },
-  }[state.kind]
+  const contact = (
+    <ButtonLink href={ROUTES.contact} variant='ghost'>
+      {t('contactUs')}
+    </ButtonLink>
+  )
 
+  if (state.kind === 'error') {
+    return (
+      <div className='flex w-full max-w-md flex-col items-center gap-4 text-center'>
+        <ErrorAlert error={state.error} message={t('verifyError')} className='w-full' />
+        <p className='text-ink-700'>{t('lateHelp')}</p>
+        <div className='flex flex-wrap justify-center gap-3'>
+          <ButtonLink href={ROUTES.credits} variant='outline'>
+            {t('backToCredits')}
+          </ButtonLink>
+          {contact}
+        </div>
+      </div>
+    )
+  }
+
+  const completed = state.kind === 'completed'
   return (
     <div role='status' className='flex flex-col items-center gap-4 text-center'>
-      {icon}
-      {title ? <h2 className='font-display text-h2 font-extrabold'>{title}</h2> : null}
-      <p className='max-w-md text-ink-700'>{text}</p>
+      {completed ? <CircleCheck aria-hidden className='size-14 text-mint-600' /> : <Clock aria-hidden className='size-14 text-ink-500' />}
+      <h2 className='font-display text-h2 font-extrabold'>{t('successTitle')}</h2>
+      <p className='max-w-md text-ink-700'>{completed ? t('successText', { count: state.credits }) : t('pendingText')}</p>
+      {completed ? null : <p className='max-w-md text-ink-700'>{t('lateHelp')}</p>}
       <div className='flex flex-wrap justify-center gap-3'>
-        {state.kind === 'failed' ? (
-          <ButtonLink href={ROUTES.credits}>{t('backToCredits')}</ButtonLink>
-        ) : (
-          <>
-            <ButtonLink href={ROUTES.home}>{t('makePuzzle')}</ButtonLink>
-            <ButtonLink href={ROUTES.credits} variant='outline'>
-              {t('backToCredits')}
-            </ButtonLink>
-          </>
-        )}
+        <ButtonLink href={ROUTES.home}>{t('makePuzzle')}</ButtonLink>
+        <ButtonLink href={ROUTES.credits} variant='outline'>
+          {t('backToCredits')}
+        </ButtonLink>
+        {completed ? null : contact}
       </div>
     </div>
   )

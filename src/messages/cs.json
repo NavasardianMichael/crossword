@@ -786,8 +786,9 @@
     "successTitle": "Děkujeme!",
     "successText": "Na tvůj zůstatek {count, plural, one {byl přidán # kredit} few {byly přidány # kredity} many {bylo přidáno # kreditů} other {bylo přidáno # kreditů}}.",
     "pendingText": "Tvoje platba proběhla. Kredity se na tvém zůstatku objeví během několika minut.",
-    "failedText": "Platba neproběhla, takže ti nebylo nic účtováno. Můžeš to zkusit znovu.",
     "verifyError": "Platbu se nepodařilo okamžitě potvrdit. Pokud ti byly peníze odečteny, kredity stejně dorazí — zkontroluj zůstatek za pár minut.",
+    "lateHelp": "Na této stránce nemusíš čekat. Pokud kredity nedorazí do hodiny, napiš nám a vyřešíme to.",
+    "contactUs": "Napiš nám",
     "makePuzzle": "Vytvořit křížovku"
   },
   "Contact": {

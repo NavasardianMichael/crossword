@@ -787,8 +787,9 @@
     "successTitle": "Bedankt!",
     "successText": "{count, plural, one {# credit is} other {# credits zijn}} toegevoegd aan je saldo.",
     "pendingText": "Je betaling is gelukt. De credits verschijnen binnen enkele minuten op je saldo.",
-    "failedText": "De betaling is niet gelukt, dus er is niets in rekening gebracht. Je kunt het opnieuw proberen.",
     "verifyError": "We konden de betaling op dit moment niet bevestigen. Als er wel geld is afgeschreven, komen de credits alsnog aan — controleer je saldo over een paar minuten.",
+    "lateHelp": "Je hoeft niet op deze pagina te wachten. Zijn de credits er na een uur nog niet, schrijf ons dan en we lossen het op.",
+    "contactUs": "Neem contact op",
     "makePuzzle": "Maak een puzzel"
   },
   "Contact": {

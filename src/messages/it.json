@@ -786,8 +786,9 @@
     "successTitle": "Grazie!",
     "successText": "{count, plural, one {# credito è stato aggiunto} other {# crediti sono stati aggiunti}} al tuo saldo.",
     "pendingText": "Il pagamento è andato a buon fine. I crediti appariranno sul tuo saldo entro pochi minuti.",
-    "failedText": "Il pagamento non è andato a buon fine, quindi non è stato addebitato nulla. Puoi riprovare.",
     "verifyError": "Non siamo riusciti a confermare il pagamento in questo momento. Se ti è stato addebitato l'importo, i crediti arriveranno comunque — controlla il tuo saldo tra qualche minuto.",
+    "lateHelp": "Non serve aspettare su questa pagina. Se i crediti non arrivano entro un'ora, scrivici e risolveremo il problema.",
+    "contactUs": "Scrivici",
     "makePuzzle": "Crea un puzzle"
   },
   "Contact": {

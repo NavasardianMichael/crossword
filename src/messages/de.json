@@ -787,8 +787,9 @@
     "successTitle": "Vielen Dank!",
     "successText": "{count, plural, one {# Guthabenpunkt wurde} other {# Guthabenpunkte wurden}} deinem Kontostand gutgeschrieben.",
     "pendingText": "Deine Zahlung war erfolgreich. Das Guthaben wird in wenigen Minuten auf deinem Konto erscheinen.",
-    "failedText": "Die Zahlung war nicht erfolgreich, es wurde nichts abbucht. Du kannst es erneut versuchen.",
     "verifyError": "Wir konnten die Zahlung derzeit nicht bestätigen. Wenn du belastet wurdest, trifft das Guthaben trotzdem ein – überprüfe deinen Kontostand in ein paar Minuten.",
+    "lateHelp": "Du musst auf dieser Seite nicht warten. Wenn das Guthaben nach einer Stunde noch nicht da ist, schreib uns – wir kümmern uns darum.",
+    "contactUs": "Schreib uns",
     "makePuzzle": "Rätsel erstellen"
   },
   "Contact": {

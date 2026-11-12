@@ -787,8 +787,9 @@
     "successTitle": "Merci !",
     "successText": "{count, plural, one {# crédit a été ajouté} other {# crédits ont été ajoutés}} à votre solde.",
     "pendingText": "Votre paiement a été accepté. Les crédits apparaîtront sur votre solde d'ici quelques minutes.",
-    "failedText": "Le paiement n'a pas abouti, rien ne vous a été débité. Vous pouvez réessayer.",
     "verifyError": "Impossible de confirmer le paiement pour le moment. Si vous avez été débité, vos crédits arriveront quand même — vérifiez votre solde dans quelques minutes.",
+    "lateHelp": "Inutile d'attendre sur cette page. Si les crédits ne sont pas arrivés d'ici une heure, écrivez-nous et nous réglerons le problème.",
+    "contactUs": "Nous contacter",
     "makePuzzle": "Créer une grille"
   },
   "Contact": {
