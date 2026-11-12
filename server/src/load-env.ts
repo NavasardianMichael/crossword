@@ -7,7 +7,7 @@ import { fileURLToPath } from 'node:url'
  * otherwise — never whatever `.env` sits in `process.cwd()`. `pnpm dev` runs concurrently
  * from the repo root, so `import 'dotenv/config'` would read the Next.js env and leave Prisma
  * with the wrong `DATABASE_URL`. Values already in the environment win, so on the production
- * host (no such file in the release) systemd's EnvironmentFile is all there is.
+ * host (no such file in the release), systemd's EnvironmentFile is all there is.
  */
 const environment = process.env.NODE_ENV || 'development'
 
