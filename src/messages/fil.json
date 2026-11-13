@@ -1,7 +1,7 @@
 {
   "Common": {
     "appName": "Krusigrama AI",
-    "tagline": "Libreng krusigrama at skanword na isinusulat ng AI sa iyong wika. Bagong salita sa bawat laro, walang ulit.",
+    "tagline": "Krusigrama at skanword na isinusulat ng AI sa iyong wika — libre ang una bawat buwan. Bagong salita sa bawat laro, walang ulit.",
     "skipToContent": "Lumaktaw sa nilalaman",
     "openMenu": "Buksan ang menu",
     "menu": "Menu",
@@ -54,25 +54,25 @@
     "gotIt": "Sige"
   },
   "Seo": {
-    "homeTitle": "Krusigrama sa Filipino — gumawa ng krusigrama nang libre",
-    "homeDescription": "Gumawa ng krusigrama o skanword nang libre. Mga paksa: hayop, pagkain, heograpiya, kasaysayan, agham, isports at iba pa. Krusigrama sa Filipino na may bagong salita sa bawat laro, gumagana kahit offline.",
+    "homeTitle": "Krusigrama sa Filipino — gumawa ng krusigrama, subukan nang libre",
+    "homeDescription": "Gumawa ng krusigrama o skanword — libre ang una mo bawat buwan. Mga paksa: hayop, pagkain, heograpiya, kasaysayan, agham, isports at iba pa. Krusigrama sa Filipino na may bagong salita sa bawat laro, gumagana kahit offline.",
     "keywords": "krusigrama, krusigrama sa Filipino, gumawa ng krusigrama, krusigrama online, skanword, krusigrama hayop, krusigrama pagkain, krusigrama heograpiya, krusigrama kasaysayan, krusigrama agham, krusigrama isports",
-    "crosswordTitle": "Klasikong krusigrama online, libre",
-    "crosswordDescription": "Maglaro ng klasikong krusigrama na isinulat ng AI: may bilang na pahiwatig pahalang at patayo, 12 paksa, tatlong antas. Walang rehistrasyon, bagong salita sa bawat laro.",
-    "scanwordTitle": "Skanword online nang libre — pahiwatig sa loob ng parilya",
-    "scanwordDescription": "Lutasin ang skanword mula sa AI: nasa loob ng mga kahon ang pahiwatig, at may palaso patungo sa sagot. Libre, walang rehistrasyon, sa telepono, tablet o computer.",
+    "crosswordTitle": "Klasikong krusigrama online, subukan nang libre",
+    "crosswordDescription": "Maglaro ng klasikong krusigrama na isinulat ng AI: may bilang na pahiwatig pahalang at patayo, 12 paksa, tatlong antas. Libre ang una mong palaisipan bawat buwan, walang rehistrasyon, at bago ang mga salita sa bawat laro.",
+    "scanwordTitle": "Skanword online — pahiwatig sa loob ng parilya",
+    "scanwordDescription": "Lutasin ang skanword mula sa AI: nasa loob ng mga kahon ang pahiwatig, at may palaso patungo sa sagot. Sa telepono, tablet o computer — libre ang una mong palaisipan bawat buwan.",
     "topicsTitle": "Krusigrama ayon sa paksa: hayop, pagkain, heograpiya",
     "topicsDescription": "Pumili ng paksa para sa susunod na krusigrama o skanword: kalikasan, hayop, pagkain, heograpiya, kasaysayan, agham, isports, sining at iba pa.",
-    "topicTitle": "Krusigrama: {topic} — libre online",
-    "topicDescription": "Libreng krusigrama at skanword tungkol sa {topic}, gawa ng AI. {description}",
+    "topicTitle": "Krusigrama: {topic} — online, isinulat ng AI",
+    "topicDescription": "Krusigrama at skanword tungkol sa {topic}, gawa ng AI — libre ang una bawat buwan. {description}",
     "historyTitle": "Mga palaisipan ko",
     "historyDescription": "Mga krusigrama at skanword na sinimulan mo sa aparatong ito at hindi pa natatapos, kasama ang naka-save na progreso.",
-    "creditsTitle": "Credits & prices",
-    "creditsDescription": "One free crossword every month, then credit packs with no subscription: what each puzzle costs, and how to buy credits.",
-    "paymentTitle": "Payment",
+    "creditsTitle": "Credits at presyo",
+    "creditsDescription": "11 libreng credit bawat buwan, tapos mga credit pack na walang subscription: magkano ang bawat palaisipan, at paano bumili ng credits.",
+    "paymentTitle": "Pagbabayad",
     "rulesTitle": "Paano lutasin ang krusigrama at skanword",
     "rulesDescription": "Paano lutasin dito ang krusigrama o skanword: pag-type, paggalaw sa parilya, pagsuri, pagbubunyag, at shortcut sa keyboard.",
-    "faqTitle": "Mga tanong: libreng krusigrama, mga wika at pribasiya",
+    "faqTitle": "Mga tanong: krusigrama, presyo, mga wika at pribasiya",
     "faqDescription": "Mga sagot tungkol sa Krusigrama AI: libre ba, paano sumusulat ang AI ng pahiwatig, laki ng parilya, antas, salitang hindi nauulit, offline, pagbabahagi at pribasiya.",
     "aboutTitle": "Tungkol — paano ginagawa ang aming krusigrama",
     "aboutDescription": "Bakit gumawa kami ng generator ng krusigrama na hindi inuulit ang salita, at paano sumusulat ang AI ng pahiwatig nang mismo sa bawat wika.",
@@ -84,7 +84,7 @@
     "contactDescription": "May tanong, ideya, o problema sa puzzle? Sulatan kami at sasagot kami sa email.",
     "puzzleDescription": "Libreng palaisipan mula sa Krusigrama AI — lutasin ito sa browser.",
     "sharedPuzzleDescription": "Libreng {size} {format, select, scanword {skanword} other {krusigrama}} · {topic} · {difficulty} · {words, plural, one {# salita} other {# salita}}. Isinulat ng AI — lutasin sa browser, walang rehistrasyon.",
-    "ogImageAlt": "Krusigrama AI — libreng krusigrama at skanword sa iyong wika",
+    "ogImageAlt": "Krusigrama AI — krusigrama at skanword na isinulat ng AI sa iyong wika",
     "ogPuzzleCta": "Kaya mo bang lutasin?",
     "ogPuzzleMeta": "{size} · {words, plural, one {# salita} other {# salita}}"
   },
@@ -176,24 +176,25 @@
     "exhausted": "Nalaro mo na ang lahat ng salita namin para sa piliing ito. Sumusulat kami ng bago — sumubok ng ibang paksa, o bumalik pagkalipas ng isang minuto."
   },
   "Billing": {
-    "credits": "{count, plural, one {# credit} other {# credits}}",
-    "balance": "Your balance: {count, plural, one {# credit} other {# credits}}",
-    "cost": "This puzzle: {count, plural, one {# credit} other {# credits}}",
-    "freeNow": "This one is free — your free puzzle of the month.",
-    "youHave": "You have {count, plural, one {# credit} other {# credits}}.",
-    "notEnough": "Not enough credits for this puzzle.",
-    "guestUsed": "You've used this month's free puzzle. Sign in for one more free puzzle every month, and to buy credits.",
-    "refusedSignIn": "This month's free puzzle is used. Sign in to get another one, and to buy credits.",
-    "refusedCredits": "Not enough credits for this puzzle. Top up to keep playing.",
-    "signIn": "Sign in",
-    "buyCredits": "Buy credits"
+    "credits": "{count, plural, one {# credit} other {# credit}}",
+    "balance": "Balanse mo: {count, plural, one {# credit} other {# credit}}",
+    "cost": "Ang palaisipang ito: {count, plural, one {# credit} other {# credit}}",
+    "freeNow": "Sakop ito ng mga libreng credit mo ngayong buwan.",
+    "youHave": "Mayroon kang {count, plural, one {# credit} other {# credit}}.",
+    "notEnough": "Kulang ang credits mo para sa palaisipang ito.",
+    "guestUsed": "Nagamit mo na ang mga libreng credit ngayong buwan. Mag-sign in para sa {count, plural, one {karagdagang # libreng credit} other {karagdagang # libreng credit}} bawat buwan, at para makabili ng credits.",
+    "refusedSignIn": "Hindi sapat ang mga libreng credit mo para sa palaisipang ito. Mag-sign in para sa {count, plural, one {karagdagang # libreng credit} other {karagdagang # libreng credit}} bawat buwan, at para makabili ng credits.",
+    "refusedCredits": "Kulang ang credits para sa palaisipang ito. Mag-top up para makapaglaro pa.",
+    "refusedFreeBusy": "Pansamantalang nakahinto ang mga libreng credit dahil napakaraming palaisipan ang nagawa gamit ang mga ito sa nakaraang oras. Subukan ulit mamaya.",
+    "signIn": "Mag-sign in",
+    "buyCredits": "Bumili ng credits"
   },
   "Home": {
     "hero": {
       "eyebrow": "Libreng subukan · Walang subscription · Gumagana offline",
       "title": "Krusigrama sa Filipino na <mark>laging bago</mark>",
       "subtitle": "Pumili ng paksa at antas. Isinusulat ng AI ang pahiwatig sa iyong wika, at hindi mo makukuha ang parehong salita nang dalawang beses.",
-      "lede": "Gumawa ng krusigrama o skanword nang libre, walang rehistrasyon. Ang mga paksa ay mula sa hayop, pagkain at heograpiya hanggang kasaysayan, agham, isports, sining, tahanan, hanapbuhay at lokal na kultura — o haluin silang lahat."
+      "lede": "Gumawa ng krusigrama o skanword — libre ang una mo bawat buwan, walang rehistrasyon. Ang mga paksa ay mula sa hayop, pagkain at heograpiya hanggang kasaysayan, agham, isports, sining, tahanan, hanapbuhay at lokal na kultura — o haluin silang lahat."
     },
     "continueTitle": "Ipagpatuloy kung saan ka tumigil",
     "formatsTitle": "Dalawang paraan ng laro",
@@ -221,7 +222,7 @@
     "topicsSubtitle": "Mula sa ibon sa bakuran hanggang sa kilalang ilog — o haluin lahat.",
     "faqTitle": "Mga tanong at sagot",
     "faq1Question": "Libre ba ang Krusigrama AI?",
-    "faq1Answer": "Libre ang una mong puzzle bawat buwan kahit walang sign-up, at ang pag-sign in ay nagdaragdag ng isa pa. Pagkatapos noon, ang mga puzzle ay nagkakahalaga ng credits, na binibili nang minsan lang at walang subscription. Libre palaging laruin ang puzzle na ibinahagi sa iyo ng iba.",
+    "faq1Answer": "Bawat buwan, may 11 libreng credit ka — sapat para sa isang katamtamang puzzle — kahit walang sign-up, at ang pag-sign in ay nagdaragdag ng 11 pa. Pagkatapos noon, ang mga puzzle ay nagkakahalaga ng credits, na binibili nang minsan lang at walang subscription. Libre palaging laruin ang puzzle na ibinahagi sa iyo ng iba.",
     "faq2Question": "Makikita ko ba ulit ang parehong salita?",
     "faq2Answer": "Hindi. May listahan ang aparato ng mga salitang naipakita na, at iniiwan ang mga iyon sa bawat bagong palaisipan. Kapag binura mo ang data ng site sa browser, magsisimula ulit ang listahan.",
     "faq3Question": "Sa anong mga wika puwedeng maglaro?",
@@ -240,7 +241,7 @@
       "title": "Klasikong krusigrama, <mark>ginawa para sa iyo</mark>",
       "plainTitle": "Krusigrama AI",
       "subtitle": "May bilang na pahiwatig pahalang at patayo, parilyang lumalago mula sa gitna, at mga salitang hindi mo pa nakikita.",
-      "lede": "Maglaro ng klasikong krusigrama online nang libre: may bilang na pahiwatig pahalang at patayo, sa mga paksang mula sa hayop at pagkain hanggang heograpiya, kasaysayan, agham at isports."
+      "lede": "Maglaro ng klasikong krusigrama online: may bilang na pahiwatig pahalang at patayo, sa mga paksang mula sa hayop at pagkain hanggang heograpiya, kasaysayan, agham at isports."
     },
     "rulesTitle": "Paano gumagana ang krusigrama",
     "rule1": "Isang titik ang laman ng bawat puting kahon. Ang mga salita ay pahalang (kaliwa papuntang kanan) at patayo (itaas pababa), at nagsasalubong.",
@@ -264,7 +265,7 @@
       "title": "Skanword na may pahiwatig <mark>sa loob ng parilya</mark>",
       "plainTitle": "Skanword AI",
       "subtitle": "Walang listahang hahanapin: nasa sariling kahon ang bawat pahiwatig, may palaso patungo sa sagot.",
-      "lede": "Maglaro ng skanword online nang libre: nasa loob ng parilya ang mga pahiwatig. Parehong paksa ng krusigrama — hayop, pagkain, heograpiya, kasaysayan, agham, isports at iba pa."
+      "lede": "Maglaro ng skanword online: nasa loob ng parilya ang mga pahiwatig. Parehong paksa ng krusigrama — hayop, pagkain, heograpiya, kasaysayan, agham, isports at iba pa."
     },
     "rulesTitle": "Paano gumagana ang skanword",
     "rule1": "Ang may kulay na kahon ang may pahiwatig. Ipinapakita ng palaso kung saan nagsisimula ang sagot at kung saang direksiyon ito tumatakbo.",
@@ -297,6 +298,12 @@
   "Auth": {
     "signIn": "Mag-sign in",
     "signOut": "Mag-sign out",
+    "signOutConfirm": {
+      "title": "Mag-sign out?",
+      "text": "Puwede kang mag-sign in ulit kahit kailan. Mananatili sa account mo ang iyong credits at mga binili.",
+      "confirm": "Mag-sign out",
+      "cancel": "Hindi muna"
+    },
     "signInTitle": "Mag-sign in",
     "signInSubtitle": "Gamit ang Google, o ang email at password ng account mo.",
     "signUpTitle": "Gumawa ng account",
@@ -332,6 +339,7 @@
     "resent": "Naipadala ulit.",
     "forgotSent": "Kung may account sa address na iyon, paparating na ang kawing.",
     "invalidCredentials": "Hindi magkatugma ang email at password na iyon.",
+    "tooManyAttempts": "Masyadong maraming subok sa maikling oras. Maghintay ng ilang minuto at subukan ulit.",
     "googleOnly": "Ang account na ito ay pumapasok gamit ang Google.",
     "emailNotVerified": "Kumpirmahin muna ang email. Nasa inbox ang kawing.",
     "emailTaken": "May account na sa email na ito.",
@@ -363,6 +371,12 @@
     "keepSolving": "Ipagpatuloy ang paglutas",
     "leave": "Umalis",
     "newPuzzle": "Bagong palaisipan",
+    "newPuzzleConfirm": {
+      "title": "Gagawa ng bagong palaisipan?",
+      "text": "Parehong format, paksa at hirap ng isang ito.",
+      "create": "Gumawa",
+      "cancel": "Hindi muna"
+    },
     "allClues": "Lahat ng pahiwatig",
     "across": "Pahalang",
     "down": "Patayo",
@@ -539,15 +553,15 @@
           },
           {
             "question": "Libre ba ang Krusigrama AI?",
-            "answer": "Bahagya. Libre ang una mong puzzle bawat buwan kahit walang sign-up, at ang pag-sign in ay nagdaragdag ng pangalawang libreng puzzle bawat buwan. Higit pa roon, ang mga puzzle ay binabayaran ng credits: bibili ka ng pack nang minsan lang — walang subscription, hindi napapanis ang credits, at walang ads. Libre palaging laruin ang puzzle na ibinahagi sa iyo ng iba."
+            "answer": "Bahagya. Bawat buwan, may 11 libreng credit ka — sapat para sa isang katamtamang puzzle — kahit walang sign-up, at ang pag-sign in ay nagdaragdag ng 11 pa bawat buwan. Hindi naipapasa sa susunod na buwan ang mga libreng credit. Higit pa roon, ang mga puzzle ay binabayaran ng mga credit na binili mo: bibili ka ng pack nang minsan lang — walang subscription, hindi napapanis ang mga biniling credit, at walang ads. Libre palaging laruin ang puzzle na ibinahagi sa iyo ng iba."
           },
           {
             "question": "Kailangan ko ba ng account?",
-            "answer": "Hindi para sa libre mong puzzle sa buwan: ang iyong progress, mga setting, at mga salitang nakita mo na ay itinataas sa iyong browser. Ang pagkakaroon ng account ay nagdaragdag ng pangalawang libreng puzzle bawat buwan at nagpapahintulot sa iyong bumili at mag-imbak ng credits."
+            "answer": "Hindi para sa 11 libreng credit mo bawat buwan: ang iyong progress, mga setting, at mga salitang nakita mo na ay nakatago sa iyong browser. Ang pagkakaroon ng account ay nagdaragdag ng 11 pang libreng credit bawat buwan at nagpapahintulot sa iyong bumili at mag-imbak ng credits."
           },
           {
             "question": "Magkano ang halaga ng isang puzzle?",
-            "answer": "Ang maliit na puzzle ay nagkakahalaga ng 5 credits, ang katamtaman ay 10, at ang malaki ay 15; ang medium na hirap ay nagdaragdag ng 1 credit at ang hard ay 2. Ang credits ay mabibili sa mga pack na 200 para sa $4.99, 600 para sa $11.99, at 2,000 para sa $29.99. Ipinapakita sa checkout ang presyo sa iyong pera, kasama ang buwis kung naaangkop."
+            "answer": "Ang maliit na puzzle ay nagkakahalaga ng 5 credits, ang katamtaman ay 10, at ang malaki ay 15; ang medium na hirap ay nagdaragdag ng 1 credit at ang hard ay 2. Sapat ang 11 libreng credit mo bawat buwan para sa isang katamtamang puzzle na medium ang hirap. Ang credits ay mabibili sa mga pack na 200 para sa $4.99, 600 para sa $11.99, at 2,000 para sa $29.99. Ipinapakita sa checkout ang presyo sa iyong pera, kasama ang buwis kung naaangkop."
           },
           {
             "question": "Sino ang gumawa ng Krusigrama AI?",
@@ -641,7 +655,7 @@
   },
   "About": {
     "title": "Tungkol sa Krusigrama AI",
-    "subtitle": "Libreng generator ng palaisipan na sumusulat sa iyong wika at hindi naghahain ng parehong salita nang dalawang beses.",
+    "subtitle": "Generator ng palaisipan na sumusulat sa iyong wika at hindi naghahain ng parehong salita nang dalawang beses.",
     "sections": [
       {
         "title": "Bakit namin ginawa",
@@ -678,7 +692,7 @@
         "title": "Sa aming server",
         "paragraphs": [
           "Iniiimbak namin ang mga ginagawang puzzle upang ang ibinahaging link ay magbukas ng parehong grid. Kapag nag-report ka ng clue, itinatakda namin ang report kasama ang one-way hash ng iyong IP address, upang hindi basta mabura ng isang tao ang clue nang mag-isa. Nagbibilang din kami nang anonymous sa kung paano nilalaro ang mga puzzle (kung na-solve, aling mga salita ang na-reveal) upang i-adjust ang antas ng hirap.",
-          "Upang bigyan ang bawat device ng libreng puzzle bawat buwan, ang site ay naglalagay ng cookie na may random identifier. Sa bawat libreng puzzle, itinatago namin ang identifier na iyon at ang one-way hash ng iyong IP address."
+          "Upang ibigay sa bawat device ang mga libreng credit nito para sa buwan, ang site ay naglalagay ng cookie na may random identifier. Sa bawat puzzle na binayaran ng libreng credit, itinatago namin ang identifier na iyon at ang one-way hash ng iyong IP address."
         ]
       },
       {
@@ -702,7 +716,8 @@
       {
         "title": "Analytics at mga report ng error",
         "paragraphs": [
-          "Kapag naka-enable, gumagamit kami ng Google Analytics upang magbilang ng mga page view at Sentry upang makatanggap ng mga report ng error. Wala sa dalawang ito ang ginagamit upang kilalanin ka."
+          "Kapag pumayag ka, binibilang ng Google Analytics ang mga page view at naglalagay ito ng sarili nitong cookies para mapag-iba ang mga pagbisita; kung hindi, tumatakbo ang analytics nang walang cookies. Mababago mo ang sagot mo anumang oras sa “Mga setting ng cookie” sa ibaba ng bawat pahina. Tumatanggap ang Sentry ng mga report ng error na walang personal na detalye. Wala sa dalawang ito ang ginagamit para sa ads o profiling.",
+          "Ang mga pahina sa ilang wika ay naglo-load ng font mula sa Google Fonts, na tumatanggap ng iyong IP address sa request na iyon."
         ]
       }
     ]
@@ -718,10 +733,10 @@
         ]
       },
       {
-        "title": "Mga libreng puzzle at credits",
+        "title": "Mga libre at biniling credit",
         "paragraphs": [
-          "Ang bawat device ay nakakakuha ng isang libreng puzzle bawat buwan sa kalendaryo, at ang bawat account ay nakakakuha ng isa pa. Ang iba pang puzzle ay binabayaran ng credits, sa presyong ipinapakita bago ka gumawa; ang puzzle ay sinisingil lamang kapag ito ay nagawa na, at ang pagbubukas ng nai-save na puzzle ay libre.",
-          "Ang credits ay binibili sa mga pack sa pamamagitan ng isang beses na pagbabayad — walang subscription — at hindi sila kailanman napapanis. Wala silang cash value at hindi pwedeng i-transfer."
+          "Ang bawat device ay nakakakuha ng 11 libreng credit bawat buwan sa kalendaryo, at ang bawat account ay nakakakuha ng 11 pa. Ginagamit muna ang mga libreng credit bago ang mga binili, at hindi naipapasa ang mga ito sa susunod na buwan. Ang mga puzzle ay binabayaran ng credits, sa presyong ipinapakita bago ka gumawa; ang puzzle ay sinisingil lamang kapag ito ay nagawa na, at ang pagbubukas ng nai-save na puzzle ay libre.",
+          "Ang credits ay binibili sa mga pack sa pamamagitan ng isang beses na pagbabayad — walang subscription — at hindi kailanman napapanis ang mga biniling credit. Walang cash value ang credits at hindi pwedeng i-transfer."
         ]
       },
       {
@@ -752,44 +767,43 @@
   },
   "Credits": {
     "title": "Credits",
-    "subtitle": "One free puzzle every month. After that, pay only for the puzzles you make — no subscription, and credits never expire.",
-    "balanceTitle": "Your balance",
-    "freeAvailable": "Your free puzzle of this month is waiting.",
-    "freeUsed": "This month's free puzzle is used. The next one comes on {date}.",
-    "guestTitle": "Get more free puzzles",
-    "guestText": "Sign in to get a free puzzle every month on your account, and to buy credits.",
-    "pricesTitle": "What a puzzle costs",
-    "pricesText": "In credits, by size and difficulty. Opening a puzzle someone shared with you, or one from your history, is always free.",
-    "size": "Size",
-    "packsTitle": "Credit packs",
+    "subtitle": "11 libreng credit bawat buwan — sapat para sa isang katamtamang palaisipan. Pagkatapos noon, bayaran mo lang ang mga palaisipang ginagawa mo: walang subscription, at hindi napapanis ang mga biniling credit.",
+    "balanceTitle": "Balanse mo",
+    "freeAvailable": "Kasama rito ang {count, plural, one {# libreng credit} other {# libreng credit}} para ngayong buwan. Mare-renew ang mga libreng credit sa {date}.",
+    "freeUsed": "Nagamit na ang mga libreng credit ngayong buwan. Darating ang {count, plural, one {# bagong libreng credit} other {# bagong libreng credit}} sa {date}.",
+    "guestText": "Mag-sign in para makakuha ng {count, plural, one {karagdagang # libreng credit} other {karagdagang # libreng credit}} bawat buwan sa account mo, at para makabili ng credits.",
+    "pricesTitle": "Magkano ang isang palaisipan",
+    "pricesText": "Sa credits, ayon sa laki at hirap. Laging libre ang pagbukas ng palaisipang ibinahagi sa iyo, o ng isa mula sa kasaysayan mo.",
+    "size": "Laki",
+    "packsTitle": "Mga credit pack",
     "packs": {
-      "starter": "Starter",
-      "popular": "Popular",
-      "big": "Big"
+      "starter": "Panimula",
+      "popular": "Sikat",
+      "big": "Malaki"
     },
-    "popularBadge": "Most popular",
-    "bestValueBadge": "Best value",
-    "packPuzzles": "About {count} medium puzzles",
-    "buy": "Buy",
-    "signInToBuy": "Sign in to buy",
-    "shopClosed": "Buying credits isn't available right now. Please check back soon.",
-    "checkoutFailed": "We couldn't open the checkout. Please try again.",
-    "paddleNote": "Payments are processed by Paddle.com, our reseller and Merchant of Record. Prices include VAT or sales tax where it applies; the final price in your currency is shown at checkout.",
-    "refundsNote": "Refunds are covered in the terms of use."
+    "popularBadge": "Pinakasikat",
+    "bestValueBadge": "Pinakasulit",
+    "packPuzzles": "Mga {count} katamtamang palaisipan",
+    "buy": "Bilhin",
+    "signInToBuy": "Mag-sign in para bumili",
+    "shopClosed": "Hindi pa puwedeng bumili ng credits ngayon. Bumalik ka ulit maya-maya.",
+    "checkoutFailed": "Hindi namin nabuksan ang checkout. Subukan muli.",
+    "paddleNote": "Ang mga bayad ay pinoproseso ng Paddle.com, ang aming reseller at Merchant of Record. Kasama na sa presyo ang VAT o sales tax kung saan ito naaangkop; ipinapakita sa checkout ang huling presyo sa iyong pera.",
+    "refundsNote": "Nasa mga tuntunin ng paggamit ang tungkol sa refund."
   },
   "Payments": {
-    "checkoutTitle": "Checkout",
-    "opening": "Opening the secure checkout…",
-    "checkoutUnavailable": "The checkout couldn't open. Please try again from the credits page.",
-    "backToCredits": "Back to credits",
-    "verifying": "Confirming your payment…",
-    "successTitle": "Thank you!",
-    "successText": "{count, plural, one {# credit was} other {# credits were}} added to your balance.",
-    "pendingText": "Your payment went through. The credits will appear on your balance within a few minutes.",
-    "verifyError": "We couldn't confirm the payment right now. If you were charged, the credits will still arrive — check your balance in a few minutes.",
-    "lateHelp": "There's no need to wait on this page. If the credits haven't arrived within an hour, write to us and we'll sort it out.",
-    "contactUs": "Contact us",
-    "makePuzzle": "Make a puzzle"
+    "checkoutTitle": "Pag-checkout",
+    "opening": "Binubuksan ang ligtas na checkout…",
+    "checkoutUnavailable": "Hindi nabuksan ang checkout. Subukan muli mula sa pahina ng credits.",
+    "backToCredits": "Bumalik sa credits",
+    "verifying": "Kinukumpirma ang bayad mo…",
+    "successTitle": "Salamat!",
+    "successText": "Naidagdag sa balanse mo ang {count, plural, one {# credit} other {# credit}}.",
+    "pendingText": "Pumasok na ang bayad mo. Lalabas ang credits sa balanse mo sa loob ng ilang minuto.",
+    "verifyError": "Hindi namin makumpirma ang bayad ngayon. Kung nasingil ka, darating pa rin ang credits — tingnan ang balanse mo pagkalipas ng ilang minuto.",
+    "lateHelp": "Hindi mo kailangang maghintay sa pahinang ito. Kung wala pa ang credits sa loob ng isang oras, sumulat sa amin at aayusin namin.",
+    "contactUs": "Makipag-ugnayan sa amin",
+    "makePuzzle": "Gumawa ng palaisipan"
   },
   "Contact": {
     "title": "Sulatan kami",
@@ -805,5 +819,13 @@
     "sentText": "Salamat. Sasagot kami sa email sa lalong madaling panahon.",
     "sendAnother": "Sumulat ng isa pa",
     "tooMany": "Sobra na ang mensahe. Subukan ulit mamaya."
+  },
+  "Consent": {
+    "label": "Pahintulot sa cookies",
+    "text": "Gusto naming gumamit ng cookies ng Google Analytics para makita kung paano ginagamit ang site. Walang ads, walang profiling. Hangga't hindi ka pumapayag, tumatakbo ang analytics nang walang cookies.",
+    "privacy": "Patakaran sa pribasiya",
+    "accept": "Tanggapin",
+    "decline": "Tanggihan",
+    "settings": "Mga setting ng cookie"
   }
 }

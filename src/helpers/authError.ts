@@ -4,6 +4,8 @@ import { AUTH_CODE } from '@constants/auth'
 /** Which auth sentence to show, from the envelope code. Unknown failures stay with `classifyError`. */
 export const authErrorKey = (error: unknown): string | undefined => {
   if (!axios.isAxiosError(error)) return undefined
+  // Rate limits answer 429 without a code; the generic copy is about puzzles.
+  if (error.response?.status === 429) return 'tooManyAttempts'
   switch (error.response?.data?.error?.code) {
     case AUTH_CODE.invalidCredentials:
       return 'invalidCredentials'

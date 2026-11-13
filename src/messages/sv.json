@@ -1,7 +1,7 @@
 {
   "Common": {
     "appName": "Korsord AI",
-    "tagline": "Gratis korsord och rutkorsord som AI skriver direkt på ditt språk. Nya ord i varje omgång, aldrig en upprepning.",
+    "tagline": "Korsord och rutkorsord som AI skriver direkt på ditt språk — det första varje månad är gratis. Nya ord i varje omgång, aldrig en upprepning.",
     "skipToContent": "Hoppa till innehållet",
     "openMenu": "Öppna menyn",
     "menu": "Meny",
@@ -22,7 +22,7 @@
     "scanword": "Rutkorsord",
     "topics": "Ämnen",
     "history": "Mina korsord",
-    "credits": "Credits",
+    "credits": "Krediter",
     "rules": "Så löser du",
     "faq": "Frågor",
     "about": "Om oss",
@@ -54,25 +54,25 @@
     "gotIt": "Jag förstår"
   },
   "Seo": {
-    "homeTitle": "Svenskt korsord gratis — gör ett korsord online",
-    "homeDescription": "Gör ett korsord eller rutkorsord gratis. Ämnen: djur, mat, geografi, historia, vetenskap, sport och mer. Ett svenskt korsord med nya ord varje gång, fungerar offline.",
+    "homeTitle": "Svenskt korsord — gör ett korsord online, gratis att testa",
+    "homeDescription": "Gör ett korsord eller rutkorsord online — ditt första varje månad är gratis. Ämnen: djur, mat, geografi, historia, vetenskap, sport och mer. Ett svenskt korsord med nya ord varje gång, fungerar offline.",
     "keywords": "korsord, svenskt korsord, göra ett korsord, korsord online gratis, rutkorsord, korsord djur, korsord mat, korsord geografi, korsord historia, korsord vetenskap, korsord sport",
-    "crosswordTitle": "Klassiska korsord online gratis",
-    "crosswordDescription": "Lös klassiska korsord skrivna av AI: numrerade ledtrådar vågrätt och lodrätt, 12 ämnen, tre svårighetsgrader. Utan konto, nya ord varje gång.",
-    "scanwordTitle": "Rutkorsord online gratis — ledtrådar i rutorna",
-    "scanwordDescription": "Lös rutkorsord av AI: ledtrådarna sitter i rutorna och pilarna visar svaren. Gratis, utan konto, på telefon, surfplatta eller dator.",
+    "crosswordTitle": "Klassiska korsord online, gratis att testa",
+    "crosswordDescription": "Lös klassiska korsord skrivna av AI: numrerade ledtrådar vågrätt och lodrätt, 12 ämnen, tre svårighetsgrader. Ditt första korsord varje månad är gratis och kräver inget konto.",
+    "scanwordTitle": "Rutkorsord online — ledtrådar i rutorna",
+    "scanwordDescription": "Lös rutkorsord av AI: ledtrådarna sitter i rutorna och pilarna visar svaren. På telefon, surfplatta eller dator — det första pusslet varje månad är gratis.",
     "topicsTitle": "Korsord efter ämne: djur, mat, geografi",
     "topicsDescription": "Välj ämne för nästa korsord eller rutkorsord: natur, djur, mat, geografi, historia, vetenskap, sport, konst och mer.",
-    "topicTitle": "Korsord: {topic} — gratis online",
-    "topicDescription": "Gratis korsord och rutkorsord om {topic}, skrivna av AI. {description}",
+    "topicTitle": "Korsord: {topic} — online, skrivna av AI",
+    "topicDescription": "Korsord och rutkorsord om {topic}, skrivna av AI. Det första varje månad är gratis. {description}",
     "historyTitle": "Mina korsord",
     "historyDescription": "Korsord och rutkorsord du börjat på den här enheten och inte avslutat, med sparat läge.",
-    "creditsTitle": "Credits & prices",
-    "creditsDescription": "One free crossword every month, then credit packs with no subscription: what each puzzle costs, and how to buy credits.",
-    "paymentTitle": "Payment",
+    "creditsTitle": "Krediter och priser",
+    "creditsDescription": "11 gratiskrediter varje månad, sedan kreditpaket utan prenumeration: vad varje pussel kostar och hur du köper krediter.",
+    "paymentTitle": "Betalning",
     "rulesTitle": "Så löser du korsord och rutkorsord",
     "rulesDescription": "Så löser du ett korsord eller rutkorsord här: skriva bokstäver, röra sig i rutnätet, kontrollera, avslöja och kortkommandon.",
-    "faqTitle": "Frågor: gratis korsord, språk och integritet",
+    "faqTitle": "Frågor: korsord, priser, språk och integritet",
     "faqDescription": "Svar om Korsord AI: är det gratis, hur AI skriver ledtrådar, rutnätsstorlek, svårighet, ord som aldrig upprepas, offline, delning och integritet.",
     "aboutTitle": "Om oss — så görs våra korsord",
     "aboutDescription": "Varför vi byggde en korsordsgenerator som aldrig upprepar ett ord, och hur AI skriver ledtrådar direkt på varje språk.",
@@ -84,7 +84,7 @@
     "contactDescription": "En fråga, en idé eller ett fel i korsordet? Skriv till oss, vi svarar på mejl.",
     "puzzleDescription": "Ett gratis korsord från Korsord AI — lös det i webbläsaren.",
     "sharedPuzzleDescription": "Ett gratis {size} {format, select, scanword {rutkorsord} other {korsord}} · {topic} · {difficulty} · {words, plural, one {# ord} other {# ord}}. Skrivet av AI — lös det i webbläsaren, utan konto.",
-    "ogImageAlt": "Korsord AI — gratis korsord och rutkorsord på ditt språk",
+    "ogImageAlt": "Korsord AI — korsord och rutkorsord på ditt språk",
     "ogPuzzleCta": "Kan du lösa det?",
     "ogPuzzleMeta": "{size} · {words, plural, one {# ord} other {# ord}}"
   },
@@ -176,24 +176,25 @@
     "exhausted": "Du har löst alla ord vi har för det här valet just nu. Vi skriver nya — prova ett annat ämne, eller kom tillbaka om en minut."
   },
   "Billing": {
-    "credits": "{count, plural, one {# credit} other {# credits}}",
-    "balance": "Your balance: {count, plural, one {# credit} other {# credits}}",
-    "cost": "This puzzle: {count, plural, one {# credit} other {# credits}}",
-    "freeNow": "This one is free — your free puzzle of the month.",
-    "youHave": "You have {count, plural, one {# credit} other {# credits}}.",
-    "notEnough": "Not enough credits for this puzzle.",
-    "guestUsed": "You've used this month's free puzzle. Sign in for one more free puzzle every month, and to buy credits.",
-    "refusedSignIn": "This month's free puzzle is used. Sign in to get another one, and to buy credits.",
-    "refusedCredits": "Not enough credits for this puzzle. Top up to keep playing.",
-    "signIn": "Sign in",
-    "buyCredits": "Buy credits"
+    "credits": "{count, plural, one {# kredit} other {# krediter}}",
+    "balance": "Ditt saldo: {count, plural, one {# kredit} other {# krediter}}",
+    "cost": "Det här pusslet: {count, plural, one {# kredit} other {# krediter}}",
+    "freeNow": "Täcks av månadens gratiskrediter.",
+    "youHave": "Du har {count, plural, one {# kredit} other {# krediter}}.",
+    "notEnough": "Du har inte tillräckligt med krediter för det här pusslet.",
+    "guestUsed": "Du har använt månadens gratiskrediter. Logga in för att få ytterligare {count, plural, one {# gratiskredit} other {# gratiskrediter}} varje månad och för att kunna köpa krediter.",
+    "refusedSignIn": "Dina gratiskrediter räcker inte till det här pusslet. Logga in för att få ytterligare {count, plural, one {# gratiskredit} other {# gratiskrediter}} varje månad och för att kunna köpa krediter.",
+    "refusedCredits": "Du har inte tillräckligt med krediter för det här pusslet. Fyll på för att fortsätta spela.",
+    "refusedFreeBusy": "Gratiskrediterna är pausade en stund eftersom väldigt många pussel skapades med dem den senaste timmen. Försök igen senare.",
+    "signIn": "Logga in",
+    "buyCredits": "Köp krediter"
   },
   "Home": {
     "hero": {
       "eyebrow": "Gratis att testa · Ingen prenumeration · Fungerar offline",
       "title": "Ett svenskt korsord som <mark>alltid är nytt</mark>",
       "subtitle": "Välj ämne och svårighet. AI skriver ledtrådarna på ditt språk, och du får aldrig samma ord två gånger.",
-      "lede": "Gör ett korsord eller rutkorsord gratis, utan konto. Ämnena går från djur, mat och geografi till historia, vetenskap, sport, konst, hem, yrken och lokal kultur — eller blanda dem."
+      "lede": "Gör ett korsord eller rutkorsord — ditt första varje månad är gratis, utan konto. Ämnena går från djur, mat och geografi till historia, vetenskap, sport, konst, hem, yrken och lokal kultur — eller blanda dem."
     },
     "continueTitle": "Fortsätt där du slutade",
     "formatsTitle": "Två sätt att lösa",
@@ -221,7 +222,7 @@
     "topicsSubtitle": "Från fåglar vid matningen till kända älvar — eller blanda allt.",
     "faqTitle": "Frågor och svar",
     "faq1Question": "Är Korsord AI gratis?",
-    "faq1Answer": "Ditt första pussel varje månad är gratis helt utan konto, och loggar du in får du ett till. Därefter kostar pusslen krediter som köps som engångsköp utan prenumeration. Att spela ett pussel som någon delat med dig är alltid gratis.",
+    "faq1Answer": "Varje månad får du 11 gratiskrediter — det räcker till ett medelstort pussel — helt utan konto, och loggar du in får du 11 till. Därefter kostar pusslen krediter som köps som engångsköp utan prenumeration. Att spela ett pussel som någon delat med dig är alltid gratis.",
     "faq2Question": "Får jag samma ord igen?",
     "faq2Answer": "Nej. Enheten har en lista över ord den redan visat och lämnar dem utanför varje nytt korsord. Rensar du webbplatsens data börjar listan om.",
     "faq3Question": "Vilka språk kan jag spela på?",
@@ -240,7 +241,7 @@
       "title": "Ett klassiskt korsord, <mark>gjort för dig</mark>",
       "plainTitle": "Korsord AI",
       "subtitle": "Numrerade ledtrådar vågrätt och lodrätt, ett rutnät som växer från mitten och ord du inte sett förut.",
-      "lede": "Lös ett klassiskt korsord online gratis: numrerade ledtrådar vågrätt och lodrätt, i ämnen från djur och mat till geografi, historia, vetenskap och sport."
+      "lede": "Lös ett klassiskt korsord online: numrerade ledtrådar vågrätt och lodrätt, i ämnen från djur och mat till geografi, historia, vetenskap och sport."
     },
     "rulesTitle": "Så fungerar ett korsord",
     "rule1": "Varje vit ruta har en bokstav. Orden går vågrätt (vänster till höger) och lodrätt (uppifrån och ner) och korsar varandra.",
@@ -264,7 +265,7 @@
       "title": "Rutkorsord med ledtrådar <mark>i rutorna</mark>",
       "plainTitle": "Rutkorsord AI",
       "subtitle": "Inga listor att leta i: varje ledtråd sitter i sin ruta, med en pil mot svaret.",
-      "lede": "Lös ett svenskt korsord online gratis: ledtrådarna sitter i rutorna. Samma ämnen som korsorden — djur, mat, geografi, historia, vetenskap, sport och mer."
+      "lede": "Lös ett svenskt korsord online: ledtrådarna sitter i rutorna. Samma ämnen som korsorden — djur, mat, geografi, historia, vetenskap, sport och mer."
     },
     "rulesTitle": "Så fungerar ett rutkorsord",
     "rule1": "Färgade rutor håller ledtrådarna. Pilen visar var svaret börjar och åt vilket håll det går.",
@@ -297,6 +298,12 @@
   "Auth": {
     "signIn": "Logga in",
     "signOut": "Logga ut",
+    "signOutConfirm": {
+      "title": "Logga ut?",
+      "text": "Du kan logga in igen när du vill. Dina krediter och köp finns kvar på ditt konto.",
+      "confirm": "Logga ut",
+      "cancel": "Inte nu"
+    },
     "signInTitle": "Logga in",
     "signInSubtitle": "Med Google, eller med kontots e-post och lösenord.",
     "signUpTitle": "Skapa ett konto",
@@ -332,6 +339,7 @@
     "resent": "Skickad igen.",
     "forgotSent": "Om ett konto använder den adressen är länken på väg.",
     "invalidCredentials": "Den e-posten och det lösenordet hör inte ihop.",
+    "tooManyAttempts": "För många försök på kort tid. Vänta några minuter och försök igen.",
     "googleOnly": "Det här kontot loggar in med Google.",
     "emailNotVerified": "Bekräfta e-posten först. Länken ligger i inkorgen.",
     "emailTaken": "Ett konto med den e-posten finns redan.",
@@ -363,6 +371,12 @@
     "keepSolving": "Fortsätt lösa",
     "leave": "Lämna",
     "newPuzzle": "Nytt korsord",
+    "newPuzzleConfirm": {
+      "title": "Göra ett nytt korsord?",
+      "text": "Samma format, ämne och svårighetsgrad som det här.",
+      "create": "Skapa",
+      "cancel": "Inte nu"
+    },
     "allClues": "Alla ledtrådar",
     "across": "Vågrätt",
     "down": "Lodrätt",
@@ -539,15 +553,15 @@
           },
           {
             "question": "Är Korsord AI gratis?",
-            "answer": "Delvis. Ditt första pussel varje månad är gratis utan konto, och loggar du in får du ett andra gratispussel varje månad. Utöver det betalas pussel med krediter: du köper ett paketerbjudande en gång — det finns ingen prenumeration, krediterna går aldrig ut och det finns inga annonser. Att spela ett pussel som någon delat med dig är alltid gratis."
+            "answer": "Delvis. Varje månad får du 11 gratiskrediter — det räcker till ett medelstort pussel — utan konto, och loggar du in får du 11 till varje månad. Gratiskrediter sparas inte till nästa månad. Utöver det betalas pussel med krediter du köper: ett paket köps en gång — det finns ingen prenumeration, köpta krediter går aldrig ut och det finns inga annonser. Att spela ett pussel som någon delat med dig är alltid gratis."
           },
           {
             "question": "Behöver jag ett konto?",
-            "answer": "Inte för ditt gratis pussel varje månad: dina framsteg, dina inställningar och de ord du redan har sett sparas i din webbläsare. Ett konto ger dig ett andra gratispussel varje månad och gör att du kan köpa och spara krediter."
+            "answer": "Inte för dina 11 gratiskrediter i månaden: dina framsteg, dina inställningar och de ord du redan har sett sparas i din webbläsare. Ett konto ger dig 11 gratiskrediter till varje månad och gör att du kan köpa och spara krediter."
           },
           {
             "question": "Hur mycket kostar ett pussel?",
-            "answer": "Ett litet pussel kostar 5 krediter, ett medelstort 10 och ett stort 15; medelsvår nivå lägger till 1 kredit och svår lägger till 2. Krediter köps i paket om 200 för 4,99 $, 600 för 11,99 $ och 2 000 för 29,99 $. I kassan visas priset i din valuta, inklusive skatt där det gäller."
+            "answer": "Ett litet pussel kostar 5 krediter, ett medelstort 10 och ett stort 15; medelsvår nivå lägger till 1 kredit och svår lägger till 2. Dina 11 gratiskrediter i månaden räcker till ett medelstort pussel på medelsvår nivå. Krediter köps i paket om 200 för 4,99 $, 600 för 11,99 $ och 2 000 för 29,99 $. I kassan visas priset i din valuta, inklusive skatt där det gäller."
           },
           {
             "question": "Vem gör Korsord AI?",
@@ -641,7 +655,7 @@
   },
   "About": {
     "title": "Om Korsord AI",
-    "subtitle": "En gratis korsordsgenerator som skriver på ditt språk och aldrig serverar samma ord två gånger.",
+    "subtitle": "En korsordsgenerator som skriver på ditt språk och aldrig serverar samma ord två gånger.",
     "sections": [
       {
         "title": "Varför vi gjorde det",
@@ -678,7 +692,7 @@
         "title": "På vår server",
         "paragraphs": [
           "Vi sparar pusslen som skapas så att en delad länk öppnar samma rutnät. När du rapporterar en ledtråd sparar vi rapporten med en envägshash av din IP-adress, enbart för att en enskild person inte ska kunna ta bort en ledtråd på egen hand. Vi räknar också anonymt hur pussel spelas (om de löses och vilka ord som avslöjades) för att finjustera svårighetsgraden.",
-          "För att ge varje enhet dess gratis pussel för månaden sätter webbplatsen en cookie med en slumpmässig identifierare. Vid varje gratispussel sparar vi den identifieraren och en envägshash av din IP-adress."
+          "För att ge varje enhet dess gratiskrediter för månaden sätter webbplatsen en cookie med en slumpmässig identifierare. Vid varje pussel som betalas med gratiskrediter sparar vi den identifieraren och en envägshash av din IP-adress."
         ]
       },
       {
@@ -702,7 +716,8 @@
       {
         "title": "Analys och felrapportering",
         "paragraphs": [
-          "Om det är aktiverat använder vi Google Analytics för att räkna sidvisningar och Sentry för att ta emot felrapporter. Inget av verktygen används för att identifiera dig."
+          "Med ditt samtycke räknar Google Analytics sidvisningar och sätter sina cookies för att skilja besök åt; utan samtycke körs analysen utan cookies. Du kan när som helst ändra ditt svar under ”Cookieinställningar” längst ned på varje sida. Sentry tar emot felrapporter utan personuppgifter. Inget av dem används för annonser eller profilering.",
+          "Sidor på vissa språk hämtar sitt typsnitt från Google Fonts, som då får din IP-adress med den förfrågan."
         ]
       }
     ]
@@ -718,10 +733,10 @@
         ]
       },
       {
-        "title": "Gratispussel och krediter",
+        "title": "Gratiskrediter och köpta krediter",
         "paragraphs": [
-          "Varje enhet får ett gratispussel varje kalendermånad, och varje konto ytterligare ett. Övriga pussel betalas med krediter till det pris som visas innan du skapar ett. Krediter dras först när pusslet byggs, och att öppna ett redan sparat pussel är gratis.",
-          "Krediter köps i paket via engångsbetalning — det finns ingen prenumeration — och de går aldrig ut. De har inget kontantvärde och kan inte överföras."
+          "Varje enhet får 11 gratiskrediter varje kalendermånad, och varje konto ytterligare 11. Gratiskrediter används före köpta krediter och sparas inte till nästa månad. Pussel betalas med krediter till det pris som visas innan du skapar ett. Krediter dras först när pusslet byggs, och att öppna ett redan sparat pussel är gratis.",
+          "Krediter köps i paket via engångsbetalning — det finns ingen prenumeration — och köpta krediter går aldrig ut. Krediter har inget kontantvärde och kan inte överföras."
         ]
       },
       {
@@ -751,45 +766,44 @@
     ]
   },
   "Credits": {
-    "title": "Credits",
-    "subtitle": "One free puzzle every month. After that, pay only for the puzzles you make — no subscription, and credits never expire.",
-    "balanceTitle": "Your balance",
-    "freeAvailable": "Your free puzzle of this month is waiting.",
-    "freeUsed": "This month's free puzzle is used. The next one comes on {date}.",
-    "guestTitle": "Get more free puzzles",
-    "guestText": "Sign in to get a free puzzle every month on your account, and to buy credits.",
-    "pricesTitle": "What a puzzle costs",
-    "pricesText": "In credits, by size and difficulty. Opening a puzzle someone shared with you, or one from your history, is always free.",
-    "size": "Size",
-    "packsTitle": "Credit packs",
+    "title": "Krediter",
+    "subtitle": "11 gratiskrediter varje månad — räcker till ett medelstort pussel. Därefter betalar du bara för pusslen du gör: ingen prenumeration, och köpta krediter går aldrig ut.",
+    "balanceTitle": "Ditt saldo",
+    "freeAvailable": "Inklusive {count, plural, one {# gratiskredit} other {# gratiskrediter}} för den här månaden. Gratiskrediterna förnyas {date}.",
+    "freeUsed": "Månadens gratiskrediter är använda. {count, plural, one {# ny gratiskredit kommer} other {# nya gratiskrediter kommer}} {date}.",
+    "guestText": "Logga in för att få ytterligare {count, plural, one {# gratiskredit} other {# gratiskrediter}} varje månad på ditt konto och för att kunna köpa krediter.",
+    "pricesTitle": "Vad ett pussel kostar",
+    "pricesText": "I krediter, efter storlek och svårighetsgrad. Att öppna ett pussel som någon delat med dig, eller ett från din historik, är alltid gratis.",
+    "size": "Storlek",
+    "packsTitle": "Kreditpaket",
     "packs": {
-      "starter": "Starter",
-      "popular": "Popular",
-      "big": "Big"
+      "starter": "Start",
+      "popular": "Populär",
+      "big": "Stor"
     },
-    "popularBadge": "Most popular",
-    "bestValueBadge": "Best value",
-    "packPuzzles": "About {count} medium puzzles",
-    "buy": "Buy",
-    "signInToBuy": "Sign in to buy",
-    "shopClosed": "Buying credits isn't available right now. Please check back soon.",
-    "checkoutFailed": "We couldn't open the checkout. Please try again.",
-    "paddleNote": "Payments are processed by Paddle.com, our reseller and Merchant of Record. Prices include VAT or sales tax where it applies; the final price in your currency is shown at checkout.",
-    "refundsNote": "Refunds are covered in the terms of use."
+    "popularBadge": "Populärast",
+    "bestValueBadge": "Mest för pengarna",
+    "packPuzzles": "Cirka {count} medelstora pussel",
+    "buy": "Köp",
+    "signInToBuy": "Logga in för att köpa",
+    "shopClosed": "Det går inte att köpa krediter just nu. Titta in igen snart.",
+    "checkoutFailed": "Vi kunde inte öppna kassan. Försök igen.",
+    "paddleNote": "Betalningarna hanteras av Paddle.com, vår återförsäljare och formella säljare (Merchant of Record). Priserna inkluderar moms eller annan försäljningsskatt där det gäller; slutpriset i din valuta visas i kassan.",
+    "refundsNote": "Återbetalningar regleras i användarvillkoren."
   },
   "Payments": {
-    "checkoutTitle": "Checkout",
-    "opening": "Opening the secure checkout…",
-    "checkoutUnavailable": "The checkout couldn't open. Please try again from the credits page.",
-    "backToCredits": "Back to credits",
-    "verifying": "Confirming your payment…",
-    "successTitle": "Thank you!",
-    "successText": "{count, plural, one {# credit was} other {# credits were}} added to your balance.",
-    "pendingText": "Your payment went through. The credits will appear on your balance within a few minutes.",
-    "verifyError": "We couldn't confirm the payment right now. If you were charged, the credits will still arrive — check your balance in a few minutes.",
-    "lateHelp": "There's no need to wait on this page. If the credits haven't arrived within an hour, write to us and we'll sort it out.",
-    "contactUs": "Contact us",
-    "makePuzzle": "Make a puzzle"
+    "checkoutTitle": "Kassa",
+    "opening": "Öppnar den säkra kassan…",
+    "checkoutUnavailable": "Kassan kunde inte öppnas. Försök igen från sidan med krediter.",
+    "backToCredits": "Tillbaka till krediter",
+    "verifying": "Bekräftar din betalning…",
+    "successTitle": "Tack!",
+    "successText": "{count, plural, one {# kredit har} other {# krediter har}} lagts till på ditt saldo.",
+    "pendingText": "Din betalning har gått igenom. Krediterna dyker upp på ditt saldo inom några minuter.",
+    "verifyError": "Vi kunde inte bekräfta betalningen just nu. Om du har debiterats kommer krediterna ändå — kolla ditt saldo om några minuter.",
+    "lateHelp": "Du behöver inte vänta kvar på den här sidan. Om krediterna inte har kommit inom en timme, skriv till oss så löser vi det.",
+    "contactUs": "Kontakta oss",
+    "makePuzzle": "Gör ett pussel"
   },
   "Contact": {
     "title": "Skriv till oss",
@@ -805,5 +819,13 @@
     "sentText": "Tack. Vi svarar på mejl så snart vi kan.",
     "sendAnother": "Skriv ett till meddelande",
     "tooMany": "Det blev för många meddelanden. Försök igen om en stund."
+  },
+  "Consent": {
+    "label": "Samtycke till cookies",
+    "text": "Vi vill använda cookies från Google Analytics för att se hur webbplatsen används. Inga annonser, ingen profilering. Tills du godkänner körs analysen utan cookies.",
+    "privacy": "Integritetspolicy",
+    "accept": "Godkänn",
+    "decline": "Avvisa",
+    "settings": "Cookieinställningar"
   }
 }

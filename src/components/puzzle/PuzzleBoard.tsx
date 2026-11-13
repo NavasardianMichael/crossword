@@ -1,8 +1,9 @@
 'use client'
 
 import { type CSSProperties, useEffect, useState } from 'react'
-import { House, Plus, Share2, WifiOff } from 'lucide-react'
+import { House, Plus, Share2 } from 'lucide-react'
 import { useTranslations } from 'next-intl'
+import { useBillingStore } from '@store/billing/store'
 import { useLeaveGuardStoreBase } from '@store/navigation/guard/store'
 import { useCreateStore } from '@store/puzzle/create/store'
 import { usePlayStore, usePlayStoreBase } from '@store/puzzle/play/store'
@@ -10,12 +11,13 @@ import { useCoarsePointer } from '@hooks/useCoarsePointer'
 import { useGameLayout } from '@hooks/useGameLayout'
 import { confirmLeave, useLeaveGuard } from '@hooks/useLeaveGuard'
 import { usePendingRouter } from '@hooks/useNavigationPending'
-import type { PuzzleView } from '@constants/puzzle'
+import { puzzleCredits, type PuzzleView } from '@constants/puzzle'
 import { puzzlePath } from '@constants/routes'
 import { cn } from '@helpers/cn'
 import { loadProgress, loadPuzzle, savePuzzle } from '@helpers/offline/db'
 import { addSeen } from '@helpers/puzzle/seen'
 import { CreateErrorAlert } from '@components/billing/CreateErrorAlert'
+import { PuzzleCost } from '@components/billing/PuzzleCost'
 import { Button } from '@components/ui/Button'
 import { Dialog } from '@components/ui/Dialog'
 import { IconLink } from '@components/ui/IconLink'
@@ -24,6 +26,7 @@ import { BoardViewport } from './BoardViewport'
 import { ClueBar } from './ClueBar'
 import { ClueLists } from './ClueLists'
 import { Grid } from './Grid'
+import { MissingPuzzle } from './MissingPuzzle'
 import { OnScreenKeyboard } from './OnScreenKeyboard'
 import { PuzzleHeading } from './PuzzleHeading'
 import { ShareDialog } from './ShareDialog'
@@ -56,6 +59,7 @@ export const PuzzleBoard = ({ id, initial }: PuzzleBoardProps) => {
   const [load, setLoad] = useState<LoadState>({ status: 'loading' })
   const [cluesOpen, setCluesOpen] = useState(false)
   const [shareOpen, setShareOpen] = useState(false)
+  const [costOpen, setCostOpen] = useState(false)
   const [dismissedSolve, setDismissedSolve] = useState<number | null>(null)
   const puzzle = usePlayStore.use.puzzle()
   const status = usePlayStore.use.status()
@@ -66,6 +70,14 @@ export const PuzzleBoard = ({ id, initial }: PuzzleBoardProps) => {
   const createPuzzle = useCreateStore.use.createPuzzle()
   const creating = useCreateStore.use.isPending()
   const createError = useCreateStore.use.error()
+  const options = useCreateStore.use.options()
+  const hydrateOptions = useCreateStore.use.hydrateOptions()
+  const billing = useBillingStore.use.status()
+
+  // "New puzzle" keeps this puzzle's format, topic and difficulty, and the player's last size.
+  useEffect(() => {
+    hydrateOptions()
+  }, [hydrateOptions])
 
   useEffect(() => {
     let cancelled = false
@@ -121,12 +133,24 @@ export const PuzzleBoard = ({ id, initial }: PuzzleBoardProps) => {
     // The clock is already running, so this asks even before the first letter. A solved puzzle does not.
     if (!(await confirmLeave(status === 'playing'))) return
     const next = await createPuzzle(puzzle.locale, { format: puzzle.format, topic: puzzle.topic, difficulty: puzzle.difficulty })
+    // Solved or not, the dialog steps aside: a refusal's sign-in / buy-credits alert sits behind it.
+    closeSolved()
     if (!next) {
       useLeaveGuardStoreBase.getState().keepGuarding()
       return
     }
-    closeSolved()
     router.push(puzzlePath(next.id))
+  }
+
+  // A puzzle that spends bought credits is never one tap away: the price is shown and confirmed
+  // first. One the free credits cover needs no confirmation, and a guest's refusal explains itself.
+  const requestNewPuzzle = () => {
+    if (puzzle && billing?.signedIn && puzzleCredits(options.size, puzzle.difficulty) > billing.freeCredits) setCostOpen(true)
+    else void newPuzzle()
+  }
+  const confirmNewPuzzle = () => {
+    setCostOpen(false)
+    void newPuzzle()
   }
 
   if (load.status === 'loading' || (load.status === 'ready' && puzzle?.id !== id)) {
@@ -138,15 +162,7 @@ export const PuzzleBoard = ({ id, initial }: PuzzleBoardProps) => {
     )
   }
 
-  if (load.status === 'missing' || !puzzle) {
-    return (
-      <div className='container-page flex min-h-[50dvh] flex-col items-center justify-center gap-4 text-center'>
-        <WifiOff aria-hidden className='size-12 text-ink-300' />
-        <h1 className='text-h2 font-extrabold'>{t('missingTitle')}</h1>
-        <p className='max-w-md text-ink-700'>{t('missingText')}</p>
-      </div>
-    )
-  }
+  if (load.status === 'missing' || !puzzle) return <MissingPuzzle />
 
   const announcementText = announcement
     ? t(`announce.${announcement.key}`, announcement.values as Record<string, number>)
@@ -157,7 +173,31 @@ export const PuzzleBoard = ({ id, initial }: PuzzleBoardProps) => {
       <div aria-live='polite' aria-atomic className='sr-only'>
         {announcementText}
       </div>
-      <SolvedDialog open={solvedOpen} onClose={closeSolved} onNewPuzzle={newPuzzle} pending={creating} />
+      <SolvedDialog
+        open={solvedOpen}
+        onClose={closeSolved}
+        onNewPuzzle={newPuzzle}
+        pending={creating}
+        cost={<PuzzleCost size={options.size} difficulty={puzzle.difficulty} />}
+      />
+      <Dialog
+        open={costOpen}
+        onClose={() => setCostOpen(false)}
+        title={t('newPuzzleConfirm.title')}
+        description={t('newPuzzleConfirm.text')}
+        footer={
+          <>
+            <Button variant='ghost' size='sm' onClick={() => setCostOpen(false)}>
+              {t('newPuzzleConfirm.cancel')}
+            </Button>
+            <Button variant='primary' size='sm' onClick={confirmNewPuzzle} icon={<Plus aria-hidden className='size-5' />}>
+              {t('newPuzzleConfirm.create')}
+            </Button>
+          </>
+        }
+      >
+        <PuzzleCost size={options.size} difficulty={puzzle.difficulty} />
+      </Dialog>
       <ShareDialog open={shareOpen} onClose={() => setShareOpen(false)} />
     </>
   )
@@ -171,7 +211,7 @@ export const PuzzleBoard = ({ id, initial }: PuzzleBoardProps) => {
             <IconLink href='/' label={tNav('home')} icon={<House aria-hidden className='size-5' />} />
             <PuzzleHeading puzzle={puzzle} compact />
             <Toolbar
-              compact={{ onNewPuzzle: newPuzzle, onShare: () => setShareOpen(true), onShowClues: () => setCluesOpen(true), creating }}
+              compact={{ onNewPuzzle: requestNewPuzzle, onShare: () => setShareOpen(true), onShowClues: () => setCluesOpen(true), creating }}
               className='ms-auto shrink-0'
             />
           </div>
@@ -232,7 +272,7 @@ export const PuzzleBoard = ({ id, initial }: PuzzleBoardProps) => {
             variant='primary'
             size='sm'
             className='shrink-0 px-3 sm:px-4'
-            onClick={newPuzzle}
+            onClick={requestNewPuzzle}
             loading={creating}
             aria-label={t('newPuzzle')}
             icon={<Plus aria-hidden className='size-5' />}

@@ -1,6 +1,6 @@
 'use client'
 
-import { useEffect, useRef } from 'react'
+import { type ReactNode, useEffect, useRef } from 'react'
 import confetti from 'canvas-confetti'
 import { PartyPopper, Plus } from 'lucide-react'
 import { useTranslations } from 'next-intl'
@@ -12,11 +12,11 @@ import { formatDuration } from './Timer'
 
 /**
  * The finish: confetti in the crayon colours (skipped under reduced motion), the time, how
- * much help it took, and the way to the next puzzle.
+ * much help it took, and the way to the next puzzle — with what that one costs beside it.
  */
-type SolvedDialogProps = { open: boolean; onClose: () => void; onNewPuzzle: () => void; pending: boolean }
+type SolvedDialogProps = { open: boolean; onClose: () => void; onNewPuzzle: () => void; pending: boolean; cost?: ReactNode }
 
-export const SolvedDialog = ({ open, onClose, onNewPuzzle, pending }: SolvedDialogProps) => {
+export const SolvedDialog = ({ open, onClose, onNewPuzzle, pending, cost }: SolvedDialogProps) => {
   const t = useTranslations('Play.solved')
   const elapsedMs = usePlayStore.use.elapsedMs()
   const checks = usePlayStore.use.checks()
@@ -65,6 +65,7 @@ export const SolvedDialog = ({ open, onClose, onNewPuzzle, pending }: SolvedDial
           </div>
         ))}
       </dl>
+      {cost ? <div className='mt-4'>{cost}</div> : null}
     </Dialog>
   )
 }

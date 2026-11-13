@@ -1,6 +1,6 @@
 # Crossword AI
 
-An AI crossword and scanword generator in thirty-three languages: one free puzzle a month, then
+An AI crossword and scanword generator in thirty-three languages: 11 free credits a month, then
 credits (`docs/BILLING.md`). A Next.js App
 Router PWA and an Express/Prisma API in `server/`, in one pnpm workspace. Words and clues are
 written by Gemini natively per language and pooled in Postgres; every device excludes the
@@ -21,7 +21,7 @@ pnpm test:unit                # fast, no database (layout fuzzing, alphabet, val
 pnpm test:integration         # real API against a throwaway crossword_test database, Gemini off
 pnpm test:e2e                 # Playwright, needs `RATE_LIMIT_ENABLED=false BILLING_ENABLED=false pnpm dev`
 pnpm screenshots              # re-capture the manifest's install screenshots, needs `pnpm dev` running
-pnpm check:messages           # ru/hy catalogues match en.json (keys, placeholders, plurals)
+pnpm check:messages           # every catalogue matches en.json (keys, placeholders, plurals, nothing left in English)
 pnpm --filter crossword-server exec tsx prisma/check-seed.ts [locale]   # validate seed words + prompt material
 pnpm build:api                # server/dist + the deployable out/api release
 pnpm env:base64 production | clip   # server/.env.production.local -> the ENV_API_BASE64 secret
@@ -35,14 +35,14 @@ pnpm env:base64 production | clip   # server/.env.production.local -> the ENV_AP
 | What a letter is (`ու`/`և` one cell, `ё`→`е`), typing rules | `src/constants/alphabet.ts` ↔ twin `server/src/lib/alphabet.ts` |
 | Grid layout (classic, scanword), pure + seeded | `server/src/lib/layout/` — fuzzed in `tests/unit/layout/` |
 | Native prompt material: style guides, examples, subtopics | `server/src/lib/content/{en,ru,hy}.ts` |
-| Seed words (non-AI fallback, integration data) | `server/prisma/seed/entries.{en,ru,hy}.json` · loader `prisma/seed.ts` · checker `prisma/check-seed.ts` |
+| Seed words (non-AI fallback, integration data) | `server/prisma/seed/entries.<locale>.json` (all 33) · loader `prisma/seed.ts` · checker `prisma/check-seed.ts` |
 | Generation: prompt, validation, judge pass | `server/src/services/entryGen.ts`, `entryValidation.ts` |
 | The pool: upsert, diversity seeding, drawing, reports | `server/src/services/entryPool.ts` · refill job `server/src/jobs/poolRefill.ts` |
 | Building + storing a puzzle, fallback ladder | `server/src/services/puzzleBuilder.ts` · routes `server/src/routes/puzzles.ts` |
 | Gemini (model chain, cooldowns, the only key reader) | `server/src/lib/gemini.ts` |
 | The board (grid, clue bar, lists, keyboard, toolbar) | `src/components/puzzle/` · state `src/store/puzzle/play/` · rules `src/helpers/puzzle/` |
 | Creating puzzles, seen-list | `src/store/puzzle/create/` · `src/helpers/puzzle/seen.ts` · `src/helpers/offline/db.ts` |
-| Billing: free puzzle, credits, Paddle | `docs/BILLING.md` (model) · `docs/PADDLE_SETUP.md` (manual setup) · `server/src/services/billing.ts`, `paymentNotifications.ts` (admin mails), `lib/paddle.ts`, `routes/billing.ts` · prices `CREDIT_PACKS`/`SIZE_CREDITS` in the puzzle twins · web `src/components/billing/`, `src/store/billing/` |
+| Billing: free and bought credits, Paddle | `docs/BILLING.md` (model) · `docs/PADDLE_SETUP.md` (manual setup) · `server/src/services/billing.ts`, `paymentNotifications.ts` (admin mails), `lib/paddle.ts`, `routes/billing.ts` · prices `CREDIT_PACKS`/`SIZE_CREDITS` in the puzzle twins · web `src/components/billing/`, `src/store/billing/` |
 | Keyboards (on-screen rows, physical-key fallback) | `src/constants/keyboards.ts` |
 | Topic colours and icons | `src/constants/topicStyles.ts` |
 | HTTP calls from the web | `src/api/puzzles/` — `endpoints`, `types`, `processors`, `main` |

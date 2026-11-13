@@ -1,7 +1,7 @@
 {
   "Common": {
     "appName": "Silang Kata AI",
-    "tagline": "Teka silang kata dan teka petak percuma, ditulis segar dalam Bahasa Melayu. Perkataan baharu setiap permainan, tidak pernah berulang.",
+    "tagline": "Teka silang kata dan teka petak, ditulis segar dalam Bahasa Melayu — yang pertama setiap bulan percuma. Perkataan baharu setiap permainan, tidak pernah berulang.",
     "skipToContent": "Langkau ke kandungan",
     "openMenu": "Buka menu",
     "menu": "Menu",
@@ -22,7 +22,7 @@
     "scanword": "Teka petak",
     "topics": "Topik",
     "history": "Teka saya",
-    "credits": "Credits",
+    "credits": "Kredit",
     "rules": "Cara main",
     "faq": "Soalan lazim",
     "about": "Perihal",
@@ -54,28 +54,28 @@
     "gotIt": "Faham"
   },
   "Seo": {
-    "homeTitle": "Teka Silang Kata Melayu Percuma | Buat Teka Silang Kata",
-    "homeDescription": "Buat teka silang kata Melayu percuma dalam talian. Pilih haiwan, makanan, geografi, sejarah, sains, sukan dan lagi. Perkataan baharu setiap permainan, boleh di luar talian.",
+    "homeTitle": "Teka Silang Kata Melayu, Percuma untuk Dicuba | Buat Teka Silang Kata",
+    "homeDescription": "Buat teka silang kata Melayu dalam talian — yang pertama setiap bulan percuma. Pilih haiwan, makanan, geografi, sejarah, sains, sukan dan lagi. Perkataan baharu setiap permainan, boleh di luar talian.",
     "keywords": "teka silang kata, buat teka silang kata, teka silang kata melayu, silang kata bahasa melayu, teka silang kata percuma, silang kata dalam talian, haiwan, makanan, geografi, sejarah, sains, sukan, silang kata haiwan, silang kata makanan, silang kata geografi, silang kata sejarah, silang kata sains, silang kata sukan",
-    "crosswordTitle": "Teka Silang Kata Percuma dalam Talian",
-    "crosswordDescription": "Main teka silang kata percuma dalam talian, ditulis oleh AI: petunjuk bernombor melintang dan menegak, 12 topik, tiga tahap kesukaran. Tanpa daftar, perkataan baharu setiap permainan.",
-    "scanwordTitle": "Teka Petak Percuma — Petunjuk di Dalam Kekisi",
-    "scanwordDescription": "Selesaikan teka petak percuma: petunjuk duduk di dalam kekisi, dengan anak panah ke jawapan. Ditulis oleh AI, tanpa daftar, di telefon, tablet atau komputer.",
+    "crosswordTitle": "Teka Silang Kata dalam Talian, Percuma untuk Dicuba",
+    "crosswordDescription": "Main teka silang kata dalam talian, ditulis oleh AI: petunjuk bernombor melintang dan menegak, 12 topik, tiga tahap kesukaran. Teka pertama setiap bulan percuma tanpa daftar, perkataan baharu setiap permainan.",
+    "scanwordTitle": "Teka Petak dalam Talian — Petunjuk di Dalam Kekisi",
+    "scanwordDescription": "Selesaikan teka petak: petunjuk duduk di dalam kekisi, dengan anak panah ke jawapan. Ditulis oleh AI, di telefon, tablet atau komputer — teka pertama setiap bulan percuma.",
     "topicsTitle": "Topik Teka Silang Kata: Haiwan, Makanan, Geografi dan Lagi",
     "topicsDescription": "Pilih topik untuk teka silang kata atau teka petak seterusnya: alam, haiwan, makanan, geografi, sejarah, sains, sukan, seni dan lagi.",
-    "topicTitle": "{topic} — teka silang kata percuma",
-    "topicDescription": "Teka silang kata dan teka petak {topic} percuma, dijana oleh AI. {description}",
+    "topicTitle": "{topic} — teka silang kata dalam talian oleh AI",
+    "topicDescription": "Teka silang kata dan teka petak {topic}, dijana oleh AI; yang pertama setiap bulan percuma. {description}",
     "historyTitle": "Teka saya",
     "historyDescription": "Teka silang kata dan teka petak yang anda mulakan pada peranti ini dan belum selesai, dengan kemajuan yang tersimpan.",
-    "creditsTitle": "Credits & prices",
-    "creditsDescription": "One free crossword every month, then credit packs with no subscription: what each puzzle costs, and how to buy credits.",
-    "paymentTitle": "Payment",
+    "creditsTitle": "Kredit & harga",
+    "creditsDescription": "11 kredit percuma setiap bulan, kemudian pek kredit tanpa langganan: harga setiap teka, dan cara membeli kredit.",
+    "paymentTitle": "Pembayaran",
     "rulesTitle": "Cara Main Teka Silang Kata dan Teka Petak",
     "rulesDescription": "Cara selesaikan teka silang kata atau teka petak di sini: menaip, bergerak dalam kekisi, menyemak dan mendedahkan huruf, serta pintasan papan kekunci.",
     "faqTitle": "Soalan Lazim: Teka Silang Kata AI, Bahasa dan Privasi",
     "faqDescription": "Jawapan tentang Silang Kata AI: adakah percuma, bagaimana AI menulis petunjuk, saiz kekisi, kesukaran, perkataan yang tidak berulang, main di luar talian, perkongsian dan privasi.",
     "aboutTitle": "Perihal — Bagaimana Teka Silang Kata AI Dihasilkan",
-    "aboutDescription": "Mengapa kami bina penjana teka silang kata percuma yang tidak pernah mengulang perkataan, dan bagaimana AI menulis petunjuk secara asli dalam setiap bahasa.",
+    "aboutDescription": "Mengapa kami bina penjana teka silang kata yang tidak pernah mengulang perkataan, dan bagaimana AI menulis petunjuk secara asli dalam setiap bahasa.",
     "privacyTitle": "Dasar privasi",
     "privacyDescription": "Apa yang disimpan oleh Silang Kata AI, di mana dan sebabnya — termasuk akaun dan pembayaran, serta tanpa penjejakan identiti anda.",
     "termsTitle": "Syarat penggunaan",
@@ -84,7 +84,7 @@
     "contactDescription": "Ada soalan, idea atau masalah dalam teka-teki? Tulis kepada kami, kami balas melalui e-mel.",
     "puzzleDescription": "Teka percuma daripada Silang Kata AI — selesaikan dalam pelayar anda.",
     "sharedPuzzleDescription": "{format, select, scanword {Teka petak} other {Teka silang kata}} percuma {size} · {topic} · {difficulty} · {words, plural, other {# perkataan}}. Ditulis oleh AI — selesaikan dalam pelayar, tanpa daftar.",
-    "ogImageAlt": "Silang Kata AI — teka silang kata dan teka petak percuma dalam bahasa anda",
+    "ogImageAlt": "Silang Kata AI — teka silang kata dan teka petak tulisan AI dalam bahasa anda",
     "ogPuzzleCta": "Boleh selesaikan?",
     "ogPuzzleMeta": "{size} · {words, plural, other {# perkataan}}"
   },
@@ -176,24 +176,25 @@
     "exhausted": "Anda sudah main semua perkataan yang ada untuk pilihan ini! Kami sedang menulis yang baharu — cuba topik lain, atau kembali sebentar lagi."
   },
   "Billing": {
-    "credits": "{count, plural, one {# credit} other {# credits}}",
-    "balance": "Your balance: {count, plural, one {# credit} other {# credits}}",
-    "cost": "This puzzle: {count, plural, one {# credit} other {# credits}}",
-    "freeNow": "This one is free — your free puzzle of the month.",
-    "youHave": "You have {count, plural, one {# credit} other {# credits}}.",
-    "notEnough": "Not enough credits for this puzzle.",
-    "guestUsed": "You've used this month's free puzzle. Sign in for one more free puzzle every month, and to buy credits.",
-    "refusedSignIn": "This month's free puzzle is used. Sign in to get another one, and to buy credits.",
-    "refusedCredits": "Not enough credits for this puzzle. Top up to keep playing.",
-    "signIn": "Sign in",
-    "buyCredits": "Buy credits"
+    "credits": "{count, plural, other {# kredit}}",
+    "balance": "Baki anda: {count, plural, other {# kredit}}",
+    "cost": "Teka ini: {count, plural, other {# kredit}}",
+    "freeNow": "Ditanggung oleh kredit percuma anda bulan ini.",
+    "youHave": "Anda ada {count, plural, other {# kredit}}.",
+    "notEnough": "Kredit tidak mencukupi untuk teka ini.",
+    "guestUsed": "Anda sudah menggunakan kredit percuma bulan ini. Log masuk untuk mendapat {count, plural, other {# kredit percuma lagi}} setiap bulan, dan untuk membeli kredit.",
+    "refusedSignIn": "Kredit percuma anda tidak mencukupi untuk teka ini. Log masuk untuk mendapat {count, plural, other {# kredit percuma lagi}} setiap bulan, dan untuk membeli kredit.",
+    "refusedCredits": "Kredit tidak mencukupi untuk teka ini. Tambah nilai untuk terus bermain.",
+    "refusedFreeBusy": "Kredit percuma dihentikan seketika kerana terlalu banyak teka dibuat dengannya dalam sejam yang lalu. Cuba lagi sebentar nanti.",
+    "signIn": "Log masuk",
+    "buyCredits": "Beli kredit"
   },
   "Home": {
     "hero": {
       "eyebrow": "Percuma untuk dicuba · Tanpa langganan · Berfungsi di luar talian",
       "title": "Teka silang kata yang <mark>sentiasa baharu</mark>",
       "subtitle": "Pilih topik dan kesukaran — AI menulis petunjuk dalam bahasa anda, dan perkataan yang sama tidak keluar dua kali.",
-      "lede": "Buat teka silang kata atau teka petak percuma dalam talian, tanpa daftar. Topiknya dari haiwan, makanan dan geografi hingga sejarah, sains, sukan, seni, rumah, pekerjaan dan budaya tempatan — atau campur semuanya."
+      "lede": "Buat teka silang kata atau teka petak dalam talian — yang pertama setiap bulan percuma, tanpa daftar. Topiknya dari haiwan, makanan dan geografi hingga sejarah, sains, sukan, seni, rumah, pekerjaan dan budaya tempatan — atau campur semuanya."
     },
     "continueTitle": "Sambung dari tadi",
     "formatsTitle": "Dua cara bermain",
@@ -221,7 +222,7 @@
     "topicsSubtitle": "Dari burung halaman hingga sungai terkenal — atau campur semuanya.",
     "faqTitle": "Soalan dan jawapan",
     "faq1Question": "Adakah Silang Kata AI percuma?",
-    "faq1Answer": "Teka-teki pertama anda setiap bulan adalah percuma tanpa perlu mendaftar, dan mendaftar masuk menambah satu lagi teka-teki percuma. Selepas itu, teka-teki memerlukan kredit yang dibeli sekali sahaja tanpa langganan. Memainkan teka-teki yang dikongsi oleh orang lain sentiasa percuma.",
+    "faq1Answer": "Setiap bulan anda mendapat 11 kredit percuma — cukup untuk satu teka-teki sederhana — tanpa perlu mendaftar, dan log masuk menambah 11 lagi. Selepas itu, teka-teki memerlukan kredit yang dibeli sekali sahaja tanpa langganan. Memainkan teka-teki yang dikongsi oleh orang lain sentiasa percuma.",
     "faq2Question": "Adakah saya akan nampak perkataan yang sama lagi?",
     "faq2Answer": "Tidak. Peranti anda menyimpan senarai perkataan yang sudah ditunjukkan dan meninggalkannya daripada setiap teka baharu. Jika anda padam data laman pada pelayar, senarai itu bermula semula.",
     "faq3Question": "Bahasa apa yang boleh saya main?",
@@ -240,7 +241,7 @@
       "title": "Teka silang kata klasik, <mark>hanya untuk anda</mark>",
       "plainTitle": "Teka Silang Kata AI",
       "subtitle": "Petunjuk Melintang dan Menegak bernombor, kekisi yang tumbuh dari tengah, dan perkataan yang belum anda lihat.",
-      "lede": "Main teka silang kata klasik percuma dalam talian: petunjuk bernombor melintang dan menegak, dengan topik dari haiwan dan makanan hingga geografi, sejarah, sains dan sukan."
+      "lede": "Main teka silang kata klasik dalam talian: petunjuk bernombor melintang dan menegak, dengan topik dari haiwan dan makanan hingga geografi, sejarah, sains dan sukan."
     },
     "rulesTitle": "Bagaimana teka silang kata berfungsi",
     "rule1": "Setiap petak putih memuatkan satu huruf. Perkataan berjalan melintang (kiri ke kanan) dan menegak (atas ke bawah), bersilang antara satu sama lain.",
@@ -264,7 +265,7 @@
       "title": "Teka petak dengan petunjuk <mark>di dalam kekisi</mark>",
       "plainTitle": "Teka Petak AI",
       "subtitle": "Tiada senarai untuk dicari: setiap petunjuk duduk dalam petaknya sendiri, dengan anak panah ke jawapan.",
-      "lede": "Main teka petak percuma dalam talian: petunjuk duduk di dalam kekisi. Topik yang sama seperti teka silang kata — haiwan, makanan, geografi, sejarah, sains, sukan dan lagi."
+      "lede": "Main teka petak dalam talian: petunjuk duduk di dalam kekisi. Topik yang sama seperti teka silang kata — haiwan, makanan, geografi, sejarah, sains, sukan dan lagi."
     },
     "rulesTitle": "Bagaimana teka petak berfungsi",
     "rule1": "Petak berwarna memuatkan petunjuk. Anak panah di sebelah petunjuk menunjukkan tempat jawapan bermula dan arahnya.",
@@ -297,6 +298,12 @@
   "Auth": {
     "signIn": "Log masuk",
     "signOut": "Log keluar",
+    "signOutConfirm": {
+      "title": "Log keluar?",
+      "text": "Anda boleh log masuk semula bila-bila masa. Kredit dan pembelian anda kekal dalam akaun anda.",
+      "confirm": "Log keluar",
+      "cancel": "Bukan sekarang"
+    },
     "signInTitle": "Log masuk",
     "signInSubtitle": "Guna Google, atau e-mel dan kata laluan akaun anda.",
     "signUpTitle": "Buat akaun",
@@ -332,6 +339,7 @@
     "resent": "Dihantar semula.",
     "forgotSent": "Jika ada akaun yang memakai alamat itu, pautan sedang dihantar.",
     "invalidCredentials": "E-mel dan kata laluan itu tidak sepadan.",
+    "tooManyAttempts": "Terlalu banyak cubaan dalam masa yang singkat. Tunggu beberapa minit, kemudian cuba lagi.",
     "googleOnly": "Akaun ini log masuk dengan Google.",
     "emailNotVerified": "Sahkan e-mel dahulu. Pautan ada dalam peti masuk.",
     "emailTaken": "Akaun dengan e-mel ini sudah wujud.",
@@ -363,6 +371,12 @@
     "keepSolving": "Teruskan menyelesaikan",
     "leave": "Tinggalkan",
     "newPuzzle": "Teka baharu",
+    "newPuzzleConfirm": {
+      "title": "Buat teka baharu?",
+      "text": "Bentuk, topik dan kesukaran sama seperti teka ini.",
+      "create": "Buat",
+      "cancel": "Bukan sekarang"
+    },
     "allClues": "Semua petunjuk",
     "across": "Melintang",
     "down": "Menegak",
@@ -539,15 +553,15 @@
           },
           {
             "question": "Adakah Silang Kata AI percuma?",
-            "answer": "Bahagian tertentu percuma. Teka-teki pertama anda setiap bulan adalah percuma tanpa mendaftar, dan mendaftar masuk menambah teka-teki percuma kedua setiap bulan. Selebihnya, teka-teki dibayar dengan kredit: anda membeli pek sekali sahaja — tiada langganan, kredit tidak pernah luput, dan tiada iklan. Memainkan teka-teki yang dikongsi oleh orang lain sentiasa percuma."
+            "answer": "Bahagian tertentu percuma. Setiap bulan anda mendapat 11 kredit percuma — cukup untuk satu teka-teki sederhana — tanpa mendaftar, dan log masuk menambah 11 lagi setiap bulan. Kredit percuma tidak dibawa ke bulan berikutnya. Selebihnya, teka-teki dibayar dengan kredit yang anda beli: anda membeli pek sekali sahaja — tiada langganan, kredit yang dibeli tidak pernah luput, dan tiada iklan. Memainkan teka-teki yang dikongsi oleh orang lain sentiasa percuma."
           },
           {
             "question": "Adakah saya memerlukan akaun?",
-            "answer": "Tidak perlu untuk teka-teki percuma anda bulan ini: kemajuan, tetapan dan perkataan yang telah anda lihat disimpan dalam pelayar anda. Akaun menambah teka-teki percuma kedua setiap bulan dan membolehkan anda membeli serta menyimpan kredit."
+            "answer": "Tidak perlu untuk 11 kredit percuma anda setiap bulan: kemajuan, tetapan dan perkataan yang telah anda lihat disimpan dalam pelayar anda. Akaun menambah 11 lagi kredit percuma setiap bulan dan membolehkan anda membeli serta menyimpan kredit."
           },
           {
             "question": "Berapakah kos satu teka-teki?",
-            "answer": "Teka-teki kecil berharga 5 kredit, sederhana 10 dan besar 15; tahap kesukaran sederhana menambah 1 kredit dan sukar menambah 2 kredit. Kredit dijual dalam pek 200 untuk $4.99, 600 untuk $11.99 dan 2,000 untuk $29.99. Halaman pembayaran menunjukkan harga dalam mata wang anda, termasuk cukai jika berkenaan."
+            "answer": "Teka-teki kecil berharga 5 kredit, sederhana 10 dan besar 15; tahap kesukaran sederhana menambah 1 kredit dan sukar menambah 2 kredit. Sebanyak 11 kredit percuma anda setiap bulan mencukupi untuk satu teka-teki sederhana pada tahap kesukaran sederhana. Kredit dijual dalam pek 200 untuk $4.99, 600 untuk $11.99 dan 2,000 untuk $29.99. Halaman pembayaran menunjukkan harga dalam mata wang anda, termasuk cukai jika berkenaan."
           },
           {
             "question": "Siapa yang membina Silang Kata AI?",
@@ -641,7 +655,7 @@
   },
   "About": {
     "title": "Perihal Silang Kata AI",
-    "subtitle": "Penjana teka percuma yang menulis dalam bahasa anda dan tidak pernah menghidang perkataan yang sama dua kali.",
+    "subtitle": "Penjana teka yang menulis dalam bahasa anda dan tidak pernah menghidang perkataan yang sama dua kali.",
     "sections": [
       {
         "title": "Mengapa kami membuatnya",
@@ -678,7 +692,7 @@
         "title": "Pada pelayan kami",
         "paragraphs": [
           "Kami menyimpan teka-teki yang dicipta supaya pautan yang dikongsi membuka kisi yang sama. Apabila anda melaporkan petunjuk, kami menyimpan laporan tersebut dengan hash satu arah alamat IP anda, bertujuan supaya seorang individu tidak boleh memadamkan petunjuk secara bersendirian. Kami juga mengira secara tanpa nama bagaimana teka-teki dimainkan (diselesaikan, perkataan yang didedahkan) untuk melaras kesukaran.",
-          "Untuk memberikan setiap peranti teka-teki percuma bulanan, tapak ini menetapkan kuki yang mengandungi pengenalpasti rawak. Bagi setiap teka-teki percuma, kami menyimpan pengenalpasti tersebut dan hash satu arah alamat IP anda."
+          "Untuk memberikan setiap peranti kredit percuma bulanannya, tapak ini menetapkan kuki yang mengandungi pengenalpasti rawak. Bagi setiap teka-teki yang dibayar dengan kredit percuma, kami menyimpan pengenalpasti tersebut dan hash satu arah alamat IP anda."
         ]
       },
       {
@@ -702,7 +716,8 @@
       {
         "title": "Analitik dan laporan ralat",
         "paragraphs": [
-          "Jika didayakan, kami menggunakan Google Analytics untuk mengira paparan halaman dan Sentry untuk menerima laporan ralat. Kedua-duanya tidak digunakan untuk mengenal pasti anda."
+          "Dengan persetujuan anda, Google Analytics mengira paparan halaman dan menetapkan kukinya untuk membezakan lawatan; tanpa persetujuan, analitik berjalan tanpa kuki. Anda boleh menukar jawapan anda pada bila-bila masa melalui “Tetapan kuki” di bahagian bawah setiap halaman. Sentry menerima laporan ralat tanpa butiran peribadi. Kedua-duanya tidak digunakan untuk iklan atau pemprofilan.",
+          "Halaman dalam sesetengah bahasa memuatkan fon daripada Google Fonts, yang menerima alamat IP anda bersama permintaan tersebut."
         ]
       }
     ]
@@ -718,10 +733,10 @@
         ]
       },
       {
-        "title": "Teka-teki percuma dan kredit",
+        "title": "Kredit percuma dan kredit yang dibeli",
         "paragraphs": [
-          "Setiap peranti mendapat satu teka-teki percuma setiap bulan kalendar, dan setiap akaun mendapat satu lagi. Teka-teki lain dibayar menggunakan kredit, pada harga yang ditunjukkan sebelum anda menciptanya; kredit hanya dikenakan apabila teka-teki dibina, dan membuka teka-teki yang disimpan adalah percuma.",
-          "Kredit dibeli dalam pek melalui pembayaran sekali sahaja — tiada langganan — dan ia tidak pernah luput. Kredit tidak mempunyai nilai tunai dan tidak boleh dipindahkan."
+          "Setiap peranti mendapat 11 kredit percuma setiap bulan kalendar, dan setiap akaun mendapat 11 lagi. Kredit percuma digunakan dahulu sebelum kredit yang dibeli dan tidak dibawa ke bulan berikutnya. Teka-teki dibayar menggunakan kredit, pada harga yang ditunjukkan sebelum anda menciptanya; kredit hanya dikenakan apabila teka-teki dibina, dan membuka teka-teki yang disimpan adalah percuma.",
+          "Kredit dibeli dalam pek melalui pembayaran sekali sahaja — tiada langganan — dan kredit yang dibeli tidak pernah luput. Kredit tidak mempunyai nilai tunai dan tidak boleh dipindahkan."
         ]
       },
       {
@@ -751,45 +766,44 @@
     ]
   },
   "Credits": {
-    "title": "Credits",
-    "subtitle": "One free puzzle every month. After that, pay only for the puzzles you make — no subscription, and credits never expire.",
-    "balanceTitle": "Your balance",
-    "freeAvailable": "Your free puzzle of this month is waiting.",
-    "freeUsed": "This month's free puzzle is used. The next one comes on {date}.",
-    "guestTitle": "Get more free puzzles",
-    "guestText": "Sign in to get a free puzzle every month on your account, and to buy credits.",
-    "pricesTitle": "What a puzzle costs",
-    "pricesText": "In credits, by size and difficulty. Opening a puzzle someone shared with you, or one from your history, is always free.",
-    "size": "Size",
-    "packsTitle": "Credit packs",
+    "title": "Kredit",
+    "subtitle": "11 kredit percuma setiap bulan — cukup untuk satu teka bersaiz sederhana. Selepas itu, bayar hanya untuk teka yang anda buat — tiada langganan, dan kredit yang dibeli tidak pernah luput.",
+    "balanceTitle": "Baki anda",
+    "freeAvailable": "Termasuk {count, plural, other {# kredit percuma}} untuk bulan ini. Kredit percuma diperbaharui pada {date}.",
+    "freeUsed": "Kredit percuma bulan ini sudah digunakan. {count, plural, other {# kredit percuma baharu}} tiba pada {date}.",
+    "guestText": "Log masuk untuk mendapat {count, plural, other {# kredit percuma lagi}} setiap bulan dalam akaun anda, dan untuk membeli kredit.",
+    "pricesTitle": "Harga sebuah teka",
+    "pricesText": "Dalam kredit, mengikut saiz dan kesukaran. Membuka teka yang dikongsi dengan anda, atau teka daripada sejarah anda, sentiasa percuma.",
+    "size": "Saiz",
+    "packsTitle": "Pek kredit",
     "packs": {
-      "starter": "Starter",
-      "popular": "Popular",
-      "big": "Big"
+      "starter": "Permulaan",
+      "popular": "Pilihan ramai",
+      "big": "Besar"
     },
-    "popularBadge": "Most popular",
-    "bestValueBadge": "Best value",
-    "packPuzzles": "About {count} medium puzzles",
-    "buy": "Buy",
-    "signInToBuy": "Sign in to buy",
-    "shopClosed": "Buying credits isn't available right now. Please check back soon.",
-    "checkoutFailed": "We couldn't open the checkout. Please try again.",
-    "paddleNote": "Payments are processed by Paddle.com, our reseller and Merchant of Record. Prices include VAT or sales tax where it applies; the final price in your currency is shown at checkout.",
-    "refundsNote": "Refunds are covered in the terms of use."
+    "popularBadge": "Paling popular",
+    "bestValueBadge": "Paling berbaloi",
+    "packPuzzles": "Kira-kira {count} teka sederhana",
+    "buy": "Beli",
+    "signInToBuy": "Log masuk untuk membeli",
+    "shopClosed": "Pembelian kredit tidak tersedia buat masa ini. Sila kembali sebentar lagi.",
+    "checkoutFailed": "Kami tidak dapat membuka halaman pembayaran. Sila cuba lagi.",
+    "paddleNote": "Pembayaran diproses oleh Paddle.com, penjual semula dan Merchant of Record kami. Harga termasuk VAT atau cukai jualan jika berkenaan; harga akhir dalam mata wang anda ditunjukkan semasa pembayaran.",
+    "refundsNote": "Bayaran balik diterangkan dalam terma penggunaan."
   },
   "Payments": {
-    "checkoutTitle": "Checkout",
-    "opening": "Opening the secure checkout…",
-    "checkoutUnavailable": "The checkout couldn't open. Please try again from the credits page.",
-    "backToCredits": "Back to credits",
-    "verifying": "Confirming your payment…",
-    "successTitle": "Thank you!",
-    "successText": "{count, plural, one {# credit was} other {# credits were}} added to your balance.",
-    "pendingText": "Your payment went through. The credits will appear on your balance within a few minutes.",
-    "verifyError": "We couldn't confirm the payment right now. If you were charged, the credits will still arrive — check your balance in a few minutes.",
-    "lateHelp": "There's no need to wait on this page. If the credits haven't arrived within an hour, write to us and we'll sort it out.",
-    "contactUs": "Contact us",
-    "makePuzzle": "Make a puzzle"
+    "checkoutTitle": "Pembayaran",
+    "opening": "Membuka halaman pembayaran selamat…",
+    "checkoutUnavailable": "Halaman pembayaran tidak dapat dibuka. Sila cuba lagi dari halaman kredit.",
+    "backToCredits": "Kembali ke kredit",
+    "verifying": "Mengesahkan pembayaran anda…",
+    "successTitle": "Terima kasih!",
+    "successText": "{count, plural, other {# kredit}} telah ditambah ke baki anda.",
+    "pendingText": "Pembayaran anda berjaya. Kredit akan muncul dalam baki anda dalam beberapa minit.",
+    "verifyError": "Kami tidak dapat mengesahkan pembayaran buat masa ini. Jika anda telah dicaj, kredit tetap akan tiba — semak baki anda dalam beberapa minit.",
+    "lateHelp": "Anda tidak perlu menunggu di halaman ini. Jika kredit belum tiba dalam masa sejam, tulis kepada kami dan kami akan menyelesaikannya.",
+    "contactUs": "Hubungi kami",
+    "makePuzzle": "Buat teka"
   },
   "Contact": {
     "title": "Tulis kepada kami",
@@ -805,5 +819,13 @@
     "sentText": "Terima kasih. Kami akan membalas e-mel anda secepat mungkin.",
     "sendAnother": "Tulis mesej lain",
     "tooMany": "Terlalu banyak mesej. Cuba lagi sebentar lagi."
+  },
+  "Consent": {
+    "label": "Persetujuan kuki",
+    "text": "Kami ingin menggunakan kuki Google Analytics untuk melihat cara laman ini digunakan. Tiada iklan, tiada pemprofilan. Selagi anda belum menerima, analitik berjalan tanpa kuki.",
+    "privacy": "Dasar privasi",
+    "accept": "Terima",
+    "decline": "Tolak",
+    "settings": "Tetapan kuki"
   }
 }

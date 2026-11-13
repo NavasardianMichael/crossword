@@ -13,7 +13,7 @@ export const billingRouter = Router()
 
 const PADDLE_TRANSACTION_ID = /^txn_[a-z0-9]{26}$/
 
-/** GET /billing — the balance and this month's free puzzle, for the account or this guest device. */
+/** GET /billing — bought credits and this month's free ones, for the account or this guest device. */
 billingRouter.get(
   '/',
   asyncHandler(async (req, res) => {

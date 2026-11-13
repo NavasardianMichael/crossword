@@ -5,7 +5,9 @@
  *   - every `{placeholder}` of the English string is present in the translation;
  *   - ICU messages still parse (balanced braces, `plural` blocks keep an `other` branch);
  *   - arrays (long-form page sections) exist, but may differ in length — a language takes the
- *     paragraphs it needs.
+ *     paragraphs it needs;
+ *   - nothing is left in English: a phrase (two words or more) identical to the English one is
+ *     flagged, unless `SAME_AS_ENGLISH` says that language really writes it that way.
  *
  * Usage: node scripts/check-messages.mjs [locale ...]   (no locales = all of them)
  * Exits non-zero on any problem. `tests/unit/i18n/catalogues.spec.ts` runs the same checks.
@@ -52,6 +54,11 @@ export const balanced = (message) => {
 /** Values every language keeps verbatim. None yet: even the app's name is translated (Common.appName). */
 const PRESERVED = []
 
+/** Phrases a language legitimately writes exactly as English does (`locale:key`). */
+const SAME_AS_ENGLISH = new Set(['nl:Billing.credits', 'nl:Play.wordLength'])
+
+const isPhrase = (value) => /\p{L}{3}/u.test(value) && value.trim().split(/\s+/).length > 1
+
 export const checkLocale = (locale, english = flatten(JSON.parse(readFileSync(path.join(DIR, 'en.json'), 'utf8')))) => {
   const problems = []
   let translated
@@ -73,6 +80,9 @@ export const checkLocale = (locale, english = flatten(JSON.parse(readFileSync(pa
       if (!placeholders(value).has(name)) problems.push(`${locale}: ${key} lost {${name}}`)
     }
     if (/\bplural\b/.test(source) && !/\bother\s*\{/.test(value)) problems.push(`${locale}: ${key} plural has no "other"`)
+    if (value === source && isPhrase(value) && !SAME_AS_ENGLISH.has(`${locale}:${key}`)) {
+      problems.push(`${locale}: ${key} is still in English`)
+    }
   }
   for (const key of translated.keys()) if (!englishMap.has(key)) problems.push(`${locale}: extra key ${key}`)
   for (const [key, expected] of PRESERVED) {

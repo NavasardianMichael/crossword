@@ -15,7 +15,7 @@ import {
 } from '../lib/puzzle.js'
 import { asIdArray, asInteger, asTrimmedString, isPuzzleId, reporterKeyFor } from '../lib/request.js'
 import { asyncHandler, HttpError } from '../middleware/error.js'
-import { rateLimit } from '../middleware/rateLimit.js'
+import { accountRateLimit, rateLimit } from '../middleware/rateLimit.js'
 import { assertCanPay, chargeForPuzzle } from '../services/billing.js'
 import { recordResult, reportEntry } from '../services/entryPool.js'
 import { buildPuzzle, getPuzzle, puzzleWordRefs } from '../services/puzzleBuilder.js'
@@ -23,16 +23,27 @@ import { buildPuzzle, getPuzzle, puzzleWordRefs } from '../services/puzzleBuilde
 export const puzzlesRouter = Router()
 
 /**
+ * Builds running per payer. Two, not one: Cancel then "try again" starts a second build while
+ * the abandoned one finishes. Twelve parallel requests would otherwise all pass the payment
+ * check and each run a full build (and maybe a Gemini batch) before eleven are refused.
+ */
+const MAX_BUILDS_PER_PAYER = 2
+const building = new Map<string, number>()
+
+/**
  * POST /puzzles — a new puzzle of words this device has not seen (`exclude`: the entry ids it
  * was shown before, newest last). Solutions travel with the puzzle: it is a casual game, so
  * checking happens instantly on the device and a loaded puzzle plays offline.
  *
- * Paid: this month's free puzzle, else credits (`services/billing.ts`). A refusal is a 402 with
+ * Paid: this month's free credits first, then bought ones (`services/billing.ts`). A refusal is a 402 with
  * `BILLING_CODE.signInRequired` (a guest) or `insufficientCredits`, and stores nothing.
  */
 puzzlesRouter.post(
   '/',
-  rateLimit('puzzles', { limit: 12, windowMs: 60_000 }),
+  // Guests: 12 a minute per address. Signed in: 6 a minute and 60 an hour per account, and 30 a
+  // minute for all the accounts behind one address. The free credits' global cap is in billing.ts.
+  rateLimit('puzzles', { limit: 12, windowMs: 60_000, signedIn: { limit: 30, windowMs: 60_000 } }),
+  accountRateLimit('puzzles', { limit: 6, windowMs: 60_000 }, { limit: 60, windowMs: 60 * 60_000 }),
   asyncHandler(async (req, res) => {
     const { locale, format, topic, difficulty, size } = req.body ?? {}
     if (!isLocale(locale)) return fail(res, 'Unsupported locale', 400)
@@ -45,18 +56,30 @@ puzzlesRouter.post(
     if (!config.billing.enabled) return ok(res, await buildPuzzle({ locale, format, topic, difficulty, size, exclude }), 201)
 
     const payer = payerOf(req, res)
-    await assertCanPay(payer, puzzleCredits(size, difficulty))
+    const holder = 'userId' in payer ? `user:${payer.userId}` : `guest:${payer.guestId}`
+    const running = building.get(holder) ?? 0
+    if (running >= MAX_BUILDS_PER_PAYER) return fail(res, 'Too many requests', 429, 429)
+    building.set(holder, running + 1)
 
-    // The player pressed Cancel (the request was aborted): charge nothing, store nothing.
-    let abandoned = false
-    res.on('close', () => {
-      if (!res.writableFinished) abandoned = true
-    })
-    const puzzle = await buildPuzzle({ locale, format, topic, difficulty, size, exclude }, (tx, puzzleId, builtSize) => {
-      if (abandoned) throw new HttpError(499, 'Client closed the request', 499)
-      return chargeForPuzzle(tx, payer, puzzleCredits(builtSize, difficulty), puzzleId)
-    })
-    return ok(res, puzzle, 201)
+    try {
+      const paidWith = await assertCanPay(payer, puzzleCredits(size, difficulty))
+
+      // The player pressed Cancel (the request was aborted): charge nothing, store nothing.
+      let abandoned = false
+      res.on('close', () => {
+        if (!res.writableFinished) abandoned = true
+      })
+      const request = { locale, format, topic, difficulty, size, exclude, free: paidWith === 'free' }
+      const puzzle = await buildPuzzle(request, (tx, puzzleId, builtSize) => {
+        if (abandoned) throw new HttpError(499, 'Client closed the request', 499)
+        return chargeForPuzzle(tx, payer, puzzleCredits(builtSize, difficulty), puzzleId)
+      })
+      return ok(res, puzzle, 201)
+    } finally {
+      const left = (building.get(holder) ?? 1) - 1
+      if (left > 0) building.set(holder, left)
+      else building.delete(holder)
+    }
   })
 )
 

@@ -3,16 +3,27 @@ import { emblemSvg } from './brand'
 
 export const SERVICE_WORKER_URL = '/sw.js'
 
-/** Bump when the worker's behaviour or the offline document changes: old caches are dropped on activate. */
-export const PWA_CACHE_VERSION = 'v2'
+/**
+ * Bump when the worker's behaviour or the offline document changes. The deployed worker's
+ * version also carries the build (`sw.js/route.ts`), so every deploy installs a fresh worker:
+ * it precaches the new play shell and drops the old caches, chunks of past builds included.
+ */
+export const PWA_CACHE_VERSION = 'v3'
+
+/** The worker's URL for a language: it precaches that language's play shell (`?locale=`). */
+export const serviceWorkerUrl = (locale: string): string => `${SERVICE_WORKER_URL}?locale=${encodeURIComponent(locale)}`
 
 const OFFLINE_URL = '/__offline__'
 
 /**
- * Always available offline: the app chrome and each language's play shell — the static page
- * that opens any saved puzzle from the device (`app/[lang]/play`).
+ * Always available offline: the app chrome, and the visitor's language's play shell — the
+ * static page that opens any saved puzzle from the device (`app/[lang]/play`) — with the
+ * scripts and styles it loads, so it can start with no connection at all.
  */
-export const PRECACHE_URLS = ['/manifest.webmanifest', '/icon', '/apple-icon', ...LOCALES.map((locale) => `/${locale}/play`)]
+export const PRECACHE_URLS = ['/manifest.webmanifest', '/icon', '/apple-icon']
+
+/** Visited pages kept for offline, newest first; one-time links (`/auth/…`) never. */
+const MAX_CACHED_PAGES = 50
 
 export type OfflineColors = { background: string; text: string; muted: string; accent: string; onAccent: string }
 
@@ -54,24 +65,54 @@ export const buildOfflineDocument = (colors: OfflineColors): string => `<!doctyp
 `
 
 /**
- * - Navigations: network first (with navigation preload), cached by path; offline, the same
+ * - Navigations: network first (with navigation preload), cached by path (the last
+ *   `MAX_CACHED_PAGES`; never `/auth/…`, whose pages carry one-time tokens); offline, the same
  *   path from cache — a puzzle page never cached goes to the language's play shell, which
  *   opens the puzzle from IndexedDB — else the locale's home page, else the offline document.
- * - `/_next/static/`: cache first — content-hashed, never stale.
+ * - `/_next/static/`: cache first — content-hashed, never stale; a new build's worker starts
+ *   a new cache, so past builds' chunks do not pile up.
  * - Images, icons, fonts (incl. Google Fonts): stale-while-revalidate.
  * - Never intercepted: non-GET, the API (another origin), RSC payloads, analytics.
  * - `CACHE_URLS` message: the page hands over assets it loaded before the worker took control.
  */
 export const buildServiceWorkerScript = (options: { version: string; offlineDocument: string }): string => {
   const cacheName = JSON.stringify(`crossword-${options.version}`)
+  const pagesCacheName = JSON.stringify(`crossword-pages-${options.version}`)
   return `'use strict';
 const CACHE = ${cacheName};
+const PAGES = ${pagesCacheName};
+const MAX_CACHED_PAGES = ${MAX_CACHED_PAGES};
 const OFFLINE_URL = ${JSON.stringify(OFFLINE_URL)};
 const OFFLINE_HTML = ${JSON.stringify(options.offlineDocument)};
 const PRECACHE_URLS = ${JSON.stringify(PRECACHE_URLS)};
+const LOCALES = ${JSON.stringify(LOCALES)};
+const LOCALE = new URL(self.location.href).searchParams.get('locale');
+const SHELL_URL = LOCALES.includes(LOCALE) ? '/' + LOCALE + '/play' : null;
 const FONT_HOSTS = ['fonts.googleapis.com', 'fonts.gstatic.com'];
 /** A precache miss is skipped on purpose: one missing file must not fail the install. */
 const skip = () => undefined;
+
+/** The play shell and every build asset its HTML names, so it starts offline. */
+const precacheShell = async (cache) => {
+  if (!SHELL_URL) return;
+  const response = await fetch(SHELL_URL, { credentials: 'same-origin' });
+  if (!response.ok) return;
+  const html = await response.clone().text();
+  await cache.put(SHELL_URL, response);
+  const assets = new Set(Array.from(html.matchAll(/(?:src|href)="(\\/_next\\/static\\/[^"]+)"/g), (match) => match[1]));
+  await Promise.all(Array.from(assets, (asset) => cache.add(asset).catch(skip)));
+};
+
+const isOneTimePage = (pathname) => /^\\/[a-z]{2,3}\\/auth\\//.test(pathname);
+
+/** Keeps the newest pages only: Cache keys come back in insertion order. */
+const putPage = async (key, response) => {
+  const pages = await caches.open(PAGES);
+  await pages.delete(key);
+  await pages.put(key, response);
+  const keys = await pages.keys();
+  await Promise.all(keys.slice(0, Math.max(0, keys.length - MAX_CACHED_PAGES)).map((request) => pages.delete(request)));
+};
 
 const isStaticAsset = (url) =>
   url.pathname.startsWith('/_next/image') ||
@@ -85,7 +126,7 @@ self.addEventListener('install', (event) => {
   event.waitUntil((async () => {
     const cache = await caches.open(CACHE);
     await cache.put(OFFLINE_URL, new Response(OFFLINE_HTML, { headers: { 'Content-Type': 'text/html; charset=utf-8' } }));
-    await Promise.all(PRECACHE_URLS.map((url) => cache.add(url).catch(skip)));
+    await Promise.all([...PRECACHE_URLS.map((url) => cache.add(url).catch(skip)), precacheShell(cache).catch(skip)]);
     await self.skipWaiting();
   })());
 });
@@ -93,7 +134,7 @@ self.addEventListener('install', (event) => {
 self.addEventListener('activate', (event) => {
   event.waitUntil((async () => {
     const keys = await caches.keys();
-    await Promise.all(keys.filter((key) => key !== CACHE).map((key) => caches.delete(key)));
+    await Promise.all(keys.filter((key) => key !== CACHE && key !== PAGES).map((key) => caches.delete(key)));
     if (self.registration.navigationPreload) await self.registration.navigationPreload.enable();
     await self.clients.claim();
   })());
@@ -108,8 +149,9 @@ self.addEventListener('message', (event) => {
         const url = new URL(href, self.location.origin);
         if (url.origin !== self.location.origin) return;
         if (isPage(url)) {
+          if (isOneTimePage(url.pathname)) return;
           const response = await fetch(url.pathname, { credentials: 'same-origin' });
-          if (response.ok) await cache.put(url.pathname, response);
+          if (response.ok) await putPage(url.pathname, response);
         } else if (isStaticAsset(url) || url.pathname.startsWith('/_next/static/')) {
           await cache.add(url.href);
         }
@@ -119,21 +161,21 @@ self.addEventListener('message', (event) => {
 });
 
 const localeOf = (pathname) => pathname.split('/')[1] || 'en';
-const PUZZLE_PATH = /^\\/([a-z]{2})\\/p\\/([0-9A-Za-z]{10})\\/?$/;
+const PUZZLE_PATH = /^\\/([a-z]{2,3})\\/p\\/([0-9A-Za-z]{10})\\/?$/;
 
 const networkFirst = async (event) => {
-  const cache = await caches.open(CACHE);
   const key = new URL(event.request.url).pathname;
   try {
     const response = (await event.preloadResponse) || (await fetch(event.request));
-    if (response.ok) cache.put(key, response.clone());
+    if (response.ok && !isOneTimePage(key)) event.waitUntil(putPage(key, response.clone()).catch(skip));
     return response;
   } catch (error) {
-    const cached = await cache.match(key);
+    // Both caches: visited pages, and the precached shell.
+    const cached = await caches.match(key);
     if (cached) return cached;
     const puzzle = key.match(PUZZLE_PATH);
     if (puzzle) return Response.redirect('/' + puzzle[1] + '/play?id=' + puzzle[2], 302);
-    return (await cache.match('/' + localeOf(key))) || (await cache.match(OFFLINE_URL)) ||
+    return (await caches.match('/' + localeOf(key))) || (await caches.match(OFFLINE_URL)) ||
       new Response(OFFLINE_HTML, { status: 503, headers: { 'Content-Type': 'text/html; charset=utf-8' } });
   }
 };

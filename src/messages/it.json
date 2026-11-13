@@ -1,7 +1,7 @@
 {
   "Common": {
     "appName": "Cruciverba IA",
-    "tagline": "Cruciverba e schemi svedesi gratis, scritti dall’IA nella tua lingua. Parole nuove a ogni gioco, mai una ripetizione.",
+    "tagline": "Cruciverba e schemi svedesi scritti dall’IA nella tua lingua — il primo di ogni mese è gratis. Parole nuove a ogni gioco, mai una ripetizione.",
     "skipToContent": "Vai al contenuto",
     "openMenu": "Apri il menu",
     "menu": "Menu",
@@ -54,28 +54,28 @@
     "gotIt": "Capito"
   },
   "Seo": {
-    "homeTitle": "Cruciverba online gratis — crea un cruciverba italiano",
-    "homeDescription": "Crea un cruciverba o uno schema svedese gratis. Scegli un tema — animali, cibo, geografia, storia, scienza, sport — e la difficoltà. Ogni schema porta parole nuove. Funziona anche offline.",
+    "homeTitle": "Cruciverba online — crea un cruciverba italiano, prova gratis",
+    "homeDescription": "Crea un cruciverba o uno schema svedese: il primo di ogni mese è gratis. Scegli un tema — animali, cibo, geografia, storia, scienza, sport — e la difficoltà. Ogni schema porta parole nuove. Funziona anche offline.",
     "keywords": "cruciverba, cruciverba online, crea un cruciverba, cruciverba italiano, parole crociate, generatore di cruciverba, cruciverba gratis, schema svedese, cruciverba animali, cruciverba cibo, cruciverba geografia, cruciverba storia, cruciverba scienza, cruciverba sport",
-    "crosswordTitle": "Cruciverba gratis online",
-    "crosswordDescription": "Gioca a cruciverba gratis online, scritti dall’IA: definizioni numerate in orizzontale e verticale, 12 temi, tre livelli. Senza registrazione, parole nuove a ogni partita.",
-    "scanwordTitle": "Schemi svedesi gratis — le definizioni nella griglia",
-    "scanwordDescription": "Risolvi schemi svedesi gratis: le definizioni stanno nella griglia, con una freccia verso la soluzione. Scritti dall’IA, senza registrazione, da telefono, tablet o computer.",
+    "crosswordTitle": "Cruciverba online, prova gratis",
+    "crosswordDescription": "Gioca a cruciverba online, scritti dall’IA: definizioni numerate in orizzontale e verticale, 12 temi, tre livelli. Il primo schema di ogni mese è gratis e senza registrazione, parole nuove a ogni partita.",
+    "scanwordTitle": "Schemi svedesi online — le definizioni nella griglia",
+    "scanwordDescription": "Risolvi schemi svedesi: le definizioni stanno nella griglia, con una freccia verso la soluzione. Scritti dall’IA, da telefono, tablet o computer: il primo schema di ogni mese è gratis.",
     "topicsTitle": "Temi dei cruciverba: animali, cibo, geografia e altro",
     "topicsDescription": "Scegli il tema del prossimo cruciverba o schema svedese: natura, animali, cibo, geografia, storia, scienza, sport, arte e altro.",
-    "topicTitle": "Cruciverba su {topic} — schemi gratis online",
-    "topicDescription": "Cruciverba e schemi svedesi gratis su {topic}, generati dall’IA. {description}",
+    "topicTitle": "Cruciverba su {topic} — schemi online scritti dall’IA",
+    "topicDescription": "Cruciverba e schemi svedesi su {topic}, generati dall’IA, il primo di ogni mese gratis. {description}",
     "historyTitle": "I miei schemi",
     "historyDescription": "Cruciverba e schemi svedesi iniziati su questo dispositivo e non ancora finiti, con i progressi salvati.",
     "creditsTitle": "Crediti e prezzi",
-    "creditsDescription": "Un cruciverba gratis ogni mese, poi pacchetti di crediti senza abbonamento: quanto costa ogni puzzle e come acquistare i crediti.",
+    "creditsDescription": "11 crediti gratuiti ogni mese, poi pacchetti di crediti senza abbonamento: quanto costa ogni puzzle e come acquistare i crediti.",
     "paymentTitle": "Pagamento",
     "rulesTitle": "Come si gioca a cruciverba e schemi svedesi",
     "rulesDescription": "Come risolvere un cruciverba o uno schema svedese qui: scrivere, spostarsi nella griglia, controllare e rivelare le lettere, e le scorciatoie da tastiera.",
     "faqTitle": "Domande: cruciverba con IA, lingue e privacy",
     "faqDescription": "Risposte su Cruciverba IA: è gratis, come l’IA scrive le definizioni, le dimensioni, la difficoltà, le parole che non si ripetono, il gioco offline, la condivisione e la privacy.",
     "aboutTitle": "Chi siamo — come nascono i cruciverba con l’IA",
-    "aboutDescription": "Perché abbiamo fatto un generatore di cruciverba gratis che non ripete mai una parola, e come l’IA scrive le definizioni in ogni lingua.",
+    "aboutDescription": "Perché abbiamo fatto un generatore di cruciverba che non ripete mai una parola, e come l’IA scrive le definizioni in ogni lingua.",
     "privacyTitle": "Informativa sulla privacy",
     "privacyDescription": "Cosa memorizza Cruciverba IA, dove e perché — account e pagamenti inclusi, e nessun tracciamento della tua identità.",
     "termsTitle": "Condizioni d’uso",
@@ -84,7 +84,7 @@
     "contactDescription": "Una domanda, un’idea o un problema con uno schema? Scrivici e ti rispondiamo via email.",
     "puzzleDescription": "Uno schema gratis di Cruciverba IA: risolvilo nel browser.",
     "sharedPuzzleDescription": "Uno schema gratis {size} {format, select, scanword {schema svedese} other {cruciverba}} · {topic} · {difficulty} · {words, plural, one {# parola} other {# parole}}. Scritto dall’IA: risolvilo nel browser, senza registrazione.",
-    "ogImageAlt": "Cruciverba IA — cruciverba e schemi svedesi gratis nella tua lingua",
+    "ogImageAlt": "Cruciverba IA — cruciverba e schemi svedesi scritti dall’IA nella tua lingua",
     "ogPuzzleCta": "Riesci a risolverlo?",
     "ogPuzzleMeta": "{size} · {words, plural, one {# parola} other {# parole}}"
   },
@@ -179,12 +179,13 @@
     "credits": "{count, plural, one {# credito} other {# crediti}}",
     "balance": "Il tuo saldo: {count, plural, one {# credito} other {# crediti}}",
     "cost": "Questo puzzle: {count, plural, one {# credito} other {# crediti}}",
-    "freeNow": "Questo è gratis — è il tuo puzzle gratuito del mese.",
+    "freeNow": "Coperto dai tuoi crediti gratuiti di questo mese.",
     "youHave": "Hai {count, plural, one {# credito} other {# crediti}}.",
     "notEnough": "Crediti insufficienti per questo puzzle.",
-    "guestUsed": "Hai usato il puzzle gratis di questo mese. Accedi per averne un altro gratis ogni mese e per acquistare crediti.",
-    "refusedSignIn": "Il puzzle gratis di questo mese è stato usato. Accedi per ottenerne un altro e per acquistare crediti.",
+    "guestUsed": "Hai usato i crediti gratuiti di questo mese. Accedi per avere {count, plural, one {# credito gratuito in più} other {# crediti gratuiti in più}} ogni mese e per acquistare crediti.",
+    "refusedSignIn": "I tuoi crediti gratuiti non bastano per questo puzzle. Accedi per avere {count, plural, one {# credito gratuito in più} other {# crediti gratuiti in più}} ogni mese e per acquistare crediti.",
     "refusedCredits": "Crediti insufficienti per questo puzzle. Ricarica per continuare a giocare.",
+    "refusedFreeBusy": "I crediti gratuiti sono in pausa per un po’: nell’ultima ora sono stati usati per creare moltissimi puzzle. Riprova più tardi.",
     "signIn": "Accedi",
     "buyCredits": "Acquista crediti"
   },
@@ -193,7 +194,7 @@
       "eyebrow": "Provalo gratis · Nessun abbonamento · Funziona offline",
       "title": "Cruciverba <mark>sempre nuovi</mark>",
       "subtitle": "Scegli un tema e una difficoltà: l’IA scrive le definizioni nella tua lingua e la stessa parola non torna due volte.",
-      "lede": "Crea un cruciverba italiano gratis online, senza registrarti. I temi vanno da animali, cibo e geografia a storia, scienza, sport, arte, casa, mestieri e cultura — oppure mescolali tutti."
+      "lede": "Crea un cruciverba italiano online: il primo di ogni mese è gratis, senza registrarti. I temi vanno da animali, cibo e geografia a storia, scienza, sport, arte, casa, mestieri e cultura — oppure mescolali tutti."
     },
     "continueTitle": "Riprendi da dove eri rimasto",
     "formatsTitle": "Due modi di giocare",
@@ -221,7 +222,7 @@
     "topicsSubtitle": "Dagli uccelli del giardino ai fiumi famosi — o mescola tutto.",
     "faqTitle": "Domande e risposte",
     "faq1Question": "Cruciverba IA è gratuito?",
-    "faq1Answer": "Il tuo primo puzzle ogni mese è gratis, senza registrazione, e accedendo ne aggiungi un altro. Dopodiché, i puzzle costano crediti, che si acquistano una tantum senza abbonamento. Giocare a un puzzle condiviso da qualcuno è sempre gratis.",
+    "faq1Answer": "Ogni mese ricevi 11 crediti gratuiti — abbastanza per un puzzle medio — senza registrazione, e accedendo ne aggiungi altri 11. Dopodiché, i puzzle costano crediti, che si acquistano una tantum senza abbonamento. Giocare a un puzzle condiviso da qualcuno è sempre gratis.",
     "faq2Question": "Rivedrò le stesse parole?",
     "faq2Answer": "No. Il dispositivo tiene l’elenco delle parole già mostrate e le lascia fuori da ogni schema nuovo. Se cancelli i dati del sito nel browser, l’elenco ricomincia.",
     "faq3Question": "In quali lingue si può giocare?",
@@ -240,7 +241,7 @@
       "title": "Un cruciverba classico, <mark>fatto per te</mark>",
       "plainTitle": "Cruciverba IA",
       "subtitle": "Definizioni numerate in orizzontale e verticale, una griglia che cresce dal centro e parole che non hai ancora visto.",
-      "lede": "Gioca a un cruciverba classico gratis online: definizioni numerate in orizzontale e verticale, sui temi animali, cibo, geografia, storia, scienza e sport."
+      "lede": "Gioca a un cruciverba classico online: definizioni numerate in orizzontale e verticale, sui temi animali, cibo, geografia, storia, scienza e sport."
     },
     "rulesTitle": "Come funziona un cruciverba",
     "rule1": "Ogni casella bianca contiene una lettera. Le parole vanno in orizzontale (da sinistra a destra) e in verticale (dall’alto in basso) e si incrociano.",
@@ -264,7 +265,7 @@
       "title": "Schemi svedesi con le definizioni <mark>nella griglia</mark>",
       "plainTitle": "Schema svedese IA",
       "subtitle": "Niente elenchi da cercare: ogni definizione sta nella sua casella, con una freccia verso la soluzione.",
-      "lede": "Gioca a uno schema svedese gratis online: le definizioni stanno nella griglia. Gli stessi temi del cruciverba — animali, cibo, geografia, storia, scienza, sport e altro."
+      "lede": "Gioca a uno schema svedese online: le definizioni stanno nella griglia. Gli stessi temi del cruciverba — animali, cibo, geografia, storia, scienza, sport e altro."
     },
     "rulesTitle": "Come funziona uno schema svedese",
     "rule1": "Le caselle colorate contengono le definizioni. La freccia accanto a una definizione mostra dove inizia la soluzione e in che direzione corre.",
@@ -297,6 +298,12 @@
   "Auth": {
     "signIn": "Entra",
     "signOut": "Esci",
+    "signOutConfirm": {
+      "title": "Uscire?",
+      "text": "Puoi accedere di nuovo quando vuoi. Crediti e acquisti restano nel tuo account.",
+      "confirm": "Esci",
+      "cancel": "Non ora"
+    },
     "signInTitle": "Entra",
     "signInSubtitle": "Usa Google, oppure l’e-mail e la password del tuo account.",
     "signUpTitle": "Crea un account",
@@ -332,6 +339,7 @@
     "resent": "Inviato di nuovo.",
     "forgotSent": "Se un account usa quell’indirizzo, il link è in viaggio.",
     "invalidCredentials": "E-mail e password non coincidono.",
+    "tooManyAttempts": "Troppi tentativi in poco tempo. Aspetta qualche minuto e riprova.",
     "googleOnly": "Questo account entra con Google.",
     "emailNotVerified": "Prima conferma l’e-mail. Il link è nella posta.",
     "emailTaken": "Esiste già un account con questa e-mail.",
@@ -363,6 +371,12 @@
     "keepSolving": "Continua a risolvere",
     "leave": "Esci",
     "newPuzzle": "Schema nuovo",
+    "newPuzzleConfirm": {
+      "title": "Creare uno schema nuovo?",
+      "text": "Stesso formato, tema e difficoltà di questo.",
+      "create": "Crea",
+      "cancel": "Non ora"
+    },
     "allClues": "Tutte le definizioni",
     "across": "Orizzontali",
     "down": "Verticali",
@@ -539,15 +553,15 @@
           },
           {
             "question": "Cruciverba IA è gratuito?",
-            "answer": "In parte. Il tuo primo puzzle ogni mese è gratuito, senza registrazione, e accedendo ne sblocchi un secondo gratis al mese. Oltre a questo, i puzzle si pagano con i crediti: acquisti un pacchetto una volta sola — non c'è abbonamento, i crediti non scadono mai e non c'è pubblicità. Giocare a un puzzle condiviso da qualcun altro è sempre gratuito."
+            "answer": "In parte. Ogni mese ricevi 11 crediti gratuiti — abbastanza per un puzzle medio — senza registrazione, e accedendo ne ottieni altri 11 al mese. I crediti gratuiti non si accumulano sul mese successivo. Oltre a questo, i puzzle si pagano con i crediti acquistati: compri un pacchetto una volta sola — non c'è abbonamento, i crediti acquistati non scadono mai e non c'è pubblicità. Giocare a un puzzle condiviso da qualcun altro è sempre gratuito."
           },
           {
             "question": "Ho bisogno di un account?",
-            "answer": "Non per il tuo puzzle gratis del mese: i tuoi progressi, le impostazioni e le parole che hai già visto sono salvati nel tuo browser. Un account aggiunge un secondo puzzle gratis ogni mese e ti permette di acquistare e conservare i crediti."
+            "answer": "Non per i tuoi 11 crediti gratuiti al mese: i tuoi progressi, le impostazioni e le parole che hai già visto sono salvati nel tuo browser. Un account aggiunge altri 11 crediti gratuiti ogni mese e ti permette di acquistare e conservare i crediti."
           },
           {
             "question": "Quanto costa un puzzle?",
-            "answer": "Un puzzle piccolo costa 5 crediti, uno medio 10 e uno grande 15; la difficoltà media aggiunge 1 credito e quella difficile 2. I crediti sono venduti in pacchetti da 200 a 4,99 €, 600 a 11,99 € e 2.000 a 29,99 €. Il pagamento mostra il prezzo nella tua valuta, tasse incluse dove applicabili."
+            "answer": "Un puzzle piccolo costa 5 crediti, uno medio 10 e uno grande 15; la difficoltà media aggiunge 1 credito e quella difficile 2. I tuoi 11 crediti gratuiti al mese coprono un puzzle medio a difficoltà media. I crediti sono venduti in pacchetti da 200 a 4,99 USD, 600 a 11,99 USD e 2.000 a 29,99 USD. Il pagamento mostra il prezzo nella tua valuta, tasse incluse dove applicabili."
           },
           {
             "question": "Chi c'è dietro a Cruciverba IA?",
@@ -641,7 +655,7 @@
   },
   "About": {
     "title": "Su Cruciverba IA",
-    "subtitle": "Un generatore di schemi gratis che scrive nella tua lingua e non serve mai due volte la stessa parola.",
+    "subtitle": "Un generatore di schemi che scrive nella tua lingua e non serve mai due volte la stessa parola.",
     "sections": [
       {
         "title": "Perché l’abbiamo fatto",
@@ -678,7 +692,7 @@
         "title": "Sul nostro server",
         "paragraphs": [
           "Memorizziamo i puzzle creati, in modo che un link condiviso apra la stessa griglia. Quando segnali una definizione, conserviamo la segnalazione con un hash unidirezionale del tuo indirizzo IP, solo per evitare che una singola persona elimini una definizione da sola. Contiamo anche in modo anonimo come vengono giocati i puzzle (risolti, quali parole sono state svelate) per calibrare la difficoltà.",
-          "Per offrire a ciascun dispositivo il suo puzzle gratuito del mese, il sito imposta un cookie contenente un identificatore casuale. Per ogni puzzle gratis, conserviamo tale identificatore e un hash unidirezionale del tuo indirizzo IP."
+          "Per offrire a ciascun dispositivo i suoi crediti gratuiti del mese, il sito imposta un cookie contenente un identificatore casuale. Per ogni puzzle pagato con crediti gratuiti, conserviamo tale identificatore e un hash unidirezionale del tuo indirizzo IP."
         ]
       },
       {
@@ -702,7 +716,8 @@
       {
         "title": "Analisi e report sugli errori",
         "paragraphs": [
-          "Se abilitato, utilizziamo Google Analytics per contare le visualizzazioni di pagina e Sentry per ricevere report sugli errori. Nessuno dei due viene utilizzato per identificarti."
+          "Con il tuo consenso, Google Analytics conta le visualizzazioni di pagina e imposta i suoi cookie per distinguere le visite; senza consenso, le statistiche funzionano senza cookie. Puoi cambiare la tua scelta in qualsiasi momento da «Impostazioni cookie», in fondo a ogni pagina. Sentry riceve report sugli errori senza dati personali. Nessuno dei due viene usato per pubblicità o profilazione.",
+          "Le pagine in alcune lingue caricano il carattere da Google Fonts, che con quella richiesta riceve il tuo indirizzo IP."
         ]
       }
     ]
@@ -718,10 +733,10 @@
         ]
       },
       {
-        "title": "Puzzle gratuiti e crediti",
+        "title": "Crediti gratuiti e acquistati",
         "paragraphs": [
-          "Ogni dispositivo riceve un puzzle gratuito ogni mese solare, e ogni account uno in più. Gli altri puzzle si pagano con i crediti, al prezzo mostrato prima della creazione; un puzzle viene addebitato solo quando viene generato, mentre aprire un puzzle salvato è sempre gratuito.",
-          "I crediti si acquistano in pacchetti con un unico pagamento — non c'è abbonamento — e non scadono mai. Non hanno valore monetario e non possono essere trasferiti."
+          "Ogni dispositivo riceve 11 crediti gratuiti ogni mese solare, e ogni account altri 11. I crediti gratuiti si consumano prima di quelli acquistati e non passano al mese successivo. I puzzle si pagano con i crediti, al prezzo mostrato prima della creazione; un puzzle viene addebitato solo quando viene generato, mentre aprire un puzzle salvato è sempre gratuito.",
+          "I crediti si acquistano in pacchetti con un unico pagamento — non c'è abbonamento — e i crediti acquistati non scadono mai. I crediti non hanno valore monetario e non possono essere trasferiti."
         ]
       },
       {
@@ -752,12 +767,11 @@
   },
   "Credits": {
     "title": "Crediti",
-    "subtitle": "Un puzzle gratis ogni mese. Dopodiché, paghi solo per i puzzle che crei — nessun abbonamento e i crediti non scadono mai.",
+    "subtitle": "11 crediti gratuiti ogni mese — abbastanza per un puzzle medio. Dopodiché, paghi solo per i puzzle che crei — nessun abbonamento, e i crediti acquistati non scadono mai.",
     "balanceTitle": "Il tuo saldo",
-    "freeAvailable": "Il tuo puzzle gratuito di questo mese ti sta aspettando.",
-    "freeUsed": "Il puzzle gratis di questo mese è stato usato. Il prossimo sarà disponibile il {date}.",
-    "guestTitle": "Ottieni altri puzzle gratis",
-    "guestText": "Accedi per ricevere un puzzle gratis ogni mese sul tuo account e per acquistare crediti.",
+    "freeAvailable": "Include {count, plural, one {# credito gratuito} other {# crediti gratuiti}} per questo mese. I crediti gratuiti si rinnovano il {date}.",
+    "freeUsed": "I crediti gratuiti di questo mese sono stati usati. {count, plural, one {# nuovo credito gratuito arriva} other {# nuovi crediti gratuiti arrivano}} il {date}.",
+    "guestText": "Accedi per ricevere {count, plural, one {# credito gratuito in più} other {# crediti gratuiti in più}} ogni mese sul tuo account e per acquistare crediti.",
     "pricesTitle": "Quanto costa un puzzle",
     "pricesText": "In crediti, in base a dimensioni e difficoltà. Aprire un puzzle condiviso da qualcuno o presente nella tua cronologia è sempre gratuito.",
     "size": "Dimensione",
@@ -805,5 +819,13 @@
     "sentText": "Grazie. Ti risponderemo via email appena possibile.",
     "sendAnother": "Scrivi un altro messaggio",
     "tooMany": "Sono troppi messaggi. Riprova tra un po’."
+  },
+  "Consent": {
+    "label": "Consenso ai cookie",
+    "text": "Vorremmo usare i cookie di Google Analytics per capire come viene usato il sito. Niente pubblicità, niente profilazione. Finché non accetti, le statistiche funzionano senza cookie.",
+    "privacy": "Informativa sulla privacy",
+    "accept": "Accetta",
+    "decline": "Rifiuta",
+    "settings": "Impostazioni cookie"
   }
 }

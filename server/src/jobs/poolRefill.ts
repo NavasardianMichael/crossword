@@ -2,7 +2,7 @@ import { config, isGeminiConfigured } from '../config.js'
 import { allModelsCoolingDown } from '../lib/gemini.js'
 import { prisma } from '../lib/prisma.js'
 import { type Difficulty, isDifficulty, isLocale, isTopic, type Topic, TOPICS } from '../lib/puzzle.js'
-import { callsToday, generateIntoPool } from '../services/entryPool.js'
+import { callsToday, freeCallBudget, generateIntoPool } from '../services/entryPool.js'
 
 /**
  * Keeps the buckets players ask for stocked between puzzles, so most requests are served
@@ -27,7 +27,8 @@ export const refillTick = async (): Promise<number> => {
   let calls = 0
 
   try {
-    if ((await callsToday()) >= config.gemini.dailyCallBudget) return 0
+    // Free play's share only: the rest of the day's budget is kept for paid puzzles.
+    if ((await callsToday()) >= freeCallBudget()) return 0
     const buckets = await prisma.poolDemand.findMany({
       where: { lastRequestedAt: { gte: new Date(Date.now() - RECENT_DEMAND_MS) } },
       orderBy: [{ urgent: 'desc' }, { requests: 'desc' }, { lastRequestedAt: 'desc' }],
@@ -51,7 +52,7 @@ export const refillTick = async (): Promise<number> => {
 
       try {
         // Real calls, not generations: one generation spends up to four (two attempts, each judged).
-        const spent = (await generateIntoPool(bucket.locale, topic, bucket.difficulty)).calls
+        const spent = (await generateIntoPool(bucket.locale, topic, bucket.difficulty, { budget: freeCallBudget() })).calls
         // Nothing spent: the daily budget ran out — the bucket stays urgent for tomorrow.
         if (!spent) break
         calls += spent
@@ -82,11 +83,17 @@ const thinnestTopic = async (locale: string, difficulty: Difficulty): Promise<To
   return counts.sort((a, b) => a.count - b.count)[0]?.topic ?? null
 }
 
-export const startPoolRefillJob = (): void => {
-  if (!config.poolRefill.enabled) return
+/** Starts the job; the returned stop clears the timer and resolves once a running tick has finished. */
+export const startPoolRefillJob = (): (() => Promise<void>) => {
+  if (!config.poolRefill.enabled) return async () => {}
+  let current: Promise<unknown> = Promise.resolve()
   const timer = setInterval(() => {
-    refillTick().catch((error: unknown) => console.error('[refill]', error))
+    current = refillTick().catch((error: unknown) => console.error('[refill]', error))
   }, config.poolRefill.intervalMs)
   // Never keep the process alive on its own.
   timer.unref()
+  return async () => {
+    clearInterval(timer)
+    await current
+  }
 }

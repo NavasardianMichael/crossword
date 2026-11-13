@@ -6,6 +6,18 @@ const nodeEnv = process.env.NODE_ENV ?? 'development'
 const corsOrigin = (process.env.CORS_ORIGIN ?? 'http://localhost:7007').replace(/\/+$/, '')
 const port = Number(process.env.PORT ?? 9007)
 
+const DEV_JWT_SECRET = 'dev-secret-change-me'
+
+/** Production refuses to start on a missing or guessable secret: anyone could sign a session with it. */
+const readJwtSecret = (): string => {
+  const secret = process.env.JWT_SECRET ?? ''
+  if (nodeEnv !== 'production') return secret || DEV_JWT_SECRET
+  if (secret.length < 32 || secret === DEV_JWT_SECRET) {
+    throw new Error('JWT_SECRET must be a random value of at least 32 characters in production (openssl rand -hex 64)')
+  }
+  return secret
+}
+
 const asNumber = (value: string | undefined, fallback: number): number => {
   const parsed = Number(value)
   return Number.isFinite(parsed) && parsed > 0 ? parsed : fallback
@@ -19,9 +31,9 @@ export const config = {
   corsOrigin,
   nodeEnv,
   /** Signs the session cookie. The dev default is local only; production must set its own. */
-  jwtSecret: process.env.JWT_SECRET ?? 'dev-secret-change-me',
+  jwtSecret: readJwtSecret(),
   cookieName: 'crossword-session',
-  /** Marks a guest device's free puzzle of the month (`lib/payer.ts`). */
+  /** Marks a guest device, whose monthly free credits it holds (`lib/payer.ts`). */
   guestCookieName: 'crossword-guest',
   /** Host-only in dev. In production, the web hostname, so `api.` can set a cookie the site sees. */
   cookieDomain: process.env.COOKIE_DOMAIN ?? deriveCookieDomain(nodeEnv, corsOrigin),
@@ -50,8 +62,14 @@ export const config = {
     models: process.env.GEMINI_MODELS ?? '',
     /** A second "judge" pass per batch that drops non-words and wrong or unnatural clues. */
     verifyEntries: process.env.VERIFY_ENTRIES !== 'false',
-    /** Gemini calls per UTC day, generation and judge together. */
+    /** Gemini calls per quota day (from midnight Pacific, as Google counts), generation and judge together. */
     dailyCallBudget: asNumber(process.env.POOL_DAILY_CALL_BUDGET, 300),
+    /**
+     * The part of that budget free play may spend — inline generation for a puzzle paid with free credits and the
+     * refill job. The rest is kept for paid puzzles, so a farm of free users cannot leave paying
+     * players without new words.
+     */
+    freeShare: 0.7,
   },
   /** The background job that keeps every bucket players ask for stocked. */
   poolRefill: {
@@ -64,7 +82,7 @@ export const config = {
   },
   /**
    * Paddle Billing — one-time credit packs (`docs/BILLING.md`). `apiKey` and `webhookSecrets`
-   * are read only by `lib/paddle.ts`. Without a key the shop is closed; free puzzles still work.
+   * are read only by `lib/paddle.ts`. Without a key the shop is closed; free credits still work.
    */
   paddle: {
     apiKey: process.env.PADDLE_API_KEY ?? '',
@@ -84,11 +102,16 @@ export const config = {
   billing: {
     /**
      * Off only for e2e runs (`BILLING_ENABLED=false pnpm dev`), where every test is a guest on one
-     * IP and would use up the free puzzle. Never off in production.
+     * IP and would use up the free credits. Never off in production.
      */
     enabled: nodeEnv === 'production' || process.env.BILLING_ENABLED !== 'false',
-    /** Guest devices one IP address may take a free puzzle for each month — a household or an office, not a farm. */
+    /** Guest devices one IP address may spend free credits from each month — a household or an office, not a farm. */
     guestFreePerIp: asNumber(process.env.GUEST_FREE_PER_IP, 3),
+    /**
+     * Puzzles that take free credits, guests and accounts together, in any rolling hour. A circuit
+     * breaker against a farm spread over many addresses — far above real demand.
+     */
+    freePuzzlesPerHour: asNumber(process.env.FREE_PUZZLES_PER_HOUR, 200),
   },
   /** Off only in the integration tests, where every request comes from one address. */
   rateLimitEnabled: process.env.RATE_LIMIT_ENABLED !== 'false',

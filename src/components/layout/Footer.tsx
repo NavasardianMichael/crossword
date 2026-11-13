@@ -1,6 +1,7 @@
 import { useTranslations } from 'next-intl'
 import { LOCALE_LABELS, LOCALES } from '@i18n/config'
 import { LEGAL_NAV, PRIMARY_NAV, SECONDARY_NAV } from '@constants/navigation'
+import { ConsentSettingsLink } from '@components/analytics/ConsentSettingsLink'
 import { Emblem } from '@components/brand/Emblem'
 import { AppLink } from '@components/ui/bare/AppLink'
 
@@ -30,6 +31,7 @@ export const Footer = () => {
               {t(`Nav.${labelKey}`)}
             </AppLink>
           ))}
+          <ConsentSettingsLink className={`text-start ${linkClass}`} />
         </nav>
 
         <div className='md:col-span-2'>

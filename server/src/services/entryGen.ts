@@ -36,7 +36,14 @@ export type Seeding = {
   examples: ContentExample[]
 }
 
-export type GenerateParams = { locale: Locale; topic: Topic; difficulty: Difficulty; seeding: Seeding }
+export type GenerateParams = {
+  locale: Locale
+  topic: Topic
+  difficulty: Difficulty
+  seeding: Seeding
+  /** Epoch ms the generation and its judge must finish by (an inline top-up on a player's request). */
+  deadline?: number
+}
 
 const ENTRIES_SCHEMA: Schema = {
   type: Type.OBJECT,
@@ -152,7 +159,8 @@ type Verdict = { index: number; ok: boolean }
 export const judgeEntries = async (
   entries: ValidEntry[],
   locale: Locale,
-  generatorModel: string
+  generatorModel: string,
+  deadline?: number
 ): Promise<{ entries: ValidEntry[]; verified: boolean; usage: TokenUsage }> => {
   if (!entries.length) return { entries, verified: true, usage: NO_USAGE }
   const { name, styleGuide } = LOCALE_CONTENT[locale]
@@ -164,6 +172,7 @@ export const judgeEntries = async (
   try {
     const judged = await generateJson({
       avoidModel: generatorModel,
+      deadline,
       systemInstruction: [
         `You are a strict editor of ${name} crossword puzzles and a native ${name} speaker.`,
         'For every numbered entry "word — clue | short clue", answer ok: true only when ALL of these hold:',
@@ -212,12 +221,13 @@ export const generateEntries = async (params: GenerateParams): Promise<Generatio
     maxOutputTokens: 8192,
     // Armenian is the language the cheapest model writes least well.
     strongestFirst: params.locale === 'hy',
+    deadline: params.deadline,
   })
 
   const candidates = asCandidates(text, params.difficulty)
   const { entries: valid } = validateBatch(candidates, params.locale, params.topic)
   const judged = config.gemini.verifyEntries
-    ? await judgeEntries(valid, params.locale, model)
+    ? await judgeEntries(valid, params.locale, model, params.deadline)
     : { entries: valid, verified: false, usage: NO_USAGE }
 
   const kept = new Set(judged.entries.map(({ answer }) => answer))

@@ -71,7 +71,7 @@ refuses anything else, since compose would interpolate `$` in `.env`.
 
 - **Gemini:** a key from https://aistudio.google.com/apikey into `GEMINI_KEY`. The free tier
   is enough: generated words are pooled and reused, `POOL_DAILY_CALL_BUDGET` caps the calls
-  per UTC day, and `POOL_REFILL_MAX_CALLS` caps the background top-up. An empty key disables
+  per day (from midnight Pacific, when Google resets the quota), and `POOL_REFILL_MAX_CALLS` caps the background top-up. An empty key disables
   generation — puzzles are then built from the seeded pool only.
 
 ## GitHub configuration
@@ -122,12 +122,12 @@ Two values must match character for character:
 |              |                                                                                                                                                         |
 | ------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | `ci.yml`     | PR → master. Postgres service container; typecheck · typecheck:server · gates · lint · catalogues · unit · integration · build · build:api.              |
-| `deploy.yml` | Push to `master` (or **Run workflow**). `changes` picks the sides, `verify` runs the non-build gates, `build-web` and `build-api` in parallel, `deploy`. |
+| `deploy.yml` | Push to `master` (or **Run workflow**). `changes` picks the sides, `config` checks every secret in seconds (`scripts/check-deploy-config.mjs`: SSH, `APP_DIR`, both origins, and inside `ENV_API_BASE64` `DATABASE_URL`, `JWT_SECRET` ≥ 32, `CORS_ORIGIN` = site, the Google callback, the Paddle set; optional features off are warnings), `verify` runs the non-build gates and the unit + integration tests (its own Postgres service), `build-web` and `build-api` in parallel, `deploy`. |
 
 The API deploys **first**: server-rendered pages and ISR call it, so the schema and API must
 be new before new pages serve. API side: `pnpm install --prod --frozen-lockfile` →
 `prisma generate` → `ensure_database` (creates Postgres only if missing) → `prisma migrate deploy` → `node dist/prisma/seed.js` (idempotent seed
-words, `prisma/seed/entries.{en,ru,hy}.json`) → restart → poll `/health`. Web side: extract, flip the symlink, restart, poll `/en`
+words, `prisma/seed/entries.<locale>.json`, all 33) → restart → poll `/health`. Web side: extract, flip the symlink, restart, poll `/en`
 (never `/`, which is a 307).
 
 The web bundle is booted in CI before it ships (standalone output can miss traced files), and
@@ -152,6 +152,9 @@ journalctl -u crossword-web -f
 journalctl -u crossword-api -f
 systemctl status crossword-web crossword-api
 
+# back up now — the nightly cron does it too (PRODUCTION_SETUP.md step 8); run it before any migration
+/home/michael/apps/crossword/shared/backup-db.sh
+
 # rollback — migrations do NOT roll back
 ls -t /home/michael/apps/crossword/web/releases
 ln -sfn /home/michael/apps/crossword/web/releases/<sha> /home/michael/apps/crossword/web/current
@@ -161,14 +164,16 @@ sudo systemctl restart crossword-web                     # same shape for api
 docker exec crossword-postgres-prod psql -U crossword -d crossword \
   -c 'select locale, difficulty, count(*) from "Entry" where "retiredAt" is null group by 1,2 order by 1,2;'
 
-# re-seed by hand (idempotent — the deploy already runs it)
+# re-seed by hand (idempotent — the deploy already runs it). The env file is read literally, as
+# the deploy and systemd read it: sourcing it as shell code breaks on `&` or `$` in a value.
 cd /home/michael/apps/crossword/api/current
-set -a; . /home/michael/apps/crossword/shared/.env.api; set +a; node dist/prisma/seed.js
+while IFS= read -r line; do [[ "$line" =~ ^[A-Za-z_][A-Za-z0-9_]*= ]] || continue; key="${line%%=*}"; value="${line#*=}"; case "$value" in \"*\" | \'*\') value="${value:1:${#value}-2}" ;; esac; export "$key=$value"; done < /home/michael/apps/crossword/shared/.env.api
+node dist/prisma/seed.js
 ```
 
 After the first deploy, submit `https://crossword.eapps.site/sitemap.xml`
-in Google Search Console, Yandex Webmaster and Bing Webmaster Tools (63 URLs: the 9
-`INDEXABLE_ROUTES` plus 12 topic pages, × 3 locales — en, ru, hy — with hreflang and x-default).
+in Google Search Console, Yandex Webmaster and Bing Webmaster Tools (726 URLs: the 10
+`INDEXABLE_ROUTES` plus 12 topic pages, × 33 locales, with hreflang and x-default).
 Check a shared `/p/<id>` link in a preview debugger (Facebook Sharing Debugger, opengraph.xyz):
 it should show the title, description and the puzzle's own card, `/og/p/<id>.png` (other pages
 show their language's `/og/<locale>.png`). `/llms.txt` and `/llms-full.txt`

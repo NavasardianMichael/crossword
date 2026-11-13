@@ -11,7 +11,7 @@ import { clearSessionCookie, setSessionCookie } from '../lib/session.js'
 import { hashUrlToken } from '../lib/token.js'
 import { toUserView } from '../lib/user-view.js'
 import { asyncHandler } from '../middleware/error.js'
-import { rateLimit } from '../middleware/rateLimit.js'
+import { emailRateLimit, rateLimit } from '../middleware/rateLimit.js'
 
 export const identityRouter = Router()
 
@@ -63,6 +63,7 @@ identityRouter.post(
 identityRouter.post(
   '/login',
   rateLimit('login', { limit: 10, windowMs: 15 * 60 * 1000 }),
+  emailRateLimit('login', { limit: 10, windowMs: 15 * 60 * 1000 }),
   asyncHandler(async (req, res) => {
     const email = asEmail(req.body?.email)
     const password = typeof req.body?.password === 'string' ? req.body.password : ''

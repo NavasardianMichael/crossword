@@ -131,6 +131,27 @@ export const notifyAdjustment = (
   adjustment: { action: 'refund' | 'chargeback'; adjustmentId: string; back: number; taken: number }
 ): Promise<void> => notify({ kind: 'adjusted', ...adjustment }, paymentId, null)
 
+const freeCapLimiter = createRateLimiter({ limit: 1, windowMs: 60 * 60 * 1000 })
+
+/**
+ * Never rejects. Free credits hit their hourly cap (`billing.ts`): real demand, so raise
+ * `FREE_PUZZLES_PER_HOUR`, or a farm, so look at who is claiming them. At most once an hour.
+ */
+export const notifyFreeCapReached = (recent: number, cap: number): Promise<void> =>
+  attempt('free cap', async () => {
+    if (!freeCapLimiter('all').allowed) return
+    console.warn(`[billing] free credits paused: ${recent} puzzles took them in the last hour, cap ${cap}`)
+    await deliver({
+      subject: 'Crossword: free credits paused',
+      body:
+        `${recent} puzzles took free credits in the last hour, reaching the cap of ${cap}. Puzzles that would ` +
+        'spend free credits are refused until the hour rolls on; puzzles paid with bought credits are not ' +
+        'affected. If this is real demand, raise FREE_PUZZLES_PER_HOUR; if not, look at the FreeSpend rows ' +
+        'of the last hour (ipKey) for a farm.',
+      details: { recent, cap },
+    })
+  })
+
 /** Never rejects. A completed transaction the webhook could not credit. */
 export const notifyUnmatchedPayment = (transactionId: string, eventId: string, problem: string): Promise<void> =>
   attempt(`unmatched (${transactionId})`, () => deliver(buildUnmatchedMail(transactionId, eventId, problem, config.paddle.sandbox)))

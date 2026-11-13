@@ -1,7 +1,7 @@
 {
   "Common": {
     "appName": "Kruiswoord AI",
-    "tagline": "Gratis kruiswoordpuzzels en Zweedse puzzels, vers geschreven door AI, in jouw taal. Elke keer nieuwe woorden, nooit een herhaling.",
+    "tagline": "Kruiswoordpuzzels en Zweedse puzzels, vers geschreven door AI, in jouw taal — de eerste van elke maand is gratis. Elke keer nieuwe woorden, nooit een herhaling.",
     "skipToContent": "Naar de inhoud",
     "openMenu": "Menu openen",
     "menu": "Menu",
@@ -54,28 +54,28 @@
     "gotIt": "Begrepen"
   },
   "Seo": {
-    "homeTitle": "Gratis kruiswoordpuzzel maken | Kruiswoord AI",
-    "homeDescription": "Maak gratis online een kruiswoordpuzzel of Zweedse puzzel. Kies een onderwerp — dieren, eten, aardrijkskunde, geschiedenis, wetenschap, sport — en een niveau. Elke puzzel nieuwe woorden. Werkt offline.",
+    "homeTitle": "Kruiswoordpuzzel maken, gratis te proberen | Kruiswoord AI",
+    "homeDescription": "Maak online een kruiswoordpuzzel of Zweedse puzzel — je eerste van elke maand is gratis. Kies een onderwerp — dieren, eten, aardrijkskunde, geschiedenis, wetenschap, sport — en een niveau. Elke puzzel nieuwe woorden. Werkt offline.",
     "keywords": "kruiswoordpuzzel, kruiswoordpuzzel maken, Nederlandse kruiswoordpuzzel, kruiswoordraadsel, gratis kruiswoordpuzzel, Zweedse puzzel, kruiswoordpuzzel dieren, kruiswoordpuzzel eten, kruiswoordpuzzel aardrijkskunde, kruiswoordpuzzel geschiedenis, kruiswoordpuzzel wetenschap, kruiswoordpuzzel sport",
-    "crosswordTitle": "Gratis kruiswoordpuzzel online",
-    "crosswordDescription": "Speel gratis kruiswoordpuzzels online, geschreven door AI: genummerde hints horizontaal en verticaal, 12 onderwerpen, drie niveaus. Geen account, elke keer nieuwe woorden.",
-    "scanwordTitle": "Gratis Zweedse puzzel online — hints in het raster",
-    "scanwordDescription": "Los gratis een Zweedse puzzel online op: de hints staan in het raster, met pijlen naar het antwoord. Geschreven door AI, geen account, op telefoon, tablet of computer.",
+    "crosswordTitle": "Kruiswoordpuzzel online, gratis te proberen",
+    "crosswordDescription": "Speel kruiswoordpuzzels online, geschreven door AI: genummerde hints horizontaal en verticaal, 12 onderwerpen, drie niveaus. Je eerste puzzel van elke maand is gratis, zonder account.",
+    "scanwordTitle": "Zweedse puzzel online — hints in het raster",
+    "scanwordDescription": "Los online een Zweedse puzzel op: de hints staan in het raster, met pijlen naar het antwoord. Geschreven door AI, op telefoon, tablet of computer — de eerste puzzel van elke maand is gratis.",
     "topicsTitle": "Kruiswoordonderwerpen: dieren, eten, aardrijkskunde",
     "topicsDescription": "Kies een onderwerp voor je volgende kruiswoordpuzzel of Zweedse puzzel: natuur, dieren, eten, aardrijkskunde, geschiedenis, wetenschap, sport, kunst en meer.",
-    "topicTitle": "{topic}-kruiswoordpuzzel — gratis online",
-    "topicDescription": "Gratis {topic}-kruiswoordpuzzels en Zweedse puzzels, gemaakt door AI. {description}",
+    "topicTitle": "{topic}-kruiswoordpuzzel — online, geschreven door AI",
+    "topicDescription": "{topic}-kruiswoordpuzzels en Zweedse puzzels, gemaakt door AI, de eerste van elke maand gratis. {description}",
     "historyTitle": "Mijn puzzels",
     "historyDescription": "Kruiswoordpuzzels en Zweedse puzzels die je op dit apparaat bent begonnen en nog niet hebt uitgespeeld, met je voortgang bewaard.",
     "creditsTitle": "Credits & prijzen",
-    "creditsDescription": "Elke maand één gratis kruiswoordraadsel, daarna creditpakketten zonder abonnement: wat elke puzzel kost en hoe je credits koopt.",
+    "creditsDescription": "Elke maand 11 gratis credits, daarna creditpakketten zonder abonnement: wat elke puzzel kost en hoe je credits koopt.",
     "paymentTitle": "Betaling",
     "rulesTitle": "Kruiswoordpuzzel en Zweedse puzzel oplossen",
     "rulesDescription": "Hoe je hier een kruiswoordpuzzel of Zweedse puzzel oplost: typen, door het raster bewegen, controleren en letters vrijgeven, en sneltoetsen.",
-    "faqTitle": "Vragen: gratis AI-kruiswoord, talen en privacy",
+    "faqTitle": "Vragen: AI-kruiswoord, prijzen, talen en privacy",
     "faqDescription": "Antwoorden over Kruiswoord AI: is het gratis, hoe de AI hints schrijft, rastergroottes, niveau, woorden die nooit terugkomen, offline spelen, delen en privacy.",
     "aboutTitle": "Over — hoe onze AI-kruiswoordpuzzels ontstaan",
-    "aboutDescription": "Waarom we een gratis kruiswoordgenerator maakten die nooit een woord herhaalt, en hoe de AI hints in elke taal zelf schrijft.",
+    "aboutDescription": "Waarom we een kruiswoordgenerator maakten die nooit een woord herhaalt, en hoe de AI hints in elke taal zelf schrijft.",
     "privacyTitle": "Privacyverklaring",
     "privacyDescription": "Wat Kruiswoord AI opslaat, waar en waarom — inclusief accounts en betalingen, en zonder tracking van wie je bent.",
     "termsTitle": "Gebruiksvoorwaarden",
@@ -84,7 +84,7 @@
     "contactDescription": "Een vraag, een idee of een fout in de puzzel? Schrijf ons, we antwoorden per e-mail.",
     "puzzleDescription": "Een gratis puzzel van Kruiswoord AI — los hem op in je browser.",
     "sharedPuzzleDescription": "Een gratis {size} {format, select, scanword {Zweedse puzzel} other {kruiswoordpuzzel}} · {topic} · {difficulty} · {words, plural, one {# woord} other {# woorden}}. Geschreven door AI — los hem meteen op in je browser, zonder account.",
-    "ogImageAlt": "Kruiswoord AI — gratis kruiswoordpuzzels en Zweedse puzzels in jouw taal",
+    "ogImageAlt": "Kruiswoord AI — kruiswoordpuzzels en Zweedse puzzels door AI, in jouw taal",
     "ogPuzzleCta": "Kun jij hem oplossen?",
     "ogPuzzleMeta": "{size} · {words, plural, one {# woord} other {# woorden}}"
   },
@@ -179,12 +179,13 @@
     "credits": "{count, plural, one {# credit} other {# credits}}",
     "balance": "Je saldo: {count, plural, one {# credit} other {# credits}}",
     "cost": "Deze puzzel: {count, plural, one {# credit} other {# credits}}",
-    "freeNow": "Deze is gratis — je gratis puzzel van de maand.",
+    "freeNow": "Betaald met je gratis credits van deze maand.",
     "youHave": "Je hebt {count, plural, one {# credit} other {# credits}}.",
     "notEnough": "Niet genoeg credits voor deze puzzel.",
-    "guestUsed": "Je hebt de gratis puzzel van deze maand gebruikt. Log in voor nog een gratis puzzel elke maand en om credits te kopen.",
-    "refusedSignIn": "De gratis puzzel van deze maand is gebruikt. Log in om er nog een te krijgen en om credits te kopen.",
+    "guestUsed": "Je hebt de gratis credits van deze maand gebruikt. Log in voor elke maand {count, plural, one {# extra gratis credit} other {# extra gratis credits}} en om credits te kopen.",
+    "refusedSignIn": "Je gratis credits zijn niet genoeg voor deze puzzel. Log in voor elke maand {count, plural, one {# extra gratis credit} other {# extra gratis credits}} en om credits te kopen.",
     "refusedCredits": "Niet genoeg credits voor deze puzzel. Waardeer op om verder te spelen.",
+    "refusedFreeBusy": "Gratis credits zijn even gepauzeerd: het afgelopen uur zijn er heel veel puzzels mee gemaakt. Probeer het later nog eens.",
     "signIn": "Inloggen",
     "buyCredits": "Credits kopen"
   },
@@ -193,7 +194,7 @@
       "eyebrow": "Gratis proberen · Geen abonnement · Werkt offline",
       "title": "Kruiswoordpuzzels die <mark>altijd nieuw zijn</mark>",
       "subtitle": "Kies een onderwerp en een niveau. De AI schrijft de hints in jouw taal, en hetzelfde woord krijg je geen tweede keer.",
-      "lede": "Maak gratis online een kruiswoordpuzzel of Zweedse puzzel, zonder account. Onderwerpen lopen van dieren, eten en aardrijkskunde tot geschiedenis, wetenschap, sport, kunst, huis, beroepen en eigen cultuur — of meng ze allemaal."
+      "lede": "Maak online een kruiswoordpuzzel of Zweedse puzzel — je eerste van elke maand is gratis, zonder account. Onderwerpen lopen van dieren, eten en aardrijkskunde tot geschiedenis, wetenschap, sport, kunst, huis, beroepen en eigen cultuur — of meng ze allemaal."
     },
     "continueTitle": "Ga verder waar je was",
     "formatsTitle": "Twee manieren om te spelen",
@@ -221,7 +222,7 @@
     "topicsSubtitle": "Van vogels in de tuin tot bekende rivieren — of meng ze allemaal.",
     "faqTitle": "Vragen en antwoorden",
     "faq1Question": "Is Kruiswoord AI gratis?",
-    "faq1Answer": "Je eerste puzzel elke maand is gratis, zonder registratie, en inloggen voegt er nog een toe. Daarna kosten puzzels credits, die je eenmalig koopt zonder abonnement. Een puzzel spelen die iemand met je heeft gedeeld, is altijd gratis.",
+    "faq1Answer": "Elke maand krijg je 11 gratis credits — genoeg voor een middelgrote puzzel — zonder registratie, en inloggen voegt er nog 11 toe. Daarna kosten puzzels credits, die je eenmalig koopt zonder abonnement. Een puzzel spelen die iemand met je heeft gedeeld, is altijd gratis.",
     "faq2Question": "Krijg ik dezelfde woorden terug?",
     "faq2Answer": "Nee. Je apparaat houdt een lijst bij van woorden die het al heeft getoond en laat die uit elke nieuwe puzzel. Wis je de sitegegevens, dan begint die lijst opnieuw.",
     "faq3Question": "In welke talen kan ik spelen?",
@@ -240,7 +241,7 @@
       "title": "Een klassieke kruiswoordpuzzel, <mark>alleen voor jou</mark>",
       "plainTitle": "AI-kruiswoord",
       "subtitle": "Genummerde hints horizontaal en verticaal, een raster dat vanuit het midden groeit, en woorden die je nog niet hebt gezien.",
-      "lede": "Speel gratis een klassieke kruiswoordpuzzel online: genummerde hints horizontaal en verticaal, over dieren, eten, aardrijkskunde, geschiedenis, wetenschap en sport."
+      "lede": "Speel een klassieke kruiswoordpuzzel online: genummerde hints horizontaal en verticaal, over dieren, eten, aardrijkskunde, geschiedenis, wetenschap en sport."
     },
     "rulesTitle": "Hoe een kruiswoord in elkaar zit",
     "rule1": "Elk wit vakje heeft één letter. Woorden lopen van links naar rechts en van boven naar beneden, en kruisen elkaar.",
@@ -264,7 +265,7 @@
       "title": "Zweedse puzzels met hints <mark>in het raster</mark>",
       "plainTitle": "AI Zweedse puzzel",
       "subtitle": "Geen lijsten om in te zoeken: elke hint staat in een eigen vakje, met een pijl naar het antwoord.",
-      "lede": "Speel gratis een Zweedse puzzel online: de hints staan in het raster. Dezelfde onderwerpen als de kruiswoordpuzzels — dieren, eten, aardrijkskunde, geschiedenis, wetenschap, sport en meer."
+      "lede": "Speel een Zweedse puzzel online: de hints staan in het raster. Dezelfde onderwerpen als de kruiswoordpuzzels — dieren, eten, aardrijkskunde, geschiedenis, wetenschap, sport en meer."
     },
     "rulesTitle": "Hoe een Zweedse puzzel in elkaar zit",
     "rule1": "Gekleurde vakjes bevatten de hints. De pijl ernaast wijst waar het antwoord begint en welke kant het op gaat.",
@@ -297,6 +298,12 @@
   "Auth": {
     "signIn": "Inloggen",
     "signOut": "Uitloggen",
+    "signOutConfirm": {
+      "title": "Uitloggen?",
+      "text": "Je kunt altijd weer inloggen. Je credits en aankopen blijven in je account.",
+      "confirm": "Uitloggen",
+      "cancel": "Nu niet"
+    },
     "signInTitle": "Inloggen",
     "signInSubtitle": "Gebruik Google, of het e-mailadres en wachtwoord van je account.",
     "signUpTitle": "Account maken",
@@ -332,6 +339,7 @@
     "resent": "Opnieuw verstuurd.",
     "forgotSent": "Als een account dat adres gebruikt, is de link onderweg.",
     "invalidCredentials": "Dat e-mailadres en wachtwoord horen niet bij elkaar.",
+    "tooManyAttempts": "Te veel pogingen in korte tijd. Wacht een paar minuten en probeer het dan opnieuw.",
     "googleOnly": "Dit account logt in met Google.",
     "emailNotVerified": "Bevestig eerst je e-mail. De link staat in je inbox.",
     "emailTaken": "Er bestaat al een account met dit e-mailadres.",
@@ -363,6 +371,12 @@
     "keepSolving": "Blijf oplossen",
     "leave": "Verlaten",
     "newPuzzle": "Nieuwe puzzel",
+    "newPuzzleConfirm": {
+      "title": "Nieuwe puzzel maken?",
+      "text": "Zelfde vorm, onderwerp en niveau als deze.",
+      "create": "Maken",
+      "cancel": "Nu niet"
+    },
     "allClues": "Alle hints",
     "across": "Horizontaal",
     "down": "Verticaal",
@@ -540,15 +554,15 @@
           },
           {
             "question": "Is Kruiswoord AI gratis?",
-            "answer": "Gedeeltelijk. Je eerste puzzel elke maand is gratis, zonder registratie, en inloggen voegt elke maand een tweede gratis puzzel toe. Daarbovenop worden puzzels betaald met credits: je koopt eenmalig een pakket — er is geen abonnement, credits verlopen nooit en er zijn geen advertenties. Een puzzel spelen die iemand met je heeft gedeeld, is altijd gratis."
+            "answer": "Gedeeltelijk. Elke maand krijg je 11 gratis credits — genoeg voor een middelgrote puzzel — zonder registratie, en inloggen voegt er elke maand nog 11 toe. Gratis credits schuiven niet door naar de volgende maand. Daarbovenop worden puzzels betaald met credits die je koopt: je koopt eenmalig een pakket — er is geen abonnement, gekochte credits verlopen nooit en er zijn geen advertenties. Een puzzel spelen die iemand met je heeft gedeeld, is altijd gratis."
           },
           {
             "question": "Heb ik een account nodig?",
-            "answer": "Niet voor je gratis puzzel van de maand: je voortgang, je instellingen en de woorden die je al hebt gezien, worden in je browser bewaard. Een account voegt elke maand een tweede gratis puzzel toe en stelt je in staat om credits te kopen en te bewaren."
+            "answer": "Niet voor je 11 gratis credits per maand: je voortgang, je instellingen en de woorden die je al hebt gezien, worden in je browser bewaard. Een account geeft je elke maand 11 extra gratis credits en stelt je in staat om credits te kopen en te bewaren."
           },
           {
             "question": "Hoeveel kost een puzzel?",
-            "answer": "Een kleine puzzel kost 5 credits, een middelgrote 10 en een grote 15; een gemiddelde moeilijkheidsgraad voegt 1 credit toe en moeilijk voegt 2 credits toe. Credits zijn verkrijgbaar in pakketten van 200 voor € 4,99, 600 voor € 11,99 en 2.000 voor € 29,99. Bij het afrekenen zie je de prijs in je eigen valuta, inclusief belastingen waar van toepassing."
+            "answer": "Een kleine puzzel kost 5 credits, een middelgrote 10 en een grote 15; een gemiddelde moeilijkheidsgraad voegt 1 credit toe en moeilijk voegt 2 credits toe. Met je 11 gratis credits per maand maak je een middelgrote puzzel op gemiddelde moeilijkheid. Credits zijn verkrijgbaar in pakketten van 200 voor $ 4,99, 600 voor $ 11,99 en 2.000 voor $ 29,99. Bij het afrekenen zie je de prijs in je eigen valuta, inclusief belastingen waar van toepassing."
           },
           {
             "question": "Wie maakt Kruiswoord AI?",
@@ -642,7 +656,7 @@
   },
   "About": {
     "title": "Over Kruiswoord AI",
-    "subtitle": "Een gratis puzzelgenerator die in jouw taal schrijft en nooit twee keer hetzelfde woord geeft.",
+    "subtitle": "Een puzzelgenerator die in jouw taal schrijft en nooit twee keer hetzelfde woord geeft.",
     "sections": [
       {
         "title": "Waarom we hem maakten",
@@ -679,7 +693,7 @@
         "title": "Op onze server",
         "paragraphs": [
           "We slaan de puzzels op die worden gemaakt, zodat een gedeelde link hetzelfde raster opent. Wanneer je een omschrijving meldt, bewaren we het rapport met een eenrichtingshash van je IP-adres, alleen om te voorkomen dat één persoon een omschrijving alleen kan intrekken. We tellen ook anoniem hoe puzzels worden gespeeld (opgelost, welke woorden zijn onthuld) om de moeilijkheidsgraad af te stemmen.",
-          "Om elk apparaat zijn gratis puzzel van de maand te geven, plaatst de site een cookie met een willekeurige ID. Bij elke gratis puzzel bewaren we die ID en een eenrichtingshash van je IP-adres."
+          "Om elk apparaat zijn gratis credits van de maand te geven, plaatst de site een cookie met een willekeurige ID. Bij elke puzzel die met gratis credits is betaald, bewaren we die ID en een eenrichtingshash van je IP-adres."
         ]
       },
       {
@@ -703,7 +717,8 @@
       {
         "title": "Analyses en foutrapporten",
         "paragraphs": [
-          "Indien ingeschakeld, gebruiken we Google Analytics om paginaweergaven te tellen en Sentry om foutrapporten te ontvangen. Geen van beide wordt gebruikt om je te identificeren."
+          "Met je toestemming telt Google Analytics paginaweergaven en plaatst het cookies om bezoeken uit elkaar te houden; zonder toestemming werkt de analyse zonder cookies. Je kunt je keuze altijd wijzigen via “Cookie-instellingen” onderaan elke pagina. Sentry ontvangt foutrapporten zonder persoonsgegevens. Geen van beide wordt gebruikt voor advertenties of profilering.",
+          "Pagina's in sommige talen laden hun lettertype van Google Fonts, dat bij dat verzoek je IP-adres ontvangt."
         ]
       }
     ]
@@ -719,10 +734,10 @@
         ]
       },
       {
-        "title": "Gratis puzzels en credits",
+        "title": "Gratis en gekochte credits",
         "paragraphs": [
-          "Elk apparaat krijgt één gratis puzzel per kalendermand, en elk account nog een. Andere puzzels worden betaald met credits, tegen de prijs die wordt getoond voordat je er een maakt; een puzzel wordt pas in rekening gebracht wanneer deze is gebouwd, en het openen van een opgeslagen puzzel is gratis.",
-          "Credits worden gekocht in pakketten met een eenmalige betaling — er is geen abonnement — en ze verlopen nooit. Ze hebben geen contante waarde en kunnen niet worden overgedragen."
+          "Elk apparaat krijgt elke kalendermaand 11 gratis credits, en elk account nog 11. Gratis credits worden vóór gekochte credits gebruikt en schuiven niet door naar de volgende maand. Puzzels worden betaald met credits, tegen de prijs die wordt getoond voordat je er een maakt; een puzzel wordt pas in rekening gebracht wanneer deze is gebouwd, en het openen van een opgeslagen puzzel is gratis.",
+          "Credits worden gekocht in pakketten met een eenmalige betaling — er is geen abonnement — en gekochte credits verlopen nooit. Credits hebben geen contante waarde en kunnen niet worden overgedragen."
         ]
       },
       {
@@ -753,12 +768,11 @@
   },
   "Credits": {
     "title": "Credits",
-    "subtitle": "Elke maand één gratis puzzel. Daarna betaal je alleen voor de puzzels die je maakt — geen abonnement, en credits verlopen nooit.",
+    "subtitle": "Elke maand 11 gratis credits — genoeg voor een middelgrote puzzel. Daarna betaal je alleen voor de puzzels die je maakt — geen abonnement, en gekochte credits verlopen nooit.",
     "balanceTitle": "Je saldo",
-    "freeAvailable": "Je gratis puzzel van deze maand staat voor je klaar.",
-    "freeUsed": "De gratis puzzel van deze maand is gebruikt. De volgende komt op {date}.",
-    "guestTitle": "Krijg meer gratis puzzels",
-    "guestText": "Log in om elke maand een gratis puzzel op je account te krijgen en om credits te kopen.",
+    "freeAvailable": "Inclusief {count, plural, one {# gratis credit} other {# gratis credits}} voor deze maand. Gratis credits worden vernieuwd op {date}.",
+    "freeUsed": "De gratis credits van deze maand zijn gebruikt. Op {date} {count, plural, one {komt er # nieuwe gratis credit} other {komen er # nieuwe gratis credits}}.",
+    "guestText": "Log in om elke maand {count, plural, one {# extra gratis credit} other {# extra gratis credits}} op je account te krijgen en om credits te kopen.",
     "pricesTitle": "Wat een puzzel kost",
     "pricesText": "In credits, op basis van grootte en moeilijkheidsgraad. Een puzzel openen die iemand met je heeft gedeeld, of een uit je geschiedenis, is altijd gratis.",
     "size": "Grootte",
@@ -806,5 +820,13 @@
     "sentText": "Dank je. We antwoorden zo snel mogelijk per e-mail.",
     "sendAnother": "Nog een bericht schrijven",
     "tooMany": "Dat zijn te veel berichten. Probeer het straks nog eens."
+  },
+  "Consent": {
+    "label": "Cookietoestemming",
+    "text": "We willen graag cookies van Google Analytics gebruiken om te zien hoe de site wordt gebruikt. Geen advertenties, geen profilering. Zolang je niet akkoord gaat, werkt de analyse zonder cookies.",
+    "privacy": "Privacyverklaring",
+    "accept": "Accepteren",
+    "decline": "Weigeren",
+    "settings": "Cookie-instellingen"
   }
 }

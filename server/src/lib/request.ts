@@ -1,5 +1,6 @@
 import type { Request } from 'express'
 import { createHash } from 'node:crypto'
+import { isIPv4, isIPv6 } from 'node:net'
 
 /**
  * Body-reading helpers shared by the routers. The server carries no schema validator, so
@@ -60,9 +61,33 @@ const PUZZLE_ID_PATTERN = /^[0-9A-Za-z]{10}$/
 
 export const isPuzzleId = (value: unknown): value is string => typeof value === 'string' && PUZZLE_ID_PATTERN.test(value)
 
-/** Guests are keyed by a hash of their IP — enough to stop one person retiring a clue alone. */
-export const reporterKeyFor = (req: Request): string =>
+const expandIpv6 = (ip: string): string[] => {
+  const [head = '', tail = ''] = ip.split('::')
+  const start = head ? head.split(':') : []
+  const end = tail ? tail.split(':') : []
+  return [...start, ...Array<string>(Math.max(0, 8 - start.length - end.length)).fill('0'), ...end]
+}
+
+/**
+ * The address limits are keyed on. An IPv6 client is its /64 — one household or phone gets a
+ * whole /64 and could otherwise rotate through it without end — and an IPv4-mapped address
+ * (`::ffff:1.2.3.4`) is the IPv4 address itself.
+ */
+export const clientAddress = (req: Pick<Request, 'ip'>): string => {
+  const ip = (req.ip ?? '').split('%')[0]!
+  const mapped = ip.toLowerCase().startsWith('::ffff:') ? ip.slice('::ffff:'.length) : ''
+  if (isIPv4(mapped)) return mapped
+  if (!isIPv6(ip)) return ip
+  const prefix = expandIpv6(ip)
+    .slice(0, 4)
+    .map((group) => parseInt(group, 16).toString(16))
+    .join(':')
+  return `${prefix}::/64`
+}
+
+/** Guests are keyed by a hash of their address — enough to stop one person retiring a clue alone. */
+export const reporterKeyFor = (req: Pick<Request, 'ip'>): string =>
   `ip:${createHash('sha256')
-    .update(req.ip ?? '')
+    .update(clientAddress(req))
     .digest('hex')
     .slice(0, 32)}`

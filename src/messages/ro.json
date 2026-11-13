@@ -1,7 +1,7 @@
 {
   "Common": {
     "appName": "Rebus AI",
-    "tagline": "Cuvinte încrucișate și rebusuri scandinave gratuite, scrise pe loc de inteligența artificială, în limba ta. Cuvinte noi la fiecare joc, niciodată aceleași.",
+    "tagline": "Cuvinte încrucișate și rebusuri scandinave scrise pe loc de inteligența artificială, în limba ta — primul careu din fiecare lună e gratuit. Cuvinte noi la fiecare joc, niciodată aceleași.",
     "skipToContent": "Sari la conținut",
     "openMenu": "Deschide meniul",
     "menu": "Meniu",
@@ -54,28 +54,28 @@
     "gotIt": "Am înțeles"
   },
   "Seo": {
-    "homeTitle": "Cuvinte încrucișate gratis | Fă un rebus online",
-    "homeDescription": "Fă gratis un rebus sau cuvinte încrucișate online. Alege o temă — animale, mâncare, geografie, istorie, știință, sport — și dificultatea. Fiecare careu aduce cuvinte noi. Merge și offline.",
+    "homeTitle": "Cuvinte încrucișate, gratuit de încercat | Fă un rebus online",
+    "homeDescription": "Fă un rebus sau cuvinte încrucișate online — primul careu din fiecare lună e gratis. Alege o temă — animale, mâncare, geografie, istorie, știință, sport — și dificultatea. Fiecare careu aduce cuvinte noi. Merge și offline.",
     "keywords": "cuvinte încrucișate, rebus, fă un rebus, rebus în română, cuvinte încrucișate online, rebus scandinav, rebus animale, rebus mâncare, rebus geografie, rebus istorie, rebus știință, rebus sport",
-    "crosswordTitle": "Cuvinte încrucișate online, gratis",
-    "crosswordDescription": "Joacă gratis cuvinte încrucișate online, scrise de inteligența artificială: definiții numerotate pe orizontală și verticală, 12 teme, trei niveluri. Fără cont, cuvinte noi de fiecare dată.",
-    "scanwordTitle": "Rebus scandinav gratis — definițiile în careu",
-    "scanwordDescription": "Rezolvă gratis un rebus scandinav online: definițiile stau în careu, cu săgeți spre răspuns. Scris de inteligența artificială, fără cont, pe telefon, tabletă sau calculator.",
+    "crosswordTitle": "Cuvinte încrucișate online, gratuit de încercat",
+    "crosswordDescription": "Joacă cuvinte încrucișate online, scrise de inteligența artificială: definiții numerotate pe orizontală și verticală, 12 teme, trei niveluri. Primul careu din fiecare lună e gratis și fără cont.",
+    "scanwordTitle": "Rebus scandinav online — definițiile în careu",
+    "scanwordDescription": "Rezolvă un rebus scandinav online: definițiile stau în careu, cu săgeți spre răspuns. Scris de inteligența artificială, pe telefon, tabletă sau calculator — primul careu din fiecare lună e gratis.",
     "topicsTitle": "Teme de rebus: animale, mâncare, geografie",
     "topicsDescription": "Alege o temă pentru următorul rebus: natură, animale, mâncare, geografie, istorie, știință, sport, arte și altele.",
-    "topicTitle": "Rebus {topic} — careuri gratuite online",
-    "topicDescription": "Rebusuri și careuri scandinave gratuite despre {topic}, făcute de inteligența artificială. {description}",
+    "topicTitle": "Rebus {topic} — careuri online scrise de inteligența artificială",
+    "topicDescription": "Rebusuri și careuri scandinave despre {topic}, făcute de inteligența artificială; primul din fiecare lună e gratuit. {description}",
     "historyTitle": "Rebusurile mele",
     "historyDescription": "Cuvintele încrucișate și rebusurile scandinave începute pe acest aparat și neterminate, cu progresul păstrat.",
     "creditsTitle": "Credite și prețuri",
-    "creditsDescription": "Un rebus gratuit în fiecare lună, apoi pachete de credite fără abonament: cât costă fiecare puzzle și cum cumperi credite.",
+    "creditsDescription": "11 credite gratuite în fiecare lună, apoi pachete de credite fără abonament: cât costă fiecare puzzle și cum cumperi credite.",
     "paymentTitle": "Plată",
     "rulesTitle": "Cum se rezolvă cuvintele încrucișate și rebusul scandinav",
     "rulesDescription": "Cum rezolvi aici un careu: scrierea literelor, deplasarea, verificarea și dezvăluirea, și scurtăturile de tastatură.",
-    "faqTitle": "Întrebări: rebus AI gratuit, limbi și confidențialitate",
+    "faqTitle": "Întrebări: rebus AI, prețuri, limbi și confidențialitate",
     "faqDescription": "Răspunsuri despre Rebus AI: e gratis, cum scrie inteligența artificială definițiile, mărimea careului, dificultatea, cuvintele care nu se repetă, jocul offline, partajarea și confidențialitatea.",
     "aboutTitle": "Despre — cum se fac rebusurile noastre",
-    "aboutDescription": "De ce am făcut un generator gratuit de cuvinte încrucișate care nu repetă niciun cuvânt, și cum scrie inteligența artificială definițiile direct în fiecare limbă.",
+    "aboutDescription": "De ce am făcut un generator de cuvinte încrucișate care nu repetă niciun cuvânt, și cum scrie inteligența artificială definițiile direct în fiecare limbă.",
     "privacyTitle": "Politica de confidențialitate",
     "privacyDescription": "Ce stochează Rebus AI, unde și de ce — inclusiv conturile și plățile, fără a-ți urmări identitatea.",
     "termsTitle": "Termeni de utilizare",
@@ -84,7 +84,7 @@
     "contactDescription": "O întrebare, o idee sau o problemă la rebus? Scrie-ne și îți răspundem pe e-mail.",
     "puzzleDescription": "Un careu gratuit făcut de Rebus AI — rezolvă-l în browser.",
     "sharedPuzzleDescription": "Un {format, select, scanword {rebus scandinav} other {rebus}} {size} gratuit · {topic} · {difficulty} · {words, plural, one {# cuvânt} few {# cuvinte} other {# de cuvinte}}. Scris de inteligența artificială — rezolvă-l în browser, fără cont.",
-    "ogImageAlt": "Rebus AI — cuvinte încrucișate și rebusuri scandinave gratuite, în limba ta",
+    "ogImageAlt": "Rebus AI — cuvinte încrucișate și rebusuri scandinave în limba ta",
     "ogPuzzleCta": "Îl poți rezolva?",
     "ogPuzzleMeta": "{size} · {words, plural, one {# cuvânt} few {# cuvinte} other {# de cuvinte}}"
   },
@@ -179,12 +179,13 @@
     "credits": "{count, plural, one {# credit} few {# credite} other {# de credite}}",
     "balance": "Balanța ta: {count, plural, one {# credit} few {# credite} other {# de credite}}",
     "cost": "Acest puzzle: {count, plural, one {# credit} few {# credite} other {# de credite}}",
-    "freeNow": "Acesta este gratuit — puzzle-ul tău gratuit din această lună.",
+    "freeNow": "Acoperit de creditele tale gratuite din această lună.",
     "youHave": "Ai {count, plural, one {# credit} few {# credite} other {# de credite}}.",
     "notEnough": "Nu ai destule credite pentru acest puzzle.",
-    "guestUsed": "Ai folosit puzzle-ul gratuit din această lună. Autentifică-te pentru încă un puzzle gratuit în fiecare lună și pentru a cumpăra credite.",
-    "refusedSignIn": "Puzzle-ul gratuit din această lună a fost folosit. Autentifică-te pentru a primi altul și pentru a cumpăra credite.",
+    "guestUsed": "Ai folosit creditele gratuite din această lună. Autentifică-te pentru încă {count, plural, one {# credit gratuit} few {# credite gratuite} other {# de credite gratuite}} în fiecare lună și pentru a cumpăra credite.",
+    "refusedSignIn": "Creditele tale gratuite nu acoperă acest puzzle. Autentifică-te pentru încă {count, plural, one {# credit gratuit} few {# credite gratuite} other {# de credite gratuite}} în fiecare lună și pentru a cumpăra credite.",
     "refusedCredits": "Nu ai destule credite pentru acest puzzle. Reîncarcă pentru a continua jocul.",
+    "refusedFreeBusy": "Creditele gratuite sunt oprite pentru puțin timp, pentru că în ultima oră s-au creat cu ele foarte multe puzzle-uri. Încearcă din nou mai târziu.",
     "signIn": "Autentifică-te",
     "buyCredits": "Cumpără credite"
   },
@@ -193,7 +194,7 @@
       "eyebrow": "Gratuit de încercat · Fără abonament · Funcționează offline",
       "title": "Cuvinte încrucișate <mark>mereu noi</mark>",
       "subtitle": "Alegi tema și dificultatea. Inteligența artificială scrie definițiile în limba ta, iar același cuvânt nu mai apare.",
-      "lede": "Fă gratis un rebus sau cuvinte încrucișate online, fără cont. Temele merg de la animale, mâncare și geografie la istorie, știință, sport, arte, casă, meserii și cultură locală — sau le amesteci pe toate."
+      "lede": "Fă un rebus sau cuvinte încrucișate online — primul careu din fiecare lună e gratis, fără cont. Temele merg de la animale, mâncare și geografie la istorie, știință, sport, arte, casă, meserii și cultură locală — sau le amesteci pe toate."
     },
     "continueTitle": "Continuă de unde ai rămas",
     "formatsTitle": "Două feluri de joc",
@@ -221,7 +222,7 @@
     "topicsSubtitle": "De la păsările din curte la râuri cunoscute — sau amestecă-le.",
     "faqTitle": "Întrebări și răspunsuri",
     "faq1Question": "Este Rebus AI gratuit?",
-    "faq1Answer": "Primul tău puzzle din fiecare lună este gratuit, fără înregistrare, iar dacă te autentifici mai primești încă unul. După aceea, puzzle-urile costă credite, cumpărate o singură dată, fără abonament. Să joci un puzzle trimis de cineva este întotdeauna gratuit.",
+    "faq1Answer": "În fiecare lună primești 11 credite gratuite — suficient pentru un puzzle mediu — fără înregistrare, iar dacă te autentifici mai primești încă 11. După aceea, puzzle-urile costă credite, cumpărate o singură dată, fără abonament. Să joci un puzzle trimis de cineva este întotdeauna gratuit.",
     "faq2Question": "O să văd aceleași cuvinte?",
     "faq2Answer": "Nu. Aparatul ține o listă a cuvintelor arătate și le lasă afară din fiecare careu nou. Dacă ștergi datele site-ului, lista o ia de la capăt.",
     "faq3Question": "În ce limbi pot juca?",
@@ -240,7 +241,7 @@
       "title": "Un rebus clasic, <mark>făcut pentru tine</mark>",
       "plainTitle": "Rebus AI",
       "subtitle": "Definiții numerotate pe orizontală și verticală, un careu care crește din mijloc și cuvinte pe care nu le-ai văzut.",
-      "lede": "Joacă gratis cuvinte încrucișate online: definiții numerotate pe orizontală și verticală, teme de la animale și mâncare la geografie, istorie, știință și sport."
+      "lede": "Joacă cuvinte încrucișate online: definiții numerotate pe orizontală și verticală, teme de la animale și mâncare la geografie, istorie, știință și sport."
     },
     "rulesTitle": "Cum e făcut un rebus",
     "rule1": "Fiecare căsuță albă ține o literă. Cuvintele merg de la stânga la dreapta și de sus în jos și se încrucișează.",
@@ -264,7 +265,7 @@
       "title": "Rebus scandinav, cu definițiile <mark>în careu</mark>",
       "plainTitle": "Rebus scandinav AI",
       "subtitle": "Fără liste de căutat: fiecare definiție stă într-o căsuță, cu o săgeată spre răspuns.",
-      "lede": "Joacă gratis un rebus scandinav online: definițiile stau în careu. Aceleași teme — animale, mâncare, geografie, istorie, știință, sport și altele."
+      "lede": "Joacă un rebus scandinav online: definițiile stau în careu. Aceleași teme — animale, mâncare, geografie, istorie, știință, sport și altele."
     },
     "rulesTitle": "Cum e făcut un rebus scandinav",
     "rule1": "Căsuțele colorate țin definițiile. Săgeata arată de unde pornește răspunsul și încotro merge.",
@@ -297,6 +298,12 @@
   "Auth": {
     "signIn": "Intră în cont",
     "signOut": "Ieși din cont",
+    "signOutConfirm": {
+      "title": "Ieși din cont?",
+      "text": "Poți intra din nou oricând. Creditele și cumpărăturile tale rămân în cont.",
+      "confirm": "Ieși din cont",
+      "cancel": "Nu acum"
+    },
     "signInTitle": "Intră în cont",
     "signInSubtitle": "Folosește Google sau e-mailul și parola contului.",
     "signUpTitle": "Creează un cont",
@@ -332,6 +339,7 @@
     "resent": "Trimisă din nou.",
     "forgotSent": "Dacă un cont folosește adresa, legătura e pe drum.",
     "invalidCredentials": "E-mailul și parola nu se potrivesc.",
+    "tooManyAttempts": "Prea multe încercări într-un timp scurt. Așteaptă câteva minute și încearcă din nou.",
     "googleOnly": "Contul ăsta intră cu Google.",
     "emailNotVerified": "Confirmă mai întâi e-mailul. Legătura e în inbox.",
     "emailTaken": "Există deja un cont cu acest e-mail.",
@@ -363,6 +371,12 @@
     "keepSolving": "Continuă",
     "leave": "Pleacă",
     "newPuzzle": "Careu nou",
+    "newPuzzleConfirm": {
+      "title": "Faci un careu nou?",
+      "text": "Aceeași formă, temă și dificultate ca acesta.",
+      "create": "Creează",
+      "cancel": "Nu acum"
+    },
     "allClues": "Toate definițiile",
     "across": "Orizontal",
     "down": "Vertical",
@@ -540,15 +554,15 @@
           },
           {
             "question": "Este Rebus AI gratuit?",
-            "answer": "Parțial. Primul tău puzzle din fiecare lună este gratuit, fără înregistrare, iar autentificarea adaugă un al doilea puzzle gratuit în fiecare lună. În rest, puzzle-urile se plătesc cu credite: cumperi un pachet o singură dată — nu există abonament, creditele nu expiră niciodată și nu există reclame. Jocul unui puzzle distribuit de altcineva este întotdeauna gratuit."
+            "answer": "Parțial. În fiecare lună primești 11 credite gratuite — suficient pentru un puzzle mediu — fără înregistrare, iar autentificarea adaugă încă 11 în fiecare lună. Creditele gratuite nu se reportează în luna următoare. În rest, puzzle-urile se plătesc cu credite cumpărate: un pachet se cumpără o singură dată — nu există abonament, creditele cumpărate nu expiră niciodată și nu există reclame. Jocul unui puzzle distribuit de altcineva este întotdeauna gratuit."
           },
           {
             "question": "Am nevoie de un cont?",
-            "answer": "Nu și pentru puzzle-ul gratuit al lunii: progresul tău, setările și cuvintele deja văzute sunt păstrate în browser. Un cont îți aduce un al doilea puzzle gratuit în fiecare lună și îți permite să cumperi și să păstrezi credite."
+            "answer": "Nu și pentru cele 11 credite gratuite pe lună: progresul tău, setările și cuvintele deja văzute sunt păstrate în browser. Un cont îți aduce încă 11 credite gratuite în fiecare lună și îți permite să cumperi și să păstrezi credite."
           },
           {
             "question": "Cât costă un puzzle?",
-            "answer": "Un puzzle mic costă 5 credite, unul mediu 10 și unul mare 15; dificultatea medie adaugă 1 credit, iar cea grea adaugă 2. Creditele vin în pachete de 200 pentru $4.99, 600 pentru $11.99 și 2.000 pentru $29.99. La finalizarea comenzii vei vedea prețul în moneda ta, cu taxe incluse acolo unde se aplică."
+            "answer": "Un puzzle mic costă 5 credite, unul mediu 10 și unul mare 15; dificultatea medie adaugă 1 credit, iar cea grea adaugă 2. Cele 11 credite gratuite pe lună acoperă un puzzle mediu cu dificultate medie. Creditele vin în pachete de 200 pentru $4.99, 600 pentru $11.99 și 2.000 pentru $29.99. La finalizarea comenzii vei vedea prețul în moneda ta, cu taxe incluse acolo unde se aplică."
           },
           {
             "question": "Cine a creat Rebus AI?",
@@ -642,7 +656,7 @@
   },
   "About": {
     "title": "Despre Rebus AI",
-    "subtitle": "Un generator gratuit care scrie în limba ta și nu dă niciodată același cuvânt de două ori.",
+    "subtitle": "Un generator de rebusuri care scrie în limba ta și nu dă niciodată același cuvânt de două ori.",
     "sections": [
       {
         "title": "De ce l-am făcut",
@@ -679,7 +693,7 @@
         "title": "Pe serverul nostru",
         "paragraphs": [
           "Stocăm puzzle-urile create, astfel încât un link distribuit să deschidă aceeași grilă. Când raportezi un indiciu, păstrăm raportul împreună cu un hash unidirecțional al adresei tale IP, doar pentru ca o singură persoană să nu poată retrage un indiciu de una singură. De asemenea, numărăm anonim cum sunt jucate puzzle-urile (rezolvate, ce cuvinte au fost dezvăluite) pentru a ajusta dificultatea.",
-          "Pentru a oferi fiecărui dispozitiv puzzle-ul gratuit al lunii, site-ul setează un cookie care conține un identificator aleatoriu. La fiecare puzzle gratuit păstrăm acel identificator și un hash unidirecțional al adresei tale IP."
+          "Pentru a oferi fiecărui dispozitiv creditele gratuite ale lunii, site-ul setează un cookie care conține un identificator aleatoriu. La fiecare puzzle plătit cu credite gratuite păstrăm acel identificator și un hash unidirecțional al adresei tale IP."
         ]
       },
       {
@@ -703,7 +717,8 @@
       {
         "title": "Analiză și rapoarte de erori",
         "paragraphs": [
-          "Dacă sunt activate, folosim Google Analytics pentru a număra afișările de pagină și Sentry pentru a primi rapoarte de erori. Niciunul nu este folosit pentru a te identifica."
+          "Cu acordul tău, Google Analytics numără afișările de pagină și își salvează cookie-urile ca să deosebească vizitele; fără acord, analiza merge fără cookie-uri. Îți poți schimba oricând răspunsul din „Setări cookie-uri”, jos pe fiecare pagină. Sentry primește rapoarte de erori fără date personale. Niciunul nu e folosit pentru reclame sau profilare.",
+          "Paginile în unele limbi își încarcă fontul de pe Google Fonts, care primește adresa ta IP odată cu această cerere."
         ]
       }
     ]
@@ -719,10 +734,10 @@
         ]
       },
       {
-        "title": "Puzzle-uri gratuite și credite",
+        "title": "Credite gratuite și cumpărate",
         "paragraphs": [
-          "Fiecare dispozitiv primește un puzzle gratuit în fiecare lună calendaristică, iar fiecare cont încă unul. Celelalte puzzle-uri se plătesc cu credite, la prețul afișat înainte de a genera unul; un puzzle este taxat doar când este generat, iar deschiderea unui puzzle salvat este gratuită.",
-          "Creditele se cumpără în pachete printr-o plată unică — nu există abonament — și nu expiră niciodată. Ele nu au valoare în bani și nu pot fi transferate."
+          "Fiecare dispozitiv primește 11 credite gratuite în fiecare lună calendaristică, iar fiecare cont încă 11. Creditele gratuite se consumă înaintea celor cumpărate și nu se reportează în luna următoare. Puzzle-urile se plătesc cu credite, la prețul afișat înainte de a genera unul; un puzzle este taxat doar când este generat, iar deschiderea unui puzzle salvat este gratuită.",
+          "Creditele se cumpără în pachete printr-o plată unică — nu există abonament — iar creditele cumpărate nu expiră niciodată. Creditele nu au valoare în bani și nu pot fi transferate."
         ]
       },
       {
@@ -753,12 +768,11 @@
   },
   "Credits": {
     "title": "Credite",
-    "subtitle": "Un puzzle gratuit în fiecare lună. După aceea, plătești doar pentru puzzle-urile pe care le creezi — fără abonament, iar creditele nu expiră niciodată.",
+    "subtitle": "11 credite gratuite în fiecare lună — suficient pentru un puzzle mediu. După aceea, plătești doar pentru puzzle-urile pe care le creezi: fără abonament, iar creditele cumpărate nu expiră niciodată.",
     "balanceTitle": "Balanța ta",
-    "freeAvailable": "Puzzle-ul tău gratuit din această lună te așteaptă.",
-    "freeUsed": "Puzzle-ul gratuit din această lună a fost folosit. Următorul vine pe {date}.",
-    "guestTitle": "Primește mai multe puzzle-uri gratuite",
-    "guestText": "Autentifică-te pentru a primi un puzzle gratuit în fiecare lună în contul tău și pentru a cumpăra credite.",
+    "freeAvailable": "Include {count, plural, one {# credit gratuit} few {# credite gratuite} other {# de credite gratuite}} pentru această lună. Creditele gratuite se reînnoiesc pe {date}.",
+    "freeUsed": "Creditele gratuite din această lună au fost folosite. Pe {date} vin {count, plural, one {# credit gratuit nou} few {# credite gratuite noi} other {# de credite gratuite noi}}.",
+    "guestText": "Autentifică-te pentru a primi în contul tău încă {count, plural, one {# credit gratuit} few {# credite gratuite} other {# de credite gratuite}} în fiecare lună și pentru a cumpăra credite.",
     "pricesTitle": "Cât costă un puzzle",
     "pricesText": "În credite, după mărime și dificultate. Deschiderea unui puzzle distribuit de altcineva sau din istoricul tău este întotdeauna gratuită.",
     "size": "Mărime",
@@ -806,5 +820,13 @@
     "sentText": "Mulțumim. Îți răspundem pe e-mail cât de curând.",
     "sendAnother": "Scrie un alt mesaj",
     "tooMany": "Sunt prea multe mesaje. Încearcă din nou puțin mai târziu."
+  },
+  "Consent": {
+    "label": "Consimțământ pentru cookie-uri",
+    "text": "Am vrea să folosim cookie-urile Google Analytics ca să vedem cum e folosit site-ul. Fără reclame, fără profilare. Până nu accepți, analiza merge fără cookie-uri.",
+    "privacy": "Politica de confidențialitate",
+    "accept": "Accept",
+    "decline": "Refuz",
+    "settings": "Setări cookie-uri"
   }
 }

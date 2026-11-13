@@ -41,6 +41,8 @@ export const PaddleCheckout = () => {
     let completed = false
     let paddle: Paddle | undefined
     const onEvent = (event: PaddleEventData) => {
+      // The page was left: the overlay was closed with it, and its events steer nothing.
+      if (cancelled) return
       if (event.name === 'checkout.completed') {
         completed = true
         // The overlay lives on <body> and outlives a client-side navigation; our return page takes over.
@@ -62,6 +64,8 @@ export const PaddleCheckout = () => {
       })
     return () => {
       cancelled = true
+      // Left with Back while the overlay was open: it lives on <body> and would follow to the next page.
+      if (!completed) paddle?.Checkout.close()
     }
   }, [router])
 

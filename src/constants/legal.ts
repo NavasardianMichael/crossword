@@ -6,4 +6,4 @@ export const LEGAL_UPDATED_AT = new Date('2026-11-10T00:00:00Z')
  * `lastmod` and JSON-LD `dateModified`. Bump it with the copy — a date that moves on every
  * deploy teaches crawlers to ignore it.
  */
-export const CONTENT_UPDATED_AT = new Date('2026-11-10T20:00:00Z')
+export const CONTENT_UPDATED_AT = new Date('2026-11-14T12:00:00Z')

@@ -38,14 +38,27 @@ interface CrosswordDB extends DBSchema {
 
 let dbPromise: Promise<IDBPDatabase<CrosswordDB>> | null = null
 
+/**
+ * One connection, opened again whenever it is lost: Safari can close it under the page
+ * (`terminated`), and a failed open must not leave every later save failing too.
+ */
 const getDb = (): Promise<IDBPDatabase<CrosswordDB>> | null => {
   if (typeof indexedDB === 'undefined') return null
   dbPromise ??= openDB<CrosswordDB>(IDB_NAME, IDB_VERSION, {
-    upgrade(db) {
-      db.createObjectStore('puzzles', { keyPath: 'id' })
-      db.createObjectStore('progress', { keyPath: 'puzzleId' }).createIndex('updatedAt', 'updatedAt')
-      db.createObjectStore('queue', { keyPath: 'key' })
+    // Per version, so a database from an older version gains only what it lacks.
+    upgrade(db, oldVersion) {
+      if (oldVersion < 1) {
+        db.createObjectStore('puzzles', { keyPath: 'id' })
+        db.createObjectStore('progress', { keyPath: 'puzzleId' }).createIndex('updatedAt', 'updatedAt')
+        db.createObjectStore('queue', { keyPath: 'key' })
+      }
     },
+    terminated() {
+      dbPromise = null
+    },
+  }).catch((error: unknown) => {
+    dbPromise = null
+    throw error
   })
   return dbPromise
 }

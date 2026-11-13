@@ -1,7 +1,7 @@
 {
   "Common": {
     "appName": "Kreuzworträtsel KI",
-    "tagline": "Kostenlose Kreuzworträtsel und Schwedenrätsel, die eine KI neu in deiner Sprache schreibt. In jedem Spiel neue Wörter, keines kommt wieder.",
+    "tagline": "Kreuzworträtsel und Schwedenrätsel, die eine KI neu in deiner Sprache schreibt. Das erste Rätsel jeden Monat ist kostenlos. In jedem Spiel neue Wörter, keines kommt wieder.",
     "skipToContent": "Zum Inhalt springen",
     "openMenu": "Menü öffnen",
     "menu": "Menü",
@@ -54,28 +54,28 @@
     "gotIt": "Alles klar"
   },
   "Seo": {
-    "homeTitle": "Kreuzworträtsel erstellen, kostenlos online: Tiere, Essen, Geografie, Geschichte, Wissenschaft, Sport",
-    "homeDescription": "Erstelle und mach ein Kreuzworträtsel oder Schwedenrätsel kostenlos, ohne Anmeldung. Kreuzworträtsel zu Tieren, Essen, Geografie, Geschichte, Wissenschaft und Sport, jedes Mal mit neuen Wörtern.",
+    "homeTitle": "Kreuzworträtsel erstellen, kostenlos testen: Tiere, Essen, Geografie, Geschichte, Wissenschaft, Sport",
+    "homeDescription": "Erstelle und mach ein Kreuzworträtsel oder Schwedenrätsel online – das erste jeden Monat kostenlos und ohne Anmeldung. Kreuzworträtsel zu Tieren, Essen, Geografie, Geschichte, Wissenschaft und Sport, jedes Mal mit neuen Wörtern.",
     "keywords": "Kreuzworträtsel, Kreuzworträtsel erstellen, Kreuzworträtsel machen, Kreuzworträtsel online, Kreuzworträtsel kostenlos, Kreuzworträtsel Generator, Schwedenrätsel, Kreuzworträtsel Tiere, Kreuzworträtsel Essen, Kreuzworträtsel Geografie, Kreuzworträtsel Geschichte, Kreuzworträtsel Wissenschaft, Kreuzworträtsel Sport",
-    "crosswordTitle": "Kreuzworträtsel online kostenlos",
-    "crosswordDescription": "Löse kostenlose Kreuzworträtsel, geschrieben von einer KI: nummerierte Fragen waagerecht und senkrecht, 12 Themen, drei Schwierigkeitsstufen. Ohne Anmeldung, jedes Mal neue Wörter.",
-    "scanwordTitle": "Schwedenrätsel online kostenlos: Fragen im Gitter",
-    "scanwordDescription": "Löse kostenlose Schwedenrätsel: Die Frage steht im Feld, ein Pfeil zeigt zur Antwort. Von einer KI geschrieben, ohne Anmeldung, auf dem Handy, dem Tablet oder dem Computer.",
+    "crosswordTitle": "Kreuzworträtsel online kostenlos testen",
+    "crosswordDescription": "Löse Kreuzworträtsel, geschrieben von einer KI: nummerierte Fragen waagerecht und senkrecht, 12 Themen, drei Schwierigkeitsstufen. Das erste Rätsel jeden Monat ist kostenlos und ohne Anmeldung, jedes Mal neue Wörter.",
+    "scanwordTitle": "Schwedenrätsel online: Fragen im Gitter",
+    "scanwordDescription": "Löse Schwedenrätsel online: Die Frage steht im Feld, ein Pfeil zeigt zur Antwort. Von einer KI geschrieben, auf dem Handy, dem Tablet oder dem Computer – das erste Rätsel jeden Monat ist kostenlos.",
     "topicsTitle": "Kreuzworträtsel nach Thema: Tiere, Essen, Geografie und mehr",
     "topicsDescription": "Wähle das Thema für das nächste Kreuzworträtsel oder Schwedenrätsel: Natur, Tiere, Essen, Geografie, Geschichte, Wissenschaft, Sport, Kunst und mehr.",
     "topicTitle": "Kreuzworträtsel erstellen zu {topic}: Tiere, Essen, Geografie, Geschichte, Wissenschaft, Sport",
-    "topicDescription": "Kostenlose Kreuzworträtsel und Schwedenrätsel zu {topic}, von einer KI erzeugt. {description}",
+    "topicDescription": "Kreuzworträtsel und Schwedenrätsel zu {topic}, von einer KI erzeugt – das erste jeden Monat kostenlos. {description}",
     "historyTitle": "Meine Rätsel",
     "historyDescription": "Kreuzworträtsel und Schwedenrätsel, die du auf diesem Gerät angefangen und noch nicht beendet hast, mit gespeichertem Fortschritt.",
     "creditsTitle": "Guthaben & Preise",
-    "creditsDescription": "Ein kostenloses Rätsel pro Monat, danach Guthaben-Pakete ohne Abo: Was jedes Rätsel kostet und wie du Guthaben kaufst.",
+    "creditsDescription": "11 kostenlose Guthabenpunkte pro Monat, danach Guthaben-Pakete ohne Abo: Was jedes Rätsel kostet und wie du Guthaben kaufst.",
     "paymentTitle": "Zahlung",
     "rulesTitle": "Kreuzworträtsel und Schwedenrätsel lösen",
     "rulesDescription": "So löst du hier ein Kreuzworträtsel oder Schwedenrätsel: Buchstaben eingeben, im Gitter bewegen, prüfen und aufdecken, Tastaturkürzel.",
     "faqTitle": "Häufige Fragen: KI-Kreuzworträtsel, Sprachen und Datenschutz",
     "faqDescription": "Antworten zu Kreuzworträtsel KI: ob es kostenlos ist, wie die KI Fragen schreibt, Größen, Schwierigkeit, Wörter ohne Wiederholung, Offline-Spiel und Datenschutz.",
     "aboutTitle": "Über uns: wie unsere KI Kreuzworträtsel macht",
-    "aboutDescription": "Warum wir einen kostenlosen Generator gebaut haben, der kein Wort wiederholt, und wie die KI die Fragen in jeder Sprache selbst schreibt.",
+    "aboutDescription": "Warum wir einen Rätselgenerator gebaut haben, der kein Wort wiederholt, und wie die KI die Fragen in jeder Sprache selbst schreibt.",
     "privacyTitle": "Datenschutzerklärung",
     "privacyDescription": "Was Kreuzworträtsel KI speichert, wo und warum – einschließlich Konten und Zahlungen, und ganz ohne Tracking deiner Person.",
     "termsTitle": "Nutzungsbedingungen",
@@ -84,7 +84,7 @@
     "contactDescription": "Eine Frage, eine Idee oder ein Fehler im Rätsel? Schreib uns, wir antworten per E-Mail.",
     "puzzleDescription": "Ein kostenloses Rätsel von Kreuzworträtsel KI. Löse es im Browser.",
     "sharedPuzzleDescription": "Ein kostenloses {format, select, scanword {Schwedenrätsel} other {Kreuzworträtsel}}, {size} · {topic} · {difficulty} · {words, plural, one {# Wort} other {# Wörter}}. Von einer KI geschrieben. Löse es im Browser, ohne Anmeldung.",
-    "ogImageAlt": "Kreuzworträtsel KI: kostenlose Kreuzworträtsel und Schwedenrätsel in deiner Sprache",
+    "ogImageAlt": "Kreuzworträtsel KI: Kreuzworträtsel und Schwedenrätsel, von einer KI in deiner Sprache geschrieben",
     "ogPuzzleCta": "Schaffst du es?",
     "ogPuzzleMeta": "{size} · {words, plural, one {# Wort} other {# Wörter}}"
   },
@@ -179,12 +179,13 @@
     "credits": "{count, plural, one {# Guthabenpunkt} other {# Guthabenpunkte}}",
     "balance": "Dein Guthaben: {count, plural, one {# Guthabenpunkt} other {# Guthabenpunkte}}",
     "cost": "Dieses Rätsel: {count, plural, one {# Guthabenpunkt} other {# Guthabenpunkte}}",
-    "freeNow": "Dieses Rätsel ist gratis – dein kostenloses Rätsel des Monats.",
+    "freeNow": "Wird von deinen Gratis-Punkten dieses Monats gedeckt.",
     "youHave": "Du hast {count, plural, one {# Guthabenpunkt} other {# Guthabenpunkte}}.",
     "notEnough": "Nicht genug Guthaben für dieses Rätsel.",
-    "guestUsed": "Du hast das kostenlose Rätsel dieses Monats aufgebraucht. Melde dich an, um jeden Monat ein weiteres Gratis-Rätsel zu erhalten und Guthaben zu kaufen.",
-    "refusedSignIn": "Das gratis Rätsel für diesen Monat ist aufgebraucht. Melde dich an, um ein weiteres zu erhalten und Guthaben zu kaufen.",
+    "guestUsed": "Du hast die Gratis-Punkte dieses Monats aufgebraucht. Melde dich an, um jeden Monat {count, plural, one {# weiteren Gratis-Punkt} other {# weitere Gratis-Punkte}} zu erhalten und Guthaben zu kaufen.",
+    "refusedSignIn": "Deine Gratis-Punkte reichen für dieses Rätsel nicht aus. Melde dich an, um jeden Monat {count, plural, one {# weiteren Gratis-Punkt} other {# weitere Gratis-Punkte}} zu erhalten und Guthaben zu kaufen.",
     "refusedCredits": "Nicht genug Guthaben für dieses Rätsel. Lade dein Konto auf, um weiterzuspielen.",
+    "refusedFreeBusy": "Gratis-Punkte sind gerade kurz pausiert, weil in der letzten Stunde sehr viele Rätsel damit erstellt wurden. Versuch es bitte später noch einmal.",
     "signIn": "Anmelden",
     "buyCredits": "Guthaben kaufen"
   },
@@ -193,7 +194,7 @@
       "eyebrow": "Kostenlos testen · Kein Abo · Funktioniert offline",
       "title": "Kreuzworträtsel erstellen, <mark>immer neu</mark>: Tiere, Essen, Geografie, Geschichte, Wissenschaft und Sport",
       "subtitle": "Wähl ein Thema und eine Schwierigkeit. Die KI schreibt die Fragen in deiner Sprache, und dasselbe Wort kommt nicht zweimal.",
-      "lede": "Mach ein Kreuzworträtsel oder Schwedenrätsel online, kostenlos und ohne Anmeldung. Die Themen reichen von Tieren, Essen und Geografie über Geschichte, Wissenschaft und Sport bis zu Kunst, Zuhause, Berufen und deutscher Kultur, oder misch sie alle."
+      "lede": "Mach ein Kreuzworträtsel oder Schwedenrätsel online – das erste jeden Monat ist kostenlos und ohne Anmeldung. Die Themen reichen von Tieren, Essen und Geografie über Geschichte, Wissenschaft und Sport bis zu Kunst, Zuhause, Berufen und deutscher Kultur, oder misch sie alle."
     },
     "continueTitle": "Mach weiter, wo du warst",
     "formatsTitle": "Zwei Arten zu spielen",
@@ -221,7 +222,7 @@
     "topicsSubtitle": "Von den Vögeln im Garten bis zu berühmten Flüssen, oder misch alle Themen.",
     "faqTitle": "Fragen und Antworten",
     "faq1Question": "Ist Kreuzworträtsel KI kostenlos?",
-    "faq1Answer": "Dein erstes Rätsel in jedem Monat ist kostenlos, ganz ohne Registrierung. Durch die Anmeldung erhältst du ein weiteres gratis. Danach kosten Rätsel Guthaben, das du einmalig und ohne Abo kaufst. Ein Rätsel zu spielen, das jemand mit dir geteilt hat, ist immer kostenlos.",
+    "faq1Answer": "Jeden Monat bekommst du 11 kostenlose Guthabenpunkte – genug für ein mittleres Rätsel –, ganz ohne Registrierung, und mit der Anmeldung kommen 11 weitere dazu. Danach kosten Rätsel Guthaben, das du einmalig und ohne Abo kaufst. Ein Rätsel zu spielen, das jemand mit dir geteilt hat, ist immer kostenlos.",
     "faq2Question": "Sehe ich dieselben Wörter wieder?",
     "faq2Answer": "Nein. Dein Gerät führt eine Liste der Wörter, die es schon gezeigt hat, und lässt sie aus jedem neuen Rätsel weg. Wenn du die Website-Daten im Browser löschst, fängt die Liste von vorn an.",
     "faq3Question": "In welchen Sprachen kann ich spielen?",
@@ -240,7 +241,7 @@
       "title": "Ein klassisches Kreuzworträtsel, <mark>nur für dich gemacht</mark>",
       "plainTitle": "Kreuzworträtsel mit KI",
       "subtitle": "Nummerierte Fragen waagerecht und senkrecht, ein Gitter, das von der Mitte wächst, und Wörter, die du noch nicht gesehen hast.",
-      "lede": "Mach ein klassisches Kreuzworträtsel online und kostenlos: nummerierte Fragen waagerecht und senkrecht, zu den Themen Tiere, Essen, Geografie, Geschichte, Wissenschaft und Sport."
+      "lede": "Mach ein klassisches Kreuzworträtsel online: nummerierte Fragen waagerecht und senkrecht, zu den Themen Tiere, Essen, Geografie, Geschichte, Wissenschaft und Sport."
     },
     "rulesTitle": "So funktioniert ein Kreuzworträtsel",
     "rule1": "Jedes weiße Feld trägt einen Buchstaben. Wörter laufen waagerecht (von links nach rechts) und senkrecht (von oben nach unten) und kreuzen sich.",
@@ -264,7 +265,7 @@
       "title": "Schwedenrätsel mit den Fragen <mark>im Gitter</mark>",
       "plainTitle": "Schwedenrätsel mit KI",
       "subtitle": "Keine Listen zum Suchen: Jede Frage steht in ihrem Feld, mit einem Pfeil zur Antwort.",
-      "lede": "Mach ein Schwedenrätsel online und kostenlos: Die Fragen stehen im Gitter. Dieselben Themen wie beim Kreuzworträtsel: Tiere, Essen, Geografie, Geschichte, Wissenschaft und Sport."
+      "lede": "Mach ein Schwedenrätsel online: Die Fragen stehen im Gitter. Dieselben Themen wie beim Kreuzworträtsel: Tiere, Essen, Geografie, Geschichte, Wissenschaft und Sport."
     },
     "rulesTitle": "So funktioniert ein Schwedenrätsel",
     "rule1": "Getönte Felder tragen die Fragen. Der Pfeil zeigt, wo die Antwort beginnt und in welche Richtung sie läuft.",
@@ -297,6 +298,12 @@
   "Auth": {
     "signIn": "Anmelden",
     "signOut": "Abmelden",
+    "signOutConfirm": {
+      "title": "Abmelden?",
+      "text": "Du kannst dich jederzeit wieder anmelden. Dein Guthaben und deine Käufe bleiben in deinem Konto.",
+      "confirm": "Abmelden",
+      "cancel": "Jetzt nicht"
+    },
     "signInTitle": "Anmelden",
     "signInSubtitle": "Nutze Google oder die E-Mail und das Passwort deines Kontos.",
     "signUpTitle": "Konto anlegen",
@@ -332,6 +339,7 @@
     "resent": "Noch einmal gesendet.",
     "forgotSent": "Wenn ein Konto diese Adresse nutzt, ist der Link unterwegs.",
     "invalidCredentials": "Diese E-Mail und dieses Passwort passen nicht zusammen.",
+    "tooManyAttempts": "Zu viele Versuche in kurzer Zeit. Warte ein paar Minuten und versuch es dann erneut.",
     "googleOnly": "Dieses Konto meldet sich mit Google an.",
     "emailNotVerified": "Bestätige zuerst deine E-Mail. Der Link liegt im Posteingang.",
     "emailTaken": "Ein Konto mit dieser E-Mail gibt es schon.",
@@ -363,6 +371,12 @@
     "keepSolving": "Weiterlösen",
     "leave": "Verlassen",
     "newPuzzle": "Neues Rätsel",
+    "newPuzzleConfirm": {
+      "title": "Neues Rätsel erstellen?",
+      "text": "Gleiches Format, gleiches Thema und gleiche Schwierigkeit wie dieses.",
+      "create": "Erstellen",
+      "cancel": "Jetzt nicht"
+    },
     "allClues": "Alle Fragen",
     "across": "Waagerecht",
     "down": "Senkrecht",
@@ -540,15 +554,15 @@
           },
           {
             "question": "Ist Kreuzworträtsel KI kostenlos?",
-            "answer": "Teilweise. Dein erstes Rätsel in jedem Monat ist kostenlos, ganz ohne Anmelden. Mit einer Anmeldung erhältst du ein zweites Gratis-Rätsel pro Monat. Darüber hinaus werden Rätsel mit Guthaben bezahlt: Du kaufst einmalig ein Paket – es gibt kein Abo, das Guthaben verfällt nie und es gibt keine Werbung. Ein Rätsel zu spielen, das jemand mit dir geteilt hat, ist immer gratis."
+            "answer": "Teilweise. Jeden Monat bekommst du 11 kostenlose Guthabenpunkte – genug für ein mittleres Rätsel –, ganz ohne Anmelden, und mit einer Anmeldung kommen jeden Monat 11 weitere dazu. Gratis-Punkte werden nicht in den nächsten Monat übertragen. Darüber hinaus werden Rätsel mit gekauftem Guthaben bezahlt: Du kaufst einmalig ein Paket – es gibt kein Abo, gekauftes Guthaben verfällt nie und es gibt keine Werbung. Ein Rätsel zu spielen, das jemand mit dir geteilt hat, ist immer gratis."
           },
           {
             "question": "Brauche ich ein Konto?",
-            "answer": "Nicht für dein monatliches Gratis-Rätsel: Dein Fortschritt, deine Einstellungen und die Wörter, die du bereits gesehen hast, werden in deinem Browser gespeichert. Ein Konto bringt dir ein zweites kostenloses Rätsel pro Monat und ermöglicht es dir, Guthaben zu kaufen und zu behalten."
+            "answer": "Nicht für deine 11 Gratis-Punkte im Monat: Dein Fortschritt, deine Einstellungen und die Wörter, die du bereits gesehen hast, werden in deinem Browser gespeichert. Ein Konto bringt dir jeden Monat 11 weitere Gratis-Punkte und ermöglicht es dir, Guthaben zu kaufen und zu behalten."
           },
           {
             "question": "Wie viel kostet ein Rätsel?",
-            "answer": "Ein kleines Rätsel kostet 5 Punkte, ein mittleres 10 und ein großes 15; mittlere Schwierigkeit kostet 1 Punkt extra, schwere 2 Punkte extra. Guthaben gibt es in Paketen von 200 Punkten für 4,99 $, 600 für 11,99 $ und 2.000 für 29,99 $. Der Kassenbereich zeigt den Preis in deiner Währung inkl. eventueller Steuern an."
+            "answer": "Ein kleines Rätsel kostet 5 Punkte, ein mittleres 10 und ein großes 15; mittlere Schwierigkeit kostet 1 Punkt extra, schwere 2 Punkte extra. Deine 11 Gratis-Punkte im Monat reichen für ein mittleres Rätsel mittlerer Schwierigkeit. Guthaben gibt es in Paketen von 200 Punkten für 4,99 $, 600 für 11,99 $ und 2.000 für 29,99 $. Der Kassenbereich zeigt den Preis in deiner Währung inkl. eventueller Steuern an."
           },
           {
             "question": "Wer steckt hinter Kreuzworträtsel KI?",
@@ -642,7 +656,7 @@
   },
   "About": {
     "title": "Über Kreuzworträtsel KI",
-    "subtitle": "Ein kostenloser Generator, der in deiner Sprache schreibt und dasselbe Wort nie zweimal ausgibt.",
+    "subtitle": "Ein Rätselgenerator, der in deiner Sprache schreibt und dasselbe Wort nie zweimal ausgibt.",
     "sections": [
       {
         "title": "Warum wir das gebaut haben",
@@ -679,7 +693,7 @@
         "title": "Auf unserem Server",
         "paragraphs": [
           "Wir speichern die erstellten Rätsel, damit ein geteilter Link dasselbe Gitter öffnet. Wenn du einen Hinweis meldest, speichern wir die Meldung mit einem Einweg-Hash deiner IP-Adresse, damit nicht eine einzelne Person allein einen Hinweis entfernen kann. Wir zählen außerdem anonym, wie Rätsel gespielt werden (gelöst, welche Wörter enthüllt wurden), um die Schwierigkeit anzupassen.",
-          "Um jedem Gerät sein monatliches Gratis-Rätsel zu gewähren, setzt die Website ein Cookie mit einer zufälligen Kennung. Bei jedem Gratis-Rätsel speichern wir diese Kennung und einen Einweg-Hash deiner IP-Adresse."
+          "Um jedem Gerät seine Gratis-Punkte des Monats zu gewähren, setzt die Website ein Cookie mit einer zufälligen Kennung. Bei jedem Rätsel, das mit Gratis-Punkten bezahlt wird, speichern wir diese Kennung und einen Einweg-Hash deiner IP-Adresse."
         ]
       },
       {
@@ -703,7 +717,8 @@
       {
         "title": "Analysen und Fehlerberichte",
         "paragraphs": [
-          "Sofern aktiviert, nutzen wir Google Analytics zur Zählung von Seitenaufrufen und Sentry für Fehlerberichte. Keines von beidem wird verwendet, um dich zu identifizieren."
+          "Mit deiner Einwilligung zählt Google Analytics Seitenaufrufe und setzt eigene Cookies, um Besuche auseinanderzuhalten; ohne Einwilligung läuft die Analyse ohne Cookies. Du kannst deine Entscheidung jederzeit unter „Cookie-Einstellungen“ unten auf jeder Seite ändern. Sentry erhält Fehlerberichte ohne personenbezogene Daten. Keines von beidem wird für Werbung oder Profilbildung genutzt.",
+          "Seiten in manchen Sprachen laden ihre Schrift von Google Fonts; Google erhält bei dieser Anfrage deine IP-Adresse."
         ]
       }
     ]
@@ -719,10 +734,10 @@
         ]
       },
       {
-        "title": "Kostenlose Rätsel und Guthaben",
+        "title": "Kostenloses und gekauftes Guthaben",
         "paragraphs": [
-          "Jedes Gerät erhält in jedem Kalendermonat ein kostenloses Rätsel, und jedes Konto ein weiteres. Andere Rätsel werden mit Guthaben bezahlt, zum Preis, der vor der Erstellung angezeigt wird; ein Rätsel wird erst berechnet, wenn es erstellt wird, und das Öffnen eines gespeicherten Rätsels ist kostenlos.",
-          "Guthaben wird in Paketen mit einer einmaligen Zahlung gekauft – es gibt kein Abo – und es verfällt nie. Guthaben hat keinen Geldwert und kann nicht übertragen werden."
+          "Jedes Gerät erhält in jedem Kalendermonat 11 kostenlose Guthabenpunkte, und jedes Konto 11 weitere. Kostenlose Punkte werden vor gekauften verbraucht und nicht in den nächsten Monat übertragen. Rätsel werden mit Guthaben bezahlt, zum Preis, der vor der Erstellung angezeigt wird; ein Rätsel wird erst berechnet, wenn es erstellt wird, und das Öffnen eines gespeicherten Rätsels ist kostenlos.",
+          "Guthaben wird in Paketen mit einer einmaligen Zahlung gekauft – es gibt kein Abo – und gekauftes Guthaben verfällt nie. Guthaben hat keinen Geldwert und kann nicht übertragen werden."
         ]
       },
       {
@@ -753,12 +768,11 @@
   },
   "Credits": {
     "title": "Guthaben",
-    "subtitle": "Ein kostenloses Rätsel jeden Monat. Danach zahlst du nur für die Rätsel, die du erstellst – kein Abo, und das Guthaben verfällt nie.",
+    "subtitle": "11 kostenlose Guthabenpunkte jeden Monat – genug für ein mittleres Rätsel. Danach zahlst du nur für die Rätsel, die du erstellst: kein Abo, und gekauftes Guthaben verfällt nie.",
     "balanceTitle": "Dein Kontostand",
-    "freeAvailable": "Dein kostenloses Rätsel für diesen Monat wartet auf dich.",
-    "freeUsed": "Das kostenlose Rätsel dieses Monats wurde genutzt. Das nächste gibt es am {date}.",
-    "guestTitle": "Hole dir mehr Gratis-Rätsel",
-    "guestText": "Melde dich an, um jeden Monat ein kostenloses Rätsel für dein Konto zu erhalten und Guthaben zu kaufen.",
+    "freeAvailable": "Enthält {count, plural, one {# Gratis-Punkt} other {# Gratis-Punkte}} für diesen Monat. Die Gratis-Punkte erneuern sich am {date}.",
+    "freeUsed": "Die Gratis-Punkte dieses Monats sind aufgebraucht. Am {date} {count, plural, one {kommt # neuer Gratis-Punkt} other {kommen # neue Gratis-Punkte}}.",
+    "guestText": "Melde dich an, um jeden Monat {count, plural, one {# weiteren Gratis-Punkt} other {# weitere Gratis-Punkte}} auf dein Konto zu erhalten und Guthaben zu kaufen.",
     "pricesTitle": "Was ein Rätsel kostet",
     "pricesText": "In Guthabenpunkten, nach Größe und Schwierigkeitsgrad. Das Öffnen eines geteilten Rätsels oder eines Rätsels aus deinem Verlauf ist immer kostenlos.",
     "size": "Größe",
@@ -806,5 +820,13 @@
     "sentText": "Danke. Wir antworten so bald wie möglich per E-Mail.",
     "sendAnother": "Noch eine Nachricht schreiben",
     "tooMany": "Das waren zu viele Nachrichten. Versuch es etwas später noch einmal."
+  },
+  "Consent": {
+    "label": "Cookie-Einwilligung",
+    "text": "Wir würden gern Cookies von Google Analytics verwenden, um zu sehen, wie die Website genutzt wird. Keine Werbung, kein Profiling. Solange du nicht zustimmst, läuft die Analyse ohne Cookies.",
+    "privacy": "Datenschutzerklärung",
+    "accept": "Akzeptieren",
+    "decline": "Ablehnen",
+    "settings": "Cookie-Einstellungen"
   }
 }

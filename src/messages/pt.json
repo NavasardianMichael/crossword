@@ -1,7 +1,7 @@
 {
   "Common": {
     "appName": "Palavras Cruzadas IA",
-    "tagline": "Palavras cruzadas e autodefinidos grátis, escritos do zero por inteligência artificial e no seu idioma. Palavras novas em cada partida, sem repetição.",
+    "tagline": "Palavras cruzadas e autodefinidos escritos do zero por inteligência artificial e no seu idioma — o primeiro de cada mês é grátis. Palavras novas em cada partida, sem repetição.",
     "skipToContent": "Pular para o conteúdo",
     "openMenu": "Abrir menu",
     "menu": "Menu",
@@ -54,28 +54,28 @@
     "gotIt": "Entendi"
   },
   "Seo": {
-    "homeTitle": "Fazer palavras cruzadas online grátis: animais, comida, geografia, história, ciência e esporte",
-    "homeDescription": "Crie e faça palavras cruzadas ou um autodefinido grátis, sem cadastro. Palavras cruzadas de animais, comida, geografia, história, ciência e esporte, com palavras novas toda vez.",
+    "homeTitle": "Fazer palavras cruzadas online, grátis para testar: animais, comida, geografia, história, ciência e esporte",
+    "homeDescription": "Crie e faça palavras cruzadas ou um autodefinido online — o primeiro de cada mês é grátis e sem cadastro. Palavras cruzadas de animais, comida, geografia, história, ciência e esporte, com palavras novas toda vez.",
     "keywords": "palavras cruzadas, fazer palavras cruzadas, criar palavras cruzadas, palavras cruzadas online, palavras cruzadas grátis, gerador de palavras cruzadas, autodefinido, palavras cruzadas suecas, palavras cruzadas de animais, palavras cruzadas de comida, palavras cruzadas de geografia, palavras cruzadas de história, palavras cruzadas de ciência, palavras cruzadas de esporte",
-    "crosswordTitle": "Palavras cruzadas online grátis",
-    "crosswordDescription": "Resolva palavras cruzadas grátis escritas por inteligência artificial: dicas numeradas na horizontal e na vertical, 12 temas e três níveis. Sem cadastro e com palavras novas.",
-    "scanwordTitle": "Autodefinidos online grátis: as dicas ficam na grade",
-    "scanwordDescription": "Resolva autodefinidos grátis, as palavras cruzadas suecas: a dica fica dentro da casa e uma seta aponta a resposta. Feitos por inteligência artificial, sem cadastro, no celular, no tablet ou no computador.",
+    "crosswordTitle": "Palavras cruzadas online, grátis para testar",
+    "crosswordDescription": "Resolva palavras cruzadas escritas por inteligência artificial: dicas numeradas na horizontal e na vertical, 12 temas e três níveis. A primeira grade de cada mês é grátis e sem cadastro, sempre com palavras novas.",
+    "scanwordTitle": "Autodefinidos online: as dicas ficam na grade",
+    "scanwordDescription": "Resolva autodefinidos, as palavras cruzadas suecas: a dica fica dentro da casa e uma seta aponta a resposta. Feitos por inteligência artificial, no celular, no tablet ou no computador — a primeira grade de cada mês é grátis.",
     "topicsTitle": "Palavras cruzadas por tema: animais, comida, geografia e mais",
     "topicsDescription": "Escolha o tema das próximas palavras cruzadas ou do autodefinido: natureza, animais, comida, geografia, história, ciência, esporte, arte e mais.",
     "topicTitle": "Fazer palavras cruzadas de {topic}: animais, comida, geografia, história, ciência e esporte",
-    "topicDescription": "Palavras cruzadas e autodefinidos grátis de {topic}, criados por inteligência artificial. {description}",
+    "topicDescription": "Palavras cruzadas e autodefinidos de {topic}, criados por inteligência artificial; a primeira grade de cada mês é grátis. {description}",
     "historyTitle": "Minhas palavras cruzadas",
     "historyDescription": "Palavras cruzadas e autodefinidos que você começou neste aparelho e ainda não terminou, com o progresso salvo.",
     "creditsTitle": "Créditos e preços",
-    "creditsDescription": "Um jogo grátis por mês, depois pacotes de créditos sem assinatura: quanto custa cada jogo e como comprar créditos.",
+    "creditsDescription": "11 créditos grátis todo mês, depois pacotes de créditos sem assinatura: quanto custa cada jogo e como comprar créditos.",
     "paymentTitle": "Pagamento",
     "rulesTitle": "Como resolver palavras cruzadas e autodefinidos",
     "rulesDescription": "Como resolver palavras cruzadas ou um autodefinido aqui: digitar, andar pela grade, conferir e revelar letras, e atalhos de teclado.",
     "faqTitle": "Perguntas frequentes: palavras cruzadas com IA, idiomas e privacidade",
     "faqDescription": "Respostas sobre Palavras Cruzadas IA: se é grátis, como a inteligência artificial escreve, tamanhos, dificuldade, palavras que não se repetem, jogo offline e privacidade.",
     "aboutTitle": "Sobre: como a IA faz as palavras cruzadas",
-    "aboutDescription": "Por que fizemos um gerador de palavras cruzadas grátis que não repete palavra, e como a inteligência artificial escreve as dicas em cada idioma.",
+    "aboutDescription": "Por que fizemos um gerador de palavras cruzadas que não repete palavra, e como a inteligência artificial escreve as dicas em cada idioma.",
     "privacyTitle": "Política de privacidade",
     "privacyDescription": "O que o Palavras Cruzadas IA armazena, onde e por quê — contas e pagamentos incluídos, e sem rastreamento de quem você é.",
     "termsTitle": "Termos de uso",
@@ -84,7 +84,7 @@
     "contactDescription": "Uma dúvida, uma ideia ou um problema no jogo? Escreva para a gente e respondemos no seu e-mail.",
     "puzzleDescription": "Um passatempo grátis de Palavras Cruzadas IA: resolva no navegador.",
     "sharedPuzzleDescription": "Um {format, select, scanword {autodefinido} other {palavras cruzadas}} grátis, {size} · {topic} · {difficulty} · {words, plural, one {# palavra} other {# palavras}}. Escrito por inteligência artificial: resolva no navegador, sem cadastro.",
-    "ogImageAlt": "Palavras Cruzadas IA: palavras cruzadas e autodefinidos grátis no seu idioma",
+    "ogImageAlt": "Palavras Cruzadas IA: palavras cruzadas e autodefinidos escritos por IA no seu idioma",
     "ogPuzzleCta": "Você consegue resolver?",
     "ogPuzzleMeta": "{size} · {words, plural, one {# palavra} other {# palavras}}"
   },
@@ -179,12 +179,13 @@
     "credits": "{count, plural, one {# crédito} other {# créditos}}",
     "balance": "Seu saldo: {count, plural, one {# crédito} other {# créditos}}",
     "cost": "Este jogo: {count, plural, one {# crédito} other {# créditos}}",
-    "freeNow": "Este é grátis — o seu jogo gratuito do mês.",
+    "freeNow": "Coberto pelos seus créditos grátis deste mês.",
     "youHave": "Você tem {count, plural, one {# crédito} other {# créditos}}.",
     "notEnough": "Créditos insuficientes para este jogo.",
-    "guestUsed": "Você já usou o jogo grátis deste mês. Faça login para ganhar mais um jogo grátis todo mês e para comprar créditos.",
-    "refusedSignIn": "O jogo grátis deste mês foi usado. Faça login para ganhar outro e para comprar créditos.",
+    "guestUsed": "Você já usou os créditos grátis deste mês. Faça login para ganhar mais {count, plural, one {# crédito grátis} other {# créditos grátis}} todo mês e para comprar créditos.",
+    "refusedSignIn": "Seus créditos grátis não cobrem este jogo. Faça login para ganhar mais {count, plural, one {# crédito grátis} other {# créditos grátis}} todo mês e para comprar créditos.",
     "refusedCredits": "Créditos insuficientes para este jogo. Recarregue para continuar jogando.",
+    "refusedFreeBusy": "Os créditos grátis estão pausados por um tempo: muitos jogos foram criados com eles na última hora. Tente de novo mais tarde.",
     "signIn": "Entrar",
     "buyCredits": "Comprar créditos"
   },
@@ -193,7 +194,7 @@
       "eyebrow": "Grátis para testar · Sem assinatura · Funciona offline",
       "title": "Fazer palavras cruzadas <mark>sempre novas</mark> de animais, comida, geografia, história, ciência e esporte",
       "subtitle": "Escolha um tema e uma dificuldade: a inteligência artificial escreve as dicas no seu idioma e não repete a mesma palavra duas vezes.",
-      "lede": "Faça palavras cruzadas ou um autodefinido online, grátis e sem cadastro. Os temas vão de animais, comida e geografia a história, ciência, esporte, arte, casa, profissões e cultura brasileira, ou misture todos."
+      "lede": "Faça palavras cruzadas ou um autodefinido online — a primeira grade de cada mês é grátis e sem cadastro. Os temas vão de animais, comida e geografia a história, ciência, esporte, arte, casa, profissões e cultura brasileira, ou misture todos."
     },
     "continueTitle": "Continue de onde parou",
     "formatsTitle": "Dois jeitos de jogar",
@@ -221,7 +222,7 @@
     "topicsSubtitle": "Dos passarinhos do quintal aos rios famosos, ou misture todos os temas.",
     "faqTitle": "Perguntas e respostas",
     "faq1Question": "O Palavras Cruzadas IA é gratuito?",
-    "faq1Answer": "O seu primeiro jogo de cada mês é grátis, sem necessidade de cadastro, e fazer login adiciona mais um. Depois disso, os jogos custam créditos, comprados avulso sem assinatura. Jogar uma partida que alguém compartilhou com você é sempre grátis.",
+    "faq1Answer": "Todo mês você ganha 11 créditos grátis — o suficiente para um jogo médio — sem precisar se cadastrar, e fazer login adiciona mais 11. Depois disso, os jogos custam créditos, comprados avulso sem assinatura. Jogar uma partida que alguém compartilhou com você é sempre grátis.",
     "faq2Question": "Vou ver as mesmas palavras de novo?",
     "faq2Answer": "Não. Seu aparelho guarda a lista das palavras que já mostrou e deixa elas de fora de cada grade nova. Se você limpar os dados do site no navegador, a lista começa do zero.",
     "faq3Question": "Em quais idiomas posso jogar?",
@@ -240,7 +241,7 @@
       "title": "Palavras cruzadas clássicas, <mark>feitas para você</mark>",
       "plainTitle": "Palavras cruzadas com IA",
       "subtitle": "Dicas numeradas na horizontal e na vertical, uma grade que cresce do meio e palavras que você ainda não viu.",
-      "lede": "Faça palavras cruzadas clássicas online e grátis: dicas numeradas na horizontal e na vertical, com temas de animais, comida, geografia, história, ciência e esporte."
+      "lede": "Faça palavras cruzadas clássicas online: dicas numeradas na horizontal e na vertical, com temas de animais, comida, geografia, história, ciência e esporte."
     },
     "rulesTitle": "Como funcionam as palavras cruzadas",
     "rule1": "Cada casa branca leva uma letra. As palavras vão na horizontal (da esquerda para a direita) e na vertical (de cima para baixo), cruzando umas com as outras.",
@@ -264,7 +265,7 @@
       "title": "Autodefinidos com as dicas <mark>dentro da grade</mark>",
       "plainTitle": "Autodefinido com IA",
       "subtitle": "Não há listas para vasculhar: cada dica fica na própria casa, com uma seta para a resposta.",
-      "lede": "Faça um autodefinido online e grátis: são palavras cruzadas suecas, com as dicas dentro da grade. Os mesmos temas: animais, comida, geografia, história, ciência e esporte."
+      "lede": "Faça um autodefinido online: são palavras cruzadas suecas, com as dicas dentro da grade. Os mesmos temas: animais, comida, geografia, história, ciência e esporte."
     },
     "rulesTitle": "Como funciona um autodefinido",
     "rule1": "As casas sombreadas levam as dicas. A seta mostra onde a resposta começa e para que lado ela segue.",
@@ -297,6 +298,12 @@
   "Auth": {
     "signIn": "Entrar",
     "signOut": "Sair",
+    "signOutConfirm": {
+      "title": "Sair da conta?",
+      "text": "Você pode entrar de novo quando quiser. Seus créditos e compras continuam na sua conta.",
+      "confirm": "Sair",
+      "cancel": "Agora não"
+    },
     "signInTitle": "Entrar",
     "signInSubtitle": "Use o Google, ou o e-mail e a senha da sua conta.",
     "signUpTitle": "Criar uma conta",
@@ -332,6 +339,7 @@
     "resent": "Enviado de novo.",
     "forgotSent": "Se houver uma conta com esse e-mail, o link está a caminho.",
     "invalidCredentials": "Esse e-mail e essa senha não combinam.",
+    "tooManyAttempts": "Muitas tentativas em pouco tempo. Aguarde alguns minutos e tente de novo.",
     "googleOnly": "Esta conta entra com o Google.",
     "emailNotVerified": "Confirme o e-mail primeiro. O link está na sua caixa de entrada.",
     "emailTaken": "Já existe uma conta com este e-mail.",
@@ -363,6 +371,12 @@
     "keepSolving": "Continuar resolvendo",
     "leave": "Sair",
     "newPuzzle": "Nova grade",
+    "newPuzzleConfirm": {
+      "title": "Criar uma nova grade?",
+      "text": "Mesmo formato, tema e dificuldade desta.",
+      "create": "Criar",
+      "cancel": "Agora não"
+    },
     "allClues": "Todas as dicas",
     "across": "Horizontal",
     "down": "Vertical",
@@ -540,15 +554,15 @@
           },
           {
             "question": "O Palavras Cruzadas IA é gratuito?",
-            "answer": "Em parte. O seu primeiro jogo todo mês é grátis, sem precisar se cadastrar, e fazer login garante um segundo jogo grátis por mês. Além disso, os jogos são pagos com créditos: você compra um pacote uma vez — não há assinatura, os créditos nunca expiram e não há anúncios. Jogar um jogo que compartilharam com você é sempre grátis."
+            "answer": "Em parte. Todo mês você ganha 11 créditos grátis — o suficiente para um jogo médio — sem precisar se cadastrar, e fazer login adiciona mais 11 por mês. Os créditos grátis não passam para o mês seguinte. Além disso, os jogos são pagos com créditos que você compra: um pacote é comprado uma vez — não há assinatura, os créditos comprados nunca expiram e não há anúncios. Jogar um jogo que compartilharam com você é sempre grátis."
           },
           {
             "question": "Preciso de uma conta?",
-            "answer": "Não para o seu jogo grátis do mês: seu progresso, suas configurações e as palavras que você já viu ficam salvos no seu navegador. Uma conta adiciona um segundo jogo grátis todo mês e permite que você compre créditos e os guarde."
+            "answer": "Não para os seus 11 créditos grátis por mês: seu progresso, suas configurações e as palavras que você já viu ficam salvos no seu navegador. Uma conta adiciona mais 11 créditos grátis todo mês e permite que você compre créditos e os guarde."
           },
           {
             "question": "Quanto custa um jogo?",
-            "answer": "Um jogo pequeno custa 5 créditos, um médio 10 e um grande 15; a dificuldade média adiciona 1 crédito e a difícil adiciona 2. Os créditos vêm em pacotes de 200 por R$ 4,99, 600 por R$ 11,99 e 2.000 por R$ 29,99 (ou o equivalente na sua moeda). A tela de pagamento mostra o preço final com impostos onde aplicável."
+            "answer": "Um jogo pequeno custa 5 créditos, um médio 10 e um grande 15; a dificuldade média adiciona 1 crédito e a difícil adiciona 2. Seus 11 créditos grátis por mês cobrem um jogo médio na dificuldade média. Os créditos vêm em pacotes de 200 por US$ 4,99, 600 por US$ 11,99 e 2.000 por US$ 29,99. A tela de pagamento mostra o preço na sua moeda, com impostos onde se aplicam."
           },
           {
             "question": "Quem criou o Palavras Cruzadas IA?",
@@ -642,7 +656,7 @@
   },
   "About": {
     "title": "Sobre Palavras Cruzadas IA",
-    "subtitle": "Um gerador grátis que escreve no seu idioma e não serve a mesma palavra duas vezes.",
+    "subtitle": "Um gerador de palavras cruzadas que escreve no seu idioma e não serve a mesma palavra duas vezes.",
     "sections": [
       {
         "title": "Por que fizemos",
@@ -679,7 +693,7 @@
         "title": "No nosso servidor",
         "paragraphs": [
           "Armazenamos os jogos criados para que um link compartilhado abra a mesma grade. Quando você reporta uma dica, guardamos o relato com um hash anônimo do seu IP, apenas para evitar que uma única pessoa desative uma dica sozinha. Também contamos de forma anônima como os jogos são jogados para ajustar a dificuldade.",
-          "Para dar a cada dispositivo o jogo grátis do mês, o site define um cookie com um identificador aleatório. A cada jogo grátis, guardamos esse identificador e um hash anônimo do seu IP."
+          "Para dar a cada dispositivo os créditos grátis do mês, o site define um cookie com um identificador aleatório. A cada jogo pago com créditos grátis, guardamos esse identificador e um hash unidirecional do seu endereço IP."
         ]
       },
       {
@@ -703,7 +717,8 @@
       {
         "title": "Análises e relatórios de erros",
         "paragraphs": [
-          "Se ativado, usamos o Google Analytics para contar visualizações de página e o Sentry para receber relatórios de erros. Nenhum dos dois é usado para identificar você."
+          "Com o seu consentimento, o Google Analytics conta as visualizações de página e grava os próprios cookies para distinguir uma visita da outra; sem ele, as análises funcionam sem cookies. Você pode mudar sua resposta a qualquer momento em “Configurações de cookies”, no rodapé de todas as páginas. O Sentry recebe relatórios de erros sem dados pessoais. Nenhum dos dois é usado para anúncios ou criação de perfil.",
+          "As páginas em alguns idiomas carregam a fonte do Google Fonts, que recebe o seu endereço IP junto com essa solicitação."
         ]
       }
     ]
@@ -719,10 +734,10 @@
         ]
       },
       {
-        "title": "Jogos gratuitos e créditos",
+        "title": "Créditos grátis e comprados",
         "paragraphs": [
-          "Cada dispositivo ganha um jogo grátis por mês civil, e cada conta ganha mais um. Outros jogos são pagos com créditos, pelo preço exibido antes da criação; o crédito só é cobrado quando o jogo é gerado, e abrir um jogo salvo é sempre grátis.",
-          "Os créditos são comprados em pacotes com pagamento único — não há assinatura — e nunca expiram. Eles não possuem valor em dinheiro e não podem ser transferidos."
+          "Cada dispositivo ganha 11 créditos grátis por mês civil, e cada conta ganha mais 11. Os créditos grátis são gastos antes dos comprados e não passam para o mês seguinte. Os jogos são pagos com créditos, pelo preço exibido antes da criação; o jogo só é cobrado quando é gerado, e abrir um jogo salvo é grátis.",
+          "Os créditos são comprados em pacotes com pagamento único — não há assinatura — e os créditos comprados nunca expiram. Os créditos não possuem valor em dinheiro e não podem ser transferidos."
         ]
       },
       {
@@ -753,12 +768,11 @@
   },
   "Credits": {
     "title": "Créditos",
-    "subtitle": "Um jogo grátis todo mês. Depois, pague apenas pelos jogos que criar — sem assinatura, e os créditos nunca expiram.",
+    "subtitle": "11 créditos grátis todo mês — o suficiente para um jogo médio. Depois, pague apenas pelos jogos que criar: sem assinatura, e os créditos comprados nunca expiram.",
     "balanceTitle": "Seu saldo",
-    "freeAvailable": "Seu jogo grátis deste mês está te esperando.",
-    "freeUsed": "O jogo grátis deste mês já foi usado. O próximo estará disponível em {date}.",
-    "guestTitle": "Ganhe mais jogos grátis",
-    "guestText": "Faça login para receber um jogo grátis todo mês na sua conta e para comprar créditos.",
+    "freeAvailable": "Inclui {count, plural, one {# crédito grátis} other {# créditos grátis}} deste mês. Os créditos grátis se renovam em {date}.",
+    "freeUsed": "Os créditos grátis deste mês já foram usados. {count, plural, one {# novo crédito grátis chega} other {# novos créditos grátis chegam}} em {date}.",
+    "guestText": "Faça login para receber mais {count, plural, one {# crédito grátis} other {# créditos grátis}} todo mês na sua conta e para comprar créditos.",
     "pricesTitle": "Quanto custa um jogo",
     "pricesText": "Em créditos, por tamanho e dificuldade. Abrir um jogo compartilhado com você ou do seu histórico é sempre grátis.",
     "size": "Tamanho",
@@ -806,5 +820,13 @@
     "sentText": "Obrigado. Respondemos no seu e-mail assim que pudermos.",
     "sendAnother": "Escrever outra mensagem",
     "tooMany": "Foram muitas mensagens. Tente de novo daqui a pouco."
+  },
+  "Consent": {
+    "label": "Consentimento de cookies",
+    "text": "Gostaríamos de usar cookies do Google Analytics para entender como o site é usado. Sem anúncios e sem criação de perfil. Enquanto você não aceitar, as análises funcionam sem cookies.",
+    "privacy": "Política de privacidade",
+    "accept": "Aceitar",
+    "decline": "Recusar",
+    "settings": "Configurações de cookies"
   }
 }

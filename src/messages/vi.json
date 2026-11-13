@@ -1,7 +1,7 @@
 {
   "Common": {
     "appName": "Ô chữ AI",
-    "tagline": "Ô chữ và ô chữ mũi tên miễn phí, do AI viết bằng chính ngôn ngữ của bạn. Mỗi ván là chữ mới, không bao giờ lặp.",
+    "tagline": "Ô chữ và ô chữ mũi tên do AI viết bằng chính ngôn ngữ của bạn — ô chữ đầu tiên mỗi tháng được miễn phí. Mỗi ván là chữ mới, không bao giờ lặp.",
     "skipToContent": "Nhảy tới nội dung",
     "openMenu": "Mở menu",
     "menu": "Menu",
@@ -54,28 +54,28 @@
     "gotIt": "Đã hiểu"
   },
   "Seo": {
-    "homeTitle": "Ô chữ online miễn phí — tạo ô chữ tiếng Việt",
-    "homeDescription": "Tạo ô chữ hoặc ô chữ mũi tên miễn phí. Chọn chủ đề — động vật, ẩm thực, địa lý, lịch sử, khoa học, thể thao — và độ khó. Mỗi ván là chữ mới. Chơi được cả khi ngoại tuyến.",
+    "homeTitle": "Ô chữ online — tạo ô chữ tiếng Việt, dùng thử miễn phí",
+    "homeDescription": "Tạo ô chữ hoặc ô chữ mũi tên online — ô chữ đầu tiên mỗi tháng được miễn phí. Chọn chủ đề — động vật, ẩm thực, địa lý, lịch sử, khoa học, thể thao — và độ khó. Mỗi ván là chữ mới. Chơi được cả khi ngoại tuyến.",
     "keywords": "ô chữ, ô chữ online, tạo ô chữ, ô chữ tiếng Việt, trò chơi ô chữ, ô chữ miễn phí, ô chữ mũi tên, ô chữ động vật, ô chữ ẩm thực, ô chữ địa lý, ô chữ lịch sử, ô chữ khoa học, ô chữ thể thao",
-    "crosswordTitle": "Ô chữ online miễn phí",
-    "crosswordDescription": "Chơi ô chữ miễn phí online, do AI viết: gợi ý đánh số hàng ngang và hàng dọc, 12 chủ đề, ba mức độ. Không cần đăng ký, mỗi ván là chữ mới.",
-    "scanwordTitle": "Ô chữ mũi tên miễn phí — gợi ý nằm trong lưới",
-    "scanwordDescription": "Giải ô chữ mũi tên miễn phí: gợi ý nằm ngay trong lưới, mũi tên chỉ tới đáp án. AI viết, không cần đăng ký, trên điện thoại, máy tính bảng hay máy tính.",
+    "crosswordTitle": "Ô chữ online, chơi thử miễn phí",
+    "crosswordDescription": "Chơi ô chữ online do AI viết: gợi ý đánh số hàng ngang và hàng dọc, 12 chủ đề, ba mức độ. Ô chữ đầu tiên mỗi tháng được miễn phí, không cần đăng ký.",
+    "scanwordTitle": "Ô chữ mũi tên online — gợi ý nằm trong lưới",
+    "scanwordDescription": "Giải ô chữ mũi tên: gợi ý nằm ngay trong lưới, mũi tên chỉ tới đáp án. AI viết, trên điện thoại, máy tính bảng hay máy tính — ô chữ đầu tiên mỗi tháng được miễn phí.",
     "topicsTitle": "Chủ đề ô chữ: động vật, ẩm thực, địa lý và hơn thế",
     "topicsDescription": "Chọn chủ đề cho ô chữ hoặc ô chữ mũi tên tiếp theo: thiên nhiên, động vật, ẩm thực, địa lý, lịch sử, khoa học, thể thao, nghệ thuật và hơn thế.",
-    "topicTitle": "Ô chữ {topic} — chơi miễn phí online",
-    "topicDescription": "Ô chữ và ô chữ mũi tên miễn phí về {topic}, do AI tạo. {description}",
+    "topicTitle": "Ô chữ {topic} — chơi online, do AI viết",
+    "topicDescription": "Ô chữ và ô chữ mũi tên về {topic}, do AI tạo; ô chữ đầu tiên mỗi tháng được miễn phí. {description}",
     "historyTitle": "Ô chữ của tôi",
     "historyDescription": "Ô chữ và ô chữ mũi tên đã bắt đầu trên thiết bị này mà chưa xong, tiến độ được lưu.",
     "creditsTitle": "Tín dụng & giá cả",
-    "creditsDescription": "Một câu đố ô chữ miễn phí mỗi tháng, sau đó là các gói tín dụng không cần đăng ký: chi phí từng câu đố và cách mua tín dụng.",
+    "creditsDescription": "11 tín dụng miễn phí mỗi tháng, sau đó là các gói tín dụng không cần đăng ký: chi phí từng câu đố và cách mua tín dụng.",
     "paymentTitle": "Thanh toán",
     "rulesTitle": "Cách chơi ô chữ và ô chữ mũi tên",
     "rulesDescription": "Cách giải ô chữ hoặc ô chữ mũi tên ở đây: gõ chữ, di chuyển trên lưới, kiểm tra và mở chữ, cùng phím tắt.",
     "faqTitle": "Hỏi đáp: ô chữ AI, ngôn ngữ và riêng tư",
     "faqDescription": "Giải đáp về Ô chữ AI: có miễn phí không, AI viết gợi ý ra sao, kích thước lưới, độ khó, chữ không lặp, chơi ngoại tuyến, chia sẻ và riêng tư.",
     "aboutTitle": "Giới thiệu — ô chữ AI được làm thế nào",
-    "aboutDescription": "Vì sao chúng tôi làm trình tạo ô chữ miễn phí không bao giờ lặp một từ, và AI viết gợi ý thẳng bằng từng ngôn ngữ ra sao.",
+    "aboutDescription": "Vì sao chúng tôi làm trình tạo ô chữ không bao giờ lặp một từ, và AI viết gợi ý thẳng bằng từng ngôn ngữ ra sao.",
     "privacyTitle": "Chính sách riêng tư",
     "privacyDescription": "Những gì Ô chữ AI lưu trữ, ở đâu và tại sao — bao gồm tài khoản và thanh toán, và không theo dõi danh tính của bạn.",
     "termsTitle": "Điều khoản sử dụng",
@@ -84,7 +84,7 @@
     "contactDescription": "Có câu hỏi, ý tưởng hay lỗi trong ô chữ? Viết cho chúng tôi, chúng tôi trả lời qua email.",
     "puzzleDescription": "Một ô chữ miễn phí của Ô chữ AI — giải ngay trên trình duyệt.",
     "sharedPuzzleDescription": "Ô chữ miễn phí cỡ {size} {format, select, scanword {ô chữ mũi tên} other {ô chữ}} · {topic} · {difficulty} · {words, plural, other {# từ}}. AI viết — giải ngay trên trình duyệt, không cần đăng ký.",
-    "ogImageAlt": "Ô chữ AI — ô chữ và ô chữ mũi tên miễn phí bằng ngôn ngữ của bạn",
+    "ogImageAlt": "Ô chữ AI — ô chữ và ô chữ mũi tên bằng ngôn ngữ của bạn",
     "ogPuzzleCta": "Bạn giải được không?",
     "ogPuzzleMeta": "{size} · {words, plural, other {# từ}}"
   },
@@ -179,12 +179,13 @@
     "credits": "{count, plural, other {# tín dụng}}",
     "balance": "Số dư của bạn: {count, plural, other {# tín dụng}}",
     "cost": "Câu đố này: {count, plural, other {# tín dụng}}",
-    "freeNow": "Câu đố này miễn phí — câu đố miễn phí của bạn trong tháng này.",
+    "freeNow": "Được trả bằng tín dụng miễn phí tháng này của bạn.",
     "youHave": "Bạn có {count, plural, other {# tín dụng}}.",
     "notEnough": "Không đủ tín dụng cho câu đố này.",
-    "guestUsed": "Bạn đã dùng hết câu đố miễn phí của tháng này. Đăng nhập để nhận thêm một câu đố miễn phí mỗi tháng và mua tín dụng.",
-    "refusedSignIn": "Câu đố miễn phí của tháng này đã được sử dụng. Đăng nhập để nhận thêm câu đố khác và mua tín dụng.",
+    "guestUsed": "Bạn đã dùng hết tín dụng miễn phí của tháng này. Đăng nhập để nhận thêm {count, plural, other {# tín dụng miễn phí}} mỗi tháng và mua tín dụng.",
+    "refusedSignIn": "Tín dụng miễn phí của bạn không đủ cho câu đố này. Đăng nhập để nhận thêm {count, plural, other {# tín dụng miễn phí}} mỗi tháng và mua tín dụng.",
     "refusedCredits": "Không đủ tín dụng cho câu đố này. Nạp thêm để tiếp tục chơi.",
+    "refusedFreeBusy": "Tín dụng miễn phí đang tạm dừng một lúc vì có rất nhiều câu đố được tạo bằng chúng trong giờ qua. Hãy thử lại sau.",
     "signIn": "Đăng nhập",
     "buyCredits": "Mua tín dụng"
   },
@@ -193,7 +194,7 @@
       "eyebrow": "Dùng thử miễn phí · Không cần đăng ký gói · Hoạt động ngoại tuyến",
       "title": "Ô chữ <mark>luôn mới</mark>",
       "subtitle": "Chọn chủ đề và độ khó — AI viết gợi ý bằng ngôn ngữ của bạn, và một từ không xuất hiện hai lần.",
-      "lede": "Tạo ô chữ tiếng Việt miễn phí online, không cần đăng ký. Chủ đề từ động vật, ẩm thực, địa lý đến lịch sử, khoa học, thể thao, nghệ thuật, nhà cửa, nghề nghiệp và văn hóa — hoặc trộn tất cả."
+      "lede": "Tạo ô chữ tiếng Việt online — ô chữ đầu tiên mỗi tháng được miễn phí, không cần đăng ký. Chủ đề từ động vật, ẩm thực, địa lý đến lịch sử, khoa học, thể thao, nghệ thuật, nhà cửa, nghề nghiệp và văn hóa — hoặc trộn tất cả."
     },
     "continueTitle": "Chơi tiếp chỗ đã dừng",
     "formatsTitle": "Hai cách chơi",
@@ -221,7 +222,7 @@
     "topicsSubtitle": "Từ chim ngoài vườn đến những dòng sông nổi tiếng — hoặc trộn hết.",
     "faqTitle": "Hỏi và đáp",
     "faq1Question": "Ô chữ AI có miễn phí không?",
-    "faq1Answer": "Câu đố đầu tiên mỗi tháng của bạn là miễn phí và không cần đăng ký, đăng nhập sẽ cộng thêm một câu đố nữa. Sau đó, các câu đố tốn tín dụng, mua một lần và không cần gia hạn hàng tháng. Chơi câu đố do ai đó chia sẻ với bạn thì luôn miễn phí.",
+    "faq1Answer": "Mỗi tháng bạn nhận được 11 tín dụng miễn phí — đủ cho một câu đố cỡ trung bình — không cần đăng ký, và đăng nhập sẽ cộng thêm 11 tín dụng nữa. Sau đó, các câu đố tốn tín dụng, mua một lần và không cần gia hạn hàng tháng. Chơi câu đố do ai đó chia sẻ với bạn thì luôn miễn phí.",
     "faq2Question": "Tôi có gặp lại cùng một từ không?",
     "faq2Answer": "Không. Thiết bị giữ danh sách những từ đã hiện và bỏ chúng khỏi mọi ô chữ mới. Nếu bạn xóa dữ liệu trang trong trình duyệt, danh sách bắt đầu lại.",
     "faq3Question": "Chơi được những ngôn ngữ nào?",
@@ -240,7 +241,7 @@
       "title": "Ô chữ cổ điển, <mark>làm riêng cho bạn</mark>",
       "plainTitle": "Ô chữ AI",
       "subtitle": "Gợi ý đánh số hàng ngang và hàng dọc, lưới mọc từ giữa, và những từ bạn chưa gặp.",
-      "lede": "Chơi ô chữ cổ điển miễn phí online: gợi ý đánh số hàng ngang và hàng dọc, chủ đề từ động vật, ẩm thực đến địa lý, lịch sử, khoa học và thể thao."
+      "lede": "Chơi ô chữ cổ điển online: gợi ý đánh số hàng ngang và hàng dọc, chủ đề từ động vật, ẩm thực đến địa lý, lịch sử, khoa học và thể thao."
     },
     "rulesTitle": "Ô chữ hoạt động thế nào",
     "rule1": "Mỗi ô trắng chứa một chữ. Từ chạy ngang (trái sang phải) và dọc (trên xuống dưới), cắt nhau.",
@@ -264,7 +265,7 @@
       "title": "Ô chữ mũi tên, gợi ý <mark>nằm trong lưới</mark>",
       "plainTitle": "Ô mũi tên AI",
       "subtitle": "Không phải lục danh sách: mỗi gợi ý nằm trong ô của nó, có mũi tên tới đáp án.",
-      "lede": "Chơi ô chữ mũi tên miễn phí online: gợi ý nằm trong lưới. Cùng chủ đề với ô chữ — động vật, ẩm thực, địa lý, lịch sử, khoa học, thể thao và hơn thế."
+      "lede": "Chơi ô chữ mũi tên online: gợi ý nằm trong lưới. Cùng chủ đề với ô chữ — động vật, ẩm thực, địa lý, lịch sử, khoa học, thể thao và hơn thế."
     },
     "rulesTitle": "Ô chữ mũi tên hoạt động thế nào",
     "rule1": "Ô màu giữ gợi ý. Mũi tên cạnh gợi ý cho biết đáp án bắt đầu ở đâu và chạy về hướng nào.",
@@ -297,6 +298,12 @@
   "Auth": {
     "signIn": "Đăng nhập",
     "signOut": "Đăng xuất",
+    "signOutConfirm": {
+      "title": "Đăng xuất?",
+      "text": "Bạn có thể đăng nhập lại bất cứ lúc nào. Tín dụng và các giao dịch mua vẫn nằm trong tài khoản của bạn.",
+      "confirm": "Đăng xuất",
+      "cancel": "Để sau"
+    },
     "signInTitle": "Đăng nhập",
     "signInSubtitle": "Dùng Google, hoặc email và mật khẩu của tài khoản.",
     "signUpTitle": "Tạo tài khoản",
@@ -332,6 +339,7 @@
     "resent": "Đã gửi lại.",
     "forgotSent": "Nếu có tài khoản dùng địa chỉ đó, liên kết đang trên đường tới.",
     "invalidCredentials": "Email và mật khẩu không khớp.",
+    "tooManyAttempts": "Bạn đã thử quá nhiều lần trong thời gian ngắn. Hãy đợi vài phút rồi thử lại.",
     "googleOnly": "Tài khoản này đăng nhập bằng Google.",
     "emailNotVerified": "Hãy xác nhận email trước. Liên kết nằm trong hộp thư.",
     "emailTaken": "Đã có tài khoản với email này.",
@@ -363,6 +371,12 @@
     "keepSolving": "Giải tiếp",
     "leave": "Rời",
     "newPuzzle": "Ô chữ mới",
+    "newPuzzleConfirm": {
+      "title": "Tạo ô chữ mới?",
+      "text": "Cùng dạng, chủ đề và độ khó như ô chữ này.",
+      "create": "Tạo",
+      "cancel": "Để sau"
+    },
     "allClues": "Mọi gợi ý",
     "across": "Hàng ngang",
     "down": "Hàng dọc",
@@ -539,15 +553,15 @@
           },
           {
             "question": "Ô chữ AI có miễn phí không?",
-            "answer": "Một phần. Câu đố đầu tiên mỗi tháng là miễn phí không cần đăng ký, và đăng nhập sẽ có thêm câu đố miễn phí thứ hai mỗi tháng. Ngoài ra, các câu đố được trả bằng tín dụng: bạn mua gói một lần — không có phí đăng ký định kỳ, tín dụng không bao giờ hết hạn và không có quảng cáo. Chơi câu đố do ai đó chia sẻ luôn miễn phí."
+            "answer": "Một phần. Mỗi tháng bạn nhận được 11 tín dụng miễn phí — đủ cho một câu đố cỡ trung bình — không cần đăng ký, và đăng nhập sẽ có thêm 11 tín dụng mỗi tháng. Tín dụng miễn phí không được chuyển sang tháng sau. Ngoài ra, các câu đố được trả bằng tín dụng bạn mua: mỗi gói chỉ mua một lần — không có phí đăng ký định kỳ, tín dụng đã mua không bao giờ hết hạn và không có quảng cáo. Chơi câu đố do ai đó chia sẻ luôn miễn phí."
           },
           {
             "question": "Tôi có cần tài khoản không?",
-            "answer": "Không cần đối với câu đố miễn phí hàng tháng: tiến trình, cài đặt và các từ bạn đã thấy đều được lưu trong trình duyệt. Tài khoản giúp bạn nhận thêm câu đố miễn phí thứ hai mỗi tháng, cho phép mua và tích trữ tín dụng."
+            "answer": "Không cần đối với 11 tín dụng miễn phí mỗi tháng: tiến trình, cài đặt và các từ bạn đã thấy đều được lưu trong trình duyệt. Tài khoản giúp bạn nhận thêm 11 tín dụng miễn phí mỗi tháng, cho phép mua và tích trữ tín dụng."
           },
           {
             "question": "Một câu đố có giá bao nhiêu?",
-            "answer": "Câu đố nhỏ tốn 5 tín dụng, trung bình 10 và lớn 15; độ khó trung bình cộng 1 tín dụng và khó cộng 2. Tín dụng bán theo gói 200 giá $4.99, 600 giá $11.99 và 2.000 giá $29.99. Màn hình thanh toán sẽ hiển thị giá theo đơn vị tiền tệ của bạn, kèm thuế nếu có."
+            "answer": "Câu đố nhỏ tốn 5 tín dụng, trung bình 10 và lớn 15; độ khó trung bình cộng 1 tín dụng và khó cộng 2. 11 tín dụng miễn phí mỗi tháng của bạn đủ cho một câu đố cỡ trung bình ở độ khó trung bình. Tín dụng bán theo gói 200 giá $4.99, 600 giá $11.99 và 2.000 giá $29.99. Màn hình thanh toán sẽ hiển thị giá theo đơn vị tiền tệ của bạn, kèm thuế nếu có."
           },
           {
             "question": "Ai tạo ra Ô chữ AI?",
@@ -641,7 +655,7 @@
   },
   "About": {
     "title": "Về Ô chữ AI",
-    "subtitle": "Trình tạo ô chữ miễn phí, viết bằng ngôn ngữ của bạn và không đưa cùng một từ hai lần.",
+    "subtitle": "Trình tạo ô chữ viết bằng ngôn ngữ của bạn và không đưa cùng một từ hai lần.",
     "sections": [
       {
         "title": "Vì sao chúng tôi làm",
@@ -678,7 +692,7 @@
         "title": "Trên máy chủ của chúng tôi",
         "paragraphs": [
           "Chúng tôi lưu trữ các câu đố được tạo ra để liên kết được chia sẻ mở cùng một lưới ô chữ. Khi bạn báo cáo một gợi ý, chúng tôi lưu báo cáo đó cùng mã hóa một chiều địa chỉ IP của bạn, mục đích chỉ để một người không thể tự mình loại bỏ một gợi ý. Chúng tôi cũng đếm ẩn danh cách các câu đố được chơi (đã giải, những từ nào được tiết lộ) để điều chỉnh độ khó.",
-          "Để cung cấp cho mỗi thiết bị câu đố miễn phí hàng tháng, trang web đặt một cookie chứa mã định danh ngẫu nhiên. Với mỗi câu đố miễn phí, chúng tôi lưu mã định danh đó và mã hóa một chiều địa chỉ IP của bạn."
+          "Để cung cấp cho mỗi thiết bị tín dụng miễn phí hàng tháng, trang web đặt một cookie chứa mã định danh ngẫu nhiên. Với mỗi câu đố được trả bằng tín dụng miễn phí, chúng tôi lưu mã định danh đó và mã hóa một chiều địa chỉ IP của bạn."
         ]
       },
       {
@@ -702,7 +716,8 @@
       {
         "title": "Phân tích và báo cáo lỗi",
         "paragraphs": [
-          "Nếu được bật, chúng tôi sử dụng Google Analytics để đếm lượt xem trang và Sentry để nhận báo cáo lỗi. Cả hai đều không được dùng để định danh bạn."
+          "Khi bạn đồng ý, Google Analytics đếm lượt xem trang và đặt cookie của mình để phân biệt các lượt truy cập; nếu không, phần phân tích chạy mà không dùng cookie. Bạn có thể đổi lựa chọn bất cứ lúc nào ở mục “Cài đặt cookie” cuối mỗi trang. Sentry nhận báo cáo lỗi không kèm thông tin cá nhân. Cả hai đều không được dùng cho quảng cáo hay lập hồ sơ người dùng.",
+          "Trang ở một số ngôn ngữ tải phông chữ từ Google Fonts, và Google Fonts nhận địa chỉ IP của bạn cùng với yêu cầu đó."
         ]
       }
     ]
@@ -718,10 +733,10 @@
         ]
       },
       {
-        "title": "Câu đố miễn phí và tín dụng",
+        "title": "Tín dụng miễn phí và tín dụng đã mua",
         "paragraphs": [
-          "Mỗi thiết bị nhận được một câu đố miễn phí mỗi tháng lịch, và mỗi tài khoản nhận thêm một câu đố nữa. Các câu đố khác được trả bằng tín dụng, theo giá hiển thị trước khi bạn tạo; câu đố chỉ tính phí khi nó được tạo ra, và việc mở một câu đố đã lưu là hoàn toàn miễn phí.",
-          "Tín dụng được mua theo gói bằng thanh toán một lần — không có phí đăng ký định kỳ — và không bao giờ hết hạn. Chúng không có giá trị quy đổi thành tiền mặt và không thể chuyển nhượng."
+          "Mỗi thiết bị nhận được 11 tín dụng miễn phí mỗi tháng lịch, và mỗi tài khoản nhận thêm 11 tín dụng nữa. Tín dụng miễn phí được dùng trước tín dụng đã mua và không được chuyển sang tháng sau. Các câu đố được trả bằng tín dụng, theo giá hiển thị trước khi bạn tạo; câu đố chỉ bị tính phí khi nó được tạo ra, và việc mở một câu đố đã lưu là miễn phí.",
+          "Tín dụng được mua theo gói bằng thanh toán một lần — không có phí đăng ký định kỳ — và tín dụng đã mua không bao giờ hết hạn. Tín dụng không có giá trị quy đổi thành tiền mặt và không thể chuyển nhượng."
         ]
       },
       {
@@ -752,12 +767,11 @@
   },
   "Credits": {
     "title": "Tín dụng",
-    "subtitle": "Một câu đố miễn phí mỗi tháng. Sau đó, chỉ trả tiền cho các câu đố bạn tạo — không cần đăng ký gói, và tín dụng không bao giờ hết hạn.",
+    "subtitle": "11 tín dụng miễn phí mỗi tháng — đủ cho một câu đố cỡ trung bình. Sau đó, chỉ trả tiền cho các câu đố bạn tạo: không cần đăng ký gói, và tín dụng đã mua không bao giờ hết hạn.",
     "balanceTitle": "Số dư của bạn",
-    "freeAvailable": "Câu đố miễn phí của bạn trong tháng này đang chờ.",
-    "freeUsed": "Câu đố miễn phí của tháng này đã dùng hết. Câu đố tiếp theo sẽ có vào {date}.",
-    "guestTitle": "Nhận thêm câu đố miễn phí",
-    "guestText": "Đăng nhập để nhận một câu đố miễn phí hàng tháng vào tài khoản của bạn, và để mua tín dụng.",
+    "freeAvailable": "Bao gồm {count, plural, other {# tín dụng miễn phí}} của tháng này. Tín dụng miễn phí sẽ được làm mới vào {date}.",
+    "freeUsed": "Tín dụng miễn phí của tháng này đã dùng hết. {count, plural, other {# tín dụng miễn phí mới}} sẽ có vào {date}.",
+    "guestText": "Đăng nhập để nhận thêm {count, plural, other {# tín dụng miễn phí}} mỗi tháng vào tài khoản của bạn, và để mua tín dụng.",
     "pricesTitle": "Chi phí một câu đố",
     "pricesText": "Tính bằng tín dụng, theo kích thước và độ khó. Mở một câu đố do ai đó chia sẻ, hoặc từ lịch sử của bạn, luôn miễn phí.",
     "size": "Kích thước",
@@ -805,5 +819,13 @@
     "sentText": "Cảm ơn bạn. Chúng tôi sẽ trả lời qua email sớm nhất có thể.",
     "sendAnother": "Viết thêm lời nhắn",
     "tooMany": "Bạn đã gửi quá nhiều. Hãy thử lại sau một lát."
+  },
+  "Consent": {
+    "label": "Đồng ý dùng cookie",
+    "text": "Chúng tôi muốn dùng cookie của Google Analytics để biết trang web được sử dụng ra sao. Không quảng cáo, không lập hồ sơ người dùng. Cho đến khi bạn chấp nhận, phần phân tích chạy mà không dùng cookie.",
+    "privacy": "Chính sách riêng tư",
+    "accept": "Chấp nhận",
+    "decline": "Từ chối",
+    "settings": "Cài đặt cookie"
   }
 }

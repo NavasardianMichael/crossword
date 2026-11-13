@@ -2,8 +2,9 @@ import { createHmac, randomBytes, randomUUID } from 'node:crypto'
 import request from 'supertest'
 import { afterAll, describe, expect, it } from 'vitest'
 import { createApp } from '../../server/src/app'
+import { config } from '../../server/src/config'
 import { prisma } from '../../server/src/lib/prisma'
-import { BILLING_CODE, CREDIT_PACKS, type PuzzleView } from '../../server/src/lib/puzzle'
+import { BILLING_CODE, CREDIT_PACKS, FREE_MONTHLY_CREDITS, puzzleCredits, type PuzzleView } from '../../server/src/lib/puzzle'
 import { signSession } from '../../server/src/lib/session'
 import { monthOf } from '../../server/src/services/billing'
 
@@ -39,20 +40,37 @@ const guestCookieOf = (response: request.Response): string => {
 
 const creditsOf = async (userId: string) => (await prisma.user.findUniqueOrThrow({ where: { id: userId } })).credits
 
-describe('free puzzles', () => {
-  it('gives a guest one free puzzle a month, then asks them to sign in', async () => {
+const freeSpentBy = async (holder: string) =>
+  (await prisma.freeSpend.aggregate({ where: { month: monthOf(), holder }, _sum: { amount: true } }))._sum.amount ?? 0
+
+/** Spends a holder's free credits for this month, as if earlier puzzles had. */
+const spendFree = (holder: string, amount = FREE_MONTHLY_CREDITS) =>
+  prisma.freeSpend.create({ data: { month: monthOf(), holder, ipKey: 'ip:test', puzzleId: 'earlier', amount } })
+
+describe('free credits', () => {
+  it('gives a guest the monthly free credits, then asks them to sign in', async () => {
+    // Small easy (5) + small medium (6) = 11, the whole allowance.
     const first = await build('', '10.0.0.1')
     expect(first.status).toBe(201)
     const guest = guestCookieOf(first)
+    expect((await build(guest, '10.0.0.1', { difficulty: 2 })).status).toBe(201)
 
     const puzzlesBefore = await prisma.puzzle.count()
-    const second = await build(guest, '10.0.0.1')
-    expect(second.status).toBe(402)
-    expect(second.body.error.code).toBe(BILLING_CODE.signInRequired)
+    const third = await build(guest, '10.0.0.1')
+    expect(third.status).toBe(402)
+    expect(third.body.error.code).toBe(BILLING_CODE.signInRequired)
     expect(await prisma.puzzle.count()).toBe(puzzlesBefore)
 
     const status = await request(app).get('/billing').set('Cookie', guest).set('X-Forwarded-For', '10.0.0.1')
-    expect(status.body.value).toMatchObject({ signedIn: false, credits: 0, freeAvailable: false })
+    expect(status.body.value).toMatchObject({ signedIn: false, credits: 0, freeCredits: 0 })
+  })
+
+  it('refuses a guest a puzzle the free credits cannot cover, and spends nothing', async () => {
+    const response = await build('', '10.0.0.6', { size: 'large' })
+    expect(response.status).toBe(402)
+    expect(response.body.error.code).toBe(BILLING_CODE.signInRequired)
+    const guestId = guestCookieOf(response).split('=')[1]
+    expect(await freeSpentBy(`guest:${guestId}`)).toBe(0)
   })
 
   it('caps the guest devices of one address', async () => {
@@ -62,11 +80,12 @@ describe('free puzzles', () => {
     expect(fourth.body.error.code).toBe(BILLING_CODE.signInRequired)
   })
 
-  it('gives an account its own free puzzle, then charges credits by size and difficulty', async () => {
+  it('gives an account its own free credits, then charges bought ones by size and difficulty', async () => {
     const { user, cookie } = await newUser(100)
 
-    expect((await build(cookie, '10.0.0.3')).status).toBe(201)
+    expect((await build(cookie, '10.0.0.3', { size: 'medium', difficulty: 2 })).status).toBe(201)
     expect(await creditsOf(user.id)).toBe(100)
+    expect(await freeSpentBy(`user:${user.id}`)).toBe(FREE_MONTHLY_CREDITS)
 
     const paid = await build(cookie, '10.0.0.3', { size: 'medium', difficulty: 3 })
     expect(paid.status).toBe(201)
@@ -75,16 +94,64 @@ describe('free puzzles', () => {
     expect(entries).toMatchObject([{ delta: -12, balanceAfter: 88, reason: 'generation', puzzleId: (paid.body.value as PuzzleView).id }])
   })
 
-  it('refuses a puzzle the balance cannot cover, and stores nothing', async () => {
-    const { user, cookie } = await newUser(4)
-    await prisma.freePuzzle.create({ data: { month: monthOf(), holder: `user:${user.id}`, ipKey: 'ip:test', puzzleId: 'used' } })
+  it('pays with what is left of the free credits first, and bought ones for the rest', async () => {
+    const { user, cookie } = await newUser(100)
+    await spendFree(`user:${user.id}`, 5)
+
+    // Medium easy costs 10: the 6 free credits left, then 4 bought ones.
+    const response = await build(cookie, '10.0.0.7', { size: 'medium' })
+    expect(response.status).toBe(201)
+    expect(await freeSpentBy(`user:${user.id}`)).toBe(FREE_MONTHLY_CREDITS)
+    expect(await creditsOf(user.id)).toBe(96)
+    expect(await prisma.creditEntry.findMany({ where: { userId: user.id } })).toMatchObject([{ delta: -4, balanceAfter: 96 }])
+
+    const status = await request(app).get('/billing').set('Cookie', cookie).set('X-Forwarded-For', '10.0.0.7')
+    expect(status.body.value).toMatchObject({ signedIn: true, credits: 96, freeCredits: 0 })
+  })
+
+  it('refuses a puzzle free and bought credits together cannot cover, and spends nothing', async () => {
+    const { user, cookie } = await newUser(3)
+    await spendFree(`user:${user.id}`, 5)
 
     const puzzlesBefore = await prisma.puzzle.count()
-    const response = await build(cookie, '10.0.0.4')
+    // Medium easy costs 10: 6 free + 3 bought is one short.
+    const response = await build(cookie, '10.0.0.4', { size: 'medium' })
     expect(response.status).toBe(402)
     expect(response.body.error.code).toBe(BILLING_CODE.insufficientCredits)
-    expect(await creditsOf(user.id)).toBe(4)
+    expect(await creditsOf(user.id)).toBe(3)
+    expect(await freeSpentBy(`user:${user.id}`)).toBe(5)
     expect(await prisma.puzzle.count()).toBe(puzzlesBefore)
+  })
+
+  it('pauses free credits past the hourly cap, but never puzzles paid with bought ones', async () => {
+    const { user, cookie } = await newUser(100)
+    const recent = await prisma.freeSpend.count({ where: { createdAt: { gte: new Date(Date.now() - 60 * 60 * 1000) } } })
+    const filler = Array.from({ length: Math.max(0, config.billing.freePuzzlesPerHour - recent) }, () => ({
+      month: monthOf(),
+      holder: `guest:cap-${randomUUID()}`,
+      ipKey: 'ip:cap',
+      puzzleId: 'cap',
+      amount: 1,
+    }))
+    await prisma.freeSpend.createMany({ data: filler })
+
+    try {
+      const puzzlesBefore = await prisma.puzzle.count()
+      const guest = await build('', '10.0.0.5')
+      expect(guest.status).toBe(429)
+      expect(guest.body.error.code).toBe(BILLING_CODE.freeBusy)
+      // An account with bought credits is not charged them instead: its free credits wait for the hour to roll on.
+      const account = await build(cookie, '10.0.0.5')
+      expect(account.status).toBe(429)
+      expect(await creditsOf(user.id)).toBe(100)
+      expect(await prisma.puzzle.count()).toBe(puzzlesBefore)
+
+      await spendFree(`user:${user.id}`)
+      expect((await build(cookie, '10.0.0.5')).status).toBe(201)
+      expect(await creditsOf(user.id)).toBe(100 - puzzleCredits('small', 1))
+    } finally {
+      await prisma.freeSpend.deleteMany({ where: { ipKey: 'ip:cap' } })
+    }
   })
 })
 

@@ -216,6 +216,10 @@
   h4 {
     font-family: var(--font-display);
     text-wrap: balance;
+    /* One long word at display size ("meghatározásokkal", "Kreuzworträtsel") is wider than a
+       320 px phone: hyphenate it (each page sets `lang`), or break it rather than clip it. */
+    overflow-wrap: anywhere;
+    hyphens: auto;
   }
 
   p {
@@ -530,6 +534,13 @@ html:has(.nav-progress) {
  */
 @custom-variant game {
   @media screen and (width < 64rem), screen and (pointer: coarse) {
+    @slot;
+  }
+}
+
+/* A short touch screen (a phone, keyboard up): every row of chrome costs grid cells. */
+@custom-variant short-touch {
+  @media (pointer: coarse) and (height < 44rem) {
     @slot;
   }
 }

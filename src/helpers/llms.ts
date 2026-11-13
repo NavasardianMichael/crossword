@@ -6,7 +6,7 @@ import { fileURLToPath } from 'node:url'
 import { type Locale, LOCALE_LABELS, LOCALES } from '@i18n/config'
 import { localePath } from '@i18n/pathname'
 import { APP_NAME, AUTHOR } from '@constants/app'
-import { DIFFICULTIES, FORMATS, GRID_SPECS, SIZES, TOPICS } from '@constants/puzzle'
+import { CREDIT_PACKS, DIFFICULTIES, FORMATS, FREE_MONTHLY_CREDITS, GRID_SPECS, SIZES, TOPICS } from '@constants/puzzle'
 import { ROUTES, topicPath } from '@constants/routes'
 import { absoluteUrl } from '@helpers/url'
 
@@ -34,7 +34,7 @@ const keyFacts = (): string[] => {
   const grid = (format: (typeof FORMATS)[number]) =>
     SIZES.map((size) => `${GRID_SPECS[format][size].width}×${GRID_SPECS[format][size].height}`).join(' / ')
   return [
-    'Free to play, with no account and no sign-up.',
+    `Free to try: ${FREE_MONTHLY_CREDITS} free credits a month — enough for a medium puzzle — with no account and no sign-up (an account adds ${FREE_MONTHLY_CREDITS} more; free credits don't carry over), then credit packs with no subscription (${CREDIT_PACKS.map(({ credits, usd }) => `${credits} credits for $${usd}`).join(', ')}). Opening a shared puzzle is always free.`,
     `Languages: ${LOCALES.map((locale) => LOCALE_LABELS[locale]).join(', ')} — each with its own word pool, written natively, not translated.`,
     `Formats: classic crossword (numbered Across/Down clue lists; ${grid('classic')} grids) and scanword (clues inside the grid with arrows; ${grid('scanword')} grids).`,
     `${TOPICS.length} topics, ${DIFFICULTIES.length} difficulty levels (easy, medium, hard) and ${SIZES.length} sizes (small, medium, large).`,

@@ -1,7 +1,8 @@
 'use client'
 
 import { useEffect } from 'react'
-import { SERVICE_WORKER_URL } from '@helpers/pwa'
+import { useLocale } from 'next-intl'
+import { serviceWorkerUrl } from '@helpers/pwa'
 import { reportError } from '@helpers/reportError'
 
 /**
@@ -11,9 +12,12 @@ import { reportError } from '@helpers/reportError'
  * Skipped in `next dev`: a worker intercepting requests fights HMR. Verify offline play with
  * `pnpm build && pnpm start`. `updateViaCache: 'none'` stops the browser HTTP-caching
  * `/sw.js` itself, and `update()` on visibility change is how an installed app left open for
- * days still picks up a new deploy.
+ * days still picks up a new deploy. The URL names the page's language, so the worker precaches
+ * that language's play shell; switching language registers that language's worker instead.
  */
 export const ServiceWorkerRegistrar = () => {
+  const locale = useLocale()
+
   useEffect(() => {
     if (process.env.NODE_ENV !== 'production' || !('serviceWorker' in navigator)) return
 
@@ -21,7 +25,7 @@ export const ServiceWorkerRegistrar = () => {
 
     const register = async () => {
       try {
-        registration = await navigator.serviceWorker.register(SERVICE_WORKER_URL, { scope: '/', updateViaCache: 'none' })
+        registration = await navigator.serviceWorker.register(serviceWorkerUrl(locale), { scope: '/', updateViaCache: 'none' })
         const ready = await navigator.serviceWorker.ready
         // Assets this page loaded before the worker controlled it would otherwise be missing offline.
         const urls = performance.getEntriesByType('resource').map((entry) => entry.name)
@@ -38,7 +42,7 @@ export const ServiceWorkerRegistrar = () => {
     }
     document.addEventListener('visibilitychange', onVisible)
     return () => document.removeEventListener('visibilitychange', onVisible)
-  }, [])
+  }, [locale])
 
   return null
 }

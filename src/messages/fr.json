@@ -1,7 +1,7 @@
 {
   "Common": {
     "appName": "Mots croisés IA",
-    "tagline": "Mots croisés et mots fléchés gratuits, écrits de bout en bout par une intelligence artificielle, dans votre langue. Des mots nouveaux à chaque partie, jamais les mêmes.",
+    "tagline": "Mots croisés et mots fléchés écrits de bout en bout par une intelligence artificielle, dans votre langue — la première grille de chaque mois est offerte. Des mots nouveaux à chaque partie, jamais les mêmes.",
     "skipToContent": "Aller au contenu",
     "openMenu": "Ouvrir le menu",
     "menu": "Menu",
@@ -54,28 +54,28 @@
     "gotIt": "Compris"
   },
   "Seo": {
-    "homeTitle": "Faire des mots croisés en ligne gratuits : animaux, nourriture, géographie, histoire, sciences et sport",
-    "homeDescription": "Créez et faites des mots croisés ou des mots fléchés gratuits, sans inscription. Mots croisés animaux, nourriture, géographie, histoire, sciences et sport, avec des mots nouveaux à chaque fois.",
+    "homeTitle": "Faire des mots croisés en ligne, essai gratuit : animaux, nourriture, géographie, histoire, sciences et sport",
+    "homeDescription": "Créez et faites des mots croisés ou des mots fléchés en ligne : la première grille de chaque mois est gratuite, sans inscription. Mots croisés animaux, nourriture, géographie, histoire, sciences et sport, avec des mots nouveaux à chaque fois.",
     "keywords": "mots croisés, faire des mots croisés, créer des mots croisés, mots croisés en ligne, mots croisés gratuits, générateur de mots croisés, mots fléchés, mots croisés animaux, mots croisés nourriture, mots croisés géographie, mots croisés histoire, mots croisés sciences, mots croisés sport",
-    "crosswordTitle": "Mots croisés en ligne gratuits",
-    "crosswordDescription": "Jouez à des mots croisés gratuits écrits par une intelligence artificielle : définitions numérotées horizontalement et verticalement, 12 thèmes, trois niveaux. Sans inscription, des mots nouveaux à chaque partie.",
-    "scanwordTitle": "Mots fléchés en ligne gratuits : les définitions dans la grille",
-    "scanwordDescription": "Résolvez des mots fléchés gratuits : la définition est dans la case, avec une flèche vers la réponse. Écrits par une intelligence artificielle, sans inscription, sur téléphone, tablette ou ordinateur.",
+    "crosswordTitle": "Mots croisés en ligne, à essayer gratuitement",
+    "crosswordDescription": "Jouez à des mots croisés écrits par une intelligence artificielle : définitions numérotées horizontalement et verticalement, 12 thèmes, trois niveaux. La première grille de chaque mois est gratuite et sans inscription, avec des mots nouveaux à chaque partie.",
+    "scanwordTitle": "Mots fléchés en ligne : les définitions dans la grille",
+    "scanwordDescription": "Résolvez des mots fléchés en ligne : la définition est dans la case, avec une flèche vers la réponse. Écrits par une intelligence artificielle, sur téléphone, tablette ou ordinateur — la première grille de chaque mois est gratuite.",
     "topicsTitle": "Mots croisés par thème : animaux, nourriture, géographie et plus",
     "topicsDescription": "Choisissez le thème de vos prochains mots croisés ou mots fléchés : nature, animaux, nourriture, géographie, histoire, sciences, sport, arts et plus encore.",
     "topicTitle": "Faire des mots croisés sur {topic} : animaux, nourriture, géographie, histoire, sciences et sport",
-    "topicDescription": "Mots croisés et mots fléchés gratuits sur {topic}, créés par une intelligence artificielle. {description}",
+    "topicDescription": "Mots croisés et mots fléchés sur {topic}, créés par une intelligence artificielle, la première grille du mois offerte. {description}",
     "historyTitle": "Mes grilles",
     "historyDescription": "Mots croisés et mots fléchés commencés sur cet appareil et pas encore finis, avec votre avancement enregistré.",
     "creditsTitle": "Crédits et tarifs",
-    "creditsDescription": "Un mot croisé gratuit chaque mois, puis des recharges de crédits sans abonnement : découvrez le coût de chaque grille et comment acheter des crédits.",
+    "creditsDescription": "11 crédits gratuits chaque mois, puis des recharges de crédits sans abonnement : découvrez le coût de chaque grille et comment acheter des crédits.",
     "paymentTitle": "Paiement",
     "rulesTitle": "Comment résoudre des mots croisés et des mots fléchés",
     "rulesDescription": "Comment résoudre des mots croisés ou des mots fléchés ici : saisie, déplacement dans la grille, vérification et révélation des lettres, raccourcis clavier.",
     "faqTitle": "Questions fréquentes : mots croisés avec IA, langues et vie privée",
     "faqDescription": "Réponses sur Mots croisés IA : est-ce gratuit, comment l'intelligence artificielle écrit les définitions, tailles, difficulté, mots qui ne reviennent pas, jeu hors ligne et confidentialité.",
     "aboutTitle": "À propos : comment nos mots croisés sont écrits",
-    "aboutDescription": "Pourquoi nous avons fait un générateur de mots croisés gratuit qui ne répète jamais un mot, et comment l'intelligence artificielle écrit les définitions dans chaque langue.",
+    "aboutDescription": "Pourquoi nous avons fait un générateur de mots croisés qui ne répète jamais un mot, et comment l'intelligence artificielle écrit les définitions dans chaque langue.",
     "privacyTitle": "Politique de confidentialité",
     "privacyDescription": "Ce que Mots croisés IA conserve, où et pourquoi — comptes et paiements inclus, sans aucun suivi de votre identité.",
     "termsTitle": "Conditions d'utilisation",
@@ -84,7 +84,7 @@
     "contactDescription": "Une question, une idée ou un souci avec une grille ? Écrivez-nous, nous répondons sur votre e-mail.",
     "puzzleDescription": "Une grille gratuite de Mots croisés IA : à résoudre dans le navigateur.",
     "sharedPuzzleDescription": "Un {format, select, scanword {mots fléchés} other {mots croisés}} gratuit, {size} · {topic} · {difficulty} · {words, plural, one {# mot} other {# mots}}. Écrit par une intelligence artificielle : à résoudre dans le navigateur, sans inscription.",
-    "ogImageAlt": "Mots croisés IA : mots croisés et mots fléchés gratuits dans votre langue",
+    "ogImageAlt": "Mots croisés IA : mots croisés et mots fléchés écrits par une IA dans votre langue",
     "ogPuzzleCta": "Saurez-vous le résoudre ?",
     "ogPuzzleMeta": "{size} · {words, plural, one {# mot} other {# mots}}"
   },
@@ -179,12 +179,13 @@
     "credits": "{count, plural, one {# crédit} other {# crédits}}",
     "balance": "Votre solde : {count, plural, one {# crédit} other {# crédits}}",
     "cost": "Cette grille : {count, plural, one {# crédit} other {# crédits}}",
-    "freeNow": "Celle-ci est gratuite — c'est votre grille offerte du mois.",
+    "freeNow": "Couverte par vos crédits gratuits du mois.",
     "youHave": "Vous avez {count, plural, one {# crédit} other {# crédits}}.",
     "notEnough": "Pas assez de crédits pour cette grille.",
-    "guestUsed": "Vous avez utilisé votre grille gratuite du mois. Connectez-vous pour en obtenir une de plus chaque mois et pour acheter des crédits.",
-    "refusedSignIn": "La grille gratuite de ce mois a été utilisée. Connectez-vous pour en débloquer une autre et acheter des crédits.",
+    "guestUsed": "Vous avez utilisé vos crédits gratuits du mois. Connectez-vous pour obtenir {count, plural, one {# crédit gratuit de plus} other {# crédits gratuits de plus}} chaque mois et pour acheter des crédits.",
+    "refusedSignIn": "Vos crédits gratuits ne suffisent pas pour cette grille. Connectez-vous pour obtenir {count, plural, one {# crédit gratuit de plus} other {# crédits gratuits de plus}} chaque mois et pour acheter des crédits.",
     "refusedCredits": "Crédits insuffisants pour cette grille. Rechargez votre solde pour continuer à jouer.",
+    "refusedFreeBusy": "Les crédits gratuits sont en pause pour un moment : beaucoup de grilles ont été créées avec eux dans la dernière heure. Réessayez un peu plus tard.",
     "signIn": "Se connecter",
     "buyCredits": "Acheter des crédits"
   },
@@ -193,7 +194,7 @@
       "eyebrow": "Essai gratuit · Sans abonnement · Fonctionne hors ligne",
       "title": "Faire des mots croisés <mark>toujours nouveaux</mark> : animaux, nourriture, géographie, histoire, sciences et sport",
       "subtitle": "Choisissez un thème et une difficulté : l'intelligence artificielle écrit les définitions dans votre langue, et le même mot ne revient pas deux fois.",
-      "lede": "Faites des mots croisés ou des mots fléchés en ligne, gratuits et sans inscription. Les thèmes vont des animaux, de la nourriture et de la géographie à l'histoire, aux sciences, au sport, aux arts, à la maison, aux métiers et à la culture francophone, ou mélangez-les tous."
+      "lede": "Faites des mots croisés ou des mots fléchés en ligne : la première grille de chaque mois est gratuite, sans inscription. Les thèmes vont des animaux, de la nourriture et de la géographie à l'histoire, aux sciences, au sport, aux arts, à la maison, aux métiers et à la culture francophone, ou mélangez-les tous."
     },
     "continueTitle": "Reprendre où vous en étiez",
     "formatsTitle": "Deux façons de jouer",
@@ -221,7 +222,7 @@
     "topicsSubtitle": "Des oiseaux du jardin aux grands fleuves, ou mélangez tous les thèmes.",
     "faqTitle": "Questions et réponses",
     "faq1Question": "Est-ce que Mots croisés IA est gratuit ?",
-    "faq1Answer": "Votre première grille de chaque mois est gratuite, sans inscription, et vous en obtenez une deuxième en vous connectant. Ensuite, les grilles coûtent des crédits, achetés à l'unité sans abonnement. Jouer à une grille partagée par un ami est toujours gratuit.",
+    "faq1Answer": "Chaque mois, vous recevez 11 crédits gratuits — de quoi créer une grille moyenne — sans inscription, et 11 de plus en vous connectant. Ensuite, les grilles coûtent des crédits, achetés en une fois sans abonnement. Jouer à une grille partagée par un ami est toujours gratuit.",
     "faq2Question": "Vais-je revoir les mêmes mots ?",
     "faq2Answer": "Non. Votre appareil garde la liste des mots déjà montrés et les laisse de côté dans chaque nouvelle grille. Si vous effacez les données du site dans le navigateur, la liste repart de zéro.",
     "faq3Question": "Dans quelles langues puis-je jouer ?",
@@ -240,7 +241,7 @@
       "title": "Des mots croisés classiques, <mark>faits pour vous</mark>",
       "plainTitle": "Mots croisés avec IA",
       "subtitle": "Des définitions numérotées en horizontal et en vertical, une grille qui grandit depuis le centre, et des mots que vous n'avez pas encore vus.",
-      "lede": "Faites des mots croisés classiques en ligne et gratuits : définitions numérotées en horizontal et en vertical, sur les thèmes animaux, nourriture, géographie, histoire, sciences et sport."
+      "lede": "Faites des mots croisés classiques en ligne : définitions numérotées en horizontal et en vertical, sur les thèmes animaux, nourriture, géographie, histoire, sciences et sport."
     },
     "rulesTitle": "Comment marchent les mots croisés",
     "rule1": "Chaque case blanche contient une lettre. Les mots vont en horizontal (de gauche à droite) et en vertical (de haut en bas), en se croisant.",
@@ -264,7 +265,7 @@
       "title": "Des mots fléchés avec les définitions <mark>dans la grille</mark>",
       "plainTitle": "Mots fléchés avec IA",
       "subtitle": "Pas de listes à parcourir : chaque définition est dans sa case, avec une flèche vers la réponse.",
-      "lede": "Faites des mots fléchés en ligne et gratuits : les définitions sont dans la grille. Les mêmes thèmes que les mots croisés : animaux, nourriture, géographie, histoire, sciences et sport."
+      "lede": "Faites des mots fléchés en ligne : les définitions sont dans la grille. Les mêmes thèmes que les mots croisés : animaux, nourriture, géographie, histoire, sciences et sport."
     },
     "rulesTitle": "Comment marchent les mots fléchés",
     "rule1": "Les cases teintées portent les définitions. La flèche montre où la réponse commence et dans quel sens elle court.",
@@ -297,6 +298,12 @@
   "Auth": {
     "signIn": "Se connecter",
     "signOut": "Se déconnecter",
+    "signOutConfirm": {
+      "title": "Se déconnecter ?",
+      "text": "Vous pourrez vous reconnecter à tout moment. Vos crédits et vos achats restent sur votre compte.",
+      "confirm": "Se déconnecter",
+      "cancel": "Plus tard"
+    },
     "signInTitle": "Se connecter",
     "signInSubtitle": "Utilisez Google, ou l'e-mail et le mot de passe de votre compte.",
     "signUpTitle": "Créer un compte",
@@ -332,6 +339,7 @@
     "resent": "Renvoyé.",
     "forgotSent": "Si un compte utilise cette adresse, le lien est en route.",
     "invalidCredentials": "Cet e-mail et ce mot de passe ne correspondent pas.",
+    "tooManyAttempts": "Trop de tentatives en peu de temps. Patientez quelques minutes, puis réessayez.",
     "googleOnly": "Ce compte se connecte avec Google.",
     "emailNotVerified": "Confirmez d'abord votre e-mail. Le lien est dans votre boîte.",
     "emailTaken": "Un compte avec cet e-mail existe déjà.",
@@ -363,6 +371,12 @@
     "keepSolving": "Continuer",
     "leave": "Quitter",
     "newPuzzle": "Nouvelle grille",
+    "newPuzzleConfirm": {
+      "title": "Créer une nouvelle grille ?",
+      "text": "Même format, même thème et même difficulté que celle-ci.",
+      "create": "Créer",
+      "cancel": "Plus tard"
+    },
     "allClues": "Toutes les définitions",
     "across": "Horizontal",
     "down": "Vertical",
@@ -540,15 +554,15 @@
           },
           {
             "question": "Est-ce que Mots croisés IA est gratuit ?",
-            "answer": "En partie. Votre première grille chaque mois est gratuite, sans inscription, et vous en débloquez une deuxième en vous connectant. Au-delà, les grilles sont payées avec des crédits : vous achetez une recharge à l'unité — sans abonnement, les crédits n'expirent jamais et il n'y a pas de publicité. Jouer à une grille qu'on a partagée avec vous est toujours gratuit."
+            "answer": "En partie. Chaque mois, vous recevez 11 crédits gratuits — de quoi créer une grille moyenne — sans inscription, et 11 de plus chaque mois en vous connectant. Les crédits gratuits ne sont pas reportés sur le mois suivant. Au-delà, les grilles sont payées avec des crédits achetés : vous achetez une recharge en une fois — sans abonnement, les crédits achetés n'expirent jamais et il n'y a pas de publicité. Jouer à une grille qu'on a partagée avec vous est toujours gratuit."
           },
           {
             "question": "Faut-il créer un compte ?",
-            "answer": "Pas pour votre grille gratuite du mois : votre progression, vos réglages et les mots déjà vus sont conservés dans votre navigateur. Un compte vous donne accès à une deuxième grille gratuite chaque mois et vous permet d'acheter et de conserver des crédits."
+            "answer": "Pas pour vos 11 crédits gratuits par mois : votre progression, vos réglages et les mots déjà vus sont conservés dans votre navigateur. Un compte vous donne 11 crédits gratuits de plus chaque mois et vous permet d'acheter et de conserver des crédits."
           },
           {
             "question": "Combien coûte une grille ?",
-            "answer": "Une petite grille coûte 5 crédits, une moyenne 10 et une grande 15 ; la difficulté moyenne ajoute 1 crédit et la difficulté difficile ajoute 2 crédits. Les crédits s'achètent en packs de 200 pour 4,99 $, 600 pour 11,99 $ et 2 000 pour 29,99 $. La caisse affiche le prix dans votre devise, taxes comprises le cas échéant."
+            "answer": "Une petite grille coûte 5 crédits, une moyenne 10 et une grande 15 ; la difficulté moyenne ajoute 1 crédit et la difficulté difficile ajoute 2 crédits. Vos 11 crédits gratuits par mois couvrent une grille moyenne en difficulté moyenne. Les crédits s'achètent en packs de 200 pour 4,99 $, 600 pour 11,99 $ et 2 000 pour 29,99 $. La caisse affiche le prix dans votre devise, taxes comprises le cas échéant."
           },
           {
             "question": "Qui a créé Mots croisés IA ?",
@@ -642,7 +656,7 @@
   },
   "About": {
     "title": "À propos de Mots croisés IA",
-    "subtitle": "Un générateur gratuit qui écrit dans votre langue et ne sert jamais deux fois le même mot.",
+    "subtitle": "Un générateur de grilles qui écrit dans votre langue et ne sert jamais deux fois le même mot.",
     "sections": [
       {
         "title": "Pourquoi nous l'avons fait",
@@ -679,7 +693,7 @@
         "title": "Sur notre serveur",
         "paragraphs": [
           "Nous enregistrons les grilles créées afin qu'un lien partagé affiche toujours la même grille. Lorsque vous signalez une définition, nous conservons le signalement avec un hachage unidirectionnel de votre adresse IP pour éviter qu'une personne ne retire une définition seule. Nous comptons également de façon anonyme la façon dont les grilles sont jouées (résolues, mots révélés) pour ajuster la difficulté.",
-          "Pour attribuer à chaque appareil sa grille gratuite du mois, le site dépose un cookie contenant un identifiant aléatoire. À chaque grille gratuite générée, nous conservons cet identifiant et un hachage unidirectionnel de votre adresse IP."
+          "Pour attribuer à chaque appareil ses crédits gratuits du mois, le site dépose un cookie contenant un identifiant aléatoire. Pour chaque grille payée avec des crédits gratuits, nous conservons cet identifiant et un hachage unidirectionnel de votre adresse IP."
         ]
       },
       {
@@ -703,7 +717,8 @@
       {
         "title": "Analytique et rapports d'erreurs",
         "paragraphs": [
-          "Si l'option est activée, nous utilisons Google Analytics pour compter les pages vues et Sentry pour recevoir les rapports d'erreurs. Ni l'un ni l'autre ne sont utilisés pour vous identifier."
+          "Avec votre consentement, Google Analytics compte les pages vues et dépose ses cookies pour distinguer les visites ; sans consentement, la mesure d'audience fonctionne sans cookies. Vous pouvez changer d'avis à tout moment via « Gérer les cookies », en bas de chaque page. Sentry reçoit des rapports d'erreurs sans aucune donnée personnelle. Ni l'un ni l'autre ne sert à la publicité ou au profilage.",
+          "Dans certaines langues, les pages chargent leur police depuis Google Fonts, qui reçoit alors votre adresse IP."
         ]
       }
     ]
@@ -719,10 +734,10 @@
         ]
       },
       {
-        "title": "Grilles gratuites et crédits",
+        "title": "Crédits gratuits et achetés",
         "paragraphs": [
-          "Chaque appareil bénéficie d'une grille gratuite par mois calendaire, et chaque compte d'une grille supplémentaire. Les autres grilles sont payées avec des crédits, au tarif indiqué avant la création ; une grille n'est débitée que lors de sa génération, et réouvrir une grille enregistrée est toujours gratuit.",
-          "Les crédits sont achetés par packs en paiement unique — sans aucun abonnement — et n'expirent jamais. Ils n'ont pas de valeur marchande et ne peuvent pas être transférés."
+          "Chaque appareil reçoit 11 crédits gratuits par mois calendaire, et chaque compte 11 de plus. Les crédits gratuits sont utilisés avant les crédits achetés et ne sont pas reportés sur le mois suivant. Les grilles sont payées avec des crédits, au tarif indiqué avant la création ; une grille n'est débitée que lors de sa génération, et rouvrir une grille enregistrée est gratuit.",
+          "Les crédits sont achetés par packs en paiement unique — sans aucun abonnement — et les crédits achetés n'expirent jamais. Les crédits n'ont pas de valeur marchande et ne peuvent pas être transférés."
         ]
       },
       {
@@ -753,12 +768,11 @@
   },
   "Credits": {
     "title": "Crédits",
-    "subtitle": "Une grille gratuite chaque mois. Ensuite, ne payez que pour les grilles que vous créez — sans abonnement, et les crédits n'expirent jamais.",
+    "subtitle": "11 crédits gratuits chaque mois — de quoi créer une grille moyenne. Ensuite, ne payez que pour les grilles que vous créez : sans abonnement, et les crédits achetés n'expirent jamais.",
     "balanceTitle": "Votre solde",
-    "freeAvailable": "Votre grille gratuite du mois vous attend.",
-    "freeUsed": "La grille gratuite de ce mois a été utilisée. La prochaine arrive le {date}.",
-    "guestTitle": "Obtenez plus de grilles gratuites",
-    "guestText": "Connectez-vous pour recevoir une grille gratuite chaque mois sur votre compte et pouvoir acheter des crédits.",
+    "freeAvailable": "Dont {count, plural, one {# crédit gratuit} other {# crédits gratuits}} pour ce mois-ci. Les crédits gratuits se renouvellent le {date}.",
+    "freeUsed": "Les crédits gratuits de ce mois ont été utilisés. {count, plural, one {# nouveau crédit gratuit arrive} other {# nouveaux crédits gratuits arrivent}} le {date}.",
+    "guestText": "Connectez-vous pour recevoir {count, plural, one {# crédit gratuit de plus} other {# crédits gratuits de plus}} chaque mois sur votre compte et pouvoir acheter des crédits.",
     "pricesTitle": "Coût d'une grille",
     "pricesText": "En crédits, selon la taille et la difficulté. Ouvrir une grille partagée par un ami ou issue de votre historique est toujours gratuit.",
     "size": "Taille",
@@ -806,5 +820,13 @@
     "sentText": "Merci. Nous vous répondrons par e-mail dès que possible.",
     "sendAnother": "Écrire un autre message",
     "tooMany": "Beaucoup de messages d’un coup. Réessayez un peu plus tard."
+  },
+  "Consent": {
+    "label": "Consentement aux cookies",
+    "text": "Nous aimerions utiliser les cookies de Google Analytics pour savoir comment le site est utilisé. Ni publicité, ni profilage. Tant que vous n'avez pas accepté, la mesure d'audience fonctionne sans cookies.",
+    "privacy": "Politique de confidentialité",
+    "accept": "Accepter",
+    "decline": "Refuser",
+    "settings": "Gérer les cookies"
   }
 }

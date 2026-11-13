@@ -10,9 +10,11 @@
 - **Config:** every `process.env` read lives in `config.ts` (gated). `GEMINI_KEY` has one reader:
   `lib/gemini.ts`; the Paddle API key and webhook secrets have one: `lib/paddle.ts` (gated).
 - **Security:** `requireSameOrigin` on every write (except the Paddle webhook, mounted before it and
-  verified by signature), per-route `rateLimit` (IP-keyed), `trust proxy` = 1 (nginx).
+  verified by signature), per-route `rateLimit` (IP-keyed, an IPv6 client as its /64; a separate ceiling for signed-in
+  requests), `accountRateLimit` per account and `emailRateLimit` per email on sign-in, `trust proxy` = 1 (nginx).
+  Free puzzles have a global hourly cap (`billing.ts`) and 70% of the Gemini budget (`freeShare`).
 - **Billing (`services/billing.ts`, `docs/BILLING.md`):** `POST /puzzles` is paid — this month's
-  free puzzle (`FreePuzzle`), else credits — inside the transaction that stores the puzzle, so a
+  free credits (`FreeSpend`), then bought ones — inside the transaction that stores the puzzle, so a
   refusal (402) stores nothing. Every balance change writes a `CreditEntry` in the same
   transaction; never update `User.credits` without one. The webhook stores each event raw
   (`PaymentEvent`) and trusts our `Payment` row, never the payload's `custom_data`; the

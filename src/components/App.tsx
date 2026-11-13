@@ -1,5 +1,6 @@
 import type { ReactNode } from 'react'
 import { useTranslations } from 'next-intl'
+import { ConsentBanner } from './analytics/ConsentBanner'
 import { AntdProvider, type AntdProviderProps } from './AntdProvider'
 import { AppEffects } from './AppEffects'
 import { Footer } from './layout/Footer'
@@ -43,6 +44,7 @@ export const App = ({ children, antdLocale, direction }: AppProps) => {
       <Toaster />
       <LeaveGuard />
       <InstallHint />
+      <ConsentBanner />
     </AntdProvider>
   )
 }

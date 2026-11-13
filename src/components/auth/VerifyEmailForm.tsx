@@ -4,7 +4,7 @@ import { useState } from 'react'
 import { useTranslations } from 'next-intl'
 import { verifyEmailAPI } from '@api/auth/main'
 import { usePendingRouter } from '@hooks/useNavigationPending'
-import { isSafeReturnPath, RETURN_TO_QUERY, VERIFIED_QUERY } from '@constants/auth'
+import { RETURN_TO_QUERY, safeReturnPath, VERIFIED_QUERY } from '@constants/auth'
 import { ROUTES } from '@constants/routes'
 import { authErrorKey } from '@helpers/authError'
 import { Button } from '@components/ui/Button'
@@ -15,7 +15,7 @@ export const VerifyEmailForm = ({ token, returnTo }: { token?: string; returnTo?
   const router = usePendingRouter()
   const [pending, setPending] = useState(false)
   const [error, setError] = useState<unknown>(null)
-  const safeReturn = isSafeReturnPath(returnTo) ? returnTo : undefined
+  const safeReturn = safeReturnPath(returnTo)
 
   const submit = async () => {
     if (!token) return setError(new Error('missing'))

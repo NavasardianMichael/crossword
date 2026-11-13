@@ -10,6 +10,22 @@ improve · **P3** nice to have.
 The base is strong (see [What is already solid](#what-is-already-solid)) — the list below is short on
 purpose and skips nits.
 
+## Status (2026-11-13)
+
+Fixed: 1–8, 10–18, 20, 21, 23–29, 32. Partly: 9 (only the optional backup ping: no API
+Sentry — it was removed on purpose in `847d3fa` — and no uptime monitors, by choice), 22 (unused `motion` removed; the dialogs it named
+load only on the puzzle page), 30 (`/health` pool counts cached; the layout budget already yields
+to I/O between tries), 31 (unit tests for the Gemini chain and the quota day; the DB paths still
+want integration tests). P3: GIN queries, Pacific quota day, Paddle callback and
+stale docs fixed.
+
+Not done, on purpose: logout revocation (bumping `tokenVersion` would sign every device out; the
+cookie is httpOnly), the mid-build clue-retirement 500 (a millisecond race that charges nothing), 19 (an address cap on accounts would lock out carrier-NAT users; the cost is
+bounded by the daily Gemini budget), CSP script allowlist (only the directives that cannot break a
+flow), the seed's `DO UPDATE` guard (it would drop the clue merge for existing words), keeping old
+chunks across deploys, the "Finished" history section, pinning the deploy's SSH host key, and Google Fonts (kept, named on the privacy
+page).
+
 ## Summary
 
 | # | P | Area | Finding | Effort |
@@ -322,3 +338,90 @@ cells would be under ~24px. Test on a real 360px Android.
 2. **Before announcing:** #4 keyboard, #13 "free" copy, #12 price on re-create, #14 translations,
    #7–#9 Gemini timeout / shutdown / Sentry + uptime, #11 consent decision.
 3. **First weeks:** #15 small-phone board, then P2 by impact on players (#21, #23, #24, #25, #17–#19).
+
+## Manual steps after the fixes (updated 2026-11-14)
+
+What code cannot do by itself, in order. **[PC]** your machine, repo root · **[SRV]** server, as
+`michael` · **[GH]** GitHub repo settings · **[WEB]** a browser.
+
+### Before pushing
+
+1. **Migrate your local database** **[PC]**: stop `pnpm dev`, run `pnpm db:setup`, start `pnpm dev`
+   again. The free puzzle became free credits, a schema change; the running dev server also holds
+   Prisma's engine file, so the client is regenerated only after the restart.
+2. **Run the tests that need Postgres** **[PC]** (Docker Desktop running):
+   ```powershell
+   pnpm db:up
+   pnpm test:integration
+   ```
+   Then e2e: in one terminal start the app with
+   `$env:RATE_LIMIT_ENABLED='false'; $env:BILLING_ENABLED='false'; pnpm dev`, and in a second one
+   run `pnpm test:e2e`.
+3. **Check `server/.env.production.local`** **[PC]**:
+   - `JWT_SECRET` must be at least 32 characters, or the deploy stops and the API refuses to
+     start. To make one, run `openssl rand -hex 64` in Git Bash and paste it as `JWT_SECRET="…"`.
+     A new secret signs everyone out once.
+   - Optional: `FREE_PUZZLES_PER_HOUR="200"` — puzzles that may take free credits in an hour,
+     all players together. Leave it out for the default of 200.
+4. **If you changed that file**, re-encode it **[PC]** with `pnpm env:base64 production | clip`, then
+   **[GH]** Settings → Secrets and variables → Actions → `ENV_API_BASE64` → Update, and paste.
+5. **Backups to Google Drive, and one backup now** **[PC]** **[SRV]**: this push carries a database
+   migration (`FreePuzzle` becomes `FreeSpend`), and migrations do not roll back. Follow
+   [PRODUCTION_SETUP.md step 8](PRODUCTION_SETUP.md#8-database-backups-to-google-drive-pc-srv-once).
+   In short: `sudo apt install rclone` → `rclone config` (remote `gdrive`, scope `drive.file`, sign
+   in through `rclone authorize "drive" …` on the PC) → paste `deployment/backup-db.sh` into
+   `/home/michael/apps/crossword/shared/backup-db.sh` → `chmod 700` it → run it once by hand and
+   check the dump is on Drive → add the cron line → do the restore drill once. Dumps are kept 22 days.
+6. **Backup alert** (optional) **[WEB]**: create a check at https://healthchecks.io (period 1 day,
+   grace 2 hours) and put its URL in the `PING_URL="…"` line of the server's `backup-db.sh`.
+7. **Commit and push to `master`.** The deploy's first job, **Check configuration**, checks every
+   secret and stops the run within seconds if one is missing or wrong; its log names the secret and
+   the fix. Yellow warnings there are optional features that are off. The `verify` job then runs the
+   integration tests, and the API deploy applies the migration: anyone who already took this
+   month's free puzzle counts as having spent this month's 11 free credits.
+
+### On the server, after the deploy is green
+
+8. **HSTS** **[SRV]**: paste both confs again. Empty each one first, then paste the repo file into
+   it:
+   ```bash
+   sudo truncate -s 0 /etc/nginx/sites-available/crossword.eapps.site.conf
+   sudo nano /etc/nginx/sites-available/crossword.eapps.site.conf          # deployment/crossword.eapps.site.conf
+   sudo truncate -s 0 /etc/nginx/sites-available/api.crossword.eapps.site.conf
+   sudo nano /etc/nginx/sites-available/api.crossword.eapps.site.conf      # deployment/api.crossword.eapps.site.conf
+   sudo nginx -t && sudo systemctl reload nginx
+   ```
+   Check from **[PC]**: `curl.exe -sI https://crossword.eapps.site/en | findstr /i strict` should
+   print `Strict-Transport-Security: max-age=31536000`.
+### Check by hand on the live site
+
+9. **Free credits, as a guest** **[WEB]**, in a private window: the header's coin button shows
+    **11**, and the credits page says the 11 are free and when they renew. Make a small easy puzzle:
+    the balance drops to **6**. Pick a large puzzle: the cost line says your free credits don't cover
+    it, with a Sign in link.
+10. **Free credits, signed in** **[WEB]**: a new account also starts with 11. "New puzzle" from a
+    finished puzzle goes straight through while the free credits cover it, and asks with the price
+    first once bought credits would be spent. After a refused payment, the solved dialog closes and
+    shows the Sign in / Buy credits alert.
+11. **Account** **[WEB]**: menu → **Sign out** asks first ("Not now" / "Sign out"). With the site open
+    in two tabs, spend credits in one, switch to the other: its header balance catches up.
+12. **Consent banner** **[WEB]**: open a private window → DevTools → Application → Cookies. There
+    should be no `_ga*` cookie until you click **Accept**, and one after. Footer → **Cookie
+    settings** should reopen the banner. After a couple of days, GA4 → Admin → Data streams → the
+    stream → **Consent settings** should report consent mode as active.
+13. **Phone, at 360px wide** (a real phone, or DevTools device mode) **[WEB]**: in `ru`, `hy`, `ja`
+    and `ar`, check that the on-screen keyboard fits without scrolling and long rows split in two,
+    that the consent banner doesn't cover the keyboard, that the grid uses the freed height on a
+    short screen (the zoom buttons are hidden there), and that the price table on the credits page
+    fits without sideways scrolling.
+14. **Offline** **[WEB]**: DevTools → Application → Service workers should list
+    `/sw.js?locale=<your language>`. Open a puzzle, go offline in the Network tab, and reload: the
+    puzzle should still load. `https://crossword.eapps.site/manifests/hy.webmanifest` should
+    open with Armenian `name` and `start_url` `/hy`.
+15. **Translations**: have a native speaker check the 30 machine-written catalogues (en, ru and hy
+    were written by hand). Start with what changed most recently: the free-credits copy (`Billing`,
+    `Credits`, the first three FAQ answers, `Terms` "Free and bought credits", the privacy cookie
+    paragraph), the sign-out dialog (`Auth.signOutConfirm`), `Auth.tooManyAttempts` and
+    `Billing.refusedFreeBusy`. Known doubts: the Arabic plural forms for 11, German "Gratis-Punkte",
+    Swahili "mikopo" for credits, Hungarian "Mehet" on the create button, the mix of "palaisipan" and
+    "puzzle" in Filipino, and mixed formal/informal address in `uk`, `cs` and `fa`.

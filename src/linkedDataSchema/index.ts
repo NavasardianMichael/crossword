@@ -14,6 +14,7 @@ import type {
 import type { Locale } from '@i18n/config'
 import { localePath } from '@i18n/pathname'
 import { APP_NAME, AUTHOR, ogImagePath } from '@constants/app'
+import { CREDIT_PACKS } from '@constants/puzzle'
 import { absoluteUrl } from '@helpers/url'
 
 /**
@@ -55,8 +56,14 @@ export const gameSchema = (
   applicationCategory: 'GameApplication',
   operatingSystem: 'Any',
   playMode: 'SinglePlayer',
-  isAccessibleForFree: true,
-  offers: { '@type': 'Offer', price: 0, priceCurrency: 'USD' },
+  // One free puzzle a month, then credit packs (`docs/BILLING.md`): free to try, not free.
+  offers: {
+    '@type': 'AggregateOffer',
+    lowPrice: 0,
+    highPrice: Math.max(...CREDIT_PACKS.map(({ usd }) => usd)),
+    priceCurrency: 'USD',
+    offerCount: CREDIT_PACKS.length + 1,
+  },
   image: absoluteUrl(ogImagePath(locale)),
   author,
 })
@@ -160,7 +167,6 @@ export const howToSchema = (page: PageInput, steps: { title: string; text: strin
   '@context': 'https://schema.org',
   '@type': 'HowTo',
   ...pageFields(page),
-  estimatedCost: { '@type': 'MonetaryAmount', currency: 'USD', value: 0 },
   step: steps.map(({ title, text }, index) => ({
     '@type': 'HowToStep',
     position: index + 1,

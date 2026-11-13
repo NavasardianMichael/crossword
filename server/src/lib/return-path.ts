@@ -9,17 +9,27 @@ export const RETURN_TO_QUERY = 'returnTo'
 export const SIGN_IN_PATH = '/auth/sign-in'
 export const HOME_PATH = '/'
 
+const RETURN_BASE = 'https://return-path.invalid'
+
 /**
- * A post-sign-in destination is a same-site path only. `//evil.example` and an absolute URL
- * are refused, so `returnTo` cannot be an open redirect.
+ * The post-sign-in destination as a clean same-site path, or `undefined` when it would leave the
+ * site (callers then use home). The value is resolved exactly as a browser would resolve it —
+ * tabs and line breaks dropped, `\` read as `/` — so `/\t/evil.example` is seen as the
+ * `//evil.example` it really is and refused, while a path that merely carries such characters
+ * is kept, cleaned. Mirrored by `safeReturnPath` in `src/constants/auth.ts`.
  */
-export const isSafeReturnPath = (value: unknown): value is string =>
-  typeof value === 'string' &&
-  value.length <= 512 &&
-  value.startsWith('/') &&
-  !value.startsWith('//') &&
-  !value.startsWith('/\\') &&
-  !/[\r\n]/.test(value)
+export const safeReturnPath = (value: unknown): string | undefined => {
+  if (typeof value !== 'string' || value.length > 512) return undefined
+  let url: URL
+  try {
+    url = new URL(value, RETURN_BASE)
+  } catch {
+    return undefined
+  }
+  if (url.origin !== RETURN_BASE) return undefined
+  // `/.//evil.example` normalises to the path `//evil.example`, which a redirect would read as a host.
+  return `/${url.pathname.replace(/^\/+/, '')}${url.search}${url.hash}`
+}
 
 export const buildWebUrl = (origin: string, path: string, query: Record<string, string> = {}): string => {
   const url = new URL(path, origin.endsWith('/') ? origin : `${origin}/`)

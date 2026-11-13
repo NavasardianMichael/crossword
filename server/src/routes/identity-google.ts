@@ -3,7 +3,7 @@ import { issueSession } from './identity.js'
 import { config, isGoogleOAuthConfigured } from '../config.js'
 import { ensureGoogleStrategy, GOOGLE_ERROR, GOOGLE_STRATEGY, type GoogleIdentity, passport } from '../lib/google-oauth.js'
 import { prisma } from '../lib/prisma.js'
-import { buildWebUrl, HOME_PATH, isSafeReturnPath, RETURN_TO_QUERY, SIGN_IN_PATH } from '../lib/return-path.js'
+import { buildWebUrl, HOME_PATH, RETURN_TO_QUERY, safeReturnPath, SIGN_IN_PATH } from '../lib/return-path.js'
 
 /**
  * Google sign-in. Every branch ends in a redirect back to the web app.
@@ -19,7 +19,7 @@ const toSignIn = (res: Response, error: string): void => res.redirect(buildWebUr
 googleRouter.get('/', (req: Request, res: Response, next: NextFunction) => {
   if (!ensureGoogleStrategy() || !isGoogleOAuthConfigured()) return toSignIn(res, GOOGLE_ERROR.unavailable)
   const returnTo = req.query[RETURN_TO_QUERY]
-  const returnPath = isSafeReturnPath(returnTo) ? returnTo : null
+  const returnPath = safeReturnPath(returnTo) ?? null
   passport.authenticate(GOOGLE_STRATEGY, { session: false, state: { returnPath } } as object)(req, res, next)
 })
 
@@ -77,7 +77,7 @@ googleRouter.get('/callback', (req: Request, res: Response, next: NextFunction) 
         .then((user) => {
           issueSession(res, user)
           const returnPath = req.oauthFlow?.returnPath
-          res.redirect(buildWebUrl(config.corsOrigin, isSafeReturnPath(returnPath) ? returnPath : HOME_PATH))
+          res.redirect(buildWebUrl(config.corsOrigin, safeReturnPath(returnPath) ?? HOME_PATH))
         })
         .catch((upsertError: unknown) => {
           console.error('[google] account upsert failed', upsertError)

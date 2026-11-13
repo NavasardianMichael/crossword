@@ -36,6 +36,8 @@ export const STORAGE_KEYS = {
   seenPrefix: 'crossword:seen:',
   pwaInstalledAt: 'crossword:pwa-installed',
   iosHintClosedAt: 'crossword:ios-hint-closed',
+  /** 'granted' | 'denied' — the visitor's answer to the analytics banner; absent until they answer. */
+  analyticsConsent: 'crossword:analytics-consent',
 } as const
 
 /** Entry ids a device remembers per language, so no word ever comes back. */

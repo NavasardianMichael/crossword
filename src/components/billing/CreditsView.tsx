@@ -12,10 +12,11 @@ import {
   CREDIT_PACKS,
   type CreditPackId,
   DIFFICULTIES,
-  DIFFICULTY_CREDITS,
+  type Difficulty,
+  FREE_MONTHLY_CREDITS,
   isLocale,
   puzzleCredits,
-  SIZE_CREDITS,
+  type PuzzleSize,
   SIZES,
 } from '@constants/puzzle'
 import { ROUTES } from '@constants/routes'
@@ -33,8 +34,35 @@ const BADGES: Partial<Record<CreditPackId, 'popularBadge' | 'bestValueBadge'>> =
 /** Until Paddle answers (or when it cannot), the packs at their USD list price, not yet buyable. */
 const LIST_PACKS: CreditPack[] = CREDIT_PACKS.map(({ id, credits, usd }) => ({ id, credits, usd, price: null, available: false }))
 
-/** The medium puzzle at medium difficulty — the yardstick a pack is measured in. */
-const TYPICAL_PUZZLE = SIZE_CREDITS.medium + DIFFICULTY_CREDITS[2]
+/** The medium puzzle at medium difficulty — the yardstick a pack is measured in, and the free monthly allowance. */
+const TYPICAL_PUZZLE = FREE_MONTHLY_CREDITS
+
+/** The price table's colour per difficulty: mint, sunshine, coral — calm to fiery. */
+const DIFFICULTY_TONES: Record<Difficulty, { chip: string; tile: string }> = {
+  1: { chip: 'border-mint-600 bg-mint-200', tile: 'border-mint-300 bg-mint-100' },
+  2: { chip: 'border-sun-600 bg-sun-200', tile: 'border-sun-300 bg-sun-100' },
+  3: { chip: 'border-coral-600 bg-coral-200', tile: 'border-coral-300 bg-coral-100' },
+}
+
+/** A tiny crossword per size, growing with it; the dark squares are where a grid has its blocks. */
+const GRID_GLYPHS: Record<PuzzleSize, { columns: string; blocks: readonly number[]; cells: number }> = {
+  small: { columns: 'grid-cols-2', blocks: [3], cells: 4 },
+  medium: { columns: 'grid-cols-3', blocks: [2, 6], cells: 9 },
+  large: { columns: 'grid-cols-4', blocks: [3, 5, 10, 12], cells: 16 },
+}
+
+const GridGlyph = ({ size }: { size: PuzzleSize }) => {
+  const { columns, blocks, cells } = GRID_GLYPHS[size]
+  return (
+    <span aria-hidden className='inline-flex w-6 shrink-0 justify-center sm:w-7'>
+      <span className={cn('grid gap-px rounded-sm bg-ink-700 p-px', columns)}>
+        {Array.from({ length: cells }, (_, cell) => (
+          <span key={cell} className={cn('size-1.5', blocks.includes(cell) ? 'bg-ink-700' : 'bg-cream-50')} />
+        ))}
+      </span>
+    </span>
+  )
+}
 
 /**
  * The balance and this month's free puzzle, what each puzzle costs, and the packs. Buying opens
@@ -79,28 +107,29 @@ export const CreditsView = () => {
   }
 
   const signInHref = { pathname: ROUTES.signIn, query: { [RETURN_TO_QUERY]: pathname } }
+  const renewsOn = (iso: string) => format.dateTime(new Date(iso), { day: 'numeric', month: 'long', timeZone: 'UTC' })
   const shopOpen = Boolean(status?.shopOpen)
 
   return (
     <div className='flex flex-col gap-6'>
       <Card className='flex flex-col gap-3'>
-        <h2 className='font-display text-h3 font-bold'>{status && !status.signedIn ? t('guestTitle') : t('balanceTitle')}</h2>
-        {status?.signedIn ? (
-          <p className='flex items-center gap-2 font-display text-h2 font-extrabold'>
-            <Coins aria-hidden className='size-7 text-coral-600' />
-            {tAll('Billing.credits', { count: status.credits })}
-          </p>
-        ) : null}
+        <h2 className='font-display text-h3 font-bold'>{t('balanceTitle')}</h2>
         {status ? (
-          <p className='text-ink-700'>
-            {status.freeAvailable
-              ? t('freeAvailable')
-              : t('freeUsed', { date: format.dateTime(new Date(status.freeResetsAt), { day: 'numeric', month: 'long', timeZone: 'UTC' }) })}
-          </p>
+          <>
+            <p className='flex items-center gap-2 font-display text-h2 font-extrabold'>
+              <Coins aria-hidden className='size-7 text-coral-600' />
+              {tAll('Billing.credits', { count: status.credits + status.freeCredits })}
+            </p>
+            <p className='text-ink-700'>
+              {status.freeCredits > 0
+                ? t('freeAvailable', { count: status.freeCredits, date: renewsOn(status.freeResetsAt) })
+                : t('freeUsed', { count: FREE_MONTHLY_CREDITS, date: renewsOn(status.freeResetsAt) })}
+            </p>
+          </>
         ) : null}
         {status && !status.signedIn ? (
           <div className='flex flex-col items-start gap-3'>
-            <p className='text-ink-700'>{t('guestText')}</p>
+            <p className='text-ink-700'>{t('guestText', { count: FREE_MONTHLY_CREDITS })}</p>
             <ButtonLink href={signInHref} variant='primary' size='sm'>
               {tAll('Billing.signIn')}
             </ButtonLink>
@@ -111,29 +140,54 @@ export const CreditsView = () => {
       <Card className='flex flex-col gap-3'>
         <h2 className='font-display text-h3 font-bold'>{t('pricesTitle')}</h2>
         <p className='text-ink-700'>{t('pricesText')}</p>
-        <div className='overflow-x-auto'>
-          <table className='w-full min-w-72 border-collapse text-start'>
+        <div className='-mx-1 overflow-x-auto px-1 pb-1'>
+          <table className='w-full border-separate border-spacing-1 text-start sm:border-spacing-2.5'>
             <thead>
-              <tr className='border-b-2 border-line-strong'>
-                <th scope='col' className='py-2 pe-3 text-start font-display font-bold'>
+              <tr>
+                <th scope='col' className='pe-1 text-start align-bottom text-caption font-bold text-ink-500'>
                   {t('size')}
                 </th>
                 {DIFFICULTIES.map((difficulty) => (
-                  <th key={difficulty} scope='col' className='px-3 py-2 text-end font-display font-bold'>
-                    {tAll(`Difficulty.${difficulty}`)}
+                  <th key={difficulty} scope='col' className='w-[23%] align-bottom font-normal'>
+                    <span
+                      className={cn(
+                        'flex flex-col items-center gap-1 rounded-xl border-2 px-1 py-1 text-center font-display text-caption font-bold hyphens-auto sm:rounded-full sm:px-2 sm:text-body-sm',
+                        DIFFICULTY_TONES[difficulty].chip
+                      )}
+                    >
+                      <span aria-hidden className='flex gap-0.5'>
+                        {DIFFICULTIES.map((pip) => (
+                          <span key={pip} className={cn('size-1.5 rounded-full', pip <= difficulty ? 'bg-ink-900' : 'bg-ink-900/20')} />
+                        ))}
+                      </span>
+                      {tAll(`Difficulty.${difficulty}`)}
+                    </span>
                   </th>
                 ))}
               </tr>
             </thead>
             <tbody>
               {SIZES.map((size) => (
-                <tr key={size} className='border-b border-line-strong last:border-0'>
-                  <th scope='row' className='py-2 pe-3 text-start font-bold'>
-                    {tAll(`Sizes.${size}`)}
+                <tr key={size}>
+                  <th scope='row' className='pe-1 text-start font-display text-caption font-bold sm:text-body-sm'>
+                    <span className='flex items-center gap-1.5 sm:gap-2'>
+                      <GridGlyph size={size} />
+                      {tAll(`Sizes.${size}`)}
+                    </span>
                   </th>
                   {DIFFICULTIES.map((difficulty) => (
-                    <td key={difficulty} className='px-3 py-2 text-end tabular-nums'>
-                      {format.number(puzzleCredits(size, difficulty))}
+                    <td key={difficulty} className='p-0'>
+                      <span
+                        className={cn(
+                          'flex items-center justify-center gap-1 rounded-xl border-2 px-1 py-2 shadow-chunky sm:px-2 sm:py-2.5',
+                          DIFFICULTY_TONES[difficulty].tile
+                        )}
+                      >
+                        <Coins aria-hidden className='hidden size-4 shrink-0 text-coral-600 sm:block' />
+                        <span className='font-display text-body leading-none font-extrabold tabular-nums sm:text-h3'>
+                          {format.number(puzzleCredits(size, difficulty))}
+                        </span>
+                      </span>
                     </td>
                   ))}
                 </tr>

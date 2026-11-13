@@ -2,6 +2,7 @@ import type { Metadata } from 'next'
 import { notFound } from 'next/navigation'
 import { getTranslations } from 'next-intl/server'
 import { currentLocale, pageMetadata } from '@i18n/metadata'
+import { displayWord } from '@constants/alphabet'
 import { TOPICS } from '@constants/puzzle'
 import { ROUTES, TOPIC_SLUGS, topicFromSlug, topicPath } from '@constants/routes'
 import { TOPIC_STYLES } from '@constants/topicStyles'
@@ -85,7 +86,7 @@ export default async function TopicPage({ params }: Props) {
                 </p>
                 <details className='mt-2'>
                   <summary className='text-body-sm font-bold text-teal-700'>{t('showAnswer')}</summary>
-                  <p className='mt-1 font-display text-h3 font-extrabold tracking-wider uppercase'>{word}</p>
+                  <p className='mt-1 font-display text-h3 font-extrabold tracking-wider'>{displayWord(word, locale)}</p>
                 </details>
               </li>
             ))}

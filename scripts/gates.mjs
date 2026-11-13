@@ -49,6 +49,13 @@ const GATES = [
     excludeLine: /text-caption/,
   },
   {
+    name: 'no CSS uppercase on pool words',
+    why: 'the topic pages show answers from the pool: print them through displayWord (constants/alphabet.ts), or և becomes ԵՒ',
+    root: 'src/app/[lang]/topics',
+    exts: TSX,
+    pattern: /\buppercase\b|text-transform/,
+  },
+  {
     name: 'no Tailwind `2xl:` breakpoint',
     why: "globals.css resets Tailwind's scale; only sm/md/lg/xl exist",
     root: 'src',

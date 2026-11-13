@@ -1,15 +1,17 @@
 'use client'
 
-import { type CSSProperties, useEffect, useRef } from 'react'
+import { type CSSProperties, type KeyboardEvent, memo, useEffect, useRef } from 'react'
 import { ArrowDown, ArrowRight, CornerDownRight, CornerRightDown } from 'lucide-react'
 import { useTranslations } from 'next-intl'
 import { usePlayStore, usePlayStoreBase } from '@store/puzzle/play/store'
 import { usePuzzleKeys } from '@hooks/usePuzzleKeys'
+import { getDirection } from '@i18n/config'
 import { displayCell } from '@constants/alphabet'
 import type { Arrow, PuzzleView } from '@constants/puzzle'
 import { cn } from '@helpers/cn'
 import { hasMark, MARK_LOCKED, MARK_REVEALED, MARK_WRONG } from '@helpers/puzzle/check'
 import { activeWord } from '@helpers/puzzle/cursor'
+import type { PuzzleModel } from '@helpers/puzzle/model'
 import { cellPosition } from '@helpers/puzzle/model'
 
 /**
@@ -20,6 +22,9 @@ import { cellPosition } from '@helpers/puzzle/model'
  * (`cqi` units), so the same markup fits a phone, a tablet and a desktop without measuring.
  * A cell's state never rests on colour alone: wrong letters are struck through, revealed ones
  * carry a corner flag, the cursor has a thick ring.
+ *
+ * Letter cells are memoized (`LetterCell`) with primitive props: a keystroke re-renders the few
+ * cells it changed, not every cell with its translated label.
  */
 export const ARROW_ICONS: Record<Arrow, typeof ArrowRight> = {
   right: ArrowRight,
@@ -83,23 +88,6 @@ export const Grid = ({ className, focusOnOpen = false }: GridProps) => {
   const completedCells = completedWord !== null ? model.wordCells[completedWord] : undefined
   const rows = Array.from({ length: puzzle.height }, (_, row) => row)
 
-  const labelFor = (cell: number): string => {
-    const { row, col } = cellPosition(cell, puzzle.width)
-    const words = [model.across[cell]!, model.down[cell]!]
-      .filter((id) => id >= 0)
-      .map((id) => wordLabel(t, puzzle, id, model.wordCells[id]!.indexOf(cell) + 1))
-      .join('; ')
-    const entry = entries[cell]
-    const state = [
-      hasMark(marks, cell, MARK_WRONG) && t('cell.wrong'),
-      hasMark(marks, cell, MARK_REVEALED) && t('cell.revealed'),
-    ]
-      .filter(Boolean)
-      .join(', ')
-    const letter = entry ? displayCell(entry, puzzle.locale) : t('cell.empty')
-    return [t('cell.position', { row, col }), words, letter, state].filter(Boolean).join('. ')
-  }
-
   return (
     <div
       ref={gridRef}
@@ -109,6 +97,8 @@ export const Grid = ({ className, focusOnOpen = false }: GridProps) => {
       aria-colcount={puzzle.width}
       aria-describedby='active-clue'
       lang={puzzle.locale}
+      // The puzzle's own direction, as the arrow keys use (`usePuzzleKeys`); the zoom frame around it is LTR.
+      dir={getDirection(puzzle.locale)}
       className={cn('@container mx-auto w-full select-none', className)}
       style={{ '--cols': puzzle.width, aspectRatio: `${puzzle.width} / ${puzzle.height}` } as CSSProperties}
     >
@@ -183,62 +173,23 @@ export const Grid = ({ className, focusOnOpen = false }: GridProps) => {
                 )
               }
 
-              const entry = entries[cell]
-              const isCursor = cell === cursor.cell
-              const inWord = wordCells.has(cell)
-              const wrong = hasMark(marks, cell, MARK_WRONG)
-              const revealed = hasMark(marks, cell, MARK_REVEALED)
-              const locked = hasMark(marks, cell, MARK_LOCKED)
-              const waveIndex = completedCells?.indexOf(cell) ?? -1
-
               return (
-                <div
+                <LetterCell
                   key={col}
-                  role='gridcell'
-                  aria-colindex={col + 1}
-                  aria-selected={isCursor}
-                  aria-label={labelFor(cell)}
-                  data-cell={cell}
-                  tabIndex={isCursor ? 0 : -1}
-                  onClick={() => select(cell)}
+                  puzzle={puzzle}
+                  model={model}
+                  cell={cell}
+                  col={col}
+                  entry={entries[cell] ?? ''}
+                  isCursor={cell === cursor.cell}
+                  inWord={wordCells.has(cell)}
+                  wrong={hasMark(marks, cell, MARK_WRONG)}
+                  revealed={hasMark(marks, cell, MARK_REVEALED)}
+                  locked={hasMark(marks, cell, MARK_LOCKED)}
+                  waveIndex={completedCells?.indexOf(cell) ?? -1}
+                  onSelect={select}
                   onKeyDown={onKeyDown}
-                  onCompositionEnd={(event) => {
-                    const data = event.data
-                    if (!data) return
-                    for (const char of data) usePlayStoreBase.getState().type(char)
-                  }}
-                  className={cn(
-                    'relative flex cursor-pointer items-center justify-center rounded-[16%] border-[0.35cqi] border-ink-900 font-display font-bold text-ink-900 shadow-[0_0.4cqi_0_0_var(--color-ink-300)] outline-none transition-colors duration-150',
-                    !inWord && !wrong && (locked && !revealed ? 'bg-mint-100' : 'bg-white'),
-                    inWord && !isCursor && 'bg-sun-200',
-                    isCursor && 'z-10 bg-sun-400 ring-[0.8cqi] ring-ink-900 ring-offset-0',
-                    wrong && !isCursor && 'bg-rose-100',
-                    wrong && 'cell-strike',
-                    revealed && 'cell-flag text-lavender-700',
-                    'focus-visible:ring-[0.8cqi] focus-visible:ring-sky-500'
-                  )}
-                  style={{ fontSize: 'calc(100cqi / var(--cols) * 0.52)' }}
-                >
-                  {puzzle.format === 'classic' && view.n !== undefined && (
-                    <span
-                      aria-hidden
-                      className='absolute inset-s-[8%] top-[4%] leading-none font-sans font-bold text-ink-700'
-                      style={{ fontSize: 'calc(100cqi / var(--cols) * 0.22)' }}
-                    >
-                      {view.n}
-                    </span>
-                  )}
-                  {entry && (
-                    <span
-                      key={entry}
-                      aria-hidden
-                      className={cn('leading-none', waveIndex >= 0 ? 'animate-wave' : 'animate-pop')}
-                      style={waveIndex >= 0 ? { animationDelay: `${waveIndex * 45}ms` } : undefined}
-                    >
-                      {displayCell(entry, puzzle.locale)}
-                    </span>
-                  )}
-                </div>
+                />
               )
             })}
           </div>
@@ -247,6 +198,101 @@ export const Grid = ({ className, focusOnOpen = false }: GridProps) => {
     </div>
   )
 }
+
+type LetterCellProps = {
+  puzzle: PuzzleView
+  model: PuzzleModel
+  cell: number
+  col: number
+  /** The letter token typed into it, '' when empty. */
+  entry: string
+  isCursor: boolean
+  inWord: boolean
+  wrong: boolean
+  revealed: boolean
+  locked: boolean
+  /** Its place in the word just completed (the wave), -1 when none. */
+  waveIndex: number
+  onSelect: (cell: number) => void
+  onKeyDown: (event: KeyboardEvent<HTMLElement>) => void
+}
+
+const LetterCell = memo(function LetterCell({
+  puzzle,
+  model,
+  cell,
+  col,
+  entry,
+  isCursor,
+  inWord,
+  wrong,
+  revealed,
+  locked,
+  waveIndex,
+  onSelect,
+  onKeyDown,
+}: LetterCellProps) {
+  const t = useTranslations('Play')
+  const view = puzzle.cells[cell]!
+  const number = view.k === 'L' ? view.n : undefined
+  const { row, col: column } = cellPosition(cell, puzzle.width)
+  const words = [model.across[cell]!, model.down[cell]!]
+    .filter((id) => id >= 0)
+    .map((id) => wordLabel(t, puzzle, id, model.wordCells[id]!.indexOf(cell) + 1))
+    .join('; ')
+  const state = [wrong && t('cell.wrong'), revealed && t('cell.revealed')].filter(Boolean).join(', ')
+  const letter = entry ? displayCell(entry, puzzle.locale) : t('cell.empty')
+  const label = [t('cell.position', { row, col: column }), words, letter, state].filter(Boolean).join('. ')
+
+  return (
+    <div
+      role='gridcell'
+      aria-colindex={col + 1}
+      aria-selected={isCursor}
+      aria-label={label}
+      data-cell={cell}
+      tabIndex={isCursor ? 0 : -1}
+      onClick={() => onSelect(cell)}
+      onKeyDown={onKeyDown}
+      onCompositionEnd={(event) => {
+        const data = event.data
+        if (!data) return
+        for (const char of data) usePlayStoreBase.getState().type(char)
+      }}
+      className={cn(
+        'relative flex cursor-pointer items-center justify-center rounded-[16%] border-[0.35cqi] border-ink-900 font-display font-bold text-ink-900 shadow-[0_0.4cqi_0_0_var(--color-ink-300)] outline-none transition-colors duration-150',
+        !inWord && !wrong && (locked && !revealed ? 'bg-mint-100' : 'bg-white'),
+        inWord && !isCursor && 'bg-sun-200',
+        isCursor && 'z-10 bg-sun-400 ring-[0.8cqi] ring-ink-900 ring-offset-0',
+        wrong && !isCursor && 'bg-rose-100',
+        wrong && 'cell-strike',
+        revealed && 'cell-flag text-lavender-700',
+        'focus-visible:ring-[0.8cqi] focus-visible:ring-sky-500'
+      )}
+      style={{ fontSize: 'calc(100cqi / var(--cols) * 0.52)' }}
+    >
+      {puzzle.format === 'classic' && number !== undefined && (
+        <span
+          aria-hidden
+          className='absolute inset-s-[8%] top-[4%] leading-none font-sans font-bold text-ink-700'
+          style={{ fontSize: 'calc(100cqi / var(--cols) * 0.22)' }}
+        >
+          {number}
+        </span>
+      )}
+      {entry !== '' && (
+        <span
+          key={entry}
+          aria-hidden
+          className={cn('leading-none', waveIndex >= 0 ? 'animate-wave' : 'animate-pop')}
+          style={waveIndex >= 0 ? { animationDelay: `${waveIndex * 45}ms` } : undefined}
+        >
+          {displayCell(entry, puzzle.locale)}
+        </span>
+      )}
+    </div>
+  )
+})
 
 type Translate = ReturnType<typeof useTranslations<'Play'>>
 

@@ -1,7 +1,7 @@
 {
   "Common": {
     "appName": "Krzyżówki AI",
-    "tagline": "Darmowe krzyżówki i krzyżówki szwedzkie, pisane przez AI w twoim języku. Nowe słowa w każdej grze, bez powtórek.",
+    "tagline": "Krzyżówki i krzyżówki szwedzkie, pisane przez AI w twoim języku — pierwsza w każdym miesiącu za darmo. Nowe słowa w każdej grze, bez powtórek.",
     "skipToContent": "Przejdź do treści",
     "openMenu": "Otwórz menu",
     "menu": "Menu",
@@ -54,28 +54,28 @@
     "gotIt": "Rozumiem"
   },
   "Seo": {
-    "homeTitle": "Krzyżówka online za darmo — stwórz krzyżówkę po polsku",
-    "homeDescription": "Stwórz darmową krzyżówkę albo krzyżówkę szwedzką online. Wybierz temat — zwierzęta, jedzenie, geografia, historia, nauka, sport — i poziom. Każdy diagram przynosi nowe słowa. Działa też offline.",
+    "homeTitle": "Krzyżówka online — stwórz krzyżówkę po polsku, wypróbuj za darmo",
+    "homeDescription": "Stwórz krzyżówkę albo krzyżówkę szwedzką online — pierwsza w każdym miesiącu jest darmowa. Wybierz temat — zwierzęta, jedzenie, geografia, historia, nauka, sport — i poziom. Każdy diagram przynosi nowe słowa. Działa też offline.",
     "keywords": "krzyżówka, krzyżówki online, stwórz krzyżówkę, krzyżówka polska, generator krzyżówek, krzyżówka za darmo, krzyżówka szwedzka, krzyżówka zwierzęta, krzyżówka jedzenie, krzyżówka geografia, krzyżówka historia, krzyżówka nauka, krzyżówka sport",
-    "crosswordTitle": "Krzyżówki online za darmo",
-    "crosswordDescription": "Rozwiązuj darmowe krzyżówki online, pisane przez AI: numerowane hasła poziomo i pionowo, 12 tematów, trzy poziomy. Bez rejestracji, nowe słowa w każdej grze.",
-    "scanwordTitle": "Krzyżówki szwedzkie za darmo — hasła w diagramie",
-    "scanwordDescription": "Rozwiązuj darmowe krzyżówki szwedzkie: hasła siedzą w diagramie, a strzałka wskazuje odpowiedź. Pisane przez AI, bez rejestracji, na telefonie, tablecie albo komputerze.",
+    "crosswordTitle": "Krzyżówki online — wypróbuj za darmo",
+    "crosswordDescription": "Rozwiązuj krzyżówki online, pisane przez AI: numerowane hasła poziomo i pionowo, 12 tematów, trzy poziomy. Pierwszy diagram w miesiącu za darmo i bez rejestracji, nowe słowa w każdej grze.",
+    "scanwordTitle": "Krzyżówki szwedzkie online — hasła w diagramie",
+    "scanwordDescription": "Rozwiązuj krzyżówki szwedzkie: hasła siedzą w diagramie, a strzałka wskazuje odpowiedź. Pisane przez AI, na telefonie, tablecie albo komputerze — pierwszy diagram w miesiącu za darmo.",
     "topicsTitle": "Tematy krzyżówek: zwierzęta, jedzenie, geografia i inne",
     "topicsDescription": "Wybierz temat następnej krzyżówki albo krzyżówki szwedzkiej: przyroda, zwierzęta, jedzenie, geografia, historia, nauka, sport, sztuka i inne.",
-    "topicTitle": "Krzyżówka: {topic} — darmowe diagramy online",
-    "topicDescription": "Darmowe krzyżówki i krzyżówki szwedzkie o temacie {topic}, układane przez AI. {description}",
+    "topicTitle": "Krzyżówka: {topic} — diagramy online pisane przez AI",
+    "topicDescription": "Krzyżówki i krzyżówki szwedzkie o temacie {topic}, układane przez AI; pierwsza w miesiącu za darmo. {description}",
     "historyTitle": "Moje diagramy",
     "historyDescription": "Krzyżówki i krzyżówki szwedzkie zaczęte na tym urządzeniu i jeszcze nieukończone, z zapisanym postępem.",
     "creditsTitle": "Kredyty i ceny",
-    "creditsDescription": "Jedna darmowa krzyżówka w miesiącu, a potem pakiety kredytów bez subskrypcji: ile kosztuje każda łamigłówka i jak kupić kredyty.",
+    "creditsDescription": "11 darmowych kredytów co miesiąc, a potem pakiety kredytów bez subskrypcji: ile kosztuje każda łamigłówka i jak kupić kredyty.",
     "paymentTitle": "Płatność",
     "rulesTitle": "Jak rozwiązywać krzyżówki i krzyżówki szwedzkie",
     "rulesDescription": "Jak rozwiązać tu krzyżówkę albo krzyżówkę szwedzką: wpisywanie, poruszanie się po diagramie, sprawdzanie i odkrywanie liter oraz skróty klawiatury.",
     "faqTitle": "Pytania: krzyżówki AI, języki i prywatność",
     "faqDescription": "Odpowiedzi o Krzyżówkach AI: czy to darmowe, jak AI pisze hasła, rozmiary, trudność, słowa które się nie powtarzają, gra offline, udostępnianie i prywatność.",
     "aboutTitle": "O nas — jak powstają krzyżówki AI",
-    "aboutDescription": "Dlaczego zrobiliśmy darmowy generator krzyżówek, który nigdy nie powtarza słowa, i jak AI pisze hasła od razu w danym języku.",
+    "aboutDescription": "Dlaczego zrobiliśmy generator krzyżówek, który nigdy nie powtarza słowa, i jak AI pisze hasła od razu w danym języku.",
     "privacyTitle": "Polityka prywatności",
     "privacyDescription": "Co Krzyżówki AI przechowują, gdzie i dlaczego — w tym konta i płatności, bez śledzenia Twojej tożsamości.",
     "termsTitle": "Zasady korzystania",
@@ -84,7 +84,7 @@
     "contactDescription": "Pytanie, pomysł albo błąd w krzyżówce? Napisz do nas, odpowiemy na e-mail.",
     "puzzleDescription": "Darmowy diagram od Krzyżówek AI — rozwiąż go w przeglądarce.",
     "sharedPuzzleDescription": "Darmowy diagram {size} {format, select, scanword {krzyżówka szwedzka} other {krzyżówka}} · {topic} · {difficulty} · {words, plural, one {# słowo} few {# słowa} many {# słów} other {# słowa}}. Napisany przez AI — rozwiąż go w przeglądarce, bez rejestracji.",
-    "ogImageAlt": "Krzyżówki AI — darmowe krzyżówki i krzyżówki szwedzkie w twoim języku",
+    "ogImageAlt": "Krzyżówki AI — krzyżówki i krzyżówki szwedzkie pisane przez AI w twoim języku",
     "ogPuzzleCta": "Dasz radę to rozwiązać?",
     "ogPuzzleMeta": "{size} · {words, plural, one {# słowo} few {# słowa} many {# słów} other {# słowa}}"
   },
@@ -179,12 +179,13 @@
     "credits": "{count, plural, one {# kredyt} few {# kredyty} many {# kredytów} other {# kredytu}}",
     "balance": "Twoje saldo: {count, plural, one {# kredyt} few {# kredyty} many {# kredytów} other {# kredytu}}",
     "cost": "Ta łamigłówka: {count, plural, one {# kredyt} few {# kredyty} many {# kredytów} other {# kredytu}}",
-    "freeNow": "Ta jest darmowa — to Twoja darmowa łamigłówka w tym miesiącu.",
+    "freeNow": "Ta łamigłówka mieści się w Twoich darmowych kredytach na ten miesiąc.",
     "youHave": "Masz {count, plural, one {# kredyt} few {# kredyty} many {# kredytów} other {# kredytu}}.",
     "notEnough": "Za mało kredytów na tę łamigłówkę.",
-    "guestUsed": "Wykorzystałeś już darmową łamigłówkę w tym miesiącu. Zaloguj się, aby dostać jeszcze jedną darmową co miesiąc i kupować kredyty.",
-    "refusedSignIn": "Darmowa łamigłówka na ten miesiąc została wykorzystana. Zaloguj się, aby otrzymać kolejną i kupować kredyty.",
+    "guestUsed": "Wykorzystałeś już darmowe kredyty na ten miesiąc. Zaloguj się, aby co miesiąc dostawać dodatkowo {count, plural, one {# darmowy kredyt} few {# darmowe kredyty} many {# darmowych kredytów} other {# darmowego kredytu}} i kupować kredyty.",
+    "refusedSignIn": "Twoje darmowe kredyty nie wystarczą na tę łamigłówkę. Zaloguj się, aby co miesiąc dostawać dodatkowo {count, plural, one {# darmowy kredyt} few {# darmowe kredyty} many {# darmowych kredytów} other {# darmowego kredytu}} i kupować kredyty.",
     "refusedCredits": "Za mało kredytów na tę łamigłówkę. Doładuj konto, aby grać dalej.",
+    "refusedFreeBusy": "Darmowe kredyty są na chwilę wstrzymane, bo w ostatniej godzinie powstało z nich bardzo dużo łamigłówek. Spróbuj ponownie później.",
     "signIn": "Zaloguj się",
     "buyCredits": "Kup kredyty"
   },
@@ -193,7 +194,7 @@
       "eyebrow": "Wypróbuj za darmo · Bez subskrypcji · Działa offline",
       "title": "Krzyżówki, które są <mark>zawsze nowe</mark>",
       "subtitle": "Wybierz temat i trudność — AI napisze hasła w twoim języku, a to samo słowo nie wróci drugi raz.",
-      "lede": "Stwórz darmową krzyżówkę online, bez rejestracji. Tematy od zwierząt, jedzenia i geografii po historię, naukę, sport, sztukę, dom, zawody i polską kulturę — albo wszystkie naraz."
+      "lede": "Stwórz krzyżówkę online — pierwsza w każdym miesiącu za darmo, bez rejestracji. Tematy od zwierząt, jedzenia i geografii po historię, naukę, sport, sztukę, dom, zawody i polską kulturę — albo wszystkie naraz."
     },
     "continueTitle": "Wróć tam, gdzie przerwałeś",
     "formatsTitle": "Dwa sposoby gry",
@@ -221,7 +222,7 @@
     "topicsSubtitle": "Od ptaków za oknem po znane rzeki — albo wszystko naraz.",
     "faqTitle": "Pytania i odpowiedzi",
     "faq1Question": "Czy Krzyżówki AI są darmowe?",
-    "faq1Answer": "Twoja pierwsza łamigłówka w każdym miesiącu jest darmowa bez rejestracji, a zalogowanie się dodaje kolejną. Potem łamigłówki kosztują kredyty, kupowane jednorazowo bez subskrypcji. Gra w łamigłówkę udostępnioną przez kogoś jest zawsze darmowa.",
+    "faq1Answer": "Co miesiąc dostajesz 11 darmowych kredytów — wystarczy na średnią łamigłówkę — bez rejestracji, a zalogowanie się dodaje kolejne 11. Potem łamigłówki kosztują kredyty, kupowane jednorazowo bez subskrypcji. Gra w łamigłówkę udostępnioną przez kogoś jest zawsze darmowa.",
     "faq2Question": "Czy zobaczę te same słowa jeszcze raz?",
     "faq2Answer": "Nie. Urządzenie trzyma listę słów już pokazanych i pomija je w każdym nowym diagramie. Jeśli wyczyścisz dane strony w przeglądarce, lista zaczyna się od nowa.",
     "faq3Question": "W jakich językach można grać?",
@@ -240,7 +241,7 @@
       "title": "Klasyczna krzyżówka, <mark>ułożona dla ciebie</mark>",
       "plainTitle": "Krzyżówka AI",
       "subtitle": "Numerowane hasła poziomo i pionowo, diagram rosnący od środka i słowa, których jeszcze nie widziałeś.",
-      "lede": "Zagraj w darmową klasyczną krzyżówkę online: numerowane hasła poziomo i pionowo, w tematach zwierzęta, jedzenie, geografia, historia, nauka i sport."
+      "lede": "Zagraj w klasyczną krzyżówkę online: numerowane hasła poziomo i pionowo, w tematach zwierzęta, jedzenie, geografia, historia, nauka i sport."
     },
     "rulesTitle": "Jak działa krzyżówka",
     "rule1": "Każde białe pole mieści jedną literę. Słowa idą poziomo (od lewej do prawej) i pionowo (z góry na dół) i się krzyżują.",
@@ -264,7 +265,7 @@
       "title": "Szwedzkie z hasłami <mark>w diagramie</mark>",
       "plainTitle": "Szwedzka AI",
       "subtitle": "Żadnych list do przeszukiwania: każde hasło siedzi we własnym polu, ze strzałką do odpowiedzi.",
-      "lede": "Zagraj w darmową krzyżówkę szwedzką online: hasła siedzą w diagramie. Te same tematy co w krzyżówce — zwierzęta, jedzenie, geografia, historia, nauka, sport i inne."
+      "lede": "Zagraj w krzyżówkę szwedzką online: hasła siedzą w diagramie. Te same tematy co w krzyżówce — zwierzęta, jedzenie, geografia, historia, nauka, sport i inne."
     },
     "rulesTitle": "Jak działa krzyżówka szwedzka",
     "rule1": "Zabarwione pola mieszczą hasła. Strzałka obok hasła pokazuje, gdzie zaczyna się odpowiedź i w którą stronę biegnie.",
@@ -297,6 +298,12 @@
   "Auth": {
     "signIn": "Zaloguj się",
     "signOut": "Wyloguj się",
+    "signOutConfirm": {
+      "title": "Wylogować się?",
+      "text": "Możesz zalogować się ponownie w każdej chwili. Kredyty i zakupy zostaną na Twoim koncie.",
+      "confirm": "Wyloguj się",
+      "cancel": "Nie teraz"
+    },
     "signInTitle": "Logowanie",
     "signInSubtitle": "Użyj Google albo e-maila i hasła do konta.",
     "signUpTitle": "Załóż konto",
@@ -332,6 +339,7 @@
     "resent": "Wysłane ponownie.",
     "forgotSent": "Jeśli konto używa tego adresu, link jest w drodze.",
     "invalidCredentials": "Ten e-mail i hasło do siebie nie pasują.",
+    "tooManyAttempts": "Za dużo prób w krótkim czasie. Odczekaj kilka minut i spróbuj ponownie.",
     "googleOnly": "To konto loguje się przez Google.",
     "emailNotVerified": "Najpierw potwierdź e-mail. Link jest w skrzynce.",
     "emailTaken": "Konto z tym e-mailem już istnieje.",
@@ -363,6 +371,12 @@
     "keepSolving": "Rozwiązuj dalej",
     "leave": "Wyjdź",
     "newPuzzle": "Nowy diagram",
+    "newPuzzleConfirm": {
+      "title": "Ułożyć nowy diagram?",
+      "text": "Ten sam format, temat i poziom trudności co ten.",
+      "create": "Ułóż",
+      "cancel": "Nie teraz"
+    },
     "allClues": "Wszystkie hasła",
     "across": "Poziomo",
     "down": "Pionowo",
@@ -539,15 +553,15 @@
           },
           {
             "question": "Czy Krzyżówki AI są darmowe?",
-            "answer": "Częściowo. Twoja pierwsza łamigłówka w miesiącu jest darmowa bez rejestracji, a zalogowanie się dodaje drugą darmową każdego miesiąca. Poza tym łamigłówki są płatne kredytami: kupujesz pakiet jednorazowo — nie ma subskrypcji, kredyty nigdy nie wygasają i nie ma reklam. Gra w łamigłówkę udostępnioną przez kogoś jest zawsze darmowa."
+            "answer": "Częściowo. Co miesiąc dostajesz 11 darmowych kredytów — wystarczy na średnią łamigłówkę — bez rejestracji, a zalogowanie się dodaje kolejne 11 każdego miesiąca. Darmowe kredyty nie przechodzą na następny miesiąc. Poza tym łamigłówki są płatne kupionymi kredytami: kupujesz pakiet jednorazowo — nie ma subskrypcji, kupione kredyty nigdy nie wygasają i nie ma reklam. Gra w łamigłówkę udostępnioną przez kogoś jest zawsze darmowa."
           },
           {
             "question": "Czy potrzebuję konta?",
-            "answer": "Nie do darmowej łamigłówki w miesiącu: Twoje postępy, ustawienia i już widziane słowa są zapisywane w przeglądarce. Konto dodaje drugą darmową łamigłówkę każdego miesiąca oraz pozwala kupować i zachowywać kredyty."
+            "answer": "Nie do 11 darmowych kredytów w miesiącu: Twoje postępy, ustawienia i już widziane słowa są zapisywane w przeglądarce. Konto dodaje kolejne 11 darmowych kredytów każdego miesiąca oraz pozwala kupować i zachowywać kredyty."
           },
           {
             "question": "Ile kosztuje łamigłówka?",
-            "answer": "Mała łamigłówka kosztuje 5 kredytów, średnia 10, a duża 15; średni poziom trudności dodaje 1 kredyt, a trudny 2. Kredyty są dostępne w pakietach: 200 za 4,99 USD, 600 za 11,99 USD i 2000 za 29,99 USD. Przy kasie zobaczysz cenę w swojej walucie, z uwzględnieniem podatku, jeśli dotyczy."
+            "answer": "Mała łamigłówka kosztuje 5 kredytów, średnia 10, a duża 15; średni poziom trudności dodaje 1 kredyt, a trudny 2. Twoje 11 darmowych kredytów w miesiącu wystarcza na średnią łamigłówkę o średnim poziomie trudności. Kredyty są dostępne w pakietach: 200 za 4,99 USD, 600 za 11,99 USD i 2000 za 29,99 USD. Przy kasie zobaczysz cenę w swojej walucie, z uwzględnieniem podatku, jeśli dotyczy."
           },
           {
             "question": "Kto stoi za Krzyżówkami AI?",
@@ -641,7 +655,7 @@
   },
   "About": {
     "title": "O Krzyżówkach AI",
-    "subtitle": "Darmowy generator diagramów, który pisze w twoim języku i nigdy nie podaje dwa razy tego samego słowa.",
+    "subtitle": "Generator diagramów, który pisze w twoim języku i nigdy nie podaje dwa razy tego samego słowa.",
     "sections": [
       {
         "title": "Dlaczego to zrobiliśmy",
@@ -678,7 +692,7 @@
         "title": "Na naszym serwerze",
         "paragraphs": [
           "Przechowujemy utworzone łamigłówki, aby udostępniony link otwierał tę samą siatkę. Gdy zgłaszasz definicję, zachowujemy zgłoszenie z jednokierunkowym hashem Twojego adresu IP, tylko po to, by jedna osoba nie mogła sama wycofać hasła. Liczymy też anonimowo, jak rozgrywane są łamigłówki (rozwiązane, które słowa zostały odkryte), aby dostosować poziom trudności.",
-          "Aby przyznać każdemu urządzeniu darmową łamigłówkę w miesiącu, strona ustawia plik cookie z losowym identyfikatorem. Przy każdej darmowej łamigłówce zachowujemy ten identyfikator oraz jednokierunkowy hash Twojego adresu IP."
+          "Aby przyznać każdemu urządzeniu darmowe kredyty na dany miesiąc, strona ustawia plik cookie z losowym identyfikatorem. Przy każdej łamigłówce opłaconej darmowymi kredytami zachowujemy ten identyfikator oraz jednokierunkowy hash Twojego adresu IP."
         ]
       },
       {
@@ -702,7 +716,8 @@
       {
         "title": "Analityka i raporty o błędach",
         "paragraphs": [
-          "Jeśli wyrazisz zgodę, używamy Google Analytics do zliczania odsłon oraz Sentry do odbierania raportów o błędach. Żadne z nich nie służy do Twojej identyfikacji."
+          "Za Twoją zgodą Google Analytics zlicza odsłony i zapisuje swoje pliki cookie, żeby odróżniać wizyty; bez zgody analityka działa bez plików cookie. Decyzję możesz zmienić w każdej chwili pod linkiem „Ustawienia cookie” na dole każdej strony. Sentry otrzymuje raporty o błędach bez danych osobowych. Żadne z tych narzędzi nie służy do reklam ani profilowania.",
+          "Strony w niektórych językach ładują czcionkę z Google Fonts, które przy tym żądaniu otrzymuje Twój adres IP."
         ]
       }
     ]
@@ -718,10 +733,10 @@
         ]
       },
       {
-        "title": "Darmowe łamigłówki i kredyty",
+        "title": "Darmowe i kupione kredyty",
         "paragraphs": [
-          "Każde urządzenie otrzymuje jedną darmową łamigłówkę w miesiącu kalendarzowym, a każde konto jeszcze jedną. Inne łamigłówki są opłacane kredytami, po cenie pokazanej przed utworzeniem; opłata za łamigłówkę jest pobierana tylko przy jej wygenerowaniu, a otwarcie zapisanej jest darmowe.",
-          "Kredyty kupuje się w pakietach za pomocą jednorazowej płatności — nie ma subskrypcji — i nigdy nie wygasają. Nie mają wartości gotówkowej i nie można ich przenosić."
+          "Każde urządzenie otrzymuje 11 darmowych kredytów w każdym miesiącu kalendarzowym, a każde konto kolejne 11. Darmowe kredyty są wykorzystywane przed kupionymi i nie przechodzą na następny miesiąc. Łamigłówki są opłacane kredytami, po cenie pokazanej przed utworzeniem; opłata za łamigłówkę jest pobierana tylko przy jej wygenerowaniu, a otwarcie zapisanej jest darmowe.",
+          "Kredyty kupuje się w pakietach za pomocą jednorazowej płatności — nie ma subskrypcji — a kupione kredyty nigdy nie wygasają. Kredyty nie mają wartości gotówkowej i nie można ich przenosić."
         ]
       },
       {
@@ -752,12 +767,11 @@
   },
   "Credits": {
     "title": "Kredyty",
-    "subtitle": "Jedna darmowa łamigłówka co miesiąc. Potem płać tylko za łamigłówki, które tworzysz — bez subskrypcji, a kredyty nigdy nie wygasają.",
+    "subtitle": "11 darmowych kredytów co miesiąc — wystarczy na średnią łamigłówkę. Potem płać tylko za łamigłówki, które tworzysz — bez subskrypcji, a kupione kredyty nigdy nie wygasają.",
     "balanceTitle": "Twoje saldo",
-    "freeAvailable": "Twoja darmowa łamigłówka w tym miesiącu czeka.",
-    "freeUsed": "Darmowa łamigłówka na ten miesiąc została wykorzystana. Następna pojawi się {date}.",
-    "guestTitle": "Zyskaj więcej darmowych łamigłówek",
-    "guestText": "Zaloguj się, aby otrzymywać darmową łamigłówkę co miesiąc na swoim koncie i kupować kredyty.",
+    "freeAvailable": "W tym {count, plural, one {# darmowy kredyt} few {# darmowe kredyty} many {# darmowych kredytów} other {# darmowego kredytu}} na ten miesiąc. Darmowe kredyty odnowią się {date}.",
+    "freeUsed": "Darmowe kredyty na ten miesiąc zostały wykorzystane. Następne pojawią się {date}: {count, plural, one {# kredyt} few {# kredyty} many {# kredytów} other {# kredytu}}.",
+    "guestText": "Zaloguj się, aby co miesiąc otrzymywać na swoim koncie dodatkowo {count, plural, one {# darmowy kredyt} few {# darmowe kredyty} many {# darmowych kredytów} other {# darmowego kredytu}} i kupować kredyty.",
     "pricesTitle": "Ile kosztuje łamigłówka",
     "pricesText": "W kredytach, według rozmiaru i trudności. Otwarcie łamigłówki udostępnionej przez kogoś lub z Twojej historii jest zawsze darmowe.",
     "size": "Rozmiar",
@@ -805,5 +819,13 @@
     "sentText": "Dziękujemy. Odpowiemy na e-mail, gdy tylko będziemy mogli.",
     "sendAnother": "Napisz kolejną wiadomość",
     "tooMany": "To za dużo wiadomości. Spróbuj ponownie za chwilę."
+  },
+  "Consent": {
+    "label": "Zgoda na pliki cookie",
+    "text": "Chcielibyśmy używać plików cookie Google Analytics, żeby sprawdzać, jak używana jest strona. Bez reklam i profilowania. Dopóki nie wyrazisz zgody, analityka działa bez plików cookie.",
+    "privacy": "Polityka prywatności",
+    "accept": "Akceptuję",
+    "decline": "Odrzucam",
+    "settings": "Ustawienia cookie"
   }
 }

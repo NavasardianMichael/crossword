@@ -12,6 +12,24 @@ export { isLocale, type Locale, LOCALES } from '@constants/puzzle'
 
 export const DEFAULT_LOCALE: Locale = 'en'
 
+/**
+ * Long-form copy that only server components read (page bodies, metadata, llms.txt). Left out
+ * of the catalogue sent to the browser — about 40% of it. `tests/unit/i18n/clientMessages.spec.ts`
+ * fails if a client file starts using one.
+ */
+export const SERVER_ONLY_NAMESPACES: readonly string[] = [
+  'Faq',
+  'Seo',
+  'Privacy',
+  'Terms',
+  'About',
+  'Rules',
+  'CrosswordPage',
+  'ScanwordPage',
+  'TopicsPage',
+  'TopicPage',
+]
+
 /** The cookie an explicit switcher choice writes. Read by `src/proxy.ts`. */
 export const LOCALE_COOKIE = 'NEXT_LOCALE'
 

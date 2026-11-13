@@ -1,7 +1,7 @@
 {
   "Common": {
     "appName": "Crucigramas IA",
-    "tagline": "Crucigramas y autodefinidos gratis, escritos desde cero por inteligencia artificial y en tu idioma. Palabras nuevas en cada partida, sin repeticiones.",
+    "tagline": "Crucigramas y autodefinidos escritos desde cero por inteligencia artificial y en tu idioma; el primero de cada mes es gratis. Palabras nuevas en cada partida, sin repeticiones.",
     "skipToContent": "Saltar al contenido",
     "openMenu": "Abrir menú",
     "menu": "Menú",
@@ -54,28 +54,28 @@
     "gotIt": "Entendido"
   },
   "Seo": {
-    "homeTitle": "Haz un crucigrama online gratis: animales, comida, geografía, historia, ciencia y deporte",
-    "homeDescription": "Crea y haz un crucigrama o un autodefinido gratis, sin registro. Crucigramas de animales, comida, geografía, historia, ciencia y deporte, con palabras nuevas cada vez.",
+    "homeTitle": "Haz un crucigrama online, pruébalo gratis: animales, comida, geografía, historia, ciencia y deporte",
+    "homeDescription": "Crea y haz un crucigrama o un autodefinido online: el primero de cada mes es gratis y sin registro. Crucigramas de animales, comida, geografía, historia, ciencia y deporte, con palabras nuevas cada vez.",
     "keywords": "crucigrama, crucigramas, hacer un crucigrama, hacer crucigramas, crear un crucigrama, crear crucigrama, crucigrama online, crucigrama gratis, generador de crucigramas, autodefinido, crucigrama de animales, crucigrama de comida, crucigrama de geografía, crucigrama de historia, crucigrama de ciencia, crucigrama de deportes",
-    "crosswordTitle": "Crucigramas online gratis para resolver",
-    "crosswordDescription": "Resuelve crucigramas gratis escritos por inteligencia artificial: definiciones numeradas en horizontal y vertical, 12 temas y tres niveles. Sin registro y con palabras nuevas.",
-    "scanwordTitle": "Autodefinidos online gratis: las definiciones van en la cuadrícula",
-    "scanwordDescription": "Resuelve autodefinidos gratis: la definición está dentro de la casilla y una flecha señala la respuesta. Hechos por inteligencia artificial, sin registro, en el teléfono, la tableta o la computadora.",
+    "crosswordTitle": "Crucigramas online para resolver: pruébalos gratis",
+    "crosswordDescription": "Resuelve crucigramas escritos por inteligencia artificial: definiciones numeradas en horizontal y vertical, 12 temas y tres niveles. El primero de cada mes es gratis y sin registro, y siempre con palabras nuevas.",
+    "scanwordTitle": "Autodefinidos online: las definiciones van en la cuadrícula",
+    "scanwordDescription": "Resuelve autodefinidos online: la definición está dentro de la casilla y una flecha señala la respuesta. Hechos por inteligencia artificial, en el teléfono, la tableta o la computadora; el primero de cada mes es gratis.",
     "topicsTitle": "Crucigramas por temas: animales, comida, geografía y más",
     "topicsDescription": "Elige el tema de tu próximo crucigrama o autodefinido: naturaleza, animales, comida, geografía, historia, ciencia, deporte, arte y más.",
     "topicTitle": "Haz un crucigrama de {topic}: animales, comida, geografía, historia, ciencia y deporte",
-    "topicDescription": "Crucigramas y autodefinidos gratis de {topic}, creados por inteligencia artificial. {description}",
+    "topicDescription": "Crucigramas y autodefinidos de {topic}, creados por inteligencia artificial; el primero de cada mes es gratis. {description}",
     "historyTitle": "Mis crucigramas",
     "historyDescription": "Crucigramas y autodefinidos que empezaste en este dispositivo y aún no terminas, con el avance guardado.",
     "creditsTitle": "Créditos y precios",
-    "creditsDescription": "Un crucigrama gratis cada mes y luego paquetes de créditos sin suscripción: cuánto cuesta cada rompecabezas y cómo comprar créditos.",
+    "creditsDescription": "11 créditos gratis cada mes y luego paquetes de créditos sin suscripción: cuánto cuesta cada crucigrama y cómo comprar créditos.",
     "paymentTitle": "Pago",
     "rulesTitle": "Cómo resolver crucigramas y autodefinidos",
     "rulesDescription": "Cómo resolver un crucigrama o un autodefinido aquí: escribir, moverse por la cuadrícula, comprobar y revelar letras, y atajos de teclado.",
     "faqTitle": "Preguntas frecuentes: crucigramas con IA, idiomas y privacidad",
     "faqDescription": "Respuestas sobre Crucigramas IA: si es gratis, cómo escribe la inteligencia artificial, tamaños, dificultad, palabras que no se repiten, juego sin conexión y privacidad.",
     "aboutTitle": "Acerca de: cómo se hacen nuestros crucigramas con IA",
-    "aboutDescription": "Por qué hicimos un generador de crucigramas gratis que no repite palabras, y cómo la inteligencia artificial escribe las definiciones en cada idioma.",
+    "aboutDescription": "Por qué hicimos un generador de crucigramas que no repite palabras, y cómo la inteligencia artificial escribe las definiciones en cada idioma.",
     "privacyTitle": "Política de privacidad",
     "privacyDescription": "Qué guarda Crucigramas IA, dónde y por qué, incluidas las cuentas y los pagos, sin ningún tipo de rastreo personal.",
     "termsTitle": "Condiciones de uso",
@@ -84,7 +84,7 @@
     "contactDescription": "¿Una pregunta, una idea o un problema con un crucigrama? Escríbenos y te respondemos al correo.",
     "puzzleDescription": "Un pasatiempo gratis de Crucigramas IA: resuélvelo en el navegador.",
     "sharedPuzzleDescription": "Un {format, select, scanword {autodefinido} other {crucigrama}} gratis, {size} · {topic} · {difficulty} · {words, plural, one {# palabra} other {# palabras}}. Escrito por inteligencia artificial: resuélvelo en el navegador, sin registro.",
-    "ogImageAlt": "Crucigramas IA: crucigramas y autodefinidos gratis en tu idioma",
+    "ogImageAlt": "Crucigramas IA: crucigramas y autodefinidos escritos por IA en tu idioma",
     "ogPuzzleCta": "¿Puedes resolverlo?",
     "ogPuzzleMeta": "{size} · {words, plural, one {# palabra} other {# palabras}}"
   },
@@ -179,12 +179,13 @@
     "credits": "{count, plural, one {# crédito} other {# créditos}}",
     "balance": "Tu saldo: {count, plural, one {# crédito} other {# créditos}}",
     "cost": "Este crucigrama: {count, plural, one {# crédito} other {# créditos}}",
-    "freeNow": "Este es gratis: tu crucigrama gratuito del mes.",
+    "freeNow": "Lo cubren tus créditos gratis de este mes.",
     "youHave": "Tienes {count, plural, one {# crédito} other {# créditos}}.",
     "notEnough": "No tienes suficientes créditos para este crucigrama.",
-    "guestUsed": "Ya has usado el crucigrama gratis de este mes. Inicia sesión para conseguir uno más cada mes y comprar créditos.",
-    "refusedSignIn": "Ya usaste el crucigrama gratis de este mes. Inicia sesión para obtener otro y comprar créditos.",
+    "guestUsed": "Ya has usado los créditos gratis de este mes. Inicia sesión para conseguir {count, plural, one {# crédito gratis más} other {# créditos gratis más}} cada mes y comprar créditos.",
+    "refusedSignIn": "Tus créditos gratis no alcanzan para este crucigrama. Inicia sesión para conseguir {count, plural, one {# crédito gratis más} other {# créditos gratis más}} cada mes y comprar créditos.",
     "refusedCredits": "No tienes suficientes créditos para este crucigrama. Recarga para seguir jugando.",
+    "refusedFreeBusy": "Los créditos gratis están en pausa un rato: se han creado muchísimos crucigramas con ellos en la última hora. Vuelve a intentarlo más tarde.",
     "signIn": "Iniciar sesión",
     "buyCredits": "Comprar créditos"
   },
@@ -193,7 +194,7 @@
       "eyebrow": "Prueba gratis · Sin suscripción · Funciona sin conexión",
       "title": "Haz un crucigrama <mark>siempre nuevo</mark> de animales, comida, geografía, historia, ciencia y deporte",
       "subtitle": "Elige un tema y una dificultad: la inteligencia artificial escribe las definiciones en tu idioma y no repite la misma palabra dos veces.",
-      "lede": "Haz un crucigrama o un autodefinido online, gratis y sin registro. Los temas van de animales, comida y geografía a historia, ciencia, deporte, arte, casa, oficios y cultura hispana, o mézclalos todos."
+      "lede": "Haz un crucigrama o un autodefinido online: el primero de cada mes es gratis y sin registro. Los temas van de animales, comida y geografía a historia, ciencia, deporte, arte, casa, oficios y cultura hispana, o mézclalos todos."
     },
     "continueTitle": "Sigue donde lo dejaste",
     "formatsTitle": "Dos maneras de jugar",
@@ -221,7 +222,7 @@
     "topicsSubtitle": "De los pájaros del patio a los ríos famosos, o mezcla todos los temas.",
     "faqTitle": "Preguntas y respuestas",
     "faq1Question": "¿Crucigramas IA es gratis?",
-    "faq1Answer": "Tu primer crucigrama de cada mes es gratis sin registrarte, y si inicias sesión añades uno más. Después, los crucigramas cuestan créditos que se compran una sola vez, sin suscripciones. Jugar a un crucigrama que alguien haya compartido contigo es siempre gratis.",
+    "faq1Answer": "Cada mes recibes 11 créditos gratis (suficientes para un crucigrama mediano) sin registrarte, y si inicias sesión sumas 11 más. Después, los crucigramas cuestan créditos que se compran una sola vez, sin suscripciones. Jugar a un crucigrama que alguien haya compartido contigo es siempre gratis.",
     "faq2Question": "¿Voy a ver las mismas palabras otra vez?",
     "faq2Answer": "No. Tu dispositivo guarda la lista de palabras que ya te mostró y las deja fuera de cada crucigrama nuevo. Si borras los datos del sitio en el navegador, la lista empieza de cero.",
     "faq3Question": "¿En qué idiomas puedo jugar?",
@@ -240,7 +241,7 @@
       "title": "Un crucigrama clásico, <mark>hecho para ti</mark>",
       "plainTitle": "Crucigrama con IA",
       "subtitle": "Definiciones numeradas en horizontal y vertical, una cuadrícula que crece desde el centro y palabras que todavía no viste.",
-      "lede": "Haz un crucigrama clásico online y gratis: definiciones numeradas en horizontal y vertical, con temas de animales, comida, geografía, historia, ciencia y deporte."
+      "lede": "Haz un crucigrama clásico online: definiciones numeradas en horizontal y vertical, con temas de animales, comida, geografía, historia, ciencia y deporte."
     },
     "rulesTitle": "Cómo funciona un crucigrama",
     "rule1": "Cada casilla blanca lleva una letra. Las palabras van en horizontal (de izquierda a derecha) y en vertical (de arriba abajo), cruzándose.",
@@ -264,7 +265,7 @@
       "title": "Autodefinidos con las pistas <mark>dentro de la cuadrícula</mark>",
       "plainTitle": "Autodefinido con IA",
       "subtitle": "No hay listas que recorrer: cada definición está en su casilla, con una flecha hacia la respuesta.",
-      "lede": "Haz un autodefinido online y gratis: es un crucigrama con las definiciones dentro de la cuadrícula. Los mismos temas: animales, comida, geografía, historia, ciencia y deporte."
+      "lede": "Haz un autodefinido online: es un crucigrama con las definiciones dentro de la cuadrícula. Los mismos temas: animales, comida, geografía, historia, ciencia y deporte."
     },
     "rulesTitle": "Cómo funciona un autodefinido",
     "rule1": "Las casillas sombreadas llevan las definiciones. La flecha indica dónde empieza la respuesta y en qué dirección corre.",
@@ -297,6 +298,12 @@
   "Auth": {
     "signIn": "Entrar",
     "signOut": "Salir",
+    "signOutConfirm": {
+      "title": "¿Cerrar sesión?",
+      "text": "Puedes volver a entrar cuando quieras. Tus créditos y compras se quedan en tu cuenta.",
+      "confirm": "Salir",
+      "cancel": "Ahora no"
+    },
     "signInTitle": "Entrar",
     "signInSubtitle": "Usa Google, o el correo y la contraseña de tu cuenta.",
     "signUpTitle": "Crear una cuenta",
@@ -332,6 +339,7 @@
     "resent": "Enviado de nuevo.",
     "forgotSent": "Si hay una cuenta con ese correo, el enlace va en camino.",
     "invalidCredentials": "Ese correo y esa contraseña no coinciden.",
+    "tooManyAttempts": "Demasiados intentos en poco tiempo. Espera unos minutos y vuelve a intentarlo.",
     "googleOnly": "Esta cuenta entra con Google.",
     "emailNotVerified": "Primero confirma tu correo. El enlace está en tu bandeja.",
     "emailTaken": "Ya existe una cuenta con este correo.",
@@ -363,6 +371,12 @@
     "keepSolving": "Seguir resolviendo",
     "leave": "Salir",
     "newPuzzle": "Crucigrama nuevo",
+    "newPuzzleConfirm": {
+      "title": "¿Crear un crucigrama nuevo?",
+      "text": "Con el mismo formato, tema y dificultad que este.",
+      "create": "Crear",
+      "cancel": "Ahora no"
+    },
     "allClues": "Todas las definiciones",
     "across": "Horizontal",
     "down": "Vertical",
@@ -540,15 +554,15 @@
           },
           {
             "question": "¿Crucigramas IA es gratis?",
-            "answer": "En parte. Tu primer crucigrama de cada mes es gratis sin registrarte, y si inicias sesión se añade un segundo crucigrama gratis al mes. Más allá de eso, los crucigramas se pagan con créditos: compras un paquete una sola vez (no hay suscripciones, los créditos no caducan y no hay anuncios). Jugar a un crucigrama que alguien compartió contigo es siempre gratis."
+            "answer": "En parte. Cada mes recibes 11 créditos gratis (suficientes para un crucigrama mediano) sin registrarte, y si inicias sesión se suman 11 más al mes. Los créditos gratis no se acumulan para el mes siguiente. Más allá de eso, los crucigramas se pagan con créditos que compras: un paquete se compra una sola vez (no hay suscripciones, los créditos comprados no caducan y no hay anuncios). Jugar a un crucigrama que alguien compartió contigo es siempre gratis."
           },
           {
             "question": "¿Necesito una cuenta?",
-            "answer": "No para tu crucigrama gratis del mes: tu progreso, tus ajustes y las palabras que ya has visto se guardan en tu navegador. Una cuenta te da un segundo crucigrama gratis cada mes y te permite comprar créditos y conservarlos."
+            "answer": "No para tus 11 créditos gratis al mes: tu progreso, tus ajustes y las palabras que ya has visto se guardan en tu navegador. Una cuenta te da 11 créditos gratis más cada mes y te permite comprar créditos y conservarlos."
           },
           {
             "question": "¿Cuánto cuesta un crucigrama?",
-            "answer": "Un crucigrama pequeño cuesta 5 créditos, uno mediano 10 y uno grande 15; la dificultad media suma 1 crédito y la difícil suma 2. Los créditos se venden en paquetes de 200 por 4,99 $, 600 por 11,99 $ y 2000 por 29,99 $. En el pago se muestra el precio en tu moneda, con impuestos si corresponden."
+            "answer": "Un crucigrama pequeño cuesta 5 créditos, uno mediano 10 y uno grande 15; la dificultad media suma 1 crédito y la difícil suma 2. Tus 11 créditos gratis al mes alcanzan para un crucigrama mediano de dificultad media. Los créditos se venden en paquetes de 200 por 4,99 $, 600 por 11,99 $ y 2000 por 29,99 $. En el pago se muestra el precio en tu moneda, con impuestos si corresponden."
           },
           {
             "question": "¿Quién creó Crucigramas IA?",
@@ -642,7 +656,7 @@
   },
   "About": {
     "title": "Acerca de Crucigramas IA",
-    "subtitle": "Un generador de crucigramas gratis que escribe en tu idioma y no sirve la misma palabra dos veces.",
+    "subtitle": "Un generador de crucigramas que escribe en tu idioma y no sirve la misma palabra dos veces.",
     "sections": [
       {
         "title": "Por qué lo hicimos",
@@ -679,7 +693,7 @@
         "title": "En nuestro servidor",
         "paragraphs": [
           "Guardamos los crucigramas creados para que un enlace compartido abra la misma cuadrícula. Cuando reportas una pista guardamos el reporte con un código único no reversible de tu dirección IP, únicamente para evitar que una sola persona retire una pista por su cuenta. También contamos de forma anónima cómo se juegan los crucigramas (si se resuelven, qué palabras se revelaron) para ajustar la dificultad.",
-          "Para ofrecer a cada dispositivo su crucigrama gratis al mes, el sitio usa una cookie con un identificador aleatorio. Con cada crucigrama gratis guardamos ese identificador y un código no reversible de tu IP."
+          "Para dar a cada dispositivo sus créditos gratis del mes, el sitio usa una cookie con un identificador aleatorio. Con cada crucigrama pagado con créditos gratis guardamos ese identificador y un código no reversible de tu IP."
         ]
       },
       {
@@ -703,7 +717,8 @@
       {
         "title": "Analítica y reportes de errores",
         "paragraphs": [
-          "Si está activado, usamos Google Analytics para contar las visitas a las páginas y Sentry para recibir reportes de errores. Ninguno se usa para identificarte."
+          "Con tu consentimiento, Google Analytics cuenta las visitas a las páginas y guarda sus cookies para distinguir unas visitas de otras; sin él, la analítica funciona sin cookies. Puedes cambiar tu respuesta cuando quieras en «Configuración de cookies», al pie de cada página. Sentry recibe reportes de errores sin datos personales. Ninguno se usa para publicidad ni para crear perfiles.",
+          "Las páginas en algunos idiomas cargan su tipografía desde Google Fonts, que recibe tu dirección IP con esa solicitud."
         ]
       }
     ]
@@ -719,10 +734,10 @@
         ]
       },
       {
-        "title": "Crucigramas gratis y créditos",
+        "title": "Créditos gratis y comprados",
         "paragraphs": [
-          "Cada dispositivo obtiene un crucigrama gratis cada mes natural, y cada cuenta uno más. Los demás crucigramas se pagan con créditos, al precio mostrado antes de crearlos; solo se cobra al generarlo, y abrir un crucigrama guardado es siempre gratis.",
-          "Los créditos se compran en paquetes mediante un pago único (sin suscripción) y nunca caducan. No tienen valor en efectivo y no se pueden transferir."
+          "Cada dispositivo obtiene 11 créditos gratis cada mes natural, y cada cuenta 11 más. Los créditos gratis se gastan antes que los comprados y no se acumulan para el mes siguiente. Los crucigramas se pagan con créditos, al precio mostrado antes de crearlos; solo se cobra al generarlo, y abrir un crucigrama guardado es gratis.",
+          "Los créditos se compran en paquetes mediante un pago único (sin suscripción) y los créditos comprados nunca caducan. Los créditos no tienen valor en efectivo y no se pueden transferir."
         ]
       },
       {
@@ -753,12 +768,11 @@
   },
   "Credits": {
     "title": "Créditos",
-    "subtitle": "Un crucigrama gratis cada mes. Después, paga solo por los que generes: sin suscripción y los créditos no caducan.",
+    "subtitle": "11 créditos gratis cada mes, suficientes para un crucigrama mediano. Después, paga solo por los que generes: sin suscripción y los créditos comprados no caducan.",
     "balanceTitle": "Tu saldo",
-    "freeAvailable": "Tu crucigrama gratis de este mes te está esperando.",
-    "freeUsed": "Ya usaste el crucigrama gratis de este mes. El próximo estará disponible el {date}.",
-    "guestTitle": "Consigue más crucigramas gratis",
-    "guestText": "Inicia sesión para recibir un crucigrama gratis cada mes en tu cuenta y para comprar créditos.",
+    "freeAvailable": "Incluye {count, plural, one {# crédito gratis} other {# créditos gratis}} de este mes. Los créditos gratis se renuevan el {date}.",
+    "freeUsed": "Ya usaste los créditos gratis de este mes. El {date} {count, plural, one {llega # crédito gratis nuevo} other {llegan # créditos gratis nuevos}}.",
+    "guestText": "Inicia sesión para recibir {count, plural, one {# crédito gratis más} other {# créditos gratis más}} cada mes en tu cuenta y para comprar créditos.",
     "pricesTitle": "Cuánto cuesta un crucigrama",
     "pricesText": "En créditos, según el tamaño y la dificultad. Abrir un crucigrama que te hayan compartido o uno de tu historial es siempre gratis.",
     "size": "Tamaño",
@@ -806,5 +820,13 @@
     "sentText": "Gracias. Te responderemos al correo en cuanto podamos.",
     "sendAnother": "Escribir otro mensaje",
     "tooMany": "Son muchos mensajes. Prueba de nuevo un poco más tarde."
+  },
+  "Consent": {
+    "label": "Consentimiento de cookies",
+    "text": "Nos gustaría usar las cookies de Google Analytics para saber cómo se usa el sitio. Sin publicidad ni perfiles. Mientras no aceptes, la analítica funciona sin cookies.",
+    "privacy": "Política de privacidad",
+    "accept": "Aceptar",
+    "decline": "Rechazar",
+    "settings": "Configuración de cookies"
   }
 }

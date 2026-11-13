@@ -1,7 +1,7 @@
 {
   "Common": {
     "appName": "Chemshabongo AI",
-    "tagline": "Chemshabongo na skanwodi bure, zilizoandikwa upya kwa Kiswahili. Maneno mapya kila mchezo, bila kurudia.",
+    "tagline": "Chemshabongo na skanwodi zilizoandikwa upya kwa Kiswahili — ya kwanza kila mwezi ni bure. Maneno mapya kila mchezo, bila kurudia.",
     "skipToContent": "Ruka hadi maudhui",
     "openMenu": "Fungua menyu",
     "menu": "Menyu",
@@ -22,7 +22,7 @@
     "scanword": "Skanwodi",
     "topics": "Mada",
     "history": "Michezo yangu",
-    "credits": "Credits",
+    "credits": "Mikopo",
     "rules": "Jinsi ya kucheza",
     "faq": "Maswali",
     "about": "Kuhusu",
@@ -54,28 +54,28 @@
     "gotIt": "Nimeelewa"
   },
   "Seo": {
-    "homeTitle": "Chemshabongo ya Kiswahili Bure | Tengeneza Chemshabongo",
-    "homeDescription": "Tengeneza chemshabongo ya Kiswahili bure mtandaoni. Chagua wanyama, chakula, jiografia, historia, sayansi, michezo na zaidi. Maneno mapya kila mchezo, inafanya kazi nje ya mtandao.",
+    "homeTitle": "Chemshabongo ya Kiswahili | Tengeneza Chemshabongo, Jaribu Bure",
+    "homeDescription": "Tengeneza chemshabongo ya Kiswahili mtandaoni — ya kwanza kila mwezi ni bure. Chagua wanyama, chakula, jiografia, historia, sayansi, michezo na zaidi. Maneno mapya kila mchezo, inafanya kazi nje ya mtandao.",
     "keywords": "chemshabongo, tengeneza chemshabongo, chemshabongo ya kiswahili, chemshabongo bure, chemshabongo mtandaoni, wanyama, chakula, jiografia, historia, sayansi, michezo, chemshabongo ya wanyama, chemshabongo ya chakula, chemshabongo ya jiografia, chemshabongo ya historia, chemshabongo ya sayansi, chemshabongo ya michezo",
-    "crosswordTitle": "Chemshabongo Bure Mtandaoni",
-    "crosswordDescription": "Cheza chemshabongo bure mtandaoni, iliyoandikwa na AI: vidokezo vyenye namba kwa mlalo na wima, mada 12, viwango vitatu. Bila kujisajili, maneno mapya kila mchezo.",
-    "scanwordTitle": "Skanwodi Bure — Vidokezo Ndani ya Gridi",
-    "scanwordDescription": "Tatua skanwodi bure: vidokezo viko ndani ya gridi, vikiwa na mishale kuelekea majibu. Imeandikwa na AI, bila kujisajili, kwenye simu, kompyuta kibao au kompyuta.",
+    "crosswordTitle": "Chemshabongo Mtandaoni, Jaribu Bure",
+    "crosswordDescription": "Cheza chemshabongo mtandaoni, iliyoandikwa na AI: vidokezo vyenye namba kwa mlalo na wima, mada 12, viwango vitatu. Fumbo lako la kwanza kila mwezi ni bure, bila kujisajili.",
+    "scanwordTitle": "Skanwodi Mtandaoni — Vidokezo Ndani ya Gridi",
+    "scanwordDescription": "Tatua skanwodi: vidokezo viko ndani ya gridi, vikiwa na mishale kuelekea majibu. Imeandikwa na AI, kwenye simu, kompyuta kibao au kompyuta — fumbo la kwanza kila mwezi ni bure.",
     "topicsTitle": "Mada za Chemshabongo: Wanyama, Chakula, Jiografia na Zaidi",
     "topicsDescription": "Chagua mada ya chemshabongo au skanwodi ijayo: mazingira, wanyama, chakula, jiografia, historia, sayansi, michezo, sanaa na zaidi.",
-    "topicTitle": "{topic} — chemshabongo bure",
-    "topicDescription": "Chemshabongo na skanwodi za {topic} bure, zilizotengenezwa na AI. {description}",
+    "topicTitle": "{topic} — chemshabongo zilizoandikwa na AI",
+    "topicDescription": "Chemshabongo na skanwodi za {topic}, zilizotengenezwa na AI; ya kwanza kila mwezi ni bure. {description}",
     "historyTitle": "Michezo yangu",
     "historyDescription": "Chemshabongo na skanwodi ulizoanza kwenye kifaa hiki na hujamaliza, pamoja na maendeleo yaliyohifadhiwa.",
-    "creditsTitle": "Credits & prices",
-    "creditsDescription": "One free crossword every month, then credit packs with no subscription: what each puzzle costs, and how to buy credits.",
-    "paymentTitle": "Payment",
+    "creditsTitle": "Mikopo na bei",
+    "creditsDescription": "Mikopo 11 ya bure kila mwezi, kisha vifurushi vya mikopo bila usajili wa kila mwezi: bei ya kila fumbo, na jinsi ya kununua mikopo.",
+    "paymentTitle": "Malipo",
     "rulesTitle": "Jinsi ya Kucheza Chemshabongo na Skanwodi",
     "rulesDescription": "Jinsi ya kutatua chemshabongo au skanwodi hapa: kuandika, kusogea kwenye gridi, kukagua na kufichua herufi, na mikato ya kibodi.",
     "faqTitle": "Maswali: Chemshabongo ya AI, Lugha na Faragha",
     "faqDescription": "Majibu kuhusu Chemshabongo AI: je ni bure, AI huandikaje vidokezo, ukubwa wa gridi, ugumu, maneno yasiyorudiwa, kucheza nje ya mtandao, kushiriki na faragha.",
     "aboutTitle": "Kuhusu — Jinsi Chemshabongo za AI Hutengenezwa",
-    "aboutDescription": "Kwa nini tulitengeneza chemshabongo bure ambayo hairudii neno, na jinsi AI huandika vidokezo moja kwa moja katika kila lugha.",
+    "aboutDescription": "Kwa nini tulitengeneza chemshabongo ambayo hairudii neno, na jinsi AI huandika vidokezo moja kwa moja katika kila lugha.",
     "privacyTitle": "Sera ya faragha",
     "privacyDescription": "Kile ambacho Chemshabongo AI inahifadhi, wapi, na kwa nini — ikiwa ni pamoja na akaunti na malipo, bila kufuatilia wewe ni nani.",
     "termsTitle": "Masharti ya matumizi",
@@ -84,7 +84,7 @@
     "contactDescription": "Una swali, wazo, au tatizo kwenye fumbo? Tuandikie, tutajibu kwa barua pepe.",
     "puzzleDescription": "Mchezo bure kutoka Chemshabongo AI — utatue kwenye kivinjari chako.",
     "sharedPuzzleDescription": "{format, select, scanword {Skanwodi} other {Chemshabongo}} bure {size} · {topic} · {difficulty} · {words, plural, one {neno #} other {maneno #}}. Imeandikwa na AI — itatue kwenye kivinjari, bila kujisajili.",
-    "ogImageAlt": "Chemshabongo AI — chemshabongo na skanwodi bure katika lugha yako",
+    "ogImageAlt": "Chemshabongo AI — chemshabongo na skanwodi katika lugha yako",
     "ogPuzzleCta": "Je, unaweza kuitatua?",
     "ogPuzzleMeta": "{size} · {words, plural, one {neno #} other {maneno #}}"
   },
@@ -176,24 +176,25 @@
     "exhausted": "Umeshamaliza maneno yote tuliyo nayo kwa chaguo hili sasa! Tunaandika mapya — jaribu mada nyingine, au urudi baada ya dakika."
   },
   "Billing": {
-    "credits": "{count, plural, one {# credit} other {# credits}}",
-    "balance": "Your balance: {count, plural, one {# credit} other {# credits}}",
-    "cost": "This puzzle: {count, plural, one {# credit} other {# credits}}",
-    "freeNow": "This one is free — your free puzzle of the month.",
-    "youHave": "You have {count, plural, one {# credit} other {# credits}}.",
-    "notEnough": "Not enough credits for this puzzle.",
-    "guestUsed": "You've used this month's free puzzle. Sign in for one more free puzzle every month, and to buy credits.",
-    "refusedSignIn": "This month's free puzzle is used. Sign in to get another one, and to buy credits.",
-    "refusedCredits": "Not enough credits for this puzzle. Top up to keep playing.",
-    "signIn": "Sign in",
-    "buyCredits": "Buy credits"
+    "credits": "{count, plural, one {mkopo #} other {mikopo #}}",
+    "balance": "Salio lako: {count, plural, one {mkopo #} other {mikopo #}}",
+    "cost": "Fumbo hili: {count, plural, one {mkopo #} other {mikopo #}}",
+    "freeNow": "Hili linalipiwa na mikopo yako ya bure ya mwezi huu.",
+    "youHave": "Una {count, plural, one {mkopo #} other {mikopo #}}.",
+    "notEnough": "Mikopo haitoshi kwa fumbo hili.",
+    "guestUsed": "Umeshatumia mikopo ya bure ya mwezi huu. Ingia ili upate {count, plural, one {mkopo mwingine # wa bure} other {mikopo mingine # ya bure}} kila mwezi, na ili uweze kununua mikopo.",
+    "refusedSignIn": "Mikopo yako ya bure haitoshi kwa fumbo hili. Ingia ili upate {count, plural, one {mkopo mwingine # wa bure} other {mikopo mingine # ya bure}} kila mwezi, na ili uweze kununua mikopo.",
+    "refusedCredits": "Mikopo haitoshi kwa fumbo hili. Ongeza salio ili uendelee kucheza.",
+    "refusedFreeBusy": "Mikopo ya bure imesitishwa kwa muda kwa sababu mafumbo mengi sana yametengenezwa kwayo katika saa iliyopita. Jaribu tena baadaye.",
+    "signIn": "Ingia",
+    "buyCredits": "Nunua mikopo"
   },
   "Home": {
     "hero": {
       "eyebrow": "Bure kujaribu · Bila usajili wa kila mwezi · Inafanya kazi bila mtandao",
       "title": "Chemshabongo ambayo <mark>huwa mpya</mark>",
       "subtitle": "Chagua mada na ugumu — AI huandika vidokezo katika lugha yako, na neno hilohilo halijirudii.",
-      "lede": "Tengeneza chemshabongo au skanwodi bure mtandaoni, bila kujisajili. Mada zinaanzia wanyama, chakula na jiografia hadi historia, sayansi, michezo, sanaa, nyumbani, kazi na utamaduni — au zichanganye zote."
+      "lede": "Tengeneza chemshabongo au skanwodi mtandaoni — ya kwanza kila mwezi ni bure, bila kujisajili. Mada zinaanzia wanyama, chakula na jiografia hadi historia, sayansi, michezo, sanaa, nyumbani, kazi na utamaduni — au zichanganye zote."
     },
     "continueTitle": "Endelea ulipoishia",
     "formatsTitle": "Njia mbili za kucheza",
@@ -221,7 +222,7 @@
     "topicsSubtitle": "Kutoka ndege wa uani hadi mito maarufu — au zichanganye zote.",
     "faqTitle": "Maswali na majibu",
     "faq1Question": "Je, Chemshabongo AI ni bure?",
-    "faq1Answer": "Fumbo lako la kwanza kila mwezi ni bure, bila hitaji la kujisajili, na ukiingia kwenye akaunti unapata fumbo moja zaidi. Baada ya hapo, mafumbo yanagharimu salio la mikopo (credits), linalonunuliwa mara moja bila usajili wa kila mwezi. Kucheza fumbo uliloshirikishwa na mtu mwingine ni bure kila wakati.",
+    "faq1Answer": "Kila mwezi unapata mikopo 11 ya bure — inatosha kwa fumbo la wastani — bila hitaji la kujisajili, na ukiingia kwenye akaunti unapata mikopo mingine 11. Baada ya hapo, mafumbo yanagharimu mikopo (credits), inayonunuliwa mara moja bila usajili wa kila mwezi. Kucheza fumbo uliloshirikishwa na mtu mwingine ni bure kila wakati.",
     "faq2Question": "Je, nitaona maneno yale yale tena?",
     "faq2Answer": "Hapana. Kifaa chako huhifadhi orodha ya maneno ambayo tayari yameonyeshwa na kuyaacha nje ya kila mchezo mpya. Ukifuta data ya tovuti kwenye kivinjari, orodha huanza upya.",
     "faq3Question": "Naweza kucheza kwa lugha zipi?",
@@ -240,7 +241,7 @@
       "title": "Chemshabongo ya kawaida, <mark>iliyotengenezwa kwa ajili yako</mark>",
       "plainTitle": "Chemshabongo AI",
       "subtitle": "Vidokezo vya Mlalo na Wima vyenye namba, gridi inayokua kutoka katikati, na maneno ambayo hujayaona.",
-      "lede": "Cheza chemshabongo ya kawaida bure mtandaoni: vidokezo vyenye namba kwa mlalo na wima, katika mada za wanyama na chakula hadi jiografia, historia, sayansi na michezo."
+      "lede": "Cheza chemshabongo ya kawaida mtandaoni: vidokezo vyenye namba kwa mlalo na wima, katika mada za wanyama na chakula hadi jiografia, historia, sayansi na michezo."
     },
     "rulesTitle": "Chemshabongo hufanyaje kazi",
     "rule1": "Kila kisanduku cheupe hubeba herufi moja. Maneno huenda mlalo (kushoto kwenda kulia) na wima (juu kwenda chini), yakikatizana.",
@@ -264,7 +265,7 @@
       "title": "Skanwodi zenye vidokezo <mark>ndani ya gridi</mark>",
       "plainTitle": "Skanwodi AI",
       "subtitle": "Hakuna orodha ya kutafuta: kila kidokezo kiko katika kisanduku chake, pamoja na mshale kuelekea jibu.",
-      "lede": "Cheza skanwodi bure mtandaoni: vidokezo viko ndani ya gridi. Mada zilezile za chemshabongo — wanyama, chakula, jiografia, historia, sayansi, michezo na zaidi."
+      "lede": "Cheza skanwodi mtandaoni: vidokezo viko ndani ya gridi. Mada zilezile za chemshabongo — wanyama, chakula, jiografia, historia, sayansi, michezo na zaidi."
     },
     "rulesTitle": "Skanwodi hufanyaje kazi",
     "rule1": "Visanduku vyenye rangi hubeba vidokezo. Mshale kando ya kidokezo huonyesha jibu linaanzia wapi na linaelekea upande gani.",
@@ -297,6 +298,12 @@
   "Auth": {
     "signIn": "Ingia",
     "signOut": "Toka",
+    "signOutConfirm": {
+      "title": "Ungependa kutoka?",
+      "text": "Unaweza kuingia tena wakati wowote. Mikopo na manunuzi yako yanabaki kwenye akaunti yako.",
+      "confirm": "Toka",
+      "cancel": "Si sasa"
+    },
     "signInTitle": "Ingia",
     "signInSubtitle": "Tumia Google, au barua pepe na nenosiri la akaunti yako.",
     "signUpTitle": "Fungua akaunti",
@@ -332,6 +339,7 @@
     "resent": "Imetumwa tena.",
     "forgotSent": "Ikiwa akaunti inatumia anwani hiyo, kiungo kiko njiani.",
     "invalidCredentials": "Barua pepe na nenosiri hivyo havilingani.",
+    "tooManyAttempts": "Majaribio mengi mno kwa muda mfupi. Subiri dakika chache kisha ujaribu tena.",
     "googleOnly": "Akaunti hii inaingia kwa Google.",
     "emailNotVerified": "Thibitisha barua pepe kwanza. Kiungo kiko kwenye kikasha chako.",
     "emailTaken": "Akaunti yenye barua pepe hii tayari ipo.",
@@ -363,6 +371,12 @@
     "keepSolving": "Endelea kutatua",
     "leave": "Ondoka",
     "newPuzzle": "Mchezo mpya",
+    "newPuzzleConfirm": {
+      "title": "Tengeneza mchezo mpya?",
+      "text": "Umbo, mada na ugumu ule ule kama huu.",
+      "create": "Tengeneza",
+      "cancel": "Si sasa"
+    },
     "allClues": "Vidokezo vyote",
     "across": "Mlalo",
     "down": "Wima",
@@ -539,15 +553,15 @@
           },
           {
             "question": "Je, Chemshabongo AI ni bure?",
-            "answer": "Kwa kiasi fulani. Fumbo lako la kwanza kila mwezi ni bure, bila kujisajili, na kuingia kwenye akaunti kunaongeza fumbo la pili la bure kila mwezi. Zaidi ya hapo, mafumbo yanalipiwa kwa mikopo: unanunua kifurushi mara moja — hakuna usajili wa kila mwezi, mikopo haiishi muda wake, na hakuna matangazo. Kucheza fumbo uliloshirikishwa na mtu mwingine ni bure kila wakati."
+            "answer": "Kwa kiasi fulani. Kila mwezi unapata mikopo 11 ya bure — inatosha kwa fumbo la wastani — bila kujisajili, na kuingia kwenye akaunti kunaongeza mikopo mingine 11 kila mwezi. Mikopo ya bure haihamii mwezi unaofuata. Zaidi ya hapo, mafumbo yanalipiwa kwa mikopo unayonunua: kifurushi kinanunuliwa mara moja — hakuna usajili wa kila mwezi, mikopo uliyonunua haiishi muda wake, na hakuna matangazo. Kucheza fumbo uliloshirikishwa na mtu mwingine ni bure kila wakati."
           },
           {
             "question": "Je, ninahitaji akaunti?",
-            "answer": "Sio kwa fumbo lako la bure la mwezi: maendeleo yako, mipangilio yako na maneno uliyokwisha yaona yanahifadhiwa kwenye kivinjari chako. Akaunti inakuongezea fumbo la pili la bure kila mwezi na inakuwezesha kununua mikopo na kuilinda."
+            "answer": "Sio kwa mikopo yako 11 ya bure ya kila mwezi: maendeleo yako, mipangilio yako na maneno uliyokwisha yaona yanahifadhiwa kwenye kivinjari chako. Akaunti inakuongezea mikopo mingine 11 ya bure kila mwezi na inakuwezesha kununua mikopo na kuihifadhi."
           },
           {
             "question": "Fumbo moja linagharimu kiasi gani?",
-            "answer": "Fumbo dogo linagharimu mikopo 5, la wastani mikopo 10 na kubwa mikopo 15; ugumu wa wastani unaongeza mshazi 1 na ugumu wa juu unaongeza mikopo 2. Mikopo inapatikana kwa vifurushi vya 200 kwa $4.99, 600 kwa $11.99 na 2,000 kwa $29.99. Ukurasa wa malipo unaonyesha bei kwa sarafu yako, pamoja na kodi mahali inapohusika."
+            "answer": "Fumbo dogo linagharimu mikopo 5, la wastani mikopo 10 na kubwa mikopo 15; ugumu wa wastani unaongeza mkopo 1 na ugumu wa juu unaongeza mikopo 2. Mikopo yako 11 ya bure ya kila mwezi inatosha kwa fumbo la wastani lenye ugumu wa wastani. Mikopo inapatikana kwa vifurushi vya 200 kwa $4.99, 600 kwa $11.99 na 2,000 kwa $29.99. Ukurasa wa malipo unaonyesha bei kwa sarafu yako, pamoja na kodi mahali inapohusika."
           },
           {
             "question": "Nani anayetengeneza Chemshabongo AI?",
@@ -641,7 +655,7 @@
   },
   "About": {
     "title": "Kuhusu Chemshabongo AI",
-    "subtitle": "Kitengenezaji cha michezo bure kinachoandika katika lugha yako na kisichowahi kutoa neno lile lile mara mbili.",
+    "subtitle": "Kitengenezaji cha michezo kinachoandika katika lugha yako na kisichowahi kutoa neno lile lile mara mbili.",
     "sections": [
       {
         "title": "Kwa nini tuliitengeneza",
@@ -678,7 +692,7 @@
         "title": "Kwenye seva wetu",
         "paragraphs": [
           "Tunahifadhi mafumbo yaliyotengenezwa, ili kiungo kilichoshirikiwa kifungue fremu ile ile. Unaporipoti maelezo tunahifadhi ripoti hiyo pamoja na alama isiyoweza kubadilishwa ya anwani yako ya IP, ili tu mtu mmoja asiweze kuondoa maelezo peke yake. Pia tunahesabu bila jina jinsi mafumbo yanavyochezwa (yaliyotatuliwa, ni maneno gani yalifichuliwa) ili kurekebisha kiwango cha ugumu.",
-          "Ili kukipa kila kifaa fumbo lake la bure la mwezi, tovuti inaweka kuki yenye kitambulisho cha nasibu. Kwa kila fumbo la bure tunahifadhi kitambulisho hicho na alama isiyoweza kubadilishwa ya anwani yako ya IP."
+          "Ili kukipa kila kifaa mikopo yake ya bure ya mwezi, tovuti inaweka kuki yenye kitambulisho cha nasibu. Kwa kila fumbo linalolipiwa kwa mikopo ya bure tunahifadhi kitambulisho hicho na alama isiyoweza kubadilishwa ya anwani yako ya IP."
         ]
       },
       {
@@ -702,7 +716,8 @@
       {
         "title": "Uchanganuzi na ripoti za makosa",
         "paragraphs": [
-          "Ikiwa imewezeshwa, tunatumia Google Analytics kuhesabu ziara za ukurasa na Sentry kupokea ripoti za makosa. Hakuna inayotumika kumtambulisha mtu."
+          "Ukikubali, Google Analytics huhesabu ziara za kurasa na huweka vidakuzi vyake ili kutofautisha ziara moja na nyingine; usipokubali, takwimu zinafanya kazi bila vidakuzi. Unaweza kubadilisha jibu lako wakati wowote kupitia “Mipangilio ya vidakuzi” chini ya kila ukurasa. Sentry hupokea ripoti za makosa zisizo na taarifa zako binafsi. Hakuna kati ya hizo kinachotumika kwa matangazo wala kukuwekea wasifu.",
+          "Kurasa za baadhi ya lugha hupakua fonti yake kutoka Google Fonts, ambayo hupokea anwani yako ya IP pamoja na ombi hilo."
         ]
       }
     ]
@@ -718,10 +733,10 @@
         ]
       },
       {
-        "title": "Mafumbo ya bure na mikopo",
+        "title": "Mikopo ya bure na iliyonunuliwa",
         "paragraphs": [
-          "Kila kifaa kinapata fumbo moja la bure kila mwezi wa kalenda, na kila akaunti inapata moja zaidi. Mafumbo mengine yanalipiwa kwa mikopo, kwa bei inayoonyeshwa kabla hujatengeneza moja; fumbo linatozwa tu linapotengenezwa, na kufungua fumbo lililohifadhiwa ni bure.",
-          "Mikopo inafanywa kwa ununuzi wa vifurushi kwa malipo ya mara moja — hakuna usajili wa kila mwezi — na haipotezi muda wake. Haina thamani ya fedha taslimu na haiwezi kuhamishwa."
+          "Kila kifaa kinapata mikopo 11 ya bure kila mwezi wa kalenda, na kila akaunti inapata mikopo mingine 11. Mikopo ya bure inatumika kabla ya ile iliyonunuliwa na haihamii mwezi unaofuata. Mafumbo yanalipiwa kwa mikopo, kwa bei inayoonyeshwa kabla hujatengeneza moja; fumbo linatozwa tu linapotengenezwa, na kufungua fumbo lililohifadhiwa ni bure.",
+          "Mikopo inanunuliwa kwa vifurushi kwa malipo ya mara moja — hakuna usajili wa kila mwezi — na mikopo iliyonunuliwa haiishi muda wake. Mikopo haina thamani ya fedha taslimu na haiwezi kuhamishwa."
         ]
       },
       {
@@ -751,45 +766,44 @@
     ]
   },
   "Credits": {
-    "title": "Credits",
-    "subtitle": "One free puzzle every month. After that, pay only for the puzzles you make — no subscription, and credits never expire.",
-    "balanceTitle": "Your balance",
-    "freeAvailable": "Your free puzzle of this month is waiting.",
-    "freeUsed": "This month's free puzzle is used. The next one comes on {date}.",
-    "guestTitle": "Get more free puzzles",
-    "guestText": "Sign in to get a free puzzle every month on your account, and to buy credits.",
-    "pricesTitle": "What a puzzle costs",
-    "pricesText": "In credits, by size and difficulty. Opening a puzzle someone shared with you, or one from your history, is always free.",
-    "size": "Size",
-    "packsTitle": "Credit packs",
+    "title": "Mikopo",
+    "subtitle": "Mikopo 11 ya bure kila mwezi — inatosha kwa fumbo la wastani. Baada ya hapo, lipia tu mafumbo unayotengeneza: hakuna usajili wa kila mwezi, na mikopo uliyonunua haiishi muda wake.",
+    "balanceTitle": "Salio lako",
+    "freeAvailable": "Inajumuisha {count, plural, one {mkopo # wa bure} other {mikopo # ya bure}} kwa mwezi huu. Mikopo ya bure itajazwa upya {date}.",
+    "freeUsed": "Mikopo ya bure ya mwezi huu imeshatumika. {count, plural, one {Mkopo # mpya wa bure utakuja} other {Mikopo # mipya ya bure itakuja}} {date}.",
+    "guestText": "Ingia ili upate {count, plural, one {mkopo mwingine # wa bure} other {mikopo mingine # ya bure}} kila mwezi kwenye akaunti yako, na ili uweze kununua mikopo.",
+    "pricesTitle": "Bei ya fumbo",
+    "pricesText": "Kwa mikopo, kulingana na ukubwa na ugumu. Kufungua fumbo uliloshirikishwa na mtu, au lililo kwenye historia yako, ni bure kila wakati.",
+    "size": "Ukubwa",
+    "packsTitle": "Vifurushi vya mikopo",
     "packs": {
-      "starter": "Starter",
-      "popular": "Popular",
-      "big": "Big"
+      "starter": "Cha kuanzia",
+      "popular": "Maarufu",
+      "big": "Kikubwa"
     },
-    "popularBadge": "Most popular",
-    "bestValueBadge": "Best value",
-    "packPuzzles": "About {count} medium puzzles",
-    "buy": "Buy",
-    "signInToBuy": "Sign in to buy",
-    "shopClosed": "Buying credits isn't available right now. Please check back soon.",
-    "checkoutFailed": "We couldn't open the checkout. Please try again.",
-    "paddleNote": "Payments are processed by Paddle.com, our reseller and Merchant of Record. Prices include VAT or sales tax where it applies; the final price in your currency is shown at checkout.",
-    "refundsNote": "Refunds are covered in the terms of use."
+    "popularBadge": "Kinachopendwa zaidi",
+    "bestValueBadge": "Thamani bora",
+    "packPuzzles": "Takriban mafumbo {count} ya ukubwa wa kati",
+    "buy": "Nunua",
+    "signInToBuy": "Ingia ili ununue",
+    "shopClosed": "Kununua mikopo hakupatikani kwa sasa. Tafadhali rudi baadaye kidogo.",
+    "checkoutFailed": "Hatukuweza kufungua ukurasa wa malipo. Tafadhali jaribu tena.",
+    "paddleNote": "Malipo yanashughulikiwa na Paddle.com, muuzaji wetu na muuzaji rasmi wa kisheria (Merchant of Record). Bei zinajumuisha VAT au kodi ya mauzo inapohitajika; bei ya mwisho katika sarafu yako inaonyeshwa wakati wa kulipa.",
+    "refundsNote": "Urejeshaji wa fedha umeelezwa katika masharti ya matumizi."
   },
   "Payments": {
-    "checkoutTitle": "Checkout",
-    "opening": "Opening the secure checkout…",
-    "checkoutUnavailable": "The checkout couldn't open. Please try again from the credits page.",
-    "backToCredits": "Back to credits",
-    "verifying": "Confirming your payment…",
-    "successTitle": "Thank you!",
-    "successText": "{count, plural, one {# credit was} other {# credits were}} added to your balance.",
-    "pendingText": "Your payment went through. The credits will appear on your balance within a few minutes.",
-    "verifyError": "We couldn't confirm the payment right now. If you were charged, the credits will still arrive — check your balance in a few minutes.",
-    "lateHelp": "There's no need to wait on this page. If the credits haven't arrived within an hour, write to us and we'll sort it out.",
-    "contactUs": "Contact us",
-    "makePuzzle": "Make a puzzle"
+    "checkoutTitle": "Malipo",
+    "opening": "Inafungua ukurasa salama wa malipo…",
+    "checkoutUnavailable": "Ukurasa wa malipo haukuweza kufunguka. Tafadhali jaribu tena kutoka ukurasa wa mikopo.",
+    "backToCredits": "Rudi kwenye mikopo",
+    "verifying": "Inathibitisha malipo yako…",
+    "successTitle": "Asante!",
+    "successText": "{count, plural, one {Mkopo # umeongezwa} other {Mikopo # imeongezwa}} kwenye salio lako.",
+    "pendingText": "Malipo yako yamefanikiwa. Mikopo itaonekana kwenye salio lako ndani ya dakika chache.",
+    "verifyError": "Hatukuweza kuthibitisha malipo kwa sasa. Ikiwa umetozwa, mikopo bado itafika — angalia salio lako baada ya dakika chache.",
+    "lateHelp": "Huhitaji kusubiri kwenye ukurasa huu. Ikiwa mikopo haijafika ndani ya saa moja, tuandikie nasi tutalishughulikia.",
+    "contactUs": "Wasiliana nasi",
+    "makePuzzle": "Tengeneza fumbo"
   },
   "Contact": {
     "title": "Tuandikie",
@@ -805,5 +819,13 @@
     "sentText": "Asante. Tutajibu barua pepe yako haraka iwezekanavyo.",
     "sendAnother": "Andika ujumbe mwingine",
     "tooMany": "Ujumbe umezidi. Jaribu tena baadaye kidogo."
+  },
+  "Consent": {
+    "label": "Idhini ya vidakuzi",
+    "text": "Tungependa kutumia vidakuzi vya Google Analytics ili kuona jinsi tovuti inavyotumika. Hakuna matangazo, hakuna kukuwekea wasifu. Hadi utakapokubali, takwimu zinafanya kazi bila vidakuzi.",
+    "privacy": "Sera ya faragha",
+    "accept": "Kubali",
+    "decline": "Kataa",
+    "settings": "Mipangilio ya vidakuzi"
   }
 }

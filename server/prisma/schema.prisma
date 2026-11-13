@@ -128,18 +128,23 @@ model PaymentEvent {
 
 /// A free monthly puzzle claimed — one per (month, holder). `holder` is `user:<id>` or
 /// `guest:<id>` (an httpOnly cookie the API sets).
-model FreePuzzle {
+model FreeSpend {
   id        String   @id @default(uuid())
   /// UTC calendar month, `2026-11`.
   month     String
+  /// `user:<id>` or `guest:<id>`: whose monthly free credits these were.
   holder    String
-  /// A hash of the IP: caps how many guest devices one address may claim for in a month.
+  /// A hash of the IP: caps how many guest devices one address may spend free credits from in a month.
   ipKey     String
   puzzleId  String
+  /// The free credits this puzzle took. A holder's month adds up to at most FREE_MONTHLY_CREDITS.
+  amount    Int
   createdAt DateTime @default(now())
 
-  @@unique([month, holder])
+  @@index([month, holder])
   @@index([month, ipKey])
+  // The hourly cap on free credits counts the spends of the last hour (`services/billing.ts`).
+  @@index([createdAt])
 }
 
 enum PuzzleFormat {

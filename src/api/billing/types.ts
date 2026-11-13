@@ -5,9 +5,11 @@ import type { ClientInfo } from '@helpers/clientInfo'
 /** `server/src/services/billing.ts` — `BillingStatus`. */
 export type BillingStatus = {
   signedIn: boolean
+  /** Bought credits. */
   credits: number
-  freeAvailable: boolean
-  /** ISO date: the first of next month, UTC. */
+  /** This month's free credits left, spent before `credits`. */
+  freeCredits: number
+  /** ISO date the free credits renew: the first of next month, UTC. */
   freeResetsAt: string
   /** Packs can be bought. */
   shopOpen: boolean

@@ -13,9 +13,20 @@ import { cn } from '@helpers/cn'
  * keyboard, which would cover half the grid and might not even have the right alphabet.
  *
  * Keys are buttons that keep focus where it is (`preventDefault` on pointer down), at least
- * 44 px tall, sized to share the row evenly. Armenian `ու` is one key, because it is one cell;
- * `և` sits where the Armenian layout's `7` key types it.
+ * 44 px tall. Letters share the row evenly and may narrow (12 keys still fit a 320 px phone);
+ * Erase and Direction keep a fixed minimum, and a row longer than `MAX_ROW_KEYS` is split in
+ * two rather than scrolled. Armenian `ու` is one key, because it is one cell; `և` sits where
+ * the Armenian layout's `7` key types it.
  */
+const MAX_ROW_KEYS = 12
+
+const fitRows = (rows: readonly (readonly string[])[]): string[][] =>
+  rows.flatMap((row) => {
+    if (row.length <= MAX_ROW_KEYS) return [[...row]]
+    const half = Math.ceil(row.length / 2)
+    return [row.slice(0, half), row.slice(half)]
+  })
+
 export const OnScreenKeyboard = ({ className }: { className?: string }) => {
   const t = useTranslations('Play')
   const puzzle = usePlayStore.use.puzzle()
@@ -34,7 +45,7 @@ export const OnScreenKeyboard = ({ className }: { className?: string }) => {
   }
 
   if (!puzzle) return null
-  const rows = KEYBOARD_ROWS[puzzle.locale]
+  const rows = fitRows(KEYBOARD_ROWS[puzzle.locale])
   const keyClass =
     'flex h-11 min-w-0 flex-1 items-center justify-center rounded-[10px] border-2 border-ink-900 bg-white font-display text-body font-bold text-ink-900 shadow-[0_3px_0_0_var(--color-ink-300)] active:translate-y-[2px] active:bg-sun-200 active:shadow-none sm:h-12 sm:text-h3'
 
@@ -69,14 +80,14 @@ export const OnScreenKeyboard = ({ className }: { className?: string }) => {
         />
       )}
       {rows.map((row, index) => (
-        <div key={index} className='flex gap-1 overflow-x-auto'>
+        <div key={index} className='flex gap-1'>
           {index === rows.length - 1 && (
             <button
               type='button'
               aria-label={t('toggleDirection')}
               onPointerDown={(event) => event.preventDefault()}
               onClick={toggleDirection}
-              className={cn(keyClass, 'flex-[1.5] bg-teal-100')}
+              className={cn(keyClass, 'min-w-10 flex-[1.5] bg-teal-100')}
             >
               <Repeat aria-hidden className='size-5' />
             </button>
@@ -87,7 +98,7 @@ export const OnScreenKeyboard = ({ className }: { className?: string }) => {
               type='button'
               onPointerDown={(event) => event.preventDefault()}
               onClick={() => type(token)}
-              className={cn(keyClass, 'min-w-8 shrink-0', token.length > 1 && 'text-body-sm sm:text-body')}
+              className={cn(keyClass, token.length > 1 && 'text-body-sm sm:text-body')}
             >
               {displayCell(token, puzzle.locale)}
             </button>
@@ -98,7 +109,7 @@ export const OnScreenKeyboard = ({ className }: { className?: string }) => {
               aria-label={t('erase')}
               onPointerDown={(event) => event.preventDefault()}
               onClick={erase}
-              className={cn(keyClass, 'flex-[1.5] bg-coral-100')}
+              className={cn(keyClass, 'min-w-10 flex-[1.5] bg-coral-100')}
             >
               <Delete aria-hidden className='size-5 rtl:-scale-x-100' />
             </button>

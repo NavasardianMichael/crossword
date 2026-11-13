@@ -3,6 +3,7 @@
 import { useTranslations } from 'next-intl'
 import { usePathname } from '@i18n/navigation'
 import { RETURN_TO_QUERY } from '@constants/auth'
+import { FREE_MONTHLY_CREDITS } from '@constants/puzzle'
 import { ROUTES } from '@constants/routes'
 import { billingRefusal } from '@helpers/billing'
 import { ButtonLink } from '@components/ui/bare/AppLink'
@@ -12,7 +13,8 @@ type CreateErrorAlertProps = { error: unknown; onRetry: () => void; message?: st
 
 /**
  * A failed "new puzzle". A refusal to pay is not retried — it says why and offers the way on:
- * sign in (a guest's free puzzle is used) or buy credits. Anything else is a plain `ErrorAlert`.
+ * sign in (a guest's free credits do not cover it) or buy credits. Free credits paused for the hour say so,
+ * with a retry. Anything else is a plain `ErrorAlert`.
  */
 export const CreateErrorAlert = ({ error, onRetry, message, className }: CreateErrorAlertProps) => {
   const t = useTranslations('Billing')
@@ -23,7 +25,7 @@ export const CreateErrorAlert = ({ error, onRetry, message, className }: CreateE
     return (
       <ErrorAlert
         error={error}
-        message={t('refusedSignIn')}
+        message={t('refusedSignIn', { count: FREE_MONTHLY_CREDITS })}
         className={className}
         action={
           <ButtonLink href={{ pathname: ROUTES.signIn, query: { [RETURN_TO_QUERY]: pathname } }} variant='outline' size='sm'>
@@ -47,5 +49,6 @@ export const CreateErrorAlert = ({ error, onRetry, message, className }: CreateE
       />
     )
   }
+  if (refusal === 'freeBusy') return <ErrorAlert error={error} message={t('refusedFreeBusy')} onRetry={onRetry} className={className} />
   return <ErrorAlert error={error} message={message} onRetry={onRetry} className={className} />
 }

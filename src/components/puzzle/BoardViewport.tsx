@@ -15,8 +15,11 @@ import { IconButton } from '@components/ui/IconButton'
  */
 const GUTTER = 0.01
 
-/** The zoom buttons' row under the frame: the gap and a 44 px button. */
-const ZOOM_ROW = '3.25rem'
+/**
+ * The zoom buttons' row under the frame: the gap and a 44 px button. On a short touch screen
+ * the row is left out — pinch and drag still zoom and pan — and its height goes to the grid.
+ */
+const ZOOM_ROW = 'var(--zoom-row)'
 
 /**
  * The frame the grid is played in, with − / + / reset under it. At the starting zoom the whole
@@ -24,10 +27,12 @@ const ZOOM_ROW = '3.25rem'
  *
  * Three layers: the scrolling frame; a layer as wide as the zoom that clips, so a grid drawn
  * larger mid-gesture never stretches the scroll range; and the layer a gesture transforms.
- * The grid inside is passed as `children`, so a zoom change never re-renders it.
+ * The grid inside is passed as `children`, so a zoom change never re-renders it. The frame is
+ * always left-to-right — the zoom geometry measures scroll from the left — and the grid sets
+ * its own direction.
  *
  * `fit`: as large as the nearest size container (`[container-type:size]`) allows — width and
- * height, the zoom row included.
+ * height, the zoom row included where it is shown.
  */
 type BoardViewportProps = { columns: number; rows: number; fit?: boolean; style?: CSSProperties; className?: string; children: ReactNode }
 
@@ -42,9 +47,10 @@ export const BoardViewport = ({ columns, rows, fit, style, className, children }
   const fitStyle: CSSProperties | undefined = fit ? { width: `min(100cqw, (100cqh - ${ZOOM_ROW}) * ${columns / frameRows})` } : undefined
 
   return (
-    <div className={cn('flex flex-col gap-2', className)} style={{ ...fitStyle, ...style }}>
+    <div className={cn('flex flex-col gap-2 [--zoom-row:3.25rem]', fit && 'short-touch:[--zoom-row:0px]', className)} style={{ ...fitStyle, ...style }}>
       <div
         ref={viewportRef}
+        dir='ltr'
         className={cn(
           'no-scrollbar touch-pan-x touch-pan-y',
           zoomed
@@ -61,7 +67,7 @@ export const BoardViewport = ({ columns, rows, fit, style, className, children }
         </div>
       </div>
 
-      <div role='group' aria-label={t('label')} className='flex justify-center gap-2'>
+      <div role='group' aria-label={t('label')} className={cn('flex justify-center gap-2', fit && 'short-touch:hidden')}>
         <IconButton
           label={t('out')}
           icon={<Minus aria-hidden className='size-5' />}

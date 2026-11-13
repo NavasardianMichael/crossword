@@ -1,7 +1,7 @@
 {
   "Common": {
     "appName": "Keresztrejtvény AI",
-    "tagline": "Ingyenes keresztrejtvények és skandináv rejtvények, amelyeket a mesterséges intelligencia a te nyelveden ír. Minden játékban új szavak, ismétlés nélkül.",
+    "tagline": "Keresztrejtvények és skandináv rejtvények, amelyeket a mesterséges intelligencia a te nyelveden ír — havonta az első ingyenes. Minden játékban új szavak, ismétlés nélkül.",
     "skipToContent": "Ugrás a tartalomra",
     "openMenu": "Menü megnyitása",
     "menu": "Menü",
@@ -22,7 +22,7 @@
     "scanword": "Skandináv",
     "topics": "Témák",
     "history": "Rejtvényeim",
-    "credits": "Credits",
+    "credits": "Kreditek",
     "rules": "Hogyan fejts",
     "faq": "Kérdések",
     "about": "Rólunk",
@@ -54,25 +54,25 @@
     "gotIt": "Értem"
   },
   "Seo": {
-    "homeTitle": "Magyar keresztrejtvény ingyen — keresztrejtvény készítése",
-    "homeDescription": "Keresztrejtvény készítése vagy skandináv rejtvény ingyen. Témák: állatok, étel, földrajz, történelem, tudomány, sport és még több. Magyar keresztrejtvény, mindig új szavakkal, offline is megy.",
+    "homeTitle": "Magyar keresztrejtvény — keresztrejtvény készítése, ingyen kipróbálható",
+    "homeDescription": "Keresztrejtvény készítése vagy skandináv rejtvény — havonta az első ingyenes. Témák: állatok, étel, földrajz, történelem, tudomány, sport és még több. Magyar keresztrejtvény, mindig új szavakkal, offline is megy.",
     "keywords": "keresztrejtvény, magyar keresztrejtvény, keresztrejtvény készítése, keresztrejtvény online ingyen, skandináv rejtvény, keresztrejtvény állatok, keresztrejtvény étel, keresztrejtvény földrajz, keresztrejtvény történelem, keresztrejtvény tudomány, keresztrejtvény sport",
-    "crosswordTitle": "Klasszikus keresztrejtvények online, ingyen",
-    "crosswordDescription": "Fejts klasszikus keresztrejtvényt a mesterséges intelligenciától: számozott meghatározások vízszintesen és függőlegesen, 12 téma, három nehézség. Regisztráció nélkül, mindig új szavak.",
-    "scanwordTitle": "Skandináv rejtvény online ingyen — meghatározások a rácsban",
-    "scanwordDescription": "Fejts skandináv rejtvényt: a meghatározások a mezőkben ülnek, a nyilak a megfejtéshez vezetnek. Ingyen, regisztráció nélkül, telefonon, táblagépen és számítógépen.",
+    "crosswordTitle": "Klasszikus keresztrejtvények online, ingyen kipróbálható",
+    "crosswordDescription": "Fejts klasszikus keresztrejtvényt a mesterséges intelligenciától: számozott meghatározások vízszintesen és függőlegesen, 12 téma, három nehézség. Havonta az első rejtvény ingyenes, regisztráció nélkül, mindig új szavakkal.",
+    "scanwordTitle": "Skandináv rejtvény online — meghatározások a rácsban",
+    "scanwordDescription": "Fejts skandináv rejtvényt: a meghatározások a mezőkben ülnek, a nyilak a megfejtéshez vezetnek. Telefonon, táblagépen és számítógépen — havonta az első rejtvény ingyenes.",
     "topicsTitle": "Keresztrejtvény témák: állatok, étel, földrajz",
     "topicsDescription": "Válassz témát a következő keresztrejtvényhez vagy skandináv rejtvényhez: természet, állatok, étel, földrajz, történelem, tudomány, sport, művészet és még több.",
-    "topicTitle": "Keresztrejtvény: {topic} — ingyen online",
-    "topicDescription": "Ingyenes keresztrejtvény és skandináv rejtvény a(z) {topic} témában, mesterséges intelligenciával. {description}",
+    "topicTitle": "Keresztrejtvény: {topic} — online, mesterséges intelligenciával",
+    "topicDescription": "Keresztrejtvény és skandináv rejtvény a(z) {topic} témában, mesterséges intelligenciával; havonta az első ingyenes. {description}",
     "historyTitle": "Rejtvényeim",
     "historyDescription": "Keresztrejtvények és skandináv rejtvények, amelyeket ezen az eszközön elkezdtél és nem fejeztél be, mentett állással.",
-    "creditsTitle": "Credits & prices",
-    "creditsDescription": "One free crossword every month, then credit packs with no subscription: what each puzzle costs, and how to buy credits.",
-    "paymentTitle": "Payment",
+    "creditsTitle": "Kreditek és árak",
+    "creditsDescription": "Havonta 11 ingyenes kredit, utána előfizetés nélküli kreditcsomagok: mennyibe kerül egy rejtvény, és hogyan vehetsz krediteket.",
+    "paymentTitle": "Fizetés",
     "rulesTitle": "Hogyan fejts keresztrejtvényt és skandinávot",
     "rulesDescription": "Hogyan fejts nálunk keresztrejtvényt vagy skandináv rejtvényt: betűk, mozgás a rácsban, ellenőrzés, felfedés és billentyűk.",
-    "faqTitle": "Kérdések: ingyenes keresztrejtvény, nyelvek, adatvédelem",
+    "faqTitle": "Kérdések: keresztrejtvény, árak, nyelvek, adatvédelem",
     "faqDescription": "Válaszok a Keresztrejtvény AI-ról: ingyenes-e, hogyan írja a meghatározásokat, mekkora a rács, nehézség, szavak ismétlés nélkül, offline játék, megosztás és adatvédelem.",
     "aboutTitle": "Rólunk — hogyan készülnek a rejtvények",
     "aboutDescription": "Miért csináltunk olyan keresztrejtvény-készítőt, amelyben egy szó sem ismétlődik, és hogyan ír a mesterséges intelligencia minden nyelven helyben.",
@@ -84,7 +84,7 @@
     "contactDescription": "Kérdés, ötlet vagy hiba a rejtvényben? Írj nekünk, e-mailben válaszolunk.",
     "puzzleDescription": "Ingyenes rejtvény a Keresztrejtvény AI-tól — fejtsd a böngészőben.",
     "sharedPuzzleDescription": "Ingyenes {size} {format, select, scanword {skandináv rejtvény} other {keresztrejtvény}} · {topic} · {difficulty} · {words, plural, one {# szó} other {# szó}}. Mesterséges intelligencia írta — fejtsd a böngészőben, regisztráció nélkül.",
-    "ogImageAlt": "Keresztrejtvény AI — ingyenes keresztrejtvény és skandináv rejtvény a te nyelveden",
+    "ogImageAlt": "Keresztrejtvény AI — keresztrejtvény és skandináv rejtvény a te nyelveden",
     "ogPuzzleCta": "Ki tudod fejteni?",
     "ogPuzzleMeta": "{size} · {words, plural, one {# szó} other {# szó}}"
   },
@@ -176,24 +176,25 @@
     "exhausted": "Ehhez a választáshoz most minden szavunkat kifejtetted. Újakat írunk — próbálj másik témát, vagy gyere vissza egy perc múlva."
   },
   "Billing": {
-    "credits": "{count, plural, one {# credit} other {# credits}}",
-    "balance": "Your balance: {count, plural, one {# credit} other {# credits}}",
-    "cost": "This puzzle: {count, plural, one {# credit} other {# credits}}",
-    "freeNow": "This one is free — your free puzzle of the month.",
-    "youHave": "You have {count, plural, one {# credit} other {# credits}}.",
-    "notEnough": "Not enough credits for this puzzle.",
-    "guestUsed": "You've used this month's free puzzle. Sign in for one more free puzzle every month, and to buy credits.",
-    "refusedSignIn": "This month's free puzzle is used. Sign in to get another one, and to buy credits.",
-    "refusedCredits": "Not enough credits for this puzzle. Top up to keep playing.",
-    "signIn": "Sign in",
-    "buyCredits": "Buy credits"
+    "credits": "{count, plural, one {# kredit} other {# kredit}}",
+    "balance": "Egyenleged: {count, plural, one {# kredit} other {# kredit}}",
+    "cost": "Ez a rejtvény: {count, plural, one {# kredit} other {# kredit}}",
+    "freeNow": "Ezt fedezik az e havi ingyenes kreditjeid.",
+    "youHave": "{count, plural, one {# kredited} other {# kredited}} van.",
+    "notEnough": "Nincs elég kredited ehhez a rejtvényhez.",
+    "guestUsed": "Az e havi ingyenes kreditjeidet már felhasználtad. Jelentkezz be: így minden hónapban kapsz még {count, plural, one {# ingyenes kreditet} other {# ingyenes kreditet}}, és krediteket is vehetsz.",
+    "refusedSignIn": "Az ingyenes kreditjeid nem elegendők ehhez a rejtvényhez. Jelentkezz be: így minden hónapban kapsz még {count, plural, one {# ingyenes kreditet} other {# ingyenes kreditet}}, és krediteket is vehetsz.",
+    "refusedCredits": "Nincs elég kredited ehhez a rejtvényhez. Töltsd fel az egyenleged, és játssz tovább.",
+    "refusedFreeBusy": "Az ingyenes kreditek egy időre szünetelnek, mert az elmúlt órában nagyon sok rejtvény készült velük. Próbáld újra kicsit később.",
+    "signIn": "Bejelentkezés",
+    "buyCredits": "Kreditvásárlás"
   },
   "Home": {
     "hero": {
       "eyebrow": "Ingyenesen kipróbálható · Nincs előfizetés · Offline is működik",
       "title": "Magyar keresztrejtvény, amely <mark>mindig új</mark>",
       "subtitle": "Válassz témát és nehézséget. A meghatározásokat a mesterséges intelligencia a te nyelveden írja, és egy szót sem kapsz kétszer.",
-      "lede": "Keresztrejtvény készítése vagy skandináv rejtvény ingyen, regisztráció nélkül. A témák az állatoktól, az ételtől és a földrajztól a történelemig, a tudományig, a sportig, a művészetig, az otthonig, a foglalkozásokig és a helyi kultúráig érnek — vagy keverd őket."
+      "lede": "Keresztrejtvény készítése vagy skandináv rejtvény — havonta az első ingyenes, regisztráció nélkül. A témák az állatoktól, az ételtől és a földrajztól a történelemig, a tudományig, a sportig, a művészetig, az otthonig, a foglalkozásokig és a helyi kultúráig érnek — vagy keverd őket."
     },
     "continueTitle": "Folytasd, ahol abbahagytad",
     "formatsTitle": "Kétféle fejtés",
@@ -221,7 +222,7 @@
     "topicsSubtitle": "A kerti madaraktól a híres folyókig — vagy keverd mindet.",
     "faqTitle": "Kérdések és válaszok",
     "faq1Question": "Ingyenes a Keresztrejtvény AI?",
-    "faq1Answer": "Az első rejtvényed minden hónapban ingyenes regisztráció nélkül is, a bejelentkezés pedig ad egy másodikat. Ezen felül a rejtvények kreditekbe kerülnek, amelyeket egyszeri vásárlással szerezhetsz meg, előfizetés nélkül. Ha valaki megosztott veled egy rejtvényt, annak a játéka mindig ingyenes.",
+    "faq1Answer": "Minden hónapban 11 ingyenes kreditet kapsz regisztráció nélkül — ennyi elég egy közepes rejtvényhez —, a bejelentkezés pedig még 11-et ad. Ezen felül a rejtvények kreditekbe kerülnek, amelyeket egyszeri vásárlással szerezhetsz meg, előfizetés nélkül. Ha valaki megosztott veled egy rejtvényt, annak a játéka mindig ingyenes.",
     "faq2Question": "Ugyanazokat a szavakat látom újra?",
     "faq2Answer": "Nem. Az eszköz listát vezet a már mutatott szavakról, és kihagyja őket az új rejtvényekből. Ha törlöd a webhely adatait, a lista elölről kezdődik.",
     "faq3Question": "Milyen nyelveken lehet fejteni?",
@@ -240,7 +241,7 @@
       "title": "Klasszikus keresztrejtvény, <mark>csak neked</mark>",
       "plainTitle": "Keresztrejtvény AI",
       "subtitle": "Számozott meghatározások vízszintesen és függőlegesen, középről növő rács, és szavak, amelyeket még nem láttál.",
-      "lede": "Fejts klasszikus keresztrejtvényt online, ingyen: számozott meghatározások vízszintesen és függőlegesen, állatoktól és ételtől földrajzig, történelemig, tudományig és sportig."
+      "lede": "Fejts klasszikus keresztrejtvényt online: számozott meghatározások vízszintesen és függőlegesen, állatoktól és ételtől földrajzig, történelemig, tudományig és sportig."
     },
     "rulesTitle": "Hogyan működik a keresztrejtvény",
     "rule1": "Minden fehér mező egy betűt tart. A szavak vízszintesen (balról jobbra) és függőlegesen (fentről le) futnak, és keresztezik egymást.",
@@ -264,7 +265,7 @@
       "title": "Skandináv rejtvény, meghatározásokkal <mark>a rácsban</mark>",
       "plainTitle": "Skandináv AI",
       "subtitle": "Nincs lista, amelyet keresni kell: minden meghatározás a saját mezőjében ül, nyíllal a megfejtés felé.",
-      "lede": "Fejts skandináv rejtvényt online, ingyen: a meghatározások a rácsban vannak. Ugyanazok a témák, mint a keresztrejtvénynél — állatok, étel, földrajz, történelem, tudomány, sport és még több."
+      "lede": "Fejts skandináv rejtvényt online: a meghatározások a rácsban vannak. Ugyanazok a témák, mint a keresztrejtvénynél — állatok, étel, földrajz, történelem, tudomány, sport és még több."
     },
     "rulesTitle": "Hogyan működik a skandináv",
     "rule1": "A színezett mezők tartják a meghatározásokat. A nyíl mutatja, hol kezdődik a megfejtés, és merre fut.",
@@ -297,6 +298,12 @@
   "Auth": {
     "signIn": "Bejelentkezés",
     "signOut": "Kijelentkezés",
+    "signOutConfirm": {
+      "title": "Kijelentkezel?",
+      "text": "Bármikor újra bejelentkezhetsz. A kreditjeid és a vásárlásaid a fiókodban maradnak.",
+      "confirm": "Kijelentkezés",
+      "cancel": "Most nem"
+    },
     "signInTitle": "Bejelentkezés",
     "signInSubtitle": "Google-lel, vagy a fiók e-mailjével és jelszavával.",
     "signUpTitle": "Fiók létrehozása",
@@ -332,6 +339,7 @@
     "resent": "Újra elküldve.",
     "forgotSent": "Ha ehhez a címhez tartozik fiók, a link úton van.",
     "invalidCredentials": "Ez az e-mail és jelszó nem illik össze.",
+    "tooManyAttempts": "Túl sok próbálkozás rövid idő alatt. Várj néhány percet, és próbáld újra.",
     "googleOnly": "Ez a fiók Google-lel jelentkezik be.",
     "emailNotVerified": "Előbb erősítsd meg az e-mailt. A link a postafiókban van.",
     "emailTaken": "Ezzel az e-maillel már van fiók.",
@@ -363,6 +371,12 @@
     "keepSolving": "Fejtem tovább",
     "leave": "Kilépek",
     "newPuzzle": "Új rejtvény",
+    "newPuzzleConfirm": {
+      "title": "Készüljön új rejtvény?",
+      "text": "Ugyanazzal a formával, témával és nehézséggel, mint ez.",
+      "create": "Mehet",
+      "cancel": "Most nem"
+    },
     "allClues": "Minden meghatározás",
     "across": "Vízszintes",
     "down": "Függőleges",
@@ -539,15 +553,15 @@
           },
           {
             "question": "Ingyenes a Keresztrejtvény AI?",
-            "answer": "Részben. Az első rejtvényed minden hónapban ingyenes regisztráció nélkül is, a bejelentkezés pedig ad egy második ingyeneset havonta. Ezen túl a rejtvényekért kreditekkel fizethetsz: egyszeri csomagot veszel — nincs előfizetés, a kreditek soha nem járnak le, és nincsenek reklámok. A veled megosztott rejtvények játéka mindig ingyenes."
+            "answer": "Részben. Minden hónapban 11 ingyenes kreditet kapsz regisztráció nélkül — ennyi elég egy közepes rejtvényhez —, a bejelentkezés pedig havonta még 11-et ad. Az ingyenes kreditek nem vihetők át a következő hónapra. Ezen túl a rejtvényekért vásárolt kreditekkel fizethetsz: egyszeri csomagot veszel — nincs előfizetés, a vásárolt kreditek soha nem járnak le, és nincsenek reklámok. A veled megosztott rejtvények játéka mindig ingyenes."
           },
           {
             "question": "Szükségem van fiókra?",
-            "answer": "A havi ingyenes rejtvényedhez nem: a haladásod, a beállításaid és a már látott szavak a böngésződben maradnak. A fiók ad egy második ingyenes rejtvényt minden hónapban, és lehetővé teszi a kreditek vásárlását és megőrzését."
+            "answer": "A havi 11 ingyenes kredithez nem: a haladásod, a beállításaid és a már látott szavak a böngésződben maradnak. A fiók minden hónapban még 11 ingyenes kreditet ad, és lehetővé teszi a kreditek vásárlását és megőrzését."
           },
           {
             "question": "Mennyibe kerül egy rejtvény?",
-            "answer": "Egy kis rejtvény 5 kreditbe, egy közepes 10-be és egy nagy 15-be kerül; a közepes nehézség +1 kreditet, a nehéz +2-t ad hozzá. A krediteket csomagban veheted meg: 200 kredit $4.99, 600 kredit $11.99 és 2000 kredit $29.99. A fizetésnél a saját pénznemedben látod az árat, adóval együtt, ahol az alkalmazandó."
+            "answer": "Egy kis rejtvény 5 kreditbe, egy közepes 10-be és egy nagy 15-be kerül; a közepes nehézség +1 kreditet, a nehéz +2-t ad hozzá. A havi 11 ingyenes kredit fedez egy közepes nehézségű közepes rejtvényt. A krediteket csomagban veheted meg: 200 kredit $4.99, 600 kredit $11.99 és 2000 kredit $29.99. A fizetésnél a saját pénznemedben látod az árat, adóval együtt, ahol az alkalmazandó."
           },
           {
             "question": "Ki készíti a Keresztrejtvény AI-t?",
@@ -641,7 +655,7 @@
   },
   "About": {
     "title": "A Keresztrejtvény AI-ról",
-    "subtitle": "Ingyenes rejtvénykészítő, amely a te nyelveden ír, és ugyanazt a szót nem adja kétszer.",
+    "subtitle": "Rejtvénykészítő, amely a te nyelveden ír, és ugyanazt a szót nem adja kétszer.",
     "sections": [
       {
         "title": "Miért csináltuk",
@@ -678,7 +692,7 @@
         "title": "A szerverünkön",
         "paragraphs": [
           "Eltároljuk a létrehozott rejtvényeket, hogy a megosztott link ugyanazt a rácsot nyissa meg. Amikor jelentesz egy meghatározást, eltároljuk a jelentést az IP-címed egyirányú kivonatával (hash), kizárólag azért, hogy egy személy ne tudjon egyedül kivonni egy meghatározást. Névtelenül számoljuk a rejtvények teljesítését is a nehézség finomításához.",
-          "Ahhoz, hogy minden eszköz megkaphassa a havi ingyenes rejtvényét, az oldal elhelyez egy véletlenszerű azonosítót tartalmazó sütit. Minden ingyenes rejtvény esetén elmentjük ezt az azonosítót és az IP-címed egyirányú kivonatát."
+          "Ahhoz, hogy minden eszköz megkaphassa a havi ingyenes kreditjeit, az oldal elhelyez egy véletlenszerű azonosítót tartalmazó sütit. Minden ingyenes kreditekkel fizetett rejtvény esetén elmentjük ezt az azonosítót és az IP-címed egyirányú kivonatát."
         ]
       },
       {
@@ -702,7 +716,8 @@
       {
         "title": "Analitika és hibajelentések",
         "paragraphs": [
-          "Engedélyezés esetén a Google Analytics szolgáltatást használjuk az oldalmegtekintések számlálására, és a Sentry-t a hibajelentések fogadására. Egyik sem használható az azonosításodra."
+          "A hozzájárulásoddal a Google Analytics számolja az oldalmegtekintéseket, és sütiket helyez el, hogy meg tudja különböztetni a látogatásokat; hozzájárulás nélkül az analitika sütik nélkül működik. A döntésedet bármikor megváltoztathatod minden oldal alján, a „Süti-beállítások” alatt. A Sentry személyes adatok nélküli hibajelentéseket kap. Egyiket sem használjuk reklámra vagy profilozásra.",
+          "Egyes nyelvek oldalai a betűtípusukat a Google Fonts szolgáltatásból töltik be, amely ezzel a kéréssel megkapja az IP-címedet."
         ]
       }
     ]
@@ -718,10 +733,10 @@
         ]
       },
       {
-        "title": "Ingyenes rejtvények és kreditek",
+        "title": "Ingyenes és vásárolt kreditek",
         "paragraphs": [
-          "Minden eszköz kap egy ingyenes rejtvényt minden naptári hónapban, és minden fiók még egyet. A többi rejtvényért kreditekkel kell fizetni a létrehozás előtt látható áron; a kredit levonása csak a generáláskor történik, a tárolt rejtvények megnyitása ingyenes.",
-          "A krediteket egyszeri fizetéssel vásárolhatod meg csomagokban — nincs előfizetés —, és soha nem járnak le. Készpénzre nem válthatók és nem ruházhatók át."
+          "Minden eszköz minden naptári hónapban 11 ingyenes kreditet kap, és minden fiók még 11-et. Az ingyenes kreditek a vásároltak előtt fogynak el, és nem vihetők át a következő hónapra. A rejtvényekért kreditekkel kell fizetni a létrehozás előtt látható áron; a kredit levonása csak a generáláskor történik, a tárolt rejtvények megnyitása ingyenes.",
+          "A krediteket egyszeri fizetéssel vásárolhatod meg csomagokban — nincs előfizetés —, és a vásárolt kreditek soha nem járnak le. A kreditek készpénzre nem válthatók és nem ruházhatók át."
         ]
       },
       {
@@ -751,45 +766,44 @@
     ]
   },
   "Credits": {
-    "title": "Credits",
-    "subtitle": "One free puzzle every month. After that, pay only for the puzzles you make — no subscription, and credits never expire.",
-    "balanceTitle": "Your balance",
-    "freeAvailable": "Your free puzzle of this month is waiting.",
-    "freeUsed": "This month's free puzzle is used. The next one comes on {date}.",
-    "guestTitle": "Get more free puzzles",
-    "guestText": "Sign in to get a free puzzle every month on your account, and to buy credits.",
-    "pricesTitle": "What a puzzle costs",
-    "pricesText": "In credits, by size and difficulty. Opening a puzzle someone shared with you, or one from your history, is always free.",
-    "size": "Size",
-    "packsTitle": "Credit packs",
+    "title": "Kreditek",
+    "subtitle": "Havonta 11 ingyenes kredit — ennyi elég egy közepes rejtvényhez. Utána csak azokért a rejtvényekért fizetsz, amelyeket elkészítesz — nincs előfizetés, és a vásárolt kreditek soha nem járnak le.",
+    "balanceTitle": "Egyenleged",
+    "freeAvailable": "Ebből {count, plural, one {# ingyenes kredit} other {# ingyenes kredit}} erre a hónapra szól. Az ingyenes kreditek ekkor újulnak meg: {date}.",
+    "freeUsed": "Az e havi ingyenes krediteket már felhasználtad. {count, plural, one {# új ingyenes kredit} other {# új ingyenes kredit}} ekkor érkezik: {date}.",
+    "guestText": "Jelentkezz be: a fiókodon minden hónapban kapsz még {count, plural, one {# ingyenes kreditet} other {# ingyenes kreditet}}, és krediteket is vehetsz.",
+    "pricesTitle": "Mennyibe kerül egy rejtvény",
+    "pricesText": "Kreditben, méret és nehézség szerint. A veled megosztott rejtvények és az előzményeidben lévők megnyitása mindig ingyenes.",
+    "size": "Méret",
+    "packsTitle": "Kreditcsomagok",
     "packs": {
-      "starter": "Starter",
-      "popular": "Popular",
-      "big": "Big"
+      "starter": "Kezdő",
+      "popular": "Népszerű",
+      "big": "Nagy"
     },
-    "popularBadge": "Most popular",
-    "bestValueBadge": "Best value",
-    "packPuzzles": "About {count} medium puzzles",
-    "buy": "Buy",
-    "signInToBuy": "Sign in to buy",
-    "shopClosed": "Buying credits isn't available right now. Please check back soon.",
-    "checkoutFailed": "We couldn't open the checkout. Please try again.",
-    "paddleNote": "Payments are processed by Paddle.com, our reseller and Merchant of Record. Prices include VAT or sales tax where it applies; the final price in your currency is shown at checkout.",
-    "refundsNote": "Refunds are covered in the terms of use."
+    "popularBadge": "A legnépszerűbb",
+    "bestValueBadge": "Legjobb ár-érték",
+    "packPuzzles": "Kb. {count} közepes rejtvény",
+    "buy": "Megveszem",
+    "signInToBuy": "Jelentkezz be a vásárláshoz",
+    "shopClosed": "A kreditvásárlás most nem érhető el. Nézz vissza hamarosan.",
+    "checkoutFailed": "Nem sikerült megnyitni a fizetési oldalt. Próbáld újra.",
+    "paddleNote": "A fizetéseket a Paddle.com intézi, viszonteladónk és hivatalos eladónk (Merchant of Record). Az árak tartalmazzák az áfát vagy a forgalmi adót, ahol ez alkalmazandó; a végső árat a saját pénznemedben a fizetésnél látod.",
+    "refundsNote": "A visszatérítésről a felhasználási feltételek szólnak."
   },
   "Payments": {
-    "checkoutTitle": "Checkout",
-    "opening": "Opening the secure checkout…",
-    "checkoutUnavailable": "The checkout couldn't open. Please try again from the credits page.",
-    "backToCredits": "Back to credits",
-    "verifying": "Confirming your payment…",
-    "successTitle": "Thank you!",
-    "successText": "{count, plural, one {# credit was} other {# credits were}} added to your balance.",
-    "pendingText": "Your payment went through. The credits will appear on your balance within a few minutes.",
-    "verifyError": "We couldn't confirm the payment right now. If you were charged, the credits will still arrive — check your balance in a few minutes.",
-    "lateHelp": "There's no need to wait on this page. If the credits haven't arrived within an hour, write to us and we'll sort it out.",
-    "contactUs": "Contact us",
-    "makePuzzle": "Make a puzzle"
+    "checkoutTitle": "Fizetés",
+    "opening": "Nyílik a biztonságos fizetési oldal…",
+    "checkoutUnavailable": "A fizetési oldal nem nyílt meg. Próbáld újra a kreditek oldaláról.",
+    "backToCredits": "Vissza a kreditekhez",
+    "verifying": "A fizetés megerősítése…",
+    "successTitle": "Köszönjük!",
+    "successText": "{count, plural, one {# kreditet} other {# kreditet}} jóváírtunk az egyenlegeden.",
+    "pendingText": "A fizetés sikerült. A kreditek néhány percen belül megjelennek az egyenlegeden.",
+    "verifyError": "A fizetést most nem tudtuk megerősíteni. Ha terhelés történt, a kreditek akkor is megérkeznek — néhány perc múlva nézd meg az egyenleged.",
+    "lateHelp": "Nem kell ezen az oldalon várnod. Ha a kreditek egy órán belül nem érkeznek meg, írj nekünk, és elintézzük.",
+    "contactUs": "Írj nekünk",
+    "makePuzzle": "Rejtvény készítése"
   },
   "Contact": {
     "title": "Írj nekünk",
@@ -805,5 +819,13 @@
     "sentText": "Köszönjük. Amint tudunk, válaszolunk e-mailben.",
     "sendAnother": "Írok még egy üzenetet",
     "tooMany": "Túl sok üzenet. Próbáld meg egy kicsit később."
+  },
+  "Consent": {
+    "label": "Süti-hozzájárulás",
+    "text": "Szeretnénk a Google Analytics sütijeit használni, hogy lássuk, hogyan használják az oldalt. Nincs reklám, nincs profilozás. Amíg el nem fogadod, az analitika sütik nélkül működik.",
+    "privacy": "Adatvédelmi tájékoztató",
+    "accept": "Elfogadom",
+    "decline": "Elutasítom",
+    "settings": "Süti-beállítások"
   }
 }

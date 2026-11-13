@@ -12,7 +12,7 @@ const GUEST_COOKIE_MAX_AGE_MS = 365 * 24 * 60 * 60 * 1000
 
 /**
  * The signed-in account, or else the guest device behind the `crossword-guest` cookie — issued
- * on first sight. It only marks which device took this month's free puzzle; clearing it is
+ * on first sight. It only marks whose monthly free credits a device spends; clearing it is
  * why guests are also capped per IP address.
  */
 export const payerOf = (req: Request, res: Response): Payer => {

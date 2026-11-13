@@ -1,7 +1,7 @@
 {
   "Common": {
     "appName": "Teka-Teki Silang AI",
-    "tagline": "Teka-teki silang dan silang Swedia gratis, ditulis dari nol oleh kecerdasan buatan dalam bahasamu. Kata baru setiap permainan, tidak pernah berulang.",
+    "tagline": "Teka-teki silang dan silang Swedia, ditulis dari nol oleh kecerdasan buatan dalam bahasamu — yang pertama setiap bulan gratis. Kata baru setiap permainan, tidak pernah berulang.",
     "skipToContent": "Langsung ke isi",
     "openMenu": "Buka menu",
     "menu": "Menu",
@@ -54,28 +54,28 @@
     "gotIt": "Mengerti"
   },
   "Seo": {
-    "homeTitle": "Buat teka teki silang online gratis: hewan, makanan, geografi, sejarah, sains, olahraga",
-    "homeDescription": "Buat teka-teki silang atau silang Swedia gratis, tanpa daftar. Teka teki silang hewan, makanan, geografi, sejarah, sains, dan olahraga, dengan kata baru setiap kali.",
+    "homeTitle": "Buat teka teki silang online, gratis dicoba: hewan, makanan, geografi, sejarah, sains, olahraga",
+    "homeDescription": "Buat teka-teki silang atau silang Swedia — yang pertama setiap bulan gratis, tanpa daftar. Teka teki silang hewan, makanan, geografi, sejarah, sains, dan olahraga, dengan kata baru setiap kali.",
     "keywords": "teka teki silang, teka-teki silang, buat teka teki silang, membuat teka-teki silang, TTS online, TTS gratis, generator teka teki silang, silang Swedia, teka teki silang hewan, teka teki silang makanan, teka teki silang geografi, teka teki silang sejarah, teka teki silang sains, teka teki silang olahraga",
-    "crosswordTitle": "Teka-teki silang online gratis",
-    "crosswordDescription": "Mainkan teka-teki silang gratis yang ditulis kecerdasan buatan: petunjuk bernomor mendatar dan menurun, 12 topik, tiga tingkat. Tanpa daftar, kata baru setiap permainan.",
-    "scanwordTitle": "Silang Swedia online gratis: petunjuk di dalam kisi",
-    "scanwordDescription": "Selesaikan silang Swedia gratis: petunjuknya ada di dalam kotak, panah menunjuk ke jawaban. Ditulis kecerdasan buatan, tanpa daftar, di ponsel, tablet, atau komputer.",
+    "crosswordTitle": "Teka-teki silang online, gratis dicoba",
+    "crosswordDescription": "Mainkan teka-teki silang yang ditulis kecerdasan buatan: petunjuk bernomor mendatar dan menurun, 12 topik, tiga tingkat. Teka-teki pertama setiap bulan gratis tanpa daftar, kata baru setiap permainan.",
+    "scanwordTitle": "Silang Swedia online: petunjuk di dalam kisi",
+    "scanwordDescription": "Selesaikan silang Swedia: petunjuknya ada di dalam kotak, panah menunjuk ke jawaban. Ditulis kecerdasan buatan, di ponsel, tablet, atau komputer — teka-teki pertama setiap bulan gratis.",
     "topicsTitle": "Teka-teki silang menurut topik: hewan, makanan, geografi, dan lain-lain",
     "topicsDescription": "Pilih topik untuk teka-teki silang atau silang Swedia berikutnya: alam, hewan, makanan, geografi, sejarah, sains, olahraga, seni, dan lain-lain.",
     "topicTitle": "Buat teka teki silang {topic}: hewan, makanan, geografi, sejarah, sains, olahraga",
-    "topicDescription": "Teka-teki silang dan silang Swedia gratis tentang {topic}, dibuat kecerdasan buatan. {description}",
+    "topicDescription": "Teka-teki silang dan silang Swedia tentang {topic}, dibuat kecerdasan buatan; yang pertama setiap bulan gratis. {description}",
     "historyTitle": "Teka-tekiku",
     "historyDescription": "Teka-teki silang dan silang Swedia yang kamu mulai di perangkat ini dan belum selesai, dengan kemajuan yang tersimpan.",
     "creditsTitle": "Kredit & harga",
-    "creditsDescription": "Satu teka-teki silang gratis setiap bulan, lalu paket kredit tanpa langganan: biaya tiap teka-teki dan cara membeli kredit.",
+    "creditsDescription": "11 kredit gratis setiap bulan, lalu paket kredit tanpa langganan: biaya tiap teka-teki dan cara membeli kredit.",
     "paymentTitle": "Pembayaran",
     "rulesTitle": "Cara mengisi teka-teki silang dan silang Swedia",
     "rulesDescription": "Cara menyelesaikan teka-teki silang atau silang Swedia di sini: mengetik, berpindah di kisi, memeriksa dan membuka huruf, serta pintasan papan ketik.",
     "faqTitle": "Pertanyaan umum: TTS dengan AI, bahasa, dan privasi",
     "faqDescription": "Jawaban tentang Teka-Teki Silang AI: apakah gratis, bagaimana kecerdasan buatan menulis petunjuk, ukuran, tingkat, kata yang tidak berulang, main tanpa internet, dan privasi.",
     "aboutTitle": "Tentang: bagaimana AI membuat teka-teki silang",
-    "aboutDescription": "Mengapa kami membuat pembuat teka-teki silang gratis yang tidak pernah mengulang kata, dan bagaimana kecerdasan buatan menulis petunjuk di setiap bahasa.",
+    "aboutDescription": "Mengapa kami membuat pembuat teka-teki silang yang tidak pernah mengulang kata, dan bagaimana kecerdasan buatan menulis petunjuk di setiap bahasa.",
     "privacyTitle": "Kebijakan privasi",
     "privacyDescription": "Apa yang disimpan Teka-Teki Silang AI, di mana, dan alasannya — termasuk akun dan pembayaran, tanpa melacak siapa kamu.",
     "termsTitle": "Ketentuan penggunaan",
@@ -84,7 +84,7 @@
     "contactDescription": "Ada pertanyaan, ide, atau masalah di teka-teki? Tulis ke kami, kami membalas lewat email.",
     "puzzleDescription": "Teka-teki gratis dari Teka-Teki Silang AI. Selesaikan di peramban.",
     "sharedPuzzleDescription": "{format, select, scanword {Silang Swedia} other {Teka-teki silang}} gratis, {size} · {topic} · {difficulty} · {words, plural, one {# kata} other {# kata}}. Ditulis kecerdasan buatan. Selesaikan di peramban, tanpa daftar.",
-    "ogImageAlt": "Teka-Teki Silang AI: teka-teki silang dan silang Swedia gratis dalam bahasamu",
+    "ogImageAlt": "Teka-Teki Silang AI: teka-teki silang dan silang Swedia dalam bahasamu",
     "ogPuzzleCta": "Bisakah kamu menyelesaikannya?",
     "ogPuzzleMeta": "{size} · {words, plural, one {# kata} other {# kata}}"
   },
@@ -179,12 +179,13 @@
     "credits": "{count, plural, other {#}} kredit",
     "balance": "Saldomu: {count, plural, other {#}} kredit",
     "cost": "Teka-teki ini: {count, plural, other {#}} kredit",
-    "freeNow": "Yang ini gratis — teka-teki gratismu bulan ini.",
+    "freeNow": "Ditanggung kredit gratismu bulan ini.",
     "youHave": "Kamu punya {count, plural, other {#}} kredit.",
     "notEnough": "Kredit tidak cukup untuk teka-teki ini.",
-    "guestUsed": "Kamu sudah menggunakan teka-teki gratis bulan ini. Masuk untuk dapat satu teka-teki gratis lagi setiap bulan dan untuk membeli kredit.",
-    "refusedSignIn": "Teka-teki gratis bulan ini sudah digunakan. Masuk untuk mendapatkan satu lagi, dan untuk membeli kredit.",
+    "guestUsed": "Kamu sudah memakai kredit gratis bulan ini. Masuk untuk dapat {count, plural, other {# kredit gratis}} lagi setiap bulan dan untuk membeli kredit.",
+    "refusedSignIn": "Kredit gratismu tidak cukup untuk teka-teki ini. Masuk untuk dapat {count, plural, other {# kredit gratis}} lagi setiap bulan dan untuk membeli kredit.",
     "refusedCredits": "Kredit tidak cukup untuk teka-teki ini. Isi ulang untuk lanjut bermain.",
+    "refusedFreeBusy": "Kredit gratis dijeda sebentar karena banyak sekali teka-teki dibuat dengannya dalam satu jam terakhir. Coba lagi nanti.",
     "signIn": "Masuk",
     "buyCredits": "Beli kredit"
   },
@@ -193,7 +194,7 @@
       "eyebrow": "Gratis dicoba · Tanpa langganan · Bisa offline",
       "title": "Buat teka teki silang <mark>yang selalu baru</mark>: hewan, makanan, geografi, sejarah, sains, dan olahraga",
       "subtitle": "Pilih topik dan tingkat kesulitan. Kecerdasan buatan menulis petunjuk dalam bahasamu, dan kata yang sama tidak muncul dua kali.",
-      "lede": "Buat teka-teki silang atau silang Swedia daring, gratis dan tanpa daftar. Topiknya dari hewan, makanan, dan geografi sampai sejarah, sains, olahraga, seni, rumah, profesi, dan budaya Indonesia, atau campur semuanya."
+      "lede": "Buat teka-teki silang atau silang Swedia daring — yang pertama setiap bulan gratis, tanpa daftar. Topiknya dari hewan, makanan, dan geografi sampai sejarah, sains, olahraga, seni, rumah, profesi, dan budaya Indonesia, atau campur semuanya."
     },
     "continueTitle": "Lanjutkan dari tadi",
     "formatsTitle": "Dua cara bermain",
@@ -221,7 +222,7 @@
     "topicsSubtitle": "Dari burung di halaman sampai sungai yang terkenal, atau campur semua topik.",
     "faqTitle": "Pertanyaan dan jawaban",
     "faq1Question": "Apakah Teka-Teki Silang AI gratis?",
-    "faq1Answer": "Teka-teki pertamamu setiap bulan gratis tanpa perlu mendaftar, dan masuk akun menambah satu teka-teki gratis lagi. Setelah itu, teka-teki menggunakan kredit yang dibeli sekali tanpa langganan. Memainkan teka-teki yang dibagikan seseorang kepadamu selalu gratis.",
+    "faq1Answer": "Setiap bulan kamu mendapat 11 kredit gratis — cukup untuk satu teka-teki sedang — tanpa perlu mendaftar, dan masuk akun menambah 11 lagi. Setelah itu, teka-teki menggunakan kredit yang dibeli sekali tanpa langganan. Memainkan teka-teki yang dibagikan seseorang kepadamu selalu gratis.",
     "faq2Question": "Apakah kata yang sama akan muncul lagi?",
     "faq2Answer": "Tidak. Perangkatmu menyimpan daftar kata yang sudah ditampilkan dan mengeluarkannya dari setiap teka-teki baru. Jika data situs di peramban dihapus, daftar itu mulai dari awal.",
     "faq3Question": "Dalam bahasa apa saya bisa bermain?",
@@ -240,7 +241,7 @@
       "title": "Teka-teki silang klasik, <mark>dibuat untukmu</mark>",
       "plainTitle": "Teka-teki silang dengan AI",
       "subtitle": "Petunjuk bernomor mendatar dan menurun, kisi yang tumbuh dari tengah, dan kata yang belum pernah kamu lihat.",
-      "lede": "Buat teka-teki silang klasik daring dan gratis: petunjuk bernomor mendatar dan menurun, dengan topik hewan, makanan, geografi, sejarah, sains, dan olahraga."
+      "lede": "Buat teka-teki silang klasik daring: petunjuk bernomor mendatar dan menurun, dengan topik hewan, makanan, geografi, sejarah, sains, dan olahraga."
     },
     "rulesTitle": "Cara kerja teka-teki silang",
     "rule1": "Setiap kotak putih berisi satu huruf. Kata berjalan mendatar (kiri ke kanan) dan menurun (atas ke bawah), saling bersilangan.",
@@ -264,7 +265,7 @@
       "title": "Silang Swedia dengan petunjuk <mark>di dalam kisi</mark>",
       "plainTitle": "Silang Swedia dengan AI",
       "subtitle": "Tidak ada daftar yang dicari: setiap petunjuk ada di kotaknya, dengan panah ke jawaban.",
-      "lede": "Buat silang Swedia daring dan gratis: petunjuknya ada di dalam kisi. Topiknya sama dengan teka-teki silang: hewan, makanan, geografi, sejarah, sains, dan olahraga."
+      "lede": "Buat silang Swedia daring: petunjuknya ada di dalam kisi. Topiknya sama dengan teka-teki silang: hewan, makanan, geografi, sejarah, sains, dan olahraga."
     },
     "rulesTitle": "Cara kerja silang Swedia",
     "rule1": "Kotak berwarna membawa petunjuk. Panah menunjukkan tempat jawaban mulai dan arahnya.",
@@ -297,6 +298,12 @@
   "Auth": {
     "signIn": "Masuk",
     "signOut": "Keluar",
+    "signOutConfirm": {
+      "title": "Keluar?",
+      "text": "Kamu bisa masuk lagi kapan saja. Kredit dan pembelianmu tetap tersimpan di akunmu.",
+      "confirm": "Keluar",
+      "cancel": "Nanti saja"
+    },
     "signInTitle": "Masuk",
     "signInSubtitle": "Pakai Google, atau surel dan kata sandi akunmu.",
     "signUpTitle": "Buat akun",
@@ -332,6 +339,7 @@
     "resent": "Terkirim lagi.",
     "forgotSent": "Jika ada akun dengan alamat itu, tautannya sedang dalam perjalanan.",
     "invalidCredentials": "Surel dan kata sandi itu tidak cocok.",
+    "tooManyAttempts": "Terlalu banyak percobaan dalam waktu singkat. Tunggu beberapa menit, lalu coba lagi.",
     "googleOnly": "Akun ini masuk lewat Google.",
     "emailNotVerified": "Kuatkan surel dulu. Tautannya ada di kotak masuk.",
     "emailTaken": "Akun dengan surel ini sudah ada.",
@@ -363,6 +371,12 @@
     "keepSolving": "Lanjut mengisi",
     "leave": "Tinggalkan",
     "newPuzzle": "Teka-teki baru",
+    "newPuzzleConfirm": {
+      "title": "Buat teka-teki baru?",
+      "text": "Format, topik, dan tingkatnya sama dengan yang ini.",
+      "create": "Buat",
+      "cancel": "Nanti saja"
+    },
     "allClues": "Semua petunjuk",
     "across": "Mendatar",
     "down": "Menurun",
@@ -540,15 +554,15 @@
           },
           {
             "question": "Apakah Teka-Teki Silang AI gratis?",
-            "answer": "Sebagian. Teka-teki pertamamu setiap bulan gratis tanpa perlu mendaftar, dan masuk akun menambah teka-teki gratis kedua setiap bulan. Sisanya, teka-teki dibayar dengan kredit: kamu membeli paket sekali — tidak ada langganan, kredit tidak pernah kadaluarsa, dan tidak ada iklan. Memainkan teka-teki yang dibagikan seseorang kepadamu selalu gratis."
+            "answer": "Sebagian. Setiap bulan kamu mendapat 11 kredit gratis — cukup untuk satu teka-teki sedang — tanpa perlu mendaftar, dan masuk akun menambah 11 lagi setiap bulan. Kredit gratis tidak terbawa ke bulan berikutnya. Selebihnya, teka-teki dibayar dengan kredit yang kamu beli: kamu membeli paket sekali — tidak ada langganan, kredit yang dibeli tidak pernah kadaluarsa, dan tidak ada iklan. Memainkan teka-teki yang dibagikan seseorang kepadamu selalu gratis."
           },
           {
             "question": "Apakah aku perlu akun?",
-            "answer": "Tidak perlu untuk teka-teki gratismu bulan ini: kemajuan, pengaturan, dan kata-kata yang sudah kamu lihat disimpan di browsermu. Akun menambah teka-teki gratis kedua setiap bulan dan memungkinkanmu membeli serta menyimpan kredit."
+            "answer": "Tidak perlu untuk 11 kredit gratismu setiap bulan: kemajuan, pengaturan, dan kata-kata yang sudah kamu lihat disimpan di browsermu. Akun menambah 11 kredit gratis lagi setiap bulan dan memungkinkanmu membeli serta menyimpan kredit."
           },
           {
             "question": "Berapa biaya satu teka-teki?",
-            "answer": "Teka-teki kecil berbiaya 5 kredit, sedang 10 kredit, dan besar 15 kredit; tingkat kesulitan sedang menambah 1 kredit dan sulit menambah 2 kredit. Kredit tersedia dalam paket 200 seharga $4,99, 600 seharga $11,99, dan 2.000 seharga $29,99. Halaman pembayaran menunjukkan harga dalam mata uangmu, termasuk pajak jika berlaku."
+            "answer": "Teka-teki kecil berbiaya 5 kredit, sedang 10 kredit, dan besar 15 kredit; tingkat kesulitan sedang menambah 1 kredit dan sulit menambah 2 kredit. Jatah 11 kredit gratismu setiap bulan cukup untuk satu teka-teki sedang dengan tingkat kesulitan sedang. Kredit tersedia dalam paket 200 seharga $4,99, 600 seharga $11,99, dan 2.000 seharga $29,99. Halaman pembayaran menunjukkan harga dalam mata uangmu, termasuk pajak jika berlaku."
           },
           {
             "question": "Siapa yang membuat Teka-Teki Silang AI?",
@@ -642,7 +656,7 @@
   },
   "About": {
     "title": "Tentang Teka-Teki Silang AI",
-    "subtitle": "Pembuat teka-teki gratis yang menulis dalam bahasamu dan tidak pernah menyajikan kata yang sama dua kali.",
+    "subtitle": "Pembuat teka-teki yang menulis dalam bahasamu dan tidak pernah menyajikan kata yang sama dua kali.",
     "sections": [
       {
         "title": "Mengapa kami membuatnya",
@@ -679,7 +693,7 @@
         "title": "Di server kami",
         "paragraphs": [
           "Kami menyimpan teka-teki yang dibuat agar tautan yang dibagikan membuka kotak yang sama. Saat kamu melaporkan petunjuk, kami menyimpan laporan tersebut dengan hash satu arah dari alamat IP-mu, hanya agar satu orang tidak dapat menarik petunjuk sendirian. Kami juga menghitung secara anonim bagaimana teka-teki dimainkan (diselesaikan, kata mana yang dibuka) untuk menyesuaikan tingkat kesulitan.",
-          "Untuk memberikan satu teka-teki gratis setiap bulan kepada setiap perangkat, situs menetapkan cookie yang berisi pengidentifikasi acak. Pada setiap teka-teki gratis, kami menyimpan pengidentifikasi tersebut dan hash satu arah dari alamat IP-mu."
+          "Untuk memberikan kredit gratis bulanan kepada setiap perangkat, situs menetapkan cookie yang berisi pengidentifikasi acak. Pada setiap teka-teki yang dibayar dengan kredit gratis, kami menyimpan pengidentifikasi tersebut dan hash satu arah dari alamat IP-mu."
         ]
       },
       {
@@ -703,7 +717,8 @@
       {
         "title": "Analitik dan laporan kesalahan",
         "paragraphs": [
-          "Jika diaktifkan, kami menggunakan Google Analytics untuk menghitung tayangan halaman dan Sentry untuk menerima laporan kesalahan. Keduanya tidak digunakan untuk mengidentifikasimu."
+          "Dengan persetujuanmu, Google Analytics menghitung tayangan halaman dan memasang cookie-nya untuk membedakan kunjungan; tanpa persetujuan, analitik berjalan tanpa cookie. Kamu bisa mengubah pilihanmu kapan saja lewat «Pengaturan cookie» di bagian bawah setiap halaman. Sentry menerima laporan kesalahan tanpa data pribadi. Keduanya tidak dipakai untuk iklan atau pembuatan profil.",
+          "Halaman dalam beberapa bahasa memuat fontnya dari Google Fonts, yang menerima alamat IP-mu bersama permintaan itu."
         ]
       }
     ]
@@ -719,10 +734,10 @@
         ]
       },
       {
-        "title": "Teka-teki gratis dan kredit",
+        "title": "Kredit gratis dan kredit yang dibeli",
         "paragraphs": [
-          "Setiap perangkat mendapatkan satu teka-teki gratis setiap bulan kalender, dan setiap akun mendapatkan satu lagi. Teka-teki lainnya dibayar dengan kredit, dengan harga yang ditampilkan sebelum kamu membuatnya; teka-teki hanya dikenakan biaya saat dibuat, dan membuka teka-teki yang tersimpan itu gratis.",
-          "Kredit dibeli dalam paket dengan pembayaran sekali — tidak ada langganan — dan tidak pernah kadaluarsa. Kredit tidak memiliki nilai tunai dan tidak dapat ditransfer."
+          "Setiap perangkat mendapatkan 11 kredit gratis setiap bulan kalender, dan setiap akun mendapatkan 11 lagi. Kredit gratis dipakai lebih dulu sebelum kredit yang dibeli dan tidak terbawa ke bulan berikutnya. Teka-teki dibayar dengan kredit, dengan harga yang ditampilkan sebelum kamu membuatnya; teka-teki hanya dikenakan biaya saat dibuat, dan membuka teka-teki yang tersimpan itu gratis.",
+          "Kredit dibeli dalam paket dengan pembayaran sekali — tidak ada langganan — dan kredit yang dibeli tidak pernah kadaluarsa. Kredit tidak memiliki nilai tunai dan tidak dapat ditransfer."
         ]
       },
       {
@@ -753,12 +768,11 @@
   },
   "Credits": {
     "title": "Kredit",
-    "subtitle": "Satu teka-teki gratis setiap bulan. Setelah itu, bayar hanya untuk teka-teki yang kamu buat — tanpa langganan, dan kredit tidak pernah kadaluarsa.",
+    "subtitle": "11 kredit gratis setiap bulan — cukup untuk satu teka-teki sedang. Setelah itu, bayar hanya untuk teka-teki yang kamu buat — tanpa langganan, dan kredit yang dibeli tidak pernah kadaluarsa.",
     "balanceTitle": "Saldomu",
-    "freeAvailable": "Teka-teki gratismu bulan ini sudah menunggu.",
-    "freeUsed": "Teka-teki gratis bulan ini sudah digunakan. Teka-teki berikutnya hadir pada {date}.",
-    "guestTitle": "Dapatkan lebih banyak teka-teki gratis",
-    "guestText": "Masuk untuk mendapatkan teka-teki gratis setiap bulan di akunmu, dan untuk membeli kredit.",
+    "freeAvailable": "Termasuk {count, plural, other {# kredit gratis}} untuk bulan ini. Kredit gratis diperbarui pada {date}.",
+    "freeUsed": "Kredit gratis bulan ini sudah digunakan. {count, plural, other {# kredit gratis baru}} hadir pada {date}.",
+    "guestText": "Masuk untuk mendapatkan {count, plural, other {# kredit gratis}} lagi setiap bulan di akunmu, dan untuk membeli kredit.",
     "pricesTitle": "Biaya teka-teki",
     "pricesText": "Dalam kredit, berdasarkan ukuran dan tingkat kesulitan. Membuka teka-teki yang dibagikan seseorang kepadamu, atau dari riwayatmu, selalu gratis.",
     "size": "Ukuran",
@@ -806,5 +820,13 @@
     "sentText": "Terima kasih. Kami akan membalas ke email Anda secepatnya.",
     "sendAnother": "Tulis pesan lain",
     "tooMany": "Pesannya terlalu banyak. Coba lagi nanti."
+  },
+  "Consent": {
+    "label": "Persetujuan cookie",
+    "text": "Kami ingin memakai cookie Google Analytics untuk melihat cara situs ini digunakan. Tanpa iklan, tanpa pembuatan profil. Selama kamu belum menerima, analitik berjalan tanpa cookie.",
+    "privacy": "Kebijakan privasi",
+    "accept": "Terima",
+    "decline": "Tolak",
+    "settings": "Pengaturan cookie"
   }
 }

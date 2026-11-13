@@ -6,7 +6,7 @@ import axios from 'axios'
 import { useTranslations } from 'next-intl'
 import { resendVerificationAPI } from '@api/auth/main'
 import { useAuthStore } from '@store/auth/store'
-import { isSafeReturnPath, PASSWORD_MAX_LENGTH, RETURN_TO_QUERY } from '@constants/auth'
+import { PASSWORD_MAX_LENGTH, RETURN_TO_QUERY, safeReturnPath } from '@constants/auth'
 import { ROUTES } from '@constants/routes'
 import { authErrorKey } from '@helpers/authError'
 import { AppLink } from '@components/ui/bare/AppLink'
@@ -24,7 +24,7 @@ export const SignUpForm = ({ returnTo }: { returnTo?: string }) => {
   const [error, setError] = useState<unknown>(null)
   const [sentTo, setSentTo] = useState<string | null>(null)
   const [resent, setResent] = useState(false)
-  const safeReturn = isSafeReturnPath(returnTo) ? returnTo : undefined
+  const safeReturn = safeReturnPath(returnTo)
   const query = safeReturn ? `?${RETURN_TO_QUERY}=${encodeURIComponent(safeReturn)}` : ''
 
   const onFinish = async ({ fullName, email, password }: Values) => {

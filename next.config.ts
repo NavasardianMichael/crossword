@@ -5,7 +5,14 @@ import createNextIntlPlugin from 'next-intl/plugin'
 // Without the explicit path next-intl looks for `./i18n/request.ts` at the project root.
 const withNextIntl = createNextIntlPlugin('./src/i18n/request.ts')
 
+/**
+ * Names this build — the service worker's version carries it (`src/app/sw.js/route.ts`), so
+ * every deploy's worker replaces the last. The commit in CI; a timestamp locally.
+ */
+const BUILD_ID = process.env.GITHUB_SHA?.slice(0, 12) ?? `local-${Date.now().toString(36)}`
+
 const nextConfig: NextConfig = {
+  env: { BUILD_ID },
   // `.next/standalone`: server.js plus only the traced node_modules, so a release carries its
   // own runtime. `public/` and `.next/static` are copied in by the deploy (docs/DEPLOYMENT.md).
   output: 'standalone',
@@ -19,6 +26,10 @@ const nextConfig: NextConfig = {
           { key: 'X-Frame-Options', value: 'DENY' },
           { key: 'Referrer-Policy', value: 'strict-origin-when-cross-origin' },
           { key: 'Permissions-Policy', value: 'camera=(), microphone=(), geolocation=()' },
+          // The directives that cannot break a flow. A script/connect allowlist would need
+          // 'unsafe-inline' (Next and antd inline without nonces, and nonces make every page
+          // dynamic), which buys little against XSS for the risk of breaking Paddle or GA.
+          { key: 'Content-Security-Policy', value: "frame-ancestors 'none'; base-uri 'self'; object-src 'none'; form-action 'self'" },
         ],
       },
     ]

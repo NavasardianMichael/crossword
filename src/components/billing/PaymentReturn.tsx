@@ -55,7 +55,10 @@ export const PaymentReturn = () => {
         if (Date.now() - startedAt > POLL_TIMEOUT_MS) return setState({ kind: 'pending' })
         timer = setTimeout(() => void poll(), POLL_INTERVAL_MS)
       } catch (error) {
-        if (!cancelled) setState({ kind: 'error', error })
+        if (cancelled) return
+        // A dropped request mid-poll is not a verdict: keep asking until the timeout.
+        if (Date.now() - startedAt > POLL_TIMEOUT_MS) return setState({ kind: 'error', error })
+        timer = setTimeout(() => void poll(), POLL_INTERVAL_MS)
       }
     }
     void poll()

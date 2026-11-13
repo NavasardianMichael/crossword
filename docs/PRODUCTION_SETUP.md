@@ -206,7 +206,7 @@ GEMINI_KEY=""
 GEMINI_MODELS="gemini-3.5-flash-lite:MINIMAL,gemini-3.6-flash:LOW,gemini-3.8-flash:LOW"
 # The second "judge" pass over every generated batch.
 VERIFY_ENTRIES="true"
-# Gemini calls per UTC day, generation and judge together.
+# Gemini calls per day (from midnight Pacific, as Google counts), generation and judge together.
 POOL_DAILY_CALL_BUDGET="300"
 # The background job that keeps the word pool stocked.
 POOL_REFILL_ENABLED="true"
@@ -235,8 +235,10 @@ PADDLE_SANDBOX="false"
 PADDLE_PRICE_ID_STARTER=""
 PADDLE_PRICE_ID_POPULAR=""
 PADDLE_PRICE_ID_BIG=""
-# Guest devices one IP address may take a free puzzle for each month.
+# Guest devices one IP address may spend free credits from each month.
 GUEST_FREE_PER_IP="3"
+# Puzzles taking free credits in any rolling hour, all players together; past it free credits pause.
+FREE_PUZZLES_PER_HOUR="200"
 ```
 
 Never set these in this file:
@@ -318,3 +320,98 @@ curl.exe -s  https://api.crossword.eapps.site/health     # "status":"ok", "gemin
 curl.exe -sI https://crossword.eapps.site/en             # 200
 curl.exe -sI https://www.crossword.eapps.site            # 301 -> https://crossword.eapps.site
 ```
+
+## 8. Database backups to Google Drive **[PC]** **[SRV]** (once)
+
+Every night the server dumps the database and streams it straight to a Google Drive folder:
+nothing is kept on the server's disk. Dumps older than 22 days are deleted from Drive. One dump
+is a few MB (about 10–50 MB even with a large word pool), so 22 of them fit easily in Drive's
+free 15 GB. The database must exist, so do this after the first deploy (step 7).
+
+**Install rclone** on the server **[SRV]**:
+
+```bash
+sudo apt install rclone
+rclone version
+```
+
+And on your PC **[PC]**, only to sign in to Google once (it opens a browser):
+
+```powershell
+winget install Rclone.Rclone
+```
+
+**Connect Google Drive** **[SRV]**. Use the Google account that should hold the backups (a
+separate one is fine):
+
+```bash
+rclone config
+```
+
+Answer: `n` (new remote) → name `gdrive` → storage `drive` → `client_id` and `client_secret`
+empty → scope `drive.file` (rclone sees only the files it created, nothing else in the Drive) →
+`root_folder_id` and `service_account_file` empty → advanced config `n` → auto config / web
+browser `n`. rclone then prints a line like `rclone authorize "drive" "eyJ…"`. Run that exact
+line on your PC **[PC]**, sign in to Google in the browser that opens, and paste the token it
+prints back into the server prompt. Then: shared drive `n` → `y` (keep) → `q` (quit). Check:
+
+```bash
+rclone mkdir gdrive:crossword-backups
+rclone lsd gdrive:
+```
+
+**Install the script** **[SRV]**. Paste [backup-db.sh](../deployment/backup-db.sh) into:
+
+```bash
+nano /home/michael/apps/crossword/shared/backup-db.sh
+```
+
+```bash
+chmod 700 /home/michael/apps/crossword/shared/backup-db.sh
+/home/michael/apps/crossword/shared/backup-db.sh
+rclone ls gdrive:crossword-backups
+```
+
+The manual run should print `ok: crossword-<date>.dump (<size> bytes)`, and the file should be
+listed on Drive.
+
+**Schedule it** **[SRV]**, nightly at 03:30 server time:
+
+```bash
+crontab -e
+```
+
+Add this line, then save and exit:
+
+```text
+30 3 * * * /home/michael/apps/crossword/shared/backup-db.sh >> /home/michael/apps/crossword/shared/backup.log 2>&1
+```
+
+**Get told when a night is missed** (optional, recommended). Create a free check at
+https://healthchecks.io (period 1 day, grace 2 hours), and put its ping URL in the script's
+`PING_URL="…"` line. healthchecks.io then emails you whenever a night's backup did not
+succeed. Without it, look at `tail /home/michael/apps/crossword/shared/backup.log` now and then.
+
+**Restore drill** (any time — do it once now, so you know the backups work). This restores the
+newest dump into a scratch database next to the real one, counts rows, and drops it again:
+
+```bash
+rclone lsl gdrive:crossword-backups
+rclone cat gdrive:crossword-backups/<newest file>.dump | docker exec -i crossword-postgres-prod sh -c 'createdb -U "$POSTGRES_USER" crossword_restore && pg_restore -U "$POSTGRES_USER" -d crossword_restore --no-owner'
+docker exec crossword-postgres-prod sh -c 'psql -U "$POSTGRES_USER" -d crossword_restore -c "select (select count(*) from \"User\") users, (select count(*) from \"CreditEntry\") ledger, (select count(*) from \"Entry\") entries"'
+docker exec crossword-postgres-prod sh -c 'dropdb -U "$POSTGRES_USER" crossword_restore'
+```
+
+**Real restore** (only after data loss). Stop the API, replace the database with the dump, start
+the API again:
+
+```bash
+sudo systemctl stop crossword-api
+rclone cat gdrive:crossword-backups/<the file>.dump | docker exec -i crossword-postgres-prod sh -c 'pg_restore -U "$POSTGRES_USER" -d "$POSTGRES_DB" --clean --if-exists --no-owner'
+sudo systemctl start crossword-api
+```
+
+Before a deploy whose commit adds a migration under `server/prisma/migrations/`, run the script
+by hand once: migrations do not roll back.
+
+If `backup-db.sh` changes in the repo later, paste it again (empty the file first, as above).

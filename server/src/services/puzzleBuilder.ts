@@ -5,6 +5,7 @@ import {
   clueOptions,
   type ClueStyle,
   drawCandidates,
+  freeCallBudget,
   generateIntoPool,
   recordDemand,
 } from './entryPool.js'
@@ -45,6 +46,8 @@ export type BuildRequest = {
   difficulty: Difficulty
   size: PuzzleSize
   exclude: readonly number[]
+  /** Paid for wholly with free credits: its inline generation stays within `freeCallBudget()`. */
+  free?: boolean
 }
 
 export type Charge = (tx: Prisma.TransactionClient, puzzleId: string, size: PuzzleSize) => Promise<void>
@@ -56,6 +59,8 @@ const LAYOUT_ATTEMPTS = 40
 const THEME_SHARE = 0.6
 /** Inline generations running at once, across all requests — the rest wait for the refill job. */
 const MAX_INLINE_GENERATIONS = 2
+/** An inline top-up's whole budget (generation + judge), well inside the web's 90 s timeout. */
+const INLINE_DEADLINE_MS = 45_000
 let inlineGenerations = 0
 
 const PUZZLE_ID_ALPHABET = '0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz'
@@ -80,12 +85,17 @@ const draw = async (request: BuildRequest, topic: TopicChoice, count: number, ma
   return [...themed, ...glue].sort((a, b) => a.id - b.id)
 }
 
-/** One inline batch for a short bucket, when quota and concurrency allow; never throws. */
+/**
+ * One inline batch for a short bucket, when quota and concurrency allow; never throws. One
+ * attempt, bounded well inside the web's 90 s request timeout — the refill job does the rest.
+ */
 const topUp = async (request: BuildRequest, topic: TopicChoice): Promise<boolean> => {
   if (!isGeminiConfigured() || inlineGenerations >= MAX_INLINE_GENERATIONS) return false
   inlineGenerations++
   try {
-    return (await generateIntoPool(request.locale, topic === 'any' ? 'general' : topic, request.difficulty)).inserted > 0
+    const bucket = topic === 'any' ? 'general' : topic
+    const options = { attempts: 1, deadline: Date.now() + INLINE_DEADLINE_MS, ...(request.free ? { budget: freeCallBudget() } : {}) }
+    return (await generateIntoPool(request.locale, bucket, request.difficulty, options)).inserted > 0
   } catch (error) {
     console.warn(`[puzzle] inline generation failed for ${request.locale}/${topic}:`, (error as Error).message)
     return false

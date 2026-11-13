@@ -192,6 +192,13 @@ export const DIFFICULTY_CREDITS: Record<Difficulty, number> = { 1: 0, 2: 1, 3: 2
 
 export const puzzleCredits = (size: PuzzleSize, difficulty: Difficulty): number => SIZE_CREDITS[size] + DIFFICULTY_CREDITS[difficulty]
 
+/**
+ * Free credits every holder — a guest device, an account — gets each calendar month: a medium
+ * puzzle at medium difficulty (`docs/BILLING.md`). Spent before bought credits; what is left at
+ * the end of the month does not carry over.
+ */
+export const FREE_MONTHLY_CREDITS = puzzleCredits('medium', 2)
+
 /** Paid once; credits never expire. `usd` is the list price, shown until Paddle's localized one arrives. */
 export const CREDIT_PACKS = [
   { id: 'starter', credits: 200, usd: 4.99 },
@@ -202,10 +209,12 @@ export type CreditPackId = (typeof CREDIT_PACKS)[number]['id']
 
 export const isCreditPackId = (value: unknown): value is CreditPackId => CREDIT_PACKS.some(({ id }) => id === value)
 
-/** Envelope codes of a refused `POST /puzzles` (HTTP 402). */
+/** Envelope codes of a refused `POST /puzzles`: HTTP 402, or 429 for `freeBusy`. */
 export const BILLING_CODE = {
-  /** A guest has used this month's free puzzle: signing in gives another and lets them buy credits. */
+  /** A guest's free credits do not cover the puzzle: signing in gives more each month and lets them buy credits. */
   signInRequired: 4021,
-  /** Signed in, this month's free puzzle used, and the balance is below the puzzle's price. */
+  /** Signed in, and free plus bought credits are below the puzzle's price. */
   insufficientCredits: 4022,
+  /** The puzzle would spend free credits, but they are paused for a while: too many puzzles took them in the last hour. */
+  freeBusy: 4291,
 } as const

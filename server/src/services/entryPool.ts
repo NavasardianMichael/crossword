@@ -117,7 +117,7 @@ export const pickSeeding = async (locale: Locale, topic: Topic, random: Random):
 
   const counts = await prisma.$queryRaw<{ firstCell: string; count: number }[]>`
     SELECT "firstCell", COUNT(*)::int AS count FROM "Entry"
-    WHERE locale = ${locale} AND ${topic} = ANY(topics)
+    WHERE locale = ${locale} AND topics @> ARRAY[${topic}]::text[]
     GROUP BY "firstCell"
   `
   const perLetter = new Map(counts.map(({ firstCell, count }) => [firstCell, count]))
@@ -146,11 +146,31 @@ export const pickSeeding = async (locale: Locale, topic: Topic, random: Random):
   }
 }
 
-/** Gemini calls spent since midnight UTC — the free tier's daily quota is the binding one. */
+const QUOTA_TIME_ZONE = 'America/Los_Angeles'
+
+/**
+ * When today's quota began: Google resets the free tier's daily quotas at midnight Pacific
+ * time, not UTC. Wall-clock based, so it is an hour off on the two DST change days.
+ */
+export const quotaDayStart = (now = new Date()): Date => {
+  const parts = new Intl.DateTimeFormat('en-US', {
+    timeZone: QUOTA_TIME_ZONE,
+    hour: 'numeric',
+    minute: 'numeric',
+    second: 'numeric',
+    hourCycle: 'h23',
+  }).formatToParts(now)
+  const part = (type: Intl.DateTimeFormatPartTypes) => Number(parts.find((each) => each.type === type)?.value ?? 0)
+  const elapsedMs = ((part('hour') * 60 + part('minute')) * 60 + part('second')) * 1000 + now.getMilliseconds()
+  return new Date(now.getTime() - elapsedMs)
+}
+
+/** The calls free play may spend in a quota day (`config.gemini.freeShare`); paid puzzles may spend the whole budget. */
+export const freeCallBudget = (): number => Math.floor(config.gemini.dailyCallBudget * config.gemini.freeShare)
+
+/** Gemini calls spent in today's quota day — the free tier's daily quota is the binding one. */
 export const callsToday = async (): Promise<number> => {
-  const midnight = new Date()
-  midnight.setUTCHours(0, 0, 0, 0)
-  const { _sum } = await prisma.generationLog.aggregate({ where: { createdAt: { gte: midnight } }, _sum: { calls: true } })
+  const { _sum } = await prisma.generationLog.aggregate({ where: { createdAt: { gte: quotaDayStart() } }, _sum: { calls: true } })
   return _sum.calls ?? 0
 }
 
@@ -161,10 +181,18 @@ const inFlight = new Map<string, Promise<PoolGeneration>>()
 
 /**
  * Generates one batch into the pool: how many new words it stored, and the Gemini calls it
- * spent. Two attempts: an all-repeat batch is usually a fluke, and the retry names the words
- * that were rejected. The budget is checked before each attempt, for every call it may spend.
+ * spent. Two attempts by default: an all-repeat batch is usually a fluke, and the retry names the
+ * words that were rejected. The budget is checked before each attempt, for every call it may
+ * spend, against `budget`: the whole daily budget for a paid puzzle, `freeCallBudget()` for free
+ * play and the refill job. A player's request passes one attempt and a deadline; the refill job
+ * does the rest.
  */
-export const generateIntoPool = (locale: Locale, topic: Topic, difficulty: Difficulty): Promise<PoolGeneration> => {
+export const generateIntoPool = (
+  locale: Locale,
+  topic: Topic,
+  difficulty: Difficulty,
+  { attempts = 2, deadline, budget = config.gemini.dailyCallBudget }: { attempts?: number; deadline?: number; budget?: number } = {}
+): Promise<PoolGeneration> => {
   const key = `${locale}:${topic}:${difficulty}`
   const existing = inFlight.get(key)
   if (existing) return existing
@@ -176,12 +204,12 @@ export const generateIntoPool = (locale: Locale, topic: Topic, difficulty: Diffi
     const random = createRandom(Date.now() >>> 0)
     const rejected: string[] = []
 
-    for (let attempt = 0; attempt < 2; attempt++) {
-      if ((await callsToday()) + callsPerAttempt > config.gemini.dailyCallBudget) break
+    for (let attempt = 0; attempt < attempts; attempt++) {
+      if ((await callsToday()) + callsPerAttempt > budget) break
       const seeding = await pickSeeding(locale, topic, random)
       seeding.avoid.push(...rejected)
       const started = Date.now()
-      const result = await generateEntries({ locale, topic, difficulty, seeding })
+      const result = await generateEntries({ locale, topic, difficulty, seeding, deadline })
       const stored = await insertEntries(locale, topic, result.entries, {
         origin: 'ai',
         model: result.model,
@@ -255,7 +283,7 @@ export const drawCandidates = async ({
 }: DrawParams): Promise<Candidate[]> => {
   if (count <= 0) return []
   const [minDifficulty, maxDifficulty] = difficultyRange(difficulty)
-  const topicFilter = topic === 'any' ? Prisma.empty : Prisma.sql`AND ${topic} = ANY(e.topics)`
+  const topicFilter = topic === 'any' ? Prisma.empty : Prisma.sql`AND e.topics @> ARRAY[${topic}]::text[]`
   const short = Math.ceil(count * 0.45)
   const mid = Math.ceil(count * 0.4)
   const long = Math.max(count - short - mid, 1)
@@ -340,16 +368,30 @@ export const topicSamples = async (locale: Locale, topic: Topic, count = 8): Pro
     JOIN LATERAL (
       SELECT text FROM "Clue" c WHERE c."entryId" = e.id AND c.style = 'full' AND c."retiredAt" IS NULL LIMIT 1
     ) k ON true
-    WHERE e.locale = ${locale} AND ${topic} = ANY(e.topics) AND e.origin = 'seed' AND e."retiredAt" IS NULL
+    WHERE e.locale = ${locale} AND e.topics @> ARRAY[${topic}]::text[] AND e.origin = 'seed' AND e."retiredAt" IS NULL
       AND e.difficulty = 1
     ORDER BY e.id
     LIMIT ${count}
   `
 
-/** Live words per locale, for `/health`. */
-export const poolSizes = async (): Promise<Record<string, number>> => {
-  const rows = await prisma.entry.groupBy({ by: ['locale'], where: { retiredAt: null }, _count: { _all: true } })
-  return Object.fromEntries(rows.map(({ locale, _count }) => [locale, _count._all]))
+const POOL_SIZES_TTL_MS = 60_000
+let poolSizesCache: { at: number; value: Promise<Record<string, number>> } | null = null
+
+/**
+ * Live words per locale, for `/health`. Cached for a minute: the count scans the whole table,
+ * and the deploy and every sign-in page ask for it.
+ */
+export const poolSizes = (): Promise<Record<string, number>> => {
+  if (poolSizesCache && Date.now() - poolSizesCache.at < POOL_SIZES_TTL_MS) return poolSizesCache.value
+  const value = prisma.entry
+    .groupBy({ by: ['locale'], where: { retiredAt: null }, _count: { _all: true } })
+    .then((rows) => Object.fromEntries(rows.map(({ locale, _count }) => [locale, _count._all])))
+  poolSizesCache = { at: Date.now(), value }
+  // A failed count is not remembered: the next call asks the database again.
+  value.catch(() => {
+    poolSizesCache = null
+  })
+  return value
 }
 
 // ---------------------------------------------------------------------------------------------

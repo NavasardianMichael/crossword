@@ -6,7 +6,7 @@ import axios from 'axios'
 import { useTranslations } from 'next-intl'
 import { resendVerificationAPI } from '@api/auth/main'
 import { useAuthStore } from '@store/auth/store'
-import { AUTH_CODE, type GoogleErrorCode, isSafeReturnPath, RETURN_TO_QUERY } from '@constants/auth'
+import { AUTH_CODE, type GoogleErrorCode, RETURN_TO_QUERY, safeReturnPath } from '@constants/auth'
 import { ROUTES } from '@constants/routes'
 import { authErrorKey } from '@helpers/authError'
 import { AppLink } from '@components/ui/bare/AppLink'
@@ -26,7 +26,7 @@ export const SignInForm = ({ returnTo, googleError, verified }: SignInFormProps)
   const [error, setError] = useState<unknown>(null)
   const [unverified, setUnverified] = useState<string | null>(null)
   const [resent, setResent] = useState(false)
-  const safeReturn = isSafeReturnPath(returnTo) ? returnTo : undefined
+  const safeReturn = safeReturnPath(returnTo)
   useAuthRedirect(safeReturn)
   const query = safeReturn ? `?${RETURN_TO_QUERY}=${encodeURIComponent(safeReturn)}` : ''
 

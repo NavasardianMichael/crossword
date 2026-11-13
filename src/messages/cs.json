@@ -1,7 +1,7 @@
 {
   "Common": {
     "appName": "Křížovky AI",
-    "tagline": "Křížovky a skandinávky zdarma, které umělá inteligence píše rovnou ve vašem jazyce. V každé hře nová slova, nic se neopakuje.",
+    "tagline": "Křížovky a skandinávky, které umělá inteligence píše rovnou ve vašem jazyce — první každý měsíc je zdarma. V každé hře nová slova, nic se neopakuje.",
     "skipToContent": "Přeskočit na obsah",
     "openMenu": "Otevřít nabídku",
     "menu": "Nabídka",
@@ -54,25 +54,25 @@
     "gotIt": "Rozumím"
   },
   "Seo": {
-    "homeTitle": "Česká křížovka zdarma — vytvořit křížovku online",
-    "homeDescription": "Vytvořte křížovku nebo skandinávku zdarma. Témata: zvířata, jídlo, zeměpis, historie, věda, sport a další. Česká křížovka pokaždé s novými slovy, funguje i offline.",
+    "homeTitle": "Česká křížovka — vytvořit křížovku online, vyzkoušejte zdarma",
+    "homeDescription": "Vytvořte křížovku nebo skandinávku online — první každý měsíc je zdarma. Témata: zvířata, jídlo, zeměpis, historie, věda, sport a další. Česká křížovka pokaždé s novými slovy, funguje i offline.",
     "keywords": "křížovka, česká křížovka, vytvořit křížovku, křížovky online zdarma, skandinávka, křížovka zvířata, křížovka jídlo, křížovka zeměpis, křížovka historie, křížovka věda, křížovka sport",
-    "crosswordTitle": "Klasické křížovky online zdarma",
-    "crosswordDescription": "Luštěte klasické křížovky od umělé inteligence: číslované legendy vodorovně a svisle, 12 témat, tři obtížnosti. Bez registrace, pokaždé nová slova.",
-    "scanwordTitle": "Skandinávky online zdarma — legendy v mřížce",
-    "scanwordDescription": "Luštěte skandinávky od umělé inteligence: legendy jsou přímo v políčkách a šipky vedou k odpovědím. Zdarma, bez registrace, na telefonu, tabletu i počítači.",
+    "crosswordTitle": "Klasické křížovky online — vyzkoušejte zdarma",
+    "crosswordDescription": "Luštěte klasické křížovky od umělé inteligence: číslované legendy vodorovně a svisle, 12 témat, tři obtížnosti. První křížovka každý měsíc je zdarma a bez registrace, pokaždé nová slova.",
+    "scanwordTitle": "Skandinávky online — legendy v mřížce",
+    "scanwordDescription": "Luštěte skandinávky od umělé inteligence: legendy jsou přímo v políčkách a šipky vedou k odpovědím. Na telefonu, tabletu i počítači; první každý měsíc je zdarma.",
     "topicsTitle": "Křížovky podle témat: zvířata, jídlo, zeměpis",
     "topicsDescription": "Vyberte téma další křížovky nebo skandinávky: příroda, zvířata, jídlo, zeměpis, historie, věda, sport, umění a další.",
-    "topicTitle": "Křížovky: {topic} — zdarma online",
+    "topicTitle": "Křížovky: {topic} — online od umělé inteligence",
     "topicDescription": "Křížovky a skandinávky na téma {topic}, které skládá umělá inteligence. {description}",
     "historyTitle": "Moje křížovky",
     "historyDescription": "Křížovky a skandinávky, které jste na tomhle zařízení začali a nedokončili, s uloženým postupem.",
     "creditsTitle": "Kredity a ceny",
-    "creditsDescription": "Jedna křížovka každý měsíc zdarma, pak balíčky kreditů bez předplatného: kolik která luštovka stojí a jak kredity koupit.",
+    "creditsDescription": "11 kreditů zdarma každý měsíc, pak balíčky kreditů bez předplatného: kolik která křížovka stojí a jak kredity koupit.",
     "paymentTitle": "Platba",
     "rulesTitle": "Jak luštit křížovky a skandinávky",
     "rulesDescription": "Jak u nás luštit křížovku nebo skandinávku: psaní písmen, pohyb po mřížce, kontrola, odhalení a klávesové zkratky.",
-    "faqTitle": "Otázky: křížovky zdarma, jazyky a soukromí",
+    "faqTitle": "Otázky: křížovky, ceny, jazyky a soukromí",
     "faqDescription": "Odpovědi o Křížovkách AI: je to zdarma, jak vznikají legendy, velikosti mřížek, obtížnost, slova bez opakování, luštění offline, sdílení a soukromí.",
     "aboutTitle": "O projektu — jak vznikají naše křížovky",
     "aboutDescription": "Proč jsme udělali generátor křížovek, ve kterém se slovo neopakuje, a jak umělá inteligence píše legendy rovnou v každém jazyce.",
@@ -84,7 +84,7 @@
     "contactDescription": "Otázka, nápad nebo chyba v křížovce? Napište nám, odpovíme na e-mail.",
     "puzzleDescription": "Hádanka zdarma od Křížovek AI — vyluštěte ji v prohlížeči.",
     "sharedPuzzleDescription": "Zdarma {size} {format, select, scanword {skandinávka} other {křížovka}} · {topic} · {difficulty} · {words, plural, one {# slovo} few {# slova} many {# slov} other {# slov}}. Napsáno umělou inteligencí — luštěte v prohlížeči, bez registrace.",
-    "ogImageAlt": "Křížovky AI — křížovky a skandinávky zdarma ve vašem jazyce",
+    "ogImageAlt": "Křížovky AI — křížovky a skandinávky od umělé inteligence ve vašem jazyce",
     "ogPuzzleCta": "Vyluštíte to?",
     "ogPuzzleMeta": "{size} · {words, plural, one {# slovo} few {# slova} many {# slov} other {# slov}}"
   },
@@ -179,12 +179,13 @@
     "credits": "{count, plural, one {# kredit} few {# kredity} many {# kreditu} other {# kreditů}}",
     "balance": "Tvůj zůstatek: {count, plural, one {# kredit} few {# kredity} many {# kreditu} other {# kreditů}}",
     "cost": "Tato křížovka: {count, plural, one {# kredit} few {# kredity} many {# kreditu} other {# kreditů}}",
-    "freeNow": "Tato je zdarma — tvoje bezplatná křížovka pro tento měsíc.",
+    "freeNow": "Pokryjí ji tvoje bezplatné kredity na tento měsíc.",
     "youHave": "Máš {count, plural, one {# kredit} few {# kredity} many {# kreditu} other {# kreditů}}.",
     "notEnough": "Na tuto křížovku nemáš dostatek kreditů.",
-    "guestUsed": "Bezplatnou křížovku na tento měsíc už máš vyčerpanou. Přihlas se pro další křížovku zdarma každý měsíc a pro nákup kreditů.",
-    "refusedSignIn": "Bezplatná křížovka na tento měsíc je vyčerpaná. Přihlas se, abys získal další a mohl si dokoupit kredity.",
+    "guestUsed": "Bezplatné kredity na tento měsíc už máš vyčerpané. Přihlas se a každý měsíc získáš {count, plural, one {# další kredit zdarma} few {# další kredity zdarma} many {# dalšího kreditu zdarma} other {# dalších kreditů zdarma}} a možnost kupovat kredity.",
+    "refusedSignIn": "Na tuto křížovku tvoje bezplatné kredity nestačí. Přihlas se a každý měsíc získáš {count, plural, one {# další kredit zdarma} few {# další kredity zdarma} many {# dalšího kreditu zdarma} other {# dalších kreditů zdarma}} a možnost kupovat kredity.",
     "refusedCredits": "Na tuto křížovku nemáš dostatek kreditů. Dobij si je a hraj dál.",
+    "refusedFreeBusy": "Bezplatné kredity jsou na chvíli pozastavené – za poslední hodinu se s nimi vytvořilo opravdu hodně křížovek. Zkus to prosím později.",
     "signIn": "Přihlásit se",
     "buyCredits": "Koupit kredity"
   },
@@ -193,7 +194,7 @@
       "eyebrow": "Vyzkoušej zdarma · Bez předplatného · Funguje offline",
       "title": "Česká křížovka, která je <mark>vždy nová</mark>",
       "subtitle": "Vyberte téma a obtížnost. Legendy píše umělá inteligence ve vašem jazyce a stejné slovo nedostanete dvakrát.",
-      "lede": "Vytvořte křížovku nebo skandinávku zdarma, bez registrace. Témata sahají od zvířat, jídla a zeměpisu po historii, vědu, sport, umění, domov, povolání a místní kulturu — nebo je smíchejte."
+      "lede": "Vytvořte křížovku nebo skandinávku — první každý měsíc je zdarma, bez registrace. Témata sahají od zvířat, jídla a zeměpisu po historii, vědu, sport, umění, domov, povolání a místní kulturu — nebo je smíchejte."
     },
     "continueTitle": "Pokračujte, kde jste skončili",
     "formatsTitle": "Dva způsoby luštění",
@@ -221,7 +222,7 @@
     "topicsSubtitle": "Od ptáků na krmítku po známé řeky — nebo všechno najednou.",
     "faqTitle": "Otázky a odpovědi",
     "faq1Question": "Jsou Křížovky AI zdarma?",
-    "faq1Answer": "Tvoje první křížovka každý měsíc je zdarma a bez registrace, přihlášení přidá další jednu. Poté křížovky stojí kredity, které si kupuješ jednorázově bez předplatného. Luštění křížovky, kterou s tebou někdo sdílel, je vždy zdarma.",
+    "faq1Answer": "Každý měsíc dostaneš 11 kreditů zdarma — stačí na střední křížovku — bez registrace a přihlášení přidá dalších 11. Poté křížovky stojí kredity, které si kupuješ jednorázově bez předplatného. Luštění křížovky, kterou s tebou někdo sdílel, je vždy zdarma.",
     "faq2Question": "Uvidím stejná slova znovu?",
     "faq2Answer": "Ne. Zařízení si vede seznam slov, která už ukázalo, a z nových křížovek je vynechá. Když smažete data webu v prohlížeči, seznam začne odznova.",
     "faq3Question": "V jakých jazycích se dá luštit?",
@@ -240,7 +241,7 @@
       "title": "Klasická křížovka <mark>jen pro vás</mark>",
       "plainTitle": "Křížovka AI",
       "subtitle": "Číslované legendy vodorovně a svisle, mřížka rostoucí od středu a slova, která jste ještě neviděli.",
-      "lede": "Hrajte klasickou křížovku online zdarma: číslované legendy vodorovně a svisle, v tématech od zvířat a jídla po zeměpis, historii, vědu a sport."
+      "lede": "Hrajte klasickou křížovku online: číslované legendy vodorovně a svisle, v tématech od zvířat a jídla po zeměpis, historii, vědu a sport."
     },
     "rulesTitle": "Jak křížovka funguje",
     "rule1": "Každé bílé políčko drží jedno písmeno. Slova jdou vodorovně (zleva doprava) a svisle (shora dolů) a kříží se.",
@@ -264,7 +265,7 @@
       "title": "Skandinávka s legendami <mark>v mřížce</mark>",
       "plainTitle": "Skandinávka AI",
       "subtitle": "Žádné sloupce k hledání: každá legenda sedí ve svém políčku a šipka vede k odpovědi.",
-      "lede": "Hrajte skandinávku online zdarma: legendy jsou v mřížce. Stejná témata jako u křížovek — zvířata, jídlo, zeměpis, historie, věda, sport a další."
+      "lede": "Hrajte skandinávku online: legendy jsou v mřížce. Stejná témata jako u křížovek — zvířata, jídlo, zeměpis, historie, věda, sport a další."
     },
     "rulesTitle": "Jak skandinávka funguje",
     "rule1": "Tónovaná políčka drží legendy. Šipka u legendy ukazuje, kde odpověď začíná a kterým směrem jde.",
@@ -297,6 +298,12 @@
   "Auth": {
     "signIn": "Přihlásit se",
     "signOut": "Odhlásit se",
+    "signOutConfirm": {
+      "title": "Odhlásit se?",
+      "text": "Kdykoli se můžeš znovu přihlásit. Kredity i nákupy ti zůstanou v účtu.",
+      "confirm": "Odhlásit se",
+      "cancel": "Teď ne"
+    },
     "signInTitle": "Přihlášení",
     "signInSubtitle": "Přes Google, nebo e-mailem a heslem k účtu.",
     "signUpTitle": "Založit účet",
@@ -332,6 +339,7 @@
     "resent": "Posláno znovu.",
     "forgotSent": "Pokud k té adrese účet patří, odkaz je na cestě.",
     "invalidCredentials": "Ten e-mail a heslo k sobě nepatří.",
+    "tooManyAttempts": "Příliš mnoho pokusů za krátkou dobu. Počkej pár minut a zkus to znovu.",
     "googleOnly": "Ten účet se přihlašuje přes Google.",
     "emailNotVerified": "Nejdřív potvrďte e-mail. Odkaz je ve schránce.",
     "emailTaken": "Účet s tímhle e-mailem už existuje.",
@@ -363,6 +371,12 @@
     "keepSolving": "Luštit dál",
     "leave": "Odejít",
     "newPuzzle": "Nová křížovka",
+    "newPuzzleConfirm": {
+      "title": "Vytvořit novou křížovku?",
+      "text": "Stejný formát, téma i obtížnost jako tahle.",
+      "create": "Vytvořit",
+      "cancel": "Teď ne"
+    },
     "allClues": "Všechny legendy",
     "across": "Vodorovně",
     "down": "Svisle",
@@ -539,15 +553,15 @@
           },
           {
             "question": "Jsou Křížovky AI zdarma?",
-            "answer": "Částečně. Tvoje první křížovka každý měsíc je zdarma bez registrace a přihlášení ti přidá druhou zdarma každý měsíc. Nad to se za křížovky platí kredity: koupíš si jednorázový balíček — neexistuje žádné předplatné, kredity nikdy nepropadnou a nejsou tu žádné reklamy. Hraní křížovky, kterou s tebou někdo sdílel, je vždy zdarma."
+            "answer": "Částečně. Každý měsíc dostaneš 11 kreditů zdarma — stačí na střední křížovku — bez registrace a přihlášení ti každý měsíc přidá dalších 11. Bezplatné kredity se do dalšího měsíce nepřevádějí. Nad to se za křížovky platí koupenými kredity: balíček si koupíš jednorázově — neexistuje žádné předplatné, koupené kredity nikdy nepropadnou a nejsou tu žádné reklamy. Hraní křížovky, kterou s tebou někdo sdílel, je vždy zdarma."
           },
           {
             "question": "Potřebuji účet?",
-            "answer": "Pro bezplatnou křížovku měsíce ne: tvůj postup, nastavení a již viděná slova se ukládají v prohlížeči. Účet přidá druhou křížovku zdarma každý měsíc a umožní ti kupovat a uchovávat kredity."
+            "answer": "Pro 11 kreditů zdarma měsíčně ne: tvůj postup, nastavení a již viděná slova se ukládají v prohlížeči. Účet přidá každý měsíc dalších 11 kreditů zdarma a umožní ti kupovat a uchovávat kredity."
           },
           {
             "question": "Kolik křížovka stojí?",
-            "answer": "Malá křížovka stojí 5 kreditů, střední 10 a velká 15; střední obtížnost přidává 1 kredit a těžká 2. Kredity se prodávají v balíčcích po 200 za 4,99 $, 600 za 11,99 $ a 2 000 za 29,99 $. Pokladna zobrazuje cenu v tvé měně včetně případné daně."
+            "answer": "Malá křížovka stojí 5 kreditů, střední 10 a velká 15; střední obtížnost přidává 1 kredit a těžká 2. Tvých 11 kreditů zdarma měsíčně pokryje střední křížovku se střední obtížností. Kredity se prodávají v balíčcích po 200 za 4,99 $, 600 za 11,99 $ a 2 000 za 29,99 $. Pokladna zobrazuje cenu v tvé měně včetně případné daně."
           },
           {
             "question": "Kdo stojí za Křížovkami AI?",
@@ -641,7 +655,7 @@
   },
   "About": {
     "title": "O Křížovkách AI",
-    "subtitle": "Generátor křížovek zdarma, který píše ve vašem jazyce a stejné slovo nepodá dvakrát.",
+    "subtitle": "Generátor křížovek, který píše ve vašem jazyce a stejné slovo nepodá dvakrát.",
     "sections": [
       {
         "title": "Proč vznikly",
@@ -678,7 +692,7 @@
         "title": "Na našem serveru",
         "paragraphs": [
           "Ukládáme vytvořené křížovky, aby sdílený odkaz otevřel stejnou mřížku. Když nahlásíš nápovědu, uložíme hlášení s jednosměrným hashem tvojí IP adresy pouze proto, aby jeden člověk nemohl nápovědu vyřadit sám. Anonymně také počítáme, jak se křížovky hrají (vyřešení, která slova byla odhalena), abychom ladili obtížnost.",
-          "Aby každé zařízení získalo svou bezplatnou křížovku měsíce, stránka nastavuje cookie s náhodným identifikátorem. S každou bezplatnou křížovkou si tento identifikátor a jednosměrný hash IP adresy ukládáme."
+          "Aby každé zařízení získalo své bezplatné kredity na daný měsíc, stránka nastavuje cookie s náhodným identifikátorem. S každou křížovkou zaplacenou bezplatnými kredity si tento identifikátor a jednosměrný hash IP adresy ukládáme."
         ]
       },
       {
@@ -702,7 +716,8 @@
       {
         "title": "Analytika a chybová hlášení",
         "paragraphs": [
-          "Pokud je to povoleno, používáme Google Analytics k počítání zobrazení stránek a Sentry k přijímání hlášení o chybách. Ani jedno se nepoužívá k tvojí identifikaci."
+          "S tvým souhlasem počítá Google Analytics zobrazení stránek a ukládá své cookies, aby rozlišil jednotlivé návštěvy; bez souhlasu běží analytika bez cookies. Svou volbu můžeš kdykoli změnit v „Nastavení cookies“ dole na každé stránce. Sentry dostává hlášení o chybách bez osobních údajů. Ani jedno se nepoužívá k reklamě ani k profilování.",
+          "Stránky v některých jazycích načítají písmo z Google Fonts, které při tom dostane tvou IP adresu."
         ]
       }
     ]
@@ -718,10 +733,10 @@
         ]
       },
       {
-        "title": "Křížovky zdarma a kredity",
+        "title": "Bezplatné a koupené kredity",
         "paragraphs": [
-          "Každé zařízení získá jednu křížovku zdarma každý kalendářní měsíc a každý účet ještě jednu navíc. Ostatní křížovky se platí kredity za cenu zobrazenou před jejím vytvořením; křížovka je zaúčtována až při jejím vygenerování a otevření uložené křížovky je zdarma.",
-          "Kredity se kupují v balíčcích jednorázovou platbou — neexistuje žádné předplatné — a jejich platnost nikdy nekončí. Nemají žádnou peněžní hodnotu a nelze je převádět."
+          "Každé zařízení získá 11 kreditů zdarma každý kalendářní měsíc a každý účet dalších 11. Bezplatné kredity se čerpají před koupenými a do dalšího měsíce se nepřevádějí. Křížovky se platí kredity za cenu zobrazenou před vytvořením; křížovka je zaúčtována až při jejím vygenerování a otevření uložené křížovky je zdarma.",
+          "Kredity se kupují v balíčcích jednorázovou platbou — neexistuje žádné předplatné — a platnost koupených kreditů nikdy nekončí. Kredity nemají žádnou peněžní hodnotu a nelze je převádět."
         ]
       },
       {
@@ -752,12 +767,11 @@
   },
   "Credits": {
     "title": "Kredity",
-    "subtitle": "Jedna křížovka každý měsíc zdarma. Potom platíš jen za křížovky, které vytvoříš — žádné předplatné a kredity nikdy nepropadnou.",
+    "subtitle": "11 kreditů zdarma každý měsíc — stačí na střední křížovku. Potom platíš jen za křížovky, které vytvoříš: žádné předplatné a koupené kredity nikdy nepropadnou.",
     "balanceTitle": "Tvůj zůstatek",
-    "freeAvailable": "Tvoje bezplatná křížovka pro tento měsíc je připravena.",
-    "freeUsed": "Bezplatná křížovka na tento měsíc je vyčerpaná. Další bude k dispozici {date}.",
-    "guestTitle": "Získej více křížovek zdarma",
-    "guestText": "Přihlas se, abys získal křížovku zdarma každý měsíc ke svému účtu a mohls kupovat kredity.",
+    "freeAvailable": "Včetně {count, plural, one {# kreditu zdarma} few {# kreditů zdarma} many {# kreditu zdarma} other {# kreditů zdarma}} na tento měsíc. Bezplatné kredity se obnoví {date}.",
+    "freeUsed": "Bezplatné kredity na tento měsíc jsou vyčerpané. {count, plural, one {# nový kredit zdarma přibude} few {# nové kredity zdarma přibudou} many {# nového kreditu zdarma přibude} other {# nových kreditů zdarma přibude}} {date}.",
+    "guestText": "Přihlas se a každý měsíc získáš na svůj účet {count, plural, one {# další kredit zdarma} few {# další kredity zdarma} many {# dalšího kreditu zdarma} other {# dalších kreditů zdarma}} a možnost kupovat kredity.",
     "pricesTitle": "Kolik stojí křížovka",
     "pricesText": "V kreditech, podle velikosti a obtížnosti. Otevření křížovky, kterou s tebou někdo sdílel, nebo křížovky z historie je vždy zdarma.",
     "size": "Velikost",
@@ -805,5 +819,13 @@
     "sentText": "Děkujeme. Odpovíme na e-mail, jakmile to půjde.",
     "sendAnother": "Napsat další zprávu",
     "tooMany": "Je toho moc zpráv. Zkuste to za chvíli znovu."
+  },
+  "Consent": {
+    "label": "Souhlas s cookies",
+    "text": "Rádi bychom používali cookies Google Analytics, abychom viděli, jak se web používá. Žádné reklamy ani profilování. Dokud nesouhlasíš, analytika běží bez cookies.",
+    "privacy": "Zásady soukromí",
+    "accept": "Přijmout",
+    "decline": "Odmítnout",
+    "settings": "Nastavení cookies"
   }
 }

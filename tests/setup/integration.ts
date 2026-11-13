@@ -39,7 +39,7 @@ const TABLES = [
   'CreditEntry',
   'Payment',
   'PaymentEvent',
-  'FreePuzzle',
+  'FreeSpend',
   'User',
 ]
 

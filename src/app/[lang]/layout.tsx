@@ -3,14 +3,15 @@ import { AntdRegistry } from '@ant-design/nextjs-registry'
 import type { Metadata, Viewport } from 'next'
 import { notFound } from 'next/navigation'
 import { hasLocale, NextIntlClientProvider } from 'next-intl'
-import { getTranslations } from 'next-intl/server'
+import { getLocale, getMessages, getTranslations } from 'next-intl/server'
 import { getAntdLocale } from '@i18n/antdLocale'
-import { getDirection, LOCALES } from '@i18n/config'
+import { DEFAULT_LOCALE, getDirection, isLocale, LOCALES, SERVER_ONLY_NAMESPACES } from '@i18n/config'
 import { routing } from '@i18n/routing'
 import { AUTHOR } from '@constants/app'
 import { cn } from '@helpers/cn'
+import { manifestPath } from '@helpers/manifest'
 import { getSiteUrl } from '@helpers/url'
-import { Analytics } from '@components/analytics/Analytics'
+import { Analytics, AnalyticsConsentDefaults } from '@components/analytics/Analytics'
 import { App } from '@components/App'
 import '@styles/globals.css'
 import { fontBody, fontHeading, getScriptFont } from '@styles/fonts'
@@ -32,15 +33,16 @@ export const viewport: Viewport = {
 
 export async function generateMetadata(): Promise<Metadata> {
   const t = await getTranslations('Seo')
-  // The brand is translated too; the English name stays in the manifest and as JSON-LD `alternateName`.
+  // The brand is translated too; the English name stays as JSON-LD `alternateName`.
   const appName = (await getTranslations('Common'))('appName')
+  const locale = await getLocale()
   return {
     metadataBase: new URL(getSiteUrl()),
     title: { default: t('homeTitle'), template: `%s | ${appName}` },
     description: t('homeDescription'),
     keywords: t('keywords'),
     applicationName: appName,
-    manifest: '/manifest.webmanifest',
+    manifest: manifestPath(isLocale(locale) ? locale : DEFAULT_LOCALE),
     appleWebApp: { capable: true, title: appName, statusBarStyle: 'default' },
     other: { 'apple-mobile-web-app-capable': 'yes' },
     openGraph: { type: 'website', siteName: appName },
@@ -83,6 +85,7 @@ export default async function RootLayout({ children, params }: Props) {
   // Loaded on the server: only the active locale's antd copy crosses the RSC boundary.
   const antdLocale = await getAntdLocale(lang)
   const scriptFont = getScriptFont(lang)
+  const messages = Object.fromEntries(Object.entries(await getMessages()).filter(([namespace]) => !SERVER_ONLY_NAMESPACES.includes(namespace)))
   const style = scriptFont ? ({ '--font-script': `'${scriptFont.family}'` } as CSSProperties) : undefined
 
   return (
@@ -100,6 +103,7 @@ export default async function RootLayout({ children, params }: Props) {
         {/* Fixes the cascade-layer order before any stylesheet — antd's inline <style> included —
             can declare a layer first (globals.css §0 repeats it). */}
         <style>{'@layer theme, base, antd, components, utilities;'}</style>
+        <AnalyticsConsentDefaults />
         {scriptFont && (
           <>
             <link rel='preconnect' href='https://fonts.googleapis.com' />
@@ -111,7 +115,7 @@ export default async function RootLayout({ children, params }: Props) {
       <body className='paper-dots'>
         {/* `layer` wraps antd's CSS in `@layer antd`, below Tailwind's utilities. */}
         <AntdRegistry layer>
-          <NextIntlClientProvider>
+          <NextIntlClientProvider messages={messages}>
             <App antdLocale={antdLocale} direction={direction}>
               {children}
             </App>

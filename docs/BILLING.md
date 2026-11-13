@@ -2,15 +2,28 @@
 
 Credits, no subscription. Setup steps: [PADDLE_SETUP.md](PADDLE_SETUP.md).
 
-## Free puzzles
+## Free credits
 
-| Who | Free puzzles | Resets |
+`FREE_MONTHLY_CREDITS` (11 — a medium puzzle at medium difficulty) in the puzzle twins.
+
+| Who | Free credits | Resets |
 |---|---|---|
-| Guest device (httpOnly cookie `crossword-guest`) | 1 per month | 1st of the month, 00:00 UTC |
-| Signed-in account | 1 per month, on top of the guest one | same |
+| Guest device (httpOnly cookie `crossword-guest`) | 11 per month | 1st of the month, 00:00 UTC |
+| Signed-in account | 11 per month, on top of the guest device's | same |
 
-- At most `GUEST_FREE_PER_IP` (default 3) guest devices per IP address per month, so clearing cookies doesn't give endless free puzzles.
-- After the guest's free puzzle: "sign in for one more every month, and to buy credits".
+- Spent **before** bought credits; a puzzle costing more than what is left takes the rest from bought
+  credits. What is left at the end of the month does not carry over. Bought credits never expire.
+- The balance shown (header, credits page) is free + bought.
+- A guest whose free credits don't cover a puzzle is asked to sign in (`signInRequired`) — so a guest can't
+  make a large puzzle (15–17) without signing in.
+- At most `GUEST_FREE_PER_IP` (default 3) guest devices per IP address spend free credits per month, so
+  clearing cookies doesn't mint endless free credits.
+- At most `FREE_PUZZLES_PER_HOUR` (default 200) puzzles may take free credits in any rolling hour, all players
+  together: a brake on a farm spread over many addresses. Past it a puzzle that would spend free credits is
+  refused with `freeBusy` (HTTP 429) — never paid with bought credits instead — and the admin gets one mail an
+  hour. A puzzle paid wholly with bought credits never passes through it.
+- Free play (inline generation for a puzzle paid wholly with free credits, and the refill job) may spend 70%
+  of the daily Gemini budget (`config.gemini.freeShare`); the rest is kept for puzzles that spend bought credits.
 - Opening a stored puzzle (shared link, history) is always free. Only **building** one is charged.
 
 ## Price of a puzzle (credits)
@@ -46,11 +59,14 @@ The real price is the Paddle price (`PADDLE_PRICE_ID_*`). Paddle localizes the c
 
 ## Rules in code
 
-- **Charge** = inside the transaction that stores the puzzle (`services/billing.ts › chargeForPuzzle`):
-  the free puzzle first (`FreePuzzle`, unique per month and holder), else
-  `UPDATE "User" SET credits = credits - price WHERE credits >= price`. If neither covers it → 402, nothing is stored.
-  - `BILLING_CODE.signInRequired` (4021): the guest's free puzzle is used.
-  - `BILLING_CODE.insufficientCredits` (4022): signed in, free puzzle used, balance too low.
+- **Charge** = inside the transaction that stores the puzzle (`services/billing.ts › chargeForPuzzle`),
+  under a per-holder advisory lock (and a per-address one for guests), so two builds at once cannot spend the
+  same free credits: this month's free credits first (a `FreeSpend` row for what it took), then
+  `UPDATE "User" SET credits = credits - rest WHERE credits >= rest` with its `CreditEntry`. If the two don't
+  cover it → 402, nothing is stored or spent.
+  - `BILLING_CODE.signInRequired` (4021): a guest's free credits don't cover the puzzle.
+  - `BILLING_CODE.insufficientCredits` (4022): signed in, free + bought credits below the price.
+  - `BILLING_CODE.freeBusy` (4291, HTTP 429): the puzzle would spend free credits, past the hourly cap.
 - A request the client aborted (Cancel) is not charged: the transaction rolls back.
 - `User.credits >= 0` is a DB check constraint.
 - No prefetching: every puzzle is built only when asked for.
@@ -62,7 +78,7 @@ The real price is the Paddle price (`PADDLE_PRICE_ID_*`). Paddle localizes the c
 | `CreditEntry` | balance change | append-only: `delta`, `balanceAfter`, `reason` (`purchase`/`generation`/`refund`), `puzzleId`, `paymentId`, `adjustmentId` |
 | `Payment` | Paddle transaction (`txn_…`) | `pending` at checkout → `completed`/`failed`/`refunded`; customer `total`, `tax`, Paddle `fee`, our `earnings` (cents, `currency`), `payoutEarnings` (payout currency), `paymentMethod`, `refundedCredits` |
 | `PaymentEvent` | Paddle webhook | raw payload, `processedAt`; redeliveries are handled once |
-| `FreePuzzle` | free puzzle claimed | `month`, `holder` (`user:<id>`/`guest:<id>`), `ipKey` |
+| `FreeSpend` | puzzle that took free credits | `month`, `holder` (`user:<id>`/`guest:<id>`), `ipKey`, `amount` (a holder's month adds up to at most 11) |
 
 ```sql
 -- Revenue per month, in the payout currency
@@ -73,11 +89,12 @@ FROM "Payment" WHERE status IN ('completed', 'refunded') GROUP BY 1, 2 ORDER BY 
 -- Checkout conversion per pack
 SELECT pack, count(*) AS opened, count(*) FILTER (WHERE status = 'completed') AS paid FROM "Payment" GROUP BY pack;
 
--- Credits spent per month, and free puzzles taken
+-- Bought credits spent per month, and free credits spent
 SELECT to_char("createdAt", 'YYYY-MM') AS month, -sum(delta) AS credits_spent, count(*) AS paid_puzzles
 FROM "CreditEntry" WHERE reason = 'generation' GROUP BY 1 ORDER BY 1;
-SELECT month, count(*) FILTER (WHERE holder LIKE 'user:%') AS accounts, count(*) FILTER (WHERE holder LIKE 'guest:%') AS guests
-FROM "FreePuzzle" GROUP BY month ORDER BY month;
+SELECT month, sum(amount) AS free_credits, count(DISTINCT holder) FILTER (WHERE holder LIKE 'user:%') AS accounts,
+       count(DISTINCT holder) FILTER (WHERE holder LIKE 'guest:%') AS guests
+FROM "FreeSpend" GROUP BY month ORDER BY month;
 
 -- A user's ledger
 SELECT "createdAt", reason, delta, "balanceAfter", "puzzleId", "paymentId" FROM "CreditEntry"
@@ -115,4 +132,7 @@ The admin inbox (the mail engine's internal endpoint) hears of every purchase st
 - Puzzle price: `SIZE_CREDITS` / `DIFFICULTY_CREDITS` in both twin files.
 - Pack price: make a new price in Paddle, update `PADDLE_PRICE_ID_*` and `CREDIT_PACKS.usd`.
 - Pack size: `CREDIT_PACKS.credits`. Pending payments keep the credits they were opened with.
+- Free credits: `FREE_MONTHLY_CREDITS` in both twin files. The number is written out in the copy (FAQ, Terms,
+  `Home.faq1Answer`, `Credits.subtitle`, `Seo.creditsDescription`) — `tests/unit/i18n/freeCredits.spec.ts`
+  fails until the English matches.
 - Then update the FAQ answer "How much does a puzzle cost?" in `src/messages/*.json`, and this file.
