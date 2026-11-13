@@ -356,7 +356,9 @@ What code cannot do by itself, in order. **[PC]** your machine, repo root · **[
    ```
    Then e2e: in one terminal start the app with
    `$env:RATE_LIMIT_ENABLED='false'; $env:BILLING_ENABLED='false'; pnpm dev`, and in a second one
-   run `pnpm test:e2e`.
+   run `pnpm test:e2e`. Close that first terminal afterwards: PowerShell keeps both variables for
+   the whole session, so a later `pnpm dev` there would build every puzzle without charging credits
+   (the API warns about it at startup).
 3. **Check `server/.env.production.local`** **[PC]**:
    - `JWT_SECRET` must be at least 32 characters, or the deploy stops and the API refuses to
      start. To make one, run `openssl rand -hex 64` in Git Bash and paste it as `JWT_SECRET="…"`.
