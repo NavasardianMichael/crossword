@@ -328,11 +328,16 @@ nothing is kept on the server's disk. Dumps older than 22 days are deleted from 
 is a few MB (about 10–50 MB even with a large word pool), so 22 of them fit easily in Drive's
 free 15 GB. The database must exist, so do this after the first deploy (step 7).
 
-**Install rclone** on the server **[SRV]**:
+**Install rclone** on the server **[SRV]**, from rclone.org, not apt. Ubuntu's package is too
+old: it signs in through a copy-paste link that Google shut off, so the sign-in ends in
+`Error 400: invalid_request`.
 
 ```bash
-sudo apt install rclone
-rclone version
+sudo apt remove -y rclone        # only if an apt copy is already installed
+curl -fsSLO https://downloads.rclone.org/rclone-current-linux-amd64.deb   # arm64 server: rclone-current-linux-arm64.deb
+sudo apt install -y ./rclone-current-linux-amd64.deb
+rm rclone-current-linux-amd64.deb
+hash -r && rclone version        # v1.6x or newer
 ```
 
 And on your PC **[PC]**, only to sign in to Google once (it opens a browser):
@@ -341,19 +346,38 @@ And on your PC **[PC]**, only to sign in to Google once (it opens a browser):
 winget install Rclone.Rclone
 ```
 
-**Connect Google Drive** **[SRV]**. Use the Google account that should hold the backups (a
-separate one is fine):
+**Your own Google client ID** **[WEB]**, once. rclone's shared client ID is being retired during
+2026, so the backups get their own. In https://console.cloud.google.com, signed in with the
+Google account that should hold the backups (a separate one is fine):
+
+1. Project picker → **New project** → name `crossword-backups` → **Create**, and select it.
+2. **APIs & Services → Library** → search **Google Drive API** → **Enable**.
+3. **Google Auth Platform** (the OAuth consent screen) → **Get started**: app name
+   `crossword-backups`, your email as support email → Audience **External** → your email as
+   contact → agree → **Create**.
+4. **Data Access → Add or remove scopes** → tick `.../auth/drive.file` → **Update** → **Save**.
+5. **Branding**: home page `https://crossword.eapps.site`, privacy policy
+   `https://crossword.eapps.site/en/privacy`, authorized domain `eapps.site`, no logo (a logo
+   triggers Google's review) → **Save**. Publishing stays greyed out until these are filled.
+6. **Audience** → **Publish app** → **Confirm**, so the status reads **In production**. Left in
+   *Testing*, the sign-in expires after 7 days and the nightly backup starts failing. `drive.file`
+   is a non-sensitive scope, so no Google verification is needed.
+7. **Clients → Create client** → type **Desktop app** → **Create**, and copy the **Client ID** and
+   **Client secret** (keep them in your password manager).
+
+**Connect Google Drive** **[SRV]**:
 
 ```bash
 rclone config
 ```
 
-Answer: `n` (new remote) → name `gdrive` → storage `drive` → `client_id` and `client_secret`
-empty → scope `drive.file` (rclone sees only the files it created, nothing else in the Drive) →
+Answer: `n` (new remote) → name `gdrive` → storage `drive` → paste your `client_id` and
+`client_secret` → scope `drive.file` (rclone sees only the files it created, nothing else in the Drive) →
 `root_folder_id` and `service_account_file` empty → advanced config `n` → auto config / web
 browser `n`. rclone then prints a line like `rclone authorize "drive" "eyJ…"`. Run that exact
-line on your PC **[PC]**, sign in to Google in the browser that opens, and paste the token it
-prints back into the server prompt. Then: shared drive `n` → `y` (keep) → `q` (quit). Check:
+line on your PC **[PC]**, sign in to Google in the browser that opens (it says the app is
+unverified: **Advanced → Go to crossword-backups**, then allow), and paste the token it prints
+back into the server prompt. Then: shared drive `n` → `y` (keep) → `q` (quit). Check:
 
 ```bash
 rclone mkdir gdrive:crossword-backups
@@ -373,7 +397,10 @@ rclone ls gdrive:crossword-backups
 ```
 
 The manual run should print `ok: crossword-<date>.dump (<size> bytes)`, and the file should be
-listed on Drive.
+listed on Drive. Run it as `michael`, never with `sudo`: root has no `gdrive` remote
+(`didn't find section in config file`). A `Permission denied` means either the file is owned by
+root (`sudo chown michael:michael` it) or `michael` is not in the `docker` group
+(`sudo usermod -aG docker michael`, then log in again).
 
 **Schedule it** **[SRV]**, nightly at 03:30 server time:
 
@@ -396,6 +423,7 @@ succeed. Without it, look at `tail /home/michael/apps/crossword/shared/backup.lo
 newest dump into a scratch database next to the real one, counts rows, and drops it again:
 
 ```bash
+docker exec crossword-postgres-prod sh -c 'dropdb -U "$POSTGRES_USER" --if-exists crossword_restore'   # leftovers of an earlier try
 rclone lsl gdrive:crossword-backups
 rclone cat gdrive:crossword-backups/<newest file>.dump | docker exec -i crossword-postgres-prod sh -c 'createdb -U "$POSTGRES_USER" crossword_restore && pg_restore -U "$POSTGRES_USER" -d crossword_restore --no-owner'
 docker exec crossword-postgres-prod sh -c 'psql -U "$POSTGRES_USER" -d crossword_restore -c "select (select count(*) from \"User\") users, (select count(*) from \"CreditEntry\") ledger, (select count(*) from \"Entry\") entries"'

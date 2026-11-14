@@ -370,7 +370,7 @@ What code cannot do by itself, in order. **[PC]** your machine, repo root · **[
 5. **Backups to Google Drive, and one backup now** **[PC]** **[SRV]**: this push carries a database
    migration (`FreePuzzle` becomes `FreeSpend`), and migrations do not roll back. Follow
    [PRODUCTION_SETUP.md step 8](PRODUCTION_SETUP.md#8-database-backups-to-google-drive-pc-srv-once).
-   In short: `sudo apt install rclone` → `rclone config` (remote `gdrive`, scope `drive.file`, sign
+   In short: install rclone from its rclone.org `.deb` (apt's copy is too old for Google's sign-in) → `rclone config` (remote `gdrive`, scope `drive.file`, sign
    in through `rclone authorize "drive" …` on the PC) → paste `deployment/backup-db.sh` into
    `/home/michael/apps/crossword/shared/backup-db.sh` → `chmod 700` it → run it once by hand and
    check the dump is on Drive → add the cron line → do the restore drill once. Dumps are kept 22 days.
@@ -404,12 +404,16 @@ What code cannot do by itself, in order. **[PC]** your machine, repo root · **[
 10. **Free credits, signed in** **[WEB]**: a new account also starts with 11. "New puzzle" from a
     finished puzzle goes straight through while the free credits cover it, and asks with the price
     first once bought credits would be spent. After a refused payment, the solved dialog closes and
-    shows the Sign in / Buy credits alert.
+    opens the "Time for more credits" dialog (Sign in for a guest, Buy credits for an account).
 11. **Account** **[WEB]**: menu → **Sign out** asks first ("Not now" / "Sign out"). With the site open
     in two tabs, spend credits in one, switch to the other: its header balance catches up.
-12. **Consent banner** **[WEB]**: open a private window → DevTools → Application → Cookies. There
-    should be no `_ga*` cookie until you click **Accept**, and one after. Footer → **Cookie
-    settings** should reopen the banner. After a couple of days, GA4 → Admin → Data streams → the
+12. **Consent banner** **[WEB]**: it shows only where an opt-in is needed (EU/EEA, UK, Switzerland —
+    by the device's time zone, `src/constants/consent.ts`). From Armenia: a private window shows no
+    banner and sets `_ga*` cookies at once. To test the EU case, DevTools → ⋮ → More tools →
+    Sensors → Location → Berlin (it overrides the time zone), reload in a fresh private window:
+    the banner shows, and there is no `_ga*` cookie until you click **Accept** or the **×**
+    (closing counts as accepting); **Decline** keeps it cookieless. Footer → **Cookie settings**
+    reopens the banner anywhere. After a couple of days, GA4 → Admin → Data streams → the
     stream → **Consent settings** should report consent mode as active.
 13. **Phone, at 360px wide** (a real phone, or DevTools device mode) **[WEB]**: in `ru`, `hy`, `ja`
     and `ar`, check that the on-screen keyboard fits without scrolling and long rows split in two,
