@@ -720,7 +720,7 @@
       {
         "title": "Analitik dan laporan kesalahan",
         "paragraphs": [
-          "Dengan persetujuanmu, Google Analytics menghitung tayangan halaman dan memasang cookie-nya untuk membedakan kunjungan; tanpa persetujuan, analitik berjalan tanpa cookie. Kamu bisa mengubah pilihanmu kapan saja lewat «Pengaturan cookie» di bagian bawah setiap halaman. Sentry menerima laporan kesalahan tanpa data pribadi. Keduanya tidak dipakai untuk iklan atau pembuatan profil.",
+          "Google Analytics menghitung tayangan halaman dan memasang cookie-nya untuk membedakan kunjungan. Di UE dan EEA, Inggris, serta Swiss (dilihat dari zona waktu perangkatmu), situs ini bertanya dulu: sampai kamu menerima, atau menutup pemberitahuannya, yang dianggap setuju, analitik berjalan tanpa cookie. Di tempat lain, cookie dipasang sejak kunjungan pertama. Di mana pun kamu berada, kamu bisa mematikannya kapan saja lewat «Pengaturan cookie» di bagian bawah setiap halaman. Sentry menerima laporan kesalahan tanpa data pribadi. Keduanya tidak dipakai untuk iklan atau pembuatan profil.",
           "Halaman dalam beberapa bahasa memuat fontnya dari Google Fonts, yang menerima alamat IP-mu bersama permintaan itu."
         ]
       }
@@ -826,7 +826,7 @@
   },
   "Consent": {
     "label": "Persetujuan cookie",
-    "text": "Kami ingin memakai cookie Google Analytics untuk melihat cara situs ini digunakan. Tanpa iklan, tanpa pembuatan profil. Selama kamu belum menerima, analitik berjalan tanpa cookie.",
+    "text": "Kami ingin memakai cookie Google Analytics untuk melihat cara situs ini digunakan. Tanpa iklan, tanpa pembuatan profil. Selama kamu belum menjawab, analitik berjalan tanpa cookie; menutup pesan ini berarti kamu setuju.",
     "privacy": "Kebijakan privasi",
     "accept": "Terima",
     "decline": "Tolak",

@@ -720,7 +720,7 @@
       {
         "title": "统计分析与错误报告",
         "paragraphs": [
-          "经你同意后，Google Analytics 会统计页面浏览量，并设置自己的 Cookie 来区分不同的访问；未经同意时，统计分析不使用 Cookie。你可以随时在每个页面底部的“Cookie 设置”中更改选择。Sentry 接收的错误报告不含个人信息。两者都不会用于广告或用户画像。",
+          "Google Analytics 会统计页面浏览量，并设置自己的 Cookie 来区分不同的访问。在欧盟和欧洲经济区、英国及瑞士（根据你设备的时区判断），网站会先征求同意：在你同意或关闭提示（关闭也视为同意）之前，统计分析不使用 Cookie。在其他地区，Cookie 从首次访问起就会设置。无论身在何处，你都可以随时在每个页面底部的“Cookie 设置”中关闭它们。Sentry 接收的错误报告不含个人信息。两者都不会用于广告或用户画像。",
           "部分语言的页面会从 Google Fonts 加载字体，Google Fonts 会在该请求中获得你的 IP 地址。"
         ]
       }
@@ -826,7 +826,7 @@
   },
   "Consent": {
     "label": "Cookie 授权",
-    "text": "我们想使用 Google Analytics 的 Cookie 来了解网站的使用情况。不投放广告，也不做用户画像。在你同意之前，统计分析不会使用 Cookie。",
+    "text": "我们想使用 Google Analytics 的 Cookie 来了解网站的使用情况。不投放广告，也不做用户画像。在你作出选择之前，统计分析不会使用 Cookie；关闭此提示即视为同意。",
     "privacy": "隐私政策",
     "accept": "接受",
     "decline": "拒绝",

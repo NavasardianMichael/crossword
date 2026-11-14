@@ -720,7 +720,7 @@
       {
         "title": "Analyses en foutrapporten",
         "paragraphs": [
-          "Met je toestemming telt Google Analytics paginaweergaven en plaatst het cookies om bezoeken uit elkaar te houden; zonder toestemming werkt de analyse zonder cookies. Je kunt je keuze altijd wijzigen via “Cookie-instellingen” onderaan elke pagina. Sentry ontvangt foutrapporten zonder persoonsgegevens. Geen van beide wordt gebruikt voor advertenties of profilering.",
+          "Google Analytics telt paginaweergaven en plaatst cookies om bezoeken uit elkaar te houden. In de EU en de EER, het Verenigd Koninkrijk en Zwitserland (herkend aan de tijdzone van je apparaat) vraagt de site het eerst: tot je akkoord gaat of de melding sluit, wat ook als akkoord geldt, werkt de analyse zonder cookies. Elders worden de cookies vanaf het eerste bezoek geplaatst. Waar je ook bent, je kunt ze altijd uitzetten via “Cookie-instellingen” onderaan elke pagina. Sentry ontvangt foutrapporten zonder persoonsgegevens. Geen van beide wordt gebruikt voor advertenties of profilering.",
           "Pagina's in sommige talen laden hun lettertype van Google Fonts, dat bij dat verzoek je IP-adres ontvangt."
         ]
       }
@@ -826,7 +826,7 @@
   },
   "Consent": {
     "label": "Cookietoestemming",
-    "text": "We willen graag cookies van Google Analytics gebruiken om te zien hoe de site wordt gebruikt. Geen advertenties, geen profilering. Zolang je niet akkoord gaat, werkt de analyse zonder cookies.",
+    "text": "We willen graag cookies van Google Analytics gebruiken om te zien hoe de site wordt gebruikt. Geen advertenties, geen profilering. Zolang je niet hebt geantwoord, werkt de analyse zonder cookies; dit bericht sluiten geldt als akkoord.",
     "privacy": "Privacyverklaring",
     "accept": "Accepteren",
     "decline": "Weigeren",

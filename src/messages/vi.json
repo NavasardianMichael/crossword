@@ -719,7 +719,7 @@
       {
         "title": "Phân tích và báo cáo lỗi",
         "paragraphs": [
-          "Khi bạn đồng ý, Google Analytics đếm lượt xem trang và đặt cookie của mình để phân biệt các lượt truy cập; nếu không, phần phân tích chạy mà không dùng cookie. Bạn có thể đổi lựa chọn bất cứ lúc nào ở mục “Cài đặt cookie” cuối mỗi trang. Sentry nhận báo cáo lỗi không kèm thông tin cá nhân. Cả hai đều không được dùng cho quảng cáo hay lập hồ sơ người dùng.",
+          "Google Analytics đếm lượt xem trang và đặt cookie của mình để phân biệt các lượt truy cập. Ở EU và EEA, Vương quốc Anh và Thụy Sĩ (nhận biết qua múi giờ trên thiết bị của bạn), trang web sẽ hỏi trước: cho đến khi bạn chấp nhận hoặc đóng thông báo, điều này cũng được coi là đồng ý, phần phân tích chạy mà không dùng cookie. Ở những nơi khác, cookie được đặt ngay từ lượt truy cập đầu tiên. Dù bạn ở đâu, bạn cũng có thể tắt chúng bất cứ lúc nào ở mục “Cài đặt cookie” cuối mỗi trang. Sentry nhận báo cáo lỗi không kèm thông tin cá nhân. Cả hai đều không được dùng cho quảng cáo hay lập hồ sơ người dùng.",
           "Trang ở một số ngôn ngữ tải phông chữ từ Google Fonts, và Google Fonts nhận địa chỉ IP của bạn cùng với yêu cầu đó."
         ]
       }
@@ -825,7 +825,7 @@
   },
   "Consent": {
     "label": "Đồng ý dùng cookie",
-    "text": "Chúng tôi muốn dùng cookie của Google Analytics để biết trang web được sử dụng ra sao. Không quảng cáo, không lập hồ sơ người dùng. Cho đến khi bạn chấp nhận, phần phân tích chạy mà không dùng cookie.",
+    "text": "Chúng tôi muốn dùng cookie của Google Analytics để biết trang web được sử dụng ra sao. Không quảng cáo, không lập hồ sơ người dùng. Cho đến khi bạn trả lời, phần phân tích chạy mà không dùng cookie; đóng thông báo này nghĩa là bạn đồng ý.",
     "privacy": "Chính sách riêng tư",
     "accept": "Chấp nhận",
     "decline": "Từ chối",

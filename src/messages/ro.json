@@ -720,7 +720,7 @@
       {
         "title": "Analiză și rapoarte de erori",
         "paragraphs": [
-          "Cu acordul tău, Google Analytics numără afișările de pagină și își salvează cookie-urile ca să deosebească vizitele; fără acord, analiza merge fără cookie-uri. Îți poți schimba oricând răspunsul din „Setări cookie-uri”, jos pe fiecare pagină. Sentry primește rapoarte de erori fără date personale. Niciunul nu e folosit pentru reclame sau profilare.",
+          "Google Analytics numără afișările de pagină și își salvează cookie-urile ca să deosebească vizitele. În UE și SEE, în Regatul Unit și în Elveția (după fusul orar al dispozitivului tău), site-ul întreabă mai întâi: până accepți sau închizi mesajul, ceea ce se consideră acord, analiza merge fără cookie-uri. În rest, cookie-urile se salvează de la prima vizită. Oriunde ai fi, le poți dezactiva oricând din „Setări cookie-uri”, jos pe fiecare pagină. Sentry primește rapoarte de erori fără date personale. Niciunul nu e folosit pentru reclame sau profilare.",
           "Paginile în unele limbi își încarcă fontul de pe Google Fonts, care primește adresa ta IP odată cu această cerere."
         ]
       }
@@ -826,7 +826,7 @@
   },
   "Consent": {
     "label": "Consimțământ pentru cookie-uri",
-    "text": "Am vrea să folosim cookie-urile Google Analytics ca să vedem cum e folosit site-ul. Fără reclame, fără profilare. Până nu accepți, analiza merge fără cookie-uri.",
+    "text": "Am vrea să folosim cookie-urile Google Analytics ca să vedem cum e folosit site-ul. Fără reclame, fără profilare. Până nu răspunzi, analiza merge fără cookie-uri; dacă închizi acest mesaj, se consideră că accepți.",
     "privacy": "Politica de confidențialitate",
     "accept": "Accept",
     "decline": "Refuz",

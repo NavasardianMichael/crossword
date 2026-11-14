@@ -719,7 +719,7 @@
       {
         "title": "Analitika és hibajelentések",
         "paragraphs": [
-          "A hozzájárulásoddal a Google Analytics számolja az oldalmegtekintéseket, és sütiket helyez el, hogy meg tudja különböztetni a látogatásokat; hozzájárulás nélkül az analitika sütik nélkül működik. A döntésedet bármikor megváltoztathatod minden oldal alján, a „Süti-beállítások” alatt. A Sentry személyes adatok nélküli hibajelentéseket kap. Egyiket sem használjuk reklámra vagy profilozásra.",
+          "A Google Analytics számolja az oldalmegtekintéseket, és sütiket helyez el, hogy meg tudja különböztetni a látogatásokat. Az EU-ban és az EGT-ben, az Egyesült Királyságban és Svájcban (ezt az eszközöd időzónájából látjuk) az oldal előbb megkérdez: amíg el nem fogadod vagy be nem zárod az értesítést – ami szintén elfogadásnak számít –, az analitika sütik nélkül működik. Máshol a sütik már az első látogatástól kezdve bekerülnek. Bárhol is vagy, bármikor kikapcsolhatod őket minden oldal alján, a „Süti-beállítások” alatt. A Sentry személyes adatok nélküli hibajelentéseket kap. Egyiket sem használjuk reklámra vagy profilozásra.",
           "Egyes nyelvek oldalai a betűtípusukat a Google Fonts szolgáltatásból töltik be, amely ezzel a kéréssel megkapja az IP-címedet."
         ]
       }
@@ -825,7 +825,7 @@
   },
   "Consent": {
     "label": "Süti-hozzájárulás",
-    "text": "Szeretnénk a Google Analytics sütijeit használni, hogy lássuk, hogyan használják az oldalt. Nincs reklám, nincs profilozás. Amíg el nem fogadod, az analitika sütik nélkül működik.",
+    "text": "Szeretnénk a Google Analytics sütijeit használni, hogy lássuk, hogyan használják az oldalt. Nincs reklám, nincs profilozás. Amíg nem válaszolsz, az analitika sütik nélkül működik; ha bezárod ezt az üzenetet, az elfogadásnak számít.",
     "privacy": "Adatvédelmi tájékoztató",
     "accept": "Elfogadom",
     "decline": "Elutasítom",

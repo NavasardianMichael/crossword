@@ -719,7 +719,7 @@
       {
         "title": "Analityka i raporty o błędach",
         "paragraphs": [
-          "Za Twoją zgodą Google Analytics zlicza odsłony i zapisuje swoje pliki cookie, żeby odróżniać wizyty; bez zgody analityka działa bez plików cookie. Decyzję możesz zmienić w każdej chwili pod linkiem „Ustawienia cookie” na dole każdej strony. Sentry otrzymuje raporty o błędach bez danych osobowych. Żadne z tych narzędzi nie służy do reklam ani profilowania.",
+          "Google Analytics zlicza odsłony i zapisuje swoje pliki cookie, żeby odróżniać wizyty. W UE i EOG, Wielkiej Brytanii i Szwajcarii (rozpoznawanych po strefie czasowej urządzenia) strona najpierw pyta: dopóki nie wyrazisz zgody albo nie zamkniesz komunikatu, co też oznacza zgodę, analityka działa bez plików cookie. W pozostałych krajach pliki cookie są zapisywane od pierwszej wizyty. Gdziekolwiek jesteś, możesz je w każdej chwili wyłączyć pod linkiem „Ustawienia cookie” na dole każdej strony. Sentry otrzymuje raporty o błędach bez danych osobowych. Żadne z tych narzędzi nie służy do reklam ani profilowania.",
           "Strony w niektórych językach ładują czcionkę z Google Fonts, które przy tym żądaniu otrzymuje Twój adres IP."
         ]
       }
@@ -825,7 +825,7 @@
   },
   "Consent": {
     "label": "Zgoda na pliki cookie",
-    "text": "Chcielibyśmy używać plików cookie Google Analytics, żeby sprawdzać, jak używana jest strona. Bez reklam i profilowania. Dopóki nie wyrazisz zgody, analityka działa bez plików cookie.",
+    "text": "Chcielibyśmy używać plików cookie Google Analytics, żeby sprawdzać, jak używana jest strona. Bez reklam i profilowania. Dopóki nie odpowiesz, analityka działa bez plików cookie; zamknięcie tego komunikatu oznacza zgodę.",
     "privacy": "Polityka prywatności",
     "accept": "Akceptuję",
     "decline": "Odrzucam",

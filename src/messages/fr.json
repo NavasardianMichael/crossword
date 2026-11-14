@@ -720,7 +720,7 @@
       {
         "title": "Analytique et rapports d'erreurs",
         "paragraphs": [
-          "Avec votre consentement, Google Analytics compte les pages vues et dépose ses cookies pour distinguer les visites ; sans consentement, la mesure d'audience fonctionne sans cookies. Vous pouvez changer d'avis à tout moment via « Gérer les cookies », en bas de chaque page. Sentry reçoit des rapports d'erreurs sans aucune donnée personnelle. Ni l'un ni l'autre ne sert à la publicité ou au profilage.",
+          "Google Analytics compte les pages vues et dépose ses cookies pour distinguer les visites. Dans l'UE et l'EEE, au Royaume-Uni et en Suisse (d'après le fuseau horaire de votre appareil), le site demande d'abord : tant que vous n'avez pas accepté, ou fermé le message, ce qui vaut acceptation, la mesure d'audience fonctionne sans cookies. Ailleurs, les cookies sont déposés dès la première visite. Où que vous soyez, vous pouvez les désactiver à tout moment via « Gérer les cookies », en bas de chaque page. Sentry reçoit des rapports d'erreurs sans aucune donnée personnelle. Ni l'un ni l'autre ne sert à la publicité ou au profilage.",
           "Dans certaines langues, les pages chargent leur police depuis Google Fonts, qui reçoit alors votre adresse IP."
         ]
       }
@@ -826,7 +826,7 @@
   },
   "Consent": {
     "label": "Consentement aux cookies",
-    "text": "Nous aimerions utiliser les cookies de Google Analytics pour savoir comment le site est utilisé. Ni publicité, ni profilage. Tant que vous n'avez pas accepté, la mesure d'audience fonctionne sans cookies.",
+    "text": "Nous aimerions utiliser les cookies de Google Analytics pour savoir comment le site est utilisé. Ni publicité, ni profilage. Tant que vous n'avez pas répondu, la mesure d'audience fonctionne sans cookies ; fermer ce message vaut acceptation.",
     "privacy": "Politique de confidentialité",
     "accept": "Accepter",
     "decline": "Refuser",

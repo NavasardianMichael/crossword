@@ -719,7 +719,7 @@
       {
         "title": "Uchanganuzi na ripoti za makosa",
         "paragraphs": [
-          "Ukikubali, Google Analytics huhesabu ziara za kurasa na huweka vidakuzi vyake ili kutofautisha ziara moja na nyingine; usipokubali, takwimu zinafanya kazi bila vidakuzi. Unaweza kubadilisha jibu lako wakati wowote kupitia “Mipangilio ya vidakuzi” chini ya kila ukurasa. Sentry hupokea ripoti za makosa zisizo na taarifa zako binafsi. Hakuna kati ya hizo kinachotumika kwa matangazo wala kukuwekea wasifu.",
+          "Google Analytics huhesabu ziara za kurasa na huweka vidakuzi vyake ili kutofautisha ziara moja na nyingine. Katika EU na EEA, Uingereza na Uswisi (hutambuliwa kwa saa za eneo za kifaa chako) tovuti huuliza kwanza: hadi utakapokubali au kufunga tangazo, jambo linalohesabiwa kuwa ni kukubali, takwimu zinafanya kazi bila vidakuzi. Kwingineko, vidakuzi huwekwa tangu ziara ya kwanza. Popote ulipo, unaweza kuvizima wakati wowote kupitia “Mipangilio ya vidakuzi” chini ya kila ukurasa. Sentry hupokea ripoti za makosa zisizo na taarifa zako binafsi. Hakuna kati ya hizo kinachotumika kwa matangazo wala kukuwekea wasifu.",
           "Kurasa za baadhi ya lugha hupakua fonti yake kutoka Google Fonts, ambayo hupokea anwani yako ya IP pamoja na ombi hilo."
         ]
       }
@@ -825,7 +825,7 @@
   },
   "Consent": {
     "label": "Idhini ya vidakuzi",
-    "text": "Tungependa kutumia vidakuzi vya Google Analytics ili kuona jinsi tovuti inavyotumika. Hakuna matangazo, hakuna kukuwekea wasifu. Hadi utakapokubali, takwimu zinafanya kazi bila vidakuzi.",
+    "text": "Tungependa kutumia vidakuzi vya Google Analytics ili kuona jinsi tovuti inavyotumika. Hakuna matangazo, hakuna kukuwekea wasifu. Hadi utakapojibu, takwimu zinafanya kazi bila vidakuzi; ukifunga ujumbe huu, itahesabiwa kuwa umekubali.",
     "privacy": "Sera ya faragha",
     "accept": "Kubali",
     "decline": "Kataa",

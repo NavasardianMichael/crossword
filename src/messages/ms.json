@@ -719,7 +719,7 @@
       {
         "title": "Analitik dan laporan ralat",
         "paragraphs": [
-          "Dengan persetujuan anda, Google Analytics mengira paparan halaman dan menetapkan kukinya untuk membezakan lawatan; tanpa persetujuan, analitik berjalan tanpa kuki. Anda boleh menukar jawapan anda pada bila-bila masa melalui “Tetapan kuki” di bahagian bawah setiap halaman. Sentry menerima laporan ralat tanpa butiran peribadi. Kedua-duanya tidak digunakan untuk iklan atau pemprofilan.",
+          "Google Analytics mengira paparan halaman dan menetapkan kukinya untuk membezakan lawatan. Di EU dan EEA, UK serta Switzerland (berdasarkan zon waktu peranti anda), laman ini bertanya dahulu: selagi anda belum menerima atau menutup notis itu, yang dikira sebagai bersetuju, analitik berjalan tanpa kuki. Di tempat lain, kuki ditetapkan sejak lawatan pertama. Di mana pun anda berada, anda boleh mematikannya pada bila-bila masa melalui “Tetapan kuki” di bahagian bawah setiap halaman. Sentry menerima laporan ralat tanpa butiran peribadi. Kedua-duanya tidak digunakan untuk iklan atau pemprofilan.",
           "Halaman dalam sesetengah bahasa memuatkan fon daripada Google Fonts, yang menerima alamat IP anda bersama permintaan tersebut."
         ]
       }
@@ -825,7 +825,7 @@
   },
   "Consent": {
     "label": "Persetujuan kuki",
-    "text": "Kami ingin menggunakan kuki Google Analytics untuk melihat cara laman ini digunakan. Tiada iklan, tiada pemprofilan. Selagi anda belum menerima, analitik berjalan tanpa kuki.",
+    "text": "Kami ingin menggunakan kuki Google Analytics untuk melihat cara laman ini digunakan. Tiada iklan, tiada pemprofilan. Selagi anda belum menjawab, analitik berjalan tanpa kuki; menutup mesej ini dikira sebagai bersetuju.",
     "privacy": "Dasar privasi",
     "accept": "Terima",
     "decline": "Tolak",

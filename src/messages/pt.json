@@ -720,7 +720,7 @@
       {
         "title": "Análises e relatórios de erros",
         "paragraphs": [
-          "Com o seu consentimento, o Google Analytics conta as visualizações de página e grava os próprios cookies para distinguir uma visita da outra; sem ele, as análises funcionam sem cookies. Você pode mudar sua resposta a qualquer momento em “Configurações de cookies”, no rodapé de todas as páginas. O Sentry recebe relatórios de erros sem dados pessoais. Nenhum dos dois é usado para anúncios ou criação de perfil.",
+          "O Google Analytics conta as visualizações de página e grava os próprios cookies para distinguir uma visita da outra. Na UE e no EEE, no Reino Unido e na Suíça (pelo fuso horário do seu dispositivo), o site pergunta antes: até você aceitar, ou fechar o aviso, o que equivale a aceitar, as análises funcionam sem cookies. Nos demais lugares, os cookies são gravados desde a primeira visita. Onde quer que você esteja, pode desativá-los a qualquer momento em “Configurações de cookies”, no rodapé de todas as páginas. O Sentry recebe relatórios de erros sem dados pessoais. Nenhum dos dois é usado para anúncios ou criação de perfil.",
           "As páginas em alguns idiomas carregam a fonte do Google Fonts, que recebe o seu endereço IP junto com essa solicitação."
         ]
       }
@@ -826,7 +826,7 @@
   },
   "Consent": {
     "label": "Consentimento de cookies",
-    "text": "Gostaríamos de usar cookies do Google Analytics para entender como o site é usado. Sem anúncios e sem criação de perfil. Enquanto você não aceitar, as análises funcionam sem cookies.",
+    "text": "Gostaríamos de usar cookies do Google Analytics para entender como o site é usado. Sem anúncios e sem criação de perfil. Enquanto você não responder, as análises funcionam sem cookies; fechar este aviso equivale a aceitar.",
     "privacy": "Política de privacidade",
     "accept": "Aceitar",
     "decline": "Recusar",

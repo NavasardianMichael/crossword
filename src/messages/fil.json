@@ -719,7 +719,7 @@
       {
         "title": "Analytics at mga report ng error",
         "paragraphs": [
-          "Kapag pumayag ka, binibilang ng Google Analytics ang mga page view at naglalagay ito ng sarili nitong cookies para mapag-iba ang mga pagbisita; kung hindi, tumatakbo ang analytics nang walang cookies. Mababago mo ang sagot mo anumang oras sa “Mga setting ng cookie” sa ibaba ng bawat pahina. Tumatanggap ang Sentry ng mga report ng error na walang personal na detalye. Wala sa dalawang ito ang ginagamit para sa ads o profiling.",
+          "Binibilang ng Google Analytics ang mga page view at naglalagay ito ng sarili nitong cookies para mapag-iba ang mga pagbisita. Sa EU at EEA, UK, at Switzerland (batay sa time zone ng iyong device), nagtatanong muna ang site: hangga't hindi ka pumapayag o hindi mo isinasara ang abiso — na itinuturing ding pagpayag — tumatakbo ang analytics nang walang cookies. Sa ibang lugar, inilalagay ang cookies mula sa unang pagbisita. Nasaan ka man, puwede mo itong patayin anumang oras sa “Mga setting ng cookie” sa ibaba ng bawat pahina. Tumatanggap ang Sentry ng mga report ng error na walang personal na detalye. Wala sa dalawang ito ang ginagamit para sa ads o profiling.",
           "Ang mga pahina sa ilang wika ay naglo-load ng font mula sa Google Fonts, na tumatanggap ng iyong IP address sa request na iyon."
         ]
       }
@@ -825,7 +825,7 @@
   },
   "Consent": {
     "label": "Pahintulot sa cookies",
-    "text": "Gusto naming gumamit ng cookies ng Google Analytics para makita kung paano ginagamit ang site. Walang ads, walang profiling. Hangga't hindi ka pumapayag, tumatakbo ang analytics nang walang cookies.",
+    "text": "Gusto naming gumamit ng cookies ng Google Analytics para makita kung paano ginagamit ang site. Walang ads, walang profiling. Hangga't hindi ka sumasagot, tumatakbo ang analytics nang walang cookies; kapag isinara mo ang mensaheng ito, ituturing itong pagpayag.",
     "privacy": "Patakaran sa pribasiya",
     "accept": "Tanggapin",
     "decline": "Tanggihan",

@@ -720,7 +720,7 @@
       {
         "title": "Analysen und Fehlerberichte",
         "paragraphs": [
-          "Mit deiner Einwilligung zählt Google Analytics Seitenaufrufe und setzt eigene Cookies, um Besuche auseinanderzuhalten; ohne Einwilligung läuft die Analyse ohne Cookies. Du kannst deine Entscheidung jederzeit unter „Cookie-Einstellungen“ unten auf jeder Seite ändern. Sentry erhält Fehlerberichte ohne personenbezogene Daten. Keines von beidem wird für Werbung oder Profilbildung genutzt.",
+          "Google Analytics zählt Seitenaufrufe und setzt eigene Cookies, um Besuche auseinanderzuhalten. In der EU und im EWR, im Vereinigten Königreich und in der Schweiz (erkannt an der Zeitzone deines Geräts) fragt die Website zuerst: Bis du zustimmst oder den Hinweis schließt, was als Zustimmung gilt, läuft die Analyse ohne Cookies. Anderswo werden die Cookies ab dem ersten Besuch gesetzt. Wo auch immer du bist, kannst du sie jederzeit unter „Cookie-Einstellungen“ unten auf jeder Seite abschalten. Sentry erhält Fehlerberichte ohne personenbezogene Daten. Keines von beidem wird für Werbung oder Profilbildung genutzt.",
           "Seiten in manchen Sprachen laden ihre Schrift von Google Fonts; Google erhält bei dieser Anfrage deine IP-Adresse."
         ]
       }
@@ -826,7 +826,7 @@
   },
   "Consent": {
     "label": "Cookie-Einwilligung",
-    "text": "Wir würden gern Cookies von Google Analytics verwenden, um zu sehen, wie die Website genutzt wird. Keine Werbung, kein Profiling. Solange du nicht zustimmst, läuft die Analyse ohne Cookies.",
+    "text": "Wir würden gern Cookies von Google Analytics verwenden, um zu sehen, wie die Website genutzt wird. Keine Werbung, kein Profiling. Solange du nicht antwortest, läuft die Analyse ohne Cookies; wenn du diesen Hinweis schließt, gilt das als Zustimmung.",
     "privacy": "Datenschutzerklärung",
     "accept": "Akzeptieren",
     "decline": "Ablehnen",

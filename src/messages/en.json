@@ -719,7 +719,7 @@
       {
         "title": "Analytics and error reports",
         "paragraphs": [
-          "With your consent, Google Analytics counts page views and sets its cookies to tell visits apart; without it, analytics runs without cookies. You can change your answer at any time under \"Cookie settings\" at the bottom of every page. Sentry receives error reports with no personal details. Neither is used for ads or profiling.",
+          "Google Analytics counts page views and sets its cookies to tell visits apart. In the EU and EEA, the UK and Switzerland (told by your device's time zone) the site asks first: until you accept, or close the notice, which counts as accepting, analytics runs without cookies. Elsewhere its cookies are set from the first visit. Wherever you are, you can turn them off at any time under \"Cookie settings\" at the bottom of every page. Sentry receives error reports with no personal details. Neither is used for ads or profiling.",
           "Pages in some languages load their font from Google Fonts, which receives your IP address with that request."
         ]
       }
@@ -825,7 +825,7 @@
   },
   "Consent": {
     "label": "Cookie consent",
-    "text": "We'd like to use Google Analytics cookies to see how the site is used. No ads, no profiling. Until you accept, analytics runs without cookies.",
+    "text": "We'd like to use Google Analytics cookies to see how the site is used. No ads, no profiling. Until you answer, analytics runs without cookies; closing this message counts as accepting.",
     "privacy": "Privacy policy",
     "accept": "Accept",
     "decline": "Decline",

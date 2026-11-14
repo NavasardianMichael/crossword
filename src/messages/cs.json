@@ -719,7 +719,7 @@
       {
         "title": "Analytika a chybová hlášení",
         "paragraphs": [
-          "S tvým souhlasem počítá Google Analytics zobrazení stránek a ukládá své cookies, aby rozlišil jednotlivé návštěvy; bez souhlasu běží analytika bez cookies. Svou volbu můžeš kdykoli změnit v „Nastavení cookies“ dole na každé stránce. Sentry dostává hlášení o chybách bez osobních údajů. Ani jedno se nepoužívá k reklamě ani k profilování.",
+          "Google Analytics počítá zobrazení stránek a ukládá své cookies, aby rozlišil jednotlivé návštěvy. V EU a EHP, ve Spojeném království a ve Švýcarsku (poznáme podle časového pásma tvého zařízení) se web nejdřív zeptá: dokud nesouhlasíš nebo oznámení nezavřeš, což se také považuje za souhlas, analytika běží bez cookies. Jinde se cookies ukládají od první návštěvy. Ať jsi kdekoli, můžeš je kdykoli vypnout v „Nastavení cookies“ dole na každé stránce. Sentry dostává hlášení o chybách bez osobních údajů. Ani jedno se nepoužívá k reklamě ani k profilování.",
           "Stránky v některých jazycích načítají písmo z Google Fonts, které při tom dostane tvou IP adresu."
         ]
       }
@@ -825,7 +825,7 @@
   },
   "Consent": {
     "label": "Souhlas s cookies",
-    "text": "Rádi bychom používali cookies Google Analytics, abychom viděli, jak se web používá. Žádné reklamy ani profilování. Dokud nesouhlasíš, analytika běží bez cookies.",
+    "text": "Rádi bychom používali cookies Google Analytics, abychom viděli, jak se web používá. Žádné reklamy ani profilování. Dokud neodpovíš, analytika běží bez cookies; zavřením této zprávy souhlasíš.",
     "privacy": "Zásady soukromí",
     "accept": "Přijmout",
     "decline": "Odmítnout",

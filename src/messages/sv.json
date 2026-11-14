@@ -719,7 +719,7 @@
       {
         "title": "Analys och felrapportering",
         "paragraphs": [
-          "Med ditt samtycke räknar Google Analytics sidvisningar och sätter sina cookies för att skilja besök åt; utan samtycke körs analysen utan cookies. Du kan när som helst ändra ditt svar under ”Cookieinställningar” längst ned på varje sida. Sentry tar emot felrapporter utan personuppgifter. Inget av dem används för annonser eller profilering.",
+          "Google Analytics räknar sidvisningar och sätter sina cookies för att skilja besök åt. I EU och EES, Storbritannien och Schweiz (avgörs av enhetens tidszon) frågar webbplatsen först: tills du godkänner eller stänger meddelandet, vilket räknas som ett godkännande, körs analysen utan cookies. På andra håll sätts cookies från första besöket. Var du än är kan du när som helst stänga av dem under ”Cookieinställningar” längst ned på varje sida. Sentry tar emot felrapporter utan personuppgifter. Inget av dem används för annonser eller profilering.",
           "Sidor på vissa språk hämtar sitt typsnitt från Google Fonts, som då får din IP-adress med den förfrågan."
         ]
       }
@@ -825,7 +825,7 @@
   },
   "Consent": {
     "label": "Samtycke till cookies",
-    "text": "Vi vill använda cookies från Google Analytics för att se hur webbplatsen används. Inga annonser, ingen profilering. Tills du godkänner körs analysen utan cookies.",
+    "text": "Vi vill använda cookies från Google Analytics för att se hur webbplatsen används. Inga annonser, ingen profilering. Tills du svarar körs analysen utan cookies; om du stänger meddelandet räknas det som ett godkännande.",
     "privacy": "Integritetspolicy",
     "accept": "Godkänn",
     "decline": "Avvisa",
