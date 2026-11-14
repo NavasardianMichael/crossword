@@ -187,7 +187,10 @@
     "refusedCredits": "Du har inte tillräckligt med krediter för det här pusslet. Fyll på för att fortsätta spela.",
     "refusedFreeBusy": "Gratiskrediterna är pausade en stund eftersom väldigt många pussel skapades med dem den senaste timmen. Försök igen senare.",
     "signIn": "Logga in",
-    "buyCredits": "Köp krediter"
+    "buyCredits": "Köp krediter",
+    "refusalTitle": "Dags för fler krediter",
+    "seePacks": "Se kreditpaket",
+    "notNow": "Inte nu"
   },
   "Home": {
     "hero": {

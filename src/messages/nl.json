@@ -187,7 +187,10 @@
     "refusedCredits": "Niet genoeg credits voor deze puzzel. Waardeer op om verder te spelen.",
     "refusedFreeBusy": "Gratis credits zijn even gepauzeerd: het afgelopen uur zijn er heel veel puzzels mee gemaakt. Probeer het later nog eens.",
     "signIn": "Inloggen",
-    "buyCredits": "Credits kopen"
+    "buyCredits": "Credits kopen",
+    "refusalTitle": "Tijd voor meer credits",
+    "seePacks": "Bekijk creditpakketten",
+    "notNow": "Niet nu"
   },
   "Home": {
     "hero": {

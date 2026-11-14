@@ -187,7 +187,10 @@
     "refusedCredits": "Crédits insuffisants pour cette grille. Rechargez votre solde pour continuer à jouer.",
     "refusedFreeBusy": "Les crédits gratuits sont en pause pour un moment : beaucoup de grilles ont été créées avec eux dans la dernière heure. Réessayez un peu plus tard.",
     "signIn": "Se connecter",
-    "buyCredits": "Acheter des crédits"
+    "buyCredits": "Acheter des crédits",
+    "refusalTitle": "Il vous faut plus de crédits",
+    "seePacks": "Voir les packs de crédits",
+    "notNow": "Plus tard"
   },
   "Home": {
     "hero": {

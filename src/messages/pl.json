@@ -187,7 +187,10 @@
     "refusedCredits": "Za mało kredytów na tę łamigłówkę. Doładuj konto, aby grać dalej.",
     "refusedFreeBusy": "Darmowe kredyty są na chwilę wstrzymane, bo w ostatniej godzinie powstało z nich bardzo dużo łamigłówek. Spróbuj ponownie później.",
     "signIn": "Zaloguj się",
-    "buyCredits": "Kup kredyty"
+    "buyCredits": "Kup kredyty",
+    "refusalTitle": "Potrzeba więcej kredytów",
+    "seePacks": "Zobacz pakiety kredytów",
+    "notNow": "Nie teraz"
   },
   "Home": {
     "hero": {

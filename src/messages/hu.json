@@ -187,7 +187,10 @@
     "refusedCredits": "Nincs elég kredited ehhez a rejtvényhez. Töltsd fel az egyenleged, és játssz tovább.",
     "refusedFreeBusy": "Az ingyenes kreditek egy időre szünetelnek, mert az elmúlt órában nagyon sok rejtvény készült velük. Próbáld újra kicsit később.",
     "signIn": "Bejelentkezés",
-    "buyCredits": "Kreditvásárlás"
+    "buyCredits": "Kreditvásárlás",
+    "refusalTitle": "Több kreditre van szükség",
+    "seePacks": "Kreditcsomagok megtekintése",
+    "notNow": "Most nem"
   },
   "Home": {
     "hero": {

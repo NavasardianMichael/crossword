@@ -187,7 +187,10 @@
     "refusedCredits": "Nu ai destule credite pentru acest puzzle. Reîncarcă pentru a continua jocul.",
     "refusedFreeBusy": "Creditele gratuite sunt oprite pentru puțin timp, pentru că în ultima oră s-au creat cu ele foarte multe puzzle-uri. Încearcă din nou mai târziu.",
     "signIn": "Autentifică-te",
-    "buyCredits": "Cumpără credite"
+    "buyCredits": "Cumpără credite",
+    "refusalTitle": "Ai nevoie de mai multe credite",
+    "seePacks": "Vezi pachetele de credite",
+    "notNow": "Nu acum"
   },
   "Home": {
     "hero": {

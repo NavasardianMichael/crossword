@@ -187,7 +187,10 @@
     "refusedCredits": "Mikopo haitoshi kwa fumbo hili. Ongeza salio ili uendelee kucheza.",
     "refusedFreeBusy": "Mikopo ya bure imesitishwa kwa muda kwa sababu mafumbo mengi sana yametengenezwa kwayo katika saa iliyopita. Jaribu tena baadaye.",
     "signIn": "Ingia",
-    "buyCredits": "Nunua mikopo"
+    "buyCredits": "Nunua mikopo",
+    "refusalTitle": "Unahitaji mikopo zaidi",
+    "seePacks": "Tazama vifurushi vya mikopo",
+    "notNow": "Si sasa"
   },
   "Home": {
     "hero": {

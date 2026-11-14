@@ -17,6 +17,7 @@ import { cn } from '@helpers/cn'
 import { loadProgress, loadPuzzle, savePuzzle } from '@helpers/offline/db'
 import { addSeen } from '@helpers/puzzle/seen'
 import { CreateErrorAlert } from '@components/billing/CreateErrorAlert'
+import { CreditsRefusalDialog } from '@components/billing/CreditsRefusalDialog'
 import { PuzzleCost } from '@components/billing/PuzzleCost'
 import { Button } from '@components/ui/Button'
 import { Dialog } from '@components/ui/Dialog'
@@ -133,7 +134,7 @@ export const PuzzleBoard = ({ id, initial }: PuzzleBoardProps) => {
     // The clock is already running, so this asks even before the first letter. A solved puzzle does not.
     if (!(await confirmLeave(status === 'playing'))) return
     const next = await createPuzzle(puzzle.locale, { format: puzzle.format, topic: puzzle.topic, difficulty: puzzle.difficulty })
-    // Solved or not, the dialog steps aside: a refusal's sign-in / buy-credits alert sits behind it.
+    // Solved or not, the dialog steps aside: a refusal opens its sign-in / buy-credits dialog instead.
     closeSolved()
     if (!next) {
       useLeaveGuardStoreBase.getState().keepGuarding()
@@ -199,6 +200,7 @@ export const PuzzleBoard = ({ id, initial }: PuzzleBoardProps) => {
         <PuzzleCost size={options.size} difficulty={puzzle.difficulty} />
       </Dialog>
       <ShareDialog open={shareOpen} onClose={() => setShareOpen(false)} />
+      <CreditsRefusalDialog />
     </>
   )
 

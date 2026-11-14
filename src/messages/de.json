@@ -187,7 +187,10 @@
     "refusedCredits": "Nicht genug Guthaben für dieses Rätsel. Lade dein Konto auf, um weiterzuspielen.",
     "refusedFreeBusy": "Gratis-Punkte sind gerade kurz pausiert, weil in der letzten Stunde sehr viele Rätsel damit erstellt wurden. Versuch es bitte später noch einmal.",
     "signIn": "Anmelden",
-    "buyCredits": "Guthaben kaufen"
+    "buyCredits": "Guthaben kaufen",
+    "refusalTitle": "Zeit für mehr Guthaben",
+    "seePacks": "Guthaben-Pakete ansehen",
+    "notNow": "Jetzt nicht"
   },
   "Home": {
     "hero": {

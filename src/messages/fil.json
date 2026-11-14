@@ -187,7 +187,10 @@
     "refusedCredits": "Kulang ang credits para sa palaisipang ito. Mag-top up para makapaglaro pa.",
     "refusedFreeBusy": "Pansamantalang nakahinto ang mga libreng credit dahil napakaraming palaisipan ang nagawa gamit ang mga ito sa nakaraang oras. Subukan ulit mamaya.",
     "signIn": "Mag-sign in",
-    "buyCredits": "Bumili ng credits"
+    "buyCredits": "Bumili ng credits",
+    "refusalTitle": "Kailangan ng dagdag na credits",
+    "seePacks": "Tingnan ang mga credit pack",
+    "notNow": "Mamaya na"
   },
   "Home": {
     "hero": {

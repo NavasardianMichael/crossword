@@ -187,7 +187,10 @@
     "refusedCredits": "Kredit tidak mencukupi untuk teka ini. Tambah nilai untuk terus bermain.",
     "refusedFreeBusy": "Kredit percuma dihentikan seketika kerana terlalu banyak teka dibuat dengannya dalam sejam yang lalu. Cuba lagi sebentar nanti.",
     "signIn": "Log masuk",
-    "buyCredits": "Beli kredit"
+    "buyCredits": "Beli kredit",
+    "refusalTitle": "Perlukan lebih banyak kredit",
+    "seePacks": "Lihat pek kredit",
+    "notNow": "Bukan sekarang"
   },
   "Home": {
     "hero": {

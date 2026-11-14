@@ -187,7 +187,10 @@
     "refusedCredits": "Kredit tidak cukup untuk teka-teki ini. Isi ulang untuk lanjut bermain.",
     "refusedFreeBusy": "Kredit gratis dijeda sebentar karena banyak sekali teka-teki dibuat dengannya dalam satu jam terakhir. Coba lagi nanti.",
     "signIn": "Masuk",
-    "buyCredits": "Beli kredit"
+    "buyCredits": "Beli kredit",
+    "refusalTitle": "Saatnya tambah kredit",
+    "seePacks": "Lihat paket kredit",
+    "notNow": "Nanti saja"
   },
   "Home": {
     "hero": {

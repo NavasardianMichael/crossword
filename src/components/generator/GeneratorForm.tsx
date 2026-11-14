@@ -11,6 +11,7 @@ import { puzzlePath } from '@constants/routes'
 import { TOPIC_STYLES } from '@constants/topicStyles'
 import { cn } from '@helpers/cn'
 import { CreateErrorAlert } from '@components/billing/CreateErrorAlert'
+import { CreditsRefusalDialog } from '@components/billing/CreditsRefusalDialog'
 import { PuzzleCost } from '@components/billing/PuzzleCost'
 import { Button } from '@components/ui/Button'
 import { SegmentedControl } from '@components/ui/SegmentedControl'
@@ -165,6 +166,7 @@ export const GeneratorForm = ({ preset, className }: GeneratorFormProps) => {
         </p>
       </div>
       <CreatePendingShield active={isPending} onCancel={cancelCreate} />
+      <CreditsRefusalDialog />
     </form>
   )
 }

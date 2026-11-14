@@ -36,7 +36,7 @@
   uncached `/[lang]/p/<id>` visit to the precached `/[lang]/play?id=<id>` shell. Nothing is
   prefetched: every puzzle is paid for when built (`docs/BILLING.md`).
 - **Billing:** `store/billing` holds the bought credits and this month's free ones, refreshed on
-  sign-in/out and after every create. A 402 from `POST /puzzles` goes through `CreateErrorAlert`
-  (sign in / buy credits), never a retry. Paddle.js runs only on `/[lang]/payments/checkout`.
+  sign-in/out and after every create. A 402 from `POST /puzzles` opens `CreditsRefusalDialog`
+  (sign in / buy credits), never a retry; other create failures go through `CreateErrorAlert`. Paddle.js runs only on `/[lang]/payments/checkout`.
 - **Hydration:** anything read from the device (settings, saved games, the seen-list) is read
   after mount; the server render assumes defaults.

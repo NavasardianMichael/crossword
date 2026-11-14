@@ -64,6 +64,12 @@ export const useCreateStoreBase = create<CreateState & CreateActions>()(
           inflight?.abort()
         },
 
+        dismissError: () => {
+          set((state) => {
+            state.error = null
+          })
+        },
+
         createPuzzle: async (locale, overrides) => {
           if (overrides) useCreateStoreBase.getState().setOptions(overrides)
           const options = get().options

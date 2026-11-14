@@ -187,7 +187,10 @@
     "refusedCredits": "Not enough credits for this puzzle. Top up to keep playing.",
     "refusedFreeBusy": "Free credits are paused for a little while: a lot of puzzles were made with them in the last hour. Please try again later.",
     "signIn": "Sign in",
-    "buyCredits": "Buy credits"
+    "buyCredits": "Buy credits",
+    "refusalTitle": "Time for more credits",
+    "seePacks": "See credit packs",
+    "notNow": "Not now"
   },
   "Home": {
     "hero": {

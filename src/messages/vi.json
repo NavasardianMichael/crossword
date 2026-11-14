@@ -187,7 +187,10 @@
     "refusedCredits": "Không đủ tín dụng cho câu đố này. Nạp thêm để tiếp tục chơi.",
     "refusedFreeBusy": "Tín dụng miễn phí đang tạm dừng một lúc vì có rất nhiều câu đố được tạo bằng chúng trong giờ qua. Hãy thử lại sau.",
     "signIn": "Đăng nhập",
-    "buyCredits": "Mua tín dụng"
+    "buyCredits": "Mua tín dụng",
+    "refusalTitle": "Cần thêm tín dụng",
+    "seePacks": "Xem các gói tín dụng",
+    "notNow": "Để sau"
   },
   "Home": {
     "hero": {

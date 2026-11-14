@@ -187,7 +187,10 @@
     "refusedCredits": "No tienes suficientes créditos para este crucigrama. Recarga para seguir jugando.",
     "refusedFreeBusy": "Los créditos gratis están en pausa un rato: se han creado muchísimos crucigramas con ellos en la última hora. Vuelve a intentarlo más tarde.",
     "signIn": "Iniciar sesión",
-    "buyCredits": "Comprar créditos"
+    "buyCredits": "Comprar créditos",
+    "refusalTitle": "Hacen falta más créditos",
+    "seePacks": "Ver paquetes de créditos",
+    "notNow": "Ahora no"
   },
   "Home": {
     "hero": {

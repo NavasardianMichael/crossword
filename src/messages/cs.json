@@ -187,7 +187,10 @@
     "refusedCredits": "Na tuto křížovku nemáš dostatek kreditů. Dobij si je a hraj dál.",
     "refusedFreeBusy": "Bezplatné kredity jsou na chvíli pozastavené – za poslední hodinu se s nimi vytvořilo opravdu hodně křížovek. Zkus to prosím později.",
     "signIn": "Přihlásit se",
-    "buyCredits": "Koupit kredity"
+    "buyCredits": "Koupit kredity",
+    "refusalTitle": "Potřebuješ víc kreditů",
+    "seePacks": "Zobrazit balíčky kreditů",
+    "notNow": "Teď ne"
   },
   "Home": {
     "hero": {

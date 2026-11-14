@@ -19,4 +19,6 @@ export type CreateActions = {
   createPuzzle: (locale: PuzzleView['locale'], options?: Partial<GeneratorOptions>) => Promise<PuzzleView | null>
   /** Aborts the in-flight create. A cancelled create is not an error. */
   cancelCreate: () => void
+  /** Forgets the last failure — the refusal dialog was closed, or the player went to sign in or buy. */
+  dismissError: () => void
 }

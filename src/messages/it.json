@@ -187,7 +187,10 @@
     "refusedCredits": "Crediti insufficienti per questo puzzle. Ricarica per continuare a giocare.",
     "refusedFreeBusy": "I crediti gratuiti sono in pausa per un po’: nell’ultima ora sono stati usati per creare moltissimi puzzle. Riprova più tardi.",
     "signIn": "Accedi",
-    "buyCredits": "Acquista crediti"
+    "buyCredits": "Acquista crediti",
+    "refusalTitle": "Servono più crediti",
+    "seePacks": "Vedi i pacchetti di crediti",
+    "notNow": "Non ora"
   },
   "Home": {
     "hero": {

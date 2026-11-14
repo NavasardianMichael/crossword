@@ -187,7 +187,10 @@
     "refusedCredits": "积分不足，无法开启此谜题。请充值以继续游玩。",
     "refusedFreeBusy": "过去一小时内用免费积分创建的谜题太多，免费积分暂停一会儿。请稍后再试。",
     "signIn": "登录",
-    "buyCredits": "购买积分"
+    "buyCredits": "购买积分",
+    "refusalTitle": "需要更多积分",
+    "seePacks": "查看积分包",
+    "notNow": "以后再说"
   },
   "Home": {
     "hero": {

@@ -187,7 +187,10 @@
     "refusedCredits": "Créditos insuficientes para este jogo. Recarregue para continuar jogando.",
     "refusedFreeBusy": "Os créditos grátis estão pausados por um tempo: muitos jogos foram criados com eles na última hora. Tente de novo mais tarde.",
     "signIn": "Entrar",
-    "buyCredits": "Comprar créditos"
+    "buyCredits": "Comprar créditos",
+    "refusalTitle": "Você precisa de mais créditos",
+    "seePacks": "Ver pacotes de créditos",
+    "notNow": "Agora não"
   },
   "Home": {
     "hero": {
