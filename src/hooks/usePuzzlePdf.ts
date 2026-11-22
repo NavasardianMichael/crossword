@@ -6,7 +6,7 @@ import { usePlayStore } from '@store/puzzle/play/store'
 import { localePath } from '@i18n/pathname'
 import { puzzlePath } from '@constants/routes'
 import { trackEvent } from '@helpers/analytics'
-import { buildPuzzlePdf, loadPdfFonts, needsArmenian, type PdfAppearance, type PdfLabels } from '@helpers/puzzle/pdf'
+import { buildPuzzlePdf, loadPdfFonts, type PdfAppearance, type PdfLabels, pdfScripts } from '@helpers/puzzle/pdf'
 import { reportError } from '@helpers/reportError'
 import { absoluteUrl } from '@helpers/url'
 
@@ -47,7 +47,7 @@ export const usePuzzlePdf = () => {
         answers: t('Play.pdf.answersTitle'),
         playOnline: t('Play.pdf.playOnline', { url: absoluteUrl(localePath(puzzle.locale, puzzlePath(puzzle.id))) }),
       }
-      const fonts = await loadPdfFonts(needsArmenian({ puzzle, labels }))
+      const fonts = await loadPdfFonts(pdfScripts({ puzzle, labels }))
       const bytes = await buildPuzzlePdf(
         {
           puzzle,

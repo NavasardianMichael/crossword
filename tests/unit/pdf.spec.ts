@@ -1,23 +1,37 @@
 import { readFileSync } from 'node:fs'
+import { existsSync } from 'node:fs'
 import path from 'node:path'
 import { inflateSync } from 'node:zlib'
 import { PDFArray, PDFDocument, PDFName, PDFRawStream } from 'pdf-lib'
 import { describe, expect, it } from 'vitest'
 import type { PuzzleView } from '@constants/puzzle'
-import { buildPuzzlePdf, needsArmenian, type PdfFonts, type PdfLabels, wrapText } from '@helpers/puzzle/pdf'
+import { buildPuzzlePdf, PDF_FONT_NAMES, type PdfFonts, type PdfLabels, pdfScripts, wrapText } from '@helpers/puzzle/pdf'
+import { PDF_SCRIPTS, type PdfScript } from '@helpers/puzzle/pdfText'
 
 const font = (name: string) => {
   const bytes = readFileSync(path.resolve('public/fonts/pdf', `${name}.ttf`))
   return bytes.buffer.slice(bytes.byteOffset, bytes.byteOffset + bytes.byteLength)
 }
 
-const FONTS: PdfFonts = {
+const CJK = new Set<PdfScript>(['sc', 'jp', 'kr'])
+
+/** The base three, and the pairs of the scripts asked for. */
+const fontsFor = (scripts: readonly PdfScript[]): PdfFonts => ({
   display: font('rubik-bold'),
   body: font('nunito-regular'),
   bodyBold: font('nunito-bold'),
-  armenian: font('noto-sans-armenian-regular'),
-  armenianBold: font('noto-sans-armenian-bold'),
-}
+  scripts: Object.fromEntries(
+    scripts.map((script) => {
+      if (CJK.has(script)) {
+        const medium = font(`noto-sans-${script}-medium`)
+        return [script, { regular: medium, bold: medium }]
+      }
+      return [script, { regular: font(`noto-sans-${script}-regular`), bold: font(`noto-sans-${script}-bold`) }]
+    })
+  ),
+})
+
+const FONTS = fontsFor(['armenian'])
 
 const LABELS: PdfLabels = {
   title: 'Crossword',
@@ -111,10 +125,54 @@ describe('puzzle PDF', () => {
     expect(await pages(bytes)).toBe(1)
   })
 
-  it('loads the Armenian faces only when some text is Armenian', () => {
-    expect(needsArmenian({ puzzle: classic, labels: LABELS })).toBe(false)
-    expect(needsArmenian({ puzzle: classic, labels: { ...LABELS, brand: 'Խաչբառ AI' } })).toBe(true)
-    expect(needsArmenian({ puzzle: scanword, labels: LABELS })).toBe(true)
+  it('loads a script font only when some text is in that script', () => {
+    expect(pdfScripts({ puzzle: classic, labels: LABELS })).toEqual([])
+    expect(pdfScripts({ puzzle: classic, labels: { ...LABELS, brand: 'Խաչբառ AI' } })).toEqual(['armenian'])
+    expect(pdfScripts({ puzzle: scanword, labels: LABELS })).toEqual(['armenian'])
+  })
+
+  it('has every font file a sheet may load', () => {
+    for (const name of PDF_FONT_NAMES) expect(existsSync(path.resolve('public/fonts/pdf', `${name}.ttf`)), name).toBe(true)
+  })
+
+  /** A 3×3 crossword in a language: CAT across and COW down, in its own words. */
+  const crosswordIn = (locale: PuzzleView['locale'], across: [string, string, string], down: [string, string], clues: [string, string]): PuzzleView => ({
+    ...classic,
+    locale,
+    words: [
+      { ...classic.words[0]!, clue: clues[0] },
+      { ...classic.words[1]!, clue: clues[1] },
+    ],
+    solution: [...across, down[0], '', '', down[1], '', ''],
+  })
+
+  const SHEETS: [string, PuzzleView, Partial<PdfLabels>][] = [
+    ['Arabic', crosswordIn('ar', ['ق', 'ط', 'ة'], ['ل', 'ب'], ['حيوان أليف يموء (3)', 'حيوان يعطي الحليب 12']), { title: 'كلمات متقاطعة', across: 'أفقي', down: 'عمودي' }],
+    ['Persian', crosswordIn('fa', ['گ', 'ر', 'ب'], ['ا', 'و'], ['حیوان خانگی', 'جانور شیرده']), { title: 'جدول کلمات' }],
+    ['Hebrew', crosswordIn('he', ['ח', 'ת', 'ו'], ['ל', 'ה'], ['חיית מחמד מגרגרת', 'נותנת חלב']), { title: 'תשבץ' }],
+    ['Urdu', crosswordIn('ur', ['ب', 'ل', 'ی'], ['ا', 'ے'], ['پالتو جانور', 'دودھ دینے والا جانور']), { title: 'معمہ' }],
+    ['Hindi', crosswordIn('hi', ['बि', 'ल्ली', 'क'], ['ग', 'य'], ['घर का पालतू जानवर', 'दूध देने वाला पशु']), { title: 'वर्ग पहेली' }],
+    ['Marathi', crosswordIn('mr', ['मां', 'जर', 'क'], ['गा', 'य'], ['घरातील पाळीव प्राणी', 'दूध देणारा प्राणी']), { title: 'शब्दकोडे' }],
+    ['Bengali', crosswordIn('bn', ['বি', 'ড়া', 'ল'], ['গ', 'রু'], ['পোষা প্রাণী', 'দুধ দেয় যে প্রাণী']), { title: 'শব্দজব্দ' }],
+    ['Tamil', crosswordIn('ta', ['பூ', 'னை', 'க'], ['ப', 'சு'], ['வீட்டு விலங்கு', 'பால் தரும் விலங்கு']), { title: 'குறுக்கெழுத்து' }],
+    ['Thai', crosswordIn('th', ['แ', 'ม', 'ว'], ['ว', 'ั'], ['สัตว์เลี้ยงที่ร้องเหมียว', 'สัตว์ที่ให้นม']), { title: 'ปริศนาอักษรไขว้' }],
+    ['Greek', crosswordIn('el', ['γ', 'α', 'τ'], ['α', 'γ'], ['Κατοικίδιο που νιαουρίζει', 'Δίνει γάλα']), { title: 'Σταυρόλεξο' }],
+    ['Chinese', crosswordIn('zh', ['小', '猫', '咪'], ['奶', '牛'], ['会喵喵叫的宠物', '产奶的动物（2）']), { title: '填字游戏' }],
+    ['Japanese', crosswordIn('ja', ['ね', 'こ', 'や'], ['う', 'し'], ['ニャーと鳴く動物', '牛乳を出す動物']), { title: 'クロスワード' }],
+    ['Korean', crosswordIn('ko', ['고', '양', '이'], ['소', '야'], ['야옹 하고 우는 동물', '우유를 주는 동물']), { title: '십자말풀이' }],
+    ['Vietnamese', crosswordIn('vi', ['m', 'è', 'o'], ['ư', 'ơ'], ['Con vật kêu meo meo', 'Con vật cho sữa']), { title: 'Ô chữ' }],
+  ]
+
+  it.each(SHEETS)('draws a %s crossword with its answer key in its own script', async (_name, puzzle, overrides) => {
+    const labels = { ...LABELS, ...overrides }
+    const scripts = pdfScripts({ puzzle, labels })
+    const bytes = await buildPuzzlePdf({ puzzle, labels, letters: puzzle.solution, answers: true, pageSize: 'a4' }, fontsFor(scripts))
+    expect(await pages(bytes)).toBe(2)
+  })
+
+  it('finds the script of each of those languages', () => {
+    const found = new Set(SHEETS.flatMap(([, puzzle, overrides]) => pdfScripts({ puzzle, labels: { ...LABELS, ...overrides } })))
+    expect([...found].sort()).toEqual(PDF_SCRIPTS.filter((script) => script !== 'armenian').sort())
   })
 
   it('builds the colourful sheet and the black-and-white sheet', async () => {
