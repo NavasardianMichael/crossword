@@ -12,7 +12,9 @@
     "copyright": "© {year} {appName}. Uděláno ze slov a špetky kouzel.",
     "backOnline": "Jste zase online.",
     "offline": "Jste offline. Otevřené křížovky se dají dál luštit.",
-    "lastUpdated": "Naposledy aktualizováno: {date}"
+    "lastUpdated": "Naposledy aktualizováno: {date}",
+    "preferredSourceEyebrow": "Uvidíte nás na Googlu častěji",
+    "preferredSource": "Přidat jako preferovaný zdroj"
   },
   "Nav": {
     "main": "Hlavní",
@@ -28,7 +30,8 @@
     "about": "O projektu",
     "privacy": "Soukromí",
     "terms": "Podmínky",
-    "contact": "Kontakt"
+    "contact": "Kontakt",
+    "guides": "Návody"
   },
   "Errors": {
     "network": "Server se neozývá. Zkontrolujte připojení a zkuste to znovu.",
@@ -86,7 +89,9 @@
     "sharedPuzzleDescription": "Zdarma {size} {format, select, scanword {skandinávka} other {křížovka}} · {topic} · {difficulty} · {words, plural, one {# slovo} few {# slova} many {# slov} other {# slov}}. Napsáno umělou inteligencí — luštěte v prohlížeči, bez registrace.",
     "ogImageAlt": "Křížovky AI — křížovky a skandinávky od umělé inteligence ve vašem jazyce",
     "ogPuzzleCta": "Vyluštíte to?",
-    "ogPuzzleMeta": "{size} · {words, plural, one {# slovo} few {# slova} many {# slov} other {# slov}}"
+    "ogPuzzleMeta": "{size} · {words, plural, one {# slovo} few {# slova} many {# slov} other {# slov}}",
+    "guidesTitle": "Jak sestavit a vyluštit křížovku: návody",
+    "guidesDescription": "Jak sestavit křížovku, luštit rychleji, hrát skandinávky a využít křížovky ve výuce: praktické návody s ukázkami legend."
   },
   "Formats": {
     "classic": {
@@ -576,8 +581,8 @@
         "title": "Křížovky",
         "items": [
           {
-            "question": "Jaký je rozdíl mezi klasickou křížovkou a skandovačkou?",
-            "answer": "Klasická křížovka má očíslované legendy vedle mřížky (Vodorovně a Svisle). Skandovačka má každou nápovědu přímo v buňce mřížky se šipkou ukazující na směr odpovědi — formát oblíbený v časopisech s křížovkami."
+            "question": "Jaký je rozdíl mezi klasickou křížovkou a skandinávkou?",
+            "answer": "Klasická křížovka má očíslované legendy vedle mřížky (Vodorovně a Svisle). Skandinávka, někdy zvaná švédská křížovka, má každou legendu přímo v políčku mřížky se šipkou, která ukazuje, kam napsat odpověď — formát oblíbený v luštitelských časopisech."
           },
           {
             "question": "Jak velké jsou křížovky?",
@@ -830,5 +835,28 @@
     "accept": "Přijmout",
     "decline": "Odmítnout",
     "settings": "Nastavení cookies"
+  },
+  "Content": {
+    "hubTitle": "Návody ke křížovkám",
+    "hubSubtitle": "Jak sestavit křížovku, vyluštit ji, napsat dobré legendy a použít ji ve výuce: praktické rady s ukázkami.",
+    "languagesTitle": "Křížovky v dalších jazycích",
+    "languagesSubtitle": "Každý jazyk tu má vlastní slova a legendy, psané přímo v něm, ne překládané. Čím se jazyky liší a jak začít.",
+    "breadcrumb": "Drobečková navigace",
+    "toc": "Na této stránce",
+    "faqTitle": "Otázky",
+    "tip": "Tip",
+    "weak": "Slabá",
+    "strong": "Lepší",
+    "showAnswer": "Zobrazit odpověď",
+    "byline": "Autor: <link>{name}</link>",
+    "updated": "Naposledy aktualizováno: <date></date>",
+    "readingTime": "{minutes, plural, one {# minuta čtení} few {# minuty čtení} many {# minuty čtení} other {# minut čtení}}",
+    "relatedTitle": "Další návody",
+    "ctaTitle": "Sestavte si vlastní křížovku hned teď",
+    "ctaText": "Vyberte téma a obtížnost a umělá inteligence pokaždé napíše nová slova i legendy. První každý měsíc je zdarma.",
+    "ctaCrossword": "Sestavit křížovku",
+    "ctaScanword": "Sestavit skandinávku",
+    "languageCtaTitle": "Sestavte křížovku v tomto jazyce",
+    "languageCtaText": "Verze webu „{language}“ píše každé slovo i legendu přímo v tomto jazyce a v něm je i celé menu."
   }
 }

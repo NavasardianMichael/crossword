@@ -1,9 +1,12 @@
-import { useTranslations } from 'next-intl'
+import { useLocale, useTranslations } from 'next-intl'
 import { LOCALE_LABELS, LOCALES } from '@i18n/config'
 import { LEGAL_NAV, PRIMARY_NAV, SECONDARY_NAV } from '@constants/navigation'
+import { ROUTES } from '@constants/routes'
+import { hasGuides } from '@content/locales'
 import { ConsentSettingsLink } from '@components/analytics/ConsentSettingsLink'
 import { Emblem } from '@components/brand/Emblem'
 import { AppLink } from '@components/ui/bare/AppLink'
+import { PreferredSourceBadge } from './PreferredSourceBadge'
 
 /**
  * Server-rendered, so every link is crawlable. The language list links each locale's home
@@ -11,6 +14,7 @@ import { AppLink } from '@components/ui/bare/AppLink'
  */
 export const Footer = () => {
   const t = useTranslations()
+  const locale = useLocale()
   const year = new Date().getFullYear()
   const linkClass = 'text-body-sm text-ink-700 transition-colors hover:text-coral-700 underline'
 
@@ -23,13 +27,16 @@ export const Footer = () => {
             <p className='font-display text-h3 font-extrabold'>{t('Common.appName')}</p>
           </div>
           <p className='max-w-sm text-body-sm text-ink-700'>{t('Common.tagline')}</p>
+          <PreferredSourceBadge />
         </div>
 
         <nav
           aria-label={t('Nav.footer')}
           className='grid grid-cols-2 content-start justify-items-start gap-x-6 gap-y-2'
         >
-          {[...PRIMARY_NAV, ...SECONDARY_NAV, ...LEGAL_NAV].map(({ labelKey, href }) => (
+          {[...PRIMARY_NAV, ...SECONDARY_NAV, ...LEGAL_NAV]
+            .filter(({ href }) => href !== ROUTES.guides || hasGuides(locale))
+            .map(({ labelKey, href }) => (
             <AppLink key={href} href={href} className={linkClass}>
               {t(`Nav.${labelKey}`)}
             </AppLink>

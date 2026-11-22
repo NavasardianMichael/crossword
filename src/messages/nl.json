@@ -12,7 +12,9 @@
     "copyright": "© {year} {appName}. Gemaakt met woorden en een beetje magie.",
     "backOnline": "Je bent weer online.",
     "offline": "Je bent offline. Puzzels die je hebt geopend, kun je nog spelen.",
-    "lastUpdated": "Bijgewerkt: {date}"
+    "lastUpdated": "Bijgewerkt: {date}",
+    "preferredSourceEyebrow": "Zie ons vaker in Google",
+    "preferredSource": "Toevoegen als voorkeursbron"
   },
   "Nav": {
     "main": "Hoofd",
@@ -28,7 +30,8 @@
     "about": "Over",
     "privacy": "Privacy",
     "terms": "Voorwaarden",
-    "contact": "Contact"
+    "contact": "Contact",
+    "guides": "Gidsen"
   },
   "Errors": {
     "network": "De server is niet bereikbaar. Controleer je verbinding en probeer het opnieuw.",
@@ -86,7 +89,9 @@
     "sharedPuzzleDescription": "Een gratis {size} {format, select, scanword {Zweedse puzzel} other {kruiswoordpuzzel}} · {topic} · {difficulty} · {words, plural, one {# woord} other {# woorden}}. Geschreven door AI — los hem meteen op in je browser, zonder account.",
     "ogImageAlt": "Kruiswoord AI — kruiswoordpuzzels en Zweedse puzzels door AI, in jouw taal",
     "ogPuzzleCta": "Kun jij hem oplossen?",
-    "ogPuzzleMeta": "{size} · {words, plural, one {# woord} other {# woorden}}"
+    "ogPuzzleMeta": "{size} · {words, plural, one {# woord} other {# woorden}}",
+    "guidesTitle": "Kruiswoordpuzzels maken en oplossen: gidsen",
+    "guidesDescription": "Zo maak je een kruiswoordpuzzel, los je hem sneller op, speel je Zweedse puzzels en gebruik je puzzels in de les: praktische gidsen met voorbeelden."
   },
   "Formats": {
     "classic": {
@@ -831,5 +836,28 @@
     "accept": "Accepteren",
     "decline": "Weigeren",
     "settings": "Cookie-instellingen"
+  },
+  "Content": {
+    "hubTitle": "Gidsen over kruiswoordpuzzels",
+    "hubSubtitle": "Een kruiswoordpuzzel maken, oplossen, goede hints schrijven en gebruiken in de les: praktische tips met voorbeelden.",
+    "languagesTitle": "Kruiswoordpuzzels in andere talen",
+    "languagesSubtitle": "Elke taal heeft hier eigen woorden en hints, rechtstreeks in die taal geschreven. Wat elke taal anders maakt, en hoe je begint.",
+    "breadcrumb": "Kruimelpad",
+    "toc": "Op deze pagina",
+    "faqTitle": "Vragen",
+    "tip": "Tip",
+    "weak": "Zwak",
+    "strong": "Beter",
+    "showAnswer": "Toon antwoord",
+    "byline": "Door <link>{name}</link>",
+    "updated": "Bijgewerkt: <date></date>",
+    "readingTime": "{minutes, plural, one {# min leestijd} other {# min leestijd}}",
+    "relatedTitle": "Meer gidsen",
+    "ctaTitle": "Maak nu je eigen kruiswoordpuzzel",
+    "ctaText": "Kies onderwerp en niveau; AI schrijft steeds nieuwe woorden en hints. Je eerste puzzel per maand is gratis.",
+    "ctaCrossword": "Maak een kruiswoord",
+    "ctaScanword": "Maak een Zweedse puzzel",
+    "languageCtaTitle": "Maak een puzzel in deze taal",
+    "languageCtaText": "De versie ‘{language}’ van de site schrijft elk woord en elke hint rechtstreeks in die taal, en ook de menu’s zijn in die taal."
   }
 }

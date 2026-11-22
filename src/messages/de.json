@@ -12,7 +12,9 @@
     "copyright": "© {year} {appName}. Gemacht aus Wörtern und einem bisschen Zauber.",
     "backOnline": "Du bist wieder online.",
     "offline": "Du bist offline. Rätsel, die du schon geöffnet hast, lassen sich weiterlösen.",
-    "lastUpdated": "Zuletzt aktualisiert: {date}"
+    "lastUpdated": "Zuletzt aktualisiert: {date}",
+    "preferredSourceEyebrow": "Uns öfter bei Google sehen",
+    "preferredSource": "Als bevorzugte Quelle hinzufügen"
   },
   "Nav": {
     "main": "Hauptbereich",
@@ -28,7 +30,8 @@
     "about": "Über uns",
     "privacy": "Datenschutz",
     "terms": "Nutzungsbedingungen",
-    "contact": "Kontakt"
+    "contact": "Kontakt",
+    "guides": "Ratgeber"
   },
   "Errors": {
     "network": "Der Server ist nicht erreichbar. Prüfe die Verbindung und versuch es noch einmal.",
@@ -86,7 +89,9 @@
     "sharedPuzzleDescription": "Ein kostenloses {format, select, scanword {Schwedenrätsel} other {Kreuzworträtsel}}, {size} · {topic} · {difficulty} · {words, plural, one {# Wort} other {# Wörter}}. Von einer KI geschrieben. Löse es im Browser, ohne Anmeldung.",
     "ogImageAlt": "Kreuzworträtsel KI: Kreuzworträtsel und Schwedenrätsel, von einer KI in deiner Sprache geschrieben",
     "ogPuzzleCta": "Schaffst du es?",
-    "ogPuzzleMeta": "{size} · {words, plural, one {# Wort} other {# Wörter}}"
+    "ogPuzzleMeta": "{size} · {words, plural, one {# Wort} other {# Wörter}}",
+    "guidesTitle": "Kreuzworträtsel erstellen, lösen und unterrichten",
+    "guidesDescription": "So erstellst du ein Kreuzworträtsel, löst es schneller, spielst Schwedenrätsel und nutzt Rätsel im Unterricht – praktische Ratgeber mit Beispielen."
   },
   "Formats": {
     "classic": {
@@ -831,5 +836,28 @@
     "accept": "Akzeptieren",
     "decline": "Ablehnen",
     "settings": "Cookie-Einstellungen"
+  },
+  "Content": {
+    "hubTitle": "Ratgeber zu Kreuzworträtseln",
+    "hubSubtitle": "Kreuzworträtsel erstellen, lösen, gute Fragen schreiben und im Unterricht nutzen: praktische Tipps mit Beispielen.",
+    "languagesTitle": "Kreuzworträtsel in anderen Sprachen",
+    "languagesSubtitle": "Jede Sprache hat hier ihre eigenen Wörter und Fragen, direkt in ihr geschrieben. Was jede besonders macht und wie du anfängst.",
+    "breadcrumb": "Brotkrümelnavigation",
+    "toc": "Auf dieser Seite",
+    "faqTitle": "Fragen",
+    "tip": "Tipp",
+    "weak": "Schwach",
+    "strong": "Besser",
+    "showAnswer": "Antwort zeigen",
+    "byline": "Von <link>{name}</link>",
+    "updated": "Zuletzt aktualisiert: <date></date>",
+    "readingTime": "{minutes, plural, one {# Min. Lesezeit} other {# Min. Lesezeit}}",
+    "relatedTitle": "Weitere Ratgeber",
+    "ctaTitle": "Erstelle jetzt dein eigenes Kreuzworträtsel",
+    "ctaText": "Wähle Thema und Stufe, und die KI schreibt jedes Mal neue Wörter und Fragen. Das erste Rätsel im Monat ist gratis.",
+    "ctaCrossword": "Kreuzworträtsel erstellen",
+    "ctaScanword": "Schwedenrätsel erstellen",
+    "languageCtaTitle": "Ein Rätsel in dieser Sprache erstellen",
+    "languageCtaText": "Die Version „{language}“ der Seite schreibt jedes Wort und jede Frage direkt in dieser Sprache – und auch die Menüs wechseln mit."
   }
 }

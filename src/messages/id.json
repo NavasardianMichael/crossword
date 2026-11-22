@@ -12,7 +12,9 @@
     "copyright": "© {year} {appName}. Dibuat dari kata dan sedikit keajaiban.",
     "backOnline": "Kamu sudah kembali daring.",
     "offline": "Kamu sedang luring. Teka-teki yang sudah dibuka tetap bisa dimainkan.",
-    "lastUpdated": "Diperbarui: {date}"
+    "lastUpdated": "Diperbarui: {date}",
+    "preferredSourceEyebrow": "Lihat kami lebih sering di Google",
+    "preferredSource": "Tambahkan sebagai sumber pilihan"
   },
   "Nav": {
     "main": "Utama",
@@ -28,7 +30,8 @@
     "about": "Tentang",
     "privacy": "Privasi",
     "terms": "Ketentuan",
-    "contact": "Kontak"
+    "contact": "Kontak",
+    "guides": "Panduan"
   },
   "Errors": {
     "network": "Server tidak terjangkau. Periksa koneksi lalu coba lagi.",
@@ -86,7 +89,9 @@
     "sharedPuzzleDescription": "{format, select, scanword {Silang Swedia} other {Teka-teki silang}} gratis, {size} · {topic} · {difficulty} · {words, plural, one {# kata} other {# kata}}. Ditulis kecerdasan buatan. Selesaikan di peramban, tanpa daftar.",
     "ogImageAlt": "Teka-Teki Silang AI: teka-teki silang dan silang Swedia dalam bahasamu",
     "ogPuzzleCta": "Bisakah kamu menyelesaikannya?",
-    "ogPuzzleMeta": "{size} · {words, plural, one {# kata} other {# kata}}"
+    "ogPuzzleMeta": "{size} · {words, plural, one {# kata} other {# kata}}",
+    "guidesTitle": "Panduan teka-teki silang: membuat dan mengisi",
+    "guidesDescription": "Cara membuat teka-teki silang, mengisinya lebih cepat, bermain silang Swedia, dan memakainya di kelas: panduan praktis dengan contoh petunjuk."
   },
   "Formats": {
     "classic": {
@@ -831,5 +836,28 @@
     "accept": "Terima",
     "decline": "Tolak",
     "settings": "Pengaturan cookie"
+  },
+  "Content": {
+    "hubTitle": "Panduan teka-teki silang",
+    "hubSubtitle": "Cara membuat teka-teki silang, mengisinya, menulis petunjuk yang baik, dan memakainya di kelas: saran praktis dengan contoh.",
+    "languagesTitle": "Teka-teki silang dalam bahasa lain",
+    "languagesSubtitle": "Setiap bahasa di sini punya kata dan petunjuknya sendiri, ditulis langsung dalam bahasa itu. Apa yang membuat tiap bahasa berbeda, dan cara memulainya.",
+    "breadcrumb": "Navigasi remah roti",
+    "toc": "Di halaman ini",
+    "faqTitle": "Pertanyaan",
+    "tip": "Tips",
+    "weak": "Lemah",
+    "strong": "Lebih baik",
+    "showAnswer": "Lihat jawaban",
+    "byline": "Oleh <link>{name}</link>",
+    "updated": "Diperbarui: <date></date>",
+    "readingTime": "{minutes, plural, other {# menit baca}}",
+    "relatedTitle": "Panduan lainnya",
+    "ctaTitle": "Buat teka-teki silangmu sekarang",
+    "ctaText": "Pilih topik dan tingkat, AI menulis kata dan petunjuk baru setiap kali. TTS pertama tiap bulan gratis.",
+    "ctaCrossword": "Buat teka-teki silang",
+    "ctaScanword": "Buat silang Swedia",
+    "languageCtaTitle": "Buat teka-teki dalam bahasa ini",
+    "languageCtaText": "Versi “{language}” situs ini menulis setiap kata dan petunjuk langsung dalam bahasa tersebut, dan menunya pun ikut berganti bahasa."
   }
 }

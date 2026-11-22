@@ -12,7 +12,9 @@
     "copyright": "© {year} {appName}. Fait avec des mots et une pointe de magie.",
     "backOnline": "Vous êtes de nouveau en ligne.",
     "offline": "Vous êtes hors ligne. Les grilles déjà ouvertes restent jouables.",
-    "lastUpdated": "Dernière mise à jour : {date}"
+    "lastUpdated": "Dernière mise à jour : {date}",
+    "preferredSourceEyebrow": "Nous voir plus souvent sur Google",
+    "preferredSource": "Ajouter comme source préférée"
   },
   "Nav": {
     "main": "Principal",
@@ -28,7 +30,8 @@
     "about": "À propos",
     "privacy": "Confidentialité",
     "terms": "Conditions",
-    "contact": "Contact"
+    "contact": "Contact",
+    "guides": "Guides"
   },
   "Errors": {
     "network": "Impossible de joindre le serveur. Vérifiez la connexion et réessayez.",
@@ -86,7 +89,9 @@
     "sharedPuzzleDescription": "Un {format, select, scanword {mots fléchés} other {mots croisés}} gratuit, {size} · {topic} · {difficulty} · {words, plural, one {# mot} other {# mots}}. Écrit par une intelligence artificielle : à résoudre dans le navigateur, sans inscription.",
     "ogImageAlt": "Mots croisés IA : mots croisés et mots fléchés écrits par une IA dans votre langue",
     "ogPuzzleCta": "Saurez-vous le résoudre ?",
-    "ogPuzzleMeta": "{size} · {words, plural, one {# mot} other {# mots}}"
+    "ogPuzzleMeta": "{size} · {words, plural, one {# mot} other {# mots}}",
+    "guidesTitle": "Guides : créer et résoudre des mots croisés",
+    "guidesDescription": "Comment créer une grille de mots croisés, la résoudre plus vite, jouer aux mots fléchés et s'en servir en classe : guides pratiques et exemples."
   },
   "Formats": {
     "classic": {
@@ -831,5 +836,28 @@
     "accept": "Accepter",
     "decline": "Refuser",
     "settings": "Gérer les cookies"
+  },
+  "Content": {
+    "hubTitle": "Guides des mots croisés",
+    "hubSubtitle": "Créer une grille, la résoudre, écrire de bonnes définitions et s'en servir en classe : des conseils pratiques, avec des exemples.",
+    "languagesTitle": "Mots croisés dans d'autres langues",
+    "languagesSubtitle": "Ici, chaque langue a ses propres mots et définitions, écrits directement dans cette langue. Ce qui rend chacune unique, et comment commencer.",
+    "breadcrumb": "Fil d'Ariane",
+    "toc": "Sur cette page",
+    "faqTitle": "Questions",
+    "tip": "Astuce",
+    "weak": "Faible",
+    "strong": "Mieux",
+    "showAnswer": "Voir la réponse",
+    "byline": "Par <link>{name}</link>",
+    "updated": "Dernière mise à jour : <date></date>",
+    "readingTime": "{minutes, plural, one {# min de lecture} other {# min de lecture}}",
+    "relatedTitle": "D'autres guides",
+    "ctaTitle": "Créez votre grille maintenant",
+    "ctaText": "Choisissez un thème et un niveau : l'IA écrit à chaque fois des mots et des définitions inédits. Première grille du mois offerte.",
+    "ctaCrossword": "Créer des mots croisés",
+    "ctaScanword": "Créer des mots fléchés",
+    "languageCtaTitle": "Créez une grille dans cette langue",
+    "languageCtaText": "La version « {language} » du site écrit chaque mot et chaque définition directement dans cette langue, et ses menus passent aussi en « {language} »."
   }
 }

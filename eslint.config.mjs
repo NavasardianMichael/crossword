@@ -87,6 +87,7 @@ const eslintConfig = defineConfig([
               '@interfaces/',
               '@i18n/',
               '@constants/',
+              '@content/',
               '@helpers/',
               '@linkedDataSchema/',
               '@components/',

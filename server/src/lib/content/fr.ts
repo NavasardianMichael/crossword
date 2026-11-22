@@ -29,7 +29,7 @@ export const FR_CONTENT: LocaleContent = {
     { word: 'etau', clue: 'Pièce qui serre un objet sur l’établi', shortClue: 'Serre sur l’établi', difficulty: 2 },
     { word: 'enclume', clue: 'Bloc de fer que frappe le forgeron', shortClue: 'Bloc de fer', difficulty: 2 },
     { word: 'eclipse', clue: 'Moment où la Lune cache le Soleil', shortClue: 'Soleil caché', difficulty: 2 },
-    { word: 'inefable', clue: 'Qu’on ne peut exprimer par des mots', shortClue: 'Impossible à dire', difficulty: 3 },
+    { word: 'ineffable', clue: 'Qu’on ne peut exprimer par des mots', shortClue: 'Impossible à dire', difficulty: 3 },
     { word: 'abscons', clue: 'Difficile à comprendre, réservé à peu de gens', shortClue: 'Peu accessible', difficulty: 3 },
   ],
   subtopics: {

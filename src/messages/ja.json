@@ -12,7 +12,9 @@
     "copyright": "© {year} {appName}. 言葉と、すこしの魔法で。",
     "backOnline": "オンラインに戻りました。",
     "offline": "オフラインです。開いたパズルはそのまま解けます。",
-    "lastUpdated": "最終更新: {date}"
+    "lastUpdated": "最終更新: {date}",
+    "preferredSourceEyebrow": "Google でより頻繁に表示",
+    "preferredSource": "優先ソースとして追加"
   },
   "Nav": {
     "main": "メイン",
@@ -28,7 +30,8 @@
     "about": "このサイト",
     "privacy": "プライバシー",
     "terms": "利用規約",
-    "contact": "お問い合わせ"
+    "contact": "お問い合わせ",
+    "guides": "ガイド"
   },
   "Errors": {
     "network": "サーバーに届きません。接続を確かめて、もう一度。",
@@ -86,7 +89,9 @@
     "sharedPuzzleDescription": "無料の{size} {format, select, scanword {スキャンワード} other {クロスワード}} · {topic} · {difficulty} · {words, plural, other {#語}}。AIが書きました。登録なしでブラウザから。",
     "ogImageAlt": "クロスワードAI — AIが書く、あなたの言葉のクロスワードとスキャンワード",
     "ogPuzzleCta": "解けますか?",
-    "ogPuzzleMeta": "{size} · {words, plural, other {#語}}"
+    "ogPuzzleMeta": "{size} · {words, plural, other {#語}}",
+    "guidesTitle": "クロスワードの作り方・解き方ガイド",
+    "guidesDescription": "クロスワードの作り方や解くコツ、授業での活用法を、例を交えて紹介します。"
   },
   "Formats": {
     "classic": {
@@ -830,5 +835,28 @@
     "accept": "同意する",
     "decline": "拒否する",
     "settings": "Cookie設定"
+  },
+  "Content": {
+    "hubTitle": "クロスワードガイド",
+    "hubSubtitle": "クロスワードの作り方、解き方、良いヒントの書き方、授業での使い方を、例とともに紹介します。",
+    "languagesTitle": "他の言語のクロスワード",
+    "languagesSubtitle": "ここでは言語ごとに、翻訳ではなくその言語で直接書かれた単語とヒントを使います。それぞれの違いと始め方を紹介します。",
+    "breadcrumb": "パンくずリスト",
+    "toc": "このページの内容",
+    "faqTitle": "質問",
+    "tip": "コツ",
+    "weak": "いまひとつ",
+    "strong": "より良い",
+    "showAnswer": "答えを見る",
+    "byline": "著者: <link>{name}</link>",
+    "updated": "最終更新: <date></date>",
+    "readingTime": "{minutes, plural, other {約#分で読めます}}",
+    "relatedTitle": "ほかのガイド",
+    "ctaTitle": "今すぐクロスワードを作ろう",
+    "ctaText": "テーマと難易度を選ぶと、AIが毎回新しい単語とヒントを書きます。毎月最初のパズルは無料。",
+    "ctaCrossword": "クロスワードを作る",
+    "ctaScanword": "スキャンワードを作る",
+    "languageCtaTitle": "この言語でパズルを作る",
+    "languageCtaText": "サイトの「{language}」版では、すべての単語とヒントをその言語で直接書き、メニューも「{language}」になります。"
   }
 }

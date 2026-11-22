@@ -12,7 +12,9 @@
     "copyright": "© {year} {appName}. Feito de palavras e um pouco de magia.",
     "backOnline": "Você voltou a ficar online.",
     "offline": "Você está offline. As palavras cruzadas que você já abriu continuam disponíveis.",
-    "lastUpdated": "Atualizado em: {date}"
+    "lastUpdated": "Atualizado em: {date}",
+    "preferredSourceEyebrow": "Veja-nos mais vezes no Google",
+    "preferredSource": "Adicionar como fonte preferida"
   },
   "Nav": {
     "main": "Principal",
@@ -28,7 +30,8 @@
     "about": "Sobre",
     "privacy": "Privacidade",
     "terms": "Termos",
-    "contact": "Contato"
+    "contact": "Contato",
+    "guides": "Guias"
   },
   "Errors": {
     "network": "Não dá para alcançar o servidor. Confira a conexão e tente de novo.",
@@ -86,7 +89,9 @@
     "sharedPuzzleDescription": "Um {format, select, scanword {autodefinido} other {palavras cruzadas}} grátis, {size} · {topic} · {difficulty} · {words, plural, one {# palavra} other {# palavras}}. Escrito por inteligência artificial: resolva no navegador, sem cadastro.",
     "ogImageAlt": "Palavras Cruzadas IA: palavras cruzadas e autodefinidos escritos por IA no seu idioma",
     "ogPuzzleCta": "Você consegue resolver?",
-    "ogPuzzleMeta": "{size} · {words, plural, one {# palavra} other {# palavras}}"
+    "ogPuzzleMeta": "{size} · {words, plural, one {# palavra} other {# palavras}}",
+    "guidesTitle": "Guias de palavras cruzadas: criar e resolver",
+    "guidesDescription": "Como fazer palavras cruzadas, resolver mais rápido, jogar autodefinidos e usar o jogo em sala de aula: guias práticos com exemplos de dicas."
   },
   "Formats": {
     "classic": {
@@ -831,5 +836,28 @@
     "accept": "Aceitar",
     "decline": "Recusar",
     "settings": "Configurações de cookies"
+  },
+  "Content": {
+    "hubTitle": "Guias de palavras cruzadas",
+    "hubSubtitle": "Como fazer palavras cruzadas, resolver, escrever boas dicas e usar em sala de aula: conselhos práticos com exemplos.",
+    "languagesTitle": "Palavras cruzadas em outros idiomas",
+    "languagesSubtitle": "Aqui cada idioma tem suas próprias palavras e dicas, escritas direto nele. O que torna cada um diferente e como começar.",
+    "breadcrumb": "Trilha de navegação",
+    "toc": "Nesta página",
+    "faqTitle": "Perguntas",
+    "tip": "Sugestão",
+    "weak": "Fraca",
+    "strong": "Melhor",
+    "showAnswer": "Mostrar resposta",
+    "byline": "Por <link>{name}</link>",
+    "updated": "Atualizado em: <date></date>",
+    "readingTime": "{minutes, plural, one {# min de leitura} other {# min de leitura}}",
+    "relatedTitle": "Mais guias",
+    "ctaTitle": "Crie suas palavras cruzadas agora",
+    "ctaText": "Escolha tema e dificuldade, e a IA escreve palavras e dicas novas toda vez. O primeiro jogo do mês é grátis.",
+    "ctaCrossword": "Criar palavras cruzadas",
+    "ctaScanword": "Criar um autodefinido",
+    "languageCtaTitle": "Crie um jogo neste idioma",
+    "languageCtaText": "A versão “{language}” do site escreve cada palavra e cada dica direto nesse idioma, e os menus também ficam em “{language}”."
   }
 }

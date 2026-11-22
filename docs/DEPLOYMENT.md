@@ -123,6 +123,7 @@ Two values must match character for character:
 | ------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | `ci.yml`     | PR → master. Postgres service container; typecheck · typecheck:server · gates · lint · catalogues · unit · integration · build · build:api.              |
 | `deploy.yml` | Push to `master` (or **Run workflow**). `changes` picks the sides, `config` checks every secret in seconds (`scripts/check-deploy-config.mjs`: SSH, `APP_DIR`, both origins, and inside `ENV_API_BASE64` `DATABASE_URL`, `JWT_SECRET` ≥ 32, `CORS_ORIGIN` = site, the Google callback, the Paddle set; optional features off are warnings), `verify` runs the non-build gates and the unit + integration tests (its own Postgres service), `build-web` and `build-api` in parallel, `deploy`. |
+| `content.yml` | Push to `master` touching only `src/content/**` / `public/content/**` (the guides), or **Run workflow**: content tests, then `deploy.yml` with `scope: web`, then IndexNow for the changed guides. See [Content](#content). |
 
 The API deploys **first**: server-rendered pages and ISR call it, so the schema and API must
 be new before new pages serve. API side: `pnpm install --prod --frozen-lockfile` →
@@ -133,6 +134,42 @@ words, `prisma/seed/entries.<locale>.json`, all 33) → restart → poll `/healt
 The web bundle is booted in CI before it ships (standalone output can miss traced files), and
 the API ships as a standalone package with pinned dependencies (`scripts/build-api-release.mjs`)
 — both for the reasons documented in Bookie's `docs/DEPLOYMENT.md`.
+
+## Content
+
+The guides (`/<lang>/guides`, `/<lang>/guides/<slug>`) are typed data in `src/content/`, one
+file per guide in `guides/<locale>/<slug>.ts`, written natively in that language (never
+translated), rendered by ordinary routes and prerendered by the web build. So they need no build
+of their own — `content.yml` only decides **when** the web is rebuilt for them and what follows:
+
+1. **Check content.** `tests/unit/content`: every file registered under its own slug and the
+   languages in step (`src/content/index.ts`, `locales.ts`, the folders); search-snippet
+   lengths; unique titles; links only to public pages of the same language; related guides that
+   exist; sample answers a grid could hold (`normalizeWord`); at least 600 words; no straight
+   quotes; Armenian punctuation (`՞` not `?`, `։` not `.`, `«»`) and Latin-lettered searches
+   on every Armenian guide; «armenian crossword» covered in Armenian and in English.
+2. **Deploy the web.** `deploy.yml` called with `scope: web`: its `config` and full `verify`,
+   `build-web` and `deploy`, and no API. A push that also changes code is run by `deploy.yml`
+   itself (its `paths-ignore` only skips pushes where *every* file is ignored); `content.yml`
+   then waits for that run instead of deploying a second time. The two ignore lists
+   (`deploy.yml`'s `paths-ignore`, `content.yml`'s "What else this push changed") must stay
+   the same.
+3. **Notify search engines.** `scripts/content/indexnow.mjs` sends the changed guides and their
+   language's hub to IndexNow (sending through `scripts/indexnow.mjs`). Google reads
+   `sitemap.xml`, where each guide's `lastmod` is its `updated` date — bump `updated`
+   whenever a guide's text changes. A failed notification is a warning, not a failed run.
+
+`deploy-production` is a job-level concurrency group on `deploy.yml`'s `deploy` job, so a
+content deploy and a code deploy queue behind each other rather than overlapping.
+
+**Adding a guide:** a file in `src/content/guides/<locale>/`, a line in that folder's
+`index.ts`, then `pnpm vitest run --project unit tests/unit/content`. Push — that is the whole
+release. **A new language** also needs its line in `src/content/index.ts` and
+`src/content/locales.ts` (the header, menu and footer show "Guides" only for those); its
+`Content` UI strings are already in every catalogue. Guides sharing a `key` are one page in
+several languages (`hreflang`), each under its own slug; `language-<locale>` is "crosswords in
+that language", so `language-hy` exists in Armenian («հայերեն խաչբառ») and in English
+("armenian crossword").
 
 ## Ports
 
@@ -173,7 +210,8 @@ node dist/prisma/seed.js
 
 After the first deploy, submit `https://crossword.eapps.site/sitemap.xml`
 in Google Search Console, Yandex Webmaster and Bing Webmaster Tools (759 URLs: the 11
-`INDEXABLE_ROUTES` plus 12 topic pages, × 33 locales, with hreflang and x-default).
+`INDEXABLE_ROUTES` plus 12 topic pages, × 33 locales, with hreflang and x-default — plus the
+guides and their hubs, in the languages that have them).
 
 **IndexNow.** A deploy whose push changed `src/constants/legal.ts` — bumping
 `CONTENT_UPDATED_AT` or `LEGAL_UPDATED_AT`, the rule whenever public copy changes — ends with

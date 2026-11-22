@@ -12,7 +12,9 @@
     "copyright": "© {year} {appName}. Făcut din cuvinte și un pic de magie.",
     "backOnline": "Ești din nou online.",
     "offline": "Ești offline. Rebusurile deschise se pot juca în continuare.",
-    "lastUpdated": "Actualizat: {date}"
+    "lastUpdated": "Actualizat: {date}",
+    "preferredSourceEyebrow": "Vezi-ne mai des pe Google",
+    "preferredSource": "Adaugă ca sursă preferată"
   },
   "Nav": {
     "main": "Principal",
@@ -28,7 +30,8 @@
     "about": "Despre",
     "privacy": "Confidențialitate",
     "terms": "Termeni",
-    "contact": "Contact"
+    "contact": "Contact",
+    "guides": "Ghiduri"
   },
   "Errors": {
     "network": "Serverul nu răspunde. Verifică legătura și încearcă din nou.",
@@ -86,7 +89,9 @@
     "sharedPuzzleDescription": "Un {format, select, scanword {rebus scandinav} other {rebus}} {size} gratuit · {topic} · {difficulty} · {words, plural, one {# cuvânt} few {# cuvinte} other {# de cuvinte}}. Scris de inteligența artificială — rezolvă-l în browser, fără cont.",
     "ogImageAlt": "Rebus AI — cuvinte încrucișate și rebusuri scandinave în limba ta",
     "ogPuzzleCta": "Îl poți rezolva?",
-    "ogPuzzleMeta": "{size} · {words, plural, one {# cuvânt} few {# cuvinte} other {# de cuvinte}}"
+    "ogPuzzleMeta": "{size} · {words, plural, one {# cuvânt} few {# cuvinte} other {# de cuvinte}}",
+    "guidesTitle": "Ghiduri: cum faci și cum rezolvi un rebus",
+    "guidesDescription": "Cum faci un rebus, cum îl rezolvi mai repede, cum joci rebus scandinav și cum folosești careurile la clasă: ghiduri practice, cu exemple."
   },
   "Formats": {
     "classic": {
@@ -831,5 +836,28 @@
     "accept": "Accept",
     "decline": "Refuz",
     "settings": "Setări cookie-uri"
+  },
+  "Content": {
+    "hubTitle": "Ghiduri de cuvinte încrucișate",
+    "hubSubtitle": "Cum faci un careu, cum îl rezolvi, cum scrii definiții bune și cum îl folosești la clasă: sfaturi practice, cu exemple.",
+    "languagesTitle": "Cuvinte încrucișate în alte limbi",
+    "languagesSubtitle": "Fiecare limbă are aici cuvintele și definițiile ei, scrise direct în limba respectivă. Ce o face pe fiecare diferită și cum începi.",
+    "breadcrumb": "Fir de navigare",
+    "toc": "Pe această pagină",
+    "faqTitle": "Întrebări",
+    "tip": "Sfat",
+    "weak": "Slabă",
+    "strong": "Mai bună",
+    "showAnswer": "Arată răspunsul",
+    "byline": "Autor: <link>{name}</link>",
+    "updated": "Actualizat: <date></date>",
+    "readingTime": "{minutes, plural, one {# minut de lectură} few {# minute de lectură} other {# de minute de lectură}}",
+    "relatedTitle": "Alte ghiduri",
+    "ctaTitle": "Fă-ți acum propriul rebus",
+    "ctaText": "Alegi tema și dificultatea, iar AI scrie de fiecare dată cuvinte și definiții noi. Primul careu al lunii e gratuit.",
+    "ctaCrossword": "Fă un rebus",
+    "ctaScanword": "Fă un rebus scandinav",
+    "languageCtaTitle": "Fă un careu în această limbă",
+    "languageCtaText": "Versiunea „{language}” a site-ului scrie fiecare cuvânt și fiecare definiție direct în limba respectivă, iar meniurile sunt tot în „{language}”."
   }
 }

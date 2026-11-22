@@ -12,7 +12,9 @@
     "copyright": "© {year} {appName}. Dibuat dengan perkataan dan sedikit magis.",
     "backOnline": "Anda kembali dalam talian.",
     "offline": "Anda di luar talian. Teka yang sudah dibuka masih boleh dimainkan.",
-    "lastUpdated": "Kemas kini terakhir: {date}"
+    "lastUpdated": "Kemas kini terakhir: {date}",
+    "preferredSourceEyebrow": "Lihat kami lebih kerap di Google",
+    "preferredSource": "Tambah sebagai sumber pilihan"
   },
   "Nav": {
     "main": "Utama",
@@ -28,7 +30,8 @@
     "about": "Perihal",
     "privacy": "Privasi",
     "terms": "Syarat",
-    "contact": "Hubungi"
+    "contact": "Hubungi",
+    "guides": "Panduan"
   },
   "Errors": {
     "network": "Pelayan tidak dapat dihubungi. Semak sambungan anda dan cuba lagi.",
@@ -86,7 +89,9 @@
     "sharedPuzzleDescription": "{format, select, scanword {Teka petak} other {Teka silang kata}} percuma {size} · {topic} · {difficulty} · {words, plural, other {# perkataan}}. Ditulis oleh AI — selesaikan dalam pelayar, tanpa daftar.",
     "ogImageAlt": "Silang Kata AI — teka silang kata dan teka petak tulisan AI dalam bahasa anda",
     "ogPuzzleCta": "Boleh selesaikan?",
-    "ogPuzzleMeta": "{size} · {words, plural, other {# perkataan}}"
+    "ogPuzzleMeta": "{size} · {words, plural, other {# perkataan}}",
+    "guidesTitle": "Panduan Teka Silang Kata: Cipta dan Selesaikan",
+    "guidesDescription": "Cara membuat teka silang kata, menyelesaikannya lebih pantas, bermain teka petak dan menggunakannya di dalam kelas: panduan praktikal dengan contoh."
   },
   "Formats": {
     "classic": {
@@ -830,5 +835,28 @@
     "accept": "Terima",
     "decline": "Tolak",
     "settings": "Tetapan kuki"
+  },
+  "Content": {
+    "hubTitle": "Panduan teka silang kata",
+    "hubSubtitle": "Cara membuat teka silang kata, menyelesaikannya, menulis petunjuk yang baik dan menggunakannya di dalam kelas: nasihat praktikal dengan contoh.",
+    "languagesTitle": "Teka silang kata dalam bahasa lain",
+    "languagesSubtitle": "Setiap bahasa di sini ada perkataan dan petunjuknya sendiri, ditulis terus dalam bahasa itu. Apa yang membezakan setiap satu, dan cara bermula.",
+    "breadcrumb": "Laluan navigasi",
+    "toc": "Dalam halaman ini",
+    "faqTitle": "Soalan",
+    "tip": "Petua",
+    "weak": "Lemah",
+    "strong": "Lebih baik",
+    "showAnswer": "Tunjuk jawapan",
+    "byline": "Oleh <link>{name}</link>",
+    "updated": "Kemas kini terakhir: <date></date>",
+    "readingTime": "{minutes, plural, other {# minit bacaan}}",
+    "relatedTitle": "Panduan lain",
+    "ctaTitle": "Buat teka silang kata anda sekarang",
+    "ctaText": "Pilih topik dan tahap, AI menulis perkataan dan petunjuk baharu setiap kali. Teka pertama setiap bulan percuma.",
+    "ctaCrossword": "Buat teka silang kata",
+    "ctaScanword": "Buat teka petak",
+    "languageCtaTitle": "Buat teka dalam bahasa ini",
+    "languageCtaText": "Versi “{language}” laman ini menulis setiap perkataan dan petunjuk terus dalam bahasa itu, dan menunya juga dalam bahasa yang sama."
   }
 }

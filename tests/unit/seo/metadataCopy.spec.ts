@@ -25,7 +25,7 @@ const DESCRIPTION_MAX = 160
 const TOPIC_DESCRIPTION_MAX = 175
 
 /** Pages whose `Seo.<key>Title` and `Seo.<key>Description` are their search snippet. */
-const PAGES = ['crossword', 'scanword', 'topics', 'rules', 'faq', 'about', 'credits', 'contact'] as const
+const PAGES = ['crossword', 'scanword', 'topics', 'guides', 'rules', 'faq', 'about', 'credits', 'contact'] as const
 
 const messagesFor = (locale: Locale) =>
   JSON.parse(readFileSync(path.join(MESSAGES, `${locale}.json`), 'utf8')) as typeof English

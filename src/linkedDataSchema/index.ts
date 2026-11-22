@@ -1,5 +1,6 @@
 import type {
   AboutPage,
+  Article,
   BreadcrumbList,
   CollectionPage,
   FAQPage,
@@ -188,4 +189,42 @@ export const howToSchema = (page: PageInput, steps: { title: string; text: strin
     name: title,
     text,
   })),
+})
+
+/**
+ * A guide as an Article: its dates, its search phrasings as `keywords`, and for a non-Latin
+ * language the title in Latin letters as `alternativeHeadline` (how many people type it). The
+ * image is the language's site card; the author is the person behind the site, the publisher
+ * the site itself.
+ */
+export const articleSchema = (
+  locale: Locale,
+  path: string,
+  siteName: string,
+  guide: {
+    title: string
+    description: string
+    latinTitle?: string
+    searchTerms: string[]
+    published: string
+    updated: string
+  }
+): WithContext<Article> => ({
+  '@context': 'https://schema.org',
+  '@type': 'Article',
+  '@id': `${absoluteUrl(localePath(locale, path))}#article`,
+  headline: guide.title,
+  ...(guide.latinTitle ? { alternativeHeadline: guide.latinTitle } : {}),
+  description: guide.description,
+  url: absoluteUrl(localePath(locale, path)),
+  mainEntityOfPage: absoluteUrl(localePath(locale, path)),
+  image: absoluteUrl(ogImagePath(locale)),
+  inLanguage: locale,
+  datePublished: guide.published,
+  dateModified: guide.updated,
+  keywords: guide.searchTerms.join(', '),
+  isAccessibleForFree: true,
+  author,
+  publisher: { '@type': 'Organization', name: siteName, url: absoluteUrl(localePath(locale, '/')), logo: absoluteUrl('/icon') },
+  isPartOf: { '@type': 'WebSite', name: siteName, url: absoluteUrl(localePath(locale, '/')) },
 })

@@ -1,10 +1,11 @@
 'use client'
 
 import { useState } from 'react'
-import { BookOpen, CircleHelp, Coins, Grid3x3, History, LayoutGrid, type LucideIcon, Mail, Menu, Shapes } from 'lucide-react'
-import { useTranslations } from 'next-intl'
+import { BookOpen, CircleHelp, Coins, GraduationCap, Grid3x3, History, LayoutGrid, type LucideIcon, Mail, Menu, Shapes } from 'lucide-react'
+import { useLocale, useTranslations } from 'next-intl'
 import { usePathname } from '@i18n/navigation'
 import { ROUTES } from '@constants/routes'
+import { hasGuides } from '@content/locales'
 import { cn } from '@helpers/cn'
 import { AuthMenu } from '@components/auth/AuthMenu'
 import { AppLink } from '@components/ui/bare/AppLink'
@@ -18,6 +19,7 @@ const ITEMS: { labelKey: string; href: string; icon: LucideIcon }[] = [
   { labelKey: 'topics', href: ROUTES.topics, icon: Shapes },
   { labelKey: 'history', href: ROUTES.history, icon: History },
   { labelKey: 'credits', href: ROUTES.credits, icon: Coins },
+  { labelKey: 'guides', href: ROUTES.guides, icon: GraduationCap },
   { labelKey: 'rules', href: ROUTES.rules, icon: BookOpen },
   { labelKey: 'faq', href: ROUTES.faq, icon: CircleHelp },
   { labelKey: 'contact', href: ROUTES.contact, icon: Mail },
@@ -28,6 +30,7 @@ export const MobileMenu = () => {
   const [open, setOpen] = useState(false)
   const t = useTranslations()
   const pathname = usePathname()
+  const locale = useLocale()
   const close = () => setOpen(false)
 
   return (
@@ -41,7 +44,7 @@ export const MobileMenu = () => {
       <Dialog open={open} onClose={close} title={t('Common.menu')} variant='drawer'>
         <nav aria-label={t('Nav.main')}>
           <ul className='flex flex-col gap-1.5'>
-            {ITEMS.map(({ labelKey, href, icon: Icon }) => {
+            {ITEMS.filter(({ href }) => href !== ROUTES.guides || hasGuides(locale)).map(({ labelKey, href, icon: Icon }) => {
               const active = isActivePath(pathname, href)
               return (
                 <li key={href}>

@@ -9,6 +9,13 @@ export const getSiteUrl = (): string => {
 export const absoluteUrl = (path: string): string => `${getSiteUrl()}${path.startsWith('/') ? path : `/${path}`}`
 
 /**
+ * Google's "preferred sources" page for this site: the no-script deeplink from
+ * developers.google.com/search/docs/appearance/preferred-sources.
+ */
+export const googlePreferredSourceUrl = (): string =>
+  `https://www.google.com/preferences/source?q=${encodeURIComponent(new URL(getSiteUrl()).host)}`
+
+/**
  * The API origin. On the server an `API_INTERNAL_URL` (e.g. `http://127.0.0.1:9007`) wins, so
  * server-rendered pages reach the API over loopback instead of a round trip through nginx.
  */

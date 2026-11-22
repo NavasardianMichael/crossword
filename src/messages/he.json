@@ -12,7 +12,9 @@
     "copyright": "© {year} {appName}. עשוי ממילים ומעט קסם.",
     "backOnline": "חזרתם לרשת.",
     "offline": "אין חיבור. תשבצים שכבר נפתחו ממשיכים לעבוד.",
-    "lastUpdated": "עודכן לאחרונה: {date}"
+    "lastUpdated": "עודכן לאחרונה: {date}",
+    "preferredSourceEyebrow": "ראו אותנו יותר ב-Google",
+    "preferredSource": "הוספה כמקור מועדף"
   },
   "Nav": {
     "main": "ראשי",
@@ -28,7 +30,8 @@
     "about": "עלינו",
     "privacy": "פרטיות",
     "terms": "תנאים",
-    "contact": "יצירת קשר"
+    "contact": "יצירת קשר",
+    "guides": "מדריכים"
   },
   "Errors": {
     "network": "השרת לא עונה. בדקו את החיבור ונסו שוב.",
@@ -86,7 +89,9 @@
     "sharedPuzzleDescription": "{format, select, scanword {תשבץ סקנדינבי} other {תשבץ}} {size} בחינם · {topic} · {difficulty} · {words, plural, one {מילה #} two {# מילים} many {# מילים} other {# מילים}}. נכתב בבינה מלאכותית — פתרו בדפדפן, בלי הרשמה.",
     "ogImageAlt": "תשבץ AI — תשבצים ותשבצים סקנדינביים בשפה שלכם, מאת בינה מלאכותית",
     "ogPuzzleCta": "תצליחו לפתור?",
-    "ogPuzzleMeta": "{size} · {words, plural, one {מילה #} two {# מילים} many {# מילים} other {# מילים}}"
+    "ogPuzzleMeta": "{size} · {words, plural, one {מילה #} two {# מילים} many {# מילים} other {# מילים}}",
+    "guidesTitle": "מדריכי תשבץ: ליצור, לפתור וללמד",
+    "guidesDescription": "איך ליצור תשבץ, לפתור מהר יותר, לשחק בתשבץ סקנדינבי ולהשתמש בתשבצים בכיתה: מדריכים מעשיים עם דוגמאות להגדרות."
   },
   "Formats": {
     "classic": {
@@ -830,5 +835,28 @@
     "accept": "אישור",
     "decline": "דחייה",
     "settings": "הגדרות עוגיות"
+  },
+  "Content": {
+    "hubTitle": "מדריכי תשבצים",
+    "hubSubtitle": "איך ליצור תשבץ, לפתור אותו, לכתוב הגדרות טובות ולהשתמש בו בכיתה: עצות מעשיות עם דוגמאות.",
+    "languagesTitle": "תשבצים בשפות אחרות",
+    "languagesSubtitle": "לכל שפה כאן יש מילים והגדרות משלה, שנכתבות ישירות בה ולא מתורגמות. מה מייחד כל אחת ואיך מתחילים.",
+    "breadcrumb": "פירורי לחם",
+    "toc": "בעמוד הזה",
+    "faqTitle": "שאלות",
+    "tip": "טיפ",
+    "weak": "חלשה",
+    "strong": "טובה יותר",
+    "showAnswer": "להציג תשובה",
+    "byline": "מאת <link>{name}</link>",
+    "updated": "עודכן לאחרונה: <date></date>",
+    "readingTime": "{minutes, plural, one {דקת קריאה אחת} two {שתי דקות קריאה} other {# דקות קריאה}}",
+    "relatedTitle": "עוד מדריכים",
+    "ctaTitle": "ליצור תשבץ משלכם עכשיו",
+    "ctaText": "בוחרים נושא ורמת קושי, וה־AI כותב מילים והגדרות חדשות בכל פעם. התשבץ הראשון בכל חודש בחינם.",
+    "ctaCrossword": "ליצור תשבץ",
+    "ctaScanword": "ליצור תשבץ סקנדינבי",
+    "languageCtaTitle": "ליצור תשבץ בשפה הזו",
+    "languageCtaText": "גרסת \"{language}\" של האתר כותבת כל מילה והגדרה ישירות בשפה הזו, וגם התפריטים שלה באותה שפה."
   }
 }

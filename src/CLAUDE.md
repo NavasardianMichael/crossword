@@ -12,6 +12,11 @@
   AboutPage or WebPage + breadcrumb). Bump `CONTENT_UPDATED_AT` (`constants/legal.ts`) with the
   public copy — it is the sitemap `lastmod` and JSON-LD `dateModified`. `/llms.txt` and
   `/llms-full.txt` are generated from the catalogues (`helpers/llms.ts`).
+- **Guides:** `content/guides/<locale>/<slug>.ts`, written natively per language (never translated);
+  guides sharing a `key` are one page in several languages, each under its own slug, so their
+  `pageMetadata` and sitemap entries carry only those languages (`languages`). Text links are
+  locale-free paths (`RichText`). Bump a guide's `updated` with its text; a content-only push
+  deploys through `content.yml`. Only `content/locales.ts` may reach the browser (nav links).
 - **Data:** `api/<domain>/` (4 files) → `store/<domain>/<slice>/` → components. Server reads go
   through `helpers/serverData.ts` and degrade to empty.
 - **The board:** rules are pure helpers (`helpers/puzzle/{model,cursor,check,seen}.ts`, unit

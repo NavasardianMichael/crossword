@@ -19,6 +19,7 @@ export const DEFAULT_LOCALE: Locale = 'en'
  */
 export const SERVER_ONLY_NAMESPACES: readonly string[] = [
   'Faq',
+  'Content',
   'Seo',
   'Privacy',
   'Terms',

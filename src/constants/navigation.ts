@@ -11,6 +11,8 @@ export const PRIMARY_NAV = [
 
 /** Extra links in the mobile menu and the footer. */
 export const SECONDARY_NAV = [
+  /** Shown only in the languages that have guides (`hasGuides`, `@content/locales`). */
+  { labelKey: 'guides', href: ROUTES.guides },
   { labelKey: 'rules', href: ROUTES.rules },
   { labelKey: 'faq', href: ROUTES.faq },
 ] as const

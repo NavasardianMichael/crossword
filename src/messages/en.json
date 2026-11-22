@@ -12,7 +12,9 @@
     "copyright": "© {year} {appName}. Made with words and a little magic.",
     "backOnline": "You're back online.",
     "offline": "You're offline. Puzzles you've opened still play.",
-    "lastUpdated": "Last updated: {date}"
+    "lastUpdated": "Last updated: {date}",
+    "preferredSourceEyebrow": "See us more often on Google",
+    "preferredSource": "Add as a preferred source"
   },
   "Nav": {
     "main": "Main",
@@ -28,7 +30,8 @@
     "about": "About",
     "privacy": "Privacy",
     "terms": "Terms",
-    "contact": "Contact"
+    "contact": "Contact",
+    "guides": "Guides"
   },
   "Errors": {
     "network": "Can't reach the server. Check your connection and try again.",
@@ -86,7 +89,9 @@
     "sharedPuzzleDescription": "A free {size} {format, select, scanword {scanword} other {crossword}} · {topic} · {difficulty} · {words, plural, one {# word} other {# words}}. Written by AI — solve it right in your browser, no sign-up.",
     "ogImageAlt": "Crossword AI — crosswords and scanwords written by AI in your language",
     "ogPuzzleCta": "Can you solve it?",
-    "ogPuzzleMeta": "{size} · {words, plural, one {# word} other {# words}}"
+    "ogPuzzleMeta": "{size} · {words, plural, one {# word} other {# words}}",
+    "guidesTitle": "Crossword Guides: Make, Solve and Teach",
+    "guidesDescription": "How to make a crossword, solve one faster, play scanwords and use puzzles in class: practical guides with examples and sample clues."
   },
   "Formats": {
     "classic": {
@@ -830,5 +835,28 @@
     "accept": "Accept",
     "decline": "Decline",
     "settings": "Cookie settings"
+  },
+  "Content": {
+    "hubTitle": "Crossword guides",
+    "hubSubtitle": "How to make a crossword, solve it, write good clues and use puzzles in class: practical advice with examples.",
+    "languagesTitle": "Crosswords in other languages",
+    "languagesSubtitle": "Every language here has its own words and clues, written natively. What makes each one different, and how to start.",
+    "breadcrumb": "Breadcrumb",
+    "toc": "On this page",
+    "faqTitle": "Questions",
+    "tip": "Tip",
+    "weak": "Weak",
+    "strong": "Better",
+    "showAnswer": "Show answer",
+    "byline": "By <link>{name}</link>",
+    "updated": "Updated <date></date>",
+    "readingTime": "{minutes, plural, one {# min read} other {# min read}}",
+    "relatedTitle": "More guides",
+    "ctaTitle": "Make your own crossword now",
+    "ctaText": "Pick a topic and a difficulty, and AI writes new words and clues every time. Your first puzzle each month is free.",
+    "ctaCrossword": "Make a crossword",
+    "ctaScanword": "Make a scanword",
+    "languageCtaTitle": "Make a puzzle in this language",
+    "languageCtaText": "The site's {language} version writes every word and clue natively, and its menus switch to {language} too."
   }
 }

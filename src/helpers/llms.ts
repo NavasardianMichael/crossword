@@ -7,7 +7,9 @@ import { type Locale, LOCALE_LABELS, LOCALES } from '@i18n/config'
 import { localePath } from '@i18n/pathname'
 import { APP_NAME, AUTHOR } from '@constants/app'
 import { CREDIT_PACKS, DIFFICULTIES, FORMATS, FREE_MONTHLY_CREDITS, GRID_SPECS, SIZES, TOPICS } from '@constants/puzzle'
-import { ROUTES, topicPath } from '@constants/routes'
+import { guidePath, ROUTES, topicPath } from '@constants/routes'
+import { guidesFor } from '@content/index'
+import { hasGuides } from '@content/locales'
 import { absoluteUrl } from '@helpers/url'
 
 /**
@@ -66,6 +68,12 @@ const pageLinks = (locale: Locale): string[] => {
         t(`Topics.${topic}.description`)
       )
     ),
+    ...(hasGuides(locale)
+      ? [
+          link(t('Seo.guidesTitle'), ROUTES.guides, t('Seo.guidesDescription')),
+          ...guidesFor(locale).map((guide) => link(guide.title, guidePath(guide.slug), guide.description)),
+        ]
+      : []),
   ]
 }
 

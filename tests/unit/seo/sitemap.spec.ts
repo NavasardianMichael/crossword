@@ -3,14 +3,43 @@ import { LOCALES } from '@i18n/config'
 import { CONTENT_UPDATED_AT, LEGAL_UPDATED_AT } from '@constants/legal'
 import { TOPICS } from '@constants/puzzle'
 import { INDEXABLE_ROUTES } from '@constants/routes'
+import { GUIDES } from '@content/index'
+import { GUIDE_LOCALES } from '@content/locales'
 import robots from '../../../src/app/robots'
 import sitemap from '../../../src/app/sitemap'
 
 describe('sitemap', () => {
-  const entries = sitemap()
+  const all = sitemap()
+  /** Guides exist in some languages only: tested on their own below. */
+  const isGuide = (url: string) => /\/[a-z]{2,3}\/guides(\/|$)/.test(url)
+  const entries = all.filter(({ url }) => !isGuide(url))
+  const guideEntries = all.filter(({ url }) => isGuide(url))
 
   it('lists every public page and topic page in every locale', () => {
     expect(entries).toHaveLength((INDEXABLE_ROUTES.length + TOPICS.length) * LOCALES.length)
+  })
+
+  it('lists every guide, and the guides hub of every language that has guides', () => {
+    const guideCount = Object.values(GUIDES).reduce((sum, guides) => sum + (guides?.length ?? 0), 0)
+    expect(guideEntries).toHaveLength(guideCount + GUIDE_LOCALES.length)
+  })
+
+  it("gives a guide only its own languages' hreflang, each at its own slug", () => {
+    for (const { url, alternates } of guideEntries) {
+      const languages = Object.entries(alternates?.languages ?? {}).filter(([code]) => code !== 'x-default')
+      expect(languages.some(([, href]) => href === url), url).toBe(true)
+      for (const [code, href] of languages) expect(String(href), url).toContain(`/${code}/guides`)
+    }
+  })
+
+  it('dates a guide by its own updated date', () => {
+    for (const [locale, guides] of Object.entries(GUIDES)) {
+      for (const guide of guides ?? []) {
+        const entry = guideEntries.find(({ url }) => url.endsWith(`/${locale}/guides/${guide.slug}`))
+        expect(entry, guide.slug).toBeDefined()
+        expect(new Date(entry!.lastModified!).toISOString().slice(0, 10)).toBe(guide.updated)
+      }
+    }
   })
 
   it('gives every entry the full hreflang set, plus x-default', () => {

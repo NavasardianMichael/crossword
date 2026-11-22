@@ -12,7 +12,9 @@
     "copyright": "© {year} {appName}. Gjort av ord och en nypa magi.",
     "backOnline": "Du är online igen.",
     "offline": "Du är offline. Korsord du redan öppnat går fortfarande att lösa.",
-    "lastUpdated": "Senast uppdaterad: {date}"
+    "lastUpdated": "Senast uppdaterad: {date}",
+    "preferredSourceEyebrow": "Se oss oftare på Google",
+    "preferredSource": "Lägg till som föredragen källa"
   },
   "Nav": {
     "main": "Huvud",
@@ -28,7 +30,8 @@
     "about": "Om oss",
     "privacy": "Integritet",
     "terms": "Villkor",
-    "contact": "Kontakt"
+    "contact": "Kontakt",
+    "guides": "Guider"
   },
   "Errors": {
     "network": "Servern svarar inte. Kontrollera anslutningen och försök igen.",
@@ -86,7 +89,9 @@
     "sharedPuzzleDescription": "Ett gratis {size} {format, select, scanword {rutkorsord} other {korsord}} · {topic} · {difficulty} · {words, plural, one {# ord} other {# ord}}. Skrivet av AI — lös det i webbläsaren, utan konto.",
     "ogImageAlt": "Korsord AI — korsord och rutkorsord på ditt språk",
     "ogPuzzleCta": "Kan du lösa det?",
-    "ogPuzzleMeta": "{size} · {words, plural, one {# ord} other {# ord}}"
+    "ogPuzzleMeta": "{size} · {words, plural, one {# ord} other {# ord}}",
+    "guidesTitle": "Guider: så gör och löser du korsord",
+    "guidesDescription": "Så gör du ett korsord, löser det snabbare, spelar rutkorsord och använder korsord i undervisningen: praktiska guider med exempel."
   },
   "Formats": {
     "classic": {
@@ -830,5 +835,28 @@
     "accept": "Godkänn",
     "decline": "Avvisa",
     "settings": "Cookieinställningar"
+  },
+  "Content": {
+    "hubTitle": "Guider om korsord",
+    "hubSubtitle": "Så gör du ett korsord, löser det, skriver bra ledtrådar och använder det i undervisningen: praktiska råd med exempel.",
+    "languagesTitle": "Korsord på andra språk",
+    "languagesSubtitle": "Varje språk har här egna ord och ledtrådar, skrivna direkt på språket. Vad som gör vart och ett speciellt, och hur du börjar.",
+    "breadcrumb": "Brödsmulor",
+    "toc": "På den här sidan",
+    "faqTitle": "Frågor",
+    "tip": "Tips",
+    "weak": "Svag",
+    "strong": "Bättre",
+    "showAnswer": "Visa svaret",
+    "byline": "Av <link>{name}</link>",
+    "updated": "Senast uppdaterad: <date></date>",
+    "readingTime": "{minutes, plural, one {# min läsning} other {# min läsning}}",
+    "relatedTitle": "Fler guider",
+    "ctaTitle": "Gör ditt eget korsord nu",
+    "ctaText": "Välj ämne och svårighet, så skriver AI nya ord och ledtrådar varje gång. Ditt första pussel varje månad är gratis.",
+    "ctaCrossword": "Gör ett korsord",
+    "ctaScanword": "Gör ett rutkorsord",
+    "languageCtaTitle": "Gör ett pussel på det här språket",
+    "languageCtaText": "Sajtens version ”{language}” skriver varje ord och ledtråd direkt på det språket, och även menyerna byter språk."
   }
 }

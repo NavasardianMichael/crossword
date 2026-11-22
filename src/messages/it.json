@@ -12,7 +12,9 @@
     "copyright": "© {year} {appName}. Fatto di parole e di un pizzico di magia.",
     "backOnline": "Sei di nuovo online.",
     "offline": "Sei offline. I cruciverba che hai già aperto si possono ancora giocare.",
-    "lastUpdated": "Ultimo aggiornamento: {date}"
+    "lastUpdated": "Ultimo aggiornamento: {date}",
+    "preferredSourceEyebrow": "Trovaci più spesso su Google",
+    "preferredSource": "Aggiungi come fonte preferita"
   },
   "Nav": {
     "main": "Principale",
@@ -28,7 +30,8 @@
     "about": "Chi siamo",
     "privacy": "Privacy",
     "terms": "Condizioni",
-    "contact": "Contatti"
+    "contact": "Contatti",
+    "guides": "Guide"
   },
   "Errors": {
     "network": "Il server non risponde. Controlla la connessione e riprova.",
@@ -86,7 +89,9 @@
     "sharedPuzzleDescription": "Uno schema gratis {size} {format, select, scanword {schema svedese} other {cruciverba}} · {topic} · {difficulty} · {words, plural, one {# parola} other {# parole}}. Scritto dall’IA: risolvilo nel browser, senza registrazione.",
     "ogImageAlt": "Cruciverba IA — cruciverba e schemi svedesi scritti dall’IA nella tua lingua",
     "ogPuzzleCta": "Riesci a risolverlo?",
-    "ogPuzzleMeta": "{size} · {words, plural, one {# parola} other {# parole}}"
+    "ogPuzzleMeta": "{size} · {words, plural, one {# parola} other {# parole}}",
+    "guidesTitle": "Cruciverba: come crearli, risolverli e usarli",
+    "guidesDescription": "Come creare un cruciverba, risolverlo più in fretta, giocare agli schemi svedesi e usarlo in classe: guide pratiche con esempi di definizioni."
   },
   "Formats": {
     "classic": {
@@ -830,5 +835,28 @@
     "accept": "Accetta",
     "decline": "Rifiuta",
     "settings": "Impostazioni cookie"
+  },
+  "Content": {
+    "hubTitle": "Guide ai cruciverba",
+    "hubSubtitle": "Come creare un cruciverba, risolverlo, scrivere buone definizioni e usarlo in classe: consigli pratici con esempi.",
+    "languagesTitle": "Cruciverba in altre lingue",
+    "languagesSubtitle": "Qui ogni lingua ha parole e definizioni proprie, scritte direttamente in quella lingua. Cosa rende diversa ciascuna e come iniziare.",
+    "breadcrumb": "Percorso di navigazione",
+    "toc": "In questa pagina",
+    "faqTitle": "Domande",
+    "tip": "Consiglio",
+    "weak": "Debole",
+    "strong": "Meglio",
+    "showAnswer": "Mostra la risposta",
+    "byline": "Di <link>{name}</link>",
+    "updated": "Ultimo aggiornamento: <date></date>",
+    "readingTime": "{minutes, plural, one {# min di lettura} other {# min di lettura}}",
+    "relatedTitle": "Altre guide",
+    "ctaTitle": "Crea subito il tuo cruciverba",
+    "ctaText": "Scegli tema e difficoltà: l’IA scrive ogni volta parole e definizioni nuove. Il primo schema del mese è gratis.",
+    "ctaCrossword": "Crea un cruciverba",
+    "ctaScanword": "Crea uno schema svedese",
+    "languageCtaTitle": "Crea uno schema in questa lingua",
+    "languageCtaText": "La versione «{language}» del sito scrive ogni parola e ogni definizione direttamente in quella lingua, e anche i menu passano a «{language}»."
   }
 }

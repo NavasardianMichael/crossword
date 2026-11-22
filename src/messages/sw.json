@@ -12,7 +12,9 @@
     "copyright": "© {year} {appName}. Imetengenezwa kwa maneno na uchawi kidogo.",
     "backOnline": "Umerudi mtandaoni.",
     "offline": "Uko nje ya mtandao. Chemshabongo ulizofungua bado zinachezeka.",
-    "lastUpdated": "Ilisasishwa mwisho: {date}"
+    "lastUpdated": "Ilisasishwa mwisho: {date}",
+    "preferredSourceEyebrow": "Tuone mara nyingi zaidi kwenye Google",
+    "preferredSource": "Ongeza kama chanzo unachopendelea"
   },
   "Nav": {
     "main": "Kuu",
@@ -28,7 +30,8 @@
     "about": "Kuhusu",
     "privacy": "Faragha",
     "terms": "Masharti",
-    "contact": "Wasiliana"
+    "contact": "Wasiliana",
+    "guides": "Miongozo"
   },
   "Errors": {
     "network": "Seva haipatikani. Kagua muunganisho wako kisha ujaribu tena.",
@@ -86,7 +89,9 @@
     "sharedPuzzleDescription": "{format, select, scanword {Skanwodi} other {Chemshabongo}} bure {size} · {topic} · {difficulty} · {words, plural, one {neno #} other {maneno #}}. Imeandikwa na AI — itatue kwenye kivinjari, bila kujisajili.",
     "ogImageAlt": "Chemshabongo AI — chemshabongo na skanwodi katika lugha yako",
     "ogPuzzleCta": "Je, unaweza kuitatua?",
-    "ogPuzzleMeta": "{size} · {words, plural, one {neno #} other {maneno #}}"
+    "ogPuzzleMeta": "{size} · {words, plural, one {neno #} other {maneno #}}",
+    "guidesTitle": "Miongozo ya Chemshabongo: Kutunga na Kutatua",
+    "guidesDescription": "Jinsi ya kutunga chemshabongo, kuitatua haraka, kucheza skanwodi na kuitumia darasani: miongozo ya vitendo yenye mifano ya vidokezo."
   },
   "Formats": {
     "classic": {
@@ -830,5 +835,28 @@
     "accept": "Kubali",
     "decline": "Kataa",
     "settings": "Mipangilio ya vidakuzi"
+  },
+  "Content": {
+    "hubTitle": "Miongozo ya chemshabongo",
+    "hubSubtitle": "Jinsi ya kutunga chemshabongo, kuitatua, kuandika vidokezo vizuri na kuitumia darasani: ushauri wa vitendo wenye mifano.",
+    "languagesTitle": "Chemshabongo kwa lugha nyingine",
+    "languagesSubtitle": "Kila lugha hapa ina maneno na vidokezo vyake, vilivyoandikwa moja kwa moja kwa lugha hiyo. Kinachoifanya kila moja kuwa tofauti, na jinsi ya kuanza.",
+    "breadcrumb": "Njia ya urambazaji",
+    "toc": "Katika ukurasa huu",
+    "faqTitle": "Maswali",
+    "tip": "Ushauri",
+    "weak": "Dhaifu",
+    "strong": "Bora zaidi",
+    "showAnswer": "Onyesha jibu",
+    "byline": "Imeandikwa na <link>{name}</link>",
+    "updated": "Ilisasishwa mwisho: <date></date>",
+    "readingTime": "{minutes, plural, one {Dakika # ya kusoma} other {Dakika # za kusoma}}",
+    "relatedTitle": "Miongozo zaidi",
+    "ctaTitle": "Tengeneza chemshabongo yako sasa",
+    "ctaText": "Chagua mada na ugumu, na AI huandika maneno na vidokezo vipya kila mara. Fumbo la kwanza kila mwezi ni bure.",
+    "ctaCrossword": "Tengeneza chemshabongo",
+    "ctaScanword": "Tengeneza skanwodi",
+    "languageCtaTitle": "Tengeneza fumbo kwa lugha hii",
+    "languageCtaText": "Toleo la “{language}” la tovuti huandika kila neno na kidokezo moja kwa moja kwa lugha hiyo, na menyu zake pia ziko kwa lugha hiyo hiyo."
   }
 }

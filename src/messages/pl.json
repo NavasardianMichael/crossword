@@ -12,7 +12,9 @@
     "copyright": "© {year} {appName}. Zrobione ze słów i odrobiny magii.",
     "backOnline": "Znowu jesteś online.",
     "offline": "Jesteś offline. Krzyżówki, które już otworzyłeś, nadal działają.",
-    "lastUpdated": "Ostatnia aktualizacja: {date}"
+    "lastUpdated": "Ostatnia aktualizacja: {date}",
+    "preferredSourceEyebrow": "Częściej widzisz nas w Google",
+    "preferredSource": "Dodaj jako preferowane źródło"
   },
   "Nav": {
     "main": "Główne",
@@ -28,7 +30,8 @@
     "about": "O nas",
     "privacy": "Prywatność",
     "terms": "Zasady",
-    "contact": "Kontakt"
+    "contact": "Kontakt",
+    "guides": "Poradniki"
   },
   "Errors": {
     "network": "Nie ma połączenia z serwerem. Sprawdź sieć i spróbuj ponownie.",
@@ -86,7 +89,9 @@
     "sharedPuzzleDescription": "Darmowy diagram {size} {format, select, scanword {krzyżówka szwedzka} other {krzyżówka}} · {topic} · {difficulty} · {words, plural, one {# słowo} few {# słowa} many {# słów} other {# słowa}}. Napisany przez AI — rozwiąż go w przeglądarce, bez rejestracji.",
     "ogImageAlt": "Krzyżówki AI — krzyżówki i krzyżówki szwedzkie pisane przez AI w twoim języku",
     "ogPuzzleCta": "Dasz radę to rozwiązać?",
-    "ogPuzzleMeta": "{size} · {words, plural, one {# słowo} few {# słowa} many {# słów} other {# słowa}}"
+    "ogPuzzleMeta": "{size} · {words, plural, one {# słowo} few {# słowa} many {# słów} other {# słowa}}",
+    "guidesTitle": "Jak ułożyć i rozwiązać krzyżówkę — poradniki",
+    "guidesDescription": "Jak ułożyć krzyżówkę, rozwiązywać ją szybciej, grać w krzyżówki szwedzkie i używać ich na lekcjach: praktyczne poradniki z przykładami haseł."
   },
   "Formats": {
     "classic": {
@@ -576,8 +581,8 @@
         "title": "Łamigłówki",
         "items": [
           {
-            "question": "Jaka jest różnica między krzyżówką a panamerykanką?",
-            "answer": "Klasyczna krzyżówka ma ponumerowane hasła obok siatki (Poziomo i Pionowo). Panamerykanka (krzyżówka hetmańska/skanword) ma każde hasło wpisane wewnątrz kratki siatki ze strzałką wskazującą miejsce odpowiedzi — to format niezwykle popularny w czasopismach w Rosji i Armenii."
+            "question": "Czym różni się krzyżówka klasyczna od szwedzkiej?",
+            "answer": "Klasyczna krzyżówka ma ponumerowane hasła obok siatki (Poziomo i Pionowo). Krzyżówka szwedzka, nazywana też panoramiczną, ma każde hasło wpisane w kratkę siatki ze strzałką wskazującą, dokąd wpisać odpowiedź — tak jak w popularnych pismach z krzyżówkami."
           },
           {
             "question": "Jak duże są łamigłówki?",
@@ -830,5 +835,28 @@
     "accept": "Akceptuję",
     "decline": "Odrzucam",
     "settings": "Ustawienia cookie"
+  },
+  "Content": {
+    "hubTitle": "Poradniki o krzyżówkach",
+    "hubSubtitle": "Jak ułożyć krzyżówkę, rozwiązać ją, pisać dobre hasła i wykorzystać ją na lekcji: praktyczne rady z przykładami.",
+    "languagesTitle": "Krzyżówki w innych językach",
+    "languagesSubtitle": "Każdy język ma tu własne słowa i hasła, pisane od razu w nim, bez tłumaczenia. Czym się różnią i od czego zacząć.",
+    "breadcrumb": "Ścieżka nawigacji",
+    "toc": "Na tej stronie",
+    "faqTitle": "Pytania",
+    "tip": "Wskazówka",
+    "weak": "Słabe",
+    "strong": "Lepsze",
+    "showAnswer": "Pokaż odpowiedź",
+    "byline": "Autor: <link>{name}</link>",
+    "updated": "Ostatnia aktualizacja: <date></date>",
+    "readingTime": "{minutes, plural, one {# minuta czytania} few {# minuty czytania} many {# minut czytania} other {# minuty czytania}}",
+    "relatedTitle": "Więcej poradników",
+    "ctaTitle": "Ułóż własną krzyżówkę już teraz",
+    "ctaText": "Wybierz temat i poziom, a AI za każdym razem napisze nowe słowa i hasła. Pierwsza w miesiącu za darmo.",
+    "ctaCrossword": "Ułóż krzyżówkę",
+    "ctaScanword": "Ułóż krzyżówkę szwedzką",
+    "languageCtaTitle": "Ułóż krzyżówkę w tym języku",
+    "languageCtaText": "Wersja serwisu „{language}” pisze każde słowo i hasło od razu w tym języku — w nim jest też całe menu."
   }
 }

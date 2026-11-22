@@ -12,7 +12,9 @@
     "copyright": "© {year} {appName}. 낱말과 약간의 마법으로 만들었습니다.",
     "backOnline": "다시 온라인입니다.",
     "offline": "오프라인입니다. 열어 둔 퍼즐은 계속 풀 수 있습니다.",
-    "lastUpdated": "마지막 업데이트: {date}"
+    "lastUpdated": "마지막 업데이트: {date}",
+    "preferredSourceEyebrow": "Google에서 더 자주 만나 보세요",
+    "preferredSource": "선호하는 출처로 추가"
   },
   "Nav": {
     "main": "주요",
@@ -28,7 +30,8 @@
     "about": "소개",
     "privacy": "개인정보",
     "terms": "이용 약관",
-    "contact": "문의"
+    "contact": "문의",
+    "guides": "가이드"
   },
   "Errors": {
     "network": "서버에 닿지 않습니다. 연결을 확인하고 다시 시도하세요.",
@@ -86,7 +89,9 @@
     "sharedPuzzleDescription": "무료 {size} {format, select, scanword {스캔워드} other {크로스워드}} · {topic} · {difficulty} · {words, plural, other {#개 낱말}}. AI가 썼습니다. 가입 없이 브라우저에서 푸세요.",
     "ogImageAlt": "크로스워드 AI — AI가 쓴 당신 언어의 크로스워드와 스캔워드",
     "ogPuzzleCta": "풀 수 있을까요?",
-    "ogPuzzleMeta": "{size} · {words, plural, other {#개 낱말}}"
+    "ogPuzzleMeta": "{size} · {words, plural, other {#개 낱말}}",
+    "guidesTitle": "크로스워드 가이드: 만들기와 풀기",
+    "guidesDescription": "크로스워드 만드는 법, 빨리 푸는 법, 수업 활용법을 예시로 알려 드립니다."
   },
   "Formats": {
     "classic": {
@@ -830,5 +835,28 @@
     "accept": "동의",
     "decline": "거부",
     "settings": "쿠키 설정"
+  },
+  "Content": {
+    "hubTitle": "크로스워드 가이드",
+    "hubSubtitle": "크로스워드를 만들고 풀고, 좋은 문항을 쓰고, 수업에 활용하는 법을 예시와 함께 알려 드립니다.",
+    "languagesTitle": "다른 언어의 크로스워드",
+    "languagesSubtitle": "이곳의 모든 언어는 번역이 아니라 그 언어로 직접 쓴 단어와 문항을 씁니다. 언어마다 무엇이 다른지, 어떻게 시작하는지 알아보세요.",
+    "breadcrumb": "이동 경로",
+    "toc": "이 페이지의 내용",
+    "faqTitle": "질문",
+    "tip": "팁",
+    "weak": "아쉬움",
+    "strong": "더 좋음",
+    "showAnswer": "정답 보기",
+    "byline": "글: <link>{name}</link>",
+    "updated": "마지막 업데이트: <date></date>",
+    "readingTime": "{minutes, plural, other {읽는 데 #분}}",
+    "relatedTitle": "다른 가이드",
+    "ctaTitle": "지금 나만의 크로스워드를 만들어 보세요",
+    "ctaText": "주제와 난이도를 고르면 AI가 매번 새 단어와 문항을 씁니다. 매달 첫 퍼즐은 무료.",
+    "ctaCrossword": "크로스워드 만들기",
+    "ctaScanword": "스캔워드 만들기",
+    "languageCtaTitle": "이 언어로 퍼즐 만들기",
+    "languageCtaText": "사이트의 ‘{language}’ 버전은 모든 단어와 문항을 그 언어로 직접 쓰고, 메뉴도 그 언어로 바뀝니다."
   }
 }

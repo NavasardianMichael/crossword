@@ -19,13 +19,17 @@ export const currentLocale = async (): Promise<Locale> => {
  * duplicates and deindex them. `hreflang` is what says "same page, other language".
  * Paths stay root-relative; `metadataBase` in the root layout makes them absolute.
  */
-export const localizedAlternates = async (path: string): Promise<Metadata['alternates']> => {
+export const localizedAlternates = async (
+  path: string,
+  paths: Partial<Record<Locale, string>> = Object.fromEntries(LOCALES.map((each) => [each, path]))
+): Promise<Metadata['alternates']> => {
   const locale = await currentLocale()
-  const languages = Object.fromEntries(LOCALES.map((each) => [each, localePath(each, path)]))
+  const languages = Object.fromEntries((Object.entries(paths) as [Locale, string][]).map(([each, own]) => [each, localePath(each, own)]))
+  const fallback = paths[DEFAULT_LOCALE]
 
   return {
     canonical: localePath(locale, path),
-    languages: { ...languages, 'x-default': localePath(DEFAULT_LOCALE, path) },
+    languages: { ...languages, ...(fallback ? { 'x-default': localePath(DEFAULT_LOCALE, fallback) } : {}) },
   }
 }
 
@@ -40,6 +44,13 @@ type PageMetadataInput = {
   absoluteTitle?: boolean
   /** A preview of its own (a shared puzzle's card); otherwise the language's site card. */
   image?: { url: string; alt: string }
+  /**
+   * A page that exists in some languages only, each under its own path (a guide): its
+   * `hreflang` set. Every language at `path` when left out.
+   */
+  languages?: Partial<Record<Locale, string>>
+  /** An article (a guide): OpenGraph `article` with its dates (ISO, YYYY-MM-DD). */
+  article?: { published: string; updated: string }
 }
 
 /**
@@ -54,6 +65,8 @@ export const pageMetadata = async ({
   noIndex,
   absoluteTitle,
   image: ownImage,
+  languages,
+  article,
 }: PageMetadataInput): Promise<Metadata> => {
   const locale = await currentLocale()
   const t = await getTranslations()
@@ -61,15 +74,15 @@ export const pageMetadata = async ({
   return {
     title: absoluteTitle ? { absolute: title } : title,
     description,
-    alternates: await localizedAlternates(path),
+    alternates: await localizedAlternates(path, languages),
     openGraph: {
-      type: 'website',
+      ...(article ? { type: 'article', publishedTime: article.published, modifiedTime: article.updated } : { type: 'website' }),
       siteName: t('Common.appName'),
       title,
       description,
       url: localePath(locale, path),
       locale: OG_LOCALES[locale],
-      alternateLocale: LOCALES.filter((each) => each !== locale).map((each) => OG_LOCALES[each]),
+      alternateLocale: (languages ? (Object.keys(languages) as Locale[]) : LOCALES).filter((each) => each !== locale).map((each) => OG_LOCALES[each]),
       images: [image],
     },
     twitter: { card: 'summary_large_image', title, description, images: [image] },

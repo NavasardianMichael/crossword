@@ -12,7 +12,9 @@
     "copyright": "© {year} {appName}. Làm từ chữ và một chút phép màu.",
     "backOnline": "Bạn đã có mạng trở lại.",
     "offline": "Bạn đang ngoại tuyến. Những ô chữ đã mở vẫn chơi được.",
-    "lastUpdated": "Cập nhật lần cuối: {date}"
+    "lastUpdated": "Cập nhật lần cuối: {date}",
+    "preferredSourceEyebrow": "Thấy chúng tôi thường xuyên hơn trên Google",
+    "preferredSource": "Thêm làm nguồn ưu tiên"
   },
   "Nav": {
     "main": "Chính",
@@ -28,7 +30,8 @@
     "about": "Giới thiệu",
     "privacy": "Riêng tư",
     "terms": "Điều khoản",
-    "contact": "Liên hệ"
+    "contact": "Liên hệ",
+    "guides": "Hướng dẫn"
   },
   "Errors": {
     "network": "Không tới được máy chủ. Kiểm tra kết nối rồi thử lại.",
@@ -86,7 +89,9 @@
     "sharedPuzzleDescription": "Ô chữ miễn phí cỡ {size} {format, select, scanword {ô chữ mũi tên} other {ô chữ}} · {topic} · {difficulty} · {words, plural, other {# từ}}. AI viết — giải ngay trên trình duyệt, không cần đăng ký.",
     "ogImageAlt": "Ô chữ AI — ô chữ và ô chữ mũi tên bằng ngôn ngữ của bạn",
     "ogPuzzleCta": "Bạn giải được không?",
-    "ogPuzzleMeta": "{size} · {words, plural, other {# từ}}"
+    "ogPuzzleMeta": "{size} · {words, plural, other {# từ}}",
+    "guidesTitle": "Hướng dẫn ô chữ: cách tạo, giải và dạy học",
+    "guidesDescription": "Cách tạo ô chữ, giải nhanh hơn, chơi ô chữ mũi tên và dùng ô chữ trong lớp học: hướng dẫn thực tế kèm ví dụ gợi ý."
   },
   "Formats": {
     "classic": {
@@ -830,5 +835,28 @@
     "accept": "Chấp nhận",
     "decline": "Từ chối",
     "settings": "Cài đặt cookie"
+  },
+  "Content": {
+    "hubTitle": "Hướng dẫn về ô chữ",
+    "hubSubtitle": "Cách tạo ô chữ, giải ô chữ, viết gợi ý hay và dùng trong lớp học: lời khuyên thực tế kèm ví dụ.",
+    "languagesTitle": "Ô chữ bằng các ngôn ngữ khác",
+    "languagesSubtitle": "Mỗi ngôn ngữ ở đây có từ và gợi ý riêng, viết thẳng bằng chính ngôn ngữ đó. Điểm khác biệt của từng ngôn ngữ và cách bắt đầu.",
+    "breadcrumb": "Đường dẫn điều hướng",
+    "toc": "Trong trang này",
+    "faqTitle": "Câu hỏi",
+    "tip": "Mẹo",
+    "weak": "Chưa hay",
+    "strong": "Hay hơn",
+    "showAnswer": "Xem đáp án",
+    "byline": "Tác giả: <link>{name}</link>",
+    "updated": "Cập nhật lần cuối: <date></date>",
+    "readingTime": "{minutes, plural, other {Đọc trong # phút}}",
+    "relatedTitle": "Hướng dẫn khác",
+    "ctaTitle": "Tạo ô chữ của riêng bạn ngay",
+    "ctaText": "Chọn chủ đề và độ khó, AI viết từ và gợi ý mới mỗi lần. Ô chữ đầu tiên mỗi tháng được miễn phí.",
+    "ctaCrossword": "Tạo ô chữ",
+    "ctaScanword": "Tạo ô chữ mũi tên",
+    "languageCtaTitle": "Tạo ô chữ bằng ngôn ngữ này",
+    "languageCtaText": "Phiên bản “{language}” của trang viết mọi từ và gợi ý thẳng bằng ngôn ngữ đó, và menu cũng chuyển sang “{language}”."
   }
 }

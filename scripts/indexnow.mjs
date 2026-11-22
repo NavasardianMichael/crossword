@@ -7,7 +7,8 @@
  * The URLs are the live sitemap's own `<loc>` entries — every public page in every language —
  * so the list can never drift from what the site serves. `deploy.yml` runs it after a deploy
  * that bumped `CONTENT_UPDATED_AT` / `LEGAL_UPDATED_AT` (src/constants/legal.ts), which is the
- * rule for changing public copy, and on a manual run.
+ * rule for changing public copy, and on a manual run. The guides announce only the pages they
+ * changed, from their own pipeline (`scripts/content/indexnow.mjs`, through `submit` here).
  *
  *   node scripts/indexnow.mjs              announce every sitemap URL
  *   node scripts/indexnow.mjs --dry-run    print them without sending
@@ -26,12 +27,12 @@ const ENDPOINT = 'https://api.indexnow.org/indexnow'
 /** The protocol's limit per request. */
 const BATCH = 10_000
 
-const warn = (message) => {
+export const warn = (message) => {
   // GitHub Actions shows `::warning::` lines as annotations; elsewhere they read fine as text.
   console.log(`::warning::indexnow: ${message}`)
 }
 
-const readKey = () => {
+export const readKey = () => {
   const dir = path.join(ROOT, 'public')
   const file = readdirSync(dir).find((name) => /^[0-9a-f]{32}\.txt$/.test(name))
   if (!file) throw new Error('no public/<32 hex>.txt key file')
@@ -40,18 +41,40 @@ const readKey = () => {
   return key
 }
 
+/** NEXT_PUBLIC_SITE_URL without a trailing slash, or `null` (with a warning) when it is not https. */
+export const siteOrigin = () => {
+  const site = (process.env.NEXT_PUBLIC_SITE_URL ?? '').replace(/\/+$/, '')
+  if (/^https:\/\//.test(site)) return site
+  warn('NEXT_PUBLIC_SITE_URL is not an https origin; nothing sent')
+  return null
+}
+
 /** Only the entries' own `<loc>`; the hreflang alternates are `<xhtml:link href>`, not `<loc>`. */
 export const sitemapUrls = (xml, site) =>
   [...xml.matchAll(/<loc>\s*([^<\s]+)\s*<\/loc>/g)]
     .map(([, url]) => url.replace(/&amp;/g, '&'))
     .filter((url) => url.startsWith(`${site}/`))
 
-const main = async () => {
-  const site = (process.env.NEXT_PUBLIC_SITE_URL ?? '').replace(/\/+$/, '')
-  if (!/^https:\/\//.test(site)) {
-    warn('NEXT_PUBLIC_SITE_URL is not an https origin; nothing sent')
-    return
+/** Posts the URLs in batches of the protocol's limit. A refusal is a warning. */
+export const submit = async (site, urls) => {
+  const key = readKey()
+  for (let start = 0; start < urls.length; start += BATCH) {
+    const urlList = urls.slice(start, start + BATCH)
+    const response = await fetch(ENDPOINT, {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json; charset=utf-8' },
+      body: JSON.stringify({ host: new URL(site).host, key, keyLocation: `${site}/${key}.txt`, urlList }),
+      signal: AbortSignal.timeout(30_000),
+    })
+    // 200: received. 202: received, key not yet verified (the first time). Anything else: say so.
+    if (response.status === 200 || response.status === 202) console.log(`indexnow: ${urlList.length} accepted (HTTP ${response.status})`)
+    else warn(`HTTP ${response.status} ${(await response.text()).slice(0, 300)}`)
   }
+}
+
+const main = async () => {
+  const site = siteOrigin()
+  if (!site) return
 
   const sitemap = await fetch(`${site}/sitemap.xml`, { signal: AbortSignal.timeout(30_000) })
   if (!sitemap.ok) {
@@ -68,20 +91,7 @@ const main = async () => {
     console.log(urls.map((url) => `  ${url}`).join('\n'))
     return
   }
-
-  const key = readKey()
-  for (let start = 0; start < urls.length; start += BATCH) {
-    const urlList = urls.slice(start, start + BATCH)
-    const response = await fetch(ENDPOINT, {
-      method: 'POST',
-      headers: { 'Content-Type': 'application/json; charset=utf-8' },
-      body: JSON.stringify({ host: new URL(site).host, key, keyLocation: `${site}/${key}.txt`, urlList }),
-      signal: AbortSignal.timeout(30_000),
-    })
-    // 200: received. 202: received, key not yet verified (the first time). Anything else: say so.
-    if (response.status === 200 || response.status === 202) console.log(`indexnow: ${urlList.length} accepted (HTTP ${response.status})`)
-    else warn(`HTTP ${response.status} ${(await response.text()).slice(0, 300)}`)
-  }
+  await submit(site, urls)
 }
 
 if (process.argv[1] && path.resolve(process.argv[1]) === fileURLToPath(import.meta.url)) {

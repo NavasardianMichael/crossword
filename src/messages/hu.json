@@ -12,7 +12,9 @@
     "copyright": "© {year} {appName}. Szavakból és egy csepp varázslatból.",
     "backOnline": "Újra van kapcsolat.",
     "offline": "Nincs internet. A már megnyitott rejtvények továbbra is mennek.",
-    "lastUpdated": "Utolsó frissítés: {date}"
+    "lastUpdated": "Utolsó frissítés: {date}",
+    "preferredSourceEyebrow": "Lásson minket gyakrabban a Google-ben",
+    "preferredSource": "Hozzáadás előnyben részesített forrásként"
   },
   "Nav": {
     "main": "Fő",
@@ -28,7 +30,8 @@
     "about": "Rólunk",
     "privacy": "Adatvédelem",
     "terms": "Feltételek",
-    "contact": "Kapcsolat"
+    "contact": "Kapcsolat",
+    "guides": "Útmutatók"
   },
   "Errors": {
     "network": "A szerver nem válaszol. Ellenőrizd a kapcsolatot, és próbáld újra.",
@@ -86,7 +89,9 @@
     "sharedPuzzleDescription": "Ingyenes {size} {format, select, scanword {skandináv rejtvény} other {keresztrejtvény}} · {topic} · {difficulty} · {words, plural, one {# szó} other {# szó}}. Mesterséges intelligencia írta — fejtsd a böngészőben, regisztráció nélkül.",
     "ogImageAlt": "Keresztrejtvény AI — keresztrejtvény és skandináv rejtvény a te nyelveden",
     "ogPuzzleCta": "Ki tudod fejteni?",
-    "ogPuzzleMeta": "{size} · {words, plural, one {# szó} other {# szó}}"
+    "ogPuzzleMeta": "{size} · {words, plural, one {# szó} other {# szó}}",
+    "guidesTitle": "Keresztrejtvény készítése és fejtése: útmutatók",
+    "guidesDescription": "Hogyan készíts keresztrejtvényt, fejtsd gyorsabban, játssz skandinávval, és használd a rejtvényt órán: gyakorlati útmutatók példákkal."
   },
   "Formats": {
     "classic": {
@@ -830,5 +835,28 @@
     "accept": "Elfogadom",
     "decline": "Elutasítom",
     "settings": "Süti-beállítások"
+  },
+  "Content": {
+    "hubTitle": "Keresztrejtvény-útmutatók",
+    "hubSubtitle": "Hogyan készíts keresztrejtvényt, fejtsd meg, írj jó meghatározásokat, és vidd be az órára: gyakorlati tanácsok példákkal.",
+    "languagesTitle": "Keresztrejtvények más nyelveken",
+    "languagesSubtitle": "Itt minden nyelvnek saját szavai és meghatározásai vannak, közvetlenül azon a nyelven írva. Mitől más mindegyik, és hogyan kezdj hozzá.",
+    "breadcrumb": "Morzsamenü",
+    "toc": "Ezen az oldalon",
+    "faqTitle": "Kérdések",
+    "tip": "Tipp",
+    "weak": "Gyenge",
+    "strong": "Jobb",
+    "showAnswer": "Mutasd a választ",
+    "byline": "Szerző: <link>{name}</link>",
+    "updated": "Utolsó frissítés: <date></date>",
+    "readingTime": "{minutes, plural, one {# perc olvasás} other {# perc olvasás}}",
+    "relatedTitle": "További útmutatók",
+    "ctaTitle": "Készítsd el most a saját rejtvényed",
+    "ctaText": "Válassz témát és nehézséget, az AI pedig mindig új szavakat és meghatározásokat ír. Havonta az első ingyenes.",
+    "ctaCrossword": "Keresztrejtvényt készítek",
+    "ctaScanword": "Skandinávot készítek",
+    "languageCtaTitle": "Készíts rejtvényt ezen a nyelven",
+    "languageCtaText": "Az oldal „{language}” változata minden szót és meghatározást közvetlenül azon a nyelven ír, és a menük is azon a nyelven vannak."
   }
 }

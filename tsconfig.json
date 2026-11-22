@@ -24,6 +24,7 @@
       "@interfaces/*": ["./src/interfaces/*"],
       "@i18n/*": ["./src/i18n/*"],
       "@constants/*": ["./src/constants/*"],
+      "@content/*": ["./src/content/*"],
       "@helpers/*": ["./src/helpers/*"],
       "@linkedDataSchema/*": ["./src/linkedDataSchema/*"],
       "@components/*": ["./src/components/*"],

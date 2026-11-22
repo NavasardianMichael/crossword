@@ -12,7 +12,9 @@
     "copyright": "© {year} {appName}。用文字和一点魔法做成。",
     "backOnline": "网络恢复了。",
     "offline": "你离线了。已经打开的题目仍可继续做。",
-    "lastUpdated": "最近更新：{date}"
+    "lastUpdated": "最近更新：{date}",
+    "preferredSourceEyebrow": "在 Google 上更常看到我们",
+    "preferredSource": "添加为首选来源"
   },
   "Nav": {
     "main": "主导航",
@@ -28,7 +30,8 @@
     "about": "关于",
     "privacy": "隐私",
     "terms": "条款",
-    "contact": "联系"
+    "contact": "联系",
+    "guides": "指南"
   },
   "Errors": {
     "network": "连不上服务器。请检查网络后再试。",
@@ -86,7 +89,9 @@
     "sharedPuzzleDescription": "免费的{size}{format, select, scanword {箭头填字} other {填字游戏}} · {topic} · {difficulty} · {words, plural, other {# 个词}}。人工智能现写，在浏览器里就能做，不用注册。",
     "ogImageAlt": "填字AI：用你的语言做的填字和箭头填字",
     "ogPuzzleCta": "你能做出来吗？",
-    "ogPuzzleMeta": "{size} · {words, plural, other {# 个词}}"
+    "ogPuzzleMeta": "{size} · {words, plural, other {# 个词}}",
+    "guidesTitle": "填字游戏指南：出题、解题与教学",
+    "guidesDescription": "怎样出一局填字游戏、更快解题、玩箭头填字，以及如何在课堂上使用，附示例。"
   },
   "Formats": {
     "classic": {
@@ -831,5 +836,28 @@
     "accept": "接受",
     "decline": "拒绝",
     "settings": "Cookie 设置"
+  },
+  "Content": {
+    "hubTitle": "填字游戏指南",
+    "hubSubtitle": "怎样出填字题、怎样解题、怎样写好提示、怎样在课堂上使用：附示例的实用建议。",
+    "languagesTitle": "其他语言的填字游戏",
+    "languagesSubtitle": "这里的每种语言都有自己的词语和提示，直接用该语言写成，而非翻译。各语言有何不同，又该如何开始。",
+    "breadcrumb": "面包屑导航",
+    "toc": "本页内容",
+    "faqTitle": "问答",
+    "tip": "小贴士",
+    "weak": "较弱",
+    "strong": "更好",
+    "showAnswer": "显示答案",
+    "byline": "作者：<link>{name}</link>",
+    "updated": "最近更新：<date></date>",
+    "readingTime": "{minutes, plural, other {阅读约 # 分钟}}",
+    "relatedTitle": "更多指南",
+    "ctaTitle": "现在就出一局你的填字",
+    "ctaText": "选好主题和难度，人工智能每次都写新的词语和提示。每月第一局免费。",
+    "ctaCrossword": "生成填字",
+    "ctaScanword": "生成箭头填字",
+    "languageCtaTitle": "用这种语言出题",
+    "languageCtaText": "网站的“{language}”版本直接用该语言写出每个词和提示，菜单也会换成“{language}”。"
   }
 }

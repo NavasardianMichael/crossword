@@ -12,7 +12,9 @@
     "copyright": "© {year} {appName}. Hecho de palabras y un poco de magia.",
     "backOnline": "Ya volviste a tener conexión.",
     "offline": "Estás sin conexión. Los crucigramas que ya abriste siguen disponibles.",
-    "lastUpdated": "Última actualización: {date}"
+    "lastUpdated": "Última actualización: {date}",
+    "preferredSourceEyebrow": "Vernos más a menudo en Google",
+    "preferredSource": "Añadir como fuente preferida"
   },
   "Nav": {
     "main": "Principal",
@@ -28,7 +30,8 @@
     "about": "Acerca de",
     "privacy": "Privacidad",
     "terms": "Condiciones",
-    "contact": "Contacto"
+    "contact": "Contacto",
+    "guides": "Guías"
   },
   "Errors": {
     "network": "No se puede contactar con el servidor. Revisa tu conexión e inténtalo de nuevo.",
@@ -86,7 +89,9 @@
     "sharedPuzzleDescription": "Un {format, select, scanword {autodefinido} other {crucigrama}} gratis, {size} · {topic} · {difficulty} · {words, plural, one {# palabra} other {# palabras}}. Escrito por inteligencia artificial: resuélvelo en el navegador, sin registro.",
     "ogImageAlt": "Crucigramas IA: crucigramas y autodefinidos escritos por IA en tu idioma",
     "ogPuzzleCta": "¿Puedes resolverlo?",
-    "ogPuzzleMeta": "{size} · {words, plural, one {# palabra} other {# palabras}}"
+    "ogPuzzleMeta": "{size} · {words, plural, one {# palabra} other {# palabras}}",
+    "guidesTitle": "Guías de crucigramas: crear, resolver y enseñar",
+    "guidesDescription": "Cómo hacer un crucigrama, resolverlo más rápido, jugar autodefinidos y usarlos en clase: guías prácticas con ejemplos de definiciones."
   },
   "Formats": {
     "classic": {
@@ -831,5 +836,28 @@
     "accept": "Aceptar",
     "decline": "Rechazar",
     "settings": "Configuración de cookies"
+  },
+  "Content": {
+    "hubTitle": "Guías de crucigramas",
+    "hubSubtitle": "Cómo hacer un crucigrama, resolverlo, escribir buenas definiciones y usarlo en clase: consejos prácticos con ejemplos.",
+    "languagesTitle": "Crucigramas en otros idiomas",
+    "languagesSubtitle": "Aquí cada idioma tiene sus propias palabras y definiciones, escritas directamente en él. Qué hace distinto a cada uno y cómo empezar.",
+    "breadcrumb": "Ruta de navegación",
+    "toc": "En esta página",
+    "faqTitle": "Preguntas",
+    "tip": "Consejo",
+    "weak": "Flojo",
+    "strong": "Mejor",
+    "showAnswer": "Ver respuesta",
+    "byline": "Por <link>{name}</link>",
+    "updated": "Última actualización: <date></date>",
+    "readingTime": "{minutes, plural, one {# min de lectura} other {# min de lectura}}",
+    "relatedTitle": "Más guías",
+    "ctaTitle": "Haz tu propio crucigrama ahora",
+    "ctaText": "Elige tema y dificultad, y la IA escribe palabras y definiciones nuevas cada vez. El primero del mes es gratis.",
+    "ctaCrossword": "Crear un crucigrama",
+    "ctaScanword": "Crear un autodefinido",
+    "languageCtaTitle": "Haz un crucigrama en este idioma",
+    "languageCtaText": "La versión «{language}» del sitio escribe cada palabra y cada definición directamente en ese idioma, y sus menús también están en «{language}»."
   }
 }

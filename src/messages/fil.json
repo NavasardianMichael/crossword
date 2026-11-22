@@ -12,7 +12,9 @@
     "copyright": "© {year} {appName}. Gawa sa salita at kaunting mahika.",
     "backOnline": "Online ka na ulit.",
     "offline": "Offline ka. Ang nabuksan mo nang palaisipan ay puwede pa ring laruin.",
-    "lastUpdated": "Huling na-update: {date}"
+    "lastUpdated": "Huling na-update: {date}",
+    "preferredSourceEyebrow": "Makita kami nang mas madalas sa Google",
+    "preferredSource": "Idagdag bilang gustong source"
   },
   "Nav": {
     "main": "Pangunahin",
@@ -28,7 +30,8 @@
     "about": "Tungkol",
     "privacy": "Pribasiya",
     "terms": "Mga tuntunin",
-    "contact": "Makipag-ugnayan"
+    "contact": "Makipag-ugnayan",
+    "guides": "Mga gabay"
   },
   "Errors": {
     "network": "Hindi maabot ang server. Tingnan ang koneksiyon at subukan muli.",
@@ -86,7 +89,9 @@
     "sharedPuzzleDescription": "Libreng {size} {format, select, scanword {skanword} other {krusigrama}} · {topic} · {difficulty} · {words, plural, one {# salita} other {# salita}}. Isinulat ng AI — lutasin sa browser, walang rehistrasyon.",
     "ogImageAlt": "Krusigrama AI — krusigrama at skanword na isinulat ng AI sa iyong wika",
     "ogPuzzleCta": "Kaya mo bang lutasin?",
-    "ogPuzzleMeta": "{size} · {words, plural, one {# salita} other {# salita}}"
+    "ogPuzzleMeta": "{size} · {words, plural, one {# salita} other {# salita}}",
+    "guidesTitle": "Mga gabay sa krusigrama: gumawa at lumutas",
+    "guidesDescription": "Paano gumawa ng krusigrama, lutasin ito nang mas mabilis, maglaro ng skanword at gamitin ito sa klase: mga praktikal na gabay na may halimbawa."
   },
   "Formats": {
     "classic": {
@@ -830,5 +835,28 @@
     "accept": "Tanggapin",
     "decline": "Tanggihan",
     "settings": "Mga setting ng cookie"
+  },
+  "Content": {
+    "hubTitle": "Mga gabay sa krusigrama",
+    "hubSubtitle": "Paano gumawa ng krusigrama, lutasin ito, sumulat ng mahusay na pahiwatig at gamitin ito sa klase: praktikal na payo na may halimbawa.",
+    "languagesTitle": "Krusigrama sa ibang wika",
+    "languagesSubtitle": "Bawat wika rito ay may sariling mga salita at pahiwatig, isinulat mismo sa wikang iyon. Ano ang naiiba sa bawat isa, at paano magsimula.",
+    "breadcrumb": "Landas ng nabigasyon",
+    "toc": "Sa pahinang ito",
+    "faqTitle": "Mga tanong",
+    "tip": "Payo",
+    "weak": "Mahina",
+    "strong": "Mas mahusay",
+    "showAnswer": "Ipakita ang sagot",
+    "byline": "Isinulat ni <link>{name}</link>",
+    "updated": "Huling na-update: <date></date>",
+    "readingTime": "{minutes, plural, one {# minutong pagbasa} other {# minutong pagbasa}}",
+    "relatedTitle": "Iba pang gabay",
+    "ctaTitle": "Gumawa na ng sarili mong krusigrama",
+    "ctaText": "Pumili ng paksa at antas, at bagong mga salita at pahiwatig ang isinusulat ng AI sa bawat laro. Libre ang una mo bawat buwan.",
+    "ctaCrossword": "Gumawa ng krusigrama",
+    "ctaScanword": "Gumawa ng skanword",
+    "languageCtaTitle": "Gumawa ng palaisipan sa wikang ito",
+    "languageCtaText": "Ang bersyong “{language}” ng site ay sumusulat ng bawat salita at pahiwatig mismo sa wikang iyon, at nasa “{language}” din ang mga menu nito."
   }
 }

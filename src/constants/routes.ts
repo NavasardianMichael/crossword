@@ -6,6 +6,8 @@ export const ROUTES = {
   crossword: '/crossword',
   scanword: '/scanword',
   topics: '/topics',
+  /** Only in the languages that have guides (`@content/locales`). */
+  guides: '/guides',
   history: '/history',
   rules: '/rules',
   faq: '/faq',
@@ -62,6 +64,9 @@ export const topicPath = (topic: Topic): string => `${ROUTES.topics}/${TOPIC_SLU
 
 export const topicFromSlug = (slug: string): Topic | undefined =>
   (Object.entries(TOPIC_SLUGS) as [Topic, string][]).find(([, value]) => value === slug)?.[0]
+
+/** A guide, in its own language's slug (`src/content/guides/<locale>/<slug>.ts`). */
+export const guidePath = (slug: string): string => `${ROUTES.guides}/${slug}`
 
 /** A stored puzzle — shareable, but not indexed (its words are someone's unseen words). */
 export const PUZZLE_ROUTE_PREFIX = '/p'

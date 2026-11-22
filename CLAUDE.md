@@ -49,6 +49,7 @@ pnpm env:base64 production | clip   # server/.env.production.local -> the ENV_AP
 | Locales, routing, metadata, hreflang | `src/i18n/` · catalogues `src/messages/` |
 | Design tokens | `src/styles/tokens.ts` (owner) → `theme.ts` (antd) → `globals.css` §1 mirror + §2 `--ant-*` aliases |
 | UI kit (antd wrappers) | `src/components/ui/` (`bare/` and `layout/` render on the server) |
+| Guides (SEO/GEO articles, per language) | `src/content/` (typed copy, `guides/<locale>/<slug>.ts`, registry `index.ts`, languages `locales.ts`) · routes `src/app/[lang]/guides/` · `src/components/content/` · checks `tests/unit/content` · own pipeline `.github/workflows/content.yml` + `scripts/content/indexnow.mjs` (`docs/DEPLOYMENT.md`, "Content") |
 | SEO/GEO: sitemap, robots, JSON-LD, link preview, llms.txt | `src/app/sitemap.ts`, `robots.ts`, `og/` + `src/components/brand/SocialCard.tsx`, `llms.txt/`, `src/linkedDataSchema/`, `src/helpers/llms.ts` |
 | Sharing a puzzle (app links, copy, share sheet) | `src/components/puzzle/ShareDialog.tsx` · `src/helpers/share.ts` |
 | PWA: manifest, service worker, offline play shell | `src/app/manifest.ts` + `src/constants/pwa.ts` (screenshots in `public/screenshots/`), `src/app/sw.js/route.ts` + `src/helpers/pwa.ts`, `src/app/[lang]/play/` |
