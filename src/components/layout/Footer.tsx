@@ -12,7 +12,7 @@ import { AppLink } from '@components/ui/bare/AppLink'
 export const Footer = () => {
   const t = useTranslations()
   const year = new Date().getFullYear()
-  const linkClass = 'text-body-sm font-semibold text-ink-700 transition-colors hover:text-coral-700 underline'
+  const linkClass = 'text-body-sm text-ink-700 transition-colors hover:text-coral-700 underline'
 
   return (
     <footer className='mt-16 border-t-2 game-page:hidden border-dashed border-line-strong bg-cream-200/60 pb-safe'>
@@ -25,7 +25,10 @@ export const Footer = () => {
           <p className='max-w-sm text-body-sm text-ink-700'>{t('Common.tagline')}</p>
         </div>
 
-        <nav aria-label={t('Nav.footer')} className='grid grid-cols-2 content-start gap-x-6 gap-y-2'>
+        <nav
+          aria-label={t('Nav.footer')}
+          className='grid grid-cols-2 content-start justify-items-start gap-x-6 gap-y-2'
+        >
           {[...PRIMARY_NAV, ...SECONDARY_NAV, ...LEGAL_NAV].map(({ labelKey, href }) => (
             <AppLink key={href} href={href} className={linkClass}>
               {t(`Nav.${labelKey}`)}
