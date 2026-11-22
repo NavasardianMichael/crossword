@@ -37,11 +37,18 @@ describe('sitemap', () => {
     expect(entries.some(({ url }) => /\/[a-z]{2}\/(history|play|p\/[^/]+)$/.test(url))).toBe(false)
   })
 
-  it('is referenced from robots.txt, which blocks the play shell and history', () => {
+  it('is referenced from robots.txt, which blocks the play shell', () => {
     const rules = robots()
     expect(String(rules.sitemap)).toMatch(/\/sitemap\.xml$/)
     expect(JSON.stringify(rules.rules)).toContain('/*/play')
-    expect(JSON.stringify(rules.rules)).toContain('/*/history')
+  })
+
+  it('lets crawlers fetch the linked, noindexed history page, so they see its noindex', () => {
+    expect(JSON.stringify(robots().rules)).not.toContain('history')
+  })
+
+  it('lists the pricing page', () => {
+    expect(entries.some(({ url }) => url.endsWith('/en/credits'))).toBe(true)
   })
 
   it('lets link-preview bots fetch shared puzzles (they stay out of search through noindex)', () => {

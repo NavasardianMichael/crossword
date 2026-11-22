@@ -55,6 +55,7 @@ const pageLinks = (locale: Locale): string[] => {
     link(t('Seo.scanwordTitle'), ROUTES.scanword, t('Seo.scanwordDescription')),
     link(t('Seo.rulesTitle'), ROUTES.rules, t('Seo.rulesDescription')),
     link(t('Seo.faqTitle'), ROUTES.faq, t('Seo.faqDescription')),
+    link(t('Seo.creditsTitle'), ROUTES.credits, t('Seo.creditsDescription')),
     link(t('Seo.aboutTitle'), ROUTES.about, t('Seo.aboutDescription')),
     link(t('Seo.contactTitle'), ROUTES.contact, t('Seo.contactDescription')),
     link(t('Seo.topicsTitle'), ROUTES.topics, t('Seo.topicsDescription')),

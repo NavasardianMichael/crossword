@@ -5,6 +5,7 @@ import type {
   FAQPage,
   HowTo,
   ItemList,
+  Organization,
   Person,
   VideoGame,
   WebPage,
@@ -37,6 +38,20 @@ export const websiteSchema = (locale: Locale, name: string, description: string,
   image: absoluteUrl('/icon'),
   author,
   publisher: author,
+})
+
+/**
+ * The brand, for Google's logo and knowledge panel: a square logo of at least 112 px on a
+ * crawlable URL (`/icon`, 512 px). Emitted on the home page only.
+ */
+export const organizationSchema = (locale: Locale, name: string): WithContext<Organization> => ({
+  '@context': 'https://schema.org',
+  '@type': 'Organization',
+  name,
+  ...(name !== APP_NAME ? { alternateName: APP_NAME } : {}),
+  url: absoluteUrl(localePath(locale, '/')),
+  logo: absoluteUrl('/icon'),
+  founder: author,
 })
 
 export const gameSchema = (

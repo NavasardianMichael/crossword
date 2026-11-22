@@ -35,6 +35,7 @@ export const INDEXABLE_ROUTES: readonly RouteKey[] = [
   'topics',
   'rules',
   'faq',
+  'credits',
   'about',
   'contact',
   'privacy',

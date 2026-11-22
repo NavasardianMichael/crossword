@@ -2,7 +2,7 @@ import type { Metadata } from 'next'
 import { getTranslations } from 'next-intl/server'
 import { currentLocale, pageMetadata } from '@i18n/metadata'
 import { ROUTES } from '@constants/routes'
-import { gameSchema, websiteSchema } from '@linkedDataSchema/index'
+import { gameSchema, organizationSchema, websiteSchema } from '@linkedDataSchema/index'
 import { GeneratorForm } from '@components/generator/GeneratorForm'
 import { SavedGames } from '@components/history/SavedGames'
 import { FaqSection } from '@components/marketing/FaqSection'
@@ -33,6 +33,7 @@ export default async function HomePage() {
   return (
     <>
       <JsonLd data={websiteSchema(locale, appName, seo('homeDescription'), seo('keywords'))} />
+      <JsonLd data={organizationSchema(locale, appName)} />
       <JsonLd data={gameSchema(locale, appName, seo('homeDescription'), ROUTES.home)} />
       <Hero namespace='Home.hero' languageTiles>
         <GeneratorForm />

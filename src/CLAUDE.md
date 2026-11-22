@@ -6,8 +6,8 @@
 - **Metadata:** every page's `generateMetadata` goes through `pageMetadata()` (self-canonical,
   hreflang for all locales + `x-default`, site name and the language's `/og/<locale>.png` preview —
   a page's `openGraph` replaces the layout's; a shared puzzle gets its own `/og/p/<id>.png`). Personal pages (`/p/[id]`, `/play`, `/history`) pass
-  `noIndex`; `/play` and `/history` are also disallowed in `robots.ts`, but `/p/` is not, so
-  link-preview bots can read a shared puzzle. A preview never shows a clue or an answer.
+  `noIndex`; `/play` is also disallowed in `robots.ts`, but `/history` (linked from the navigation)
+  and `/p/` are not, so crawlers see their `noindex` and link-preview bots can read a shared puzzle. A preview never shows a clue or an answer.
 - **Structured data:** builders in `linkedDataSchema/`; `ContentPage` emits its own (HowTo,
   AboutPage or WebPage + breadcrumb). Bump `CONTENT_UPDATED_AT` (`constants/legal.ts`) with the
   public copy — it is the sitemap `lastmod` and JSON-LD `dateModified`. `/llms.txt` and

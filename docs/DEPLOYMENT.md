@@ -172,8 +172,16 @@ node dist/prisma/seed.js
 ```
 
 After the first deploy, submit `https://crossword.eapps.site/sitemap.xml`
-in Google Search Console, Yandex Webmaster and Bing Webmaster Tools (726 URLs: the 10
+in Google Search Console, Yandex Webmaster and Bing Webmaster Tools (759 URLs: the 11
 `INDEXABLE_ROUTES` plus 12 topic pages, × 33 locales, with hreflang and x-default).
+
+**IndexNow.** A deploy whose push changed `src/constants/legal.ts` — bumping
+`CONTENT_UPDATED_AT` or `LEGAL_UPDATED_AT`, the rule whenever public copy changes — ends with
+the `indexnow` job: it reads the live sitemap and tells IndexNow engines (Bing, and through it
+ChatGPT search and Copilot; Yandex, Seznam, Naver) to recrawl every URL in it. A manual run of
+the workflow announces too. The key is `public/<32 hex>.txt`, whose content is its own name;
+`node scripts/indexnow.mjs --dry-run` lists what would be sent. Google takes no IndexNow: it
+reads the sitemap's `lastmod`.
 Check a shared `/p/<id>` link in a preview debugger (Facebook Sharing Debugger, opengraph.xyz):
 it should show the title, description and the puzzle's own card, `/og/p/<id>.png` (other pages
 show their language's `/og/<locale>.png`). `/llms.txt` and `/llms-full.txt`

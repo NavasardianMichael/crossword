@@ -13,6 +13,7 @@ const CHANGE_FREQUENCY: Partial<Record<RouteKey, MetadataRoute.Sitemap[number]['
   topics: 'weekly',
   rules: 'monthly',
   faq: 'monthly',
+  credits: 'monthly',
   about: 'yearly',
   contact: 'monthly',
   privacy: 'yearly',
