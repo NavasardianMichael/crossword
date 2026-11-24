@@ -232,7 +232,7 @@
     "faq1Question": "Ist Kreuzworträtsel KI kostenlos?",
     "faq1Answer": "Jeden Monat bekommst du 11 kostenlose Guthabenpunkte – genug für ein mittleres Rätsel –, ganz ohne Registrierung, und mit der Anmeldung kommen 11 weitere dazu. Danach kosten Rätsel Guthaben, das du einmalig und ohne Abo kaufst. Ein Rätsel zu spielen, das jemand mit dir geteilt hat, ist immer kostenlos.",
     "faq2Question": "Sehe ich dieselben Wörter wieder?",
-    "faq2Answer": "Nein. Dein Gerät führt eine Liste der Wörter, die es schon gezeigt hat, und lässt sie aus jedem neuen Rätsel weg. Wenn du die Website-Daten im Browser löschst, fängt die Liste von vorn an.",
+    "faq2Answer": "Nein. Dein Gerät führt eine Liste der Wörter, die es schon gezeigt hat, und lässt sie aus jedem neuen Rätsel weg. Wenn du die Website-Daten im Browser löschst, fängt die Liste von vorn an. Bist du angemeldet, führt auch dein Konto diese Liste, und zwar auf jedem Gerät.",
     "faq3Question": "In welchen Sprachen kann ich spielen?",
     "faq3Answer": "In dreiunddreißig Sprachen, jede mit eigenem Wortschatz für ihre Sprecher, nie aus einer anderen übersetzt: Englisch, Spanisch, Portugiesisch, Französisch, Deutsch, Italienisch, Niederländisch, Polnisch, Tschechisch, Schwedisch, Rumänisch, Ungarisch, Indonesisch, Malaiisch, Filipino, Vietnamesisch, Swahili, Russisch, Ukrainisch, Griechisch, Arabisch, Persisch, Urdu, Hebräisch, Hindi, Marathi, Bengalisch, Tamil, Thailändisch, Japanisch, Koreanisch, Chinesisch und Armenisch.",
     "faq4Question": "Was ist der Unterschied zwischen Kreuzworträtsel und Schwedenrätsel?",
@@ -544,7 +544,7 @@
       {
         "title": "Jedes Mal neue Wörter",
         "paragraphs": [
-          "Dein Gerät merkt sich die Wörter, die es dir gezeigt hat, und fragt nicht wieder danach. Jedes neue Rätsel besteht aus Wörtern, die du hier noch nicht hattest."
+          "Dein Gerät merkt sich die Wörter, die es dir gezeigt hat, und fragt nicht wieder danach. Jedes neue Rätsel besteht aus Wörtern, die du hier noch nicht hattest. Bist du angemeldet, merkt sich auch dein Konto diese Wörter: Ein Wort, das dir auf dem Handy begegnet ist, taucht dann in Rätseln auf dem Laptop nicht mehr auf."
         ]
       }
     ]
@@ -599,7 +599,7 @@
           },
           {
             "question": "Sieht man dasselbe Wort zweimal?",
-            "answer": "Nicht auf demselben Gerät. Es merkt sich bis zu 4.000 Wörter pro Sprache – das reicht für etwa 130 Rätsel – und schließt diese bei jedem neuen Rätsel aus. Erst danach fallen die ältesten Wörter aus der Liste. Das Löschen deiner Browserdaten setzt die Liste zurück."
+            "answer": "Nicht auf demselben Gerät. Es merkt sich bis zu 4.000 Wörter pro Sprache – das reicht für etwa 130 Rätsel – und schließt diese bei jedem neuen Rätsel aus. Erst danach fallen die ältesten Wörter aus der Liste. Das Löschen deiner Browserdaten setzt die Liste zurück. Bist du angemeldet, merkt sich zusätzlich dein Konto jedes Wort, das dir gezeigt wurde, ohne Obergrenze, und lässt es auf all deinen Geräten weg."
           },
           {
             "question": "Wie schreibt die KI die Hinweise?",
@@ -649,7 +649,7 @@
         "items": [
           {
             "question": "Welche Daten werden gespeichert?",
-            "answer": "Sehr wenige. Deine Rätsel, dein Fortschritt, deine Einstellungen und die Liste der gesehenen Wörter bleiben in deinem Browser. Der Server speichert die erstellten Rätsel (damit ein geteilter Link dasselbe Gitter öffnet), Hinweismeldungen mit einem Anonymisierungs-Hash der IP-Adresse und anonyme Lösungszahlen. Keine Namen, keine Profile."
+            "answer": "Sehr wenige. Deine Rätsel, dein Fortschritt, deine Einstellungen und die Liste der gesehenen Wörter bleiben in deinem Browser. Der Server speichert die erstellten Rätsel (damit ein geteilter Link dasselbe Gitter öffnet), Hinweismeldungen mit einem Anonymisierungs-Hash der IP-Adresse und anonyme Lösungszahlen. Keine Namen, keine Profile. Wenn du dich anmeldest, speichert dein Konto außerdem, welche Rätsel dir gezeigt wurden und wie es bei jedem Wort lief, damit kein Wort auf einem anderen Gerät wiederkommt."
           },
           {
             "question": "Wird etwas über mich an die KI gesendet?",
@@ -707,7 +707,8 @@
       {
         "title": "Konten und Guthaben",
         "paragraphs": [
-          "Wenn du ein Konto erstellst, speichern wir deinen Namen, deine E-Mail-Adresse und, wenn du dich mit Google anmeldest, dein Google-Profilbild. Wir speichern auch deinen Guthabenstand und dessen Verlauf: jeden Kauf, jedes bezahlte Rätsel und jede Rückerstattung."
+          "Wenn du ein Konto erstellst, speichern wir deinen Namen, deine E-Mail-Adresse und, wenn du dich mit Google anmeldest, dein Google-Profilbild. Wir speichern auch deinen Guthabenstand und dessen Verlauf: jeden Kauf, jedes bezahlte Rätsel und jede Rückerstattung.",
+          "Solange du angemeldet bist, speichern wir außerdem, welche Rätsel dir gezeigt wurden und wie es bei jedem ihrer Wörter lief: gelöst, mit aufgedecktem Buchstaben gelöst, aufgedeckt oder nicht gelöst. So wiederholt sich kein Wort auf einem deiner Geräte. Rätsel, die du auf einem Gerät gespielt hast, bevor du dich dort angemeldet hast, kommen ebenfalls dazu."
         ]
       },
       {

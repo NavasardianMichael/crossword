@@ -232,7 +232,7 @@
     "faq1Question": "Is Kruiswoord AI gratis?",
     "faq1Answer": "Elke maand krijg je 11 gratis credits — genoeg voor een middelgrote puzzel — zonder registratie, en inloggen voegt er nog 11 toe. Daarna kosten puzzels credits, die je eenmalig koopt zonder abonnement. Een puzzel spelen die iemand met je heeft gedeeld, is altijd gratis.",
     "faq2Question": "Krijg ik dezelfde woorden terug?",
-    "faq2Answer": "Nee. Je apparaat houdt een lijst bij van woorden die het al heeft getoond en laat die uit elke nieuwe puzzel. Wis je de sitegegevens, dan begint die lijst opnieuw.",
+    "faq2Answer": "Nee. Je apparaat houdt een lijst bij van woorden die het al heeft getoond en laat die uit elke nieuwe puzzel. Wis je de sitegegevens, dan begint die lijst opnieuw. Ben je ingelogd, dan houdt je account die lijst ook bij, op al je apparaten.",
     "faq3Question": "In welke talen kan ik spelen?",
     "faq3Answer": "Drieëndertig talen, elk met een eigen woordenvoorraad, geschreven voor de sprekers en nooit vertaald: Engels, Spaans, Portugees, Frans, Duits, Italiaans, Nederlands, Pools, Tsjechisch, Zweeds, Roemeens, Hongaars, Indonesisch, Maleis, Filipijns, Vietnamees, Swahili, Russisch, Oekraïens, Grieks, Arabisch, Perzisch, Urdu, Hebreeuws, Hindi, Marathi, Bengaals, Tamil, Thai, Japans, Koreaans, Chinees en Armeens.",
     "faq4Question": "Wat is het verschil tussen een kruiswoord en een Zweedse puzzel?",
@@ -544,7 +544,7 @@
       {
         "title": "Elke keer verse woorden",
         "paragraphs": [
-          "Je apparaat onthoudt de woorden die het heeft getoond en vraagt er nooit meer om. Elke nieuwe puzzel bestaat uit woorden die je hier nog niet bent tegengekomen."
+          "Je apparaat onthoudt de woorden die het heeft getoond en vraagt er nooit meer om. Elke nieuwe puzzel bestaat uit woorden die je hier nog niet bent tegengekomen. Ben je ingelogd, dan onthoudt je account ze ook, dus een woord dat je op je telefoon tegenkwam, blijft weg uit puzzels op je laptop."
         ]
       }
     ]
@@ -599,7 +599,7 @@
           },
           {
             "question": "Zie ik ooit twee keer hetzelfde woord?",
-            "answer": "Niet op hetzelfde apparaat. Het onthoudt tot 4.000 woorden per taal — goed voor zo'n 130 puzzels — en sluit ze uit van elke nieuwe puzzel; pas daarna verdwijnen de oudste van de lijst. Het wissen van je browsergegevens begint de lijst opnieuw."
+            "answer": "Niet op hetzelfde apparaat. Het onthoudt tot 4.000 woorden per taal — goed voor zo'n 130 puzzels — en sluit ze uit van elke nieuwe puzzel; pas daarna verdwijnen de oudste van de lijst. Het wissen van je browsergegevens begint de lijst opnieuw. Ben je ingelogd, dan bewaart je account ook elk woord dat je te zien kreeg, zonder limiet, en laat het weg op al je apparaten."
           },
           {
             "question": "Hoe schrijft de AI de omschrijvingen?",
@@ -649,7 +649,7 @@
         "items": [
           {
             "question": "Welke gegevens bewaren jullie?",
-            "answer": "Heel weinig. Je puzzels, voortgang, instellingen en de lijst met geziene woorden blijven in je browser. De server slaat de gemaakte puzzels op (zodat een gedeelde link hetzelfde raster opent), meldingen van omschrijvingen met een eenrichtingshash van het IP-adres, en anonieme aantallen oplossingen. Geen namen en geen profielen."
+            "answer": "Heel weinig. Je puzzels, voortgang, instellingen en de lijst met geziene woorden blijven in je browser. De server slaat de gemaakte puzzels op (zodat een gedeelde link hetzelfde raster opent), meldingen van omschrijvingen met een eenrichtingshash van het IP-adres, en anonieme aantallen oplossingen. Geen namen en geen profielen. Log je in, dan bewaart je account ook welke puzzels je te zien kreeg en hoe het met elk woord ging, zodat geen woord terugkomt op een ander apparaat."
           },
           {
             "question": "Wordt er iets over mij naar de AI gestuurd?",
@@ -707,7 +707,8 @@
       {
         "title": "Accounts en credits",
         "paragraphs": [
-          "Als je een account aanmaakt, bewaren we je naam, je e-mailadres en, wanneer je inlogt met Google, je Google-profielfoto. We bewaren ook je creditsaldo en de geschiedenis ervan: elke aankoop, elke betaalde puzzel en elke terugbetaling."
+          "Als je een account aanmaakt, bewaren we je naam, je e-mailadres en, wanneer je inlogt met Google, je Google-profielfoto. We bewaren ook je creditsaldo en de geschiedenis ervan: elke aankoop, elke betaalde puzzel en elke terugbetaling.",
+          "Zolang je bent ingelogd, bewaren we ook welke puzzels je te zien kreeg en hoe het met elk woord daarin ging: opgelost, opgelost met een vrijgegeven letter, vrijgegeven of niet opgelost. Zo komt geen enkel woord terug op een van je apparaten. Puzzels die je op een apparaat speelde voordat je daar inlogde, worden ook toegevoegd."
         ]
       },
       {

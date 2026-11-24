@@ -264,6 +264,8 @@ type DrawParams = {
   difficulty: Difficulty
   style: ClueStyle
   exclude: readonly number[]
+  /** A signed-in player: the words of every puzzle the account was shown in this language are left out too. */
+  player?: string
   count: number
   maxLength: number
 }
@@ -278,18 +280,24 @@ export const drawCandidates = async ({
   difficulty,
   style,
   exclude,
+  player,
   count,
   maxLength,
 }: DrawParams): Promise<Candidate[]> => {
   if (count <= 0) return []
   const [minDifficulty, maxDifficulty] = difficultyRange(difficulty)
   const topicFilter = topic === 'any' ? Prisma.empty : Prisma.sql`AND e.topics @> ARRAY[${topic}]::text[]`
+  const accountSeen = player
+    ? Prisma.sql`UNION
+       SELECT unnest(p."entryIds") FROM "PuzzlePlay" pp JOIN "Puzzle" p ON p.id = pp."puzzleId"
+       WHERE pp."userId" = ${player} AND pp.locale = ${locale}`
+    : Prisma.empty
   const short = Math.ceil(count * 0.45)
   const mid = Math.ceil(count * 0.4)
   const long = Math.max(count - short - mid, 1)
 
   const rows = await prisma.$queryRaw<Candidate[]>`
-    WITH ex AS (SELECT unnest(${[...exclude]}::int[]) AS id),
+    WITH ex AS (SELECT unnest(${[...exclude]}::int[]) AS id ${accountSeen}),
     c AS (
       SELECT e.id, e.answer, e.topics, e.length,
              ROW_NUMBER() OVER (

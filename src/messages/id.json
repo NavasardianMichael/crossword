@@ -232,7 +232,7 @@
     "faq1Question": "Apakah Teka-Teki Silang AI gratis?",
     "faq1Answer": "Setiap bulan kamu mendapat 11 kredit gratis — cukup untuk satu teka-teki sedang — tanpa perlu mendaftar, dan masuk akun menambah 11 lagi. Setelah itu, teka-teki menggunakan kredit yang dibeli sekali tanpa langganan. Memainkan teka-teki yang dibagikan seseorang kepadamu selalu gratis.",
     "faq2Question": "Apakah kata yang sama akan muncul lagi?",
-    "faq2Answer": "Tidak. Perangkatmu menyimpan daftar kata yang sudah ditampilkan dan mengeluarkannya dari setiap teka-teki baru. Jika data situs di peramban dihapus, daftar itu mulai dari awal.",
+    "faq2Answer": "Tidak. Perangkatmu menyimpan daftar kata yang sudah ditampilkan dan mengeluarkannya dari setiap teka-teki baru. Jika data situs di peramban dihapus, daftar itu mulai dari awal. Jika kamu masuk, akunmu juga menyimpan daftar itu, di semua perangkat.",
     "faq3Question": "Dalam bahasa apa saya bisa bermain?",
     "faq3Answer": "Tiga puluh tiga bahasa, masing-masing dengan kumpulan kata sendiri yang ditulis untuk penuturnya, tidak diterjemahkan dari bahasa lain: Inggris, Spanyol, Portugis, Prancis, Jerman, Italia, Belanda, Polandia, Ceko, Swedia, Rumania, Hungaria, Indonesia, Melayu, Filipino, Vietnam, Swahili, Rusia, Ukraina, Yunani, Arab, Persia, Urdu, Ibrani, Hindi, Marathi, Bengali, Tamil, Thai, Jepang, Korea, Tionghoa, dan Armenia.",
     "faq4Question": "Apa beda teka-teki silang dan silang Swedia?",
@@ -544,7 +544,7 @@
       {
         "title": "Kata baru, setiap kali",
         "paragraphs": [
-          "Perangkatmu mengingat kata yang sudah ditampilkan dan tidak memintanya lagi. Setiap teka-teki baru tersusun dari kata yang belum kamu temui di sini."
+          "Perangkatmu mengingat kata yang sudah ditampilkan dan tidak memintanya lagi. Setiap teka-teki baru tersusun dari kata yang belum kamu temui di sini. Saat kamu masuk, akunmu juga mengingatnya, jadi kata yang kamu temui di ponsel tidak akan muncul di teka-teki di laptopmu."
         ]
       }
     ]
@@ -599,7 +599,7 @@
           },
           {
             "question": "Apakah aku akan melihat kata yang sama dua kali?",
-            "answer": "Tidak pada perangkat yang sama. Sistem mengingat hingga 4.000 kata per bahasa — setara sekitar 130 teka-teki — dan mengecualikannya dari setiap teka-teki baru; baru setelah itu kata tertua dihapus dari daftar. Menghapus data situs di browsermu akan mengulang daftar dari awal."
+            "answer": "Tidak pada perangkat yang sama. Sistem mengingat hingga 4.000 kata per bahasa — setara sekitar 130 teka-teki — dan mengecualikannya dari setiap teka-teki baru; baru setelah itu kata tertua dihapus dari daftar. Menghapus data situs di browsermu akan mengulang daftar dari awal. Jika kamu masuk, akunmu juga menyimpan setiap kata yang pernah ditampilkan kepadamu, tanpa batas, dan mengecualikannya di semua perangkatmu."
           },
           {
             "question": "Bagaimana AI menulis petunjuknya?",
@@ -649,7 +649,7 @@
         "items": [
           {
             "question": "Data apa saja yang disimpan?",
-            "answer": "Sangat sedikit. Teka-teki, kemajuan, pengaturan, dan daftar kata yang sudah kamu lihat tetap berada di browsermu. Server menyimpan teka-teki yang dibuat (agar tautan yang dibagikan membuka kotak yang sama), laporan petunjuk dengan hash satu arah dari alamat IP, dan jumlah penyelesaian anonim. Tidak ada nama dan tidak ada profil."
+            "answer": "Sangat sedikit. Teka-teki, kemajuan, pengaturan, dan daftar kata yang sudah kamu lihat tetap berada di browsermu. Server menyimpan teka-teki yang dibuat (agar tautan yang dibagikan membuka kotak yang sama), laporan petunjuk dengan hash satu arah dari alamat IP, dan jumlah penyelesaian anonim. Tidak ada nama dan tidak ada profil. Jika kamu masuk, akunmu juga menyimpan teka-teki mana yang ditampilkan kepadamu dan bagaimana hasil setiap katanya, agar tidak ada kata yang muncul lagi di perangkat lain."
           },
           {
             "question": "Apakah ada informasi tentang saya yang dikirim ke AI?",
@@ -707,7 +707,8 @@
       {
         "title": "Akun dan kredit",
         "paragraphs": [
-          "Jika kamu membuat akun, kami menyimpan namamu, alamat emailmu, dan saat kamu masuk dengan Google, foto profil Google-mu. Kami juga menyimpan saldo kreditmu dan riwayatnya: setiap pembelian, setiap teka-teki yang dibayar, dan setiap pengembalian dana."
+          "Jika kamu membuat akun, kami menyimpan namamu, alamat emailmu, dan saat kamu masuk dengan Google, foto profil Google-mu. Kami juga menyimpan saldo kreditmu dan riwayatnya: setiap pembelian, setiap teka-teki yang dibayar, dan setiap pengembalian dana.",
+          "Selama kamu masuk, kami juga menyimpan teka-teki yang ditampilkan kepadamu dan hasil setiap katanya: terjawab, terjawab dengan bantuan huruf yang dibuka, dibuka, atau tidak terjawab. Dengan begitu, tidak ada kata yang terulang di perangkatmu mana pun. Teka-teki yang dimainkan di sebuah perangkat sebelum kamu masuk di sana juga ikut ditambahkan."
         ]
       },
       {

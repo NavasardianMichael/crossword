@@ -232,7 +232,7 @@
     "faq1Question": "Este Rebus AI gratuit?",
     "faq1Answer": "În fiecare lună primești 11 credite gratuite — suficient pentru un puzzle mediu — fără înregistrare, iar dacă te autentifici mai primești încă 11. După aceea, puzzle-urile costă credite, cumpărate o singură dată, fără abonament. Să joci un puzzle trimis de cineva este întotdeauna gratuit.",
     "faq2Question": "O să văd aceleași cuvinte?",
-    "faq2Answer": "Nu. Aparatul ține o listă a cuvintelor arătate și le lasă afară din fiecare careu nou. Dacă ștergi datele site-ului, lista o ia de la capăt.",
+    "faq2Answer": "Nu. Aparatul ține o listă a cuvintelor arătate și le lasă afară din fiecare careu nou. Dacă ștergi datele site-ului, lista o ia de la capăt. Dacă ești în cont, lista o ține și contul tău, pe orice aparat.",
     "faq3Question": "În ce limbi pot juca?",
     "faq3Answer": "În treizeci și trei de limbi, fiecare cu propriile cuvinte, scrise pentru vorbitorii ei, niciodată traduse: engleză, spaniolă, portugheză, franceză, germană, italiană, neerlandeză, poloneză, cehă, suedeză, română, maghiară, indoneziană, malaeză, filipineză, vietnameză, swahili, rusă, ucraineană, greacă, arabă, persană, urdu, ebraică, hindi, marathi, bengaleză, tamilă, thailandeză, japoneză, coreeană, chineză și armeană.",
     "faq4Question": "Care e diferența dintre cuvintele încrucișate și rebusul scandinav?",
@@ -544,7 +544,7 @@
       {
         "title": "Cuvinte noi, de fiecare dată",
         "paragraphs": [
-          "Aparatul ține minte cuvintele arătate și nu le mai cere. Fiecare careu nou e făcut din cuvinte pe care nu le-ai întâlnit aici."
+          "Aparatul ține minte cuvintele arătate și nu le mai cere. Fiecare careu nou e făcut din cuvinte pe care nu le-ai întâlnit aici. Când ești în cont, le ține minte și contul, așa că un cuvânt întâlnit pe telefon nu mai apare în careurile de pe laptop."
         ]
       }
     ]
@@ -599,7 +599,7 @@
           },
           {
             "question": "Voi revedea vreodată același cuvânt?",
-            "answer": "Nu pe același dispozitiv. Memorează până la 4.000 de cuvinte per limbă — echivalentul a aproximativ 130 de puzzle-uri — și le omite din fiecare puzzle nou; abia după aceea cele mai vechi sunt eliminate din listă. Ștergerea datelor site-ului din browser resetează lista."
+            "answer": "Nu pe același dispozitiv. Memorează până la 4.000 de cuvinte per limbă — echivalentul a aproximativ 130 de puzzle-uri — și le omite din fiecare puzzle nou; abia după aceea cele mai vechi sunt eliminate din listă. Ștergerea datelor site-ului din browser resetează lista. Dacă ești în cont, contul tău păstrează în plus toate cuvintele care ți-au fost arătate, fără nicio limită, și le omite pe toate dispozitivele tale."
           },
           {
             "question": "Cum scrie AI-ul indiciile?",
@@ -649,7 +649,7 @@
         "items": [
           {
             "question": "Ce date păstrați?",
-            "answer": "Foarte puține. Puzzle-urile, progresul, setările și lista de cuvinte văzute rămân în browserul tău. Serverul stochează puzzle-urile create (astfel încât un link distribuit să deschidă aceeași grilă), raportările de indicii cu un hash unidirecțional al adresei IP și numărători anonime de rezolvări. Fără nume și fără profiluri."
+            "answer": "Foarte puține. Puzzle-urile, progresul, setările și lista de cuvinte văzute rămân în browserul tău. Serverul stochează puzzle-urile create (astfel încât un link distribuit să deschidă aceeași grilă), raportările de indicii cu un hash unidirecțional al adresei IP și numărători anonime de rezolvări. Fără nume și fără profiluri. Dacă intri în cont, contul păstrează și ce puzzle-uri ți-au fost arătate și cum a mers fiecare cuvânt, ca niciun cuvânt să nu revină pe alt dispozitiv."
           },
           {
             "question": "Se trimite ceva despre mine către AI?",
@@ -707,7 +707,8 @@
       {
         "title": "Conturi și credite",
         "paragraphs": [
-          "Dacă îți creezi un cont, îți păstrăm numele, adresa de e-mail și, dacă te autentifici cu Google, poza de profil Google. Păstrăm, de asemenea, soldul de credite și istoricul acestuia: fiecare achiziție, fiecare puzzle plătit și fiecare rambursare."
+          "Dacă îți creezi un cont, îți păstrăm numele, adresa de e-mail și, dacă te autentifici cu Google, poza de profil Google. Păstrăm, de asemenea, soldul de credite și istoricul acestuia: fiecare achiziție, fiecare puzzle plătit și fiecare rambursare.",
+          "Cât timp ești în cont, păstrăm și puzzle-urile care ți-au fost arătate și cum a mers fiecare cuvânt din ele: rezolvat, rezolvat cu o literă dezvăluită, dezvăluit sau nerezolvat. Așa, niciun cuvânt nu se repetă pe vreunul dintre dispozitivele tale. Se adaugă și puzzle-urile jucate pe un dispozitiv înainte să fi intrat în cont pe el."
         ]
       },
       {

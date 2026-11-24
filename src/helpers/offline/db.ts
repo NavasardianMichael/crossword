@@ -85,6 +85,22 @@ export const loadProgress = (id: string) => soft('loadProgress', (db) => db.get(
 
 export type SavedGame = { puzzle: PuzzleView; progress: Progress | undefined }
 
+/** Games received or played after `since` (epoch ms), oldest first; prunes nothing. */
+export const listGamesSince = (since: number) =>
+  soft(
+    'listSince',
+    async (db) => {
+      const puzzles = await db.getAll('puzzles')
+      const progress = new Map((await db.getAll('progress')).map((each) => [each.puzzleId, each]))
+      return puzzles
+        .map((puzzle) => ({ puzzle, progress: progress.get(puzzle.id), at: progress.get(puzzle.id)?.updatedAt ?? puzzle.savedAt }))
+        .filter(({ at }) => at > since)
+        .sort((a, b) => a.at - b.at)
+        .map(({ puzzle, progress: saved }): SavedGame => ({ puzzle, progress: saved }))
+    },
+    [] as SavedGame[]
+  )
+
 /** Most recently played first, and prunes the rest beyond `SAVED_PUZZLES_LIMIT`. */
 export const listSavedGames = () =>
   soft(

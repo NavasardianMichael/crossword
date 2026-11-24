@@ -3,6 +3,7 @@ import { combine } from 'zustand/middleware'
 import { immer } from 'zustand/middleware/immer'
 import { sendResultAPI } from '@api/puzzles/main'
 import { appendSelectors } from '@store/appendSelectors'
+import { usePlaysStoreBase } from '@store/puzzle/plays/store'
 import { compositionOpen, foldTyped, mergeTyped, spillTyped } from '@constants/alphabet'
 import { STORAGE_KEYS } from '@constants/app'
 import { trackEvent } from '@helpers/analytics'
@@ -84,6 +85,7 @@ export const usePlayStoreBase = create<PlayState & PlayActions>()(
           revealedWordIds: [...state.revealedWordIds],
           updatedAt: Date.now(),
         })
+        usePlaysStoreBase.getState().schedule()
       }
 
       const scheduleSave = () => {
@@ -357,6 +359,7 @@ export const usePlayStoreBase = create<PlayState & PlayActions>()(
           clearTimeout(saveTimer)
           usePlayStoreBase.getState().pause()
           save()
+          void usePlaysStoreBase.getState().sync()
         },
       }
     })

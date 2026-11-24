@@ -1,4 +1,4 @@
-import type { PuzzleView } from '@constants/puzzle'
+import { type PuzzleView, WORD_STATES, type WordState } from '@constants/puzzle'
 
 /**
  * Per-cell marks, as bit flags so a cell can be both revealed and checked. The solution is on
@@ -45,6 +45,25 @@ export const revealCells = (puzzle: PuzzleView, entries: string[], marks: number
   }
   return revealed
 }
+
+const STATE_CODE = Object.fromEntries(WORD_STATES.map((state, code) => [state, code])) as Record<WordState, number>
+
+/**
+ * How each word went, as `WORD_STATES` codes in word order (`wordCells` from the board model):
+ * open until every letter is right, then solved, helped (some letters revealed) or revealed.
+ */
+export const wordStates = (
+  puzzle: PuzzleView,
+  wordCells: readonly (readonly number[])[],
+  entries: readonly string[],
+  marks: readonly number[]
+): number[] =>
+  wordCells.map((cells) => {
+    if (!isWordCorrect(puzzle, entries, cells)) return STATE_CODE.open
+    const revealed = cells.filter((cell) => hasMark(marks, cell, MARK_REVEALED)).length
+    if (!revealed) return STATE_CODE.solved
+    return revealed === cells.length ? STATE_CODE.revealed : STATE_CODE.helped
+  })
 
 /** Every letter cell, for whole-puzzle checks. */
 export const letterCells = (puzzle: PuzzleView): number[] =>

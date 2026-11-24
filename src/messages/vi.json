@@ -232,7 +232,7 @@
     "faq1Question": "Ô chữ AI có miễn phí không?",
     "faq1Answer": "Mỗi tháng bạn nhận được 11 tín dụng miễn phí — đủ cho một câu đố cỡ trung bình — không cần đăng ký, và đăng nhập sẽ cộng thêm 11 tín dụng nữa. Sau đó, các câu đố tốn tín dụng, mua một lần và không cần gia hạn hàng tháng. Chơi câu đố do ai đó chia sẻ với bạn thì luôn miễn phí.",
     "faq2Question": "Tôi có gặp lại cùng một từ không?",
-    "faq2Answer": "Không. Thiết bị giữ danh sách những từ đã hiện và bỏ chúng khỏi mọi ô chữ mới. Nếu bạn xóa dữ liệu trang trong trình duyệt, danh sách bắt đầu lại.",
+    "faq2Answer": "Không. Thiết bị giữ danh sách những từ đã hiện và bỏ chúng khỏi mọi ô chữ mới. Nếu bạn xóa dữ liệu trang trong trình duyệt, danh sách bắt đầu lại. Nếu bạn đăng nhập, tài khoản cũng giữ danh sách này trên mọi thiết bị.",
     "faq3Question": "Chơi được những ngôn ngữ nào?",
     "faq3Answer": "Ba mươi ba ngôn ngữ, mỗi ngôn ngữ một kho từ viết cho người nói ngôn ngữ ấy, không dịch từ ngôn ngữ khác: tiếng Anh, Tây Ban Nha, Bồ Đào Nha, Pháp, Đức, Ý, Hà Lan, Ba Lan, Séc, Thụy Điển, Romania, Hungary, Indonesia, Mã Lai, Filipino, Việt, Swahili, Nga, Ukraina, Hy Lạp, Ả Rập, Ba Tư, Urdu, Do Thái, Hindi, Marathi, Bengal, Tamil, Thái, Nhật, Hàn, Trung và Armenia.",
     "faq4Question": "Ô chữ khác ô chữ mũi tên chỗ nào?",
@@ -543,7 +543,7 @@
       {
         "title": "Chữ mới, mỗi lần",
         "paragraphs": [
-          "Thiết bị nhớ những từ đã cho bạn thấy và không hỏi lại. Mỗi ô chữ mới gồm những từ bạn chưa gặp ở đây."
+          "Thiết bị nhớ những từ đã cho bạn thấy và không hỏi lại. Mỗi ô chữ mới gồm những từ bạn chưa gặp ở đây. Khi đăng nhập, tài khoản của bạn cũng nhớ chúng, nên một từ đã gặp trên điện thoại sẽ không xuất hiện trong ô chữ trên máy tính xách tay."
         ]
       }
     ]
@@ -598,7 +598,7 @@
           },
           {
             "question": "Tôi có bao giờ gặp lại một từ hai lần không?",
-            "answer": "Không trên cùng một thiết bị. Hệ thống nhớ tối đa 4.000 từ cho mỗi ngôn ngữ — tương đương khoảng 130 câu đố — và loại chúng khỏi mọi câu đố mới; chỉ sau đó các từ cũ nhất mới bị xóa khỏi danh sách. Việc xóa dữ liệu trang web trong trình duyệt sẽ làm mới danh sách này."
+            "answer": "Không trên cùng một thiết bị. Hệ thống nhớ tối đa 4.000 từ cho mỗi ngôn ngữ — tương đương khoảng 130 câu đố — và loại chúng khỏi mọi câu đố mới; chỉ sau đó các từ cũ nhất mới bị xóa khỏi danh sách. Việc xóa dữ liệu trang web trong trình duyệt sẽ làm mới danh sách này. Nếu bạn đăng nhập, tài khoản của bạn cũng lưu mọi từ đã hiện cho bạn, không giới hạn, và loại chúng khỏi câu đố trên tất cả thiết bị của bạn."
           },
           {
             "question": "AI viết gợi ý như thế nào?",
@@ -648,7 +648,7 @@
         "items": [
           {
             "question": "Bạn lưu trữ những dữ liệu nào?",
-            "answer": "Rất ít. Các câu đố, tiến trình, cài đặt và danh sách từ đã thấy của bạn đều nằm trong trình duyệt. Máy chủ chỉ lưu các câu đố được tạo (để liên kết chia sẻ mở ra cùng một lưới), báo cáo gợi ý kèm mã hóa một chiều địa chỉ IP, và số lượt giải ẩn danh. Không có tên và không có hồ sơ cá nhân."
+            "answer": "Rất ít. Các câu đố, tiến trình, cài đặt và danh sách từ đã thấy của bạn đều nằm trong trình duyệt. Máy chủ chỉ lưu các câu đố được tạo (để liên kết chia sẻ mở ra cùng một lưới), báo cáo gợi ý kèm mã hóa một chiều địa chỉ IP, và số lượt giải ẩn danh. Không có tên và không có hồ sơ cá nhân. Nếu bạn đăng nhập, tài khoản còn lưu những câu đố đã hiện cho bạn và kết quả của từng từ, để không từ nào quay lại trên thiết bị khác."
           },
           {
             "question": "Có thông tin nào về tôi được gửi cho AI không?",
@@ -706,7 +706,8 @@
       {
         "title": "Tài khoản và tín dụng",
         "paragraphs": [
-          "Nếu bạn tạo tài khoản, chúng tôi lưu tên, địa chỉ email và ảnh đại diện Google (khi bạn đăng nhập bằng Google). Chúng tôi cũng lưu số dư tín dụng và lịch sử: từng lần mua, từng câu đố đã trả tiền và từng khoản hoàn tiền."
+          "Nếu bạn tạo tài khoản, chúng tôi lưu tên, địa chỉ email và ảnh đại diện Google (khi bạn đăng nhập bằng Google). Chúng tôi cũng lưu số dư tín dụng và lịch sử: từng lần mua, từng câu đố đã trả tiền và từng khoản hoàn tiền.",
+          "Trong thời gian bạn đăng nhập, chúng tôi cũng lưu các câu đố đã hiện cho bạn và kết quả của từng từ trong đó: đã giải, giải được nhờ mở một chữ, đã mở hoặc chưa giải. Nhờ vậy, không từ nào bị lặp lại trên bất kỳ thiết bị nào của bạn. Các câu đố đã chơi trên một thiết bị trước khi bạn đăng nhập ở đó cũng được thêm vào."
         ]
       },
       {

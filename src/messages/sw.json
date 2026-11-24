@@ -232,7 +232,7 @@
     "faq1Question": "Je, Chemshabongo AI ni bure?",
     "faq1Answer": "Kila mwezi unapata mikopo 11 ya bure — inatosha kwa fumbo la wastani — bila hitaji la kujisajili, na ukiingia kwenye akaunti unapata mikopo mingine 11. Baada ya hapo, mafumbo yanagharimu mikopo (credits), inayonunuliwa mara moja bila usajili wa kila mwezi. Kucheza fumbo uliloshirikishwa na mtu mwingine ni bure kila wakati.",
     "faq2Question": "Je, nitaona maneno yale yale tena?",
-    "faq2Answer": "Hapana. Kifaa chako huhifadhi orodha ya maneno ambayo tayari yameonyeshwa na kuyaacha nje ya kila mchezo mpya. Ukifuta data ya tovuti kwenye kivinjari, orodha huanza upya.",
+    "faq2Answer": "Hapana. Kifaa chako huhifadhi orodha ya maneno ambayo tayari yameonyeshwa na kuyaacha nje ya kila mchezo mpya. Ukifuta data ya tovuti kwenye kivinjari, orodha huanza upya. Ukiwa umeingia, akaunti yako pia huhifadhi orodha hiyo, kwenye kila kifaa.",
     "faq3Question": "Naweza kucheza kwa lugha zipi?",
     "faq3Answer": "Lugha thelathini na tatu, kila moja ikiwa na hazina yake ya maneno kwa wazungumzaji wake, bila kutafsiriwa kutoka nyingine: Kiingereza, Kihispania, Kireno, Kifaransa, Kijerumani, Kiitaliano, Kiholanzi, Kipolandi, Kicheki, Kiswidi, Kiromania, Kihungaria, Kiindonesia, Kimalei, Kifilipino, Kivietinamu, Kiswahili, Kirusi, Kiukreni, Kigiriki, Kiarabu, Kiajemi, Kiurdu, Kiebrania, Kihindi, Kimarathi, Kibengali, Kitamil, Kithai, Kijapani, Kikorea, Kichina na Kiarmenia. Kiswahili hapa ni cha Kenya na Tanzania.",
     "faq4Question": "Kuna tofauti gani kati ya chemshabongo na skanwodi?",
@@ -543,7 +543,7 @@
       {
         "title": "Maneno mapya, kila mara",
         "paragraphs": [
-          "Kifaa chako hukumbuka maneno ambayo yameonyeshwa na hayakuombi tena. Kila mchezo mpya umetengenezwa kwa maneno ambayo hujayaona hapa."
+          "Kifaa chako hukumbuka maneno ambayo yameonyeshwa na hayakuombi tena. Kila mchezo mpya umetengenezwa kwa maneno ambayo hujayaona hapa. Ukiwa umeingia, akaunti yako pia huyakumbuka, hivyo neno ulilokutana nalo kwenye simu halitatokea kwenye michezo ya kompyuta mpakato yako."
         ]
       }
     ]
@@ -598,7 +598,7 @@
           },
           {
             "question": "Je, nitaona neno lile lile mara mbili?",
-            "answer": "Sio kwenye kifaa kile kile. Inakumbuka hadi maneno 4,000 kwa kila lugha — sawa na mafumbo 130 hivi — na kuyaacha nje ya kila fumbo jipya; ni baada ya hapo tu ambapo maneno ya zamani zaidi huondolewa kwenye orodha. Kufuta data ya tovuti kwenye kivinjari chako kunaanza orodha hiyo upya."
+            "answer": "Sio kwenye kifaa kile kile. Inakumbuka hadi maneno 4,000 kwa kila lugha — sawa na mafumbo 130 hivi — na kuyaacha nje ya kila fumbo jipya; ni baada ya hapo tu ambapo maneno ya zamani zaidi huondolewa kwenye orodha. Kufuta data ya tovuti kwenye kivinjari chako kunaanza orodha hiyo upya. Ukiwa umeingia, akaunti yako pia huhifadhi kila neno ulilowahi kuonyeshwa, bila kikomo, na kuyaacha nje kwenye vifaa vyako vyote."
           },
           {
             "question": "AI inawazaje kuandika maelezo ya maneno?",
@@ -648,7 +648,7 @@
         "items": [
           {
             "question": "Ni data gani mnahifadhi?",
-            "answer": "Kidogo sana. Mafumbo yako, maendeleo, mipangilio na orodha ya maneno yaliyoonekana vinabaki kwenye kivinjari chako. Seva inahifadhi mafumbo yaliyotengenezwa (ili kiungo kilichoshirikiwa kifungue fremu ile ile), ripoti za maelezo zenye alama isiyoweza kubadilishwa ya anwani ya IP, na hesabu zisizojulikana za utatuzi. Hakuna majina wala wasifu."
+            "answer": "Kidogo sana. Mafumbo yako, maendeleo, mipangilio na orodha ya maneno yaliyoonekana vinabaki kwenye kivinjari chako. Seva inahifadhi mafumbo yaliyotengenezwa (ili kiungo kilichoshirikiwa kifungue fremu ile ile), ripoti za maelezo zenye alama isiyoweza kubadilishwa ya anwani ya IP, na hesabu zisizojulikana za utatuzi. Hakuna majina wala wasifu. Ukiingia, akaunti yako pia huhifadhi mafumbo uliyoonyeshwa na jinsi kila neno lilivyokwenda, ili neno lisirudi kwenye kifaa kingine."
           },
           {
             "question": "Je, kuna chochote kunihusu kinachotumwa kwa AI?",
@@ -706,7 +706,8 @@
       {
         "title": "Akaunti na mikopo",
         "paragraphs": [
-          "Ukiunda akaunti, tunahifadhi jina lako, barua pepe yako na, unapoingia kwa kutumia Google, picha yako ya wasifu wa Google. Pia tunahifadhi salio lako la mikopo na historia yake: kila ununuzi, kila fumbo lililolipiwa na kila urejeshaji wa fedha."
+          "Ukiunda akaunti, tunahifadhi jina lako, barua pepe yako na, unapoingia kwa kutumia Google, picha yako ya wasifu wa Google. Pia tunahifadhi salio lako la mikopo na historia yake: kila ununuzi, kila fumbo lililolipiwa na kila urejeshaji wa fedha.",
+          "Ukiwa umeingia, pia tunahifadhi mafumbo uliyoonyeshwa na jinsi kila neno lake lilivyokwenda: lilitatuliwa, lilitatuliwa kwa herufi iliyofichuliwa, lilifichuliwa au halikutatuliwa. Kwa njia hii hakuna neno linalojirudia kwenye kifaa chako chochote. Mafumbo yaliyochezwa kwenye kifaa kabla hujaingia hapo nayo huongezwa."
         ]
       },
       {

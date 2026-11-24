@@ -41,7 +41,7 @@ pnpm env:base64 production | clip   # server/.env.production.local -> the ENV_AP
 | Building + storing a puzzle, fallback ladder | `server/src/services/puzzleBuilder.ts` · routes `server/src/routes/puzzles.ts` |
 | Gemini (model chain, cooldowns, the only key reader) | `server/src/lib/gemini.ts` |
 | The board (grid, clue bar, lists, keyboard, toolbar) | `src/components/puzzle/` · state `src/store/puzzle/play/` · rules `src/helpers/puzzle/` |
-| Creating puzzles, seen-list | `src/store/puzzle/create/` · `src/helpers/puzzle/seen.ts` · `src/helpers/offline/db.ts` |
+| Creating puzzles, seen-list | `src/store/puzzle/create/` · `src/helpers/puzzle/seen.ts` · `src/helpers/offline/db.ts` · account's list: `src/store/puzzle/plays/` → `POST /puzzles/plays` → `server/src/services/plays.ts` |
 | Billing: free and bought credits, Paddle | `docs/BILLING.md` (model) · `docs/PADDLE_SETUP.md` (manual setup) · `server/src/services/billing.ts`, `paymentNotifications.ts` (admin mails), `lib/paddle.ts`, `routes/billing.ts` · prices `CREDIT_PACKS`/`SIZE_CREDITS` in the puzzle twins · web `src/components/billing/`, `src/store/billing/` |
 | Keyboards (on-screen rows, physical-key fallback) | `src/constants/keyboards.ts` |
 | Topic colours and icons | `src/constants/topicStyles.ts` |
@@ -76,9 +76,11 @@ Per-layer rules: `src/CLAUDE.md` (web) and `server/CLAUDE.md` (API).
 
 ## Easy to get wrong
 
-- **No word may ever repeat for a device.** Entry ids are the identity a device excludes: never
-  delete an `Entry` (retire it), never re-key one, and add a puzzle's ids to the seen-list when
-  it *arrives* (created or opened from a link). A gate forbids deleting entries.
+- **No word may ever repeat for a device** (or, signed in, for an account on any device). Entry
+  ids are the identity a device excludes: never delete an `Entry` (retire it), never re-key one,
+  and add a puzzle's ids to the seen-list when it *arrives* (created or opened from a link). A
+  gate forbids deleting entries. The account's list is `PuzzlePlay`: one row per puzzle shown,
+  its word states one byte each in word order — a puzzle's `entryIds` must never be reordered.
 - **Money moves only with a ledger row.** `User.credits` changes in the same transaction as a
   `CreditEntry`; a puzzle is charged in the transaction that stores it. Webhooks are idempotent by
   `PaymentEvent.id` and the `Payment.status` guard — test redelivery when touching them.

@@ -232,7 +232,7 @@
     "faq1Question": "Ingyenes a Keresztrejtvény AI?",
     "faq1Answer": "Minden hónapban 11 ingyenes kreditet kapsz regisztráció nélkül — ennyi elég egy közepes rejtvényhez —, a bejelentkezés pedig még 11-et ad. Ezen felül a rejtvények kreditekbe kerülnek, amelyeket egyszeri vásárlással szerezhetsz meg, előfizetés nélkül. Ha valaki megosztott veled egy rejtvényt, annak a játéka mindig ingyenes.",
     "faq2Question": "Ugyanazokat a szavakat látom újra?",
-    "faq2Answer": "Nem. Az eszköz listát vezet a már mutatott szavakról, és kihagyja őket az új rejtvényekből. Ha törlöd a webhely adatait, a lista elölről kezdődik.",
+    "faq2Answer": "Nem. Az eszköz listát vezet a már mutatott szavakról, és kihagyja őket az új rejtvényekből. Ha törlöd a webhely adatait, a lista elölről kezdődik. Ha be vagy jelentkezve, a fiókod is vezeti ezt a listát, minden eszközödön.",
     "faq3Question": "Milyen nyelveken lehet fejteni?",
     "faq3Answer": "Harminchárom nyelven, mindegyik a saját szókincsével, a beszélőinek írva, soha nem egy másik nyelvről fordítva: angol, spanyol, portugál, francia, német, olasz, holland, lengyel, cseh, svéd, román, magyar, indonéz, maláj, filippínó, vietnámi, szuahéli, orosz, ukrán, görög, arab, perzsa, urdu, héber, hindi, maráthi, bengáli, tamil, thai, japán, koreai, kínai és örmény.",
     "faq4Question": "Mi a különbség a keresztrejtvény és a skandináv között?",
@@ -543,7 +543,7 @@
       {
         "title": "Mindig friss szavak",
         "paragraphs": [
-          "Az eszköz megjegyzi a mutatott szavakat, és többé nem kéri őket. Minden új rejtvény olyan szavakból áll, amelyekkel itt még nem találkoztál."
+          "Az eszköz megjegyzi a mutatott szavakat, és többé nem kéri őket. Minden új rejtvény olyan szavakból áll, amelyekkel itt még nem találkoztál. Bejelentkezve a fiókod is megjegyzi őket, így egy szó, amellyel a telefonodon találkoztál, a laptopod rejtvényeiben sem bukkan fel."
         ]
       }
     ]
@@ -598,7 +598,7 @@
           },
           {
             "question": "Előfordulhat, hogy kétszer látom ugyanazt a szót?",
-            "answer": "Ugyanazon az eszközön nem. Akár 4000 szóra is emlékszik nyelvenként — ez kb. 130 rejtvénynek felel meg —, és kihagyja őket minden új rejtvényből; csak ezután kerülnek le a legrégebbi szavak a listáról. A böngésző adatainak törlése újraindítja a listát."
+            "answer": "Ugyanazon az eszközön nem. Akár 4000 szóra is emlékszik nyelvenként — ez kb. 130 rejtvénynek felel meg —, és kihagyja őket minden új rejtvényből; csak ezután kerülnek le a legrégebbi szavak a listáról. A böngésző adatainak törlése újraindítja a listát. Ha be vagy jelentkezve, a fiókod is számon tartja az összes látott szót, korlát nélkül, és mindegyik eszközödön kihagyja őket."
           },
           {
             "question": "Hogyan írja az AI a meghatározásokat?",
@@ -648,7 +648,7 @@
         "items": [
           {
             "question": "Milyen adatokat őriztek meg?",
-            "answer": "Nagyon keveset. A rejtvényeid, a haladásod, a beállításaid és a látott szavak listája a böngésződben maradnak. A szerver a létrehozott rejtvényeket tárolja (hogy a megosztott link ugyanazt a rácsot nyissa meg), a meghatározások jelentéseit az IP-cím egyirányú kivonatával (hash), valamint az névtelen megoldási statisztikákat. Nincsenek nevek és nincsenek profilok."
+            "answer": "Nagyon keveset. A rejtvényeid, a haladásod, a beállításaid és a látott szavak listája a böngésződben maradnak. A szerver a létrehozott rejtvényeket tárolja (hogy a megosztott link ugyanazt a rácsot nyissa meg), a meghatározások jelentéseit az IP-cím egyirányú kivonatával (hash), valamint az névtelen megoldási statisztikákat. Nincsenek nevek és nincsenek profilok. Ha bejelentkezel, a fiókod azt is megőrzi, milyen rejtvényeket mutattunk neked és mi lett az egyes szavakkal, hogy egy szó se kerüljön elő újra egy másik eszközön."
           },
           {
             "question": "Bármilyen adatom eljut az AI-hoz?",
@@ -706,7 +706,8 @@
       {
         "title": "Fiókok és kreditek",
         "paragraphs": [
-          "Ha fiókot hozol létre, elmentjük a nevedet, az email címedet, és ha Google-lal jelentkezel be, a Google profilképedet. Megőrizzük a kreditegyenlegedet és annak előzményeit is: minden vásárlást, minden kifizetett rejtvényt és minden visszatérítést."
+          "Ha fiókot hozol létre, elmentjük a nevedet, az email címedet, és ha Google-lal jelentkezel be, a Google profilképedet. Megőrizzük a kreditegyenlegedet és annak előzményeit is: minden vásárlást, minden kifizetett rejtvényt és minden visszatérítést.",
+          "Amíg be vagy jelentkezve, azt is megőrizzük, milyen rejtvényeket mutattunk neked, és mi lett bennük az egyes szavakkal: megfejtetted, felfedett betűvel fejtetted meg, felfedted vagy nem fejtetted meg. Így egyetlen szó sem ismétlődik egyik eszközödön sem. Azok a rejtvények is bekerülnek, amelyeket egy eszközön még azelőtt játszottál, hogy ott bejelentkeztél volna."
         ]
       },
       {

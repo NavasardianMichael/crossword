@@ -10,6 +10,7 @@ import {
   recordDemand,
 } from './entryPool.js'
 import { isGiveaway } from './entryValidation.js'
+import { recordShown } from './plays.js'
 import { isGeminiConfigured } from '../config.js'
 import { toCells } from '../lib/alphabet.js'
 import { LAYOUT_VERSION, layoutPuzzle, type LayoutWord } from '../lib/layout/index.js'
@@ -30,7 +31,8 @@ import { HttpError } from '../middleware/error.js'
 
 /**
  * Building one puzzle: draw unseen candidates → lay them out → pick a clue per placed word →
- * store the snapshot. Only words actually placed count as served.
+ * store the snapshot. Only words actually placed count as served. A signed-in player's puzzle
+ * joins the account's seen-list (`services/plays.ts`) in the same transaction.
  *
  * When the pool cannot fill the request, the builder degrades rather than repeats: one inline
  * Gemini batch, then any topic, then a smaller grid — and only then `503 pool_exhausted`.
@@ -46,6 +48,8 @@ export type BuildRequest = {
   difficulty: Difficulty
   size: PuzzleSize
   exclude: readonly number[]
+  /** The signed-in account: its seen-list is left out as well, and the puzzle joins it. */
+  player?: string
   /** Paid for wholly with free credits: its inline generation stays within `freeCallBudget()`. */
   free?: boolean
 }
@@ -72,7 +76,7 @@ const candidateCount = (format: PuzzleFormat, maxWords: number): number =>
 
 const draw = async (request: BuildRequest, topic: TopicChoice, count: number, maxLength: number): Promise<Candidate[]> => {
   const style: ClueStyle = request.format === 'classic' ? 'full' : 'short'
-  const base = { locale: request.locale, difficulty: request.difficulty, style, exclude: request.exclude, maxLength }
+  const base = { locale: request.locale, difficulty: request.difficulty, style, exclude: request.exclude, player: request.player, maxLength }
   if (topic === 'any' || topic === 'general') return drawCandidates({ ...base, topic, count })
 
   const themed = await drawCandidates({ ...base, topic, count: Math.ceil(count * THEME_SHARE) })
@@ -219,6 +223,7 @@ const storePuzzle = async (
     await tx.entry.updateMany({ where: { id: { in: entryIds } }, data: { servedCount: { increment: 1 } } })
     await tx.clue.updateMany({ where: { id: { in: clueIds } }, data: { servedCount: { increment: 1 } } })
     await charge?.(tx, id, size)
+    if (request.player) await recordShown(tx, request.player, id, request.locale, words.length)
     return created
   })
 

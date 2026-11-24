@@ -40,6 +40,9 @@
 - **Offline:** every received puzzle is saved to IndexedDB; the service worker sends an
   uncached `/[lang]/p/<id>` visit to the precached `/[lang]/play?id=<id>` shell. Nothing is
   prefetched: every puzzle is paid for when built (`docs/BILLING.md`).
+- **Account seen-list:** signed in, `store/puzzle/plays` reports every game changed since the last
+  report (`POST /puzzles/plays`, word states from `wordStates`): after progress is saved (debounced),
+  when the page hides, and on sign-in, which also carries the games played here as a guest.
 - **Billing:** `store/billing` holds the bought credits and this month's free ones, refreshed on
   sign-in/out and after every create. A 402 from `POST /puzzles` opens `CreditsRefusalDialog`
   (sign in / buy credits), never a retry; other create failures go through `CreateErrorAlert`. Paddle.js runs only on `/[lang]/payments/checkout`.

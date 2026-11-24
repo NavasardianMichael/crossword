@@ -232,7 +232,7 @@
     "faq1Question": "Jsou Křížovky AI zdarma?",
     "faq1Answer": "Každý měsíc dostaneš 11 kreditů zdarma — stačí na střední křížovku — bez registrace a přihlášení přidá dalších 11. Poté křížovky stojí kredity, které si kupuješ jednorázově bez předplatného. Luštění křížovky, kterou s tebou někdo sdílel, je vždy zdarma.",
     "faq2Question": "Uvidím stejná slova znovu?",
-    "faq2Answer": "Ne. Zařízení si vede seznam slov, která už ukázalo, a z nových křížovek je vynechá. Když smažete data webu v prohlížeči, seznam začne odznova.",
+    "faq2Answer": "Ne. Zařízení si vede seznam slov, která už ukázalo, a z nových křížovek je vynechá. Když smažete data webu v prohlížeči, seznam začne odznova. Po přihlášení si tento seznam vede i váš účet, a to na všech zařízeních.",
     "faq3Question": "V jakých jazycích se dá luštit?",
     "faq3Answer": "Ve třiatřiceti jazycích, každý s vlastní zásobou slov pro své mluvčí, nikdy přeloženou z jiného: angličtina, španělština, portugalština, francouzština, němčina, italština, nizozemština, polština, čeština, švédština, rumunština, maďarština, indonéština, malajština, filipínština, vietnamština, svahilština, ruština, ukrajinština, řečtina, arabština, perština, urdština, hebrejština, hindština, maráthština, bengálština, tamilština, thajština, japonština, korejština, čínština a arménština.",
     "faq4Question": "Jaký je rozdíl mezi křížovkou a skandinávkou?",
@@ -543,7 +543,7 @@
       {
         "title": "Pokaždé čerstvá slova",
         "paragraphs": [
-          "Zařízení si pamatuje slova, která ukázalo, a už je nežádá. Každá nová křížovka je ze slov, která jste tu ještě nepotkali."
+          "Zařízení si pamatuje slova, která ukázalo, a už je nežádá. Každá nová křížovka je ze slov, která jste tu ještě nepotkali. Po přihlášení si je pamatuje i váš účet, takže slovo, které jste potkali v telefonu, se neobjeví v křížovkách na notebooku."
         ]
       }
     ]
@@ -598,7 +598,7 @@
           },
           {
             "question": "Uvidím někdy stejné slovo dvakrát?",
-            "answer": "Na stejném zařízení ne. Pamatujeme si až 4 000 slov na jazyk — což vystačí asi na 130 křížovek — a vynecháváme je z každé nové křížovky; teprve potom se nejstarší slova ze seznamu vymažou. Vymazáním dat stránky v prohlížeči se seznam resetuje."
+            "answer": "Na stejném zařízení ne. Pamatujeme si až 4 000 slov na jazyk — což vystačí asi na 130 křížovek — a vynecháváme je z každé nové křížovky; teprve potom se nejstarší slova ze seznamu vymažou. Vymazáním dat stránky v prohlížeči se seznam resetuje. Když se přihlásíš, tvůj účet si navíc pamatuje každé slovo, které se ti zobrazilo, bez omezení, a vynechává ho na všech tvých zařízeních."
           },
           {
             "question": "Jak AI vytváří nápovědy?",
@@ -648,7 +648,7 @@
         "items": [
           {
             "question": "Jaké údaje uchováváte?",
-            "answer": "Velmi málo. Tvoje křížovky, postup, nastavení a seznam viděných slov zůstávají v tvém prohlížeči. Server ukládá vytvořené křížovky (aby sdílený odkaz otevřel stejnou mřížku), hlášení nápověd s jednosměrným hashem IP adresy a anonymní počty vyřešení. Žádná jména, žádné profily."
+            "answer": "Velmi málo. Tvoje křížovky, postup, nastavení a seznam viděných slov zůstávají v tvém prohlížeči. Server ukládá vytvořené křížovky (aby sdílený odkaz otevřel stejnou mřížku), hlášení nápověd s jednosměrným hashem IP adresy a anonymní počty vyřešení. Žádná jména, žádné profily. Když se přihlásíš, tvůj účet si navíc uchovává, které křížovky se ti zobrazily a jak dopadlo každé slovo, aby se žádné slovo nevrátilo na jiném zařízení."
           },
           {
             "question": "Posílá se o mně něco do AI?",
@@ -706,7 +706,8 @@
       {
         "title": "Účty a kredity",
         "paragraphs": [
-          "Pokud si vytvoříš účet, uchováváme tvé jméno, e-mailovou adresu a při přihlášení přes Google i tvůj profilový obrázek z Googlu. Ukládáme také tvůj zůstatek kreditů a jeho historii: každý nákup, každou zaplacenou křížovku a každé vrácení peněz."
+          "Pokud si vytvoříš účet, uchováváme tvé jméno, e-mailovou adresu a při přihlášení přes Google i tvůj profilový obrázek z Googlu. Ukládáme také tvůj zůstatek kreditů a jeho historii: každý nákup, každou zaplacenou křížovku a každé vrácení peněz.",
+          "Po přihlášení ukládáme také, které křížovky se ti zobrazily a jak dopadlo každé jejich slovo: vyluštěno, vyluštěno s odhaleným písmenem, odhaleno nebo nevyluštěno. Díky tomu se žádné slovo nezopakuje na žádném z tvých zařízení. Přidají se i křížovky, které jsi na daném zařízení luštil ještě před prvním přihlášením na něm."
         ]
       },
       {

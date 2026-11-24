@@ -232,7 +232,7 @@
     "faq1Question": "¿Crucigramas IA es gratis?",
     "faq1Answer": "Cada mes recibes 11 créditos gratis (suficientes para un crucigrama mediano) sin registrarte, y si inicias sesión sumas 11 más. Después, los crucigramas cuestan créditos que se compran una sola vez, sin suscripciones. Jugar a un crucigrama que alguien haya compartido contigo es siempre gratis.",
     "faq2Question": "¿Voy a ver las mismas palabras otra vez?",
-    "faq2Answer": "No. Tu dispositivo guarda la lista de palabras que ya te mostró y las deja fuera de cada crucigrama nuevo. Si borras los datos del sitio en el navegador, la lista empieza de cero.",
+    "faq2Answer": "No. Tu dispositivo guarda la lista de palabras que ya te mostró y las deja fuera de cada crucigrama nuevo. Si borras los datos del sitio en el navegador, la lista empieza de cero. Si inicias sesión, tu cuenta también guarda esa lista, en todos tus dispositivos.",
     "faq3Question": "¿En qué idiomas puedo jugar?",
     "faq3Answer": "En treinta y tres idiomas, cada uno con su propio vocabulario escrito para quienes lo hablan, nunca traducido de otro: inglés, español, portugués, francés, alemán, italiano, neerlandés, polaco, checo, sueco, rumano, húngaro, indonesio, malayo, filipino, vietnamita, suajili, ruso, ucraniano, griego, árabe, persa, urdu, hebreo, hindi, maratí, bengalí, tamil, tailandés, japonés, coreano, chino y armenio.",
     "faq4Question": "¿En qué se diferencia un crucigrama de un autodefinido?",
@@ -544,7 +544,7 @@
       {
         "title": "Palabras nuevas, siempre",
         "paragraphs": [
-          "Tu dispositivo recuerda las palabras que te mostró y no vuelve a pedírtelas. Cada crucigrama nuevo está hecho de palabras que aquí todavía no viste."
+          "Tu dispositivo recuerda las palabras que te mostró y no vuelve a pedírtelas. Cada crucigrama nuevo está hecho de palabras que aquí todavía no viste. Con la sesión iniciada, tu cuenta también las recuerda: una palabra que te salió en el móvil no aparecerá en los crucigramas de tu portátil."
         ]
       }
     ]
@@ -599,7 +599,7 @@
           },
           {
             "question": "¿Volveré a ver la misma palabra dos veces?",
-            "answer": "No en el mismo dispositivo. Recuerda hasta 4000 palabras por idioma (el equivalente a unos 130 crucigramas) y las excluye de cada nuevo juego; solo después de eso se van borrando las más antiguas de la lista. Si limpias los datos del sitio en tu navegador, la lista vuelve a empezar."
+            "answer": "No en el mismo dispositivo. Recuerda hasta 4000 palabras por idioma (el equivalente a unos 130 crucigramas) y las excluye de cada nuevo juego; solo después de eso se van borrando las más antiguas de la lista. Si limpias los datos del sitio en tu navegador, la lista vuelve a empezar. Si inicias sesión, tu cuenta guarda además todas las palabras que has visto, sin límite, y las deja fuera en todos tus dispositivos."
           },
           {
             "question": "¿Cómo escribe la IA las pistas?",
@@ -649,7 +649,7 @@
         "items": [
           {
             "question": "¿Qué datos guardan?",
-            "answer": "Muy pocos. Tus crucigramas, progreso, ajustes y la lista de palabras vistas se quedan en tu navegador. El servidor guarda los crucigramas creados (para que un enlace compartido abra la misma cuadrícula), los reportes de pistas con un código único no reversible de la dirección IP y estadísticas anónimas de resolución. Sin nombres ni perfiles."
+            "answer": "Muy pocos. Tus crucigramas, progreso, ajustes y la lista de palabras vistas se quedan en tu navegador. El servidor guarda los crucigramas creados (para que un enlace compartido abra la misma cuadrícula), los reportes de pistas con un código único no reversible de la dirección IP y estadísticas anónimas de resolución. Sin nombres ni perfiles. Si inicias sesión, tu cuenta guarda también qué crucigramas se te mostraron y cómo te fue con cada palabra, para que ninguna vuelva a salir en otro dispositivo."
           },
           {
             "question": "¿Se envía algo sobre mí a la IA?",
@@ -707,7 +707,8 @@
       {
         "title": "Cuentas y créditos",
         "paragraphs": [
-          "Si creas una cuenta, guardamos tu nombre, tu correo electrónico y, si inicias sesión con Google, tu foto de perfil de Google. También guardamos tu saldo de créditos y su historial: cada compra, cada crucigrama pagado y cada reembolso."
+          "Si creas una cuenta, guardamos tu nombre, tu correo electrónico y, si inicias sesión con Google, tu foto de perfil de Google. También guardamos tu saldo de créditos y su historial: cada compra, cada crucigrama pagado y cada reembolso.",
+          "Mientras tienes la sesión iniciada, también guardamos los crucigramas que se te mostraron y cómo te fue con cada una de sus palabras: resuelta, resuelta con una letra revelada, revelada o sin resolver. Así ninguna palabra se repite en ninguno de tus dispositivos. También se añaden los crucigramas que jugaste en un dispositivo antes de iniciar sesión en él."
         ]
       },
       {

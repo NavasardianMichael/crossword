@@ -4,7 +4,15 @@ import type { APIResponse } from '@interfaces/api'
 import { API_PUZZLE_TIMEOUT_MS } from '@constants/app'
 import { ENDPOINTS } from './endpoints'
 import { processEmptyResponse, processPuzzleResponse, processSamplesResponse } from './processors'
-import type { CreatePuzzleAPI, CreatePuzzlePayload, GetPuzzleAPI, GetSamplesAPI, ReportWordAPI, SendResultAPI } from './types'
+import type {
+  CreatePuzzleAPI,
+  CreatePuzzlePayload,
+  GetPuzzleAPI,
+  GetSamplesAPI,
+  ReportWordAPI,
+  SendResultAPI,
+  SyncPlaysAPI,
+} from './types'
 
 /** May wait for a fresh Gemini batch when the pool is short, so it gets the long ceiling. `signal` aborts the wait. */
 export const createPuzzleAPI = async (payload: CreatePuzzlePayload, signal?: AbortSignal): Promise<CreatePuzzleAPI['processed']> => {
@@ -28,6 +36,12 @@ export const reportWordAPI: ReportWordAPI['api'] = async ({ puzzleId, wordId, re
 
 export const sendResultAPI: SendResultAPI['api'] = async ({ puzzleId, solved, revealedWordIds }) => {
   await axiosInstance.post(ENDPOINTS.result(puzzleId), { solved, revealedWordIds })
+  return processEmptyResponse({ value: null, error: null })
+}
+
+/** Signed in only: joins the puzzles to the account's seen-list. */
+export const syncPlaysAPI: SyncPlaysAPI['api'] = async ({ plays }) => {
+  await axiosInstance.post(ENDPOINTS.plays, { plays })
   return processEmptyResponse({ value: null, error: null })
 }
 

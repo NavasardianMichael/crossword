@@ -34,6 +34,8 @@ export const STORAGE_KEYS = {
   generator: 'crossword:generator',
   /** Suffixed with the locale: `crossword:seen:ru`. */
   seenPrefix: 'crossword:seen:',
+  /** Suffixed with the account id: when this device last reported its games to the account. */
+  playsSyncedPrefix: 'crossword:plays-synced:',
   pwaInstalledAt: 'crossword:pwa-installed',
   iosHintClosedAt: 'crossword:ios-hint-closed',
   /** 'granted' | 'denied' — the visitor's answer to the analytics banner; absent until they answer. */

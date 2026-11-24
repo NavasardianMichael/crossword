@@ -232,7 +232,7 @@
     "faq1Question": "Est-ce que Mots croisés IA est gratuit ?",
     "faq1Answer": "Chaque mois, vous recevez 11 crédits gratuits — de quoi créer une grille moyenne — sans inscription, et 11 de plus en vous connectant. Ensuite, les grilles coûtent des crédits, achetés en une fois sans abonnement. Jouer à une grille partagée par un ami est toujours gratuit.",
     "faq2Question": "Vais-je revoir les mêmes mots ?",
-    "faq2Answer": "Non. Votre appareil garde la liste des mots déjà montrés et les laisse de côté dans chaque nouvelle grille. Si vous effacez les données du site dans le navigateur, la liste repart de zéro.",
+    "faq2Answer": "Non. Votre appareil garde la liste des mots déjà montrés et les laisse de côté dans chaque nouvelle grille. Si vous effacez les données du site dans le navigateur, la liste repart de zéro. Si vous vous connectez, votre compte garde aussi cette liste, sur tous vos appareils.",
     "faq3Question": "Dans quelles langues puis-je jouer ?",
     "faq3Answer": "Trente-trois langues, chacune avec son propre vocabulaire écrit pour ses locuteurs, jamais traduit d'une autre : anglais, espagnol, portugais, français, allemand, italien, néerlandais, polonais, tchèque, suédois, roumain, hongrois, indonésien, malais, filipino, vietnamien, swahili, russe, ukrainien, grec, arabe, persan, ourdou, hébreu, hindi, marathi, bengali, tamoul, thaï, japonais, coréen, chinois et arménien.",
     "faq4Question": "Quelle est la différence entre des mots croisés et des mots fléchés ?",
@@ -544,7 +544,7 @@
       {
         "title": "Des mots nouveaux, à chaque fois",
         "paragraphs": [
-          "Votre appareil retient les mots qu'il vous a montrés et ne les redemande pas. Chaque nouvelle grille est faite de mots que vous n'avez pas encore rencontrés ici."
+          "Votre appareil retient les mots qu'il vous a montrés et ne les redemande pas. Chaque nouvelle grille est faite de mots que vous n'avez pas encore rencontrés ici. Si vous vous connectez, votre compte les retient aussi : un mot rencontré sur votre téléphone ne reviendra pas dans vos grilles sur ordinateur portable."
         ]
       }
     ]
@@ -599,7 +599,7 @@
           },
           {
             "question": "Revendrai-je un jour le même mot ?",
-            "answer": "Pas sur le même appareil. Le système mémorise jusqu'à 4 000 mots par langue — soit environ 130 grilles — et les écarte de chaque nouvelle création ; ce n'est qu'après cela que les mots les plus anciens réapparaissent. Effacer les données de votre navigateur réinitialise la liste."
+            "answer": "Pas sur le même appareil. Le système mémorise jusqu'à 4 000 mots par langue — soit environ 130 grilles — et les écarte de chaque nouvelle création ; ce n'est qu'après cela que les mots les plus anciens réapparaissent. Effacer les données de votre navigateur réinitialise la liste. Si vous vous connectez, votre compte garde en plus tous les mots qui vous ont été proposés, sans limite, et les écarte sur tous vos appareils."
           },
           {
             "question": "Comment l'IA rédige-t-elle les définitions ?",
@@ -649,7 +649,7 @@
         "items": [
           {
             "question": "Quelles données conservez-vous ?",
-            "answer": "Très peu. Vos grilles, votre progression, vos réglages et la liste des mots vus restent dans votre navigateur. Le serveur conserve les grilles créées (pour qu'un lien partagé ouvre la même grille), les signalements de définitions avec un hachage unidirectionnel de l'adresse IP, et des statistiques de résolution anonymes. Aucun nom ni profil."
+            "answer": "Très peu. Vos grilles, votre progression, vos réglages et la liste des mots vus restent dans votre navigateur. Le serveur conserve les grilles créées (pour qu'un lien partagé ouvre la même grille), les signalements de définitions avec un hachage unidirectionnel de l'adresse IP, et des statistiques de résolution anonymes. Aucun nom ni profil. Si vous vous connectez, votre compte conserve aussi les grilles qui vous ont été proposées et le sort de chaque mot, pour qu'aucun mot ne revienne sur un autre appareil."
           },
           {
             "question": "Des informations me concernant sont-elles transmises à l'IA ?",
@@ -707,7 +707,8 @@
       {
         "title": "Comptes et crédits",
         "paragraphs": [
-          "Si vous créez un compte, nous conservons votre nom, votre adresse e-mail et, en cas de connexion via Google, votre photo de profil Google. Nous gardons aussi l'historique de vos crédits : chaque achat, chaque grille payée et chaque remboursement."
+          "Si vous créez un compte, nous conservons votre nom, votre adresse e-mail et, en cas de connexion via Google, votre photo de profil Google. Nous gardons aussi l'historique de vos crédits : chaque achat, chaque grille payée et chaque remboursement.",
+          "Tant que votre session est ouverte, nous conservons aussi les grilles qui vous ont été proposées et le sort de chacun de leurs mots : trouvé, trouvé avec une lettre révélée, révélé ou non trouvé. Ainsi, aucun mot ne se répète, quel que soit votre appareil. Les grilles jouées sur un appareil avant que vous vous y connectiez sont, elles aussi, ajoutées."
         ]
       },
       {

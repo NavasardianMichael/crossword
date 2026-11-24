@@ -232,7 +232,7 @@
     "faq1Question": "Is Crossword AI free?",
     "faq1Answer": "Every month you get 11 free credits — enough for a medium puzzle — with no sign-up, and signing in adds 11 more. After that, puzzles cost credits, bought once with no subscription. Playing a puzzle someone shared with you is always free.",
     "faq2Question": "Will I see the same words again?",
-    "faq2Answer": "No. Your device keeps a list of the words it has already shown you and leaves them out of every new puzzle. If you clear your browser's site data, that list starts over.",
+    "faq2Answer": "No. Your device keeps a list of the words it has already shown you and leaves them out of every new puzzle. If you clear your browser's site data, that list starts over. If you're signed in, your account keeps the list too, on every device.",
     "faq3Question": "Which languages can I play in?",
     "faq3Answer": "Thirty-three languages, each with its own word pool written for its speakers, never translated from another: English, Spanish, Portuguese, French, German, Italian, Dutch, Polish, Czech, Swedish, Romanian, Hungarian, Indonesian, Malay, Filipino, Vietnamese, Swahili, Russian, Ukrainian, Greek, Arabic, Persian, Urdu, Hebrew, Hindi, Marathi, Bengali, Tamil, Thai, Japanese, Korean, Chinese and Armenian.",
     "faq4Question": "What is the difference between a crossword and a scanword?",
@@ -543,7 +543,7 @@
       {
         "title": "Fresh words, every time",
         "paragraphs": [
-          "Your device remembers the words it has shown you and never asks for them again. Every new puzzle is made of words you haven't met here yet."
+          "Your device remembers the words it has shown you and never asks for them again. Every new puzzle is made of words you haven't met here yet. Signed in, your account remembers them as well, so a word you met on your phone stays out of puzzles on your laptop."
         ]
       }
     ]
@@ -598,7 +598,7 @@
           },
           {
             "question": "Will I ever see the same word twice?",
-            "answer": "Not on the same device. It remembers up to 4,000 words per language — about 130 puzzles' worth — and leaves them out of every new puzzle; only after that do the oldest drop off the list. Clearing your browser's site data starts the list over."
+            "answer": "Not on the same device. It remembers up to 4,000 words per language — about 130 puzzles' worth — and leaves them out of every new puzzle; only after that do the oldest drop off the list. Clearing your browser's site data starts the list over. If you're signed in, your account also keeps every word you were shown, with no limit, and leaves them out on all your devices."
           },
           {
             "question": "How does the AI write the clues?",
@@ -648,7 +648,7 @@
         "items": [
           {
             "question": "What data do you keep?",
-            "answer": "Very little. Your puzzles, progress, settings and seen-word list stay in your browser. The server stores the puzzles that are created (so a shared link opens the same grid), clue reports with a one-way hash of the IP address, and anonymous solve counts. No names and no profiles."
+            "answer": "Very little. Your puzzles, progress, settings and seen-word list stay in your browser. The server stores the puzzles that are created (so a shared link opens the same grid), clue reports with a one-way hash of the IP address, and anonymous solve counts. No names and no profiles. If you sign in, your account also keeps which puzzles you were shown and how each word went, so no word comes back on another device."
           },
           {
             "question": "Is anything about me sent to the AI?",
@@ -706,7 +706,8 @@
       {
         "title": "Accounts and credits",
         "paragraphs": [
-          "If you create an account, we keep your name, your email address and, when you sign in with Google, your Google profile picture. We also keep your credit balance and its history: each purchase, each puzzle paid for and each refund."
+          "If you create an account, we keep your name, your email address and, when you sign in with Google, your Google profile picture. We also keep your credit balance and its history: each purchase, each puzzle paid for and each refund.",
+          "While you are signed in, we also keep the puzzles you were shown and how each of their words went: solved, solved with a revealed letter, revealed or not solved. That way no word repeats on any of your devices. Puzzles played on a device before you signed in there are added too."
         ]
       },
       {

@@ -33,6 +33,7 @@ model User {
 
   creditEntries CreditEntry[]
   payments      Payment[]
+  plays         PuzzlePlay[]
 }
 
 enum CreditReason {
@@ -252,7 +253,27 @@ model Puzzle {
   solveCount    Int          @default(0)
   createdAt     DateTime     @default(now())
 
+  plays PuzzlePlay[]
+
   @@index([locale, createdAt])
+}
+
+/// A puzzle a signed-in player was shown, and how each of its words went. The account's
+/// seen-list: every word of its puzzles in a language is left out of the next one, on any device.
+model PuzzlePlay {
+  userId    String
+  user      User     @relation(fields: [userId], references: [id], onDelete: Cascade)
+  puzzleId  String
+  puzzle    Puzzle   @relation(fields: [puzzleId], references: [id])
+  /// The puzzle's, kept here so a player's seen words in one language are one index range.
+  locale    String
+  /// One byte per word, in the puzzle's word order: an index into `WORD_STATES`.
+  states    Bytes
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+
+  @@id([userId, puzzleId])
+  @@index([userId, locale])
 }
 
 model EntryReport {

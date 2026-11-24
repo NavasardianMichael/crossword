@@ -22,7 +22,10 @@
 - **Identity of a word:** one `Entry` per (locale, normalized answer), many `Clue` rows. Devices
   exclude entry ids. **Entries are retired, never deleted** (gated) — a deleted word could be
   generated again under a new id and slip past every seen-list. Retired entries are never revived
-  by the upsert.
+  by the upsert. A signed-in player's puzzles are `PuzzlePlay` rows (`services/plays.ts`): built
+  ones in the storing transaction, the rest reported by the device; `drawCandidates` leaves out
+  every word of them in that language (`player`), on top of the device's `exclude`. Per-word
+  states keep their first outcome.
 - **Generation (`services/entryGen.ts`):** English rules + native material from `lib/content/`.
   Diversity seeding (`entryPool.pickSeeding`): least-used subtopic, starting letters where the
   pool is thin, and the slice's existing words as the avoid list. Every item passes

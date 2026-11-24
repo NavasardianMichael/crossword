@@ -232,7 +232,7 @@
     "faq1Question": "O Palavras Cruzadas IA é gratuito?",
     "faq1Answer": "Todo mês você ganha 11 créditos grátis — o suficiente para um jogo médio — sem precisar se cadastrar, e fazer login adiciona mais 11. Depois disso, os jogos custam créditos, comprados avulso sem assinatura. Jogar uma partida que alguém compartilhou com você é sempre grátis.",
     "faq2Question": "Vou ver as mesmas palavras de novo?",
-    "faq2Answer": "Não. Seu aparelho guarda a lista das palavras que já mostrou e deixa elas de fora de cada grade nova. Se você limpar os dados do site no navegador, a lista começa do zero.",
+    "faq2Answer": "Não. Seu aparelho guarda a lista das palavras que já mostrou e deixa elas de fora de cada grade nova. Se você limpar os dados do site no navegador, a lista começa do zero. Se você entrar na sua conta, ela também guarda essa lista, em todos os seus aparelhos.",
     "faq3Question": "Em quais idiomas posso jogar?",
     "faq3Answer": "Em trinta e três idiomas, cada um com o próprio vocabulário escrito para quem fala essa língua, nunca traduzido de outra: inglês, espanhol, português, francês, alemão, italiano, neerlandês, polonês, tcheco, sueco, romeno, húngaro, indonésio, malaio, filipino, vietnamita, suaíli, russo, ucraniano, grego, árabe, persa, urdu, hebraico, hindi, marata, bengali, tâmil, tailandês, japonês, coreano, chinês e armênio.",
     "faq4Question": "Qual é a diferença entre palavras cruzadas e autodefinido?",
@@ -544,7 +544,7 @@
       {
         "title": "Palavras novas, sempre",
         "paragraphs": [
-          "Seu aparelho lembra as palavras que mostrou e não pede de novo. Cada grade nova é feita de palavras que você ainda não encontrou aqui."
+          "Seu aparelho lembra as palavras que mostrou e não pede de novo. Cada grade nova é feita de palavras que você ainda não encontrou aqui. Se você entrar na sua conta, ela também se lembra delas, então uma palavra que você viu no celular fica de fora das grades no computador."
         ]
       }
     ]
@@ -599,7 +599,7 @@
           },
           {
             "question": "Vou ver a mesma palavra duas vezes?",
-            "answer": "Não no mesmo dispositivo. O sistema lembra de até 4.000 palavras por idioma — o equivalente a cerca de 130 jogos — e as deixa de fora de cada novo jogo. Só depois disso as mais antigas voltam para a lista. Limpar os dados do site no navegador reinicia essa contagem."
+            "answer": "Não no mesmo dispositivo. O sistema lembra de até 4.000 palavras por idioma — o equivalente a cerca de 130 jogos — e as deixa de fora de cada novo jogo. Só depois disso as mais antigas voltam para a lista. Limpar os dados do site no navegador reinicia essa contagem. Se você entrar na sua conta, ela também guarda todas as palavras que você já viu, sem limite, e as deixa de fora em todos os seus dispositivos."
           },
           {
             "question": "Como a IA escreve as dicas?",
@@ -649,7 +649,7 @@
         "items": [
           {
             "question": "Quais dados vocês guardam?",
-            "answer": "Muito pouco. Seus jogos, progresso, configurações e lista de palavras vistas ficam apenas no seu navegador. O servidor armazena os jogos criados (para que um link compartilhado abra a mesma grade), denúncias de dicas com um hash anônimo do IP e estatísticas anônimas de solução. Sem nomes ou perfis."
+            "answer": "Muito pouco. Seus jogos, progresso, configurações e lista de palavras vistas ficam apenas no seu navegador. O servidor armazena os jogos criados (para que um link compartilhado abra a mesma grade), denúncias de dicas com um hash anônimo do IP e estatísticas anônimas de solução. Sem nomes ou perfis. Se você entrar na sua conta, ela também guarda quais jogos foram mostrados a você e como foi cada palavra, para que nenhuma palavra volte em outro dispositivo."
           },
           {
             "question": "Alguma informação minha é enviada para a IA?",
@@ -707,7 +707,8 @@
       {
         "title": "Contas e créditos",
         "paragraphs": [
-          "Se você criar uma conta, guardamos seu nome, e-mail e, ao entrar com o Google, a foto do seu perfil. Também mantemos seu saldo de créditos e o histórico: cada compra, jogo pago e reembolso."
+          "Se você criar uma conta, guardamos seu nome, e-mail e, ao entrar com o Google, a foto do seu perfil. Também mantemos seu saldo de créditos e o histórico: cada compra, jogo pago e reembolso.",
+          "Enquanto você estiver na sua conta, também guardamos os jogos que foram mostrados a você e como foi cada uma das palavras deles: resolvida, resolvida com uma letra revelada, revelada ou não resolvida. Assim, nenhuma palavra se repete em nenhum dos seus dispositivos. Os jogos feitos em um dispositivo antes de você entrar na conta nele também são incluídos."
         ]
       },
       {

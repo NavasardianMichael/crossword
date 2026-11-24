@@ -32,6 +32,11 @@ export type ResultPayload = { puzzleId: string; solved: boolean; revealedWordIds
 
 export type SendResultAPI = Endpoint<{ payload: ResultPayload; response: null; processed: null }>
 
+/** A puzzle this device was shown and its `WORD_STATES` codes, one per word. */
+export type PlayReport = { id: string; states: number[] }
+
+export type SyncPlaysAPI = Endpoint<{ payload: { plays: PlayReport[] }; response: { kept: number }; processed: null }>
+
 export type Sample = { word: string; clue: string; length: number }
 
 export type GetSamplesAPI = Endpoint<{ payload: { locale: Locale; topic: Topic }; response: Sample[]; processed: Sample[] }>

@@ -232,7 +232,7 @@
     "faq1Question": "Cruciverba IA è gratuito?",
     "faq1Answer": "Ogni mese ricevi 11 crediti gratuiti — abbastanza per un puzzle medio — senza registrazione, e accedendo ne aggiungi altri 11. Dopodiché, i puzzle costano crediti, che si acquistano una tantum senza abbonamento. Giocare a un puzzle condiviso da qualcuno è sempre gratis.",
     "faq2Question": "Rivedrò le stesse parole?",
-    "faq2Answer": "No. Il dispositivo tiene l’elenco delle parole già mostrate e le lascia fuori da ogni schema nuovo. Se cancelli i dati del sito nel browser, l’elenco ricomincia.",
+    "faq2Answer": "No. Il dispositivo tiene l’elenco delle parole già mostrate e le lascia fuori da ogni schema nuovo. Se cancelli i dati del sito nel browser, l’elenco ricomincia. Se hai effettuato l’accesso, anche il tuo account tiene l’elenco, su ogni dispositivo.",
     "faq3Question": "In quali lingue si può giocare?",
     "faq3Answer": "Trentatré lingue, ciascuna con il proprio vocabolario scritto per chi la parla, mai tradotto da un’altra: inglese, spagnolo, portoghese, francese, tedesco, italiano, olandese, polacco, ceco, svedese, rumeno, ungherese, indonesiano, malese, filippino, vietnamita, swahili, russo, ucraino, greco, arabo, persiano, urdu, ebraico, hindi, marathi, bengalese, tamil, thailandese, giapponese, coreano, cinese e armeno.",
     "faq4Question": "Che differenza c’è tra cruciverba e schema svedese?",
@@ -543,7 +543,7 @@
       {
         "title": "Parole nuove, ogni volta",
         "paragraphs": [
-          "Il dispositivo ricorda le parole che ti ha mostrato e non te le chiede più. Ogni schema nuovo è fatto di parole che qui non hai ancora incontrato."
+          "Il dispositivo ricorda le parole che ti ha mostrato e non te le chiede più. Ogni schema nuovo è fatto di parole che qui non hai ancora incontrato. Se hai effettuato l’accesso, se le ricorda anche il tuo account: una parola incontrata sul telefono resta fuori dagli schemi sul portatile."
         ]
       }
     ]
@@ -598,7 +598,7 @@
           },
           {
             "question": "Rivedrò mai la stessa parola due volte?",
-            "answer": "Non sullo stesso dispositivo. Memorizza fino a 4.000 parole per lingua — circa 130 puzzle — ed evita di ripeterle in ogni nuovo puzzle; solo dopo questo limite le più vecchie vengono rimosse dall'elenco. Cancellare i dati del sito dal browser azzera la lista."
+            "answer": "Non sullo stesso dispositivo. Memorizza fino a 4.000 parole per lingua — circa 130 puzzle — ed evita di ripeterle in ogni nuovo puzzle; solo dopo questo limite le più vecchie vengono rimosse dall'elenco. Cancellare i dati del sito dal browser azzera la lista. Se hai effettuato l'accesso, il tuo account conserva in più tutte le parole che hai visto, senza limiti, e le esclude su tutti i tuoi dispositivi."
           },
           {
             "question": "Come fa l'IA a scrivere le definizioni?",
@@ -648,7 +648,7 @@
         "items": [
           {
             "question": "Quali dati conservate?",
-            "answer": "Pochissimi. I tuoi puzzle, i progressi, le impostazioni e l'elenco delle parole viste rimangono nel tuo browser. Il server memorizza i puzzle creati (così un link condiviso apre la stessa griglia), le segnalazioni di definizioni con un hash unidirezionale dell'indirizzo IP e il numero di risoluzioni anonime. Nessun nome e nessun profilo."
+            "answer": "Pochissimi. I tuoi puzzle, i progressi, le impostazioni e l'elenco delle parole viste rimangono nel tuo browser. Il server memorizza i puzzle creati (così un link condiviso apre la stessa griglia), le segnalazioni di definizioni con un hash unidirezionale dell'indirizzo IP e il numero di risoluzioni anonime. Nessun nome e nessun profilo. Se accedi, il tuo account conserva anche quali puzzle ti sono stati proposti e com'è andata con ogni parola, così nessuna parola ricompare su un altro dispositivo."
           },
           {
             "question": "Viene inviato qualcosa su di me all'IA?",
@@ -706,7 +706,8 @@
       {
         "title": "Account e crediti",
         "paragraphs": [
-          "Se crei un account, conserviamo il tuo nome, l'indirizzo email e, quando accedi con Google, la foto del tuo profilo Google. Conserviamo anche il saldo dei tuoi crediti e la relativa cronologia: ogni acquisto, ogni puzzle pagato e ogni rimborso."
+          "Se crei un account, conserviamo il tuo nome, l'indirizzo email e, quando accedi con Google, la foto del tuo profilo Google. Conserviamo anche il saldo dei tuoi crediti e la relativa cronologia: ogni acquisto, ogni puzzle pagato e ogni rimborso.",
+          "Quando hai effettuato l'accesso, conserviamo anche i puzzle che ti sono stati proposti e com'è andata con ciascuna delle loro parole: risolta, risolta con una lettera rivelata, rivelata o non risolta. Così nessuna parola si ripete su nessuno dei tuoi dispositivi. Si aggiungono anche i puzzle giocati su un dispositivo prima di accedere da lì."
         ]
       },
       {

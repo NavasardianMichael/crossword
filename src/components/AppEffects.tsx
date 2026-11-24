@@ -5,6 +5,7 @@ import { useTranslations } from 'next-intl'
 import { useAuthStore } from '@store/auth/store'
 import { useBillingStore, useBillingStoreBase } from '@store/billing/store'
 import { usePlayStore } from '@store/puzzle/play/store'
+import { usePlaysStore } from '@store/puzzle/plays/store'
 import { toast } from '@store/toast/store'
 
 /** Re-reading the balance on every tab switch would be wasteful; this often is plenty. */
@@ -15,6 +16,7 @@ const BILLING_REFRESH_GAP_MS = 30_000
  * - hydrate persisted play settings (the server render assumes defaults);
  * - read the session, then the balance and free puzzle of whoever it turned out to be, and
  *   re-read them when the tab comes back into view or the connection returns;
+ * - once someone is signed in, report this device's games to the account's seen-list;
  * - say so when the connection comes back.
  */
 export const AppEffects = () => {
@@ -23,6 +25,7 @@ export const AppEffects = () => {
   const resolved = useAuthStore.use.isResolved()
   const userId = useAuthStore((state) => state.user?.id)
   const refreshBilling = useBillingStore.use.refresh()
+  const syncPlays = usePlaysStore.use.sync()
   const t = useTranslations('Common')
 
   useEffect(() => {
@@ -37,6 +40,11 @@ export const AppEffects = () => {
   useEffect(() => {
     if (resolved) void refreshBilling()
   }, [resolved, userId, refreshBilling])
+
+  // Games played as a guest, or while a report could not get through, join the account.
+  useEffect(() => {
+    if (resolved && userId) void syncPlays()
+  }, [resolved, userId, syncPlays])
 
   // The header balance also changes away from this tab: credits spent or bought in another tab,
   // a purchase whose webhook landed after the payment page stopped waiting, a refund. Coming back

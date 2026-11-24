@@ -232,7 +232,7 @@
     "faq1Question": "Adakah Silang Kata AI percuma?",
     "faq1Answer": "Setiap bulan anda mendapat 11 kredit percuma — cukup untuk satu teka-teki sederhana — tanpa perlu mendaftar, dan log masuk menambah 11 lagi. Selepas itu, teka-teki memerlukan kredit yang dibeli sekali sahaja tanpa langganan. Memainkan teka-teki yang dikongsi oleh orang lain sentiasa percuma.",
     "faq2Question": "Adakah saya akan nampak perkataan yang sama lagi?",
-    "faq2Answer": "Tidak. Peranti anda menyimpan senarai perkataan yang sudah ditunjukkan dan meninggalkannya daripada setiap teka baharu. Jika anda padam data laman pada pelayar, senarai itu bermula semula.",
+    "faq2Answer": "Tidak. Peranti anda menyimpan senarai perkataan yang sudah ditunjukkan dan meninggalkannya daripada setiap teka baharu. Jika anda padam data laman pada pelayar, senarai itu bermula semula. Jika anda log masuk, akaun anda turut menyimpan senarai itu, pada setiap peranti.",
     "faq3Question": "Bahasa apa yang boleh saya main?",
     "faq3Answer": "Tiga puluh tiga bahasa, masing-masing dengan himpunan perkataan sendiri untuk penuturnya, tidak pernah diterjemah dari bahasa lain: Inggeris, Sepanyol, Portugis, Perancis, Jerman, Itali, Belanda, Poland, Czech, Sweden, Romania, Hungary, Indonesia, Melayu, Filipino, Vietnam, Swahili, Rusia, Ukraine, Yunani, Arab, Parsi, Urdu, Ibrani, Hindi, Marathi, Bengali, Tamil, Thai, Jepun, Korea, Cina dan Armenia. Bahasa Melayu di sini ialah Bahasa Melayu Malaysia, bukan Indonesia.",
     "faq4Question": "Apa bezanya teka silang kata dengan teka petak?",
@@ -543,7 +543,7 @@
       {
         "title": "Perkataan baharu, setiap kali",
         "paragraphs": [
-          "Peranti anda mengingati perkataan yang telah ditunjukkan dan tidak memintanya lagi. Setiap teka baharu terdiri daripada perkataan yang belum anda temui di sini."
+          "Peranti anda mengingati perkataan yang telah ditunjukkan dan tidak memintanya lagi. Setiap teka baharu terdiri daripada perkataan yang belum anda temui di sini. Apabila log masuk, akaun anda turut mengingatinya, jadi perkataan yang anda temui pada telefon tidak akan muncul dalam teka pada komputer riba anda."
         ]
       }
     ]
@@ -598,7 +598,7 @@
           },
           {
             "question": "Adakah saya akan melihat perkataan yang sama dua kali?",
-            "answer": "Tidak pada peranti yang sama. Ia mengingati sehingga 4,000 perkataan setiap bahasa — kira-kira bernilai 130 teka-teki — dan mengelakkannya daripada teka-teki baharu; hanya selepas itu perkataan tertua dikeluarkan daripada senarai. Membersihkan data tapak pelayar anda akan memulakan semula senarai tersebut."
+            "answer": "Tidak pada peranti yang sama. Ia mengingati sehingga 4,000 perkataan setiap bahasa — kira-kira bernilai 130 teka-teki — dan mengelakkannya daripada teka-teki baharu; hanya selepas itu perkataan tertua dikeluarkan daripada senarai. Membersihkan data tapak pelayar anda akan memulakan semula senarai tersebut. Jika anda log masuk, akaun anda juga menyimpan setiap perkataan yang pernah ditunjukkan kepada anda, tanpa had, dan mengelakkannya pada semua peranti anda."
           },
           {
             "question": "Bagaimanakah AI menulis petunjuk?",
@@ -648,7 +648,7 @@
         "items": [
           {
             "question": "Apakah data yang anda simpan?",
-            "answer": "Sangat sedikit. Teka-teki, kemajuan, tetapan dan senarai perkataan yang telah dilihat kekal dalam pelayar anda. Pelayan menyimpan teka-teki yang dicipta (supaya pautan yang dikongsi membuka kisi yang sama), laporan petunjuk dengan hash satu arah alamat IP, dan bilangan penyelesaian tanpa nama. Tiada nama dan tiada profil."
+            "answer": "Sangat sedikit. Teka-teki, kemajuan, tetapan dan senarai perkataan yang telah dilihat kekal dalam pelayar anda. Pelayan menyimpan teka-teki yang dicipta (supaya pautan yang dikongsi membuka kisi yang sama), laporan petunjuk dengan hash satu arah alamat IP, dan bilangan penyelesaian tanpa nama. Tiada nama dan tiada profil. Jika anda log masuk, akaun anda juga menyimpan teka-teki yang ditunjukkan kepada anda dan keputusan setiap perkataan, supaya tiada perkataan yang muncul semula pada peranti lain."
           },
           {
             "question": "Adakah sebarang maklumat peribadi saya dihantar kepada AI?",
@@ -706,7 +706,8 @@
       {
         "title": "Akaun dan kredit",
         "paragraphs": [
-          "Jika anda mencipta akaun, kami menyimpan nama anda, alamat e-mel anda dan, apabila anda log masuk dengan Google, gambar profil Google anda. Kami juga menyimpan baki kredit anda dan sejarahnya: setiap pembelian, setiap teka-teki yang dibayar dan setiap bayaran balik."
+          "Jika anda mencipta akaun, kami menyimpan nama anda, alamat e-mel anda dan, apabila anda log masuk dengan Google, gambar profil Google anda. Kami juga menyimpan baki kredit anda dan sejarahnya: setiap pembelian, setiap teka-teki yang dibayar dan setiap bayaran balik.",
+          "Semasa anda log masuk, kami juga menyimpan teka-teki yang ditunjukkan kepada anda dan keputusan setiap perkataannya: diselesaikan, diselesaikan dengan huruf yang didedahkan, didedahkan atau tidak diselesaikan. Dengan itu, tiada perkataan yang berulang pada mana-mana peranti anda. Teka-teki yang dimainkan pada sesebuah peranti sebelum anda log masuk di situ turut ditambah."
         ]
       },
       {

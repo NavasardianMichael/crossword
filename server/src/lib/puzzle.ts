@@ -124,6 +124,17 @@ export const MAX_WORD_LENGTH = 14
 /** Seen entry ids a device keeps per locale and sends as `exclude`: about 130 puzzles. */
 export const MAX_EXCLUDE = 4000
 
+/**
+ * How each word of a puzzle went for a signed-in player, one byte per word in the puzzle's word
+ * order (`PuzzlePlay.states`): `open` until the word is right; then `solved` with no letter
+ * revealed, `helped` with some, `revealed` with every one. The first outcome stays.
+ */
+export const WORD_STATES = ['open', 'solved', 'helped', 'revealed'] as const
+export type WordState = (typeof WORD_STATES)[number]
+
+/** Puzzles in one `POST /puzzles/plays`. */
+export const MAX_SYNCED_PLAYS = 50
+
 /** A full clue (classic lists) and a short one (scanword cells). */
 export const MAX_CLUE_LENGTH = 90
 export const MAX_SHORT_CLUE_LENGTH = 24

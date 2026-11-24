@@ -232,7 +232,7 @@
     "faq1Question": "Czy Krzyżówki AI są darmowe?",
     "faq1Answer": "Co miesiąc dostajesz 11 darmowych kredytów — wystarczy na średnią łamigłówkę — bez rejestracji, a zalogowanie się dodaje kolejne 11. Potem łamigłówki kosztują kredyty, kupowane jednorazowo bez subskrypcji. Gra w łamigłówkę udostępnioną przez kogoś jest zawsze darmowa.",
     "faq2Question": "Czy zobaczę te same słowa jeszcze raz?",
-    "faq2Answer": "Nie. Urządzenie trzyma listę słów już pokazanych i pomija je w każdym nowym diagramie. Jeśli wyczyścisz dane strony w przeglądarce, lista zaczyna się od nowa.",
+    "faq2Answer": "Nie. Urządzenie trzyma listę słów już pokazanych i pomija je w każdym nowym diagramie. Jeśli wyczyścisz dane strony w przeglądarce, lista zaczyna się od nowa. Po zalogowaniu tę listę prowadzi też twoje konto, na każdym urządzeniu.",
     "faq3Question": "W jakich językach można grać?",
     "faq3Answer": "W trzydziestu trzech językach, każdy z własnym zbiorem słów pisanym dla jego użytkowników, nigdy przekładanym: angielski, hiszpański, portugalski, francuski, niemiecki, włoski, niderlandzki, polski, czeski, szwedzki, rumuński, węgierski, indonezyjski, malajski, filipiński, wietnamski, suahili, rosyjski, ukraiński, grecki, arabski, perski, urdu, hebrajski, hindi, marathi, bengalski, tamilski, tajski, japoński, koreański, chiński i ormiański.",
     "faq4Question": "Czym krzyżówka różni się od szwedzkiej?",
@@ -543,7 +543,7 @@
       {
         "title": "Świeże słowa, za każdym razem",
         "paragraphs": [
-          "Urządzenie pamięta słowa, które ci pokazało, i już o nie nie pyta. Każdy nowy diagram składa się ze słów, których tu jeszcze nie spotkałeś."
+          "Urządzenie pamięta słowa, które ci pokazało, i już o nie nie pyta. Każdy nowy diagram składa się ze słów, których tu jeszcze nie spotkałeś. Po zalogowaniu pamięta je też twoje konto, więc słowo, które spotkałeś na telefonie, nie trafi do diagramów na laptopie."
         ]
       }
     ]
@@ -598,7 +598,7 @@
           },
           {
             "question": "Czy kiedykolwiek zobaczę to samo słowo dwa razy?",
-            "answer": "Nie na tym samym urządzeniu. System zapamiętuje do 4000 słów na język — co wystarcza na około 130 łamigłówek — i pomija je w każdej nowej gry; dopiero po osiągnięciu tego limitu najstarsze słowa usuwane są z listy. Wyczyszczenie danych strony w przeglądarce resetuje tę listę."
+            "answer": "Nie na tym samym urządzeniu. System zapamiętuje do 4000 słów na język — co wystarcza na około 130 łamigłówek — i pomija je w każdej nowej gry; dopiero po osiągnięciu tego limitu najstarsze słowa usuwane są z listy. Wyczyszczenie danych strony w przeglądarce resetuje tę listę. Po zalogowaniu Twoje konto zapamiętuje też każde pokazane Ci słowo, bez limitu, i pomija je na wszystkich Twoich urządzeniach."
           },
           {
             "question": "Jak AI tworzy definicje haseł?",
@@ -648,7 +648,7 @@
         "items": [
           {
             "question": "Jakie dane przechowujecie?",
-            "answer": "Bardzo mało. Twoje łamigłówki, postępy, ustawienia i lista widzianych słów pozostają w Twojej przeglądarce. Serwer przechowuje utworzone łamigłówki (aby udostępniony link otwierał tę samą siatkę), zgłoszenia haseł z jednokierunkowym hashem adresu IP oraz anonimowe statystyki rozwiązań. Bez nazwisk i bez profili."
+            "answer": "Bardzo mało. Twoje łamigłówki, postępy, ustawienia i lista widzianych słów pozostają w Twojej przeglądarce. Serwer przechowuje utworzone łamigłówki (aby udostępniony link otwierał tę samą siatkę), zgłoszenia haseł z jednokierunkowym hashem adresu IP oraz anonimowe statystyki rozwiązań. Bez nazwisk i bez profili. Jeśli się zalogujesz, Twoje konto przechowuje też informacje o tym, jakie łamigłówki Ci pokazano i jak poszło Ci z każdym słowem, aby żadne słowo nie wróciło na innym urządzeniu."
           },
           {
             "question": "Czy jakiekolwiek dane o mnie są wysyłane do AI?",
@@ -706,7 +706,8 @@
       {
         "title": "Konta i kredyty",
         "paragraphs": [
-          "Jeśli utworzysz konto, przechowujemy Twoje imię i nazwisko, adres e-mail oraz, gdy logujesz się przez Google, Twoje zdjęcie profilowe z Google. Przechowujemy również Twoje saldo kredytów i jego historię: zakup, opłaconą łamigłówkę i każdy zwrot."
+          "Jeśli utworzysz konto, przechowujemy Twoje imię i nazwisko, adres e-mail oraz, gdy logujesz się przez Google, Twoje zdjęcie profilowe z Google. Przechowujemy również Twoje saldo kredytów i jego historię: zakup, opłaconą łamigłówkę i każdy zwrot.",
+          "Po zalogowaniu przechowujemy też informacje o tym, jakie łamigłówki Ci pokazaliśmy i jak poszło Ci z każdym ich słowem: rozwiązane, rozwiązane z odkrytą literą, odkryte albo nierozwiązane. Dzięki temu żadne słowo nie powtórzy się na żadnym z Twoich urządzeń. Dodajemy również łamigłówki rozegrane na danym urządzeniu przed pierwszym zalogowaniem się na nim."
         ]
       },
       {

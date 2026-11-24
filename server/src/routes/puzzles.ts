@@ -11,13 +11,16 @@ import {
   isTopicChoice,
   MAX_EXCLUDE,
   MAX_REPORT_NOTE,
+  MAX_SYNCED_PLAYS,
   puzzleCredits,
 } from '../lib/puzzle.js'
 import { asIdArray, asInteger, asTrimmedString, isPuzzleId, reporterKeyFor } from '../lib/request.js'
+import { requireAuth, sessionOf } from '../middleware/auth.js'
 import { asyncHandler, HttpError } from '../middleware/error.js'
 import { accountRateLimit, rateLimit } from '../middleware/rateLimit.js'
 import { assertCanPay, chargeForPuzzle } from '../services/billing.js'
 import { recordResult, reportEntry } from '../services/entryPool.js'
+import { isStateList, MAX_PUZZLE_WORDS, type PlayReport, savePlays } from '../services/plays.js'
 import { buildPuzzle, getPuzzle, puzzleWordRefs } from '../services/puzzleBuilder.js'
 
 export const puzzlesRouter = Router()
@@ -53,7 +56,8 @@ puzzlesRouter.post(
     if (!isSize(size)) return fail(res, 'Unsupported size', 400)
 
     const exclude = asIdArray(req.body?.exclude, MAX_EXCLUDE)
-    if (!config.billing.enabled) return ok(res, await buildPuzzle({ locale, format, topic, difficulty, size, exclude }), 201)
+    const player = req.session?.userId
+    if (!config.billing.enabled) return ok(res, await buildPuzzle({ locale, format, topic, difficulty, size, exclude, player }), 201)
 
     const payer = payerOf(req, res)
     const holder = 'userId' in payer ? `user:${payer.userId}` : `guest:${payer.guestId}`
@@ -69,7 +73,7 @@ puzzlesRouter.post(
       res.on('close', () => {
         if (!res.writableFinished) abandoned = true
       })
-      const request = { locale, format, topic, difficulty, size, exclude, free: paidWith === 'free' }
+      const request = { locale, format, topic, difficulty, size, exclude, player, free: paidWith === 'free' }
       const puzzle = await buildPuzzle(request, (tx, puzzleId, builtSize) => {
         if (abandoned) throw new HttpError(499, 'Client closed the request', 499)
         return chargeForPuzzle(tx, payer, puzzleCredits(builtSize, difficulty), puzzleId)
@@ -80,6 +84,27 @@ puzzlesRouter.post(
       if (left > 0) building.set(holder, left)
       else building.delete(holder)
     }
+  })
+)
+
+/**
+ * POST /puzzles/plays — a signed-in device reporting puzzles it was shown and how each word went
+ * (`{ plays: [{ id, states }] }`, `states` one `WORD_STATES` index per word). Joins them to
+ * the account's seen-list; answers how many were kept.
+ */
+puzzlesRouter.post(
+  '/plays',
+  rateLimit('plays', { limit: 600, windowMs: 60 * 60 * 1000 }),
+  requireAuth,
+  asyncHandler(async (req, res) => {
+    const plays: unknown = req.body?.plays
+    if (!Array.isArray(plays) || !plays.length || plays.length > MAX_SYNCED_PLAYS) return fail(res, 'Invalid plays', 400)
+    const reports: PlayReport[] = []
+    for (const play of plays as { id?: unknown; states?: unknown }[]) {
+      if (!isPuzzleId(play?.id) || !isStateList(play.states, MAX_PUZZLE_WORDS)) return fail(res, 'Invalid plays', 400)
+      reports.push({ id: play.id, states: play.states })
+    }
+    return ok(res, { kept: await savePlays(sessionOf(req).userId, reports) })
   })
 )
 

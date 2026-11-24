@@ -30,6 +30,7 @@ const { PrismaClient } = createRequire(path.join(SERVER_DIR, 'package.json'))('@
 }
 
 const TABLES = [
+  'PuzzlePlay',
   'EntryReport',
   'Clue',
   'Entry',

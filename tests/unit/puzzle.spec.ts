@@ -1,8 +1,8 @@
 import { describe, expect, it } from 'vitest'
 import { ALPHABETS, COMBINERS, foldTyped, OPEN_LOCALES } from '@constants/alphabet'
 import { KEY_CODE_LETTERS, KEYBOARD_ROWS } from '@constants/keyboards'
-import { LOCALES, type PuzzleView } from '@constants/puzzle'
-import { checkCells, isSolved, MARK_LOCKED, MARK_REVEALED, MARK_WRONG, revealCells } from '@helpers/puzzle/check'
+import { LOCALES, type PuzzleView, WORD_STATES } from '@constants/puzzle'
+import { checkCells, isSolved, MARK_LOCKED, MARK_REVEALED, MARK_WRONG, revealCells, wordStates } from '@helpers/puzzle/check'
 import { activeWord, afterType, moveCursor, nextWord, previousInWord, selectCell } from '@helpers/puzzle/cursor'
 import { buildModel } from '@helpers/puzzle/model'
 import { mergeSeen } from '@helpers/puzzle/seen'
@@ -101,6 +101,42 @@ describe('check and reveal', () => {
   it('is solved only when every letter matches', () => {
     expect(isSolved(puzzle, ['c', 'a', 't', 'o', '', '', 'w', '', ''])).toBe(true)
     expect(isSolved(puzzle, ['c', 'a', 't', 'o', '', '', '', '', ''])).toBe(false)
+  })
+})
+
+describe('word states', () => {
+  const states = (entries: string[], marks: number[]) => wordStates(puzzle, model.wordCells, entries, marks).map((code) => WORD_STATES[code])
+
+  it('keeps a word open until every letter is right', () => {
+    const entries = empty()
+    entries[0] = 'c'
+    entries[1] = 'a'
+    entries[2] = 'x'
+    expect(states(entries, new Array<number>(9).fill(0))).toEqual(['open', 'open'])
+  })
+
+  it('tells a word solved alone from one helped by a revealed crossing letter, and from one revealed', () => {
+    const entries = empty()
+    const marks = new Array<number>(9).fill(0)
+    entries[0] = 'c'
+    entries[1] = 'a'
+    entries[2] = 't'
+    expect(states(entries, marks)).toEqual(['solved', 'open'])
+
+    // Revealing COW also flags the unchecked C it shares with CAT.
+    revealCells(puzzle, entries, marks, model.wordCells[1]!)
+    expect(states(entries, marks)).toEqual(['helped', 'revealed'])
+  })
+
+  it('leaves a checked letter the player typed as theirs when the crossing word is revealed', () => {
+    const entries = empty()
+    const marks = new Array<number>(9).fill(0)
+    entries[0] = 'c'
+    entries[1] = 'a'
+    entries[2] = 't'
+    checkCells(puzzle, entries, marks, model.wordCells[0]!)
+    revealCells(puzzle, entries, marks, model.wordCells[1]!)
+    expect(states(entries, marks)).toEqual(['solved', 'helped'])
   })
 })
 

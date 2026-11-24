@@ -232,7 +232,7 @@
     "faq1Question": "Är Korsord AI gratis?",
     "faq1Answer": "Varje månad får du 11 gratiskrediter — det räcker till ett medelstort pussel — helt utan konto, och loggar du in får du 11 till. Därefter kostar pusslen krediter som köps som engångsköp utan prenumeration. Att spela ett pussel som någon delat med dig är alltid gratis.",
     "faq2Question": "Får jag samma ord igen?",
-    "faq2Answer": "Nej. Enheten har en lista över ord den redan visat och lämnar dem utanför varje nytt korsord. Rensar du webbplatsens data börjar listan om.",
+    "faq2Answer": "Nej. Enheten har en lista över ord den redan visat och lämnar dem utanför varje nytt korsord. Rensar du webbplatsens data börjar listan om. Är du inloggad sparar ditt konto listan också, på alla dina enheter.",
     "faq3Question": "Vilka språk kan jag spela på?",
     "faq3Answer": "Trettiotre språk, vart och ett med en egen ordskatt skriven för sina talare, aldrig översatt från ett annat: engelska, spanska, portugisiska, franska, tyska, italienska, nederländska, polska, tjeckiska, svenska, rumänska, ungerska, indonesiska, malajiska, filippinska, vietnamesiska, swahili, ryska, ukrainska, grekiska, arabiska, persiska, urdu, hebreiska, hindi, marathi, bengali, tamil, thailändska, japanska, koreanska, kinesiska och armeniska.",
     "faq4Question": "Vad är skillnaden mellan ett korsord och ett rutkorsord?",
@@ -543,7 +543,7 @@
       {
         "title": "Färska ord, varje gång",
         "paragraphs": [
-          "Enheten minns orden den visat och ber aldrig om dem igen. Varje nytt korsord består av ord du inte mött här än."
+          "Enheten minns orden den visat och ber aldrig om dem igen. Varje nytt korsord består av ord du inte mött här än. Är du inloggad minns ditt konto dem också, så ett ord du mött i mobilen dyker inte upp i korsorden på den bärbara datorn."
         ]
       }
     ]
@@ -598,7 +598,7 @@
           },
           {
             "question": "Kommer jag någonsin att se samma ord två gånger?",
-            "answer": "Inte på samma enhet. Den kommer ihåg upp till 4 000 ord per språk — vilket motsvarar ungefär 130 pussel — och utesluter dem från alla nya pussel; först därefter tas de äldsta orden bort från listan. Om du rensar webbplatsdata i webbläsaren börjar listan om."
+            "answer": "Inte på samma enhet. Den kommer ihåg upp till 4 000 ord per språk — vilket motsvarar ungefär 130 pussel — och utesluter dem från alla nya pussel; först därefter tas de äldsta orden bort från listan. Om du rensar webbplatsdata i webbläsaren börjar listan om. Är du inloggad sparar ditt konto dessutom alla ord du har fått se, utan gräns, och utesluter dem på alla dina enheter."
           },
           {
             "question": "Hur skriver AI ledtrådarna?",
@@ -648,7 +648,7 @@
         "items": [
           {
             "question": "Vilka data sparar ni?",
-            "answer": "Väldigt lite. Dina pussel, framsteg, inställningar och listan över sedda ord ligger kvar i din webbläsare. Servern sparar pusslen som skapas (så att en delad länk öppnar samma rutnät), ledtrådsrapporter med en envägshash av IP-adressen samt anonym lösningsstatistik. Inga namn och inga profiler."
+            "answer": "Väldigt lite. Dina pussel, framsteg, inställningar och listan över sedda ord ligger kvar i din webbläsare. Servern sparar pusslen som skapas (så att en delad länk öppnar samma rutnät), ledtrådsrapporter med en envägshash av IP-adressen samt anonym lösningsstatistik. Inga namn och inga profiler. Om du loggar in sparar ditt konto även vilka pussel du har fått och hur det gick med varje ord, så att inget ord dyker upp igen på en annan enhet."
           },
           {
             "question": "Skickas något om mig till AI:n?",
@@ -706,7 +706,8 @@
       {
         "title": "Konton och krediter",
         "paragraphs": [
-          "Om du skapar ett konto sparar vi ditt namn, din e-postadress och, om du loggar in med Google, din Google-profilbild. Vi sparar även ditt kreditsaldo och dess historik: varje köp, varje betalt pussel och varje återbetalning."
+          "Om du skapar ett konto sparar vi ditt namn, din e-postadress och, om du loggar in med Google, din Google-profilbild. Vi sparar även ditt kreditsaldo och dess historik: varje köp, varje betalt pussel och varje återbetalning.",
+          "Så länge du är inloggad sparar vi också vilka pussel du har fått och hur det gick med vart och ett av deras ord: löst, löst med en avslöjad bokstav, avslöjat eller olöst. På så sätt upprepas inget ord på någon av dina enheter. Pussel som du har spelat på en enhet innan du loggade in där läggs också till."
         ]
       },
       {

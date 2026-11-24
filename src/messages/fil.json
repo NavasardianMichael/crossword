@@ -232,7 +232,7 @@
     "faq1Question": "Libre ba ang Krusigrama AI?",
     "faq1Answer": "Bawat buwan, may 11 libreng credit ka — sapat para sa isang katamtamang puzzle — kahit walang sign-up, at ang pag-sign in ay nagdaragdag ng 11 pa. Pagkatapos noon, ang mga puzzle ay nagkakahalaga ng credits, na binibili nang minsan lang at walang subscription. Libre palaging laruin ang puzzle na ibinahagi sa iyo ng iba.",
     "faq2Question": "Makikita ko ba ulit ang parehong salita?",
-    "faq2Answer": "Hindi. May listahan ang aparato ng mga salitang naipakita na, at iniiwan ang mga iyon sa bawat bagong palaisipan. Kapag binura mo ang data ng site sa browser, magsisimula ulit ang listahan.",
+    "faq2Answer": "Hindi. May listahan ang aparato ng mga salitang naipakita na, at iniiwan ang mga iyon sa bawat bagong palaisipan. Kapag binura mo ang data ng site sa browser, magsisimula ulit ang listahan. Kung naka-sign in ka, hawak din ng account mo ang listahan, sa bawat aparato.",
     "faq3Question": "Sa anong mga wika puwedeng maglaro?",
     "faq3Answer": "Sa tatlumpu't tatlong wika, bawat isa ay may sariling pulutong ng salita para sa mga nagsasalita nito, hindi kailanman isinalin mula sa iba: Ingles, Espanyol, Portuges, Pranses, Aleman, Italyano, Olandes, Polako, Tseko, Suweko, Rumano, Unggaro, Indones, Malay, Filipino, Biyetnames, Swahili, Ruso, Ukranyano, Griyego, Arabe, Persa, Urdu, Hebreo, Hindi, Marathi, Bengali, Tamil, Tay, Hapones, Koreano, Tsino at Armenyo.",
     "faq4Question": "Ano ang pagkakaiba ng krusigrama at skanword?",
@@ -543,7 +543,7 @@
       {
         "title": "Bagong salita, sa bawat beses",
         "paragraphs": [
-          "Natatandaan ng aparato ang mga salitang ipinakita nito at hindi na ito hinihingi ulit. Ang bawat bagong palaisipan ay gawa sa mga salitang hindi mo pa natatagpo rito."
+          "Natatandaan ng aparato ang mga salitang ipinakita nito at hindi na ito hinihingi ulit. Ang bawat bagong palaisipan ay gawa sa mga salitang hindi mo pa natatagpo rito. Kapag naka-sign in ka, natatandaan din ito ng account mo, kaya ang salitang natagpuan mo sa telepono ay hindi lalabas sa palaisipan sa laptop mo."
         ]
       }
     ]
@@ -598,7 +598,7 @@
           },
           {
             "question": "Makakakita pa ba ako ng parehong salita nang dalawang beses?",
-            "answer": "Hindi sa parehong device. Natatandaan nito ang hanggang 4,000 salita bawat wika — humigit-kumulang 130 puzzle ang katumbas — at hindi na isinasama ang mga ito sa mga bagong puzzle; kapag napuno na, tsaka pa lang matatanggal sa listahan ang pinakamatatanda. Ang pag-clear ng site data sa browser mo ay magre-reset ng listahan."
+            "answer": "Hindi sa parehong device. Natatandaan nito ang hanggang 4,000 salita bawat wika — humigit-kumulang 130 puzzle ang katumbas — at hindi na isinasama ang mga ito sa mga bagong puzzle; kapag napuno na, tsaka pa lang matatanggal sa listahan ang pinakamatatanda. Ang pag-clear ng site data sa browser mo ay magre-reset ng listahan. Kung naka-sign in ka, itinatago rin ng iyong account ang bawat salitang ipinakita sa iyo, nang walang limitasyon, at hindi na isinasama ang mga ito sa lahat ng iyong device."
           },
           {
             "question": "Paano isinusulat ng AI ang mga clue?",
@@ -648,7 +648,7 @@
         "items": [
           {
             "question": "Anong data ang itinatago ninyo?",
-            "answer": "Kakaunti lang. Ang iyong mga puzzle, progress, setting, at listahan ng nakitang salita ay nananatili sa iyong browser. Ang server ay nag-iimbak ng mga puzzle na ginawa (upang ang ibinahaging link ay magbukas ng parehong grid), mga report ng clue na may one-way hash ng IP address, at anonimong bilang ng pagtatapos. Walang mga pangalan at walang mga profile."
+            "answer": "Kakaunti lang. Ang iyong mga puzzle, progress, setting, at listahan ng nakitang salita ay nananatili sa iyong browser. Ang server ay nag-iimbak ng mga puzzle na ginawa (upang ang ibinahaging link ay magbukas ng parehong grid), mga report ng clue na may one-way hash ng IP address, at anonimong bilang ng pagtatapos. Walang mga pangalan at walang mga profile. Kung mag-sign in ka, itinatago rin ng iyong account kung aling mga puzzle ang ipinakita sa iyo at kung paano nauwi ang bawat salita, kaya walang salitang babalik sa ibang device."
           },
           {
             "question": "Mayroon bang anumang impormasyon tungkol sa akin na ipinapadala sa AI?",
@@ -706,7 +706,8 @@
       {
         "title": "Mga account at credits",
         "paragraphs": [
-          "Kung gagawa ka ng account, itinatago namin ang iyong pangalan, email address, at kapag nag-sign in ka gamit ang Google, ang larawan ng iyong Google profile. Itinatago rin namin ang balance ng iyong credit at ang kasaysayan nito: bawat pagbili, bawat puzzle na binayaran, at bawat refund."
+          "Kung gagawa ka ng account, itinatago namin ang iyong pangalan, email address, at kapag nag-sign in ka gamit ang Google, ang larawan ng iyong Google profile. Itinatago rin namin ang balance ng iyong credit at ang kasaysayan nito: bawat pagbili, bawat puzzle na binayaran, at bawat refund.",
+          "Habang naka-sign in ka, itinatago rin namin ang mga puzzle na ipinakita sa iyo at kung paano nauwi ang bawat salita sa mga ito: nalutas, nalutas gamit ang isang nabunyag na titik, nabunyag, o hindi nalutas. Sa ganitong paraan, walang salitang mauulit sa alinman sa iyong mga device. Idinaragdag din ang mga puzzle na nilaro sa isang device bago ka nag-sign in doon."
         ]
       },
       {
