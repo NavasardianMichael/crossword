@@ -181,8 +181,8 @@ test('leaving an unfinished game asks first', async ({ page }) => {
   // The language switch lives in the site header, which the game layout hides.
   if (!game) {
     asked = refuseNextDialog(page)
-    await page.getByRole('button', { name: 'Choose language' }).click()
-    await page.getByRole('menuitem', { name: 'Русский' }).click()
+    await page.getByLabel('Choose language').click()
+    await page.getByRole('banner').getByRole('link', { name: 'Русский', exact: true }).click()
     expect(await asked).toBe('confirm')
     await expect(page.getByRole('grid')).toBeVisible()
     expect(page.url()).toBe(board)
