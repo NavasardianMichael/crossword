@@ -1,0 +1,5002 @@
+[
+  {
+    "word": "cinta",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Perasaan kasih yang mendalam terhadap seseorang",
+    "shortClue": "Rasa kasih"
+  },
+  {
+    "word": "sedih",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Perasaan pilu apabila ditimpa kesusahan",
+    "shortClue": "Hati pilu"
+  },
+  {
+    "word": "rindu",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Perasaan ingin bertemu orang yang jauh",
+    "shortClue": "Ingin bertemu"
+  },
+  {
+    "word": "marah",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Perasaan berang apabila diperlakukan tidak adil",
+    "shortClue": "Rasa berang"
+  },
+  {
+    "word": "takut",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Perasaan gentar apabila menghadapi bahaya",
+    "shortClue": "Rasa gentar"
+  },
+  {
+    "word": "malu",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Perasaan segan apabila dilihat ramai orang",
+    "shortClue": "Rasa segan"
+  },
+  {
+    "word": "sabar",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Tenang menanggung dugaan tanpa mengeluh",
+    "shortClue": "Tenang tabah"
+  },
+  {
+    "word": "jujur",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Sifat berkata benar dan tidak menipu",
+    "shortClue": "Tidak menipu"
+  },
+  {
+    "word": "rajin",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Sifat suka bekerja dan tidak berlengah",
+    "shortClue": "Suka bekerja"
+  },
+  {
+    "word": "malas",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Enggan bekerja atau berusaha",
+    "shortClue": "Enggan bekerja"
+  },
+  {
+    "word": "bijak",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Cerdik dan arif mengambil keputusan",
+    "shortClue": "Cerdik dan arif"
+  },
+  {
+    "word": "kawan",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Orang yang rapat dan sering bersama kita",
+    "shortClue": "Teman rapat"
+  },
+  {
+    "word": "abang",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Saudara lelaki yang lebih tua daripada kita",
+    "shortClue": "Saudara tua"
+  },
+  {
+    "word": "kakak",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Saudara perempuan yang lebih tua daripada kita",
+    "shortClue": "Saudara perempuan"
+  },
+  {
+    "word": "nenek",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Ibu kepada ibu atau bapa kita",
+    "shortClue": "Orang tua wanita"
+  },
+  {
+    "word": "datuk",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Bapa kepada ibu atau bapa kita",
+    "shortClue": "Bapa kepada bapa"
+  },
+  {
+    "word": "pagi",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Waktu selepas fajar hingga tengah hari",
+    "shortClue": "Selepas subuh"
+  },
+  {
+    "word": "petang",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Waktu antara tengah hari dengan senja",
+    "shortClue": "Sebelum senja"
+  },
+  {
+    "word": "malam",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Waktu gelap apabila bulan dan bintang kelihatan",
+    "shortClue": "Waktu gelap"
+  },
+  {
+    "word": "minggu",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Tempoh tujuh hari berturutan",
+    "shortClue": "Tujuh hari"
+  },
+  {
+    "word": "tahun",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Tempoh dua belas bulan",
+    "shortClue": "Dua belas bulan"
+  },
+  {
+    "word": "detik",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Unit waktu, enam puluh daripadanya sama dengan seminit",
+    "shortClue": "Unit waktu"
+  },
+  {
+    "word": "musim",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Tempoh dalam setahun dengan cuaca tertentu",
+    "shortClue": "Tempoh cuaca"
+  },
+  {
+    "word": "dingin",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Rasa sejuk yang menggigit tubuh",
+    "shortClue": "Sejuk menggigit"
+  },
+  {
+    "word": "besar",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Saiz yang luas dan banyak, lawan kecil",
+    "shortClue": "Lawan kecil"
+  },
+  {
+    "word": "kecil",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Saiz yang sedikit atau comel, lawan besar",
+    "shortClue": "Lawan besar"
+  },
+  {
+    "word": "tinggi",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Jarak ke atas yang jauh dari tanah",
+    "shortClue": "Jauh ke atas"
+  },
+  {
+    "word": "rendah",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Tidak tinggi dari tanah atau paras biasa",
+    "shortClue": "Tidak tinggi"
+  },
+  {
+    "word": "panjang",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Ukuran jarak hujung ke hujung yang jauh",
+    "shortClue": "Lawan pendek"
+  },
+  {
+    "word": "pendek",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Ukuran jarak yang kurang, lawan panjang",
+    "shortClue": "Tidak panjang"
+  },
+  {
+    "word": "luas",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Ukuran permukaan yang besar dan lapang",
+    "shortClue": "Besar dan lapang"
+  },
+  {
+    "word": "sempit",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Ruang yang tidak lapang dan menyesakkan",
+    "shortClue": "Tidak lapang"
+  },
+  {
+    "word": "baharu",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Yang belum lama wujud atau digunakan",
+    "shortClue": "Belum lama"
+  },
+  {
+    "word": "lama",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Tempoh yang panjang, lawan baharu",
+    "shortClue": "Tempoh panjang"
+  },
+  {
+    "word": "susah",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Payah dan menyukarkan hati",
+    "shortClue": "Payah dilakukan"
+  },
+  {
+    "word": "betul",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Tepat dan tidak tersilap",
+    "shortClue": "Tidak tersilap"
+  },
+  {
+    "word": "salah",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Tidak betul atau tersasar",
+    "shortClue": "Tidak betul"
+  },
+  {
+    "word": "dusta",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Kata palsu untuk memperdaya orang",
+    "shortClue": "Kata palsu"
+  },
+  {
+    "word": "kisah",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Cerita tentang peristiwa yang berlaku",
+    "shortClue": "Cerita peristiwa"
+  },
+  {
+    "word": "lawak",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Cerita atau gelagat yang menggelikan hati",
+    "shortClue": "Menggelikan hati"
+  },
+  {
+    "word": "mimpi",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Bayangan yang kita nampak ketika tidur",
+    "shortClue": "Ketika tidur"
+  },
+  {
+    "word": "peluang",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Kesempatan baik untuk melakukan sesuatu",
+    "shortClue": "Kesempatan baik"
+  },
+  {
+    "word": "nasib",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Keadaan hidup yang dianggap sudah tertulis",
+    "shortClue": "Takdir hidup"
+  },
+  {
+    "word": "untung",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Lebihan wang daripada jualan selepas ditolak modal",
+    "shortClue": "Lebihan jualan"
+  },
+  {
+    "word": "rugi",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Kehilangan wang kerana modal tidak kembali",
+    "shortClue": "Kurang modal"
+  },
+  {
+    "word": "tetamu",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Orang yang datang bertandang ke rumah kita",
+    "shortClue": "Orang bertandang"
+  },
+  {
+    "word": "jiran",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Orang yang tinggal berdekatan dengan rumah kita",
+    "shortClue": "Tinggal berdekatan"
+  },
+  {
+    "word": "persahabatan",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Ikatan mesra antara dua orang kawan",
+    "shortClue": "Ikatan kawan"
+  },
+  {
+    "word": "pengalaman",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Apa yang telah dilalui dan dipelajari dalam hidup",
+    "shortClue": "Telah dilalui"
+  },
+  {
+    "word": "kejayaan",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Hasil baik yang dicapai selepas berusaha",
+    "shortClue": "Hasil usaha"
+  },
+  {
+    "word": "perpaduan",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Keadaan bersatu hati antara orang ramai",
+    "shortClue": "Bersatu hati"
+  },
+  {
+    "word": "keluarga",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Ibu bapa dan anak-anak yang tinggal bersama",
+    "shortClue": "Ayah ibu anak"
+  },
+  {
+    "word": "masyarakat",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Kumpulan manusia yang hidup bersama di sesuatu tempat",
+    "shortClue": "Kumpulan manusia"
+  },
+  {
+    "word": "keselamatan",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Keadaan bebas daripada bahaya dan ancaman",
+    "shortClue": "Bebas bahaya"
+  },
+  {
+    "word": "pertolongan",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Bantuan kepada orang yang memerlukan",
+    "shortClue": "Bantuan diberi"
+  },
+  {
+    "word": "perjalanan",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Pergerakan dari satu tempat ke tempat yang jauh",
+    "shortClue": "Pergi jauh"
+  },
+  {
+    "word": "percutian",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Masa rehat daripada kerja untuk bersantai",
+    "shortClue": "Masa rehat panjang"
+  },
+  {
+    "word": "pelancong",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Orang yang berjalan ke tempat jauh untuk berseronok",
+    "shortClue": "Pengunjung tempat"
+  },
+  {
+    "word": "jumlah",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Hasil penambahan beberapa nombor",
+    "shortClue": "Hasil tambah"
+  },
+  {
+    "word": "separuh",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Satu daripada dua bahagian yang sama besar",
+    "shortClue": "Satu daripada dua"
+  },
+  {
+    "word": "kosong",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Tidak berisi apa-apa atau sifar",
+    "shortClue": "Tiada isi"
+  },
+  {
+    "word": "penuh",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Tidak muat lagi kerana sudah terlalu banyak isinya",
+    "shortClue": "Tiada ruang"
+  },
+  {
+    "word": "banyak",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Jumlah yang besar, lawan sedikit",
+    "shortClue": "Jumlah besar"
+  },
+  {
+    "word": "sedikit",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Jumlah yang kecil, lawan banyak",
+    "shortClue": "Jumlah kecil"
+  },
+  {
+    "word": "ramai",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Bilangan orang yang banyak berkumpul",
+    "shortClue": "Berkumpul banyak"
+  },
+  {
+    "word": "sunyi",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Keadaan sepi tanpa bunyi atau orang",
+    "shortClue": "Sepi sekali"
+  },
+  {
+    "word": "riuh",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Bunyi bising ramai orang bercakap serentak",
+    "shortClue": "Bising sekali"
+  },
+  {
+    "word": "tenang",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Keadaan tidak gelisah dan aman",
+    "shortClue": "Aman dan lapang"
+  },
+  {
+    "word": "damai",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Keadaan aman tanpa pergaduhan",
+    "shortClue": "Aman sentosa"
+  },
+  {
+    "word": "bahagia",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Berasa riang dan puas dalam hidup",
+    "shortClue": "Riang dan puas"
+  },
+  {
+    "word": "ceria",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Wajah atau hati yang riang dan berseri",
+    "shortClue": "Riang berseri"
+  },
+  {
+    "word": "lapar",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Rasa mahu makan kerana perut kosong",
+    "shortClue": "Perut kosong"
+  },
+  {
+    "word": "dahaga",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Rasa mahu minum kerana tekak kering",
+    "shortClue": "Tekak kering"
+  },
+  {
+    "word": "penat",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Berasa letih selepas bekerja kuat",
+    "shortClue": "Berasa letih"
+  },
+  {
+    "word": "sihat",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Tubuh yang tidak sakit dan bertenaga",
+    "shortClue": "Tidak sakit"
+  },
+  {
+    "word": "kenderaan",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Alat pengangkutan di jalan seperti bas dan van",
+    "shortClue": "Alat pengangkutan"
+  },
+  {
+    "word": "tabah",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Tetap berani menghadapi kesusahan",
+    "shortClue": "Tetap berani"
+  },
+  {
+    "word": "gigih",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Berusaha bersungguh-sungguh tanpa mengalah",
+    "shortClue": "Tidak mengalah"
+  },
+  {
+    "word": "tekun",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Rajin dan teliti menjalankan sesuatu kerja",
+    "shortClue": "Teliti bekerja"
+  },
+  {
+    "word": "lazim",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Biasa berlaku atau sudah menjadi kebiasaan",
+    "shortClue": "Sudah biasa"
+  },
+  {
+    "word": "ikhlas",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Bersih hati tanpa mengharapkan balasan",
+    "shortClue": "Bersih hati"
+  },
+  {
+    "word": "lantang",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Suara yang kuat dan jelas didengar",
+    "shortClue": "Suara kuat"
+  },
+  {
+    "word": "kelam",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Suram dan kurang cahaya",
+    "shortClue": "Suram gelap"
+  },
+  {
+    "word": "silih",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Bertukar ganti seorang demi seorang",
+    "shortClue": "Bergilir giliran"
+  },
+  {
+    "word": "lengah",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Lambat bertindak dan membuang masa",
+    "shortClue": "Lambat bertindak"
+  },
+  {
+    "word": "tangkas",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Cepat dan cekap bergerak atau berfikir",
+    "shortClue": "Cepat dan cekap"
+  },
+  {
+    "word": "budi",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Sifat baik dan akal yang dimiliki seseorang",
+    "shortClue": "Akal dan adab"
+  },
+  {
+    "word": "adab",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Tatasusila yang sopan dalam pergaulan",
+    "shortClue": "Tatasusila sopan"
+  },
+  {
+    "word": "harga",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Nilai wang yang dikenakan bagi sesuatu barang",
+    "shortClue": "Nilai wang"
+  },
+  {
+    "word": "ganjil",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Aneh atau lain daripada kebiasaan",
+    "shortClue": "Aneh dan pelik"
+  },
+  {
+    "word": "bimbang",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Rasa tidak tenteram memikirkan sesuatu yang buruk",
+    "shortClue": "Rasa risau"
+  },
+  {
+    "word": "hasrat",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Keinginan yang kuat untuk mencapai sesuatu",
+    "shortClue": "Keinginan kuat"
+  },
+  {
+    "word": "impian",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Apa yang dibayangkan akan menjadi nyata kelak",
+    "shortClue": "Yang diidamkan"
+  },
+  {
+    "word": "ragu",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Tidak yakin atau berbelah bahagi",
+    "shortClue": "Berbelah bahagi"
+  },
+  {
+    "word": "yakin",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Percaya sepenuhnya bahawa sesuatu itu benar",
+    "shortClue": "Percaya penuh"
+  },
+  {
+    "word": "iktibar",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Pengajaran yang diambil daripada sesuatu kejadian",
+    "shortClue": "Pengajaran"
+  },
+  {
+    "word": "ihsan",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Kebaikan hati yang ditunjukkan kepada orang lain",
+    "shortClue": "Kebaikan hati"
+  },
+  {
+    "word": "dengki",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Rasa tidak senang melihat kejayaan orang lain",
+    "shortClue": "Iri hati"
+  },
+  {
+    "word": "tamak",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Mahukan lebih daripada yang diperlukan",
+    "shortClue": "Mahu lebih"
+  },
+  {
+    "word": "kedekut",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Berat tangan untuk membelanjakan wang",
+    "shortClue": "Berat tangan"
+  },
+  {
+    "word": "murah",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Harganya rendah dan tidak mahal",
+    "shortClue": "Tidak mahal"
+  },
+  {
+    "word": "mahal",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Harganya tinggi dan bukan murah",
+    "shortClue": "Harga tinggi"
+  },
+  {
+    "word": "gelisah",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Berasa tidak tenteram dan tidak senang duduk",
+    "shortClue": "Tidak tenteram"
+  },
+  {
+    "word": "lega",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Perasaan tenang selepas beban hilang",
+    "shortClue": "Beban hilang"
+  },
+  {
+    "word": "hairan",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Rasa pelik melihat sesuatu yang luar biasa",
+    "shortClue": "Rasa pelik"
+  },
+  {
+    "word": "sibuk",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Banyak kerja dan tiada masa terluang",
+    "shortClue": "Banyak kerja"
+  },
+  {
+    "word": "lapang",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Cukup ruang atau masa senggang",
+    "shortClue": "Ada masa"
+  },
+  {
+    "word": "tepat",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Betul mengenai sasaran atau waktu",
+    "shortClue": "Tidak lari"
+  },
+  {
+    "word": "zaman",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Tempoh masa yang panjang dalam sejarah",
+    "shortClue": "Tempoh sejarah"
+  },
+  {
+    "word": "waktu",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Saat, minit dan jam yang terus berlalu",
+    "shortClue": "Masa berlalu"
+  },
+  {
+    "word": "wajar",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Patut dan sesuai dengan keadaan",
+    "shortClue": "Patut sesuai"
+  },
+  {
+    "word": "hormat",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Sikap menghargai orang lain dengan sopan",
+    "shortClue": "Menghargai orang"
+  },
+  {
+    "word": "giat",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Sangat aktif dalam berusaha",
+    "shortClue": "Sangat aktif"
+  },
+  {
+    "word": "teladan",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Contoh baik yang patut diikuti",
+    "shortClue": "Contoh baik"
+  },
+  {
+    "word": "nasihat",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Kata dorongan supaya seseorang berbuat baik",
+    "shortClue": "Kata dorongan"
+  },
+  {
+    "word": "ganjaran",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Hadiah atas jasa atau usaha",
+    "shortClue": "Hadiah usaha"
+  },
+  {
+    "word": "sempurna",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Tiada cacat cela langsung",
+    "shortClue": "Tiada cela"
+  },
+  {
+    "word": "istimewa",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Lain daripada yang biasa dan sangat khas",
+    "shortClue": "Sangat khas"
+  },
+  {
+    "word": "seronok",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Berasa senang melakukan sesuatu yang digemari",
+    "shortClue": "Rasa senang"
+  },
+  {
+    "word": "selesa",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Berasa lapang dan tanpa kesulitan",
+    "shortClue": "Rasa lapang"
+  },
+  {
+    "word": "mustahil",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Tidak mungkin berlaku langsung",
+    "shortClue": "Tidak mungkin"
+  },
+  {
+    "word": "mungkin",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Barangkali akan berlaku atau tidak",
+    "shortClue": "Barangkali"
+  },
+  {
+    "word": "hebat",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Sangat baik hingga mengagumkan",
+    "shortClue": "Mengagumkan"
+  },
+  {
+    "word": "unik",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Hanya ada satu dan tiada tandingan",
+    "shortClue": "Tiada tandingan"
+  },
+  {
+    "word": "jelas",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Terang dan mudah difahami",
+    "shortClue": "Terang"
+  },
+  {
+    "word": "pemandangan",
+    "topics": [
+      "nature"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Apa yang terbentang di depan mata, terutama di tempat indah",
+    "shortClue": "Yang terhampar"
+  },
+  {
+    "word": "awan",
+    "topics": [
+      "nature"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Gumpalan wap putih di langit",
+    "shortClue": "Wap di langit"
+  },
+  {
+    "word": "ribut",
+    "topics": [
+      "nature"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Angin kencang disertai hujan lebat",
+    "shortClue": "Angin kencang"
+  },
+  {
+    "word": "kilat",
+    "topics": [
+      "nature"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Cahaya terang yang menyambar di langit",
+    "shortClue": "Cahaya menyambar"
+  },
+  {
+    "word": "guruh",
+    "topics": [
+      "nature"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Bunyi dentuman selepas kilat",
+    "shortClue": "Dentuman langit"
+  },
+  {
+    "word": "embun",
+    "topics": [
+      "nature"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Titisan air halus pada daun waktu pagi",
+    "shortClue": "Titis air pagi"
+  },
+  {
+    "word": "kabus",
+    "topics": [
+      "nature"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Wap tebal berhampiran tanah yang mengaburi pandangan",
+    "shortClue": "Wap tebal"
+  },
+  {
+    "word": "salji",
+    "topics": [
+      "nature"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Hablur putih sejuk yang turun di negara dingin",
+    "shortClue": "Hablur putih"
+  },
+  {
+    "word": "ombak",
+    "topics": [
+      "nature"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Gelombang air yang bergulung ke pantai",
+    "shortClue": "Gelombang laut"
+  },
+  {
+    "word": "laut",
+    "topics": [
+      "nature"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Air masin yang luas menutupi kebanyakan permukaan bumi",
+    "shortClue": "Air masin luas"
+  },
+  {
+    "word": "pasir",
+    "topics": [
+      "nature"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Butiran halus di pantai dan padang gersang",
+    "shortClue": "Butir halus"
+  },
+  {
+    "word": "lumpur",
+    "topics": [
+      "nature"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Tanah lembut bercampur air",
+    "shortClue": "Tanah berair"
+  },
+  {
+    "word": "rimba",
+    "topics": [
+      "nature"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Hutan tebal yang jarang dimasuki orang",
+    "shortClue": "Hutan tebal"
+  },
+  {
+    "word": "paya",
+    "topics": [
+      "nature"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Tanah rendah yang sentiasa digenangi air",
+    "shortClue": "Tanah bergenang"
+  },
+  {
+    "word": "bakau",
+    "topics": [
+      "nature"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Pokok yang tumbuh di muara berair payau",
+    "shortClue": "Pokok muara"
+  },
+  {
+    "word": "nipah",
+    "topics": [
+      "nature"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Palma paya yang daunnya dijadikan atap",
+    "shortClue": "Palma paya"
+  },
+  {
+    "word": "kelapa",
+    "topics": [
+      "nature"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Pokok pantai yang buahnya mengandungi air manis",
+    "shortClue": "Pokok pantai"
+  },
+  {
+    "word": "cendawan",
+    "topics": [
+      "nature"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Tumbuhan tanpa daun yang tumbuh di tempat lembap",
+    "shortClue": "Tumbuh lembap"
+  },
+  {
+    "word": "lumut",
+    "topics": [
+      "nature"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Tumbuhan hijau halus pada batu yang lembap",
+    "shortClue": "Hijau halus"
+  },
+  {
+    "word": "pakis",
+    "topics": [
+      "nature"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Tumbuhan hutan berdaun berbulu halus yang bergulung muda",
+    "shortClue": "Tumbuhan hutan"
+  },
+  {
+    "word": "orkid",
+    "topics": [
+      "nature"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Bunga beraneka rupa yang sering dijadikan hiasan",
+    "shortClue": "Bunga hiasan"
+  },
+  {
+    "word": "mawar",
+    "topics": [
+      "nature"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Bunga berduri yang harum dan berwarna merah",
+    "shortClue": "Bunga berduri"
+  },
+  {
+    "word": "melur",
+    "topics": [
+      "nature"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Bunga kecil putih yang sangat harum",
+    "shortClue": "Putih harum"
+  },
+  {
+    "word": "teratai",
+    "topics": [
+      "nature"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Bunga yang terapung di atas kolam",
+    "shortClue": "Bunga kolam"
+  },
+  {
+    "word": "kemboja",
+    "topics": [
+      "nature"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Pokok berbunga putih kekuningan di halaman atau tanah perkuburan",
+    "shortClue": "Bunga putih"
+  },
+  {
+    "word": "bukit",
+    "topics": [
+      "nature"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Tanah tinggi yang lebih rendah daripada gunung",
+    "shortClue": "Tanah tinggi"
+  },
+  {
+    "word": "lembah",
+    "topics": [
+      "nature"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Tanah rendah yang terletak antara dua banjaran",
+    "shortClue": "Tanah rendah"
+  },
+  {
+    "word": "jeram",
+    "topics": [
+      "nature"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Bahagian sungai yang deras dan berbatu",
+    "shortClue": "Sungai deras"
+  },
+  {
+    "word": "muara",
+    "topics": [
+      "nature"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Tempat sungai bertemu laut",
+    "shortClue": "Sungai ke laut"
+  },
+  {
+    "word": "gua",
+    "topics": [
+      "nature"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Lubang besar di dalam bukit batu",
+    "shortClue": "Lubang besar"
+  },
+  {
+    "word": "karang",
+    "topics": [
+      "nature"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Batuan laut yang dibentuk oleh haiwan kecil",
+    "shortClue": "Batuan laut"
+  },
+  {
+    "word": "tengkujuh",
+    "topics": [
+      "nature"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Musim hujan lebat di pantai timur",
+    "shortClue": "Musim hujan"
+  },
+  {
+    "word": "kemarau",
+    "topics": [
+      "nature"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Musim lama tanpa hujan",
+    "shortClue": "Musim kering"
+  },
+  {
+    "word": "banjir",
+    "topics": [
+      "nature"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Air melimpah menutupi tanah yang biasanya kering",
+    "shortClue": "Air melimpah"
+  },
+  {
+    "word": "rumput",
+    "topics": [
+      "nature"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Tumbuhan hijau rendah di padang",
+    "shortClue": "Hijau di padang"
+  },
+  {
+    "word": "itik",
+    "topics": [
+      "animals"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Unggas berkaki berselaput yang berenang di kolam",
+    "shortClue": "Unggas berenang"
+  },
+  {
+    "word": "arnab",
+    "topics": [
+      "animals"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Haiwan berbulu lembut dan bertelinga panjang yang melompat",
+    "shortClue": "Telinga panjang"
+  },
+  {
+    "word": "kuda",
+    "topics": [
+      "animals"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Haiwan berlari kencang yang boleh ditunggang",
+    "shortClue": "Boleh ditunggang"
+  },
+  {
+    "word": "kerbau",
+    "topics": [
+      "animals"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Ternakan besar bertanduk yang membajak sawah",
+    "shortClue": "Bajak sawah"
+  },
+  {
+    "word": "monyet",
+    "topics": [
+      "animals"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Haiwan yang bergayut di pokok dan suka makan pisang",
+    "shortClue": "Suka bergayut"
+  },
+  {
+    "word": "ular",
+    "topics": [
+      "animals"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Reptilia panjang tanpa kaki yang menjalar",
+    "shortClue": "Menjalar panjang"
+  },
+  {
+    "word": "katak",
+    "topics": [
+      "animals"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Haiwan hijau yang melompat dan berbunyi pada musim hujan",
+    "shortClue": "Haiwan melompat"
+  },
+  {
+    "word": "semut",
+    "topics": [
+      "animals"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Serangga kecil yang berbaris membawa makanan",
+    "shortClue": "Serangga berbaris"
+  },
+  {
+    "word": "nyamuk",
+    "topics": [
+      "animals"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Serangga kecil yang menggigit dan menyedut darah",
+    "shortClue": "Menyedut darah"
+  },
+  {
+    "word": "buaya",
+    "topics": [
+      "animals"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Reptilia besar bergigi tajam yang tinggal di sungai",
+    "shortClue": "Reptilia sungai"
+  },
+  {
+    "word": "biawak",
+    "topics": [
+      "animals"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Kadal besar berlidah bercabang yang kuat berenang",
+    "shortClue": "Kadal besar"
+  },
+  {
+    "word": "cicak",
+    "topics": [
+      "animals"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Reptilia kecil yang merayap di dinding rumah",
+    "shortClue": "Merayap di dinding"
+  },
+  {
+    "word": "belalang",
+    "topics": [
+      "animals"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Serangga hijau yang melompat jauh di padang",
+    "shortClue": "Serangga melompat"
+  },
+  {
+    "word": "lebah",
+    "topics": [
+      "animals"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Serangga yang mengumpul madu daripada bunga",
+    "shortClue": "Pengumpul madu"
+  },
+  {
+    "word": "siput",
+    "topics": [
+      "animals"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Haiwan lembut bercengkerang yang bergerak perlahan",
+    "shortClue": "Bergerak perlahan"
+  },
+  {
+    "word": "ketam",
+    "topics": [
+      "animals"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Haiwan laut bercapit yang berjalan mengiring",
+    "shortClue": "Capit mengiring"
+  },
+  {
+    "word": "sotong",
+    "topics": [
+      "animals"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Haiwan laut bertentakel yang menyemburkan dakwat",
+    "shortClue": "Berdakwat hitam"
+  },
+  {
+    "word": "penyu",
+    "topics": [
+      "animals"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Reptilia laut berkulit keras yang bertelur di pantai",
+    "shortClue": "Bertelur di pantai"
+  },
+  {
+    "word": "paus",
+    "topics": [
+      "animals"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Mamalia terbesar di lautan",
+    "shortClue": "Mamalia lautan"
+  },
+  {
+    "word": "enggang",
+    "topics": [
+      "animals"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Burung besar berparuh tanduk, lambang Sarawak",
+    "shortClue": "Burung Sarawak"
+  },
+  {
+    "word": "helang",
+    "topics": [
+      "animals"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Burung pemangsa bersayap lebar yang terbang tinggi",
+    "shortClue": "Pemangsa langit"
+  },
+  {
+    "word": "merpati",
+    "topics": [
+      "animals"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Burung jinak yang sering menjadi lambang damai",
+    "shortClue": "Burung jinak"
+  },
+  {
+    "word": "gagak",
+    "topics": [
+      "animals"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Burung hitam yang bunyinya garau",
+    "shortClue": "Burung hitam"
+  },
+  {
+    "word": "murai",
+    "topics": [
+      "animals"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Burung hitam putih yang berkicau merdu",
+    "shortClue": "Burung penyanyi"
+  },
+  {
+    "word": "belatuk",
+    "topics": [
+      "animals"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Burung yang mematuk batang pokok mencari serangga",
+    "shortClue": "Burung mematuk"
+  },
+  {
+    "word": "tikus",
+    "topics": [
+      "animals"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Haiwan kecil pengerat yang suka makan padi",
+    "shortClue": "Haiwan pengerat"
+  },
+  {
+    "word": "musang",
+    "topics": [
+      "animals"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Haiwan hutan bermuncung runcing yang memburu pada waktu malam",
+    "shortClue": "Pemburu malam"
+  },
+  {
+    "word": "badak",
+    "topics": [
+      "animals"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Mamalia besar yang bertanduk pada hidungnya",
+    "shortClue": "Bertanduk hidung"
+  },
+  {
+    "word": "tapir",
+    "topics": [
+      "animals"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Mamalia hutan berbelang hitam putih berhidung panjang",
+    "shortClue": "Hidung panjang"
+  },
+  {
+    "word": "beruang",
+    "topics": [
+      "animals"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Mamalia besar berbulu tebal yang suka madu",
+    "shortClue": "Suka madu"
+  },
+  {
+    "word": "rusa",
+    "topics": [
+      "animals"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Haiwan hutan bertanduk bercabang",
+    "shortClue": "Bertanduk cabang"
+  },
+  {
+    "word": "kancil",
+    "topics": [
+      "animals"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Haiwan kecil yang cerdik dalam cerita rakyat",
+    "shortClue": "Haiwan cerdik"
+  },
+  {
+    "word": "pelanduk",
+    "topics": [
+      "animals"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Haiwan kecil seakan rusa yang disebut dalam peribahasa",
+    "shortClue": "Dalam peribahasa"
+  },
+  {
+    "word": "siamang",
+    "topics": [
+      "animals"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Kera hitam besar yang menjerit nyaring di hutan",
+    "shortClue": "Kera hitam"
+  },
+  {
+    "word": "landak",
+    "topics": [
+      "animals"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Haiwan berduri tajam pada badannya",
+    "shortClue": "Berduri tajam"
+  },
+  {
+    "word": "belut",
+    "topics": [
+      "animals"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Ikan licin dan panjang seperti ular yang hidup dalam lumpur",
+    "shortClue": "Licin dan panjang"
+  },
+  {
+    "word": "keli",
+    "topics": [
+      "animals"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Ikan berkumis yang licin dan hidup dalam kolam",
+    "shortClue": "Ikan berkumis"
+  },
+  {
+    "word": "kepompong",
+    "topics": [
+      "animals"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Kulit pelindung ulat sebelum menjadi rama-rama",
+    "shortClue": "Pelindung ulat"
+  },
+  {
+    "word": "sayap",
+    "topics": [
+      "animals"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Anggota yang membolehkan burung terbang",
+    "shortClue": "Anggota terbang"
+  },
+  {
+    "word": "bubur",
+    "topics": [
+      "food"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Makanan lembut daripada beras yang dimasak lama",
+    "shortClue": "Beras lembut"
+  },
+  {
+    "word": "lemak",
+    "topics": [
+      "food"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Rasa kaya yang datang daripada santan",
+    "shortClue": "Rasa santan"
+  },
+  {
+    "word": "santan",
+    "topics": [
+      "food"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Cecair putih pekat daripada kelapa parut",
+    "shortClue": "Cecair kelapa"
+  },
+  {
+    "word": "sambal",
+    "topics": [
+      "food"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Pes pedas daripada cili yang ditumbuk",
+    "shortClue": "Pes pedas"
+  },
+  {
+    "word": "cili",
+    "topics": [
+      "food"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Buah kecil pedas yang menjadi bahan sambal",
+    "shortClue": "Buah pedas"
+  },
+  {
+    "word": "bawang",
+    "topics": [
+      "food"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Umbi berlapis yang membuat mata berair apabila dihiris",
+    "shortClue": "Umbi berlapis"
+  },
+  {
+    "word": "halia",
+    "topics": [
+      "food"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Akar berbau tajam untuk masakan dan minuman",
+    "shortClue": "Akar rempah"
+  },
+  {
+    "word": "kunyit",
+    "topics": [
+      "food"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Akar kuning yang mewarnakan masakan",
+    "shortClue": "Rempah kuning"
+  },
+  {
+    "word": "serai",
+    "topics": [
+      "food"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Tumbuhan wangi bertangkai yang diketuk untuk masakan",
+    "shortClue": "Tangkai wangi"
+  },
+  {
+    "word": "cengkih",
+    "topics": [
+      "food"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Kuntum kering berbau tajam yang menjadi rempah",
+    "shortClue": "Rempah kuntum"
+  },
+  {
+    "word": "lada",
+    "topics": [
+      "food"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Biji kecil pedas yang dikisar menjadi serbuk hitam",
+    "shortClue": "Rempah hitam"
+  },
+  {
+    "word": "tempoyak",
+    "topics": [
+      "food"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Isi durian yang diperam sebagai bahan lauk",
+    "shortClue": "Durian diperam"
+  },
+  {
+    "word": "budu",
+    "topics": [
+      "food"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Sos ikan masin yang terkenal di Kelantan",
+    "shortClue": "Sos ikan"
+  },
+  {
+    "word": "cincalok",
+    "topics": [
+      "food"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Udang kecil yang diperam dan dimakan dengan limau",
+    "shortClue": "Udang diperam"
+  },
+  {
+    "word": "keropok",
+    "topics": [
+      "food"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Makanan rangup daripada ikan atau udang yang digoreng",
+    "shortClue": "Rangup ikan"
+  },
+  {
+    "word": "pulut",
+    "topics": [
+      "food"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Beras melekit yang dimasak dengan santan",
+    "shortClue": "Beras melekit"
+  },
+  {
+    "word": "ketupat",
+    "topics": [
+      "food"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Nasi yang dimasak dalam anyaman daun kelapa",
+    "shortClue": "Nasi berbalut"
+  },
+  {
+    "word": "lemang",
+    "topics": [
+      "food"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Pulut yang dimasak dalam buluh",
+    "shortClue": "Dalam buluh"
+  },
+  {
+    "word": "dodol",
+    "topics": [
+      "food"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Manisan lekit yang dikacau lama bersama santan",
+    "shortClue": "Manisan lekit"
+  },
+  {
+    "word": "cucur",
+    "topics": [
+      "food"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Kuih goreng daripada tepung dan gula",
+    "shortClue": "Kuih goreng"
+  },
+  {
+    "word": "karipap",
+    "topics": [
+      "food"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Pastri goreng berintikan kentang berempah",
+    "shortClue": "Pastri goreng"
+  },
+  {
+    "word": "sirap",
+    "topics": [
+      "food"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Cecair manis berwarna merah yang dicampur dalam air",
+    "shortClue": "Cecair merah"
+  },
+  {
+    "word": "limau",
+    "topics": [
+      "food"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Buah masam berkulit hijau atau kuning",
+    "shortClue": "Buah masam"
+  },
+  {
+    "word": "mempelam",
+    "topics": [
+      "food"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Buah tropika berkulit hijau dengan isi manis berbiji besar",
+    "shortClue": "Buah tropika"
+  },
+  {
+    "word": "rambutan",
+    "topics": [
+      "food"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Buah merah yang berbulu dengan isi putih",
+    "shortClue": "Buah berbulu"
+  },
+  {
+    "word": "manggis",
+    "topics": [
+      "food"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Buah ungu kehitaman dengan isi putih manis masam",
+    "shortClue": "Ungu isi putih"
+  },
+  {
+    "word": "nanas",
+    "topics": [
+      "food"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Buah berduri yang bermahkota daun tajam",
+    "shortClue": "Buah bermahkota"
+  },
+  {
+    "word": "tembikai",
+    "topics": [
+      "food"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Buah besar berisi merah dan berair",
+    "shortClue": "Buah berair"
+  },
+  {
+    "word": "betik",
+    "topics": [
+      "food"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Buah panjang berisi jingga dan berbiji hitam",
+    "shortClue": "Buah jingga"
+  },
+  {
+    "word": "jambu",
+    "topics": [
+      "food"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Buah rangup berbiji kecil dengan kulit hijau muda",
+    "shortClue": "Buah rangup"
+  },
+  {
+    "word": "cempedak",
+    "topics": [
+      "food"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Buah berbau kuat yang serupa nangka tetapi lebih kecil",
+    "shortClue": "Serupa nangka"
+  },
+  {
+    "word": "nangka",
+    "topics": [
+      "food"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Buah besar berduri dengan ulas kuning manis",
+    "shortClue": "Buah berduri"
+  },
+  {
+    "word": "kangkung",
+    "topics": [
+      "food"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Sayur berbatang berongga yang ditumis dengan belacan",
+    "shortClue": "Sayur berongga"
+  },
+  {
+    "word": "terung",
+    "topics": [
+      "food"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Sayur berkulit ungu yang selalu digoreng",
+    "shortClue": "Sayur ungu"
+  },
+  {
+    "word": "bendi",
+    "topics": [
+      "food"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Sayur berlendir yang berbentuk seperti jari",
+    "shortClue": "Sayur berlendir"
+  },
+  {
+    "word": "tauhu",
+    "topics": [
+      "food"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Dadih kacang soya yang dipadatkan",
+    "shortClue": "Dadih soya"
+  },
+  {
+    "word": "telur",
+    "topics": [
+      "food"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Benda bulat yang dihasilkan oleh ayam",
+    "shortClue": "Hasil ayam"
+  },
+  {
+    "word": "madu",
+    "topics": [
+      "food"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Cecair manis yang dihasilkan oleh lebah",
+    "shortClue": "Manis lebah"
+  },
+  {
+    "word": "sarapan",
+    "topics": [
+      "food"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Makanan yang dimakan pada waktu pagi",
+    "shortClue": "Makan pagi"
+  },
+  {
+    "word": "hidangan",
+    "topics": [
+      "food"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Makanan yang disusun di atas meja untuk dijamah",
+    "shortClue": "Makanan di meja"
+  },
+  {
+    "word": "gulai",
+    "topics": [
+      "food"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Kuah pekat berempah dan bersantan untuk lauk",
+    "shortClue": "Kuah pekat"
+  },
+  {
+    "word": "sempadan",
+    "topics": [
+      "geography"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Garisan yang memisahkan dua negara",
+    "shortClue": "Garisan pemisah"
+  },
+  {
+    "word": "teluk",
+    "topics": [
+      "geography"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Laut yang menjorok masuk ke daratan",
+    "shortClue": "Laut menjorok"
+  },
+  {
+    "word": "tanjung",
+    "topics": [
+      "geography"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Daratan sempit yang menjulur ke laut",
+    "shortClue": "Daratan menjulur"
+  },
+  {
+    "word": "semenanjung",
+    "topics": [
+      "geography"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Tanah yang dikelilingi laut di tiga penjuru",
+    "shortClue": "Tiga penjuru laut"
+  },
+  {
+    "word": "banjaran",
+    "topics": [
+      "geography"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Rangkaian gunung yang memanjang jauh",
+    "shortClue": "Rangkaian gunung"
+  },
+  {
+    "word": "dataran",
+    "topics": [
+      "geography"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Tanah rata yang luas",
+    "shortClue": "Tanah rata"
+  },
+  {
+    "word": "delta",
+    "topics": [
+      "geography"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Tanah endapan berbentuk segi tiga di muara sungai",
+    "shortClue": "Endapan muara"
+  },
+  {
+    "word": "glasier",
+    "topics": [
+      "geography"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Sungai ais besar yang bergerak perlahan di gunung",
+    "shortClue": "Sungai ais"
+  },
+  {
+    "word": "khatulistiwa",
+    "topics": [
+      "geography"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Garisan khayal yang membahagikan bumi kepada utara dan selatan",
+    "shortClue": "Garisan bumi"
+  },
+  {
+    "word": "latitud",
+    "topics": [
+      "geography"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Garisan khayal mendatar pada peta bumi",
+    "shortClue": "Garisan mendatar"
+  },
+  {
+    "word": "longitud",
+    "topics": [
+      "geography"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Garisan khayal menegak yang diukur pada peta bumi",
+    "shortClue": "Garisan menegak"
+  },
+  {
+    "word": "negara",
+    "topics": [
+      "geography"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Wilayah yang diperintah oleh satu kerajaan",
+    "shortClue": "Wilayah berdaulat"
+  },
+  {
+    "word": "negeri",
+    "topics": [
+      "geography"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Bahagian wilayah dalam sesebuah negara",
+    "shortClue": "Bahagian negara"
+  },
+  {
+    "word": "bandar",
+    "topics": [
+      "geography"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Kawasan padat penduduk dengan banyak bangunan",
+    "shortClue": "Kawasan sesak"
+  },
+  {
+    "word": "kampung",
+    "topics": [
+      "geography"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Kawasan luar bandar tempat penduduk tinggal berdekatan",
+    "shortClue": "Desa kecil"
+  },
+  {
+    "word": "pelabuhan",
+    "topics": [
+      "geography"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Tempat kapal singgah menurunkan muatan",
+    "shortClue": "Tempat kapal"
+  },
+  {
+    "word": "selatan",
+    "topics": [
+      "geography"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Arah yang bertentangan dengan utara",
+    "shortClue": "Lawan utara"
+  },
+  {
+    "word": "utara",
+    "topics": [
+      "geography"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Arah yang ditunjuk oleh jarum kompas",
+    "shortClue": "Arah kompas"
+  },
+  {
+    "word": "timur",
+    "topics": [
+      "geography"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Arah matahari terbit",
+    "shortClue": "Arah matahari"
+  },
+  {
+    "word": "barat",
+    "topics": [
+      "geography"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Arah matahari terbenam",
+    "shortClue": "Arah senja"
+  },
+  {
+    "word": "tenggara",
+    "topics": [
+      "geography"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Arah antara selatan dan timur",
+    "shortClue": "Antara selatan timur"
+  },
+  {
+    "word": "kutub",
+    "topics": [
+      "geography"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Hujung utara atau selatan bumi",
+    "shortClue": "Hujung bumi"
+  },
+  {
+    "word": "nusantara",
+    "topics": [
+      "geography"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Gugusan pulau di Asia Tenggara yang dihuni bangsa Melayu",
+    "shortClue": "Gugusan Melayu"
+  },
+  {
+    "word": "Perak",
+    "topics": [
+      "geography"
+    ],
+    "difficulty": 2,
+    "kind": "proper",
+    "clue": "Negeri di Semenanjung yang beribu negeri Ipoh",
+    "shortClue": "Negeri Ipoh"
+  },
+  {
+    "word": "Johor",
+    "topics": [
+      "geography"
+    ],
+    "difficulty": 1,
+    "kind": "proper",
+    "clue": "Negeri paling selatan di Semenanjung Malaysia",
+    "shortClue": "Negeri selatan"
+  },
+  {
+    "word": "Kedah",
+    "topics": [
+      "geography"
+    ],
+    "difficulty": 1,
+    "kind": "proper",
+    "clue": "Negeri jelapang padi di utara Semenanjung",
+    "shortClue": "Jelapang padi"
+  },
+  {
+    "word": "Sabah",
+    "topics": [
+      "geography"
+    ],
+    "difficulty": 1,
+    "kind": "proper",
+    "clue": "Negeri di Borneo yang digelar Negeri di Bawah Bayu",
+    "shortClue": "Bawah Bayu"
+  },
+  {
+    "word": "Sarawak",
+    "topics": [
+      "geography"
+    ],
+    "difficulty": 1,
+    "kind": "proper",
+    "clue": "Negeri terbesar di Malaysia, bumi kenyalang",
+    "shortClue": "Bumi kenyalang"
+  },
+  {
+    "word": "Terengganu",
+    "topics": [
+      "geography"
+    ],
+    "difficulty": 2,
+    "kind": "proper",
+    "clue": "Negeri pantai timur yang terkenal dengan keropok lekor",
+    "shortClue": "Pantai timur"
+  },
+  {
+    "word": "Kelantan",
+    "topics": [
+      "geography"
+    ],
+    "difficulty": 2,
+    "kind": "proper",
+    "clue": "Negeri pantai timur yang beribu negeri Kota Bharu",
+    "shortClue": "Negeri Kota Bharu"
+  },
+  {
+    "word": "Borneo",
+    "topics": [
+      "geography"
+    ],
+    "difficulty": 2,
+    "kind": "proper",
+    "clue": "Pulau besar yang dikongsi oleh tiga negara",
+    "shortClue": "Pulau tiga negara"
+  },
+  {
+    "word": "Putrajaya",
+    "topics": [
+      "geography"
+    ],
+    "difficulty": 2,
+    "kind": "proper",
+    "clue": "Pusat pentadbiran kerajaan persekutuan Malaysia",
+    "shortClue": "Pusat pentadbiran"
+  },
+  {
+    "word": "Rajang",
+    "topics": [
+      "geography"
+    ],
+    "difficulty": 3,
+    "kind": "proper",
+    "clue": "Sungai terpanjang di Malaysia, di Sarawak",
+    "shortClue": "Sungai Sarawak"
+  },
+  {
+    "word": "Everest",
+    "topics": [
+      "geography"
+    ],
+    "difficulty": 2,
+    "kind": "proper",
+    "clue": "Gunung tertinggi di dunia di Himalaya",
+    "shortClue": "Puncak dunia"
+  },
+  {
+    "word": "Brunei",
+    "topics": [
+      "geography"
+    ],
+    "difficulty": 2,
+    "kind": "proper",
+    "clue": "Negara kecil di Borneo yang diperintah oleh sultan",
+    "shortClue": "Negara sultan"
+  },
+  {
+    "word": "sultan",
+    "topics": [
+      "history"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Raja yang memerintah kerajaan Melayu",
+    "shortClue": "Raja Melayu"
+  },
+  {
+    "word": "bendahara",
+    "topics": [
+      "history"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Pembesar tertinggi dalam pemerintahan Melayu lama",
+    "shortClue": "Pembesar lama"
+  },
+  {
+    "word": "laksamana",
+    "topics": [
+      "history"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Pembesar yang memimpin armada kerajaan lama",
+    "shortClue": "Pemimpin armada"
+  },
+  {
+    "word": "hulubalang",
+    "topics": [
+      "history"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Pahlawan gagah yang menjaga raja dan negeri",
+    "shortClue": "Pahlawan gagah"
+  },
+  {
+    "word": "panglima",
+    "topics": [
+      "history"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Ketua pahlawan yang melindungi negeri",
+    "shortClue": "Ketua pahlawan"
+  },
+  {
+    "word": "hikayat",
+    "topics": [
+      "history"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Karya sastera lama yang berbentuk prosa",
+    "shortClue": "Prosa lama"
+  },
+  {
+    "word": "penghulu",
+    "topics": [
+      "history"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Ketua kampung pada zaman dahulu",
+    "shortClue": "Ketua kampung"
+  },
+  {
+    "word": "pedagang",
+    "topics": [
+      "history"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Peniaga yang belayar membawa barang ke negeri jauh",
+    "shortClue": "Peniaga pelayar"
+  },
+  {
+    "word": "timah",
+    "topics": [
+      "history"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Logam lembut yang banyak dilombong di Perak dahulu",
+    "shortClue": "Logam lembut"
+  },
+  {
+    "word": "getah",
+    "topics": [
+      "history"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Susu pokok yang dibekukan untuk dibuat tayar",
+    "shortClue": "Susu pokok"
+  },
+  {
+    "word": "piramid",
+    "topics": [
+      "history"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Binaan batu berbentuk segi tiga di Mesir purba",
+    "shortClue": "Binaan batu"
+  },
+  {
+    "word": "artifak",
+    "topics": [
+      "history"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Benda buatan manusia zaman silam yang ditemui",
+    "shortClue": "Benda lama"
+  },
+  {
+    "word": "arkeologi",
+    "topics": [
+      "history"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Ilmu mengkaji peninggalan manusia lama melalui penggalian",
+    "shortClue": "Kajian penggalian"
+  },
+  {
+    "word": "purba",
+    "topics": [
+      "history"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Sangat lama dahulu, sebelum adanya catatan",
+    "shortClue": "Terlalu lama"
+  },
+  {
+    "word": "sejarah",
+    "topics": [
+      "history"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Kisah peristiwa yang berlaku pada masa lalu",
+    "shortClue": "Kisah silam"
+  },
+  {
+    "word": "warisan",
+    "topics": [
+      "history"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Harta atau adat yang diturunkan daripada nenek moyang",
+    "shortClue": "Harta turunan"
+  },
+  {
+    "word": "pahlawan",
+    "topics": [
+      "history"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Orang gagah yang berjuang untuk bangsanya",
+    "shortClue": "Pejuang gagah"
+  },
+  {
+    "word": "layar",
+    "topics": [
+      "history"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Kain lebar yang menangkap angin pada perahu",
+    "shortClue": "Kain perahu"
+  },
+  {
+    "word": "perahu",
+    "topics": [
+      "history"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Bot kecil tanpa enjin yang dikayuh",
+    "shortClue": "Bot dikayuh"
+  },
+  {
+    "word": "astrolab",
+    "topics": [
+      "history"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Alat lama untuk mengukur kedudukan bintang",
+    "shortClue": "Alat bintang"
+  },
+  {
+    "word": "manuskrip",
+    "topics": [
+      "history"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Tulisan tangan lama pada kulit kayu atau kertas",
+    "shortClue": "Tulisan lama"
+  },
+  {
+    "word": "jawi",
+    "topics": [
+      "history"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Tulisan berhuruf Arab yang disesuaikan untuk bahasa Melayu",
+    "shortClue": "Tulisan Melayu"
+  },
+  {
+    "word": "kota",
+    "topics": [
+      "history"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Binaan berdinding tebal untuk melindungi daripada serangan",
+    "shortClue": "Binaan pertahanan"
+  },
+  {
+    "word": "takhta",
+    "topics": [
+      "history"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Kerusi raja sebagai lambang kuasa",
+    "shortClue": "Kerusi raja"
+  },
+  {
+    "word": "mahkota",
+    "topics": [
+      "history"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Hiasan di kepala raja",
+    "shortClue": "Hiasan raja"
+  },
+  {
+    "word": "permaisuri",
+    "topics": [
+      "history"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Isteri sultan yang bertakhta",
+    "shortClue": "Isteri sultan"
+  },
+  {
+    "word": "puteri",
+    "topics": [
+      "history"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Anak perempuan raja",
+    "shortClue": "Anak raja"
+  },
+  {
+    "word": "istiadat",
+    "topics": [
+      "history"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Upacara rasmi di istana",
+    "shortClue": "Upacara istana"
+  },
+  {
+    "word": "matahari",
+    "topics": [
+      "science"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Bintang yang menyinari dan memanaskan bumi",
+    "shortClue": "Bintang terdekat"
+  },
+  {
+    "word": "bulan",
+    "topics": [
+      "science"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Jasad langit yang mengelilingi bumi dan bercahaya pada malam hari",
+    "shortClue": "Pengiring bumi"
+  },
+  {
+    "word": "bintang",
+    "topics": [
+      "science"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Titik bercahaya yang kelihatan di langit malam",
+    "shortClue": "Cahaya langit"
+  },
+  {
+    "word": "galaksi",
+    "topics": [
+      "science"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Himpunan berjuta bintang yang sangat besar",
+    "shortClue": "Himpunan bintang"
+  },
+  {
+    "word": "komet",
+    "topics": [
+      "science"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Jasad bersinar berekor yang beredar mengelilingi matahari",
+    "shortClue": "Berekor bersinar"
+  },
+  {
+    "word": "meteor",
+    "topics": [
+      "science"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Batu angkasa yang menyala ketika memasuki udara",
+    "shortClue": "Batu menyala"
+  },
+  {
+    "word": "orbit",
+    "topics": [
+      "science"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Laluan sesuatu jasad mengelilingi jasad lain",
+    "shortClue": "Laluan bulat"
+  },
+  {
+    "word": "tenaga",
+    "topics": [
+      "science"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Keupayaan untuk melakukan kerja",
+    "shortClue": "Keupayaan kerja"
+  },
+  {
+    "word": "elektrik",
+    "topics": [
+      "science"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Tenaga yang mengalir dalam wayar dan menyalakan lampu",
+    "shortClue": "Aliran dalam wayar"
+  },
+  {
+    "word": "cahaya",
+    "topics": [
+      "science"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Sinaran yang membolehkan mata melihat",
+    "shortClue": "Sinaran terang"
+  },
+  {
+    "word": "jisim",
+    "topics": [
+      "science"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Kuantiti bahan yang terkandung dalam sesuatu benda",
+    "shortClue": "Kuantiti bahan"
+  },
+  {
+    "word": "unsur",
+    "topics": [
+      "science"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Bahan asas yang tidak boleh dipecahkan secara kimia",
+    "shortClue": "Bahan asas"
+  },
+  {
+    "word": "molekul",
+    "topics": [
+      "science"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Gabungan dua atom atau lebih",
+    "shortClue": "Gabungan atom"
+  },
+  {
+    "word": "hidrogen",
+    "topics": [
+      "science"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Gas paling ringan yang membentuk air bersama oksigen",
+    "shortClue": "Gas teringan"
+  },
+  {
+    "word": "nitrogen",
+    "topics": [
+      "science"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Gas yang membentuk kebanyakan udara di bumi",
+    "shortClue": "Gas dalam udara"
+  },
+  {
+    "word": "asid",
+    "topics": [
+      "science"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Bahan masam yang boleh menghakis logam",
+    "shortClue": "Bahan masam"
+  },
+  {
+    "word": "alkali",
+    "topics": [
+      "science"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Bahan yang menjadi lawan asid",
+    "shortClue": "Lawan asid"
+  },
+  {
+    "word": "fosil",
+    "topics": [
+      "science"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Sisa hidupan purba yang telah membatu",
+    "shortClue": "Sisa membatu"
+  },
+  {
+    "word": "lava",
+    "topics": [
+      "science"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Batuan cair panas yang keluar dari gunung berapi",
+    "shortClue": "Batuan cair"
+  },
+  {
+    "word": "otak",
+    "topics": [
+      "science"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Organ dalam kepala yang berfikir",
+    "shortClue": "Organ berfikir"
+  },
+  {
+    "word": "darah",
+    "topics": [
+      "science"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Cecair merah yang diedarkan oleh jantung ke seluruh badan",
+    "shortClue": "Cecair merah"
+  },
+  {
+    "word": "otot",
+    "topics": [
+      "science"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Tisu yang mengecut untuk menggerakkan badan",
+    "shortClue": "Tisu bergerak"
+  },
+  {
+    "word": "sendi",
+    "topics": [
+      "science"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Tempat dua tulang bertemu",
+    "shortClue": "Pertemuan tulang"
+  },
+  {
+    "word": "rangka",
+    "topics": [
+      "science"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Susunan tulang yang menyokong badan",
+    "shortClue": "Susunan tulang"
+  },
+  {
+    "word": "vaksin",
+    "topics": [
+      "science"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Suntikan untuk mencegah penyakit",
+    "shortClue": "Suntikan pencegah"
+  },
+  {
+    "word": "kuman",
+    "topics": [
+      "science"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Hidupan terlalu kecil yang menyebabkan penyakit",
+    "shortClue": "Penyebab penyakit"
+  },
+  {
+    "word": "klorofil",
+    "topics": [
+      "science"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Pigmen hijau dalam daun yang menangkap cahaya",
+    "shortClue": "Pigmen hijau"
+  },
+  {
+    "word": "fotosintesis",
+    "topics": [
+      "science"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Proses tumbuhan membuat makanan daripada cahaya matahari",
+    "shortClue": "Tumbuhan buat makanan"
+  },
+  {
+    "word": "hipotesis",
+    "topics": [
+      "science"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Andaian awal yang diuji dalam eksperimen",
+    "shortClue": "Andaian ujian"
+  },
+  {
+    "word": "eksperimen",
+    "topics": [
+      "science"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Ujian saintifik untuk membuktikan sesuatu",
+    "shortClue": "Ujian sains"
+  },
+  {
+    "word": "termometer",
+    "topics": [
+      "science"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Alat pengukur suhu badan atau udara",
+    "shortClue": "Pengukur suhu"
+  },
+  {
+    "word": "barometer",
+    "topics": [
+      "science"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Alat pengukur tekanan udara",
+    "shortClue": "Pengukur tekanan"
+  },
+  {
+    "word": "geometri",
+    "topics": [
+      "science"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Cabang matematik tentang bentuk dan ruang",
+    "shortClue": "Matematik bentuk"
+  },
+  {
+    "word": "algebra",
+    "topics": [
+      "science"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Cabang matematik yang menggunakan huruf mewakili nombor",
+    "shortClue": "Matematik huruf"
+  },
+  {
+    "word": "makmal",
+    "topics": [
+      "science"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Bilik tempat sains diuji",
+    "shortClue": "Bilik sains"
+  },
+  {
+    "word": "pemain",
+    "topics": [
+      "sport"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Orang yang mewakili pasukan di padang",
+    "shortClue": "Ahli pasukan"
+  },
+  {
+    "word": "pasukan",
+    "topics": [
+      "sport"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Kumpulan pemain yang bertanding bersama",
+    "shortClue": "Kumpulan pemain"
+  },
+  {
+    "word": "pingat",
+    "topics": [
+      "sport"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Cakera logam yang diberi kepada pemenang",
+    "shortClue": "Hadiah pemenang"
+  },
+  {
+    "word": "emas",
+    "topics": [
+      "sport"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Pingat tempat pertama dalam pertandingan",
+    "shortClue": "Pingat pertama"
+  },
+  {
+    "word": "gangsa",
+    "topics": [
+      "sport"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Pingat tempat ketiga berwarna perang",
+    "shortClue": "Pingat ketiga"
+  },
+  {
+    "word": "juara",
+    "topics": [
+      "sport"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Pemenang pertama dalam sesuatu pertandingan",
+    "shortClue": "Pemenang utama"
+  },
+  {
+    "word": "pertandingan",
+    "topics": [
+      "sport"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Acara yang menentukan siapa yang terbaik",
+    "shortClue": "Acara persaingan"
+  },
+  {
+    "word": "kejohanan",
+    "topics": [
+      "sport"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Siri perlawanan untuk menentukan juara",
+    "shortClue": "Siri perlawanan"
+  },
+  {
+    "word": "jurulatih",
+    "topics": [
+      "sport"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Orang yang mengatur strategi dan membimbing pasukan",
+    "shortClue": "Pembimbing pasukan"
+  },
+  {
+    "word": "atlet",
+    "topics": [
+      "sport"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Orang yang terlatih dalam sukan",
+    "shortClue": "Ahli sukan"
+  },
+  {
+    "word": "stadium",
+    "topics": [
+      "sport"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Bangunan besar dengan tempat duduk untuk penonton",
+    "shortClue": "Gelanggang besar"
+  },
+  {
+    "word": "gelanggang",
+    "topics": [
+      "sport"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Kawasan rata tempat bermain bola keranjang atau badminton",
+    "shortClue": "Tempat bertanding"
+  },
+  {
+    "word": "wisel",
+    "topics": [
+      "sport"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Alat bunyi yang ditiup oleh pengadil",
+    "shortClue": "Alat ditiup"
+  },
+  {
+    "word": "lembing",
+    "topics": [
+      "sport"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Batang panjang yang dilontar jauh dalam acara trek dan padang",
+    "shortClue": "Dilontar jauh"
+  },
+  {
+    "word": "cakera",
+    "topics": [
+      "sport"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Piringan yang dilontar dalam acara balingan",
+    "shortClue": "Piringan lontar"
+  },
+  {
+    "word": "tinju",
+    "topics": [
+      "sport"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Sukan berlawan dengan penumbuk bersarung tangan",
+    "shortClue": "Sukan penumbuk"
+  },
+  {
+    "word": "judo",
+    "topics": [
+      "sport"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Seni pertahanan diri dari Jepun dengan baju putih",
+    "shortClue": "Seni dari Jepun"
+  },
+  {
+    "word": "taekwondo",
+    "topics": [
+      "sport"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Seni pertahanan diri Korea yang menekankan tendangan",
+    "shortClue": "Seni Korea"
+  },
+  {
+    "word": "gimnastik",
+    "topics": [
+      "sport"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Sukan lenturan badan di atas bar dan tilam",
+    "shortClue": "Lenturan badan"
+  },
+  {
+    "word": "selam",
+    "topics": [
+      "sport"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Aktiviti berenang di bawah permukaan air",
+    "shortClue": "Di bawah air"
+  },
+  {
+    "word": "dayung",
+    "topics": [
+      "sport"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Kayu pipih untuk menggerakkan bot di air",
+    "shortClue": "Penggerak bot"
+  },
+  {
+    "word": "golf",
+    "topics": [
+      "sport"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Sukan memukul bola kecil ke dalam lubang",
+    "shortClue": "Bola dan lubang"
+  },
+  {
+    "word": "tenis",
+    "topics": [
+      "sport"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Sukan memukul bola melepasi jaring dengan raket",
+    "shortClue": "Sukan raket"
+  },
+  {
+    "word": "takraw",
+    "topics": [
+      "sport"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Sukan menyepak bola rotan merentasi jaring",
+    "shortClue": "Bola rotan"
+  },
+  {
+    "word": "pecut",
+    "topics": [
+      "sport"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Larian laju pada jarak yang pendek",
+    "shortClue": "Laju sangat"
+  },
+  {
+    "word": "kapten",
+    "topics": [
+      "sport"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Ketua pasukan di padang",
+    "shortClue": "Ketua pasukan"
+  },
+  {
+    "word": "trek",
+    "topics": [
+      "sport"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Laluan bujur untuk perlumbaan lari",
+    "shortClue": "Laluan lumba"
+  },
+  {
+    "word": "muzik",
+    "topics": [
+      "arts"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Bunyi yang diatur dengan irama dan melodi",
+    "shortClue": "Irama dan melodi"
+  },
+  {
+    "word": "melodi",
+    "topics": [
+      "arts"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Susunan nada yang merdu dalam sesebuah lagu",
+    "shortClue": "Nada merdu"
+  },
+  {
+    "word": "irama",
+    "topics": [
+      "arts"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Turutan bunyi berdenyut yang teratur",
+    "shortClue": "Denyut bunyi"
+  },
+  {
+    "word": "biola",
+    "topics": [
+      "arts"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Alat muzik berdawai yang digesek",
+    "shortClue": "Digesek berdawai"
+  },
+  {
+    "word": "seruling",
+    "topics": [
+      "arts"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Alat muzik buluh yang ditiup",
+    "shortClue": "Alat ditiup"
+  },
+  {
+    "word": "piano",
+    "topics": [
+      "arts"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Alat muzik berpapan kekunci hitam dan putih",
+    "shortClue": "Papan kekunci"
+  },
+  {
+    "word": "gendang",
+    "topics": [
+      "arts"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Alat muzik yang dipalu pada permukaan kulit",
+    "shortClue": "Dipalu berkulit"
+  },
+  {
+    "word": "rebana",
+    "topics": [
+      "arts"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Gendang tangan berbentuk bulat dan pipih",
+    "shortClue": "Gendang tangan"
+  },
+  {
+    "word": "sape",
+    "topics": [
+      "arts"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Alat muzik petik berdawai dari Sarawak",
+    "shortClue": "Petik Sarawak"
+  },
+  {
+    "word": "gambus",
+    "topics": [
+      "arts"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Alat muzik berdawai bertubuh bulat yang dipetik",
+    "shortClue": "Petik berdawai"
+  },
+  {
+    "word": "orkestra",
+    "topics": [
+      "arts"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Kumpulan besar pemuzik yang bermain bersama",
+    "shortClue": "Pemuzik ramai"
+  },
+  {
+    "word": "penyanyi",
+    "topics": [
+      "arts"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Orang yang menyuarakan lagu",
+    "shortClue": "Pembawa lagu"
+  },
+  {
+    "word": "pelakon",
+    "topics": [
+      "arts"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Orang yang membawa watak dalam filem",
+    "shortClue": "Pembawa watak"
+  },
+  {
+    "word": "pengarah",
+    "topics": [
+      "arts"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Orang yang mengetuai penggambaran filem",
+    "shortClue": "Ketua penggambaran"
+  },
+  {
+    "word": "pengarang",
+    "topics": [
+      "arts"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Orang yang menulis buku atau cerita",
+    "shortClue": "Penulis buku"
+  },
+  {
+    "word": "pentas",
+    "topics": [
+      "arts"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Pelantar tempat penghibur beraksi di hadapan penonton",
+    "shortClue": "Tempat beraksi"
+  },
+  {
+    "word": "pertunjukan",
+    "topics": [
+      "arts"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Acara yang dipersembahkan di atas pentas",
+    "shortClue": "Acara pentas"
+  },
+  {
+    "word": "kanvas",
+    "topics": [
+      "arts"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Kain tebal tempat melukis dengan cat",
+    "shortClue": "Alas cat"
+  },
+  {
+    "word": "berus",
+    "topics": [
+      "arts"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Alat berbulu untuk menyapu cat",
+    "shortClue": "Alat cat"
+  },
+  {
+    "word": "patung",
+    "topics": [
+      "arts"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Rupa manusia atau haiwan daripada kayu atau batu",
+    "shortClue": "Rupa batu"
+  },
+  {
+    "word": "ukiran",
+    "topics": [
+      "arts"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Corak yang dipahat pada kayu",
+    "shortClue": "Corak pahat"
+  },
+  {
+    "word": "sajak",
+    "topics": [
+      "arts"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Karangan berangkap yang indah bahasanya",
+    "shortClue": "Karangan berangkap"
+  },
+  {
+    "word": "syair",
+    "topics": [
+      "arts"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Puisi lama empat baris yang berima sama",
+    "shortClue": "Puisi lama"
+  },
+  {
+    "word": "gurindam",
+    "topics": [
+      "arts"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Puisi lama dua baris yang berisi nasihat",
+    "shortClue": "Puisi dua baris"
+  },
+  {
+    "word": "peribahasa",
+    "topics": [
+      "arts"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Susunan kata tetap yang bermaksud kiasan",
+    "shortClue": "Kata kiasan"
+  },
+  {
+    "word": "rebab",
+    "topics": [
+      "arts"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Alat muzik tradisional bertali yang dimainkan dengan cara digesek",
+    "shortClue": "Alat muzik gesek"
+  },
+  {
+    "word": "animasi",
+    "topics": [
+      "arts"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Gambar yang digerakkan seolah-olah hidup",
+    "shortClue": "Gambar bergerak"
+  },
+  {
+    "word": "kamera",
+    "topics": [
+      "arts"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Alat untuk merakam gambar atau video",
+    "shortClue": "Alat rakaman"
+  },
+  {
+    "word": "galeri",
+    "topics": [
+      "arts"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Ruang tempat karya seni digantung untuk dilihat",
+    "shortClue": "Ruang karya"
+  },
+  {
+    "word": "kubah",
+    "topics": [
+      "arts"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Bumbung bulat melengkung pada masjid atau istana",
+    "shortClue": "Bumbung bulat"
+  },
+  {
+    "word": "menara",
+    "topics": [
+      "arts"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Bangunan tinggi dan ramping",
+    "shortClue": "Bangunan ramping"
+  },
+  {
+    "word": "mural",
+    "topics": [
+      "arts"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Lukisan besar pada dinding bangunan",
+    "shortClue": "Lukisan dinding"
+  },
+  {
+    "word": "warna",
+    "topics": [
+      "arts"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Ciri yang membezakan merah, biru dan hijau",
+    "shortClue": "Merah biru hijau"
+  },
+  {
+    "word": "cat",
+    "topics": [
+      "arts"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Cecair berwarna untuk mewarnakan dinding atau kanvas",
+    "shortClue": "Cecair berwarna"
+  },
+  {
+    "word": "sofa",
+    "topics": [
+      "home"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Kerusi panjang berlapik di ruang tamu",
+    "shortClue": "Tempat duduk empuk"
+  },
+  {
+    "word": "permaidani",
+    "topics": [
+      "home"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Hamparan tebal pada lantai",
+    "shortClue": "Hamparan lantai"
+  },
+  {
+    "word": "tikar",
+    "topics": [
+      "home"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Hamparan anyaman mengkuang untuk duduk atau tidur",
+    "shortClue": "Alas anyaman"
+  },
+  {
+    "word": "tilam",
+    "topics": [
+      "home"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Alas tebal dan empuk untuk tidur",
+    "shortClue": "Alas tidur"
+  },
+  {
+    "word": "selimut",
+    "topics": [
+      "home"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Kain tebal yang menutupi badan ketika tidur",
+    "shortClue": "Kain penutup"
+  },
+  {
+    "word": "cadar",
+    "topics": [
+      "home"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Kain yang membalut tilam",
+    "shortClue": "Kain tilam"
+  },
+  {
+    "word": "langsir",
+    "topics": [
+      "home"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Kain yang tergantung pada tingkap",
+    "shortClue": "Kain tingkap"
+  },
+  {
+    "word": "lantai",
+    "topics": [
+      "home"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Permukaan rata tempat kita berjalan di dalam rumah",
+    "shortClue": "Permukaan rumah"
+  },
+  {
+    "word": "bumbung",
+    "topics": [
+      "home"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Penutup atas rumah yang menahan hujan",
+    "shortClue": "Penutup atas"
+  },
+  {
+    "word": "dinding",
+    "topics": [
+      "home"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Binaan tegak yang membatasi bilik",
+    "shortClue": "Pembatas bilik"
+  },
+  {
+    "word": "siling",
+    "topics": [
+      "home"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Permukaan dalam bahagian atas bilik",
+    "shortClue": "Atas bilik"
+  },
+  {
+    "word": "tangga",
+    "topics": [
+      "home"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Susunan langkah untuk naik ke tingkat atas",
+    "shortClue": "Naik turun"
+  },
+  {
+    "word": "halaman",
+    "topics": [
+      "home"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Tanah lapang di hadapan rumah",
+    "shortClue": "Tanah hadapan"
+  },
+  {
+    "word": "kunci",
+    "topics": [
+      "home"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Alat logam kecil yang membuka mangga",
+    "shortClue": "Pembuka mangga"
+  },
+  {
+    "word": "periuk",
+    "topics": [
+      "home"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Bekas bulat untuk memasak nasi atau gulai",
+    "shortClue": "Bekas memasak"
+  },
+  {
+    "word": "kuali",
+    "topics": [
+      "home"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Bekas lebar dan cetek untuk menggoreng",
+    "shortClue": "Bekas goreng"
+  },
+  {
+    "word": "senduk",
+    "topics": [
+      "home"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Alat bertangkai untuk menceduk kuah",
+    "shortClue": "Alat penceduk"
+  },
+  {
+    "word": "pinggan",
+    "topics": [
+      "home"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Bekas bulat leper tempat makanan dihidang",
+    "shortClue": "Bekas makan"
+  },
+  {
+    "word": "mangkuk",
+    "topics": [
+      "home"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Bekas bulat dalam untuk sup atau bubur",
+    "shortClue": "Bekas sup"
+  },
+  {
+    "word": "cawan",
+    "topics": [
+      "home"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Bekas kecil bertelinga untuk minum teh",
+    "shortClue": "Bekas minum"
+  },
+  {
+    "word": "sudu",
+    "topics": [
+      "home"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Alat berlekuk untuk menyuap makanan",
+    "shortClue": "Alat menyuap"
+  },
+  {
+    "word": "pisau",
+    "topics": [
+      "home"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Alat tajam untuk memotong",
+    "shortClue": "Alat tajam"
+  },
+  {
+    "word": "sabun",
+    "topics": [
+      "home"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Bahan berbuih untuk membersihkan badan atau pakaian",
+    "shortClue": "Bahan berbuih"
+  },
+  {
+    "word": "tuala",
+    "topics": [
+      "home"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Kain tebal untuk mengeringkan badan",
+    "shortClue": "Pengering badan"
+  },
+  {
+    "word": "baldi",
+    "topics": [
+      "home"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Bekas bulat bertangkai untuk mengisi air",
+    "shortClue": "Bekas air"
+  },
+  {
+    "word": "paip",
+    "topics": [
+      "home"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Saluran logam yang mengalirkan air",
+    "shortClue": "Saluran air"
+  },
+  {
+    "word": "lampu",
+    "topics": [
+      "home"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Alat yang memberi cahaya di dalam bilik",
+    "shortClue": "Pemberi cahaya"
+  },
+  {
+    "word": "suis",
+    "topics": [
+      "home"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Butang pada dinding untuk menyalakan lampu",
+    "shortClue": "Butang lampu"
+  },
+  {
+    "word": "wayar",
+    "topics": [
+      "home"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Tali logam yang mengalirkan elektrik",
+    "shortClue": "Tali elektrik"
+  },
+  {
+    "word": "tukul",
+    "topics": [
+      "home"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Alat besi bertangkai untuk memalu",
+    "shortClue": "Alat memalu"
+  },
+  {
+    "word": "beranda",
+    "topics": [
+      "home"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Ruang berbumbung di hadapan rumah",
+    "shortClue": "Ruang hadapan"
+  },
+  {
+    "word": "bingkai",
+    "topics": [
+      "home"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Rangka pada sekeliling gambar",
+    "shortClue": "Rangka gambar"
+  },
+  {
+    "word": "profesor",
+    "topics": [
+      "professions"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Gelaran tertinggi bagi pengajar di universiti",
+    "shortClue": "Pengajar tertinggi"
+  },
+  {
+    "word": "pengurus",
+    "topics": [
+      "professions"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Orang yang mengetuai sesebuah jabatan atau syarikat",
+    "shortClue": "Ketua jabatan"
+  },
+  {
+    "word": "akauntan",
+    "topics": [
+      "professions"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Orang yang menyimpan dan menyemak catatan wang",
+    "shortClue": "Pencatat wang"
+  },
+  {
+    "word": "setiausaha",
+    "topics": [
+      "professions"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Pegawai yang menyusun surat dan jadual ketuanya",
+    "shortClue": "Pengatur jadual"
+  },
+  {
+    "word": "kerani",
+    "topics": [
+      "professions"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Pekerja pejabat yang menaip dan menyimpan fail",
+    "shortClue": "Pekerja pejabat"
+  },
+  {
+    "word": "bomba",
+    "topics": [
+      "professions"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Anggota yang memadamkan kebakaran",
+    "shortClue": "Pemadam api"
+  },
+  {
+    "word": "askar",
+    "topics": [
+      "professions"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Anggota pasukan pertahanan negara",
+    "shortClue": "Anggota tentera"
+  },
+  {
+    "word": "juruterbang",
+    "topics": [
+      "professions"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Orang yang mengemudi pesawat di udara",
+    "shortClue": "Pemandu pesawat"
+  },
+  {
+    "word": "nakhoda",
+    "topics": [
+      "professions"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Ketua yang mengemudi kapal",
+    "shortClue": "Ketua kapal"
+  },
+  {
+    "word": "pelaut",
+    "topics": [
+      "professions"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Orang yang berkhidmat di atas kapal di samudera",
+    "shortClue": "Pekerja kapal"
+  },
+  {
+    "word": "penjahit",
+    "topics": [
+      "professions"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Orang yang membuat baju untuk pelanggan",
+    "shortClue": "Pembuat baju"
+  },
+  {
+    "word": "pengacara",
+    "topics": [
+      "professions"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Orang yang memandu sesebuah majlis atau rancangan",
+    "shortClue": "Pemandu majlis"
+  },
+  {
+    "word": "wartawan",
+    "topics": [
+      "professions"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Orang yang mengumpul dan melaporkan berita",
+    "shortClue": "Pelapor berita"
+  },
+  {
+    "word": "penterjemah",
+    "topics": [
+      "professions"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Orang yang menukar teks daripada satu bahasa kepada bahasa lain",
+    "shortClue": "Penukar bahasa"
+  },
+  {
+    "word": "usahawan",
+    "topics": [
+      "professions"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Orang yang membuka perniagaan sendiri",
+    "shortClue": "Pemilik syarikat"
+  },
+  {
+    "word": "peniaga",
+    "topics": [
+      "professions"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Orang yang menjual barang untuk mencari untung",
+    "shortClue": "Penjual barang"
+  },
+  {
+    "word": "gembala",
+    "topics": [
+      "professions"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Orang yang menjaga kambing atau lembu di padang",
+    "shortClue": "Penjaga ternakan"
+  },
+  {
+    "word": "penternak",
+    "topics": [
+      "professions"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Orang yang memelihara haiwan untuk dijual",
+    "shortClue": "Pemelihara haiwan"
+  },
+  {
+    "word": "hakim",
+    "topics": [
+      "professions"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Pegawai yang memutuskan hukuman di mahkamah",
+    "shortClue": "Pemutus kes"
+  },
+  {
+    "word": "bidan",
+    "topics": [
+      "professions"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Wanita yang membantu ibu bersalin",
+    "shortClue": "Pembantu bersalin"
+  },
+  {
+    "word": "tabib",
+    "topics": [
+      "professions"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Orang yang merawat penyakit dengan ubat tradisi",
+    "shortClue": "Perawat tradisi"
+  },
+  {
+    "word": "pakar",
+    "topics": [
+      "professions"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Orang yang sangat mahir dalam bidang tertentu",
+    "shortClue": "Sangat mahir"
+  },
+  {
+    "word": "juruteknik",
+    "topics": [
+      "professions"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Pekerja mahir yang membaiki mesin atau alat",
+    "shortClue": "Pembaiki mesin"
+  },
+  {
+    "word": "juruaudit",
+    "topics": [
+      "professions"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Pegawai yang memeriksa catatan kewangan syarikat",
+    "shortClue": "Pemeriksa akaun"
+  },
+  {
+    "word": "jaga",
+    "topics": [
+      "professions"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Orang yang berkawal pada waktu malam",
+    "shortClue": "Pengawal malam"
+  },
+  {
+    "word": "juruwang",
+    "topics": [
+      "professions"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Pekerja yang menerima bayaran di kaunter",
+    "shortClue": "Pekerja kaunter"
+  },
+  {
+    "word": "jurujual",
+    "topics": [
+      "professions"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Pekerja yang melayan pembeli di kedai",
+    "shortClue": "Pekerja kedai"
+  },
+  {
+    "word": "kurator",
+    "topics": [
+      "professions"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Orang yang menjaga koleksi di muzium",
+    "shortClue": "Penjaga muzium"
+  },
+  {
+    "word": "kaunselor",
+    "topics": [
+      "professions"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Orang yang memberi nasihat tentang masalah peribadi",
+    "shortClue": "Pemberi nasihat"
+  },
+  {
+    "word": "saintis",
+    "topics": [
+      "professions"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Orang yang mengkaji dunia melalui ujian",
+    "shortClue": "Pengkaji sains"
+  },
+  {
+    "word": "kenduri",
+    "topics": [
+      "localCulture"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Jamuan makan beramai-ramai sempena sesuatu majlis",
+    "shortClue": "Jamuan ramai"
+  },
+  {
+    "word": "kebaya",
+    "topics": [
+      "localCulture"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Pakaian atas wanita Melayu yang dipadankan dengan kain",
+    "shortClue": "Baju wanita"
+  },
+  {
+    "word": "tengkolok",
+    "topics": [
+      "localCulture"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Hiasan kepala diraja yang diperbuat daripada songket",
+    "shortClue": "Hiasan kepala"
+  },
+  {
+    "word": "songkok",
+    "topics": [
+      "localCulture"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Topi hitam yang dipakai lelaki Melayu",
+    "shortClue": "Topi hitam"
+  },
+  {
+    "word": "selendang",
+    "topics": [
+      "localCulture"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Kain panjang yang disangkut di bahu atau kepala",
+    "shortClue": "Kain bahu"
+  },
+  {
+    "word": "tudung",
+    "topics": [
+      "localCulture"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Kain penutup kepala wanita",
+    "shortClue": "Penutup kepala"
+  },
+  {
+    "word": "tanjak",
+    "topics": [
+      "localCulture"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Ikat kepala lelaki Melayu yang dilipat bergaya",
+    "shortClue": "Ikat kepala"
+  },
+  {
+    "word": "gasing",
+    "topics": [
+      "localCulture"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Permainan tradisi yang berpusing pada paksi runcing",
+    "shortClue": "Permainan berpusing"
+  },
+  {
+    "word": "dikir",
+    "topics": [
+      "localCulture"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Seni nyanyian berkumpulan dari pantai timur",
+    "shortClue": "Nyanyian kumpulan"
+  },
+  {
+    "word": "joget",
+    "topics": [
+      "localCulture"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Tarian rancak Melayu yang diiringi muzik pantas",
+    "shortClue": "Tarian rancak"
+  },
+  {
+    "word": "zapin",
+    "topics": [
+      "localCulture"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Tarian Melayu berpasangan yang bergerak pantas",
+    "shortClue": "Tarian berpasangan"
+  },
+  {
+    "word": "ronggeng",
+    "topics": [
+      "localCulture"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Tarian dan nyanyian yang disertai berbalas pantun",
+    "shortClue": "Tarian bernyanyi"
+  },
+  {
+    "word": "sumazau",
+    "topics": [
+      "localCulture"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Tarian tradisi kaum Kadazandusun ketika Kaamatan",
+    "shortClue": "Tarian Sabah"
+  },
+  {
+    "word": "ngajat",
+    "topics": [
+      "localCulture"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Tarian tradisi kaum Iban",
+    "shortClue": "Tarian Iban"
+  },
+  {
+    "word": "adat",
+    "topics": [
+      "localCulture"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Kebiasaan yang diwarisi daripada nenek moyang",
+    "shortClue": "Kebiasaan lama"
+  },
+  {
+    "word": "kebudayaan",
+    "topics": [
+      "localCulture"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Cara hidup, seni dan adat sesuatu bangsa",
+    "shortClue": "Cara hidup bangsa"
+  },
+  {
+    "word": "tanglung",
+    "topics": [
+      "localCulture"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Lampu berkertas yang digantung sewaktu perayaan orang Cina",
+    "shortClue": "Lampu perayaan"
+  },
+  {
+    "word": "angpau",
+    "topics": [
+      "localCulture"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Sampul merah berisi wang yang diberi pada Tahun Baharu Cina",
+    "shortClue": "Sampul merah"
+  },
+  {
+    "word": "barongsai",
+    "topics": [
+      "localCulture"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Tarian singa yang rancak diiringi dram",
+    "shortClue": "Tarian singa"
+  },
+  {
+    "word": "rangoli",
+    "topics": [
+      "localCulture"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Corak berwarna di lantai semasa Deepavali",
+    "shortClue": "Corak lantai"
+  },
+  {
+    "word": "pesta",
+    "topics": [
+      "localCulture"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Perayaan besar yang disertai ramai orang",
+    "shortClue": "Perayaan ramai"
+  },
+  {
+    "word": "pelamin",
+    "topics": [
+      "localCulture"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Tempat duduk pengantin di atas pentas",
+    "shortClue": "Tempat pengantin"
+  },
+  {
+    "word": "hantaran",
+    "topics": [
+      "localCulture"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Barang yang diberi pihak lelaki kepada perempuan semasa meminang",
+    "shortClue": "Pemberian meminang"
+  },
+  {
+    "word": "Kadazan",
+    "topics": [
+      "localCulture"
+    ],
+    "difficulty": 2,
+    "kind": "proper",
+    "clue": "Kaum penduduk asal Sabah yang menyambut Kaamatan",
+    "shortClue": "Kaum Sabah"
+  },
+  {
+    "word": "Iban",
+    "topics": [
+      "localCulture"
+    ],
+    "difficulty": 2,
+    "kind": "proper",
+    "clue": "Kaum terbesar di Sarawak yang menyambut Gawai",
+    "shortClue": "Kaum Sarawak"
+  },
+  {
+    "word": "Melayu",
+    "topics": [
+      "localCulture"
+    ],
+    "difficulty": 1,
+    "kind": "proper",
+    "clue": "Bangsa yang menuturkan bahasa kebangsaan Malaysia",
+    "shortClue": "Bangsa serumpun"
+  },
+  {
+    "word": "Thaipusam",
+    "topics": [
+      "localCulture"
+    ],
+    "difficulty": 3,
+    "kind": "proper",
+    "clue": "Perayaan masyarakat India di Gua Batu yang meriah",
+    "shortClue": "Perayaan Gua Batu"
+  },
+  {
+    "word": "rafflesia",
+    "topics": [
+      "localCulture"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Bunga raksasa berbau busuk yang tumbuh di hutan Borneo",
+    "shortClue": "Bunga raksasa"
+  },
+  {
+    "word": "nyonya",
+    "topics": [
+      "localCulture"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Wanita peranakan Cina di Melaka atau Pulau Pinang",
+    "shortClue": "Wanita peranakan"
+  },
+  {
+    "word": "gamelan",
+    "topics": [
+      "localCulture"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Ensembel tradisi yang bermain gong dan gendang",
+    "shortClue": "Ensembel tradisi"
+  },
+  {
+    "word": "nobat",
+    "topics": [
+      "localCulture"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Muzik diraja yang dimainkan pada istiadat sultan",
+    "shortClue": "Muzik diraja"
+  },
+  {
+    "word": "anugerah",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Kurniaan atau penghargaan besar yang diberikan",
+    "shortClue": "Kurniaan besar"
+  },
+  {
+    "word": "ufuk",
+    "topics": [
+      "geography"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Garisan tempat langit seolah-olah bertemu bumi",
+    "shortClue": "Garisan langit"
+  },
+  {
+    "word": "iklim",
+    "topics": [
+      "science"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Keadaan cuaca sesuatu kawasan dalam jangka panjang",
+    "shortClue": "Cuaca jangka panjang"
+  },
+  {
+    "word": "elok",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Cantik dan baik",
+    "shortClue": "Cantik dan baik"
+  },
+  {
+    "word": "oasis",
+    "topics": [
+      "geography"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Tempat hijau berair di tengah gurun",
+    "shortClue": "Hijau di gurun"
+  },
+  {
+    "word": "wangi",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Berbau harum dan menyenangkan hidung",
+    "shortClue": "Berbau harum"
+  },
+  {
+    "word": "bangsawan",
+    "topics": [
+      "history"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Orang berdarjat tinggi dalam masyarakat lama",
+    "shortClue": "Orang berdarjat"
+  },
+  {
+    "word": "hempedu",
+    "topics": [
+      "science"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Cecair pahit yang membantu pencernaan lemak",
+    "shortClue": "Cecair pahit"
+  }
+]
