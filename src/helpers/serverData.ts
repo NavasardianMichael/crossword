@@ -1,5 +1,5 @@
-import { getPuzzleAPI, getSamplesAPI } from '@api/puzzles/main'
-import type { Sample } from '@api/puzzles/types'
+import { getDailyAPI, getPuzzleAPI, getSamplesAPI } from '@api/puzzles/main'
+import type { DailyView, Sample } from '@api/puzzles/types'
 import type { Locale, PuzzleView, Topic } from '@constants/puzzle'
 
 /**
@@ -12,6 +12,15 @@ export const fetchTopicSamples = async (locale: Locale, topic: Topic): Promise<S
     return await getSamplesAPI({ locale, topic })
   } catch {
     return []
+  }
+}
+
+/** `null` when the API is unreachable: the daily page then shows its evergreen text alone. */
+export const fetchDaily = async (locale: Locale): Promise<DailyView | null> => {
+  try {
+    return await getDailyAPI({ locale })
+  } catch {
+    return null
   }
 }
 

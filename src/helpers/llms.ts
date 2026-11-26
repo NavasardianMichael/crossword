@@ -27,6 +27,9 @@ const messagesFor = (locale: Locale) =>
 const translator = (locale: Locale) => createTranslator({ locale, messages: messagesFor(locale) })
 
 type Section = { title: string; paragraphs: string[] }
+
+/** The daily page's FAQ pairs (`Daily.faq<N>Question` / `Answer`), as `components/daily/DailyPage.tsx` shows them. */
+const DAILY_FAQ = [1, 2, 3, 4, 5] as const
 type FaqGroup = { title: string; items: { question: string; answer: string }[] }
 
 const url = (locale: Locale, routePath: string) => absoluteUrl(localePath(locale, routePath))
@@ -38,9 +41,10 @@ const keyFacts = (): string[] => {
   return [
     `Free to try: ${FREE_MONTHLY_CREDITS} free credits a month — enough for a medium puzzle — with no account and no sign-up (an account adds ${FREE_MONTHLY_CREDITS} more; free credits don't carry over), then credit packs with no subscription (${CREDIT_PACKS.map(({ credits, usd }) => `${credits} credits for $${usd}`).join(', ')}). Opening a shared puzzle is always free.`,
     `Languages: ${LOCALES.map((locale) => LOCALE_LABELS[locale]).join(', ')} — each with its own word pool, written natively, not translated.`,
+    `Daily crossword: a free classic crossword in every language, new every day at 00:00 UTC and the same for everyone, with no sign-up, at ${absoluteUrl(localePath('en', ROUTES.daily))} (and /<language>/daily); yesterday's answers are on the same page.`,
     `Formats: classic crossword (numbered Across/Down clue lists; ${grid('classic')} grids) and scanword (clues inside the grid with arrows; ${grid('scanword')} grids).`,
     `${TOPICS.length} topics, ${DIFFICULTIES.length} difficulty levels (easy, medium, hard) and ${SIZES.length} sizes (small, medium, large).`,
-    'No repeats: each device remembers the words it has shown and excludes them from every new puzzle.',
+    "No repeats: each device (and each account) remembers the words it has been shown and leaves them out of new puzzles; only after a player has used up a language's unseen words do the oldest-seen ones come back.",
     'Words and clues are proposed by an AI model (Google Gemini); code builds the grid and drops any invalid word or clue.',
     'A progressive web app: installable, and puzzles already opened play offline. Puzzles can be shared by link and saved as a PDF.',
     `Made by ${AUTHOR.name} (${AUTHOR.url}).`,
@@ -53,6 +57,7 @@ const pageLinks = (locale: Locale): string[] => {
     `- [${title}](${url(locale, path)}): ${description}`
   return [
     link(t('Seo.homeTitle'), ROUTES.home, t('Seo.homeDescription')),
+    link(t('Seo.dailyTitle'), ROUTES.daily, t('Seo.dailyDescription')),
     link(t('Seo.crosswordTitle'), ROUTES.crossword, t('Seo.crosswordDescription')),
     link(t('Seo.scanwordTitle'), ROUTES.scanword, t('Seo.scanwordDescription')),
     link(t('Seo.rulesTitle'), ROUTES.rules, t('Seo.rulesDescription')),
@@ -115,10 +120,14 @@ const longForm = (locale: Locale): string[] => {
     '',
     ...items.flatMap(({ question, answer }) => [`**${question}**`, '', answer, '']),
   ])
+  const daily = DAILY_FAQ.flatMap((n) => [`**${t(`Daily.faq${n}Question`)}**`, '', t(`Daily.faq${n}Answer`), ''])
   return [
     `## ${LOCALE_LABELS[locale]}`,
     '',
     ...sections('About'),
+    `### ${t('Daily.faqTitle')} (${url(locale, ROUTES.daily)})`,
+    '',
+    ...daily,
     ...sections('Rules'),
     `### ${t('Faq.title')} (${url(locale, ROUTES.faq)})`,
     '',

@@ -31,7 +31,8 @@
     "privacy": "Datenschutz",
     "terms": "Nutzungsbedingungen",
     "contact": "Kontakt",
-    "guides": "Ratgeber"
+    "guides": "Ratgeber",
+    "daily": "Tägliches Rätsel"
   },
   "Errors": {
     "network": "Der Server ist nicht erreichbar. Prüfe die Verbindung und versuch es noch einmal.",
@@ -91,7 +92,9 @@
     "ogPuzzleCta": "Schaffst du es?",
     "ogPuzzleMeta": "{size} · {words, plural, one {# Wort} other {# Wörter}}",
     "guidesTitle": "Kreuzworträtsel erstellen, lösen und unterrichten",
-    "guidesDescription": "So erstellst du ein Kreuzworträtsel, löst es schneller, spielst Schwedenrätsel und nutzt Rätsel im Unterricht – praktische Ratgeber mit Beispielen."
+    "guidesDescription": "So erstellst du ein Kreuzworträtsel, löst es schneller, spielst Schwedenrätsel und nutzt Rätsel im Unterricht – praktische Ratgeber mit Beispielen.",
+    "dailyTitle": "Kreuzworträtsel heute – kostenlos, täglich neu",
+    "dailyDescription": "Jeden Tag ein neues Kreuzworträtsel, kostenlos, ohne Anmeldung und für alle dasselbe. Neu um 00:00 UTC. Die Lösungen von gestern stehen auf derselben Seite."
   },
   "Formats": {
     "classic": {
@@ -290,6 +293,46 @@
     "faq3Answer": "Wenn vor der Antwort kein Platz für die Frage ist, sitzt sie über oder neben dem ersten Buchstaben, und der Pfeil knickt ab, um die Richtung zu zeigen.",
     "faq4Question": "Sind die Fragen im Schwedenrätsel anders?",
     "faq4Answer": "Sie sind kürzer. Eine Frage muss in ein Feld passen, also sind es höchstens ein paar Wörter."
+  },
+  "Daily": {
+    "eyebrow": "Tägliches Kreuzworträtsel",
+    "title": "Kreuzworträtsel des Tages",
+    "subtitle": "Jeden Tag um 00:00 UTC ein neues Kreuzworträtsel. Kostenlos, ohne Anmeldung und für alle dasselbe.",
+    "today": "Heute, {date}",
+    "todayTitle": "Das Kreuzworträtsel von heute",
+    "todaySubtitle": "{count, plural, one {# Wort} other {# Wörter}} mit nummerierten Hinweisen für waagerecht und senkrecht. Lies sie hier und öffne dann das Gitter, um zu lösen.",
+    "gridLabel": "Das leere Gitter von heute, {width} mal {height} Felder",
+    "play": "Heutiges Rätsel lösen",
+    "across": "Waagerecht",
+    "down": "Senkrecht",
+    "unavailable": "Das heutige Kreuzworträtsel wird noch vorbereitet. Schau in ein paar Minuten wieder vorbei.",
+    "streak": "{count, plural, =0 {Löse das heutige Rätsel und starte deine Serie} one {# Tag in Folge} other {# Tage in Folge}}",
+    "yesterdayTitle": "Lösungen des gestrigen Kreuzworträtsels",
+    "yesterdayShow": "Lösungen anzeigen",
+    "yesterdayPlay": "Gestriges Rätsel lösen",
+    "previousTitle": "Frühere Tage",
+    "aboutTitle": "Über das tägliche Kreuzworträtsel",
+    "about1": "Jeden Tag um 00:00 UTC erscheint hier ein neues Kreuzworträtsel: ein Gitter mittlerer Größe mit nummerierten Hinweisen für waagerecht und senkrecht, direkt auf Deutsch geschrieben und nicht übersetzt. Wer es an diesem Tag öffnet, bekommt dasselbe Rätsel.",
+    "about2": "Es ist kostenlos und braucht kein Konto. Dein Fortschritt wird auf diesem Gerät gespeichert, du kannst also jederzeit aufhören und später weitermachen. Wer jeden Tag löst, baut eine Serie auf. Sobald ein neuer Tag beginnt, stehen die Lösungen von gestern weiter unten auf dieser Seite.",
+    "about3": "Das tägliche Kreuzworträtsel gibt es in 33 Sprachen, jeweils mit eigenen Wörtern und Hinweisen. Die Wörter stammen aus einem eigens zurückgelegten Vorrat und tauchen deshalb kaum in anderen Rätseln auf.",
+    "makeOwnTitle": "Lust auf mehr?",
+    "makeOwnText": "Erstelle dein eigenes Kreuzworträtsel zu einem Thema, das dir gefällt, von Tieren bis Geschichte, in der Größe und Schwierigkeit deiner Wahl.",
+    "makeOwnCta": "Kreuzworträtsel erstellen",
+    "rulesLink": "So löst man ein Kreuzworträtsel",
+    "faqTitle": "Fragen zum täglichen Kreuzworträtsel",
+    "faq1Question": "Ist das tägliche Kreuzworträtsel kostenlos?",
+    "faq1Answer": "Ja. Es ist jeden Tag kostenlos, ohne Konto und ohne Guthaben.",
+    "faq2Question": "Wann erscheint das neue Kreuzworträtsel des Tages?",
+    "faq2Answer": "Jeden Tag um 00:00 UTC, in allen Sprachen zur selben Zeit.",
+    "faq3Question": "Bekommen alle dasselbe Rätsel?",
+    "faq3Answer": "Ja. Wer das Kreuzworträtsel des Tages am selben Tag in derselben Sprache öffnet, sieht dasselbe Gitter und dieselben Hinweise.",
+    "faq4Question": "Wo finde ich die Lösungen von gestern?",
+    "faq4Answer": "Auf dieser Seite: Sobald ein neuer Tag beginnt, erscheinen die gestrigen Hinweise samt Lösungen unter dem heutigen Rätsel. Die Rätsel der letzten Woche lassen sich ebenfalls noch lösen.",
+    "faq5Question": "Kann ich das tägliche Kreuzworträtsel auf dem Handy lösen?",
+    "faq5Answer": "Ja. Es läuft in jedem Browser auf Handy, Tablet und Computer, und die App lässt sich installieren. Ein geöffnetes Rätsel funktioniert auch offline weiter.",
+    "teaserTitle": "Das heutige Kreuzworträtsel",
+    "teaserText": "Jeden Tag ein kostenloses Kreuzworträtsel: für alle dasselbe, ohne Anmeldung.",
+    "teaserCta": "Heutiges Rätsel lösen"
   },
   "TopicsPage": {
     "eyebrow": "Themen",

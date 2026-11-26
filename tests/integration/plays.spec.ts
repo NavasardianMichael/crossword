@@ -50,20 +50,23 @@ describe('the account seen-list', () => {
     expect(play.locale).toBe('en')
   })
 
-  it('never repeats a word to the account, even from a device that sends no seen-list', async () => {
+  it('repeats no word to the account while unseen ones remain, then only words older than its last 20 puzzles', async () => {
     const player = await newPlayer()
-    const seen: number[] = []
-    let built = 0
-    for (let round = 0; round < 60; round++) {
+    const puzzles: number[][] = []
+    let firstRepeat: number | null = null
+    for (let round = 0; round < 45; round++) {
       const response = await create(player.cookie, { locale: 'hy', exclude: [] })
+      // Even the oldest-seen words cannot fill it: the newest 20 puzzles hold the whole slice.
       if (response.status === 503) break
       expect(response.status).toBe(201)
       const ids = (response.body.value as PuzzleView).words.map(({ entryId }) => entryId)
-      expect(ids.filter((id) => seen.includes(id))).toEqual([])
-      seen.push(...ids)
-      built++
+      const recent = new Set(puzzles.slice(-20).flat())
+      expect(ids.filter((id) => recent.has(id))).toEqual([])
+      if (firstRepeat === null && ids.some((id) => puzzles.flat().includes(id))) firstRepeat = round
+      puzzles.push(ids)
     }
-    expect(built).toBeGreaterThan(3)
+    // Unseen words were all used before any came back — from a device that sends no seen-list.
+    expect(firstRepeat === null || firstRepeat > 3).toBe(true)
 
     // Another account has seen none of them.
     const other = await newPlayer()

@@ -3,6 +3,7 @@ import { getTranslations } from 'next-intl/server'
 import { currentLocale, pageMetadata } from '@i18n/metadata'
 import { ROUTES } from '@constants/routes'
 import { gameSchema, organizationSchema, websiteSchema } from '@linkedDataSchema/index'
+import { DailyTeaser } from '@components/daily/DailyTeaser'
 import { GeneratorForm } from '@components/generator/GeneratorForm'
 import { SavedGames } from '@components/history/SavedGames'
 import { FaqSection } from '@components/marketing/FaqSection'
@@ -38,6 +39,8 @@ export default async function HomePage() {
       <Hero namespace='Home.hero' languageTiles>
         <GeneratorForm />
       </Hero>
+
+      <DailyTeaser className='pt-6' />
 
       <SavedGames limit={3} title={t('continueTitle')} className='container-page pt-10' />
 

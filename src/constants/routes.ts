@@ -3,6 +3,8 @@ import type { Topic } from './puzzle'
 /** Every internal path, locale-free. `@i18n/navigation` adds the prefix. */
 export const ROUTES = {
   home: '/',
+  /** One URL per language; its puzzle changes at 00:00 UTC. */
+  daily: '/daily',
   crossword: '/crossword',
   scanword: '/scanword',
   topics: '/topics',
@@ -32,6 +34,7 @@ export type RouteKey = keyof typeof ROUTES
 /** Public pages, each emitted once per locale into the sitemap. */
 export const INDEXABLE_ROUTES: readonly RouteKey[] = [
   'home',
+  'daily',
   'crossword',
   'scanword',
   'topics',

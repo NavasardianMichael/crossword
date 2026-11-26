@@ -31,7 +31,8 @@
     "privacy": "Riêng tư",
     "terms": "Điều khoản",
     "contact": "Liên hệ",
-    "guides": "Hướng dẫn"
+    "guides": "Hướng dẫn",
+    "daily": "Ô chữ hôm nay"
   },
   "Errors": {
     "network": "Không tới được máy chủ. Kiểm tra kết nối rồi thử lại.",
@@ -91,7 +92,9 @@
     "ogPuzzleCta": "Bạn giải được không?",
     "ogPuzzleMeta": "{size} · {words, plural, other {# từ}}",
     "guidesTitle": "Hướng dẫn ô chữ: cách tạo, giải và dạy học",
-    "guidesDescription": "Cách tạo ô chữ, giải nhanh hơn, chơi ô chữ mũi tên và dùng ô chữ trong lớp học: hướng dẫn thực tế kèm ví dụ gợi ý."
+    "guidesDescription": "Cách tạo ô chữ, giải nhanh hơn, chơi ô chữ mũi tên và dùng ô chữ trong lớp học: hướng dẫn thực tế kèm ví dụ gợi ý.",
+    "dailyTitle": "Ô chữ hôm nay — Miễn phí, mới mỗi ngày",
+    "dailyDescription": "Chơi ô chữ cổ điển miễn phí mỗi ngày, ra lúc 00:00 UTC (07:00 giờ Việt Nam), giống nhau cho mọi người. Không cần đăng ký. Đáp án hôm qua có ngay trên trang."
   },
   "Formats": {
     "classic": {
@@ -290,6 +293,46 @@
     "faq3Answer": "Khi không còn chỗ cho gợi ý ngay trước đáp án, gợi ý nằm phía trên hoặc bên chữ đầu, và mũi tên gập để chỉ hướng.",
     "faq4Question": "Gợi ý của ô chữ mũi tên có khác không?",
     "faq4Answer": "Ngắn hơn — gợi ý phải vừa một ô, nên chỉ vài từ là cùng."
+  },
+  "Daily": {
+    "eyebrow": "Ô chữ mỗi ngày",
+    "title": "Ô chữ hôm nay",
+    "subtitle": "Mỗi ngày một ô chữ cổ điển mới lúc 00:00 UTC (07:00 giờ Việt Nam). Miễn phí, không cần đăng ký, và ai cũng chơi cùng một ô chữ.",
+    "today": "Hôm nay, {date}",
+    "todayTitle": "Ô chữ hôm nay",
+    "todaySubtitle": "{count, plural, other {# từ}} với các gợi ý Hàng ngang và Hàng dọc có đánh số. Đọc gợi ý ở đây, rồi mở lưới ô chữ để giải.",
+    "gridLabel": "Lưới ô chữ hôm nay còn trống, {width} nhân {height} ô",
+    "play": "Chơi ô chữ hôm nay",
+    "across": "Hàng ngang",
+    "down": "Hàng dọc",
+    "unavailable": "Ô chữ hôm nay đang được chuẩn bị. Vài phút nữa bạn quay lại nhé.",
+    "streak": "{count, plural, =0 {Giải ô chữ hôm nay để bắt đầu chuỗi ngày} other {# ngày liên tiếp}}",
+    "yesterdayTitle": "Đáp án ô chữ hôm qua",
+    "yesterdayShow": "Xem đáp án",
+    "yesterdayPlay": "Chơi ô chữ hôm qua",
+    "previousTitle": "Những ngày trước",
+    "aboutTitle": "Về ô chữ mỗi ngày",
+    "about1": "Mỗi ngày lúc 00:00 UTC (07:00 giờ Việt Nam), một ô chữ cổ điển mới xuất hiện trên trang này: lưới cỡ vừa với các gợi ý Hàng ngang và Hàng dọc có đánh số, được viết trực tiếp bằng tiếng Việt chứ không dịch lại. Ai mở ô chữ trong ngày đó cũng nhận cùng một câu đố.",
+    "about2": "Ô chữ hoàn toàn miễn phí và không cần tài khoản. Tiến độ của bạn được lưu ngay trên thiết bị này, nên bạn có thể dừng giữa chừng rồi quay lại sau, và giải đều mỗi ngày sẽ tạo thành một chuỗi ngày liên tiếp. Khi sang ngày mới, đáp án hôm qua sẽ hiện ở phía dưới trang này.",
+    "about3": "Ô chữ mỗi ngày có 33 ngôn ngữ, mỗi ngôn ngữ có từ và gợi ý riêng. Các từ được lấy từ một kho để riêng cho ô chữ này, nên hiếm khi gặp lại trong những câu đố khác.",
+    "makeOwnTitle": "Muốn chơi thêm?",
+    "makeOwnText": "Tự tạo ô chữ về chủ đề bạn thích, từ động vật đến lịch sử, với kích thước và độ khó tùy chọn.",
+    "makeOwnCta": "Tạo ô chữ",
+    "rulesLink": "Cách giải ô chữ",
+    "faqTitle": "Câu hỏi về ô chữ mỗi ngày",
+    "faq1Question": "Ô chữ mỗi ngày có miễn phí không?",
+    "faq1Answer": "Có. Ô chữ mỗi ngày miễn phí, không cần tài khoản và không tốn tín dụng.",
+    "faq2Question": "Mấy giờ thì có ô chữ mới?",
+    "faq2Answer": "Ô chữ mới ra mỗi ngày lúc 00:00 UTC (07:00 giờ Việt Nam), cùng một thời điểm ở mọi ngôn ngữ.",
+    "faq3Question": "Mọi người có chơi cùng một ô chữ không?",
+    "faq3Answer": "Có. Ai mở ô chữ mỗi ngày bằng cùng một ngôn ngữ trong cùng một ngày đều thấy cùng một lưới và cùng các gợi ý.",
+    "faq4Question": "Xem đáp án ô chữ hôm qua ở đâu?",
+    "faq4Answer": "Ngay trên trang này: sang ngày mới, gợi ý và đáp án của hôm qua hiện bên dưới ô chữ hôm nay. Các ô chữ của tuần vừa qua vẫn chơi được.",
+    "faq5Question": "Tôi có thể chơi ô chữ mỗi ngày trên điện thoại không?",
+    "faq5Answer": "Có. Ô chữ chạy trên mọi trình duyệt, từ điện thoại, máy tính bảng đến máy tính, và có thể cài thành ứng dụng. Ô chữ đã mở vẫn chơi được khi không có mạng.",
+    "teaserTitle": "Ô chữ hôm nay",
+    "teaserText": "Mỗi ngày một ô chữ cổ điển miễn phí: ai cũng chơi cùng một ô chữ, không cần đăng ký.",
+    "teaserCta": "Chơi ô chữ hôm nay"
   },
   "TopicsPage": {
     "eyebrow": "Chủ đề",

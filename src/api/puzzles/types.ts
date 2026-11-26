@@ -1,6 +1,8 @@
 import type { Endpoint } from '@interfaces/api'
 import type {
+  CellView,
   Difficulty,
+  Direction,
   Locale,
   PuzzleFormat,
   PuzzleSize,
@@ -38,5 +40,21 @@ export type PlayReport = { id: string; states: number[] }
 export type SyncPlaysAPI = Endpoint<{ payload: { plays: PlayReport[] }; response: { kept: number }; processed: null }>
 
 export type Sample = { word: string; clue: string; length: number }
+
+/** A word of today's daily: its clue, never its answer. */
+export type DailyClue = { number: number; dir: Direction; clue: string; length: number }
+
+/** A word of yesterday's daily, with its answer as cell tokens. */
+export type DailyAnswer = { number: number; dir: Direction; clue: string; answer: string[] }
+
+/** `GET /daily/:locale` — the server's `services/daily.ts` `DailyView`. */
+export type DailyView = {
+  date: string
+  today: { id: string; date: string; width: number; height: number; cells: CellView[]; words: DailyClue[] } | null
+  yesterday: { id: string; date: string; words: DailyAnswer[] } | null
+  previous: { id: string; date: string }[]
+}
+
+export type GetDailyAPI = Endpoint<{ payload: { locale: Locale }; response: DailyView; processed: DailyView }>
 
 export type GetSamplesAPI = Endpoint<{ payload: { locale: Locale; topic: Topic }; response: Sample[]; processed: Sample[] }>

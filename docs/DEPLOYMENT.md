@@ -70,8 +70,8 @@ refuses anything else, since compose would interpolate `$` in `.env`.
 ## Gemini
 
 - **Gemini:** a key from https://aistudio.google.com/apikey into `GEMINI_KEY`. The free tier
-  is enough: generated words are pooled and reused, `POOL_DAILY_CALL_BUDGET` caps the calls
-  per day (from midnight Pacific, when Google resets the quota), and `POOL_REFILL_MAX_CALLS` caps the background top-up. An empty key disables
+  is enough: generated words are pooled and reused, a hardcoded 100 requests a day caps the calls
+  (`DAILY_CALL_BUDGET` in `server/src/services/entryPool.ts`) (from midnight Pacific, when Google resets the quota), and `POOL_REFILL_MAX_CALLS` paces the background job, which calls Gemini only where a player's next puzzle would run short. An empty key disables
   generation — puzzles are then built from the seeded pool only.
 
 ## GitHub configuration
@@ -100,8 +100,7 @@ browser bundle); the workflow also accepts them as Variables (`secrets.*` first,
 origin is missing, loopback or `http://`.
 
 `ENV_API_BASE64` holds group A of `server/.env.example`: `DATABASE_URL`, `CORS_ORIGIN`,
-`GEMINI_KEY`, optionally `GEMINI_MODELS`, `VERIFY_ENTRIES`, `POOL_DAILY_CALL_BUDGET`,
-`POOL_REFILL_*`. Do **not** put `NODE_ENV`, `PORT` or `HOST` in it: the deploy
+`GEMINI_KEY`, optionally `GEMINI_MODELS`, `VERIFY_ENTRIES`, `POOL_REFILL_*`. Do **not** put `NODE_ENV`, `PORT` or `HOST` in it: the deploy
 strips and rewrites those three so they cannot drift from the units.
 
 ```bash

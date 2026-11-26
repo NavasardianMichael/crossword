@@ -3,10 +3,11 @@ import { axiosInstance } from '@api/axiosInstance'
 import type { APIResponse } from '@interfaces/api'
 import { API_PUZZLE_TIMEOUT_MS } from '@constants/app'
 import { ENDPOINTS } from './endpoints'
-import { processEmptyResponse, processPuzzleResponse, processSamplesResponse } from './processors'
+import { processDailyResponse, processEmptyResponse, processPuzzleResponse, processSamplesResponse } from './processors'
 import type {
   CreatePuzzleAPI,
   CreatePuzzlePayload,
+  GetDailyAPI,
   GetPuzzleAPI,
   GetSamplesAPI,
   ReportWordAPI,
@@ -44,6 +45,12 @@ export const syncPlaysAPI: SyncPlaysAPI['api'] = async ({ plays }) => {
   await axiosInstance.post(ENDPOINTS.plays, { plays })
   return processEmptyResponse({ value: null, error: null })
 }
+
+/** Today's daily (no answers), yesterday's with its answers, and the days before. */
+export const getDailyAPI: GetDailyAPI['api'] = cache(async ({ locale }) => {
+  const { data } = await axiosInstance.get<APIResponse<GetDailyAPI['response']>>(ENDPOINTS.daily(locale))
+  return processDailyResponse(data)
+})
 
 export const getSamplesAPI: GetSamplesAPI['api'] = cache(async ({ locale, topic }) => {
   const { data } = await axiosInstance.get<APIResponse<GetSamplesAPI['response']>>(ENDPOINTS.samples, {

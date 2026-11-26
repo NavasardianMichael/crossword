@@ -31,7 +31,8 @@
     "privacy": "Confidentialité",
     "terms": "Conditions",
     "contact": "Contact",
-    "guides": "Guides"
+    "guides": "Guides",
+    "daily": "Mots croisés du jour"
   },
   "Errors": {
     "network": "Impossible de joindre le serveur. Vérifiez la connexion et réessayez.",
@@ -91,7 +92,9 @@
     "ogPuzzleCta": "Saurez-vous le résoudre ?",
     "ogPuzzleMeta": "{size} · {words, plural, one {# mot} other {# mots}}",
     "guidesTitle": "Guides : créer et résoudre des mots croisés",
-    "guidesDescription": "Comment créer une grille de mots croisés, la résoudre plus vite, jouer aux mots fléchés et s'en servir en classe : guides pratiques et exemples."
+    "guidesDescription": "Comment créer une grille de mots croisés, la résoudre plus vite, jouer aux mots fléchés et s'en servir en classe : guides pratiques et exemples.",
+    "dailyTitle": "Mots croisés du jour : gratuits, nouveaux chaque jour",
+    "dailyDescription": "Chaque jour, une nouvelle grille de mots croisés classique, gratuite, sans inscription et identique pour tous. Sortie à 00:00 UTC. Réponses d'hier sur la page."
   },
   "Formats": {
     "classic": {
@@ -290,6 +293,46 @@
     "faq3Answer": "Quand il n'y a pas de place pour la définition juste avant la réponse, elle se place au-dessus ou à côté de la première lettre, et la flèche se plie pour indiquer le sens.",
     "faq4Question": "Les définitions des mots fléchés sont-elles différentes ?",
     "faq4Answer": "Elles sont plus courtes : elles doivent tenir dans une case, donc quelques mots au plus."
+  },
+  "Daily": {
+    "eyebrow": "Mots croisés du jour",
+    "title": "Mots croisés du jour",
+    "subtitle": "Chaque jour à 00:00 UTC, une nouvelle grille de mots croisés classique. Gratuite, sans inscription et la même pour tout le monde.",
+    "today": "Aujourd'hui, {date}",
+    "todayTitle": "La grille d'aujourd'hui",
+    "todaySubtitle": "{count, plural, one {# mot} other {# mots}} avec des définitions numérotées à l'horizontale et à la verticale. Lisez-les ici, puis ouvrez la grille pour jouer.",
+    "gridLabel": "Grille vide des mots croisés d'aujourd'hui, {width} sur {height} cases",
+    "play": "Jouer aux mots croisés du jour",
+    "across": "Horizontal",
+    "down": "Vertical",
+    "unavailable": "Les mots croisés d'aujourd'hui sont en préparation. Revenez dans quelques minutes.",
+    "streak": "{count, plural, =0 {Résolvez la grille d'aujourd'hui pour lancer une série} one {# jour d'affilée} other {# jours d'affilée}}",
+    "yesterdayTitle": "Réponses des mots croisés d'hier",
+    "yesterdayShow": "Afficher les réponses",
+    "yesterdayPlay": "Jouer aux mots croisés d'hier",
+    "previousTitle": "Jours précédents",
+    "aboutTitle": "À propos des mots croisés du jour",
+    "about1": "Chaque jour à 00:00 UTC, une nouvelle grille de mots croisés classique apparaît sur cette page : une grille de taille moyenne avec des définitions numérotées à l'horizontale et à la verticale, écrites directement en français, pas traduites. Tous ceux qui l'ouvrent ce jour-là ont la même grille.",
+    "about2": "Elle est gratuite et ne demande aucun compte. Votre progression est enregistrée sur cet appareil : vous pouvez faire une pause et reprendre plus tard, et jouer chaque jour permet de bâtir une série. Dès qu'un nouveau jour commence, les réponses d'hier apparaissent plus bas sur cette page.",
+    "about3": "Les mots croisés du jour existent en 33 langues, chacune avec ses propres mots et définitions. Les mots de chaque jour sont tirés d'une réserve à part : ils reviennent donc rarement dans les autres grilles.",
+    "makeOwnTitle": "Envie d'une autre grille ?",
+    "makeOwnText": "Créez vos propres mots croisés sur le thème de votre choix, des animaux à l'histoire, dans la taille et le niveau que vous voulez.",
+    "makeOwnCta": "Créer des mots croisés",
+    "rulesLink": "Comment résoudre des mots croisés",
+    "faqTitle": "Questions sur les mots croisés du jour",
+    "faq1Question": "Les mots croisés du jour sont-ils gratuits ?",
+    "faq1Answer": "Oui. Ils sont gratuits tous les jours, sans compte et sans dépenser de crédits.",
+    "faq2Question": "À quelle heure sortent les nouveaux mots croisés du jour ?",
+    "faq2Answer": "Chaque jour à 00:00 UTC, au même moment dans toutes les langues.",
+    "faq3Question": "Tout le monde a-t-il la même grille ?",
+    "faq3Answer": "Oui. Tous ceux qui ouvrent les mots croisés du jour dans la même langue le même jour ont la même grille et les mêmes définitions.",
+    "faq4Question": "Où trouver les réponses d'hier ?",
+    "faq4Answer": "Sur cette page : dès qu'un nouveau jour commence, les définitions d'hier et leurs réponses apparaissent sous la grille du jour. Les grilles de la dernière semaine restent jouables.",
+    "faq5Question": "Peut-on jouer aux mots croisés du jour sur son téléphone ?",
+    "faq5Answer": "Oui. Ils fonctionnent dans n'importe quel navigateur, sur téléphone, tablette ou ordinateur, et l'application peut s'installer. Une grille déjà ouverte reste jouable hors connexion.",
+    "teaserTitle": "Les mots croisés du jour",
+    "teaserText": "Une grille classique gratuite chaque jour : la même pour tous, sans inscription.",
+    "teaserCta": "Jouer aux mots croisés du jour"
   },
   "TopicsPage": {
     "eyebrow": "Thèmes",

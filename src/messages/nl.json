@@ -31,7 +31,8 @@
     "privacy": "Privacy",
     "terms": "Voorwaarden",
     "contact": "Contact",
-    "guides": "Gidsen"
+    "guides": "Gidsen",
+    "daily": "Kruiswoord van de dag"
   },
   "Errors": {
     "network": "De server is niet bereikbaar. Controleer je verbinding en probeer het opnieuw.",
@@ -91,7 +92,9 @@
     "ogPuzzleCta": "Kun jij hem oplossen?",
     "ogPuzzleMeta": "{size} · {words, plural, one {# woord} other {# woorden}}",
     "guidesTitle": "Kruiswoordpuzzels maken en oplossen: gidsen",
-    "guidesDescription": "Zo maak je een kruiswoordpuzzel, los je hem sneller op, speel je Zweedse puzzels en gebruik je puzzels in de les: praktische gidsen met voorbeelden."
+    "guidesDescription": "Zo maak je een kruiswoordpuzzel, los je hem sneller op, speel je Zweedse puzzels en gebruik je puzzels in de les: praktische gidsen met voorbeelden.",
+    "dailyTitle": "Kruiswoordpuzzel van vandaag: gratis, elke dag nieuw",
+    "dailyDescription": "Elke dag een nieuwe klassieke kruiswoordpuzzel, gratis, zonder account, voor iedereen dezelfde. Nieuw om 00:00 UTC. Antwoorden van gisteren op dezelfde pagina."
   },
   "Formats": {
     "classic": {
@@ -290,6 +293,46 @@
     "faq3Answer": "Als er geen plek is voor de hint vlak voor het antwoord, staat hij boven of naast de eerste letter, en de pijl buigt om de richting te wijzen.",
     "faq4Question": "Zijn de hints van een Zweedse puzzel anders?",
     "faq4Answer": "Ze zijn korter. Een hint moet in één vakje passen, dus het zijn hoogstens een paar woorden."
+  },
+  "Daily": {
+    "eyebrow": "Kruiswoord van de dag",
+    "title": "Kruiswoord van de dag",
+    "subtitle": "Elke dag om 00:00 UTC een nieuwe klassieke kruiswoordpuzzel. Gratis, zonder account en voor iedereen dezelfde.",
+    "today": "Vandaag, {date}",
+    "todayTitle": "De kruiswoordpuzzel van vandaag",
+    "todaySubtitle": "{count, plural, one {# woord} other {# woorden}} met genummerde hints horizontaal en verticaal. Lees ze hier en open het raster om te puzzelen.",
+    "gridLabel": "Leeg raster van de kruiswoordpuzzel van vandaag, {width} bij {height} vakjes",
+    "play": "Los de puzzel van vandaag op",
+    "across": "Horizontaal",
+    "down": "Verticaal",
+    "unavailable": "De kruiswoordpuzzel van vandaag wordt nog klaargemaakt. Kom over een paar minuten terug.",
+    "streak": "{count, plural, =0 {Los de puzzel van vandaag op om een reeks te starten} one {# dag op rij} other {# dagen op rij}}",
+    "yesterdayTitle": "Antwoorden van de kruiswoordpuzzel van gisteren",
+    "yesterdayShow": "Toon de antwoorden",
+    "yesterdayPlay": "Los de puzzel van gisteren op",
+    "previousTitle": "Eerdere dagen",
+    "aboutTitle": "Over het kruiswoord van de dag",
+    "about1": "Elke dag om 00:00 UTC verschijnt hier een nieuwe klassieke kruiswoordpuzzel: een raster van gemiddelde grootte met genummerde hints horizontaal en verticaal, rechtstreeks in het Nederlands geschreven en niet vertaald. Wie de puzzel die dag opent, krijgt dezelfde puzzel.",
+    "about2": "Hij is gratis en je hebt geen account nodig. Je voortgang wordt op dit apparaat bewaard, dus je kunt stoppen en later verdergaan, en wie elke dag oplost, bouwt een reeks op. Zodra een nieuwe dag begint, staan de antwoorden van gisteren verderop op deze pagina.",
+    "about3": "Het kruiswoord van de dag verschijnt in 33 talen, elk met eigen woorden en hints. De woorden van elke dag komen uit een aparte voorraad, dus je ziet ze zelden in andere puzzels terug.",
+    "makeOwnTitle": "Zin in nog een puzzel?",
+    "makeOwnText": "Maak je eigen kruiswoordpuzzel over een onderwerp dat je leuk vindt, van dieren tot geschiedenis, in de grootte en moeilijkheid die jij kiest.",
+    "makeOwnCta": "Kruiswoordpuzzel maken",
+    "rulesLink": "Zo los je een kruiswoordpuzzel op",
+    "faqTitle": "Vragen over het kruiswoord van de dag",
+    "faq1Question": "Is het kruiswoord van de dag gratis?",
+    "faq1Answer": "Ja. Het is elke dag gratis, zonder account en zonder credits.",
+    "faq2Question": "Hoe laat komt er een nieuwe dagpuzzel?",
+    "faq2Answer": "Elke dag om 00:00 UTC, op hetzelfde moment in alle talen.",
+    "faq3Question": "Is het voor iedereen dezelfde puzzel?",
+    "faq3Answer": "Ja. Iedereen die het kruiswoord van de dag in dezelfde taal op dezelfde dag opent, krijgt hetzelfde raster en dezelfde hints.",
+    "faq4Question": "Waar vind ik de antwoorden van gisteren?",
+    "faq4Answer": "Op deze pagina: zodra een nieuwe dag begint, staan de hints van gisteren met hun antwoorden onder de puzzel van vandaag. De puzzels van de afgelopen week kun je ook nog oplossen.",
+    "faq5Question": "Kan ik het kruiswoord van de dag op mijn telefoon spelen?",
+    "faq5Answer": "Ja. Het werkt in elke browser, op telefoon, tablet en computer, en de app is te installeren. Een puzzel die je al hebt geopend, werkt ook offline.",
+    "teaserTitle": "De kruiswoordpuzzel van vandaag",
+    "teaserText": "Elke dag een gratis klassieke kruiswoordpuzzel: voor iedereen dezelfde, zonder account.",
+    "teaserCta": "Los de puzzel van vandaag op"
   },
   "TopicsPage": {
     "eyebrow": "Onderwerpen",

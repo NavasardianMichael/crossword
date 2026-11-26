@@ -1,5 +1,6 @@
 import { createApp } from './app.js'
 import { config } from './config.js'
+import { startDailyBuildJob } from './jobs/dailyBuild.js'
 import { startPoolRefillJob } from './jobs/poolRefill.js'
 import { prisma } from './lib/prisma.js'
 
@@ -8,6 +9,7 @@ const SHUTDOWN_GRACE_MS = 20_000
 
 const app = createApp()
 let stopRefill: () => Promise<void> = async () => {}
+let stopDaily: () => Promise<void> = async () => {}
 
 const server = app.listen(config.port, config.host, () => {
   console.log(`Crossword API (${config.nodeEnv}) listening on http://${config.host}:${config.port}`)
@@ -17,6 +19,7 @@ const server = app.listen(config.port, config.host, () => {
   if (!config.rateLimitEnabled) console.warn('[api] RATE_LIMIT_ENABLED=false: every rate limit is off (tests only)')
   // Here rather than in `createApp`, so tests that build the app never poll.
   stopRefill = startPoolRefillJob()
+  stopDaily = startDailyBuildJob()
 })
 
 /**
@@ -36,7 +39,7 @@ const shutdown = (signal: NodeJS.Signals) => {
 
   const closed = new Promise<void>((resolve) => server.close(() => resolve()))
   server.closeIdleConnections()
-  void Promise.all([closed, stopRefill()])
+  void Promise.all([closed, stopRefill(), stopDaily()])
     .then(() => prisma.$disconnect())
     .then(
       () => process.exit(0),

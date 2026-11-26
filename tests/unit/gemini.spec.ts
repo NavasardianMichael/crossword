@@ -91,6 +91,39 @@ describe('generateJson', () => {
     expect(generateContent).not.toHaveBeenCalled()
   })
 
+  describe('the request meter (the daily budget counts every request)', () => {
+    it('counts a fallen-through request as well as the one that answered', async () => {
+      const { generateJson } = await loadGemini()
+      generateContent.mockRejectedValueOnce(apiError(503)).mockResolvedValueOnce(answer('{}'))
+      const meter = { requests: 0 }
+      await generateJson({ ...options, meter })
+      expect(meter.requests).toBe(2)
+    })
+
+    it('counts every request of a chain that fails, though the call throws', async () => {
+      const { generateJson } = await loadGemini()
+      generateContent.mockRejectedValue(apiError(429))
+      const meter = { requests: 0 }
+      await generateJson({ ...options, meter }).catch(() => undefined)
+      expect(meter.requests).toBe(3)
+    })
+
+    it('counts a request the model refused (400)', async () => {
+      const { generateJson } = await loadGemini()
+      generateContent.mockRejectedValueOnce(apiError(400))
+      const meter = { requests: 0 }
+      await generateJson({ ...options, meter }).catch(() => undefined)
+      expect(meter.requests).toBe(1)
+    })
+
+    it('counts nothing when no request was sent (deadline passed)', async () => {
+      const { generateJson } = await loadGemini()
+      const meter = { requests: 0 }
+      await generateJson({ ...options, meter, deadline: Date.now() - 1 }).catch(() => undefined)
+      expect(meter.requests).toBe(0)
+    })
+  })
+
   it('reports every model when the whole chain fails', async () => {
     const { AllModelsFailedError, generateJson } = await loadGemini()
     generateContent.mockRejectedValue(apiError(503))

@@ -25,7 +25,7 @@ pnpm dev                        # http://localhost:7007 (web) · http://localhos
 ```
 
 Without `GEMINI_KEY` puzzles come from the seed words only (about 300 per language). With a key,
-the pool grows on demand and in the background, within `POOL_DAILY_CALL_BUDGET`.
+the pool grows on demand and in the background, within 100 Gemini requests a day (`DAILY_CALL_BUDGET`).
 
 ## Checks
 

@@ -155,7 +155,10 @@ enum PuzzleFormat {
 
 enum EntryOrigin {
   ai
+  /// Hand-written and hand-checked (`prisma/seed/entries.<locale>.json`): reports never retire it.
   seed
+  /// Written by Claude agents in development (`prisma/seed/claude/<locale>/*.json`): retired by reports like `ai`.
+  claude
 }
 
 /// Proper nouns are fair answers only in the topics about them (geography, local culture).
@@ -175,35 +178,38 @@ enum ClueStyle {
 /// **Never delete a row** — retire it. A deleted word could be generated again under a new id
 /// and slip past every device's seen-list.
 model Entry {
-  id          Int         @id @default(autoincrement())
-  locale      String
+  id           Int         @id @default(autoincrement())
+  locale       String
   /// Normalized cell string (`lib/alphabet.ts`): lowercase, `ё` folded, no stress marks.
-  answer      String
+  answer       String
   /// As the language writes it, for reports and admin views: "ёлка", "Երևան".
-  display     String
+  display      String
   /// In cells, not code units — Armenian `ու` is one cell.
-  length      Int
+  length       Int
   /// The first cell token; generation spreads its starting letters with it.
-  firstCell   String
+  firstCell    String
   /// Merged when the same word is generated under another topic.
-  topics      String[]
+  topics       String[]
   /// 1 everyday … 3 rare.
-  difficulty  Int
-  kind        EntryKind   @default(common)
-  origin      EntryOrigin @default(ai)
-  model       String?
+  difficulty   Int
+  kind         EntryKind   @default(common)
+  origin       EntryOrigin @default(ai)
+  model        String?
   /// Placed in a stored puzzle — not merely drawn as a candidate.
-  servedCount Int         @default(0)
+  servedCount  Int         @default(0)
   /// Reveals reported by solvers: a word revealed often is harder than its label says.
-  revealCount Int         @default(0)
-  reportCount Int         @default(0)
-  retiredAt   DateTime?
-  createdAt   DateTime    @default(now())
+  revealCount  Int         @default(0)
+  reportCount  Int         @default(0)
+  retiredAt    DateTime?
+  /// Held for the daily crossword: custom puzzles never draw it. Cleared when a daily places it.
+  dailyReserve Boolean     @default(false)
+  createdAt    DateTime    @default(now())
 
   clues   Clue[]
   reports EntryReport[]
 
   @@unique([locale, answer])
+  @@index([locale, dailyReserve])
   @@index([locale, difficulty, length])
   @@index([locale, firstCell])
   @@index([topics], type: Gin)
@@ -254,6 +260,7 @@ model Puzzle {
   createdAt     DateTime     @default(now())
 
   plays PuzzlePlay[]
+  daily DailyPuzzle?
 
   @@index([locale, createdAt])
 }
@@ -292,19 +299,41 @@ model EntryReport {
   @@unique([entryId, reporterKey])
 }
 
-/// What players ask for, so the refill job tops up those buckets first.
+/// Where the pool will run short: the only thing that makes the refill job call Gemini. After a
+/// puzzle is built, the builder checks whether the same request again could be filled with words
+/// that player has not seen; when not, the gap is recorded here (`services/entryPool.ts`).
 model PoolDemand {
   locale          String
+  /// A topic, or `any` (refilled one topic at a time, the thinnest first).
   topic           String
   difficulty      Int
-  requests        Int      @default(0)
-  /// The longest seen-list a request brought: how deep the keenest player has eaten in.
-  maxExclude      Int      @default(0)
-  /// A request found too few unseen words; refill this bucket before the others.
-  urgent          Boolean  @default(false)
-  lastRequestedAt DateTime @default(now())
+  requests        Int       @default(0)
+  /// New words the bucket needs: the largest gap any player's next puzzle would hit (not the sum —
+  /// a new word is unseen by everyone). 0 when nothing is needed.
+  shortfall       Int       @default(0)
+  /// A paying player's gap (or the daily's): refilled before free play's, from the whole budget.
+  paid            Boolean   @default(false)
+  /// The length band that ran out (`short` ≤ 5 cells, `mid` 6–8, `long` 9+); generation leans on it.
+  lengthBand      String?
+  /// Generation stopped finding new words here: no Gemini call before this.
+  pausedUntil     DateTime?
+  lastRequestedAt DateTime  @default(now())
 
   @@id([locale, topic, difficulty])
+  @@index([shortfall])
+}
+
+/// The daily crossword: one puzzle per language per UTC day, the same for everyone. Built a day
+/// ahead from the daily reserve (`services/daily.ts`).
+model DailyPuzzle {
+  locale    String
+  /// The UTC day, `YYYY-MM-DD`.
+  date      String
+  puzzleId  String   @unique
+  puzzle    Puzzle   @relation(fields: [puzzleId], references: [id])
+  createdAt DateTime @default(now())
+
+  @@id([locale, date])
 }
 
 /// One row per Gemini generation call: spreads subtopics and starting letters, caps the daily

@@ -31,7 +31,8 @@
     "privacy": "Privasi",
     "terms": "Ketentuan",
     "contact": "Kontak",
-    "guides": "Panduan"
+    "guides": "Panduan",
+    "daily": "TTS harian"
   },
   "Errors": {
     "network": "Server tidak terjangkau. Periksa koneksi lalu coba lagi.",
@@ -91,7 +92,9 @@
     "ogPuzzleCta": "Bisakah kamu menyelesaikannya?",
     "ogPuzzleMeta": "{size} · {words, plural, one {# kata} other {# kata}}",
     "guidesTitle": "Panduan teka-teki silang: membuat dan mengisi",
-    "guidesDescription": "Cara membuat teka-teki silang, mengisinya lebih cepat, bermain silang Swedia, dan memakainya di kelas: panduan praktis dengan contoh petunjuk."
+    "guidesDescription": "Cara membuat teka-teki silang, mengisinya lebih cepat, bermain silang Swedia, dan memakainya di kelas: panduan praktis dengan contoh petunjuk.",
+    "dailyTitle": "TTS Harian — Teka-Teki Silang Gratis, Baru Tiap Hari",
+    "dailyDescription": "Mainkan teka-teki silang klasik gratis setiap hari, terbit pukul 00:00 UTC dan sama untuk semua orang. Tanpa daftar. Jawaban kemarin ada di halaman yang sama."
   },
   "Formats": {
     "classic": {
@@ -290,6 +293,46 @@
     "faq3Answer": "Kalau tidak ada tempat untuk petunjuk tepat sebelum jawaban, petunjuk itu duduk di atas atau di samping huruf pertama, dan panahnya berbelok untuk menunjukkan arah.",
     "faq4Question": "Apakah petunjuk silang Swedia berbeda?",
     "faq4Answer": "Lebih pendek. Petunjuk harus muat dalam satu kotak, jadi paling banyak beberapa kata."
+  },
+  "Daily": {
+    "eyebrow": "TTS harian",
+    "title": "TTS Harian",
+    "subtitle": "Teka-teki silang klasik baru setiap hari pukul 00:00 UTC. Gratis, tanpa daftar, dan sama untuk semua orang.",
+    "today": "Hari ini, {date}",
+    "todayTitle": "TTS hari ini",
+    "todaySubtitle": "{count, plural, other {# kata}} dengan pertanyaan Mendatar dan Menurun yang bernomor. Baca di sini, lalu buka kotaknya untuk mengisi.",
+    "gridLabel": "Kotak kosong TTS hari ini, {width} kali {height} kotak",
+    "play": "Mainkan TTS hari ini",
+    "across": "Mendatar",
+    "down": "Menurun",
+    "unavailable": "TTS hari ini sedang disiapkan. Coba lagi beberapa menit lagi.",
+    "streak": "{count, plural, =0 {Selesaikan TTS hari ini untuk memulai rangkaian} other {# hari berturut-turut}}",
+    "yesterdayTitle": "Jawaban TTS kemarin",
+    "yesterdayShow": "Tampilkan jawaban",
+    "yesterdayPlay": "Mainkan TTS kemarin",
+    "previousTitle": "Hari-hari sebelumnya",
+    "aboutTitle": "Tentang TTS harian",
+    "about1": "Setiap hari pukul 00:00 UTC, teka-teki silang klasik baru muncul di halaman ini: kotak berukuran sedang dengan pertanyaan Mendatar dan Menurun yang bernomor, disusun langsung dalam bahasa Indonesia, bukan terjemahan. Semua orang yang membukanya hari itu mendapat teka-teki yang sama.",
+    "about2": "TTS ini gratis dan tidak perlu akun. Kemajuan Anda tersimpan di perangkat ini, jadi Anda bisa berhenti dan melanjutkan nanti, dan menyelesaikannya setiap hari akan membangun rangkaian hari berturut-turut. Begitu hari baru dimulai, jawaban kemarin muncul di bagian bawah halaman ini.",
+    "about3": "TTS harian tersedia dalam 33 bahasa, masing-masing dengan kata dan pertanyaannya sendiri. Kata-katanya diambil dari kumpulan yang disisihkan khusus untuk TTS harian, jadi jarang muncul di teka-teki lain.",
+    "makeOwnTitle": "Mau teka-teki lagi?",
+    "makeOwnText": "Buat teka-teki silang sendiri dengan topik favorit, dari hewan sampai sejarah, dengan ukuran dan tingkat kesulitan pilihan Anda.",
+    "makeOwnCta": "Buat teka-teki silang",
+    "rulesLink": "Cara mengisi teka-teki silang",
+    "faqTitle": "Pertanyaan seputar TTS harian",
+    "faq1Question": "Apakah TTS harian gratis?",
+    "faq1Answer": "Ya. TTS harian gratis setiap hari, tanpa akun dan tanpa kredit.",
+    "faq2Question": "Kapan TTS harian baru terbit?",
+    "faq2Answer": "TTS baru terbit setiap hari pukul 00:00 UTC, pada saat yang sama di semua bahasa.",
+    "faq3Question": "Apakah TTS-nya sama untuk semua orang?",
+    "faq3Answer": "Ya. Semua orang yang membuka TTS harian dalam bahasa yang sama pada hari yang sama mendapat kotak dan pertanyaan yang sama.",
+    "faq4Question": "Di mana saya bisa menemukan jawaban TTS kemarin?",
+    "faq4Answer": "Di halaman ini: begitu hari baru dimulai, pertanyaan dan jawaban kemarin muncul di bawah TTS hari ini. TTS seminggu terakhir juga masih bisa dimainkan.",
+    "faq5Question": "Bisakah saya memainkan TTS harian di ponsel?",
+    "faq5Answer": "Bisa. TTS ini berjalan di peramban mana pun di ponsel, tablet, atau komputer, dan aplikasinya bisa dipasang. TTS yang sudah Anda buka tetap bisa dimainkan tanpa internet.",
+    "teaserTitle": "TTS hari ini",
+    "teaserText": "Teka-teki silang klasik gratis setiap hari: sama untuk semua orang, tanpa daftar.",
+    "teaserCta": "Mainkan TTS hari ini"
   },
   "TopicsPage": {
     "eyebrow": "Topik",

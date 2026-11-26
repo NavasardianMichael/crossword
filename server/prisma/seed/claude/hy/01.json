@@ -1,0 +1,4002 @@
+[
+  {
+    "word": "քիթ",
+    "topics": ["general"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Դեմքի մեջտեղում գտնվող հոտառության օրգանը",
+    "shortClue": "Հոտառության օրգան"
+  },
+  {
+    "word": "ականջ",
+    "topics": ["general"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Գլխի երկու կողմերում գտնվող լսողության օրգանը",
+    "shortClue": "Լսողության օրգան"
+  },
+  {
+    "word": "ծունկ",
+    "topics": ["general"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Ոտքի միջնամասի հոդը, որ ծալվում է քայլելիս",
+    "shortClue": "Ոտքի հոդ"
+  },
+  {
+    "word": "արմունկ",
+    "topics": ["general"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Ձեռքի միջնամասի ծալվող հոդը",
+    "shortClue": "Ձեռքի հոդ"
+  },
+  {
+    "word": "մազ",
+    "topics": ["general"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Գլխին աճող բարակ թելիկներից մեկը",
+    "shortClue": "Սանրվող թելիկ"
+  },
+  {
+    "word": "ճակատ",
+    "topics": ["general"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Դեմքի վերին մասը՝ հոնքերից վեր",
+    "shortClue": "Հոնքերից վեր"
+  },
+  {
+    "word": "այտ",
+    "topics": ["general"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Դեմքի կողմնային փափուկ մասը, որ կարմրում է ամոթից",
+    "shortClue": "Դեմքի կողմ"
+  },
+  {
+    "word": "կոկորդ",
+    "topics": ["general", "science"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Բերանի խոռոչի խորքը, որտեղից սկսվում են կերակրափողն ու շնչափողը",
+    "shortClue": "Վզի ներսը"
+  },
+  {
+    "word": "եղունգ",
+    "topics": ["general"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Մատի ծայրը ծածկող կարծր թիթեղ",
+    "shortClue": "Մատի ծածկույթ"
+  },
+  {
+    "word": "հոնք",
+    "topics": ["general"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Աչքի վերևում աղեղնաձև աճող մազեր",
+    "shortClue": "Աչքի վերևում"
+  },
+  {
+    "word": "ողնաշար",
+    "topics": ["general", "science"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Մեջքի երկայնքով ձգվող ոսկրային սյունը",
+    "shortClue": "Մեջքի սյուն"
+  },
+  {
+    "word": "պապ",
+    "topics": ["general"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Հոր կամ մոր հայրը",
+    "shortClue": "Տատի կողակից"
+  },
+  {
+    "word": "տատ",
+    "topics": ["general"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Հոր կամ մոր մայրը",
+    "shortClue": "Պապի կողակից"
+  },
+  {
+    "word": "քույր",
+    "topics": ["general"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Նույն ծնողների աղջիկը՝ եղբոր համար",
+    "shortClue": "Եղբոր հարազատ"
+  },
+  {
+    "word": "եղբայր",
+    "topics": ["general"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Նույն ծնողների տղան՝ քրոջ համար",
+    "shortClue": "Քրոջ հարազատ"
+  },
+  {
+    "word": "փեսա",
+    "topics": ["general"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Աղջկա ամուսինը՝ նրա ծնողների համար",
+    "shortClue": "Աղջկա ամուսին"
+  },
+  {
+    "word": "սկեսուր",
+    "topics": ["general"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Ամուսնու մայրը՝ կնոջ համար",
+    "shortClue": "Ամուսնու մայր"
+  },
+  {
+    "word": "զոքանչ",
+    "topics": ["general"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Կնոջ մայրը՝ ամուսնու համար",
+    "shortClue": "Կնոջ մայր"
+  },
+  {
+    "word": "երեխա",
+    "topics": ["general"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Փոքր տարիքի տղա կամ աղջիկ",
+    "shortClue": "Մանուկ"
+  },
+  {
+    "word": "սեր",
+    "topics": ["general"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Ջերմ ու խոր զգացմունք մեկի հանդեպ",
+    "shortClue": "Ջերմ զգացմունք"
+  },
+  {
+    "word": "վախ",
+    "topics": ["general"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Վտանգի առջև ծնվող տագնապալի զգացում",
+    "shortClue": "Երկյուղ"
+  },
+  {
+    "word": "ցասում",
+    "topics": ["general"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Ուժեղ, բուռն բարկություն",
+    "shortClue": "Զայրույթ"
+  },
+  {
+    "word": "կարոտ",
+    "topics": ["general"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Հեռվում գտնվող մարդու կամ վայրի համար տխրություն",
+    "shortClue": "Հեռավորի տենչ"
+  },
+  {
+    "word": "հույս",
+    "topics": ["general"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Լավի սպասումն ու հավատը, որ ամեն ինչ կհաջողվի",
+    "shortClue": "Լավի սպասում"
+  },
+  {
+    "word": "ամոթ",
+    "topics": ["general"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Անհարմար զգացում սխալ արարքից հետո",
+    "shortClue": "Կարմրելու պատճառ"
+  },
+  {
+    "word": "նախանձ",
+    "topics": ["general"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Ուրիշի հաջողությունից ծնված դառը զգացում",
+    "shortClue": "Ուրիշի բախտի ցավ"
+  },
+  {
+    "word": "հպարտություն",
+    "topics": ["general"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Սեփական արժանիքների կամ հաջողության գիտակցումից ծնված զգացում",
+    "shortClue": "Ինքնագնահատում"
+  },
+  {
+    "word": "համբերություն",
+    "topics": ["general"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Դժվարությունները հանգիստ տանելու կարողություն",
+    "shortClue": "Տոկունություն"
+  },
+  {
+    "word": "երազ",
+    "topics": ["general"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Քնած ժամանակ տեսած պատկերներ",
+    "shortClue": "Գիշերային տեսիլք"
+  },
+  {
+    "word": "մղձավանջ",
+    "topics": ["general"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Վախեցնող, ծանր երազ",
+    "shortClue": "Սարսափելի երազ"
+  },
+  {
+    "word": "լռություն",
+    "topics": ["general"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Ձայնի ու աղմուկի բացակայություն",
+    "shortClue": "Անձայնություն"
+  },
+  {
+    "word": "աղմուկ",
+    "topics": ["general"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Բարձր, անկանոն ու տհաճ ձայներ",
+    "shortClue": "Ժխոր"
+  },
+  {
+    "word": "ժպիտ",
+    "topics": ["general"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Շուրթերի թեթև ձգում ուրախությունից",
+    "shortClue": "Ուրախ դեմքի նշան"
+  },
+  {
+    "word": "ծիծաղ",
+    "topics": ["general"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Զվարճալի բանից ծնված բարձրաձայն ուրախություն",
+    "shortClue": "Քրքիջ"
+  },
+  {
+    "word": "վիշտ",
+    "topics": ["general"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Խոր տխրություն՝ կորստից կամ դժբախտությունից",
+    "shortClue": "Խոր տխրություն"
+  },
+  {
+    "word": "խիղճ",
+    "topics": ["general"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Ներքին ձայնը, որ դատում է մարդու արարքները",
+    "shortClue": "Ներքին դատավոր"
+  },
+  {
+    "word": "քաջություն",
+    "topics": ["general"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Վտանգից չվախենալու հատկություն",
+    "shortClue": "Արիություն"
+  },
+  {
+    "word": "իմաստություն",
+    "topics": ["general"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Խոր գիտելիքի և կյանքի փորձի միասնություն",
+    "shortClue": "Խելամտություն"
+  },
+  {
+    "word": "ազատություն",
+    "topics": ["general"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Սեփական կամքով ապրելու և ընտրելու հնարավորություն",
+    "shortClue": "Անկախություն"
+  },
+  {
+    "word": "րոպե",
+    "topics": ["general"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Ժամի վաթսուներորդ մասը",
+    "shortClue": "Վաթսուն վայրկյան"
+  },
+  {
+    "word": "վայրկյան",
+    "topics": ["general"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Րոպեի վաթսուներորդ մասը",
+    "shortClue": "Ակնթարթ"
+  },
+  {
+    "word": "տարի",
+    "topics": ["general"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Տասներկու ամսից բաղկացած ժամանակահատված",
+    "shortClue": "Տասներկու ամիս"
+  },
+  {
+    "word": "ամիս",
+    "topics": ["general"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Տարվա տասներկու մասերից մեկը",
+    "shortClue": "Տարվա մաս"
+  },
+  {
+    "word": "երեկո",
+    "topics": ["general"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Օրվա մասը՝ մայրամուտից մինչև գիշեր",
+    "shortClue": "Օրվա վերջ"
+  },
+  {
+    "word": "կիրակի",
+    "topics": ["general"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Շաբաթվա վերջին, հանգստի օրը",
+    "shortClue": "Հանգստյան օր"
+  },
+  {
+    "word": "հունվար",
+    "topics": ["general"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Տարվա առաջին ամիսը",
+    "shortClue": "Առաջին ամիս"
+  },
+  {
+    "word": "դեկտեմբեր",
+    "topics": ["general"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Տարվա վերջին ամիսը",
+    "shortClue": "Վերջին ամիս"
+  },
+  {
+    "word": "մատիտ",
+    "topics": ["general"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Գրաֆիտե միջուկով փայտիկ, որով գրում ու նկարում են",
+    "shortClue": "Գրաֆիտե փայտիկ"
+  },
+  {
+    "word": "քանոն",
+    "topics": ["general"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Բաժանումներով ուղիղ ձող՝ գծեր քաշելու համար",
+    "shortClue": "Գծելու ձող"
+  },
+  {
+    "word": "ուսապարկ",
+    "topics": ["general"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Մեջքին կրվող պայուսակ՝ երկու փոկով",
+    "shortClue": "Մեջքի պայուսակ"
+  },
+  {
+    "word": "դասարան",
+    "topics": ["general"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Դպրոցի սենյակ, որտեղ աշակերտները նստում են նստարաններին",
+    "shortClue": "Դպրոցի սենյակ"
+  },
+  {
+    "word": "քննություն",
+    "topics": ["general"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Գիտելիքների ստուգում ուսումնական տարվա վերջում",
+    "shortClue": "Գիտելիքի ստուգում"
+  },
+  {
+    "word": "նամակ",
+    "topics": ["general"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Թղթի վրա գրված ուղերձ, որ ծրարով են ուղարկում",
+    "shortClue": "Գրավոր ուղերձ"
+  },
+  {
+    "word": "բացիկ",
+    "topics": ["general"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Նկարազարդ թերթիկ՝ շնորհավորանքի կամ ողջույնի խոսքով",
+    "shortClue": "Նկարազարդ թերթիկ"
+  },
+  {
+    "word": "հասցե",
+    "topics": ["general"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Ծրարին գրված քաղաքի, փողոցի և տան նշում",
+    "shortClue": "Բնակավայրի նշում"
+  },
+  {
+    "word": "զամբյուղ",
+    "topics": ["general", "home"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Ճյուղերից հյուսած աման՝ մրգեր կամ հաց տանելու",
+    "shortClue": "Հյուսած աման"
+  },
+  {
+    "word": "կշեռք",
+    "topics": ["general"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Քաշը որոշող սարք",
+    "shortClue": "Քաշի չափիչ"
+  },
+  {
+    "word": "կանգառ",
+    "topics": ["general"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Տեղ, որտեղ ավտոբուսը սպասում է ուղևորներին",
+    "shortClue": "Ավտոբուսի տեղ"
+  },
+  {
+    "word": "հրապարակ",
+    "topics": ["general"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Քաղաքի ընդարձակ բաց տարածք՝ շենքերով շրջապատված",
+    "shortClue": "Քաղաքի կենտրոն"
+  },
+  {
+    "word": "փողոց",
+    "topics": ["general"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Քաղաքում երկու շարք տների միջև ձգվող ճանապարհ",
+    "shortClue": "Քաղաքի ճանապարհ"
+  },
+  {
+    "word": "ճամպրուկ",
+    "topics": ["general"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Բռնակով տուփ՝ ճանապարհորդի իրերի համար",
+    "shortClue": "Ճանապարհի տուփ"
+  },
+  {
+    "word": "ուղևոր",
+    "topics": ["general"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Գնացքով, ավտոբուսով կամ ինքնաթիռով մեկնող մարդ",
+    "shortClue": "Ճամփորդ"
+  },
+  {
+    "word": "կայարան",
+    "topics": ["general"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Շենք, որտեղ կանգ են առնում գնացքները",
+    "shortClue": "Գնացքի կանգառ"
+  },
+  {
+    "word": "վերնաշապիկ",
+    "topics": ["general"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Օձիքով ու կոճակներով բարակ հագուստ",
+    "shortClue": "Օձիքով հագուստ"
+  },
+  {
+    "word": "կոշիկ",
+    "topics": ["general"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Կաշվից կարված ամուր ոտնաման",
+    "shortClue": "Ոտնաման"
+  },
+  {
+    "word": "գոգնոց",
+    "topics": ["general", "home"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Խոհանոցում հագուստը կեղտից պաշտպանող կտոր",
+    "shortClue": "Խոհարարի կտոր"
+  },
+  {
+    "word": "գույն",
+    "topics": ["general"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Կարմիրը, կապույտն ու դեղինը սրա տեսակներն են",
+    "shortClue": "Երանգ"
+  },
+  {
+    "word": "նվեր",
+    "topics": ["general"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Սիրով ու առանց փոխհատուցման տրվող իր",
+    "shortClue": "Ընծա"
+  },
+  {
+    "word": "հորանջ",
+    "topics": ["general"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Քնկոտությունից կամ ձանձրույթից բերանի լայն բացում",
+    "shortClue": "Քնկոտի նշան"
+  },
+  {
+    "word": "պահմտոցի",
+    "topics": ["general"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Մանկական խաղ, որտեղ մեկը փնտրում է թաքնվածներին",
+    "shortClue": "Թաքնվելու խաղ"
+  },
+  {
+    "word": "ճոճանակ",
+    "topics": ["general"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Պարաններից կախված նստատեղ, որով երեխաները ետ ու առաջ են թռչում",
+    "shortClue": "Բակի նստատեղ"
+  },
+  {
+    "word": "տիկնիկ",
+    "topics": ["general"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Խաղալիք՝ փոքրիկ մարդու տեսքով",
+    "shortClue": "Խաղալիք մարդուկ"
+  },
+  {
+    "word": "պատասխան",
+    "topics": ["general"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Հարցին տրված արձագանք",
+    "shortClue": "Հարցի արձագանք"
+  },
+  {
+    "word": "գաղտնիք",
+    "topics": ["general"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Ուրիշներից թաքցված բան",
+    "shortClue": "Թաքուն բան"
+  },
+  {
+    "word": "խոստում",
+    "topics": ["general"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Ինչ-որ բան անելու մասին տրված խոսք",
+    "shortClue": "Տրված խոսք"
+  },
+  {
+    "word": "հաղթանակ",
+    "topics": ["general", "sport"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Մրցության կամ պայքարի հաջող ավարտ",
+    "shortClue": "Հաջող ավարտ"
+  },
+  {
+    "word": "նպատակ",
+    "topics": ["general"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Այն, ինչին մարդը ձգտում է",
+    "shortClue": "Ձգտման կետ"
+  },
+  {
+    "word": "միտք",
+    "topics": ["general"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Գլխում ծագած գաղափար կամ դատողություն",
+    "shortClue": "Գաղափար"
+  },
+  {
+    "word": "խորհուրդ",
+    "topics": ["general"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Ուրիշին տրված օգտակար ցուցում",
+    "shortClue": "Ցուցում"
+  },
+  {
+    "word": "ողջույն",
+    "topics": ["general"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Հանդիպելիս ասվող բարի խոսք",
+    "shortClue": "Բարի խոսք"
+  },
+  {
+    "word": "ճշմարտություն",
+    "topics": ["general"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Իրականությանը համապատասխանող պնդում",
+    "shortClue": "Ստի հակառակը"
+  },
+  {
+    "word": "սուտ",
+    "topics": ["general"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Գիտակցաբար ասված անճշտություն",
+    "shortClue": "Կեղծ խոսք"
+  },
+  {
+    "word": "աշխատանք",
+    "topics": ["general"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Ապրուստ վաստակելու ամենօրյա գործ",
+    "shortClue": "Ամենօրյա գործ"
+  },
+  {
+    "word": "երջանկություն",
+    "topics": ["general"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Կատարյալ գոհունակության ու ուրախության վիճակ",
+    "shortClue": "Բախտավորություն"
+  },
+  {
+    "word": "վստահություն",
+    "topics": ["general"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Մեկի ազնվությանը հավատալը",
+    "shortClue": "Հավատ"
+  },
+  {
+    "word": "զարմանք",
+    "topics": ["general"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Անսպասելի բանից ծնված զգացում",
+    "shortClue": "Ապշանք"
+  },
+  {
+    "word": "ձանձրույթ",
+    "topics": ["general"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Անելիքի բացակայությունից ծնված տաղտուկ",
+    "shortClue": "Տաղտուկ"
+  },
+  {
+    "word": "բախտ",
+    "topics": ["general"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Պատահական հաջողություն, որ ժպտում է ոմանց",
+    "shortClue": "Հաջողություն"
+  },
+  {
+    "word": "հանդիպում",
+    "topics": ["general"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Երկու կամ ավելի մարդկանց տեսակցությունը",
+    "shortClue": "Տեսակցություն"
+  },
+  {
+    "word": "մանկություն",
+    "topics": ["general"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Կյանքի սկզբնական շրջանը՝ մինչև պատանեկություն",
+    "shortClue": "Կյանքի գարուն"
+  },
+  {
+    "word": "հոգս",
+    "topics": ["general"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Ապրուստի կամ հարազատների մասին տագնապ ու մտատանջություն",
+    "shortClue": "Տագնապ"
+  },
+  {
+    "word": "անդորր",
+    "topics": ["general"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Խաղաղություն ու անխռով հանգստություն",
+    "shortClue": "Խաղաղ հանգիստ"
+  },
+  {
+    "word": "թախիծ",
+    "topics": ["general"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Մեղմ, երազկոտ տխրություն",
+    "shortClue": "Մեղմ տխրություն"
+  },
+  {
+    "word": "հրճվանք",
+    "topics": ["general"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Մեծ, անզուսպ ուրախություն",
+    "shortClue": "Ցնծություն"
+  },
+  {
+    "word": "կսկիծ",
+    "topics": ["general"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Սրտի խոր ու ծակող ցավ",
+    "shortClue": "Սրտի ցավ"
+  },
+  {
+    "word": "խանդ",
+    "topics": ["general"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Սիրելիին կորցնելու վախից ծնված զգացում",
+    "shortClue": "Սիրո կասկած"
+  },
+  {
+    "word": "երկյուղ",
+    "topics": ["general"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Ակնածանքով խառը վախ",
+    "shortClue": "Ակնածալից վախ"
+  },
+  {
+    "word": "գորով",
+    "topics": ["general"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Քնքուշ ու հոգատար սեր",
+    "shortClue": "Քնքշանք"
+  },
+  {
+    "word": "ձիրք",
+    "topics": ["general"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Բնածին շնորհ կամ տաղանդ",
+    "shortClue": "Տաղանդ"
+  },
+  {
+    "word": "տենչ",
+    "topics": ["general"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Ուժեղ, կրքոտ ցանկություն",
+    "shortClue": "Կրքոտ ցանկություն"
+  },
+  {
+    "word": "ավյուն",
+    "topics": ["general"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Երիտասարդական եռանդ ու ջերմ ոգևորություն",
+    "shortClue": "Եռանդ"
+  },
+  {
+    "word": "կորով",
+    "topics": ["general"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Ֆիզիկական ու հոգևոր ամրություն",
+    "shortClue": "Ուժ ու ամրություն"
+  },
+  {
+    "word": "վհատություն",
+    "topics": ["general"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Հուսահատ, ընկճված վիճակ",
+    "shortClue": "Ընկճվածություն"
+  },
+  {
+    "word": "համբավ",
+    "topics": ["general"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Լայն ճանաչում ու հռչակ",
+    "shortClue": "Հռչակ"
+  },
+  {
+    "word": "պատրանք",
+    "topics": ["general"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Իրականության կեղծ ընկալում",
+    "shortClue": "Խաբկանք"
+  },
+  {
+    "word": "խառնաշփոթ",
+    "topics": ["general"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Անկարգ, քաոսային վիճակ",
+    "shortClue": "Անկարգություն"
+  },
+  {
+    "word": "ցնորք",
+    "topics": ["general"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Անիրական երազանք, մտքի խաբուսիկ խաղ",
+    "shortClue": "Անիրական երազ"
+  },
+  {
+    "word": "երանություն",
+    "topics": ["general"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Անխռով երջանկության վիճակ",
+    "shortClue": "Երջանիկ վիճակ"
+  },
+  {
+    "word": "քմահաճույք",
+    "topics": ["general"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Անհիմն, հանկարծակի ցանկություն",
+    "shortClue": "Կամակորություն"
+  },
+  {
+    "word": "ծուլություն",
+    "topics": ["general"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Աշխատելու ցանկության բացակայություն",
+    "shortClue": "Անգործություն"
+  },
+  {
+    "word": "պարտք",
+    "topics": ["general"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Վերադարձնելու պայմանով վերցրած գումար",
+    "shortClue": "Փոխառություն"
+  },
+  {
+    "word": "հարստություն",
+    "topics": ["general"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Մեծ կարողություն ու ունեցվածք",
+    "shortClue": "Ունեցվածք"
+  },
+  {
+    "word": "խնջույք",
+    "topics": ["general", "localCulture"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Ուտելիքով ու կենացներով ուրախ հավաքույթ",
+    "shortClue": "Ուրախ սեղան"
+  },
+  {
+    "word": "կախարդ",
+    "topics": ["general", "arts"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Հեքիաթային կերպար, որ հմայում ու կերպարանափոխում է",
+    "shortClue": "Հմայող կերպար"
+  },
+  {
+    "word": "տուգանք",
+    "topics": ["general"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Կանոնները խախտելու համար սահմանված դրամական պատիժ",
+    "shortClue": "Դրամական պատիժ"
+  },
+  {
+    "word": "թաղամաս",
+    "topics": ["geography", "general"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Քաղաքի մի մասը՝ իր փողոցներով ու բակերով",
+    "shortClue": "Քաղաքի մաս"
+  },
+  {
+    "word": "հանելուկ",
+    "topics": ["general", "arts"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Այլաբանական հարց, որի պատասխանը պետք է գուշակել",
+    "shortClue": "Գլուխկոտրուկ"
+  },
+  {
+    "word": "նավ",
+    "topics": ["general"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Ծովով լողացող մեծ փոխադրամիջոց",
+    "shortClue": "Ծովի փոխադրամիջոց"
+  },
+  {
+    "word": "ակնածանք",
+    "topics": ["general"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Մեծարանքով ու երկյուղով խառը հարգանք",
+    "shortClue": "Խոր հարգանք"
+  },
+  {
+    "word": "հեգնանք",
+    "topics": ["general"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Թաքնված ծաղր՝ լուրջ խոսքի տակ",
+    "shortClue": "Թաքուն ծաղր"
+  },
+  {
+    "word": "խոհեմություն",
+    "topics": ["general"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Ողջամիտ ու զգույշ վարքագիծ",
+    "shortClue": "Զգուշավորություն"
+  },
+  {
+    "word": "գարուն",
+    "topics": ["nature"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Ձմռանը հաջորդող զարթոնքի եղանակը",
+    "shortClue": "Զարթոնքի եղանակ"
+  },
+  {
+    "word": "աշուն",
+    "topics": ["nature"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Տարվա եղանակը, երբ թափվում են տերևները",
+    "shortClue": "Տերևաթափի ժամանակ"
+  },
+  {
+    "word": "կաղնի",
+    "topics": ["nature"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Ամուր բնափայտով երկարակյաց անտառային ծառ",
+    "shortClue": "Հաստաբուն ծառ"
+  },
+  {
+    "word": "հաճարենի",
+    "topics": ["nature"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Հարթ մոխրագույն կեղևով բարձր անտառային ծառ",
+    "shortClue": "Անտառի ծառ"
+  },
+  {
+    "word": "սոճի",
+    "topics": ["nature"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Երկար ասեղներով մշտադալար ծառ",
+    "shortClue": "Փշատերև ծառ"
+  },
+  {
+    "word": "բարդի",
+    "topics": ["nature"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Նեղ ու բարձր սաղարթով ծառ, որ տնկում են ճանապարհների եզրին",
+    "shortClue": "Ուղեկից ծառ"
+  },
+  {
+    "word": "կակաչ",
+    "topics": ["nature"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Կարմիր թերթիկներով դաշտային ծաղիկ",
+    "shortClue": "Դաշտային ծաղիկ"
+  },
+  {
+    "word": "երիցուկ",
+    "topics": ["nature"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Սպիտակ թերթիկներով ու դեղին սրտիկով ծաղիկ",
+    "shortClue": "Սպիտակ ծաղիկ"
+  },
+  {
+    "word": "մանուշակ",
+    "topics": ["nature"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Վաղ գարնանը բացվող մանր, անուշաբույր, կապտավուն ծաղիկ",
+    "shortClue": "Անուշաբույր ծաղիկ"
+  },
+  {
+    "word": "ուրց",
+    "topics": ["nature", "food"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Բուրավետ լեռնային խոտ, որից թեյ են եփում",
+    "shortClue": "Լեռնային թեյ"
+  },
+  {
+    "word": "անանուխ",
+    "topics": ["nature", "food"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Զովացնող բույրով կանաչի",
+    "shortClue": "Զովացնող խոտ"
+  },
+  {
+    "word": "փոթորիկ",
+    "topics": ["nature"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Ուժեղ քամի՝ անձրևով կամ ձյունով",
+    "shortClue": "Մրրիկ"
+  },
+  {
+    "word": "բուք",
+    "topics": ["nature"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Ձյունախառն ուժեղ քամի",
+    "shortClue": "Ձմեռային մրրիկ"
+  },
+  {
+    "word": "կիրճ",
+    "topics": ["nature", "geography"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Նեղ ու խոր ձոր՝ ուղղաձիգ լանջերով",
+    "shortClue": "Նեղ ձոր"
+  },
+  {
+    "word": "հովիտ",
+    "topics": ["nature", "geography"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Լեռների միջև ընկած լայն հարթություն",
+    "shortClue": "Լեռնային հարթություն"
+  },
+  {
+    "word": "բլուր",
+    "topics": ["nature", "geography"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Ոչ բարձր, կլոր գագաթով բարձունք",
+    "shortClue": "Փոքր սար"
+  },
+  {
+    "word": "սար",
+    "topics": ["nature", "geography"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Երկնքին հասնող բարձունք՝ գագաթով ու լանջերով",
+    "shortClue": "Լեռ"
+  },
+  {
+    "word": "բազալտ",
+    "topics": ["nature"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Մուգ, ամուր հրաբխային ապար",
+    "shortClue": "Հրաբխային ապար"
+  },
+  {
+    "word": "տուֆ",
+    "topics": ["nature", "localCulture"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Վարդագույն թեթև քար, որով կառուցված են Երևանի շատ շենքեր",
+    "shortClue": "Երևանյան քար"
+  },
+  {
+    "word": "օբսիդիան",
+    "topics": ["nature"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Սև, ապակենման հրաբխային ապար",
+    "shortClue": "Հրաբխային ապակի"
+  },
+  {
+    "word": "խավարում",
+    "topics": ["nature", "science"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Արևի կամ Լուսնի մթնում՝ մյուս լուսատուի ստվերից",
+    "shortClue": "Լուսատուի մթնում"
+  },
+  {
+    "word": "տեղատարափ",
+    "topics": ["nature"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Հորդառատ, ուժեղ անձրև",
+    "shortClue": "Հորդ անձրև"
+  },
+  {
+    "word": "լիճ",
+    "topics": ["nature", "geography"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Ցամաքով շրջապատված ջրավազան",
+    "shortClue": "Ներցամաքային ջրավազան"
+  },
+  {
+    "word": "սունկ",
+    "topics": ["nature", "food"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Անձրևից հետո անտառում բուսնող գլխարկավոր օրգանիզմ",
+    "shortClue": "Անտառի գլխարկավոր"
+  },
+  {
+    "word": "մացառ",
+    "topics": ["nature"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Խիտ, անանցանելի թփուտ",
+    "shortClue": "Խիտ թփուտ"
+  },
+  {
+    "word": "ապար",
+    "topics": ["nature", "science"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Երկրակեղևը կազմող բնական քարային զանգված",
+    "shortClue": "Քարային զանգված"
+  },
+  {
+    "word": "ալոճ",
+    "topics": ["nature"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Կարմիր հատապտուղներով փշոտ թուփ",
+    "shortClue": "Փշոտ թուփ"
+  },
+  {
+    "word": "խոլորձ",
+    "topics": ["nature"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Նրբագեղ, հազվագյուտ ծաղիկ, որի շատ տեսակներ արևադարձային են",
+    "shortClue": "Նրբագեղ ծաղիկ"
+  },
+  {
+    "word": "շամբ",
+    "topics": ["nature"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Եղեգով ու ճահճային խոտով պատված տեղ",
+    "shortClue": "Եղեգնուտ"
+  },
+  {
+    "word": "զեփյուռ",
+    "topics": ["nature"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Մեղմ, հաճելի քամի",
+    "shortClue": "Մեղմ քամի"
+  },
+  {
+    "word": "աղջամուղջ",
+    "topics": ["nature"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Իրիկնային կիսախավար՝ մայրամուտից հետո",
+    "shortClue": "Կիսախավար"
+  },
+  {
+    "word": "տիղմ",
+    "topics": ["nature"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Ջրի հատակին նստած նուրբ ցեխ",
+    "shortClue": "Գետի ցեխ"
+  },
+  {
+    "word": "գոհար",
+    "topics": ["nature"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Թանկարժեք քար, որ փայլում է զարդի մեջ",
+    "shortClue": "Թանկագին քար"
+  },
+  {
+    "word": "սուտակ",
+    "topics": ["nature"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Արյան գույնի թանկարժեք քար",
+    "shortClue": "Կարմիր գոհար"
+  },
+  {
+    "word": "ոչխար",
+    "topics": ["animals"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Բրդատու ընտանի կենդանի",
+    "shortClue": "Բրդատու կենդանի"
+  },
+  {
+    "word": "այծ",
+    "topics": ["animals"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Մորուքով ու եղջյուրներով ընտանի կենդանի",
+    "shortClue": "Մորուքավոր կենդանի"
+  },
+  {
+    "word": "ավանակ",
+    "topics": ["animals"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Ջահել էշ՝ բեռնակիր անասուն",
+    "shortClue": "Էշուկ"
+  },
+  {
+    "word": "աքաղաղ",
+    "topics": ["animals"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Լուսաբացին կանչող ընտանի թռչուն",
+    "shortClue": "Գյուղի զարթուցիչ"
+  },
+  {
+    "word": "հավ",
+    "topics": ["animals"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Ձու ածող ընտանի թռչուն",
+    "shortClue": "Ձվատու թռչուն"
+  },
+  {
+    "word": "արջ",
+    "topics": ["animals"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Մեղր սիրող անտառի գորշ գազան",
+    "shortClue": "Գորշ գազան"
+  },
+  {
+    "word": "եղնիկ",
+    "topics": ["animals"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Ճյուղավոր եղջյուրներով նազելի անտառային կենդանի",
+    "shortClue": "Անտառի եղջերու"
+  },
+  {
+    "word": "վարազ",
+    "topics": ["animals"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Ժանիքավոր վայրի խոզ",
+    "shortClue": "Վայրի խոզ"
+  },
+  {
+    "word": "գորտ",
+    "topics": ["animals"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Կռկռացող կանաչ երկկենցաղ",
+    "shortClue": "Լճի երգիչ"
+  },
+  {
+    "word": "մեղու",
+    "topics": ["animals"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Փեթակում ապրող ու ծաղիկներից նեկտար հավաքող միջատ",
+    "shortClue": "Փեթակի բնակիչ"
+  },
+  {
+    "word": "մրջյուն",
+    "topics": ["animals"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Աշխատասեր միջատ, որ բլրաձև բույն է կառուցում",
+    "shortClue": "Աշխատասեր միջատ"
+  },
+  {
+    "word": "թիթեռ",
+    "topics": ["animals"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Գունավոր թևերով միջատ, որ թրթուրից է դառնում",
+    "shortClue": "Գույնզգույն միջատ"
+  },
+  {
+    "word": "ճանճ",
+    "topics": ["animals"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Բզզացող կպչուն միջատ",
+    "shortClue": "Բզզան միջատ"
+  },
+  {
+    "word": "ծիծեռնակ",
+    "topics": ["animals"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Պատառաքաղաձև պոչով թռչուն, որ գարուն է բերում",
+    "shortClue": "Գարնան ավետաբեր"
+  },
+  {
+    "word": "աղավնի",
+    "topics": ["animals"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Խաղաղության խորհրդանիշ դարձած թռչուն",
+    "shortClue": "Խաղաղության թռչուն"
+  },
+  {
+    "word": "կաչաղակ",
+    "topics": ["animals"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Սև-սպիտակ փետուրներով թռչուն, որ փայլուն իրեր է գողանում",
+    "shortClue": "Փայլուն իրերի գող"
+  },
+  {
+    "word": "սիրամարգ",
+    "topics": ["animals"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Պերճ պոչը հովհարի պես բացող թռչուն",
+    "shortClue": "Հովհարապոչ թռչուն"
+  },
+  {
+    "word": "պինգվին",
+    "topics": ["animals"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Անթռիչք թռչուն Անտարկտիդայի սառույցներին",
+    "shortClue": "Սառցե թռչուն"
+  },
+  {
+    "word": "կետ",
+    "topics": ["animals"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Ամենամեծ ծովային կաթնասունը",
+    "shortClue": "Ծովի հսկա"
+  },
+  {
+    "word": "դելֆին",
+    "topics": ["animals"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Խելացի ծովային կաթնասուն, որ ցատկում է ալիքների վրա",
+    "shortClue": "Խելացի կաթնասուն"
+  },
+  {
+    "word": "ութոտնուկ",
+    "topics": ["animals"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Ծծակներով ձեռքեր ունեցող և թանաք արձակող ծովային կենդանի",
+    "shortClue": "Թանաք արձակող"
+  },
+  {
+    "word": "ռնգեղջյուր",
+    "topics": ["animals"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Աֆրիկյան հաստամաշկ կենդանի՝ քթի վրա սուր ելուստով",
+    "shortClue": "Հաստամաշկ հսկա"
+  },
+  {
+    "word": "վագր",
+    "topics": ["animals"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Շերտավոր խոշոր կատվազգի գիշատիչ",
+    "shortClue": "Շերտավոր գիշատիչ"
+  },
+  {
+    "word": "բորենի",
+    "topics": ["animals"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Ծիծաղի պես ձայն հանող լեշակեր գազան",
+    "shortClue": "Ծիծաղող գազան"
+  },
+  {
+    "word": "կենգուրու",
+    "topics": ["animals"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Ձագին պայուսակում կրող ավստրալիական կենդանի",
+    "shortClue": "Պայուսակավոր ցատկոտ"
+  },
+  {
+    "word": "մուկ",
+    "topics": ["animals"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Կատվի սիրելի որսը՝ փոքրիկ կրծող",
+    "shortClue": "Կատվի որս"
+  },
+  {
+    "word": "չղջիկ",
+    "topics": ["animals"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Գիշերը թռչող կաթնասուն, որ ցերեկը գլխիվայր կախված է քնում",
+    "shortClue": "Թևավոր կաթնասուն"
+  },
+  {
+    "word": "կաքավ",
+    "topics": ["animals"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Լեռնալանջերի խայտաբղետ որսի թռչուն",
+    "shortClue": "Լեռների թռչուն"
+  },
+  {
+    "word": "մուֆլոն",
+    "topics": ["animals"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Հայկական լեռների վայրի ոչխար՝ կեռ եղջյուրներով",
+    "shortClue": "Վայրի ոչխար"
+  },
+  {
+    "word": "կզաքիս",
+    "topics": ["animals"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Ճկուն, երկարավուն մարմնով փոքրիկ գիշատիչ",
+    "shortClue": "Ճկուն գիշատիչ"
+  },
+  {
+    "word": "կուղբ",
+    "topics": ["animals"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Գետերի վրա պատնեշ կառուցող կենդանի",
+    "shortClue": "Գետի շինարար"
+  },
+  {
+    "word": "շերամ",
+    "topics": ["animals", "history"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Թիթեռի թրթուր, որի բոժոժից մետաքս են ստանում",
+    "shortClue": "Մետաքսի որդ"
+  },
+  {
+    "word": "ճպուռ",
+    "topics": ["animals"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Երկու զույգ թափանցիկ թևերով միջատ՝ ջրի մոտ",
+    "shortClue": "Ջրամերձ միջատ"
+  },
+  {
+    "word": "տզրուկ",
+    "topics": ["animals"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Արյուն ծծող ճահճային որդ",
+    "shortClue": "Ծծող որդ"
+  },
+  {
+    "word": "գոմեշ",
+    "topics": ["animals"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Ջրասեր խոշոր եղջերավոր ընտանի կենդանի",
+    "shortClue": "Ջրասեր անասուն"
+  },
+  {
+    "word": "ծածան",
+    "topics": ["animals"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Լճերի ու լճակների խոշոր թեփուկավոր ձուկ",
+    "shortClue": "Լճային ձուկ"
+  },
+  {
+    "word": "սիգ",
+    "topics": ["animals"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Սևանում բազմացված սպիտակ մսով ձուկ",
+    "shortClue": "Սևանի ձուկ"
+  },
+  {
+    "word": "թառափ",
+    "topics": ["animals"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Խոշոր ձուկ, որը սև խավիար է տալիս",
+    "shortClue": "Խավիարի ձուկ"
+  },
+  {
+    "word": "խնձոր",
+    "topics": ["food"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Կլոր, կարմիր կամ կանաչ պտուղ, որ աճում է այգում",
+    "shortClue": "Կլոր պտուղ"
+  },
+  {
+    "word": "բալ",
+    "topics": ["food"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Թթվաշ կարմիր հատապտուղ՝ երկար պտղակոթով",
+    "shortClue": "Թթվաշ հատապտուղ"
+  },
+  {
+    "word": "սերկևիլ",
+    "topics": ["food"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Դեղին, բուրավետ պտուղ, որից մուրաբա են եփում",
+    "shortClue": "Մուրաբայի պտուղ"
+  },
+  {
+    "word": "ազնվամորի",
+    "topics": ["food"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Կարմիր, փափուկ, բուրավետ անտառային հատապտուղ",
+    "shortClue": "Անտառի հատապտուղ"
+  },
+  {
+    "word": "սխտոր",
+    "topics": ["food"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Պճեղներից կազմված սուր հոտով համեմունք",
+    "shortClue": "Պճեղավոր համեմունք"
+  },
+  {
+    "word": "կարտոֆիլ",
+    "topics": ["food"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Ստորգետնյա պալարներով բանջարեղեն",
+    "shortClue": "Գետնախնձոր"
+  },
+  {
+    "word": "բազուկ",
+    "topics": ["food"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Մուգ կարմիր քաղցրավուն արմատապտուղ",
+    "shortClue": "Կարմիր արմատ"
+  },
+  {
+    "word": "դդում",
+    "topics": ["food"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Խոշոր նարնջագույն պտուղ, որով ղափամա են պատրաստում",
+    "shortClue": "Ղափամայի պտուղ"
+  },
+  {
+    "word": "թան",
+    "topics": ["food"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Մածունից պատրաստված զովացուցիչ ըմպելիք",
+    "shortClue": "Զով ըմպելիք"
+  },
+  {
+    "word": "քացախ",
+    "topics": ["food"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Թթու հեղուկ՝ գինուց կամ խնձորից",
+    "shortClue": "Թթու հեղուկ"
+  },
+  {
+    "word": "դարչին",
+    "topics": ["food"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Ծառի կեղևից ստացված քաղցր, բուրավետ համեմունք",
+    "shortClue": "Կեղևի համեմունք"
+  },
+  {
+    "word": "համեմ",
+    "topics": ["food"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Ուժեղ, յուրահատուկ բույրով կանաչի",
+    "shortClue": "Սուր կանաչի"
+  },
+  {
+    "word": "սամիթ",
+    "topics": ["food"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Թելանման տերևներով բուրավետ կանաչի",
+    "shortClue": "Թթվի կանաչի"
+  },
+  {
+    "word": "թարխուն",
+    "topics": ["food"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Անիսոնի բույրով կանաչի, որից զովացուցիչ ըմպելիք են պատրաստում",
+    "shortClue": "Բուրավետ խոտ"
+  },
+  {
+    "word": "ապուր",
+    "topics": ["food"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Արգանակով առաջին ճաշատեսակ",
+    "shortClue": "Առաջին ուտեստ"
+  },
+  {
+    "word": "քյաբաբ",
+    "topics": ["food"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Աղացած մսից շամփուրով խորոված",
+    "shortClue": "Շամփուրի միս"
+  },
+  {
+    "word": "տորթ",
+    "topics": ["food"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Շերտավոր տոնական քաղցրավենիք",
+    "shortClue": "Տոնական քաղցրավենիք"
+  },
+  {
+    "word": "պաղպաղակ",
+    "topics": ["food"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Սառեցված քաղցր աղանդեր",
+    "shortClue": "Սառը աղանդեր"
+  },
+  {
+    "word": "մուրաբա",
+    "topics": ["food"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Շաքարով եփած մրգեր՝ ձմեռային պահածո",
+    "shortClue": "Եփած պահածո"
+  },
+  {
+    "word": "թեյ",
+    "topics": ["food"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Չորացրած տերևներից եփվող տաք ըմպելիք",
+    "shortClue": "Տաք ըմպելիք"
+  },
+  {
+    "word": "սուրճ",
+    "topics": ["food"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Աղացած հատիկներից եփվող սև, կազդուրիչ ըմպելիք",
+    "shortClue": "Առավոտյան ըմպելիք"
+  },
+  {
+    "word": "գինի",
+    "topics": ["food"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Խաղողից պատրաստված ըմպելիք",
+    "shortClue": "Խաղողի ըմպելիք"
+  },
+  {
+    "word": "ընկույզ",
+    "topics": ["food"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Կարծր կճեպով պտուղ, որի միջուկն ուղեղի է նման",
+    "shortClue": "Կճեպավոր պտուղ"
+  },
+  {
+    "word": "պիստակ",
+    "topics": ["food"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Կանաչավուն միջուկով, կիսաբաց կճեպով ընդեղեն",
+    "shortClue": "Կանաչ միջուկ"
+  },
+  {
+    "word": "կորեկ",
+    "topics": ["food"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Մանր դեղին հացահատիկ, որից շիլա են եփում",
+    "shortClue": "Շիլայի հատիկ"
+  },
+  {
+    "word": "հաղարջ",
+    "topics": ["food"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Թփի վրա աճող սև կամ կարմիր թթվաշ հատապտուղ",
+    "shortClue": "Թփի հատապտուղ"
+  },
+  {
+    "word": "փշատ",
+    "topics": ["food"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Արծաթավուն տերևներով ծառի ալրոտ, քաղցր պտուղ",
+    "shortClue": "Ալրոտ պտուղ"
+  },
+  {
+    "word": "քրքում",
+    "topics": ["food"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Վառ դեղին գույն տվող համեմունք",
+    "shortClue": "Դեղին համեմունք"
+  },
+  {
+    "word": "սումախ",
+    "topics": ["food"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Թթվաշ կարմիր համեմունք, որ ցանում են խորովածին",
+    "shortClue": "Թթվաշ համեմունք"
+  },
+  {
+    "word": "բլղուր",
+    "topics": ["food"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Եփած, չորացրած ու կոտրած ցորենի ձավար",
+    "shortClue": "Ցորենի ձավար"
+  },
+  {
+    "word": "կորկոտ",
+    "topics": ["food", "localCulture"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Ծեծած ցորեն, որից հարիսա են եփում",
+    "shortClue": "Հարիսայի ցորեն"
+  },
+  {
+    "word": "հալվա",
+    "topics": ["food"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Ալյուրից, յուղից ու շաքարից պատրաստված քաղցրավենիք",
+    "shortClue": "Արևելյան քաղցրավենիք"
+  },
+  {
+    "word": "Հրազդան",
+    "topics": ["geography"],
+    "difficulty": 2,
+    "kind": "proper",
+    "clue": "Սևանից սկիզբ առնող և Երևանով հոսող գետ",
+    "shortClue": "Երևանի գետ"
+  },
+  {
+    "word": "Դեբեդ",
+    "topics": ["geography"],
+    "difficulty": 2,
+    "kind": "proper",
+    "clue": "Լոռու կիրճերով հոսող գետ՝ Սանահինի ու Հաղպատի մոտով",
+    "shortClue": "Լոռու գետ"
+  },
+  {
+    "word": "Աժդահակ",
+    "topics": ["geography"],
+    "difficulty": 3,
+    "kind": "proper",
+    "clue": "Գեղամա լեռների ամենաբարձր գագաթը",
+    "shortClue": "Գեղամա գագաթ"
+  },
+  {
+    "word": "Կապան",
+    "topics": ["geography"],
+    "difficulty": 2,
+    "kind": "proper",
+    "clue": "Սյունիքի մարզկենտրոնը",
+    "shortClue": "Սյունիքի կենտրոն"
+  },
+  {
+    "word": "Գորիս",
+    "topics": ["geography"],
+    "difficulty": 2,
+    "kind": "proper",
+    "clue": "Սյունիքի քաղաք Սիսիանի ու Կապանի միջև",
+    "shortClue": "Սյունիքի քաղաք"
+  },
+  {
+    "word": "Եվրոպա",
+    "topics": ["geography"],
+    "difficulty": 1,
+    "kind": "proper",
+    "clue": "Աշխարհամաս, որի արևմտյան ափերը ողողում է Ատլանտյան օվկիանոսը",
+    "shortClue": "Աշխարհամաս"
+  },
+  {
+    "word": "Ասիա",
+    "topics": ["geography"],
+    "difficulty": 1,
+    "kind": "proper",
+    "clue": "Երկրագնդի ամենամեծ աշխարհամասը",
+    "shortClue": "Մեծագույն աշխարհամաս"
+  },
+  {
+    "word": "Աֆրիկա",
+    "topics": ["geography"],
+    "difficulty": 1,
+    "kind": "proper",
+    "clue": "Աշխարհամաս, որի հյուսիսում Սահարան է",
+    "shortClue": "Սահարայի մայրցամաք"
+  },
+  {
+    "word": "Ավստրալիա",
+    "topics": ["geography"],
+    "difficulty": 1,
+    "kind": "proper",
+    "clue": "Կենգուրուների ու կոալաների մայրցամաքը",
+    "shortClue": "Կենգուրուի երկիր"
+  },
+  {
+    "word": "Նեղոս",
+    "topics": ["geography"],
+    "difficulty": 1,
+    "kind": "proper",
+    "clue": "Եգիպտոսով հոսող աշխարհի ամենաերկար գետերից մեկը",
+    "shortClue": "Եգիպտոսի գետ"
+  },
+  {
+    "word": "Սահարա",
+    "topics": ["geography"],
+    "difficulty": 1,
+    "kind": "proper",
+    "clue": "Աֆրիկայի հյուսիսի հսկայական անապատը",
+    "shortClue": "Աֆրիկյան անապատ"
+  },
+  {
+    "word": "Թբիլիսի",
+    "topics": ["geography"],
+    "difficulty": 1,
+    "kind": "proper",
+    "clue": "Վրաստանի մայրաքաղաքը",
+    "shortClue": "Վրաստանի մայրաքաղաք"
+  },
+  {
+    "word": "Բեյրութ",
+    "topics": ["geography"],
+    "difficulty": 2,
+    "kind": "proper",
+    "clue": "Լիբանանի մայրաքաղաքը՝ հայկական մեծ համայնքով",
+    "shortClue": "Լիբանանի մայրաքաղաք"
+  },
+  {
+    "word": "բարձրավանդակ",
+    "topics": ["geography"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Լեռներով եզերված ընդարձակ, վեր խոյացող հարթություն",
+    "shortClue": "Լեռնահարթություն"
+  },
+  {
+    "word": "հարթավայր",
+    "topics": ["geography"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Ընդարձակ, տափարակ տարածություն՝ առանց լեռների ու բլուրների",
+    "shortClue": "Դաշտավայր"
+  },
+  {
+    "word": "օվկիանոս",
+    "topics": ["geography"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Մայրցամաքները բաժանող հսկայական ջրային տարածք",
+    "shortClue": "Ծովերից մեծ"
+  },
+  {
+    "word": "ծոց",
+    "topics": ["geography"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Ցամաքի մեջ խորացող ծովի մաս",
+    "shortClue": "Ծովի խորշ"
+  },
+  {
+    "word": "նեղուց",
+    "topics": ["geography"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Երկու ծովերն իրար կապող ջրային անցք",
+    "shortClue": "Ծովային անցք"
+  },
+  {
+    "word": "անապատ",
+    "topics": ["geography", "nature"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Ավազոտ, անջրդի ու անբույս տարածք",
+    "shortClue": "Ավազի ծով"
+  },
+  {
+    "word": "օազիս",
+    "topics": ["geography"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Ջրով ու կանաչով տեղ անապատի մեջ",
+    "shortClue": "Անապատի կանաչ"
+  },
+  {
+    "word": "բևեռ",
+    "topics": ["geography"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Երկրագնդի ամենահյուսիսային կամ ամենահարավային կետը",
+    "shortClue": "Երկրի ծայրակետ"
+  },
+  {
+    "word": "հորիզոն",
+    "topics": ["geography"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Երկնքի ու երկրի թվացյալ սահմանագիծը",
+    "shortClue": "Երկնքի սահման"
+  },
+  {
+    "word": "սահման",
+    "topics": ["geography"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Երկու երկրի տարածքները բաժանող գիծ",
+    "shortClue": "Երկրների բաժանագիծ"
+  },
+  {
+    "word": "տափաստան",
+    "topics": ["geography", "nature"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Ծառազուրկ, խոտածածկ, անծայրածիր հարթություն",
+    "shortClue": "Անծառ հարթություն"
+  },
+  {
+    "word": "գագաթ",
+    "topics": ["geography"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Լեռան ամենաբարձր կետը",
+    "shortClue": "Լեռան կատար"
+  },
+  {
+    "word": "լանջ",
+    "topics": ["geography"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Լեռան կամ բլրի թեք կողը",
+    "shortClue": "Լեռան կող"
+  },
+  {
+    "word": "ճահիճ",
+    "topics": ["geography", "nature"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Մամռոտ, ցեխոտ, ջրակալած հող",
+    "shortClue": "Ցեխոտ տեղանք"
+  },
+  {
+    "word": "միջօրեական",
+    "topics": ["geography"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Երկրագնդի բևեռները միացնող պայմանական գիծ",
+    "shortClue": "Երկայնության գիծ"
+  },
+  {
+    "word": "զուգահեռական",
+    "topics": ["geography"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Քարտեզի վրա լայնությունը ցույց տվող պայմանական գիծ",
+    "shortClue": "Լայնության գիծ"
+  },
+  {
+    "word": "արվարձան",
+    "topics": ["geography"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Քաղաքի ծայրամասին կից բնակավայր",
+    "shortClue": "Քաղաքամերձ ավան"
+  },
+  {
+    "word": "ավան",
+    "topics": ["geography"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Գյուղից մեծ, քաղաքից փոքր բնակավայր",
+    "shortClue": "Փոքր բնակավայր"
+  },
+  {
+    "word": "գահ",
+    "topics": ["history"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Թագավորի հանդիսավոր աթոռը",
+    "shortClue": "Արքայի աթոռ"
+  },
+  {
+    "word": "զրահ",
+    "topics": ["history"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Մարտիկի մետաղե պաշտպանիչ հագուստ",
+    "shortClue": "Մետաղե հագուստ"
+  },
+  {
+    "word": "սաղավարտ",
+    "topics": ["history"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Մարտիկի գլուխը պաշտպանող մետաղե գլխանոց",
+    "shortClue": "Մարտիկի գլխանոց"
+  },
+  {
+    "word": "վահան",
+    "topics": ["history"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Ձեռքում բռնած ամուր տախտակ՝ հարվածներից պաշտպանվելու",
+    "shortClue": "Ասպետի պաշտպան"
+  },
+  {
+    "word": "նետ",
+    "topics": ["history"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Աղեղով արձակվող սրածայր ձող",
+    "shortClue": "Աղեղի ձող"
+  },
+  {
+    "word": "աղեղ",
+    "topics": ["history", "sport"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Լարով կորացրած զենք՝ նետեր արձակելու համար",
+    "shortClue": "Նետաձգի զենք"
+  },
+  {
+    "word": "ասպետ",
+    "topics": ["history"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Միջնադարյան զրահավոր հեծյալ մարտիկ",
+    "shortClue": "Զրահավոր հեծյալ"
+  },
+  {
+    "word": "ամրոց",
+    "topics": ["history"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Պարիսպներով պաշտպանված միջնադարյան կառույց",
+    "shortClue": "Պարսպապատ բերդ"
+  },
+  {
+    "word": "պարիսպ",
+    "topics": ["history"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Քաղաքը կամ բերդը շրջապատող հաստ պատ",
+    "shortClue": "Քաղաքի պատ"
+  },
+  {
+    "word": "աշտարակ",
+    "topics": ["history"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Բարձր ու նեղ կառույց բերդի կամ եկեղեցու վրա",
+    "shortClue": "Բարձր կառույց"
+  },
+  {
+    "word": "կայսր",
+    "topics": ["history"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Հռոմեական պետության գահակալը՝ Օգոստոսից սկսած",
+    "shortClue": "Հռոմի գահակալ"
+  },
+  {
+    "word": "բուրգ",
+    "topics": ["history"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Եգիպտական փարավոնների հսկա քարե դամբարանը",
+    "shortClue": "Եգիպտոսի հրաշք"
+  },
+  {
+    "word": "մումիա",
+    "topics": ["history"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Եգիպտական դամբարանում պահպանված զմռսված մարմին",
+    "shortClue": "Զմռսված մարմին"
+  },
+  {
+    "word": "սֆինքս",
+    "topics": ["history"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Առյուծի մարմնով ու մարդու գլխով քարե արձան Գիզայում",
+    "shortClue": "Գիզայի պահապան"
+  },
+  {
+    "word": "պապիրուս",
+    "topics": ["history"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Հին եգիպտացիների եղեգնյա թուղթ",
+    "shortClue": "Եգիպտական թուղթ"
+  },
+  {
+    "word": "գլադիատոր",
+    "topics": ["history"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Հռոմեական կրկեսի մենամարտիկ",
+    "shortClue": "Հռոմեական մարտիկ"
+  },
+  {
+    "word": "ակրոպոլիս",
+    "topics": ["history"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Հին հունական քաղաքի վերնաբերդը",
+    "shortClue": "Հունական վերնաբերդ"
+  },
+  {
+    "word": "առասպել",
+    "topics": ["history", "arts"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Աստվածների ու հերոսների մասին հնագույն պատում",
+    "shortClue": "Հին պատում"
+  },
+  {
+    "word": "զինանշան",
+    "topics": ["history"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Պետության կամ տոհմի խորհրդանշական պատկերը",
+    "shortClue": "Պետական խորհրդանիշ"
+  },
+  {
+    "word": "դրոշ",
+    "topics": ["history"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Պետության գունավոր կտորե խորհրդանիշը",
+    "shortClue": "Պետության խորհրդանիշ"
+  },
+  {
+    "word": "տոհմ",
+    "topics": ["history"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Մեկ նախահորից սերված ազգականների շարք",
+    "shortClue": "Նախնիների շարք"
+  },
+  {
+    "word": "քարավան",
+    "topics": ["history"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Անապատով ճամփորդող ուղտերի շարան",
+    "shortClue": "Ուղտերի շարան"
+  },
+  {
+    "word": "մետաքս",
+    "topics": ["history"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Շերամի բոժոժից ստացվող նուրբ, փայլուն թել",
+    "shortClue": "Նուրբ թել"
+  },
+  {
+    "word": "նիզակ",
+    "topics": ["history"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Երկար կոթով սրածայր զենք",
+    "shortClue": "Կոթավոր զենք"
+  },
+  {
+    "word": "կառք",
+    "topics": ["history"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Ձիերի լծած անվավոր փոխադրամիջոց",
+    "shortClue": "Ձիերի լծած սայլ"
+  },
+  {
+    "word": "սայլ",
+    "topics": ["history", "home"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Եզների կամ ձիու քաշած գյուղական փոխադրամիջոց",
+    "shortClue": "Գյուղական փոխադրամիջոց"
+  },
+  {
+    "word": "ասպանդակ",
+    "topics": ["history"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Թամբից կախված հենարան, որի մեջ հեծյալը ոտքն է դնում",
+    "shortClue": "Թամբի հենակ"
+  },
+  {
+    "word": "թամբ",
+    "topics": ["history"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Ձիու մեջքին դրվող նստատեղ",
+    "shortClue": "Ձիու նստատեղ"
+  },
+  {
+    "word": "լուծ",
+    "topics": ["history"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Եզների վզին դրվող փայտե կապ՝ գութանը քաշելու",
+    "shortClue": "Եզների կապ"
+  },
+  {
+    "word": "առագաստ",
+    "topics": ["history"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Նավակայմին կախված կտոր, որ բռնում է քամին",
+    "shortClue": "Նավի կտոր"
+  },
+  {
+    "word": "կնիք",
+    "topics": ["history"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Փաստաթուղթը վավերացնող դրոշմ",
+    "shortClue": "Վավերացման դրոշմ"
+  },
+  {
+    "word": "մուրհակ",
+    "topics": ["history"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Պարտքը վերադարձնելու գրավոր պարտավորագիր",
+    "shortClue": "Պարտքի թուղթ"
+  },
+  {
+    "word": "ամֆորա",
+    "topics": ["history"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Հին հունական երկկանթ, նեղ վզով սափոր",
+    "shortClue": "Հունական սափոր"
+  },
+  {
+    "word": "թանաք",
+    "topics": ["history"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Գրչի հեղուկ ներկ",
+    "shortClue": "Գրչի ներկ"
+  },
+  {
+    "word": "կնդրուկ",
+    "topics": ["history"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Տաճարում ծխվող բուրավետ խեժ",
+    "shortClue": "Բուրավետ խեժ"
+  },
+  {
+    "word": "պալատ",
+    "topics": ["history"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Թագավորի շքեղ նստավայրը",
+    "shortClue": "Արքայական նստավայր"
+  },
+  {
+    "word": "դահլիճ",
+    "topics": ["history", "arts"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Հանդեսների ու համերգների ընդարձակ սրահ",
+    "shortClue": "Մեծ սրահ"
+  },
+  {
+    "word": "ատոմ",
+    "topics": ["science"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Քիմիական տարրի ամենափոքր մասնիկը",
+    "shortClue": "Տարրի մասնիկ"
+  },
+  {
+    "word": "մոլեկուլ",
+    "topics": ["science"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Ատոմներից կազմված նյութի մասնիկ",
+    "shortClue": "Ատոմների խումբ"
+  },
+  {
+    "word": "էլեկտրոն",
+    "topics": ["science"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Բացասական լիցքով տարրական մասնիկ",
+    "shortClue": "Բացասական մասնիկ"
+  },
+  {
+    "word": "պղինձ",
+    "topics": ["science"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Կարմրավուն մետաղ, որով էլեկտրական լարեր են պատրաստում",
+    "shortClue": "Կարմրավուն մետաղ"
+  },
+  {
+    "word": "ոսկի",
+    "topics": ["science"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Թանկարժեք դեղին մետաղ, որ չի ժանգոտում",
+    "shortClue": "Դեղին մետաղ"
+  },
+  {
+    "word": "անագ",
+    "topics": ["science"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Փափուկ արծաթավուն մետաղ, որով զոդում են",
+    "shortClue": "Զոդման մետաղ"
+  },
+  {
+    "word": "ալյումին",
+    "topics": ["science"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Թեթև, արծաթափայլ մետաղ, որից ինքնաթիռներ են կառուցում",
+    "shortClue": "Թեթև մետաղ"
+  },
+  {
+    "word": "ածխածին",
+    "topics": ["science"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Ադամանդի ու գրաֆիտի հիմքում ընկած տարրը",
+    "shortClue": "Ադամանդի տարր"
+  },
+  {
+    "word": "քառակուսի",
+    "topics": ["science"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Չորս հավասար կողմերով ու ուղիղ անկյուններով պատկեր",
+    "shortClue": "Հավասարակողմ պատկեր"
+  },
+  {
+    "word": "խորանարդ",
+    "topics": ["science"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Վեց հավասար քառակուսի նիստերով մարմին",
+    "shortClue": "Զառի ձև"
+  },
+  {
+    "word": "հավասարում",
+    "topics": ["science"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Անհայտ պարունակող մաթեմատիկական արտահայտություն",
+    "shortClue": "Անհայտի խնդիր"
+  },
+  {
+    "word": "կոտորակ",
+    "topics": ["science"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Ամբողջի մասը ցույց տվող թիվ՝ համարիչով ու հայտարարով",
+    "shortClue": "Թվի մաս"
+  },
+  {
+    "word": "մագնիս",
+    "topics": ["science"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Երկաթը դեպի իրեն ձգող առարկա",
+    "shortClue": "Երկաթի ձգող"
+  },
+  {
+    "word": "ոսպնյակ",
+    "topics": ["science"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Լույսը բեկող կորացած ապակի",
+    "shortClue": "Բեկող ապակի"
+  },
+  {
+    "word": "արագություն",
+    "topics": ["science"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Անցած ճանապարհի հարաբերությունը ժամանակին",
+    "shortClue": "Ընթացքի չափ"
+  },
+  {
+    "word": "կմախք",
+    "topics": ["science"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Մարմնի ոսկրային հենարանը",
+    "shortClue": "Ոսկրային հենք"
+  },
+  {
+    "word": "արբանյակ",
+    "topics": ["science"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Մոլորակի շուրջ պտտվող երկնային մարմին",
+    "shortClue": "Մոլորակի ուղեկից"
+  },
+  {
+    "word": "մարտկոց",
+    "topics": ["science"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Էլեկտրական հոսանքի դյուրակիր աղբյուր",
+    "shortClue": "Հոսանքի աղբյուր"
+  },
+  {
+    "word": "հոսանք",
+    "topics": ["science"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Լարերով անցնող էլեկտրական լիցքերի շարժում",
+    "shortClue": "Էլեկտրական լիցքեր"
+  },
+  {
+    "word": "բանաձև",
+    "topics": ["science"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Կանոնը նշաններով արտահայտող գրառում",
+    "shortClue": "Նշանային կանոն"
+  },
+  {
+    "word": "բյուրեղ",
+    "topics": ["science"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Կանոնավոր նիստերով պինդ մարմին",
+    "shortClue": "Նիստավոր մարմին"
+  },
+  {
+    "word": "ստեղնաշար",
+    "topics": ["science"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Համակարգչի տառերով կոճակների շարք",
+    "shortClue": "Տառերի կոճակներ"
+  },
+  {
+    "word": "էկրան",
+    "topics": ["science"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Պատկերը ցույց տվող հարթ մակերես",
+    "shortClue": "Պատկերի հարթություն"
+  },
+  {
+    "word": "գեղձ",
+    "topics": ["science"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Հորմոններ կամ հյութեր արտազատող օրգան",
+    "shortClue": "Արտազատող օրգան"
+  },
+  {
+    "word": "փայծաղ",
+    "topics": ["science"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Որովայնի ձախ կողմում գտնվող արյունաստեղծ օրգան",
+    "shortClue": "Արյան օրգան"
+  },
+  {
+    "word": "աճառ",
+    "topics": ["science"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Ճկուն հյուսվածք, որից կազմված են ականջն ու քթի ծայրը",
+    "shortClue": "Ճկուն հյուսվածք"
+  },
+  {
+    "word": "ծուծ",
+    "topics": ["science"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Ոսկրի ներսում գտնվող փափուկ հյուսվածք",
+    "shortClue": "Ոսկրի միջուկ"
+  },
+  {
+    "word": "թրթիռ",
+    "topics": ["science"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Արագ, մանր ճոճումներ ետ ու առաջ",
+    "shortClue": "Դողդոջ շարժում"
+  },
+  {
+    "word": "ճառագայթ",
+    "topics": ["science"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Լույսի նեղ փունջ",
+    "shortClue": "Լույսի փունջ"
+  },
+  {
+    "word": "բեկում",
+    "topics": ["science"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Լույսի ուղղության փոփոխություն երկու միջավայրերի սահմանին",
+    "shortClue": "Լույսի շեղում"
+  },
+  {
+    "word": "մթնոլորտ",
+    "topics": ["science"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Երկիրը շրջապատող օդային թաղանթ",
+    "shortClue": "Օդային թաղանթ"
+  },
+  {
+    "word": "լիցք",
+    "topics": ["science"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Մասնիկի էլեկտրական հատկությունը՝ դրական կամ բացասական",
+    "shortClue": "Դրական կամ բացասական"
+  },
+  {
+    "word": "մեդալ",
+    "topics": ["sport"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Մրցույթի հաղթողին տրվող մետաղե պարգև",
+    "shortClue": "Հաղթողի պարգև"
+  },
+  {
+    "word": "գավաթ",
+    "topics": ["sport"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Հաղթող թիմին հանձնվող մեծ բաժակ",
+    "shortClue": "Հաղթանակի բաժակ"
+  },
+  {
+    "word": "թենիս",
+    "topics": ["sport"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Ռակետներով ու գնդակով խաղ՝ ցանցի վրայով",
+    "shortClue": "Ռակետի խաղ"
+  },
+  {
+    "word": "վոլեյբոլ",
+    "topics": ["sport"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Ցանցի վրայով գնդակը ձեռքերով խփելու թիմային խաղ",
+    "shortClue": "Ցանցով խաղ"
+  },
+  {
+    "word": "հոկեյ",
+    "topics": ["sport"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Սառույցի վրա մականներով ու տափօղակով խաղ",
+    "shortClue": "Սառցե խաղ"
+  },
+  {
+    "word": "ցատկ",
+    "topics": ["sport"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Աթլետիկայի մարզաձև՝ բարձրությամբ կամ հեռավորությամբ",
+    "shortClue": "Թռիչք"
+  },
+  {
+    "word": "սկավառակ",
+    "topics": ["sport"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Թեթև աթլետիկայում հեռու նետվող տափակ, կլոր իր",
+    "shortClue": "Նետվող իր"
+  },
+  {
+    "word": "ձիարշավ",
+    "topics": ["sport"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Հիպոդրոմում նժույգների արագության մրցում",
+    "shortClue": "Նժույգների մրցում"
+  },
+  {
+    "word": "առաջնություն",
+    "topics": ["sport"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Լավագույնին որոշող մարզական մրցաշար",
+    "shortClue": "Չեմպիոնատ"
+  },
+  {
+    "word": "ախոյան",
+    "topics": ["sport"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Մրցակից, հատկապես մենամարտում",
+    "shortClue": "Մրցակից"
+  },
+  {
+    "word": "սահնակ",
+    "topics": ["sport"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Ձյունոտ բլուրից իջնելու փոքրիկ սայլակ",
+    "shortClue": "Ձմեռային սայլակ"
+  },
+  {
+    "word": "ակումբ",
+    "topics": ["sport"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Մարզական թիմ՝ իր անունով, մարզադաշտով ու երկրպագուներով",
+    "shortClue": "Մարզական թիմ"
+  },
+  {
+    "word": "թիմ",
+    "topics": ["sport"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Միասին խաղացող մարզիկների խումբ",
+    "shortClue": "Մարզիկների խումբ"
+  },
+  {
+    "word": "ցանց",
+    "topics": ["sport"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Դարպասի կամ թենիսի դաշտի հյուսված պատնեշ",
+    "shortClue": "Հյուսված պատնեշ"
+  },
+  {
+    "word": "շախ",
+    "topics": ["sport"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Թագավորին սպառնացող քայլ տախտակի խաղում",
+    "shortClue": "Արքային սպառնալիք"
+  },
+  {
+    "word": "ճոպան",
+    "topics": ["sport"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Լեռնագնացի ամուր, հաստ պարան",
+    "shortClue": "Ամուր պարան"
+  },
+  {
+    "word": "մեկնարկ",
+    "topics": ["sport"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Մրցավազքի սկիզբը",
+    "shortClue": "Մրցավազքի սկիզբ"
+  },
+  {
+    "word": "հարձակվող",
+    "topics": ["sport"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Ֆուտբոլիստ, որի գործը գոլ խփելն է",
+    "shortClue": "Գոլի որսորդ"
+  },
+  {
+    "word": "պաշտպան",
+    "topics": ["sport"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Դաշտային խաղացող, որ օգնում է դարպասապահին",
+    "shortClue": "Դաշտային խաղացող"
+  },
+  {
+    "word": "ռինգ",
+    "topics": ["sport"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Պարաններով շրջափակված հարթակ բռնցքամարտի համար",
+    "shortClue": "Բռնցքամարտի հարթակ"
+  },
+  {
+    "word": "վարժություն",
+    "topics": ["sport"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Մարզանքի մեկ շարժում կամ առաջադրանք",
+    "shortClue": "Մարզանք"
+  },
+  {
+    "word": "գոլֆ",
+    "topics": ["sport"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Մականով գնդակը փոսիկների մեջ գլորելու խաղ",
+    "shortClue": "Փոսիկների խաղ"
+  },
+  {
+    "word": "ձյուդո",
+    "topics": ["sport"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Ճապոնական մենամարտ՝ նետումներով ու բռնումներով",
+    "shortClue": "Ճապոնական մենամարտ"
+  },
+  {
+    "word": "արշավ",
+    "topics": ["sport"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Բազմօրյա ոտքով ճամփորդություն լեռներում",
+    "shortClue": "Լեռնային երթ"
+  },
+  {
+    "word": "վրան",
+    "topics": ["sport"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Ճամբարում խփվող կտորե տնակ",
+    "shortClue": "Կտորե տնակ"
+  },
+  {
+    "word": "ճամբար",
+    "topics": ["sport"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Վրաններով ամառային հանգստավայր",
+    "shortClue": "Ամառային հանգստավայր"
+  },
+  {
+    "word": "չեմպիոն",
+    "topics": ["sport"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Առաջնության հաղթողը",
+    "shortClue": "Լավագույն մարզիկ"
+  },
+  {
+    "word": "ռեկորդ",
+    "topics": ["sport"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Մարզական ամենաբարձր արդյունքը, որ դեռ ոչ ոք չի գերազանցել",
+    "shortClue": "Լավագույն արդյունք"
+  },
+  {
+    "word": "սուլիչ",
+    "topics": ["sport"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Մրցավարի ազդանշանային փոքր գործիք",
+    "shortClue": "Մրցավարի գործիք"
+  },
+  {
+    "word": "սլալոմ",
+    "topics": ["sport"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Դրոշակների միջով օձապտույտ դահուկային վայրէջք",
+    "shortClue": "Դահուկային վայրէջք"
+  },
+  {
+    "word": "բիաթլոն",
+    "topics": ["sport"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Դահուկավազք՝ հրաձգության հետ համատեղ",
+    "shortClue": "Դահուկ ու հրաձգություն"
+  },
+  {
+    "word": "բադմինտոն",
+    "topics": ["sport"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Ռակետներով ու փետրագնդակով խաղ ցանցի վրայով",
+    "shortClue": "Փետրագնդակի խաղ"
+  },
+  {
+    "word": "թիակ",
+    "topics": ["sport"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Նավակը վարելու լայն ծայրով ձող",
+    "shortClue": "Նավակի ձող"
+  },
+  {
+    "word": "ջութակ",
+    "topics": ["arts"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Աղեղով նվագվող չորս լարով գործիք",
+    "shortClue": "Լարային նվագարան"
+  },
+  {
+    "word": "դաշնամուր",
+    "topics": ["arts"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Սև ու սպիտակ ստեղներով մեծ նվագարան",
+    "shortClue": "Ստեղնավոր նվագարան"
+  },
+  {
+    "word": "կիթառ",
+    "topics": ["arts"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Վեց լարով գործիք, որ նվագում են մատներով",
+    "shortClue": "Վեցալար գործիք"
+  },
+  {
+    "word": "տավիղ",
+    "topics": ["arts"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Եռանկյունաձև շրջանակով լարային նվագարան",
+    "shortClue": "Եռանկյուն նվագարան"
+  },
+  {
+    "word": "կանոն",
+    "topics": ["arts", "localCulture"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Ծնկներին դրվող տափակ լարային նվագարան՝ բազմաթիվ լարերով",
+    "shortClue": "Սեղանի նվագարան"
+  },
+  {
+    "word": "թառ",
+    "topics": ["arts", "localCulture"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Արևելյան լարային նվագարան՝ ութաձև իրանով",
+    "shortClue": "Արևելյան լարային"
+  },
+  {
+    "word": "դհոլ",
+    "topics": ["arts", "localCulture"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Երկկողմանի ժողովրդական թմբուկ",
+    "shortClue": "Ժողովրդական թմբուկ"
+  },
+  {
+    "word": "ակորդ",
+    "topics": ["arts"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Միաժամանակ հնչող մի քանի հնչյուն",
+    "shortClue": "Հնչյունների խումբ"
+  },
+  {
+    "word": "սիմֆոնիա",
+    "topics": ["arts"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Նվագախմբի համար գրված խոշոր ստեղծագործություն",
+    "shortClue": "Նվագախմբային երկ"
+  },
+  {
+    "word": "վարագույր",
+    "topics": ["arts", "home"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Բեմը կամ պատուհանը ծածկող կտոր",
+    "shortClue": "Բեմի ծածկ"
+  },
+  {
+    "word": "ռեժիսոր",
+    "topics": ["arts", "professions"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Ներկայացումը կամ ֆիլմը բեմադրող արվեստագետ",
+    "shortClue": "Բեմադրիչ"
+  },
+  {
+    "word": "հանդիսատես",
+    "topics": ["arts"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Ներկայացում կամ համերգ դիտող մարդ",
+    "shortClue": "Դիտող"
+  },
+  {
+    "word": "հանգ",
+    "topics": ["arts"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Բանաստեղծական տողերի վերջավորությունների ձայնական համընկնում",
+    "shortClue": "Տողերի համահնչյուն"
+  },
+  {
+    "word": "կերպար",
+    "topics": ["arts"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Գրական ստեղծագործության հորինված անձը",
+    "shortClue": "Գրական անձ"
+  },
+  {
+    "word": "ֆիլմ",
+    "topics": ["arts"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Էկրանին ցուցադրվող շարժանկար",
+    "shortClue": "Շարժանկար"
+  },
+  {
+    "word": "կինո",
+    "topics": ["arts"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Էկրանին շարժվող պատկերների արվեստը",
+    "shortClue": "Յոթերորդ արվեստ"
+  },
+  {
+    "word": "տանգո",
+    "topics": ["arts"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Արգենտինական կրքոտ զույգային պար",
+    "shortClue": "Արգենտինական պար"
+  },
+  {
+    "word": "գմբեթ",
+    "topics": ["arts", "localCulture"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Եկեղեցու կլոր կամ բազմանիստ կատարը",
+    "shortClue": "Եկեղեցու կատար"
+  },
+  {
+    "word": "խմբավար",
+    "topics": ["arts"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Ձեռքի շարժումներով նվագողներին ու երգողներին ղեկավարող երաժիշտ",
+    "shortClue": "Դիրիժոր"
+  },
+  {
+    "word": "ասացվածք",
+    "topics": ["arts"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Կարճ, իմաստուն ժողովրդական խոսք",
+    "shortClue": "Ժողովրդական խոսք"
+  },
+  {
+    "word": "ներբող",
+    "topics": ["arts"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Մեկի կամ ինչ-որ բանի գովքը հնչեցնող չափածո",
+    "shortClue": "Գովքի երգ"
+  },
+  {
+    "word": "քնար",
+    "topics": ["arts"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Հին հունական լարային նվագարան՝ պոեզիայի խորհրդանիշ",
+    "shortClue": "Հունական նվագարան"
+  },
+  {
+    "word": "պատկերասրահ",
+    "topics": ["arts"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Նկարների ցուցադրության վայր",
+    "shortClue": "Նկարների տուն"
+  },
+  {
+    "word": "նատյուրմորտ",
+    "topics": ["arts"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Մրգերի, ծաղիկների ու իրերի պատկեր կտավին",
+    "shortClue": "Լուռ բնություն"
+  },
+  {
+    "word": "փոխաբերություն",
+    "topics": ["arts"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Իմաստի տեղափոխում մի բառից մյուսին՝ նմանության հիման վրա",
+    "shortClue": "Մետաֆոր"
+  },
+  {
+    "word": "կրկես",
+    "topics": ["arts"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Ակրոբատների ու ծաղրածուների ներկայացումներ կլոր արենայում",
+    "shortClue": "Կլոր արենա"
+  },
+  {
+    "word": "վիշապ",
+    "topics": ["arts", "localCulture"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Հրաշունչ հեքիաթային հրեշ",
+    "shortClue": "Հեքիաթային հրեշ"
+  },
+  {
+    "word": "ակնարկ",
+    "topics": ["arts"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Կարճ գրական կամ լրագրական երկ իրական դեպքերի մասին",
+    "shortClue": "Կարճ երկ"
+  },
+  {
+    "word": "դիվան",
+    "topics": ["arts"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Արևելյան բանաստեղծի ստեղծագործությունների ժողովածու",
+    "shortClue": "Բանաստեղծի ժողովածու"
+  },
+  {
+    "word": "բազմոց",
+    "topics": ["home"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Մի քանի հոգու համար նախատեսված փափուկ նստատեղ",
+    "shortClue": "Փափուկ նստատեղ"
+  },
+  {
+    "word": "բարձ",
+    "topics": ["home"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Գլխի տակ դրվող փափուկ պարկ",
+    "shortClue": "Գլխի տակ"
+  },
+  {
+    "word": "ցնցուղ",
+    "topics": ["home"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Վերևից ջուր ցողող սարք լոգարանում",
+    "shortClue": "Լոգարանի անձրև"
+  },
+  {
+    "word": "ավել",
+    "topics": ["home"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Հատակ մաքրելու ձողով խուրձ",
+    "shortClue": "Մաքրության խուրձ"
+  },
+  {
+    "word": "փոշեկուլ",
+    "topics": ["home"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Հատակն ու գորգերը ծծելով մաքրող սարք",
+    "shortClue": "Գորգ մաքրող սարք"
+  },
+  {
+    "word": "ջեռոց",
+    "topics": ["home"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Թխելու համար տաքացվող փակ խցիկ",
+    "shortClue": "Թխելու խցիկ"
+  },
+  {
+    "word": "տապակ",
+    "topics": ["home"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Ձու ու կարտոֆիլ խորովելու լայն, ծանծաղ աման",
+    "shortClue": "Ծանծաղ աման"
+  },
+  {
+    "word": "գդալ",
+    "topics": ["home"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Ապուր ուտելու գործիք",
+    "shortClue": "Ապուրի գործիք"
+  },
+  {
+    "word": "դանակ",
+    "topics": ["home"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Բռնակով սուր շեղբ՝ կտրելու համար",
+    "shortClue": "Կտրող գործիք"
+  },
+  {
+    "word": "շերեփ",
+    "topics": ["home"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Ապուր լցնելու երկար կոթով խոր գդալ",
+    "shortClue": "Մեծ գդալ"
+  },
+  {
+    "word": "սափոր",
+    "topics": ["home"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Ջրի կամ գինու համար նեղ վզով կավե աման",
+    "shortClue": "Կավե աման"
+  },
+  {
+    "word": "բանալի",
+    "topics": ["home"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Կողպեքը բացող մետաղե իր",
+    "shortClue": "Կողպեքի զույգ"
+  },
+  {
+    "word": "պատշգամբ",
+    "topics": ["home"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Վերնահարկի բաց հարթակ՝ բազրիքով",
+    "shortClue": "Բազրիքով հարթակ"
+  },
+  {
+    "word": "նկուղ",
+    "topics": ["home"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Տան ստորգետնյա հարկը",
+    "shortClue": "Ստորգետնյա հարկ"
+  },
+  {
+    "word": "ձեղնահարկ",
+    "topics": ["home"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Կտուրի տակ գտնվող սենյակ",
+    "shortClue": "Կտուրի տակ"
+  },
+  {
+    "word": "ջահ",
+    "topics": ["home"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Առաստաղից կախված բազմաճյուղ լուսատու",
+    "shortClue": "Կախովի լուսատու"
+  },
+  {
+    "word": "գզրոց",
+    "topics": ["home"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Կահույքի դուրս քաշվող արկղ",
+    "shortClue": "Քաշովի արկղ"
+  },
+  {
+    "word": "օրորոց",
+    "topics": ["home"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Նորածնի ճոճվող անկողին",
+    "shortClue": "Մանկան անկողին"
+  },
+  {
+    "word": "մուրճ",
+    "topics": ["home"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Մեխեր խփելու գործիք",
+    "shortClue": "Մեխ խփող"
+  },
+  {
+    "word": "աքցան",
+    "topics": ["home"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Մեխ քաշելու կամ բռնելու գործիք",
+    "shortClue": "Բռնող գործիք"
+  },
+  {
+    "word": "պտուտակ",
+    "topics": ["home"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Պարուրակավոր ամրակ՝ գլխիկին ճեղքով",
+    "shortClue": "Պարուրակավոր ամրակ"
+  },
+  {
+    "word": "բահ",
+    "topics": ["home"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Հող փորելու գործիք՝ երկար կոթով",
+    "shortClue": "Այգու գործիք"
+  },
+  {
+    "word": "փոցխ",
+    "topics": ["home"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Տերևներ ու խոտ հավաքելու ատամնավոր գործիք",
+    "shortClue": "Այգու սանր"
+  },
+  {
+    "word": "ծխնելույզ",
+    "topics": ["home"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Վառարանից տանիք բարձրացող խողովակ",
+    "shortClue": "Տանիքի խողովակ"
+  },
+  {
+    "word": "ծորակ",
+    "topics": ["home"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Ջրի հոսքը բացող ու փակող սարք լվացարանի վրա",
+    "shortClue": "Ջրի փական"
+  },
+  {
+    "word": "բաղնիք",
+    "topics": ["home"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Գոլորշիով լողանալու հասարակական վայր",
+    "shortClue": "Գոլորշու լոգանք"
+  },
+  {
+    "word": "ցանկապատ",
+    "topics": ["home"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Այգին շրջափակող փայտե կամ մետաղե արգելք",
+    "shortClue": "Այգու արգելք"
+  },
+  {
+    "word": "թախտ",
+    "topics": ["home"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Ցածր, լայն փայտե նստատեղ, որ ծառայում է նաև որպես անկողին",
+    "shortClue": "Փայտե անկողին"
+  },
+  {
+    "word": "ճրագ",
+    "topics": ["home"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Պատրույգով յուղե լամպ",
+    "shortClue": "Յուղե լամպ"
+  },
+  {
+    "word": "կանթեղ",
+    "topics": ["home"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Յուղով վառվող հին կախովի լուսատու",
+    "shortClue": "Հին լուսատու"
+  },
+  {
+    "word": "շեմ",
+    "topics": ["home"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Դռան ներքևի սահմանը մուտքի մոտ",
+    "shortClue": "Մուտքի սահման"
+  },
+  {
+    "word": "կճուճ",
+    "topics": ["home"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Փոքր կավե աման՝ յուղ կամ մածուն պահելու",
+    "shortClue": "Փոքր կավե աման"
+  },
+  {
+    "word": "թաղիք",
+    "topics": ["home", "localCulture"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Բրդից տրորած հաստ ծածկ հատակին",
+    "shortClue": "Բրդե ծածկ"
+  },
+  {
+    "word": "սփռոց",
+    "topics": ["home"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Սեղանին փռվող կտոր",
+    "shortClue": "Սեղանի կտոր"
+  },
+  {
+    "word": "տաշտ",
+    "topics": ["home", "localCulture"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Խմոր հունցելու երկար փայտե աման",
+    "shortClue": "Խմորի աման"
+  },
+  {
+    "word": "հրշեջ",
+    "topics": ["professions"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Հրդեհ մարող փրկարար",
+    "shortClue": "Կրակ մարող"
+  },
+  {
+    "word": "ոստիկան",
+    "topics": ["professions"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Փողոցներում կարգուկանոն պահպանող ծառայող",
+    "shortClue": "Օրենքի պահապան"
+  },
+  {
+    "word": "դատավոր",
+    "topics": ["professions"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Վճիռ կայացնող պաշտոնյա՝ թիկնոցով ու մուրճով",
+    "shortClue": "Վճիռ կայացնող"
+  },
+  {
+    "word": "փաստաբան",
+    "topics": ["professions"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Դատարանում մեղադրյալին պաշտպանող իրավաբան",
+    "shortClue": "Պաշտպան իրավաբան"
+  },
+  {
+    "word": "վաճառող",
+    "topics": ["professions"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Խանութում գնորդներին սպասարկող աշխատող",
+    "shortClue": "Խանութի աշխատող"
+  },
+  {
+    "word": "գանձապահ",
+    "topics": ["professions"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Դրամարկղի համար պատասխանատու աշխատող",
+    "shortClue": "Դրամարկղի աշխատող"
+  },
+  {
+    "word": "վարսավիր",
+    "topics": ["professions"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Մազեր կտրող ու հարդարող վարպետ",
+    "shortClue": "Մազերի վարպետ"
+  },
+  {
+    "word": "ատաղձագործ",
+    "topics": ["professions"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Փայտից կահույք ու դռներ պատրաստող վարպետ",
+    "shortClue": "Կահույքի վարպետ"
+  },
+  {
+    "word": "էլեկտրիկ",
+    "topics": ["professions"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Լարեր, վարդակներ ու լուսատուներ նորոգող վարպետ",
+    "shortClue": "Լարերի վարպետ"
+  },
+  {
+    "word": "փականագործ",
+    "topics": ["professions"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Կողպեքներ նորոգող ու բանալիներ պատրաստող վարպետ",
+    "shortClue": "Կողպեքի վարպետ"
+  },
+  {
+    "word": "վիրաբույժ",
+    "topics": ["professions"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Սկալպելով գործող բժիշկ",
+    "shortClue": "Սկալպելի վարպետ"
+  },
+  {
+    "word": "դաստիարակ",
+    "topics": ["professions"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Մանկապարտեզում երեխաներին խնամող ու կրթող մասնագետ",
+    "shortClue": "Մանկապարտեզի աշխատող"
+  },
+  {
+    "word": "դասախոս",
+    "topics": ["professions"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Համալսարանում լսարանի առջև կանգնող գիտնական",
+    "shortClue": "Համալսարանի ուսուցիչ"
+  },
+  {
+    "word": "հաղորդավար",
+    "topics": ["professions"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Ռադիոյի կամ հեռուստատեսության եթերը վարող",
+    "shortClue": "Եթերի դեմք"
+  },
+  {
+    "word": "թղթակից",
+    "topics": ["professions"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Դեպքի վայրից լուրեր հաղորդող լրագրող",
+    "shortClue": "Լրագրող"
+  },
+  {
+    "word": "մեքենավար",
+    "topics": ["professions"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Գնացքը վարող աշխատող",
+    "shortClue": "Գնացքի վարորդ"
+  },
+  {
+    "word": "բեռնակիր",
+    "topics": ["professions"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Կայարանում ծանր իրեր տեղափոխող աշխատող",
+    "shortClue": "Իրեր տեղափոխող"
+  },
+  {
+    "word": "պահակ",
+    "topics": ["professions"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Շենքը կամ տարածքը հսկող աշխատող",
+    "shortClue": "Հսկիչ"
+  },
+  {
+    "word": "մատուցող",
+    "topics": ["professions"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Ռեստորանում ճաշերը սեղան բերող աշխատող",
+    "shortClue": "Ռեստորանի աշխատող"
+  },
+  {
+    "word": "այգեպան",
+    "topics": ["professions"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Ծառեր էտող ու պարտեզ խնամող աշխատող",
+    "shortClue": "Ծառեր էտող"
+  },
+  {
+    "word": "հնձվոր",
+    "topics": ["professions"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Մանգաղով կամ գերանդիով արտ քաղող գյուղացի",
+    "shortClue": "Մանգաղով աշխատող"
+  },
+  {
+    "word": "բանվոր",
+    "topics": ["professions"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Գործարանում ֆիզիկական աշխատանք կատարող մարդ",
+    "shortClue": "Գործարանի աշխատող"
+  },
+  {
+    "word": "ինժեներ",
+    "topics": ["professions"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Մեքենաներ ու կառույցներ նախագծող տեխնիկական մասնագետ",
+    "shortClue": "Տեխնիկական մասնագետ"
+  },
+  {
+    "word": "գիտնական",
+    "topics": ["professions"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Հետազոտություններ անող ու հայտնագործություններ կատարող մարդ",
+    "shortClue": "Հետազոտող"
+  },
+  {
+    "word": "քիմիկոս",
+    "topics": ["professions"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Նյութերի բաղադրությունն ուսումնասիրող մասնագետ",
+    "shortClue": "Նյութերի մասնագետ"
+  },
+  {
+    "word": "հաշվապահ",
+    "topics": ["professions"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Ձեռնարկության եկամուտներն ու ծախսերը գրանցող մասնագետ",
+    "shortClue": "Ծախսերի մասնագետ"
+  },
+  {
+    "word": "փրկարար",
+    "topics": ["professions"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Աղետի ժամանակ մարդկանց օգնության հասնող աշխատող",
+    "shortClue": "Օգնության հասնող"
+  },
+  {
+    "word": "երաժիշտ",
+    "topics": ["professions", "arts"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Գործիք նվագող կամ մեղեդիներ ստեղծող արվեստագետ",
+    "shortClue": "Նվագող արվեստագետ"
+  },
+  {
+    "word": "լարախաղաց",
+    "topics": ["professions"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Բարձրում ձգված պարանի վրա քայլող կրկեսային արտիստ",
+    "shortClue": "Պարանի արտիստ"
+  },
+  {
+    "word": "ծաղրածու",
+    "topics": ["professions"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Կրկեսում հանդիսատեսին ծիծաղեցնող արտիստ",
+    "shortClue": "Կրկեսի զվարճախոս"
+  },
+  {
+    "word": "կաշեգործ",
+    "topics": ["professions"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Կենդանու մորթին մշակող վարպետ",
+    "shortClue": "Մորթի մշակող"
+  },
+  {
+    "word": "քարտուղար",
+    "topics": ["professions"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Գրասենյակում թղթերն ու հանդիպումները կազմակերպող աշխատող",
+    "shortClue": "Գրասենյակի աշխատող"
+  },
+  {
+    "word": "դայակ",
+    "topics": ["professions"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Երեխային խնամող վարձու կին",
+    "shortClue": "Երեխայի խնամակալ"
+  },
+  {
+    "word": "շինարար",
+    "topics": ["professions"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Շենքեր կառուցող աշխատող",
+    "shortClue": "Կառուցող"
+  },
+  {
+    "word": "լեզվաբան",
+    "topics": ["professions"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Խոսքի ու քերականության գիտնական",
+    "shortClue": "Քերականության գիտնական"
+  },
+  {
+    "word": "փոստատար",
+    "topics": ["professions"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Նամակներ ու ծանուցումներ տներ բերող աշխատող",
+    "shortClue": "Նամակաբեր"
+  },
+  {
+    "word": "Սանասար",
+    "topics": ["localCulture"],
+    "difficulty": 2,
+    "kind": "proper",
+    "clue": "Սասնա դյուցազնավեպի առաջին ճյուղի հերոսը՝ Բաղդասարի եղբայրը",
+    "shortClue": "Սասնա հերոս"
+  },
+  {
+    "word": "Ախթամար",
+    "topics": ["localCulture", "geography"],
+    "difficulty": 2,
+    "kind": "proper",
+    "clue": "Վանա լճի կղզին՝ Սուրբ Խաչ եկեղեցով",
+    "shortClue": "Վանա լճի կղզի"
+  },
+  {
+    "word": "Նարեկացի",
+    "topics": ["localCulture"],
+    "difficulty": 3,
+    "kind": "proper",
+    "clue": "«Մատյան ողբերգության» պոեմի հեղինակը",
+    "shortClue": "Մատյանի հեղինակ"
+  },
+  {
+    "word": "Սարյան",
+    "topics": ["localCulture"],
+    "difficulty": 2,
+    "kind": "proper",
+    "clue": "Վառ գույներով Հայաստանը պատկերած մեծ նկարիչ",
+    "shortClue": "Գույների վարպետ"
+  },
+  {
+    "word": "Այվազովսկի",
+    "topics": ["localCulture"],
+    "difficulty": 2,
+    "kind": "proper",
+    "clue": "Հայազգի ծովանկարիչ՝ «Իններորդ ալիքի» հեղինակը",
+    "shortClue": "Ծովանկարիչ"
+  },
+  {
+    "word": "Զվարթնոց",
+    "topics": ["localCulture"],
+    "difficulty": 2,
+    "kind": "proper",
+    "clue": "Յոթերորդ դարի կլոր տաճարի ավերակներ Էջմիածնի մոտ",
+    "shortClue": "Կլոր տաճար"
+  },
+  {
+    "word": "Հաղպատ",
+    "topics": ["localCulture"],
+    "difficulty": 2,
+    "kind": "proper",
+    "clue": "Լոռու միջնադարյան վանք՝ Սանահինի հարևան",
+    "shortClue": "Լոռու վանք"
+  },
+  {
+    "word": "Ամանոր",
+    "topics": ["localCulture"],
+    "difficulty": 1,
+    "kind": "proper",
+    "clue": "Հունվարի մեկին նշվող ամենասիրված տոնը",
+    "shortClue": "Տարեմուտ"
+  },
+  {
+    "word": "Անահիտ",
+    "topics": ["localCulture"],
+    "difficulty": 2,
+    "kind": "proper",
+    "clue": "Հին հայոց պտղաբերության ու մայրության դիցուհին",
+    "shortClue": "Հին դիցուհի"
+  },
+  {
+    "word": "Վահագն",
+    "topics": ["localCulture"],
+    "difficulty": 2,
+    "kind": "proper",
+    "clue": "Հին հայոց քաջության ու կրակի աստվածը՝ վիշապաքաղ",
+    "shortClue": "Վիշապաքաղ աստված"
+  },
+  {
+    "word": "խնամի",
+    "topics": ["localCulture", "general"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Ամուսինների ծնողները միմյանց համար",
+    "shortClue": "Փեսայի ծնող"
+  },
+  {
+    "word": "ալանի",
+    "topics": ["food", "localCulture"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Ընկույզով լցոնված չորացրած դեղձ",
+    "shortClue": "Լցոնված դեղձ"
+  },
+  {
+    "word": "նազուկ",
+    "topics": ["food", "localCulture"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Կարագով ու շաքարով քաղցր հայկական թխվածք",
+    "shortClue": "Քաղցր թխվածք"
+  },
+  {
+    "word": "կյուֆթա",
+    "topics": ["food", "localCulture"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Ծեծած մսից պատրաստված խոշոր եփած գնդիկներ",
+    "shortClue": "Մսի գնդիկ"
+  },
+  {
+    "word": "բոզբաշ",
+    "topics": ["food", "localCulture"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Գառան մսով ու սիսեռով ապուր",
+    "shortClue": "Սիսեռով ապուր"
+  },
+  {
+    "word": "լահմաջո",
+    "topics": ["food", "localCulture"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Աղացած մսով բարակ խմորե տափակ",
+    "shortClue": "Մսով տափակ"
+  },
+  {
+    "word": "խավիծ",
+    "topics": ["food", "localCulture"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Ալյուրով ու կարագով եփած քաղցր շիլա",
+    "shortClue": "Ալյուրե շիլա"
+  },
+  {
+    "word": "փոխինդ",
+    "topics": ["food", "localCulture"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Բոված ցորենի ալյուր՝ մեղրով կամ դոշաբով",
+    "shortClue": "Բոված ալյուր"
+  },
+  {
+    "word": "դոշաբ",
+    "topics": ["food", "localCulture"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Թթի կամ խաղողի հյութից եփած թանձր օշարակ",
+    "shortClue": "Թթի օշարակ"
+  },
+  {
+    "word": "սաջ",
+    "topics": ["localCulture", "home"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Լավաշ թխելու ուռուցիկ մետաղե թիթեղ",
+    "shortClue": "Լավաշի թիթեղ"
+  },
+  {
+    "word": "շամփուր",
+    "topics": ["localCulture", "food"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Մետաղե ձող, որին շարում են խորովածի միսը",
+    "shortClue": "Խորովածի ձող"
+  },
+  {
+    "word": "մանղալ",
+    "topics": ["localCulture"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Ածուխով վառվող արկղ՝ խորոված անելու համար",
+    "shortClue": "Խորովածի արկղ"
+  },
+  {
+    "word": "սազ",
+    "topics": ["localCulture", "arts"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Աշուղների երկարավիզ լարային նվագարան",
+    "shortClue": "Աշուղի նվագարան"
+  },
+  {
+    "word": "աշուղ",
+    "topics": ["localCulture", "arts"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Սազով երգող ժողովրդական բանաստեղծ",
+    "shortClue": "Ժողովրդական երգիչ"
+  },
+  {
+    "word": "պարկապզուկ",
+    "topics": ["localCulture", "arts"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Տիկով ու փողերով ժողովրդական նվագարան",
+    "shortClue": "Տիկավոր նվագարան"
+  },
+  {
+    "word": "ժանյակ",
+    "topics": ["localCulture", "home"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Թելից հյուսված նախշավոր նուրբ զարդ",
+    "shortClue": "Նախշավոր զարդ"
+  },
+  {
+    "word": "մատաղ",
+    "topics": ["localCulture"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Ուխտի կամ տոնի առթիվ եփված ու բաժանվող միս",
+    "shortClue": "Ուխտի կերակուր"
+  },
+  {
+    "word": "նշանադրություն",
+    "topics": ["localCulture"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Հարսանիքից առաջ մատանի դնելու արարողություն",
+    "shortClue": "Հարսանիքի նախերգանք"
+  },
+  {
+    "word": "վիճակ",
+    "topics": ["localCulture"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Համբարձման տոնին աղջիկների գուշակության խաղը",
+    "shortClue": "Գուշակության խաղ"
+  },
+  {
+    "word": "հորովել",
+    "topics": ["localCulture", "arts"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Եզներով հերկելիս երգվող աշխատանքային երգ",
+    "shortClue": "Հերկի երգ"
+  },
+  {
+    "word": "շարական",
+    "topics": ["localCulture", "arts"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Հայ եկեղեցու միջնադարյան հոգևոր երգ",
+    "shortClue": "Հոգևոր երգ"
+  },
+  {
+    "word": "խազ",
+    "topics": ["localCulture", "arts"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Հին հայկական երաժշտական նշան, որ ուսումնասիրել է Կոմիտասը",
+    "shortClue": "Հին նոտա"
+  },
+  {
+    "word": "ուխտ",
+    "topics": ["localCulture"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Սուրբ վայր գնալու կամ բարի գործ անելու հանդիսավոր խոստում",
+    "shortClue": "Հանդիսավոր խոստում"
+  },
+  {
+    "word": "արհեստանոց",
+    "topics": ["professions"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Վարպետի աշխատանքի սենյակ, որտեղ ձեռքով իրեր են պատրաստում",
+    "shortClue": "Վարպետի սենյակ"
+  },
+  {
+    "word": "անկեղծություն",
+    "topics": ["general"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Մտքերն ու զգացմունքները առանց թաքցնելու արտահայտելը",
+    "shortClue": "Սրտաբացություն"
+  },
+  {
+    "word": "հավատարմություն",
+    "topics": ["general"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Ընկերոջը կամ տված խոսքին մինչև վերջ նվիրված մնալը",
+    "shortClue": "Նվիրվածություն"
+  },
+  {
+    "word": "հետաքրքրություն",
+    "topics": ["general"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Նոր բան իմանալու ու տեսնելու ցանկություն",
+    "shortClue": "Գիտելիքի ծարավ"
+  },
+  {
+    "word": "զբոսաշրջիկ",
+    "topics": ["general"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Ուրիշ երկրներ ու տեսարժան վայրեր այցելող ճամփորդ",
+    "shortClue": "Տեսարժան վայրերի հյուր"
+  },
+  {
+    "word": "տրոլեյբուս",
+    "topics": ["general"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Էլեկտրական լարերից սնվող քաղաքային ավտոբուս",
+    "shortClue": "Լարային ավտոբուս"
+  },
+  {
+    "word": "փոխադրամիջոց",
+    "topics": ["general"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Մարդկանց կամ բեռներ տեղից տեղ տանող մեքենա կամ սայլ",
+    "shortClue": "Տրանսպորտ"
+  },
+  {
+    "word": "գազանանոց",
+    "topics": ["animals"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Վայրի կենդանիներ ցուցադրող քաղաքային այգի",
+    "shortClue": "Կենդանաբանական այգի"
+  },
+  {
+    "word": "երկկենցաղ",
+    "topics": ["animals"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Ջրում ու ցամաքում ապրող կենդանի, ինչպես գորտը",
+    "shortClue": "Ջրացամաքային կենդանի"
+  }
+]

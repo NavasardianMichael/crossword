@@ -1,0 +1,4002 @@
+[
+  {
+    "word": "jestřáb",
+    "topics": ["animals"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Středně velký dravec lovící v lese",
+    "shortClue": "Lesní dravec"
+  },
+  {
+    "word": "osel",
+    "topics": ["animals"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Šedý kopytník s dlouhýma ušima",
+    "shortClue": "Dlouhouchý kopytník"
+  },
+  {
+    "word": "netopýr",
+    "topics": ["animals"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Savec, který létá v noci",
+    "shortClue": "Noční letec"
+  },
+  {
+    "word": "ještěrka",
+    "topics": ["animals"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Malý plaz, který odhodí ocas",
+    "shortClue": "Malý plaz"
+  },
+  {
+    "word": "štika",
+    "topics": ["animals"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Dravá ryba s protáhlou hlavou",
+    "shortClue": "Dravá ryba"
+  },
+  {
+    "word": "pstruh",
+    "topics": ["animals"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Ryba z čistých horských potoků",
+    "shortClue": "Horská ryba"
+  },
+  {
+    "word": "slimák",
+    "topics": ["animals"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Měkkýš nesoucí na zádech ulitu",
+    "shortClue": "Nese ulitu"
+  },
+  {
+    "word": "sršeň",
+    "topics": ["animals"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Největší zástupce sociálních vos",
+    "shortClue": "Velká vosa"
+  },
+  {
+    "word": "delfín",
+    "topics": ["animals"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Inteligentní mořský savec",
+    "shortClue": "Mořský savec"
+  },
+  {
+    "word": "tučňák",
+    "topics": ["animals"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Nelétavý pták z Antarktidy",
+    "shortClue": "Pták z ledu"
+  },
+  {
+    "word": "klokan",
+    "topics": ["animals"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Australský vačnatec skákající po zadních",
+    "shortClue": "Skákavý vačnatec"
+  },
+  {
+    "word": "kotě",
+    "topics": ["animals"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Mládě kočky",
+    "shortClue": "Kočičí mládě"
+  },
+  {
+    "word": "kuře",
+    "topics": ["animals"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Mládě slepice",
+    "shortClue": "Slepičí mládě"
+  },
+  {
+    "word": "tele",
+    "topics": ["animals"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Mládě krávy",
+    "shortClue": "Kravské mládě"
+  },
+  {
+    "word": "hříbě",
+    "topics": ["animals"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Mládě koně",
+    "shortClue": "Koňské mládě"
+  },
+  {
+    "word": "sokol",
+    "topics": ["animals"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Rychlý dravec, symbol svobody",
+    "shortClue": "Rychlý dravec"
+  },
+  {
+    "word": "holub",
+    "topics": ["animals"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Městský pták s vrkáním",
+    "shortClue": "Městský pták"
+  },
+  {
+    "word": "datel",
+    "topics": ["animals"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Pták klepající zobákem do kmenů",
+    "shortClue": "Klepe do kmene"
+  },
+  {
+    "word": "kos",
+    "topics": ["animals"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Černý zpěvný pták se žlutým zobákem",
+    "shortClue": "Černý zpěvák"
+  },
+  {
+    "word": "skřivan",
+    "topics": ["animals"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Zpěvný pták nad polem",
+    "shortClue": "Zpěvák nad polem"
+  },
+  {
+    "word": "obraz",
+    "topics": ["arts"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Malba na plátně v rámu",
+    "shortClue": "Malba v rámu"
+  },
+  {
+    "word": "malíř",
+    "topics": ["arts"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Umělec pracující s barvami",
+    "shortClue": "Pracuje s barvami"
+  },
+  {
+    "word": "paleta",
+    "topics": ["arts"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Deska, na níž malíř míchá barvy",
+    "shortClue": "Deska s barvami"
+  },
+  {
+    "word": "herec",
+    "topics": ["arts"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Ten, kdo hraje role",
+    "shortClue": "Hraje role"
+  },
+  {
+    "word": "hudba",
+    "topics": ["arts"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Umění zvuků a melodií",
+    "shortClue": "Umění zvuků"
+  },
+  {
+    "word": "kytara",
+    "topics": ["arts"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Strunný nástroj s hmatníkem",
+    "shortClue": "Strunný nástroj"
+  },
+  {
+    "word": "buben",
+    "topics": ["arts"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Nástroj, na který se tluče paličkami",
+    "shortClue": "Bicí nástroj"
+  },
+  {
+    "word": "harfa",
+    "topics": ["arts"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Nástroj s mnoha strunami v oblouku",
+    "shortClue": "Nástroj andělů"
+  },
+  {
+    "word": "varhany",
+    "topics": ["arts"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Obrovský nástroj v kostele s píšťalami",
+    "shortClue": "Kostelní nástroj"
+  },
+  {
+    "word": "skladatel",
+    "topics": ["arts"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Autor hudebního díla",
+    "shortClue": "Autor hudby"
+  },
+  {
+    "word": "zpěvák",
+    "topics": ["arts"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Člověk zpívající před publikem",
+    "shortClue": "Zpívá před lidmi"
+  },
+  {
+    "word": "melodie",
+    "topics": ["arts"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Posloupnost tónů tvořící nápěv",
+    "shortClue": "Nápěv"
+  },
+  {
+    "word": "orchestr",
+    "topics": ["arts"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Velký soubor hudebníků",
+    "shortClue": "Soubor hudebníků"
+  },
+  {
+    "word": "kniha",
+    "topics": ["arts"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Svazek tištěných stran",
+    "shortClue": "Svazek stran"
+  },
+  {
+    "word": "básník",
+    "topics": ["arts"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Autor veršů",
+    "shortClue": "Autor veršů"
+  },
+  {
+    "word": "spisovatel",
+    "topics": ["arts"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Ten, kdo píše knihy",
+    "shortClue": "Píše knihy"
+  },
+  {
+    "word": "pohádka",
+    "topics": ["arts"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Vyprávění s kouzly a dobrým koncem",
+    "shortClue": "Příběh s kouzly"
+  },
+  {
+    "word": "film",
+    "topics": ["arts"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Pohyblivé obrazy na plátně",
+    "shortClue": "Pohyblivé obrazy"
+  },
+  {
+    "word": "fotografie",
+    "topics": ["arts"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Obraz zachycený objektivem",
+    "shortClue": "Obraz z objektivu"
+  },
+  {
+    "word": "tanec",
+    "topics": ["arts"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Pohyb těla do rytmu hudby",
+    "shortClue": "Pohyb do rytmu"
+  },
+  {
+    "word": "balet",
+    "topics": ["arts"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Tanec na špičkách",
+    "shortClue": "Tanec na špičkách"
+  },
+  {
+    "word": "kresba",
+    "topics": ["arts"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Obrázek vytvořený tužkou",
+    "shortClue": "Obrázek tužkou"
+  },
+  {
+    "word": "keramika",
+    "topics": ["arts"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Výrobky vypálené z hlíny",
+    "shortClue": "Vypálená hlína"
+  },
+  {
+    "word": "mozaika",
+    "topics": ["arts"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Obraz složený z kamínků",
+    "shortClue": "Obraz z kamínků"
+  },
+  {
+    "word": "houska",
+    "topics": ["food"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Kulaté pečivo s nářezem",
+    "shortClue": "Kulaté pečivo"
+  },
+  {
+    "word": "buchta",
+    "topics": ["food"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Kynuté sladké pečivo z pekáče",
+    "shortClue": "Kynuté pečivo"
+  },
+  {
+    "word": "svíčková",
+    "topics": ["food"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Hovězí maso s krémovou zeleninovou omáčkou",
+    "shortClue": "Hovězí s omáčkou"
+  },
+  {
+    "word": "bramborák",
+    "topics": ["food"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Smažený placek ze strouhané hlízy",
+    "shortClue": "Smažený placek"
+  },
+  {
+    "word": "těstoviny",
+    "topics": ["food"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Sušené pokrmy z mouky a vody ve tvaru nudlí",
+    "shortClue": "Nudle a špagety"
+  },
+  {
+    "word": "hrách",
+    "topics": ["food"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Zelené kuličky ve lusku",
+    "shortClue": "Zelené kuličky"
+  },
+  {
+    "word": "čočka",
+    "topics": ["food"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Luštěnina na Nový rok",
+    "shortClue": "Luštěnina"
+  },
+  {
+    "word": "třešeň",
+    "topics": ["food"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Červené ovoce s dlouhou stopkou",
+    "shortClue": "Ovoce se stopkou"
+  },
+  {
+    "word": "borůvka",
+    "topics": ["food"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Modré ovoce z lesa",
+    "shortClue": "Lesní modré ovoce"
+  },
+  {
+    "word": "meruňka",
+    "topics": ["food"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Oranžové ovoce s peckou",
+    "shortClue": "Oranžové ovoce"
+  },
+  {
+    "word": "smetana",
+    "topics": ["food"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Tučná vrstva z mléka",
+    "shortClue": "Tučná vrstva"
+  },
+  {
+    "word": "jogurt",
+    "topics": ["food"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Kyselé mléko s kulturami",
+    "shortClue": "Kysané mléko"
+  },
+  {
+    "word": "vejce",
+    "topics": ["food"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Snídaně ze slepičí skořápky",
+    "shortClue": "Ve skořápce"
+  },
+  {
+    "word": "med",
+    "topics": ["food"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Sladký produkt včel",
+    "shortClue": "Včelí sladkost"
+  },
+  {
+    "word": "čaj",
+    "topics": ["food"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Horký nálev z bylin",
+    "shortClue": "Nálev z bylin"
+  },
+  {
+    "word": "káva",
+    "topics": ["food"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Černý nápoj z pražených zrn",
+    "shortClue": "Nápoj z kávovníku"
+  },
+  {
+    "word": "pivo",
+    "topics": ["food"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Zlatavý nápoj z chmele a sladu",
+    "shortClue": "Nápoj z chmele"
+  },
+  {
+    "word": "limonáda",
+    "topics": ["food"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Sladký šumivý nápoj z citronu",
+    "shortClue": "Sladký šumivý"
+  },
+  {
+    "word": "vanilka",
+    "topics": ["food"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Voňavé koření do sladkých pokrmů",
+    "shortClue": "Sladké koření"
+  },
+  {
+    "word": "skořice",
+    "topics": ["food"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Hnědé koření z kůry stromu",
+    "shortClue": "Hnědé koření"
+  },
+  {
+    "word": "klobása",
+    "topics": ["food"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Uzenina plněná masem",
+    "shortClue": "Uzenina"
+  },
+  {
+    "word": "šunka",
+    "topics": ["food"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Uzené vepřové maso na chlebíčky",
+    "shortClue": "Uzené maso"
+  },
+  {
+    "word": "palačinka",
+    "topics": ["food"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Tenký placek plněný džemem",
+    "shortClue": "Tenký placek"
+  },
+  {
+    "word": "dort",
+    "topics": ["food"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Slavnostní sladká pochoutka se svíčkami",
+    "shortClue": "Narozeninová sladkost"
+  },
+  {
+    "word": "strach",
+    "topics": ["general"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Pocit z blížícího se nebezpečí",
+    "shortClue": "Úzkostný pocit"
+  },
+  {
+    "word": "vztek",
+    "topics": ["general"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Prudký výbuch zlosti",
+    "shortClue": "Prudká zlost"
+  },
+  {
+    "word": "pláč",
+    "topics": ["general"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Slzy při smutku nebo bolesti",
+    "shortClue": "Slzy smutku"
+  },
+  {
+    "word": "spánek",
+    "topics": ["general"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Noční odpočinek těla",
+    "shortClue": "Noční odpočinek"
+  },
+  {
+    "word": "týden",
+    "topics": ["general"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Sedm dnů po sobě",
+    "shortClue": "Sedm dnů"
+  },
+  {
+    "word": "hodina",
+    "topics": ["general"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Šedesát minut",
+    "shortClue": "Šedesát minut"
+  },
+  {
+    "word": "minuta",
+    "topics": ["general"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Šedesát vteřin",
+    "shortClue": "Šedesát vteřin"
+  },
+  {
+    "word": "ráno",
+    "topics": ["general"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Začátek dne po probuzení",
+    "shortClue": "Po probuzení"
+  },
+  {
+    "word": "večer",
+    "topics": ["general"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Doba těsně před nocí",
+    "shortClue": "Před nocí"
+  },
+  {
+    "word": "čas",
+    "topics": ["general"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Plynutí, které měří hodiny",
+    "shortClue": "Měřené hodinami"
+  },
+  {
+    "word": "chvíle",
+    "topics": ["general"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Krátký úsek času",
+    "shortClue": "Krátký úsek"
+  },
+  {
+    "word": "okamžik",
+    "topics": ["general"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Velmi krátká doba",
+    "shortClue": "Krátká chvilka"
+  },
+  {
+    "word": "začátek",
+    "topics": ["general"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Úplně první část něčeho",
+    "shortClue": "První část"
+  },
+  {
+    "word": "konec",
+    "topics": ["general"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Chvíle, kdy něco přestává",
+    "shortClue": "Závěr"
+  },
+  {
+    "word": "cíl",
+    "topics": ["general"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Místo, kam chce člověk dojít",
+    "shortClue": "Kam míříme"
+  },
+  {
+    "word": "cesta",
+    "topics": ["general"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Trasa, po které se jde",
+    "shortClue": "Trasa"
+  },
+  {
+    "word": "přítel",
+    "topics": ["general"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Blízký člověk, kterému věříme",
+    "shortClue": "Blízký člověk"
+  },
+  {
+    "word": "rodina",
+    "topics": ["general"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Otec, matka a děti",
+    "shortClue": "Otec, matka, děti"
+  },
+  {
+    "word": "soused",
+    "topics": ["general"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Člověk bydlící hned vedle",
+    "shortClue": "Bydlí vedle"
+  },
+  {
+    "word": "host",
+    "topics": ["general"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Pozvaný návštěvník",
+    "shortClue": "Pozvaný návštěvník"
+  },
+  {
+    "word": "pomoc",
+    "topics": ["general"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Podpora pro toho, kdo ji potřebuje",
+    "shortClue": "Podpora"
+  },
+  {
+    "word": "rada",
+    "topics": ["general"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Doporučení, jak si počínat",
+    "shortClue": "Doporučení"
+  },
+  {
+    "word": "otázka",
+    "topics": ["general"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Věta, na kterou čekáme odpověď",
+    "shortClue": "Čeká na odpověď"
+  },
+  {
+    "word": "pravda",
+    "topics": ["general"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Shoda s tím, jak věci opravdu jsou",
+    "shortClue": "Skutečnost"
+  },
+  {
+    "word": "lež",
+    "topics": ["general"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Záměrně nepravdivé tvrzení",
+    "shortClue": "Nepravda"
+  },
+  {
+    "word": "tajemství",
+    "topics": ["general"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Něco, co smí znát jen málokdo",
+    "shortClue": "Skrytá věc"
+  },
+  {
+    "word": "překvapení",
+    "topics": ["general"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Nečekaná událost",
+    "shortClue": "Nečekaná věc"
+  },
+  {
+    "word": "štěstí",
+    "topics": ["general"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Pocit naprosté spokojenosti",
+    "shortClue": "Pocit blaha"
+  },
+  {
+    "word": "smutek",
+    "topics": ["general"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Pocit bolesti po ztrátě",
+    "shortClue": "Truchlivá nálada"
+  },
+  {
+    "word": "láska",
+    "topics": ["general"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Hluboký cit k blízkému člověku",
+    "shortClue": "Hluboký cit"
+  },
+  {
+    "word": "pozornost",
+    "topics": ["general"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Soustředění na to, co se děje",
+    "shortClue": "Soustředění"
+  },
+  {
+    "word": "paměť",
+    "topics": ["general"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Schopnost uchovat si zážitky",
+    "shortClue": "Uložené vzpomínky"
+  },
+  {
+    "word": "sen",
+    "topics": ["general"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Obrazy, které vidíme ve spánku",
+    "shortClue": "Noční obrazy"
+  },
+  {
+    "word": "nápad",
+    "topics": ["general"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Náhlá myšlenka, jak něco vyřešit",
+    "shortClue": "Náhlá myšlenka"
+  },
+  {
+    "word": "myšlenka",
+    "topics": ["general"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Úvaha vzniklá v hlavě",
+    "shortClue": "Úvaha"
+  },
+  {
+    "word": "přání",
+    "topics": ["general"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "To, co si člověk touží mít",
+    "shortClue": "Touha"
+  },
+  {
+    "word": "úsměv",
+    "topics": ["general"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Zvednuté koutky úst",
+    "shortClue": "Zvednuté koutky"
+  },
+  {
+    "word": "hlad",
+    "topics": ["general"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Pocit, že chceme jíst",
+    "shortClue": "Chuť k jídlu"
+  },
+  {
+    "word": "žízeň",
+    "topics": ["general"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Touha po pití",
+    "shortClue": "Touha po pití"
+  },
+  {
+    "word": "únava",
+    "topics": ["general"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Stav po velké námaze",
+    "shortClue": "Stav po námaze"
+  },
+  {
+    "word": "odpočinek",
+    "topics": ["general"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Chvíle volna po práci",
+    "shortClue": "Volno po práci"
+  },
+  {
+    "word": "práce",
+    "topics": ["general"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Činnost, za kterou bývá plat",
+    "shortClue": "Činnost za plat"
+  },
+  {
+    "word": "hra",
+    "topics": ["general"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Zábava podle pravidel nebo bez nich",
+    "shortClue": "Dětská zábava"
+  },
+  {
+    "word": "lekce",
+    "topics": ["general"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Jedna vyučovací část",
+    "shortClue": "Vyučovací část"
+  },
+  {
+    "word": "zkouška",
+    "topics": ["general"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Ověření znalostí",
+    "shortClue": "Ověření znalostí"
+  },
+  {
+    "word": "chyba",
+    "topics": ["general"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Nesprávný krok nebo výsledek",
+    "shortClue": "Nesprávný krok"
+  },
+  {
+    "word": "úspěch",
+    "topics": ["general"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Zdařilé dosažení cíle",
+    "shortClue": "Zdařilý výsledek"
+  },
+  {
+    "word": "porážka",
+    "topics": ["general"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Neúspěch v zápase",
+    "shortClue": "Neúspěch"
+  },
+  {
+    "word": "náhoda",
+    "topics": ["general"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Událost bez příčiny a plánu",
+    "shortClue": "Nečekaná shoda"
+  },
+  {
+    "word": "osud",
+    "topics": ["general"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Neodvratný běh života",
+    "shortClue": "Životní běh"
+  },
+  {
+    "word": "možnost",
+    "topics": ["general"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "To, co se může stát",
+    "shortClue": "Šance"
+  },
+  {
+    "word": "důvod",
+    "topics": ["general"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Příčina, proč něco děláme",
+    "shortClue": "Příčina"
+  },
+  {
+    "word": "účel",
+    "topics": ["general"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "To, k čemu věc slouží",
+    "shortClue": "K čemu slouží"
+  },
+  {
+    "word": "smysl",
+    "topics": ["general"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Význam či cíl něčeho",
+    "shortClue": "Význam"
+  },
+  {
+    "word": "zvyk",
+    "topics": ["general"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Činnost opakovaná po léta",
+    "shortClue": "Opakované jednání"
+  },
+  {
+    "word": "pořádek",
+    "topics": ["general"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Stav, kdy je vše na svém místě",
+    "shortClue": "Vše na místě"
+  },
+  {
+    "word": "zmatek",
+    "topics": ["general"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Stav, kdy nikdo nic nechápe",
+    "shortClue": "Chaos"
+  },
+  {
+    "word": "hluk",
+    "topics": ["general"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Nepříjemně silný zvuk",
+    "shortClue": "Silný zvuk"
+  },
+  {
+    "word": "klid",
+    "topics": ["general"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Stav bez shonu a rozrušení",
+    "shortClue": "Bez shonu"
+  },
+  {
+    "word": "dálka",
+    "topics": ["general"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Prostor za obzorem",
+    "shortClue": "Za obzorem"
+  },
+  {
+    "word": "výška",
+    "topics": ["general"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Rozměr od země vzhůru",
+    "shortClue": "Rozměr vzhůru"
+  },
+  {
+    "word": "hloubka",
+    "topics": ["general"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Rozměr směrem dolů pod hladinu",
+    "shortClue": "Rozměr dolů"
+  },
+  {
+    "word": "šířka",
+    "topics": ["general"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Rozměr z boku na bok",
+    "shortClue": "Rozměr do stran"
+  },
+  {
+    "word": "váha",
+    "topics": ["general"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Tíha předmětu udávaná v kilogramech",
+    "shortClue": "Tíha"
+  },
+  {
+    "word": "množství",
+    "topics": ["general"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Údaj o tom, kolik čeho je",
+    "shortClue": "Kolik čeho"
+  },
+  {
+    "word": "část",
+    "topics": ["general"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Díl celku",
+    "shortClue": "Díl celku"
+  },
+  {
+    "word": "celek",
+    "topics": ["general"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Souhrn všech dílů",
+    "shortClue": "Souhrn dílů"
+  },
+  {
+    "word": "polovina",
+    "topics": ["general"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Jedna ze dvou stejných dílů",
+    "shortClue": "Jedna ze dvou"
+  },
+  {
+    "word": "dvojice",
+    "topics": ["general"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Dva kusy patřící k sobě",
+    "shortClue": "Dva k sobě"
+  },
+  {
+    "word": "hromada",
+    "topics": ["general"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Navršená kupa věcí",
+    "shortClue": "Navršená kupa"
+  },
+  {
+    "word": "výjimka",
+    "topics": ["general"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Případ, který neplatí podle pravidla",
+    "shortClue": "Mimo pravidlo"
+  },
+  {
+    "word": "pravidlo",
+    "topics": ["general"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Závazný pokyn, jak postupovat",
+    "shortClue": "Závazný pokyn"
+  },
+  {
+    "word": "příklad",
+    "topics": ["general"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Ukázka pro vysvětlení",
+    "shortClue": "Ukázka"
+  },
+  {
+    "word": "rozdíl",
+    "topics": ["general"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "To, čím se věci liší",
+    "shortClue": "Odlišnost"
+  },
+  {
+    "word": "podobnost",
+    "topics": ["general"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Shoda ve vzhledu nebo vlastnostech",
+    "shortClue": "Shoda vzhledu"
+  },
+  {
+    "word": "změna",
+    "topics": ["general"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Přechod z jednoho stavu do jiného",
+    "shortClue": "Přeměna"
+  },
+  {
+    "word": "růst",
+    "topics": ["general"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Postupné zvětšování",
+    "shortClue": "Zvětšování"
+  },
+  {
+    "word": "pohyb",
+    "topics": ["general"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Změna polohy tělesa",
+    "shortClue": "Změna polohy"
+  },
+  {
+    "word": "směr",
+    "topics": ["general"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Strana, kterou se jde",
+    "shortClue": "Strana cesty"
+  },
+  {
+    "word": "střed",
+    "topics": ["general"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Místo stejně daleko od všech okrajů",
+    "shortClue": "Mezi okraji"
+  },
+  {
+    "word": "roh",
+    "topics": ["general"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Místo, kde se stýkají dvě stěny",
+    "shortClue": "Styk stěn"
+  },
+  {
+    "word": "kruh",
+    "topics": ["general"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Plochý tvar bez rohů a hran",
+    "shortClue": "Plochý tvar"
+  },
+  {
+    "word": "čtverec",
+    "topics": ["general"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Čtyřúhelník se čtyřmi stejnými stranami",
+    "shortClue": "Čtyři stejné strany"
+  },
+  {
+    "word": "trojúhelník",
+    "topics": ["general"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Obrazec se třemi vrcholy",
+    "shortClue": "Tři vrcholy"
+  },
+  {
+    "word": "přátelství",
+    "topics": ["general"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Pouto mezi lidmi, kteří si důvěřují",
+    "shortClue": "Pouto lidí"
+  },
+  {
+    "word": "spokojenost",
+    "topics": ["general"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Pocit, že nám nic nechybí",
+    "shortClue": "Pocit dostatku"
+  },
+  {
+    "word": "odpovědnost",
+    "topics": ["general"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Povinnost nést následky svých činů",
+    "shortClue": "Nést následky"
+  },
+  {
+    "word": "nedorozumění",
+    "topics": ["general"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Omyl vzniklý špatným pochopením",
+    "shortClue": "Špatné pochopení"
+  },
+  {
+    "word": "zvědavost",
+    "topics": ["general"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Touha dozvědět se něco nového",
+    "shortClue": "Touha vědět"
+  },
+  {
+    "word": "vděčnost",
+    "topics": ["general"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Cit toho, kdo dostal pomoc",
+    "shortClue": "Cit za pomoc"
+  },
+  {
+    "word": "svoboda",
+    "topics": ["general"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Stav bez nátlaku a omezení",
+    "shortClue": "Bez omezení"
+  },
+  {
+    "word": "spravedlnost",
+    "topics": ["general"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Rovné a poctivé posuzování všech",
+    "shortClue": "Poctivé soudy"
+  },
+  {
+    "word": "vodopád",
+    "topics": ["geography"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Voda padající ze skalního stupně",
+    "shortClue": "Padající voda"
+  },
+  {
+    "word": "soutok",
+    "topics": ["geography"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Místo, kde se stýkají dvě řeky",
+    "shortClue": "Setkání řek"
+  },
+  {
+    "word": "glóbus",
+    "topics": ["geography"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Model Země ve tvaru koule",
+    "shortClue": "Model Země"
+  },
+  {
+    "word": "rovník",
+    "topics": ["geography"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Myšlená čára dělící Zemi na polokoule",
+    "shortClue": "Dělí polokoule"
+  },
+  {
+    "word": "poledník",
+    "topics": ["geography"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Myšlená čára vedoucí od pólu k pólu",
+    "shortClue": "Svislá čára mapy"
+  },
+  {
+    "word": "světadíl",
+    "topics": ["geography"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Největší souvislá část pevniny",
+    "shortClue": "Část pevniny"
+  },
+  {
+    "word": "Ostrava",
+    "topics": ["geography"],
+    "difficulty": 1,
+    "kind": "proper",
+    "clue": "Město na severovýchodě Moravy",
+    "shortClue": "Slezské velkoměsto"
+  },
+  {
+    "word": "Plzeň",
+    "topics": ["geography"],
+    "difficulty": 1,
+    "kind": "proper",
+    "clue": "Město proslulé pivem na řece Berounce",
+    "shortClue": "Pivovarské město"
+  },
+  {
+    "word": "Olomouc",
+    "topics": ["geography"],
+    "difficulty": 2,
+    "kind": "proper",
+    "clue": "Starobylé město s orlojem na Hané",
+    "shortClue": "Haná a orloj"
+  },
+  {
+    "word": "Krkonoše",
+    "topics": ["geography"],
+    "difficulty": 2,
+    "kind": "proper",
+    "clue": "Nejvyšší české pohoří",
+    "shortClue": "Nejvyšší pohoří"
+  },
+  {
+    "word": "Alpy",
+    "topics": ["geography"],
+    "difficulty": 2,
+    "kind": "proper",
+    "clue": "Evropské pohoří se Mont Blancem",
+    "shortClue": "Evropské pohoří"
+  },
+  {
+    "word": "Himálaj",
+    "topics": ["geography"],
+    "difficulty": 3,
+    "kind": "proper",
+    "clue": "Pohoří s nejvyššími horami světa",
+    "shortClue": "Střecha světa"
+  },
+  {
+    "word": "Dunaj",
+    "topics": ["geography"],
+    "difficulty": 2,
+    "kind": "proper",
+    "clue": "Řeka protékající Vídní a Budapeští",
+    "shortClue": "Evropský veletok"
+  },
+  {
+    "word": "Nil",
+    "topics": ["geography"],
+    "difficulty": 2,
+    "kind": "proper",
+    "clue": "Řeka v Egyptě",
+    "shortClue": "Africký veletok"
+  },
+  {
+    "word": "Amazonka",
+    "topics": ["geography"],
+    "difficulty": 2,
+    "kind": "proper",
+    "clue": "Největší jihoamerická řeka",
+    "shortClue": "Řeka pralesa"
+  },
+  {
+    "word": "Sahara",
+    "topics": ["geography"],
+    "difficulty": 1,
+    "kind": "proper",
+    "clue": "Největší horká poušť světa",
+    "shortClue": "Africká poušť"
+  },
+  {
+    "word": "Itálie",
+    "topics": ["geography"],
+    "difficulty": 1,
+    "kind": "proper",
+    "clue": "Evropský stát ve tvaru boty",
+    "shortClue": "Evropská bota"
+  },
+  {
+    "word": "Bratislava",
+    "topics": ["geography"],
+    "difficulty": 1,
+    "kind": "proper",
+    "clue": "Hlavní město Slovenska",
+    "shortClue": "Slovenské hlavní město"
+  },
+  {
+    "word": "Vídeň",
+    "topics": ["geography"],
+    "difficulty": 1,
+    "kind": "proper",
+    "clue": "Rakouské hlavní město",
+    "shortClue": "Rakouské hlavní město"
+  },
+  {
+    "word": "Řím",
+    "topics": ["geography"],
+    "difficulty": 1,
+    "kind": "proper",
+    "clue": "Věčné město u Tibery",
+    "shortClue": "Věčné město"
+  },
+  {
+    "word": "Island",
+    "topics": ["geography"],
+    "difficulty": 2,
+    "kind": "proper",
+    "clue": "Ostrovní stát se sopkami a gejzíry",
+    "shortClue": "Ledový ostrov"
+  },
+  {
+    "word": "zámek",
+    "topics": ["history"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Pohodlné sídlo šlechty",
+    "shortClue": "Šlechtické sídlo"
+  },
+  {
+    "word": "tvrz",
+    "topics": ["history"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Menší opevněné sídlo",
+    "shortClue": "Malý hrad"
+  },
+  {
+    "word": "věž",
+    "topics": ["history"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Vysoká úzká část budovy",
+    "shortClue": "Vysoká stavba"
+  },
+  {
+    "word": "brána",
+    "topics": ["history"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Vstup do opevněného města",
+    "shortClue": "Vstup do města"
+  },
+  {
+    "word": "helma",
+    "topics": ["history"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Ochrana hlavy rytíře",
+    "shortClue": "Ochrana hlavy"
+  },
+  {
+    "word": "zbroj",
+    "topics": ["history"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Plechový oděv rytíře",
+    "shortClue": "Rytířský oděv"
+  },
+  {
+    "word": "rytíř",
+    "topics": ["history"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Středověký jezdec v brnění",
+    "shortClue": "Jezdec v brnění"
+  },
+  {
+    "word": "král",
+    "topics": ["history"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Panovník s korunou",
+    "shortClue": "Panovník"
+  },
+  {
+    "word": "císař",
+    "topics": ["history"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Panovník vládnoucí říši",
+    "shortClue": "Vládce říše"
+  },
+  {
+    "word": "trůn",
+    "topics": ["history"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Slavnostní křeslo panovníka",
+    "shortClue": "Křeslo panovníka"
+  },
+  {
+    "word": "kronika",
+    "topics": ["history"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Zápis událostí za sebou",
+    "shortClue": "Zápis událostí"
+  },
+  {
+    "word": "brk",
+    "topics": ["history"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Pírko používané k psaní inkoustem",
+    "shortClue": "Staré pero"
+  },
+  {
+    "word": "svitek",
+    "topics": ["history"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Stočený rukopis",
+    "shortClue": "Stočený rukopis"
+  },
+  {
+    "word": "tiskárna",
+    "topics": ["history"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Dílna, v níž se vyráběly první knihy",
+    "shortClue": "Dílna knih"
+  },
+  {
+    "word": "bednář",
+    "topics": ["history"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Řemeslník vyrábějící sudy",
+    "shortClue": "Vyrábí sudy"
+  },
+  {
+    "word": "koželuh",
+    "topics": ["history"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Řemeslník zpracovávající kůže",
+    "shortClue": "Zpracovává kůže"
+  },
+  {
+    "word": "tkadlec",
+    "topics": ["history"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Řemeslník, který tká látky",
+    "shortClue": "Tká látky"
+  },
+  {
+    "word": "cech",
+    "topics": ["history"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Středověké sdružení řemeslníků",
+    "shortClue": "Spolek řemeslníků"
+  },
+  {
+    "word": "akvadukt",
+    "topics": ["history"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Římský most nesoucí vodu",
+    "shortClue": "Římský vodovod"
+  },
+  {
+    "word": "gladiátor",
+    "topics": ["history"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Římský zápasník v aréně",
+    "shortClue": "Zápasník v aréně"
+  },
+  {
+    "word": "faraon",
+    "topics": ["history"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Starověký egyptský vládce",
+    "shortClue": "Egyptský vládce"
+  },
+  {
+    "word": "mumie",
+    "topics": ["history"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Zabalené tělo uchované tisíce let",
+    "shortClue": "Zabalené tělo"
+  },
+  {
+    "word": "parník",
+    "topics": ["history"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Loď poháněná párou z kotle",
+    "shortClue": "Loď na páru"
+  },
+  {
+    "word": "lokomotiva",
+    "topics": ["history"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Vozidlo táhnoucí vlak",
+    "shortClue": "Tahá vlak"
+  },
+  {
+    "word": "louč",
+    "topics": ["history"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Hořící dřevo osvětlující chodbu",
+    "shortClue": "Hořící dřevo"
+  },
+  {
+    "word": "turnaj",
+    "topics": ["history"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Rytířské klání",
+    "shortClue": "Rytířské klání"
+  },
+  {
+    "word": "vynález",
+    "topics": ["history"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Nová věc, která předtím neexistovala",
+    "shortClue": "Nová věc"
+  },
+  {
+    "word": "dům",
+    "topics": ["home"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Budova, kde lidé bydlí",
+    "shortClue": "Obytná budova"
+  },
+  {
+    "word": "byt",
+    "topics": ["home"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Obytná část činžovního domu",
+    "shortClue": "Část činžáku"
+  },
+  {
+    "word": "pokoj",
+    "topics": ["home"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Místnost v bytě",
+    "shortClue": "Místnost v bytě"
+  },
+  {
+    "word": "kuchyně",
+    "topics": ["home"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Místnost, kde se vaří",
+    "shortClue": "Místnost k vaření"
+  },
+  {
+    "word": "ložnice",
+    "topics": ["home"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Místnost určená ke spaní",
+    "shortClue": "Místnost ke spaní"
+  },
+  {
+    "word": "koupelna",
+    "topics": ["home"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Místnost s vanou a umyvadlem",
+    "shortClue": "Místnost s vanou"
+  },
+  {
+    "word": "chodba",
+    "topics": ["home"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Úzký prostor spojující místnosti",
+    "shortClue": "Úzký průchod"
+  },
+  {
+    "word": "sklep",
+    "topics": ["home"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Podzemní prostor pod domem",
+    "shortClue": "Podzemní prostor"
+  },
+  {
+    "word": "balkon",
+    "topics": ["home"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Plošina vystupující z fasády",
+    "shortClue": "Plošina u okna"
+  },
+  {
+    "word": "okno",
+    "topics": ["home"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Prosklený otvor ve zdi",
+    "shortClue": "Prosklený otvor"
+  },
+  {
+    "word": "dveře",
+    "topics": ["home"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Otvíravý vstup do místnosti",
+    "shortClue": "Otvíravý vstup"
+  },
+  {
+    "word": "zeď",
+    "topics": ["home"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Svislá konstrukce domu",
+    "shortClue": "Svislá konstrukce"
+  },
+  {
+    "word": "strop",
+    "topics": ["home"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Horní plocha místnosti",
+    "shortClue": "Horní plocha"
+  },
+  {
+    "word": "podlaha",
+    "topics": ["home"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Plocha, po které chodíme v pokoji",
+    "shortClue": "Plocha pod nohama"
+  },
+  {
+    "word": "schody",
+    "topics": ["home"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Řada stupňů mezi patry",
+    "shortClue": "Stupně mezi patry"
+  },
+  {
+    "word": "střecha",
+    "topics": ["home"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Horní kryt budovy proti dešti",
+    "shortClue": "Kryt domu"
+  },
+  {
+    "word": "skříň",
+    "topics": ["home"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Nábytek na šaty",
+    "shortClue": "Nábytek na šaty"
+  },
+  {
+    "word": "lampa",
+    "topics": ["home"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Světelný zdroj stojící na stole",
+    "shortClue": "Zdroj světla"
+  },
+  {
+    "word": "lžíce",
+    "topics": ["home"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Příbor na polévku",
+    "shortClue": "Příbor na polévku"
+  },
+  {
+    "word": "vidlička",
+    "topics": ["home"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Příbor se čtyřmi hroty",
+    "shortClue": "Příbor s hroty"
+  },
+  {
+    "word": "nůž",
+    "topics": ["home"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Ostrý příbor na krájení",
+    "shortClue": "Příbor na krájení"
+  },
+  {
+    "word": "lednice",
+    "topics": ["home"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Spotřebič udržující potraviny chladné",
+    "shortClue": "Chladí potraviny"
+  },
+  {
+    "word": "vysavač",
+    "topics": ["home"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Spotřebič odsávající prach",
+    "shortClue": "Odsává prach"
+  },
+  {
+    "word": "zahrada",
+    "topics": ["home"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Pozemek u domu se záhony",
+    "shortClue": "Pozemek u domu"
+  },
+  {
+    "word": "plot",
+    "topics": ["home"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Ohrada kolem pozemku",
+    "shortClue": "Ohrada pozemku"
+  },
+  {
+    "word": "klíč",
+    "topics": ["home"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Kovový předmět odemykající zámek",
+    "shortClue": "Odemyká zámek"
+  },
+  {
+    "word": "hospoda",
+    "topics": ["localCulture"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Podnik, kde se čepuje pivo",
+    "shortClue": "Místo s pivem"
+  },
+  {
+    "word": "chalupa",
+    "topics": ["localCulture"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Venkovský domek k víkendovému pobytu",
+    "shortClue": "Víkendový domek"
+  },
+  {
+    "word": "chata",
+    "topics": ["localCulture"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Rekreační stavba v lese",
+    "shortClue": "Rekreační stavba"
+  },
+  {
+    "word": "koleda",
+    "topics": ["localCulture"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Obchůzka se zpěvem o svátcích",
+    "shortClue": "Obchůzka se zpěvem"
+  },
+  {
+    "word": "vánočka",
+    "topics": ["localCulture"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Pletená sladká sváteční houska",
+    "shortClue": "Pletený koláč"
+  },
+  {
+    "word": "kraslice",
+    "topics": ["localCulture"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Ozdobené velikonoční vejce",
+    "shortClue": "Ozdobené vejce"
+  },
+  {
+    "word": "medovník",
+    "topics": ["localCulture"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Vrstvený dort s medem",
+    "shortClue": "Dort s medem"
+  },
+  {
+    "word": "oplatek",
+    "topics": ["localCulture"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Tenký sladký plátek do kapsy",
+    "shortClue": "Tenký plátek"
+  },
+  {
+    "word": "lázně",
+    "topics": ["localCulture"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Místo, kam se jezdí léčit teplou vodou",
+    "shortClue": "Léčba vodou"
+  },
+  {
+    "word": "orloj",
+    "topics": ["localCulture"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Pražské hodiny na staroměstské radnici",
+    "shortClue": "Pražský časoměřič"
+  },
+  {
+    "word": "Křemílek",
+    "topics": ["localCulture"],
+    "difficulty": 3,
+    "kind": "proper",
+    "clue": "Pohádkový skřítek s Vochomůrkou",
+    "shortClue": "Skřítek z pohádky"
+  },
+  {
+    "word": "Maxipes",
+    "topics": ["localCulture"],
+    "difficulty": 3,
+    "kind": "proper",
+    "clue": "Pes z televizních večerníčků s Fíkem",
+    "shortClue": "Večerníčkový pes"
+  },
+  {
+    "word": "Švejk",
+    "topics": ["localCulture"],
+    "difficulty": 2,
+    "kind": "proper",
+    "clue": "Dobrý voják z románu Jaroslava Haška",
+    "shortClue": "Hrdina Haškova románu"
+  },
+  {
+    "word": "Večerníček",
+    "topics": ["localCulture"],
+    "difficulty": 1,
+    "kind": "proper",
+    "clue": "Pohádka před spaním v televizi",
+    "shortClue": "Pohádka před spaním"
+  },
+  {
+    "word": "Macocha",
+    "topics": ["localCulture"],
+    "difficulty": 3,
+    "kind": "proper",
+    "clue": "Propast v Moravském krasu",
+    "shortClue": "Moravská propast"
+  },
+  {
+    "word": "svatba",
+    "topics": ["localCulture"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Obřad, při němž nevěsta bere ženicha",
+    "shortClue": "Obřad ženicha"
+  },
+  {
+    "word": "posvícení",
+    "topics": ["localCulture"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Podzimní slavnost po sklizni",
+    "shortClue": "Slavnost po sklizni"
+  },
+  {
+    "word": "pouť",
+    "topics": ["localCulture"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Slavnost s kolotoči u kostela",
+    "shortClue": "Slavnost s kolotoči"
+  },
+  {
+    "word": "čert",
+    "topics": ["localCulture"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Postava s rohy v pohádkách a o Mikuláši",
+    "shortClue": "Rohatá postava"
+  },
+  {
+    "word": "bramboračka",
+    "topics": ["localCulture"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Tradiční polévka s houbami",
+    "shortClue": "Hustá polévka"
+  },
+  {
+    "word": "kulajda",
+    "topics": ["localCulture"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Smetanová polévka s koprem a houbami",
+    "shortClue": "Smetanová polévka"
+  },
+  {
+    "word": "tvarůžky",
+    "topics": ["localCulture"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Zrající sýr z Olomoucka s ostrou vůní",
+    "shortClue": "Voňavý sýr"
+  },
+  {
+    "word": "beseda",
+    "topics": ["localCulture"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Společenské setkání s hovorem",
+    "shortClue": "Společenské setkání"
+  },
+  {
+    "word": "chmel",
+    "topics": ["localCulture"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Rostlina dávající pivu hořkost",
+    "shortClue": "Hořká rostlina"
+  },
+  {
+    "word": "jilm",
+    "topics": ["nature"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Listnatý strom s nesouměrnými listy",
+    "shortClue": "Listnatý strom"
+  },
+  {
+    "word": "olše",
+    "topics": ["nature"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Strom rostoucí u vody s malými šiškami",
+    "shortClue": "Strom u vody"
+  },
+  {
+    "word": "javor",
+    "topics": ["nature"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Strom s dlanitými listy",
+    "shortClue": "Strom s listy"
+  },
+  {
+    "word": "topol",
+    "topics": ["nature"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Vysoký štíhlý strom podél cest",
+    "shortClue": "Štíhlý strom"
+  },
+  {
+    "word": "chrpa",
+    "topics": ["nature"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Modrý květ rostoucí v obilí",
+    "shortClue": "Modrý květ"
+  },
+  {
+    "word": "konvalinka",
+    "topics": ["nature"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Jarní květ s bílými zvonečky",
+    "shortClue": "Bílé zvonečky"
+  },
+  {
+    "word": "sasanka",
+    "topics": ["nature"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Časně jarní lesní kvítek",
+    "shortClue": "Jarní kvítek"
+  },
+  {
+    "word": "kapradí",
+    "topics": ["nature"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Rostlina s peřenými listy bez květů",
+    "shortClue": "Rostlina bez květů"
+  },
+  {
+    "word": "rosa",
+    "topics": ["nature"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Ranní kapky na trávě",
+    "shortClue": "Kapky na trávě"
+  },
+  {
+    "word": "jinovatka",
+    "topics": ["nature"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Bílý ledový povlak na větvích",
+    "shortClue": "Ledový povlak"
+  },
+  {
+    "word": "pramen",
+    "topics": ["nature"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Místo, kde vyvěrá voda ze země",
+    "shortClue": "Vyvěrá voda"
+  },
+  {
+    "word": "mokřad",
+    "topics": ["nature"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Trvale podmáčená krajina",
+    "shortClue": "Podmáčená půda"
+  },
+  {
+    "word": "mýtina",
+    "topics": ["nature"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Holé místo po vykácených stromech",
+    "shortClue": "Holina v lese"
+  },
+  {
+    "word": "úsvit",
+    "topics": ["nature"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Chvíle před východem slunce",
+    "shortClue": "Před východem"
+  },
+  {
+    "word": "soumrak",
+    "topics": ["nature"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Šero po západu slunce",
+    "shortClue": "Šero večera"
+  },
+  {
+    "word": "bláto",
+    "topics": ["nature"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Rozmoklá hlína",
+    "shortClue": "Rozmoklá hlína"
+  },
+  {
+    "word": "žalud",
+    "topics": ["nature"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Plod dubu",
+    "shortClue": "Plod stromu"
+  },
+  {
+    "word": "šiška",
+    "topics": ["nature"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Plod jehličnatého stromu",
+    "shortClue": "Plod jehličnanu"
+  },
+  {
+    "word": "list",
+    "topics": ["nature"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Zelená část větve",
+    "shortClue": "Zelená plocha"
+  },
+  {
+    "word": "kořen",
+    "topics": ["nature"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Část rostliny uvnitř země",
+    "shortClue": "Pod zemí"
+  },
+  {
+    "word": "kmen",
+    "topics": ["nature"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Hlavní dřevnatá část stromu",
+    "shortClue": "Dřevěný sloup"
+  },
+  {
+    "word": "větev",
+    "topics": ["nature"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Boční výhon stromu",
+    "shortClue": "Výhon stromu"
+  },
+  {
+    "word": "kůra",
+    "topics": ["nature"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Ochranný obal dřeva",
+    "shortClue": "Obal dřeva"
+  },
+  {
+    "word": "pupen",
+    "topics": ["nature"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Zárodek listu nebo květu na větvi",
+    "shortClue": "Zárodek listu"
+  },
+  {
+    "word": "semínko",
+    "topics": ["nature"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Zárodek nové rostliny",
+    "shortClue": "Zárodek rostliny"
+  },
+  {
+    "word": "údolí",
+    "topics": ["nature"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Nížina mezi dvěma svahy",
+    "shortClue": "Nížina mezi svahy"
+  },
+  {
+    "word": "skála",
+    "topics": ["nature"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Strmá kamenná stěna",
+    "shortClue": "Kamenná stěna"
+  },
+  {
+    "word": "sestra",
+    "topics": ["professions"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Zdravotnice pečující o pacienty",
+    "shortClue": "Pečuje o pacienty"
+  },
+  {
+    "word": "policista",
+    "topics": ["professions"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Strážce pořádku v uniformě",
+    "shortClue": "Strážce pořádku"
+  },
+  {
+    "word": "rybář",
+    "topics": ["professions"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Ten, kdo loví ryby na udici",
+    "shortClue": "Loví ryby"
+  },
+  {
+    "word": "lesník",
+    "topics": ["professions"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Odborník pečující o les",
+    "shortClue": "Pečuje o les"
+  },
+  {
+    "word": "myslivec",
+    "topics": ["professions"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Ten, kdo hlídá zvěř",
+    "shortClue": "Hlídá zvěř"
+  },
+  {
+    "word": "zedník",
+    "topics": ["professions"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Ten, kdo staví zdi z cihel",
+    "shortClue": "Staví zdi"
+  },
+  {
+    "word": "tesař",
+    "topics": ["professions"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Odborník stavějící trámy střech",
+    "shortClue": "Staví střechy"
+  },
+  {
+    "word": "instalatér",
+    "topics": ["professions"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Odborník na trubky a kohoutky",
+    "shortClue": "Opravuje trubky"
+  },
+  {
+    "word": "elektrikář",
+    "topics": ["professions"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Odborník na kabeláž",
+    "shortClue": "Odborník na dráty"
+  },
+  {
+    "word": "řidič",
+    "topics": ["professions"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Ten, kdo vede auto",
+    "shortClue": "Vede auto"
+  },
+  {
+    "word": "námořník",
+    "topics": ["professions"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Člen posádky lodi",
+    "shortClue": "Člen posádky"
+  },
+  {
+    "word": "soudce",
+    "topics": ["professions"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Ten, kdo vynáší rozsudek",
+    "shortClue": "Vynáší rozsudek"
+  },
+  {
+    "word": "inženýr",
+    "topics": ["professions"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Technik s vysokoškolským titulem",
+    "shortClue": "Vysokoškolský technik"
+  },
+  {
+    "word": "vědec",
+    "topics": ["professions"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Badatel v laboratoři",
+    "shortClue": "Badatel"
+  },
+  {
+    "word": "novinář",
+    "topics": ["professions"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Ten, kdo píše články do deníků",
+    "shortClue": "Píše články"
+  },
+  {
+    "word": "prodavač",
+    "topics": ["professions"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Ten, kdo obsluhuje v obchodě",
+    "shortClue": "Obsluhuje zákazníky"
+  },
+  {
+    "word": "kadeřník",
+    "topics": ["professions"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Ten, kdo stříhá vlasy",
+    "shortClue": "Stříhá vlasy"
+  },
+  {
+    "word": "švadlena",
+    "topics": ["professions"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Žena šijící oděvy",
+    "shortClue": "Šije oděvy"
+  },
+  {
+    "word": "krejčí",
+    "topics": ["professions"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Mistr šití obleků na míru",
+    "shortClue": "Mistr šití"
+  },
+  {
+    "word": "pošťák",
+    "topics": ["professions"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Ten, kdo roznáší dopisy",
+    "shortClue": "Roznáší dopisy"
+  },
+  {
+    "word": "zubař",
+    "topics": ["professions"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Lékař pro chrup",
+    "shortClue": "Lékař chrupu"
+  },
+  {
+    "word": "veterinář",
+    "topics": ["professions"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Lékař zvířat",
+    "shortClue": "Lékař zvířat"
+  },
+  {
+    "word": "tlumočník",
+    "topics": ["professions"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Překládá řeč ústně",
+    "shortClue": "Překládá ústně"
+  },
+  {
+    "word": "železo",
+    "topics": ["science"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Kov, ze kterého se kuje meč",
+    "shortClue": "Magnetický kov"
+  },
+  {
+    "word": "zlato",
+    "topics": ["science"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Žlutý drahý kov",
+    "shortClue": "Drahý kov"
+  },
+  {
+    "word": "stříbro",
+    "topics": ["science"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Bílý drahý kov na šperky",
+    "shortClue": "Bílý kov"
+  },
+  {
+    "word": "slunce",
+    "topics": ["science"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Naše nejbližší hvězda",
+    "shortClue": "Naše hvězda"
+  },
+  {
+    "word": "srdce",
+    "topics": ["science"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Orgán čerpající krev",
+    "shortClue": "Čerpá krev"
+  },
+  {
+    "word": "plíce",
+    "topics": ["science"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Orgán sloužící k dýchání",
+    "shortClue": "Orgán dechu"
+  },
+  {
+    "word": "ledviny",
+    "topics": ["science"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Párové orgány tvořící moč",
+    "shortClue": "Párové orgány"
+  },
+  {
+    "word": "kost",
+    "topics": ["science"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Tvrdá část těla, kterou ukáže rentgen",
+    "shortClue": "Tvrdá část těla"
+  },
+  {
+    "word": "sval",
+    "topics": ["science"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Tkáň umožňující pohyb",
+    "shortClue": "Tkáň pohybu"
+  },
+  {
+    "word": "mozek",
+    "topics": ["science"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Řídící orgán uvnitř lebky",
+    "shortClue": "Řídí tělo"
+  },
+  {
+    "word": "světlo",
+    "topics": ["science"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Záření, díky němuž vidíme",
+    "shortClue": "Záření"
+  },
+  {
+    "word": "elektřina",
+    "topics": ["science"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Proud v drátech svítí v domě",
+    "shortClue": "Proud v drátech"
+  },
+  {
+    "word": "blesk",
+    "topics": ["science"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Obrovský jiskřivý výboj za bouře",
+    "shortClue": "Výboj z oblaku"
+  },
+  {
+    "word": "teploměr",
+    "topics": ["science"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Přístroj měřící stupně",
+    "shortClue": "Měří stupně"
+  },
+  {
+    "word": "mikroskop",
+    "topics": ["science"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Přístroj zvětšující drobné předměty",
+    "shortClue": "Zvětšuje drobnosti"
+  },
+  {
+    "word": "dalekohled",
+    "topics": ["science"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Přístroj přibližující vzdálené předměty",
+    "shortClue": "Přibližuje dálku"
+  },
+  {
+    "word": "zkumavka",
+    "topics": ["science"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Skleněná trubice v laboratoři",
+    "shortClue": "Laboratorní sklo"
+  },
+  {
+    "word": "baňka",
+    "topics": ["science"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Kulatá laboratorní nádoba",
+    "shortClue": "Laboratorní nádoba"
+  },
+  {
+    "word": "kilogram",
+    "topics": ["science"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Základní jednotka hmotnosti",
+    "shortClue": "Jednotka hmotnosti"
+  },
+  {
+    "word": "metr",
+    "topics": ["science"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Základní jednotka délky",
+    "shortClue": "Jednotka délky"
+  },
+  {
+    "word": "litr",
+    "topics": ["science"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Jednotka objemu tekutin",
+    "shortClue": "Jednotka objemu"
+  },
+  {
+    "word": "zlomek",
+    "topics": ["science"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Číslo s čitatelem a jmenovatelem",
+    "shortClue": "Dílčí číslo"
+  },
+  {
+    "word": "úhel",
+    "topics": ["science"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Sklon dvou přímek",
+    "shortClue": "Sklon přímek"
+  },
+  {
+    "word": "průměr",
+    "topics": ["science"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Nejdelší úsečka kruhem vedená středem",
+    "shortClue": "Příčka kruhu"
+  },
+  {
+    "word": "dinosaurus",
+    "topics": ["science"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Pravěký obří plaz",
+    "shortClue": "Pravěký plaz"
+  },
+  {
+    "word": "krystal",
+    "topics": ["science"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Pravidelné těleso minerálu",
+    "shortClue": "Minerální těleso"
+  },
+  {
+    "word": "vápenec",
+    "topics": ["science"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Světlá hornina z uhličitanu",
+    "shortClue": "Světlá hornina"
+  },
+  {
+    "word": "žula",
+    "topics": ["science"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Tvrdá hornina použitá na dlažbu",
+    "shortClue": "Tvrdá hornina"
+  },
+  {
+    "word": "fotbal",
+    "topics": ["sport"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Kolektivní hra s míčem a dvěma brankami",
+    "shortClue": "Hra s míčem"
+  },
+  {
+    "word": "branka",
+    "topics": ["sport"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Rám, do kterého se střílí gól",
+    "shortClue": "Cíl střelců"
+  },
+  {
+    "word": "hokej",
+    "topics": ["sport"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Zimní hra s pukem a holí",
+    "shortClue": "Hra s pukem"
+  },
+  {
+    "word": "tenis",
+    "topics": ["sport"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Hra s raketou a sítí",
+    "shortClue": "Hra s raketou"
+  },
+  {
+    "word": "volejbal",
+    "topics": ["sport"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Hra s míčem přes vysokou síť",
+    "shortClue": "Míč přes síť"
+  },
+  {
+    "word": "basketbal",
+    "topics": ["sport"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Hra s míčem do koše",
+    "shortClue": "Míč do koše"
+  },
+  {
+    "word": "atletika",
+    "topics": ["sport"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Souhrn běhů, skoků a hodů",
+    "shortClue": "Běhy a skoky"
+  },
+  {
+    "word": "plavání",
+    "topics": ["sport"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Pohyb ve vodě pomocí paží a nohou",
+    "shortClue": "Pohyb ve vodě"
+  },
+  {
+    "word": "sáně",
+    "topics": ["sport"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Dětské saně na kopec",
+    "shortClue": "Zimní vozidlo"
+  },
+  {
+    "word": "brusle",
+    "topics": ["sport"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Obuv s nožem pro led",
+    "shortClue": "Obuv na led"
+  },
+  {
+    "word": "cyklista",
+    "topics": ["sport"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Závodník na dvou kolech",
+    "shortClue": "Závodník na kolech"
+  },
+  {
+    "word": "šachy",
+    "topics": ["sport"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Desková hra s králem a věží",
+    "shortClue": "Hra s králem"
+  },
+  {
+    "word": "kuželky",
+    "topics": ["sport"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Hra, v níž koule shazuje figurky",
+    "shortClue": "Koule a figurky"
+  },
+  {
+    "word": "šerm",
+    "topics": ["sport"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Souboj s kordem nebo fleretem",
+    "shortClue": "Souboj s kordem"
+  },
+  {
+    "word": "box",
+    "topics": ["sport"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Pěstní zápas v ringu",
+    "shortClue": "Pěstní zápas"
+  },
+  {
+    "word": "judo",
+    "topics": ["sport"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Japonský zápas bez zbraní",
+    "shortClue": "Japonský zápas"
+  },
+  {
+    "word": "veslování",
+    "topics": ["sport"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Pohyb lodi pomocí vesel",
+    "shortClue": "Pohyb pomocí vesel"
+  },
+  {
+    "word": "trenér",
+    "topics": ["sport"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Muž vedoucí tým při přípravě",
+    "shortClue": "Vede tým"
+  },
+  {
+    "word": "medaile",
+    "topics": ["sport"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Odměna pro vítěze závodu",
+    "shortClue": "Odměna vítěze"
+  },
+  {
+    "word": "vítěz",
+    "topics": ["sport"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Ten, kdo skončil první",
+    "shortClue": "Ten první"
+  },
+  {
+    "word": "závod",
+    "topics": ["sport"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Soutěž v rychlosti",
+    "shortClue": "Soutěž v rychlosti"
+  },
+  {
+    "word": "skok",
+    "topics": ["sport"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Odraz do výšky nebo dálky",
+    "shortClue": "Odraz od země"
+  },
+  {
+    "word": "hod",
+    "topics": ["sport"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Vržení oštěpu nebo disku",
+    "shortClue": "Vržení náčiní"
+  },
+  {
+    "word": "oštěp",
+    "topics": ["sport"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Dlouhé hozené náčiní s hrotem",
+    "shortClue": "Hozené náčiní"
+  },
+  {
+    "word": "disk",
+    "topics": ["sport"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Plochý kotouč, který atlet vrhá",
+    "shortClue": "Vrhaný kotouč"
+  },
+  {
+    "word": "zdvořilost",
+    "topics": ["general"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Slušné chování k druhým",
+    "shortClue": "Slušné chování"
+  },
+  {
+    "word": "upřímnost",
+    "topics": ["general"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Vlastnost toho, kdo mluví otevřeně",
+    "shortClue": "Otevřenost"
+  },
+  {
+    "word": "skromnost",
+    "topics": ["general"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Nenápadnost vlastních zásluh",
+    "shortClue": "Nenápadnost"
+  },
+  {
+    "word": "štědrost",
+    "topics": ["general"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Ochota dávat druhým hodně",
+    "shortClue": "Ochota dávat"
+  },
+  {
+    "word": "lakomství",
+    "topics": ["general"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Přehnaná touha šetřit penězi",
+    "shortClue": "Přehnané šetření"
+  },
+  {
+    "word": "důvěra",
+    "topics": ["general"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Jistota, že se na někoho můžeme spolehnout",
+    "shortClue": "Víra v druhého"
+  },
+  {
+    "word": "nuda",
+    "topics": ["general"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Stav, kdy nás nic nebaví",
+    "shortClue": "Nic nebaví"
+  },
+  {
+    "word": "rozpaky",
+    "topics": ["general"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Stud při nečekané situaci",
+    "shortClue": "Ostych"
+  },
+  {
+    "word": "závist",
+    "topics": ["general"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Nepříjemný cit při pohledu na cizí úspěch",
+    "shortClue": "Cizí úspěch"
+  },
+  {
+    "word": "ochota",
+    "topics": ["general"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Snaha vyhovět druhému",
+    "shortClue": "Snaha vyhovět"
+  },
+  {
+    "word": "zdraví",
+    "topics": ["general"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Stav bez nemoci",
+    "shortClue": "Bez nemoci"
+  },
+  {
+    "word": "nemoc",
+    "topics": ["general"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Porucha zdraví, při níž ležíme v posteli",
+    "shortClue": "Porucha zdraví"
+  },
+  {
+    "word": "bolest",
+    "topics": ["general"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Nepříjemný pocit při zranění",
+    "shortClue": "Pocit zranění"
+  },
+  {
+    "word": "návštěva",
+    "topics": ["general"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Krátká cesta k někomu domů",
+    "shortClue": "Cesta k hostiteli"
+  },
+  {
+    "word": "pozvání",
+    "topics": ["general"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Výzva, abychom přišli na oslavu",
+    "shortClue": "Výzva na oslavu"
+  },
+  {
+    "word": "oslava",
+    "topics": ["general"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Veselá událost k významnému dni",
+    "shortClue": "Veselá událost"
+  },
+  {
+    "word": "dárek",
+    "topics": ["general"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Věc darovaná k narozeninám",
+    "shortClue": "K narozeninám"
+  },
+  {
+    "word": "omluva",
+    "topics": ["general"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Slova lítosti za způsobenou chybu",
+    "shortClue": "Slova lítosti"
+  },
+  {
+    "word": "rozloučení",
+    "topics": ["general"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Slova při odchodu",
+    "shortClue": "Slova při odchodu"
+  },
+  {
+    "word": "setkání",
+    "topics": ["general"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Schůzka dvou nebo více lidí",
+    "shortClue": "Schůzka"
+  },
+  {
+    "word": "rozhovor",
+    "topics": ["general"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Výměna slov mezi lidmi",
+    "shortClue": "Výměna slov"
+  },
+  {
+    "word": "dohoda",
+    "topics": ["general"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Shoda stran po jednání",
+    "shortClue": "Shoda stran"
+  },
+  {
+    "word": "spor",
+    "topics": ["general"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Vzájemná neshoda názorů",
+    "shortClue": "Neshoda"
+  },
+  {
+    "word": "soutěž",
+    "topics": ["general"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Zápolení o vítězství",
+    "shortClue": "Zápolení"
+  },
+  {
+    "word": "napětí",
+    "topics": ["general"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Stav očekávání před rozhodnutím",
+    "shortClue": "Očekávání"
+  },
+  {
+    "word": "nevědomost",
+    "topics": ["general"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Stav, kdy chybí poznání",
+    "shortClue": "Chybí poznání"
+  },
+  {
+    "word": "zkušenost",
+    "topics": ["general"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Znalost získaná praxí",
+    "shortClue": "Znalost z praxe"
+  },
+  {
+    "word": "rozmar",
+    "topics": ["general"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Náhlá nelogická chuť něco mít",
+    "shortClue": "Náhlá chuť"
+  },
+  {
+    "word": "zábava",
+    "topics": ["general"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Příjemné trávení volného času",
+    "shortClue": "Příjemný čas"
+  },
+  {
+    "word": "volno",
+    "topics": ["general"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Doba bez povinností",
+    "shortClue": "Doba bez povinností"
+  },
+  {
+    "word": "jistota",
+    "topics": ["general"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Stav bez jakýchkoli pochybností",
+    "shortClue": "Bez pochyb"
+  },
+  {
+    "word": "vzdor",
+    "topics": ["general"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Tvrdohlavý odpor dítěte",
+    "shortClue": "Tvrdohlavý odpor"
+  },
+  {
+    "word": "nadšení",
+    "topics": ["general"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Silné pohnutí z radosti",
+    "shortClue": "Silná radost"
+  },
+  {
+    "word": "zklamání",
+    "topics": ["general"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Pocit, že se věc nepovedla podle přání",
+    "shortClue": "Nenaplněné přání"
+  },
+  {
+    "word": "zatmění",
+    "topics": ["nature"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Chvíle, kdy Měsíc zakryje Slunce",
+    "shortClue": "Zakryté slunce"
+  },
+  {
+    "word": "tornádo",
+    "topics": ["nature"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Vířivý vichr tvaru nálevky",
+    "shortClue": "Vířivý vichr"
+  },
+  {
+    "word": "eroze",
+    "topics": ["nature"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Postupné odnášení půdy vodou",
+    "shortClue": "Odnos půdy"
+  },
+  {
+    "word": "ledovec",
+    "topics": ["nature"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Obrovský blok ledu plující v moři",
+    "shortClue": "Plovoucí blok"
+  },
+  {
+    "word": "oblačnost",
+    "topics": ["nature"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Pokrytí oblohy mraky",
+    "shortClue": "Zatažená obloha"
+  },
+  {
+    "word": "bažina",
+    "topics": ["nature"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Močál s vázkou půdou",
+    "shortClue": "Močál"
+  },
+  {
+    "word": "lišejník",
+    "topics": ["nature"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Organismus z řasy a houby na kmenech",
+    "shortClue": "Šedý povlak"
+  },
+  {
+    "word": "kuna",
+    "topics": ["animals"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Štíhlá šelma, která ráda kouše kabely",
+    "shortClue": "Štíhlá šelma"
+  },
+  {
+    "word": "bobr",
+    "topics": ["animals"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Hlodavec stavějící hráze",
+    "shortClue": "Staví hráze"
+  },
+  {
+    "word": "tchoř",
+    "topics": ["animals"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Šelma s páchnoucí obranou",
+    "shortClue": "Páchnoucí šelma"
+  },
+  {
+    "word": "plch",
+    "topics": ["animals"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Noční hlodavec spící zimní spánek",
+    "shortClue": "Spící hlodavec"
+  },
+  {
+    "word": "čolek",
+    "topics": ["animals"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Obojživelník podobný ještěrce",
+    "shortClue": "Vodní obojživelník"
+  },
+  {
+    "word": "užovka",
+    "topics": ["animals"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Neškodný vodní had",
+    "shortClue": "Neškodný had"
+  },
+  {
+    "word": "čejka",
+    "topics": ["animals"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Pták s chocholkou na polích",
+    "shortClue": "Pták s chocholkou"
+  },
+  {
+    "word": "vydra",
+    "topics": ["animals"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Říční šelma lovící ryby",
+    "shortClue": "Říční šelma"
+  },
+  {
+    "word": "kormorán",
+    "topics": ["animals"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Černý vodní pták lovící ryby ponorem",
+    "shortClue": "Černý rybář"
+  },
+  {
+    "word": "pelikán",
+    "topics": ["animals"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Pták s vakem pod zobákem",
+    "shortClue": "Pták s vakem"
+  },
+  {
+    "word": "chameleon",
+    "topics": ["animals"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Ještěr měnící barvu",
+    "shortClue": "Mění barvu"
+  },
+  {
+    "word": "hroch",
+    "topics": ["animals"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Mohutný býložravec z afrických řek",
+    "shortClue": "Říční obr"
+  },
+  {
+    "word": "nosorožec",
+    "topics": ["animals"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Tlustokožec s rohem na nose",
+    "shortClue": "Zvíře s rohem"
+  },
+  {
+    "word": "chobotnice",
+    "topics": ["animals"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Mořský živočich s osmi chapadly",
+    "shortClue": "Osm chapadel"
+  },
+  {
+    "word": "povidla",
+    "topics": ["food"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Hustá sladká švestková pomazánka",
+    "shortClue": "Sladká pomazánka"
+  },
+  {
+    "word": "tvaroh",
+    "topics": ["food"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Bílý mléčný sýr drobivé konzistence",
+    "shortClue": "Drobivý sýr"
+  },
+  {
+    "word": "kefír",
+    "topics": ["food"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Kysaný mléčný nápoj",
+    "shortClue": "Kysaný nápoj"
+  },
+  {
+    "word": "majoránka",
+    "topics": ["food"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Koření do bramborové polévky",
+    "shortClue": "Koření do polévky"
+  },
+  {
+    "word": "kmín",
+    "topics": ["food"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Koření do chleba a zelí",
+    "shortClue": "Koření do chleba"
+  },
+  {
+    "word": "špenát",
+    "topics": ["food"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Zelená listová zelenina",
+    "shortClue": "Listová zelenina"
+  },
+  {
+    "word": "květák",
+    "topics": ["food"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Bílá zelenina s hlavičkou",
+    "shortClue": "Bílá hlávka"
+  },
+  {
+    "word": "hořčice",
+    "topics": ["food"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Pálivá žlutá pomazánka",
+    "shortClue": "Pálivá pomazánka"
+  },
+  {
+    "word": "ořech",
+    "topics": ["food"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Plod s tvrdou skořápkou",
+    "shortClue": "Tvrdá skořápka"
+  },
+  {
+    "word": "štrúdl",
+    "topics": ["food"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Závin s jablky",
+    "shortClue": "Závin s jablky"
+  },
+  {
+    "word": "delta",
+    "topics": ["geography"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Rozvětvené ústí řeky",
+    "shortClue": "Ústí řeky"
+  },
+  {
+    "word": "souostroví",
+    "topics": ["geography"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Skupina blízkých ostrovů",
+    "shortClue": "Skupina ostrovů"
+  },
+  {
+    "word": "tundra",
+    "topics": ["geography"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Bezlesá studená krajina na severu",
+    "shortClue": "Studená krajina"
+  },
+  {
+    "word": "step",
+    "topics": ["geography"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Rozlehlá travnatá rovina",
+    "shortClue": "Travnatá rovina"
+  },
+  {
+    "word": "měřítko",
+    "topics": ["geography"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Poměr zmenšení na mapě",
+    "shortClue": "Poměr na mapě"
+  },
+  {
+    "word": "hranice",
+    "topics": ["geography"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Čára oddělující dva státy",
+    "shortClue": "Čára mezi státy"
+  },
+  {
+    "word": "metropole",
+    "topics": ["geography"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Velkoměsto, hlavní středisko země",
+    "shortClue": "Velkoměsto"
+  },
+  {
+    "word": "středověk",
+    "topics": ["history"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Doba rytířů mezi starověkem a novověkem",
+    "shortClue": "Doba rytířů"
+  },
+  {
+    "word": "archeolog",
+    "topics": ["history"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Badatel vykopávající pozůstatky minulosti",
+    "shortClue": "Badatel vykopávek"
+  },
+  {
+    "word": "katapult",
+    "topics": ["history"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Obléhací stroj vrhající kameny",
+    "shortClue": "Vrhá kameny"
+  },
+  {
+    "word": "kuše",
+    "topics": ["history"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Střelná zbraň s tětivou",
+    "shortClue": "Střelná zbraň"
+  },
+  {
+    "word": "pochodeň",
+    "topics": ["history"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Hořící tyč nesená v ruce",
+    "shortClue": "Hořící tyč"
+  },
+  {
+    "word": "kolovrat",
+    "topics": ["history"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Stroj na předení vlny",
+    "shortClue": "Předení vlny"
+  },
+  {
+    "word": "mlýn",
+    "topics": ["history"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Stavba, kde se mele obilí",
+    "shortClue": "Mele obilí"
+  },
+  {
+    "word": "žalář",
+    "topics": ["history"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Hradní vězení",
+    "shortClue": "Hradní vězení"
+  },
+  {
+    "word": "poklad",
+    "topics": ["history"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Ukrytý drahocenný nález",
+    "shortClue": "Ukrytý nález"
+  },
+  {
+    "word": "enzym",
+    "topics": ["science"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Bílkovina urychlující chemické reakce",
+    "shortClue": "Urychluje reakce"
+  },
+  {
+    "word": "mutace",
+    "topics": ["science"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Změna v dědičné informaci",
+    "shortClue": "Dědičná změna"
+  },
+  {
+    "word": "chlorofyl",
+    "topics": ["science"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Zelené barvivo listů",
+    "shortClue": "Zelené barvivo"
+  },
+  {
+    "word": "fotosyntéza",
+    "topics": ["science"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Tvorba cukru ze vzduchu a vody na světle",
+    "shortClue": "Tvorba cukru"
+  },
+  {
+    "word": "paprsek",
+    "topics": ["science"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Úzký proud světla",
+    "shortClue": "Úzký proud"
+  },
+  {
+    "word": "tlak",
+    "topics": ["science"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Síla působící na plochu",
+    "shortClue": "Síla na plochu"
+  },
+  {
+    "word": "hmotnost",
+    "topics": ["science"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Množství látky v tělese",
+    "shortClue": "Množství látky"
+  },
+  {
+    "word": "lupa",
+    "topics": ["science"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Zvětšovací sklo",
+    "shortClue": "Zvětšovací sklo"
+  },
+  {
+    "word": "slalom",
+    "topics": ["sport"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Lyžařský sjezd mezi brankami",
+    "shortClue": "Lyžařský závod"
+  },
+  {
+    "word": "biatlon",
+    "topics": ["sport"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Běh na lyžích se střelbou",
+    "shortClue": "Běh se střelbou"
+  },
+  {
+    "word": "lukostřelba",
+    "topics": ["sport"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Střílení šípů do terče",
+    "shortClue": "Šípy do terče"
+  },
+  {
+    "word": "gymnastika",
+    "topics": ["sport"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Cvičení na kruzích a bradlech",
+    "shortClue": "Cvičení na nářadí"
+  },
+  {
+    "word": "krasobruslení",
+    "topics": ["sport"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Tanec na ledě s piruetami",
+    "shortClue": "Tanec na ledě"
+  },
+  {
+    "word": "golf",
+    "topics": ["sport"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Hra s holí a malým míčkem do jamky",
+    "shortClue": "Míček do jamky"
+  },
+  {
+    "word": "vzpírání",
+    "topics": ["sport"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Zvedání těžké činky",
+    "shortClue": "Zvedání činky"
+  },
+  {
+    "word": "pádlo",
+    "topics": ["sport"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Veslo s jednou lopatkou",
+    "shortClue": "Veslo s lopatkou"
+  },
+  {
+    "word": "kajak",
+    "topics": ["sport"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Úzká lodice s dvoulopatkovým pádlem",
+    "shortClue": "Úzká lodice"
+  },
+  {
+    "word": "sonet",
+    "topics": ["arts"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Báseň o čtrnácti verších",
+    "shortClue": "Čtrnáct veršů"
+  },
+  {
+    "word": "freska",
+    "topics": ["arts"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Malba na mokré omítce",
+    "shortClue": "Malba na omítce"
+  },
+  {
+    "word": "akvarel",
+    "topics": ["arts"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Obraz malovaný průsvitnými barvami",
+    "shortClue": "Vodová malba"
+  },
+  {
+    "word": "komedie",
+    "topics": ["arts"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Veselá divadelní hra",
+    "shortClue": "Veselá hra"
+  },
+  {
+    "word": "tragédie",
+    "topics": ["arts"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Divadelní hra se smutným koncem",
+    "shortClue": "Hra se smutkem"
+  },
+  {
+    "word": "scénář",
+    "topics": ["arts"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Text pro film nebo představení",
+    "shortClue": "Text pro film"
+  },
+  {
+    "word": "režisér",
+    "topics": ["arts"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Ten, kdo řídí natáčení",
+    "shortClue": "Řídí natáčení"
+  },
+  {
+    "word": "violoncello",
+    "topics": ["arts"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Velký smyčcový nástroj hraný vsedě",
+    "shortClue": "Hraje se vsedě"
+  },
+  {
+    "word": "akordeon",
+    "topics": ["arts"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Měchový nástroj s klávesami",
+    "shortClue": "Měchový nástroj"
+  },
+  {
+    "word": "fagot",
+    "topics": ["arts"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Dlouhý dřevěný dechový nástroj",
+    "shortClue": "Basový dech"
+  },
+  {
+    "word": "komora",
+    "topics": ["home"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Malá místnost na uskladnění potravin",
+    "shortClue": "Malá spižírna"
+  },
+  {
+    "word": "spíž",
+    "topics": ["home"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Místnost pro uložení potravin",
+    "shortClue": "Sklad potravin"
+  },
+  {
+    "word": "zástěra",
+    "topics": ["home"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Ochranný oděv kuchaře",
+    "shortClue": "Ochranný oděv"
+  },
+  {
+    "word": "utěrka",
+    "topics": ["home"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Látka na osušení nádobí",
+    "shortClue": "Látka na nádobí"
+  },
+  {
+    "word": "konev",
+    "topics": ["home"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Nádoba na zalévání květin",
+    "shortClue": "Na zalévání"
+  },
+  {
+    "word": "motyka",
+    "topics": ["home"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Zahradní nářadí na plení",
+    "shortClue": "Zahradní nářadí"
+  },
+  {
+    "word": "hrábě",
+    "topics": ["home"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Nářadí s hroty na shrabování listí",
+    "shortClue": "Nářadí na listí"
+  },
+  {
+    "word": "lopata",
+    "topics": ["home"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Nářadí na hrabání hlíny",
+    "shortClue": "Nářadí na hlínu"
+  },
+  {
+    "word": "notář",
+    "topics": ["professions"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Úředník ověřující smlouvy",
+    "shortClue": "Ověřuje smlouvy"
+  },
+  {
+    "word": "geolog",
+    "topics": ["professions"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Badatel zkoumající horniny",
+    "shortClue": "Zkoumá horniny"
+  },
+  {
+    "word": "chemik",
+    "topics": ["professions"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Odborník na látky a reakce",
+    "shortClue": "Odborník na reakce"
+  },
+  {
+    "word": "lékárník",
+    "topics": ["professions"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Ten, kdo vydává léky",
+    "shortClue": "Vydává léky"
+  },
+  {
+    "word": "pastýř",
+    "topics": ["professions"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Ten, kdo hlídá stádo",
+    "shortClue": "Hlídá stádo"
+  },
+  {
+    "word": "hrnčíř",
+    "topics": ["professions"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Řemeslník točící hlínu na kruhu",
+    "shortClue": "Točí hlínu"
+  },
+  {
+    "word": "mlynář",
+    "topics": ["professions"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Ten, kdo mele obilí",
+    "shortClue": "Mele obilí"
+  },
+  {
+    "word": "kominík",
+    "topics": ["professions"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Řemeslník s černým kloboukem a štětkou",
+    "shortClue": "Černý řemeslník"
+  },
+  {
+    "word": "kapitán",
+    "topics": ["professions"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Velitel lodi",
+    "shortClue": "Velitel lodi"
+  },
+  {
+    "word": "svářeč",
+    "topics": ["professions"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Spojuje kovy žárem",
+    "shortClue": "Spojuje kovy"
+  },
+  {
+    "word": "hudebník",
+    "topics": ["professions"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Ten, kdo hraje na nástroj",
+    "shortClue": "Hraje na nástroj"
+  },
+  {
+    "word": "kolotoč",
+    "topics": ["localCulture"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Točící se atrakce na pouti",
+    "shortClue": "Atrakce na pouti"
+  },
+  {
+    "word": "ples",
+    "topics": ["localCulture"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Slavnostní večer s tancem",
+    "shortClue": "Večer s tancem"
+  },
+  {
+    "word": "dožínky",
+    "topics": ["localCulture"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Slavnost po skončení žní",
+    "shortClue": "Slavnost žní"
+  },
+  {
+    "word": "vinobraní",
+    "topics": ["localCulture"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Podzimní oslava sklizně hroznů",
+    "shortClue": "Oslava hroznů"
+  },
+  {
+    "word": "kroj",
+    "topics": ["localCulture"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Lidový slavnostní oděv",
+    "shortClue": "Lidový oděv"
+  },
+  {
+    "word": "perník",
+    "topics": ["localCulture"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Sladké pečivo s kořením",
+    "shortClue": "Sladké pečivo"
+  },
+  {
+    "word": "zátoka",
+    "topics": ["geography"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Malé mořské zákoutí chráněné před vlnami",
+    "shortClue": "Chráněné zákoutí"
+  },
+  {
+    "word": "útes",
+    "topics": ["geography"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Skalní hřeben pod hladinou moře",
+    "shortClue": "Skála pod vodou"
+  },
+  {
+    "word": "atol",
+    "topics": ["geography"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Prstencovitý korálový ostrov",
+    "shortClue": "Korálový prstenec"
+  },
+  {
+    "word": "mys",
+    "topics": ["geography"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Výběžek země do moře",
+    "shortClue": "Výběžek do moře"
+  },
+  {
+    "word": "kaňon",
+    "topics": ["geography"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Hluboké úzké údolí řeky",
+    "shortClue": "Hluboké údolí"
+  },
+  {
+    "word": "gejzír",
+    "topics": ["geography"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Pramen chrlící horkou vodu a páru",
+    "shortClue": "Chrlí horkou vodu"
+  }
+]

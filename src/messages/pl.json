@@ -31,7 +31,8 @@
     "privacy": "Prywatność",
     "terms": "Zasady",
     "contact": "Kontakt",
-    "guides": "Poradniki"
+    "guides": "Poradniki",
+    "daily": "Krzyżówka dnia"
   },
   "Errors": {
     "network": "Nie ma połączenia z serwerem. Sprawdź sieć i spróbuj ponownie.",
@@ -91,7 +92,9 @@
     "ogPuzzleCta": "Dasz radę to rozwiązać?",
     "ogPuzzleMeta": "{size} · {words, plural, one {# słowo} few {# słowa} many {# słów} other {# słowa}}",
     "guidesTitle": "Jak ułożyć i rozwiązać krzyżówkę — poradniki",
-    "guidesDescription": "Jak ułożyć krzyżówkę, rozwiązywać ją szybciej, grać w krzyżówki szwedzkie i używać ich na lekcjach: praktyczne poradniki z przykładami haseł."
+    "guidesDescription": "Jak ułożyć krzyżówkę, rozwiązywać ją szybciej, grać w krzyżówki szwedzkie i używać ich na lekcjach: praktyczne poradniki z przykładami haseł.",
+    "dailyTitle": "Krzyżówka na dziś – za darmo, nowa codziennie",
+    "dailyDescription": "Codziennie nowa krzyżówka, za darmo, bez rejestracji i taka sama dla wszystkich. Nowa o 00:00 UTC. Odpowiedzi do wczorajszej są na tej samej stronie."
   },
   "Formats": {
     "classic": {
@@ -290,6 +293,46 @@
     "faq3Answer": "Gdy nie ma miejsca na hasło tuż przed odpowiedzią, staje nad pierwszą literą albo obok niej, a strzałka zgina się, żeby pokazać kierunek.",
     "faq4Question": "Czy hasła szwedzkiej są inne?",
     "faq4Answer": "Są krótsze — hasło szwedzkiej musi zmieścić się w jednym polu, więc to najwyżej kilka słów."
+  },
+  "Daily": {
+    "eyebrow": "Krzyżówka dnia",
+    "title": "Krzyżówka dnia",
+    "subtitle": "Każdego dnia o 00:00 UTC nowa krzyżówka. Za darmo, bez rejestracji i taka sama dla wszystkich.",
+    "today": "Dziś, {date}",
+    "todayTitle": "Dzisiejsza krzyżówka",
+    "todaySubtitle": "{count, plural, one {# hasło} few {# hasła} many {# haseł} other {# hasła}} z ponumerowanymi definicjami poziomo i pionowo. Przeczytaj je tutaj, a potem otwórz diagram i rozwiązuj.",
+    "gridLabel": "Pusty diagram dzisiejszej krzyżówki, {width} na {height} pól",
+    "play": "Rozwiąż dzisiejszą krzyżówkę",
+    "across": "Poziomo",
+    "down": "Pionowo",
+    "unavailable": "Dzisiejsza krzyżówka jest jeszcze w przygotowaniu. Zajrzyj za kilka minut.",
+    "streak": "{count, plural, =0 {Rozwiąż dzisiejszą krzyżówkę, by zacząć serię} one {# dzień z rzędu} few {# dni z rzędu} many {# dni z rzędu} other {# dnia z rzędu}}",
+    "yesterdayTitle": "Odpowiedzi do wczorajszej krzyżówki",
+    "yesterdayShow": "Pokaż odpowiedzi",
+    "yesterdayPlay": "Rozwiąż wczorajszą krzyżówkę",
+    "previousTitle": "Poprzednie dni",
+    "aboutTitle": "O krzyżówce dnia",
+    "about1": "Codziennie o 00:00 UTC pojawia się tu nowa krzyżówka: diagram średniej wielkości z ponumerowanymi definicjami poziomo i pionowo, napisanymi od razu po polsku, a nie przetłumaczonymi. Każdy, kto otworzy ją tego dnia, dostaje tę samą krzyżówkę.",
+    "about2": "Jest darmowa i nie wymaga konta. Postępy zapisują się na tym urządzeniu, więc możesz przerwać i wrócić później, a rozwiązywanie dzień po dniu buduje serię. Gdy zaczyna się nowy dzień, odpowiedzi do wczorajszej krzyżówki pojawiają się niżej na tej stronie.",
+    "about3": "Krzyżówka dnia jest dostępna w 33 językach, każda z własnymi hasłami i definicjami. Hasła pochodzą z osobnej puli, dlatego rzadko trafiają się w innych krzyżówkach.",
+    "makeOwnTitle": "Chcesz więcej?",
+    "makeOwnText": "Ułóż własną krzyżówkę na wybrany temat, od zwierząt po historię, w rozmiarze i na poziomie, jaki wybierzesz.",
+    "makeOwnCta": "Stwórz krzyżówkę",
+    "rulesLink": "Jak rozwiązywać krzyżówki",
+    "faqTitle": "Pytania o krzyżówkę dnia",
+    "faq1Question": "Czy krzyżówka dnia jest darmowa?",
+    "faq1Answer": "Tak. Jest darmowa każdego dnia, bez konta i bez kredytów.",
+    "faq2Question": "O której pojawia się nowa krzyżówka dnia?",
+    "faq2Answer": "Codziennie o 00:00 UTC, w tej samej chwili we wszystkich językach.",
+    "faq3Question": "Czy wszyscy mają tę samą krzyżówkę?",
+    "faq3Answer": "Tak. Każdy, kto otworzy krzyżówkę dnia w tym samym języku tego samego dnia, widzi ten sam diagram i te same definicje.",
+    "faq4Question": "Gdzie znajdę odpowiedzi do wczorajszej krzyżówki?",
+    "faq4Answer": "Na tej stronie: gdy zaczyna się nowy dzień, wczorajsze definicje z odpowiedziami pojawiają się pod dzisiejszą krzyżówką. Krzyżówki z ostatniego tygodnia też można jeszcze rozwiązać.",
+    "faq5Question": "Czy mogę rozwiązywać krzyżówkę dnia na telefonie?",
+    "faq5Answer": "Tak. Działa w każdej przeglądarce na telefonie, tablecie i komputerze, a aplikację można zainstalować. Otwarta krzyżówka działa też bez internetu.",
+    "teaserTitle": "Dzisiejsza krzyżówka",
+    "teaserText": "Codziennie darmowa krzyżówka: taka sama dla wszystkich, bez rejestracji.",
+    "teaserCta": "Rozwiąż dzisiejszą krzyżówkę"
   },
   "TopicsPage": {
     "eyebrow": "Tematy",

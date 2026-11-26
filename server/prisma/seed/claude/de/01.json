@@ -1,0 +1,4002 @@
+[
+  {
+    "word": "adler",
+    "topics": ["animals"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Mächtiger Greifvogel, Wappentier",
+    "shortClue": "Wappenvogel"
+  },
+  {
+    "word": "falke",
+    "topics": ["animals"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Schneller Jäger der Lüfte",
+    "shortClue": "Schneller Jäger"
+  },
+  {
+    "word": "eule",
+    "topics": ["animals"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Nachtvogel mit großen Augen",
+    "shortClue": "Nachtvogel"
+  },
+  {
+    "word": "amsel",
+    "topics": ["animals"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Schwarzer Singvogel mit gelbem Schnabel",
+    "shortClue": "Schwarzer Sänger"
+  },
+  {
+    "word": "ente",
+    "topics": ["animals"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Schwimmvogel, der quakt",
+    "shortClue": "Quakender Vogel"
+  },
+  {
+    "word": "gans",
+    "topics": ["animals"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Großer Vogel, der zu Martini gebraten wird",
+    "shortClue": "Martinsvogel"
+  },
+  {
+    "word": "huhn",
+    "topics": ["animals"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Legt Eier auf dem Bauernhof",
+    "shortClue": "Eierlegerin"
+  },
+  {
+    "word": "hahn",
+    "topics": ["animals"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Kräht am frühen Morgen",
+    "shortClue": "Morgenrufer"
+  },
+  {
+    "word": "kuh",
+    "topics": ["animals"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Gibt Milch und muht",
+    "shortClue": "Milchgeberin"
+  },
+  {
+    "word": "schaf",
+    "topics": ["animals"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Liefert Wolle und blökt",
+    "shortClue": "Wolllieferant"
+  },
+  {
+    "word": "ziege",
+    "topics": ["animals"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Meckerndes Tier mit Hörnern und Bart",
+    "shortClue": "Meckertier"
+  },
+  {
+    "word": "esel",
+    "topics": ["animals"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Grautier mit langen Ohren",
+    "shortClue": "Langohr"
+  },
+  {
+    "word": "kalb",
+    "topics": ["animals"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Junges Rind",
+    "shortClue": "Rindjunges"
+  },
+  {
+    "word": "fohlen",
+    "topics": ["animals"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Junges Pferd",
+    "shortClue": "Pferdjunges"
+  },
+  {
+    "word": "lamm",
+    "topics": ["animals"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Junges Schaf",
+    "shortClue": "Schafjunges"
+  },
+  {
+    "word": "küken",
+    "topics": ["animals"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Junges Huhn, frisch geschlüpft",
+    "shortClue": "Flauschiges Junges"
+  },
+  {
+    "word": "frosch",
+    "topics": ["animals"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Grüner Springer am Teich",
+    "shortClue": "Grüner Hüpfer"
+  },
+  {
+    "word": "kröte",
+    "topics": ["animals"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Plumpe Verwandte des Frosches",
+    "shortClue": "Warzentier"
+  },
+  {
+    "word": "libelle",
+    "topics": ["animals"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Schillerndes Insekt am Wasser",
+    "shortClue": "Wasserjungfer"
+  },
+  {
+    "word": "biene",
+    "topics": ["animals"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Sammelt Nektar und baut Waben",
+    "shortClue": "Honigsammlerin"
+  },
+  {
+    "word": "hummel",
+    "topics": ["animals"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Dicke, brummende Verwandte der Biene",
+    "shortClue": "Brummer"
+  },
+  {
+    "word": "ameise",
+    "topics": ["animals"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Kleines Insekt, das im Staat lebt",
+    "shortClue": "Waldpolizei"
+  },
+  {
+    "word": "delfin",
+    "topics": ["animals"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Kluger Meeressäuger mit Schnabel",
+    "shortClue": "Klügster Schwimmer"
+  },
+  {
+    "word": "robbe",
+    "topics": ["animals"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Meeressäuger mit Flossen, lebt an Küsten",
+    "shortClue": "Küstenjäger"
+  },
+  {
+    "word": "hai",
+    "topics": ["animals"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Gefürchteter Raubfisch mit Flosse",
+    "shortClue": "Raubfisch"
+  },
+  {
+    "word": "hecht",
+    "topics": ["animals"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Räuberischer Süßwasserfisch",
+    "shortClue": "Süßwasserräuber"
+  },
+  {
+    "word": "forelle",
+    "topics": ["animals"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Fisch aus klaren Bergbächen",
+    "shortClue": "Bachfisch"
+  },
+  {
+    "word": "echse",
+    "topics": ["animals"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Kriechtier mit Schwanz",
+    "shortClue": "Kriechtier"
+  },
+  {
+    "word": "löwe",
+    "topics": ["animals"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "König der Tiere",
+    "shortClue": "Mähnenträger"
+  },
+  {
+    "word": "zebra",
+    "topics": ["animals"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Gestreiftes Pferd der Savanne",
+    "shortClue": "Streifenpferd"
+  },
+  {
+    "word": "nashorn",
+    "topics": ["animals"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Massives Steppentier mit Stirnwaffe",
+    "shortClue": "Panzertier"
+  },
+  {
+    "word": "gepard",
+    "topics": ["animals"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Schnellste Raubkatze",
+    "shortClue": "Schnellste Katze"
+  },
+  {
+    "word": "reh",
+    "topics": ["animals"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Scheues Waldtier mit braunem Fell",
+    "shortClue": "Scheues Wild"
+  },
+  {
+    "word": "fuchs",
+    "topics": ["animals"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Rotes Raubtier, gilt als schlau",
+    "shortClue": "Meister Reineke"
+  },
+  {
+    "word": "igel",
+    "topics": ["animals"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Stacheliges Tier, rollt sich ein",
+    "shortClue": "Stachelkugel"
+  },
+  {
+    "word": "hase",
+    "topics": ["animals"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Schnelles Tier mit langen Ohren",
+    "shortClue": "Langohr"
+  },
+  {
+    "word": "maus",
+    "topics": ["animals"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Kleiner Nager, liebt Käse",
+    "shortClue": "Käsedieb"
+  },
+  {
+    "word": "hamster",
+    "topics": ["animals"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Kleiner Nager mit Backentaschen",
+    "shortClue": "Backentaschentier"
+  },
+  {
+    "word": "biber",
+    "topics": ["animals"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Nager, der Dämme baut",
+    "shortClue": "Dammbauer"
+  },
+  {
+    "word": "cello",
+    "topics": ["arts"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Großes Streichinstrument, zwischen den Knien gespielt",
+    "shortClue": "Großes Streichinstrument"
+  },
+  {
+    "word": "harfe",
+    "topics": ["arts"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Zupfinstrument mit vielen Saiten",
+    "shortClue": "Zupfinstrument"
+  },
+  {
+    "word": "flöte",
+    "topics": ["arts"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Blasinstrument aus Holz oder Metall",
+    "shortClue": "Blasinstrument"
+  },
+  {
+    "word": "posaune",
+    "topics": ["arts"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Blechblasinstrument mit Zug",
+    "shortClue": "Blech mit Zug"
+  },
+  {
+    "word": "trompete",
+    "topics": ["arts"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Blechblasinstrument mit drei Ventilen",
+    "shortClue": "Glänzendes Blech"
+  },
+  {
+    "word": "klavier",
+    "topics": ["arts"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Tasteninstrument mit Hammermechanik",
+    "shortClue": "Tasteninstrument"
+  },
+  {
+    "word": "orgel",
+    "topics": ["arts"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Großes Instrument in der Kirche",
+    "shortClue": "Kirchenmusik"
+  },
+  {
+    "word": "tenor",
+    "topics": ["arts"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Hohe Männerstimme",
+    "shortClue": "Hohe Männerstimme"
+  },
+  {
+    "word": "arie",
+    "topics": ["arts"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Solo in der Oper",
+    "shortClue": "Opernsolo"
+  },
+  {
+    "word": "chor",
+    "topics": ["arts"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Gesangsgruppe",
+    "shortClue": "Singgruppe"
+  },
+  {
+    "word": "ballett",
+    "topics": ["arts"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Tanzkunst auf Spitzenschuhen",
+    "shortClue": "Spitzentanz"
+  },
+  {
+    "word": "tänzer",
+    "topics": ["arts"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Wer auf der Bühne die Beine schwingt",
+    "shortClue": "Bühnenkünstler"
+  },
+  {
+    "word": "palette",
+    "topics": ["arts"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Brett zum Mischen von Farben",
+    "shortClue": "Farbenbrett"
+  },
+  {
+    "word": "leinwand",
+    "topics": ["arts"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Gespannter Stoff für Ölgemälde",
+    "shortClue": "Maluntergrund"
+  },
+  {
+    "word": "meißel",
+    "topics": ["arts"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Werkzeug des Steinmetzes",
+    "shortClue": "Steinmetzwerkzeug"
+  },
+  {
+    "word": "bronze",
+    "topics": ["arts"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Legierung für Statuen",
+    "shortClue": "Statuenmetall"
+  },
+  {
+    "word": "reim",
+    "topics": ["arts"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Gleichklang am Ende von Zeilen",
+    "shortClue": "Gleichklang"
+  },
+  {
+    "word": "ballade",
+    "topics": ["arts"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Erzählendes Gedicht",
+    "shortClue": "Erzählgedicht"
+  },
+  {
+    "word": "vers",
+    "topics": ["arts"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Zeile eines Gedichts",
+    "shortClue": "Gedichtzeile"
+  },
+  {
+    "word": "takt",
+    "topics": ["arts"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Gliederung der Musik in gleiche Einheiten",
+    "shortClue": "Musikeinheit"
+  },
+  {
+    "word": "kulisse",
+    "topics": ["arts"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Gemalter Hintergrund auf der Bühne",
+    "shortClue": "Bühnenhintergrund"
+  },
+  {
+    "word": "drehbuch",
+    "topics": ["arts"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Textvorlage für einen Film",
+    "shortClue": "Filmtext"
+  },
+  {
+    "word": "kreide",
+    "topics": ["arts"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Weißer Stift für die Tafel",
+    "shortClue": "Tafelstift"
+  },
+  {
+    "word": "brötchen",
+    "topics": ["food"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Kleines Gebäck zum Frühstück",
+    "shortClue": "Morgengebäck"
+  },
+  {
+    "word": "butter",
+    "topics": ["food"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Aufstrich aus Rahm",
+    "shortClue": "Brotaufstrich"
+  },
+  {
+    "word": "müsli",
+    "topics": ["food"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Frühstück aus Haferflocken und Nüssen",
+    "shortClue": "Flocken mit Milch"
+  },
+  {
+    "word": "omelett",
+    "topics": ["food"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Gebratene Eierspeise, zusammengeklappt",
+    "shortClue": "Gebratene Eierspeise"
+  },
+  {
+    "word": "kuchen",
+    "topics": ["food"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Süßes Gebäck zum Nachmittagskaffee",
+    "shortClue": "Süßes Gebäck"
+  },
+  {
+    "word": "torte",
+    "topics": ["food"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Festliche Backkunst mit Sahne",
+    "shortClue": "Festgebäck"
+  },
+  {
+    "word": "keks",
+    "topics": ["food"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Kleines trockenes Gebäck",
+    "shortClue": "Knuspriges Gebäck"
+  },
+  {
+    "word": "pfeffer",
+    "topics": ["food"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Scharfes Gewürz aus dem Mühlchen",
+    "shortClue": "Scharfes Gewürz"
+  },
+  {
+    "word": "zimt",
+    "topics": ["food"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Braunes Gewürz in Weihnachtsgebäck",
+    "shortClue": "Weihnachtsgewürz"
+  },
+  {
+    "word": "senf",
+    "topics": ["food"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Gelbe scharfe Würzpaste zur Bratwurst",
+    "shortClue": "Gelbe Würze"
+  },
+  {
+    "word": "essig",
+    "topics": ["food"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Saure Flüssigkeit für Salatsoße",
+    "shortClue": "Saure Würze"
+  },
+  {
+    "word": "speck",
+    "topics": ["food"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Fetter Streifen vom Schwein",
+    "shortClue": "Fetter Streifen"
+  },
+  {
+    "word": "steak",
+    "topics": ["food"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Gebratene Fleischscheibe",
+    "shortClue": "Fleischscheibe"
+  },
+  {
+    "word": "kotelett",
+    "topics": ["food"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Rippenstück zum Braten",
+    "shortClue": "Rippenstück"
+  },
+  {
+    "word": "nudel",
+    "topics": ["food"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Teigware, die man kocht",
+    "shortClue": "Teigware"
+  },
+  {
+    "word": "eintopf",
+    "topics": ["food"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Gericht, bei dem alles zusammen gart",
+    "shortClue": "Alles zusammen"
+  },
+  {
+    "word": "gulasch",
+    "topics": ["food"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Würziges Fleischgericht mit Paprika",
+    "shortClue": "Paprikafleisch"
+  },
+  {
+    "word": "erbse",
+    "topics": ["food"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Grüne kleine Kugel in der Schote",
+    "shortClue": "Grüne Kugel"
+  },
+  {
+    "word": "bohne",
+    "topics": ["food"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Nierenförmiger Hülsenfruchtsamen",
+    "shortClue": "Hülsenfrucht"
+  },
+  {
+    "word": "möhre",
+    "topics": ["food"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Orange Wurzel für Kaninchen",
+    "shortClue": "Orange Wurzel"
+  },
+  {
+    "word": "gurke",
+    "topics": ["food"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Grünes Gemüse, das man einlegt",
+    "shortClue": "Grünes Gemüse"
+  },
+  {
+    "word": "kürbis",
+    "topics": ["food"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Riesiges oranges Herbstgemüse",
+    "shortClue": "Herbstgemüse"
+  },
+  {
+    "word": "kohl",
+    "topics": ["food"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Gemüse mit festen, dicht gewickelten Blättern",
+    "shortClue": "Blattgemüse"
+  },
+  {
+    "word": "birne",
+    "topics": ["food"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Süße Frucht mit schmalem oberem Ende",
+    "shortClue": "Süße Frucht"
+  },
+  {
+    "word": "pflaume",
+    "topics": ["food"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Blaue Steinfrucht, auch getrocknet",
+    "shortClue": "Blaue Frucht"
+  },
+  {
+    "word": "erdbeere",
+    "topics": ["food"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Rote Frucht mit Kernen außen",
+    "shortClue": "Sommerfrucht"
+  },
+  {
+    "word": "himbeere",
+    "topics": ["food"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Rote Sammelfrucht vom Strauch",
+    "shortClue": "Strauchfrucht"
+  },
+  {
+    "word": "zitrone",
+    "topics": ["food"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Saure gelbe Zitrusfrucht",
+    "shortClue": "Saure Frucht"
+  },
+  {
+    "word": "quark",
+    "topics": ["food"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Frischkäse aus Milch",
+    "shortClue": "Frischer Milchbrei"
+  },
+  {
+    "word": "sahne",
+    "topics": ["food"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Fettreicher Rahm zum Schlagen",
+    "shortClue": "Fetter Rahm"
+  },
+  {
+    "word": "lachs",
+    "topics": ["food"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Rosa Fisch, wandert flussaufwärts",
+    "shortClue": "Rosa Fisch"
+  },
+  {
+    "word": "hering",
+    "topics": ["food"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Silbriger Salzwasserfisch, oft eingelegt",
+    "shortClue": "Eingelegter Fisch"
+  },
+  {
+    "word": "mut",
+    "topics": ["general"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Eigenschaft, keine Angst zu zeigen",
+    "shortClue": "Keine Furcht"
+  },
+  {
+    "word": "angst",
+    "topics": ["general"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Beklemmendes Gefühl vor einer Gefahr",
+    "shortClue": "Furcht"
+  },
+  {
+    "word": "freude",
+    "topics": ["general"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Gutes Gefühl, wenn etwas gelingt",
+    "shortClue": "Frohe Stimmung"
+  },
+  {
+    "word": "trauer",
+    "topics": ["general"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Tiefer Schmerz nach einem Verlust",
+    "shortClue": "Seelenschmerz"
+  },
+  {
+    "word": "wut",
+    "topics": ["general"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Heftiger Zorn",
+    "shortClue": "Starker Zorn"
+  },
+  {
+    "word": "neid",
+    "topics": ["general"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Missgunst, wenn man anderen etwas nicht gönnt",
+    "shortClue": "Missgunst"
+  },
+  {
+    "word": "stolz",
+    "topics": ["general"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Hochgefühl nach einer guten Leistung",
+    "shortClue": "Hochgefühl"
+  },
+  {
+    "word": "ruhe",
+    "topics": ["general"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Zustand ohne Lärm und Hektik",
+    "shortClue": "Stille Erholung"
+  },
+  {
+    "word": "eile",
+    "topics": ["general"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Große Hast, weil die Zeit knapp ist",
+    "shortClue": "Hast"
+  },
+  {
+    "word": "geduld",
+    "topics": ["general"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Fähigkeit, ruhig zu warten",
+    "shortClue": "Ruhig warten"
+  },
+  {
+    "word": "ehrlich",
+    "topics": ["general"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Sagt immer, wie es wirklich ist",
+    "shortClue": "Aufrichtig"
+  },
+  {
+    "word": "klug",
+    "topics": ["general"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Mit viel Verstand begabt",
+    "shortClue": "Verständig"
+  },
+  {
+    "word": "faul",
+    "topics": ["general"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Ohne Lust zu arbeiten",
+    "shortClue": "Träge"
+  },
+  {
+    "word": "freundlich",
+    "topics": ["general"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Zuvorkommend und nett im Umgang",
+    "shortClue": "Nett und höflich"
+  },
+  {
+    "word": "bescheiden",
+    "topics": ["general"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Stellt sich selbst nicht in den Vordergrund",
+    "shortClue": "Zurückhaltend"
+  },
+  {
+    "word": "neugierig",
+    "topics": ["general"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Will unbedingt alles wissen",
+    "shortClue": "Wissbegierig"
+  },
+  {
+    "word": "schüchtern",
+    "topics": ["general"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Scheu im Umgang mit Fremden",
+    "shortClue": "Scheu"
+  },
+  {
+    "word": "geizig",
+    "topics": ["general"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Gibt höchst ungern Geld aus",
+    "shortClue": "Knauserig"
+  },
+  {
+    "word": "sparsam",
+    "topics": ["general"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Geht vorsichtig mit Geld um",
+    "shortClue": "Haushälterisch"
+  },
+  {
+    "word": "gierig",
+    "topics": ["general"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Will immer noch mehr haben",
+    "shortClue": "Habsüchtig"
+  },
+  {
+    "word": "laufen",
+    "topics": ["general"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Sich zu Fuß schnell fortbewegen",
+    "shortClue": "Zu Fuß eilen"
+  },
+  {
+    "word": "springen",
+    "topics": ["general"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Sich mit Schwung vom Boden abstoßen",
+    "shortClue": "Hüpfen"
+  },
+  {
+    "word": "tragen",
+    "topics": ["general"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Etwas Schweres in den Armen halten",
+    "shortClue": "Schleppen"
+  },
+  {
+    "word": "werfen",
+    "topics": ["general"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Etwas durch die Luft schleudern",
+    "shortClue": "Schleudern"
+  },
+  {
+    "word": "greifen",
+    "topics": ["general"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Mit der Hand nach etwas langen",
+    "shortClue": "Packen"
+  },
+  {
+    "word": "flüstern",
+    "topics": ["general"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Sehr leise sprechen",
+    "shortClue": "Leise sprechen"
+  },
+  {
+    "word": "lachen",
+    "topics": ["general"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Fröhliche Laute von sich geben",
+    "shortClue": "Heiter prusten"
+  },
+  {
+    "word": "weinen",
+    "topics": ["general"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Tränen vergießen",
+    "shortClue": "Tränen vergießen"
+  },
+  {
+    "word": "träumen",
+    "topics": ["general"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Im Schlaf Bilder sehen",
+    "shortClue": "Nachts Bilder sehen"
+  },
+  {
+    "word": "schlafen",
+    "topics": ["general"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Nachts im Bett ruhen",
+    "shortClue": "Nachtruhe halten"
+  },
+  {
+    "word": "wandern",
+    "topics": ["general"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Zu Fuß durch die Natur ziehen",
+    "shortClue": "Zu Fuß reisen"
+  },
+  {
+    "word": "suchen",
+    "topics": ["general"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Nach etwas Verlorenem forschen",
+    "shortClue": "Nach Verlorenem"
+  },
+  {
+    "word": "vergessen",
+    "topics": ["general"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Nicht mehr im Gedächtnis haben",
+    "shortClue": "Entfallen"
+  },
+  {
+    "word": "erinnerung",
+    "topics": ["general"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Bild der Vergangenheit im Kopf",
+    "shortClue": "Rückblick"
+  },
+  {
+    "word": "gedanke",
+    "topics": ["general"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Einfall, der im Kopf entsteht",
+    "shortClue": "Geistiger Einfall"
+  },
+  {
+    "word": "zweifel",
+    "topics": ["general"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Unsicherheit, ob etwas stimmt",
+    "shortClue": "Unsicherheit"
+  },
+  {
+    "word": "vertrauen",
+    "topics": ["general"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Glaube an die Verlässlichkeit anderer",
+    "shortClue": "Glaube an andere"
+  },
+  {
+    "word": "geheimnis",
+    "topics": ["general"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Etwas, das niemand erfahren soll",
+    "shortClue": "Verborgenes"
+  },
+  {
+    "word": "versprechen",
+    "topics": ["general"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Zusage, die man halten will",
+    "shortClue": "Feste Zusage"
+  },
+  {
+    "word": "irrtum",
+    "topics": ["general"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Fehler aus falscher Annahme",
+    "shortClue": "Falsche Annahme"
+  },
+  {
+    "word": "zufall",
+    "topics": ["general"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Ereignis ohne erkennbaren Grund",
+    "shortClue": "Ungeplantes Ereignis"
+  },
+  {
+    "word": "glück",
+    "topics": ["general"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Günstiges Schicksal, etwa beim Würfeln",
+    "shortClue": "Gutes Los"
+  },
+  {
+    "word": "pech",
+    "topics": ["general"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Wenn ständig etwas schiefgeht",
+    "shortClue": "Schlechtes Los"
+  },
+  {
+    "word": "anfang",
+    "topics": ["general"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Der erste Moment von etwas",
+    "shortClue": "Beginn"
+  },
+  {
+    "word": "ende",
+    "topics": ["general"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Der letzte Punkt einer Geschichte",
+    "shortClue": "Schluss"
+  },
+  {
+    "word": "morgen",
+    "topics": ["general"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Früher Teil des Tages",
+    "shortClue": "Tagesbeginn"
+  },
+  {
+    "word": "abend",
+    "topics": ["general"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Zeit nach dem Nachmittag",
+    "shortClue": "Tagesausklang"
+  },
+  {
+    "word": "mittag",
+    "topics": ["general"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Tagesmitte, wenn die Sonne hoch steht",
+    "shortClue": "Zwölf Uhr"
+  },
+  {
+    "word": "nacht",
+    "topics": ["general"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Dunkle Zeit zwischen Abend und Morgen",
+    "shortClue": "Dunkle Zeit"
+  },
+  {
+    "word": "woche",
+    "topics": ["general"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Sieben Tage am Stück",
+    "shortClue": "Sieben Tage"
+  },
+  {
+    "word": "jahr",
+    "topics": ["general"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Zwölf Monate am Stück",
+    "shortClue": "Zwölf Monate"
+  },
+  {
+    "word": "stunde",
+    "topics": ["general"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Sechzig Minuten",
+    "shortClue": "Sechzig Minuten"
+  },
+  {
+    "word": "minute",
+    "topics": ["general"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Sechzig Sekunden",
+    "shortClue": "Teil der Stunde"
+  },
+  {
+    "word": "sekunde",
+    "topics": ["general"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Kleinster Schritt auf dem Zifferblatt",
+    "shortClue": "Kurzer Moment"
+  },
+  {
+    "word": "gestern",
+    "topics": ["general"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Der Tag vor heute",
+    "shortClue": "Vortag"
+  },
+  {
+    "word": "heute",
+    "topics": ["general"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Der Tag, an dem wir gerade sind",
+    "shortClue": "Dieser Tag"
+  },
+  {
+    "word": "bald",
+    "topics": ["general"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "In naher Zukunft",
+    "shortClue": "Gleich"
+  },
+  {
+    "word": "selten",
+    "topics": ["general"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Nur ab und zu vorkommend",
+    "shortClue": "Kaum je"
+  },
+  {
+    "word": "häufig",
+    "topics": ["general"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Immer wieder vorkommend",
+    "shortClue": "Oft zu sehen"
+  },
+  {
+    "word": "wetter",
+    "topics": ["general"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Thema für Small Talk über den Himmel",
+    "shortClue": "Himmelslage"
+  },
+  {
+    "word": "nein",
+    "topics": ["general"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Antwort der Ablehnung",
+    "shortClue": "Gegenteil von ja"
+  },
+  {
+    "word": "vielleicht",
+    "topics": ["general"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Weder ja noch nein",
+    "shortClue": "Möglicherweise"
+  },
+  {
+    "word": "sicher",
+    "topics": ["general"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Ohne Gefahr oder ohne Zweifel",
+    "shortClue": "Gewiss"
+  },
+  {
+    "word": "schule",
+    "topics": ["general"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Ort, an dem Kinder lesen lernen",
+    "shortClue": "Lernort"
+  },
+  {
+    "word": "lernen",
+    "topics": ["general"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Neues Wissen erwerben",
+    "shortClue": "Wissen erwerben"
+  },
+  {
+    "word": "hausaufgabe",
+    "topics": ["general"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Übung, die Kinder daheim erledigen",
+    "shortClue": "Daheim zu lösen"
+  },
+  {
+    "word": "pause",
+    "topics": ["general"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Kurze Unterbrechung der Arbeit",
+    "shortClue": "Kurze Rast"
+  },
+  {
+    "word": "ferien",
+    "topics": ["general"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Schulfreie Zeit im Sommer",
+    "shortClue": "Schulfrei"
+  },
+  {
+    "word": "prüfung",
+    "topics": ["general"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Test, den man bestehen muss",
+    "shortClue": "Leistungstest"
+  },
+  {
+    "word": "zeugnis",
+    "topics": ["general"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Papier mit den Noten am Schuljahresende",
+    "shortClue": "Notenblatt"
+  },
+  {
+    "word": "familie",
+    "topics": ["general"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Eltern, Kinder und Verwandte",
+    "shortClue": "Verwandte"
+  },
+  {
+    "word": "mutter",
+    "topics": ["general"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Weibliches Elternteil",
+    "shortClue": "Mama"
+  },
+  {
+    "word": "vater",
+    "topics": ["general"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Männliches Elternteil",
+    "shortClue": "Papa"
+  },
+  {
+    "word": "bruder",
+    "topics": ["general"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Männliches Geschwisterkind",
+    "shortClue": "Geschwister"
+  },
+  {
+    "word": "schwester",
+    "topics": ["general"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Weibliches Geschwisterkind",
+    "shortClue": "Geschwister"
+  },
+  {
+    "word": "oma",
+    "topics": ["general"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Mutter der Mutter oder des Vaters",
+    "shortClue": "Liebe Seniorin"
+  },
+  {
+    "word": "enkel",
+    "topics": ["general"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Kind des eigenen Kindes",
+    "shortClue": "Sohn des Sohnes"
+  },
+  {
+    "word": "onkel",
+    "topics": ["general"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Bruder von Vater oder Mutter",
+    "shortClue": "Verwandter Mann"
+  },
+  {
+    "word": "tante",
+    "topics": ["general"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Schwester von Vater oder Mutter",
+    "shortClue": "Verwandte Frau"
+  },
+  {
+    "word": "nachbar",
+    "topics": ["general"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Wer nebenan wohnt",
+    "shortClue": "Von nebenan"
+  },
+  {
+    "word": "gast",
+    "topics": ["general"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Wer bei jemandem eingeladen ist",
+    "shortClue": "Besucher"
+  },
+  {
+    "word": "hallo",
+    "topics": ["general"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Freundlicher Zuruf zur Begrüßung",
+    "shortClue": "Zuruf zur Begrüßung"
+  },
+  {
+    "word": "bitte",
+    "topics": ["general"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Höfliches Wort beim Wünschen",
+    "shortClue": "Höflichkeitswort"
+  },
+  {
+    "word": "freiheit",
+    "topics": ["general"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Zustand ohne Zwang",
+    "shortClue": "Ohne Zwang"
+  },
+  {
+    "word": "gerechtigkeit",
+    "topics": ["general"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Gleiche Behandlung für alle vor dem Gesetz",
+    "shortClue": "Fairness"
+  },
+  {
+    "word": "gemeinschaft",
+    "topics": ["general"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Gruppe, die zusammenhält",
+    "shortClue": "Zusammenhalt"
+  },
+  {
+    "word": "wirklichkeit",
+    "topics": ["general"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Das, was tatsächlich besteht",
+    "shortClue": "Realität"
+  },
+  {
+    "word": "möglichkeit",
+    "topics": ["general"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Chance, dass etwas geschieht",
+    "shortClue": "Chance"
+  },
+  {
+    "word": "unterschied",
+    "topics": ["general"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Merkmal, das zwei Dinge trennt",
+    "shortClue": "Abweichung"
+  },
+  {
+    "word": "ähnlich",
+    "topics": ["general"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Fast gleich, aber nicht ganz",
+    "shortClue": "Fast gleich"
+  },
+  {
+    "word": "gegenteil",
+    "topics": ["general"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Das genaue Umgekehrte einer Sache",
+    "shortClue": "Umgekehrtes"
+  },
+  {
+    "word": "vorteil",
+    "topics": ["general"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Pluspunkt, der einem nützt",
+    "shortClue": "Pluspunkt"
+  },
+  {
+    "word": "nachteil",
+    "topics": ["general"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Umstand, der einem schadet",
+    "shortClue": "Minuspunkt"
+  },
+  {
+    "word": "gewohnheit",
+    "topics": ["general"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Was man immer wieder tut, ohne nachzudenken",
+    "shortClue": "Eingeübte Handlung"
+  },
+  {
+    "word": "abenteuer",
+    "topics": ["general"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Aufregende Reise mit ungewissem Ausgang",
+    "shortClue": "Spannende Reise"
+  },
+  {
+    "word": "wunder",
+    "topics": ["general"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Ereignis, das keiner erklären kann",
+    "shortClue": "Unerklärliches"
+  },
+  {
+    "word": "überraschung",
+    "topics": ["general"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Etwas, womit keiner gerechnet hat",
+    "shortClue": "Unerwartetes"
+  },
+  {
+    "word": "langweilig",
+    "topics": ["general"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Ohne jede Spannung",
+    "shortClue": "Öde"
+  },
+  {
+    "word": "spannend",
+    "topics": ["general"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Hält einen in Atem",
+    "shortClue": "Fesselnd"
+  },
+  {
+    "word": "gemütlich",
+    "topics": ["general"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Behaglich und warm",
+    "shortClue": "Behaglich"
+  },
+  {
+    "word": "seltsam",
+    "topics": ["general"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Merkwürdig und unerklärlich",
+    "shortClue": "Sonderbar"
+  },
+  {
+    "word": "gefährlich",
+    "topics": ["general"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Mit Risiko für Leib und Leben",
+    "shortClue": "Riskant"
+  },
+  {
+    "word": "vorsichtig",
+    "topics": ["general"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Achtet auf jedes Risiko",
+    "shortClue": "Behutsam"
+  },
+  {
+    "word": "plötzlich",
+    "topics": ["general"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Von einem Augenblick zum anderen",
+    "shortClue": "Jäh"
+  },
+  {
+    "word": "allmählich",
+    "topics": ["general"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Schritt für Schritt, nicht auf einmal",
+    "shortClue": "Nach und nach"
+  },
+  {
+    "word": "unbedingt",
+    "topics": ["general"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Auf jeden Fall, ohne Ausnahme",
+    "shortClue": "Zwingend"
+  },
+  {
+    "word": "vermutlich",
+    "topics": ["general"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Wahrscheinlich, aber nicht gewiss",
+    "shortClue": "Wohl"
+  },
+  {
+    "word": "beharrlich",
+    "topics": ["general"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Gibt trotz Rückschlägen nicht auf",
+    "shortClue": "Zäh und ausdauernd"
+  },
+  {
+    "word": "bedächtig",
+    "topics": ["general"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Langsam und mit Überlegung",
+    "shortClue": "Besonnen"
+  },
+  {
+    "word": "widerwillig",
+    "topics": ["general"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Nur ungern und gegen die eigene Lust",
+    "shortClue": "Unwillig"
+  },
+  {
+    "word": "gelassen",
+    "topics": ["general"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Bleibt auch in Hektik ganz ruhig",
+    "shortClue": "Unaufgeregt"
+  },
+  {
+    "word": "verlegen",
+    "topics": ["general"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Befangen, weil man im Mittelpunkt steht",
+    "shortClue": "Befangen"
+  },
+  {
+    "word": "hügel",
+    "topics": ["geography"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Kleine Erhebung im Land",
+    "shortClue": "Kleiner Berg"
+  },
+  {
+    "word": "ebene",
+    "topics": ["geography"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Flaches Land ohne Erhebungen",
+    "shortClue": "Flachland"
+  },
+  {
+    "word": "gebirge",
+    "topics": ["geography"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Kette hoher Berge",
+    "shortClue": "Bergkette"
+  },
+  {
+    "word": "archipel",
+    "topics": ["geography"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Gruppe vieler Inseln",
+    "shortClue": "Inselgruppe"
+  },
+  {
+    "word": "süden",
+    "topics": ["geography"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Himmelsrichtung, wo es wärmer wird",
+    "shortClue": "Unten auf Karten"
+  },
+  {
+    "word": "osten",
+    "topics": ["geography"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Richtung, in der die Sonne aufgeht",
+    "shortClue": "Sonnenaufgang"
+  },
+  {
+    "word": "westen",
+    "topics": ["geography"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Richtung des Sonnenuntergangs",
+    "shortClue": "Sonnenuntergang"
+  },
+  {
+    "word": "atlas",
+    "topics": ["geography"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Buch voller Karten",
+    "shortClue": "Kartenbuch"
+  },
+  {
+    "word": "fjord",
+    "topics": ["geography"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Schmale Meeresbucht zwischen Felsen",
+    "shortClue": "Felsenbucht"
+  },
+  {
+    "word": "delta",
+    "topics": ["geography"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Fächerförmige Flussmündung",
+    "shortClue": "Flussmündung"
+  },
+  {
+    "word": "bucht",
+    "topics": ["geography"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Eingebuchtetes Stück Küste",
+    "shortClue": "Küsteneinschnitt"
+  },
+  {
+    "word": "see",
+    "topics": ["geography"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Stehendes Gewässer",
+    "shortClue": "Stilles Gewässer"
+  },
+  {
+    "word": "Polen",
+    "topics": ["geography"],
+    "difficulty": 1,
+    "kind": "proper",
+    "clue": "Land östlich von Deutschland",
+    "shortClue": "Nachbar im Osten"
+  },
+  {
+    "word": "Norwegen",
+    "topics": ["geography"],
+    "difficulty": 2,
+    "kind": "proper",
+    "clue": "Land der Fjorde",
+    "shortClue": "Fjordland"
+  },
+  {
+    "word": "Paris",
+    "topics": ["geography"],
+    "difficulty": 1,
+    "kind": "proper",
+    "clue": "Hauptstadt mit dem Eiffelturm",
+    "shortClue": "Eiffelturm-Stadt"
+  },
+  {
+    "word": "Rom",
+    "topics": ["geography"],
+    "difficulty": 1,
+    "kind": "proper",
+    "clue": "Ewige Stadt in Italien",
+    "shortClue": "Ewige Stadt"
+  },
+  {
+    "word": "Wien",
+    "topics": ["geography"],
+    "difficulty": 1,
+    "kind": "proper",
+    "clue": "Hauptstadt Österreichs an der Donau",
+    "shortClue": "Donaustadt"
+  },
+  {
+    "word": "Madrid",
+    "topics": ["geography"],
+    "difficulty": 2,
+    "kind": "proper",
+    "clue": "Hauptstadt Spaniens",
+    "shortClue": "Spaniens Hauptstadt"
+  },
+  {
+    "word": "Lissabon",
+    "topics": ["geography"],
+    "difficulty": 2,
+    "kind": "proper",
+    "clue": "Hauptstadt Portugals am Tejo",
+    "shortClue": "Portugals Hauptstadt"
+  },
+  {
+    "word": "Hamburg",
+    "topics": ["geography"],
+    "difficulty": 1,
+    "kind": "proper",
+    "clue": "Hansestadt mit großem Hafen an der Elbe",
+    "shortClue": "Hafenstadt"
+  },
+  {
+    "word": "Donau",
+    "topics": ["geography"],
+    "difficulty": 1,
+    "kind": "proper",
+    "clue": "Zweitlängster Fluss Europas",
+    "shortClue": "Strom nach Osten"
+  },
+  {
+    "word": "Elbe",
+    "topics": ["geography"],
+    "difficulty": 1,
+    "kind": "proper",
+    "clue": "Fluss, der durch Dresden und Hamburg fließt",
+    "shortClue": "Dresdner Fluss"
+  },
+  {
+    "word": "Main",
+    "topics": ["geography"],
+    "difficulty": 2,
+    "kind": "proper",
+    "clue": "Fluss, der durch Frankfurt fließt",
+    "shortClue": "Frankfurter Fluss"
+  },
+  {
+    "word": "Bodensee",
+    "topics": ["geography"],
+    "difficulty": 2,
+    "kind": "proper",
+    "clue": "Großer See an drei Staaten",
+    "shortClue": "Dreiländersee"
+  },
+  {
+    "word": "Harz",
+    "topics": ["geography"],
+    "difficulty": 2,
+    "kind": "proper",
+    "clue": "Mittelgebirge mit dem Brocken",
+    "shortClue": "Brockengebirge"
+  },
+  {
+    "word": "tropen",
+    "topics": ["geography"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Heiße Klimazone am Äquator",
+    "shortClue": "Heißer Gürtel"
+  },
+  {
+    "word": "Sylt",
+    "topics": ["geography"],
+    "difficulty": 2,
+    "kind": "proper",
+    "clue": "Nordfriesische Urlaubsinsel",
+    "shortClue": "Nordseeinsel"
+  },
+  {
+    "word": "Rügen",
+    "topics": ["geography"],
+    "difficulty": 2,
+    "kind": "proper",
+    "clue": "Größte deutsche Insel in der Ostsee",
+    "shortClue": "Ostseeinsel"
+  },
+  {
+    "word": "pharao",
+    "topics": ["history"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Herrscher im alten Ägypten",
+    "shortClue": "Ägyptischer König"
+  },
+  {
+    "word": "mumie",
+    "topics": ["history"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Einbalsamierter Leichnam im Sarkophag",
+    "shortClue": "Einbalsamierte"
+  },
+  {
+    "word": "papyrus",
+    "topics": ["history"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Schreibstoff aus einer Nilpflanze",
+    "shortClue": "Nilpapier"
+  },
+  {
+    "word": "legion",
+    "topics": ["history"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Große Heereseinheit der Römer",
+    "shortClue": "Römische Truppe"
+  },
+  {
+    "word": "senat",
+    "topics": ["history"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Rat der Alten im antiken Rom",
+    "shortClue": "Römischer Rat"
+  },
+  {
+    "word": "arena",
+    "topics": ["history"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Kampfplatz im Kolosseum",
+    "shortClue": "Kampfplatz"
+  },
+  {
+    "word": "odyssee",
+    "topics": ["history"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Lange Irrfahrt des Helden von Ithaka",
+    "shortClue": "Lange Irrfahrt"
+  },
+  {
+    "word": "rüstung",
+    "topics": ["history"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Metallpanzer des Kämpfers",
+    "shortClue": "Metallhülle"
+  },
+  {
+    "word": "lanze",
+    "topics": ["history"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Langer Spieß beim Turnier",
+    "shortClue": "Turnierwaffe"
+  },
+  {
+    "word": "bogen",
+    "topics": ["history"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Fernwaffe mit Sehne und Pfeil",
+    "shortClue": "Pfeilwaffe"
+  },
+  {
+    "word": "armbrust",
+    "topics": ["history"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Mittelalterliche Schusswaffe mit Bolzen",
+    "shortClue": "Bolzenwaffe"
+  },
+  {
+    "word": "turm",
+    "topics": ["history"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Hoher Teil einer Festung",
+    "shortClue": "Hoher Bau"
+  },
+  {
+    "word": "festung",
+    "topics": ["history"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Stark befestigte Anlage",
+    "shortClue": "Wehranlage"
+  },
+  {
+    "word": "krone",
+    "topics": ["history"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Schmuck auf dem Haupt des Königs",
+    "shortClue": "Königsschmuck"
+  },
+  {
+    "word": "zepter",
+    "topics": ["history"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Stab als Zeichen der Herrschaft",
+    "shortClue": "Herrscherstab"
+  },
+  {
+    "word": "thron",
+    "topics": ["history"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Prächtiger Stuhl des Königs",
+    "shortClue": "Königsstuhl"
+  },
+  {
+    "word": "herzog",
+    "topics": ["history"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Adelstitel unter dem König",
+    "shortClue": "Adelstitel"
+  },
+  {
+    "word": "graf",
+    "topics": ["history"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Adelstitel unterhalb eines Herzogs",
+    "shortClue": "Adliger"
+  },
+  {
+    "word": "karavelle",
+    "topics": ["history"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Segelschiff der Entdeckerzeit",
+    "shortClue": "Entdeckerschiff"
+  },
+  {
+    "word": "renaissance",
+    "topics": ["history"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Wiedergeburt der Antike in Europa",
+    "shortClue": "Epoche der Künstler"
+  },
+  {
+    "word": "töpfer",
+    "topics": ["history"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Handwerker, der Ton formt",
+    "shortClue": "Tonformer"
+  },
+  {
+    "word": "weber",
+    "topics": ["history"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Fertigt Stoff am Webstuhl",
+    "shortClue": "Stoffhersteller"
+  },
+  {
+    "word": "säule",
+    "topics": ["history"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Tragendes Rundteil antiker Tempel",
+    "shortClue": "Tempelstütze"
+  },
+  {
+    "word": "chronik",
+    "topics": ["history"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Geschichtliche Aufzeichnung nach Jahren",
+    "shortClue": "Jahresbericht"
+  },
+  {
+    "word": "herd",
+    "topics": ["home"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Gerät zum Kochen mit Platten",
+    "shortClue": "Kochstelle"
+  },
+  {
+    "word": "mixer",
+    "topics": ["home"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Rührt und püriert in der Küche",
+    "shortClue": "Küchenhelfer"
+  },
+  {
+    "word": "topf",
+    "topics": ["home"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Gefäß zum Kochen mit Deckel",
+    "shortClue": "Kochgefäß"
+  },
+  {
+    "word": "sieb",
+    "topics": ["home"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Trennt Nudeln vom Wasser",
+    "shortClue": "Abtropfhilfe"
+  },
+  {
+    "word": "messer",
+    "topics": ["home"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Schneidet das Brot",
+    "shortClue": "Schneidwerkzeug"
+  },
+  {
+    "word": "gabel",
+    "topics": ["home"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Besteck mit Zinken",
+    "shortClue": "Besteck mit Zinken"
+  },
+  {
+    "word": "sofa",
+    "topics": ["home"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Gepolsterte Sitzbank im Wohnzimmer",
+    "shortClue": "Polsterbank"
+  },
+  {
+    "word": "regal",
+    "topics": ["home"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Hier stehen die Bücher",
+    "shortClue": "Bücherbrett"
+  },
+  {
+    "word": "gardine",
+    "topics": ["home"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Durchsichtiger Stoff am Fenster",
+    "shortClue": "Fensterstoff"
+  },
+  {
+    "word": "kommode",
+    "topics": ["home"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Möbel mit Schubladen",
+    "shortClue": "Schubladenmöbel"
+  },
+  {
+    "word": "decke",
+    "topics": ["home"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Wärmt im Bett",
+    "shortClue": "Bettwärme"
+  },
+  {
+    "word": "wanne",
+    "topics": ["home"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Hier nimmt man ein Bad",
+    "shortClue": "Badegefäß"
+  },
+  {
+    "word": "dusche",
+    "topics": ["home"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Fließt von oben beim Waschen",
+    "shortClue": "Wasserbrause"
+  },
+  {
+    "word": "seife",
+    "topics": ["home"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Schäumt beim Händewaschen",
+    "shortClue": "Waschstück"
+  },
+  {
+    "word": "besen",
+    "topics": ["home"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Wird zum Fegen genutzt",
+    "shortClue": "Fegegerät"
+  },
+  {
+    "word": "eimer",
+    "topics": ["home"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Gefäß mit Henkel für Wasser",
+    "shortClue": "Wassergefäß"
+  },
+  {
+    "word": "hammer",
+    "topics": ["home"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Schlägt Nägel ein",
+    "shortClue": "Nagelschläger"
+  },
+  {
+    "word": "säge",
+    "topics": ["home"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Zerteilt Holz",
+    "shortClue": "Holztrenner"
+  },
+  {
+    "word": "zange",
+    "topics": ["home"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Greift und zwickt Draht",
+    "shortClue": "Greifwerkzeug"
+  },
+  {
+    "word": "nagel",
+    "topics": ["home"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Spitzes Metall zum Einschlagen",
+    "shortClue": "Spitzes Metall"
+  },
+  {
+    "word": "dach",
+    "topics": ["home"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Oberer Abschluss eines Gebäudes",
+    "shortClue": "Oberster Schutz"
+  },
+  {
+    "word": "flur",
+    "topics": ["home"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Gang hinter der Wohnungstür",
+    "shortClue": "Gang"
+  },
+  {
+    "word": "nadel",
+    "topics": ["home"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Dünnes Spitzmetall beim Nähen",
+    "shortClue": "Nähwerkzeug"
+  },
+  {
+    "word": "faden",
+    "topics": ["home"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Wird durch das Nadelöhr gezogen",
+    "shortClue": "Nähgarn"
+  },
+  {
+    "word": "kerze",
+    "topics": ["home"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Wachs mit Docht",
+    "shortClue": "Wachslicht"
+  },
+  {
+    "word": "christbaum",
+    "topics": ["localCulture"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Geschmückte Tanne im Wohnzimmer",
+    "shortClue": "Weihnachtsbaum"
+  },
+  {
+    "word": "fasching",
+    "topics": ["localCulture"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Bayerischer Name der närrischen Zeit",
+    "shortClue": "Närrische Zeit"
+  },
+  {
+    "word": "rosenmontag",
+    "topics": ["localCulture"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Höhepunkt des rheinischen Karnevals",
+    "shortClue": "Umzugstag"
+  },
+  {
+    "word": "kostüm",
+    "topics": ["localCulture"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Verkleidung bei Faschingsfeiern",
+    "shortClue": "Verkleidung"
+  },
+  {
+    "word": "jahrmarkt",
+    "topics": ["localCulture"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Fest mit Karussell und Buden",
+    "shortClue": "Fest mit Karussell"
+  },
+  {
+    "word": "bierzelt",
+    "topics": ["localCulture"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Großer Festraum aus Plane",
+    "shortClue": "Festhalle aus Plane"
+  },
+  {
+    "word": "Aschenputtel",
+    "topics": ["localCulture"],
+    "difficulty": 2,
+    "kind": "proper",
+    "clue": "Märchenheldin mit gläsernem Schuh",
+    "shortClue": "Märchenheldin"
+  },
+  {
+    "word": "Rapunzel",
+    "topics": ["localCulture"],
+    "difficulty": 2,
+    "kind": "proper",
+    "clue": "Märchenprinzessin mit langem Haar im Turm",
+    "shortClue": "Langhaarige Prinzessin"
+  },
+  {
+    "word": "dornröschen",
+    "topics": ["localCulture"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Märchenprinzessin im hundertjährigen Schlaf",
+    "shortClue": "Schlafende Prinzessin"
+  },
+  {
+    "word": "Goethe",
+    "topics": ["localCulture"],
+    "difficulty": 2,
+    "kind": "proper",
+    "clue": "Dichter des Faust aus Weimar",
+    "shortClue": "Faust-Dichter"
+  },
+  {
+    "word": "volkslied",
+    "topics": ["localCulture"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Altes Lied, das alle mitsingen",
+    "shortClue": "Altes Gemeinschaftslied"
+  },
+  {
+    "word": "jodeln",
+    "topics": ["localCulture"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Gesang mit schnellem Wechsel der Stimmlage",
+    "shortClue": "Alpengesang"
+  },
+  {
+    "word": "alphorn",
+    "topics": ["localCulture"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Langes Blasinstrument der Berge",
+    "shortClue": "Bergblasinstrument"
+  },
+  {
+    "word": "schuhplattler",
+    "topics": ["localCulture"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Bayerischer Volkstanz mit Klatschen",
+    "shortClue": "Bayerischer Tanz"
+  },
+  {
+    "word": "tracht",
+    "topics": ["localCulture"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Traditionelle Kleidung einer Region",
+    "shortClue": "Regionale Kleidung"
+  },
+  {
+    "word": "schwarzbrot",
+    "topics": ["localCulture"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Dunkles deutsches Brot",
+    "shortClue": "Dunkles Brot"
+  },
+  {
+    "word": "currywurst",
+    "topics": ["localCulture"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Berliner Imbiss mit Gewürzsauce",
+    "shortClue": "Berliner Imbiss"
+  },
+  {
+    "word": "maultaschen",
+    "topics": ["localCulture"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Gefüllte Nudelteigspezialität aus Schwaben",
+    "shortClue": "Gefüllte Teigspezialität"
+  },
+  {
+    "word": "verein",
+    "topics": ["localCulture"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Zusammenschluss von Menschen mit gleichem Hobby",
+    "shortClue": "Hobbygruppe"
+  },
+  {
+    "word": "schützenfest",
+    "topics": ["localCulture"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Jährliche Feier mit Königsschießen",
+    "shortClue": "Königsschießen im Dorf"
+  },
+  {
+    "word": "murmeln",
+    "topics": ["localCulture"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Kleine Glaskugeln zum Spielen",
+    "shortClue": "Glaskugeln"
+  },
+  {
+    "word": "fachwerk",
+    "topics": ["localCulture"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Bauweise mit sichtbarem Holzgerüst",
+    "shortClue": "Holzgerüstbau"
+  },
+  {
+    "word": "heimat",
+    "topics": ["localCulture"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Ort, an dem man sich zu Hause fühlt",
+    "shortClue": "Zuhause im Herzen"
+  },
+  {
+    "word": "kehrwoche",
+    "topics": ["localCulture"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Schwäbische Pflicht zum Putzen des Treppenhauses",
+    "shortClue": "Schwäbische Putzpflicht"
+  },
+  {
+    "word": "kirmes",
+    "topics": ["localCulture"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Rheinisches Wort für den Jahrmarkt",
+    "shortClue": "Rheinischer Rummel"
+  },
+  {
+    "word": "eiche",
+    "topics": ["nature"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Mächtiger Laubbaum mit Nussfrüchten",
+    "shortClue": "Baum mit Nüssen"
+  },
+  {
+    "word": "buche",
+    "topics": ["nature"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Heimischer Laubbaum mit glatter grauer Rinde",
+    "shortClue": "Laubbaum"
+  },
+  {
+    "word": "birke",
+    "topics": ["nature"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Baum mit weißer Rinde",
+    "shortClue": "Weißer Baum"
+  },
+  {
+    "word": "tanne",
+    "topics": ["nature"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Nadelbaum, oft als Weihnachtsbaum genutzt",
+    "shortClue": "Nadelbaum"
+  },
+  {
+    "word": "fichte",
+    "topics": ["nature"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Häufigster Nadelbaum in deutschen Wäldern",
+    "shortClue": "Forstbaum"
+  },
+  {
+    "word": "linde",
+    "topics": ["nature"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Duftender Baum, unter dem man früher tagte",
+    "shortClue": "Duftbaum"
+  },
+  {
+    "word": "ahorn",
+    "topics": ["nature"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Baum mit gelappten Blättern, Symbol Kanadas",
+    "shortClue": "Lappiges Laub"
+  },
+  {
+    "word": "rose",
+    "topics": ["nature"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Blume mit Dornen und edlem Duft",
+    "shortClue": "Dornige Blume"
+  },
+  {
+    "word": "tulpe",
+    "topics": ["nature"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Frühlingsblume aus einer Zwiebel",
+    "shortClue": "Zwiebelblume"
+  },
+  {
+    "word": "veilchen",
+    "topics": ["nature"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Kleine blauviolette Blume im Frühling",
+    "shortClue": "Frühlingsblümchen"
+  },
+  {
+    "word": "pilz",
+    "topics": ["nature"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Wächst im Wald und wird gern gesammelt",
+    "shortClue": "Waldgewächs"
+  },
+  {
+    "word": "moos",
+    "topics": ["nature"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Weicher grüner Teppich auf Steinen",
+    "shortClue": "Grüner Teppich"
+  },
+  {
+    "word": "farn",
+    "topics": ["nature"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Waldpflanze mit gefiederten Wedeln",
+    "shortClue": "Wedelpflanze"
+  },
+  {
+    "word": "heide",
+    "topics": ["nature"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Lila blühende Landschaft in Norddeutschland",
+    "shortClue": "Lila Landschaft"
+  },
+  {
+    "word": "wiese",
+    "topics": ["nature"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Grasbewachsene Fläche mit Blumen",
+    "shortClue": "Grasfläche"
+  },
+  {
+    "word": "nebel",
+    "topics": ["nature"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Dichter Dunst am Boden",
+    "shortClue": "Dichter Dunst"
+  },
+  {
+    "word": "blitz",
+    "topics": ["nature"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Greller Lichtstreif am Himmel bei Unwetter",
+    "shortClue": "Himmelslicht"
+  },
+  {
+    "word": "hagel",
+    "topics": ["nature"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Eiskörner, die vom Himmel prasseln",
+    "shortClue": "Eiskörner"
+  },
+  {
+    "word": "sturm",
+    "topics": ["nature"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Sehr starker Wind",
+    "shortClue": "Heftiger Wind"
+  },
+  {
+    "word": "brise",
+    "topics": ["nature"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Leichter, angenehmer Wind am Meer",
+    "shortClue": "Sanfter Wind"
+  },
+  {
+    "word": "tau",
+    "topics": ["nature"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Feine Tropfen am Morgengras",
+    "shortClue": "Morgenfeuchte"
+  },
+  {
+    "word": "winter",
+    "topics": ["nature"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Kälteste Jahreszeit mit Schnee",
+    "shortClue": "Kalte Zeit"
+  },
+  {
+    "word": "fels",
+    "topics": ["nature"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Mächtiger Block aus hartem Gestein",
+    "shortClue": "Steinblock"
+  },
+  {
+    "word": "kies",
+    "topics": ["nature"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Kleine runde Steine am Weg",
+    "shortClue": "Feine Steine"
+  },
+  {
+    "word": "sand",
+    "topics": ["nature"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Feine Körner am Strand",
+    "shortClue": "Strandkörner"
+  },
+  {
+    "word": "bach",
+    "topics": ["nature"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Kleines fließendes Gewässer",
+    "shortClue": "Kleiner Wasserlauf"
+  },
+  {
+    "word": "quelle",
+    "topics": ["nature"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Ort, wo Wasser aus der Erde tritt",
+    "shortClue": "Wasseraustritt"
+  },
+  {
+    "word": "moor",
+    "topics": ["nature"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Sumpfige Landschaft mit Torf",
+    "shortClue": "Sumpfland"
+  },
+  {
+    "word": "gipfel",
+    "topics": ["nature"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Höchster Punkt eines Berges",
+    "shortClue": "Bergspitze"
+  },
+  {
+    "word": "düne",
+    "topics": ["nature"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Sandhügel am Meer",
+    "shortClue": "Sandhügel"
+  },
+  {
+    "word": "lichtung",
+    "topics": ["nature"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Freie Fläche mitten im Wald",
+    "shortClue": "Waldplatz"
+  },
+  {
+    "word": "chirurg",
+    "topics": ["professions"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Arzt, der operiert",
+    "shortClue": "Operierender Arzt"
+  },
+  {
+    "word": "apotheker",
+    "topics": ["professions"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Gibt Medikamente aus",
+    "shortClue": "Medikamentengeber"
+  },
+  {
+    "word": "zahnarzt",
+    "topics": ["professions"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Behandelt Karies",
+    "shortClue": "Bohrender Mediziner"
+  },
+  {
+    "word": "hebamme",
+    "topics": ["professions"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Hilft bei der Geburt",
+    "shortClue": "Geburtshelferin"
+  },
+  {
+    "word": "klempner",
+    "topics": ["professions"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Repariert Rohre",
+    "shortClue": "Rohrreparateur"
+  },
+  {
+    "word": "maurer",
+    "topics": ["professions"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Baut Wände aus Stein",
+    "shortClue": "Wandbauer"
+  },
+  {
+    "word": "maler",
+    "topics": ["professions"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Streicht Wände an",
+    "shortClue": "Wandstreicher"
+  },
+  {
+    "word": "kellner",
+    "topics": ["professions"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Bringt im Restaurant das Essen",
+    "shortClue": "Tellerträger"
+  },
+  {
+    "word": "koch",
+    "topics": ["professions"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Bereitet in der Küche die Speisen",
+    "shortClue": "Küchenchef"
+  },
+  {
+    "word": "rezeption",
+    "topics": ["professions"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Empfangsbereich im Hotel",
+    "shortClue": "Hotelempfang"
+  },
+  {
+    "word": "anwalt",
+    "topics": ["professions"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Vertritt Mandanten vor Gericht",
+    "shortClue": "Rechtsvertreter"
+  },
+  {
+    "word": "notar",
+    "topics": ["professions"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Beglaubigt Verträge und Urkunden",
+    "shortClue": "Urkundenbeamter"
+  },
+  {
+    "word": "staatsanwalt",
+    "topics": ["professions"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Klagt im Namen des Staates an",
+    "shortClue": "Ankläger"
+  },
+  {
+    "word": "reporter",
+    "topics": ["professions"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Berichtet aus erster Hand",
+    "shortClue": "Berichterstatter"
+  },
+  {
+    "word": "redakteur",
+    "topics": ["professions"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Bearbeitet Texte für die Zeitung",
+    "shortClue": "Zeitungsbearbeiter"
+  },
+  {
+    "word": "bauer",
+    "topics": ["professions"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Bestellt Felder und Ställe",
+    "shortClue": "Landmann"
+  },
+  {
+    "word": "winzer",
+    "topics": ["professions"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Baut Wein an",
+    "shortClue": "Weinbauer"
+  },
+  {
+    "word": "förster",
+    "topics": ["professions"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Kümmert sich um den Wald",
+    "shortClue": "Waldhüter"
+  },
+  {
+    "word": "fischer",
+    "topics": ["professions"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Zieht Beute aus dem Meer",
+    "shortClue": "Netzauswerfer"
+  },
+  {
+    "word": "physiker",
+    "topics": ["professions"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Erforscht die Gesetze der Natur",
+    "shortClue": "Naturforscher"
+  },
+  {
+    "word": "chemiker",
+    "topics": ["professions"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Arbeitet mit Stoffen im Labor",
+    "shortClue": "Laborforscher"
+  },
+  {
+    "word": "händler",
+    "topics": ["professions"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Kauft und verkauft Waren",
+    "shortClue": "Warenvertrieb"
+  },
+  {
+    "word": "metzger",
+    "topics": ["professions"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Verarbeitet Fleisch",
+    "shortClue": "Fleischer"
+  },
+  {
+    "word": "bibliothekar",
+    "topics": ["professions"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Verwaltet die Bücherei",
+    "shortClue": "Bücherwart"
+  },
+  {
+    "word": "proton",
+    "topics": ["science"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Positiv geladenes Teilchen im Kern",
+    "shortClue": "Positives Teilchen"
+  },
+  {
+    "word": "eisen",
+    "topics": ["science"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Metall, aus dem Stahl entsteht",
+    "shortClue": "Metall mit Rost"
+  },
+  {
+    "word": "kupfer",
+    "topics": ["science"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Rötliches Metall für Kabel",
+    "shortClue": "Rotes Metall"
+  },
+  {
+    "word": "helium",
+    "topics": ["science"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Edelgas, das Ballons schweben lässt",
+    "shortClue": "Ballongas"
+  },
+  {
+    "word": "stern",
+    "topics": ["science"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Leuchtender Himmelskörper in der Nacht",
+    "shortClue": "Himmelslicht"
+  },
+  {
+    "word": "mond",
+    "topics": ["science"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Trabant der Erde",
+    "shortClue": "Erdtrabant"
+  },
+  {
+    "word": "komet",
+    "topics": ["science"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Himmelskörper mit leuchtendem Schweif",
+    "shortClue": "Schweifstern"
+  },
+  {
+    "word": "galaxie",
+    "topics": ["science"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Riesige Ansammlung von Sternen",
+    "shortClue": "Sternenwirbel"
+  },
+  {
+    "word": "reibung",
+    "topics": ["science"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Widerstand zwischen zwei Oberflächen",
+    "shortClue": "Bremskraft"
+  },
+  {
+    "word": "hebel",
+    "topics": ["science"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Einfaches Werkzeug, das Kraft verstärkt",
+    "shortClue": "Kraftverstärker"
+  },
+  {
+    "word": "herz",
+    "topics": ["science"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Muskel, der das Blut pumpt",
+    "shortClue": "Blutpumpe"
+  },
+  {
+    "word": "lunge",
+    "topics": ["science"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Organ zum Atmen",
+    "shortClue": "Atemorgan"
+  },
+  {
+    "word": "leber",
+    "topics": ["science"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Größte Drüse im Körper",
+    "shortClue": "Entgiftungsorgan"
+  },
+  {
+    "word": "niere",
+    "topics": ["science"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Organ, das das Blut filtert",
+    "shortClue": "Filterorgan"
+  },
+  {
+    "word": "knochen",
+    "topics": ["science"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Hartes Teil des Skeletts",
+    "shortClue": "Skelettteil"
+  },
+  {
+    "word": "gehirn",
+    "topics": ["science"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Zentrale des Denkens im Kopf",
+    "shortClue": "Denkorgan"
+  },
+  {
+    "word": "kristall",
+    "topics": ["science"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Mineral mit regelmäßiger Form",
+    "shortClue": "Regelmäßiger Körper"
+  },
+  {
+    "word": "granit",
+    "topics": ["science"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Hartes Gestein mit Körnern",
+    "shortClue": "Hartes Gestein"
+  },
+  {
+    "word": "quarz",
+    "topics": ["science"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Häufiges farbloses Mineral",
+    "shortClue": "Häufiges Mineral"
+  },
+  {
+    "word": "strom",
+    "topics": ["science"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Fließende Ladung im Draht",
+    "shortClue": "Fließende Ladung"
+  },
+  {
+    "word": "prisma",
+    "topics": ["science"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Glaskörper, der Licht in Farben zerlegt",
+    "shortClue": "Lichtzerleger"
+  },
+  {
+    "word": "laser",
+    "topics": ["science"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Stark gebündelter Lichtstrahl",
+    "shortClue": "Gebündeltes Licht"
+  },
+  {
+    "word": "blüte",
+    "topics": ["science"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Fortpflanzungsorgan der Pflanze",
+    "shortClue": "Pflanzenorgan"
+  },
+  {
+    "word": "samen",
+    "topics": ["science"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Keim, aus dem eine Pflanze wächst",
+    "shortClue": "Pflanzenkeim"
+  },
+  {
+    "word": "virus",
+    "topics": ["science"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Winziger Erreger, der Zellen befällt",
+    "shortClue": "Winziger Erreger"
+  },
+  {
+    "word": "teleskop",
+    "topics": ["science"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Fernrohr für Sterngucker",
+    "shortClue": "Sternenfernrohr"
+  },
+  {
+    "word": "ladung",
+    "topics": ["science"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Elektrische Eigenschaft von Teilchen",
+    "shortClue": "Plus oder Minus"
+  },
+  {
+    "word": "elfmeter",
+    "topics": ["sport"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Strafstoß vom Punkt aus",
+    "shortClue": "Strafstoß"
+  },
+  {
+    "word": "abseits",
+    "topics": ["sport"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Regelverstoß beim Fußball bei zu früher Position",
+    "shortClue": "Regelverstoß"
+  },
+  {
+    "word": "flanke",
+    "topics": ["sport"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Hohe Hereingabe vor das Tor",
+    "shortClue": "Hohe Hereingabe"
+  },
+  {
+    "word": "pass",
+    "topics": ["sport"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Ball zum Mitspieler spielen",
+    "shortClue": "Zuspiel"
+  },
+  {
+    "word": "angriff",
+    "topics": ["sport"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Vorstoß in Richtung des gegnerischen Tores",
+    "shortClue": "Vorstoß"
+  },
+  {
+    "word": "pfosten",
+    "topics": ["sport"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Senkrechter Teil des Tores",
+    "shortClue": "Torteil"
+  },
+  {
+    "word": "ball",
+    "topics": ["sport"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Rundes Spielgerät",
+    "shortClue": "Rundes Gerät"
+  },
+  {
+    "word": "trikot",
+    "topics": ["sport"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Hemd der Mannschaft",
+    "shortClue": "Mannschaftshemd"
+  },
+  {
+    "word": "trainer",
+    "topics": ["sport"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Betreut Sportler und stellt die Taktik auf",
+    "shortClue": "Teamleiter"
+  },
+  {
+    "word": "hürde",
+    "topics": ["sport"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Hindernis beim Laufen",
+    "shortClue": "Laufhindernis"
+  },
+  {
+    "word": "speerwurf",
+    "topics": ["sport"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Leichtathletikdisziplin mit langem Stab",
+    "shortClue": "Wurf mit Stab"
+  },
+  {
+    "word": "kugelstoßen",
+    "topics": ["sport"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Wettkampf mit schwerer Metallkugel",
+    "shortClue": "Schwere Kugel"
+  },
+  {
+    "word": "kraulen",
+    "topics": ["sport"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Schwimmstil mit schnellen Armzügen",
+    "shortClue": "Schneller Stil"
+  },
+  {
+    "word": "pedale",
+    "topics": ["sport"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Wird beim Radfahren getreten",
+    "shortClue": "Tretteil"
+  },
+  {
+    "word": "lenker",
+    "topics": ["sport"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Mit ihm steuert man das Fahrrad",
+    "shortClue": "Steuerstange"
+  },
+  {
+    "word": "peloton",
+    "topics": ["sport"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Geschlossenes Hauptfeld beim Radrennen",
+    "shortClue": "Radfeld"
+  },
+  {
+    "word": "fackel",
+    "topics": ["sport"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Trägt das olympische Feuer",
+    "shortClue": "Olympisches Feuer"
+  },
+  {
+    "word": "reck",
+    "topics": ["sport"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Turngerät, an dem man schwingt",
+    "shortClue": "Turnstange"
+  },
+  {
+    "word": "barren",
+    "topics": ["sport"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Turngerät mit zwei Holmen",
+    "shortClue": "Turngerät"
+  },
+  {
+    "word": "ski",
+    "topics": ["sport"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Brett für den Schnee",
+    "shortClue": "Schneebrett"
+  },
+  {
+    "word": "rodel",
+    "topics": ["sport"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Schlitten für die Abfahrt",
+    "shortClue": "Schlitten"
+  },
+  {
+    "word": "biathlon",
+    "topics": ["sport"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Skilanglauf mit Schießen",
+    "shortClue": "Laufen und Schießen"
+  },
+  {
+    "word": "pfeife",
+    "topics": ["sport"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Mit ihr gibt der Schiedsrichter Signale",
+    "shortClue": "Signalgeber"
+  },
+  {
+    "word": "tribüne",
+    "topics": ["sport"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Sitzplätze der Zuschauer",
+    "shortClue": "Zuschauerplätze"
+  },
+  {
+    "word": "arglos",
+    "topics": ["general"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Ohne böse Absicht",
+    "shortClue": "Unbedarft"
+  },
+  {
+    "word": "karg",
+    "topics": ["general"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Dürftig und spärlich",
+    "shortClue": "Spärlich"
+  },
+  {
+    "word": "fahl",
+    "topics": ["general"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Blass und farblos",
+    "shortClue": "Blass"
+  },
+  {
+    "word": "derb",
+    "topics": ["general"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Grob und kräftig",
+    "shortClue": "Grob"
+  },
+  {
+    "word": "dreist",
+    "topics": ["general"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Frech und ohne Scheu",
+    "shortClue": "Unverfroren"
+  },
+  {
+    "word": "bange",
+    "topics": ["general"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Voller Furcht",
+    "shortClue": "Ängstlich"
+  },
+  {
+    "word": "ahnen",
+    "topics": ["general"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Etwas vage vermuten",
+    "shortClue": "Vage wissen"
+  },
+  {
+    "word": "greis",
+    "topics": ["general"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Sehr alter Mann",
+    "shortClue": "Hochbetagter"
+  },
+  {
+    "word": "mild",
+    "topics": ["general"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Sanft und nicht streng",
+    "shortClue": "Sanft"
+  },
+  {
+    "word": "rasch",
+    "topics": ["general"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Mit großer Geschwindigkeit",
+    "shortClue": "Flink"
+  },
+  {
+    "word": "föhn",
+    "topics": ["nature"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Warmer Fallwind der Alpen",
+    "shortClue": "Alpenwind"
+  },
+  {
+    "word": "watt",
+    "topics": ["nature"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Meeresboden, der bei Ebbe trocken liegt",
+    "shortClue": "Trockener Meeresgrund"
+  },
+  {
+    "word": "firn",
+    "topics": ["nature"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Altschnee im Hochgebirge",
+    "shortClue": "Alter Schnee"
+  },
+  {
+    "word": "ebbe",
+    "topics": ["nature"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Zurückweichendes Meer",
+    "shortClue": "Niedrigwasser"
+  },
+  {
+    "word": "sumpf",
+    "topics": ["nature"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Morastiges nasses Gelände",
+    "shortClue": "Morast"
+  },
+  {
+    "word": "luchs",
+    "topics": ["animals"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Wildkatze mit Haarpinseln an den Ohren",
+    "shortClue": "Pinselohr"
+  },
+  {
+    "word": "molch",
+    "topics": ["animals"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Schwanzlurch im Teich",
+    "shortClue": "Teichlurch"
+  },
+  {
+    "word": "unke",
+    "topics": ["animals"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Kleiner Froschlurch mit bunter Unterseite",
+    "shortClue": "Kleiner Lurch"
+  },
+  {
+    "word": "aal",
+    "topics": ["animals"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Schlangenförmiger Fisch",
+    "shortClue": "Schlangenfisch"
+  },
+  {
+    "word": "kauz",
+    "topics": ["animals"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Kleine Eule",
+    "shortClue": "Kleiner Nachtvogel"
+  },
+  {
+    "word": "elster",
+    "topics": ["animals"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Schwarzweißer Vogel, hält glänzende Dinge für Schätze",
+    "shortClue": "Glitzervogel"
+  },
+  {
+    "word": "otter",
+    "topics": ["animals"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Schwimmender Marder",
+    "shortClue": "Flinker Schwimmer"
+  },
+  {
+    "word": "qualle",
+    "topics": ["animals"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Glibberiges Meerestier mit Tentakeln",
+    "shortClue": "Meeres-Glibber"
+  },
+  {
+    "word": "krebs",
+    "topics": ["animals"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Meerestier mit Scheren",
+    "shortClue": "Scherentier"
+  },
+  {
+    "word": "pfau",
+    "topics": ["animals"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Vogel mit prachtvollem Rad",
+    "shortClue": "Radschläger"
+  },
+  {
+    "word": "mehl",
+    "topics": ["food"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Gemahlenes Getreide zum Backen",
+    "shortClue": "Backzutat"
+  },
+  {
+    "word": "hefe",
+    "topics": ["food"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Lässt den Teig aufgehen",
+    "shortClue": "Teigtreiber"
+  },
+  {
+    "word": "quitte",
+    "topics": ["food"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Gelbe duftende Frucht, oft zu Gelee verarbeitet",
+    "shortClue": "Gelbe Herbstfrucht"
+  },
+  {
+    "word": "grütze",
+    "topics": ["food"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Rote Nachspeise aus Beeren",
+    "shortClue": "Rote Nachspeise"
+  },
+  {
+    "word": "fenchel",
+    "topics": ["food"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Knolle mit anisartigem Duft",
+    "shortClue": "Anisknolle"
+  },
+  {
+    "word": "mohn",
+    "topics": ["food"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Blauschwarze Samen auf Brötchen",
+    "shortClue": "Blauschwarze Körner"
+  },
+  {
+    "word": "dill",
+    "topics": ["food"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Kraut für Gurken und Fisch",
+    "shortClue": "Gurkenkraut"
+  },
+  {
+    "word": "lauch",
+    "topics": ["food"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Gemüse mit langem weißem Schaft",
+    "shortClue": "Porree"
+  },
+  {
+    "word": "atoll",
+    "topics": ["geography"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Ringförmige Koralleninsel",
+    "shortClue": "Koralleninsel"
+  },
+  {
+    "word": "riff",
+    "topics": ["geography"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Unterwasserfelsen aus Korallen",
+    "shortClue": "Korallenwall"
+  },
+  {
+    "word": "geysir",
+    "topics": ["geography"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Heiße Quelle, die Fontänen schießt",
+    "shortClue": "Heiße Fontäne"
+  },
+  {
+    "word": "karst",
+    "topics": ["geography"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Zerklüftete Kalklandschaft mit Höhlen",
+    "shortClue": "Kalklandschaft"
+  },
+  {
+    "word": "kap",
+    "topics": ["geography"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Vorspringende Landspitze an der Küste",
+    "shortClue": "Landspitze"
+  },
+  {
+    "word": "zunft",
+    "topics": ["history"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Vereinigung mittelalterlicher Handwerker",
+    "shortClue": "Handwerkerbund"
+  },
+  {
+    "word": "lehen",
+    "topics": ["history"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Vom Herrscher verliehenes Land",
+    "shortClue": "Verliehenes Land"
+  },
+  {
+    "word": "knappe",
+    "topics": ["history"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Gehilfe des Ritters",
+    "shortClue": "Rittergehilfe"
+  },
+  {
+    "word": "fehde",
+    "topics": ["history"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Privater Streit im Mittelalter",
+    "shortClue": "Mittelalterlicher Streit"
+  },
+  {
+    "word": "herold",
+    "topics": ["history"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Verkünder am Fürstenhof",
+    "shortClue": "Hofverkünder"
+  },
+  {
+    "word": "amulett",
+    "topics": ["history"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Glücksbringer zum Umhängen",
+    "shortClue": "Schutzanhänger"
+  },
+  {
+    "word": "wall",
+    "topics": ["history"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Aufgeschütteter Erdschutz um eine Burg",
+    "shortClue": "Erdschutz"
+  },
+  {
+    "word": "ozon",
+    "topics": ["science"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Gas in der Schicht, die uns vor UV schützt",
+    "shortClue": "Schützende Schicht"
+  },
+  {
+    "word": "neon",
+    "topics": ["science"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Edelgas in Leuchtröhren",
+    "shortClue": "Leuchtgas"
+  },
+  {
+    "word": "zink",
+    "topics": ["science"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Bläulich-weißes Metall zum Verzinken",
+    "shortClue": "Rostschutzmetall"
+  },
+  {
+    "word": "blei",
+    "topics": ["science"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Schweres weiches Metall",
+    "shortClue": "Schweres Metall"
+  },
+  {
+    "word": "enzym",
+    "topics": ["science"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Eiweiß, das Stoffwechsel beschleunigt",
+    "shortClue": "Stoffwechselhelfer"
+  },
+  {
+    "word": "orbit",
+    "topics": ["science"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Bahn um einen Himmelskörper",
+    "shortClue": "Umlaufbahn"
+  },
+  {
+    "word": "optik",
+    "topics": ["science"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Lehre vom Licht und Sehen",
+    "shortClue": "Lehre vom Licht"
+  },
+  {
+    "word": "riege",
+    "topics": ["sport"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Gruppe von Turnern",
+    "shortClue": "Turnergruppe"
+  },
+  {
+    "word": "kür",
+    "topics": ["sport"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Freie Übung beim Eiskunstlauf",
+    "shortClue": "Freie Übung"
+  },
+  {
+    "word": "libero",
+    "topics": ["sport"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Frei spielender Abwehrspieler",
+    "shortClue": "Freier Verteidiger"
+  },
+  {
+    "word": "slalom",
+    "topics": ["sport"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Torlauf auf Skiern",
+    "shortClue": "Torlauf"
+  },
+  {
+    "word": "florett",
+    "topics": ["sport"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Leichte Fechtwaffe",
+    "shortClue": "Fechtwaffe"
+  },
+  {
+    "word": "pokal",
+    "topics": ["sport"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Trophäe für den Sieger",
+    "shortClue": "Siegespreis"
+  },
+  {
+    "word": "derby",
+    "topics": ["sport"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Spiel zweier Rivalen aus einer Stadt",
+    "shortClue": "Stadtduell"
+  },
+  {
+    "word": "oboe",
+    "topics": ["arts"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Holzblasinstrument mit Doppelrohrblatt",
+    "shortClue": "Holzblasinstrument"
+  },
+  {
+    "word": "fagott",
+    "topics": ["arts"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Tiefes Holzblasinstrument",
+    "shortClue": "Tiefes Holzblas"
+  },
+  {
+    "word": "fuge",
+    "topics": ["arts"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Musikstück mit einander folgenden Stimmen",
+    "shortClue": "Bachs Spezialität"
+  },
+  {
+    "word": "ode",
+    "topics": ["arts"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Feierliches Lobgedicht",
+    "shortClue": "Lobgedicht"
+  },
+  {
+    "word": "epos",
+    "topics": ["arts"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Langes Heldengedicht",
+    "shortClue": "Heldengedicht"
+  },
+  {
+    "word": "fresko",
+    "topics": ["arts"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Wandbild auf feuchtem Putz",
+    "shortClue": "Wandbild"
+  },
+  {
+    "word": "mosaik",
+    "topics": ["arts"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Bild aus kleinen Steinchen",
+    "shortClue": "Steinchenbild"
+  },
+  {
+    "word": "relief",
+    "topics": ["arts"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Halb erhabene Darstellung an einer Wand",
+    "shortClue": "Wandbildwerk"
+  },
+  {
+    "word": "kachel",
+    "topics": ["home"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Keramikplatte am Ofen oder im Bad",
+    "shortClue": "Keramikplatte"
+  },
+  {
+    "word": "dielen",
+    "topics": ["home"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Breite Holzbretter am Boden",
+    "shortClue": "Holzboden"
+  },
+  {
+    "word": "mörser",
+    "topics": ["home"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Schale zum Zerstoßen von Gewürzen",
+    "shortClue": "Stoßschale"
+  },
+  {
+    "word": "truhe",
+    "topics": ["home"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Große Kiste mit Deckel",
+    "shortClue": "Große Kiste"
+  },
+  {
+    "word": "riegel",
+    "topics": ["home"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Metallstab, der die Tür verschließt",
+    "shortClue": "Türsicherung"
+  },
+  {
+    "word": "tapete",
+    "topics": ["home"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Papier, das die Wand bedeckt",
+    "shortClue": "Wandbezug"
+  },
+  {
+    "word": "imker",
+    "topics": ["professions"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Hält Bienenvölker",
+    "shortClue": "Bienenhalter"
+  },
+  {
+    "word": "hirte",
+    "topics": ["professions"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Hütet Schafe auf der Weide",
+    "shortClue": "Schafhüter"
+  },
+  {
+    "word": "gerber",
+    "topics": ["professions"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Verarbeitet Tierhäute zu Leder",
+    "shortClue": "Lederhersteller"
+  },
+  {
+    "word": "lotse",
+    "topics": ["professions"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Führt Schiffe sicher in den Hafen",
+    "shortClue": "Hafenführer"
+  },
+  {
+    "word": "kantor",
+    "topics": ["professions"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Leitet den Kirchenchor",
+    "shortClue": "Chorleiter"
+  },
+  {
+    "word": "sattler",
+    "topics": ["professions"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Fertigt Reitzeug aus Leder",
+    "shortClue": "Lederhandwerker"
+  },
+  {
+    "word": "glaser",
+    "topics": ["professions"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Setzt Scheiben in Rahmen ein",
+    "shortClue": "Scheibeneinsetzer"
+  },
+  {
+    "word": "maibaum",
+    "topics": ["localCulture"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Geschmückter Stamm am ersten Mai",
+    "shortClue": "Dorfstamm im Mai"
+  },
+  {
+    "word": "schunkeln",
+    "topics": ["localCulture"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Sich beim Singen im Takt einhaken und wiegen",
+    "shortClue": "Wiegen im Takt"
+  },
+  {
+    "word": "brauchtum",
+    "topics": ["localCulture"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Überlieferte Sitten einer Gegend",
+    "shortClue": "Alte Sitten"
+  },
+  {
+    "word": "bembel",
+    "topics": ["localCulture"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Hessischer Krug für Apfelwein",
+    "shortClue": "Hessischer Krug"
+  },
+  {
+    "word": "skat",
+    "topics": ["localCulture"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Beliebtes deutsches Kartenspiel",
+    "shortClue": "Kartenspiel"
+  },
+  {
+    "word": "kuckucksuhr",
+    "topics": ["localCulture"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Schwarzwälder Uhr mit Vogel",
+    "shortClue": "Uhr mit Vogel"
+  }
+]

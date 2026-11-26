@@ -16,5 +16,5 @@
     // `pnpm typecheck:server` passes --noEmit on the CLI.
     "noEmit": false
   },
-  "include": ["src/**/*", "prisma/seed.ts", "prisma.config.ts"]
+  "include": ["src/**/*", "prisma/seed.ts", "prisma/seedFiles.ts", "prisma.config.ts"]
 }

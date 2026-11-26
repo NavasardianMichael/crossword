@@ -2,6 +2,7 @@ import { getTranslations } from 'next-intl/server'
 import type { Locale, PuzzleFormat } from '@constants/puzzle'
 import { ROUTES } from '@constants/routes'
 import { breadcrumbSchema, gameSchema } from '@linkedDataSchema/index'
+import { DailyTeaser } from '@components/daily/DailyTeaser'
 import { GeneratorForm } from '@components/generator/GeneratorForm'
 import { JsonLd } from '@components/seo/JsonLd'
 import { Section } from '@components/ui/layout/Section'
@@ -31,6 +32,8 @@ export const FormatPage = async ({ format, locale }: { format: PuzzleFormat; loc
       <Hero namespace={`${namespace}.hero`}>
         <GeneratorForm preset={{ format }} />
       </Hero>
+
+      <DailyTeaser className='pt-6' />
 
       <Section id='how' title={t('rulesTitle')}>
         <div className='grid items-center gap-8 md:grid-cols-[1fr_14rem]'>

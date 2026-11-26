@@ -62,23 +62,18 @@ export const config = {
     models: process.env.GEMINI_MODELS ?? '',
     /** A second "judge" pass per batch that drops non-words and wrong or unnatural clues. */
     verifyEntries: process.env.VERIFY_ENTRIES !== 'false',
-    /** Gemini calls per quota day (from midnight Pacific, as Google counts), generation and judge together. */
-    dailyCallBudget: asNumber(process.env.POOL_DAILY_CALL_BUDGET, 300),
     /**
-     * The part of that budget free play may spend — inline generation for a puzzle paid with free credits and the
+     * The part of the daily call budget (`DAILY_CALL_BUDGET`, `services/entryPool.ts`) free play may spend — inline generation for a puzzle paid with free credits and the
      * refill job. The rest is kept for paid puzzles, so a farm of free users cannot leave paying
      * players without new words.
      */
     freeShare: 0.7,
   },
-  /** The background job that keeps every bucket players ask for stocked. */
+  /** The background job that generates words where players' next puzzles would run short (`jobs/poolRefill.ts`). */
   poolRefill: {
     enabled: process.env.POOL_REFILL_ENABLED !== 'false',
-    intervalMs: asNumber(process.env.POOL_REFILL_INTERVAL_MS, 60 * 1000),
-    /** Live entries a (locale, topic, difficulty) bucket should hold at least. */
-    targetPerBucket: asNumber(process.env.POOL_REFILL_TARGET, 300),
-    /** Gemini calls per tick — the free quota is per minute and per day, so this stays small. */
-    maxCallsPerTick: asNumber(process.env.POOL_REFILL_MAX_CALLS, 2),
+    /** Gemini calls between short pauses — the free quota is per minute as well as per day. */
+    callsPerBurst: asNumber(process.env.POOL_REFILL_MAX_CALLS, 2),
   },
   /**
    * Paddle Billing — one-time credit packs (`docs/BILLING.md`). `apiKey` and `webhookSecrets`

@@ -4,7 +4,7 @@ import { config } from '../config.js'
 import { normalizeWord } from '../lib/alphabet.js'
 import { LOCALE_CONTENT } from '../lib/content/index.js'
 import type { ContentExample } from '../lib/content/types.js'
-import { addUsage, generateJson, NO_USAGE, type TokenUsage } from '../lib/gemini.js'
+import { addUsage, generateJson, NO_USAGE, type RequestMeter, type TokenUsage } from '../lib/gemini.js'
 import { type Difficulty, type Locale, PROPER_NOUN_TOPICS, type Topic } from '../lib/puzzle.js'
 
 /**
@@ -25,7 +25,7 @@ import { type Difficulty, type Locale, PROPER_NOUN_TOPICS, type Topic } from '..
 export const BATCH_SIZE = 25
 
 /** Bumped when the prompt changes, so `GenerationLog` can compare yields across versions. */
-export const PROMPT_VARIANT = 'v2'
+export const PROMPT_VARIANT = 'v3'
 
 export type Seeding = {
   subtopic: string
@@ -34,6 +34,8 @@ export type Seeding = {
   /** Answers already in the pool for this slice, and words rejected on an earlier attempt. */
   avoid: string[]
   examples: ContentExample[]
+  /** The length band players ran out of: the batch leans on it instead of the usual mix. */
+  lengthBand?: 'short' | 'mid' | 'long'
 }
 
 export type GenerateParams = {
@@ -43,6 +45,8 @@ export type GenerateParams = {
   seeding: Seeding
   /** Epoch ms the generation and its judge must finish by (an inline top-up on a player's request). */
   deadline?: number
+  /** Counts every Gemini request, the judge's and failed ones included — read it even when this throws. */
+  meter: RequestMeter
 }
 
 const ENTRIES_SCHEMA: Schema = {
@@ -79,13 +83,39 @@ const buildSystemInstruction = (locale: Locale, examples: readonly ContentExampl
     'Rules:',
     '- Neither clue may contain the answer, a word of the same root, or a part of it.',
     '- Every word is a real, well-known dictionary word (or, where allowed, a well-known proper noun) — never invented.',
+    `- Standard, current ${name} that native speakers recognize: no slang, jargon, dialect or archaic words, and no foreign word where ${name} has its own (a loanword only when it is fully at home in everyday ${name}).`,
+    '- Every word in its dictionary (headword) form, as the style guide specifies.',
+    '- A compound only when it is a dictionary entry in its own right; never coin one.',
+    '- Prefer words built mostly from letters common in the language: they cross other words easily.',
     '- Facts in clues are stable and verifiable. No politics, wars, tragedies, religious disputes, nothing rude or sexual.',
-    '- All entries in a batch are different words.',
+    '- All entries in a batch are different words: never two forms or derivatives of one word, nor two words of the same root.',
     `The style guide below, written in ${name}, is binding:`,
     styleGuide,
     'Examples of the tone and format:',
     ...examples.map((example) => JSON.stringify({ word: example.word, clue: example.clue, shortClue: example.shortClue })),
   ].join('\n')
+}
+
+/** What the native difficulty guide leaves implicit: how far the vocabulary may stray at each level. */
+const VOCABULARY_FLOOR: Record<Difficulty, string> = {
+  1: 'Only words every adult native speaker uses in daily life.',
+  2: 'Words an educated adult knows without a dictionary.',
+  3: 'Rarer still means standard and current: never archaic, dialectal, slang or specialist jargon.',
+}
+
+/** Word counts per length band: the usual mix, or one leaning on the band players ran out of. */
+const LENGTH_MIX: Record<'usual' | 'short' | 'mid' | 'long', [number, number, number]> = {
+  usual: [10, 10, 5],
+  short: [18, 5, 2],
+  mid: [5, 16, 4],
+  long: [3, 8, 14],
+}
+
+const lengthLine = (shortCells: boolean, band: Seeding['lengthBand']): string => {
+  const [short, mid, long] = LENGTH_MIX[band ?? 'usual']
+  return shortCells
+    ? `Word lengths: about ${short} words of 2–3 cells, ${mid} of 4–6 cells, ${long} of 7 cells or more. Count cells, not code points: one Han character, one Hangul syllable, one kana, or one akshara.`
+    : `Word lengths: about ${short} words of 3–5 letters, ${mid} of 6–8 letters, ${long} of 9 letters or more.`
 }
 
 const buildPrompt = ({ locale, topic, difficulty, seeding }: GenerateParams): string => {
@@ -94,10 +124,10 @@ const buildPrompt = ({ locale, topic, difficulty, seeding }: GenerateParams): st
   const lines = [
     `Write ${BATCH_SIZE} new entries.`,
     `Topic: ${topicNames[topic]}. Focus on: ${seeding.subtopic}.`,
+    'Spread the batch across the whole subtopic, and across the parts of speech the style guide allows: no clusters of near-synonyms.',
     `Difficulty: ${difficultyGuide[difficulty]}`,
-    shortCells
-      ? 'Word lengths: about 10 words of 2–3 cells, 10 of 4–6 cells, 5 of 7 cells or more. Count cells, not code points: one Han character, one Hangul syllable, one kana, or one akshara.'
-      : 'Word lengths: about 10 words of 3–5 letters, 10 of 6–8 letters, 5 of 9 letters or more.',
+    VOCABULARY_FLOOR[difficulty],
+    lengthLine(shortCells, seeding.lengthBand),
     PROPER_NOUN_TOPICS.includes(topic)
       ? 'Well-known proper nouns of this topic are welcome, but at most a third of the batch.'
       : 'No proper nouns at all.',
@@ -160,6 +190,7 @@ export const judgeEntries = async (
   entries: ValidEntry[],
   locale: Locale,
   generatorModel: string,
+  meter: RequestMeter,
   deadline?: number
 ): Promise<{ entries: ValidEntry[]; verified: boolean; usage: TokenUsage }> => {
   if (!entries.length) return { entries, verified: true, usage: NO_USAGE }
@@ -173,10 +204,12 @@ export const judgeEntries = async (
     const judged = await generateJson({
       avoidModel: generatorModel,
       deadline,
+      meter,
       systemInstruction: [
         `You are a strict editor of ${name} crossword puzzles and a native ${name} speaker.`,
         'For every numbered entry "word — clue | short clue", answer ok: true only when ALL of these hold:',
         `- the word really exists in ${name} and is well known (or is a well-known proper noun when marked so);`,
+        `- the word is standard, current ${name}: not slang, jargon, dialect, archaic, or a foreign word where ${name} has its own;`,
         '- the word is in the dictionary form the style guide requires;',
         '- both clues are factually right, point at this word, and do not give away its root;',
         `- both clues read as idiomatic native ${name}, not as a translation.`,
@@ -202,7 +235,7 @@ export type GenerationResult = {
   entries: ValidEntry[]
   model: string
   verified: boolean
-  /** Gemini calls spent, the judge included. */
+  /** Gemini requests sent, the judge's and failed ones included (`params.meter`). */
   calls: number
   /** Tokens billed for those calls. */
   usage: TokenUsage
@@ -222,12 +255,13 @@ export const generateEntries = async (params: GenerateParams): Promise<Generatio
     // Armenian is the language the cheapest model writes least well.
     strongestFirst: params.locale === 'hy',
     deadline: params.deadline,
+    meter: params.meter,
   })
 
   const candidates = asCandidates(text, params.difficulty)
   const { entries: valid } = validateBatch(candidates, params.locale, params.topic)
   const judged = config.gemini.verifyEntries
-    ? await judgeEntries(valid, params.locale, model, params.deadline)
+    ? await judgeEntries(valid, params.locale, model, params.meter, params.deadline)
     : { entries: valid, verified: false, usage: NO_USAGE }
 
   const kept = new Set(judged.entries.map(({ answer }) => answer))
@@ -236,7 +270,7 @@ export const generateEntries = async (params: GenerateParams): Promise<Generatio
     entries: judged.entries,
     model,
     verified: judged.verified && config.gemini.verifyEntries,
-    calls: config.gemini.verifyEntries && valid.length ? 2 : 1,
+    calls: params.meter.requests,
     usage: addUsage(usage, judged.usage),
     returned: candidates.length,
     valid: valid.length,

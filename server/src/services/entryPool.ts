@@ -1,9 +1,10 @@
 import { Prisma } from '@prisma/client'
-import { generateEntries, PROMPT_VARIANT, type Seeding } from './entryGen.js'
-import { clueHash, type ValidEntry } from './entryValidation.js'
+import { generateEntries, type GenerationResult, PROMPT_VARIANT, type Seeding } from './entryGen.js'
+import { clueHash, minWordLength, type ValidEntry } from './entryValidation.js'
 import { config, isGeminiConfigured } from '../config.js'
 import { ALPHABETS } from '../lib/alphabet.js'
 import { LOCALE_CONTENT } from '../lib/content/index.js'
+import type { RequestMeter } from '../lib/gemini.js'
 import { createRandom, type Random } from '../lib/layout/rng.js'
 import { prisma } from '../lib/prisma.js'
 import type { Difficulty, Locale, Topic, TopicChoice } from '../lib/puzzle.js'
@@ -47,7 +48,7 @@ export const insertEntries = async (
   locale: Locale,
   topic: Topic | readonly Topic[],
   entries: readonly ValidEntry[],
-  meta: { origin: 'ai' | 'seed'; model: string | null; verified: boolean }
+  meta: { origin: 'ai' | 'seed' | 'claude'; model: string | null; verified: boolean }
 ): Promise<InsertResult> => {
   const topics = typeof topic === 'string' ? [topic] : [...topic]
   const result: InsertResult = { inserted: 0, mergedClues: 0, ids: [] }
@@ -165,8 +166,24 @@ export const quotaDayStart = (now = new Date()): Date => {
   return new Date(now.getTime() - elapsedMs)
 }
 
+/**
+ * Gemini requests per quota day (from midnight Pacific, as Google counts): generation, judge, and
+ * every failed or fallen-through request. The free tier's daily quota is the binding limit.
+ */
+export const DAILY_CALL_BUDGET = 100
+
+/**
+ * Live words a language may hold. At the cap Gemini is never called for it again; players who
+ * run out of unseen words get their oldest-seen ones back (`READMIT_STEPS`). Words are never
+ * deleted, so the cap stops growth, nothing more.
+ */
+export const POOL_MAX_WORDS = 7000
+
+/** Live (not retired) words of a language: what the cap counts. */
+export const liveWords = (locale: string): Promise<number> => prisma.entry.count({ where: { locale, retiredAt: null } })
+
 /** The calls free play may spend in a quota day (`config.gemini.freeShare`); paid puzzles may spend the whole budget. */
-export const freeCallBudget = (): number => Math.floor(config.gemini.dailyCallBudget * config.gemini.freeShare)
+export const freeCallBudget = (): number => Math.floor(DAILY_CALL_BUDGET * config.gemini.freeShare)
 
 /** Gemini calls spent in today's quota day — the free tier's daily quota is the binding one. */
 export const callsToday = async (): Promise<number> => {
@@ -175,6 +192,10 @@ export const callsToday = async (): Promise<number> => {
 }
 
 export type PoolGeneration = { inserted: number; calls: number }
+
+/** `GenerationLog.model` of a generation no model answered. */
+const FAILED_MODEL = 'none'
+const EMPTY_YIELD = { returned: 0, valid: 0, verified: 0, inserted: 0, mergedClues: 0 } as const
 
 /** Concurrent requests for one bucket share one generation instead of each spending quota. */
 const inFlight = new Map<string, Promise<PoolGeneration>>()
@@ -191,7 +212,12 @@ export const generateIntoPool = (
   locale: Locale,
   topic: Topic,
   difficulty: Difficulty,
-  { attempts = 2, deadline, budget = config.gemini.dailyCallBudget }: { attempts?: number; deadline?: number; budget?: number } = {}
+  {
+    attempts = 2,
+    deadline,
+    budget = DAILY_CALL_BUDGET,
+    lengthBand,
+  }: { attempts?: number; deadline?: number; budget?: number; lengthBand?: LengthBand | null } = {}
 ): Promise<PoolGeneration> => {
   const key = `${locale}:${topic}:${difficulty}`
   const existing = inFlight.get(key)
@@ -208,8 +234,23 @@ export const generateIntoPool = (
       if ((await callsToday()) + callsPerAttempt > budget) break
       const seeding = await pickSeeding(locale, topic, random)
       seeding.avoid.push(...rejected)
+      if (lengthBand) seeding.lengthBand = lengthBand
       const started = Date.now()
-      const result = await generateEntries({ locale, topic, difficulty, seeding, deadline })
+      const meter: RequestMeter = { requests: 0 }
+      const slice = { locale, topic, subtopic: seeding.subtopic, difficulty, letters: seeding.letters, promptVariant: PROMPT_VARIANT }
+
+      let result: GenerationResult
+      try {
+        result = await generateEntries({ locale, topic, difficulty, seeding, deadline, meter })
+      } catch (error) {
+        // Every model failed (or one refused the request): the requests still count against the budget.
+        if (meter.requests) {
+          await prisma.generationLog.create({
+            data: { ...slice, model: FAILED_MODEL, calls: meter.requests, ...EMPTY_YIELD, ms: Date.now() - started },
+          })
+        }
+        throw error
+      }
       const stored = await insertEntries(locale, topic, result.entries, {
         origin: 'ai',
         model: result.model,
@@ -218,13 +259,8 @@ export const generateIntoPool = (
 
       await prisma.generationLog.create({
         data: {
-          locale,
-          topic,
-          subtopic: seeding.subtopic,
-          difficulty,
-          letters: seeding.letters,
+          ...slice,
           model: result.model,
-          promptVariant: PROMPT_VARIANT,
           calls: result.calls,
           promptTokens: result.usage.prompt,
           cachedTokens: result.usage.cached,
@@ -254,6 +290,32 @@ export const generateIntoPool = (
 
 export type Candidate = { id: number; answer: string; topics: string[] }
 
+/** Length bands the draw mixes, in cells: short words knit a grid, long ones carry it. */
+export const LENGTH_BANDS = ['short', 'mid', 'long'] as const
+export type LengthBand = (typeof LENGTH_BANDS)[number]
+
+export const lengthBandOf = (length: number): LengthBand => (length <= 5 ? 'short' : length <= 8 ? 'mid' : 'long')
+
+/** How many candidates of each band a draw of `count` asks for. */
+export const bandTargets = (count: number): Record<LengthBand, number> => {
+  const short = Math.ceil(count * 0.45)
+  const mid = Math.ceil(count * 0.4)
+  return { short, mid, long: Math.max(count - short - mid, 1) }
+}
+
+/**
+ * When a player has run out of unseen words: how much of their seen-list still counts. The rest,
+ * the oldest part, comes back; never the words of their last ~20 puzzles. `device` is how many of
+ * the newest `exclude` ids stay excluded, `plays` how many of the account's newest puzzles.
+ */
+export type Readmit = { device: number; plays: number }
+
+export const READMIT_STEPS: readonly Readmit[] = [
+  { device: 2000, plays: 80 },
+  { device: 1000, plays: 40 },
+  { device: 500, plays: 20 },
+]
+
 /** The difficulties a puzzle draws from: its own level and the one below, for an easier glue. */
 const difficultyRange = (difficulty: Difficulty): [number, number] =>
   difficulty === 1 ? [1, 1] : [difficulty - 1, difficulty]
@@ -268,6 +330,10 @@ type DrawParams = {
   player?: string
   count: number
   maxLength: number
+  /** `custom` (default): every word but the daily reserve. `daily`: the reserve only. */
+  pool?: 'custom' | 'daily'
+  /** The player ran out: only the newest part of their seen-list is left out (unseen words still come first). */
+  readmit?: Readmit
 }
 
 /**
@@ -283,32 +349,41 @@ export const drawCandidates = async ({
   player,
   count,
   maxLength,
+  pool = 'custom',
+  readmit,
 }: DrawParams): Promise<Candidate[]> => {
   if (count <= 0) return []
   const [minDifficulty, maxDifficulty] = difficultyRange(difficulty)
   const topicFilter = topic === 'any' ? Prisma.empty : Prisma.sql`AND e.topics @> ARRAY[${topic}]::text[]`
-  const accountSeen = player
-    ? Prisma.sql`UNION
-       SELECT unnest(p."entryIds") FROM "PuzzlePlay" pp JOIN "Puzzle" p ON p.id = pp."puzzleId"
-       WHERE pp."userId" = ${player} AND pp.locale = ${locale}`
-    : Prisma.empty
-  const short = Math.ceil(count * 0.45)
-  const mid = Math.ceil(count * 0.4)
-  const long = Math.max(count - short - mid, 1)
+  const poolFilter = pool === 'daily' ? Prisma.sql`AND e."dailyReserve"` : Prisma.sql`AND NOT e."dailyReserve"`
+  const accountWords = (newest?: number) =>
+    player
+      ? Prisma.sql`UNION
+         SELECT unnest(p."entryIds") FROM (
+           SELECT pp."puzzleId" FROM "PuzzlePlay" pp WHERE pp."userId" = ${player} AND pp.locale = ${locale}
+           ORDER BY pp."createdAt" DESC ${newest === undefined ? Prisma.empty : Prisma.sql`LIMIT ${newest}`}
+         ) r JOIN "Puzzle" p ON p.id = r."puzzleId"`
+      : Prisma.empty
+  // Readmitting: only the newest part of the seen-list is left out, and the whole of it still
+  // sorts unseen words first.
+  const excluded = readmit ? exclude.slice(-readmit.device) : exclude
+  const { short, mid, long } = bandTargets(count)
 
   const rows = await prisma.$queryRaw<Candidate[]>`
-    WITH ex AS (SELECT unnest(${[...exclude]}::int[]) AS id ${accountSeen}),
+    WITH ex AS (SELECT unnest(${[...excluded]}::int[]) AS id ${accountWords(readmit?.plays)}),
+    seen AS (SELECT unnest(${readmit ? [...exclude] : []}::int[]) AS id ${readmit ? accountWords() : Prisma.empty}),
     c AS (
       SELECT e.id, e.answer, e.topics, e.length,
              ROW_NUMBER() OVER (
                PARTITION BY CASE WHEN e.length <= 5 THEN 0 WHEN e.length <= 8 THEN 1 ELSE 2 END
-               ORDER BY e."servedCount", random()
+               ORDER BY EXISTS (SELECT 1 FROM seen WHERE seen.id = e.id), e."servedCount", random()
              ) AS rn
       FROM "Entry" e
       WHERE e.locale = ${locale} AND e."retiredAt" IS NULL
         AND e.difficulty BETWEEN ${minDifficulty} AND ${maxDifficulty}
-        AND e.length BETWEEN 3 AND ${maxLength}
+        AND e.length BETWEEN ${minWordLength(locale)} AND ${maxLength}
         ${topicFilter}
+        ${poolFilter}
         AND NOT EXISTS (SELECT 1 FROM ex WHERE ex.id = e.id)
         AND EXISTS (
           SELECT 1 FROM "Clue" k WHERE k."entryId" = e.id AND k.style = ${style}::"ClueStyle" AND k."retiredAt" IS NULL
@@ -346,22 +421,50 @@ export const clueOptions = async (
   return byEntry
 }
 
-export const recordDemand = async (
+/**
+ * A request for a bucket, and the gap its player's *next* puzzle would hit (0: none). The largest
+ * gap wins, not the sum: a new word is unseen by every player. A paid gap (or the daily's) is
+ * refilled first, from the whole budget.
+ */
+export const recordShortfall = async (
   locale: Locale,
-  topic: TopicChoice,
+  topic: TopicChoice | 'general',
   difficulty: Difficulty,
-  excludeLength: number,
-  urgent: boolean
+  shortfall: number,
+  { paid = false, lengthBand = null }: { paid?: boolean; lengthBand?: LengthBand | null } = {}
 ): Promise<void> => {
+  const gap = Math.max(0, Math.ceil(shortfall))
   await prisma.$executeRaw`
-    INSERT INTO "PoolDemand" (locale, topic, difficulty, requests, "maxExclude", urgent, "lastRequestedAt")
-    VALUES (${locale}, ${topic}, ${difficulty}, 1, ${excludeLength}, ${urgent}, now())
+    INSERT INTO "PoolDemand" (locale, topic, difficulty, requests, shortfall, paid, "lengthBand", "lastRequestedAt")
+    VALUES (${locale}, ${topic}, ${difficulty}, 1, ${gap}, ${gap > 0 && paid}, ${gap > 0 ? lengthBand : null}, now())
     ON CONFLICT (locale, topic, difficulty) DO UPDATE SET
       requests = "PoolDemand".requests + 1,
-      "maxExclude" = GREATEST("PoolDemand"."maxExclude", EXCLUDED."maxExclude"),
-      urgent = "PoolDemand".urgent OR EXCLUDED.urgent,
+      shortfall = GREATEST("PoolDemand".shortfall, EXCLUDED.shortfall),
+      paid = CASE WHEN EXCLUDED.shortfall > 0 THEN "PoolDemand".paid OR EXCLUDED.paid ELSE "PoolDemand".paid END,
+      "lengthBand" = CASE WHEN EXCLUDED.shortfall > 0 THEN COALESCE(EXCLUDED."lengthBand", "PoolDemand"."lengthBand") ELSE "PoolDemand"."lengthBand" END,
       "lastRequestedAt" = now()
   `
+}
+
+/** Batches in a row that must have found almost nothing new before a bucket pauses. */
+const SATURATION_WINDOW = 3
+const SATURATION_YIELD = 0.2
+
+/**
+ * Gemini has stopped finding new words for this bucket: its last batches inserted under a fifth of
+ * the valid words they returned, the rest being words the pool already had.
+ */
+export const isSaturated = async (locale: Locale, topic: Topic, difficulty: Difficulty): Promise<boolean> => {
+  const recent = await prisma.generationLog.findMany({
+    where: { locale, topic, difficulty, model: { not: FAILED_MODEL }, valid: { gt: 0 } },
+    orderBy: { createdAt: 'desc' },
+    take: SATURATION_WINDOW,
+    select: { valid: true, inserted: true },
+  })
+  if (recent.length < SATURATION_WINDOW) return false
+  const valid = recent.reduce((sum, row) => sum + row.valid, 0)
+  const inserted = recent.reduce((sum, row) => sum + row.inserted, 0)
+  return inserted < valid * SATURATION_YIELD
 }
 
 export type Sample = { word: string; clue: string; length: number }
@@ -405,12 +508,12 @@ export const poolSizes = (): Promise<Record<string, number>> => {
 // ---------------------------------------------------------------------------------------------
 // Player feedback
 
-/** Reports after which an AI clue is retired, and an AI word reported as not a word. */
+/** Reports after which an AI (or Claude) clue is retired, and such a word reported as not a word. */
 const RETIRE_AFTER_REPORTS = 3
 
 /**
- * "This clue is wrong" / "this is not a word". Idempotent per reporter. Seed material is
- * hand-checked: a report on it is a reason to look, not to retire.
+ * "This clue is wrong" / "this is not a word". Idempotent per reporter. Hand-written seed material
+ * is hand-checked: a report on it is a reason to look, not to retire.
  */
 export const reportEntry = async (
   entryId: number,
@@ -436,7 +539,8 @@ export const reportEntry = async (
     data: { reportCount: { increment: 1 } },
     select: { reportCount: true },
   })
-  if (entry.origin !== 'ai') return
+  // Hand-written seed words were checked by a person; agent-written ones were not.
+  if (entry.origin === 'seed') return
 
   if (clue.reportCount >= RETIRE_AFTER_REPORTS) {
     await prisma.clue.update({ where: { id: clueId }, data: { retiredAt: new Date() } })

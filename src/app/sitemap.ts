@@ -11,6 +11,7 @@ import { absoluteUrl } from '@helpers/url'
 
 const CHANGE_FREQUENCY: Partial<Record<RouteKey, MetadataRoute.Sitemap[number]['changeFrequency']>> = {
   home: 'daily',
+  daily: 'daily',
   crossword: 'weekly',
   scanword: 'weekly',
   topics: 'weekly',
@@ -23,7 +24,7 @@ const CHANGE_FREQUENCY: Partial<Record<RouteKey, MetadataRoute.Sitemap[number]['
   terms: 'yearly',
 }
 
-const PRIORITY: Partial<Record<RouteKey, number>> = { home: 1, crossword: 0.9, scanword: 0.9, topics: 0.7, faq: 0.6 }
+const PRIORITY: Partial<Record<RouteKey, number>> = { home: 1, daily: 0.9, crossword: 0.9, scanword: 0.9, topics: 0.7, faq: 0.6 }
 
 const LEGAL: readonly RouteKey[] = ['privacy', 'terms']
 

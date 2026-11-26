@@ -31,7 +31,8 @@
     "privacy": "Privacy",
     "terms": "Terms",
     "contact": "Contact",
-    "guides": "Guides"
+    "guides": "Guides",
+    "daily": "Daily"
   },
   "Errors": {
     "network": "Can't reach the server. Check your connection and try again.",
@@ -91,7 +92,9 @@
     "ogPuzzleCta": "Can you solve it?",
     "ogPuzzleMeta": "{size} · {words, plural, one {# word} other {# words}}",
     "guidesTitle": "Crossword Guides: Make, Solve and Teach",
-    "guidesDescription": "How to make a crossword, solve one faster, play scanwords and use puzzles in class: practical guides with examples and sample clues."
+    "guidesDescription": "How to make a crossword, solve one faster, play scanwords and use puzzles in class: practical guides with examples and sample clues.",
+    "dailyTitle": "Daily Crossword — Free, New Every Day",
+    "dailyDescription": "Play a free classic crossword every day, new at 00:00 UTC and the same for everyone. No sign-up. Yesterday's answers are on the same page."
   },
   "Formats": {
     "classic": {
@@ -290,6 +293,46 @@
     "faq3Answer": "When there is no room for the clue right before its answer, it sits above or beside the first letter instead, and the arrow bends to show the direction.",
     "faq4Question": "Are scanword clues different?",
     "faq4Answer": "They're shorter — a scanword clue has to fit inside one cell, so it's a few words at most."
+  },
+  "Daily": {
+    "eyebrow": "Daily crossword",
+    "title": "Daily Crossword",
+    "subtitle": "A new classic crossword every day at 00:00 UTC. Free, no sign-up, and the same puzzle for everyone.",
+    "today": "Today, {date}",
+    "todayTitle": "Today's crossword",
+    "todaySubtitle": "{count, plural, one {# word} other {# words}} with numbered Across and Down clues. Read them here, then open the grid to solve.",
+    "gridLabel": "Today's empty grid, {width} by {height} cells",
+    "play": "Play today's crossword",
+    "across": "Across",
+    "down": "Down",
+    "unavailable": "Today's crossword is being prepared. Check back in a few minutes.",
+    "streak": "{count, plural, =0 {Solve today's crossword to start a streak} one {# day in a row} other {# days in a row}}",
+    "yesterdayTitle": "Yesterday's crossword answers",
+    "yesterdayShow": "Show the answers",
+    "yesterdayPlay": "Play yesterday's crossword",
+    "previousTitle": "Previous days",
+    "aboutTitle": "About the daily crossword",
+    "about1": "Every day at 00:00 UTC a new classic crossword appears on this page: a medium grid with numbered Across and Down clues, written natively in English, not translated. Everyone who opens it that day gets the same puzzle.",
+    "about2": "It is free and needs no account. Your progress is saved on this device, so you can stop and come back later, and solving it day after day builds a streak. Once a new day begins, yesterday's answers appear further down this page.",
+    "about3": "The daily crossword comes in 33 languages, each with its own words and clues. Each day's words come from a set kept aside for the daily, so they rarely turn up in other puzzles.",
+    "makeOwnTitle": "Want another puzzle?",
+    "makeOwnText": "Make your own crossword on a topic you like, from animals to history, in the size and difficulty you choose.",
+    "makeOwnCta": "Make a crossword",
+    "rulesLink": "How to solve a crossword",
+    "faqTitle": "Daily crossword questions",
+    "faq1Question": "Is the daily crossword free?",
+    "faq1Answer": "Yes. The daily crossword is free every day, with no account and no credits needed.",
+    "faq2Question": "When does a new daily crossword come out?",
+    "faq2Answer": "A new puzzle appears every day at 00:00 UTC, at the same moment in every language.",
+    "faq3Question": "Is it the same puzzle for everyone?",
+    "faq3Answer": "Yes. Everyone who opens the daily crossword in the same language on the same day gets the same grid and the same clues.",
+    "faq4Question": "Where can I find yesterday's answers?",
+    "faq4Answer": "On this page: once a new day begins, yesterday's clues and their answers appear below today's puzzle. The last week's puzzles stay playable too.",
+    "faq5Question": "Can I play the daily crossword on my phone?",
+    "faq5Answer": "Yes. It works in any browser on a phone, tablet or computer, and the app can be installed. A puzzle you have opened keeps working offline.",
+    "teaserTitle": "Today's crossword",
+    "teaserText": "A free classic crossword every day: the same for everyone, no sign-up.",
+    "teaserCta": "Play today's crossword"
   },
   "TopicsPage": {
     "eyebrow": "Topics",

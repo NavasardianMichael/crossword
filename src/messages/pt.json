@@ -31,7 +31,8 @@
     "privacy": "Privacidade",
     "terms": "Termos",
     "contact": "Contato",
-    "guides": "Guias"
+    "guides": "Guias",
+    "daily": "Palavras cruzadas do dia"
   },
   "Errors": {
     "network": "Não dá para alcançar o servidor. Confira a conexão e tente de novo.",
@@ -91,7 +92,9 @@
     "ogPuzzleCta": "Você consegue resolver?",
     "ogPuzzleMeta": "{size} · {words, plural, one {# palavra} other {# palavras}}",
     "guidesTitle": "Guias de palavras cruzadas: criar e resolver",
-    "guidesDescription": "Como fazer palavras cruzadas, resolver mais rápido, jogar autodefinidos e usar o jogo em sala de aula: guias práticos com exemplos de dicas."
+    "guidesDescription": "Como fazer palavras cruzadas, resolver mais rápido, jogar autodefinidos e usar o jogo em sala de aula: guias práticos com exemplos de dicas.",
+    "dailyTitle": "Palavras cruzadas do dia: grátis, novas todo dia",
+    "dailyDescription": "Todo dia um novo jogo de palavras cruzadas clássico, grátis, sem cadastro e igual para todos. Sai às 00:00 UTC. As respostas de ontem ficam na mesma página."
   },
   "Formats": {
     "classic": {
@@ -290,6 +293,46 @@
     "faq3Answer": "Quando não cabe a dica logo antes da resposta, ela fica acima ou ao lado da primeira letra, e a seta entorta para mostrar a direção.",
     "faq4Question": "As dicas do autodefinido são diferentes?",
     "faq4Answer": "São mais curtas: precisam caber numa casa, então são poucas palavras no máximo."
+  },
+  "Daily": {
+    "eyebrow": "Palavras cruzadas do dia",
+    "title": "Palavras cruzadas do dia",
+    "subtitle": "Todo dia, às 00:00 UTC, um novo jogo de palavras cruzadas clássico. Grátis, sem cadastro e igual para todo mundo.",
+    "today": "Hoje, {date}",
+    "todayTitle": "As palavras cruzadas de hoje",
+    "todaySubtitle": "{count, plural, one {# palavra} other {# palavras}} com dicas numeradas na horizontal e na vertical. Leia as dicas aqui e abra a grade para resolver.",
+    "gridLabel": "Grade vazia das palavras cruzadas de hoje, com {width} por {height} casas",
+    "play": "Resolver as palavras cruzadas de hoje",
+    "across": "Horizontal",
+    "down": "Vertical",
+    "unavailable": "As palavras cruzadas de hoje estão sendo preparadas. Volte em alguns minutos.",
+    "streak": "{count, plural, =0 {Resolva as palavras cruzadas de hoje para começar uma sequência} one {# dia seguido} other {# dias seguidos}}",
+    "yesterdayTitle": "Respostas das palavras cruzadas de ontem",
+    "yesterdayShow": "Mostrar as respostas",
+    "yesterdayPlay": "Resolver as palavras cruzadas de ontem",
+    "previousTitle": "Dias anteriores",
+    "aboutTitle": "Sobre as palavras cruzadas do dia",
+    "about1": "Todo dia, às 00:00 UTC, aparece nesta página um novo jogo de palavras cruzadas clássico: uma grade de tamanho médio com dicas numeradas na horizontal e na vertical, escritas direto em português, não traduzidas. Quem abre o jogo nesse dia recebe o mesmo desafio.",
+    "about2": "É grátis e não precisa de conta. Seu progresso fica salvo neste dispositivo, então você pode parar e voltar depois, e resolver dia após dia forma uma sequência. Quando começa um novo dia, as respostas de ontem aparecem mais abaixo nesta página.",
+    "about3": "As palavras cruzadas do dia saem em 33 idiomas, cada um com suas próprias palavras e dicas. As palavras de cada dia vêm de uma reserva separada, por isso quase não aparecem em outros jogos.",
+    "makeOwnTitle": "Quer mais um jogo?",
+    "makeOwnText": "Crie suas próprias palavras cruzadas sobre o tema que preferir, de animais a história, no tamanho e na dificuldade que escolher.",
+    "makeOwnCta": "Criar palavras cruzadas",
+    "rulesLink": "Como resolver palavras cruzadas",
+    "faqTitle": "Perguntas sobre as palavras cruzadas do dia",
+    "faq1Question": "As palavras cruzadas do dia são grátis?",
+    "faq1Answer": "Sim. São grátis todos os dias, sem conta e sem gastar créditos.",
+    "faq2Question": "A que horas saem as novas palavras cruzadas do dia?",
+    "faq2Answer": "Todo dia às 00:00 UTC, no mesmo instante em todos os idiomas.",
+    "faq3Question": "As palavras cruzadas são as mesmas para todos?",
+    "faq3Answer": "Sim. Quem abre as palavras cruzadas do dia no mesmo idioma e no mesmo dia recebe a mesma grade e as mesmas dicas.",
+    "faq4Question": "Onde ficam as respostas de ontem?",
+    "faq4Answer": "Nesta mesma página: quando começa um novo dia, as dicas de ontem e suas respostas aparecem abaixo do jogo de hoje. Os jogos da última semana continuam disponíveis para resolver.",
+    "faq5Question": "Dá para jogar as palavras cruzadas do dia no celular?",
+    "faq5Answer": "Dá. Funciona em qualquer navegador, no celular, no tablet ou no computador, e o aplicativo pode ser instalado. Um jogo que você já abriu continua funcionando offline.",
+    "teaserTitle": "As palavras cruzadas de hoje",
+    "teaserText": "Palavras cruzadas clássicas grátis todo dia: iguais para todos, sem cadastro.",
+    "teaserCta": "Resolver as palavras cruzadas de hoje"
   },
   "TopicsPage": {
     "eyebrow": "Temas",

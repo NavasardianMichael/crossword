@@ -56,6 +56,9 @@ const FOREIGN_SCRIPTS = CLUE_FOREIGN
 /** Chinese, Japanese, Korean and the abugidas keep two-cell words; everyone else starts at 3. */
 const TWO_CELL = new Set<Locale>(['zh', 'ja', 'ko', 'hi', 'mr', 'bn', 'ta', 'th'])
 
+/** The shortest answer a language allows, in cells — what validation accepts is what the draw may use. */
+export const minWordLength = (locale: Locale): number => (TWO_CELL.has(locale) ? 2 : MIN_WORD_LENGTH)
+
 /** Collapses whitespace and trims; non-strings become ''. */
 export const clip = (text: unknown, maxLength: number): string =>
   typeof text === 'string' ? text.trim().replace(/\s+/g, ' ').slice(0, maxLength + 1) : ''
@@ -115,7 +118,7 @@ export const validateEntry = (candidate: CandidateEntry, locale: Locale, topic: 
   if (!answer) return { rejection: 'notAWord' }
 
   const length = cellCount(answer, locale)
-  const minimum = TWO_CELL.has(locale) ? 2 : MIN_WORD_LENGTH
+  const minimum = minWordLength(locale)
   if (length < minimum || length > MAX_WORD_LENGTH) return { rejection: 'length' }
   if (candidate.kind === 'proper' && !PROPER_NOUN_TOPICS.includes(topic)) return { rejection: 'properNoun' }
 

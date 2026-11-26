@@ -8,6 +8,7 @@ import { requireSameOrigin } from './middleware/csrf.js'
 import { asyncHandler, errorHandler } from './middleware/error.js'
 import { billingRouter, paddleWebhookRouter } from './routes/billing.js'
 import { contactRouter } from './routes/contact.js'
+import { dailyRouter } from './routes/daily.js'
 import { identityRouter } from './routes/identity.js'
 import { puzzlesRouter } from './routes/puzzles.js'
 import { samplesRouter } from './routes/samples.js'
@@ -44,6 +45,7 @@ export function createApp() {
 
   app.use('/billing', billingRouter)
   app.use('/contact', contactRouter)
+  app.use('/daily', dailyRouter)
   app.use('/identity', identityRouter)
   app.use('/puzzles', puzzlesRouter)
   app.use('/samples', samplesRouter)

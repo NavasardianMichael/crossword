@@ -206,12 +206,8 @@ GEMINI_KEY=""
 GEMINI_MODELS="gemini-3.5-flash-lite:MINIMAL,gemini-3.6-flash:LOW,gemini-3.8-flash:LOW"
 # The second "judge" pass over every generated batch.
 VERIFY_ENTRIES="true"
-# Gemini calls per day (from midnight Pacific, as Google counts), generation and judge together.
-POOL_DAILY_CALL_BUDGET="300"
-# The background job that keeps the word pool stocked.
+# The background job that generates words where a player's next puzzle would run short.
 POOL_REFILL_ENABLED="true"
-POOL_REFILL_INTERVAL_MS="60000"
-POOL_REFILL_TARGET="300"
 POOL_REFILL_MAX_CALLS="2"
 
 # --- Accounts (defaults) -----------------------------------------------------

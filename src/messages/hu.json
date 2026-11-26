@@ -31,7 +31,8 @@
     "privacy": "Adatvédelem",
     "terms": "Feltételek",
     "contact": "Kapcsolat",
-    "guides": "Útmutatók"
+    "guides": "Útmutatók",
+    "daily": "Napi rejtvény"
   },
   "Errors": {
     "network": "A szerver nem válaszol. Ellenőrizd a kapcsolatot, és próbáld újra.",
@@ -91,7 +92,9 @@
     "ogPuzzleCta": "Ki tudod fejteni?",
     "ogPuzzleMeta": "{size} · {words, plural, one {# szó} other {# szó}}",
     "guidesTitle": "Keresztrejtvény készítése és fejtése: útmutatók",
-    "guidesDescription": "Hogyan készíts keresztrejtvényt, fejtsd gyorsabban, játssz skandinávval, és használd a rejtvényt órán: gyakorlati útmutatók példákkal."
+    "guidesDescription": "Hogyan készíts keresztrejtvényt, fejtsd gyorsabban, játssz skandinávval, és használd a rejtvényt órán: gyakorlati útmutatók példákkal.",
+    "dailyTitle": "Napi keresztrejtvény – ingyen, minden nap új",
+    "dailyDescription": "Minden nap új keresztrejtvény, ingyen, regisztráció nélkül, és mindenkinek ugyanaz. 00:00-kor jön (UTC). A tegnapi megfejtések ugyanezen az oldalon vannak."
   },
   "Formats": {
     "classic": {
@@ -290,6 +293,46 @@
     "faq3Answer": "Ha a megfejtés előtt nincs hely a meghatározásnak, az első betű fölé vagy mellé kerül, és a nyíl meghajlik, hogy mutassa az irányt.",
     "faq4Question": "Másak a skandináv meghatározásai?",
     "faq4Answer": "Rövidebbek. Egy mezőbe kell férniük, ezért legfeljebb néhány szóból állnak."
+  },
+  "Daily": {
+    "eyebrow": "Napi keresztrejtvény",
+    "title": "Napi keresztrejtvény",
+    "subtitle": "Minden nap 00:00-kor (UTC) új keresztrejtvény. Ingyenes, regisztráció nélkül, és mindenkinek ugyanaz.",
+    "today": "Ma, {date}",
+    "todayTitle": "A mai keresztrejtvény",
+    "todaySubtitle": "{count, plural, one {# szó} other {# szó}} számozott vízszintes és függőleges meghatározásokkal. Olvasd el őket itt, aztán nyisd meg a rácsot, és kezdd a fejtést.",
+    "gridLabel": "A mai rejtvény üres rácsa, {width} × {height} mező",
+    "play": "A mai rejtvény fejtése",
+    "across": "Vízszintes",
+    "down": "Függőleges",
+    "unavailable": "A mai keresztrejtvény még készül. Nézz vissza néhány perc múlva.",
+    "streak": "{count, plural, =0 {Fejtsd meg a mai rejtvényt, és indítsd el a sorozatod} one {# nap egymás után} other {# nap egymás után}}",
+    "yesterdayTitle": "A tegnapi keresztrejtvény megfejtései",
+    "yesterdayShow": "Megfejtések mutatása",
+    "yesterdayPlay": "A tegnapi rejtvény fejtése",
+    "previousTitle": "Korábbi napok",
+    "aboutTitle": "A napi keresztrejtvényről",
+    "about1": "Minden nap 00:00-kor (UTC) új keresztrejtvény jelenik meg itt: közepes méretű rács számozott vízszintes és függőleges meghatározásokkal, amelyeket eleve magyarul írtak, nem fordítottak. Aki aznap megnyitja, ugyanazt a rejtvényt kapja.",
+    "about2": "Ingyenes, és nem kell hozzá fiók. Az előrehaladásod ezen az eszközön mentődik, így bármikor abbahagyhatod, és később folytathatod, a napról napra fejtés pedig sorozatot épít. Amint új nap kezdődik, a tegnapi megfejtések lejjebb jelennek meg ezen az oldalon.",
+    "about3": "A napi keresztrejtvény 33 nyelven készül, mindegyiknek saját szavaival és meghatározásaival. A szavak külön készletből származnak, ezért más rejtvényekben ritkán bukkannak fel.",
+    "makeOwnTitle": "Kérsz még egyet?",
+    "makeOwnText": "Készíts saját keresztrejtvényt kedvenc témádban, az állatoktól a történelemig, a választott méretben és nehézségben.",
+    "makeOwnCta": "Keresztrejtvény készítése",
+    "rulesLink": "Hogyan kell keresztrejtvényt fejteni",
+    "faqTitle": "Kérdések a napi keresztrejtvényről",
+    "faq1Question": "Ingyenes a napi keresztrejtvény?",
+    "faq1Answer": "Igen. Minden nap ingyenes, fiók és kredit nélkül.",
+    "faq2Question": "Mikor jelenik meg az új napi keresztrejtvény?",
+    "faq2Answer": "Minden nap 00:00-kor (UTC), ugyanabban a pillanatban minden nyelven.",
+    "faq3Question": "Mindenkinek ugyanaz a rejtvény?",
+    "faq3Answer": "Igen. Aki ugyanazon a napon ugyanazon a nyelven nyitja meg a napi keresztrejtvényt, ugyanazt a rácsot és ugyanazokat a meghatározásokat látja.",
+    "faq4Question": "Hol találom a tegnapi megfejtéseket?",
+    "faq4Answer": "Ezen az oldalon: amint új nap kezdődik, a tegnapi meghatározások a megfejtésekkel a mai rejtvény alatt jelennek meg. Az elmúlt hét rejtvényei is fejthetők még.",
+    "faq5Question": "Fejthetem a napi keresztrejtvényt telefonon?",
+    "faq5Answer": "Igen. Minden böngészőben működik telefonon, tableten és számítógépen, az alkalmazás pedig telepíthető. Egy már megnyitott rejtvény offline is használható.",
+    "teaserTitle": "A mai keresztrejtvény",
+    "teaserText": "Minden nap egy ingyenes keresztrejtvény: mindenkinek ugyanaz, regisztráció nélkül.",
+    "teaserCta": "A mai rejtvény fejtése"
   },
   "TopicsPage": {
     "eyebrow": "Témák",

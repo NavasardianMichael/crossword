@@ -31,7 +31,8 @@
     "privacy": "Integritet",
     "terms": "Villkor",
     "contact": "Kontakt",
-    "guides": "Guider"
+    "guides": "Guider",
+    "daily": "Dagens korsord"
   },
   "Errors": {
     "network": "Servern svarar inte. Kontrollera anslutningen och försök igen.",
@@ -91,7 +92,9 @@
     "ogPuzzleCta": "Kan du lösa det?",
     "ogPuzzleMeta": "{size} · {words, plural, one {# ord} other {# ord}}",
     "guidesTitle": "Guider: så gör och löser du korsord",
-    "guidesDescription": "Så gör du ett korsord, löser det snabbare, spelar rutkorsord och använder korsord i undervisningen: praktiska guider med exempel."
+    "guidesDescription": "Så gör du ett korsord, löser det snabbare, spelar rutkorsord och använder korsord i undervisningen: praktiska guider med exempel.",
+    "dailyTitle": "Dagens korsord – gratis, nytt varje dag",
+    "dailyDescription": "Lös ett nytt korsord varje dag, gratis, utan konto och samma för alla. Det kommer klockan 00:00 UTC. Gårdagens svar finns på samma sida."
   },
   "Formats": {
     "classic": {
@@ -290,6 +293,46 @@
     "faq3Answer": "När det inte finns plats för ledtråden precis före svaret ligger den ovanför eller bredvid första bokstaven, och pilen böjs för att visa riktningen.",
     "faq4Question": "Är ledtrådarna annorlunda?",
     "faq4Answer": "De är kortare. En ledtråd i ett rutkorsord ska rymmas i en ruta, så den är högst några ord."
+  },
+  "Daily": {
+    "eyebrow": "Dagens korsord",
+    "title": "Dagens korsord",
+    "subtitle": "Ett nytt korsord varje dag klockan 00:00 UTC. Gratis, utan konto och samma för alla.",
+    "today": "Idag, {date}",
+    "todayTitle": "Dagens korsord",
+    "todaySubtitle": "{count, plural, one {# ord} other {# ord}} med numrerade ledtrådar för vågrätt och lodrätt. Läs dem här och öppna sedan rutnätet för att lösa.",
+    "gridLabel": "Dagens tomma rutnät, {width} gånger {height} rutor",
+    "play": "Lös dagens korsord",
+    "across": "Vågrätt",
+    "down": "Lodrätt",
+    "unavailable": "Dagens korsord är på väg. Titta in igen om några minuter.",
+    "streak": "{count, plural, =0 {Lös dagens korsord för att starta en svit} one {# dag i rad} other {# dagar i rad}}",
+    "yesterdayTitle": "Svar på gårdagens korsord",
+    "yesterdayShow": "Visa svaren",
+    "yesterdayPlay": "Lös gårdagens korsord",
+    "previousTitle": "Tidigare dagar",
+    "aboutTitle": "Om dagens korsord",
+    "about1": "Varje dag klockan 00:00 UTC kommer ett nytt korsord hit: ett rutnät i mellanstorlek med numrerade ledtrådar för vågrätt och lodrätt, skrivna direkt på svenska och inte översatta. Alla som öppnar det den dagen får samma korsord.",
+    "about2": "Det är gratis och kräver inget konto. Dina framsteg sparas på den här enheten, så du kan lägga undan det och fortsätta senare, och löser du varje dag växer din svit. När en ny dag börjar dyker gårdagens svar upp längre ner på sidan.",
+    "about3": "Dagens korsord finns på 33 språk, vart och ett med egna ord och ledtrådar. Orden hämtas ur ett separat förråd och dyker därför sällan upp i andra korsord.",
+    "makeOwnTitle": "Vill du ha fler?",
+    "makeOwnText": "Gör ett eget korsord om ett ämne du gillar, från djur till historia, i den storlek och svårighet du väljer.",
+    "makeOwnCta": "Skapa ett korsord",
+    "rulesLink": "Så löser du ett korsord",
+    "faqTitle": "Frågor om dagens korsord",
+    "faq1Question": "Är dagens korsord gratis?",
+    "faq1Answer": "Ja. Det är gratis varje dag, utan konto och utan krediter.",
+    "faq2Question": "När kommer ett nytt korsord varje dag?",
+    "faq2Answer": "Varje dag klockan 00:00 UTC, i samma ögonblick på alla språk.",
+    "faq3Question": "Får alla samma korsord?",
+    "faq3Answer": "Ja. Alla som öppnar dagens korsord på samma språk samma dag får samma rutnät och samma ledtrådar.",
+    "faq4Question": "Var hittar jag gårdagens svar?",
+    "faq4Answer": "På den här sidan: när en ny dag börjar visas gårdagens ledtrådar med svar under dagens korsord. Den senaste veckans korsord går också att lösa.",
+    "faq5Question": "Kan jag lösa dagens korsord i mobilen?",
+    "faq5Answer": "Ja. Det fungerar i alla webbläsare på mobil, surfplatta och dator, och appen går att installera. Ett korsord du redan öppnat fungerar även offline.",
+    "teaserTitle": "Dagens korsord",
+    "teaserText": "Ett gratis korsord varje dag: samma för alla, utan konto.",
+    "teaserCta": "Lös dagens korsord"
   },
   "TopicsPage": {
     "eyebrow": "Ämnen",

@@ -4,7 +4,9 @@ An AI crossword and scanword generator in thirty-three languages: 11 free credit
 credits (`docs/BILLING.md`). A Next.js App
 Router PWA and an Express/Prisma API in `server/`, in one pnpm workspace. Words and clues are
 written by Gemini natively per language and pooled in Postgres; every device excludes the
-words it has seen, so nothing ever repeats. Hand-written seed words are the non-AI fallback.
+words it has seen, so nothing repeats until a player has used up a language's words. Seed words
+(hand-written, and Claude-written in development) are the non-AI base; a free daily crossword per
+language lives at `/[lang]/daily`.
 
 **Stack:** Next.js 16 (App Router, `src/proxy.ts`) · React 19 · TypeScript 6 · Ant Design 6 +
 Tailwind 4 (one token chain) · Zustand + immer · next-intl 4 · idb · pnpm · Express 5 · Prisma 6 ·
@@ -23,6 +25,7 @@ pnpm test:e2e                 # Playwright, needs `RATE_LIMIT_ENABLED=false BILL
 pnpm screenshots              # re-capture the manifest's install screenshots, needs `pnpm dev` running
 pnpm check:messages           # every catalogue matches en.json (keys, placeholders, plurals, nothing left in English)
 pnpm --filter crossword-server exec tsx prisma/check-seed.ts [locale]   # validate seed words + prompt material
+pnpm --filter crossword-server exec tsx prisma/seed-status.ts          # seed counts per language, next file to write
 pnpm build:api                # server/dist + the deployable out/api release
 pnpm env:base64 production | clip   # server/.env.production.local -> the ENV_API_BASE64 secret
 ```
@@ -35,7 +38,8 @@ pnpm env:base64 production | clip   # server/.env.production.local -> the ENV_AP
 | What a letter is (`ու`/`և` one cell, `ё`→`е`), typing rules | `src/constants/alphabet.ts` ↔ twin `server/src/lib/alphabet.ts` |
 | Grid layout (classic, scanword), pure + seeded | `server/src/lib/layout/` — fuzzed in `tests/unit/layout/` |
 | Native prompt material: style guides, examples, subtopics | `server/src/lib/content/{en,ru,hy}.ts` |
-| Seed words (non-AI fallback, integration data) | `server/prisma/seed/entries.<locale>.json` (all 33) · loader `prisma/seed.ts` · checker `prisma/check-seed.ts` |
+| Seed words (non-AI base, integration data) | hand-written `server/prisma/seed/entries.<locale>.json` (all 33) · Claude-written `seed/claude/<locale>/*.json` (`docs/WORD_SEEDING_BRIEF.md`) · reader `prisma/seedFiles.ts` · loader `prisma/seed.ts` · checker `prisma/check-seed.ts` (balance too; `tests/unit/seed.spec.ts`) |
+| The daily crossword | `docs/DAILY_PLAN.md` · `server/src/services/daily.ts` · job `jobs/dailyBuild.ts` · route `routes/daily.ts` · web `src/app/[lang]/daily/` + `src/components/daily/` |
 | Generation: prompt, validation, judge pass | `server/src/services/entryGen.ts`, `entryValidation.ts` |
 | The pool: upsert, diversity seeding, drawing, reports | `server/src/services/entryPool.ts` · refill job `server/src/jobs/poolRefill.ts` |
 | Building + storing a puzzle, fallback ladder | `server/src/services/puzzleBuilder.ts` · routes `server/src/routes/puzzles.ts` |
@@ -76,7 +80,9 @@ Per-layer rules: `src/CLAUDE.md` (web) and `server/CLAUDE.md` (API).
 
 ## Easy to get wrong
 
-- **No word may ever repeat for a device** (or, signed in, for an account on any device). Entry
+- **No word repeats for a device** (or, signed in, for an account on any device) **while unseen
+  words remain**; only then do the oldest-seen come back (`READMIT_STEPS`), never the words of the
+  player's latest ~20 puzzles. A language stops growing at `POOL_MAX_WORDS` (7,000). Entry
   ids are the identity a device excludes: never delete an `Entry` (retire it), never re-key one,
   and add a puzzle's ids to the seen-list when it *arrives* (created or opened from a link). A
   gate forbids deleting entries. The account's list is `PuzzlePlay`: one row per puzzle shown,
@@ -91,8 +97,13 @@ Per-layer rules: `src/CLAUDE.md` (web) and `server/CLAUDE.md` (API).
   turn `й` into `и`.
 - **Code decides, the model speaks.** The layout, lengths, validation and difficulty are code;
   the model only proposes words and clues, which are dropped (never repaired) when invalid.
-- The free Gemini tier's *daily* quota binds first: `POOL_DAILY_CALL_BUDGET`, at most one inline
-  generation per request, two at once across requests.
+- **Gemini only on need, only in the background.** A request never waits on it: after a build the
+  builder checks whether the player's *next* puzzle could be filled with unseen words and records
+  the gap (`PoolDemand.shortfall`); the refill job (event-driven, no polling) generates exactly
+  that, within `DAILY_CALL_BUDGET` (100 requests a day, hardcoded in `entryPool.ts`, failed and
+  fallen-through requests counted too). `docs/WORD_SEEDING_PLAN.md`.
+- **The daily crossword** draws only from the daily reserve (`Entry.dailyReserve`), which custom
+  puzzles never touch; today's answers never reach `/[lang]/daily`'s HTML (`docs/DAILY_PLAN.md`).
 - **Static rendering hinges on `src/i18n/request.ts`:** the locale comes from `lang()`, and
   `requestLocale` must never be destructured — that silently makes every page dynamic.
 - `useSearchParams` needs a `<Suspense>` boundary; read `window.location` instead (see `OfflinePlay`).

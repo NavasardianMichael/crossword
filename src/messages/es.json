@@ -31,7 +31,8 @@
     "privacy": "Privacidad",
     "terms": "Condiciones",
     "contact": "Contacto",
-    "guides": "Guías"
+    "guides": "Guías",
+    "daily": "Crucigrama del día"
   },
   "Errors": {
     "network": "No se puede contactar con el servidor. Revisa tu conexión e inténtalo de nuevo.",
@@ -91,7 +92,9 @@
     "ogPuzzleCta": "¿Puedes resolverlo?",
     "ogPuzzleMeta": "{size} · {words, plural, one {# palabra} other {# palabras}}",
     "guidesTitle": "Guías de crucigramas: crear, resolver y enseñar",
-    "guidesDescription": "Cómo hacer un crucigrama, resolverlo más rápido, jugar autodefinidos y usarlos en clase: guías prácticas con ejemplos de definiciones."
+    "guidesDescription": "Cómo hacer un crucigrama, resolverlo más rápido, jugar autodefinidos y usarlos en clase: guías prácticas con ejemplos de definiciones.",
+    "dailyTitle": "Crucigrama del día: gratis y nuevo cada día",
+    "dailyDescription": "Cada día un crucigrama clásico nuevo, gratis, sin registro y el mismo para todos. Sale a las 00:00 UTC. Las respuestas de ayer, en esta misma página."
   },
   "Formats": {
     "classic": {
@@ -290,6 +293,46 @@
     "faq3Answer": "Si no hay sitio para la definición justo antes de la respuesta, se coloca arriba o al lado de la primera letra, y la flecha se dobla para marcar la dirección.",
     "faq4Question": "¿Las definiciones del autodefinido son distintas?",
     "faq4Answer": "Son más cortas: tienen que caber en una casilla, así que son unas pocas palabras como máximo."
+  },
+  "Daily": {
+    "eyebrow": "Crucigrama del día",
+    "title": "Crucigrama del día",
+    "subtitle": "Cada día a las 00:00 UTC, un crucigrama clásico nuevo. Gratis, sin registrarte y el mismo para todo el mundo.",
+    "today": "Hoy, {date}",
+    "todayTitle": "El crucigrama de hoy",
+    "todaySubtitle": "{count, plural, one {# palabra} other {# palabras}} con definiciones numeradas en horizontal y vertical. Léelas aquí y abre la cuadrícula para resolverlo.",
+    "gridLabel": "Cuadrícula vacía del crucigrama de hoy, de {width} por {height} casillas",
+    "play": "Resolver el crucigrama de hoy",
+    "across": "Horizontal",
+    "down": "Vertical",
+    "unavailable": "El crucigrama de hoy se está preparando. Vuelve en unos minutos.",
+    "streak": "{count, plural, =0 {Resuelve el crucigrama de hoy para empezar una racha} one {# día seguido} other {# días seguidos}}",
+    "yesterdayTitle": "Respuestas del crucigrama de ayer",
+    "yesterdayShow": "Mostrar las respuestas",
+    "yesterdayPlay": "Resolver el crucigrama de ayer",
+    "previousTitle": "Días anteriores",
+    "aboutTitle": "Sobre el crucigrama del día",
+    "about1": "Cada día a las 00:00 UTC aparece en esta página un crucigrama clásico nuevo: una cuadrícula de tamaño medio con definiciones numeradas en horizontal y vertical, escritas directamente en español, no traducidas. Quien lo abre ese día recibe el mismo pasatiempo.",
+    "about2": "Es gratis y no hace falta cuenta. Tu progreso se guarda en este dispositivo, así que puedes dejarlo y retomarlo más tarde, y si lo resuelves día tras día se forma una racha. Cuando empieza un nuevo día, las respuestas de ayer aparecen más abajo en esta página.",
+    "about3": "El crucigrama del día sale en 33 idiomas, cada uno con sus propias palabras y definiciones. Las palabras de cada día salen de una reserva aparte, por eso casi nunca aparecen en otros crucigramas.",
+    "makeOwnTitle": "¿Quieres más?",
+    "makeOwnText": "Crea tu propio crucigrama sobre el tema que prefieras, de los animales a la historia, con el tamaño y la dificultad que elijas.",
+    "makeOwnCta": "Crear un crucigrama",
+    "rulesLink": "Cómo resolver un crucigrama",
+    "faqTitle": "Preguntas sobre el crucigrama del día",
+    "faq1Question": "¿El crucigrama del día es gratis?",
+    "faq1Answer": "Sí. Es gratis todos los días, sin cuenta y sin gastar créditos.",
+    "faq2Question": "¿Cuándo sale el crucigrama del día?",
+    "faq2Answer": "Cada día a las 00:00 UTC, en el mismo momento en todos los idiomas.",
+    "faq3Question": "¿Es el mismo crucigrama para todos?",
+    "faq3Answer": "Sí. Quien abre el crucigrama del día en el mismo idioma y el mismo día recibe la misma cuadrícula y las mismas definiciones.",
+    "faq4Question": "¿Dónde veo las respuestas del crucigrama de ayer?",
+    "faq4Answer": "En esta misma página: cuando empieza un nuevo día, las definiciones de ayer y sus respuestas aparecen debajo del crucigrama de hoy. Los de la última semana se pueden seguir resolviendo.",
+    "faq5Question": "¿Puedo resolver el crucigrama del día en el móvil?",
+    "faq5Answer": "Sí. Funciona en cualquier navegador, en móvil, tableta u ordenador, y puedes instalar la aplicación. Un crucigrama que ya has abierto sigue funcionando sin conexión.",
+    "teaserTitle": "El crucigrama de hoy",
+    "teaserText": "Un crucigrama clásico gratis cada día: el mismo para todos, sin registro.",
+    "teaserCta": "Resolver el crucigrama de hoy"
   },
   "TopicsPage": {
     "eyebrow": "Temas",

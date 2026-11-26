@@ -217,7 +217,7 @@ cells would be under ~24px. Test on a real 360px Android.
     `::ffff:a.b.c.d` → IPv4.
 18. **Parallel `POST /puzzles` each do a full build before the 402** —
     `routes/puzzles.ts:48-58`, `puzzleBuilder.ts:104-112`. 12 parallel guest requests can each run an
-    inline Gemini top-up and burn `POOL_DAILY_CALL_BUDGET` for everyone. **Fix:** in-memory per-payer
+    inline Gemini top-up and burn the daily Gemini budget (`DAILY_CALL_BUDGET`) for everyone. **Fix:** in-memory per-payer
     in-flight `Set` → 429 for a second concurrent build; optionally inline top-up only for signed-in
     payers.
 19. **Account farming for the monthly free puzzle** — `billing.ts:33-37` exempts users from the IP

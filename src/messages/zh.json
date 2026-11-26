@@ -31,7 +31,8 @@
     "privacy": "隐私",
     "terms": "条款",
     "contact": "联系",
-    "guides": "指南"
+    "guides": "指南",
+    "daily": "每日填字"
   },
   "Errors": {
     "network": "连不上服务器。请检查网络后再试。",
@@ -91,7 +92,9 @@
     "ogPuzzleCta": "你能做出来吗？",
     "ogPuzzleMeta": "{size} · {words, plural, other {# 个词}}",
     "guidesTitle": "填字游戏指南：出题、解题与教学",
-    "guidesDescription": "怎样出一局填字游戏、更快解题、玩箭头填字，以及如何在课堂上使用，附示例。"
+    "guidesDescription": "怎样出一局填字游戏、更快解题、玩箭头填字，以及如何在课堂上使用，附示例。",
+    "dailyTitle": "每日填字游戏：免费，每天更新",
+    "dailyDescription": "每天一期经典填字游戏，免费、免注册，所有人玩同一题。北京时间每天 08:00（UTC 00:00）更新，昨天的答案就在同一页。"
   },
   "Formats": {
     "classic": {
@@ -290,6 +293,46 @@
     "faq3Answer": "答案前面放不下提示时，提示会改到第一个字的上方或旁边，箭头弯过来表示方向。",
     "faq4Question": "箭头填字的提示不一样吗？",
     "faq4Answer": "更短。它得放进一个格子，所以最多几个词。"
+  },
+  "Daily": {
+    "eyebrow": "每日填字",
+    "title": "每日填字",
+    "subtitle": "每天北京时间 08:00（UTC 00:00）更新一期经典填字游戏。免费，无需注册，所有人玩同一题。",
+    "today": "今天，{date}",
+    "todayTitle": "今日填字",
+    "todaySubtitle": "{count, plural, other {# 个词}}，带编号的横向和纵向提示。可以先在这里读提示，再打开格子动笔。",
+    "gridLabel": "今天的空白格子，{width} × {height} 格",
+    "play": "做今天的填字",
+    "across": "横向",
+    "down": "纵向",
+    "unavailable": "今天的填字还在准备中，请过几分钟再来看看。",
+    "streak": "{count, plural, =0 {做完今天的填字，开始连续打卡} other {已连续 # 天}}",
+    "yesterdayTitle": "昨日填字答案",
+    "yesterdayShow": "查看答案",
+    "yesterdayPlay": "做昨天的填字",
+    "previousTitle": "往期题目",
+    "aboutTitle": "关于每日填字",
+    "about1": "每天北京时间 08:00（UTC 00:00），本页会上线一期新的经典填字：中等大小的格子，带编号的横向和纵向提示，由中文直接编写，不是翻译而来。当天打开的人，做的都是同一题。",
+    "about2": "完全免费，不用注册账号。你的进度保存在这台设备上，中途退出也能接着做，每天坚持完成还能累积连续天数。新的一天开始后，昨天的答案会显示在本页下方。",
+    "about3": "每日填字提供 33 种语言，每种语言都有自己的词和提示。每天用到的词来自专门留出的词库，所以很少在其他题目里重复出现。",
+    "makeOwnTitle": "还想再玩一局？",
+    "makeOwnText": "从动物到历史，选一个你喜欢的主题，自己生成填字，大小和难度也由你定。",
+    "makeOwnCta": "生成填字",
+    "rulesLink": "填字怎么玩",
+    "faqTitle": "每日填字常见问题",
+    "faq1Question": "每日填字免费吗？",
+    "faq1Answer": "免费。每天都可以玩，不需要账号，也不消耗积分。",
+    "faq2Question": "每日填字几点更新？",
+    "faq2Answer": "每天北京时间 08:00（UTC 00:00）更新，所有语言同一时刻。",
+    "faq3Question": "大家玩的是同一题吗？",
+    "faq3Answer": "是的。同一天、同一种语言打开的人，拿到的格子和提示完全相同。",
+    "faq4Question": "昨天的答案在哪里看？",
+    "faq4Answer": "就在本页。新的一天开始后，昨天的提示和答案会出现在今天的题目下方。最近一周的题目也可以补做。",
+    "faq5Question": "手机上能玩每日填字吗？",
+    "faq5Answer": "可以。手机、平板和电脑的浏览器都能用，也可以安装成应用。打开过的题目没有网络也能继续做。",
+    "teaserTitle": "今日填字",
+    "teaserText": "每天一期免费经典填字，所有人玩同一题，无需注册。",
+    "teaserCta": "做今天的填字"
   },
   "TopicsPage": {
     "eyebrow": "主题",

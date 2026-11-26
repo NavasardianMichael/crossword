@@ -31,7 +31,8 @@
     "privacy": "Confidențialitate",
     "terms": "Termeni",
     "contact": "Contact",
-    "guides": "Ghiduri"
+    "guides": "Ghiduri",
+    "daily": "Rebusul zilei"
   },
   "Errors": {
     "network": "Serverul nu răspunde. Verifică legătura și încearcă din nou.",
@@ -91,7 +92,9 @@
     "ogPuzzleCta": "Îl poți rezolva?",
     "ogPuzzleMeta": "{size} · {words, plural, one {# cuvânt} few {# cuvinte} other {# de cuvinte}}",
     "guidesTitle": "Ghiduri: cum faci și cum rezolvi un rebus",
-    "guidesDescription": "Cum faci un rebus, cum îl rezolvi mai repede, cum joci rebus scandinav și cum folosești careurile la clasă: ghiduri practice, cu exemple."
+    "guidesDescription": "Cum faci un rebus, cum îl rezolvi mai repede, cum joci rebus scandinav și cum folosești careurile la clasă: ghiduri practice, cu exemple.",
+    "dailyTitle": "Cuvinte încrucișate de azi: gratis, noi în fiecare zi",
+    "dailyDescription": "În fiecare zi, un nou careu clasic de cuvinte încrucișate, gratuit, fără cont și la fel pentru toți. Apare la 00:00 UTC. Răspunsurile de ieri, aici."
   },
   "Formats": {
     "classic": {
@@ -290,6 +293,46 @@
     "faq3Answer": "Când nu e loc pentru definiție chiar înaintea răspunsului, ea stă deasupra sau lângă prima literă, iar săgeata se îndoaie ca să arate direcția.",
     "faq4Question": "Definițiile sunt altfel?",
     "faq4Answer": "Sunt mai scurte. Trebuie să încapă într-o singură căsuță, deci au cel mult câteva cuvinte."
+  },
+  "Daily": {
+    "eyebrow": "Cuvintele încrucișate zilnice",
+    "title": "Cuvinte încrucișate zilnice",
+    "subtitle": "În fiecare zi la 00:00 UTC, un nou careu clasic de cuvinte încrucișate. Gratuit, fără cont și la fel pentru toată lumea.",
+    "today": "Azi, {date}",
+    "todayTitle": "Careul de azi",
+    "todaySubtitle": "{count, plural, one {# cuvânt} few {# cuvinte} other {# de cuvinte}} cu definiții numerotate pe orizontală și pe verticală. Citește-le aici, apoi deschide careul ca să le rezolvi.",
+    "gridLabel": "Careul gol de azi, de {width} pe {height} căsuțe",
+    "play": "Rezolvă careul de azi",
+    "across": "Orizontal",
+    "down": "Vertical",
+    "unavailable": "Careul de azi se pregătește. Revino peste câteva minute.",
+    "streak": "{count, plural, =0 {Rezolvă careul de azi ca să începi o serie} one {# zi la rând} few {# zile la rând} other {# de zile la rând}}",
+    "yesterdayTitle": "Răspunsurile careului de ieri",
+    "yesterdayShow": "Arată răspunsurile",
+    "yesterdayPlay": "Rezolvă careul de ieri",
+    "previousTitle": "Zilele anterioare",
+    "aboutTitle": "Despre cuvintele încrucișate zilnice",
+    "about1": "În fiecare zi la 00:00 UTC apare pe această pagină un nou careu clasic de cuvinte încrucișate: o grilă de mărime medie, cu definiții numerotate pe orizontală și pe verticală, scrise direct în română, nu traduse. Cine îl deschide în ziua respectivă primește același careu.",
+    "about2": "Este gratuit și nu cere cont. Progresul tău se salvează pe acest dispozitiv, așa că poți lăsa careul și te poți întoarce mai târziu, iar dacă rezolvi în fiecare zi, se formează o serie. Când începe o zi nouă, răspunsurile de ieri apar mai jos, pe această pagină.",
+    "about3": "Cuvintele încrucișate zilnice apar în 33 de limbi, fiecare cu cuvintele și definițiile ei. Cuvintele fiecărei zile vin dintr-o rezervă separată, așa că apar rar în alte careuri.",
+    "makeOwnTitle": "Vrei încă unul?",
+    "makeOwnText": "Creează-ți propriul careu pe o temă care îți place, de la animale la istorie, în dimensiunea și cu dificultatea pe care le alegi tu.",
+    "makeOwnCta": "Creează cuvinte încrucișate",
+    "rulesLink": "Cum rezolvi cuvinte încrucișate",
+    "faqTitle": "Întrebări despre cuvintele încrucișate zilnice",
+    "faq1Question": "Sunt gratuite cuvintele încrucișate zilnice?",
+    "faq1Answer": "Da. Sunt gratuite în fiecare zi, fără cont și fără credite.",
+    "faq2Question": "La ce oră apare careul nou în fiecare zi?",
+    "faq2Answer": "În fiecare zi la 00:00 UTC, în același moment în toate limbile.",
+    "faq3Question": "Este același careu pentru toată lumea?",
+    "faq3Answer": "Da. Cine deschide careul zilnic în aceeași limbă, în aceeași zi, primește aceeași grilă și aceleași definiții.",
+    "faq4Question": "Unde găsesc răspunsurile de ieri?",
+    "faq4Answer": "Pe această pagină: când începe o zi nouă, definițiile de ieri și răspunsurile lor apar sub careul de azi. Careurile din ultima săptămână pot fi rezolvate în continuare.",
+    "faq5Question": "Pot rezolva careul zilnic pe telefon?",
+    "faq5Answer": "Da. Merge în orice browser, pe telefon, tabletă sau computer, iar aplicația se poate instala. Un careu deschis deja continuă să meargă și fără internet.",
+    "teaserTitle": "Careul de azi",
+    "teaserText": "Un careu clasic gratuit în fiecare zi: la fel pentru toți, fără cont.",
+    "teaserCta": "Rezolvă careul de azi"
   },
   "TopicsPage": {
     "eyebrow": "Teme",

@@ -4,6 +4,7 @@ import type {
   BreadcrumbList,
   CollectionPage,
   FAQPage,
+  Game,
   HowTo,
   ItemList,
   Organization,
@@ -228,3 +229,32 @@ export const articleSchema = (
   publisher: { '@type': 'Organization', name: siteName, url: absoluteUrl(localePath(locale, '/')), logo: absoluteUrl('/icon') },
   isPartOf: { '@type': 'WebSite', name: siteName, url: absoluteUrl(localePath(locale, '/')) },
 })
+
+/**
+ * The daily crossword page: one URL whose puzzle changes every day, so the markup is evergreen —
+ * nothing in it names the day or its words, and it never goes stale. The daily is free, unlike
+ * the app `gameSchema` describes.
+ */
+export const dailyPageSchema = (page: PageInput, game: { name: string; description: string; siteName: string }): WithContext<WebPage> => {
+  const url = absoluteUrl(localePath(page.locale, page.path))
+  const mainEntity: Game = {
+    '@type': 'Game',
+    '@id': `${url}#game`,
+    name: game.name,
+    description: game.description,
+    url,
+    inLanguage: page.locale,
+    genre: ['Crossword', 'Word game', 'Puzzle'],
+    isAccessibleForFree: true,
+    image: absoluteUrl(ogImagePath(page.locale)),
+    author,
+    publisher: { '@type': 'Organization', name: game.siteName, url: absoluteUrl(localePath(page.locale, '/')), logo: absoluteUrl('/icon') },
+  }
+  return {
+    '@context': 'https://schema.org',
+    '@type': 'WebPage',
+    ...pageFields(page),
+    isAccessibleForFree: true,
+    mainEntity,
+  }
+}

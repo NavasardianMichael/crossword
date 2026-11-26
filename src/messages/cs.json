@@ -31,7 +31,8 @@
     "privacy": "Soukromí",
     "terms": "Podmínky",
     "contact": "Kontakt",
-    "guides": "Návody"
+    "guides": "Návody",
+    "daily": "Křížovka dne"
   },
   "Errors": {
     "network": "Server se neozývá. Zkontrolujte připojení a zkuste to znovu.",
@@ -91,7 +92,9 @@
     "ogPuzzleCta": "Vyluštíte to?",
     "ogPuzzleMeta": "{size} · {words, plural, one {# slovo} few {# slova} many {# slov} other {# slov}}",
     "guidesTitle": "Jak sestavit a vyluštit křížovku: návody",
-    "guidesDescription": "Jak sestavit křížovku, luštit rychleji, hrát skandinávky a využít křížovky ve výuce: praktické návody s ukázkami legend."
+    "guidesDescription": "Jak sestavit křížovku, luštit rychleji, hrát skandinávky a využít křížovky ve výuce: praktické návody s ukázkami legend.",
+    "dailyTitle": "Křížovka na dnes – zdarma, nová každý den",
+    "dailyDescription": "Každý den nová křížovka zdarma, bez registrace a stejná pro všechny. Vychází ve 00:00 UTC. Řešení té včerejší najdete na stejné stránce."
   },
   "Formats": {
     "classic": {
@@ -290,6 +293,46 @@
     "faq3Answer": "Když před odpovědí není na legendu místo, sedí nad prvním písmenem nebo vedle něj a šipka se ohne, aby ukázala směr.",
     "faq4Question": "Jsou legendy ve skandinávce jiné?",
     "faq4Answer": "Jsou kratší. Musí se vejít do jednoho políčka, takže mají nanejvýš pár slov."
+  },
+  "Daily": {
+    "eyebrow": "Denní křížovka",
+    "title": "Křížovka dne",
+    "subtitle": "Každý den ve 00:00 UTC nová křížovka. Zdarma, bez registrace a stejná pro všechny.",
+    "today": "Dnes, {date}",
+    "todayTitle": "Dnešní křížovka",
+    "todaySubtitle": "{count, plural, one {# slovo} few {# slova} many {# slova} other {# slov}} s číslovanými legendami vodorovně a svisle. Přečtěte si je tady a pak otevřete mřížku a luštěte.",
+    "gridLabel": "Prázdná mřížka dnešní křížovky, {width} × {height} políček",
+    "play": "Luštit dnešní křížovku",
+    "across": "Vodorovně",
+    "down": "Svisle",
+    "unavailable": "Dnešní křížovka se ještě připravuje. Podívejte se znovu za pár minut.",
+    "streak": "{count, plural, =0 {Vyluštěte dnešní křížovku a začněte sérii} one {# den v řadě} few {# dny v řadě} many {# dne v řadě} other {# dní v řadě}}",
+    "yesterdayTitle": "Řešení včerejší křížovky",
+    "yesterdayShow": "Zobrazit řešení",
+    "yesterdayPlay": "Luštit včerejší křížovku",
+    "previousTitle": "Předchozí dny",
+    "aboutTitle": "O denní křížovce",
+    "about1": "Každý den ve 00:00 UTC se tu objeví nová křížovka: mřížka střední velikosti s číslovanými legendami vodorovně a svisle, napsanými rovnou česky, ne přeloženými. Každý, kdo ji ten den otevře, dostane stejnou křížovku.",
+    "about2": "Je zdarma a nepotřebuje účet. Postup se ukládá v tomto zařízení, takže můžete přestat a vrátit se později, a když luštíte den za dnem, roste vám série. Jakmile začne nový den, objeví se řešení včerejší křížovky níže na této stránce.",
+    "about3": "Denní křížovka vychází ve 33 jazycích, každá s vlastními slovy a legendami. Slova se berou z odděleného fondu, a proto se jinde objevují jen zřídka.",
+    "makeOwnTitle": "Chcete další?",
+    "makeOwnText": "Vytvořte si vlastní křížovku na téma, které vás baví, od zvířat po dějiny, ve velikosti a obtížnosti podle sebe.",
+    "makeOwnCta": "Vytvořit křížovku",
+    "rulesLink": "Jak luštit křížovky",
+    "faqTitle": "Otázky o denní křížovce",
+    "faq1Question": "Je denní křížovka zdarma?",
+    "faq1Answer": "Ano. Je zdarma každý den, bez účtu a bez kreditů.",
+    "faq2Question": "Kdy vychází nová denní křížovka?",
+    "faq2Answer": "Každý den ve 00:00 UTC, ve stejný okamžik ve všech jazycích.",
+    "faq3Question": "Mají všichni stejnou křížovku?",
+    "faq3Answer": "Ano. Kdo otevře denní křížovku ve stejném jazyce ve stejný den, uvidí stejnou mřížku a stejné legendy.",
+    "faq4Question": "Kde najdu řešení včerejší křížovky?",
+    "faq4Answer": "Na této stránce: jakmile začne nový den, objeví se včerejší legendy s řešením pod dnešní křížovkou. Křížovky z posledního týdne lze také ještě luštit.",
+    "faq5Question": "Mohu luštit denní křížovku v telefonu?",
+    "faq5Answer": "Ano. Funguje v každém prohlížeči v telefonu, tabletu i počítači a aplikaci lze nainstalovat. Otevřená křížovka funguje i offline.",
+    "teaserTitle": "Dnešní křížovka",
+    "teaserText": "Každý den křížovka zdarma: stejná pro všechny, bez registrace.",
+    "teaserCta": "Luštit dnešní křížovku"
   },
   "TopicsPage": {
     "eyebrow": "Témata",

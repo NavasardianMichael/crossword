@@ -1,0 +1,4002 @@
+[
+  {
+    "word": "ceas",
+    "topics": ["general"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Aparat care arată ora",
+    "shortClue": "Arată ora"
+  },
+  {
+    "word": "oră",
+    "topics": ["general"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Șaizeci de minute",
+    "shortClue": "Șaizeci de minute"
+  },
+  {
+    "word": "minut",
+    "topics": ["general"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Șaizeci de secunde",
+    "shortClue": "Șaizeci de secunde"
+  },
+  {
+    "word": "secundă",
+    "topics": ["general"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "A șaizecea parte dintr-un minut",
+    "shortClue": "Fărâmă de timp"
+  },
+  {
+    "word": "săptămână",
+    "topics": ["general"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Șapte zile la rând",
+    "shortClue": "Șapte zile"
+  },
+  {
+    "word": "lună",
+    "topics": ["general"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Una dintre cele douăsprezece părți ale anului",
+    "shortClue": "Parte din an"
+  },
+  {
+    "word": "anotimp",
+    "topics": ["general"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Primăvara sau vara, de pildă",
+    "shortClue": "Primăvară ori vară"
+  },
+  {
+    "word": "dimineață",
+    "topics": ["general"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Începutul zilei",
+    "shortClue": "Început de zi"
+  },
+  {
+    "word": "seară",
+    "topics": ["general"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Sfârșit de zi, înainte de noapte",
+    "shortClue": "Spre noapte"
+  },
+  {
+    "word": "amiază",
+    "topics": ["general"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Mijlocul zilei",
+    "shortClue": "Ora douăsprezece"
+  },
+  {
+    "word": "ieri",
+    "topics": ["general"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Ziua dinaintea celei de azi",
+    "shortClue": "Ziua trecută"
+  },
+  {
+    "word": "mâine",
+    "topics": ["general"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Ziua de după azi",
+    "shortClue": "Ziua următoare"
+  },
+  {
+    "word": "trecut",
+    "topics": ["general"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Ce a fost înainte de prezent",
+    "shortClue": "Timp scurs"
+  },
+  {
+    "word": "viitor",
+    "topics": ["general"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Timpul care urmează",
+    "shortClue": "Ce va fi"
+  },
+  {
+    "word": "prezent",
+    "topics": ["general"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Timpul de acum",
+    "shortClue": "Timpul de acum"
+  },
+  {
+    "word": "dragoste",
+    "topics": ["general"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Sentiment cald față de cei apropiați",
+    "shortClue": "Sentiment cald"
+  },
+  {
+    "word": "bucurie",
+    "topics": ["general"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Stare de veselie mare",
+    "shortClue": "Stare veselă"
+  },
+  {
+    "word": "tristețe",
+    "topics": ["general"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Starea celui care nu are chef de râs",
+    "shortClue": "Lipsă de veselie"
+  },
+  {
+    "word": "frică",
+    "topics": ["general"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Sentiment trezit de un pericol",
+    "shortClue": "Teamă mare"
+  },
+  {
+    "word": "mânie",
+    "topics": ["general"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Supărare mare, izbucnită",
+    "shortClue": "Furie mare"
+  },
+  {
+    "word": "speranță",
+    "topics": ["general"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Încredere că va fi mai bine",
+    "shortClue": "Încredere"
+  },
+  {
+    "word": "răbdare",
+    "topics": ["general"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Calitatea celui care poate aștepta",
+    "shortClue": "Știi să aștepți"
+  },
+  {
+    "word": "curaj",
+    "topics": ["general"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Puterea de a înfrunta frica",
+    "shortClue": "Îndrăzneală"
+  },
+  {
+    "word": "mândrie",
+    "topics": ["general"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Satisfacție față de ce ai făcut",
+    "shortClue": "Fală"
+  },
+  {
+    "word": "rușine",
+    "topics": ["general"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Stânjeneală după o faptă greșită",
+    "shortClue": "Jenă"
+  },
+  {
+    "word": "iertare",
+    "topics": ["general"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Faptul de a nu mai purta pică",
+    "shortClue": "Fără pică"
+  },
+  {
+    "word": "dor",
+    "topics": ["general"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Dorința de a revedea pe cineva drag",
+    "shortClue": "Tânjire"
+  },
+  {
+    "word": "zâmbet",
+    "topics": ["general"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Ridicare ușoară a colțurilor gurii",
+    "shortClue": "Față veselă"
+  },
+  {
+    "word": "râs",
+    "topics": ["general"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Sunet scos când te amuzi",
+    "shortClue": "Sunet vesel"
+  },
+  {
+    "word": "lacrimă",
+    "topics": ["general"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Picătură ce curge din ochi",
+    "shortClue": "Din ochi"
+  },
+  {
+    "word": "somn",
+    "topics": ["general"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Odihna de noapte",
+    "shortClue": "Odihnă nocturnă"
+  },
+  {
+    "word": "odihnă",
+    "topics": ["general"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Pauză după muncă",
+    "shortClue": "Pauză"
+  },
+  {
+    "word": "muncă",
+    "topics": ["general"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Lucru făcut cu efort",
+    "shortClue": "Efort"
+  },
+  {
+    "word": "joc",
+    "topics": ["general"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Distracție cu reguli, la copii",
+    "shortClue": "Distracție"
+  },
+  {
+    "word": "glumă",
+    "topics": ["general"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Vorbă făcută să stârnească râsul",
+    "shortClue": "Vorbă de duh"
+  },
+  {
+    "word": "poveste",
+    "topics": ["general"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Istorisire pentru copii",
+    "shortClue": "Basm scurt"
+  },
+  {
+    "word": "secret",
+    "topics": ["general"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Lucru pe care nu-l spui nimănui",
+    "shortClue": "Taină"
+  },
+  {
+    "word": "adevăr",
+    "topics": ["general"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Opusul minciunii",
+    "shortClue": "Opus minciunii"
+  },
+  {
+    "word": "minciună",
+    "topics": ["general"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Vorbă neadevărată spusă cu știință",
+    "shortClue": "Vorbă neadevărată"
+  },
+  {
+    "word": "vecin",
+    "topics": ["general"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Cel care locuiește alături de tine",
+    "shortClue": "Alături de casă"
+  },
+  {
+    "word": "frate",
+    "topics": ["general"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Fiu al acelorași părinți",
+    "shortClue": "Rudă de sânge"
+  },
+  {
+    "word": "soră",
+    "topics": ["general"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Fiică a acelorași părinți",
+    "shortClue": "Rudă de sânge"
+  },
+  {
+    "word": "mamă",
+    "topics": ["general"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Femeia care a născut copilul",
+    "shortClue": "Părinte"
+  },
+  {
+    "word": "tată",
+    "topics": ["general"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Părintele de parte bărbătească",
+    "shortClue": "Părinte"
+  },
+  {
+    "word": "bunic",
+    "topics": ["general"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Tatăl tatălui sau al mamei",
+    "shortClue": "Tatăl părintelui"
+  },
+  {
+    "word": "nepot",
+    "topics": ["general"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Copilul copilului tău",
+    "shortClue": "Fiul fiului"
+  },
+  {
+    "word": "văr",
+    "topics": ["general"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Fiul unchiului sau al mătușii",
+    "shortClue": "Fiul mătușii"
+  },
+  {
+    "word": "unchi",
+    "topics": ["general"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Fratele tatălui sau al mamei",
+    "shortClue": "Frate de părinte"
+  },
+  {
+    "word": "mătușă",
+    "topics": ["general"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Sora mamei sau a tatălui",
+    "shortClue": "Soră de părinte"
+  },
+  {
+    "word": "copil",
+    "topics": ["general"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Om mic, la început de viață",
+    "shortClue": "Mic om"
+  },
+  {
+    "word": "școală",
+    "topics": ["general"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Locul unde învață elevii",
+    "shortClue": "Loc de învățat"
+  },
+  {
+    "word": "lecție",
+    "topics": ["general"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Parte din curs, predată la școală",
+    "shortClue": "Ce se predă"
+  },
+  {
+    "word": "temă",
+    "topics": ["general"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Ce primești de făcut acasă după ore",
+    "shortClue": "De făcut acasă"
+  },
+  {
+    "word": "carte",
+    "topics": ["general"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Obiect cu pagini legate, de citit",
+    "shortClue": "De citit"
+  },
+  {
+    "word": "caiet",
+    "topics": ["general"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Foi legate, în care scrie elevul",
+    "shortClue": "Pentru notițe"
+  },
+  {
+    "word": "creion",
+    "topics": ["general"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Instrument de scris, cu mină",
+    "shortClue": "Cu mină"
+  },
+  {
+    "word": "radieră",
+    "topics": ["general"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Ștergi cu ea ce ai scris cu mina",
+    "shortClue": "Șterge mina"
+  },
+  {
+    "word": "tablă",
+    "topics": ["general"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Suprafața neagră pe care scrie profesorul",
+    "shortClue": "Cu cretă"
+  },
+  {
+    "word": "notă",
+    "topics": ["general"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Calificativ de la unu la zece",
+    "shortClue": "Din catalog"
+  },
+  {
+    "word": "examen",
+    "topics": ["general"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Probă de verificare a cunoștințelor",
+    "shortClue": "Probă grea"
+  },
+  {
+    "word": "vacanță",
+    "topics": ["general"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Timp liber fără ore",
+    "shortClue": "Fără ore"
+  },
+  {
+    "word": "pereche",
+    "topics": ["general"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Două lucruri la un loc",
+    "shortClue": "Doi laolaltă"
+  },
+  {
+    "word": "mulțime",
+    "topics": ["general"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Număr mare de oameni la un loc",
+    "shortClue": "Gloată"
+  },
+  {
+    "word": "bucată",
+    "topics": ["general"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Parte ruptă dintr-un întreg",
+    "shortClue": "Parte"
+  },
+  {
+    "word": "sfert",
+    "topics": ["general"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "A patra parte dintr-un întreg",
+    "shortClue": "Parte din patru"
+  },
+  {
+    "word": "drum",
+    "topics": ["general"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Cale pe care mergi",
+    "shortClue": "Cale"
+  },
+  {
+    "word": "stradă",
+    "topics": ["general"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Drum între case, într-un oraș",
+    "shortClue": "Drum urban"
+  },
+  {
+    "word": "colț",
+    "topics": ["general"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Locul unde se întâlnesc doi pereți",
+    "shortClue": "Unghi"
+  },
+  {
+    "word": "margine",
+    "topics": ["general"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Capătul unei suprafețe",
+    "shortClue": "Capăt"
+  },
+  {
+    "word": "mijloc",
+    "topics": ["general"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Punct la distanță egală de margini",
+    "shortClue": "Centru"
+  },
+  {
+    "word": "înălțime",
+    "topics": ["general"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Cât de sus ajunge ceva",
+    "shortClue": "Cât de sus"
+  },
+  {
+    "word": "lățime",
+    "topics": ["general"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Dimensiune de la un perete la celălalt",
+    "shortClue": "Dimensiune"
+  },
+  {
+    "word": "distanță",
+    "topics": ["general"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Spațiul dintre două puncte",
+    "shortClue": "Spațiu între"
+  },
+  {
+    "word": "salut",
+    "topics": ["general"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Cuvânt rostit la întâlnire",
+    "shortClue": "La întâlnire"
+  },
+  {
+    "word": "recunoștință",
+    "topics": ["general"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Sentiment față de cel care te-a ajutat",
+    "shortClue": "Mulțumire"
+  },
+  {
+    "word": "cerere",
+    "topics": ["general"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Rugăminte scrisă către o instituție",
+    "shortClue": "Rugăminte"
+  },
+  {
+    "word": "răspuns",
+    "topics": ["general"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Ce spui când ești întrebat",
+    "shortClue": "La întrebare"
+  },
+  {
+    "word": "bagaj",
+    "topics": ["general"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Valizele unui călător",
+    "shortClue": "Valize"
+  },
+  {
+    "word": "valiză",
+    "topics": ["general"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Geantă mare de călătorie",
+    "shortClue": "Geantă de drum"
+  },
+  {
+    "word": "bilet",
+    "topics": ["general"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Hârtie care îți dă dreptul la o călătorie",
+    "shortClue": "Cu loc rezervat"
+  },
+  {
+    "word": "voiaj",
+    "topics": ["general"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Călătorie lungă",
+    "shortClue": "Drum lung"
+  },
+  {
+    "word": "gară",
+    "topics": ["general"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Locul de unde pleacă trenurile",
+    "shortClue": "Pentru trenuri"
+  },
+  {
+    "word": "tren",
+    "topics": ["general"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Vehicul pe șine",
+    "shortClue": "Pe șine"
+  },
+  {
+    "word": "vapor",
+    "topics": ["general"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Navă mare cu motor",
+    "shortClue": "Navă mare"
+  },
+  {
+    "word": "avion",
+    "topics": ["general"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Aparat care zboară cu pasageri",
+    "shortClue": "Zboară sus"
+  },
+  {
+    "word": "hartă",
+    "topics": ["general"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Desen al unei țări sau al lumii",
+    "shortClue": "Desenul lumii"
+  },
+  {
+    "word": "început",
+    "topics": ["general"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Primul moment al unui lucru",
+    "shortClue": "Primul pas"
+  },
+  {
+    "word": "sfârșit",
+    "topics": ["general"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Momentul în care ceva se termină",
+    "shortClue": "Încheiere"
+  },
+  {
+    "word": "pas",
+    "topics": ["general"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Mișcare a piciorului la mers",
+    "shortClue": "Mișcare"
+  },
+  {
+    "word": "treabă",
+    "topics": ["general"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Lucru de făcut",
+    "shortClue": "De făcut"
+  },
+  {
+    "word": "cină",
+    "topics": ["general"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Masa de seară",
+    "shortClue": "Masă de seară"
+  },
+  {
+    "word": "obicei",
+    "topics": ["general"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Faptă repetată din deprindere",
+    "shortClue": "Deprindere"
+  },
+  {
+    "word": "idee",
+    "topics": ["general"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Gând nou care îți vine în minte",
+    "shortClue": "Gând"
+  },
+  {
+    "word": "gând",
+    "topics": ["general"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Ce se petrece în mintea ta",
+    "shortClue": "În minte"
+  },
+  {
+    "word": "memorie",
+    "topics": ["general"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Capacitatea de a ține minte",
+    "shortClue": "Ține minte"
+  },
+  {
+    "word": "rațiune",
+    "topics": ["general"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Facultatea omului de a judeca",
+    "shortClue": "Judecată"
+  },
+  {
+    "word": "sens",
+    "topics": ["general"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Înțelesul unui cuvânt",
+    "shortClue": "Înțeles"
+  },
+  {
+    "word": "motiv",
+    "topics": ["general"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Cauza unei fapte",
+    "shortClue": "Cauză"
+  },
+  {
+    "word": "scop",
+    "topics": ["general"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Ținta spre care te îndrepți",
+    "shortClue": "Țintă"
+  },
+  {
+    "word": "alegere",
+    "topics": ["general"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Hotărârea între mai multe variante",
+    "shortClue": "Decizie"
+  },
+  {
+    "word": "pace",
+    "topics": ["general"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Liniște între oameni, fără ceartă",
+    "shortClue": "Fără ceartă"
+  },
+  {
+    "word": "liniște",
+    "topics": ["general"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Lipsă de zgomot",
+    "shortClue": "Fără zgomot"
+  },
+  {
+    "word": "zgomot",
+    "topics": ["general"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Sunet puternic și supărător",
+    "shortClue": "Sunet tare"
+  },
+  {
+    "word": "culoare",
+    "topics": ["general"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Roșu, galben sau albastru",
+    "shortClue": "Roșu ori verde"
+  },
+  {
+    "word": "mărime",
+    "topics": ["general"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Cât de mare este un lucru",
+    "shortClue": "Cât de mare"
+  },
+  {
+    "word": "greutate",
+    "topics": ["general"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Cât cântărește un lucru",
+    "shortClue": "Cât cântărește"
+  },
+  {
+    "word": "viteză",
+    "topics": ["general"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Cât de repede se mișcă ceva",
+    "shortClue": "Cât de repede"
+  },
+  {
+    "word": "ajutor",
+    "topics": ["general"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Sprijin dat cuiva la nevoie",
+    "shortClue": "Sprijin"
+  },
+  {
+    "word": "sfat",
+    "topics": ["general"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Povață dată de cineva cu experiență",
+    "shortClue": "Povață"
+  },
+  {
+    "word": "cadou",
+    "topics": ["general"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Dar oferit de ziua cuiva",
+    "shortClue": "Dar"
+  },
+  {
+    "word": "vizită",
+    "topics": ["general"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Drumul făcut la cineva acasă",
+    "shortClue": "La cineva"
+  },
+  {
+    "word": "oaspete",
+    "topics": ["general"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Cel care vine în vizită",
+    "shortClue": "Vizitator"
+  },
+  {
+    "word": "soluție",
+    "topics": ["general"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Răspuns la o problemă",
+    "shortClue": "Rezolvare"
+  },
+  {
+    "word": "nevoie",
+    "topics": ["general"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Lipsă simțită de cineva",
+    "shortClue": "Lipsă"
+  },
+  {
+    "word": "poftă",
+    "topics": ["general"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Dorința de a mânca ceva",
+    "shortClue": "Chef de mâncare"
+  },
+  {
+    "word": "răsplată",
+    "topics": ["general"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Premiu pentru o faptă bună",
+    "shortClue": "Premiu"
+  },
+  {
+    "word": "pedeapsă",
+    "topics": ["general"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Sancțiune dată pentru o greșeală",
+    "shortClue": "Sancțiune"
+  },
+  {
+    "word": "regulă",
+    "topics": ["general"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Normă care trebuie respectată",
+    "shortClue": "Normă"
+  },
+  {
+    "word": "ordine",
+    "topics": ["general"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Așezare cuminte a lucrurilor",
+    "shortClue": "Rânduială"
+  },
+  {
+    "word": "haos",
+    "topics": ["general"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Lipsă totală de ordine",
+    "shortClue": "Dezordine"
+  },
+  {
+    "word": "putere",
+    "topics": ["general"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Forță de a face ceva",
+    "shortClue": "Forță"
+  },
+  {
+    "word": "sănătate",
+    "topics": ["general"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Starea celui care nu e bolnav",
+    "shortClue": "Fără boală"
+  },
+  {
+    "word": "boală",
+    "topics": ["general"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Stare de rău a trupului",
+    "shortClue": "Rău trupesc"
+  },
+  {
+    "word": "durere",
+    "topics": ["general"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Senzație supărătoare în trup",
+    "shortClue": "Suferință"
+  },
+  {
+    "word": "grijă",
+    "topics": ["general"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Stare de neliniște pentru cineva",
+    "shortClue": "Neliniște"
+  },
+  {
+    "word": "înțelepciune",
+    "topics": ["general"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Minte ageră și chibzuită",
+    "shortClue": "Minte coaptă"
+  },
+  {
+    "word": "generozitate",
+    "topics": ["general"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Dăruirea fără să ceri ceva",
+    "shortClue": "Dărnicie"
+  },
+  {
+    "word": "invidie",
+    "topics": ["general"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Ciudă pe norocul altuia",
+    "shortClue": "Ciudă"
+  },
+  {
+    "word": "orgoliu",
+    "topics": ["general"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Părere prea bună despre sine",
+    "shortClue": "Trufie"
+  },
+  {
+    "word": "lene",
+    "topics": ["general"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Lipsă de chef de lucru",
+    "shortClue": "Fără chef"
+  },
+  {
+    "word": "stejar",
+    "topics": ["nature"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Copac cu ghinde, simbol de forță",
+    "shortClue": "Copac cu ghinde"
+  },
+  {
+    "word": "fag",
+    "topics": ["nature"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Copac de munte cu scoarță cenușie și netedă",
+    "shortClue": "Copac de munte"
+  },
+  {
+    "word": "brad",
+    "topics": ["nature"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Conifer de iarnă, ales pentru sărbători",
+    "shortClue": "Conifer verde"
+  },
+  {
+    "word": "molid",
+    "topics": ["nature"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Conifer înalt din pădurile de munte",
+    "shortClue": "Conifer înalt"
+  },
+  {
+    "word": "salcie",
+    "topics": ["nature"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Arbore cu ramuri lăsate spre apă",
+    "shortClue": "Arbore plângător"
+  },
+  {
+    "word": "tei",
+    "topics": ["nature"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Copac ale cărui flori dau un ceai liniștitor",
+    "shortClue": "Copac cu flori"
+  },
+  {
+    "word": "plop",
+    "topics": ["nature"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Arbore foarte înalt, cu puf primăvara",
+    "shortClue": "Arbore înalt"
+  },
+  {
+    "word": "mesteacăn",
+    "topics": ["nature"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Copac cu scoarță albă",
+    "shortClue": "Scoarță albă"
+  },
+  {
+    "word": "nuc",
+    "topics": ["nature"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Pom cu fructe în coajă tare",
+    "shortClue": "Pom cu coajă"
+  },
+  {
+    "word": "trandafir",
+    "topics": ["nature"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Floare cu spini, regina grădinii",
+    "shortClue": "Floare cu spini"
+  },
+  {
+    "word": "lalea",
+    "topics": ["nature"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Floare de primăvară cu corolă ca un pahar",
+    "shortClue": "Floare de primăvară"
+  },
+  {
+    "word": "ghiocel",
+    "topics": ["nature"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Prima floare albă după iarnă",
+    "shortClue": "Floare albă"
+  },
+  {
+    "word": "mac",
+    "topics": ["nature"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Floare roșie de câmp, cu semințe mici",
+    "shortClue": "Floare roșie"
+  },
+  {
+    "word": "crin",
+    "topics": ["nature"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Floare albă, mare, cu miros puternic",
+    "shortClue": "Floare albă"
+  },
+  {
+    "word": "curcubeu",
+    "topics": ["nature"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Arc cu șapte culori după ploaie",
+    "shortClue": "Arc colorat"
+  },
+  {
+    "word": "rouă",
+    "topics": ["nature"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Stropi de apă pe iarbă dimineața",
+    "shortClue": "Stropi de dimineață"
+  },
+  {
+    "word": "furtună",
+    "topics": ["nature"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Vreme rea cu tunete și vânt",
+    "shortClue": "Vreme rea"
+  },
+  {
+    "word": "fulger",
+    "topics": ["nature"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Lumină scurtă pe cer în timpul furtunii",
+    "shortClue": "Lumină pe cer"
+  },
+  {
+    "word": "tunet",
+    "topics": ["nature"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Bubuitură ce urmează fulgerului",
+    "shortClue": "După fulger"
+  },
+  {
+    "word": "gheață",
+    "topics": ["nature"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Apă înghețată",
+    "shortClue": "Apă solidă"
+  },
+  {
+    "word": "izvor",
+    "topics": ["nature"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Locul unde apa iese din pământ",
+    "shortClue": "Apă din pământ"
+  },
+  {
+    "word": "pârâu",
+    "topics": ["nature"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Râu mic, de munte",
+    "shortClue": "Râu mic"
+  },
+  {
+    "word": "cascadă",
+    "topics": ["nature"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Apă care cade de la înălțime",
+    "shortClue": "Apă care cade"
+  },
+  {
+    "word": "peșteră",
+    "topics": ["nature"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Gaură mare în stâncă",
+    "shortClue": "Adăpost în stâncă"
+  },
+  {
+    "word": "stâncă",
+    "topics": ["nature"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Bloc mare de piatră",
+    "shortClue": "Piatră mare"
+  },
+  {
+    "word": "insulă",
+    "topics": ["nature"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Uscat înconjurat de apă",
+    "shortClue": "Uscat în mare"
+  },
+  {
+    "word": "poiană",
+    "topics": ["nature"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Loc fără copaci în mijlocul pădurii",
+    "shortClue": "Luminiș"
+  },
+  {
+    "word": "mușchi",
+    "topics": ["nature"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Plantă moale și verde, de pe trunchiuri",
+    "shortClue": "Verdeață moale"
+  },
+  {
+    "word": "frunză",
+    "topics": ["nature"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Parte verde a unui copac",
+    "shortClue": "Verde de copac"
+  },
+  {
+    "word": "vulcan",
+    "topics": ["nature"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Munte care aruncă lavă",
+    "shortClue": "Munte cu lavă"
+  },
+  {
+    "word": "urs",
+    "topics": ["animals"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Fiară blănoasă care hibernează",
+    "shortClue": "Fiară blănoasă"
+  },
+  {
+    "word": "lup",
+    "topics": ["animals"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Fiară sălbatică ce urlă noaptea",
+    "shortClue": "Urlă noaptea"
+  },
+  {
+    "word": "cerb",
+    "topics": ["animals"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Animal de pădure cu coarne ramificate",
+    "shortClue": "Cu coarne mari"
+  },
+  {
+    "word": "mistreț",
+    "topics": ["animals"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Porc sălbatic cu colți",
+    "shortClue": "Porc sălbatic"
+  },
+  {
+    "word": "iepure",
+    "topics": ["animals"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Animal cu urechi lungi, iute",
+    "shortClue": "Urechi lungi"
+  },
+  {
+    "word": "vidră",
+    "topics": ["animals"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Mamifer acvatic cu blană deasă",
+    "shortClue": "Mamifer de râu"
+  },
+  {
+    "word": "bursuc",
+    "topics": ["animals"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Animal de noapte, cu dungi albe pe cap",
+    "shortClue": "Animal de noapte"
+  },
+  {
+    "word": "arici",
+    "topics": ["animals"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Animal înțepător care se face ghem",
+    "shortClue": "Animal cu ghimpi"
+  },
+  {
+    "word": "șoarece",
+    "topics": ["animals"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Rozătoare mică, dușmanul pisicii",
+    "shortClue": "Rozătoare mică"
+  },
+  {
+    "word": "cârtiță",
+    "topics": ["animals"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Animal orb care sapă galerii",
+    "shortClue": "Sapă galerii"
+  },
+  {
+    "word": "broască",
+    "topics": ["animals"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Amfibian care sare și orăcăie",
+    "shortClue": "Orăcăie în baltă"
+  },
+  {
+    "word": "șarpe",
+    "topics": ["animals"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Reptilă fără picioare",
+    "shortClue": "Reptilă lungă"
+  },
+  {
+    "word": "țestoasă",
+    "topics": ["animals"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Reptilă cu carapace",
+    "shortClue": "Cu carapace"
+  },
+  {
+    "word": "vultur",
+    "topics": ["animals"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Pasăre răpitoare cu aripi uriașe",
+    "shortClue": "Rege al zborului"
+  },
+  {
+    "word": "șoim",
+    "topics": ["animals"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Pasăre de pradă cu vedere ageră",
+    "shortClue": "Pasăre de pradă"
+  },
+  {
+    "word": "bufniță",
+    "topics": ["animals"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Pasăre de noapte cu ochi mari",
+    "shortClue": "Pasăre nocturnă"
+  },
+  {
+    "word": "barză",
+    "topics": ["animals"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Pasăre cu picioare lungi, cuibărește pe case",
+    "shortClue": "Pasăre migratoare"
+  },
+  {
+    "word": "vrabie",
+    "topics": ["animals"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Pasăre mică, cenușie, din oraș",
+    "shortClue": "Pasăre mică"
+  },
+  {
+    "word": "privighetoare",
+    "topics": ["animals"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Pasăre cu cântec minunat, de noapte",
+    "shortClue": "Cântăreață de noapte"
+  },
+  {
+    "word": "ciocârlie",
+    "topics": ["animals"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Pasăre de câmp care cântă în zbor",
+    "shortClue": "Cântă în zbor"
+  },
+  {
+    "word": "cocoș",
+    "topics": ["animals"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Cântă dimineața la prima rază",
+    "shortClue": "Vestește zorii"
+  },
+  {
+    "word": "porc",
+    "topics": ["animals"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Animal de fermă, din care ies cârnații",
+    "shortClue": "Grohăie"
+  },
+  {
+    "word": "berbec",
+    "topics": ["animals"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Masculul oii, cu coarne răsucite",
+    "shortClue": "Cu coarne răsucite"
+  },
+  {
+    "word": "albină",
+    "topics": ["animals"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Insectă care face miere",
+    "shortClue": "Face miere"
+  },
+  {
+    "word": "fluture",
+    "topics": ["animals"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Insectă cu aripi colorate",
+    "shortClue": "Aripi colorate"
+  },
+  {
+    "word": "furnică",
+    "topics": ["animals"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Insectă mică și harnică, trăiește în colonii",
+    "shortClue": "Insectă harnică"
+  },
+  {
+    "word": "delfin",
+    "topics": ["animals"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Mamifer marin jucăuș",
+    "shortClue": "Jucăuș în mare"
+  },
+  {
+    "word": "păstrăv",
+    "topics": ["animals"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Pește de munte, cu puncte colorate",
+    "shortClue": "Pește de munte"
+  },
+  {
+    "word": "știucă",
+    "topics": ["animals"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Pește răpitor de apă dulce",
+    "shortClue": "Pește răpitor"
+  },
+  {
+    "word": "girafă",
+    "topics": ["animals"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Animal african cu gât foarte lung",
+    "shortClue": "Gât lung"
+  },
+  {
+    "word": "sare",
+    "topics": ["food"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Condiment alb, necesar în orice bucate",
+    "shortClue": "Condiment alb"
+  },
+  {
+    "word": "piper",
+    "topics": ["food"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Condiment negru, mărunt, iute",
+    "shortClue": "Condiment iute"
+  },
+  {
+    "word": "zahăr",
+    "topics": ["food"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Îndulcește ceaiul",
+    "shortClue": "Îndulcitor"
+  },
+  {
+    "word": "ulei",
+    "topics": ["food"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Grăsime lichidă pentru prăjit",
+    "shortClue": "Grăsime lichidă"
+  },
+  {
+    "word": "făină",
+    "topics": ["food"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Pudră de grâu, pentru aluat",
+    "shortClue": "Pentru aluat"
+  },
+  {
+    "word": "drojdie",
+    "topics": ["food"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Ciupercă ce face aluatul să crească",
+    "shortClue": "Dospește aluatul"
+  },
+  {
+    "word": "papanași",
+    "topics": ["food"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Gogoși fierte, cu smântână",
+    "shortClue": "Desert cu smântână"
+  },
+  {
+    "word": "tort",
+    "topics": ["food"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Desert mare de aniversare",
+    "shortClue": "Desert aniversar"
+  },
+  {
+    "word": "gem",
+    "topics": ["food"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Fructe fierte cu zahăr, pe pâine",
+    "shortClue": "Pe pâine"
+  },
+  {
+    "word": "baclava",
+    "topics": ["food"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Prăjitură cu foi subțiri, nuci și sirop",
+    "shortClue": "Foi cu nuci"
+  },
+  {
+    "word": "covrig",
+    "topics": ["food"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Pâine în formă de inel, cu susan",
+    "shortClue": "Inel cu susan"
+  },
+  {
+    "word": "ciorbă",
+    "topics": ["food"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Fiertură acrișoară cu legume",
+    "shortClue": "Fiertură acrișoară"
+  },
+  {
+    "word": "tocană",
+    "topics": ["food"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Mâncare de carne cu sos gros",
+    "shortClue": "Carne cu sos"
+  },
+  {
+    "word": "cârnat",
+    "topics": ["food"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Carne tocată în înveliș subțire",
+    "shortClue": "Carne tocată"
+  },
+  {
+    "word": "slănină",
+    "topics": ["food"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Grăsime sărată de porc",
+    "shortClue": "Grăsime de porc"
+  },
+  {
+    "word": "pastramă",
+    "topics": ["food"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Carne sărată și uscată, în bucăți",
+    "shortClue": "Carne uscată"
+  },
+  {
+    "word": "fasole",
+    "topics": ["food"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Păstăi cu boabe, la ciorbă",
+    "shortClue": "Boabe de ciorbă"
+  },
+  {
+    "word": "ardei",
+    "topics": ["food"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Legumă roșie, galbenă sau iute",
+    "shortClue": "Legumă iute"
+  },
+  {
+    "word": "ceapă",
+    "topics": ["food"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Legumă ce te face să plângi",
+    "shortClue": "Face lacrimi"
+  },
+  {
+    "word": "varză",
+    "topics": ["food"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Legumă cu foi, bună la murat",
+    "shortClue": "Legumă cu foi"
+  },
+  {
+    "word": "dovleac",
+    "topics": ["food"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Legumă mare, portocalie, de toamnă",
+    "shortClue": "Legumă portocalie"
+  },
+  {
+    "word": "busuioc",
+    "topics": ["food"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Plantă aromată, cu frunze verzi, în sosul de roșii",
+    "shortClue": "Plantă aromată"
+  },
+  {
+    "word": "cireașă",
+    "topics": ["food"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Fruct mic, roșu, cu sâmbure",
+    "shortClue": "Fruct mic roșu"
+  },
+  {
+    "word": "zmeură",
+    "topics": ["food"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Fruct roșu, mărunt, de pădure",
+    "shortClue": "Fruct de pădure"
+  },
+  {
+    "word": "pepene",
+    "topics": ["food"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Fruct mare, verde, cu miez roșu",
+    "shortClue": "Fruct de vară"
+  },
+  {
+    "word": "lămâie",
+    "topics": ["food"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Fruct galben, acru",
+    "shortClue": "Fruct acru"
+  },
+  {
+    "word": "bere",
+    "topics": ["food"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Băutură din malț și hamei",
+    "shortClue": "Băutură din malț"
+  },
+  {
+    "word": "ceai",
+    "topics": ["food"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Băutură fierbinte din frunze uscate",
+    "shortClue": "Băutură fierbinte"
+  },
+  {
+    "word": "iaurt",
+    "topics": ["food"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Lapte fermentat, cremos",
+    "shortClue": "Lapte fermentat"
+  },
+  {
+    "word": "telemea",
+    "topics": ["food"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Brânză sărată, ținută în saramură",
+    "shortClue": "Brânză sărată"
+  },
+  {
+    "word": "urdă",
+    "topics": ["food"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Brânză albă, moale, din zer",
+    "shortClue": "Brânză din zer"
+  },
+  {
+    "word": "zacuscă",
+    "topics": ["food"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Conserva de vinete și ardei, pe pâine",
+    "shortClue": "Conservă de toamnă"
+  },
+  {
+    "word": "vânătă",
+    "topics": ["food"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Legumă mov, din care se face salată",
+    "shortClue": "Legumă mov"
+  },
+  {
+    "word": "Țărm",
+    "topics": ["geography"],
+    "difficulty": 1,
+    "kind": "proper",
+    "clue": "Fâșia de uscat de lângă mare",
+    "shortClue": "Margine de mare"
+  },
+  {
+    "word": "vale",
+    "topics": ["geography"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Loc scăzut între doi munți",
+    "shortClue": "Între munți"
+  },
+  {
+    "word": "deal",
+    "topics": ["geography"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Înălțime mai mică decât muntele",
+    "shortClue": "Înălțime mică"
+  },
+  {
+    "word": "podiș",
+    "topics": ["geography"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Întindere înaltă și relativ netedă",
+    "shortClue": "Câmpie înaltă"
+  },
+  {
+    "word": "port",
+    "topics": ["geography"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Loc unde acostează vapoarele",
+    "shortClue": "Loc pentru vapoare"
+  },
+  {
+    "word": "graniță",
+    "topics": ["geography"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Linie care desparte două țări",
+    "shortClue": "Între țări"
+  },
+  {
+    "word": "lac",
+    "topics": ["geography"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Întindere de apă înconjurată de uscat",
+    "shortClue": "Apă stătătoare"
+  },
+  {
+    "word": "ocean",
+    "topics": ["geography"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Pacificul sau Atlanticul",
+    "shortClue": "Apă imensă"
+  },
+  {
+    "word": "deșert",
+    "topics": ["geography"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Întindere aridă, cu nisip",
+    "shortClue": "Ținut de nisip"
+  },
+  {
+    "word": "ecuator",
+    "topics": ["geography"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Cercul care împarte Pământul în două emisfere",
+    "shortClue": "Cerc al Pământului"
+  },
+  {
+    "word": "meridian",
+    "topics": ["geography"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Linie imaginară de la un pol la altul",
+    "shortClue": "Linie pe glob"
+  },
+  {
+    "word": "sat",
+    "topics": ["geography"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Așezare mică, rurală",
+    "shortClue": "Așezare rurală"
+  },
+  {
+    "word": "județ",
+    "topics": ["geography"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Diviziune administrativă a țării",
+    "shortClue": "Unitate administrativă"
+  },
+  {
+    "word": "ghețar",
+    "topics": ["geography"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Masă uriașă de gheață pe un munte",
+    "shortClue": "Gheață de munte"
+  },
+  {
+    "word": "savană",
+    "topics": ["geography"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Câmpie africană cu iarbă înaltă",
+    "shortClue": "Câmpie africană"
+  },
+  {
+    "word": "stepă",
+    "topics": ["geography"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Câmpie întinsă, acoperită cu iarbă",
+    "shortClue": "Câmpie cu iarbă"
+  },
+  {
+    "word": "Oradea",
+    "topics": ["geography"],
+    "difficulty": 1,
+    "kind": "proper",
+    "clue": "Oraș din vest, pe Crișul Repede",
+    "shortClue": "Oraș din vest"
+  },
+  {
+    "word": "Ploiești",
+    "topics": ["geography"],
+    "difficulty": 1,
+    "kind": "proper",
+    "clue": "Oraș al petrolului, la sud de munți",
+    "shortClue": "Oraș petrolier"
+  },
+  {
+    "word": "Suceava",
+    "topics": ["geography"],
+    "difficulty": 2,
+    "kind": "proper",
+    "clue": "Fosta cetate de scaun a Moldovei",
+    "shortClue": "Oraș din nord"
+  },
+  {
+    "word": "Tulcea",
+    "topics": ["geography"],
+    "difficulty": 2,
+    "kind": "proper",
+    "clue": "Poarta Deltei Dunării",
+    "shortClue": "Poarta Deltei"
+  },
+  {
+    "word": "Maramureș",
+    "topics": ["geography"],
+    "difficulty": 2,
+    "kind": "proper",
+    "clue": "Ținut din nord, cu biserici de lemn",
+    "shortClue": "Ținut din nord"
+  },
+  {
+    "word": "Bucovina",
+    "topics": ["geography"],
+    "difficulty": 2,
+    "kind": "proper",
+    "clue": "Ținut cu mănăstiri pictate",
+    "shortClue": "Ținut din nord"
+  },
+  {
+    "word": "Banat",
+    "topics": ["geography"],
+    "difficulty": 2,
+    "kind": "proper",
+    "clue": "Regiune din vestul țării",
+    "shortClue": "Regiune de vest"
+  },
+  {
+    "word": "Prut",
+    "topics": ["geography"],
+    "difficulty": 2,
+    "kind": "proper",
+    "clue": "Râu care formează granița de est",
+    "shortClue": "Râu de graniță"
+  },
+  {
+    "word": "Siret",
+    "topics": ["geography"],
+    "difficulty": 3,
+    "kind": "proper",
+    "clue": "Râu mare din Moldova, afluent al Dunării",
+    "shortClue": "Râu moldovean"
+  },
+  {
+    "word": "Bucegi",
+    "topics": ["geography"],
+    "difficulty": 2,
+    "kind": "proper",
+    "clue": "Masiv cu Sfinxul și Babele",
+    "shortClue": "Masiv montan"
+  },
+  {
+    "word": "Ceahlău",
+    "topics": ["geography"],
+    "difficulty": 3,
+    "kind": "proper",
+    "clue": "Munte numit Olimpul Moldovei",
+    "shortClue": "Munte moldovean"
+  },
+  {
+    "word": "Moldoveanu",
+    "topics": ["geography"],
+    "difficulty": 2,
+    "kind": "proper",
+    "clue": "Cel mai înalt vârf din țară",
+    "shortClue": "Vârf din Făgăraș"
+  },
+  {
+    "word": "Sahara",
+    "topics": ["geography"],
+    "difficulty": 1,
+    "kind": "proper",
+    "clue": "Cel mai mare deșert fierbinte",
+    "shortClue": "Mare deșert"
+  },
+  {
+    "word": "Alpi",
+    "topics": ["geography"],
+    "difficulty": 1,
+    "kind": "proper",
+    "clue": "Lanț muntos din Europa Centrală",
+    "shortClue": "Munți înzăpeziți"
+  },
+  {
+    "word": "domnitor",
+    "topics": ["history"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Conducătorul unei țări românești medievale",
+    "shortClue": "Conducător vechi"
+  },
+  {
+    "word": "rege",
+    "topics": ["history"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Monarh care poartă coroană",
+    "shortClue": "Monarh"
+  },
+  {
+    "word": "coroană",
+    "topics": ["history"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Podoaba de aur de pe capul monarhului",
+    "shortClue": "Podoabă regală"
+  },
+  {
+    "word": "sceptru",
+    "topics": ["history"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Baston ținut de monarh la ceremonii",
+    "shortClue": "Baston regal"
+  },
+  {
+    "word": "tron",
+    "topics": ["history"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Scaunul monarhului",
+    "shortClue": "Scaun regal"
+  },
+  {
+    "word": "blazon",
+    "topics": ["history"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Scut cu semne ale unui neam nobil",
+    "shortClue": "Stemă"
+  },
+  {
+    "word": "armură",
+    "topics": ["history"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Veșmânt de metal al cavalerului",
+    "shortClue": "Veșmânt de metal"
+  },
+  {
+    "word": "hrisov",
+    "topics": ["history"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Act domnesc vechi, cu pecete",
+    "shortClue": "Act domnesc"
+  },
+  {
+    "word": "pergament",
+    "topics": ["history"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Piele subțire pe care se scria demult",
+    "shortClue": "Piele de scris"
+  },
+  {
+    "word": "manuscris",
+    "topics": ["history"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Text de mână, înainte de tipar",
+    "shortClue": "Text de mână"
+  },
+  {
+    "word": "sigiliu",
+    "topics": ["history"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Ștampilă de ceară a unui act",
+    "shortClue": "Ceară pe act"
+  },
+  {
+    "word": "vistierie",
+    "topics": ["history"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Locul unde se păstra banul domnesc",
+    "shortClue": "Cămara cu bani"
+  },
+  {
+    "word": "iobag",
+    "topics": ["history"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Țăran legat de pământul stăpânului",
+    "shortClue": "Țăran legat"
+  },
+  {
+    "word": "breaslă",
+    "topics": ["history"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Asociație veche de meșteri",
+    "shortClue": "Asociație de meșteri"
+  },
+  {
+    "word": "negustor",
+    "topics": ["history"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Om care vinde și cumpără mărfuri",
+    "shortClue": "Vinde mărfuri"
+  },
+  {
+    "word": "han",
+    "topics": ["history"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Casă de odihnă pe marginea drumului, pentru călători",
+    "shortClue": "Popas de drum"
+  },
+  {
+    "word": "căruță",
+    "topics": ["history"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Vehicul tras de cai",
+    "shortClue": "Trasă de cai"
+  },
+  {
+    "word": "vamă",
+    "topics": ["history"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Loc unde se plătește taxă la trecerea mărfurilor",
+    "shortClue": "Taxă la graniță"
+  },
+  {
+    "word": "taler",
+    "topics": ["history"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Monedă mare de argint",
+    "shortClue": "Monedă de argint"
+  },
+  {
+    "word": "arhivă",
+    "topics": ["history"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Loc unde se păstrează documente vechi",
+    "shortClue": "Documente vechi"
+  },
+  {
+    "word": "arheolog",
+    "topics": ["history"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Cercetător care scoate la lumină urmele trecutului",
+    "shortClue": "Cercetează urme"
+  },
+  {
+    "word": "ruină",
+    "topics": ["history"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Rămășiță a unei clădiri dărâmate",
+    "shortClue": "Zid prăbușit"
+  },
+  {
+    "word": "vestigiu",
+    "topics": ["history"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Urmă care a rămas din vremuri vechi",
+    "shortClue": "Urmă străveche"
+  },
+  {
+    "word": "castru",
+    "topics": ["history"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Tabără întărită a legiunilor romane",
+    "shortClue": "Tabără romană"
+  },
+  {
+    "word": "mozaic",
+    "topics": ["history"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Imagine din bucățele colorate de piatră",
+    "shortClue": "Piatre colorate"
+  },
+  {
+    "word": "epocă",
+    "topics": ["history"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Perioadă lungă din istorie",
+    "shortClue": "Perioadă"
+  },
+  {
+    "word": "secol",
+    "topics": ["history"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "O sută de ani",
+    "shortClue": "Sută de ani"
+  },
+  {
+    "word": "dinastie",
+    "topics": ["history"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Șir de monarhi din aceeași familie",
+    "shortClue": "Neam de regi"
+  },
+  {
+    "word": "imperiu",
+    "topics": ["history"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Stat uriaș cu mulți supuși",
+    "shortClue": "Stat uriaș"
+  },
+  {
+    "word": "tratat",
+    "topics": ["history"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Înțelegere scrisă între state",
+    "shortClue": "Înțelegere scrisă"
+  },
+  {
+    "word": "gravitație",
+    "topics": ["science"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Forța care ține lucrurile pe Pământ",
+    "shortClue": "Atracție terestră"
+  },
+  {
+    "word": "volum",
+    "topics": ["science"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Cât spațiu ocupă un corp",
+    "shortClue": "Spațiu ocupat"
+  },
+  {
+    "word": "densitate",
+    "topics": ["science"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Masa unui corp raportată la volum",
+    "shortClue": "Masă pe volum"
+  },
+  {
+    "word": "presiune",
+    "topics": ["science"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Forța care apasă pe o suprafață",
+    "shortClue": "Apăsare"
+  },
+  {
+    "word": "temperatură",
+    "topics": ["science"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Se măsoară cu termometrul",
+    "shortClue": "Grade de căldură"
+  },
+  {
+    "word": "prismă",
+    "topics": ["science"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Corp de sticlă care descompune lumina",
+    "shortClue": "Descompune lumina"
+  },
+  {
+    "word": "lentilă",
+    "topics": ["science"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Sticlă bombată, din ochelari sau lupă",
+    "shortClue": "Sticlă bombată"
+  },
+  {
+    "word": "sunet",
+    "topics": ["science"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Ce percepe urechea",
+    "shortClue": "Ce auzi"
+  },
+  {
+    "word": "curent",
+    "topics": ["science"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Mișcarea ordonată a electronilor printr-un fir",
+    "shortClue": "Flux în fir"
+  },
+  {
+    "word": "baterie",
+    "topics": ["science"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Sursă de energie din telecomandă",
+    "shortClue": "Sursă de energie"
+  },
+  {
+    "word": "busolă",
+    "topics": ["science"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Instrument cu ac, arată nordul",
+    "shortClue": "Arată nordul"
+  },
+  {
+    "word": "laborator",
+    "topics": ["science"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Loc unde se fac experimente",
+    "shortClue": "Loc de experimente"
+  },
+  {
+    "word": "ecuație",
+    "topics": ["science"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Egalitate matematică cu o necunoscută",
+    "shortClue": "Cu necunoscută"
+  },
+  {
+    "word": "triunghi",
+    "topics": ["science"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Figură cu trei laturi",
+    "shortClue": "Trei laturi"
+  },
+  {
+    "word": "unghi",
+    "topics": ["science"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Deschiderea dintre două drepte care se întâlnesc",
+    "shortClue": "Dintre două drepte"
+  },
+  {
+    "word": "hidrogen",
+    "topics": ["science"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Cel mai ușor element chimic",
+    "shortClue": "Gaz foarte ușor"
+  },
+  {
+    "word": "carbon",
+    "topics": ["science"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Element chimic din care e făcut diamantul",
+    "shortClue": "Din diamant"
+  },
+  {
+    "word": "plumb",
+    "topics": ["science"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Metal greu, cenușiu, moale",
+    "shortClue": "Metal greu"
+  },
+  {
+    "word": "azot",
+    "topics": ["science"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Gaz care formează cea mai mare parte din aer",
+    "shortClue": "Gaz din aer"
+  },
+  {
+    "word": "creier",
+    "topics": ["science"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Organul cu care gândești",
+    "shortClue": "Organ al gândirii"
+  },
+  {
+    "word": "ficat",
+    "topics": ["science"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Organ mare în partea dreaptă a abdomenului",
+    "shortClue": "Organ digestiv"
+  },
+  {
+    "word": "rinichi",
+    "topics": ["science"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Organ care filtrează sângele, cu perechea lui",
+    "shortClue": "Filtrează sângele"
+  },
+  {
+    "word": "craniu",
+    "topics": ["science"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Osul care protejează creierul",
+    "shortClue": "Cutia creierului"
+  },
+  {
+    "word": "cometă",
+    "topics": ["science"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Corp ceresc cu coadă luminoasă",
+    "shortClue": "Cu coadă luminoasă"
+  },
+  {
+    "word": "galaxie",
+    "topics": ["science"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Imensă adunare de stele, precum Calea Lactee",
+    "shortClue": "Adunare de stele"
+  },
+  {
+    "word": "orbită",
+    "topics": ["science"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Drumul unei planete în jurul Soarelui",
+    "shortClue": "Drum ceresc"
+  },
+  {
+    "word": "eclipsă",
+    "topics": ["science"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Umbrirea Soarelui de către Lună",
+    "shortClue": "Soare ascuns"
+  },
+  {
+    "word": "satelit",
+    "topics": ["science"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Corp care se rotește în jurul unei planete",
+    "shortClue": "Însoțitor ceresc"
+  },
+  {
+    "word": "meteorit",
+    "topics": ["science"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Bucată de stâncă din spațiu ajunsă pe Pământ",
+    "shortClue": "Piatră din spațiu"
+  },
+  {
+    "word": "portar",
+    "topics": ["sport"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Jucătorul care are voie să prindă mingea cu mâna",
+    "shortClue": "Prinde mingea"
+  },
+  {
+    "word": "atacant",
+    "topics": ["sport"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Jucător care încearcă să marcheze",
+    "shortClue": "Marcator"
+  },
+  {
+    "word": "fundaș",
+    "topics": ["sport"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Jucător din apărare",
+    "shortClue": "Din apărare"
+  },
+  {
+    "word": "antrenor",
+    "topics": ["sport"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Cel care pregătește echipa",
+    "shortClue": "Pregătește echipa"
+  },
+  {
+    "word": "echipă",
+    "topics": ["sport"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Grup de jucători care joacă împreună",
+    "shortClue": "Grup de jucători"
+  },
+  {
+    "word": "campion",
+    "topics": ["sport"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Câștigătorul unui concurs important",
+    "shortClue": "Primul clasat"
+  },
+  {
+    "word": "trofeu",
+    "topics": ["sport"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Obiect primit de învingător",
+    "shortClue": "Premiu de învingător"
+  },
+  {
+    "word": "stadion",
+    "topics": ["sport"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Arenă mare pentru meciuri",
+    "shortClue": "Arenă de meci"
+  },
+  {
+    "word": "tribună",
+    "topics": ["sport"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Locul de unde spectatorii privesc meciul",
+    "shortClue": "Loc pentru suporteri"
+  },
+  {
+    "word": "bicicletă",
+    "topics": ["sport"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Vehicul cu două roți și pedale",
+    "shortClue": "Două roți"
+  },
+  {
+    "word": "patinaj",
+    "topics": ["sport"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Alunecarea pe gheață cu lame",
+    "shortClue": "Pe gheață"
+  },
+  {
+    "word": "înot",
+    "topics": ["sport"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Deplasare în apă cu brațele și picioarele",
+    "shortClue": "În bazin"
+  },
+  {
+    "word": "gimnastică",
+    "topics": ["sport"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Exerciții cu aparate, grație și forță",
+    "shortClue": "Sport de grație"
+  },
+  {
+    "word": "haltere",
+    "topics": ["sport"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Sport în care se ridică greutăți mari",
+    "shortClue": "Ridică greutăți"
+  },
+  {
+    "word": "canotaj",
+    "topics": ["sport"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Sport de vâslit într-o barcă îngustă",
+    "shortClue": "Vâslit în barcă"
+  },
+  {
+    "word": "volei",
+    "topics": ["sport"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Joc în care mingea trece peste o plasă înaltă",
+    "shortClue": "Joc cu plasă"
+  },
+  {
+    "word": "hochei",
+    "topics": ["sport"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Joc pe gheață cu crosă și puc",
+    "shortClue": "Crosă și puc"
+  },
+  {
+    "word": "șah",
+    "topics": ["sport"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Joc de gândire cu regi și nebuni pe tablă",
+    "shortClue": "Joc cu regi"
+  },
+  {
+    "word": "arc",
+    "topics": ["sport"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Instrument de tir cu săgeți",
+    "shortClue": "Tir cu săgeți"
+  },
+  {
+    "word": "cursă",
+    "topics": ["sport"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Întrecere de viteză",
+    "shortClue": "Întrecere de viteză"
+  },
+  {
+    "word": "finiș",
+    "topics": ["sport"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Linia de sosire a unei întreceri",
+    "shortClue": "Linie de sosire"
+  },
+  {
+    "word": "rachetă",
+    "topics": ["sport"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Instrument cu coardă pentru tenis",
+    "shortClue": "Lovește mingea"
+  },
+  {
+    "word": "fileu",
+    "topics": ["sport"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Plasă întinsă între două părți ale terenului",
+    "shortClue": "Plasă de teren"
+  },
+  {
+    "word": "mănușă",
+    "topics": ["sport"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Protecție pentru mâna boxerului",
+    "shortClue": "Pentru mână"
+  },
+  {
+    "word": "cronometru",
+    "topics": ["sport"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Aparat care măsoară timpul exact",
+    "shortClue": "Măsoară secundele"
+  },
+  {
+    "word": "fluier",
+    "topics": ["sport"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Obiect cu care arbitrul oprește jocul",
+    "shortClue": "Instrument de arbitru"
+  },
+  {
+    "word": "trambulină",
+    "topics": ["sport"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Suprafață elastică de sărit",
+    "shortClue": "Suprafață elastică"
+  },
+  {
+    "word": "sanie",
+    "topics": ["sport"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Vehicul pe tălpi pentru alunecat pe zăpadă",
+    "shortClue": "Alunecă pe zăpadă"
+  },
+  {
+    "word": "judo",
+    "topics": ["sport"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Sport de luptă în chimono, cu centură",
+    "shortClue": "Sport de luptă"
+  },
+  {
+    "word": "pistă",
+    "topics": ["sport"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Teren pentru curse de atletism",
+    "shortClue": "Teren de alergat"
+  },
+  {
+    "word": "gol",
+    "topics": ["sport"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Punct marcat cu mingea în poartă",
+    "shortClue": "Punct de fotbal"
+  },
+  {
+    "word": "tablou",
+    "topics": ["arts"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Pictură înrămată, atârnată pe perete",
+    "shortClue": "Pictură în ramă"
+  },
+  {
+    "word": "penel",
+    "topics": ["arts"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Unealta pictorului pentru culoare",
+    "shortClue": "Unealta pictorului"
+  },
+  {
+    "word": "pânză",
+    "topics": ["arts"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Material întins pe șasiu, pe care se pictează",
+    "shortClue": "Suport de pictură"
+  },
+  {
+    "word": "paletă",
+    "topics": ["arts"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Placă pe care pictorul amestecă vopselele",
+    "shortClue": "Amestec de vopsele"
+  },
+  {
+    "word": "șevalet",
+    "topics": ["arts"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Suport pe care stă tabloul în timpul lucrului",
+    "shortClue": "Suport de pictor"
+  },
+  {
+    "word": "schiță",
+    "topics": ["arts"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Desen rapid, primul crochiu al unei lucrări",
+    "shortClue": "Desen rapid"
+  },
+  {
+    "word": "portret",
+    "topics": ["arts"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Imagine a unui chip, desenată sau pictată",
+    "shortClue": "Chip pictat"
+  },
+  {
+    "word": "peisaj",
+    "topics": ["arts"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Tablou cu munți, câmpuri sau ape",
+    "shortClue": "Tablou de natură"
+  },
+  {
+    "word": "statuie",
+    "topics": ["arts"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Figură sculptată din piatră sau bronz",
+    "shortClue": "Figură de piatră"
+  },
+  {
+    "word": "ceramică",
+    "topics": ["arts"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Obiecte din lut ars",
+    "shortClue": "Lut ars"
+  },
+  {
+    "word": "frescă",
+    "topics": ["arts"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Pictură făcută pe tencuiala proaspătă a zidului",
+    "shortClue": "Pictură pe zid"
+  },
+  {
+    "word": "dirijor",
+    "topics": ["arts"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Cel care conduce muzicanții cu bagheta",
+    "shortClue": "Cu baghetă"
+  },
+  {
+    "word": "pian",
+    "topics": ["arts"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Instrument cu clape albe și negre",
+    "shortClue": "Cu clape"
+  },
+  {
+    "word": "chitară",
+    "topics": ["arts"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Instrument cu șase corzi, ciupit cu degetele",
+    "shortClue": "Șase corzi"
+  },
+  {
+    "word": "flaut",
+    "topics": ["arts"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Instrument de suflat, lung și subțire",
+    "shortClue": "Instrument de suflat"
+  },
+  {
+    "word": "tobă",
+    "topics": ["arts"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Instrument de percuție lovit cu bețe",
+    "shortClue": "Lovită cu bețe"
+  },
+  {
+    "word": "vers",
+    "topics": ["arts"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Rând dintr-o poezie",
+    "shortClue": "Rând de poezie"
+  },
+  {
+    "word": "rimă",
+    "topics": ["arts"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Sunet asemănător la capătul a două versuri",
+    "shortClue": "Sunet la capăt"
+  },
+  {
+    "word": "strofă",
+    "topics": ["arts"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Grup de versuri într-o poezie",
+    "shortClue": "Grup de versuri"
+  },
+  {
+    "word": "nuvelă",
+    "topics": ["arts"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Scurtă povestire în proză",
+    "shortClue": "Proză scurtă"
+  },
+  {
+    "word": "scenă",
+    "topics": ["arts"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Podiumul pe care joacă actorii",
+    "shortClue": "Podium de teatru"
+  },
+  {
+    "word": "actor",
+    "topics": ["arts"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Cel care joacă un rol",
+    "shortClue": "Joacă un rol"
+  },
+  {
+    "word": "operă",
+    "topics": ["arts"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Spectacol muzical cu cântăreți și orchestră",
+    "shortClue": "Spectacol cântat"
+  },
+  {
+    "word": "balet",
+    "topics": ["arts"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Dans clasic pe vârfuri",
+    "shortClue": "Dans pe vârfuri"
+  },
+  {
+    "word": "ritm",
+    "topics": ["arts"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Succesiune regulată a sunetelor",
+    "shortClue": "Bătaie regulată"
+  },
+  {
+    "word": "concert",
+    "topics": ["arts"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Spectacol muzical dat în fața publicului",
+    "shortClue": "Spectacol muzical"
+  },
+  {
+    "word": "fotoliu",
+    "topics": ["home"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Scaun mare, moale, cu brațe",
+    "shortClue": "Scaun moale"
+  },
+  {
+    "word": "canapea",
+    "topics": ["home"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Mobilă pentru trei persoane, în sufragerie",
+    "shortClue": "Mobilă de stat"
+  },
+  {
+    "word": "raft",
+    "topics": ["home"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Placă de lemn pe care așezi cărți",
+    "shortClue": "Placă pentru cărți"
+  },
+  {
+    "word": "birou",
+    "topics": ["home"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Masă la care lucrezi sau înveți",
+    "shortClue": "Masă de lucru"
+  },
+  {
+    "word": "cuier",
+    "topics": ["home"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Suport pentru haine în hol",
+    "shortClue": "Suport de haine"
+  },
+  {
+    "word": "covor",
+    "topics": ["home"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Țesătură groasă, întinsă pe podea",
+    "shortClue": "Pe podea"
+  },
+  {
+    "word": "perdea",
+    "topics": ["home"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Material care acoperă geamul",
+    "shortClue": "La fereastră"
+  },
+  {
+    "word": "saltea",
+    "topics": ["home"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Parte moale pe care dormi, în pat",
+    "shortClue": "Parte moale"
+  },
+  {
+    "word": "cearșaf",
+    "topics": ["home"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Pânză întinsă pe saltea",
+    "shortClue": "Pânză albă"
+  },
+  {
+    "word": "plapumă",
+    "topics": ["home"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Cuvertură groasă, umplută cu puf",
+    "shortClue": "Cuvertură de iarnă"
+  },
+  {
+    "word": "cuptor",
+    "topics": ["home"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Loc închis, încălzit, în care se coc prăjituri",
+    "shortClue": "Coace prăjituri"
+  },
+  {
+    "word": "chiuvetă",
+    "topics": ["home"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Vas din baie sau bucătărie, cu robinet",
+    "shortClue": "Cu robinet"
+  },
+  {
+    "word": "tigaie",
+    "topics": ["home"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Vas plat cu coadă, pentru prăjit",
+    "shortClue": "Vas de prăjit"
+  },
+  {
+    "word": "lingură",
+    "topics": ["home"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Tacâm pentru supă",
+    "shortClue": "Tacâm pentru supă"
+  },
+  {
+    "word": "farfurie",
+    "topics": ["home"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Vas plat din care mănânci",
+    "shortClue": "Vas plat"
+  },
+  {
+    "word": "pahar",
+    "topics": ["home"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Vas din care bei",
+    "shortClue": "Din care bei"
+  },
+  {
+    "word": "cană",
+    "topics": ["home"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Vas cu toartă pentru ceai",
+    "shortClue": "Vas cu toartă"
+  },
+  {
+    "word": "ceainic",
+    "topics": ["home"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Vas cu cioc, în care infuzezi o băutură caldă",
+    "shortClue": "Vas cu cioc"
+  },
+  {
+    "word": "sobă",
+    "topics": ["home"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Instrument de încălzit, cu lemne",
+    "shortClue": "Cu lemne"
+  },
+  {
+    "word": "acoperiș",
+    "topics": ["home"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Partea de sus a casei, cu țigle",
+    "shortClue": "Partea de sus"
+  },
+  {
+    "word": "pivniță",
+    "topics": ["home"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Încăpere de sub casă, rece, pentru provizii",
+    "shortClue": "Sub casă"
+  },
+  {
+    "word": "balcon",
+    "topics": ["home"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Platformă cu balustradă, la etaj",
+    "shortClue": "Platformă de etaj"
+  },
+  {
+    "word": "prosop",
+    "topics": ["home"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Material cu care te ștergi după duș",
+    "shortClue": "Pentru uscat"
+  },
+  {
+    "word": "săpun",
+    "topics": ["home"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Pe el îți speli mâinile",
+    "shortClue": "Pentru spălat"
+  },
+  {
+    "word": "găleată",
+    "topics": ["home"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Vas cu toartă pentru apă",
+    "shortClue": "Pentru apă"
+  },
+  {
+    "word": "burete",
+    "topics": ["home"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Obiect poros, pentru spălat vasele",
+    "shortClue": "Poros"
+  },
+  {
+    "word": "ciocan",
+    "topics": ["home"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Unealta cu care bați cuie",
+    "shortClue": "Bate cuie"
+  },
+  {
+    "word": "pompier",
+    "topics": ["professions"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Stinge incendiile",
+    "shortClue": "Stinge focul"
+  },
+  {
+    "word": "polițist",
+    "topics": ["professions"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Veghează la ordinea publică",
+    "shortClue": "Păzește ordinea"
+  },
+  {
+    "word": "judecător",
+    "topics": ["professions"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Cel care hotărăște într-un proces",
+    "shortClue": "Dă sentința"
+  },
+  {
+    "word": "avocat",
+    "topics": ["professions"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Apără pe cineva în fața instanței",
+    "shortClue": "Apărător în proces"
+  },
+  {
+    "word": "arhitect",
+    "topics": ["professions"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Cel care desenează planul unei clădiri",
+    "shortClue": "Proiectează clădiri"
+  },
+  {
+    "word": "inginer",
+    "topics": ["professions"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Specialist în construcții, mașini sau programe",
+    "shortClue": "Specialist tehnic"
+  },
+  {
+    "word": "instalator",
+    "topics": ["professions"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Meseriaș care repară conductele de apă",
+    "shortClue": "Repară țevi"
+  },
+  {
+    "word": "zidar",
+    "topics": ["professions"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Meseriaș care construiește pereți din cărămidă",
+    "shortClue": "Pune cărămizi"
+  },
+  {
+    "word": "miner",
+    "topics": ["professions"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Muncitor care scoate cărbune din adâncuri",
+    "shortClue": "Muncitor în subteran"
+  },
+  {
+    "word": "marinar",
+    "topics": ["professions"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Om care lucrează pe corabie",
+    "shortClue": "Om de corabie"
+  },
+  {
+    "word": "căpitan",
+    "topics": ["professions"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Comandantul unei nave",
+    "shortClue": "Comandant de navă"
+  },
+  {
+    "word": "șofer",
+    "topics": ["professions"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Cel care conduce mașina",
+    "shortClue": "Conduce mașina"
+  },
+  {
+    "word": "vânzător",
+    "topics": ["professions"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Cel care servește clienții la tejghea",
+    "shortClue": "Servește clienți"
+  },
+  {
+    "word": "ospătar",
+    "topics": ["professions"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Cel care servește mâncarea la restaurant",
+    "shortClue": "Servește la masă"
+  },
+  {
+    "word": "frizer",
+    "topics": ["professions"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Meseriaș care tunde părul",
+    "shortClue": "Tunde părul"
+  },
+  {
+    "word": "învățător",
+    "topics": ["professions"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Cel care predă la clasele mici",
+    "shortClue": "Predă la mici"
+  },
+  {
+    "word": "farmacist",
+    "topics": ["professions"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Cel care pregătește și eliberează medicamente",
+    "shortClue": "Dă medicamente"
+  },
+  {
+    "word": "dentist",
+    "topics": ["professions"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Medic care îngrijește dinții",
+    "shortClue": "Medic de dinți"
+  },
+  {
+    "word": "veterinar",
+    "topics": ["professions"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Medic al animalelor",
+    "shortClue": "Medic de animale"
+  },
+  {
+    "word": "grădinar",
+    "topics": ["professions"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Cel care îngrijește florile și pomii",
+    "shortClue": "Îngrijește plante"
+  },
+  {
+    "word": "păstor",
+    "topics": ["professions"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Om care păzește oile pe munte",
+    "shortClue": "Păzește oile"
+  },
+  {
+    "word": "lăcătuș",
+    "topics": ["professions"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Meseriaș care lucrează metalul",
+    "shortClue": "Lucrează metalul"
+  },
+  {
+    "word": "mecanic",
+    "topics": ["professions"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Cel care repară motoare",
+    "shortClue": "Repară motoare"
+  },
+  {
+    "word": "jurnalist",
+    "topics": ["professions"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Cel care scrie știri într-un ziar",
+    "shortClue": "Scrie știri"
+  },
+  {
+    "word": "fotograf",
+    "topics": ["professions"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Cel care face poze",
+    "shortClue": "Face poze"
+  },
+  {
+    "word": "ceasornicar",
+    "topics": ["professions"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Meșter care repară aparatele ce arată ora",
+    "shortClue": "Meșter al minutelor"
+  },
+  {
+    "word": "olar",
+    "topics": ["professions"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Meșter care modelează vase din lut",
+    "shortClue": "Modelează lutul"
+  },
+  {
+    "word": "pădurar",
+    "topics": ["professions"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Om care are grijă de arbori și de vânat",
+    "shortClue": "Paznic al arborilor"
+  },
+  {
+    "word": "cercetător",
+    "topics": ["professions"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Cel care studiază și descoperă lucruri noi",
+    "shortClue": "Studiază și descoperă"
+  },
+  {
+    "word": "traistă",
+    "topics": ["localCulture"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Geantă țărănească din lână, purtată pe umăr",
+    "shortClue": "Geantă țărănească"
+  },
+  {
+    "word": "cojoc",
+    "topics": ["localCulture"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Haină groasă din piele de oaie",
+    "shortClue": "Haină de oaie"
+  },
+  {
+    "word": "năframă",
+    "topics": ["localCulture"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Basma purtată pe cap",
+    "shortClue": "Basma"
+  },
+  {
+    "word": "căciulă",
+    "topics": ["localCulture"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Acoperământ de blană pentru cap, iarna",
+    "shortClue": "Pentru iarnă"
+  },
+  {
+    "word": "clopot",
+    "topics": ["localCulture"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Obiect de metal care sună din turnul bisericii",
+    "shortClue": "Sună din turn"
+  },
+  {
+    "word": "toacă",
+    "topics": ["localCulture"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Bucată de lemn lovită cu ciocane la mănăstire",
+    "shortClue": "Lemn de mănăstire"
+  },
+  {
+    "word": "pască",
+    "topics": ["localCulture"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Cozonac cu brânză dulce, de Paști",
+    "shortClue": "Aluat de Paști"
+  },
+  {
+    "word": "colac",
+    "topics": ["localCulture"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Pâine rotundă împletită, ca un inel",
+    "shortClue": "Pâine rotundă"
+  },
+  {
+    "word": "sorcova",
+    "topics": ["localCulture"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Ramură cu flori de hârtie, pentru urări de Anul Nou",
+    "shortClue": "Ramură cu urări"
+  },
+  {
+    "word": "plugușor",
+    "topics": ["localCulture"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Urare strigată în ajun de Anul Nou, cu bici",
+    "shortClue": "Urare de iarnă"
+  },
+  {
+    "word": "scovergi",
+    "topics": ["localCulture"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Aluat prăjit în ulei, servit cu brânză",
+    "shortClue": "Aluat prăjit"
+  },
+  {
+    "word": "borș",
+    "topics": ["localCulture"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Acru pentru ciorbă, din tărâțe fermentate",
+    "shortClue": "Acru de ciorbă"
+  },
+  {
+    "word": "cimpoi",
+    "topics": ["localCulture"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Instrument cu burduf de piele și țevi",
+    "shortClue": "Burduf cu țevi"
+  },
+  {
+    "word": "taragot",
+    "topics": ["localCulture"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Instrument de suflat cu sunet cald, din Banat",
+    "shortClue": "Suflat din Banat"
+  },
+  {
+    "word": "țambal",
+    "topics": ["localCulture"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Instrument cu coarde lovite cu ciocănele",
+    "shortClue": "Coarde cu ciocănele"
+  },
+  {
+    "word": "tulnic",
+    "topics": ["localCulture"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Corn lung de lemn al ciobanilor",
+    "shortClue": "Corn lung ciobănesc"
+  },
+  {
+    "word": "caval",
+    "topics": ["localCulture"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Fluier lung, cu șase găuri, ciobănesc",
+    "shortClue": "Fluier ciobănesc"
+  },
+  {
+    "word": "șezătoare",
+    "topics": ["localCulture"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Adunare de sat unde se toarce și se povestește",
+    "shortClue": "Adunare de sat"
+  },
+  {
+    "word": "călușar",
+    "topics": ["localCulture"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Dansator într-un joc străvechi cu bețe și clopoței",
+    "shortClue": "Dansator vechi"
+  },
+  {
+    "word": "ștergar",
+    "topics": ["localCulture"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Prosop țărănesc cu broderie",
+    "shortClue": "Prosop brodat"
+  },
+  {
+    "word": "catrință",
+    "topics": ["localCulture"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Fustă prinsă în față și în spate, la portul popular",
+    "shortClue": "Din portul popular"
+  },
+  {
+    "word": "baladă",
+    "topics": ["localCulture"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Poezie populară care povestește o întâmplare",
+    "shortClue": "Poezie populară"
+  },
+  {
+    "word": "zestre",
+    "topics": ["localCulture"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Averea pe care o primea fata la măritiș",
+    "shortClue": "Avere de mireasă"
+  },
+  {
+    "word": "nuntă",
+    "topics": ["localCulture"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Petrecere în care doi oameni se căsătoresc",
+    "shortClue": "Petrecere de miri"
+  },
+  {
+    "word": "naș",
+    "topics": ["localCulture"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Cel care botează sau cunună",
+    "shortClue": "Părinte spiritual"
+  },
+  {
+    "word": "Enescu",
+    "topics": ["localCulture"],
+    "difficulty": 2,
+    "kind": "proper",
+    "clue": "Mare compozitor român, autor al Rapsodiilor",
+    "shortClue": "Compozitor român"
+  },
+  {
+    "word": "Creangă",
+    "topics": ["localCulture"],
+    "difficulty": 2,
+    "kind": "proper",
+    "clue": "Povestitor din Humulești, scriitor al copilăriei",
+    "shortClue": "Povestitor moldovean"
+  },
+  {
+    "word": "Caragiale",
+    "topics": ["localCulture"],
+    "difficulty": 3,
+    "kind": "proper",
+    "clue": "Dramaturg al unei comedii despre o scrisoare pierdută",
+    "shortClue": "Dramaturg comic"
+  },
+  {
+    "word": "Coșbuc",
+    "topics": ["localCulture"],
+    "difficulty": 3,
+    "kind": "proper",
+    "clue": "Poet ardelean al vieții de la țară",
+    "shortClue": "Poet ardelean"
+  },
+  {
+    "word": "Bacovia",
+    "topics": ["localCulture"],
+    "difficulty": 3,
+    "kind": "proper",
+    "clue": "Poet bacăuan al toamnelor cenușii",
+    "shortClue": "Poet bacăuan"
+  },
+  {
+    "word": "zel",
+    "topics": ["general"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Râvnă pusă într-o muncă",
+    "shortClue": "Râvnă"
+  },
+  {
+    "word": "avânt",
+    "topics": ["general"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Impuls plin de energie la început de drum",
+    "shortClue": "Impuls"
+  },
+  {
+    "word": "rost",
+    "topics": ["general"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Sens sau scop al unui lucru",
+    "shortClue": "Temei"
+  },
+  {
+    "word": "ecou",
+    "topics": ["general"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Sunet care se întoarce din munți",
+    "shortClue": "Sunet întors"
+  },
+  {
+    "word": "ură",
+    "topics": ["general"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Sentiment opus iubirii",
+    "shortClue": "Opus iubirii"
+  },
+  {
+    "word": "tihnă",
+    "topics": ["general"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Liniște și pace sufletească",
+    "shortClue": "Pace sufletească"
+  },
+  {
+    "word": "colb",
+    "topics": ["general"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Praf fin, ridicat de vânt",
+    "shortClue": "Praf fin"
+  },
+  {
+    "word": "chef",
+    "topics": ["general"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Bună dispoziție pentru o distracție",
+    "shortClue": "Bună dispoziție"
+  },
+  {
+    "word": "tâlc",
+    "topics": ["general"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Înțeles ascuns al unei vorbe",
+    "shortClue": "Înțeles ascuns"
+  },
+  {
+    "word": "iscusință",
+    "topics": ["general"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Îndemânare cu mare pricepere",
+    "shortClue": "Pricepere"
+  },
+  {
+    "word": "ger",
+    "topics": ["nature"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Frig mare, de iarnă",
+    "shortClue": "Frig mare"
+  },
+  {
+    "word": "vârf",
+    "topics": ["nature"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Cel mai de sus punct al unui munte",
+    "shortClue": "Capăt de munte"
+  },
+  {
+    "word": "răchită",
+    "topics": ["nature"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Arbust de lângă ape, cu nuiele flexibile",
+    "shortClue": "Arbust de baltă"
+  },
+  {
+    "word": "prund",
+    "topics": ["nature"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Pietriș fin de pe malul unui râu",
+    "shortClue": "Pietriș de râu"
+  },
+  {
+    "word": "hățiș",
+    "topics": ["nature"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Desiș de tufe încâlcite",
+    "shortClue": "Tufe încâlcite"
+  },
+  {
+    "word": "ceață",
+    "topics": ["nature"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Aer plin de vapori deși, la sol",
+    "shortClue": "Vapori deși"
+  },
+  {
+    "word": "brumă",
+    "topics": ["nature"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Strat subțire de gheață pe iarbă",
+    "shortClue": "Gheață fină"
+  },
+  {
+    "word": "ied",
+    "topics": ["animals"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Puiul caprei",
+    "shortClue": "Pui de capră"
+  },
+  {
+    "word": "mânz",
+    "topics": ["animals"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Puiul calului",
+    "shortClue": "Pui de cal"
+  },
+  {
+    "word": "cioc",
+    "topics": ["animals"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Gura tare a păsării",
+    "shortClue": "Gura păsării"
+  },
+  {
+    "word": "bou",
+    "topics": ["animals"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Taur castrat, folosit la jug",
+    "shortClue": "Animal de jug"
+  },
+  {
+    "word": "lăstun",
+    "topics": ["animals"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Pasăre asemănătoare rândunicii, cu burta albă",
+    "shortClue": "Rudă de rândunică"
+  },
+  {
+    "word": "pițigoi",
+    "topics": ["animals"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Pasăre mică, cu piept galben și cap negru",
+    "shortClue": "Cântăreață mică"
+  },
+  {
+    "word": "must",
+    "topics": ["food"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Suc proaspăt de struguri, înainte să fie vin",
+    "shortClue": "Suc proaspăt"
+  },
+  {
+    "word": "chec",
+    "topics": ["food"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Prăjitură simplă, în formă de cărămidă",
+    "shortClue": "Prăjitură simplă"
+  },
+  {
+    "word": "mei",
+    "topics": ["food"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Cereală cu boabe mici și galbene",
+    "shortClue": "Cereală mărunță"
+  },
+  {
+    "word": "cnez",
+    "topics": ["history"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Conducător al unei obști medievale",
+    "shortClue": "Căpetenie veche"
+  },
+  {
+    "word": "lance",
+    "topics": ["history"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Armă lungă cu vârf de metal",
+    "shortClue": "Armă lungă"
+  },
+  {
+    "word": "ion",
+    "topics": ["science"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Atom cu încărcătură electrică",
+    "shortClue": "Atom încărcat"
+  },
+  {
+    "word": "lavă",
+    "topics": ["science"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Rocă topită ieșită dintr-un vulcan",
+    "shortClue": "Rocă topită"
+  },
+  {
+    "word": "ceaun",
+    "topics": ["home"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Vas mare de fontă, pentru mămăligă",
+    "shortClue": "Vas de fontă"
+  },
+  {
+    "word": "lavoar",
+    "topics": ["home"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Chiuvetă mică, pentru spălat pe mâini",
+    "shortClue": "Pentru mâini"
+  },
+  {
+    "word": "sită",
+    "topics": ["home"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Unealtă cu ochiuri, pentru cernut",
+    "shortClue": "Pentru cernut"
+  },
+  {
+    "word": "hol",
+    "topics": ["home"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Încăpere de la intrarea în casă",
+    "shortClue": "Intrare în casă"
+  },
+  {
+    "word": "zețar",
+    "topics": ["professions"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Cel care aranja literele de plumb la tipar",
+    "shortClue": "Aranja litere"
+  },
+  {
+    "word": "ghid",
+    "topics": ["professions"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Cel care arată turiștilor un loc",
+    "shortClue": "Călăuză turistică"
+  },
+  {
+    "word": "orgă",
+    "topics": ["arts"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Instrument uriaș de biserică, cu țevi și clape",
+    "shortClue": "Instrument cu țevi"
+  },
+  {
+    "word": "lăută",
+    "topics": ["arts"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Instrument vechi cu corpul bombat și coarde ciupite",
+    "shortClue": "Coarde ciupite"
+  },
+  {
+    "word": "liră",
+    "topics": ["arts"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Mică harpă veche a poeților",
+    "shortClue": "Harpă veche"
+  },
+  {
+    "word": "ode",
+    "topics": ["arts"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Poezie solemnă de laudă",
+    "shortClue": "Poezie solemnă"
+  },
+  {
+    "word": "bust",
+    "topics": ["arts"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Statuie ce înfățișează capul și pieptul",
+    "shortClue": "Cap sculptat"
+  },
+  {
+    "word": "oază",
+    "topics": ["geography"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Loc cu apă și verdeață în mijlocul deșertului",
+    "shortClue": "Verdeață în deșert"
+  },
+  {
+    "word": "cap",
+    "topics": ["geography"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Vârf de uscat intrat în mare",
+    "shortClue": "Vârf în mare"
+  },
+  {
+    "word": "fiord",
+    "topics": ["geography"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Golf îngust și adânc între stânci înalte",
+    "shortClue": "Golf între stânci"
+  },
+  {
+    "word": "dună",
+    "topics": ["geography"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Deal de nisip format de vânt",
+    "shortClue": "Deal de nisip"
+  }
+]

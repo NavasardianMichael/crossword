@@ -2,6 +2,7 @@ import { ROUTES } from './routes'
 
 /** Header navigation. `labelKey` is under `Nav`. */
 export const PRIMARY_NAV = [
+  { labelKey: 'daily', href: ROUTES.daily },
   { labelKey: 'crossword', href: ROUTES.crossword },
   { labelKey: 'scanword', href: ROUTES.scanword },
   { labelKey: 'topics', href: ROUTES.topics },

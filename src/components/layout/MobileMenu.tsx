@@ -1,7 +1,7 @@
 'use client'
 
 import { useState } from 'react'
-import { BookOpen, CircleHelp, Coins, GraduationCap, Grid3x3, History, LayoutGrid, type LucideIcon, Mail, Menu, Shapes } from 'lucide-react'
+import { BookOpen, CalendarDays, CircleHelp, Coins, GraduationCap, Grid3x3, History, LayoutGrid, type LucideIcon, Mail, Menu, Shapes } from 'lucide-react'
 import { useLocale, useTranslations } from 'next-intl'
 import { usePathname } from '@i18n/navigation'
 import { ROUTES } from '@constants/routes'
@@ -14,6 +14,7 @@ import { IconButton } from '@components/ui/IconButton'
 import { isActivePath } from './DesktopNav'
 
 const ITEMS: { labelKey: string; href: string; icon: LucideIcon }[] = [
+  { labelKey: 'daily', href: ROUTES.daily, icon: CalendarDays },
   { labelKey: 'crossword', href: ROUTES.crossword, icon: Grid3x3 },
   { labelKey: 'scanword', href: ROUTES.scanword, icon: LayoutGrid },
   { labelKey: 'topics', href: ROUTES.topics, icon: Shapes },

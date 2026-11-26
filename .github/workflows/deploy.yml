@@ -10,7 +10,7 @@
 #   APP_DIR          deployment root, e.g. /home/michael/apps/crossword
 #   ENV_API_BASE64   base64 of the API env file — DATABASE_URL, CORS_ORIGIN,
 #                    GEMINI_KEY, optionally GEMINI_MODELS, VERIFY_ENTRIES,
-#                    POOL_DAILY_CALL_BUDGET, POOL_REFILL_*, and the Paddle set:
+#                    POOL_REFILL_*, and the Paddle set:
 #                    PADDLE_API_KEY, PADDLE_WEBHOOK_SECRET, PADDLE_PRICE_ID_* (docs/PADDLE_SETUP.md).
 #                    NODE_ENV/PORT/HOST are appended below, so do not put them
 #                    in the secret.

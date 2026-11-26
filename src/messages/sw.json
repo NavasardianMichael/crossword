@@ -31,7 +31,8 @@
     "privacy": "Faragha",
     "terms": "Masharti",
     "contact": "Wasiliana",
-    "guides": "Miongozo"
+    "guides": "Miongozo",
+    "daily": "Chemshabongo cha leo"
   },
   "Errors": {
     "network": "Seva haipatikani. Kagua muunganisho wako kisha ujaribu tena.",
@@ -91,7 +92,9 @@
     "ogPuzzleCta": "Je, unaweza kuitatua?",
     "ogPuzzleMeta": "{size} · {words, plural, one {neno #} other {maneno #}}",
     "guidesTitle": "Miongozo ya Chemshabongo: Kutunga na Kutatua",
-    "guidesDescription": "Jinsi ya kutunga chemshabongo, kuitatua haraka, kucheza skanwodi na kuitumia darasani: miongozo ya vitendo yenye mifano ya vidokezo."
+    "guidesDescription": "Jinsi ya kutunga chemshabongo, kuitatua haraka, kucheza skanwodi na kuitumia darasani: miongozo ya vitendo yenye mifano ya vidokezo.",
+    "dailyTitle": "Chemshabongo cha Leo — Bure, Kipya Kila Siku",
+    "dailyDescription": "Cheza chemshabongo ya kawaida bila malipo kila siku, saa 00:00 UTC (saa 3:00 asubuhi EAT), sawa kwa kila mtu. Bila usajili. Majibu ya jana yapo ukurasani."
   },
   "Formats": {
     "classic": {
@@ -290,6 +293,46 @@
     "faq3Answer": "Hakuna nafasi ya kidokezo kabla ya jibu, hukaa juu au kando ya herufi ya kwanza, na mshale hupinda kuonyesha mwelekeo.",
     "faq4Question": "Vidokezo vya skanwodi ni tofauti?",
     "faq4Answer": "Ni vifupi — kidokezo cha skanwodi lazima kiingie katika kisanduku kimoja, hivyo ni maneno machache tu."
+  },
+  "Daily": {
+    "eyebrow": "Chemshabongo ya kila siku",
+    "title": "Chemshabongo ya Kila Siku",
+    "subtitle": "Chemshabongo mpya ya kawaida kila siku saa 00:00 UTC (saa 3:00 asubuhi Afrika Mashariki). Bure, bila usajili, na sawa kwa kila mtu.",
+    "today": "Leo, {date}",
+    "todayTitle": "Chemshabongo ya leo",
+    "todaySubtitle": "{count, plural, one {Neno #} other {Maneno #}} yenye vidokezo vya Mlalo na Wima vilivyopewa namba. Visome hapa, kisha fungua gridi ili uanze kutatua.",
+    "gridLabel": "Gridi tupu ya chemshabongo ya leo, visanduku {width} kwa {height}",
+    "play": "Cheza chemshabongo ya leo",
+    "across": "Mlalo",
+    "down": "Wima",
+    "unavailable": "Chemshabongo ya leo bado inaandaliwa. Rudi baada ya dakika chache.",
+    "streak": "{count, plural, =0 {Tatua chemshabongo ya leo ili kuanza mfululizo} one {Siku # mfululizo} other {Siku # mfululizo}}",
+    "yesterdayTitle": "Majibu ya chemshabongo ya jana",
+    "yesterdayShow": "Onyesha majibu",
+    "yesterdayPlay": "Cheza chemshabongo ya jana",
+    "previousTitle": "Siku zilizopita",
+    "aboutTitle": "Kuhusu chemshabongo ya kila siku",
+    "about1": "Kila siku saa 00:00 UTC (saa 3:00 asubuhi Afrika Mashariki), chemshabongo mpya ya kawaida huonekana kwenye ukurasa huu: gridi ya ukubwa wa kati yenye vidokezo vya Mlalo na Wima vilivyopewa namba, vilivyoandikwa moja kwa moja kwa Kiswahili, si vilivyotafsiriwa. Kila anayeifungua siku hiyo hupata chemshabongo ile ile.",
+    "about2": "Ni bure na haihitaji akaunti. Maendeleo yako huhifadhiwa kwenye kifaa hiki, hivyo unaweza kuacha na kurudi baadaye, na kuitatua kila siku hujenga mfululizo wa siku. Siku mpya inapoanza, majibu ya jana huonekana chini zaidi kwenye ukurasa huu.",
+    "about3": "Chemshabongo ya kila siku inapatikana kwa lugha 33, kila moja ikiwa na maneno na vidokezo vyake. Maneno yake huchukuliwa kutoka akiba iliyotengwa kwa ajili yake, kwa hiyo mara chache huonekana kwenye chemshabongo nyingine.",
+    "makeOwnTitle": "Unataka nyingine?",
+    "makeOwnText": "Tengeneza chemshabongo yako mwenyewe kuhusu mada unayopenda, kuanzia wanyama hadi historia, kwa ukubwa na ugumu unaouchagua.",
+    "makeOwnCta": "Tengeneza chemshabongo",
+    "rulesLink": "Jinsi ya kutatua chemshabongo",
+    "faqTitle": "Maswali kuhusu chemshabongo ya kila siku",
+    "faq1Question": "Je, chemshabongo ya kila siku ni bure?",
+    "faq1Answer": "Ndiyo. Ni bure kila siku, bila akaunti na bila mikopo.",
+    "faq2Question": "Chemshabongo mpya ya kila siku hutoka lini?",
+    "faq2Answer": "Chemshabongo mpya hutoka kila siku saa 00:00 UTC (saa 3:00 asubuhi Afrika Mashariki), wakati uleule kwa lugha zote.",
+    "faq3Question": "Je, kila mtu anapata chemshabongo ileile?",
+    "faq3Answer": "Ndiyo. Kila anayefungua chemshabongo ya kila siku kwa lugha ileile siku hiyohiyo hupata gridi ileile na vidokezo vilevile.",
+    "faq4Question": "Nitapata wapi majibu ya chemshabongo ya jana?",
+    "faq4Answer": "Kwenye ukurasa huu: siku mpya inapoanza, vidokezo na majibu ya jana huonekana chini ya chemshabongo ya leo. Chemshabongo za wiki iliyopita pia zinaweza kuchezwa.",
+    "faq5Question": "Je, naweza kucheza chemshabongo ya kila siku kwenye simu?",
+    "faq5Answer": "Ndiyo. Inafanya kazi kwenye kivinjari chochote cha simu, kompyuta kibao au kompyuta, na programu inaweza kusakinishwa. Chemshabongo uliyoifungua huendelea kufanya kazi bila intaneti.",
+    "teaserTitle": "Chemshabongo ya leo",
+    "teaserText": "Chemshabongo ya kawaida bila malipo kila siku: sawa kwa kila mtu, bila usajili.",
+    "teaserCta": "Cheza chemshabongo ya leo"
   },
   "TopicsPage": {
     "eyebrow": "Mada",

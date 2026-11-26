@@ -1,0 +1,4002 @@
+[
+  {
+    "word": "sorg",
+    "topics": ["general"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Tung känsla efter en förlust",
+    "shortClue": "Tung känsla"
+  },
+  {
+    "word": "ilska",
+    "topics": ["general"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Het känsla när något känns orättvist",
+    "shortClue": "Het känsla"
+  },
+  {
+    "word": "rädsla",
+    "topics": ["general"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Känsla inför något farligt",
+    "shortClue": "Känsla av fara"
+  },
+  {
+    "word": "nyfikenhet",
+    "topics": ["general"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Lust att veta mer om något okänt",
+    "shortClue": "Lust att veta"
+  },
+  {
+    "word": "envishet",
+    "topics": ["general"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Ovilja att ge efter hur det än går",
+    "shortClue": "Hård ovilja"
+  },
+  {
+    "word": "blyghet",
+    "topics": ["general"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Skygghet bland främmande människor",
+    "shortClue": "Skygghet"
+  },
+  {
+    "word": "ärlighet",
+    "topics": ["general"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Egenskap att alltid tala sant",
+    "shortClue": "Sanningsenlighet"
+  },
+  {
+    "word": "generositet",
+    "topics": ["general"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Vilja att dela med sig rikligt",
+    "shortClue": "Givmildhet"
+  },
+  {
+    "word": "flit",
+    "topics": ["general"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Ihärdigt arbete utan att slarva",
+    "shortClue": "Ihärdigt arbete"
+  },
+  {
+    "word": "lathet",
+    "topics": ["general"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Ovilja att anstränga sig",
+    "shortClue": "Ovilja till arbete"
+  },
+  {
+    "word": "stolthet",
+    "topics": ["general"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Glädje över det man åstadkommit",
+    "shortClue": "Glad över prestation"
+  },
+  {
+    "word": "avund",
+    "topics": ["general"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Missunnsam känsla inför andras lycka",
+    "shortClue": "Missunnsamhet"
+  },
+  {
+    "word": "skam",
+    "topics": ["general"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Pinsam känsla efter ett fel",
+    "shortClue": "Pinsam känsla"
+  },
+  {
+    "word": "lugn",
+    "topics": ["general"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Frånvaro av oro och stök",
+    "shortClue": "Ro utan stök"
+  },
+  {
+    "word": "tur",
+    "topics": ["general"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Lycka som kommer av en slump",
+    "shortClue": "Lycklig slump"
+  },
+  {
+    "word": "slump",
+    "topics": ["general"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Händelse utan orsak eller plan",
+    "shortClue": "Ren tillfällighet"
+  },
+  {
+    "word": "hemlighet",
+    "topics": ["general"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Något som ingen annan får veta",
+    "shortClue": "Dold sak"
+  },
+  {
+    "word": "lögn",
+    "topics": ["general"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Medvetet osant påstående",
+    "shortClue": "Osant påstående"
+  },
+  {
+    "word": "början",
+    "topics": ["general"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Stunden då något sätter igång",
+    "shortClue": "Första stund"
+  },
+  {
+    "word": "slut",
+    "topics": ["general"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Punkten där något tar sin ände",
+    "shortClue": "Sista punkt"
+  },
+  {
+    "word": "ögonblick",
+    "topics": ["general"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Mycket kort stund",
+    "shortClue": "Kort stund"
+  },
+  {
+    "word": "timme",
+    "topics": ["general"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Sextio minuter",
+    "shortClue": "Sextio minuter"
+  },
+  {
+    "word": "minut",
+    "topics": ["general"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Sextio sekunder",
+    "shortClue": "Kort tidsenhet"
+  },
+  {
+    "word": "sekund",
+    "topics": ["general"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Tidsenhet som tickar på klockan",
+    "shortClue": "Tickande enhet"
+  },
+  {
+    "word": "vecka",
+    "topics": ["general"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Sju dagar i rad",
+    "shortClue": "Sju dagar"
+  },
+  {
+    "word": "månad",
+    "topics": ["general"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Tolftedel av ett år",
+    "shortClue": "Del av året"
+  },
+  {
+    "word": "morgon",
+    "topics": ["general"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Dagens första del",
+    "shortClue": "Dagens början"
+  },
+  {
+    "word": "kväll",
+    "topics": ["general"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Tiden före natten",
+    "shortClue": "Före natten"
+  },
+  {
+    "word": "natt",
+    "topics": ["general"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Mörk del av dygnet",
+    "shortClue": "Mörk tid"
+  },
+  {
+    "word": "dygn",
+    "topics": ["general"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Tjugofyra timmar",
+    "shortClue": "Tjugofyra timmar"
+  },
+  {
+    "word": "årtionde",
+    "topics": ["general"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Tio år i följd",
+    "shortClue": "Tio år"
+  },
+  {
+    "word": "framtid",
+    "topics": ["general"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Tiden som ännu inte kommit",
+    "shortClue": "Kommande tid"
+  },
+  {
+    "word": "dåtid",
+    "topics": ["general"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Tiden som redan har gått",
+    "shortClue": "Svunnen tid"
+  },
+  {
+    "word": "mängd",
+    "topics": ["general"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Hur mycket det finns av något",
+    "shortClue": "Hur mycket"
+  },
+  {
+    "word": "hög",
+    "topics": ["general"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Samling av saker lagda på varandra",
+    "shortClue": "Stapel"
+  },
+  {
+    "word": "par",
+    "topics": ["general"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Två som hör ihop",
+    "shortClue": "Två tillsammans"
+  },
+  {
+    "word": "dussin",
+    "topics": ["general"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Tolv stycken",
+    "shortClue": "Tolv stycken"
+  },
+  {
+    "word": "hälft",
+    "topics": ["general"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "En av två lika stora delar",
+    "shortClue": "En av två"
+  },
+  {
+    "word": "grupp",
+    "topics": ["general"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Flera personer som hör ihop",
+    "shortClue": "Flera tillsammans"
+  },
+  {
+    "word": "hälsning",
+    "topics": ["general"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Ord man säger när man möts",
+    "shortClue": "Mötesord"
+  },
+  {
+    "word": "tack",
+    "topics": ["general"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Ord man säger för en gåva",
+    "shortClue": "Artigt ord"
+  },
+  {
+    "word": "ursäkt",
+    "topics": ["general"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Ord man säger efter ett misstag",
+    "shortClue": "Ord efter misstag"
+  },
+  {
+    "word": "svar",
+    "topics": ["general"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Det man ger på en fråga",
+    "shortClue": "Reaktion på fråga"
+  },
+  {
+    "word": "fråga",
+    "topics": ["general"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Önskan om ett svar",
+    "shortClue": "Önskan om svar"
+  },
+  {
+    "word": "beslut",
+    "topics": ["general"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Val som man slutligen bestämmer",
+    "shortClue": "Fastlagt val"
+  },
+  {
+    "word": "förslag",
+    "topics": ["general"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Idé som läggs fram för andra",
+    "shortClue": "Framlagd idé"
+  },
+  {
+    "word": "tillfälle",
+    "topics": ["general"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Lägligt läge att göra något",
+    "shortClue": "Lägligt läge"
+  },
+  {
+    "word": "möjlighet",
+    "topics": ["general"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Chans att något kan ske",
+    "shortClue": "Öppen chans"
+  },
+  {
+    "word": "chans",
+    "topics": ["general"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Tillfälle att lyckas",
+    "shortClue": "Tillfälle"
+  },
+  {
+    "word": "risk",
+    "topics": ["general"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Fara att något går fel",
+    "shortClue": "Fara"
+  },
+  {
+    "word": "trygghet",
+    "topics": ["general"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Känsla av att vara skyddad",
+    "shortClue": "Känsla av skydd"
+  },
+  {
+    "word": "vana",
+    "topics": ["general"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Sak man gör ofta utan att tänka",
+    "shortClue": "Inrodd sed"
+  },
+  {
+    "word": "rutin",
+    "topics": ["general"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Fast ordning i det man gör varje dag",
+    "shortClue": "Fast ordning"
+  },
+  {
+    "word": "övning",
+    "topics": ["general"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Upprepning för att bli bättre",
+    "shortClue": "Upprepad träning"
+  },
+  {
+    "word": "lektion",
+    "topics": ["general"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Undervisningspass i skolan",
+    "shortClue": "Skolpass"
+  },
+  {
+    "word": "rast",
+    "topics": ["general"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Kort paus mellan lektioner",
+    "shortClue": "Kort paus"
+  },
+  {
+    "word": "läxa",
+    "topics": ["general"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Skoluppgift att göra hemma",
+    "shortClue": "Hemuppgift"
+  },
+  {
+    "word": "betyg",
+    "topics": ["general"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Skolans omdöme om elevens kunskap",
+    "shortClue": "Skolans omdöme"
+  },
+  {
+    "word": "kompis",
+    "topics": ["general"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Bekant som man gärna umgås med",
+    "shortClue": "God bekant"
+  },
+  {
+    "word": "granne",
+    "topics": ["general"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Den som bor vid sidan om dig",
+    "shortClue": "Närboende"
+  },
+  {
+    "word": "gäst",
+    "topics": ["general"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Den som är bjuden på besök",
+    "shortClue": "Besökare"
+  },
+  {
+    "word": "besök",
+    "topics": ["general"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Kort visit hos någon",
+    "shortClue": "Kort visit"
+  },
+  {
+    "word": "present",
+    "topics": ["general"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Gåva som man packar in",
+    "shortClue": "Inslagen gåva"
+  },
+  {
+    "word": "födelsedag",
+    "topics": ["general"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Dagen då man fyller år",
+    "shortClue": "Dag med tårta"
+  },
+  {
+    "word": "fest",
+    "topics": ["general"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Glatt samkväm med mat och musik",
+    "shortClue": "Glatt samkväm"
+  },
+  {
+    "word": "resa",
+    "topics": ["general"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Färd till en avlägsen plats",
+    "shortClue": "Lång färd"
+  },
+  {
+    "word": "bagage",
+    "topics": ["general"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Väskor man packar inför en färd",
+    "shortClue": "Packade väskor"
+  },
+  {
+    "word": "pass",
+    "topics": ["general"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Resedokument med foto",
+    "shortClue": "Resedokument"
+  },
+  {
+    "word": "biljett",
+    "topics": ["general"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Kort som ger rätt att åka eller se något",
+    "shortClue": "Ger inträde"
+  },
+  {
+    "word": "karta",
+    "topics": ["general"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Bild som visar var saker ligger",
+    "shortClue": "Platsbild"
+  },
+  {
+    "word": "väg",
+    "topics": ["general"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Led för trafik mellan två orter",
+    "shortClue": "Led för trafik"
+  },
+  {
+    "word": "avstånd",
+    "topics": ["general"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Hur långt det är mellan två punkter",
+    "shortClue": "Sträcka mellan"
+  },
+  {
+    "word": "hastighet",
+    "topics": ["general"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Hur fort något rör sig",
+    "shortClue": "Fart"
+  },
+  {
+    "word": "verklighet",
+    "topics": ["general"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Det som finns på riktigt",
+    "shortClue": "Det riktiga"
+  },
+  {
+    "word": "fantasi",
+    "topics": ["general"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Förmåga att föreställa sig det som inte finns",
+    "shortClue": "Inbillning"
+  },
+  {
+    "word": "dröm",
+    "topics": ["general"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Bilder som man ser under sömnen",
+    "shortClue": "Nattens bilder"
+  },
+  {
+    "word": "sömn",
+    "topics": ["general"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Nattvila med slutna ögon",
+    "shortClue": "Nattvila"
+  },
+  {
+    "word": "hunger",
+    "topics": ["general"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Känsla när magen är tom",
+    "shortClue": "Tom mage"
+  },
+  {
+    "word": "törst",
+    "topics": ["general"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Behov av något att dricka",
+    "shortClue": "Längtan efter dryck"
+  },
+  {
+    "word": "värme",
+    "topics": ["general"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Motsatsen till kyla",
+    "shortClue": "Motsats till kyla"
+  },
+  {
+    "word": "kyla",
+    "topics": ["general"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Det som får en att huttra",
+    "shortClue": "Frysande luft"
+  },
+  {
+    "word": "ljus",
+    "topics": ["general"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Det som gör att man ser",
+    "shortClue": "Lyser upp"
+  },
+  {
+    "word": "mörker",
+    "topics": ["general"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Frånvaro av ljus",
+    "shortClue": "Utan ljus"
+  },
+  {
+    "word": "ljud",
+    "topics": ["general"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Det som örat uppfattar",
+    "shortClue": "Det man hör"
+  },
+  {
+    "word": "doft",
+    "topics": ["general"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Behaglig lukt",
+    "shortClue": "Fin lukt"
+  },
+  {
+    "word": "smak",
+    "topics": ["general"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Det som tungan känner av",
+    "shortClue": "Tungans intryck"
+  },
+  {
+    "word": "känsla",
+    "topics": ["general"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Inre upplevelse som glädje eller ilska",
+    "shortClue": "Inre upplevelse"
+  },
+  {
+    "word": "tanke",
+    "topics": ["general"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Det som rör sig i huvudet",
+    "shortClue": "Inre fundering"
+  },
+  {
+    "word": "åsikt",
+    "topics": ["general"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Det man tycker om något",
+    "shortClue": "Personlig mening"
+  },
+  {
+    "word": "vilja",
+    "topics": ["general"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Kraft som driver en att handla",
+    "shortClue": "Drivkraft"
+  },
+  {
+    "word": "förtroende",
+    "topics": ["general"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Tillit till någon annan",
+    "shortClue": "Tillit"
+  },
+  {
+    "word": "oenighet",
+    "topics": ["general"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Brist på samsyn mellan personer",
+    "shortClue": "Brist på samsyn"
+  },
+  {
+    "word": "överraskning",
+    "topics": ["general"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Något oväntat som sker",
+    "shortClue": "Oväntad händelse"
+  },
+  {
+    "word": "besvikelse",
+    "topics": ["general"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Känsla när något inte blev som man väntat",
+    "shortClue": "Sviken förväntan"
+  },
+  {
+    "word": "försening",
+    "topics": ["general"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Det att något kommer senare än planerat",
+    "shortClue": "Sen ankomst"
+  },
+  {
+    "word": "genväg",
+    "topics": ["general"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Kortare led än den vanliga",
+    "shortClue": "Kortare led"
+  },
+  {
+    "word": "gräns",
+    "topics": ["general"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Linje som skiljer två områden åt",
+    "shortClue": "Skiljelinje"
+  },
+  {
+    "word": "hörn",
+    "topics": ["general"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Plats där två sidor möts",
+    "shortClue": "Där sidor möts"
+  },
+  {
+    "word": "kant",
+    "topics": ["general"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Yttersta delen av en yta",
+    "shortClue": "Yttre del"
+  },
+  {
+    "word": "botten",
+    "topics": ["general"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Understa delen av något",
+    "shortClue": "Understa del"
+  },
+  {
+    "word": "topp",
+    "topics": ["general"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Högsta punkten",
+    "shortClue": "Högsta punkt"
+  },
+  {
+    "word": "djup",
+    "topics": ["general"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Avstånd nedåt från ytan",
+    "shortClue": "Mått nedåt"
+  },
+  {
+    "word": "höjd",
+    "topics": ["general"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Mått uppåt från marken",
+    "shortClue": "Mått uppåt"
+  },
+  {
+    "word": "bredd",
+    "topics": ["general"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Mått från sida till sida",
+    "shortClue": "Mått i sidled"
+  },
+  {
+    "word": "form",
+    "topics": ["general"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Yttre skepnad hos ett föremål",
+    "shortClue": "Skepnad"
+  },
+  {
+    "word": "färg",
+    "topics": ["general"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Rött eller blått",
+    "shortClue": "Rött eller blått"
+  },
+  {
+    "word": "mönster",
+    "topics": ["general"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Upprepad dekor på tyg",
+    "shortClue": "Upprepad dekor"
+  },
+  {
+    "word": "skillnad",
+    "topics": ["general"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Det som gör att två saker inte är lika",
+    "shortClue": "Olikhet"
+  },
+  {
+    "word": "likhet",
+    "topics": ["general"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Det som två saker har gemensamt",
+    "shortClue": "Gemensamt drag"
+  },
+  {
+    "word": "orsak",
+    "topics": ["general"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Det som får något att hända",
+    "shortClue": "Upphov"
+  },
+  {
+    "word": "följd",
+    "topics": ["general"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Det som blir av en händelse",
+    "shortClue": "Resultat"
+  },
+  {
+    "word": "mening",
+    "topics": ["general"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Ordgrupp som slutar med punkt",
+    "shortClue": "Ordgrupp"
+  },
+  {
+    "word": "ord",
+    "topics": ["general"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Del av ett språk som man kan säga",
+    "shortClue": "Språkbit"
+  },
+  {
+    "word": "bokstav",
+    "topics": ["general"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Tecken i alfabetet",
+    "shortClue": "Alfabetets tecken"
+  },
+  {
+    "word": "siffra",
+    "topics": ["general"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Tecken för ett tal",
+    "shortClue": "Talets tecken"
+  },
+  {
+    "word": "överdrift",
+    "topics": ["general"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Att göra något större än det är",
+    "shortClue": "Förstorad bild"
+  },
+  {
+    "word": "lust",
+    "topics": ["general"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Stark önskan att göra något",
+    "shortClue": "Stark önskan"
+  },
+  {
+    "word": "gran",
+    "topics": ["nature"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Barrträd med hängande kottar",
+    "shortClue": "Julträd"
+  },
+  {
+    "word": "lönn",
+    "topics": ["nature"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Träd med handlika blad",
+    "shortClue": "Handbladigt träd"
+  },
+  {
+    "word": "asp",
+    "topics": ["nature"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Träd vars blad darrar i vinden",
+    "shortClue": "Darrande träd"
+  },
+  {
+    "word": "rönn",
+    "topics": ["nature"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Träd med röda bär på hösten",
+    "shortClue": "Träd med bär"
+  },
+  {
+    "word": "hassel",
+    "topics": ["nature"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Buske med nötter",
+    "shortClue": "Nötbuske"
+  },
+  {
+    "word": "ljung",
+    "topics": ["nature"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Lila ris på hedar",
+    "shortClue": "Lila hedris"
+  },
+  {
+    "word": "tistel",
+    "topics": ["nature"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Taggig ört med lila blomma",
+    "shortClue": "Taggig ört"
+  },
+  {
+    "word": "prästkrage",
+    "topics": ["nature"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Vit ängsblomma med gul mitt",
+    "shortClue": "Vit ängsblomma"
+  },
+  {
+    "word": "blåklint",
+    "topics": ["nature"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Blå blomma i sädesfält",
+    "shortClue": "Blå åkerblomma"
+  },
+  {
+    "word": "måne",
+    "topics": ["nature"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Himlakropp som kretsar kring jorden",
+    "shortClue": "Nattens lykta"
+  },
+  {
+    "word": "moln",
+    "topics": ["nature"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Vit eller grå sak på himlen",
+    "shortClue": "Sak på himlen"
+  },
+  {
+    "word": "dis",
+    "topics": ["nature"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Lätt slöja av fukt i luften",
+    "shortClue": "Lätt slöja"
+  },
+  {
+    "word": "dagg",
+    "topics": ["nature"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Små droppar på gräset en tidig morgon",
+    "shortClue": "Gräsdroppar"
+  },
+  {
+    "word": "frost",
+    "topics": ["nature"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Isskorpa på marken en kall natt",
+    "shortClue": "Is på marken"
+  },
+  {
+    "word": "bäck",
+    "topics": ["nature"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Litet rinnande vattendrag",
+    "shortClue": "Litet vattendrag"
+  },
+  {
+    "word": "källa",
+    "topics": ["nature"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Plats där vatten väller fram ur marken",
+    "shortClue": "Vattnets ursprung"
+  },
+  {
+    "word": "våg",
+    "topics": ["nature"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Rörelse på havets yta",
+    "shortClue": "Havets rörelse"
+  },
+  {
+    "word": "tjärn",
+    "topics": ["nature"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Liten mörk skogssjö",
+    "shortClue": "Skogssjö"
+  },
+  {
+    "word": "mosse",
+    "topics": ["nature"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Blöt mark med torv",
+    "shortClue": "Blöt torvmark"
+  },
+  {
+    "word": "grus",
+    "topics": ["nature"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Små stenar på en gångstig",
+    "shortClue": "Små stenar"
+  },
+  {
+    "word": "lera",
+    "topics": ["nature"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Jord som blir formbar av vatten",
+    "shortClue": "Formbar jord"
+  },
+  {
+    "word": "höst",
+    "topics": ["nature"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Årstiden då löven faller",
+    "shortClue": "Löven faller"
+  },
+  {
+    "word": "vår",
+    "topics": ["nature"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Årstid efter vintern",
+    "shortClue": "Efter vintern"
+  },
+  {
+    "word": "istapp",
+    "topics": ["nature"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Hängande isbit från ett tak",
+    "shortClue": "Hängande is"
+  },
+  {
+    "word": "kotte",
+    "topics": ["nature"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Barrträdets frökapsel",
+    "shortClue": "Barrträdsfrukt"
+  },
+  {
+    "word": "vass",
+    "topics": ["nature"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Högt gräs vid strandkanten",
+    "shortClue": "Strandgräs"
+  },
+  {
+    "word": "näckros",
+    "topics": ["nature"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Vit blomma som flyter på vattnet",
+    "shortClue": "Flytande blomma"
+  },
+  {
+    "word": "bryn",
+    "topics": ["nature"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Skogens utkant mot öppen mark",
+    "shortClue": "Skogskant"
+  },
+  {
+    "word": "hare",
+    "topics": ["animals"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Snabbt långörat djur på fälten",
+    "shortClue": "Snabb långöring"
+  },
+  {
+    "word": "igelkott",
+    "topics": ["animals"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Taggigt djur som rullar ihop sig",
+    "shortClue": "Taggigt djur"
+  },
+  {
+    "word": "lodjur",
+    "topics": ["animals"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Skogens kattdjur med tofsar på öronen",
+    "shortClue": "Tofsörat kattdjur"
+  },
+  {
+    "word": "vildsvin",
+    "topics": ["animals"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Vilt hovdjur med betar",
+    "shortClue": "Vilt hovdjur"
+  },
+  {
+    "word": "gås",
+    "topics": ["animals"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Flyttfågel som flyger i kil",
+    "shortClue": "Flyttfågel"
+  },
+  {
+    "word": "höna",
+    "topics": ["animals"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Fågel som värper ägg",
+    "shortClue": "Äggvärpare"
+  },
+  {
+    "word": "gris",
+    "topics": ["animals"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Rosa djur på gården",
+    "shortClue": "Gårdens rosa djur"
+  },
+  {
+    "word": "lamm",
+    "topics": ["animals"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Ungt får",
+    "shortClue": "Ungt får"
+  },
+  {
+    "word": "valp",
+    "topics": ["animals"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Liten skällare som just fötts",
+    "shortClue": "Liten skällare"
+  },
+  {
+    "word": "orm",
+    "topics": ["animals"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Kräldjur utan ben",
+    "shortClue": "Benlöst kräldjur"
+  },
+  {
+    "word": "padda",
+    "topics": ["animals"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Groddjur med vårtig hud",
+    "shortClue": "Vårtigt groddjur"
+  },
+  {
+    "word": "ödla",
+    "topics": ["animals"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Litet kräldjur som kan tappa svansen",
+    "shortClue": "Svanstappare"
+  },
+  {
+    "word": "geting",
+    "topics": ["animals"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Gul och svart insekt med gadd",
+    "shortClue": "Gaddförsedd insekt"
+  },
+  {
+    "word": "skalbagge",
+    "topics": ["animals"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Insekt med hårda täckvingar",
+    "shortClue": "Hårdvingad insekt"
+  },
+  {
+    "word": "fladdermus",
+    "topics": ["animals"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Flygande däggdjur som jagar om natten",
+    "shortClue": "Nattflygare"
+  },
+  {
+    "word": "talgoxe",
+    "topics": ["animals"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Gulbröstad liten fågel vid fågelbordet",
+    "shortClue": "Fågelbordsgäst"
+  },
+  {
+    "word": "sparv",
+    "topics": ["animals"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Liten brun fågel",
+    "shortClue": "Liten brun fågel"
+  },
+  {
+    "word": "trast",
+    "topics": ["animals"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Sångfågel med fläckig bröstkorg",
+    "shortClue": "Sångfågel"
+  },
+  {
+    "word": "lax",
+    "topics": ["animals"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Rosa fisk som simmar upp i älvar",
+    "shortClue": "Rosa fisk"
+  },
+  {
+    "word": "abborre",
+    "topics": ["animals"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Randig insjöfisk med taggig fena",
+    "shortClue": "Randig fisk"
+  },
+  {
+    "word": "val",
+    "topics": ["animals"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Jättelikt däggdjur i havet",
+    "shortClue": "Havets jätte"
+  },
+  {
+    "word": "lejon",
+    "topics": ["animals"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Savannens kung med man",
+    "shortClue": "Savannens kung"
+  },
+  {
+    "word": "zebra",
+    "topics": ["animals"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Svartvitrandigt hästdjur",
+    "shortClue": "Randigt hästdjur"
+  },
+  {
+    "word": "bäver",
+    "topics": ["animals"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Gnagare som bygger dammar",
+    "shortClue": "Dambyggare"
+  },
+  {
+    "word": "utter",
+    "topics": ["animals"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Simkunnigt rovdjur vid älven",
+    "shortClue": "Simmande rovdjur"
+  },
+  {
+    "word": "grävling",
+    "topics": ["animals"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Svartvitrandigt djur som gräver gryt",
+    "shortClue": "Gryt-grävare"
+  },
+  {
+    "word": "ren",
+    "topics": ["animals"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Hjortdjur som lever i norr",
+    "shortClue": "Nordens hjortdjur"
+  },
+  {
+    "word": "smultron",
+    "topics": ["food"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Små söta röda vildbär",
+    "shortClue": "Små vildbär"
+  },
+  {
+    "word": "päron",
+    "topics": ["food"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Gul frukt med smal hals",
+    "shortClue": "Smal frukt"
+  },
+  {
+    "word": "banan",
+    "topics": ["food"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Gul böjd frukt",
+    "shortClue": "Gul böjd frukt"
+  },
+  {
+    "word": "morot",
+    "topics": ["food"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Orange rot som kaniner gillar",
+    "shortClue": "Orange rot"
+  },
+  {
+    "word": "lök",
+    "topics": ["food"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Grönsak som ger tårar vid skärning",
+    "shortClue": "Tårframkallare"
+  },
+  {
+    "word": "gurka",
+    "topics": ["food"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Grön grönsak i sallad",
+    "shortClue": "Grön grönsak"
+  },
+  {
+    "word": "ärta",
+    "topics": ["food"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Liten grön kula i en balja",
+    "shortClue": "Grön kula"
+  },
+  {
+    "word": "mjölk",
+    "topics": ["food"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Vit dryck från kor",
+    "shortClue": "Vit dryck"
+  },
+  {
+    "word": "ägg",
+    "topics": ["food"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Hönans produkt",
+    "shortClue": "Hönans produkt"
+  },
+  {
+    "word": "pasta",
+    "topics": ["food"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Degmat i många former",
+    "shortClue": "Degmat"
+  },
+  {
+    "word": "ris",
+    "topics": ["food"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Små vita korn som kokas",
+    "shortClue": "Kokta korn"
+  },
+  {
+    "word": "mjöl",
+    "topics": ["food"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Malet korn för bakning",
+    "shortClue": "Malet korn"
+  },
+  {
+    "word": "marmelad",
+    "topics": ["food"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Sylt av citrusfrukt",
+    "shortClue": "Citrussylt"
+  },
+  {
+    "word": "glass",
+    "topics": ["food"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Kall dessert",
+    "shortClue": "Kall dessert"
+  },
+  {
+    "word": "lakrits",
+    "topics": ["food"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Svart seg godis",
+    "shortClue": "Svart godis"
+  },
+  {
+    "word": "läsk",
+    "topics": ["food"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Kolsyrad söt dryck",
+    "shortClue": "Bubblande dryck"
+  },
+  {
+    "word": "vatten",
+    "topics": ["food"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Dryck ur kranen",
+    "shortClue": "Kranens dryck"
+  },
+  {
+    "word": "makrill",
+    "topics": ["food"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Fet fisk som ofta rökas",
+    "shortClue": "Fet fisk"
+  },
+  {
+    "word": "strömming",
+    "topics": ["food"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Liten fisk från Östersjön",
+    "shortClue": "Östersjöfisk"
+  },
+  {
+    "word": "ansjovis",
+    "topics": ["food"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Saltad liten fisk i burk",
+    "shortClue": "Saltad fisk"
+  },
+  {
+    "word": "falukorv",
+    "topics": ["food"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Stor rödaktig skivad stekmat",
+    "shortClue": "Stekt skivmat"
+  },
+  {
+    "word": "ärtsoppa",
+    "topics": ["food"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Gul rätt som serveras på torsdagar",
+    "shortClue": "Torsdagsrätt"
+  },
+  {
+    "word": "lutfisk",
+    "topics": ["food"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Julrätt av torkad torsk",
+    "shortClue": "Julrätt av torsk"
+  },
+  {
+    "word": "pepparkaka",
+    "topics": ["food"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Brun bakelse med kryddor i jultid",
+    "shortClue": "Julig kryddbakelse"
+  },
+  {
+    "word": "rabarber",
+    "topics": ["food"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Röd sur stjälk som blir kompott",
+    "shortClue": "Sur stjälk"
+  },
+  {
+    "word": "kompott",
+    "topics": ["food"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Kokt frukt som efterrätt",
+    "shortClue": "Kokt frukt"
+  },
+  {
+    "word": "halvö",
+    "topics": ["geography"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Land nästan helt omgivet av hav",
+    "shortClue": "Nästan en ö"
+  },
+  {
+    "word": "hav",
+    "topics": ["geography"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Salt vatten som täcker det mesta av jorden",
+    "shortClue": "Saltvatten"
+  },
+  {
+    "word": "flod",
+    "topics": ["geography"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Stort vattendrag på väg mot havet",
+    "shortClue": "Stort vattendrag"
+  },
+  {
+    "word": "älv",
+    "topics": ["geography"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Norrlands stora vattendrag",
+    "shortClue": "Stort vattendrag"
+  },
+  {
+    "word": "delta",
+    "topics": ["geography"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Flodens grenade mynning",
+    "shortClue": "Flodmynning"
+  },
+  {
+    "word": "sund",
+    "topics": ["geography"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Smal havsarm mellan två landmassor",
+    "shortClue": "Smal havsarm"
+  },
+  {
+    "word": "fjord",
+    "topics": ["geography"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Djup havsarm mellan branta berg",
+    "shortClue": "Djup havsarm"
+  },
+  {
+    "word": "glaciär",
+    "topics": ["geography"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Isflod på ett berg",
+    "shortClue": "Isflod"
+  },
+  {
+    "word": "öken",
+    "topics": ["geography"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Torrt sandigt område",
+    "shortClue": "Torr sandvidd"
+  },
+  {
+    "word": "oas",
+    "topics": ["geography"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Grön fläck mitt i öknen",
+    "shortClue": "Grön fläck"
+  },
+  {
+    "word": "savann",
+    "topics": ["geography"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Gräsbevuxen slätt i Afrika",
+    "shortClue": "Afrikansk gräsvidd"
+  },
+  {
+    "word": "tundra",
+    "topics": ["geography"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Trädlöst kallt landskap",
+    "shortClue": "Trädlös kyla"
+  },
+  {
+    "word": "prärie",
+    "topics": ["geography"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Nordamerikas gräsvidd",
+    "shortClue": "Amerikansk gräsvidd"
+  },
+  {
+    "word": "pol",
+    "topics": ["geography"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Jordens ände i norr eller söder",
+    "shortClue": "Jordens ände"
+  },
+  {
+    "word": "ekvator",
+    "topics": ["geography"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Tänkt linje runt jordens mitt",
+    "shortClue": "Mittlinje"
+  },
+  {
+    "word": "Norge",
+    "topics": ["geography"],
+    "difficulty": 1,
+    "kind": "proper",
+    "clue": "Landet med fjordar väster om oss",
+    "shortClue": "Fjordland"
+  },
+  {
+    "word": "Finland",
+    "topics": ["geography"],
+    "difficulty": 1,
+    "kind": "proper",
+    "clue": "Grannen i öster med tusen sjöar",
+    "shortClue": "Grannen i öster"
+  },
+  {
+    "word": "Danmark",
+    "topics": ["geography"],
+    "difficulty": 1,
+    "kind": "proper",
+    "clue": "Grannland söderut över Öresund",
+    "shortClue": "Grannland söderut"
+  },
+  {
+    "word": "Island",
+    "topics": ["geography"],
+    "difficulty": 1,
+    "kind": "proper",
+    "clue": "Ö i Atlanten med gejsrar",
+    "shortClue": "Gejserlandet"
+  },
+  {
+    "word": "Frankrike",
+    "topics": ["geography"],
+    "difficulty": 1,
+    "kind": "proper",
+    "clue": "Land med Eiffeltornet",
+    "shortClue": "Eiffels land"
+  },
+  {
+    "word": "Nilen",
+    "topics": ["geography"],
+    "difficulty": 2,
+    "kind": "proper",
+    "clue": "Egyptens stora flod",
+    "shortClue": "Afrikansk flod"
+  },
+  {
+    "word": "Alperna",
+    "topics": ["geography"],
+    "difficulty": 2,
+    "kind": "proper",
+    "clue": "Bergskedja i Schweiz",
+    "shortClue": "Schweiziska berg"
+  },
+  {
+    "word": "Mälaren",
+    "topics": ["geography"],
+    "difficulty": 2,
+    "kind": "proper",
+    "clue": "Sjö väster om Stockholm",
+    "shortClue": "Stockholms sjö"
+  },
+  {
+    "word": "Vättern",
+    "topics": ["geography"],
+    "difficulty": 2,
+    "kind": "proper",
+    "clue": "Sjö med Visingsö",
+    "shortClue": "Visingsös sjö"
+  },
+  {
+    "word": "Uppsala",
+    "topics": ["geography"],
+    "difficulty": 1,
+    "kind": "proper",
+    "clue": "Stad med domkyrka och universitet",
+    "shortClue": "Universitetsstad"
+  },
+  {
+    "word": "Visby",
+    "topics": ["geography"],
+    "difficulty": 2,
+    "kind": "proper",
+    "clue": "Stad på Gotland med ringmur",
+    "shortClue": "Ringmursstad"
+  },
+  {
+    "word": "Lappland",
+    "topics": ["geography"],
+    "difficulty": 1,
+    "kind": "proper",
+    "clue": "Landskap i norr med samer",
+    "shortClue": "Nordligt landskap"
+  },
+  {
+    "word": "Öland",
+    "topics": ["geography"],
+    "difficulty": 1,
+    "kind": "proper",
+    "clue": "Lång smal ö med Borgholm",
+    "shortClue": "Lång ö"
+  },
+  {
+    "word": "drottning",
+    "topics": ["history"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Regentens maka eller kvinnlig härskare",
+    "shortClue": "Regentens maka"
+  },
+  {
+    "word": "riddare",
+    "topics": ["history"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Medeltida krigare till häst",
+    "shortClue": "Medeltida ryttare"
+  },
+  {
+    "word": "fästning",
+    "topics": ["history"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Befäst plats mot fiender",
+    "shortClue": "Befäst plats"
+  },
+  {
+    "word": "vallgrav",
+    "topics": ["history"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Vattenfylld grop runt slottet",
+    "shortClue": "Slottets vatten"
+  },
+  {
+    "word": "mur",
+    "topics": ["history"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Tjock vägg av sten som skyddar",
+    "shortClue": "Skyddande vägg"
+  },
+  {
+    "word": "hjälm",
+    "topics": ["history"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Skydd för krigarens huvud",
+    "shortClue": "Huvudskydd"
+  },
+  {
+    "word": "viking",
+    "topics": ["history"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Nordisk sjöfarare för tusen år sedan",
+    "shortClue": "Nordisk sjöfarare"
+  },
+  {
+    "word": "amfora",
+    "topics": ["history"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Antikens lerkruka",
+    "shortClue": "Antik lerkruka"
+  },
+  {
+    "word": "pyramid",
+    "topics": ["history"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Kunglig grav i Egypten",
+    "shortClue": "Egyptisk grav"
+  },
+  {
+    "word": "farao",
+    "topics": ["history"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Gammal härskare vid Nilen",
+    "shortClue": "Egyptens härskare"
+  },
+  {
+    "word": "gladiator",
+    "topics": ["history"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Kämpe i Roms arena",
+    "shortClue": "Roms kämpe"
+  },
+  {
+    "word": "legion",
+    "topics": ["history"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Romersk härförband",
+    "shortClue": "Romersk trupp"
+  },
+  {
+    "word": "akvedukt",
+    "topics": ["history"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Romersk bro för vatten",
+    "shortClue": "Vattenbro"
+  },
+  {
+    "word": "katapult",
+    "topics": ["history"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Medeltida kastmaskin",
+    "shortClue": "Kastmaskin"
+  },
+  {
+    "word": "trubadur",
+    "topics": ["history"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Medeltida kringresande sångare",
+    "shortClue": "Sjungande vandrare"
+  },
+  {
+    "word": "krönika",
+    "topics": ["history"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Berättelse om händelser i tidsföljd",
+    "shortClue": "Händelseberättelse"
+  },
+  {
+    "word": "arkiv",
+    "topics": ["history"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Samling av gamla dokument",
+    "shortClue": "Dokumentförråd"
+  },
+  {
+    "word": "urkund",
+    "topics": ["history"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Gammalt viktigt papper",
+    "shortClue": "Gammalt papper"
+  },
+  {
+    "word": "ångmaskin",
+    "topics": ["history"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Drivkraften bakom tidiga tåg och fabriker",
+    "shortClue": "Tidig kraftkälla"
+  },
+  {
+    "word": "bronsålder",
+    "topics": ["history"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Tid då koppar och tenn smiddes ihop",
+    "shortClue": "Metalltid"
+  },
+  {
+    "word": "hövding",
+    "topics": ["history"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Ledare över en stam",
+    "shortClue": "Stamledare"
+  },
+  {
+    "word": "kejsare",
+    "topics": ["history"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Härskare över ett stort välde",
+    "shortClue": "Imperiets härskare"
+  },
+  {
+    "word": "imperium",
+    "topics": ["history"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Stort välde under en kejsare",
+    "shortClue": "Stort välde"
+  },
+  {
+    "word": "adel",
+    "topics": ["history"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Samhällsklass med ärvda titlar",
+    "shortClue": "Högsta stånd"
+  },
+  {
+    "word": "greve",
+    "topics": ["history"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Adelstitel under hertig",
+    "shortClue": "Adlig titel"
+  },
+  {
+    "word": "hertig",
+    "topics": ["history"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Adelstitel över greve",
+    "shortClue": "Adlig titel"
+  },
+  {
+    "word": "galär",
+    "topics": ["history"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Roddarfartyg",
+    "shortClue": "Roddfartyg"
+  },
+  {
+    "word": "tryckpress",
+    "topics": ["history"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Maskin som gjorde boktryck möjligt",
+    "shortClue": "Boktryckets maskin"
+  },
+  {
+    "word": "massa",
+    "topics": ["science"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Mängd materia i en kropp",
+    "shortClue": "Materiemängd"
+  },
+  {
+    "word": "atmosfär",
+    "topics": ["science"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Luftlagret runt jorden",
+    "shortClue": "Jordens luftlager"
+  },
+  {
+    "word": "geologi",
+    "topics": ["science"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Läran om jordens bergarter",
+    "shortClue": "Jordskorpans lära"
+  },
+  {
+    "word": "astronomi",
+    "topics": ["science"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Läran om himlakropparna",
+    "shortClue": "Himlens lära"
+  },
+  {
+    "word": "prisma",
+    "topics": ["science"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Glasbit som bryter ljus i färger",
+    "shortClue": "Ljusbrytare"
+  },
+  {
+    "word": "lins",
+    "topics": ["science"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Böjd glasbit som samlar strålar",
+    "shortClue": "Böjd glasbit"
+  },
+  {
+    "word": "ström",
+    "topics": ["science"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Rörelse av laddade partiklar i en tråd",
+    "shortClue": "Elektrisk rörelse"
+  },
+  {
+    "word": "volt",
+    "topics": ["science"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Enhet för elektrisk spänning",
+    "shortClue": "Spänningsenhet"
+  },
+  {
+    "word": "gram",
+    "topics": ["science"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Tusendels kilo",
+    "shortClue": "Liten viktenhet"
+  },
+  {
+    "word": "termometer",
+    "topics": ["science"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Instrument som mäter värme",
+    "shortClue": "Värmemätare"
+  },
+  {
+    "word": "barometer",
+    "topics": ["science"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Instrument som mäter lufttryck",
+    "shortClue": "Tryckmätare"
+  },
+  {
+    "word": "järn",
+    "topics": ["science"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Metall som kan rosta",
+    "shortClue": "Rostande metall"
+  },
+  {
+    "word": "guld",
+    "topics": ["science"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Ädelmetall som glänser gult",
+    "shortClue": "Gul ädelmetall"
+  },
+  {
+    "word": "väte",
+    "topics": ["science"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Lättaste grundämnet",
+    "shortClue": "Lättaste ämnet"
+  },
+  {
+    "word": "helium",
+    "topics": ["science"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Gas som får ballonger att sväva",
+    "shortClue": "Ballonggas"
+  },
+  {
+    "word": "kväve",
+    "topics": ["science"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Gas som utgör det mesta av luften",
+    "shortClue": "Luftens gas"
+  },
+  {
+    "word": "elektron",
+    "topics": ["science"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Negativ partikel runt atomkärnan",
+    "shortClue": "Negativ partikel"
+  },
+  {
+    "word": "geometri",
+    "topics": ["science"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Läran om figurer och rymd",
+    "shortClue": "Läran om figurer"
+  },
+  {
+    "word": "bråk",
+    "topics": ["science"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Tal som visar en del av en helhet",
+    "shortClue": "Del av helhet"
+  },
+  {
+    "word": "ekvation",
+    "topics": ["science"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Likhet med ett okänt tal",
+    "shortClue": "Likhet med x"
+  },
+  {
+    "word": "njure",
+    "topics": ["science"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Organ som renar blodet",
+    "shortClue": "Reningsorgan"
+  },
+  {
+    "word": "blod",
+    "topics": ["science"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Röd vätska i ådrorna",
+    "shortClue": "Röd kroppsvätska"
+  },
+  {
+    "word": "kromosom",
+    "topics": ["science"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Arvsbärare i cellkärnan",
+    "shortClue": "Arvsbärare"
+  },
+  {
+    "word": "vaccin",
+    "topics": ["science"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Spruta som skyddar mot sjukdom",
+    "shortClue": "Skyddsspruta"
+  },
+  {
+    "word": "virus",
+    "topics": ["science"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Mikroskopiskt smittämne",
+    "shortClue": "Litet smittämne"
+  },
+  {
+    "word": "komet",
+    "topics": ["science"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Himlakropp med lysande svans",
+    "shortClue": "Himlakropp med svans"
+  },
+  {
+    "word": "asteroid",
+    "topics": ["science"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Liten stenkropp i rymden",
+    "shortClue": "Rymdsten"
+  },
+  {
+    "word": "galax",
+    "topics": ["science"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Gigantisk samling stjärnor",
+    "shortClue": "Stjärnsamling"
+  },
+  {
+    "word": "fotboll",
+    "topics": ["sport"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Lagspel där man sparkar mot mål",
+    "shortClue": "Sparkspel"
+  },
+  {
+    "word": "hockey",
+    "topics": ["sport"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Lagspel på is med klubbor",
+    "shortClue": "Spel på is"
+  },
+  {
+    "word": "puck",
+    "topics": ["sport"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Svart skiva som slås på isen",
+    "shortClue": "Svart skiva"
+  },
+  {
+    "word": "klubba",
+    "topics": ["sport"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Redskap att slå bollar med",
+    "shortClue": "Slagredskap"
+  },
+  {
+    "word": "tennis",
+    "topics": ["sport"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Racketspel över ett nät",
+    "shortClue": "Spel med nät"
+  },
+  {
+    "word": "golf",
+    "topics": ["sport"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Spel med hål och små bollar",
+    "shortClue": "Spel på bana"
+  },
+  {
+    "word": "slalom",
+    "topics": ["sport"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Skidåkning mellan grindar",
+    "shortClue": "Grindåkning"
+  },
+  {
+    "word": "stav",
+    "topics": ["sport"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Redskap som skidåkaren håller i",
+    "shortClue": "Åkarens pinne"
+  },
+  {
+    "word": "diskus",
+    "topics": ["sport"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Rund skiva som kastas",
+    "shortClue": "Kastskiva"
+  },
+  {
+    "word": "kula",
+    "topics": ["sport"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Tungt klot som stöts",
+    "shortClue": "Tungt klot"
+  },
+  {
+    "word": "hinder",
+    "topics": ["sport"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Hög sak att ta sig över",
+    "shortClue": "Hög barriär"
+  },
+  {
+    "word": "start",
+    "topics": ["sport"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Ögonblick då loppet börjar",
+    "shortClue": "Loppets början"
+  },
+  {
+    "word": "lopp",
+    "topics": ["sport"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Tävling i fart",
+    "shortClue": "Fartkamp"
+  },
+  {
+    "word": "sprint",
+    "topics": ["sport"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Kort snabblopp",
+    "shortClue": "Kort lopp"
+  },
+  {
+    "word": "seger",
+    "topics": ["sport"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Det man vinner",
+    "shortClue": "Vinst"
+  },
+  {
+    "word": "medalj",
+    "topics": ["sport"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Pris att hänga runt halsen",
+    "shortClue": "Halspris"
+  },
+  {
+    "word": "lag",
+    "topics": ["sport"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Grupp spelare på samma sida",
+    "shortClue": "Spelargrupp"
+  },
+  {
+    "word": "supporter",
+    "topics": ["sport"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Den som hejar på sitt lag",
+    "shortClue": "Hejare"
+  },
+  {
+    "word": "publik",
+    "topics": ["sport"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Åskådare på läktaren",
+    "shortClue": "Åskådare"
+  },
+  {
+    "word": "läktare",
+    "topics": ["sport"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Sittplats vid planen",
+    "shortClue": "Åskådarplats"
+  },
+  {
+    "word": "schack",
+    "topics": ["sport"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Brädspel med kung och drottning",
+    "shortClue": "Brädspel"
+  },
+  {
+    "word": "springare",
+    "topics": ["sport"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Schackpjäs som hoppar",
+    "shortClue": "Hoppande pjäs"
+  },
+  {
+    "word": "cykel",
+    "topics": ["sport"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Tvåhjuligt fordon med pedaler",
+    "shortClue": "Tvåhjuling"
+  },
+  {
+    "word": "brottning",
+    "topics": ["sport"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Kamp där man tar ned motståndaren",
+    "shortClue": "Greppkamp"
+  },
+  {
+    "word": "gymnastik",
+    "topics": ["sport"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Idrott med räck och ringar",
+    "shortClue": "Räck och ringar"
+  },
+  {
+    "word": "trampolin",
+    "topics": ["sport"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Studsande redskap för hopp",
+    "shortClue": "Studsmatta"
+  },
+  {
+    "word": "rodd",
+    "topics": ["sport"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Idrott med åror i en båt",
+    "shortClue": "Åridrott"
+  },
+  {
+    "word": "segling",
+    "topics": ["sport"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Idrott för vindens kraft på havet",
+    "shortClue": "Vindsport"
+  },
+  {
+    "word": "ridsport",
+    "topics": ["sport"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Idrott på hästryggen",
+    "shortClue": "Hästidrott"
+  },
+  {
+    "word": "gitarr",
+    "topics": ["arts"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Strängat instrument med hals",
+    "shortClue": "Strängat instrument"
+  },
+  {
+    "word": "flöjt",
+    "topics": ["arts"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Blåsinstrument av trä eller metall",
+    "shortClue": "Blåsinstrument"
+  },
+  {
+    "word": "cello",
+    "topics": ["arts"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Stort stråkinstrument",
+    "shortClue": "Stort stråkspel"
+  },
+  {
+    "word": "harpa",
+    "topics": ["arts"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Instrument med många strängar att knäppa",
+    "shortClue": "Knäppt strängspel"
+  },
+  {
+    "word": "orgel",
+    "topics": ["arts"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Kyrkans pipinstrument",
+    "shortClue": "Pipinstrument"
+  },
+  {
+    "word": "dragspel",
+    "topics": ["arts"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Instrument med bälg och knappar",
+    "shortClue": "Bälginstrument"
+  },
+  {
+    "word": "dirigent",
+    "topics": ["arts"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Ledare med taktpinne",
+    "shortClue": "Taktpinnens herre"
+  },
+  {
+    "word": "melodi",
+    "topics": ["arts"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Följd av toner",
+    "shortClue": "Tonföljd"
+  },
+  {
+    "word": "rytm",
+    "topics": ["arts"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Takt och puls i musik",
+    "shortClue": "Musikens puls"
+  },
+  {
+    "word": "skulptur",
+    "topics": ["arts"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Tredimensionellt konstverk",
+    "shortClue": "Rumsligt verk"
+  },
+  {
+    "word": "akvarell",
+    "topics": ["arts"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Målning med vattenfärg",
+    "shortClue": "Vattenfärgsbild"
+  },
+  {
+    "word": "palett",
+    "topics": ["arts"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Målarens blandningsskiva",
+    "shortClue": "Färgbräde"
+  },
+  {
+    "word": "galleri",
+    "topics": ["arts"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Rum för att visa konst",
+    "shortClue": "Konstvisning"
+  },
+  {
+    "word": "museum",
+    "topics": ["arts"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Hus för samlingar att se",
+    "shortClue": "Samlingshus"
+  },
+  {
+    "word": "vers",
+    "topics": ["arts"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Rad i en dikt",
+    "shortClue": "Diktrad"
+  },
+  {
+    "word": "rim",
+    "topics": ["arts"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Ord som slutar likadant",
+    "shortClue": "Likljudande ord"
+  },
+  {
+    "word": "kuliss",
+    "topics": ["arts"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Teaterns målade bakgrund",
+    "shortClue": "Målad vägg"
+  },
+  {
+    "word": "skådespelare",
+    "topics": ["arts"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Person som gestaltar roller",
+    "shortClue": "Rollgestaltare"
+  },
+  {
+    "word": "ridå",
+    "topics": ["arts"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Tyg som öppnas före pjäsen",
+    "shortClue": "Teaterdraperi"
+  },
+  {
+    "word": "film",
+    "topics": ["arts"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Rörliga bilder på duken",
+    "shortClue": "Rörliga bilder"
+  },
+  {
+    "word": "regissör",
+    "topics": ["arts"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Den som leder en inspelning",
+    "shortClue": "Inspelningsledare"
+  },
+  {
+    "word": "manus",
+    "topics": ["arts"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Text som skådespelare följer",
+    "shortClue": "Rolltext"
+  },
+  {
+    "word": "dans",
+    "topics": ["arts"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Rörelse till musik",
+    "shortClue": "Rörelse till musik"
+  },
+  {
+    "word": "vals",
+    "topics": ["arts"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Dans i tretakt",
+    "shortClue": "Tretaktsdans"
+  },
+  {
+    "word": "pelare",
+    "topics": ["arts"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Bärande kolonn i en byggnad",
+    "shortClue": "Bärande stolpe"
+  },
+  {
+    "word": "kupol",
+    "topics": ["arts"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Rund välvd takform",
+    "shortClue": "Välvt tak"
+  },
+  {
+    "word": "mosaik",
+    "topics": ["arts"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Bild av små stenbitar",
+    "shortClue": "Stenbitsbild"
+  },
+  {
+    "word": "fresk",
+    "topics": ["arts"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Målning på våt vägg",
+    "shortClue": "Väggmålning"
+  },
+  {
+    "word": "fåtölj",
+    "topics": ["home"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Stoppad stol med armstöd",
+    "shortClue": "Stoppad stol"
+  },
+  {
+    "word": "hylla",
+    "topics": ["home"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Platta för böcker på väggen",
+    "shortClue": "Förvaringsplatta"
+  },
+  {
+    "word": "byrå",
+    "topics": ["home"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Möbel med lådor",
+    "shortClue": "Lådmöbel"
+  },
+  {
+    "word": "lampa",
+    "topics": ["home"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Ger ljus i rummet",
+    "shortClue": "Rumsljus"
+  },
+  {
+    "word": "fönster",
+    "topics": ["home"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Genomskinlig öppning i väggen",
+    "shortClue": "Glasöppning"
+  },
+  {
+    "word": "dörr",
+    "topics": ["home"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Öppning man går genom",
+    "shortClue": "Ingång"
+  },
+  {
+    "word": "golv",
+    "topics": ["home"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Det man går på inomhus",
+    "shortClue": "Rummets botten"
+  },
+  {
+    "word": "vägg",
+    "topics": ["home"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Rummets sida",
+    "shortClue": "Rummets sida"
+  },
+  {
+    "word": "badkar",
+    "topics": ["home"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Stort kar att ligga i",
+    "shortClue": "Stort kar"
+  },
+  {
+    "word": "dusch",
+    "topics": ["home"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Vattenstrålar över kroppen",
+    "shortClue": "Vattenregn"
+  },
+  {
+    "word": "handduk",
+    "topics": ["home"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Mjukt tyg för att torka kroppen",
+    "shortClue": "Tyg efter badet"
+  },
+  {
+    "word": "borste",
+    "topics": ["home"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Redskap med strån",
+    "shortClue": "Redskap med strån"
+  },
+  {
+    "word": "kvast",
+    "topics": ["home"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Skaftredskap för att sopa",
+    "shortClue": "Sopredskap"
+  },
+  {
+    "word": "glas",
+    "topics": ["home"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Genomskinligt dryckeskärl",
+    "shortClue": "Dryckeskärl"
+  },
+  {
+    "word": "gaffel",
+    "topics": ["home"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Bestick med pinnar",
+    "shortClue": "Pinnbestick"
+  },
+  {
+    "word": "ugn",
+    "topics": ["home"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Het låda för bröd",
+    "shortClue": "Het låda"
+  },
+  {
+    "word": "dammsugare",
+    "topics": ["home"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Maskin som gör golvet rent från smuts",
+    "shortClue": "Golvrengörare"
+  },
+  {
+    "word": "strykjärn",
+    "topics": ["home"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Redskap som slätar skjortor",
+    "shortClue": "Slätar tyg"
+  },
+  {
+    "word": "kratta",
+    "topics": ["home"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Redskap för att samla löv",
+    "shortClue": "Lövsamlare"
+  },
+  {
+    "word": "såg",
+    "topics": ["home"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Verktyg med tänder för trä",
+    "shortClue": "Tandat verktyg"
+  },
+  {
+    "word": "borr",
+    "topics": ["home"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Verktyg som gör hål",
+    "shortClue": "Håltagare"
+  },
+  {
+    "word": "hink",
+    "topics": ["home"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Kärl med handtag för vatten",
+    "shortClue": "Vattenkärl"
+  },
+  {
+    "word": "lykta",
+    "topics": ["home"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Lampa som bärs",
+    "shortClue": "Bärbar lampa"
+  },
+  {
+    "word": "filt",
+    "topics": ["home"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Grov yllepläd",
+    "shortClue": "Yllepläd"
+  },
+  {
+    "word": "gardin",
+    "topics": ["home"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Tyg framför fönstret",
+    "shortClue": "Fönstertyg"
+  },
+  {
+    "word": "lakan",
+    "topics": ["home"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Tyg som läggs på madrassen",
+    "shortClue": "Sängtyg"
+  },
+  {
+    "word": "madrass",
+    "topics": ["home"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Mjukt underlag i sängen",
+    "shortClue": "Mjukt underlag"
+  },
+  {
+    "word": "paraply",
+    "topics": ["home"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Skydd mot regn",
+    "shortClue": "Regnskydd"
+  },
+  {
+    "word": "lås",
+    "topics": ["home"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Det som nyckeln öppnar",
+    "shortClue": "Skyddar dörren"
+  },
+  {
+    "word": "veterinär",
+    "topics": ["professions"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Djurens doktor",
+    "shortClue": "Djurdoktor"
+  },
+  {
+    "word": "apotekare",
+    "topics": ["professions"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Den som lämnar ut medicin",
+    "shortClue": "Medicinutlämnare"
+  },
+  {
+    "word": "frisör",
+    "topics": ["professions"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Den som klipper hår",
+    "shortClue": "Hårklippare"
+  },
+  {
+    "word": "sömmerska",
+    "topics": ["professions"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Yrkeskvinna som tillverkar plagg",
+    "shortClue": "Plaggmakare"
+  },
+  {
+    "word": "skräddare",
+    "topics": ["professions"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Yrkesman som tillverkar kostymer",
+    "shortClue": "Kostymtillverkare"
+  },
+  {
+    "word": "murare",
+    "topics": ["professions"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Yrkesman som lägger tegel",
+    "shortClue": "Tegellaggare"
+  },
+  {
+    "word": "elektriker",
+    "topics": ["professions"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Yrkesman för ledningar och strömbrytare",
+    "shortClue": "Ledningsman"
+  },
+  {
+    "word": "rörmokare",
+    "topics": ["professions"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Hantverkare för vatten och avlopp",
+    "shortClue": "Vattenhantverkare"
+  },
+  {
+    "word": "mekaniker",
+    "topics": ["professions"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Reparerar motorer",
+    "shortClue": "Motorfixare"
+  },
+  {
+    "word": "chaufför",
+    "topics": ["professions"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Den som kör bussen",
+    "shortClue": "Bussförare"
+  },
+  {
+    "word": "lokförare",
+    "topics": ["professions"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Den som styr tåg",
+    "shortClue": "Tågförare"
+  },
+  {
+    "word": "fiskare",
+    "topics": ["professions"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Den som drar upp fångst ur havet",
+    "shortClue": "Nätdragare"
+  },
+  {
+    "word": "bonde",
+    "topics": ["professions"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Den som brukar jord",
+    "shortClue": "Jordbrukare"
+  },
+  {
+    "word": "konditor",
+    "topics": ["professions"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Den som bakar tårtor",
+    "shortClue": "Tårtbagare"
+  },
+  {
+    "word": "kassör",
+    "topics": ["professions"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Den som tar emot pengar",
+    "shortClue": "Pengahanterare"
+  },
+  {
+    "word": "direktör",
+    "topics": ["professions"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Chef över ett företag",
+    "shortClue": "Företagsledare"
+  },
+  {
+    "word": "advokat",
+    "topics": ["professions"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Juridiskt ombud",
+    "shortClue": "Rättsbiträde"
+  },
+  {
+    "word": "åklagare",
+    "topics": ["professions"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Den som för talan mot en misstänkt",
+    "shortClue": "Rättens anklagare"
+  },
+  {
+    "word": "polis",
+    "topics": ["professions"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Ordningens väktare",
+    "shortClue": "Ordningsvakt"
+  },
+  {
+    "word": "vaktmästare",
+    "topics": ["professions"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Underhåller byggnader",
+    "shortClue": "Husskötare"
+  },
+  {
+    "word": "forskare",
+    "topics": ["professions"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Den som utforskar nya saker",
+    "shortClue": "Vetenskapsman"
+  },
+  {
+    "word": "ingenjör",
+    "topics": ["professions"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Teknisk planerare",
+    "shortClue": "Teknisk planerare"
+  },
+  {
+    "word": "journalist",
+    "topics": ["professions"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Den som skriver nyheter",
+    "shortClue": "Nyhetsskrivare"
+  },
+  {
+    "word": "fotograf",
+    "topics": ["professions"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Den som tar bilder",
+    "shortClue": "Bildtagare"
+  },
+  {
+    "word": "musiker",
+    "topics": ["professions"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Den som spelar instrument",
+    "shortClue": "Instrumentalist"
+  },
+  {
+    "word": "kirurg",
+    "topics": ["professions"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Läkare som opererar",
+    "shortClue": "Opererande doktor"
+  },
+  {
+    "word": "urmakare",
+    "topics": ["professions"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Den som lagar klockor",
+    "shortClue": "Klockmakare"
+  },
+  {
+    "word": "guldsmed",
+    "topics": ["professions"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Hantverkare som formar smycken av ädelmetall",
+    "shortClue": "Smyckesmakare"
+  },
+  {
+    "word": "skomakare",
+    "topics": ["professions"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Lagar fotbeklädnad",
+    "shortClue": "Lagar fotkläder"
+  },
+  {
+    "word": "majstång",
+    "topics": ["localCulture"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Blomprydd mast som reses i juni",
+    "shortClue": "Blomprydd mast"
+  },
+  {
+    "word": "nubbe",
+    "topics": ["localCulture"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Liten sup vid julbordet",
+    "shortClue": "Liten sup"
+  },
+  {
+    "word": "skål",
+    "topics": ["localCulture"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Utrop när man lyfter glaset",
+    "shortClue": "Utrop med glas"
+  },
+  {
+    "word": "julgran",
+    "topics": ["localCulture"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Pyntat träd i december",
+    "shortClue": "Pyntat träd"
+  },
+  {
+    "word": "julbock",
+    "topics": ["localCulture"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Halmfigur vid jul",
+    "shortClue": "Halmfigur"
+  },
+  {
+    "word": "lussekatt",
+    "topics": ["localCulture"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Saffranssnurra på Lucia",
+    "shortClue": "Saffransbulle"
+  },
+  {
+    "word": "saffran",
+    "topics": ["localCulture"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Gul krydda i lussebullar",
+    "shortClue": "Gul krydda"
+  },
+  {
+    "word": "surströmming",
+    "topics": ["localCulture"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Jäst fisk från Norrland",
+    "shortClue": "Norrländsk burkfisk"
+  },
+  {
+    "word": "filmjölk",
+    "topics": ["localCulture"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Syrad dryck till frukost",
+    "shortClue": "Syrad frukostdryck"
+  },
+  {
+    "word": "prinsesstårta",
+    "topics": ["localCulture"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Grön tårta med marsipan",
+    "shortClue": "Grön tårta"
+  },
+  {
+    "word": "smörgåsbord",
+    "topics": ["localCulture"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Rikt kalas med kalla och varma rätter",
+    "shortClue": "Rikt kalas"
+  },
+  {
+    "word": "same",
+    "topics": ["localCulture"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Ursprungsfolk i norr",
+    "shortClue": "Nordens ursprungsfolk"
+  },
+  {
+    "word": "kota",
+    "topics": ["localCulture"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Samiskt tält",
+    "shortClue": "Samiskt tält"
+  },
+  {
+    "word": "slöjd",
+    "topics": ["localCulture"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Handarbete i trä och textil",
+    "shortClue": "Handens skapande"
+  },
+  {
+    "word": "bastu",
+    "topics": ["localCulture"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Hett rum för bad med bänkar",
+    "shortClue": "Hett badrum"
+  },
+  {
+    "word": "allsång",
+    "topics": ["localCulture"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Gemensamt sjungande av alla",
+    "shortClue": "Gemensamt sjungande"
+  },
+  {
+    "word": "semester",
+    "topics": ["localCulture"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Ledighet från jobbet",
+    "shortClue": "Ledig tid"
+  },
+  {
+    "word": "julafton",
+    "topics": ["localCulture"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Dagen för klappar",
+    "shortClue": "Klappdagen"
+  },
+  {
+    "word": "påsk",
+    "topics": ["localCulture"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Vårhögtid med färgade ägg",
+    "shortClue": "Äggfest"
+  },
+  {
+    "word": "fettisdag",
+    "topics": ["localCulture"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Dag för fastlagsbullar",
+    "shortClue": "Bulldag"
+  },
+  {
+    "word": "brasa",
+    "topics": ["localCulture"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Stor eld som tänds på våren",
+    "shortClue": "Stor eld"
+  },
+  {
+    "word": "torp",
+    "topics": ["localCulture"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Liten lantgård",
+    "shortClue": "Litet hemman"
+  },
+  {
+    "word": "Pippi",
+    "topics": ["localCulture"],
+    "difficulty": 1,
+    "kind": "proper",
+    "clue": "Astrid Lindgrens rödhåriga starka flicka",
+    "shortClue": "Rödhårig tjej"
+  },
+  {
+    "word": "Nobel",
+    "topics": ["localCulture"],
+    "difficulty": 2,
+    "kind": "proper",
+    "clue": "Uppfinnare av dynamit och prisets givare",
+    "shortClue": "Prisgivaren"
+  },
+  {
+    "word": "Vasa",
+    "topics": ["localCulture"],
+    "difficulty": 2,
+    "kind": "proper",
+    "clue": "Skeppet som sjönk 1628 och bärgades",
+    "shortClue": "Bärgat skepp"
+  },
+  {
+    "word": "tomtebloss",
+    "topics": ["localCulture"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Sprakande pinne på nyår",
+    "shortClue": "Sprakande pinne"
+  },
+  {
+    "word": "adventsstjärna",
+    "topics": ["localCulture"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Lysande fönsterprydnad före jul",
+    "shortClue": "Fönsterprydnad"
+  },
+  {
+    "word": "midvinter",
+    "topics": ["localCulture"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Tiden kring vintersolståndet",
+    "shortClue": "Vintersolståndet"
+  },
+  {
+    "word": "vemod",
+    "topics": ["general"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Stilla sorgsen stämning",
+    "shortClue": "Sorgsen stämning"
+  },
+  {
+    "word": "motvilja",
+    "topics": ["general"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Stark olust inför något",
+    "shortClue": "Olust"
+  },
+  {
+    "word": "nyans",
+    "topics": ["general"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Fin skillnad i färg eller betydelse",
+    "shortClue": "Fin skillnad"
+  },
+  {
+    "word": "bagatell",
+    "topics": ["general"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Obetydlig småsak",
+    "shortClue": "Småsak"
+  },
+  {
+    "word": "förbehåll",
+    "topics": ["general"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Villkor man lägger till i ett löfte",
+    "shortClue": "Tillagt villkor"
+  },
+  {
+    "word": "anspråk",
+    "topics": ["general"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Krav på något man menar sig ha rätt till",
+    "shortClue": "Rättighetskrav"
+  },
+  {
+    "word": "otålighet",
+    "topics": ["general"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Brist på förmåga att vänta",
+    "shortClue": "Svårt att vänta"
+  },
+  {
+    "word": "gemenskap",
+    "topics": ["general"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Känsla av att höra ihop",
+    "shortClue": "Samhörighet"
+  },
+  {
+    "word": "lav",
+    "topics": ["nature"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Samliv av alg och svamp på en stam",
+    "shortClue": "Stamväxt"
+  },
+  {
+    "word": "backsippa",
+    "topics": ["nature"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Lila vårblomma på torr mark",
+    "shortClue": "Lila vårblomma"
+  },
+  {
+    "word": "kärr",
+    "topics": ["nature"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Sumpigt våtmarksområde",
+    "shortClue": "Sumpmark"
+  },
+  {
+    "word": "moräne",
+    "topics": ["nature"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Stenhög som isen lämnat efter sig",
+    "shortClue": "Isens avlagring"
+  },
+  {
+    "word": "norrsken",
+    "topics": ["nature"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Grönt ljus på polarhimlen",
+    "shortClue": "Polarhimmelens ljus"
+  },
+  {
+    "word": "vitsippa",
+    "topics": ["nature"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Vit vårblomma i bokskogen",
+    "shortClue": "Vit vårblomma"
+  },
+  {
+    "word": "järpe",
+    "topics": ["animals"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Litet skogshöns",
+    "shortClue": "Litet skogshöns"
+  },
+  {
+    "word": "ormvråk",
+    "topics": ["animals"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Rovfågel som kretsar över fälten",
+    "shortClue": "Kretsande rovfågel"
+  },
+  {
+    "word": "salamander",
+    "topics": ["animals"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Ödleliknande groddjur",
+    "shortClue": "Ödleliknande djur"
+  },
+  {
+    "word": "slända",
+    "topics": ["animals"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Insekt med klara vingar vid vatten",
+    "shortClue": "Vattenvingad insekt"
+  },
+  {
+    "word": "mård",
+    "topics": ["animals"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Skogsrovdjur med ljus hals",
+    "shortClue": "Skogsrovdjur"
+  },
+  {
+    "word": "hermelin",
+    "topics": ["animals"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Liten vit vessla på vintern",
+    "shortClue": "Vit vessla"
+  },
+  {
+    "word": "tjäder",
+    "topics": ["animals"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Stor skogsfågel som spelar på våren",
+    "shortClue": "Stor skogsfågel"
+  },
+  {
+    "word": "hjortron",
+    "topics": ["food"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Gult bär från myren",
+    "shortClue": "Gult myrbär"
+  },
+  {
+    "word": "krusbär",
+    "topics": ["food"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Grönt taggbuskens bär",
+    "shortClue": "Grönt buskbär"
+  },
+  {
+    "word": "murkla",
+    "topics": ["food"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Hålig vårsvamp",
+    "shortClue": "Vårsvamp"
+  },
+  {
+    "word": "kardemumma",
+    "topics": ["food"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Krydda i bullar",
+    "shortClue": "Kryddfrö"
+  },
+  {
+    "word": "palsternacka",
+    "topics": ["food"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Vit rotfrukt",
+    "shortClue": "Vit rot"
+  },
+  {
+    "word": "gravlax",
+    "topics": ["food"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Sockrad och dillad rå fisk",
+    "shortClue": "Dillad fisk"
+  },
+  {
+    "word": "knäck",
+    "topics": ["food"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Seg julgodis",
+    "shortClue": "Julgodis"
+  },
+  {
+    "word": "kaviar",
+    "topics": ["food"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Rom på smörgås",
+    "shortClue": "Fiskrom"
+  },
+  {
+    "word": "arkipelag",
+    "topics": ["geography"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Stor grupp öar",
+    "shortClue": "Ögrupp"
+  },
+  {
+    "word": "atoll",
+    "topics": ["geography"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Ringformad korallö",
+    "shortClue": "Korallring"
+  },
+  {
+    "word": "kanjon",
+    "topics": ["geography"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Djup trång dal",
+    "shortClue": "Djup klyfta"
+  },
+  {
+    "word": "platå",
+    "topics": ["geography"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Höglänt slätt",
+    "shortClue": "Upphöjd slätt"
+  },
+  {
+    "word": "mangrove",
+    "topics": ["geography"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Tropisk kustskog",
+    "shortClue": "Tropisk kustskog"
+  },
+  {
+    "word": "stäpp",
+    "topics": ["geography"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Torr grässlätt i Asien",
+    "shortClue": "Asiatisk grässlätt"
+  },
+  {
+    "word": "triumfbåge",
+    "topics": ["history"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Romersk segerport",
+    "shortClue": "Segerport"
+  },
+  {
+    "word": "katedral",
+    "topics": ["history"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Stor medeltida kyrka",
+    "shortClue": "Stor kyrka"
+  },
+  {
+    "word": "hovnarr",
+    "topics": ["history"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Kungens skämtare",
+    "shortClue": "Kungens skämtare"
+  },
+  {
+    "word": "manuskript",
+    "topics": ["history"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Handskriven text",
+    "shortClue": "Handskrift"
+  },
+  {
+    "word": "sarkofag",
+    "topics": ["history"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Stenkista för en död",
+    "shortClue": "Stenkista"
+  },
+  {
+    "word": "hieroglyf",
+    "topics": ["history"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Egyptiskt bildtecken",
+    "shortClue": "Bildtecken"
+  },
+  {
+    "word": "fotosyntes",
+    "topics": ["science"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Växters sätt att göra socker av ljus",
+    "shortClue": "Växters födoprocess"
+  },
+  {
+    "word": "centrifug",
+    "topics": ["science"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Maskin som slungar runt",
+    "shortClue": "Slungare"
+  },
+  {
+    "word": "spektrum",
+    "topics": ["science"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Ljusets färgskala",
+    "shortClue": "Färgskala"
+  },
+  {
+    "word": "isotop",
+    "topics": ["science"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Atomvariant med annan massa",
+    "shortClue": "Atomvariant"
+  },
+  {
+    "word": "ozon",
+    "topics": ["science"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Gas i atmosfären som skyddar mot strålning",
+    "shortClue": "Skyddsgas"
+  },
+  {
+    "word": "enzym",
+    "topics": ["science"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Ämne som styr kemin i kroppen",
+    "shortClue": "Kroppens kemist"
+  },
+  {
+    "word": "florett",
+    "topics": ["sport"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Fäktvapen",
+    "shortClue": "Fäktvapen"
+  },
+  {
+    "word": "stavhopp",
+    "topics": ["sport"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Gren där man tar sig över ribban med en stång",
+    "shortClue": "Gren med stång"
+  },
+  {
+    "word": "bandy",
+    "topics": ["sport"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Lagspel på is med boll",
+    "shortClue": "Isspel med boll"
+  },
+  {
+    "word": "fäktning",
+    "topics": ["sport"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Kamp med klingor",
+    "shortClue": "Klingkamp"
+  },
+  {
+    "word": "mångkamp",
+    "topics": ["sport"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Tävling i många grenar",
+    "shortClue": "Tävling i grenar"
+  },
+  {
+    "word": "fuga",
+    "topics": ["arts"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Stränga tonföljd som imiteras",
+    "shortClue": "Imiterad tonföljd"
+  },
+  {
+    "word": "sonat",
+    "topics": ["arts"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Musikstycke för ett eller två instrument",
+    "shortClue": "Musikstycke"
+  },
+  {
+    "word": "libretto",
+    "topics": ["arts"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Operans text",
+    "shortClue": "Operans text"
+  },
+  {
+    "word": "stråke",
+    "topics": ["arts"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Fiolens spelredskap",
+    "shortClue": "Fiolredskap"
+  },
+  {
+    "word": "sonett",
+    "topics": ["arts"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Fjorton rader dikt",
+    "shortClue": "Fjortonradig dikt"
+  },
+  {
+    "word": "etsning",
+    "topics": ["arts"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Bild av syra i metallplåt",
+    "shortClue": "Syrabild"
+  },
+  {
+    "word": "tenor",
+    "topics": ["arts"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Hög mansröst",
+    "shortClue": "Hög mansröst"
+  },
+  {
+    "word": "skänk",
+    "topics": ["home"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Låg möbel i matsalen",
+    "shortClue": "Låg möbel"
+  },
+  {
+    "word": "durkslag",
+    "topics": ["home"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Sil med hål för pasta",
+    "shortClue": "Hålsil"
+  },
+  {
+    "word": "mortel",
+    "topics": ["home"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Skål för att krossa kryddor",
+    "shortClue": "Krossfat"
+  },
+  {
+    "word": "tumstock",
+    "topics": ["home"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Hopvikbar måttstock",
+    "shortClue": "Vikbar mätare"
+  },
+  {
+    "word": "hyvel",
+    "topics": ["home"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Verktyg för att jämna trä",
+    "shortClue": "Träjämnare"
+  },
+  {
+    "word": "visp",
+    "topics": ["home"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Köksredskap för grädde",
+    "shortClue": "Köksredskap"
+  },
+  {
+    "word": "kantor",
+    "topics": ["professions"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Kyrkans musikansvarige",
+    "shortClue": "Kyrkmusikant"
+  },
+  {
+    "word": "revisor",
+    "topics": ["professions"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Granskar bolagets räkenskaper",
+    "shortClue": "Siffergranskare"
+  },
+  {
+    "word": "notarie",
+    "topics": ["professions"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Domstolens juristjunior",
+    "shortClue": "Rättsassistent"
+  },
+  {
+    "word": "kurator",
+    "topics": ["professions"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Stödperson på skola eller sjukhus",
+    "shortClue": "Stödperson"
+  },
+  {
+    "word": "bokbindare",
+    "topics": ["professions"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Hantverkare som binder volymer",
+    "shortClue": "Volymbindare"
+  },
+  {
+    "word": "kartograf",
+    "topics": ["professions"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Ritar upp landets former",
+    "shortClue": "Landritare"
+  },
+  {
+    "word": "kroppkaka",
+    "topics": ["localCulture"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Fylld potatisbulle från Öland",
+    "shortClue": "Fylld potatisbulle"
+  },
+  {
+    "word": "rödfärg",
+    "topics": ["localCulture"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Traditionell kulör på svenska stugor",
+    "shortClue": "Stugkulör"
+  },
+  {
+    "word": "fäbod",
+    "topics": ["localCulture"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Gammal sommargård för djur i skogen",
+    "shortClue": "Sommargård"
+  },
+  {
+    "word": "gökotta",
+    "topics": ["localCulture"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Tidig vårutflykt för att lyssna på fåglar",
+    "shortClue": "Fågelutflykt"
+  }
+]

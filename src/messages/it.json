@@ -31,7 +31,8 @@
     "privacy": "Privacy",
     "terms": "Condizioni",
     "contact": "Contatti",
-    "guides": "Guide"
+    "guides": "Guide",
+    "daily": "Cruciverba del giorno"
   },
   "Errors": {
     "network": "Il server non risponde. Controlla la connessione e riprova.",
@@ -91,7 +92,9 @@
     "ogPuzzleCta": "Riesci a risolverlo?",
     "ogPuzzleMeta": "{size} · {words, plural, one {# parola} other {# parole}}",
     "guidesTitle": "Cruciverba: come crearli, risolverli e usarli",
-    "guidesDescription": "Come creare un cruciverba, risolverlo più in fretta, giocare agli schemi svedesi e usarlo in classe: guide pratiche con esempi di definizioni."
+    "guidesDescription": "Come creare un cruciverba, risolverlo più in fretta, giocare agli schemi svedesi e usarlo in classe: guide pratiche con esempi di definizioni.",
+    "dailyTitle": "Cruciverba del giorno: gratis e nuovo ogni giorno",
+    "dailyDescription": "Ogni giorno un nuovo cruciverba classico, gratis, senza registrazione e uguale per tutti. Esce alle 00:00 UTC. Le soluzioni di ieri sono nella stessa pagina."
   },
   "Formats": {
     "classic": {
@@ -290,6 +293,46 @@
     "faq3Answer": "Se non c’è posto per la definizione subito prima della soluzione, sta sopra o di fianco alla prima lettera, e la freccia si piega per indicare la direzione.",
     "faq4Question": "Le definizioni dello schema svedese sono diverse?",
     "faq4Answer": "Sono più corte: devono entrare in una casella, quindi sono al massimo poche parole."
+  },
+  "Daily": {
+    "eyebrow": "Cruciverba del giorno",
+    "title": "Cruciverba del giorno",
+    "subtitle": "Ogni giorno alle 00:00 UTC un nuovo cruciverba classico. Gratis, senza registrazione e uguale per tutti.",
+    "today": "Oggi, {date}",
+    "todayTitle": "Il cruciverba di oggi",
+    "todaySubtitle": "{count, plural, one {# parola} other {# parole}} con definizioni numerate in orizzontale e in verticale. Leggile qui, poi apri lo schema per risolverlo.",
+    "gridLabel": "Schema vuoto del cruciverba di oggi, {width} per {height} caselle",
+    "play": "Risolvi il cruciverba di oggi",
+    "across": "Orizzontali",
+    "down": "Verticali",
+    "unavailable": "Il cruciverba di oggi è in preparazione. Torna tra qualche minuto.",
+    "streak": "{count, plural, =0 {Risolvi il cruciverba di oggi per iniziare una serie} one {# giorno di fila} other {# giorni di fila}}",
+    "yesterdayTitle": "Soluzioni del cruciverba di ieri",
+    "yesterdayShow": "Mostra le soluzioni",
+    "yesterdayPlay": "Risolvi il cruciverba di ieri",
+    "previousTitle": "Giorni precedenti",
+    "aboutTitle": "Il cruciverba del giorno",
+    "about1": "Ogni giorno alle 00:00 UTC su questa pagina compare un nuovo cruciverba classico: uno schema di dimensioni medie con definizioni numerate in orizzontale e in verticale, scritte direttamente in italiano, non tradotte. Chi lo apre quel giorno trova lo stesso schema.",
+    "about2": "È gratis e non serve un account. I tuoi progressi restano salvati su questo dispositivo, così puoi fermarti e riprendere più tardi, e risolverlo giorno dopo giorno costruisce una serie. Quando comincia un nuovo giorno, le soluzioni di ieri compaiono più in basso su questa pagina.",
+    "about3": "Il cruciverba del giorno esce in 33 lingue, ognuna con le sue parole e le sue definizioni. Le parole di ogni giorno vengono da una riserva a parte, quindi di rado compaiono negli altri cruciverba.",
+    "makeOwnTitle": "Ne vuoi un altro?",
+    "makeOwnText": "Crea il tuo cruciverba su un tema che ti piace, dagli animali alla storia, nella dimensione e con la difficoltà che scegli tu.",
+    "makeOwnCta": "Crea un cruciverba",
+    "rulesLink": "Come si risolve un cruciverba",
+    "faqTitle": "Domande sul cruciverba del giorno",
+    "faq1Question": "Il cruciverba del giorno è gratis?",
+    "faq1Answer": "Sì. È gratis ogni giorno, senza account e senza spendere crediti.",
+    "faq2Question": "A che ora esce il nuovo cruciverba del giorno?",
+    "faq2Answer": "Ogni giorno alle 00:00 UTC, nello stesso momento in tutte le lingue.",
+    "faq3Question": "È lo stesso cruciverba per tutti?",
+    "faq3Answer": "Sì. Chi apre il cruciverba del giorno nella stessa lingua lo stesso giorno trova lo stesso schema e le stesse definizioni.",
+    "faq4Question": "Dove trovo le soluzioni di ieri?",
+    "faq4Answer": "In questa stessa pagina: quando comincia un nuovo giorno, le definizioni di ieri e le loro soluzioni compaiono sotto il cruciverba di oggi. Anche quelli dell'ultima settimana restano giocabili.",
+    "faq5Question": "Posso risolvere il cruciverba del giorno dal telefono?",
+    "faq5Answer": "Sì. Funziona in qualsiasi browser, su telefono, tablet o computer, e l'app si può installare. Un cruciverba che hai già aperto continua a funzionare offline.",
+    "teaserTitle": "Il cruciverba di oggi",
+    "teaserText": "Un cruciverba classico gratis ogni giorno: uguale per tutti, senza registrazione.",
+    "teaserCta": "Risolvi il cruciverba di oggi"
   },
   "TopicsPage": {
     "eyebrow": "Temi",

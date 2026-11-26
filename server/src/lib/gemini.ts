@@ -85,7 +85,12 @@ export type GenerateJsonOptions = {
   avoidModel?: string
   /** Epoch ms: no model is tried after it, and a call's timeout never runs past it. */
   deadline?: number
+  /** Counts every request sent, failed and fallen-through ones included: the daily budget is checked against them. */
+  meter?: RequestMeter
 }
+
+/** Owned by the caller, so the requests are known even when the call throws. */
+export type RequestMeter = { requests: number }
 
 /** Billed tokens of one call. `output` excludes `thoughts`; both are billed at the output rate. */
 export type TokenUsage = { prompt: number; cached: number; output: number; thoughts: number }
@@ -127,6 +132,7 @@ export const generateJson = async (options: GenerateJsonOptions): Promise<Genera
       failures.push({ model: name, status: 0, message: 'deadline passed' })
       break
     }
+    if (options.meter) options.meter.requests++
     try {
       const response = await getAI().models.generateContent({
         model: name,
@@ -159,7 +165,10 @@ export const generateJson = async (options: GenerateJsonOptions): Promise<Genera
   throw new AllModelsFailedError(failures)
 }
 
-/** True while every model is cooling down — the refill job skips its tick instead of burning a call. */
+/** When the first model comes off its cooldown (epoch ms; now or earlier when one is free already). */
+export const nextModelAvailableAt = (): number => Math.min(...MODELS.map(({ name }) => modelCooldowns.get(name) ?? 0))
+
+/** True while every model is cooling down — the refill job waits instead of burning a call. */
 export const allModelsCoolingDown = (): boolean => {
   const now = Date.now()
   return MODELS.every(({ name }) => (modelCooldowns.get(name) ?? 0) > now)

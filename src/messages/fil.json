@@ -31,7 +31,8 @@
     "privacy": "Pribasiya",
     "terms": "Mga tuntunin",
     "contact": "Makipag-ugnayan",
-    "guides": "Mga gabay"
+    "guides": "Mga gabay",
+    "daily": "Krusigrama ngayong araw"
   },
   "Errors": {
     "network": "Hindi maabot ang server. Tingnan ang koneksiyon at subukan muli.",
@@ -91,7 +92,9 @@
     "ogPuzzleCta": "Kaya mo bang lutasin?",
     "ogPuzzleMeta": "{size} · {words, plural, one {# salita} other {# salita}}",
     "guidesTitle": "Mga gabay sa krusigrama: gumawa at lumutas",
-    "guidesDescription": "Paano gumawa ng krusigrama, lutasin ito nang mas mabilis, maglaro ng skanword at gamitin ito sa klase: mga praktikal na gabay na may halimbawa."
+    "guidesDescription": "Paano gumawa ng krusigrama, lutasin ito nang mas mabilis, maglaro ng skanword at gamitin ito sa klase: mga praktikal na gabay na may halimbawa.",
+    "dailyTitle": "Krusigrama Ngayong Araw — Libre, Bago Araw-araw",
+    "dailyDescription": "Maglaro ng libreng klasikong krusigrama araw-araw, 00:00 UTC (08:00 sa Pilipinas) at pareho para sa lahat. Walang sign-up. Nasa pahina ang sagot kahapon."
   },
   "Formats": {
     "classic": {
@@ -290,6 +293,46 @@
     "faq3Answer": "Kapag walang puwang para sa pahiwatig mismo bago ang sagot, nasa itaas o tabi ito ng unang titik, at yumuyuko ang palaso para ipakita ang direksiyon.",
     "faq4Question": "Iba ba ang pahiwatig ng skanword?",
     "faq4Answer": "Mas maikli. Kailangang magkasya sa isang kahon, kaya ilang salita lang ang laman."
+  },
+  "Daily": {
+    "eyebrow": "Pang-araw-araw na krusigrama",
+    "title": "Pang-araw-araw na Krusigrama",
+    "subtitle": "Bagong klasikong krusigrama araw-araw nang 00:00 UTC (08:00 ng umaga sa Pilipinas). Libre, walang sign-up, at pareho para sa lahat.",
+    "today": "Ngayong araw, {date}",
+    "todayTitle": "Krusigrama ngayong araw",
+    "todaySubtitle": "{count, plural, one {# salita} other {# salita}} na may may-numerong clue na Pahalang at Patayo. Basahin dito, tapos buksan ang grid para sagutan.",
+    "gridLabel": "Walang-lamang grid ng krusigrama ngayong araw, {width} by {height} na kahon",
+    "play": "Laruin ang krusigrama ngayong araw",
+    "across": "Pahalang",
+    "down": "Patayo",
+    "unavailable": "Inihahanda pa ang krusigrama ngayong araw. Bumalik pagkalipas ng ilang minuto.",
+    "streak": "{count, plural, =0 {Sagutan ang krusigrama ngayong araw para magsimula ng streak} one {# araw na magkakasunod} other {# araw na magkakasunod}}",
+    "yesterdayTitle": "Mga sagot sa krusigrama kahapon",
+    "yesterdayShow": "Ipakita ang mga sagot",
+    "yesterdayPlay": "Laruin ang krusigrama kahapon",
+    "previousTitle": "Mga nakaraang araw",
+    "aboutTitle": "Tungkol sa pang-araw-araw na krusigrama",
+    "about1": "Araw-araw nang 00:00 UTC (08:00 ng umaga sa Pilipinas), may bagong klasikong krusigrama sa pahinang ito: katamtamang laki ng grid na may may-numerong clue na Pahalang at Patayo, isinulat nang direkta sa Filipino at hindi isinalin. Pareho ang puzzle na makukuha ng lahat ng magbubukas nito sa araw na iyon.",
+    "about2": "Libre ito at hindi kailangan ng account. Naka-save sa device na ito ang progress mo, kaya puwede kang huminto at bumalik mamaya, at ang pagsagot nito araw-araw ay bumubuo ng streak. Pagsapit ng bagong araw, lalabas ang mga sagot kahapon sa ibaba ng pahinang ito.",
+    "about3": "Mayroon ang krusigrama ngayong araw sa 33 wika, bawat isa may sariling mga salita at clue. Ang mga salita nito ay mula sa hiwalay na koleksyon na nakalaan para dito, kaya bihira itong lumabas sa ibang puzzle.",
+    "makeOwnTitle": "Gusto pa ng puzzle?",
+    "makeOwnText": "Gumawa ng sarili mong krusigrama tungkol sa paborito mong paksa, mula sa mga hayop hanggang sa kasaysayan, sa laki at hirap na gusto mo.",
+    "makeOwnCta": "Gumawa ng krusigrama",
+    "rulesLink": "Paano sumagot ng krusigrama",
+    "faqTitle": "Mga tanong tungkol sa pang-araw-araw na krusigrama",
+    "faq1Question": "Libre ba ang pang-araw-araw na krusigrama?",
+    "faq1Answer": "Oo. Libre ito araw-araw, walang account at walang credit na kailangan.",
+    "faq2Question": "Kailan lumalabas ang bagong pang-araw-araw na krusigrama?",
+    "faq2Answer": "May bagong puzzle araw-araw nang 00:00 UTC (08:00 ng umaga sa Pilipinas), sabay-sabay sa lahat ng wika.",
+    "faq3Question": "Pareho ba ang puzzle para sa lahat?",
+    "faq3Answer": "Oo. Pareho ang grid at mga clue na makukuha ng lahat ng magbubukas ng krusigrama sa parehong wika sa parehong araw.",
+    "faq4Question": "Saan makikita ang mga sagot sa krusigrama kahapon?",
+    "faq4Answer": "Sa pahinang ito: pagsapit ng bagong araw, lalabas sa ibaba ng puzzle ngayong araw ang mga clue at sagot kahapon. Puwede ring laruin ang mga puzzle ng nakaraang linggo.",
+    "faq5Question": "Puwede bang laruin ang krusigrama sa cellphone?",
+    "faq5Answer": "Oo. Gumagana ito sa kahit anong browser sa cellphone, tablet o computer, at puwedeng i-install ang app. Gumagana pa rin offline ang puzzle na nabuksan mo na.",
+    "teaserTitle": "Krusigrama ngayong araw",
+    "teaserText": "Libreng klasikong krusigrama araw-araw: pareho para sa lahat, walang sign-up.",
+    "teaserCta": "Laruin ang krusigrama ngayong araw"
   },
   "TopicsPage": {
     "eyebrow": "Mga paksa",

@@ -5,4 +5,5 @@ export const ENDPOINTS = {
   result: (id: string) => `/puzzles/${encodeURIComponent(id)}/result`,
   plays: '/puzzles/plays',
   samples: '/samples',
+  daily: (locale: string) => `/daily/${encodeURIComponent(locale)}`,
 } as const

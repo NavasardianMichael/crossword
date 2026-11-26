@@ -31,7 +31,8 @@
     "privacy": "Privasi",
     "terms": "Syarat",
     "contact": "Hubungi",
-    "guides": "Panduan"
+    "guides": "Panduan",
+    "daily": "Teka silang kata harian"
   },
   "Errors": {
     "network": "Pelayan tidak dapat dihubungi. Semak sambungan anda dan cuba lagi.",
@@ -91,7 +92,9 @@
     "ogPuzzleCta": "Boleh selesaikan?",
     "ogPuzzleMeta": "{size} · {words, plural, other {# perkataan}}",
     "guidesTitle": "Panduan Teka Silang Kata: Cipta dan Selesaikan",
-    "guidesDescription": "Cara membuat teka silang kata, menyelesaikannya lebih pantas, bermain teka petak dan menggunakannya di dalam kelas: panduan praktikal dengan contoh."
+    "guidesDescription": "Cara membuat teka silang kata, menyelesaikannya lebih pantas, bermain teka petak dan menggunakannya di dalam kelas: panduan praktikal dengan contoh.",
+    "dailyTitle": "Teka Silang Kata Harian — Percuma, Baharu Setiap Hari",
+    "dailyDescription": "Main teka silang kata klasik percuma setiap hari, terbit 00:00 UTC (08:00 waktu Malaysia) dan sama untuk semua. Tanpa daftar. Jawapan semalam di laman ini."
   },
   "Formats": {
     "classic": {
@@ -290,6 +293,46 @@
     "faq3Answer": "Apabila tiada ruang untuk petunjuk terus sebelum jawapan, ia duduk di atas atau di sisi huruf pertama, dan anak panah membengkok untuk menunjukkan arah.",
     "faq4Question": "Adakah petunjuk teka petak berbeza?",
     "faq4Answer": "Lebih pendek — petunjuk teka petak mesti muat dalam satu petak, jadi paling banyak beberapa patah perkataan."
+  },
+  "Daily": {
+    "eyebrow": "Teka silang kata harian",
+    "title": "Teka Silang Kata Harian",
+    "subtitle": "Teka silang kata klasik baharu setiap hari pada 00:00 UTC (08:00 waktu Malaysia). Percuma, tanpa daftar dan sama untuk semua orang.",
+    "today": "Hari ini, {date}",
+    "todayTitle": "Teka silang kata hari ini",
+    "todaySubtitle": "{count, plural, other {# perkataan}} dengan petunjuk Melintang dan Menegak yang bernombor. Baca di sini, kemudian buka grid untuk menjawab.",
+    "gridLabel": "Grid kosong teka silang kata hari ini, {width} kali {height} petak",
+    "play": "Main teka silang kata hari ini",
+    "across": "Melintang",
+    "down": "Menegak",
+    "unavailable": "Teka silang kata hari ini sedang disediakan. Cuba lagi dalam beberapa minit.",
+    "streak": "{count, plural, =0 {Selesaikan teka silang kata hari ini untuk memulakan rentetan} other {# hari berturut-turut}}",
+    "yesterdayTitle": "Jawapan teka silang kata semalam",
+    "yesterdayShow": "Tunjukkan jawapan",
+    "yesterdayPlay": "Main teka silang kata semalam",
+    "previousTitle": "Hari-hari sebelumnya",
+    "aboutTitle": "Tentang teka silang kata harian",
+    "about1": "Setiap hari pada 00:00 UTC (08:00 waktu Malaysia), teka silang kata klasik baharu muncul di laman ini: grid bersaiz sederhana dengan petunjuk Melintang dan Menegak yang bernombor, ditulis terus dalam bahasa Melayu, bukan terjemahan. Semua orang yang membukanya pada hari itu mendapat teka-teki yang sama.",
+    "about2": "Ia percuma dan tidak memerlukan akaun. Kemajuan anda disimpan pada peranti ini, jadi anda boleh berhenti dan sambung semula kemudian, dan menyelesaikannya setiap hari akan membina rentetan hari berturut-turut. Sebaik sahaja hari baharu bermula, jawapan semalam muncul di bahagian bawah laman ini.",
+    "about3": "Teka silang kata harian tersedia dalam 33 bahasa, setiap satu dengan perkataan dan petunjuknya sendiri. Perkataannya diambil daripada koleksi yang diasingkan khas untuk teka silang kata harian, jadi jarang muncul dalam teka-teki lain.",
+    "makeOwnTitle": "Mahu teka-teki lagi?",
+    "makeOwnText": "Cipta teka silang kata anda sendiri tentang topik kegemaran, dari haiwan hingga sejarah, dengan saiz dan tahap kesukaran pilihan anda.",
+    "makeOwnCta": "Cipta teka silang kata",
+    "rulesLink": "Cara menjawab teka silang kata",
+    "faqTitle": "Soalan tentang teka silang kata harian",
+    "faq1Question": "Adakah teka silang kata harian percuma?",
+    "faq1Answer": "Ya. Teka silang kata harian percuma setiap hari, tanpa akaun dan tanpa kredit.",
+    "faq2Question": "Bilakah teka silang kata harian baharu terbit?",
+    "faq2Answer": "Teka-teki baharu terbit setiap hari pada 00:00 UTC (08:00 waktu Malaysia), pada masa yang sama dalam semua bahasa.",
+    "faq3Question": "Adakah teka-tekinya sama untuk semua orang?",
+    "faq3Answer": "Ya. Semua orang yang membuka teka silang kata harian dalam bahasa yang sama pada hari yang sama mendapat grid dan petunjuk yang sama.",
+    "faq4Question": "Di mana saya boleh dapatkan jawapan teka silang kata semalam?",
+    "faq4Answer": "Di laman ini: sebaik sahaja hari baharu bermula, petunjuk dan jawapan semalam muncul di bawah teka-teki hari ini. Teka-teki seminggu terakhir juga masih boleh dimainkan.",
+    "faq5Question": "Bolehkah saya main teka silang kata harian di telefon?",
+    "faq5Answer": "Boleh. Ia berfungsi dalam mana-mana pelayar di telefon, tablet atau komputer, dan aplikasinya boleh dipasang. Teka-teki yang sudah anda buka terus berfungsi tanpa internet.",
+    "teaserTitle": "Teka silang kata hari ini",
+    "teaserText": "Teka silang kata klasik percuma setiap hari: sama untuk semua orang, tanpa daftar.",
+    "teaserCta": "Main teka silang kata hari ini"
   },
   "TopicsPage": {
     "eyebrow": "Topik",

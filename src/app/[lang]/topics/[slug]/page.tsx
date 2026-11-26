@@ -9,6 +9,7 @@ import { TOPIC_STYLES } from '@constants/topicStyles'
 import { cn } from '@helpers/cn'
 import { fetchTopicSamples } from '@helpers/serverData'
 import { breadcrumbSchema, sampleCluesSchema } from '@linkedDataSchema/index'
+import { DailyTeaser } from '@components/daily/DailyTeaser'
 import { GeneratorForm } from '@components/generator/GeneratorForm'
 import { TopicGrid } from '@components/marketing/TopicGrid'
 import { JsonLd } from '@components/seo/JsonLd'
@@ -93,6 +94,8 @@ export default async function TopicPage({ params }: Props) {
           </ul>
         </Section>
       )}
+
+      <DailyTeaser />
 
       <Section id='more' title={t('moreTopics')}>
         <TopicGrid />

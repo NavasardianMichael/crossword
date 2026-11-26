@@ -1,12 +1,11 @@
 import type { Metadata } from 'next'
 import { notFound } from 'next/navigation'
 import { getTranslations } from 'next-intl/server'
-import { isLocale } from '@i18n/config'
 import { currentLocale, pageMetadata } from '@i18n/metadata'
 import type { Locale } from '@constants/puzzle'
 import { guidePath, ROUTES } from '@constants/routes'
-import { findGuide, guidesByKey, guidesFor, guideSlugsByLocale, guideSubject } from '@content/index'
-import type { GuideKey } from '@content/types'
+import { findGuide, GUIDES, guidesByKey, guideSlugsByLocale, guideSubject } from '@content/index'
+import type { Guide, GuideKey } from '@content/types'
 import { articleSchema } from '@linkedDataSchema/index'
 import { ContentSections } from '@components/content/ContentSections'
 import { Breadcrumbs, ContentFaq, ContentMeta, GuideCard, GuideCta, TableOfContents } from '@components/content/GuideParts'
@@ -17,9 +16,17 @@ type Props = { params: Promise<{ slug: string }> }
 
 export const dynamicParams = false
 
-/** Each language's own guides, under its own slugs. */
-export function generateStaticParams({ params }: { params: { lang: string } }) {
-  return isLocale(params.lang) ? guidesFor(params.lang).map((guide) => ({ slug: guide.slug })) : []
+/**
+ * Every language's guides, each under its own slug, `lang` included. Not filtered by the parent's
+ * `lang`: Next calls this once per language and passes a language that returns `[]` on as a
+ * `{ lang }` without a slug, and one incomplete set makes it prerender none of the route — with
+ * `dynamicParams = false`, every guide a 404. Next merges each item over the parent's params
+ * and drops the duplicates.
+ */
+export function generateStaticParams() {
+  return (Object.entries(GUIDES) as [Locale, readonly Guide[]][]).flatMap(([lang, guides]) =>
+    guides.map((guide) => ({ lang, slug: guide.slug }))
+  )
 }
 
 /** The same guide in its other languages, each at its own slug: the `hreflang` set. */

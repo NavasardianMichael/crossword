@@ -81,11 +81,43 @@ describe('POST /puzzles', () => {
     expect(seen.length).toBeGreaterThan(30)
   })
 
-  it('answers pool_exhausted rather than repeating', async () => {
-    const all = await prisma.entry.findMany({ where: { locale: 'hy' }, select: { id: true } })
-    const response = await create({ locale: 'hy', exclude: all.map(({ id }) => id) })
+  it('answers pool_exhausted when even the oldest-seen words cannot fill it', async () => {
+    // Swahili has only its hand-written words, so its whole pool fits among the newest 500 seen:
+    // none of it may come back.
+    const all = await prisma.entry.findMany({ where: { locale: 'sw' }, select: { id: true } })
+    expect(all.length).toBeLessThan(500)
+    const response = await create({ locale: 'sw', exclude: all.map(({ id }) => id) })
     expect(response.status).toBe(503)
     expect(response.body.error.message).toBe('pool_exhausted')
+    // …and the gap is recorded for the refill job.
+    const demand = await prisma.poolDemand.findUnique({ where: { locale_topic_difficulty: { locale: 'sw', topic: 'any', difficulty: 3 } } })
+    expect(demand?.shortfall).toBeGreaterThan(0)
+  })
+
+  it('brings back the oldest-seen words once unseen ones run out, never the newest', async () => {
+    const all = (await prisma.entry.findMany({ where: { locale: 'ru' }, select: { id: true }, orderBy: { id: 'asc' } })).map(({ id }) => id)
+    const oldest = all.slice(0, Math.floor(all.length / 2))
+    const newest = all.slice(oldest.length)
+    // Seen-list order is oldest first: the old half, many words since (ids no pool has), the new half.
+    const since = Array.from({ length: 1500 }, (_, index) => 900_000_000 + index)
+    const response = await create({ locale: 'ru', difficulty: 1, exclude: [...oldest, ...since, ...newest] })
+    expect(response.status).toBe(201)
+    const ids = (response.body.value as PuzzleView).words.map(({ entryId }) => entryId)
+    const newestSet = new Set(newest)
+    expect(ids.filter((id) => newestSet.has(id))).toEqual([])
+  })
+
+  it('looks one puzzle ahead in both buckets a themed puzzle draws from', async () => {
+    expect((await create({ locale: 'en', topic: 'food', difficulty: 1, exclude: [] })).status).toBe(201)
+    const key = (topic: string) => ({ locale_topic_difficulty: { locale: 'en', topic, difficulty: 1 } })
+    const [themed, glue] = await Promise.all([
+      prisma.poolDemand.findUnique({ where: key('food') }),
+      prisma.poolDemand.findUnique({ where: key('general') }),
+    ])
+    expect(themed?.requests).toBe(1)
+    expect(glue?.requests).toBe(1)
+    // A gap names the length band most short; no gap, no band.
+    for (const row of [themed!, glue!]) expect(row.lengthBand === null).toBe(row.shortfall === 0)
   })
 
   it('rejects unsupported options', async () => {

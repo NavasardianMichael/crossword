@@ -40,6 +40,8 @@ export const STORAGE_KEYS = {
   iosHintClosedAt: 'crossword:ios-hint-closed',
   /** 'granted' | 'denied' — the visitor's answer to the analytics banner; absent until they answer. */
   analyticsConsent: 'crossword:analytics-consent',
+  /** UTC days (`YYYY-MM-DD`) this device solved the daily crossword: the streak. */
+  dailySolved: 'crossword:daily-solved',
 } as const
 
 /** Entry ids a device remembers per language, so no word ever comes back. */

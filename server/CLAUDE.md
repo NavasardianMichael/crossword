@@ -31,15 +31,28 @@
   pool is thin, and the slice's existing words as the avoid list. Every item passes
   `entryValidation.ts` (alphabet, length in cells, proper nouns only in their topics, script,
   giveaways) and then the judge pass; failures are dropped, never repaired.
-- **Quota:** every Gemini call is logged in `GenerationLog` (`calls` and the billed tokens);
-  `POOL_DAILY_CALL_BUDGET` is checked before every attempt, for each call it may spend, and the
-  refill job's per-tick cap counts real calls, not generations. Inline generation is one batch per request, two at once globally;
-  the refill job does the rest, demand-ordered (`PoolDemand`, urgent first).
+- **Quota:** every Gemini request is logged in `GenerationLog` (`calls` and the billed tokens) —
+  failed and fallen-through requests too, counted by the caller's `RequestMeter`, and a generation
+  that throws still writes its row (`model: 'none'`). `DAILY_CALL_BUDGET` (100, hardcoded in
+  `entryPool.ts`, no env variable) is checked before every attempt, for each call it may spend.
+- **Gemini only on need** (`docs/WORD_SEEDING_PLAN.md`): a request never generates. After storing,
+  `puzzleBuilder.lookAhead` draws the player's next identical request and records each bucket's
+  gap and short length band (`recordShortfall` → `PoolDemand`; the largest gap wins, not the sum).
+  `jobs/poolRefill.ts` runs on events (`lib/refillSignal.ts`), at startup and every 6 h — never a
+  polling timer — paid gaps first, and stops at `POOL_MAX_WORDS` per language, on saturation
+  (`isSaturated`: a week's pause) and at the budget, waking exactly when that can change.
+- **Repeats:** when unseen words run out, the builder readmits the oldest-seen (`READMIT_STEPS`,
+  never the newest ~500 device ids or the account's last 20 puzzles) before shrinking the grid.
+- **The daily** (`services/daily.ts`, `jobs/dailyBuild.ts`): built a day ahead at 00:05 UTC with
+  the ordinary builder from `Entry.dailyReserve` words (custom draws skip them), recorded in
+  `DailyPuzzle`; `GET /daily/:locale` never sends today's solution nor tomorrow's puzzle.
 - **Puzzles** are immutable snapshots (`Puzzle.data` = the `PuzzleView` minus id/createdAt);
   `servedCount` counts only words actually placed. Layout is pure and seeded (`lib/layout/`),
   bounded by a time budget because it runs on the event loop; bump `LAYOUT_VERSION` when the same
   input would lay out differently.
-- **Seed words** (`prisma/seed/`) are hand-written and hand-checked: reports never retire them.
-  Validate edits with `prisma/check-seed.ts`.
+- **Seed words** (`prisma/seed/`, read by `seedFiles.ts`): `entries.<locale>.json` is hand-written
+  and hand-checked (`origin: 'seed'`, reports never retire it); `claude/<locale>/*.json` is written
+  by Claude agents (`origin: 'claude'`, retired by reports like AI words). Validate with
+  `prisma/check-seed.ts`, which also gates the Claude words' balance.
 - **Jobs** start in `index.ts` only, never in `createApp`, so tests never poll.
 - **Imports** are ESM with explicit `.js` extensions.

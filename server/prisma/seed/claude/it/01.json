@@ -1,0 +1,4002 @@
+[
+  {
+    "word": "gioia",
+    "topics": ["general"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Stato d’animo di chi è al colmo della felicità",
+    "shortClue": "Grande felicità"
+  },
+  {
+    "word": "paura",
+    "topics": ["general"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Timore che stringe lo stomaco davanti al pericolo",
+    "shortClue": "Forte timore"
+  },
+  {
+    "word": "rabbia",
+    "topics": ["general"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Collera improvvisa che fa alzare la voce",
+    "shortClue": "Collera"
+  },
+  {
+    "word": "calma",
+    "topics": ["general"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Quiete d’animo di chi non si agita",
+    "shortClue": "Quiete d’animo"
+  },
+  {
+    "word": "ansia",
+    "topics": ["general"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Inquietudine per ciò che deve ancora accadere",
+    "shortClue": "Inquietudine"
+  },
+  {
+    "word": "noia",
+    "topics": ["general"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Mancanza d’interesse che fa sbadigliare",
+    "shortClue": "Fa sbadigliare"
+  },
+  {
+    "word": "pigro",
+    "topics": ["general"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Che evita la fatica e ama poltrire",
+    "shortClue": "Amante dell’ozio"
+  },
+  {
+    "word": "coraggio",
+    "topics": ["general"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Virtù di chi affronta il rischio senza tremare",
+    "shortClue": "Virtù del valoroso"
+  },
+  {
+    "word": "onesto",
+    "topics": ["general"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Che non mente e non imbroglia",
+    "shortClue": "Che non imbroglia"
+  },
+  {
+    "word": "gentile",
+    "topics": ["general"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Cortese e premuroso con tutti",
+    "shortClue": "Cortese"
+  },
+  {
+    "word": "timido",
+    "topics": ["general"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Che arrossisce e parla poco con gli estranei",
+    "shortClue": "Poco spavaldo"
+  },
+  {
+    "word": "curioso",
+    "topics": ["general"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Desideroso di sapere e di vedere",
+    "shortClue": "Voglioso di sapere"
+  },
+  {
+    "word": "paziente",
+    "topics": ["general"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Capace di attendere senza lamentarsi",
+    "shortClue": "Sa attendere"
+  },
+  {
+    "word": "generoso",
+    "topics": ["general"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Pronto a dare agli altri senza calcoli",
+    "shortClue": "Largo nel dare"
+  },
+  {
+    "word": "saggio",
+    "topics": ["general"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Dotato di senno ed esperienza",
+    "shortClue": "Pieno di senno"
+  },
+  {
+    "word": "astuto",
+    "topics": ["general"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Furbo e abile nel trovare il tranello",
+    "shortClue": "Furbo"
+  },
+  {
+    "word": "camminare",
+    "topics": ["general"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Andare a piedi un passo dopo l’altro",
+    "shortClue": "Andare a piedi"
+  },
+  {
+    "word": "correre",
+    "topics": ["general"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Muoversi veloci a falcate rapide",
+    "shortClue": "Andare di fretta"
+  },
+  {
+    "word": "saltare",
+    "topics": ["general"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Staccarsi da terra con uno slancio",
+    "shortClue": "Spiccare un balzo"
+  },
+  {
+    "word": "dormire",
+    "topics": ["general"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Riposare la notte a occhi chiusi",
+    "shortClue": "Riposare a letto"
+  },
+  {
+    "word": "parlare",
+    "topics": ["general"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Esprimersi a voce",
+    "shortClue": "Esprimersi a voce"
+  },
+  {
+    "word": "ascoltare",
+    "topics": ["general"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Prestare orecchio a ciò che si dice",
+    "shortClue": "Prestare orecchio"
+  },
+  {
+    "word": "guardare",
+    "topics": ["general"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Rivolgere gli occhi verso qualcosa",
+    "shortClue": "Volgere lo sguardo"
+  },
+  {
+    "word": "ridere",
+    "topics": ["general"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Mostrare allegria con suoni improvvisi",
+    "shortClue": "Mostrare allegria"
+  },
+  {
+    "word": "piangere",
+    "topics": ["general"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Versare lacrime per il dolore",
+    "shortClue": "Versare lacrime"
+  },
+  {
+    "word": "cercare",
+    "topics": ["general"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Frugare per ritrovare ciò che manca",
+    "shortClue": "Frugare"
+  },
+  {
+    "word": "trovare",
+    "topics": ["general"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Rinvenire ciò che mancava",
+    "shortClue": "Rinvenire"
+  },
+  {
+    "word": "imparare",
+    "topics": ["general"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Fare proprio un sapere con lo studio",
+    "shortClue": "Fare proprio"
+  },
+  {
+    "word": "ricordare",
+    "topics": ["general"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Tenere a mente fatti del passato",
+    "shortClue": "Tenere a mente"
+  },
+  {
+    "word": "pensare",
+    "topics": ["general"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Ragionare con la mente su un problema",
+    "shortClue": "Ragionare"
+  },
+  {
+    "word": "ieri",
+    "topics": ["general"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Il giorno prima di oggi",
+    "shortClue": "Giorno scorso"
+  },
+  {
+    "word": "oggi",
+    "topics": ["general"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Il giorno in cui siamo",
+    "shortClue": "Questo giorno"
+  },
+  {
+    "word": "domani",
+    "topics": ["general"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Il giorno che segue questo",
+    "shortClue": "Giorno seguente"
+  },
+  {
+    "word": "mattina",
+    "topics": ["general"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Prime ore del giorno",
+    "shortClue": "Prime ore"
+  },
+  {
+    "word": "sera",
+    "topics": ["general"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Parte del giorno dopo il tramonto",
+    "shortClue": "Dopo il tramonto"
+  },
+  {
+    "word": "notte",
+    "topics": ["general"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Ore buie in cui si dorme",
+    "shortClue": "Ore buie"
+  },
+  {
+    "word": "settimana",
+    "topics": ["general"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Sette giorni di fila",
+    "shortClue": "Sette giorni"
+  },
+  {
+    "word": "mese",
+    "topics": ["general"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Dodicesima parte dell’anno",
+    "shortClue": "Dodicesima dell’anno"
+  },
+  {
+    "word": "secolo",
+    "topics": ["general"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Lasso di cento anni",
+    "shortClue": "Cento anni"
+  },
+  {
+    "word": "istante",
+    "topics": ["general"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Attimo brevissimo",
+    "shortClue": "Attimo"
+  },
+  {
+    "word": "sabato",
+    "topics": ["general"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Giorno che precede la domenica",
+    "shortClue": "Prima della domenica"
+  },
+  {
+    "word": "inverno",
+    "topics": ["general"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Stagione più fredda dell’anno",
+    "shortClue": "Stagione fredda"
+  },
+  {
+    "word": "estate",
+    "topics": ["general"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Stagione delle vacanze al mare",
+    "shortClue": "Stagione calda"
+  },
+  {
+    "word": "autunno",
+    "topics": ["general"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Stagione della vendemmia e delle foglie gialle",
+    "shortClue": "Stagione gialla"
+  },
+  {
+    "word": "primavera",
+    "topics": ["general"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Stagione in cui sbocciano i fiori",
+    "shortClue": "Stagione fiorita"
+  },
+  {
+    "word": "caldo",
+    "topics": ["general"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Che scotta o riscalda l’aria",
+    "shortClue": "Opposto di freddo"
+  },
+  {
+    "word": "freddo",
+    "topics": ["general"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Che dà i brividi",
+    "shortClue": "Gelido"
+  },
+  {
+    "word": "grande",
+    "topics": ["general"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Di dimensioni superiori al normale",
+    "shortClue": "Di molta misura"
+  },
+  {
+    "word": "piccolo",
+    "topics": ["general"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Di misura ridotta",
+    "shortClue": "Minuto"
+  },
+  {
+    "word": "corto",
+    "topics": ["general"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Di poca estensione da un capo all’altro",
+    "shortClue": "Poco esteso"
+  },
+  {
+    "word": "largo",
+    "topics": ["general"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Ampio da un lato all’altro",
+    "shortClue": "Ampio"
+  },
+  {
+    "word": "stretto",
+    "topics": ["general"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Di poca ampiezza",
+    "shortClue": "Angusto"
+  },
+  {
+    "word": "alto",
+    "topics": ["general"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Che si eleva molto da terra",
+    "shortClue": "Elevato"
+  },
+  {
+    "word": "basso",
+    "topics": ["general"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Poco elevato da terra",
+    "shortClue": "Poco elevato"
+  },
+  {
+    "word": "pesante",
+    "topics": ["general"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Che grava molto sulle braccia",
+    "shortClue": "Che grava"
+  },
+  {
+    "word": "leggero",
+    "topics": ["general"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Di poco peso",
+    "shortClue": "Di poco peso"
+  },
+  {
+    "word": "veloce",
+    "topics": ["general"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Rapido nel muoversi",
+    "shortClue": "Rapido"
+  },
+  {
+    "word": "lento",
+    "topics": ["general"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Che si muove con calma",
+    "shortClue": "Posato"
+  },
+  {
+    "word": "nuovo",
+    "topics": ["general"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Appena fatto, mai usato",
+    "shortClue": "Mai usato"
+  },
+  {
+    "word": "vecchio",
+    "topics": ["general"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Di molti anni",
+    "shortClue": "Di molti anni"
+  },
+  {
+    "word": "bello",
+    "topics": ["general"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Piacevole a vedersi",
+    "shortClue": "Piacevole"
+  },
+  {
+    "word": "brutto",
+    "topics": ["general"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Sgradevole a vedersi",
+    "shortClue": "Sgradevole"
+  },
+  {
+    "word": "debole",
+    "topics": ["general"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Privo di vigore",
+    "shortClue": "Fiacco"
+  },
+  {
+    "word": "ricco",
+    "topics": ["general"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Che possiede molti beni",
+    "shortClue": "Facoltoso"
+  },
+  {
+    "word": "povero",
+    "topics": ["general"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Che ha pochi mezzi per vivere",
+    "shortClue": "Indigente"
+  },
+  {
+    "word": "pieno",
+    "topics": ["general"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Colmo fino all’orlo",
+    "shortClue": "Colmo"
+  },
+  {
+    "word": "vuoto",
+    "topics": ["general"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Privo di contenuto",
+    "shortClue": "Senza contenuto"
+  },
+  {
+    "word": "vero",
+    "topics": ["general"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Conforme ai fatti",
+    "shortClue": "Autentico"
+  },
+  {
+    "word": "falso",
+    "topics": ["general"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Che inganna, non vero",
+    "shortClue": "Non vero"
+  },
+  {
+    "word": "sempre",
+    "topics": ["general"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "In ogni momento senza eccezioni",
+    "shortClue": "Ogni volta"
+  },
+  {
+    "word": "mai",
+    "topics": ["general"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "In nessun momento",
+    "shortClue": "Nessuna volta"
+  },
+  {
+    "word": "forse",
+    "topics": ["general"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Parola di chi non è sicuro",
+    "shortClue": "Chissà"
+  },
+  {
+    "word": "quasi",
+    "topics": ["general"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Poco meno che del tutto",
+    "shortClue": "Per poco"
+  },
+  {
+    "word": "molto",
+    "topics": ["general"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "In grande quantità",
+    "shortClue": "In quantità"
+  },
+  {
+    "word": "tutto",
+    "topics": ["general"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "La totalità, ogni cosa",
+    "shortClue": "Ogni cosa"
+  },
+  {
+    "word": "niente",
+    "topics": ["general"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Nessuna cosa",
+    "shortClue": "Nulla"
+  },
+  {
+    "word": "insieme",
+    "topics": ["general"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "In compagnia, l’uno con l’altro",
+    "shortClue": "In compagnia"
+  },
+  {
+    "word": "presto",
+    "topics": ["general"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Di buon’ora, senza ritardo",
+    "shortClue": "Di buon’ora"
+  },
+  {
+    "word": "tardi",
+    "topics": ["general"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Oltre l’ora stabilita",
+    "shortClue": "In ritardo"
+  },
+  {
+    "word": "vicino",
+    "topics": ["general"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "A breve distanza",
+    "shortClue": "A breve distanza"
+  },
+  {
+    "word": "lontano",
+    "topics": ["general"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "A grande distanza",
+    "shortClue": "Distante"
+  },
+  {
+    "word": "dentro",
+    "topics": ["general"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Nella parte interna",
+    "shortClue": "All’interno"
+  },
+  {
+    "word": "fuori",
+    "topics": ["general"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Nella parte esterna",
+    "shortClue": "All’esterno"
+  },
+  {
+    "word": "sopra",
+    "topics": ["general"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Nella parte più alta",
+    "shortClue": "Più in alto"
+  },
+  {
+    "word": "sotto",
+    "topics": ["general"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Nella parte più bassa",
+    "shortClue": "Più in basso"
+  },
+  {
+    "word": "nostalgia",
+    "topics": ["general"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Desiderio struggente di ciò che è lontano",
+    "shortClue": "Struggimento"
+  },
+  {
+    "word": "malinconia",
+    "topics": ["general"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Tristezza dolce e pensierosa",
+    "shortClue": "Mesta dolcezza"
+  },
+  {
+    "word": "pudore",
+    "topics": ["general"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Ritegno davanti a ciò che è intimo",
+    "shortClue": "Ritegno"
+  },
+  {
+    "word": "riluttanza",
+    "topics": ["general"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Scarsa voglia di fare qualcosa",
+    "shortClue": "Scarsa voglia"
+  },
+  {
+    "word": "orgoglio",
+    "topics": ["general"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Alta stima di sé, nel bene e nel male",
+    "shortClue": "Alta stima"
+  },
+  {
+    "word": "vergogna",
+    "topics": ["general"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Rossore di chi si sente in colpa",
+    "shortClue": "Rossore"
+  },
+  {
+    "word": "sospetto",
+    "topics": ["general"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Dubbio che qualcuno ci inganni",
+    "shortClue": "Dubbio"
+  },
+  {
+    "word": "speranza",
+    "topics": ["general"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Fiducia che le cose andranno bene",
+    "shortClue": "Attesa fiduciosa"
+  },
+  {
+    "word": "fiducia",
+    "topics": ["general"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Sicurezza che l’altro non ci deluderà",
+    "shortClue": "Sicurezza"
+  },
+  {
+    "word": "sorpresa",
+    "topics": ["general"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Fatto inatteso che lascia a bocca aperta",
+    "shortClue": "Fatto inatteso"
+  },
+  {
+    "word": "delusione",
+    "topics": ["general"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Amarezza per una attesa tradita",
+    "shortClue": "Amarezza"
+  },
+  {
+    "word": "entusiasmo",
+    "topics": ["general"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Slancio acceso di chi è appassionato",
+    "shortClue": "Slancio acceso"
+  },
+  {
+    "word": "rimpianto",
+    "topics": ["general"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Dolore per ciò che si è perso o non fatto",
+    "shortClue": "Dolce amarezza"
+  },
+  {
+    "word": "tenerezza",
+    "topics": ["general"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Dolcezza che muove al sorriso",
+    "shortClue": "Dolcezza"
+  },
+  {
+    "word": "sollievo",
+    "topics": ["general"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Alleggerimento dopo un affanno",
+    "shortClue": "Respiro di pace"
+  },
+  {
+    "word": "imbarazzo",
+    "topics": ["general"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Disagio di chi non sa che dire",
+    "shortClue": "Disagio"
+  },
+  {
+    "word": "diffidenza",
+    "topics": ["general"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Atteggiamento di chi non si fida",
+    "shortClue": "Poca fiducia"
+  },
+  {
+    "word": "indolenza",
+    "topics": ["general"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Pigra svogliatezza",
+    "shortClue": "Pigra svogliatezza"
+  },
+  {
+    "word": "ostinazione",
+    "topics": ["general"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Testardaggine di chi non cede",
+    "shortClue": "Testardaggine"
+  },
+  {
+    "word": "tracotanza",
+    "topics": ["general"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Arroganza di chi si crede superiore",
+    "shortClue": "Arroganza"
+  },
+  {
+    "word": "equilibrio",
+    "topics": ["general"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Stabilità di un corpo che non cade",
+    "shortClue": "Stabilità"
+  },
+  {
+    "word": "abbondanza",
+    "topics": ["general"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Grande quantità, più del necessario",
+    "shortClue": "Gran quantità"
+  },
+  {
+    "word": "sfumatura",
+    "topics": ["general"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Passaggio leggero da un tono all’altro",
+    "shortClue": "Tono leggero"
+  },
+  {
+    "word": "parvenza",
+    "topics": ["general"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Aspetto esteriore, spesso ingannevole",
+    "shortClue": "Falsa apparenza"
+  },
+  {
+    "word": "fretta",
+    "topics": ["general"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Premura di chi ha poco tempo",
+    "shortClue": "Premura"
+  },
+  {
+    "word": "ritardo",
+    "topics": ["general"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Arrivo dopo l’ora stabilita",
+    "shortClue": "Arrivo tardivo"
+  },
+  {
+    "word": "pausa",
+    "topics": ["general"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Breve sosta nel lavoro",
+    "shortClue": "Breve sosta"
+  },
+  {
+    "word": "svolta",
+    "topics": ["general"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Cambio improvviso di direzione",
+    "shortClue": "Cambio di rotta"
+  },
+  {
+    "word": "bivio",
+    "topics": ["general"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Punto dove la via si divide in due",
+    "shortClue": "Strada biforcuta"
+  },
+  {
+    "word": "scelta",
+    "topics": ["general"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Decisione tra più possibilità",
+    "shortClue": "Decisione"
+  },
+  {
+    "word": "regola",
+    "topics": ["general"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Norma da rispettare",
+    "shortClue": "Norma"
+  },
+  {
+    "word": "scopo",
+    "topics": ["general"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Fine che ci si propone di raggiungere",
+    "shortClue": "Obiettivo"
+  },
+  {
+    "word": "rimedio",
+    "topics": ["general"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Cosa che ripara un guaio",
+    "shortClue": "Cura"
+  },
+  {
+    "word": "pretesto",
+    "topics": ["general"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Scusa addotta per nascondere il vero motivo",
+    "shortClue": "Falsa scusa"
+  },
+  {
+    "word": "indizio",
+    "topics": ["general"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Segno che mette sulla pista",
+    "shortClue": "Segno rivelatore"
+  },
+  {
+    "word": "vantaggio",
+    "topics": ["general"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Condizione favorevole su altri",
+    "shortClue": "Posizione migliore"
+  },
+  {
+    "word": "ostacolo",
+    "topics": ["general"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Cosa che sbarra il cammino",
+    "shortClue": "Intoppo"
+  },
+  {
+    "word": "inizio",
+    "topics": ["general"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Il primo momento di una cosa",
+    "shortClue": "Principio"
+  },
+  {
+    "word": "meta",
+    "topics": ["general"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Punto d’arrivo di un viaggio",
+    "shortClue": "Punto d’arrivo"
+  },
+  {
+    "word": "tappa",
+    "topics": ["general"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Sosta di un lungo viaggio",
+    "shortClue": "Sosta"
+  },
+  {
+    "word": "traguardo",
+    "topics": ["general"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Linea che chiude la corsa",
+    "shortClue": "Linea d’arrivo"
+  },
+  {
+    "word": "preludio",
+    "topics": ["general"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Ciò che precede e annuncia",
+    "shortClue": "Antefatto"
+  },
+  {
+    "word": "epilogo",
+    "topics": ["general"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Parte che chiude un racconto",
+    "shortClue": "Chiusa"
+  },
+  {
+    "word": "esordio",
+    "topics": ["general"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Primo apparire in pubblico",
+    "shortClue": "Debutto"
+  },
+  {
+    "word": "dozzina",
+    "topics": ["general"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Dodici cose insieme",
+    "shortClue": "Dodici pezzi"
+  },
+  {
+    "word": "coppia",
+    "topics": ["general"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Due persone o cose unite",
+    "shortClue": "Due insieme"
+  },
+  {
+    "word": "doppio",
+    "topics": ["general"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Due volte tanto",
+    "shortClue": "Due volte tanto"
+  },
+  {
+    "word": "mezzo",
+    "topics": ["general"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Una delle due parti uguali",
+    "shortClue": "Metà"
+  },
+  {
+    "word": "manciata",
+    "topics": ["general"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Quanto sta in una sola mano chiusa",
+    "shortClue": "Poco, in pugno"
+  },
+  {
+    "word": "briciola",
+    "topics": ["general"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Minuscolo frammento di cibo secco",
+    "shortClue": "Minuscolo pezzetto"
+  },
+  {
+    "word": "goccia",
+    "topics": ["general"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Minima porzione di liquido che cade",
+    "shortClue": "Piccola stilla"
+  },
+  {
+    "word": "pizzico",
+    "topics": ["general"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Piccola quantità di sale tra due dita",
+    "shortClue": "Quantità minima"
+  },
+  {
+    "word": "mucchio",
+    "topics": ["general"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Gran quantità di cose ammassate",
+    "shortClue": "Cumulo"
+  },
+  {
+    "word": "grazie",
+    "topics": ["general"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Parola di chi ringrazia",
+    "shortClue": "Parola di gratitudine"
+  },
+  {
+    "word": "prego",
+    "topics": ["general"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Risposta a chi ringrazia",
+    "shortClue": "Risposta cortese"
+  },
+  {
+    "word": "scusa",
+    "topics": ["general"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Parola di chi chiede perdono",
+    "shortClue": "Parola di perdono"
+  },
+  {
+    "word": "saluto",
+    "topics": ["general"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Gesto o parola quando ci si incontra",
+    "shortClue": "Parola d’incontro"
+  },
+  {
+    "word": "benvenuto",
+    "topics": ["general"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Detto a chi arriva e viene accolto",
+    "shortClue": "Accolto con gioia"
+  },
+  {
+    "word": "permesso",
+    "topics": ["general"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Parola di chi chiede di entrare",
+    "shortClue": "Si dice entrando"
+  },
+  {
+    "word": "auguri",
+    "topics": ["general"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Voti di bene che si fanno nelle feste",
+    "shortClue": "Voti di bene"
+  },
+  {
+    "word": "congedo",
+    "topics": ["general"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Commiato, saluto di chi parte",
+    "shortClue": "Commiato"
+  },
+  {
+    "word": "nuvola",
+    "topics": ["nature"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Massa di vapore bianca o grigia nel cielo",
+    "shortClue": "Vapore in cielo"
+  },
+  {
+    "word": "nebbia",
+    "topics": ["nature"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Foschia fitta che nasconde la strada",
+    "shortClue": "Foschia fitta"
+  },
+  {
+    "word": "rugiada",
+    "topics": ["nature"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Goccioline sull’erba al mattino",
+    "shortClue": "Gocce del mattino"
+  },
+  {
+    "word": "brina",
+    "topics": ["nature"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Strato di ghiaccio sottile sui prati d’inverno",
+    "shortClue": "Gelo sull’erba"
+  },
+  {
+    "word": "grandine",
+    "topics": ["nature"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Chicchi di ghiaccio che cadono dalle nubi",
+    "shortClue": "Chicchi di ghiaccio"
+  },
+  {
+    "word": "tuono",
+    "topics": ["nature"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Boato che segue il lampo",
+    "shortClue": "Segue il lampo"
+  },
+  {
+    "word": "arcobaleno",
+    "topics": ["nature"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Arco di sette colori dopo la pioggia",
+    "shortClue": "Arco colorato"
+  },
+  {
+    "word": "stella",
+    "topics": ["nature"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Punto luminoso nel cielo notturno",
+    "shortClue": "Punto nel cielo"
+  },
+  {
+    "word": "luna",
+    "topics": ["nature"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Satellite che rischiara la notte",
+    "shortClue": "Astro notturno"
+  },
+  {
+    "word": "cielo",
+    "topics": ["nature"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Volta azzurra sopra di noi",
+    "shortClue": "Volta azzurra"
+  },
+  {
+    "word": "mare",
+    "topics": ["nature"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Distesa d’acqua salata",
+    "shortClue": "Acqua salata"
+  },
+  {
+    "word": "onda",
+    "topics": ["nature"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Increspatura che corre sull’acqua",
+    "shortClue": "Corre sull’acqua"
+  },
+  {
+    "word": "sabbia",
+    "topics": ["nature"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Granelli fini della spiaggia",
+    "shortClue": "Granelli di spiaggia"
+  },
+  {
+    "word": "pietra",
+    "topics": ["nature"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Frammento duro di roccia",
+    "shortClue": "Sasso"
+  },
+  {
+    "word": "collina",
+    "topics": ["nature"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Modesto rilievo del terreno",
+    "shortClue": "Modesto rilievo"
+  },
+  {
+    "word": "prato",
+    "topics": ["nature"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Distesa d’erba su cui si cammina",
+    "shortClue": "Distesa d’erba"
+  },
+  {
+    "word": "erba",
+    "topics": ["nature"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Verde che ricopre il prato",
+    "shortClue": "Verde del prato"
+  },
+  {
+    "word": "quercia",
+    "topics": ["nature"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Albero robusto che fa le ghiande",
+    "shortClue": "Albero delle ghiande"
+  },
+  {
+    "word": "pino",
+    "topics": ["nature"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Conifera con pigne e aghi",
+    "shortClue": "Conifera"
+  },
+  {
+    "word": "abete",
+    "topics": ["nature"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Sempreverde che si addobba a Natale",
+    "shortClue": "Sempreverde"
+  },
+  {
+    "word": "betulla",
+    "topics": ["nature"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Albero dalla corteccia bianca",
+    "shortClue": "Corteccia bianca"
+  },
+  {
+    "word": "salice",
+    "topics": ["nature"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Albero dai rami pendenti vicino all’acqua",
+    "shortClue": "Albero piangente"
+  },
+  {
+    "word": "ulivo",
+    "topics": ["nature"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Pianta da cui si ricava l’olio",
+    "shortClue": "Pianta dell’olio"
+  },
+  {
+    "word": "papavero",
+    "topics": ["nature"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Fiore rosso dei campi di grano",
+    "shortClue": "Fiore rosso"
+  },
+  {
+    "word": "margherita",
+    "topics": ["nature"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Fiore con petali bianchi e cuore giallo",
+    "shortClue": "Fiore bianco"
+  },
+  {
+    "word": "rosa",
+    "topics": ["nature"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Fiore con le spine, simbolo d’amore",
+    "shortClue": "Fiore spinoso"
+  },
+  {
+    "word": "giglio",
+    "topics": ["nature"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Fiore candido dal profumo intenso",
+    "shortClue": "Fiore candido"
+  },
+  {
+    "word": "edera",
+    "topics": ["nature"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Pianta rampicante sempreverde",
+    "shortClue": "Rampicante"
+  },
+  {
+    "word": "muschio",
+    "topics": ["nature"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Tappeto verde sui sassi umidi",
+    "shortClue": "Verde dei sassi"
+  },
+  {
+    "word": "fungo",
+    "topics": ["nature"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Cresce nel bosco dopo la pioggia",
+    "shortClue": "Cresce nel bosco"
+  },
+  {
+    "word": "radice",
+    "topics": ["nature"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Parte della pianta sotto terra",
+    "shortClue": "Sotto terra"
+  },
+  {
+    "word": "ramo",
+    "topics": ["nature"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Parte dell’albero che sorregge le foglie",
+    "shortClue": "Braccio d’albero"
+  },
+  {
+    "word": "seme",
+    "topics": ["nature"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Ciò che si interra per far nascere una pianta",
+    "shortClue": "Si semina"
+  },
+  {
+    "word": "spiga",
+    "topics": ["nature"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Infiorescenza del grano",
+    "shortClue": "Grano maturo"
+  },
+  {
+    "word": "ghiacciaio",
+    "topics": ["nature"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Fiume gelato in alta montagna",
+    "shortClue": "Fiume gelato"
+  },
+  {
+    "word": "deserto",
+    "topics": ["nature"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Distesa arida di sabbia e sole",
+    "shortClue": "Distesa arida"
+  },
+  {
+    "word": "palude",
+    "topics": ["nature"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Terreno acquitrinoso e melmoso",
+    "shortClue": "Acquitrino"
+  },
+  {
+    "word": "cascata",
+    "topics": ["nature"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Salto d’acqua da una rupe",
+    "shortClue": "Salto d’acqua"
+  },
+  {
+    "word": "sorgente",
+    "topics": ["nature"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Punto dove l’acqua sgorga dalla terra",
+    "shortClue": "Nasce il ruscello"
+  },
+  {
+    "word": "alba",
+    "topics": ["nature"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Primo chiarore del giorno",
+    "shortClue": "Primo chiarore"
+  },
+  {
+    "word": "tramonto",
+    "topics": ["nature"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Il sole che scompare all’orizzonte",
+    "shortClue": "Sole che cala"
+  },
+  {
+    "word": "aurora",
+    "topics": ["nature"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Luce rosata che precede il sole",
+    "shortClue": "Luce rosata"
+  },
+  {
+    "word": "tempesta",
+    "topics": ["nature"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Burrasca con vento e lampi",
+    "shortClue": "Burrasca"
+  },
+  {
+    "word": "uragano",
+    "topics": ["nature"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Ciclone tropicale devastante",
+    "shortClue": "Ciclone"
+  },
+  {
+    "word": "vetta",
+    "topics": ["nature"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Punto più alto di un monte",
+    "shortClue": "Cima"
+  },
+  {
+    "word": "grotta",
+    "topics": ["nature"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Cavità naturale nella roccia",
+    "shortClue": "Cavità nella roccia"
+  },
+  {
+    "word": "scogliera",
+    "topics": ["nature"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Costa alta di rocce a picco sul mare",
+    "shortClue": "Rupe sul mare"
+  },
+  {
+    "word": "topo",
+    "topics": ["animals"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Roditore che teme il gatto",
+    "shortClue": "Roditore"
+  },
+  {
+    "word": "riccio",
+    "topics": ["animals"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Piccolo mammifero coperto di aculei",
+    "shortClue": "Pieno di aculei"
+  },
+  {
+    "word": "scoiattolo",
+    "topics": ["animals"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Roditore dalla coda folta che raccoglie le ghiande",
+    "shortClue": "Roditore arboricolo"
+  },
+  {
+    "word": "cervo",
+    "topics": ["animals"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Maschio dalle grandi corna ramificate",
+    "shortClue": "Corna ramificate"
+  },
+  {
+    "word": "orso",
+    "topics": ["animals"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Grande mammifero che va in letargo",
+    "shortClue": "Va in letargo"
+  },
+  {
+    "word": "cinghiale",
+    "topics": ["animals"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Selvatico dalle zanne e dal grugno",
+    "shortClue": "Selvatico dalle zanne"
+  },
+  {
+    "word": "leone",
+    "topics": ["animals"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Re della savana dalla criniera",
+    "shortClue": "Re della savana"
+  },
+  {
+    "word": "tigre",
+    "topics": ["animals"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Grande felino a strisce scure",
+    "shortClue": "Felino a strisce"
+  },
+  {
+    "word": "elefante",
+    "topics": ["animals"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Gigante grigio dalla lunga proboscide",
+    "shortClue": "Ha la proboscide"
+  },
+  {
+    "word": "giraffa",
+    "topics": ["animals"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Dal collo lunghissimo",
+    "shortClue": "Collo lunghissimo"
+  },
+  {
+    "word": "zebra",
+    "topics": ["animals"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Equino a strisce bianche e nere",
+    "shortClue": "Equino a strisce"
+  },
+  {
+    "word": "scimmia",
+    "topics": ["animals"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Primate che salta da un ramo all’altro",
+    "shortClue": "Primate"
+  },
+  {
+    "word": "delfino",
+    "topics": ["animals"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Mammifero marino che salta sulle onde",
+    "shortClue": "Mammifero marino"
+  },
+  {
+    "word": "squalo",
+    "topics": ["animals"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Predatore del mare dalle pinne affilate",
+    "shortClue": "Pescecane"
+  },
+  {
+    "word": "polpo",
+    "topics": ["animals"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Mollusco dagli otto tentacoli",
+    "shortClue": "Otto tentacoli"
+  },
+  {
+    "word": "granchio",
+    "topics": ["animals"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Crostaceo che cammina di lato",
+    "shortClue": "Crostaceo"
+  },
+  {
+    "word": "tartaruga",
+    "topics": ["animals"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Rettile lento col guscio sulla schiena",
+    "shortClue": "Ha il guscio"
+  },
+  {
+    "word": "serpente",
+    "topics": ["animals"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Rettile che striscia senza zampe",
+    "shortClue": "Rettile strisciante"
+  },
+  {
+    "word": "lucertola",
+    "topics": ["animals"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Piccolo rettile che si scalda al sole sui muri",
+    "shortClue": "Rettile dei muri"
+  },
+  {
+    "word": "rospo",
+    "topics": ["animals"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Anfibio dalla pelle rugosa",
+    "shortClue": "Anfibio rugoso"
+  },
+  {
+    "word": "farfalla",
+    "topics": ["animals"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Insetto dalle ali colorate",
+    "shortClue": "Ali colorate"
+  },
+  {
+    "word": "formica",
+    "topics": ["animals"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Insetto laborioso che vive in colonia",
+    "shortClue": "Insetto operaio"
+  },
+  {
+    "word": "ragno",
+    "topics": ["animals"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Artropode che tesse la tela",
+    "shortClue": "Tesse la tela"
+  },
+  {
+    "word": "zanzara",
+    "topics": ["animals"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Insetto che punge e ronza d’estate",
+    "shortClue": "Insetto ronzante"
+  },
+  {
+    "word": "libellula",
+    "topics": ["animals"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Insetto dalle lunghe ali trasparenti vicino agli stagni",
+    "shortClue": "Insetto d’acqua"
+  },
+  {
+    "word": "civetta",
+    "topics": ["animals"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Rapace notturno dagli occhi grandi",
+    "shortClue": "Rapace notturno"
+  },
+  {
+    "word": "gufo",
+    "topics": ["animals"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Uccello notturno con ciuffi sul capo",
+    "shortClue": "Uccello notturno"
+  },
+  {
+    "word": "falco",
+    "topics": ["animals"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Rapace veloce dalla vista acuta",
+    "shortClue": "Rapace"
+  },
+  {
+    "word": "cigno",
+    "topics": ["animals"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Elegante uccello bianco dei laghi",
+    "shortClue": "Uccello bianco"
+  },
+  {
+    "word": "anatra",
+    "topics": ["animals"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Uccello che nuota e fa qua qua",
+    "shortClue": "Fa qua qua"
+  },
+  {
+    "word": "oca",
+    "topics": ["animals"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Uccello da cortile dal lungo collo",
+    "shortClue": "Uccello di cortile"
+  },
+  {
+    "word": "gallo",
+    "topics": ["animals"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Canta all’alba nel pollaio",
+    "shortClue": "Canta all’alba"
+  },
+  {
+    "word": "pulcino",
+    "topics": ["animals"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Piccolo appena uscito dall’uovo",
+    "shortClue": "Piccolo di gallina"
+  },
+  {
+    "word": "agnello",
+    "topics": ["animals"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Piccolo della pecora",
+    "shortClue": "Piccolo d’ovino"
+  },
+  {
+    "word": "vitello",
+    "topics": ["animals"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Giovane bovino",
+    "shortClue": "Giovane bovino"
+  },
+  {
+    "word": "maiale",
+    "topics": ["animals"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Animale da fattoria che grufola",
+    "shortClue": "Suino"
+  },
+  {
+    "word": "capra",
+    "topics": ["animals"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Ruminante cornuto che bela",
+    "shortClue": "Bela sui monti"
+  },
+  {
+    "word": "asino",
+    "topics": ["animals"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Quadrupede dalle lunghe orecchie",
+    "shortClue": "Lunghe orecchie"
+  },
+  {
+    "word": "coniglio",
+    "topics": ["animals"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Roditore dalle orecchie lunghe e dalla coda corta",
+    "shortClue": "Orecchie lunghe"
+  },
+  {
+    "word": "criceto",
+    "topics": ["animals"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Piccolo roditore da gabbia con la ruota",
+    "shortClue": "Roditore da gabbia"
+  },
+  {
+    "word": "pipistrello",
+    "topics": ["animals"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Mammifero volante che vive di notte",
+    "shortClue": "Volante notturno"
+  },
+  {
+    "word": "lepre",
+    "topics": ["animals"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Corre veloce nei campi con lunghe orecchie",
+    "shortClue": "Corridore dei campi"
+  },
+  {
+    "word": "tasso",
+    "topics": ["animals"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Mammifero notturno dal muso striato",
+    "shortClue": "Mammifero di tana"
+  },
+  {
+    "word": "camoscio",
+    "topics": ["animals"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Agile ruminante delle rocce alpine",
+    "shortClue": "Agile sulle rocce"
+  },
+  {
+    "word": "cammello",
+    "topics": ["animals"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Ha la gobba e attraversa il deserto",
+    "shortClue": "Ha la gobba"
+  },
+  {
+    "word": "canguro",
+    "topics": ["animals"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Marsupiale che salta e porta il piccolo nel marsupio",
+    "shortClue": "Marsupiale"
+  },
+  {
+    "word": "pinguino",
+    "topics": ["animals"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Uccello che non vola e vive tra i ghiacci",
+    "shortClue": "Uccello polare"
+  },
+  {
+    "word": "struzzo",
+    "topics": ["animals"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Il più grande uccello, non sa volare",
+    "shortClue": "Non vola"
+  },
+  {
+    "word": "coccodrillo",
+    "topics": ["animals"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Rettile del Nilo dalle fauci potenti",
+    "shortClue": "Rettile del Nilo"
+  },
+  {
+    "word": "ippopotamo",
+    "topics": ["animals"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Pachiderma che vive nei fiumi africani",
+    "shortClue": "Pachiderma"
+  },
+  {
+    "word": "rinoceronte",
+    "topics": ["animals"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Pachiderma col corno sul muso",
+    "shortClue": "Corno sul muso"
+  },
+  {
+    "word": "cicogna",
+    "topics": ["animals"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Trampoliere che nidifica sui tetti",
+    "shortClue": "Trampoliere"
+  },
+  {
+    "word": "rondine",
+    "topics": ["animals"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Uccello che annuncia la primavera",
+    "shortClue": "Annuncia la primavera"
+  },
+  {
+    "word": "passero",
+    "topics": ["animals"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Piccolo uccello bruno dei tetti",
+    "shortClue": "Uccellino bruno"
+  },
+  {
+    "word": "usignolo",
+    "topics": ["animals"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Piccolo uccello dal canto melodioso",
+    "shortClue": "Canto dolce"
+  },
+  {
+    "word": "cuculo",
+    "topics": ["animals"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Uccello che depone nei nidi altrui",
+    "shortClue": "Cova per altri"
+  },
+  {
+    "word": "pavone",
+    "topics": ["animals"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Uccello dalla coda a ventaglio",
+    "shortClue": "Coda a ruota"
+  },
+  {
+    "word": "caffè",
+    "topics": ["food"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Bevanda scura che sveglia al mattino",
+    "shortClue": "Bevanda scura"
+  },
+  {
+    "word": "latte",
+    "topics": ["food"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Bianco liquido che dà la mucca",
+    "shortClue": "Bevanda bianca"
+  },
+  {
+    "word": "burro",
+    "topics": ["food"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Grasso che si spalma sul pane",
+    "shortClue": "Si spalma"
+  },
+  {
+    "word": "uovo",
+    "topics": ["food"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Lo depone la gallina",
+    "shortClue": "Della gallina"
+  },
+  {
+    "word": "farina",
+    "topics": ["food"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Polvere bianca di grano macinato",
+    "shortClue": "Grano macinato"
+  },
+  {
+    "word": "zucchero",
+    "topics": ["food"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Cristalli che addolciscono il caffè",
+    "shortClue": "Addolcisce"
+  },
+  {
+    "word": "pepe",
+    "topics": ["food"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Spezia nera che fa starnutire",
+    "shortClue": "Spezia nera"
+  },
+  {
+    "word": "aceto",
+    "topics": ["food"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Condimento acido ricavato dal vino",
+    "shortClue": "Condimento acido"
+  },
+  {
+    "word": "basilico",
+    "topics": ["food"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Erba aromatica del pesto",
+    "shortClue": "Erba del pesto"
+  },
+  {
+    "word": "prezzemolo",
+    "topics": ["food"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Erba verde che si trita sui piatti",
+    "shortClue": "Erba tritata"
+  },
+  {
+    "word": "rosmarino",
+    "topics": ["food"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Aroma degli arrosti dalle foglie ad ago",
+    "shortClue": "Aroma degli arrosti"
+  },
+  {
+    "word": "origano",
+    "topics": ["food"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Erba profumata sulla pizza",
+    "shortClue": "Erba della pizza"
+  },
+  {
+    "word": "salvia",
+    "topics": ["food"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Erba che si frigge in foglie",
+    "shortClue": "Erba aromatica"
+  },
+  {
+    "word": "aglio",
+    "topics": ["food"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Bulbo dal sapore forte",
+    "shortClue": "Bulbo forte"
+  },
+  {
+    "word": "cipolla",
+    "topics": ["food"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Bulbo che fa lacrimare",
+    "shortClue": "Fa lacrimare"
+  },
+  {
+    "word": "pomodoro",
+    "topics": ["food"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Frutto rosso della salsa",
+    "shortClue": "Frutto rosso"
+  },
+  {
+    "word": "patata",
+    "topics": ["food"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Tubero da friggere o lessare",
+    "shortClue": "Tubero"
+  },
+  {
+    "word": "carota",
+    "topics": ["food"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Radice arancione amata dai conigli",
+    "shortClue": "Radice arancione"
+  },
+  {
+    "word": "zucchina",
+    "topics": ["food"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Ortaggio verde allungato",
+    "shortClue": "Ortaggio verde"
+  },
+  {
+    "word": "melanzana",
+    "topics": ["food"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Ortaggio viola della parmigiana",
+    "shortClue": "Ortaggio viola"
+  },
+  {
+    "word": "peperone",
+    "topics": ["food"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Ortaggio rosso o giallo dal sapore dolce",
+    "shortClue": "Ortaggio colorato"
+  },
+  {
+    "word": "lenticchia",
+    "topics": ["food"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Legume piccolo del cenone di Capodanno",
+    "shortClue": "Piccolo legume"
+  },
+  {
+    "word": "ceci",
+    "topics": ["food"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Legumi della farinata e dell’hummus",
+    "shortClue": "Legumi tondi"
+  },
+  {
+    "word": "insalata",
+    "topics": ["food"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Foglie verdi condite con olio",
+    "shortClue": "Foglie condite"
+  },
+  {
+    "word": "arancia",
+    "topics": ["food"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Agrume tondo e succoso",
+    "shortClue": "Agrume tondo"
+  },
+  {
+    "word": "pera",
+    "topics": ["food"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Frutto a goccia dalla polpa dolce",
+    "shortClue": "Frutto a goccia"
+  },
+  {
+    "word": "pesca",
+    "topics": ["food"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Frutto dalla buccia vellutata",
+    "shortClue": "Frutto vellutato"
+  },
+  {
+    "word": "fragola",
+    "topics": ["food"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Frutto rosso con piccoli semi in superficie",
+    "shortClue": "Frutto rosso"
+  },
+  {
+    "word": "ciliegia",
+    "topics": ["food"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Frutto rosso con il nocciolo e il picciolo",
+    "shortClue": "Frutto con picciolo"
+  },
+  {
+    "word": "banana",
+    "topics": ["food"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Frutto giallo dalla buccia da sbucciare",
+    "shortClue": "Frutto giallo"
+  },
+  {
+    "word": "fico",
+    "topics": ["food"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Frutto dolce e morbido dell’omonimo albero",
+    "shortClue": "Frutto morbido"
+  },
+  {
+    "word": "anguria",
+    "topics": ["food"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Frutto estivo rosso e dissetante",
+    "shortClue": "Frutto estivo"
+  },
+  {
+    "word": "albicocca",
+    "topics": ["food"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Frutto arancione di un nocciolo e polpa dolce",
+    "shortClue": "Frutto arancione"
+  },
+  {
+    "word": "noce",
+    "topics": ["food"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Frutto secco dal guscio rugoso",
+    "shortClue": "Frutto secco"
+  },
+  {
+    "word": "mandorla",
+    "topics": ["food"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Seme dolce dei confetti",
+    "shortClue": "Seme dei confetti"
+  },
+  {
+    "word": "nocciola",
+    "topics": ["food"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Frutto tondo del Piemonte",
+    "shortClue": "Frutto tondo"
+  },
+  {
+    "word": "castagna",
+    "topics": ["food"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Frutto autunnale da arrostire",
+    "shortClue": "Frutto d’autunno"
+  },
+  {
+    "word": "prosciutto",
+    "topics": ["food"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Salume dalla coscia del maiale stagionata",
+    "shortClue": "Coscia stagionata"
+  },
+  {
+    "word": "salame",
+    "topics": ["food"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Insaccato che si affetta",
+    "shortClue": "Insaccato"
+  },
+  {
+    "word": "mortadella",
+    "topics": ["food"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Grosso salume rosa di Bologna",
+    "shortClue": "Salume rosa"
+  },
+  {
+    "word": "risotto",
+    "topics": ["food"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Piatto lombardo di chicchi mantecati",
+    "shortClue": "Piatto mantecato"
+  },
+  {
+    "word": "lasagna",
+    "topics": ["food"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Pasta a strati con ragù e besciamella",
+    "shortClue": "Pasta a strati"
+  },
+  {
+    "word": "gnocchi",
+    "topics": ["food"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Piccole palle di patate lessate",
+    "shortClue": "Palline di patata"
+  },
+  {
+    "word": "ravioli",
+    "topics": ["food"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Pasta ripiena a quadretti",
+    "shortClue": "Pasta ripiena"
+  },
+  {
+    "word": "polenta",
+    "topics": ["food"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Farina di mais cotta nel paiolo",
+    "shortClue": "Mais cotto"
+  },
+  {
+    "word": "biscotto",
+    "topics": ["food"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Dolce secco da inzuppare",
+    "shortClue": "Dolce secco"
+  },
+  {
+    "word": "marmellata",
+    "topics": ["food"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Frutta cotta con zucchero da spalmare",
+    "shortClue": "Frutta in vasetto"
+  },
+  {
+    "word": "vino",
+    "topics": ["food"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Bevanda ottenuta dalla fermentazione dell’uva",
+    "shortClue": "Bevanda dell’uva"
+  },
+  {
+    "word": "birra",
+    "topics": ["food"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Bevanda dorata con schiuma",
+    "shortClue": "Bevanda dorata"
+  },
+  {
+    "word": "acqua",
+    "topics": ["food"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Liquido trasparente che disseta",
+    "shortClue": "Disseta"
+  },
+  {
+    "word": "succo",
+    "topics": ["food"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Bevanda spremuta dai frutti",
+    "shortClue": "Frutta spremuta"
+  },
+  {
+    "word": "focaccia",
+    "topics": ["food"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Pane piatto ligure all’olio",
+    "shortClue": "Pane piatto"
+  },
+  {
+    "word": "brodo",
+    "topics": ["food"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Liquido ottenuto dalla cottura della carne",
+    "shortClue": "Liquido caldo"
+  },
+  {
+    "word": "frittata",
+    "topics": ["food"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Uova sbattute cotte in padella",
+    "shortClue": "Uova in padella"
+  },
+  {
+    "word": "bistecca",
+    "topics": ["food"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Fetta di carne alla griglia",
+    "shortClue": "Fetta di carne"
+  },
+  {
+    "word": "polpetta",
+    "topics": ["food"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Palla di carne macinata",
+    "shortClue": "Palla di carne"
+  },
+  {
+    "word": "tonno",
+    "topics": ["food"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Pesce da scatoletta",
+    "shortClue": "Pesce in scatola"
+  },
+  {
+    "word": "acciuga",
+    "topics": ["food"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Piccolo pesce azzurro sotto sale",
+    "shortClue": "Pesce salato"
+  },
+  {
+    "word": "ricotta",
+    "topics": ["food"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Latticino fresco e bianco ottenuto dal siero",
+    "shortClue": "Latticino fresco"
+  },
+  {
+    "word": "mozzarella",
+    "topics": ["food"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Formaggio fresco filante della pizza",
+    "shortClue": "Formaggio filante"
+  },
+  {
+    "word": "pecorino",
+    "topics": ["food"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Formaggio stagionato di latte ovino",
+    "shortClue": "Formaggio ovino"
+  },
+  {
+    "word": "cioccolato",
+    "topics": ["food"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Dolce scuro ricavato dal cacao",
+    "shortClue": "Dolce di cacao"
+  },
+  {
+    "word": "delta",
+    "topics": ["geography"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Foce di un fiume a forma di ventaglio",
+    "shortClue": "Foce a ventaglio"
+  },
+  {
+    "word": "golfo",
+    "topics": ["geography"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Ampia insenatura del mare nella costa",
+    "shortClue": "Insenatura"
+  },
+  {
+    "word": "penisola",
+    "topics": ["geography"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Terra circondata dal mare su tre lati",
+    "shortClue": "Lingua di terra"
+  },
+  {
+    "word": "istmo",
+    "topics": ["geography"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Stretta lingua di terra tra due mari",
+    "shortClue": "Lingua di terra"
+  },
+  {
+    "word": "altopiano",
+    "topics": ["geography"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Vasta area elevata e pianeggiante",
+    "shortClue": "Pianura elevata"
+  },
+  {
+    "word": "pianura",
+    "topics": ["geography"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Distesa di terra senza rilievi",
+    "shortClue": "Terra piatta"
+  },
+  {
+    "word": "fiordo",
+    "topics": ["geography"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Profonda insenatura tra pareti rocciose del Nord",
+    "shortClue": "Insenatura nordica"
+  },
+  {
+    "word": "atollo",
+    "topics": ["geography"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Isola corallina a forma di anello",
+    "shortClue": "Isola ad anello"
+  },
+  {
+    "word": "arcipelago",
+    "topics": ["geography"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Gruppo di isole vicine",
+    "shortClue": "Gruppo di isole"
+  },
+  {
+    "word": "meridiano",
+    "topics": ["geography"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Linea immaginaria che va da polo a polo",
+    "shortClue": "Linea polare"
+  },
+  {
+    "word": "equatore",
+    "topics": ["geography"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Cerchio che divide la Terra in due emisferi",
+    "shortClue": "Cerchio terrestre"
+  },
+  {
+    "word": "vulcano",
+    "topics": ["geography"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Monte che erutta lava",
+    "shortClue": "Monte di lava"
+  },
+  {
+    "word": "cratere",
+    "topics": ["geography"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Bocca da cui esce la lava",
+    "shortClue": "Bocca del monte"
+  },
+  {
+    "word": "oasi",
+    "topics": ["geography"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Isola verde in mezzo al deserto",
+    "shortClue": "Verde nel deserto"
+  },
+  {
+    "word": "steppa",
+    "topics": ["geography"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Distesa erbosa e arida dell’Asia centrale",
+    "shortClue": "Prateria asiatica"
+  },
+  {
+    "word": "tundra",
+    "topics": ["geography"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Pianura gelata senza alberi vicino ai poli",
+    "shortClue": "Pianura polare"
+  },
+  {
+    "word": "savana",
+    "topics": ["geography"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Prateria africana con pochi alberi",
+    "shortClue": "Prateria africana"
+  },
+  {
+    "word": "laguna",
+    "topics": ["geography"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Specchio d’acqua separato dal mare da una lingua di sabbia",
+    "shortClue": "Acqua protetta"
+  },
+  {
+    "word": "confine",
+    "topics": ["geography"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Linea che separa due Stati",
+    "shortClue": "Linea tra Stati"
+  },
+  {
+    "word": "atlante",
+    "topics": ["geography"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Raccolta di carte geografiche",
+    "shortClue": "Libro di mappe"
+  },
+  {
+    "word": "tropico",
+    "topics": ["geography"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Parallelo che segna la fascia calda della Terra",
+    "shortClue": "Parallelo caldo"
+  },
+  {
+    "word": "polo",
+    "topics": ["geography"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Estremità dell’asse terrestre",
+    "shortClue": "Estremo della Terra"
+  },
+  {
+    "word": "Parigi",
+    "topics": ["geography"],
+    "difficulty": 1,
+    "kind": "proper",
+    "clue": "Capitale francese della Torre Eiffel",
+    "shortClue": "Capitale francese"
+  },
+  {
+    "word": "Londra",
+    "topics": ["geography"],
+    "difficulty": 1,
+    "kind": "proper",
+    "clue": "Capitale sul Tamigi",
+    "shortClue": "Capitale sul Tamigi"
+  },
+  {
+    "word": "Madrid",
+    "topics": ["geography"],
+    "difficulty": 2,
+    "kind": "proper",
+    "clue": "Capitale della Spagna",
+    "shortClue": "Capitale spagnola"
+  },
+  {
+    "word": "Egitto",
+    "topics": ["geography"],
+    "difficulty": 1,
+    "kind": "proper",
+    "clue": "Paese delle piramidi e del Nilo",
+    "shortClue": "Paese delle piramidi"
+  },
+  {
+    "word": "Alpi",
+    "topics": ["geography"],
+    "difficulty": 1,
+    "kind": "proper",
+    "clue": "Catena montuosa del Nord Italia",
+    "shortClue": "Catena del Nord"
+  },
+  {
+    "word": "Sardegna",
+    "topics": ["geography"],
+    "difficulty": 1,
+    "kind": "proper",
+    "clue": "Grande isola italiana dopo la Sicilia",
+    "shortClue": "Isola dei nuraghi"
+  },
+  {
+    "word": "Vesuvio",
+    "topics": ["geography"],
+    "difficulty": 1,
+    "kind": "proper",
+    "clue": "Vulcano che sovrasta Napoli",
+    "shortClue": "Vulcano napoletano"
+  },
+  {
+    "word": "Adriatico",
+    "topics": ["geography"],
+    "difficulty": 2,
+    "kind": "proper",
+    "clue": "Mare tra l’Italia e i Balcani",
+    "shortClue": "Mare di Venezia"
+  },
+  {
+    "word": "Sahara",
+    "topics": ["geography"],
+    "difficulty": 1,
+    "kind": "proper",
+    "clue": "Il più grande deserto caldo",
+    "shortClue": "Gran deserto"
+  },
+  {
+    "word": "Torino",
+    "topics": ["geography"],
+    "difficulty": 1,
+    "kind": "proper",
+    "clue": "Capoluogo del Piemonte",
+    "shortClue": "Città sabauda"
+  },
+  {
+    "word": "faraone",
+    "topics": ["history"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Sovrano dell’antico Egitto",
+    "shortClue": "Re d’Egitto"
+  },
+  {
+    "word": "gladiatore",
+    "topics": ["history"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Combattente dell’arena romana",
+    "shortClue": "Lottatore d’arena"
+  },
+  {
+    "word": "senato",
+    "topics": ["history"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Assemblea dei patrizi romani",
+    "shortClue": "Assemblea romana"
+  },
+  {
+    "word": "console",
+    "topics": ["history"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Magistrato supremo della Roma repubblicana",
+    "shortClue": "Magistrato romano"
+  },
+  {
+    "word": "centurione",
+    "topics": ["history"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Ufficiale che comandava cento soldati romani",
+    "shortClue": "Capo di cento"
+  },
+  {
+    "word": "acquedotto",
+    "topics": ["history"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Opera romana che portava l’acqua in città",
+    "shortClue": "Opera romana"
+  },
+  {
+    "word": "foro",
+    "topics": ["history"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Piazza centrale della città romana",
+    "shortClue": "Piazza romana"
+  },
+  {
+    "word": "tempio",
+    "topics": ["history"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Edificio dedicato a una divinità antica",
+    "shortClue": "Casa del dio"
+  },
+  {
+    "word": "piramide",
+    "topics": ["history"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Tomba monumentale dei faraoni",
+    "shortClue": "Tomba dei faraoni"
+  },
+  {
+    "word": "mummia",
+    "topics": ["history"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Corpo imbalsamato dell’antico Egitto",
+    "shortClue": "Corpo imbalsamato"
+  },
+  {
+    "word": "feudo",
+    "topics": ["history"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Terra concessa dal signore al vassallo",
+    "shortClue": "Terra del signore"
+  },
+  {
+    "word": "vassallo",
+    "topics": ["history"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Chi giurava fedeltà a un signore medievale",
+    "shortClue": "Servitore del signore"
+  },
+  {
+    "word": "trono",
+    "topics": ["history"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Seggio del sovrano",
+    "shortClue": "Seggio regale"
+  },
+  {
+    "word": "principe",
+    "topics": ["history"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Figlio del sovrano o piccolo signore",
+    "shortClue": "Erede al trono"
+  },
+  {
+    "word": "duca",
+    "topics": ["history"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Titolo nobiliare sopra al conte",
+    "shortClue": "Titolo nobiliare"
+  },
+  {
+    "word": "elmo",
+    "topics": ["history"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Copricapo di ferro del soldato",
+    "shortClue": "Copricapo bellico"
+  },
+  {
+    "word": "lancia",
+    "topics": ["history"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Asta con punta usata in battaglia",
+    "shortClue": "Asta appuntita"
+  },
+  {
+    "word": "arco",
+    "topics": ["history"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Arma che scocca frecce",
+    "shortClue": "Scocca frecce"
+  },
+  {
+    "word": "balestra",
+    "topics": ["history"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Arma da tiro con un meccanismo a scatto",
+    "shortClue": "Arma a scatto"
+  },
+  {
+    "word": "catapulta",
+    "topics": ["history"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Macchina che scagliava massi sulle mura",
+    "shortClue": "Lancia massi"
+  },
+  {
+    "word": "galeone",
+    "topics": ["history"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Grande nave a vela dei secoli passati",
+    "shortClue": "Nave a vela"
+  },
+  {
+    "word": "caravella",
+    "topics": ["history"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Veloce nave a vela di Colombo",
+    "shortClue": "Nave di Colombo"
+  },
+  {
+    "word": "pirata",
+    "topics": ["history"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Predone dei mari",
+    "shortClue": "Predone del mare"
+  },
+  {
+    "word": "scriba",
+    "topics": ["history"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Redattore di atti e lettere nell’antico Egitto",
+    "shortClue": "Redattore egizio"
+  },
+  {
+    "word": "papiro",
+    "topics": ["history"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Foglio ricavato da una pianta del Nilo per scrivere",
+    "shortClue": "Antico foglio"
+  },
+  {
+    "word": "dinastia",
+    "topics": ["history"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Successione di sovrani della stessa famiglia",
+    "shortClue": "Famiglia regnante"
+  },
+  {
+    "word": "alabarda",
+    "topics": ["history"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Arma in asta con lama a scure",
+    "shortClue": "Arma in asta"
+  },
+  {
+    "word": "falange",
+    "topics": ["history"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Schiera compatta di opliti greci",
+    "shortClue": "Schiera greca"
+  },
+  {
+    "word": "araldo",
+    "topics": ["history"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Messaggero che annunciava i cortei",
+    "shortClue": "Messaggero regale"
+  },
+  {
+    "word": "stemma",
+    "topics": ["history"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Insegna araldica di una famiglia",
+    "shortClue": "Insegna di casata"
+  },
+  {
+    "word": "maniero",
+    "topics": ["history"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Castello medievale dei signori",
+    "shortClue": "Dimora feudale"
+  },
+  {
+    "word": "fossato",
+    "topics": ["history"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Canale pieno d’acqua attorno alle mura",
+    "shortClue": "Intorno alle mura"
+  },
+  {
+    "word": "paladino",
+    "topics": ["history"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Cavaliere di Carlo Magno",
+    "shortClue": "Eroe cavalleresco"
+  },
+  {
+    "word": "tributo",
+    "topics": ["history"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Somma dovuta dai vinti ai vincitori",
+    "shortClue": "Somma dovuta"
+  },
+  {
+    "word": "elettrone",
+    "topics": ["science"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Particella di carica negativa dell’atomo",
+    "shortClue": "Carica negativa"
+  },
+  {
+    "word": "protone",
+    "topics": ["science"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Particella positiva del nucleo",
+    "shortClue": "Carica positiva"
+  },
+  {
+    "word": "magnete",
+    "topics": ["science"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Corpo che attira il ferro",
+    "shortClue": "Attira il ferro"
+  },
+  {
+    "word": "calore",
+    "topics": ["science"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Energia che passa da un corpo caldo a uno freddo",
+    "shortClue": "Energia termica"
+  },
+  {
+    "word": "luce",
+    "topics": ["science"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Ciò che permette di vedere",
+    "shortClue": "Fa vedere"
+  },
+  {
+    "word": "suono",
+    "topics": ["science"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Vibrazione che l’orecchio percepisce",
+    "shortClue": "Vibrazione"
+  },
+  {
+    "word": "atmosfera",
+    "topics": ["science"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Strato di gas che avvolge la Terra",
+    "shortClue": "Aria terrestre"
+  },
+  {
+    "word": "galassia",
+    "topics": ["science"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Immenso insieme di stelle come la Via Lattea",
+    "shortClue": "Insieme di stelle"
+  },
+  {
+    "word": "cometa",
+    "topics": ["science"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Astro con la lunga coda luminosa",
+    "shortClue": "Astro con coda"
+  },
+  {
+    "word": "asteroide",
+    "topics": ["science"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Piccolo corpo roccioso che orbita attorno al Sole",
+    "shortClue": "Roccia spaziale"
+  },
+  {
+    "word": "orbita",
+    "topics": ["science"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Traiettoria di un astro attorno a un altro",
+    "shortClue": "Traiettoria"
+  },
+  {
+    "word": "telescopio",
+    "topics": ["science"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Strumento per osservare gli astri",
+    "shortClue": "Guarda gli astri"
+  },
+  {
+    "word": "microscopio",
+    "topics": ["science"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Strumento per vedere l’invisibile piccolo",
+    "shortClue": "Ingrandisce"
+  },
+  {
+    "word": "provetta",
+    "topics": ["science"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Tubicino di vetro da laboratorio",
+    "shortClue": "Tubo da laboratorio"
+  },
+  {
+    "word": "bilancia",
+    "topics": ["science"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Strumento per misurare il peso",
+    "shortClue": "Misura il peso"
+  },
+  {
+    "word": "polmone",
+    "topics": ["science"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Organo che respira",
+    "shortClue": "Organo del respiro"
+  },
+  {
+    "word": "stomaco",
+    "topics": ["science"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Organo che digerisce il cibo",
+    "shortClue": "Organo digestivo"
+  },
+  {
+    "word": "fegato",
+    "topics": ["science"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Grande ghiandola sotto le costole destre",
+    "shortClue": "Ghiandola"
+  },
+  {
+    "word": "rene",
+    "topics": ["science"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Organo che filtra il sangue",
+    "shortClue": "Filtra il sangue"
+  },
+  {
+    "word": "osso",
+    "topics": ["science"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Parte rigida dello scheletro",
+    "shortClue": "Parte dello scheletro"
+  },
+  {
+    "word": "muscolo",
+    "topics": ["science"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Tessuto che permette il movimento",
+    "shortClue": "Fa muovere"
+  },
+  {
+    "word": "cervello",
+    "topics": ["science"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Sede del pensiero nel cranio",
+    "shortClue": "Sede del pensiero"
+  },
+  {
+    "word": "sangue",
+    "topics": ["science"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Liquido rosso che scorre nelle vene",
+    "shortClue": "Liquido rosso"
+  },
+  {
+    "word": "arteria",
+    "topics": ["science"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Vaso che porta il sangue dal cuore",
+    "shortClue": "Vaso del cuore"
+  },
+  {
+    "word": "retina",
+    "topics": ["science"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Membrana dell’occhio sensibile alla luce",
+    "shortClue": "Membrana oculare"
+  },
+  {
+    "word": "neurone",
+    "topics": ["science"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Cellula del sistema nervoso",
+    "shortClue": "Cellula nervosa"
+  },
+  {
+    "word": "enzima",
+    "topics": ["science"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Proteina che accelera le reazioni chimiche",
+    "shortClue": "Proteina chimica"
+  },
+  {
+    "word": "batterio",
+    "topics": ["science"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Microrganismo unicellulare",
+    "shortClue": "Microbo"
+  },
+  {
+    "word": "vaccino",
+    "topics": ["science"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Preparato che protegge da una malattia",
+    "shortClue": "Protegge dal morbo"
+  },
+  {
+    "word": "fossile",
+    "topics": ["science"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Resto pietrificato di un essere vissuto",
+    "shortClue": "Resto pietrificato"
+  },
+  {
+    "word": "quarzo",
+    "topics": ["science"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Minerale trasparente e durissimo",
+    "shortClue": "Cristallo di roccia"
+  },
+  {
+    "word": "granito",
+    "topics": ["science"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Roccia dura usata per le costruzioni",
+    "shortClue": "Roccia dura"
+  },
+  {
+    "word": "marmo",
+    "topics": ["science"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Pietra bianca delle statue",
+    "shortClue": "Pietra bianca"
+  },
+  {
+    "word": "diamante",
+    "topics": ["science"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "La pietra più dura di tutte",
+    "shortClue": "Pietra durissima"
+  },
+  {
+    "word": "zolfo",
+    "topics": ["science"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Elemento giallo dall’odore di uova marce",
+    "shortClue": "Elemento giallo"
+  },
+  {
+    "word": "rame",
+    "topics": ["science"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Metallo rossastro dei fili elettrici",
+    "shortClue": "Metallo rossastro"
+  },
+  {
+    "word": "argento",
+    "topics": ["science"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Metallo bianco e lucente delle posate",
+    "shortClue": "Metallo lucente"
+  },
+  {
+    "word": "elio",
+    "topics": ["science"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Gas leggero dei palloncini",
+    "shortClue": "Gas leggero"
+  },
+  {
+    "word": "azoto",
+    "topics": ["science"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Gas che forma gran parte dell’aria",
+    "shortClue": "Gas dell’aria"
+  },
+  {
+    "word": "carbonio",
+    "topics": ["science"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Elemento alla base della vita",
+    "shortClue": "Elemento vitale"
+  },
+  {
+    "word": "idrogeno",
+    "topics": ["science"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Il più leggero degli elementi",
+    "shortClue": "Elemento leggero"
+  },
+  {
+    "word": "angolo",
+    "topics": ["science"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Figura formata da due semirette",
+    "shortClue": "Due semirette"
+  },
+  {
+    "word": "triangolo",
+    "topics": ["science"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Poligono a tre lati",
+    "shortClue": "Tre lati"
+  },
+  {
+    "word": "cerchio",
+    "topics": ["science"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Figura piana dai punti equidistanti dal centro",
+    "shortClue": "Figura tonda"
+  },
+  {
+    "word": "somma",
+    "topics": ["science"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Risultato di un’addizione",
+    "shortClue": "Risultato"
+  },
+  {
+    "word": "teorema",
+    "topics": ["science"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Proposizione matematica da dimostrare",
+    "shortClue": "Da dimostrare"
+  },
+  {
+    "word": "vettore",
+    "topics": ["science"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Grandezza con direzione e verso",
+    "shortClue": "Freccia orientata"
+  },
+  {
+    "word": "gol",
+    "topics": ["sport"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Rete segnata che fa esultare i tifosi",
+    "shortClue": "Rete segnata"
+  },
+  {
+    "word": "rete",
+    "topics": ["sport"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Maglia tesa che chiude la porta del campo",
+    "shortClue": "Chiude la porta"
+  },
+  {
+    "word": "fallo",
+    "topics": ["sport"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Scorrettezza punita dall’arbitro",
+    "shortClue": "Scorrettezza"
+  },
+  {
+    "word": "remo",
+    "topics": ["sport"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Pala che fa avanzare la barca",
+    "shortClue": "Pala da barca"
+  },
+  {
+    "word": "tuffo",
+    "topics": ["sport"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Salto in acqua a testa in giù",
+    "shortClue": "Salto in acqua"
+  },
+  {
+    "word": "lotta",
+    "topics": ["sport"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Sport di corpo a corpo sul tappeto",
+    "shortClue": "Corpo a corpo"
+  },
+  {
+    "word": "pista",
+    "topics": ["sport"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Anello su cui corrono gli atleti",
+    "shortClue": "Anello d’atletica"
+  },
+  {
+    "word": "podio",
+    "topics": ["sport"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Pedana dei primi tre classificati",
+    "shortClue": "Pedana dei vincitori"
+  },
+  {
+    "word": "canoa",
+    "topics": ["sport"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Imbarcazione stretta spinta da una pagaia",
+    "shortClue": "Barca a pagaia"
+  },
+  {
+    "word": "tiro",
+    "topics": ["sport"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Sport di mira con armi da bersaglio",
+    "shortClue": "Sport di mira"
+  },
+  {
+    "word": "dardo",
+    "topics": ["sport"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Freccetta da lanciare al bersaglio",
+    "shortClue": "Freccetta"
+  },
+  {
+    "word": "bocce",
+    "topics": ["sport"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Gioco di sfere da lanciare vicino al pallino",
+    "shortClue": "Gioco di sfere"
+  },
+  {
+    "word": "slitta",
+    "topics": ["sport"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Veicolo che scivola sulla neve",
+    "shortClue": "Scivola sulla neve"
+  },
+  {
+    "word": "sella",
+    "topics": ["sport"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Seggio del cavaliere sul dorso del destriero",
+    "shortClue": "Seggio equestre"
+  },
+  {
+    "word": "asta",
+    "topics": ["sport"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Attrezzo flessibile del salto in alto",
+    "shortClue": "Attrezzo flessibile"
+  },
+  {
+    "word": "gara",
+    "topics": ["sport"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Competizione tra più concorrenti",
+    "shortClue": "Competizione"
+  },
+  {
+    "word": "arpa",
+    "topics": ["arts"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Strumento a corde che si pizzicano in verticale",
+    "shortClue": "Strumento angelico"
+  },
+  {
+    "word": "flauto",
+    "topics": ["arts"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Strumento a fiato dritto e sottile",
+    "shortClue": "Strumento a fiato"
+  },
+  {
+    "word": "oboe",
+    "topics": ["arts"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Strumento a fiato con ancia doppia",
+    "shortClue": "Fiato con ancia"
+  },
+  {
+    "word": "tromba",
+    "topics": ["arts"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Ottone dal suono squillante",
+    "shortClue": "Ottone squillante"
+  },
+  {
+    "word": "liuto",
+    "topics": ["arts"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Antico strumento a corde dal manico ricurvo",
+    "shortClue": "Antica corda"
+  },
+  {
+    "word": "cetra",
+    "topics": ["arts"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Strumento a corde degli antichi poeti",
+    "shortClue": "Strumento antico"
+  },
+  {
+    "word": "aria",
+    "topics": ["arts"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Brano cantato da un solista nell’opera",
+    "shortClue": "Brano solista"
+  },
+  {
+    "word": "canto",
+    "topics": ["arts"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Musica fatta con la voce",
+    "shortClue": "Musica vocale"
+  },
+  {
+    "word": "danza",
+    "topics": ["arts"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Arte di muoversi a ritmo di musica",
+    "shortClue": "Arte del ritmo"
+  },
+  {
+    "word": "mimo",
+    "topics": ["arts"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Attore che recita senza parole",
+    "shortClue": "Attore muto"
+  },
+  {
+    "word": "ode",
+    "topics": ["arts"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Componimento poetico lirico di lode",
+    "shortClue": "Lirica di lode"
+  },
+  {
+    "word": "rima",
+    "topics": ["arts"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Uguaglianza di suono a fine verso",
+    "shortClue": "Suono finale"
+  },
+  {
+    "word": "verso",
+    "topics": ["arts"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Riga di una poesia",
+    "shortClue": "Riga poetica"
+  },
+  {
+    "word": "creta",
+    "topics": ["arts"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Argilla morbida usata dai vasai",
+    "shortClue": "Argilla morbida"
+  },
+  {
+    "word": "fuga",
+    "topics": ["arts"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Composizione dove le voci si inseguono",
+    "shortClue": "Voci che inseguono"
+  },
+  {
+    "word": "vaso",
+    "topics": ["home"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Contenitore per i fiori sul tavolo",
+    "shortClue": "Per i fiori"
+  },
+  {
+    "word": "piatto",
+    "topics": ["home"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Stoviglia tonda su cui si mangia",
+    "shortClue": "Stoviglia tonda"
+  },
+  {
+    "word": "tazza",
+    "topics": ["home"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Recipiente con manico per il tè",
+    "shortClue": "Per il tè"
+  },
+  {
+    "word": "scopa",
+    "topics": ["home"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Arnese di saggina per spazzare il pavimento",
+    "shortClue": "Spazza il pavimento"
+  },
+  {
+    "word": "muro",
+    "topics": ["home"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Parete di mattoni di una stanza",
+    "shortClue": "Parete"
+  },
+  {
+    "word": "tetto",
+    "topics": ["home"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Copertura che ripara la casa dalla pioggia",
+    "shortClue": "Copre la casa"
+  },
+  {
+    "word": "scala",
+    "topics": ["home"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Serie di gradini per salire ai piani",
+    "shortClue": "Serie di gradini"
+  },
+  {
+    "word": "cesto",
+    "topics": ["home"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Contenitore intrecciato di vimini",
+    "shortClue": "Intreccio di vimini"
+  },
+  {
+    "word": "culla",
+    "topics": ["home"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Lettino a dondolo del neonato",
+    "shortClue": "Letto del neonato"
+  },
+  {
+    "word": "lima",
+    "topics": ["home"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Utensile d’acciaio per levigare il metallo",
+    "shortClue": "Utensile per levigare"
+  },
+  {
+    "word": "colla",
+    "topics": ["home"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Sostanza appiccicosa per unire carta e legno",
+    "shortClue": "Appiccica"
+  },
+  {
+    "word": "lume",
+    "topics": ["home"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Luce di candela o lampada",
+    "shortClue": "Luce soffusa"
+  },
+  {
+    "word": "anta",
+    "topics": ["home"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Battente mobile di un armadio",
+    "shortClue": "Battente d’armadio"
+  },
+  {
+    "word": "madia",
+    "topics": ["home"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Mobile da cucina in cui si impastava il pane",
+    "shortClue": "Mobile da cucina"
+  },
+  {
+    "word": "stipo",
+    "topics": ["home"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Piccolo mobile con cassetti e sportelli",
+    "shortClue": "Mobiletto"
+  },
+  {
+    "word": "sarto",
+    "topics": ["professions"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Chi cuce abiti su misura",
+    "shortClue": "Cuce su misura"
+  },
+  {
+    "word": "fabbro",
+    "topics": ["professions"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Chi batte il ferro sull’incudine",
+    "shortClue": "Batte il ferro"
+  },
+  {
+    "word": "vigile",
+    "topics": ["professions"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Chi dirige il traffico all’incrocio",
+    "shortClue": "Dirige il traffico"
+  },
+  {
+    "word": "pilota",
+    "topics": ["professions"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Chi guida un aereo",
+    "shortClue": "Guida l’aereo"
+  },
+  {
+    "word": "oste",
+    "topics": ["professions"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Gestore di una taverna",
+    "shortClue": "Gestore di taverna"
+  },
+  {
+    "word": "mozzo",
+    "topics": ["professions"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Il più giovane dell’equipaggio di una nave",
+    "shortClue": "Giovane marinaio"
+  },
+  {
+    "word": "attore",
+    "topics": ["professions"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Chi recita sul palco o davanti alla macchina da presa",
+    "shortClue": "Chi recita"
+  },
+  {
+    "word": "poeta",
+    "topics": ["professions"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Chi scrive versi",
+    "shortClue": "Autore di versi"
+  },
+  {
+    "word": "guida",
+    "topics": ["professions"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Chi accompagna i turisti a visitare i luoghi",
+    "shortClue": "Accompagna i turisti"
+  },
+  {
+    "word": "orafo",
+    "topics": ["professions"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Chi lavora l’oro per fare gioielli",
+    "shortClue": "Lavora i gioielli"
+  },
+  {
+    "word": "mago",
+    "topics": ["professions"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Illusionista che stupisce con i trucchi",
+    "shortClue": "Illusionista"
+  },
+  {
+    "word": "balia",
+    "topics": ["professions"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Donna che allattava i figli altrui",
+    "shortClue": "Nutrice"
+  },
+  {
+    "word": "capo",
+    "topics": ["professions"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Chi comanda in un gruppo",
+    "shortClue": "Chi comanda"
+  },
+  {
+    "word": "moka",
+    "topics": ["localCulture"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Caffettiera italiana a forma di ottagono",
+    "shortClue": "Caffettiera"
+  },
+  {
+    "word": "sagra",
+    "topics": ["localCulture"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Festa di paese dedicata a un cibo",
+    "shortClue": "Festa paesana"
+  },
+  {
+    "word": "palio",
+    "topics": ["localCulture"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Corsa di cavalli nel campo di Siena",
+    "shortClue": "Corsa senese"
+  },
+  {
+    "word": "arena",
+    "topics": ["localCulture"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Anfiteatro di Verona dove si canta l’opera",
+    "shortClue": "Anfiteatro"
+  },
+  {
+    "word": "mamma",
+    "topics": ["localCulture"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Figura centrale di ogni famiglia italiana",
+    "shortClue": "Donna di casa"
+  },
+  {
+    "word": "nonna",
+    "topics": ["localCulture"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Custode delle ricette di famiglia",
+    "shortClue": "Custode di ricette"
+  },
+  {
+    "word": "ragù",
+    "topics": ["localCulture"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Sugo di carne cotto a lungo",
+    "shortClue": "Sugo di carne"
+  },
+  {
+    "word": "pesto",
+    "topics": ["localCulture"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Salsa ligure di basilico e pinoli",
+    "shortClue": "Salsa ligure"
+  },
+  {
+    "word": "amaro",
+    "topics": ["localCulture"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Liquore digestivo dopo il pranzo",
+    "shortClue": "Liquore digestivo"
+  },
+  {
+    "word": "Capri",
+    "topics": ["localCulture"],
+    "difficulty": 2,
+    "kind": "proper",
+    "clue": "Isola del Golfo di Napoli con i Faraglioni",
+    "shortClue": "Isola dei Faraglioni"
+  },
+  {
+    "word": "Elba",
+    "topics": ["localCulture"],
+    "difficulty": 2,
+    "kind": "proper",
+    "clue": "Isola toscana dell’esilio di Napoleone",
+    "shortClue": "Isola toscana"
+  },
+  {
+    "word": "Pisa",
+    "topics": ["localCulture"],
+    "difficulty": 1,
+    "kind": "proper",
+    "clue": "Città toscana dalla torre pendente",
+    "shortClue": "Torre pendente"
+  },
+  {
+    "word": "Siena",
+    "topics": ["localCulture"],
+    "difficulty": 2,
+    "kind": "proper",
+    "clue": "Città toscana del Palio e di Piazza del Campo",
+    "shortClue": "Città del Palio"
+  },
+  {
+    "word": "Verdi",
+    "topics": ["localCulture"],
+    "difficulty": 2,
+    "kind": "proper",
+    "clue": "Compositore di Rigoletto e Aida",
+    "shortClue": "Autore di Aida"
+  },
+  {
+    "word": "Como",
+    "topics": ["localCulture"],
+    "difficulty": 3,
+    "kind": "proper",
+    "clue": "Lago e città lombarda ai piedi delle Alpi",
+    "shortClue": "Città del lago"
+  },
+  {
+    "word": "ceppo",
+    "topics": ["home"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Grosso pezzo di legno da ardere nel camino",
+    "shortClue": "Legno da ardere"
+  }
+]
