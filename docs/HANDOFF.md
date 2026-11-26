@@ -104,3 +104,67 @@ the two pages, sitemap entries, the streak.
    scaled-content rules.
 
 Proposed default: option C, medium classic, midnight UTC, all languages at once.
+
+**How a daily is generated (no AI on the fly)**
+1. A job (started in `index.ts`, like the refill job) builds **tomorrow's** daily for each
+   language shortly after midnight UTC, with the same builder as custom puzzles: draw from the
+   pool, lay out, store, record it as that language's daily for that date.
+2. A visit to `/[lang]/daily` only reads the stored puzzle.
+3. Gemini runs only in the background refill job. If a language has fewer than ~20 never-placed
+   words, the job marks its `PoolDemand` urgent so the refill tops it up during the day; if still
+   short at build time, the daily falls back to least-served words (option B). A failed build is
+   retried hourly; building a day ahead leaves 24 h before anyone sees a gap.
+4. Every language can already build puzzles (all 33 have seed words), but pool depth varies:
+   ~7,300 fresh words per language per year for dailies alone. Check production first:
+
+   ```sql
+   SELECT locale, count(*) FILTER (WHERE "servedCount" = 0) AS unused, count(*) AS total
+   FROM "Entry" WHERE "retiredAt" IS NULL GROUP BY locale ORDER BY unused;
+   ```
+
+5. Midnight UTC is 9:00 in Tokyo, 4:00 in Yerevan, 19:00 the evening before in New York. Built a
+   day ahead, publishing at local midnight is a small extra step.
+
+## Next, alongside dailies: seed words with Claude, Gemini only as top-up (discussed, NOT implemented)
+
+The owner's suggestion, taken from millionaire (`../who-wants-to-be-a-millionaire/docs/QUESTION_SEEDING*.md`):
+Claude writer agents write the word banks into the repo; Gemini fills gaps on the server only when
+needed. Agreed it fits crossword even better: a word is used up per player, never globally, so
+every seeded word serves every player in that language forever.
+
+**Today:** `server/prisma/seed/entries.<locale>.json` — about 144 words in most languages, about
+305 in en/ru/hy (barely 7 medium puzzles). `prisma/check-seed.ts` validates them; every deploy
+loads them idempotently (`deploy.yml`, `node dist/prisma/seed.js`).
+
+**What millionaire does:** writer agents in packs of three languages (more burns the 5-hour usage
+limit), each following a brief; a plan doc gives the order; the checker gates every file before
+commit; a push deploys and seeds production. Model per language: Opus (effort medium) for
+languages with less training data, Sonnet (effort high) for major ones. One writer: 7–10 min,
+100–150k tokens, 100–150 questions.
+
+**Changes for words**
+1. **Scale the files** to a target per language: 1,000 words first, 3,000 later. Split each
+   language into several files.
+2. **The checker enforces balance**, not just validity: lengths (especially 3–5 cells), starting
+   letters, topics, difficulties. A skewed seed builds poor grids even when every word is valid.
+3. **"Seed words are never retired" stops fitting.** That rule exists because today's seeds are
+   hand-checked; thousands of agent-written words in languages the owner can't read aren't. Add a
+   separate origin (e.g. `origin: 'claude'`) that player reports can retire, like AI words.
+4. **A daily reserve** (like millionaire's ranked bank): part of each language's seed drawn only
+   by dailies, joining the general pool once used. Dailies' option A then costs no Gemini.
+5. **Turn Gemini down:** the refill job already generates only for short slices; with a deep seed
+   it rarely fires, so `POOL_DAILY_CALL_BUDGET` can drop from 300.
+
+**Cost:** Claude usage limits and the owner's time, not money. Guess (not measured) 300–500 words
+per writer run (an entry is a word + a full and a short clue); ~850 more words × 33 languages ≈
+60–100 runs ≈ days to weeks of sessions. Start with the languages that bring traffic.
+
+**Notes:** if Gemini is still on the free tier, seeding buys capacity and quality, not money.
+With Gemini mostly off, words get no new clues over time — barely matters, since no word repeats
+for a player.
+
+**Order:**
+1. A brief, a plan doc and the balance checks in `check-seed.ts`, mirroring millionaire's docs.
+2. The `claude` origin, so reports can retire these words.
+3. The first pack: en, ru, hy; read some output; continue.
+4. Then the daily reserve, then lower the Gemini budget.
