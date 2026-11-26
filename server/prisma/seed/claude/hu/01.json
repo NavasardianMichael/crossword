@@ -1,0 +1,5002 @@
+[
+  {
+    "word": "düh",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Heves indulat, amely elönti az embert",
+    "shortClue": "Heves indulat"
+  },
+  {
+    "word": "vágy",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Erős kívánság valami után",
+    "shortClue": "Erős kívánság"
+  },
+  {
+    "word": "álom",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Alvás közben látott képsor",
+    "shortClue": "Éjszakai képek"
+  },
+  {
+    "word": "perc",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Hatvan másodpercnyi idő",
+    "shortClue": "Hatvan másodperc"
+  },
+  {
+    "word": "hónap",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Az év tizenketted része",
+    "shortClue": "Az év tizenkettede"
+  },
+  {
+    "word": "hajnal",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "A nap első órái napkelte körül",
+    "shortClue": "Napkelte előtti idő"
+  },
+  {
+    "word": "este",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "A nap vége a lefekvés előtt",
+    "shortClue": "Napnyugta utáni idő"
+  },
+  {
+    "word": "reggel",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "A nap kezdete ébredés után",
+    "shortClue": "Ébredés ideje"
+  },
+  {
+    "word": "éjszaka",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Sötét órák, amikor a legtöbben alszanak",
+    "shortClue": "Sötét órák"
+  },
+  {
+    "word": "múlt",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Ami már megtörtént, és nem tér vissza",
+    "shortClue": "Elmúlt idő"
+  },
+  {
+    "word": "jövő",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Idő, amely még csak ezután következik",
+    "shortClue": "Eljövendő idő"
+  },
+  {
+    "word": "pillanat",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Rövid, szinte észrevétlen időtartam",
+    "shortClue": "Szempillantás"
+  },
+  {
+    "word": "évszázad",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Tíz évtizednyi időszak",
+    "shortClue": "Tíz évtized"
+  },
+  {
+    "word": "bánat",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Mély szomorúság, amely nehezen múlik",
+    "shortClue": "Mély szomorúság"
+  },
+  {
+    "word": "harag",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Indulatos neheztelés valaki iránt",
+    "shortClue": "Indulatos neheztelés"
+  },
+  {
+    "word": "szeretet",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Meleg, jóleső érzés a kedveseink iránt",
+    "shortClue": "Meleg érzés"
+  },
+  {
+    "word": "félelem",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Érzés, amikor veszély közeledtét sejtjük",
+    "shortClue": "Veszély okozta érzés"
+  },
+  {
+    "word": "boldogság",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Tartós öröm és megelégedettség",
+    "shortClue": "Tartós megelégedés"
+  },
+  {
+    "word": "unalom",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Érzés, amikor semmi sem köti le az embert",
+    "shortClue": "Semmi sem érdekel"
+  },
+  {
+    "word": "nyugalom",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Zavartalan csönd a lélekben",
+    "shortClue": "Lelki csend"
+  },
+  {
+    "word": "izgalom",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Feszült várakozás nagy esemény előtt",
+    "shortClue": "Feszült várakozás"
+  },
+  {
+    "word": "meglepetés",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Váratlan esemény, amely elképeszt",
+    "shortClue": "Váratlan dolog"
+  },
+  {
+    "word": "csalódás",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Érzés, ha elmarad a remélt öröm",
+    "shortClue": "Elmaradt remény"
+  },
+  {
+    "word": "büszkeség",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Elégedett érzés saját vagy mások eredménye miatt",
+    "shortClue": "Elégedett érzés"
+  },
+  {
+    "word": "szégyen",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Kínos érzés rossz tett vagy kudarc után",
+    "shortClue": "Kínos érzés"
+  },
+  {
+    "word": "irigység",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Rosszindulatú vágy más javai után",
+    "shortClue": "Más javára vágyás"
+  },
+  {
+    "word": "nosztalgia",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Édes-bús vágyakozás a régmúlt iránt",
+    "shortClue": "Vágyakozás a múltra"
+  },
+  {
+    "word": "bölcsesség",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Tapasztalatból fakadó mély belátás",
+    "shortClue": "Mély belátás"
+  },
+  {
+    "word": "igazság",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Ami megfelel a valóságnak",
+    "shortClue": "A valóság"
+  },
+  {
+    "word": "hűség",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Állhatatos kötődés valakihez",
+    "shortClue": "Állhatatos kötődés"
+  },
+  {
+    "word": "kíváncsiság",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Vágy az ismeretlen megismerésére",
+    "shortClue": "Vágy a tudásra"
+  },
+  {
+    "word": "önbizalom",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Hit a saját képességeinkben",
+    "shortClue": "Hit magunkban"
+  },
+  {
+    "word": "bizalom",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Hit abban, hogy valaki nem csal meg",
+    "shortClue": "Hit valakiben"
+  },
+  {
+    "word": "fáradtság",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Lankadt állapot a sok munka után",
+    "shortClue": "Lankadt állapot"
+  },
+  {
+    "word": "segítség",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Támogatás annak, aki bajban van",
+    "shortClue": "Támogatás"
+  },
+  {
+    "word": "kérdés",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Válaszra váró mondat",
+    "shortClue": "Válaszra vár"
+  },
+  {
+    "word": "válasz",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Felelet egy kérdésre",
+    "shortClue": "Felelet"
+  },
+  {
+    "word": "ajándék",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Meglepetésnek szánt dolog szeretteinknek",
+    "shortClue": "Szeretetből adott"
+  },
+  {
+    "word": "vendég",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Meghívásra érkező látogató",
+    "shortClue": "Meghívott látogató"
+  },
+  {
+    "word": "szomszéd",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Aki közvetlenül mellettünk lakik",
+    "shortClue": "Közelben lakó"
+  },
+  {
+    "word": "család",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Szülők és gyermekeik közössége",
+    "shortClue": "Szülők és gyerekek"
+  },
+  {
+    "word": "testvér",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Ugyanazon szülők másik gyermeke",
+    "shortClue": "Közös szülők gyermeke"
+  },
+  {
+    "word": "nagymama",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Anyánk vagy apánk édesanyja",
+    "shortClue": "Anyám anyja"
+  },
+  {
+    "word": "gyerek",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Felnőttkor előtti életszakasz embere",
+    "shortClue": "Kicsi ember"
+  },
+  {
+    "word": "tévedés",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Hibás ítélet a valóságról",
+    "shortClue": "Hibás ítélet"
+  },
+  {
+    "word": "szerencse",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Kedvező véletlen, ami jól sül el",
+    "shortClue": "Kedvező véletlen"
+  },
+  {
+    "word": "titok",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Dolog, amit senkinek sem árulunk el",
+    "shortClue": "Elrejtett tudás"
+  },
+  {
+    "word": "kezdet",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Az első szakasz, ahonnan indul valami",
+    "shortClue": "Első szakasz"
+  },
+  {
+    "word": "vég",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Utolsó pont, ahol valami megszűnik",
+    "shortClue": "Utolsó pont"
+  },
+  {
+    "word": "szokás",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Gyakran ismételt cselekvés",
+    "shortClue": "Ismételt cselekvés"
+  },
+  {
+    "word": "terv",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Előre elgondolt lépések sora",
+    "shortClue": "Előre kigondolt"
+  },
+  {
+    "word": "munka",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Fizetésért végzett tevékenység",
+    "shortClue": "Tevékenység"
+  },
+  {
+    "word": "pihenés",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Időszak, amikor kifújjuk magunkat",
+    "shortClue": "Kifújás"
+  },
+  {
+    "word": "utazás",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Út egyik helyről a másikra",
+    "shortClue": "Útra kelés"
+  },
+  {
+    "word": "csomag",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Összekötött vagy dobozba rakott holmi",
+    "shortClue": "Útra készített holmi"
+  },
+  {
+    "word": "jegy",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Papír, amely belépésre vagy utazásra jogosít",
+    "shortClue": "Belépési papír"
+  },
+  {
+    "word": "szabály",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Előírás, amelyet be kell tartani",
+    "shortClue": "Betartandó előírás"
+  },
+  {
+    "word": "hang",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Fülünkkel érzékelhető rezgés",
+    "shortClue": "Hallható rezgés"
+  },
+  {
+    "word": "szín",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Piros, kék vagy zöld a látásunkban",
+    "shortClue": "Piros vagy kék"
+  },
+  {
+    "word": "szó",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Jelentéssel bíró hangsor a beszédben",
+    "shortClue": "Mondat eleme"
+  },
+  {
+    "word": "betű",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Az ábécé egy jele",
+    "shortClue": "Ábécé jele"
+  },
+  {
+    "word": "mondat",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Szavakból álló, ponttal záródó egység",
+    "shortClue": "Pontig tartó szöveg"
+  },
+  {
+    "word": "történet",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Elmesélt eseménysor",
+    "shortClue": "Elbeszélés"
+  },
+  {
+    "word": "mosoly",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Hang nélküli derű az arcon",
+    "shortClue": "Derű az arcon"
+  },
+  {
+    "word": "sírás",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Könnyekkel járó kitörés",
+    "shortClue": "Könnyek hullása"
+  },
+  {
+    "word": "álmatlanság",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Az alvás hiánya éjszaka",
+    "shortClue": "Alvás hiánya"
+  },
+  {
+    "word": "köszönet",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Hálás szó a segítségért",
+    "shortClue": "Hálás szó"
+  },
+  {
+    "word": "bocsánat",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Kérés vétség elengedésére",
+    "shortClue": "Vétség elengedése"
+  },
+  {
+    "word": "feladat",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Elvégzendő munka",
+    "shortClue": "Teendő"
+  },
+  {
+    "word": "példa",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Szemléltetésre szolgáló eset",
+    "shortClue": "Szemléltető eset"
+  },
+  {
+    "word": "hírnév",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Mások rólunk alkotott képe",
+    "shortClue": "Közvélemény rólunk"
+  },
+  {
+    "word": "erő",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Izmaink teljesítőképessége",
+    "shortClue": "Izomképesség"
+  },
+  {
+    "word": "tudás",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Tanulással szerzett ismeretek összessége",
+    "shortClue": "Szerzett ismeret"
+  },
+  {
+    "word": "gond",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Nehézség, ami nyomja az embert",
+    "shortClue": "Nyomasztó nehézség"
+  },
+  {
+    "word": "hiány",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Amikor valami nincs elegendő mennyiségben",
+    "shortClue": "Elégtelen mennyiség"
+  },
+  {
+    "word": "zaj",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Kellemetlen, hangos összevisszaság",
+    "shortClue": "Kellemetlen hang"
+  },
+  {
+    "word": "ötlet",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Hirtelen támadt gondolat",
+    "shortClue": "Támadt gondolat"
+  },
+  {
+    "word": "döntés",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Választás több lehetőség közül",
+    "shortClue": "Végső választás"
+  },
+  {
+    "word": "siker",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Kitűzött cél elérése",
+    "shortClue": "Elért cél"
+  },
+  {
+    "word": "kudarc",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Meghiúsult kísérlet",
+    "shortClue": "Meghiúsult kísérlet"
+  },
+  {
+    "word": "esély",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Kilátás a jó végkimenetelre",
+    "shortClue": "Kilátás"
+  },
+  {
+    "word": "vita",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Ellentétes vélemények összecsapása",
+    "shortClue": "Szóváltás"
+  },
+  {
+    "word": "távolság",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Két pont közötti szakasz hossza",
+    "shortClue": "Két pont között"
+  },
+  {
+    "word": "magasság",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Fölfelé mért méret",
+    "shortClue": "Fölfelé mért méret"
+  },
+  {
+    "word": "mélység",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Lefelé mért méret",
+    "shortClue": "Lefelé mért méret"
+  },
+  {
+    "word": "alak",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Tárgy külső körvonala",
+    "shortClue": "Külső körvonal"
+  },
+  {
+    "word": "darab",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Egészből leválasztott rész",
+    "shortClue": "Leválasztott rész"
+  },
+  {
+    "word": "ünnep",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Különleges nap öröm és pihenés miatt",
+    "shortClue": "Különleges nap"
+  },
+  {
+    "word": "születésnap",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Az évforduló, amikor valaki világra jött",
+    "shortClue": "Évenkénti ünnep"
+  },
+  {
+    "word": "figyelem",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Összpontosított odafordulás",
+    "shortClue": "Összpontosítás"
+  },
+  {
+    "word": "tölgy",
+    "topics": [
+      "nature"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Makkot termő hatalmas lombos fa",
+    "shortClue": "Makkot termő fa"
+  },
+  {
+    "word": "bükk",
+    "topics": [
+      "nature"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Sima, szürke kérgű hegyvidéki lombos fa",
+    "shortClue": "Szürke kérgű fa"
+  },
+  {
+    "word": "fenyő",
+    "topics": [
+      "nature"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Tűlevelű, örökzöld fa",
+    "shortClue": "Örökzöld tűlevelű"
+  },
+  {
+    "word": "nyír",
+    "topics": [
+      "nature"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Fehér kérgű, remegő levelű fa",
+    "shortClue": "Fehér kérgű fa"
+  },
+  {
+    "word": "hárs",
+    "topics": [
+      "nature"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Illatos virágából tea készül",
+    "shortClue": "Teát adó fa"
+  },
+  {
+    "word": "akác",
+    "topics": [
+      "nature"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Illatos, fehér fürtökkel nyíló tövises fa",
+    "shortClue": "Fehér fürtű fa"
+  },
+  {
+    "word": "fűz",
+    "topics": [
+      "nature"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Vízparti fa, hajlékony ágakkal",
+    "shortClue": "Vízparti fa"
+  },
+  {
+    "word": "juhar",
+    "topics": [
+      "nature"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Karéjos levelű, szárnyas termésű fa",
+    "shortClue": "Karéjos levelű fa"
+  },
+  {
+    "word": "szil",
+    "topics": [
+      "nature"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Fogazott, ferde alapú levelű, nagy termetű fa",
+    "shortClue": "Fogazott levelű fa"
+  },
+  {
+    "word": "éger",
+    "topics": [
+      "nature"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Vizes talajon élő, tobozszerű termésű fa",
+    "shortClue": "Vizenyős erdő fája"
+  },
+  {
+    "word": "rózsa",
+    "topics": [
+      "nature"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Tüskés szárú, illatos kerti növény",
+    "shortClue": "Tüskés növény"
+  },
+  {
+    "word": "tulipán",
+    "topics": [
+      "nature"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Hagymából fakadó tavaszi kehelyforma",
+    "shortClue": "Tavaszi hagymás"
+  },
+  {
+    "word": "nárcisz",
+    "topics": [
+      "nature"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Sárga trombitás tavaszi növény",
+    "shortClue": "Sárga tavaszi"
+  },
+  {
+    "word": "harangvirág",
+    "topics": [
+      "nature"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Kék csengettyűkkel nyíló, réti növény",
+    "shortClue": "Kék csengettyű"
+  },
+  {
+    "word": "gyöngyvirág",
+    "topics": [
+      "nature"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Májusi, illatos, fehér csengőket hozó erdei növény",
+    "shortClue": "Májusi illatos"
+  },
+  {
+    "word": "kökörcsin",
+    "topics": [
+      "nature"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Ibolyakék, szőrös tavaszi hegyi növény",
+    "shortClue": "Szőrös tavaszi"
+  },
+  {
+    "word": "pipacs",
+    "topics": [
+      "nature"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Búzaföldek piros szirmú növénye",
+    "shortClue": "Piros szirmú gyom"
+  },
+  {
+    "word": "búzavirág",
+    "topics": [
+      "nature"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Kék szirmú gabonaföldi gyomnövény",
+    "shortClue": "Kék szirmú gyom"
+  },
+  {
+    "word": "százszorszép",
+    "topics": [
+      "nature"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Fehér sziromkoszorús, sárga közepű pázsitnövény",
+    "shortClue": "Sárga közepű"
+  },
+  {
+    "word": "hóvirág",
+    "topics": [
+      "nature"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Télvégén elsőként nyíló fehér csengettyű",
+    "shortClue": "Télvégi csengettyű"
+  },
+  {
+    "word": "gomba",
+    "topics": [
+      "nature"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Erdei kalaposláb, lehet ehető vagy mérges",
+    "shortClue": "Erdei kalapos"
+  },
+  {
+    "word": "moha",
+    "topics": [
+      "nature"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Párnaszerű, nedves helyen élő apró növény",
+    "shortClue": "Zöld párnácska"
+  },
+  {
+    "word": "páfrány",
+    "topics": [
+      "nature"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Spórákkal szaporodó, szárnyas levelű növény",
+    "shortClue": "Spórás növény"
+  },
+  {
+    "word": "avar",
+    "topics": [
+      "nature"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Erdőtalajt borító száraz levélréteg",
+    "shortClue": "Száraz levélréteg"
+  },
+  {
+    "word": "zuzmó",
+    "topics": [
+      "nature"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Gomba és alga együttélése sziklán vagy fán",
+    "shortClue": "Sziklán élő társulás"
+  },
+  {
+    "word": "zúzmara",
+    "topics": [
+      "nature"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Faágakra rakódó fehér jégtűk",
+    "shortClue": "Fehér jégtűk"
+  },
+  {
+    "word": "hanga",
+    "topics": [
+      "nature"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Lila apró virágú, savanyú talajon élő törpecserje",
+    "shortClue": "Lila törpecserje"
+  },
+  {
+    "word": "harmat",
+    "topics": [
+      "nature"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Hűvös hajnalon a fűre csapódó vízcseppek",
+    "shortClue": "Hajnali cseppek"
+  },
+  {
+    "word": "dér",
+    "topics": [
+      "nature"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Fagyos éjszakán lerakódó jégkristálybevonat",
+    "shortClue": "Fagyos bevonat"
+  },
+  {
+    "word": "zivatar",
+    "topics": [
+      "nature"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Dörgéssel kísért heves zápor",
+    "shortClue": "Dörgős zápor"
+  },
+  {
+    "word": "villám",
+    "topics": [
+      "nature"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Az égen cikázó elektromos kisülés",
+    "shortClue": "Égi kisülés"
+  },
+  {
+    "word": "jégcsap",
+    "topics": [
+      "nature"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Ereszről lógó, megdermedt vízoszlop",
+    "shortClue": "Eresz hegyes dísze"
+  },
+  {
+    "word": "szikla",
+    "topics": [
+      "nature"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Hegyoldalból kiálló nagy kőtömb",
+    "shortClue": "Nagy kőtömb"
+  },
+  {
+    "word": "kavics",
+    "topics": [
+      "nature"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Folyó által lekerekített apró kő",
+    "shortClue": "Kerek kis kő"
+  },
+  {
+    "word": "homok",
+    "topics": [
+      "nature"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Parton és sivatagban sok apró szemcse",
+    "shortClue": "Apró szemcsék"
+  },
+  {
+    "word": "agyag",
+    "topics": [
+      "nature"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Nedvesen formázható, kiégetve kemény föld",
+    "shortClue": "Fazekasföld"
+  },
+  {
+    "word": "mocsár",
+    "topics": [
+      "nature"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Állóvizes, süppedős, nádas vidék",
+    "shortClue": "Süppedős vidék"
+  },
+  {
+    "word": "forrás",
+    "topics": [
+      "nature"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Hely, ahol a víz a földből előbukkan",
+    "shortClue": "Előtörő víz"
+  },
+  {
+    "word": "patak",
+    "topics": [
+      "nature"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Hegyi kis vízfolyás",
+    "shortClue": "Kis vízfolyás"
+  },
+  {
+    "word": "felhő",
+    "topics": [
+      "nature"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Égen lebegő vízpáratömeg",
+    "shortClue": "Égi vízpára"
+  },
+  {
+    "word": "csillag",
+    "topics": [
+      "nature"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Éjjel fénylő távoli nap",
+    "shortClue": "Távoli nap"
+  },
+  {
+    "word": "hold",
+    "topics": [
+      "nature"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Földünk kísérője az éjszakai égen",
+    "shortClue": "Éjszakai fény"
+  },
+  {
+    "word": "tisztás",
+    "topics": [
+      "nature"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Fák nélküli nyílt hely az erdőben",
+    "shortClue": "Erdei nyílás"
+  },
+  {
+    "word": "liget",
+    "topics": [
+      "nature"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Ritkás, kisebb lombos erdőcske",
+    "shortClue": "Kis erdőcske"
+  },
+  {
+    "word": "rét",
+    "topics": [
+      "nature"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Kaszálásra szánt füves terület",
+    "shortClue": "Füves terület"
+  },
+  {
+    "word": "lomb",
+    "topics": [
+      "nature"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Fák leveleinek összessége",
+    "shortClue": "Fák levelei"
+  },
+  {
+    "word": "gyökér",
+    "topics": [
+      "nature"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "A növény föld alatti, tápláló része",
+    "shortClue": "Föld alatti rész"
+  },
+  {
+    "word": "bokor",
+    "topics": [
+      "nature"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Kisebb, több szárú cserje",
+    "shortClue": "Sok szárú cserje"
+  },
+  {
+    "word": "ösvény",
+    "topics": [
+      "nature"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Keskeny, taposott gyalogút",
+    "shortClue": "Keskeny gyalogút"
+  },
+  {
+    "word": "csúcs",
+    "topics": [
+      "nature"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Hegy legmagasabb pontja",
+    "shortClue": "Legmagasabb pont"
+  },
+  {
+    "word": "lejtő",
+    "topics": [
+      "nature"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Dőlt, nem vízszintes hegyoldal",
+    "shortClue": "Dőlt hegyoldal"
+  },
+  {
+    "word": "kecske",
+    "topics": [
+      "animals"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Szakállas, szarvas háziállat, tejet ad",
+    "shortClue": "Szakállas háziállat"
+  },
+  {
+    "word": "tehén",
+    "topics": [
+      "animals"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Gazdasági állat, amely tejet ad",
+    "shortClue": "Tejet adó állat"
+  },
+  {
+    "word": "kakas",
+    "topics": [
+      "animals"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "A baromfiudvar hajnali kiáltója",
+    "shortClue": "Hajnali kiáltó"
+  },
+  {
+    "word": "liba",
+    "topics": [
+      "animals"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Fehér tollú, gágogó baromfi",
+    "shortClue": "Gágogó baromfi"
+  },
+  {
+    "word": "nyúl",
+    "topics": [
+      "animals"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Hosszú fülű, gyors ugrású állat",
+    "shortClue": "Hosszú fülű állat"
+  },
+  {
+    "word": "egér",
+    "topics": [
+      "animals"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Kicsi, sajtot kedvelő rágcsáló",
+    "shortClue": "Kis rágcsáló"
+  },
+  {
+    "word": "mókus",
+    "topics": [
+      "animals"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Vörösesbarna, fán élő, diót rágcsáló",
+    "shortClue": "Fán élő rágcsáló"
+  },
+  {
+    "word": "sün",
+    "topics": [
+      "animals"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Tüskés testű, gombócba gömbölyödő állat",
+    "shortClue": "Tüskés állat"
+  },
+  {
+    "word": "szarvas",
+    "topics": [
+      "animals"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Agancsot viselő erdei patás",
+    "shortClue": "Agancsos erdőlakó"
+  },
+  {
+    "word": "hiúz",
+    "topics": [
+      "animals"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Bojtos fülű, ritka vadmacska",
+    "shortClue": "Bojtos fülű macska"
+  },
+  {
+    "word": "vidra",
+    "topics": [
+      "animals"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Vízparti, halászó ragadozó",
+    "shortClue": "Halászó ragadozó"
+  },
+  {
+    "word": "menyét",
+    "topics": [
+      "animals"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Hosszú testű, apró és ügyes ragadozó",
+    "shortClue": "Karcsú ragadozó"
+  },
+  {
+    "word": "denevér",
+    "topics": [
+      "animals"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Repülő emlős, éjjel vadászik",
+    "shortClue": "Éjjeli repülő emlős"
+  },
+  {
+    "word": "bagoly",
+    "topics": [
+      "animals"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Éjjel vadászó, nagy szemű madár",
+    "shortClue": "Éji madár"
+  },
+  {
+    "word": "harkály",
+    "topics": [
+      "animals"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Fák törzsén kopácsoló madár",
+    "shortClue": "Kopácsoló madár"
+  },
+  {
+    "word": "rigó",
+    "topics": [
+      "animals"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Fekete tollú, énekes kerti madár",
+    "shortClue": "Énekes madár"
+  },
+  {
+    "word": "cinege",
+    "topics": [
+      "animals"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Apró, sárga hasú kerti énekesmadár",
+    "shortClue": "Kis énekesmadár"
+  },
+  {
+    "word": "gólya",
+    "topics": [
+      "animals"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Kéményre fészkelő, hosszú lábú madár",
+    "shortClue": "Kéményen fészkelő"
+  },
+  {
+    "word": "fecske",
+    "topics": [
+      "animals"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Tavasszal érkező, villás farkú madár",
+    "shortClue": "Villás farkú madár"
+  },
+  {
+    "word": "kócsag",
+    "topics": [
+      "animals"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Hosszú nyakú, fehér tollú gázlómadár",
+    "shortClue": "Fehér gázlómadár"
+  },
+  {
+    "word": "hattyú",
+    "topics": [
+      "animals"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Elegáns nyakú, fehér tavi madár",
+    "shortClue": "Fehér tavi madár"
+  },
+  {
+    "word": "kakukk",
+    "topics": [
+      "animals"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Más fészkébe tojó madár",
+    "shortClue": "Más fészkébe tojó"
+  },
+  {
+    "word": "szajkó",
+    "topics": [
+      "animals"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Tarka szárnyú, hangos erdei madár",
+    "shortClue": "Tarka erdei madár"
+  },
+  {
+    "word": "gyík",
+    "topics": [
+      "animals"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Napsütötte kövön sütkérező hüllő",
+    "shortClue": "Napozó hüllő"
+  },
+  {
+    "word": "teknős",
+    "topics": [
+      "animals"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Páncélt hordozó lassú hüllő",
+    "shortClue": "Páncélos hüllő"
+  },
+  {
+    "word": "harcsa",
+    "topics": [
+      "animals"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Bajuszos, nagytestű folyami hal",
+    "shortClue": "Bajuszos hal"
+  },
+  {
+    "word": "pisztráng",
+    "topics": [
+      "animals"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Hegyi patak tiszta vizének pettyes hala",
+    "shortClue": "Pettyes patakhal"
+  },
+  {
+    "word": "pók",
+    "topics": [
+      "animals"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Hálót szövő nyolclábú",
+    "shortClue": "Hálószövő"
+  },
+  {
+    "word": "hangya",
+    "topics": [
+      "animals"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Bolyban élő, szorgalmas apró rovar",
+    "shortClue": "Szorgos rovar"
+  },
+  {
+    "word": "darázs",
+    "topics": [
+      "animals"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Sárga-fekete, csípős rovar",
+    "shortClue": "Csípős rovar"
+  },
+  {
+    "word": "csiga",
+    "topics": [
+      "animals"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Házát a hátán hordja",
+    "shortClue": "Házas puhatestű"
+  },
+  {
+    "word": "oroszlán",
+    "topics": [
+      "animals"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "A sörényes hím a szavanna ura",
+    "shortClue": "Sörényes nagymacska"
+  },
+  {
+    "word": "elefánt",
+    "topics": [
+      "animals"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Ormánnyal és agyarral bíró óriás",
+    "shortClue": "Ormányos óriás"
+  },
+  {
+    "word": "delfin",
+    "topics": [
+      "animals"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Okos, mosolygó tengeri emlős",
+    "shortClue": "Mosolygó emlős"
+  },
+  {
+    "word": "tészta",
+    "topics": [
+      "food"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Lisztből gyúrt, vízben kifőzött étel",
+    "shortClue": "Kifőzött étel"
+  },
+  {
+    "word": "tojás",
+    "topics": [
+      "food"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Tyúk héjas, ovális terméke",
+    "shortClue": "Héjas élelem"
+  },
+  {
+    "word": "kolbász",
+    "topics": [
+      "food"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Húsból bélbe töltött, füstölt étel",
+    "shortClue": "Füstölt töltelék"
+  },
+  {
+    "word": "sonka",
+    "topics": [
+      "food"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Disznó combjából sózott, füstölt hús",
+    "shortClue": "Sózott füstölt hús"
+  },
+  {
+    "word": "paradicsom",
+    "topics": [
+      "food"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Piros, lédús, szószokba is való zöldség",
+    "shortClue": "Piros lédús zöldség"
+  },
+  {
+    "word": "uborka",
+    "topics": [
+      "food"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Zöld héjú, savanyítva is népszerű zöldség",
+    "shortClue": "Savanyítható zöldség"
+  },
+  {
+    "word": "hagyma",
+    "topics": [
+      "food"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Rétegekből álló, könnyet fakasztó zöldség",
+    "shortClue": "Könnyet fakasztó"
+  },
+  {
+    "word": "káposzta",
+    "topics": [
+      "food"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Fejes, rétegesen göngyölt levélzöldség",
+    "shortClue": "Fejes levélzöldség"
+  },
+  {
+    "word": "körte",
+    "topics": [
+      "food"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Nyaknál keskenyedő, édes gyümölcs",
+    "shortClue": "Hosszúkás gyümölcs"
+  },
+  {
+    "word": "szilva",
+    "topics": [
+      "food"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Kék héjú, kövecses gyümölcs, lekvár is készül belőle",
+    "shortClue": "Kék kövecses gyümölcs"
+  },
+  {
+    "word": "barack",
+    "topics": [
+      "food"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Bársonyos héjú, narancssárga, kövecses gyümölcs",
+    "shortClue": "Bársonyos gyümölcs"
+  },
+  {
+    "word": "meggy",
+    "topics": [
+      "food"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Savanykás, sötétpiros csonthéjas gyümölcs",
+    "shortClue": "Savanykás gyümölcs"
+  },
+  {
+    "word": "málna",
+    "topics": [
+      "food"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Piros, apró szemekből álló bokorgyümölcs",
+    "shortClue": "Piros bokorgyümölcs"
+  },
+  {
+    "word": "mogyoró",
+    "topics": [
+      "food"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Kemény héjú, olajos, csokoládéba való mag",
+    "shortClue": "Olajos mag"
+  },
+  {
+    "word": "túró",
+    "topics": [
+      "food"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Aludttejből készült, morzsálható tejtermék",
+    "shortClue": "Morzsás tejtermék"
+  },
+  {
+    "word": "tejföl",
+    "topics": [
+      "food"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Savanykás, sűrű krém a rakott ételek mellé",
+    "shortClue": "Savanykás krém"
+  },
+  {
+    "word": "palacsinta",
+    "topics": [
+      "food"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Vékonyra sütött, lekvárral tölthető lepény",
+    "shortClue": "Vékony sült lepény"
+  },
+  {
+    "word": "pogácsa",
+    "topics": [
+      "food"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Sós, kerek, sajttal vagy tepertővel gyúrt falat",
+    "shortClue": "Sós falat"
+  },
+  {
+    "word": "rétes",
+    "topics": [
+      "food"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Vékonyra nyújtott tésztába göngyölt töltelék",
+    "shortClue": "Nyújtott tésztatekercs"
+  },
+  {
+    "word": "bejgli",
+    "topics": [
+      "food"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Karácsonyi töltött tésztatekercs",
+    "shortClue": "Karácsonyi tekercs"
+  },
+  {
+    "word": "fagylalt",
+    "topics": [
+      "food"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Fagyasztott, gombócokban adott nyári édesség",
+    "shortClue": "Nyári édesség"
+  },
+  {
+    "word": "bors",
+    "topics": [
+      "food"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Fekete szemcsés, csípős fűszer",
+    "shortClue": "Csípős fűszer"
+  },
+  {
+    "word": "kömény",
+    "topics": [
+      "food"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Magját pörkölthöz és sajthoz is teszik",
+    "shortClue": "Illatos fűszermag"
+  },
+  {
+    "word": "kapor",
+    "topics": [
+      "food"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Finom levelű, uborkához és halhoz illő fűszernövény",
+    "shortClue": "Zöld fűszernövény"
+  },
+  {
+    "word": "petrezselyem",
+    "topics": [
+      "food"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Zöld levelű, főzelékekbe szórt fűszernövény",
+    "shortClue": "Zöld leveles"
+  },
+  {
+    "word": "kávé",
+    "topics": [
+      "food"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Pörkölt babból főzött fekete ital",
+    "shortClue": "Fekete ital"
+  },
+  {
+    "word": "pörkölt",
+    "topics": [
+      "food"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Paprikás, lassan készülő húsétel",
+    "shortClue": "Paprikás húsétel"
+  },
+  {
+    "word": "lecsó",
+    "topics": [
+      "food"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Nyári zöldségétel, tojással gyakran dúsítják",
+    "shortClue": "Nyári zöldségétel"
+  },
+  {
+    "word": "mák",
+    "topics": [
+      "food"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Apró, sötét mag, süteménybe szórják",
+    "shortClue": "Sötét apró mag"
+  },
+  {
+    "word": "narancs",
+    "topics": [
+      "food"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Kerek, vitaminban gazdag téli citrusgyümölcs",
+    "shortClue": "Téli citrusféle"
+  },
+  {
+    "word": "eper",
+    "topics": [
+      "food"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Piros, magvas, tavaszi gyümölcs",
+    "shortClue": "Piros tavaszi gyümölcs"
+  },
+  {
+    "word": "tenger",
+    "topics": [
+      "geography"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Hatalmas, sós víztömeg a szárazföldek között",
+    "shortClue": "Sós víztömeg"
+  },
+  {
+    "word": "óceán",
+    "topics": [
+      "geography"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "A Föld legnagyobb vízterületei közül való",
+    "shortClue": "Atlanti vagy Csendes"
+  },
+  {
+    "word": "öböl",
+    "topics": [
+      "geography"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Szárazföldbe benyúló tengerrész",
+    "shortClue": "Benyúló tengerrész"
+  },
+  {
+    "word": "szoros",
+    "topics": [
+      "geography"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Két tengert összekötő keskeny vízút",
+    "shortClue": "Keskeny vízút"
+  },
+  {
+    "word": "szárazföld",
+    "topics": [
+      "geography"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Vízzel nem borított földfelszín",
+    "shortClue": "Vízmentes terület"
+  },
+  {
+    "word": "kontinens",
+    "topics": [
+      "geography"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Földrész, mint Európa vagy Ázsia",
+    "shortClue": "Földrész"
+  },
+  {
+    "word": "sivatag",
+    "topics": [
+      "geography"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Csapadékban szegény, homokos vidék",
+    "shortClue": "Száraz vidék"
+  },
+  {
+    "word": "tundra",
+    "topics": [
+      "geography"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Fátlan, fagyott sarkvidéki síkság",
+    "shortClue": "Fátlan sarki síkság"
+  },
+  {
+    "word": "szavanna",
+    "topics": [
+      "geography"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Afrika fűvel borított, nyílt füves tája",
+    "shortClue": "Afrikai füves táj"
+  },
+  {
+    "word": "őserdő",
+    "topics": [
+      "geography"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Sosem irtott, sűrű trópusi növényzet",
+    "shortClue": "Sűrű trópusi vadon"
+  },
+  {
+    "word": "gleccser",
+    "topics": [
+      "geography"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Hegyek között lassan csúszó jégfolyam",
+    "shortClue": "Lassú jégfolyam"
+  },
+  {
+    "word": "vízesés",
+    "topics": [
+      "geography"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Meredek sziklaperemről lezúduló folyóág",
+    "shortClue": "Lezúduló folyó"
+  },
+  {
+    "word": "torkolat",
+    "topics": [
+      "geography"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Folyó végpontja, ahol a tengerbe ér",
+    "shortClue": "Folyó vége"
+  },
+  {
+    "word": "domb",
+    "topics": [
+      "geography"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Alacsony, szelíd emelkedés a tájban",
+    "shortClue": "Szelíd emelkedő"
+  },
+  {
+    "word": "fennsík",
+    "topics": [
+      "geography"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Magasan fekvő, lapos terület",
+    "shortClue": "Magas lapos vidék"
+  },
+  {
+    "word": "kráter",
+    "topics": [
+      "geography"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Tűzhányó tölcsér alakú nyílása",
+    "shortClue": "Vulkáni tölcsér"
+  },
+  {
+    "word": "vulkán",
+    "topics": [
+      "geography"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Izzó láva kitörésére képes hegy",
+    "shortClue": "Lávát okádó hegy"
+  },
+  {
+    "word": "egyenlítő",
+    "topics": [
+      "geography"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "A Föld közepén húzott képzeletbeli kör",
+    "shortClue": "Szélességi nullkör"
+  },
+  {
+    "word": "sarkkör",
+    "topics": [
+      "geography"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Képzeletbeli vonal, amelyen túl nyáron nem nyugszik le a nap",
+    "shortClue": "Hosszú éjszakák határa"
+  },
+  {
+    "word": "térkép",
+    "topics": [
+      "geography"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Terület kicsinyített rajza papíron",
+    "shortClue": "Lerajzolt terület"
+  },
+  {
+    "word": "földgömb",
+    "topics": [
+      "geography"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Bolygónk kicsinyített, forgatható mása",
+    "shortClue": "Forgatható bolygó"
+  },
+  {
+    "word": "tájoló",
+    "topics": [
+      "geography"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Az északi irányt mutató kézi eszköz",
+    "shortClue": "Északot mutató"
+  },
+  {
+    "word": "lagúna",
+    "topics": [
+      "geography"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Zátony vagy földnyelv elzárta sekély tengerrész",
+    "shortClue": "Sekély tengerrész"
+  },
+  {
+    "word": "fjord",
+    "topics": [
+      "geography"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Gleccser vájta, meredek falú tengeri bevágás",
+    "shortClue": "Meredek tengeri bevágás"
+  },
+  {
+    "word": "sztyepp",
+    "topics": [
+      "geography"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Füves, fátlan, száraz eurázsiai síkság",
+    "shortClue": "Fátlan füves síkság"
+  },
+  {
+    "word": "oázis",
+    "topics": [
+      "geography"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Zöld folt a sivatag közepén",
+    "shortClue": "Zöld folt homokban"
+  },
+  {
+    "word": "zátony",
+    "topics": [
+      "geography"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Vízfelszín alatti hajózási veszély",
+    "shortClue": "Hajózási veszély"
+  },
+  {
+    "word": "Pécs",
+    "topics": [
+      "geography"
+    ],
+    "difficulty": 1,
+    "kind": "proper",
+    "clue": "Baranyai megyeszékhely a Mecsek lábánál",
+    "shortClue": "Baranyai megyeszékhely"
+  },
+  {
+    "word": "Győr",
+    "topics": [
+      "geography"
+    ],
+    "difficulty": 1,
+    "kind": "proper",
+    "clue": "Észak-dunántúli város a Rába torkolatánál",
+    "shortClue": "Rába menti város"
+  },
+  {
+    "word": "Miskolc",
+    "topics": [
+      "geography"
+    ],
+    "difficulty": 1,
+    "kind": "proper",
+    "clue": "Borsod megye székhelye a hegyek lábánál",
+    "shortClue": "Borsodi megyeszékhely"
+  },
+  {
+    "word": "Eger",
+    "topics": [
+      "geography"
+    ],
+    "difficulty": 1,
+    "kind": "proper",
+    "clue": "Heves megyei, barokk belvárosú város",
+    "shortClue": "Heves megyeszékhely"
+  },
+  {
+    "word": "Sopron",
+    "topics": [
+      "geography"
+    ],
+    "difficulty": 2,
+    "kind": "proper",
+    "clue": "Nyugati határszéli, középkori belvárosú város",
+    "shortClue": "Határszéli város"
+  },
+  {
+    "word": "Tokaj",
+    "topics": [
+      "geography"
+    ],
+    "difficulty": 2,
+    "kind": "proper",
+    "clue": "Világhírű aszúbor hazája, északkeleti borvidék",
+    "shortClue": "Aszúbor hazája"
+  },
+  {
+    "word": "Visegrád",
+    "topics": [
+      "geography"
+    ],
+    "difficulty": 2,
+    "kind": "proper",
+    "clue": "A Duna-kanyar királyi palotájáról ismert kisváros",
+    "shortClue": "Dunakanyar városa"
+  },
+  {
+    "word": "Mecsek",
+    "topics": [
+      "geography"
+    ],
+    "difficulty": 2,
+    "kind": "proper",
+    "clue": "Pécs mellett húzódó dunántúli hegység",
+    "shortClue": "Pécsi hegység"
+  },
+  {
+    "word": "Rába",
+    "topics": [
+      "geography"
+    ],
+    "difficulty": 3,
+    "kind": "proper",
+    "clue": "Ausztriából érkező, Győrnél torkolló folyó",
+    "shortClue": "Győrnél torkolló"
+  },
+  {
+    "word": "Bécs",
+    "topics": [
+      "geography"
+    ],
+    "difficulty": 1,
+    "kind": "proper",
+    "clue": "Ausztria fővárosa a Duna mellett",
+    "shortClue": "Osztrák főváros"
+  },
+  {
+    "word": "Párizs",
+    "topics": [
+      "geography"
+    ],
+    "difficulty": 1,
+    "kind": "proper",
+    "clue": "Franciaország fővárosa, az Eiffel-torony városa",
+    "shortClue": "Francia főváros"
+  },
+  {
+    "word": "lovag",
+    "topics": [
+      "history"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Fegyveres, lovon ülő középkori nemes",
+    "shortClue": "Középkori nemes"
+  },
+  {
+    "word": "sisak",
+    "topics": [
+      "history"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Védő fejfedő, harcosok és motorosok viselik",
+    "shortClue": "Fejvédő"
+  },
+  {
+    "word": "kastély",
+    "topics": [
+      "history"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Nemesek díszes lakóhelye, nem erődítmény",
+    "shortClue": "Díszes nemesi lakhely"
+  },
+  {
+    "word": "bástya",
+    "topics": [
+      "history"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Várfalból kiugró védőtorony",
+    "shortClue": "Kiugró védőtorony"
+  },
+  {
+    "word": "erőd",
+    "topics": [
+      "history"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Védelemre épített, erős falú létesítmény",
+    "shortClue": "Erős védmű"
+  },
+  {
+    "word": "őrtorony",
+    "topics": [
+      "history"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Magas építmény, ahonnan messzire látni",
+    "shortClue": "Kilátó építmény"
+  },
+  {
+    "word": "címer",
+    "topics": [
+      "history"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Családot vagy várost jelképező pajzsos ábra",
+    "shortClue": "Jelképes pajzsábra"
+  },
+  {
+    "word": "zászló",
+    "topics": [
+      "history"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Rúdra tűzött, színes jelképes lobogó",
+    "shortClue": "Színes lobogó"
+  },
+  {
+    "word": "herceg",
+    "topics": [
+      "history"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Királyi vagy főnemesi cím",
+    "shortClue": "Nemesi cím"
+  },
+  {
+    "word": "császár",
+    "topics": [
+      "history"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Királynál is magasabb rangú uralkodó",
+    "shortClue": "Birodalom ura"
+  },
+  {
+    "word": "trón",
+    "topics": [
+      "history"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Uralkodók ékes ülőhelye",
+    "shortClue": "Királyi szék"
+  },
+  {
+    "word": "jogar",
+    "topics": [
+      "history"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Uralkodó kezében tartott díszes pálca",
+    "shortClue": "Uralkodói pálca"
+  },
+  {
+    "word": "lándzsa",
+    "topics": [
+      "history"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Hosszú nyelű, hegyes dárda",
+    "shortClue": "Hegyes dárda"
+  },
+  {
+    "word": "tegez",
+    "topics": [
+      "history"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Íjászok nyílvesszőinek tartója",
+    "shortClue": "Nyílvesszők tartója"
+  },
+  {
+    "word": "céh",
+    "topics": [
+      "history"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Egy mesterség művelőinek középkori szervezete",
+    "shortClue": "Mesterek szervezete"
+  },
+  {
+    "word": "krónika",
+    "topics": [
+      "history"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Események időrendi leírása régen",
+    "shortClue": "Régi eseménylista"
+  },
+  {
+    "word": "kódex",
+    "topics": [
+      "history"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Kézzel írt, kötött középkori könyv",
+    "shortClue": "Kézzel írt könyv"
+  },
+  {
+    "word": "lúdtoll",
+    "topics": [
+      "history"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Régi íróeszköz, tintába mártották",
+    "shortClue": "Régi íróeszköz"
+  },
+  {
+    "word": "mozaik",
+    "topics": [
+      "history"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Apró színes kövekből kirakott kép",
+    "shortClue": "Kövekből rakott kép"
+  },
+  {
+    "word": "szfinx",
+    "topics": [
+      "history"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Oroszlántestű, emberfejű egyiptomi alak",
+    "shortClue": "Gízai kőóriás"
+  },
+  {
+    "word": "múmia",
+    "topics": [
+      "history"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Egyiptomban gyolcsba tekert, konzervált holttest",
+    "shortClue": "Bebalzsamozott test"
+  },
+  {
+    "word": "papirusz",
+    "topics": [
+      "history"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Nílusi növényből készült ókori írófelület",
+    "shortClue": "Ókori írófelület"
+  },
+  {
+    "word": "kripta",
+    "topics": [
+      "history"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Templom alatti, boltíves sírkamra",
+    "shortClue": "Templom alatti sírkamra"
+  },
+  {
+    "word": "ásatás",
+    "topics": [
+      "history"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Régészek munkája a földben",
+    "shortClue": "Régészeti munka"
+  },
+  {
+    "word": "gyertya",
+    "topics": [
+      "history"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Viaszból készült, kanóccal égő fényforrás",
+    "shortClue": "Viaszos fényforrás"
+  },
+  {
+    "word": "rőf",
+    "topics": [
+      "history"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Régi hosszmérték a textilkereskedők kezében",
+    "shortClue": "Régi hosszmérték"
+  },
+  {
+    "word": "akó",
+    "topics": [
+      "history"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Hagyományos magyar űrmérték a borokhoz",
+    "shortClue": "Régi űrmérték"
+  },
+  {
+    "word": "mázsa",
+    "topics": [
+      "history"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Száz kilogramm vagy az azt mérő szerkezet",
+    "shortClue": "Száz kiló"
+  },
+  {
+    "word": "vitorla",
+    "topics": [
+      "history"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Szél hajtotta hajózó vászon",
+    "shortClue": "Hajót hajtó vászon"
+  },
+  {
+    "word": "horgony",
+    "topics": [
+      "history"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Nehéz vasmacska, amely hajót köt a fenékhez",
+    "shortClue": "Hajót tartó vasmacska"
+  },
+  {
+    "word": "fény",
+    "topics": [
+      "science"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Látható sugárzás, amely nappal bevilágít",
+    "shortClue": "Látható sugárzás"
+  },
+  {
+    "word": "áram",
+    "topics": [
+      "science"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Vezetékben haladó elektromos töltések mozgása",
+    "shortClue": "Töltések mozgása"
+  },
+  {
+    "word": "fém",
+    "topics": [
+      "science"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Fényes, vezető és kovácsolható anyag",
+    "shortClue": "Fényes anyag"
+  },
+  {
+    "word": "réz",
+    "topics": [
+      "science"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Vöröses színű, jól vezető fém",
+    "shortClue": "Vöröses fém"
+  },
+  {
+    "word": "szén",
+    "topics": [
+      "science"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Fekete tüzelő, a periódusos rendszer hatodik eleme",
+    "shortClue": "Fekete tüzelő"
+  },
+  {
+    "word": "nitrogén",
+    "topics": [
+      "science"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "A levegő legnagyobb részét adó színtelen gáz",
+    "shortClue": "Levegő fő gáza"
+  },
+  {
+    "word": "neutron",
+    "topics": [
+      "science"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Töltés nélküli atommagrészecske",
+    "shortClue": "Töltetlen részecske"
+  },
+  {
+    "word": "elektron",
+    "topics": [
+      "science"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Negatív töltésű, az atommag körül keringő részecske",
+    "shortClue": "Negatív részecske"
+  },
+  {
+    "word": "lézer",
+    "topics": [
+      "science"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Egy hullámhosszú, erősen összpontosított fénysugár",
+    "shortClue": "Összpontosított fény"
+  },
+  {
+    "word": "prizma",
+    "topics": [
+      "science"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Háromszög alapú üvegtest, amely színképet vet",
+    "shortClue": "Színképet vető test"
+  },
+  {
+    "word": "lencse",
+    "topics": [
+      "science"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Fénytörő, domború vagy homorú üvegdarab",
+    "shortClue": "Fénytörő üveg"
+  },
+  {
+    "word": "rezgés",
+    "topics": [
+      "science"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Egyensúlyi helyzet körüli ide-oda mozgás",
+    "shortClue": "Ide-oda mozgás"
+  },
+  {
+    "word": "sűrűség",
+    "topics": [
+      "science"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Tömeg és térfogat hányadosa",
+    "shortClue": "Tömeg per térfogat"
+  },
+  {
+    "word": "nyomás",
+    "topics": [
+      "science"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Felületre ható erő osztva a területtel",
+    "shortClue": "Erő per terület"
+  },
+  {
+    "word": "mikroszkóp",
+    "topics": [
+      "science"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Parányi dolgok megfigyelésére való nagyító",
+    "shortClue": "Parányok nagyítója"
+  },
+  {
+    "word": "kémcső",
+    "topics": [
+      "science"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Szűk üvegedény vegyszerekhez",
+    "shortClue": "Szűk üvegedény"
+  },
+  {
+    "word": "lombik",
+    "topics": [
+      "science"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Gömb alakú, hosszú nyakú laboratóriumi edény",
+    "shortClue": "Gömbölyű laborüveg"
+  },
+  {
+    "word": "mérleg",
+    "topics": [
+      "science"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Tömeget mérő eszköz",
+    "shortClue": "Tömegmérő"
+  },
+  {
+    "word": "képlet",
+    "topics": [
+      "science"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Összefüggést betűkkel leíró matematikai kifejezés",
+    "shortClue": "Betűs összefüggés"
+  },
+  {
+    "word": "hatvány",
+    "topics": [
+      "science"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Ismételt szorzás rövid jelölése",
+    "shortClue": "Ismételt szorzat"
+  },
+  {
+    "word": "csont",
+    "topics": [
+      "science"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Vázunkat alkotó kemény szövet",
+    "shortClue": "Kemény vázelem"
+  },
+  {
+    "word": "izom",
+    "topics": [
+      "science"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Összehúzódásra képes, mozgató testszövet",
+    "shortClue": "Mozgató szövet"
+  },
+  {
+    "word": "tüdő",
+    "topics": [
+      "science"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Oxigént a vérbe juttató páros szerv",
+    "shortClue": "Légzőszerv"
+  },
+  {
+    "word": "vese",
+    "topics": [
+      "science"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Vért szűrő, vizeletet termelő szerv",
+    "shortClue": "Vérszűrő szerv"
+  },
+  {
+    "word": "gerinc",
+    "topics": [
+      "science"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "A hátunkban húzódó csontoszlop",
+    "shortClue": "Hátcsontoszlop"
+  },
+  {
+    "word": "üstökös",
+    "topics": [
+      "science"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Hosszú porfarkú, a Nap körül keringő égitest",
+    "shortClue": "Porfarkú égitest"
+  },
+  {
+    "word": "galaxis",
+    "topics": [
+      "science"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Csillagok milliárdjainak hatalmas rendszere",
+    "shortClue": "Csillagok halmaza"
+  },
+  {
+    "word": "meteor",
+    "topics": [
+      "science"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Légkörben elégő kődarab fénycsíkja",
+    "shortClue": "Hullócsillag"
+  },
+  {
+    "word": "bazalt",
+    "topics": [
+      "science"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Fekete, vulkáni eredetű kőzet",
+    "shortClue": "Fekete vulkáni kő"
+  },
+  {
+    "word": "gyémánt",
+    "topics": [
+      "science"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "A legkeményebb ásvány, ékszerkő",
+    "shortClue": "Legkeményebb ásvány"
+  },
+  {
+    "word": "kristály",
+    "topics": [
+      "science"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Szabályos rácsba rendeződő szilárd test",
+    "shortClue": "Rácsos szilárd test"
+  },
+  {
+    "word": "magma",
+    "topics": [
+      "science"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Földkéreg alatti izzó kőzetolvadék",
+    "shortClue": "Izzó kőzetolvadék"
+  },
+  {
+    "word": "pálya",
+    "topics": [
+      "sport"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Kijelölt terület a mérkőzéshez",
+    "shortClue": "Játéktér"
+  },
+  {
+    "word": "csapat",
+    "topics": [
+      "sport"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Közös célért küzdő játékosok csoportja",
+    "shortClue": "Játékosok csoportja"
+  },
+  {
+    "word": "edző",
+    "topics": [
+      "sport"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Aki a sportolókat felkészíti",
+    "shortClue": "Felkészítő"
+  },
+  {
+    "word": "meccs",
+    "topics": [
+      "sport"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Két fél összecsapása a pályán",
+    "shortClue": "Összecsapás"
+  },
+  {
+    "word": "szöglet",
+    "topics": [
+      "sport"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Rúgás a pálya sarkáról",
+    "shortClue": "Sarokról rúgott"
+  },
+  {
+    "word": "bajnok",
+    "topics": [
+      "sport"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Verseny győztese",
+    "shortClue": "Verseny győztese"
+  },
+  {
+    "word": "érem",
+    "topics": [
+      "sport"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Díjnak adott fémkorong a nyakba",
+    "shortClue": "Nyakba akasztott díj"
+  },
+  {
+    "word": "rajt",
+    "topics": [
+      "sport"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "A verseny kezdőpontja és jelzése",
+    "shortClue": "Verseny kezdete"
+  },
+  {
+    "word": "cél",
+    "topics": [
+      "sport"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Ahol a futóverseny véget ér",
+    "shortClue": "Futam vége"
+  },
+  {
+    "word": "evező",
+    "topics": [
+      "sport"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Csónak hajtására szolgáló lapátos rúd",
+    "shortClue": "Csónaklapát"
+  },
+  {
+    "word": "kajak",
+    "topics": [
+      "sport"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Karcsú, egy- vagy kétüléses sportcsónak",
+    "shortClue": "Karcsú csónak"
+  },
+  {
+    "word": "korcsolya",
+    "topics": [
+      "sport"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Jégen siklásra való, pengés cipő",
+    "shortClue": "Pengés cipő"
+  },
+  {
+    "word": "szánkó",
+    "topics": [
+      "sport"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Havon csúszó, két talpon járó jármű",
+    "shortClue": "Havon csúszó jármű"
+  },
+  {
+    "word": "gerely",
+    "topics": [
+      "sport"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Hosszú, hegyes atlétikai eszköz, amelyet messzire hajítanak",
+    "shortClue": "Hajítószer"
+  },
+  {
+    "word": "diszkosz",
+    "topics": [
+      "sport"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Lapos korongot forgatva vetnek el messzire",
+    "shortClue": "Vetőkorong"
+  },
+  {
+    "word": "vívás",
+    "topics": [
+      "sport"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Küzdősport páston, védőmaszkban",
+    "shortClue": "Páston küzdés"
+  },
+  {
+    "word": "tőr",
+    "topics": [
+      "sport"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Kis, hegyes vívófegyver, mellkasra szúrnak vele",
+    "shortClue": "Könnyű fegyver"
+  },
+  {
+    "word": "tenisz",
+    "topics": [
+      "sport"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Hálón át ütőkkel, sárga labdával játszott sport",
+    "shortClue": "Hálós ütős játék"
+  },
+  {
+    "word": "golf",
+    "topics": [
+      "sport"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Lyukakba kell eljuttatni a kis labdát ütővel",
+    "shortClue": "Lyukas ütősport"
+  },
+  {
+    "word": "kosár",
+    "topics": [
+      "sport"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Karikán átdobott labda célja a csarnokban",
+    "shortClue": "Dobócél"
+  },
+  {
+    "word": "korlát",
+    "topics": [
+      "sport"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Tornaszer: párhuzamos rudak vagy egy rúd",
+    "shortClue": "Tornaszer"
+  },
+  {
+    "word": "dobogó",
+    "topics": [
+      "sport"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Emelvény a legjobb három számára",
+    "shortClue": "Győztesek emelvénye"
+  },
+  {
+    "word": "csatár",
+    "topics": [
+      "sport"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Gólszerző játékos elöl",
+    "shortClue": "Támadó játékos"
+  },
+  {
+    "word": "tribün",
+    "topics": [
+      "sport"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Lelátó a stadion oldalán",
+    "shortClue": "Stadioni lelátó"
+  },
+  {
+    "word": "sprint",
+    "topics": [
+      "sport"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Rövid, teljes sebességű futás",
+    "shortClue": "Gyors rövid futás"
+  },
+  {
+    "word": "pentatlon",
+    "topics": [
+      "sport"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Ötféle számból álló verseny",
+    "shortClue": "Ötféle verseny"
+  },
+  {
+    "word": "biliárd",
+    "topics": [
+      "sport"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Zöld asztalon dákóval gurított golyók játéka",
+    "shortClue": "Dákós asztaljáték"
+  },
+  {
+    "word": "triatlon",
+    "topics": [
+      "sport"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Úszás, kerékpár és futás egymás után",
+    "shortClue": "Három sportág egyben"
+  },
+  {
+    "word": "dallam",
+    "topics": [
+      "arts"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Hangok egymásutánja, amit dúdolni lehet",
+    "shortClue": "Dúdolható hangsor"
+  },
+  {
+    "word": "ritmus",
+    "topics": [
+      "arts"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "A zene lüktetése, ütemes váltakozás",
+    "shortClue": "Zenei lüktetés"
+  },
+  {
+    "word": "hangjegy",
+    "topics": [
+      "arts"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Zenei írásjel a vonalrendszerben",
+    "shortClue": "Zenei írásjel"
+  },
+  {
+    "word": "karmester",
+    "topics": [
+      "arts"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Pálcájával irányítja a zenekart",
+    "shortClue": "Pálcás irányító"
+  },
+  {
+    "word": "zenekar",
+    "topics": [
+      "arts"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Hangszeres művészek együttese",
+    "shortClue": "Hangszeres együttes"
+  },
+  {
+    "word": "gitár",
+    "topics": [
+      "arts"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Hathúros pengetős hangszer",
+    "shortClue": "Pengetős hangszer"
+  },
+  {
+    "word": "fuvola",
+    "topics": [
+      "arts"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Oldalt fújt, vékony fém fafúvós",
+    "shortClue": "Fafúvós hangszer"
+  },
+  {
+    "word": "cselló",
+    "topics": [
+      "arts"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Térdek közé fogott nagy vonós hangszer",
+    "shortClue": "Nagy vonós"
+  },
+  {
+    "word": "orgona",
+    "topics": [
+      "arts"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Templomi sípos billentyűs hangszer",
+    "shortClue": "Sípos hangszer"
+  },
+  {
+    "word": "furulya",
+    "topics": [
+      "arts"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Egyszerű, ajakkal fújt népi síp",
+    "shortClue": "Egyszerű fúvós"
+  },
+  {
+    "word": "cimbalom",
+    "topics": [
+      "arts"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Pálcákkal verve szóló, húros magyar hangszer",
+    "shortClue": "Verős húros"
+  },
+  {
+    "word": "tárogató",
+    "topics": [
+      "arts"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Szájjal fújt, nádnyelves magyar fúvós",
+    "shortClue": "Magyar fúvós"
+  },
+  {
+    "word": "ária",
+    "topics": [
+      "arts"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Operában egy szereplő magánéneke",
+    "shortClue": "Operai szóló"
+  },
+  {
+    "word": "csendélet",
+    "topics": [
+      "arts"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Asztalra rakott tárgyak festői bemutatása",
+    "shortClue": "Asztali tárgyak képe"
+  },
+  {
+    "word": "akvarell",
+    "topics": [
+      "arts"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Vízzel hígított színes kép",
+    "shortClue": "Vizes technikájú"
+  },
+  {
+    "word": "freskó",
+    "topics": [
+      "arts"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Nedves vakolatra festett falkép",
+    "shortClue": "Falkép"
+  },
+  {
+    "word": "márvány",
+    "topics": [
+      "arts"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Szobrászok kedvelt, fehér, erezett kőzete",
+    "shortClue": "Szobrász köve"
+  },
+  {
+    "word": "színész",
+    "topics": [
+      "arts"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Szerepeket életre keltő előadóművész",
+    "shortClue": "Szerepjátszó"
+  },
+  {
+    "word": "függöny",
+    "topics": [
+      "arts"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Előadás előtt és után mozgatott kárpit",
+    "shortClue": "Színpadi kárpit"
+  },
+  {
+    "word": "díszlet",
+    "topics": [
+      "arts"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Színpadi háttér, amely a helyszínt idézi",
+    "shortClue": "Színpadi háttér"
+  },
+  {
+    "word": "jelmez",
+    "topics": [
+      "arts"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Szerephez illő ruha az előadáson",
+    "shortClue": "Szerepruha"
+  },
+  {
+    "word": "forgatókönyv",
+    "topics": [
+      "arts"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "A jeleneteket és párbeszédeket rögzítő szöveg",
+    "shortClue": "Film előirata"
+  },
+  {
+    "word": "strófa",
+    "topics": [
+      "arts"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "A költemény ritmikus szakasza",
+    "shortClue": "Költemény szakasza"
+  },
+  {
+    "word": "sonett",
+    "topics": [
+      "arts"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Tizennégy soros, kötött formájú vers",
+    "shortClue": "Tizennégy soros"
+  },
+  {
+    "word": "ablak",
+    "topics": [
+      "home"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Üveges nyílás a falban a fény számára",
+    "shortClue": "Üveges nyílás"
+  },
+  {
+    "word": "mennyezet",
+    "topics": [
+      "home"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "A helyiség felső lezáró síkja",
+    "shortClue": "Helyiség teteje"
+  },
+  {
+    "word": "lépcső",
+    "topics": [
+      "home"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Szintek közti fokok sora",
+    "shortClue": "Fokok sora"
+  },
+  {
+    "word": "kémény",
+    "topics": [
+      "home"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Tetőn át füstöt vezető csatorna",
+    "shortClue": "Füstelvezető"
+  },
+  {
+    "word": "erkély",
+    "topics": [
+      "home"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Ház falából kiugró korlátos kis terasz",
+    "shortClue": "Kiugró terasz"
+  },
+  {
+    "word": "kilincs",
+    "topics": [
+      "home"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Ajtón lenyomható fogantyú",
+    "shortClue": "Ajtófogantyú"
+  },
+  {
+    "word": "csillár",
+    "topics": [
+      "home"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Mennyezetről lógó díszes lámpa",
+    "shortClue": "Függő díszlámpa"
+  },
+  {
+    "word": "szekrény",
+    "topics": [
+      "home"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Ruhák és edények tárolóbútora",
+    "shortClue": "Tárolóbútor"
+  },
+  {
+    "word": "komód",
+    "topics": [
+      "home"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Alacsony, fiókos bútor a hálóban",
+    "shortClue": "Fiókos bútor"
+  },
+  {
+    "word": "kanapé",
+    "topics": [
+      "home"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Párnázott ülőbútor a nappaliban",
+    "shortClue": "Ülőbútor"
+  },
+  {
+    "word": "paplan",
+    "topics": [
+      "home"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Tollal vagy műszállal töltött meleg takaró",
+    "shortClue": "Meleg takaró"
+  },
+  {
+    "word": "törölköző",
+    "topics": [
+      "home"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Fürdés utáni szárítóvászon",
+    "shortClue": "Szárító vászon"
+  },
+  {
+    "word": "szappan",
+    "topics": [
+      "home"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Habzó tisztálkodószer",
+    "shortClue": "Habzó tisztálkodó"
+  },
+  {
+    "word": "tányér",
+    "topics": [
+      "home"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Lapos edény, amelyből eszünk",
+    "shortClue": "Lapos edény"
+  },
+  {
+    "word": "kanál",
+    "topics": [
+      "home"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Levest ezzel esszük",
+    "shortClue": "Levesevő eszköz"
+  },
+  {
+    "word": "serpenyő",
+    "topics": [
+      "home"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Lapos, nyeles sütőedény",
+    "shortClue": "Nyeles sütőedény"
+  },
+  {
+    "word": "tűzhely",
+    "topics": [
+      "home"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Főzésre való konyhai berendezés",
+    "shortClue": "Főzőberendezés"
+  },
+  {
+    "word": "seprű",
+    "topics": [
+      "home"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Nyeles vagy ágas takarítóeszköz",
+    "shortClue": "Takarítóeszköz"
+  },
+  {
+    "word": "vödör",
+    "topics": [
+      "home"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Fogantyús, víz hordására való edény",
+    "shortClue": "Fogós víztároló"
+  },
+  {
+    "word": "partvis",
+    "topics": [
+      "home"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Nyeles lapos kefe a padló felsöpréséhez",
+    "shortClue": "Nyeles padlókefe"
+  },
+  {
+    "word": "fűrész",
+    "topics": [
+      "home"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Fogas pengéjű vágószerszám",
+    "shortClue": "Fogas szerszám"
+  },
+  {
+    "word": "harapófogó",
+    "topics": [
+      "home"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Két karral szorító vágószerszám",
+    "shortClue": "Szorító szerszám"
+  },
+  {
+    "word": "cérna",
+    "topics": [
+      "home"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Varráshoz használt vékony fonal",
+    "shortClue": "Varrófonal"
+  },
+  {
+    "word": "ápoló",
+    "topics": [
+      "professions"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Betegek mellett dolgozó egészségügyi munkatárs",
+    "shortClue": "Betegek gondozója"
+  },
+  {
+    "word": "gyógyszerész",
+    "topics": [
+      "professions"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Receptre szert kiadó, patikában dolgozó szakember",
+    "shortClue": "Patikai szakember"
+  },
+  {
+    "word": "sebész",
+    "topics": [
+      "professions"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Műtétet végző orvos",
+    "shortClue": "Műtőorvos"
+  },
+  {
+    "word": "rendőr",
+    "topics": [
+      "professions"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Közbiztonságot őrző egyenruhás",
+    "shortClue": "Egyenruhás őr"
+  },
+  {
+    "word": "postás",
+    "topics": [
+      "professions"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Levelet és csomagot kézbesít",
+    "shortClue": "Levélkézbesítő"
+  },
+  {
+    "word": "pincér",
+    "topics": [
+      "professions"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Vendéglőben az asztalokhoz szolgál fel",
+    "shortClue": "Felszolgáló"
+  },
+  {
+    "word": "pásztor",
+    "topics": [
+      "professions"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Nyájat terelő, legelőn dolgozó ember",
+    "shortClue": "Nyájterelő"
+  },
+  {
+    "word": "fodrász",
+    "topics": [
+      "professions"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Hajat vág és formáz",
+    "shortClue": "Hajvágó"
+  },
+  {
+    "word": "szabó",
+    "topics": [
+      "professions"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Méretre ruhát varr",
+    "shortClue": "Ruhavarró"
+  },
+  {
+    "word": "cipész",
+    "topics": [
+      "professions"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Lábbelit javító mester",
+    "shortClue": "Lábbeli-javító"
+  },
+  {
+    "word": "órás",
+    "topics": [
+      "professions"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Percek mechanikus gépezetének javítója",
+    "shortClue": "Időmérő-javító"
+  },
+  {
+    "word": "ékszerész",
+    "topics": [
+      "professions"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Drágakövek foglalásával dolgozó mester",
+    "shortClue": "Drágakő-foglaló"
+  },
+  {
+    "word": "üveges",
+    "topics": [
+      "professions"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Táblákat vágó és ablakba illesztő szakember",
+    "shortClue": "Táblavágó"
+  },
+  {
+    "word": "kőműves",
+    "topics": [
+      "professions"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Téglából falat rak",
+    "shortClue": "Falrakó"
+  },
+  {
+    "word": "ács",
+    "topics": [
+      "professions"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Tetőszerkezetet faragó mester",
+    "shortClue": "Gerendafaragó"
+  },
+  {
+    "word": "lakatos",
+    "topics": [
+      "professions"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Fémből vasalatot és rácsot készít",
+    "shortClue": "Fémmegmunkáló"
+  },
+  {
+    "word": "bádogos",
+    "topics": [
+      "professions"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Lemezből vízelvezetőt hajlít, ereszcsatornát szerel",
+    "shortClue": "Lemezmunkás"
+  },
+  {
+    "word": "kádár",
+    "topics": [
+      "professions"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Dongákból abroncsos hordót épít",
+    "shortClue": "Dongás mester"
+  },
+  {
+    "word": "bognár",
+    "topics": [
+      "professions"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Szekérkereket és kocsit készítő mester",
+    "shortClue": "Kerékkészítő"
+  },
+  {
+    "word": "szövő",
+    "topics": [
+      "professions"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Fonalakból anyagot létrehozó mester",
+    "shortClue": "Anyagkészítő mester"
+  },
+  {
+    "word": "tolmács",
+    "topics": [
+      "professions"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Élőszóban fordít két nyelv között",
+    "shortClue": "Élő fordító"
+  },
+  {
+    "word": "régész",
+    "topics": [
+      "professions"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Múltat ásatásokból feltáró tudós",
+    "shortClue": "Múltfeltáró"
+  },
+  {
+    "word": "mérnök",
+    "topics": [
+      "professions"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Gépek, hidak tervezője",
+    "shortClue": "Műszaki tervező"
+  },
+  {
+    "word": "népdal",
+    "topics": [
+      "localCulture"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Ismeretlen szerzőtől hagyományozott, énekelt hangsor",
+    "shortClue": "Hagyományos ének"
+  },
+  {
+    "word": "népmese",
+    "topics": [
+      "localCulture"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Szájhagyománnyal terjedő, sárkányos és királyfis történet",
+    "shortClue": "Hagyományos történet"
+  },
+  {
+    "word": "nóta",
+    "topics": [
+      "localCulture"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Hegedűvel kísért, érzelmes mulatódal",
+    "shortClue": "Mulatódal"
+  },
+  {
+    "word": "hímzés",
+    "topics": [
+      "localCulture"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Tűvel és fonallal díszített textil",
+    "shortClue": "Tűs díszítés"
+  },
+  {
+    "word": "szűr",
+    "topics": [
+      "localCulture"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Pásztorok hosszú, hímzett gyapjúköpenye",
+    "shortClue": "Pásztori köpeny"
+  },
+  {
+    "word": "suba",
+    "topics": [
+      "localCulture"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Báránybőrből varrt hosszú, meleg köpeny",
+    "shortClue": "Báránybőr köpeny"
+  },
+  {
+    "word": "bocskor",
+    "topics": [
+      "localCulture"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Egy darab bőrből hajtogatott régi parasztlábbeli",
+    "shortClue": "Régi lábbeli"
+  },
+  {
+    "word": "csizma",
+    "topics": [
+      "localCulture"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Szárba érő, magyaros bőrlábbeli",
+    "shortClue": "Magas lábbeli"
+  },
+  {
+    "word": "kendő",
+    "topics": [
+      "localCulture"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Fejre vagy vállra kötött textil",
+    "shortClue": "Fejre kötött"
+  },
+  {
+    "word": "csikós",
+    "topics": [
+      "localCulture"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Hortobágyi lovakat őrző pásztor",
+    "shortClue": "Lovas pásztor"
+  },
+  {
+    "word": "betyár",
+    "topics": [
+      "localCulture"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Alföldi népmesék és balladák szegénylegény hőse",
+    "shortClue": "Szegénylegény"
+  },
+  {
+    "word": "gémeskút",
+    "topics": [
+      "localCulture"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Hosszú rúd végén vödörrel vizet merítő alföldi szerkezet",
+    "shortClue": "Alföldi vízmerítő"
+  },
+  {
+    "word": "tanya",
+    "topics": [
+      "localCulture"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Egyedülálló alföldi parasztgazdaság",
+    "shortClue": "Magányos gazdaság"
+  },
+  {
+    "word": "kemence",
+    "topics": [
+      "localCulture"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Kenyérsütő, boltíves tűztér",
+    "shortClue": "Boltíves sütő"
+  },
+  {
+    "word": "betlehem",
+    "topics": [
+      "localCulture"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Karácsonyi jászol-ábrázolás házikó formában",
+    "shortClue": "Jászolos jelenet"
+  },
+  {
+    "word": "szüret",
+    "topics": [
+      "localCulture"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Szőlő őszi betakarítása",
+    "shortClue": "Őszi szőlőnap"
+  },
+  {
+    "word": "aratás",
+    "topics": [
+      "localCulture"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Gabona nyári begyűjtése",
+    "shortClue": "Gabonavágás"
+  },
+  {
+    "word": "lakodalom",
+    "topics": [
+      "localCulture"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Esküvői mulatság",
+    "shortClue": "Esküvői mulatság"
+  },
+  {
+    "word": "farsang",
+    "topics": [
+      "localCulture"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Télvégi mulatság maskarákkal, húsvét előtt",
+    "shortClue": "Télvégi mulatság"
+  },
+  {
+    "word": "pünkösd",
+    "topics": [
+      "localCulture"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Tavaszi ünnep húsvét után hét héttel",
+    "shortClue": "Tavaszi ünnep"
+  },
+  {
+    "word": "névnap",
+    "topics": [
+      "localCulture"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Ünnep, amelyen például a Katalinokat köszöntik",
+    "shortClue": "Köszöntési ünnep"
+  },
+  {
+    "word": "búcsú",
+    "topics": [
+      "localCulture"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Falusi vásár és ünnep a templom védőszentjének napján",
+    "shortClue": "Falusi ünnepvásár"
+  },
+  {
+    "word": "vásár",
+    "topics": [
+      "localCulture"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Árusok és vevők sokadalma a téren",
+    "shortClue": "Árusok sokadalma"
+  },
+  {
+    "word": "fonó",
+    "topics": [
+      "localCulture"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Téli esték közös kézimunka-összejövetele a faluban",
+    "shortClue": "Falusi esti kör"
+  },
+  {
+    "word": "ostor",
+    "topics": [
+      "localCulture"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Csikós hosszú, csattogó pásztorszerszáma",
+    "shortClue": "Csikós szerszáma"
+  },
+  {
+    "word": "kalap",
+    "topics": [
+      "localCulture"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Fejre való, karimás népviseleti darab",
+    "shortClue": "Karimás fejfedő"
+  },
+  {
+    "word": "Mikulás",
+    "topics": [
+      "localCulture"
+    ],
+    "difficulty": 1,
+    "kind": "proper",
+    "clue": "Decemberben ajándékot hozó, szakállas, piros ruhás alak",
+    "shortClue": "Ajándékhozó vén"
+  },
+  {
+    "word": "Kodály",
+    "topics": [
+      "localCulture"
+    ],
+    "difficulty": 3,
+    "kind": "proper",
+    "clue": "Híres magyar zeneszerző és népzenekutató, a módszer névadója",
+    "shortClue": "Népzenekutató zeneszerző"
+  },
+  {
+    "word": "Bartók",
+    "topics": [
+      "localCulture"
+    ],
+    "difficulty": 2,
+    "kind": "proper",
+    "clue": "Népdalgyűjtő magyar zeneszerző, A kékszakállú herceg vára szerzője",
+    "shortClue": "Magyar zeneszerző"
+  },
+  {
+    "word": "Jókai",
+    "topics": [
+      "localCulture"
+    ],
+    "difficulty": 3,
+    "kind": "proper",
+    "clue": "Az Egy magyar nábob és Az arany ember írója",
+    "shortClue": "Klasszikus regényíró"
+  },
+  {
+    "word": "Hollókő",
+    "topics": [
+      "localCulture"
+    ],
+    "difficulty": 3,
+    "kind": "proper",
+    "clue": "Világörökségi palóc falu Nógrádban",
+    "shortClue": "Palóc falu"
+  },
+  {
+    "word": "Kalocsa",
+    "topics": [
+      "localCulture"
+    ],
+    "difficulty": 2,
+    "kind": "proper",
+    "clue": "Hímzéséről és fűszerpaprikájáról híres Duna menti város",
+    "shortClue": "Hímzéséről híres város"
+  },
+  {
+    "word": "baj",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Kellemetlen helyzet, szerencsétlenség",
+    "shortClue": "Kellemetlen helyzet"
+  },
+  {
+    "word": "kedv",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Vidám vagy borús lelkiállapot",
+    "shortClue": "Lelkiállapot"
+  },
+  {
+    "word": "rész",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Egy kisebb darab az egészből",
+    "shortClue": "Kisebb darab"
+  },
+  {
+    "word": "jog",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Törvény által védett lehetőség vagy igény",
+    "shortClue": "Törvényes igény"
+  },
+  {
+    "word": "kor",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Élettel eltöltött évek száma",
+    "shortClue": "Életévek száma"
+  },
+  {
+    "word": "mód",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Út, amelyen valamit megoldunk",
+    "shortClue": "Eljárás"
+  },
+  {
+    "word": "rang",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Társadalmi vagy katonai fokozat",
+    "shortClue": "Hivatali fokozat"
+  },
+  {
+    "word": "sors",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Az élet előre elrendelt alakulása",
+    "shortClue": "Elrendelt életút"
+  },
+  {
+    "word": "láz",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Megemelkedett testhőmérséklet",
+    "shortClue": "Magas testhő"
+  },
+  {
+    "word": "kincs",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Elrejtett arany és ékszer",
+    "shortClue": "Elásott érték"
+  },
+  {
+    "word": "jel",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Valamire utaló látható vagy hallható üzenet",
+    "shortClue": "Utaló üzenet"
+  },
+  {
+    "word": "hír",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Újságban vagy rádióban közölt friss információ",
+    "shortClue": "Friss közlés"
+  },
+  {
+    "word": "ész",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Gondolkodóképesség, józan értelem",
+    "shortClue": "Józan értelem"
+  },
+  {
+    "word": "elme",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "A gondolkodás és emlékezés színtere",
+    "shortClue": "Gondolkodás színtere"
+  },
+  {
+    "word": "lélek",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Testtől függetlennek hitt belső lényeg",
+    "shortClue": "Belső lényeg"
+  },
+  {
+    "word": "test",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Az ember teljes fizikai alakja",
+    "shortClue": "Emberi alak"
+  },
+  {
+    "word": "szem",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "A látás szerve",
+    "shortClue": "Látószerv"
+  },
+  {
+    "word": "kéz",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Ujjakkal végződő végtag",
+    "shortClue": "Ujjas végtag"
+  },
+  {
+    "word": "fül",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "A hallás szerve",
+    "shortClue": "Hallószerv"
+  },
+  {
+    "word": "tett",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Szándékkal végrehajtott cselekedet",
+    "shortClue": "Cselekedet"
+  },
+  {
+    "word": "pont",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Legkisebb jel, amelyet a mondat végére teszünk",
+    "shortClue": "Mondatvégi jel"
+  },
+  {
+    "word": "tél",
+    "topics": [
+      "nature"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Az évszak, amikor a leghidegebb van",
+    "shortClue": "Hideg évszak"
+  },
+  {
+    "word": "ősz",
+    "topics": [
+      "nature"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Évszak, amikor lehullik a lomb",
+    "shortClue": "Lombhullató évszak"
+  },
+  {
+    "word": "nád",
+    "topics": [
+      "nature"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Tavak partján sűrűn termő, magas szárú növény",
+    "shortClue": "Vizenyős növény"
+  },
+  {
+    "word": "láp",
+    "topics": [
+      "nature"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Tőzeges, süppedős, vizenyős terület",
+    "shortClue": "Süppedős terep"
+  },
+  {
+    "word": "hód",
+    "topics": [
+      "animals"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Fogaival fákat kidöntő, gátat építő rágcsáló",
+    "shortClue": "Gátépítő rágcsáló"
+  },
+  {
+    "word": "fóka",
+    "topics": [
+      "animals"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Úszólábú, bajuszos tengeri emlős",
+    "shortClue": "Úszólábú emlős"
+  },
+  {
+    "word": "ürge",
+    "topics": [
+      "animals"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Alföldi, földbe ásott lyukban élő rágcsáló",
+    "shortClue": "Alföldi rágcsáló"
+  },
+  {
+    "word": "nyest",
+    "topics": [
+      "animals"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Fehér torokfoltú, tyúkólakat is meglátogató ragadozó",
+    "shortClue": "Torokfoltos ragadozó"
+  },
+  {
+    "word": "ecet",
+    "topics": [
+      "food"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Savanyú folyadék, salátát ízesít",
+    "shortClue": "Savanyú ízesítő"
+  },
+  {
+    "word": "olaj",
+    "topics": [
+      "food"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Sütéshez használt növényi zsiradék",
+    "shortClue": "Sütőzsiradék"
+  },
+  {
+    "word": "cukor",
+    "topics": [
+      "food"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Fehér, édes, kristályos ízesítő",
+    "shortClue": "Édes kristály"
+  },
+  {
+    "word": "bab",
+    "topics": [
+      "food"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Hüvelyben növő, fehérjében gazdag mag",
+    "shortClue": "Hüvelyes mag"
+  },
+  {
+    "word": "part",
+    "topics": [
+      "geography"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Víz és föld találkozása",
+    "shortClue": "Víz széle"
+  },
+  {
+    "word": "sík",
+    "topics": [
+      "geography"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Lapos, nem emelkedő vidék",
+    "shortClue": "Lapos vidék"
+  },
+  {
+    "word": "szirt",
+    "topics": [
+      "geography"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Meredeken a tengerbe szakadó sziklafal",
+    "shortClue": "Meredek sziklafal"
+  },
+  {
+    "word": "dűne",
+    "topics": [
+      "geography"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Szél formálta homokhalom",
+    "shortClue": "Homokhalom"
+  },
+  {
+    "word": "sánc",
+    "topics": [
+      "history"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Földből emelt védőtöltés",
+    "shortClue": "Védőtöltés"
+  },
+  {
+    "word": "érc",
+    "topics": [
+      "history"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Fémet tartalmazó kőzet",
+    "shortClue": "Fémtartalmú kő"
+  },
+  {
+    "word": "bronz",
+    "topics": [
+      "history"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Réz és ón ötvözete",
+    "shortClue": "Rézötvözet"
+  },
+  {
+    "word": "gróf",
+    "topics": [
+      "history"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Nemesi rang a báró fölött",
+    "shortClue": "Magas nemes"
+  },
+  {
+    "word": "gáz",
+    "topics": [
+      "science"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Alakját és térfogatát sem tartó halmazállapot",
+    "shortClue": "Halmazállapot"
+  },
+  {
+    "word": "vas",
+    "topics": [
+      "science"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Mágnesezhető, rozsdásodó fém",
+    "shortClue": "Rozsdás fém"
+  },
+  {
+    "word": "gén",
+    "topics": [
+      "science"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Az öröklődés alapegysége",
+    "shortClue": "Öröklődés egysége"
+  },
+  {
+    "word": "ion",
+    "topics": [
+      "science"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Elektromos töltésű atom vagy molekula",
+    "shortClue": "Töltött atom"
+  },
+  {
+    "word": "kvarc",
+    "topics": [
+      "science"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Homok fő ásványa, a kristály rokona",
+    "shortClue": "Homok ásványa"
+  },
+  {
+    "word": "kupa",
+    "topics": [
+      "sport"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Serleg alakú díj, amelyért versenyeznek",
+    "shortClue": "Díjserleg"
+  },
+  {
+    "word": "szett",
+    "topics": [
+      "sport"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Játszma a teniszben vagy a röplabdában",
+    "shortClue": "Teniszjátszma"
+  },
+  {
+    "word": "sakk",
+    "topics": [
+      "sport"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Fekete-fehér táblán, bábukkal játszott gondolkodójáték",
+    "shortClue": "Táblás játék"
+  },
+  {
+    "word": "dob",
+    "topics": [
+      "arts"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Ütőkkel megszólaltatott ritmushangszer",
+    "shortClue": "Ütős hangszer"
+  },
+  {
+    "word": "lant",
+    "topics": [
+      "arts"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Pengetett húros középkori hangszer",
+    "shortClue": "Régi húros hangszer"
+  },
+  {
+    "word": "tuba",
+    "topics": [
+      "arts"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "A legnagyobb, mély hangú rézfúvós",
+    "shortClue": "Mély rézfúvós"
+  },
+  {
+    "word": "zene",
+    "topics": [
+      "arts"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Hangokból szőtt művészet",
+    "shortClue": "Hangművészet"
+  },
+  {
+    "word": "rím",
+    "topics": [
+      "arts"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Szavak végének hangzásbeli egyezése a versben",
+    "shortClue": "Sorvégi egyezés"
+  },
+  {
+    "word": "tető",
+    "topics": [
+      "home"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "A ház felső, cseréppel borított lezárása",
+    "shortClue": "Cseréppel fedett"
+  },
+  {
+    "word": "ajtó",
+    "topics": [
+      "home"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Nyílás, amelyen a helyiségbe belépünk",
+    "shortClue": "Belépő nyílás"
+  },
+  {
+    "word": "polc",
+    "topics": [
+      "home"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Falra szerelt könyvtartó deszka",
+    "shortClue": "Falra szerelt deszka"
+  },
+  {
+    "word": "olló",
+    "topics": [
+      "home"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Két éllel vágó kézi eszköz",
+    "shortClue": "Vágó eszköz"
+  },
+  {
+    "word": "író",
+    "topics": [
+      "professions"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Regényeket és novellákat alkotó ember",
+    "shortClue": "Regényalkotó"
+  },
+  {
+    "word": "festő",
+    "topics": [
+      "professions"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Ecsettel képeket vagy falakat alkot",
+    "shortClue": "Ecsetes mester"
+  },
+  {
+    "word": "sofőr",
+    "topics": [
+      "professions"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Gépkocsit vezető hivatásos",
+    "shortClue": "Autóvezető"
+  },
+  {
+    "word": "dajka",
+    "topics": [
+      "professions"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Mások kisgyermekét gondozó nő",
+    "shortClue": "Gyermekgondozó"
+  },
+  {
+    "word": "kés",
+    "topics": [
+      "home"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Éles pengéjű vágóeszköz asztalnál és konyhában",
+    "shortClue": "Éles vágóeszköz"
+  },
+  {
+    "word": "vadász",
+    "topics": [
+      "professions"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Erdőn-mezőn vadat űző ember",
+    "shortClue": "Vadat űző"
+  }
+]
