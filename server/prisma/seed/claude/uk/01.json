@@ -1,0 +1,5009 @@
+[
+  {
+    "word": "радість",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Світле почуття, коли все складається вдало",
+    "shortClue": "Світле почуття"
+  },
+  {
+    "word": "смуток",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Важкий настрій після втрати",
+    "shortClue": "Важкий настрій"
+  },
+  {
+    "word": "страх",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Дрож перед темним коридором",
+    "shortClue": "Дрож у темряві"
+  },
+  {
+    "word": "гнів",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Спалах люті, від якого червоніє обличчя",
+    "shortClue": "Спалах люті"
+  },
+  {
+    "word": "подив",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Реакція на щось зовсім несподіване",
+    "shortClue": "Реакція на диво"
+  },
+  {
+    "word": "надія",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Віра, що завтра буде краще",
+    "shortClue": "Віра в краще"
+  },
+  {
+    "word": "любов",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Глибока приязнь до найближчих",
+    "shortClue": "Глибока приязнь"
+  },
+  {
+    "word": "щастя",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Повна задоволеність життям",
+    "shortClue": "Повне задоволення"
+  },
+  {
+    "word": "сміх",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Веселий звук, що заражає всіх довкола",
+    "shortClue": "Веселий звук"
+  },
+  {
+    "word": "сльоза",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Крапля з ока від суму чи радості",
+    "shortClue": "Крапля з ока"
+  },
+  {
+    "word": "усмішка",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Рух губ без слів у відповідь на привіт",
+    "shortClue": "Рух губ"
+  },
+  {
+    "word": "сумління",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Внутрішній суддя, що відрізняє добро від зла",
+    "shortClue": "Внутрішній суддя"
+  },
+  {
+    "word": "ввічливість",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Добрі манери у розмові та вчинках",
+    "shortClue": "Добрі манери"
+  },
+  {
+    "word": "лінь",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Небажання братися до роботи",
+    "shortClue": "Нехіть до праці"
+  },
+  {
+    "word": "сором",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Червоні щоки від незручного вчинку",
+    "shortClue": "Червоні щоки"
+  },
+  {
+    "word": "спокій",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Стан, коли ніщо не бентежить",
+    "shortClue": "Стан без хвилювань"
+  },
+  {
+    "word": "самотність",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Стан, коли поруч нікого немає",
+    "shortClue": "Ніхто поруч"
+  },
+  {
+    "word": "вдячність",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Почуття до того, хто зробив добро",
+    "shortClue": "Відчуття боргу"
+  },
+  {
+    "word": "чесність",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Відмова обманювати навіть собі на шкоду",
+    "shortClue": "Правдивість"
+  },
+  {
+    "word": "скромність",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Відсутність хвастощів і пихи",
+    "shortClue": "Без хвастощів"
+  },
+  {
+    "word": "упертість",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Небажання поступатися за жодних умов",
+    "shortClue": "Не поступитися"
+  },
+  {
+    "word": "мудрість",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Життєвий розум, що приходить з роками",
+    "shortClue": "Розум з роками"
+  },
+  {
+    "word": "бігти",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Швидко пересуватися ногами",
+    "shortClue": "Швидко йти"
+  },
+  {
+    "word": "читати",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Проглядати рядки в книжці",
+    "shortClue": "Дивитися в книжку"
+  },
+  {
+    "word": "співати",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Виводити мелодію голосом",
+    "shortClue": "Виводити мелодію"
+  },
+  {
+    "word": "мовчати",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Не вимовляти ані слова",
+    "shortClue": "Не говорити"
+  },
+  {
+    "word": "шукати",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Прагнути знайти щось загублене",
+    "shortClue": "Прагнути знайти"
+  },
+  {
+    "word": "чекати",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Лишатися на місці до приходу іншого",
+    "shortClue": "Лишатися на місці"
+  },
+  {
+    "word": "дарувати",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Безкоштовно вручати на свято",
+    "shortClue": "Вручати на свято"
+  },
+  {
+    "word": "мандрувати",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Їздити далекими краями задля вражень",
+    "shortClue": "Їздити світом"
+  },
+  {
+    "word": "мріяти",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Уявляти бажане майбутнє",
+    "shortClue": "Уявляти бажане"
+  },
+  {
+    "word": "думати",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Напружувати розум над задачею",
+    "shortClue": "Напружувати розум"
+  },
+  {
+    "word": "вірити",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Мати певність у чомусь без доказів",
+    "shortClue": "Мати певність"
+  },
+  {
+    "word": "стрибати",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Відштовхуватися від землі й підскакувати",
+    "shortClue": "Підскакувати вгору"
+  },
+  {
+    "word": "ховати",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Класти подалі від чужих очей",
+    "shortClue": "Класти подалі"
+  },
+  {
+    "word": "гуляти",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Неквапно ходити надворі",
+    "shortClue": "Ходити надворі"
+  },
+  {
+    "word": "пливти",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Рухатися по воді або з її течією",
+    "shortClue": "Рухатись по воді"
+  },
+  {
+    "word": "ранок",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Початок дня після світанку",
+    "shortClue": "Початок дня"
+  },
+  {
+    "word": "вечір",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Частина доби між днем і ніччю",
+    "shortClue": "Після дня"
+  },
+  {
+    "word": "ніч",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Темна пора доби, коли сплять",
+    "shortClue": "Темна пора"
+  },
+  {
+    "word": "день",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Світла частина доби",
+    "shortClue": "Світла пора"
+  },
+  {
+    "word": "тиждень",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Сім днів поспіль",
+    "shortClue": "Сім днів"
+  },
+  {
+    "word": "місяць",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Дванадцята частина року",
+    "shortClue": "Частина року"
+  },
+  {
+    "word": "вчора",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Минулий день, що вже не повернеться",
+    "shortClue": "Минулий день"
+  },
+  {
+    "word": "сьогодні",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Цей день, у який ми живемо",
+    "shortClue": "Цей день"
+  },
+  {
+    "word": "вічність",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Час, що не має ні початку, ні кінця",
+    "shortClue": "Безкраїй час"
+  },
+  {
+    "word": "мить",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Найкоротший проміжок часу",
+    "shortClue": "Дуже короткий час"
+  },
+  {
+    "word": "століття",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Проміжок часу в десять десятків років",
+    "shortClue": "Вік в історії"
+  },
+  {
+    "word": "доба",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Двадцять чотири години",
+    "shortClue": "Двадцять чотири години"
+  },
+  {
+    "word": "понеділок",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Перший будній день",
+    "shortClue": "Перший будень"
+  },
+  {
+    "word": "субота",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "День, коли багато хто не працює",
+    "shortClue": "День відпочинку"
+  },
+  {
+    "word": "круг",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Плоска фігура без кутів",
+    "shortClue": "Фігура без кутів"
+  },
+  {
+    "word": "квадрат",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Чотирикутник із рівними сторонами й кутами",
+    "shortClue": "Рівні сторони"
+  },
+  {
+    "word": "кут",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Місце, де сходяться дві стіни",
+    "shortClue": "Стик двох стін"
+  },
+  {
+    "word": "лінія",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Слід, що його залишає олівець у русі",
+    "shortClue": "Слід олівця"
+  },
+  {
+    "word": "точка",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Найменший знак у кінці речення",
+    "shortClue": "Кінцевий знак"
+  },
+  {
+    "word": "пара",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Двоє однакових, що йдуть разом",
+    "shortClue": "Двоє разом"
+  },
+  {
+    "word": "сотня",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Число, що дорівнює десяти десяткам",
+    "shortClue": "Десять десятків"
+  },
+  {
+    "word": "тисяча",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Число, що дорівнює десяти сотням",
+    "shortClue": "Десять сотень"
+  },
+  {
+    "word": "половина",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Одна з двох рівних частин цілого",
+    "shortClue": "Одна з двох"
+  },
+  {
+    "word": "частка",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Невелика доля цілого",
+    "shortClue": "Мала доля"
+  },
+  {
+    "word": "міра",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Еталон, яким виміряють величини",
+    "shortClue": "Еталон виміру"
+  },
+  {
+    "word": "вага",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Те, що показують терези",
+    "shortClue": "Показ терезів"
+  },
+  {
+    "word": "центр",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Середина кола або міста",
+    "shortClue": "Середина кола"
+  },
+  {
+    "word": "великий",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Значний за розміром",
+    "shortClue": "Значний"
+  },
+  {
+    "word": "малий",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Невеликий за розміром",
+    "shortClue": "Невеликий"
+  },
+  {
+    "word": "гарний",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Приємний для ока",
+    "shortClue": "Приємний для ока"
+  },
+  {
+    "word": "швидкий",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Такий, що рухається без зволікання",
+    "shortClue": "Без зволікання"
+  },
+  {
+    "word": "теплий",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Не холодний і не гарячий",
+    "shortClue": "Не холодний"
+  },
+  {
+    "word": "добрий",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Той, хто бажає людям лише хорошого",
+    "shortClue": "Бажає лише хорошого"
+  },
+  {
+    "word": "новий",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Щойно зроблений, ще не вживаний",
+    "shortClue": "Ще не вживаний"
+  },
+  {
+    "word": "старий",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Той, що прожив багато років",
+    "shortClue": "Багато літ"
+  },
+  {
+    "word": "важкий",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Такий, що його нелегко підняти",
+    "shortClue": "Нелегко підняти"
+  },
+  {
+    "word": "легкий",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Такий, що його підніме й дитина",
+    "shortClue": "Підніме дитина"
+  },
+  {
+    "word": "чистий",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Без бруду й плям",
+    "shortClue": "Без бруду"
+  },
+  {
+    "word": "гострий",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Той, що легко ріже",
+    "shortClue": "Легко ріже"
+  },
+  {
+    "word": "родина",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Батьки, діти й усі найближчі",
+    "shortClue": "Найближчі люди"
+  },
+  {
+    "word": "сусід",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Той, хто живе за стіною",
+    "shortClue": "Живе за стіною"
+  },
+  {
+    "word": "гість",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Той, кого запрошено до оселі",
+    "shortClue": "Запрошений до хати"
+  },
+  {
+    "word": "привіт",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Коротке слово при зустрічі",
+    "shortClue": "Слово зустрічі"
+  },
+  {
+    "word": "згода",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Спільне рішення без суперечок",
+    "shortClue": "Без суперечок"
+  },
+  {
+    "word": "відповідь",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Те, що кажуть на запитання",
+    "shortClue": "Слово на запитання"
+  },
+  {
+    "word": "правда",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Те, що відповідає дійсності",
+    "shortClue": "Те, що було"
+  },
+  {
+    "word": "несподіванка",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Подія, до якої ніхто не готувався",
+    "shortClue": "Зненацька"
+  },
+  {
+    "word": "успіх",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Добрий результат після зусиль",
+    "shortClue": "Добрий результат"
+  },
+  {
+    "word": "невдача",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Результат, коли не вийшло",
+    "shortClue": "Не вийшло"
+  },
+  {
+    "word": "кінець",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Завершальна мить історії",
+    "shortClue": "Остання крапка"
+  },
+  {
+    "word": "межа",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Лінія, що розділяє дві території чи поняття",
+    "shortClue": "Розподільна лінія"
+  },
+  {
+    "word": "можливість",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Нагода щось зробити",
+    "shortClue": "Нагода"
+  },
+  {
+    "word": "вибір",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Рішення на користь одного з кількох варіантів",
+    "shortClue": "Одне з кількох"
+  },
+  {
+    "word": "порада",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Дружня підказка, як вчинити",
+    "shortClue": "Дружня підказка"
+  },
+  {
+    "word": "думка",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Власний погляд на щось",
+    "shortClue": "Власний погляд"
+  },
+  {
+    "word": "ідея",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Блискучий задум, що спав на розум",
+    "shortClue": "Задум"
+  },
+  {
+    "word": "звичка",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Дія, яка повторюється сама собою",
+    "shortClue": "Повторювана дія"
+  },
+  {
+    "word": "урок",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Заняття між двома дзвінками",
+    "shortClue": "Шкільне заняття"
+  },
+  {
+    "word": "іспит",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Перевірка знань наприкінці курсу",
+    "shortClue": "Перевірка знань"
+  },
+  {
+    "word": "оцінка",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Бал у щоденнику",
+    "shortClue": "Бал у щоденнику"
+  },
+  {
+    "word": "подорож",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Поїздка в далекі краї",
+    "shortClue": "Далека поїздка"
+  },
+  {
+    "word": "гра",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Розвага за правилами",
+    "shortClue": "Розвага"
+  },
+  {
+    "word": "жарт",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Влучна кумедна фраза",
+    "shortClue": "Кумедна фраза"
+  },
+  {
+    "word": "лист",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Паперове послання в конверті",
+    "shortClue": "Послання в конверті"
+  },
+  {
+    "word": "погода",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Стан неба й повітря на вулиці",
+    "shortClue": "Стан неба"
+  },
+  {
+    "word": "спека",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Літня пора, коли душно від сонця",
+    "shortClue": "Літня задуха"
+  },
+  {
+    "word": "холод",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Те, від чого мерзнуть руки",
+    "shortClue": "Від нього мерзнуть"
+  },
+  {
+    "word": "негода",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Лютий вітер із дощем та хмарами",
+    "shortClue": "Лихе небо"
+  },
+  {
+    "word": "відлига",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Раптове потепління взимку, коли тане сніг",
+    "shortClue": "Зимове потепління"
+  },
+  {
+    "word": "гроші",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Монети й купюри в гаманці",
+    "shortClue": "У гаманці"
+  },
+  {
+    "word": "береза",
+    "topics": [
+      "nature"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Дерево з білою корою й чорними рисками",
+    "shortClue": "Біла кора"
+  },
+  {
+    "word": "дуб",
+    "topics": [
+      "nature"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Могутнє дерево, що дає жолуді",
+    "shortClue": "Дерево з жолудями"
+  },
+  {
+    "word": "сосна",
+    "topics": [
+      "nature"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Хвойне дерево з довгими голками й смолою",
+    "shortClue": "Голки й смола"
+  },
+  {
+    "word": "ялина",
+    "topics": [
+      "nature"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Зелена гостя новорічних свят",
+    "shortClue": "Новорічне дерево"
+  },
+  {
+    "word": "верба",
+    "topics": [
+      "nature"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Дерево над водою з довгим гнучким віттям",
+    "shortClue": "Дерево над водою"
+  },
+  {
+    "word": "липа",
+    "topics": [
+      "nature"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Дерево, з цвіту якого заварюють чай",
+    "shortClue": "Липовий чай"
+  },
+  {
+    "word": "клен",
+    "topics": [
+      "nature"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Дерево з пальчастим листям, що восени жовтіє",
+    "shortClue": "Пальчасте листя"
+  },
+  {
+    "word": "тополя",
+    "topics": [
+      "nature"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Високе струнке дерево з літнім пухом",
+    "shortClue": "Дерево з пухом"
+  },
+  {
+    "word": "калина",
+    "topics": [
+      "nature"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Кущ із гірким червоним ягідним гроном",
+    "shortClue": "Кущ із ягодами"
+  },
+  {
+    "word": "ромашка",
+    "topics": [
+      "nature"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Польова квітка з білими пелюстками й жовтою серцевиною",
+    "shortClue": "Біла польова квітка"
+  },
+  {
+    "word": "волошка",
+    "topics": [
+      "nature"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Синя квітка серед стиглої пшениці",
+    "shortClue": "Синя квітка"
+  },
+  {
+    "word": "тюльпан",
+    "topics": [
+      "nature"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Весняна цибулинна квітка з чашкою пелюсток",
+    "shortClue": "Весняна квітка"
+  },
+  {
+    "word": "фіалка",
+    "topics": [
+      "nature"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Дрібна пахуча квітка тінистих місць",
+    "shortClue": "Пахуча квітка"
+  },
+  {
+    "word": "гриб",
+    "topics": [
+      "nature"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Лісовий плід із ніжкою й капелюшком",
+    "shortClue": "Ніжка й капелюшок"
+  },
+  {
+    "word": "мох",
+    "topics": [
+      "nature"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Зелений килимок на стовбурах і каменях",
+    "shortClue": "Зелений килимок"
+  },
+  {
+    "word": "папороть",
+    "topics": [
+      "nature"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Лісова рослина, що за легендою цвіте раз на рік",
+    "shortClue": "Легендарний цвіт"
+  },
+  {
+    "word": "очерет",
+    "topics": [
+      "nature"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Високий злак у болоті й біля ставка",
+    "shortClue": "Болотяний злак"
+  },
+  {
+    "word": "ковила",
+    "topics": [
+      "nature"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Степова трава з пухнастими довгими остюками",
+    "shortClue": "Степова трава"
+  },
+  {
+    "word": "полин",
+    "topics": [
+      "nature"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Гірка пахуча трава степу",
+    "shortClue": "Гірка трава"
+  },
+  {
+    "word": "веселка",
+    "topics": [
+      "nature"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Семибарвна дуга після дощу",
+    "shortClue": "Дуга після дощу"
+  },
+  {
+    "word": "гроза",
+    "topics": [
+      "nature"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Небесний вогонь і грім під час зливи",
+    "shortClue": "Грім і блискавки"
+  },
+  {
+    "word": "туман",
+    "topics": [
+      "nature"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Біла завіса, що стелиться над землею вранці",
+    "shortClue": "Біла завіса"
+  },
+  {
+    "word": "роса",
+    "topics": [
+      "nature"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Краплі на траві на світанку",
+    "shortClue": "Краплі вранці"
+  },
+  {
+    "word": "злива",
+    "topics": [
+      "nature"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Дуже сильний короткий дощ",
+    "shortClue": "Сильний дощ"
+  },
+  {
+    "word": "іній",
+    "topics": [
+      "nature"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Білі кристалики на гілках у морозний ранок",
+    "shortClue": "Білий нальот"
+  },
+  {
+    "word": "град",
+    "topics": [
+      "nature"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Крижані кульки, що падають із хмар улітку",
+    "shortClue": "Крижані кульки"
+  },
+  {
+    "word": "хмара",
+    "topics": [
+      "nature"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Скупчення вологи й пари в небі",
+    "shortClue": "Дощове скупчення"
+  },
+  {
+    "word": "грім",
+    "topics": [
+      "nature"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Гучний звук після спалаху в небі",
+    "shortClue": "Гуркіт неба"
+  },
+  {
+    "word": "вулкан",
+    "topics": [
+      "nature"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Гора, що вивергає розжарену лаву",
+    "shortClue": "Гора з лавою"
+  },
+  {
+    "word": "печера",
+    "topics": [
+      "nature"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Порожнеча в скелі, де живуть кажани",
+    "shortClue": "Порожнеча в скелі"
+  },
+  {
+    "word": "водоспад",
+    "topics": [
+      "nature"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Потік, що падає з високого уступу",
+    "shortClue": "Падіння води"
+  },
+  {
+    "word": "джерело",
+    "topics": [
+      "nature"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Місце, де вода виходить із землі",
+    "shortClue": "Початок струмка"
+  },
+  {
+    "word": "болото",
+    "topics": [
+      "nature"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Топке місце з вогкою землею й очеретом",
+    "shortClue": "Топке місце"
+  },
+  {
+    "word": "льодовик",
+    "topics": [
+      "nature"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Велика крижана ріка в горах",
+    "shortClue": "Крижана ріка"
+  },
+  {
+    "word": "узлісся",
+    "topics": [
+      "nature"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Смуга між полем і гаєм, де починаються дерева",
+    "shortClue": "Межа гаю"
+  },
+  {
+    "word": "лисиця",
+    "topics": [
+      "animals"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Руда хитрунка з пухнастим хвостом",
+    "shortClue": "Руда хитрунка"
+  },
+  {
+    "word": "заєць",
+    "topics": [
+      "animals"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Довговухий звір, що швидко тікає",
+    "shortClue": "Довговухий біжить"
+  },
+  {
+    "word": "білка",
+    "topics": [
+      "animals"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Руда звірка, що ховає горіхи в дуплі",
+    "shortClue": "Горіхи в дуплі"
+  },
+  {
+    "word": "борсук",
+    "topics": [
+      "animals"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Нічний мешканець нори з білими смугами на морді",
+    "shortClue": "Мешканець нори"
+  },
+  {
+    "word": "олень",
+    "topics": [
+      "animals"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Лісовий звір із розгалуженими рогами",
+    "shortClue": "Рогатий лісовик"
+  },
+  {
+    "word": "лось",
+    "topics": [
+      "animals"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Велетенський лісовий рогач із лопатоподібними рогами",
+    "shortClue": "Лісовий велетень"
+  },
+  {
+    "word": "кабан",
+    "topics": [
+      "animals"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Дикий родич свині з іклами",
+    "shortClue": "Дикий родич свині"
+  },
+  {
+    "word": "сова",
+    "topics": [
+      "animals"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Нічна хижа птаха з великими очима",
+    "shortClue": "Нічна птаха"
+  },
+  {
+    "word": "лелека",
+    "topics": [
+      "animals"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Довгоногий птах, що гніздиться на дахах і клекоче",
+    "shortClue": "Птах на даху"
+  },
+  {
+    "word": "ластівка",
+    "topics": [
+      "animals"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Спритний птах із роздвоєним хвостом, що ліпить гніздо під стріхою",
+    "shortClue": "Птах під стріхою"
+  },
+  {
+    "word": "соловей",
+    "topics": [
+      "animals"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Птах, що співає найкрасивіше весняними ночами",
+    "shortClue": "Весняний співак"
+  },
+  {
+    "word": "шпак",
+    "topics": [
+      "animals"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Чорний птах із блиском, що вміє наслідувати звуки",
+    "shortClue": "Чорний наслідувач"
+  },
+  {
+    "word": "сорока",
+    "topics": [
+      "animals"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Біла з чорним птаха, що краде блискучі речі",
+    "shortClue": "Блискуча злодійка"
+  },
+  {
+    "word": "півень",
+    "topics": [
+      "animals"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Птах, що будить двір ранковим співом",
+    "shortClue": "Ранковий горлань"
+  },
+  {
+    "word": "гуска",
+    "topics": [
+      "animals"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Домашній птах із довгою шиєю, що гелготить",
+    "shortClue": "Гелготливий птах"
+  },
+  {
+    "word": "качка",
+    "topics": [
+      "animals"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Водоплавний птах із широким дзьобом",
+    "shortClue": "Водоплавний птах"
+  },
+  {
+    "word": "індик",
+    "topics": [
+      "animals"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Великий птах із червоною сережкою під дзьобом",
+    "shortClue": "Великий птах"
+  },
+  {
+    "word": "жайворонок",
+    "topics": [
+      "animals"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Польовий птах, що співає, зависнувши в небі",
+    "shortClue": "Птах над полем"
+  },
+  {
+    "word": "чайка",
+    "topics": [
+      "animals"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Морський птах із гучним криком на узбережжі",
+    "shortClue": "Птах узбережжя"
+  },
+  {
+    "word": "дельфін",
+    "topics": [
+      "animals"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Розумний морський ссавець із усміхненою мордою",
+    "shortClue": "Розумний ссавець"
+  },
+  {
+    "word": "кит",
+    "topics": [
+      "animals"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Найбільша тварина океану",
+    "shortClue": "Океанський велетень"
+  },
+  {
+    "word": "тюлень",
+    "topics": [
+      "animals"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Ластоногий звір, що ловить рибу в холодних водах",
+    "shortClue": "Ластоногий звір"
+  },
+  {
+    "word": "жук",
+    "topics": [
+      "animals"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Комаха з твердими надкрилами",
+    "shortClue": "Твердий панцир"
+  },
+  {
+    "word": "метелик",
+    "topics": [
+      "animals"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Комаха з яскравими крильми, що колись була гусінню",
+    "shortClue": "Колишня гусінь"
+  },
+  {
+    "word": "мураха",
+    "topics": [
+      "animals"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Працьовита комаха, що живе величезною громадою",
+    "shortClue": "Працьовита комаха"
+  },
+  {
+    "word": "павук",
+    "topics": [
+      "animals"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Плете тенета по кутках",
+    "shortClue": "Плете тенета"
+  },
+  {
+    "word": "комар",
+    "topics": [
+      "animals"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Дзижчить уночі й кусає",
+    "shortClue": "Нічний кровосмок"
+  },
+  {
+    "word": "тритон",
+    "topics": [
+      "animals"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Хвостате земноводне ставків",
+    "shortClue": "Хвостате земноводне"
+  },
+  {
+    "word": "щука",
+    "topics": [
+      "animals"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Хижа річкова риба з довгою пащею",
+    "shortClue": "Хижа риба"
+  },
+  {
+    "word": "короп",
+    "topics": [
+      "animals"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Ставкова риба, що частує на святковому столі",
+    "shortClue": "Ставкова риба"
+  },
+  {
+    "word": "сом",
+    "topics": [
+      "animals"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Великий вусатий мешканець глибоких річкових ям",
+    "shortClue": "Вусатий велетень"
+  },
+  {
+    "word": "лосось",
+    "topics": [
+      "animals"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Риба, що пливе на нерест проти течії",
+    "shortClue": "Нерестова риба"
+  },
+  {
+    "word": "тигр",
+    "topics": [
+      "animals"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Смугастий хижак із джунглів",
+    "shortClue": "Смугастий хижак"
+  },
+  {
+    "word": "лев",
+    "topics": [
+      "animals"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Цар звірів із розкішною гривою",
+    "shortClue": "Цар звірів"
+  },
+  {
+    "word": "слон",
+    "topics": [
+      "animals"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Найбільша наземна тварина з хоботом",
+    "shortClue": "Тварина з хоботом"
+  },
+  {
+    "word": "жираф",
+    "topics": [
+      "animals"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Тварина з найдовшою шиєю",
+    "shortClue": "Найдовша шия"
+  },
+  {
+    "word": "зебра",
+    "topics": [
+      "animals"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Африканська тварина в чорні смуги",
+    "shortClue": "Смугастий африканець"
+  },
+  {
+    "word": "мавпа",
+    "topics": [
+      "animals"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Кмітлива тварина, що вміє лазити й гримасувати",
+    "shortClue": "Лазить по деревах"
+  },
+  {
+    "word": "кенгуру",
+    "topics": [
+      "animals"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Австралійська стрибунка з сумкою на животі",
+    "shortClue": "Сумчаста стрибунка"
+  },
+  {
+    "word": "пінгвін",
+    "topics": [
+      "animals"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Птах, що не літає, зате чудово плаває в Антарктиді",
+    "shortClue": "Плаваючий птах"
+  },
+  {
+    "word": "борошно",
+    "topics": [
+      "food"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Тонкий порошок із зерна для тіста",
+    "shortClue": "Для тіста"
+  },
+  {
+    "word": "молоко",
+    "topics": [
+      "food"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Біла рідина, що її дає корова",
+    "shortClue": "Біла рідина"
+  },
+  {
+    "word": "масло",
+    "topics": [
+      "food"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Жовтий продукт зі збитих вершків",
+    "shortClue": "Збиті вершки"
+  },
+  {
+    "word": "сметана",
+    "topics": [
+      "food"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Густий кисломолочний продукт, який кладуть у борщ",
+    "shortClue": "До борщу"
+  },
+  {
+    "word": "кефір",
+    "topics": [
+      "food"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Кисломолочний напій, корисний для шлунка",
+    "shortClue": "Кисломолочний напій"
+  },
+  {
+    "word": "йогурт",
+    "topics": [
+      "food"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Густий кисломолочний десерт зі смаками",
+    "shortClue": "Кисломолочний десерт"
+  },
+  {
+    "word": "яйце",
+    "topics": [
+      "food"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Те, що несе курка",
+    "shortClue": "Курячий дар"
+  },
+  {
+    "word": "цукор",
+    "topics": [
+      "food"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Солодкі білі кристали до чаю",
+    "shortClue": "Білі кристали"
+  },
+  {
+    "word": "перець",
+    "topics": [
+      "food"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Гостра приправа, яку мелять на млинку",
+    "shortClue": "Гостра приправа"
+  },
+  {
+    "word": "часник",
+    "topics": [
+      "food"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Гострий овоч із зубчиками й сильним духом",
+    "shortClue": "Зубчики й дух"
+  },
+  {
+    "word": "цибуля",
+    "topics": [
+      "food"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Овоч, від якого сльозяться очі",
+    "shortClue": "Від неї сльози"
+  },
+  {
+    "word": "морква",
+    "topics": [
+      "food"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Помаранчевий корінь, що любить заєць",
+    "shortClue": "Помаранчевий корінь"
+  },
+  {
+    "word": "картопля",
+    "topics": [
+      "food"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Бульба, з якої роблять пюре й смажену страву",
+    "shortClue": "Земляна бульба"
+  },
+  {
+    "word": "буряк",
+    "topics": [
+      "food"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Червоний корінь для борщу",
+    "shortClue": "Червоний корінь"
+  },
+  {
+    "word": "огірок",
+    "topics": [
+      "food"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Довгий зелений овоч для засолювання",
+    "shortClue": "Для засолу"
+  },
+  {
+    "word": "кавун",
+    "topics": [
+      "food"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Смугаста літня ягода з червоним нутром",
+    "shortClue": "Смугаста ягода"
+  },
+  {
+    "word": "диня",
+    "topics": [
+      "food"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Солодкий жовтий плід баштану",
+    "shortClue": "Баштанний плід"
+  },
+  {
+    "word": "вишня",
+    "topics": [
+      "food"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Червона кисла ягода для вареників",
+    "shortClue": "Кисла ягода"
+  },
+  {
+    "word": "слива",
+    "topics": [
+      "food"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Синій кісточковий плід саду",
+    "shortClue": "Синій плід саду"
+  },
+  {
+    "word": "персик",
+    "topics": [
+      "food"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Оксамитовий оранжевий плід із великою кісточкою",
+    "shortClue": "Оксамитовий плід"
+  },
+  {
+    "word": "малина",
+    "topics": [
+      "food"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Червона запашна ягода кущів",
+    "shortClue": "Червона ягода"
+  },
+  {
+    "word": "горіх",
+    "topics": [
+      "food"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Ядро під твердою шкаралупою",
+    "shortClue": "У шкаралупі"
+  },
+  {
+    "word": "виноград",
+    "topics": [
+      "food"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Солодкі грона на лозі",
+    "shortClue": "Грона на лозі"
+  },
+  {
+    "word": "голубець",
+    "topics": [
+      "food"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Рулет із фаршу в капустяному листі",
+    "shortClue": "Фарш у листі"
+  },
+  {
+    "word": "дерун",
+    "topics": [
+      "food"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Смажений тертий картопляний коржик",
+    "shortClue": "Картопляний коржик"
+  },
+  {
+    "word": "млинець",
+    "topics": [
+      "food"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Тонкий корж зі сковороди, який скручують із начинкою",
+    "shortClue": "Тонкий корж"
+  },
+  {
+    "word": "калач",
+    "topics": [
+      "food"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Обрядова випічка у вигляді кільця",
+    "shortClue": "Кільце з тіста"
+  },
+  {
+    "word": "кисіль",
+    "topics": [
+      "food"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Густий ягідний напій на крохмалі",
+    "shortClue": "Густий напій"
+  },
+  {
+    "word": "узвар",
+    "topics": [
+      "food"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Напій із варених сушених плодів",
+    "shortClue": "Сушені плоди"
+  },
+  {
+    "word": "компот",
+    "topics": [
+      "food"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Солодкий напій із варених плодів",
+    "shortClue": "Напій із плодів"
+  },
+  {
+    "word": "чай",
+    "topics": [
+      "food"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Напій із запареного листя",
+    "shortClue": "Напій із листя"
+  },
+  {
+    "word": "кава",
+    "topics": [
+      "food"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Бадьорий чорний напій із зерен",
+    "shortClue": "Бадьорий напій"
+  },
+  {
+    "word": "варення",
+    "topics": [
+      "food"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Фрукти, зварені з цукром у банку",
+    "shortClue": "У банці"
+  },
+  {
+    "word": "мармелад",
+    "topics": [
+      "food"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Желейні солодощі з фруктів",
+    "shortClue": "Желейні солодощі"
+  },
+  {
+    "word": "печиво",
+    "topics": [
+      "food"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Хрусткі випічені кружальця до чаю",
+    "shortClue": "До чаю"
+  },
+  {
+    "word": "шоколад",
+    "topics": [
+      "food"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Солодка плитка з какао",
+    "shortClue": "Плитка з какао"
+  },
+  {
+    "word": "морозиво",
+    "topics": [
+      "food"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Холодний солодкий десерт у вафельному ріжку",
+    "shortClue": "Холодний десерт"
+  },
+  {
+    "word": "пшоно",
+    "topics": [
+      "food"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Жовта крупа, з якої варять кулеш",
+    "shortClue": "Жовта крупа"
+  },
+  {
+    "word": "манка",
+    "topics": [
+      "food"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Дрібна біла крупа для ніжної каші",
+    "shortClue": "Дрібна крупа"
+  },
+  {
+    "word": "півострів",
+    "topics": [
+      "geography"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Суходіл, оточений водою з трьох боків",
+    "shortClue": "Суходіл у воді"
+  },
+  {
+    "word": "затока",
+    "topics": [
+      "geography"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Частина моря, що врізається в сушу",
+    "shortClue": "Врізання моря"
+  },
+  {
+    "word": "протока",
+    "topics": [
+      "geography"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Вузький прохід води між двома суходолами",
+    "shortClue": "Вузький водний прохід"
+  },
+  {
+    "word": "архіпелаг",
+    "topics": [
+      "geography"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Група островів, розкиданих поруч",
+    "shortClue": "Купа островів"
+  },
+  {
+    "word": "екватор",
+    "topics": [
+      "geography"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Уявна лінія, що ділить Землю навпіл",
+    "shortClue": "Лінія навпіл"
+  },
+  {
+    "word": "меридіан",
+    "topics": [
+      "geography"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Лінія від полюса до полюса на глобусі",
+    "shortClue": "Північ і південь"
+  },
+  {
+    "word": "материк",
+    "topics": [
+      "geography"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Величезний суходіл, омитий океанами",
+    "shortClue": "Величезний суходіл"
+  },
+  {
+    "word": "континент",
+    "topics": [
+      "geography"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Найбільша частина суходолу на планеті",
+    "shortClue": "Частина світу"
+  },
+  {
+    "word": "плато",
+    "topics": [
+      "geography"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Рівна височина зі стрімкими краями",
+    "shortClue": "Рівна височина"
+  },
+  {
+    "word": "пагорб",
+    "topics": [
+      "geography"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Невисока горбата височина",
+    "shortClue": "Невисока височина"
+  },
+  {
+    "word": "дельта",
+    "topics": [
+      "geography"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Розгалужене гирло великої ріки",
+    "shortClue": "Гирло ріки"
+  },
+  {
+    "word": "кордон",
+    "topics": [
+      "geography"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Лінія, що відділяє одну країну від іншої",
+    "shortClue": "Лінія країн"
+  },
+  {
+    "word": "вершина",
+    "topics": [
+      "geography"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Найвища точка гори",
+    "shortClue": "Найвища точка"
+  },
+  {
+    "word": "перевал",
+    "topics": [
+      "geography"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Прохід через гірський хребет",
+    "shortClue": "Прохід у горах"
+  },
+  {
+    "word": "глобус",
+    "topics": [
+      "geography"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Куля з картою Землі",
+    "shortClue": "Модель Землі"
+  },
+  {
+    "word": "полюс",
+    "topics": [
+      "geography"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Найпівнічніша чи найпівденніша точка планети",
+    "shortClue": "Край планети"
+  },
+  {
+    "word": "тропіки",
+    "topics": [
+      "geography"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Спекотний пояс біля екватора",
+    "shortClue": "Спекотний пояс"
+  },
+  {
+    "word": "тундра",
+    "topics": [
+      "geography"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Холодна безлісна рівнина на півночі",
+    "shortClue": "Холодна рівнина"
+  },
+  {
+    "word": "савана",
+    "topics": [
+      "geography"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Тропічна рівнина з високою травою й акаціями",
+    "shortClue": "Африканська рівнина"
+  },
+  {
+    "word": "лиман",
+    "topics": [
+      "geography"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Затоплене гирло ріки, відокремлене від моря косою",
+    "shortClue": "Розлив біля моря"
+  },
+  {
+    "word": "степ",
+    "topics": [
+      "geography"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Безкрайня безлісна рівнина з травами",
+    "shortClue": "Безлісна рівнина"
+  },
+  {
+    "word": "клімат",
+    "topics": [
+      "geography"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Багаторічний режим погоди місцевості",
+    "shortClue": "Режим погоди"
+  },
+  {
+    "word": "населення",
+    "topics": [
+      "geography"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Усі люди, що живуть у країні або місті",
+    "shortClue": "Мешканці країни"
+  },
+  {
+    "word": "мегаполіс",
+    "topics": [
+      "geography"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Величезне людне місто з передмістями",
+    "shortClue": "Велике місто"
+  },
+  {
+    "word": "Африка",
+    "topics": [
+      "geography"
+    ],
+    "difficulty": 1,
+    "kind": "proper",
+    "clue": "Материк із пустелею Сахара й саванами",
+    "shortClue": "Материк Сахари"
+  },
+  {
+    "word": "Антарктида",
+    "topics": [
+      "geography"
+    ],
+    "difficulty": 2,
+    "kind": "proper",
+    "clue": "Крижаний материк на південному полюсі",
+    "shortClue": "Крижаний материк"
+  },
+  {
+    "word": "Альпи",
+    "topics": [
+      "geography"
+    ],
+    "difficulty": 2,
+    "kind": "proper",
+    "clue": "Гори в серці Європи з вершиною Монблан",
+    "shortClue": "Гори Європи"
+  },
+  {
+    "word": "Дунай",
+    "topics": [
+      "geography"
+    ],
+    "difficulty": 2,
+    "kind": "proper",
+    "clue": "Ріка, що тече через десять країн Європи",
+    "shortClue": "Європейська ріка"
+  },
+  {
+    "word": "Амазонка",
+    "topics": [
+      "geography"
+    ],
+    "difficulty": 2,
+    "kind": "proper",
+    "clue": "Найповноводніша ріка світу в Південній Америці",
+    "shortClue": "Ріка джунглів"
+  },
+  {
+    "word": "Ніл",
+    "topics": [
+      "geography"
+    ],
+    "difficulty": 2,
+    "kind": "proper",
+    "clue": "Довга африканська ріка, що тече до Середземного моря",
+    "shortClue": "Ріка Єгипту"
+  },
+  {
+    "word": "Байкал",
+    "topics": [
+      "geography"
+    ],
+    "difficulty": 2,
+    "kind": "proper",
+    "clue": "Найглибше озеро світу в Сибіру",
+    "shortClue": "Глибоке озеро"
+  },
+  {
+    "word": "Париж",
+    "topics": [
+      "geography"
+    ],
+    "difficulty": 1,
+    "kind": "proper",
+    "clue": "Столиця Франції з Ейфелевою вежею",
+    "shortClue": "Місто на Сені"
+  },
+  {
+    "word": "Афіни",
+    "topics": [
+      "geography"
+    ],
+    "difficulty": 2,
+    "kind": "proper",
+    "clue": "Столиця Греції, місто Акрополя",
+    "shortClue": "Місто Акрополя"
+  },
+  {
+    "word": "Мадрид",
+    "topics": [
+      "geography"
+    ],
+    "difficulty": 2,
+    "kind": "proper",
+    "clue": "Столиця Іспанії",
+    "shortClue": "Іспанська столиця"
+  },
+  {
+    "word": "Україна",
+    "topics": [
+      "geography"
+    ],
+    "difficulty": 1,
+    "kind": "proper",
+    "clue": "Держава зі столицею Київ",
+    "shortClue": "Держава на Дніпрі"
+  },
+  {
+    "word": "лицар",
+    "topics": [
+      "history"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Середньовічний воїн у латах",
+    "shortClue": "Воїн у латах"
+  },
+  {
+    "word": "король",
+    "topics": [
+      "history"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Монарх, що править державою",
+    "shortClue": "Монарх"
+  },
+  {
+    "word": "князь",
+    "topics": [
+      "history"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Давньоруський правитель із дружиною",
+    "shortClue": "Правитель дружини"
+  },
+  {
+    "word": "вікінг",
+    "topics": [
+      "history"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Скандинавський мореплавець давнини",
+    "shortClue": "Мореплавець Півночі"
+  },
+  {
+    "word": "фараон",
+    "topics": [
+      "history"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Володар Стародавнього Єгипту",
+    "shortClue": "Володар Єгипту"
+  },
+  {
+    "word": "піраміда",
+    "topics": [
+      "history"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Гігантська гробниця єгипетських володарів",
+    "shortClue": "Гробниця володаря"
+  },
+  {
+    "word": "гладіатор",
+    "topics": [
+      "history"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Воїн римської арени",
+    "shortClue": "Воїн арени"
+  },
+  {
+    "word": "амфітеатр",
+    "topics": [
+      "history"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Давньоримська споруда для боїв і видовищ",
+    "shortClue": "Римська арена"
+  },
+  {
+    "word": "акрополь",
+    "topics": [
+      "history"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Верхнє місто давніх греків",
+    "shortClue": "Верхнє місто"
+  },
+  {
+    "word": "козак",
+    "topics": [
+      "history"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Вільний воїн степів",
+    "shortClue": "Вільний воїн"
+  },
+  {
+    "word": "гетьман",
+    "topics": [
+      "history"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Верховний керівник козацького війська",
+    "shortClue": "Керівник війська"
+  },
+  {
+    "word": "булава",
+    "topics": [
+      "history"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Символ влади гетьмана",
+    "shortClue": "Символ влади"
+  },
+  {
+    "word": "літопис",
+    "topics": [
+      "history"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Давній запис подій за роками",
+    "shortClue": "Запис за роками"
+  },
+  {
+    "word": "каравела",
+    "topics": [
+      "history"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Легке вітрильне судно часів відкриттів",
+    "shortClue": "Судно відкривачів"
+  },
+  {
+    "word": "спис",
+    "topics": [
+      "history"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Довга зброя з гострим наконечником на древку",
+    "shortClue": "Довга зброя"
+  },
+  {
+    "word": "кольчуга",
+    "topics": [
+      "history"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Сорочка з металевих кілець",
+    "shortClue": "Сорочка з кілець"
+  },
+  {
+    "word": "лати",
+    "topics": [
+      "history"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Залізні обладунки лицаря",
+    "shortClue": "Залізний одяг"
+  },
+  {
+    "word": "катапульта",
+    "topics": [
+      "history"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Метальна облогова машина",
+    "shortClue": "Метальна машина"
+  },
+  {
+    "word": "фортеця",
+    "topics": [
+      "history"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Міцна споруда для оборони з валами",
+    "shortClue": "Оборонна споруда"
+  },
+  {
+    "word": "скарб",
+    "topics": [
+      "history"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Заховані коштовності",
+    "shortClue": "Заховані коштовності"
+  },
+  {
+    "word": "монета",
+    "topics": [
+      "history"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Металевий грошовий кружок",
+    "shortClue": "Металевий кружок"
+  },
+  {
+    "word": "папірус",
+    "topics": [
+      "history"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Давній писальний матеріал із нільського очерету",
+    "shortClue": "Писальний матеріал"
+  },
+  {
+    "word": "ієрогліф",
+    "topics": [
+      "history"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Знак стародавнього єгипетського письма",
+    "shortClue": "Знак письма"
+  },
+  {
+    "word": "клинопис",
+    "topics": [
+      "history"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Письмо глиняних табличок Месопотамії",
+    "shortClue": "Письмо Месопотамії"
+  },
+  {
+    "word": "порох",
+    "topics": [
+      "history"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Горюча суміш для рушниць і гармат",
+    "shortClue": "Для рушниць"
+  },
+  {
+    "word": "друкарня",
+    "topics": [
+      "history"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Майстерня, що тиражує книжки",
+    "shortClue": "Тираж книжок"
+  },
+  {
+    "word": "аристократ",
+    "topics": [
+      "history"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Знатна людина з давнього роду",
+    "shortClue": "Знатна особа"
+  },
+  {
+    "word": "кріпак",
+    "topics": [
+      "history"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Селянин без волі, прикріплений до землі пана",
+    "shortClue": "Селянин без волі"
+  },
+  {
+    "word": "шляхтич",
+    "topics": [
+      "history"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Дворянин польсько-литовської доби",
+    "shortClue": "Дворянин минулого"
+  },
+  {
+    "word": "цивілізація",
+    "topics": [
+      "history"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Висока ступінь розвитку суспільства з містами й письмом",
+    "shortClue": "Розвинене суспільство"
+  },
+  {
+    "word": "мореплавець",
+    "topics": [
+      "history"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Той, хто водить кораблі через океани",
+    "shortClue": "Водить кораблі"
+  },
+  {
+    "word": "винахідник",
+    "topics": [
+      "history"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Той, хто придумав щось зовсім нове",
+    "shortClue": "Творець нового"
+  },
+  {
+    "word": "середньовіччя",
+    "topics": [
+      "history"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Епоха між античністю й новим часом",
+    "shortClue": "Доба лицарів"
+  },
+  {
+    "word": "електрон",
+    "topics": [
+      "science"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Заряджена частинка навколо ядра",
+    "shortClue": "Частинка навколо ядра"
+  },
+  {
+    "word": "протон",
+    "topics": [
+      "science"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Частинка атомного ядра з позитивним зарядом",
+    "shortClue": "Заряд плюс"
+  },
+  {
+    "word": "гравітація",
+    "topics": [
+      "science"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Сила, що притягує тіла до Землі",
+    "shortClue": "Земне тяжіння"
+  },
+  {
+    "word": "магніт",
+    "topics": [
+      "science"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Притягує залізні предмети",
+    "shortClue": "Притягує залізо"
+  },
+  {
+    "word": "термометр",
+    "topics": [
+      "science"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Прилад, що показує температуру",
+    "shortClue": "Показує градуси"
+  },
+  {
+    "word": "мікроскоп",
+    "topics": [
+      "science"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Прилад, що збільшує невидиме оком",
+    "shortClue": "Збільшує мале"
+  },
+  {
+    "word": "телескоп",
+    "topics": [
+      "science"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Прилад для розглядання зір",
+    "shortClue": "Для розглядання зір"
+  },
+  {
+    "word": "кислота",
+    "topics": [
+      "science"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Їдка речовина, що червонить лакмус",
+    "shortClue": "Їдка речовина"
+  },
+  {
+    "word": "вуглець",
+    "topics": [
+      "science"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Елемент, на якому тримається все живе",
+    "shortClue": "Основа живого"
+  },
+  {
+    "word": "водень",
+    "topics": [
+      "science"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Найлегший хімічний елемент",
+    "shortClue": "Найлегший елемент"
+  },
+  {
+    "word": "азот",
+    "topics": [
+      "science"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Газ, якого найбільше в повітрі",
+    "shortClue": "Газ повітря"
+  },
+  {
+    "word": "золото",
+    "topics": [
+      "science"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Жовтий дорогоцінний метал",
+    "shortClue": "Жовтий метал"
+  },
+  {
+    "word": "срібло",
+    "topics": [
+      "science"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Білий благородний метал",
+    "shortClue": "Білий метал"
+  },
+  {
+    "word": "мідь",
+    "topics": [
+      "science"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Червонуватий метал для проводів",
+    "shortClue": "Метал проводів"
+  },
+  {
+    "word": "олово",
+    "topics": [
+      "science"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Білий легкоплавкий метал для паяння",
+    "shortClue": "Легкоплавкий метал"
+  },
+  {
+    "word": "граніт",
+    "topics": [
+      "science"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Міцна кристалічна гірська порода",
+    "shortClue": "Міцна порода"
+  },
+  {
+    "word": "вапняк",
+    "topics": [
+      "science"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Осадова порода з решток черепашок",
+    "shortClue": "Порода з черепашок"
+  },
+  {
+    "word": "кремінь",
+    "topics": [
+      "science"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Твердий камінь, що висікає іскру",
+    "shortClue": "Висікає іскру"
+  },
+  {
+    "word": "галактика",
+    "topics": [
+      "science"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Величезне скупчення зір",
+    "shortClue": "Скупчення зір"
+  },
+  {
+    "word": "комета",
+    "topics": [
+      "science"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Небесне тіло з хвостом із льоду й пилу",
+    "shortClue": "Хвостате тіло"
+  },
+  {
+    "word": "метеорит",
+    "topics": [
+      "science"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Камінь, що впав на Землю з космосу",
+    "shortClue": "Небесний камінь"
+  },
+  {
+    "word": "орбіта",
+    "topics": [
+      "science"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Шлях планети довкола зорі",
+    "shortClue": "Шлях планети"
+  },
+  {
+    "word": "атмосфера",
+    "topics": [
+      "science"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Повітряна оболонка планети",
+    "shortClue": "Повітряна оболонка"
+  },
+  {
+    "word": "ядро",
+    "topics": [
+      "science"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Центр клітини чи атома",
+    "shortClue": "Центр"
+  },
+  {
+    "word": "вірус",
+    "topics": [
+      "science"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Дрібний збудник хвороб, менший за бактерію",
+    "shortClue": "Дрібний збудник"
+  },
+  {
+    "word": "бактерія",
+    "topics": [
+      "science"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Одноклітинний мікроб",
+    "shortClue": "Одноклітинний мікроб"
+  },
+  {
+    "word": "фотосинтез",
+    "topics": [
+      "science"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Утворення цукрів у листі зі світла",
+    "shortClue": "Їжа зі світла"
+  },
+  {
+    "word": "хромосома",
+    "topics": [
+      "science"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Носій спадкової інформації в ядрі",
+    "shortClue": "Носій спадковості"
+  },
+  {
+    "word": "нерв",
+    "topics": [
+      "science"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Волокно, що передає імпульси тілом",
+    "shortClue": "Передає імпульси"
+  },
+  {
+    "word": "легені",
+    "topics": [
+      "science"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Парний орган дихання",
+    "shortClue": "Органи дихання"
+  },
+  {
+    "word": "кістка",
+    "topics": [
+      "science"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Тверда складова опорної системи тіла",
+    "shortClue": "Тверда опора"
+  },
+  {
+    "word": "печінка",
+    "topics": [
+      "science"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Найбільша залоза людського тіла",
+    "shortClue": "Велика залоза"
+  },
+  {
+    "word": "нирка",
+    "topics": [
+      "science"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Парний орган, що фільтрує кров",
+    "shortClue": "Фільтр крові"
+  },
+  {
+    "word": "вітамін",
+    "topics": [
+      "science"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Корисна речовина в овочах і фруктах",
+    "shortClue": "Корисна речовина"
+  },
+  {
+    "word": "колба",
+    "topics": [
+      "science"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Скляна посудина з круглим дном",
+    "shortClue": "Скляна посудина"
+  },
+  {
+    "word": "рівняння",
+    "topics": [
+      "science"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Математичний запис із невідомою",
+    "shortClue": "Запис із невідомою"
+  },
+  {
+    "word": "трикутник",
+    "topics": [
+      "science"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Плоска фігура з найменшою можливою кількістю вершин",
+    "shortClue": "Геометрична фігура"
+  },
+  {
+    "word": "дріб",
+    "topics": [
+      "science"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Число з чисельником і знаменником",
+    "shortClue": "Частка цілого"
+  },
+  {
+    "word": "множення",
+    "topics": [
+      "science"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Арифметична дія, що скорочує додавання",
+    "shortClue": "Арифметична дія"
+  },
+  {
+    "word": "землетрус",
+    "topics": [
+      "science"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Підземні поштовхи, що трясуть поверхню",
+    "shortClue": "Підземні поштовхи"
+  },
+  {
+    "word": "лабораторія",
+    "topics": [
+      "science"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Кімната для дослідів і вимірювань",
+    "shortClue": "Кімната дослідів"
+  },
+  {
+    "word": "експеримент",
+    "topics": [
+      "science"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Дослід, що перевіряє припущення",
+    "shortClue": "Дослід"
+  },
+  {
+    "word": "випаровування",
+    "topics": [
+      "science"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Перехід води в пару",
+    "shortClue": "Вода стає парою"
+  },
+  {
+    "word": "конденсація",
+    "topics": [
+      "science"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Перехід пари в краплі",
+    "shortClue": "Пара стає краплями"
+  },
+  {
+    "word": "картографія",
+    "topics": [
+      "geography"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Наука про створення мап",
+    "shortClue": "Наука про мапи"
+  },
+  {
+    "word": "навігація",
+    "topics": [
+      "geography"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Мистецтво вести судно за зорями й приладами",
+    "shortClue": "Вести судно"
+  },
+  {
+    "word": "гол",
+    "topics": [
+      "sport"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Результат влучного удару у ворота",
+    "shortClue": "Влучний удар"
+  },
+  {
+    "word": "штанга",
+    "topics": [
+      "sport"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Залізна вага, яку піднімає важкоатлет",
+    "shortClue": "Вага атлета"
+  },
+  {
+    "word": "старт",
+    "topics": [
+      "sport"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Мить початку забігу",
+    "shortClue": "Початок забігу"
+  },
+  {
+    "word": "фініш",
+    "topics": [
+      "sport"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Лінія, де завершується забіг",
+    "shortClue": "Кінець забігу"
+  },
+  {
+    "word": "марафон",
+    "topics": [
+      "sport"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Біг на сорок два кілометри",
+    "shortClue": "Довгий забіг"
+  },
+  {
+    "word": "бокс",
+    "topics": [
+      "sport"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Двобій у рукавицях на рингу",
+    "shortClue": "Бій у рукавицях"
+  },
+  {
+    "word": "хокей",
+    "topics": [
+      "sport"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Гра з ключкою й шайбою на льоду",
+    "shortClue": "Гра з шайбою"
+  },
+  {
+    "word": "шайба",
+    "topics": [
+      "sport"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Гумовий диск на льоду",
+    "shortClue": "Диск на льоду"
+  },
+  {
+    "word": "ракетка",
+    "topics": [
+      "sport"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Знаряддя тенісиста з натягнутими струнами",
+    "shortClue": "Знаряддя для гри"
+  },
+  {
+    "word": "волейбол",
+    "topics": [
+      "sport"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Командна гра з високою сіткою на майданчику",
+    "shortClue": "Гра через сітку"
+  },
+  {
+    "word": "баскетбол",
+    "topics": [
+      "sport"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Командна гра з кільцем на щиті",
+    "shortClue": "Гра з кільцем"
+  },
+  {
+    "word": "гімнастика",
+    "topics": [
+      "sport"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Вправи на брусах, колоді й килимі",
+    "shortClue": "Вправи й сальто"
+  },
+  {
+    "word": "більярд",
+    "topics": [
+      "sport"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Гра з києм і кулями на столі",
+    "shortClue": "Кий і кулі"
+  },
+  {
+    "word": "біатлон",
+    "topics": [
+      "sport"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Лижі зі стрільбою",
+    "shortClue": "Лижі й стрільба"
+  },
+  {
+    "word": "каное",
+    "topics": [
+      "sport"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Легкий човен для спортивного веслування",
+    "shortClue": "Спортивний човен"
+  },
+  {
+    "word": "ковзан",
+    "topics": [
+      "sport"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Лезо на чобітку для льоду",
+    "shortClue": "Для льоду"
+  },
+  {
+    "word": "сноуборд",
+    "topics": [
+      "sport"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Дошка для зимового спуску схилом",
+    "shortClue": "Дошка для схилу"
+  },
+  {
+    "word": "рекорд",
+    "topics": [
+      "sport"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Найкращий результат за всю історію",
+    "shortClue": "Найкращий результат"
+  },
+  {
+    "word": "дзюдо",
+    "topics": [
+      "sport"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Японська боротьба з кидками",
+    "shortClue": "Японські кидки"
+  },
+  {
+    "word": "скакалка",
+    "topics": [
+      "sport"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Мотузка для стрибків на місці",
+    "shortClue": "Мотузка для стрибків"
+  },
+  {
+    "word": "тренер",
+    "topics": [
+      "sport"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Наставник спортсменів",
+    "shortClue": "Наставник"
+  },
+  {
+    "word": "шашки",
+    "topics": [
+      "sport"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Гра на дошці з круглими фішками",
+    "shortClue": "Гра на дошці"
+  },
+  {
+    "word": "гітара",
+    "topics": [
+      "arts"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Струнний інструмент із шістьма струнами",
+    "shortClue": "Шість струн"
+  },
+  {
+    "word": "сопілка",
+    "topics": [
+      "arts"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Народний духовий інструмент з отворами",
+    "shortClue": "Народна дудка"
+  },
+  {
+    "word": "барабан",
+    "topics": [
+      "arts"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Ударний інструмент із натягнутою шкірою",
+    "shortClue": "Ударний інструмент"
+  },
+  {
+    "word": "труба",
+    "topics": [
+      "arts"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Мідний духовий інструмент",
+    "shortClue": "Мідний духовий"
+  },
+  {
+    "word": "арфа",
+    "topics": [
+      "arts"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Великий струнний інструмент із педалями",
+    "shortClue": "Струни й педалі"
+  },
+  {
+    "word": "віолончель",
+    "topics": [
+      "arts"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Великий смичковий інструмент, на якому грають сидячи",
+    "shortClue": "Великий смичковий"
+  },
+  {
+    "word": "флейта",
+    "topics": [
+      "arts"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Духовий інструмент, що його тримають упоперек",
+    "shortClue": "Духовий інструмент"
+  },
+  {
+    "word": "акорд",
+    "topics": [
+      "arts"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Три й більше звуків, що лунають разом",
+    "shortClue": "Кілька звуків"
+  },
+  {
+    "word": "мелодія",
+    "topics": [
+      "arts"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Послідовність звуків, яку легко наспівати",
+    "shortClue": "Наспівувана тема"
+  },
+  {
+    "word": "діригент",
+    "topics": [
+      "arts"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Керує оркестром паличкою",
+    "shortClue": "Керує оркестром"
+  },
+  {
+    "word": "оркестр",
+    "topics": [
+      "arts"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Великий колектив музикантів",
+    "shortClue": "Колектив музикантів"
+  },
+  {
+    "word": "сцена",
+    "topics": [
+      "arts"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Підвищення, на якому грають вистави",
+    "shortClue": "Місце вистави"
+  },
+  {
+    "word": "актор",
+    "topics": [
+      "arts"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Той, хто грає ролі",
+    "shortClue": "Грає ролі"
+  },
+  {
+    "word": "режисер",
+    "topics": [
+      "arts"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Керівник постановки вистави чи фільму",
+    "shortClue": "Керує виставою"
+  },
+  {
+    "word": "портрет",
+    "topics": [
+      "arts"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Зображення обличчя на полотні",
+    "shortClue": "Зображення обличчя"
+  },
+  {
+    "word": "пейзаж",
+    "topics": [
+      "arts"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Картина з краєвидом",
+    "shortClue": "Картина з краєвидом"
+  },
+  {
+    "word": "палітра",
+    "topics": [
+      "arts"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Дощечка, на якій змішують фарби",
+    "shortClue": "Змішують фарби"
+  },
+  {
+    "word": "мольберт",
+    "topics": [
+      "arts"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Підставка, на яку ставлять полотно",
+    "shortClue": "Підставка художника"
+  },
+  {
+    "word": "акварель",
+    "topics": [
+      "arts"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Прозорі фарби, що їх розводять водою",
+    "shortClue": "Фарби на воді"
+  },
+  {
+    "word": "поема",
+    "topics": [
+      "arts"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Великий віршований твір",
+    "shortClue": "Віршований твір"
+  },
+  {
+    "word": "роман",
+    "topics": [
+      "arts"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Великий прозовий твір із розгорнутим сюжетом",
+    "shortClue": "Великий твір"
+  },
+  {
+    "word": "куплет",
+    "topics": [
+      "arts"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Строфа пісні перед приспівом",
+    "shortClue": "Строфа пісні"
+  },
+  {
+    "word": "орнамент",
+    "topics": [
+      "arts"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Візерунок із повторюваних елементів",
+    "shortClue": "Візерунок"
+  },
+  {
+    "word": "мозаїка",
+    "topics": [
+      "arts"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Картина з дрібних кольорових шматочків",
+    "shortClue": "Дрібні шматочки"
+  },
+  {
+    "word": "шафа",
+    "topics": [
+      "home"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Меблі для одягу з дверцятами",
+    "shortClue": "Для одягу"
+  },
+  {
+    "word": "диван",
+    "topics": [
+      "home"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Широкі меблі для сидіння й відпочинку",
+    "shortClue": "Для відпочинку"
+  },
+  {
+    "word": "крісло",
+    "topics": [
+      "home"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Сидіння з підлокітниками",
+    "shortClue": "З підлокітниками"
+  },
+  {
+    "word": "килим",
+    "topics": [
+      "home"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Тканий настил на підлозі чи стіні",
+    "shortClue": "На підлозі"
+  },
+  {
+    "word": "штора",
+    "topics": [
+      "home"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Тканина, що закриває вікно ввечері",
+    "shortClue": "Закриває вікно"
+  },
+  {
+    "word": "подушка",
+    "topics": [
+      "home"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Нею підкладають голову на ліжку",
+    "shortClue": "Під голову"
+  },
+  {
+    "word": "ковдра",
+    "topics": [
+      "home"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Нею вкриваються вночі",
+    "shortClue": "Вкрити вночі"
+  },
+  {
+    "word": "рушник",
+    "topics": [
+      "home"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Тканина для витирання рук",
+    "shortClue": "Для витирання"
+  },
+  {
+    "word": "праска",
+    "topics": [
+      "home"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Прилад для розгладжування білизни",
+    "shortClue": "Гладить білизну"
+  },
+  {
+    "word": "плита",
+    "topics": [
+      "home"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Кухонна поверхня для варіння",
+    "shortClue": "Для варіння"
+  },
+  {
+    "word": "чайник",
+    "topics": [
+      "home"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Посудина, що свистить, коли закипіла вода",
+    "shortClue": "Свистить на плиті"
+  },
+  {
+    "word": "сковорідка",
+    "topics": [
+      "home"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Пласка посудина для смаження",
+    "shortClue": "Для смаження"
+  },
+  {
+    "word": "тарілка",
+    "topics": [
+      "home"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Пласка посудина, з якої їдять",
+    "shortClue": "Пласка посудина"
+  },
+  {
+    "word": "чашка",
+    "topics": [
+      "home"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Мала посудина для чаю",
+    "shortClue": "Для чаю"
+  },
+  {
+    "word": "ніж",
+    "topics": [
+      "home"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Гострий кухонний інструмент для різання",
+    "shortClue": "Гострий різак"
+  },
+  {
+    "word": "ліхтар",
+    "topics": [
+      "home"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Переносне джерело світла",
+    "shortClue": "Джерело світла"
+  },
+  {
+    "word": "молоток",
+    "topics": [
+      "home"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Інструмент для забивання цвяхів",
+    "shortClue": "Забиває цвяхи"
+  },
+  {
+    "word": "пилка",
+    "topics": [
+      "home"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Зубчасте полотно для різання деревини",
+    "shortClue": "Зубчасте полотно"
+  },
+  {
+    "word": "цвях",
+    "topics": [
+      "home"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Гострий металевий стрижень для скріплення дощок",
+    "shortClue": "Для скріплення"
+  },
+  {
+    "word": "порог",
+    "topics": [
+      "home"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Нижня частина дверного отвору",
+    "shortClue": "Під дверима"
+  },
+  {
+    "word": "сходи",
+    "topics": [
+      "home"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Східці між поверхами",
+    "shortClue": "Між поверхами"
+  },
+  {
+    "word": "горище",
+    "topics": [
+      "home"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Простір під самим дахом",
+    "shortClue": "Під дахом"
+  },
+  {
+    "word": "ґанок",
+    "topics": [
+      "home"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Невелика прибудова біля входу",
+    "shortClue": "Прибудова при вході"
+  },
+  {
+    "word": "мітла",
+    "topics": [
+      "home"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Пучок прутків на держаку для двору",
+    "shortClue": "Для двору"
+  },
+  {
+    "word": "відро",
+    "topics": [
+      "home"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Посудина з дужкою для води",
+    "shortClue": "Для води"
+  },
+  {
+    "word": "кран",
+    "topics": [
+      "home"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Прилад, що відкриває воду",
+    "shortClue": "Відкриває воду"
+  },
+  {
+    "word": "інженер",
+    "topics": [
+      "professions"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Фахівець, що проєктує споруди й машини",
+    "shortClue": "Проєктує машини"
+  },
+  {
+    "word": "програміст",
+    "topics": [
+      "professions"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Той, хто створює застосунки рядками команд",
+    "shortClue": "Пише команди"
+  },
+  {
+    "word": "водій",
+    "topics": [
+      "professions"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Той, хто керує автомобілем",
+    "shortClue": "Керує авто"
+  },
+  {
+    "word": "льотчик",
+    "topics": [
+      "professions"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Той, хто веде літак у небі",
+    "shortClue": "Веде літак"
+  },
+  {
+    "word": "капітан",
+    "topics": [
+      "professions"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Командир корабля",
+    "shortClue": "Командир корабля"
+  },
+  {
+    "word": "матрос",
+    "topics": [
+      "professions"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Простий моряк на судні",
+    "shortClue": "Простий моряк"
+  },
+  {
+    "word": "перукар",
+    "topics": [
+      "professions"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Той, хто підстригає волосся",
+    "shortClue": "Підстригає"
+  },
+  {
+    "word": "кравець",
+    "topics": [
+      "professions"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Той, хто шиє одяг на замовлення",
+    "shortClue": "Шиє одяг"
+  },
+  {
+    "word": "шахтар",
+    "topics": [
+      "professions"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Той, хто добуває вугілля під землею",
+    "shortClue": "Добуває вугілля"
+  },
+  {
+    "word": "будівельник",
+    "topics": [
+      "professions"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Той, хто зводить будинки",
+    "shortClue": "Зводить будинки"
+  },
+  {
+    "word": "художник",
+    "topics": [
+      "professions"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Той, хто малює картини",
+    "shortClue": "Малює картини"
+  },
+  {
+    "word": "музикант",
+    "topics": [
+      "professions"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Той, хто грає на інструменті",
+    "shortClue": "Грає на інструменті"
+  },
+  {
+    "word": "журналіст",
+    "topics": [
+      "professions"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Той, хто готує новини для газет",
+    "shortClue": "Автор новин"
+  },
+  {
+    "word": "перекладач",
+    "topics": [
+      "professions"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Той, хто переносить текст з однієї мови на іншу",
+    "shortClue": "Знавець мов"
+  },
+  {
+    "word": "бухгалтер",
+    "topics": [
+      "professions"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Той, хто веде облік грошей підприємства",
+    "shortClue": "Веде облік"
+  },
+  {
+    "word": "продавець",
+    "topics": [
+      "professions"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Той, хто пропонує товар у крамниці",
+    "shortClue": "За прилавком"
+  },
+  {
+    "word": "офіціант",
+    "topics": [
+      "professions"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Той, хто приносить страви в кафе",
+    "shortClue": "Приносить страви"
+  },
+  {
+    "word": "лісник",
+    "topics": [
+      "professions"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Той, хто стежить за порядком у гаю й заповіднику",
+    "shortClue": "Дбає про гай"
+  },
+  {
+    "word": "пастух",
+    "topics": [
+      "professions"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Той, хто пасе череду",
+    "shortClue": "Пасе череду"
+  },
+  {
+    "word": "коваль",
+    "topics": [
+      "professions"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Майстер, що кує розжарений метал",
+    "shortClue": "Кує метал"
+  },
+  {
+    "word": "гончар",
+    "topics": [
+      "professions"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Той, хто ліпить глечики з глини",
+    "shortClue": "Глечики з глини"
+  },
+  {
+    "word": "кондуктор",
+    "topics": [
+      "professions"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Той, хто продає квитки в транспорті",
+    "shortClue": "Продає квитки"
+  },
+  {
+    "word": "бібліотекар",
+    "topics": [
+      "professions"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Хранитель книжок у читальні",
+    "shortClue": "Хранитель книжок"
+  },
+  {
+    "word": "вертеп",
+    "topics": [
+      "localCulture"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Різдвяний ляльковий театр",
+    "shortClue": "Ляльковий театр"
+  },
+  {
+    "word": "щедрівка",
+    "topics": [
+      "localCulture"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Новорічна обрядова пісня",
+    "shortClue": "Обрядова пісня"
+  },
+  {
+    "word": "вінок",
+    "topics": [
+      "localCulture"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Сплетена з квітів прикраса голови",
+    "shortClue": "Квіткова прикраса"
+  },
+  {
+    "word": "кобзар",
+    "topics": [
+      "localCulture"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Народний співець із бандурою",
+    "shortClue": "Співець із бандурою"
+  },
+  {
+    "word": "барвінок",
+    "topics": [
+      "localCulture"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Вічнозелена рослина, що її вплітають у вінки",
+    "shortClue": "Вплітають у вінки"
+  },
+  {
+    "word": "кожух",
+    "topics": [
+      "localCulture"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Теплий хутряний верхній одяг",
+    "shortClue": "Хутряний одяг"
+  },
+  {
+    "word": "чобіт",
+    "topics": [
+      "localCulture"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Високе взуття з халявою",
+    "shortClue": "Взуття з халявою"
+  },
+  {
+    "word": "глечик",
+    "topics": [
+      "localCulture"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Глиняна посудина з вузькою шийкою для молока",
+    "shortClue": "Для молока"
+  },
+  {
+    "word": "ухват",
+    "topics": [
+      "localCulture"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Залізна рогатина для горщиків у печі",
+    "shortClue": "Для горщиків"
+  },
+  {
+    "word": "піч",
+    "topics": [
+      "localCulture"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Мурована споруда з вогнищем у хаті",
+    "shortClue": "Вогонь у хаті"
+  },
+  {
+    "word": "паска",
+    "topics": [
+      "localCulture"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Святкова висока весняна випічка",
+    "shortClue": "Весняна випічка"
+  },
+  {
+    "word": "колодязь",
+    "topics": [
+      "localCulture"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Криниця з журавлем",
+    "shortClue": "Криниця"
+  },
+  {
+    "word": "хата",
+    "topics": [
+      "localCulture"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Побілений селянський дім під стріхою",
+    "shortClue": "Дім під стріхою"
+  },
+  {
+    "word": "ярмарок",
+    "topics": [
+      "localCulture"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Торг із піснями під відкритим небом",
+    "shortClue": "Торг із піснями"
+  },
+  {
+    "word": "мотанка",
+    "topics": [
+      "localCulture"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Лялька з намотаної тканини без обличчя",
+    "shortClue": "Лялька без обличчя"
+  },
+  {
+    "word": "кутя",
+    "topics": [
+      "localCulture"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Обрядова страва з пшениці з маком і медом",
+    "shortClue": "Різдвяна страва"
+  },
+  {
+    "word": "сало",
+    "topics": [
+      "localCulture"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Улюблена закуска з солоного свинячого жиру",
+    "shortClue": "Свинячий жир"
+  },
+  {
+    "word": "Говерла",
+    "topics": [
+      "geography",
+      "localCulture"
+    ],
+    "difficulty": 2,
+    "kind": "proper",
+    "clue": "Найвища вершина українських Карпат",
+    "shortClue": "Вершина Карпат"
+  },
+  {
+    "word": "Лисенко",
+    "topics": [
+      "localCulture"
+    ],
+    "difficulty": 3,
+    "kind": "proper",
+    "clue": "Композитор опери про Тараса Бульбу",
+    "shortClue": "Композитор опер"
+  },
+  {
+    "word": "Софіївка",
+    "topics": [
+      "localCulture"
+    ],
+    "difficulty": 3,
+    "kind": "proper",
+    "clue": "Дендропарк з водоспадами в Умані",
+    "shortClue": "Парк в Умані"
+  },
+  {
+    "word": "Чернігів",
+    "topics": [
+      "geography",
+      "localCulture"
+    ],
+    "difficulty": 2,
+    "kind": "proper",
+    "clue": "Давнє місто над Десною",
+    "shortClue": "Місто над Десною"
+  },
+  {
+    "word": "Запоріжжя",
+    "topics": [
+      "geography",
+      "localCulture"
+    ],
+    "difficulty": 2,
+    "kind": "proper",
+    "clue": "Дніпровське місто біля острова Хортиця",
+    "shortClue": "Місто біля Хортиці"
+  },
+  {
+    "word": "Тернопіль",
+    "topics": [
+      "geography",
+      "localCulture"
+    ],
+    "difficulty": 3,
+    "kind": "proper",
+    "clue": "Обласний центр на Поділлі з великим ставом",
+    "shortClue": "Місто над ставом"
+  },
+  {
+    "word": "Вінниця",
+    "topics": [
+      "geography",
+      "localCulture"
+    ],
+    "difficulty": 2,
+    "kind": "proper",
+    "clue": "Обласний центр над Південним Бугом",
+    "shortClue": "Місто над Бугом"
+  },
+  {
+    "word": "Луцьк",
+    "topics": [
+      "geography",
+      "localCulture"
+    ],
+    "difficulty": 3,
+    "kind": "proper",
+    "clue": "Місто із замком Любарта",
+    "shortClue": "Замок Любарта"
+  },
+  {
+    "word": "Мукачево",
+    "topics": [
+      "geography",
+      "localCulture"
+    ],
+    "difficulty": 3,
+    "kind": "proper",
+    "clue": "Закарпатське місто з замком Паланок",
+    "shortClue": "Місто Закарпаття"
+  },
+  {
+    "word": "тінь",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Темний силует, що біжить за предметом на землі",
+    "shortClue": "Темний силует"
+  },
+  {
+    "word": "лад",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Порядок і злагода",
+    "shortClue": "Порядок і злагода"
+  },
+  {
+    "word": "сила",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Здатність підняти важке",
+    "shortClue": "Могутність"
+  },
+  {
+    "word": "воля",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Свобода діяти за власним бажанням",
+    "shortClue": "Свобода вибору"
+  },
+  {
+    "word": "мета",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Те, до чого уперто прагнуть",
+    "shortClue": "Бажаний результат"
+  },
+  {
+    "word": "шлях",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Напрям руху від початку до кінця",
+    "shortClue": "Напрям руху"
+  },
+  {
+    "word": "слово",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Одиниця мови з власним значенням",
+    "shortClue": "Одиниця мови"
+  },
+  {
+    "word": "голод",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Гостра потреба в їжі",
+    "shortClue": "Хочеться їсти"
+  },
+  {
+    "word": "жага",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Нестримне бажання чогось",
+    "shortClue": "Нестримне бажання"
+  },
+  {
+    "word": "блиск",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Яскраве відбиття світла",
+    "shortClue": "Відблиск"
+  },
+  {
+    "word": "звук",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Те, що вловлює вухо",
+    "shortClue": "Чує вухо"
+  },
+  {
+    "word": "запах",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Те, що відчуває ніс",
+    "shortClue": "Відчуває ніс"
+  },
+  {
+    "word": "смак",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Відчуття від їжі на язиці",
+    "shortClue": "Відчуття на язиці"
+  },
+  {
+    "word": "риса",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Окрема властивість характеру",
+    "shortClue": "Властивість характеру"
+  },
+  {
+    "word": "обід",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Головна денна трапеза",
+    "shortClue": "Денна трапеза"
+  },
+  {
+    "word": "рух",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Зміна місця у просторі",
+    "shortClue": "Зміна місця"
+  },
+  {
+    "word": "мак",
+    "topics": [
+      "nature"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Червоний польовий цвіт із коробочкою насіння",
+    "shortClue": "Польовий цвіт"
+  },
+  {
+    "word": "лід",
+    "topics": [
+      "nature"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Замерзла вода",
+    "shortClue": "Замерзла вода"
+  },
+  {
+    "word": "пісок",
+    "topics": [
+      "nature"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Дрібні зернята на пляжі",
+    "shortClue": "На пляжі"
+  },
+  {
+    "word": "хвиля",
+    "topics": [
+      "nature"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Рух води на морі",
+    "shortClue": "Рух води"
+  },
+  {
+    "word": "рись",
+    "topics": [
+      "animals"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Кішка з китицями на вухах",
+    "shortClue": "Кішка з китицями"
+  },
+  {
+    "word": "лань",
+    "topics": [
+      "animals"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Граціозна копитна красуня лісів",
+    "shortClue": "Граціозна копитна"
+  },
+  {
+    "word": "вуж",
+    "topics": [
+      "animals"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Безотруйний плазун із жовтими плямами на голові",
+    "shortClue": "Безотруйний плазун"
+  },
+  {
+    "word": "бобер",
+    "topics": [
+      "animals"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Гризун, що будує греблі",
+    "shortClue": "Будує греблі"
+  },
+  {
+    "word": "рак",
+    "topics": [
+      "animals"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Річковий мешканець із клешнями",
+    "shortClue": "Із клешнями"
+  },
+  {
+    "word": "тісто",
+    "topics": [
+      "food"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Замішане борошно для пирогів і хліба",
+    "shortClue": "Замішане борошно"
+  },
+  {
+    "word": "ожина",
+    "topics": [
+      "food"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Чорна колюча ягода лісу",
+    "shortClue": "Колюча ягода"
+  },
+  {
+    "word": "лапша",
+    "topics": [
+      "food"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Довгі тонкі смужки тіста в супі",
+    "shortClue": "Смужки тіста"
+  },
+  {
+    "word": "омлет",
+    "topics": [
+      "food"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Збиті й засмажені яйця",
+    "shortClue": "З яєць"
+  },
+  {
+    "word": "стіна",
+    "topics": [
+      "home"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Вертикальна огорожа кімнати",
+    "shortClue": "Огорожа кімнати"
+  },
+  {
+    "word": "стеля",
+    "topics": [
+      "home"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Верхня поверхня кімнати",
+    "shortClue": "Над головою"
+  },
+  {
+    "word": "двері",
+    "topics": [
+      "home"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Прохід, що відчиняють ручкою",
+    "shortClue": "Відчиняють ручкою"
+  },
+  {
+    "word": "юрист",
+    "topics": [
+      "professions"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Знавець законів",
+    "shortClue": "Знавець законів"
+  },
+  {
+    "word": "тесля",
+    "topics": [
+      "professions"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Майстер із деревом і сокирою",
+    "shortClue": "Майстер із сокирою"
+  },
+  {
+    "word": "ода",
+    "topics": [
+      "arts"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Урочистий вірш на славу чогось",
+    "shortClue": "Урочистий вірш"
+  },
+  {
+    "word": "фарба",
+    "topics": [
+      "arts"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Барвник, яким малюють",
+    "shortClue": "Барвник"
+  },
+  {
+    "word": "лялька",
+    "topics": [
+      "arts"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Іграшка у вигляді маленької людини",
+    "shortClue": "Іграшка"
+  },
+  {
+    "word": "арена",
+    "topics": [
+      "sport"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Майданчик для змагань і видовищ",
+    "shortClue": "Майданчик змагань"
+  },
+  {
+    "word": "гонка",
+    "topics": [
+      "sport"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Змагання на швидкість",
+    "shortClue": "Змагання швидкості"
+  },
+  {
+    "word": "сальто",
+    "topics": [
+      "sport"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Переворот через голову в повітрі",
+    "shortClue": "Переворот у повітрі"
+  },
+  {
+    "word": "лук",
+    "topics": [
+      "history"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Зброя з тятивою для пуску стріл",
+    "shortClue": "Зброя зі стрілами"
+  },
+  {
+    "word": "іон",
+    "topics": [
+      "science"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Заряджений атом",
+    "shortClue": "Заряджений атом"
+  },
+  {
+    "word": "сталь",
+    "topics": [
+      "science"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Міцний сплав заліза з вуглецем",
+    "shortClue": "Міцний сплав"
+  },
+  {
+    "word": "зоря",
+    "topics": [
+      "science"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Далека зірка на нічному небі",
+    "shortClue": "Далека зірка"
+  }
+]
