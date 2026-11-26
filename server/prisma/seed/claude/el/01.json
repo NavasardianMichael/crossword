@@ -1,0 +1,5002 @@
+[
+  {
+    "word": "χαρα",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Το συναίσθημα της ευτυχίας",
+    "shortClue": "Ευτυχισμένο συναίσθημα"
+  },
+  {
+    "word": "λυπη",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Το συναίσθημα που φέρνει δάκρυα",
+    "shortClue": "Συναίσθημα δακρύων"
+  },
+  {
+    "word": "φοβοσ",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Αίσθημα μπροστά σε κίνδυνο",
+    "shortClue": "Αίσθημα κινδύνου"
+  },
+  {
+    "word": "θυμοσ",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Έντονη οργή που ξεσπά",
+    "shortClue": "Έντονη οργή"
+  },
+  {
+    "word": "ελπιδα",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Η προσδοκία ότι κάτι καλό θα γίνει",
+    "shortClue": "Καλή προσδοκία"
+  },
+  {
+    "word": "αγαπη",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Βαθύ συναίσθημα στοργής",
+    "shortClue": "Βαθιά στοργή"
+  },
+  {
+    "word": "ζηλια",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Φθόνος για ό,τι έχει ο άλλος",
+    "shortClue": "Φθόνος"
+  },
+  {
+    "word": "ντροπη",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Αμηχανία όταν κάνεις λάθος μπροστά σε όλους",
+    "shortClue": "Αμηχανία"
+  },
+  {
+    "word": "υπομονη",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Αντοχή στην αναμονή χωρίς γκρίνια",
+    "shortClue": "Αντοχή στην αναμονή"
+  },
+  {
+    "word": "θαρροσ",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Η ψυχική δύναμη στις δυσκολίες",
+    "shortClue": "Ψυχική δύναμη"
+  },
+  {
+    "word": "κινηση",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Η αλλαγή θέσης ενός σώματος",
+    "shortClue": "Αλλαγή θέσης"
+  },
+  {
+    "word": "δακρυ",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Σταγόνα που κυλά από το μάτι",
+    "shortClue": "Σταγόνα του ματιού"
+  },
+  {
+    "word": "χαμογελο",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Έκφραση ευθυμίας μόνο με τα χείλη",
+    "shortClue": "Έκφραση ευθυμίας"
+  },
+  {
+    "word": "χειρονομια",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Κίνηση που μιλά χωρίς λέξεις",
+    "shortClue": "Κίνηση χωρίς λόγια"
+  },
+  {
+    "word": "σιωπη",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Απουσία κάθε ήχου και λόγου",
+    "shortClue": "Καμία φωνή"
+  },
+  {
+    "word": "φωνη",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Ο ήχος που βγαίνει από το στόμα",
+    "shortClue": "Ήχος του στόματος"
+  },
+  {
+    "word": "θορυβοσ",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Δυνατός και ενοχλητικός ήχος",
+    "shortClue": "Ενοχλητικός ήχος"
+  },
+  {
+    "word": "ησυχια",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Γαλήνη χωρίς φασαρία",
+    "shortClue": "Γαλήνη"
+  },
+  {
+    "word": "αρχη",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Το σημείο που ξεκινά κάτι",
+    "shortClue": "Πρώτο σημείο"
+  },
+  {
+    "word": "τελοσ",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Η στιγμή που ολοκληρώνεται κάτι",
+    "shortClue": "Η ολοκλήρωση"
+  },
+  {
+    "word": "κεντρο",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Σημείο στη μέση ενός κύκλου",
+    "shortClue": "Μέσο του κύκλου"
+  },
+  {
+    "word": "ακρη",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Το τελευταίο σημείο μιας επιφάνειας",
+    "shortClue": "Όριο επιφάνειας"
+  },
+  {
+    "word": "πλευρα",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Το πλάι ενός αντικειμένου",
+    "shortClue": "Το πλάι"
+  },
+  {
+    "word": "βαροσ",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Αυτό που μετράει η ζυγαριά",
+    "shortClue": "Μετριέται σε κιλά"
+  },
+  {
+    "word": "υψοσ",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Η απόσταση από τη βάση ως την κορυφή",
+    "shortClue": "Κάθετη απόσταση"
+  },
+  {
+    "word": "πλατοσ",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Οριζόντια διάσταση ενός δρόμου",
+    "shortClue": "Διάσταση δρόμου"
+  },
+  {
+    "word": "μηκοσ",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Διάσταση που μετράς με μέτρο",
+    "shortClue": "Μετριέται σε μέτρα"
+  },
+  {
+    "word": "βαθοσ",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Η απόσταση από την επιφάνεια ως τον πάτο",
+    "shortClue": "Απόσταση ως πάτο"
+  },
+  {
+    "word": "ταχυτητα",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Πόσο γρήγορα κινείται κάτι",
+    "shortClue": "Ρυθμός κίνησης"
+  },
+  {
+    "word": "αποσταση",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Το διάστημα που χωρίζει δύο σημεία",
+    "shortClue": "Χώρος ανάμεσα"
+  },
+  {
+    "word": "αριθμοσ",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Αυτό που γράφουμε με ψηφία",
+    "shortClue": "Γράφεται με ψηφία"
+  },
+  {
+    "word": "ζευγοσ",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Δύο πράγματα που πάνε μαζί",
+    "shortClue": "Δύο μαζί"
+  },
+  {
+    "word": "σειρα",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Πολλά πράγματα το ένα μετά το άλλο",
+    "shortClue": "Διαδοχή"
+  },
+  {
+    "word": "μαθημα",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Αυτό που διδάσκει ο δάσκαλος μέσα στην τάξη",
+    "shortClue": "Σχολική ώρα"
+  },
+  {
+    "word": "βαθμοσ",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Αριθμός που παίρνει ο μαθητής",
+    "shortClue": "Σημείωση επίδοσης"
+  },
+  {
+    "word": "ταξη",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Αίθουσα με θρανία και πίνακα",
+    "shortClue": "Αίθουσα με θρανία"
+  },
+  {
+    "word": "θρανιο",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Έπιπλο όπου γράφει ο μαθητής",
+    "shortClue": "Έπιπλο μαθητή"
+  },
+  {
+    "word": "τετραδιο",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Φύλλα δεμένα για γράψιμο",
+    "shortClue": "Φύλλα για γράψιμο"
+  },
+  {
+    "word": "μολυβι",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Γράφει με γραφίτη",
+    "shortClue": "Γράφει με γραφίτη"
+  },
+  {
+    "word": "γομα",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Σβήνει όσα έγραψε το μολύβι",
+    "shortClue": "Σβήνει γράμματα"
+  },
+  {
+    "word": "σχολειο",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Ίδρυμα όπου μαθαίνουν τα παιδιά",
+    "shortClue": "Χώρος μάθησης"
+  },
+  {
+    "word": "αδελφοσ",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Αρσενικό παιδί των ίδιων γονιών",
+    "shortClue": "Μέλος οικογένειας"
+  },
+  {
+    "word": "γονεασ",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Μητέρα ή πατέρας",
+    "shortClue": "Πατέρας ή μητέρα"
+  },
+  {
+    "word": "παππουσ",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Ο πατέρας του μπαμπά ή της μαμάς",
+    "shortClue": "Πατέρας γονιού"
+  },
+  {
+    "word": "θειοσ",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Ο αδερφός της μητέρας ή του πατέρα",
+    "shortClue": "Αδερφός γονιού"
+  },
+  {
+    "word": "γειτονασ",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Αυτός που μένει δίπλα σου",
+    "shortClue": "Μένει δίπλα"
+  },
+  {
+    "word": "ευγενεια",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Καλοί τρόποι απέναντι στους άλλους",
+    "shortClue": "Καλοί τρόποι"
+  },
+  {
+    "word": "συγγνωμη",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Αυτό που ζητάς όταν κάνεις λάθος",
+    "shortClue": "Λέξη μετάνοιας"
+  },
+  {
+    "word": "ευχη",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Καλά λόγια για τα γενέθλια ή τη γιορτή",
+    "shortClue": "Καλά λόγια"
+  },
+  {
+    "word": "δωρο",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Αυτό που χαρίζεις στα γενέθλια",
+    "shortClue": "Χάρισμα γενεθλίων"
+  },
+  {
+    "word": "ταξιδι",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Μετακίνηση σε μακρινό τόπο",
+    "shortClue": "Μακρινή μετακίνηση"
+  },
+  {
+    "word": "βαλιτσα",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Θήκη με λαβή για τα ρούχα του ταξιδιώτη",
+    "shortClue": "Θήκη ταξιδιού"
+  },
+  {
+    "word": "ωρα",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Εξήντα λεπτά",
+    "shortClue": "Εξήντα λεπτά"
+  },
+  {
+    "word": "λεπτο",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Το ένα εξηκοστό της ώρας",
+    "shortClue": "Εξήντα δευτερόλεπτα"
+  },
+  {
+    "word": "εβδομαδα",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Επτά μέρες στη σειρά",
+    "shortClue": "Επτά μέρες"
+  },
+  {
+    "word": "μηνασ",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Τριάντα περίπου μέρες",
+    "shortClue": "Τριάντα μέρες"
+  },
+  {
+    "word": "αιωνασ",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Εκατό χρόνια",
+    "shortClue": "Εκατό έτη"
+  },
+  {
+    "word": "στιγμη",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Πολύ μικρό διάστημα χρόνου",
+    "shortClue": "Ελάχιστος χρόνος"
+  },
+  {
+    "word": "παρελθον",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Ο χρόνος που πέρασε",
+    "shortClue": "Χρόνος που πέρασε"
+  },
+  {
+    "word": "μελλον",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Ο χρόνος που έρχεται",
+    "shortClue": "Χρόνος που έρχεται"
+  },
+  {
+    "word": "αποφαση",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Τελική κρίση μετά από σκέψη",
+    "shortClue": "Τελική κρίση"
+  },
+  {
+    "word": "σκεψη",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Εργασία του μυαλού",
+    "shortClue": "Εργασία μυαλού"
+  },
+  {
+    "word": "μνημη",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Η ικανότητα να θυμάσαι",
+    "shortClue": "Ικανότητα θύμησης"
+  },
+  {
+    "word": "φαντασια",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Η δύναμη να βλέπεις με το μυαλό",
+    "shortClue": "Δύναμη του μυαλού"
+  },
+  {
+    "word": "αληθεια",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Αυτό που ταιριάζει με την πραγματικότητα",
+    "shortClue": "Το αντίθετο ψέματος"
+  },
+  {
+    "word": "ψεμα",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Λόγος που δεν ανταποκρίνεται στα γεγονότα",
+    "shortClue": "Μη αλήθεια"
+  },
+  {
+    "word": "μυστικο",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Αυτό που δεν πρέπει να το μάθει κανείς",
+    "shortClue": "Κρυφή πληροφορία"
+  },
+  {
+    "word": "ιδεα",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Σκέψη που γεννιέται ξαφνικά",
+    "shortClue": "Νέα σκέψη"
+  },
+  {
+    "word": "σχεδιο",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Ο τρόπος που οργανώνεις μια ενέργεια",
+    "shortClue": "Οργανωμένος τρόπος"
+  },
+  {
+    "word": "κινδυνοσ",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Αυτό που απειλεί την ασφάλειά σου",
+    "shortClue": "Απειλή ασφάλειας"
+  },
+  {
+    "word": "τυχη",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Ευνοϊκή συγκυρία χωρίς δική σου προσπάθεια",
+    "shortClue": "Ευνοϊκή συγκυρία"
+  },
+  {
+    "word": "κοποσ",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Σκληρή προσπάθεια που εξαντλεί",
+    "shortClue": "Σκληρή προσπάθεια"
+  },
+  {
+    "word": "κουραση",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Έλλειψη δύναμης μετά από δουλειά",
+    "shortClue": "Εξάντληση"
+  },
+  {
+    "word": "υπνοσ",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Η νυχτερινή ανάπαυση με κλειστά μάτια",
+    "shortClue": "Νυχτερινή ανάπαυση"
+  },
+  {
+    "word": "αναγκη",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Κάτι απαραίτητο για να ζήσεις",
+    "shortClue": "Απαραίτητο πράγμα"
+  },
+  {
+    "word": "αξια",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Το πόσο πολύτιμο είναι κάτι",
+    "shortClue": "Πολύτιμη ιδιότητα"
+  },
+  {
+    "word": "ομορφια",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Ό,τι ευχαριστεί το μάτι",
+    "shortClue": "Κάλλος"
+  },
+  {
+    "word": "ειρηνη",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Αρμονία ανάμεσα στους λαούς",
+    "shortClue": "Αρμονία των λαών"
+  },
+  {
+    "word": "ελευθερια",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Κατάσταση χωρίς δεσμά",
+    "shortClue": "Χωρίς δεσμά"
+  },
+  {
+    "word": "δικαιοσυνη",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Η αρχή που δίνει στον καθένα ό,τι του ανήκει",
+    "shortClue": "Ίση μεταχείριση"
+  },
+  {
+    "word": "εμπειρια",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Γνώση που αποκτάς με τα χρόνια",
+    "shortClue": "Γνώση της ζωής"
+  },
+  {
+    "word": "γνωση",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Ό,τι ξέρει κανείς",
+    "shortClue": "Ό,τι ξέρεις"
+  },
+  {
+    "word": "ομοιοτητα",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Η ίδια όψη δύο πραγμάτων",
+    "shortClue": "Κοινά χαρακτηριστικά"
+  },
+  {
+    "word": "αιτια",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Ό,τι προκαλεί ένα αποτέλεσμα",
+    "shortClue": "Προκαλεί αποτέλεσμα"
+  },
+  {
+    "word": "λυση",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Η απάντηση σε ένα πρόβλημα",
+    "shortClue": "Απάντηση προβλήματος"
+  },
+  {
+    "word": "προβλημα",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Δυσκολία που ζητά λύση",
+    "shortClue": "Δυσκολία"
+  },
+  {
+    "word": "γριφοσ",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Αίνιγμα που ζητά απάντηση",
+    "shortClue": "Δύσκολο αίνιγμα"
+  },
+  {
+    "word": "παιχνιδι",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Δραστηριότητα για διασκέδαση των μικρών",
+    "shortClue": "Διασκέδαση μικρών"
+  },
+  {
+    "word": "γιορτη",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Ημέρα ευχών και φαγητού",
+    "shortClue": "Ημέρα ευχών"
+  },
+  {
+    "word": "σχεση",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Δεσμός ανάμεσα σε δύο πρόσωπα",
+    "shortClue": "Δεσμός"
+  },
+  {
+    "word": "τροποσ",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Η μέθοδος με την οποία γίνεται κάτι",
+    "shortClue": "Μέθοδος"
+  },
+  {
+    "word": "μεροσ",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Τμήμα ενός συνόλου",
+    "shortClue": "Τμήμα ολόκληρου"
+  },
+  {
+    "word": "σχημα",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Η εξωτερική μορφή ενός αντικειμένου",
+    "shortClue": "Εξωτερική μορφή"
+  },
+  {
+    "word": "χρωμα",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Κόκκινο ή μπλε, για παράδειγμα",
+    "shortClue": "Κόκκινο ή μπλε"
+  },
+  {
+    "word": "μεγεθοσ",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Πόσο μεγάλο είναι κάτι",
+    "shortClue": "Πόσο μεγάλο"
+  },
+  {
+    "word": "ηχοσ",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Ό,τι ακούς",
+    "shortClue": "Ό,τι ακούς"
+  },
+  {
+    "word": "μυρωδια",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Αυτό που αντιλαμβάνεται η μύτη",
+    "shortClue": "Αίσθηση της μύτης"
+  },
+  {
+    "word": "γευση",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Αυτό που αισθάνεσαι όταν τρως",
+    "shortClue": "Αίσθηση του φαγητού"
+  },
+  {
+    "word": "αφη",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Η αίσθηση των δαχτύλων",
+    "shortClue": "Αίσθηση δαχτύλων"
+  },
+  {
+    "word": "οραση",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Η αίσθηση των ματιών",
+    "shortClue": "Αίσθηση ματιών"
+  },
+  {
+    "word": "ακοη",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Η αίσθηση των αυτιών",
+    "shortClue": "Αίσθηση αυτιών"
+  },
+  {
+    "word": "δυναμη",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Σωματική ισχύς",
+    "shortClue": "Ισχύς"
+  },
+  {
+    "word": "ρυθμοσ",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Η σταθερή επανάληψη των χτύπων",
+    "shortClue": "Επανάληψη χτύπων"
+  },
+  {
+    "word": "χιονι",
+    "topics": [
+      "nature"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Λευκό στρώμα του χειμώνα",
+    "shortClue": "Λευκό στρώμα"
+  },
+  {
+    "word": "ομιχλη",
+    "topics": [
+      "nature"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Σύννεφο που κάθεται χαμηλά στο έδαφος",
+    "shortClue": "Χαμηλό σύννεφο"
+  },
+  {
+    "word": "συννεφο",
+    "topics": [
+      "nature"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Λευκή ή γκρίζα μάζα στον ουρανό",
+    "shortClue": "Μάζα στον ουρανό"
+  },
+  {
+    "word": "αστραπη",
+    "topics": [
+      "nature"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Ξαφνική λάμψη της καταιγίδας",
+    "shortClue": "Λάμψη καταιγίδας"
+  },
+  {
+    "word": "βροντη",
+    "topics": [
+      "nature"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Βαρύς ήχος της καταιγίδας",
+    "shortClue": "Ήχος καταιγίδας"
+  },
+  {
+    "word": "καταιγιδα",
+    "topics": [
+      "nature"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Δυνατή βροχή με κεραυνούς και βροντές",
+    "shortClue": "Βροχή με κεραυνούς"
+  },
+  {
+    "word": "παγοσ",
+    "topics": [
+      "nature"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Στερεό νερό",
+    "shortClue": "Στερεό νερό"
+  },
+  {
+    "word": "κεραυνοσ",
+    "topics": [
+      "nature"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Ηλεκτρική εκκένωση από σύννεφο σε γη",
+    "shortClue": "Χτύπημα του ουρανού"
+  },
+  {
+    "word": "ουρανοσ",
+    "topics": [
+      "nature"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Η γαλάζια οροφή πάνω από τη γη",
+    "shortClue": "Γαλάζια οροφή"
+  },
+  {
+    "word": "αστερι",
+    "topics": [
+      "nature"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Φωτεινό σημείο της νύχτας στον ουρανό",
+    "shortClue": "Λαμπερό σημείο νύχτας"
+  },
+  {
+    "word": "εδαφοσ",
+    "topics": [
+      "nature"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Το στρώμα της γης όπου πατάμε",
+    "shortClue": "Εκεί που πατάμε"
+  },
+  {
+    "word": "αμμοσ",
+    "topics": [
+      "nature"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Λεπτοί κόκκοι στην παραλία",
+    "shortClue": "Κόκκοι της παραλίας"
+  },
+  {
+    "word": "βραχοσ",
+    "topics": [
+      "nature"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Μεγάλη πέτρα στην ακτή ή στο βουνό",
+    "shortClue": "Μεγάλη πέτρα"
+  },
+  {
+    "word": "κυμα",
+    "topics": [
+      "nature"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Το φουσκωτό νερό που σκάει στην ακτή",
+    "shortClue": "Σκάει στην ακτή"
+  },
+  {
+    "word": "παραλια",
+    "topics": [
+      "nature"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Ακτή όπου κάνεις μπάνιο",
+    "shortClue": "Ακτή για μπάνιο"
+  },
+  {
+    "word": "σπηλια",
+    "topics": [
+      "nature"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Φυσική κρύπτη στο βουνό",
+    "shortClue": "Φυσική κρύπτη"
+  },
+  {
+    "word": "λοφοσ",
+    "topics": [
+      "nature"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Μικρό ύψωμα της γης",
+    "shortClue": "Μικρό ύψωμα"
+  },
+  {
+    "word": "κοιλαδα",
+    "topics": [
+      "nature"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Επίπεδη περιοχή ανάμεσα σε βουνά",
+    "shortClue": "Ανάμεσα σε βουνά"
+  },
+  {
+    "word": "φαραγγι",
+    "topics": [
+      "nature"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Βαθύ στενό άνοιγμα ανάμεσα σε βράχους",
+    "shortClue": "Βαθύ άνοιγμα"
+  },
+  {
+    "word": "πηγη",
+    "topics": [
+      "nature"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Το σημείο που ξεπηδά το νερό",
+    "shortClue": "Αρχή ποταμού"
+  },
+  {
+    "word": "ρυακι",
+    "topics": [
+      "nature"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Στενό νερό που κυλά",
+    "shortClue": "Μικρό ρεύμα"
+  },
+  {
+    "word": "ριζα",
+    "topics": [
+      "nature"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Το μέρος του φυτού κάτω από το χώμα",
+    "shortClue": "Κάτω από χώμα"
+  },
+  {
+    "word": "κλαδι",
+    "topics": [
+      "nature"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Μικρό ξύλινο μέρος του δέντρου",
+    "shortClue": "Ξύλινο μέρος"
+  },
+  {
+    "word": "φυλλο",
+    "topics": [
+      "nature"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Πράσινο κομμάτι φυτού",
+    "shortClue": "Πράσινο και λεπτό"
+  },
+  {
+    "word": "μαργαριτα",
+    "topics": [
+      "nature"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Λευκό λουλούδι με κίτρινο κέντρο",
+    "shortClue": "Λευκά πέταλα"
+  },
+  {
+    "word": "πευκο",
+    "topics": [
+      "nature"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Αειθαλές δέντρο με βελόνες",
+    "shortClue": "Βελονοφόρο δέντρο"
+  },
+  {
+    "word": "πλατανοσ",
+    "topics": [
+      "nature"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Μεγάλο δέντρο που σκιάζει τις αυλές",
+    "shortClue": "Σκιερό δέντρο"
+  },
+  {
+    "word": "χορταρι",
+    "topics": [
+      "nature"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Το πράσινο που καλύπτει τα λιβάδια",
+    "shortClue": "Πράσινο των λιβαδιών"
+  },
+  {
+    "word": "λιβαδι",
+    "topics": [
+      "nature"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Πράσινη έκταση με χορτάρι",
+    "shortClue": "Έκταση με χορτάρι"
+  },
+  {
+    "word": "μανιταρι",
+    "topics": [
+      "nature"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Φυτρώνει στο δάσος μετά τη βροχή",
+    "shortClue": "Ομπρελοειδές του δάσους"
+  },
+  {
+    "word": "σταγονα",
+    "topics": [
+      "nature"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Μικρό σφαιρίδιο νερού",
+    "shortClue": "Σφαιρίδιο νερού"
+  },
+  {
+    "word": "αυγη",
+    "topics": [
+      "nature"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Το πρώτο φως της ημέρας",
+    "shortClue": "Πρώτο φως"
+  },
+  {
+    "word": "σουρουπο",
+    "topics": [
+      "nature"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Η ώρα που σβήνει το φως της μέρας",
+    "shortClue": "Λυκόφως"
+  },
+  {
+    "word": "θυελλα",
+    "topics": [
+      "nature"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Ισχυρός άνεμος με βροχή",
+    "shortClue": "Άνεμος με βροχή"
+  },
+  {
+    "word": "ιριδα",
+    "topics": [
+      "nature"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Επτά χρώματα στον ουρανό",
+    "shortClue": "Επτά χρώματα"
+  },
+  {
+    "word": "ιτια",
+    "topics": [
+      "nature"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Δέντρο με κρεμαστά κλαδιά",
+    "shortClue": "Κρεμαστά κλαδιά"
+  },
+  {
+    "word": "βοδι",
+    "topics": [
+      "animals"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Εξημερωμένο μεγάλο ζώο που οργώνει",
+    "shortClue": "Ζώο του αγρού"
+  },
+  {
+    "word": "αγελαδα",
+    "topics": [
+      "animals"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Ζώο που βόσκει και αρμέγεται",
+    "shortClue": "Αρμέγεται"
+  },
+  {
+    "word": "κατσικα",
+    "topics": [
+      "animals"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Ζώο με κέρατα και γενειάδα",
+    "shortClue": "Ζώο με κέρατα"
+  },
+  {
+    "word": "κοκορασ",
+    "topics": [
+      "animals"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Αρσενικό πτηνό που λαλεί το πρωί",
+    "shortClue": "Λαλεί το πρωί"
+  },
+  {
+    "word": "παπια",
+    "topics": [
+      "animals"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Υδρόβιο πουλί που κάνει κουάκ",
+    "shortClue": "Κάνει κουάκ"
+  },
+  {
+    "word": "χηνα",
+    "topics": [
+      "animals"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Μεγάλο υδρόβιο πουλί που κραυγάζει",
+    "shortClue": "Υδρόβιο πουλί"
+  },
+  {
+    "word": "σπουργιτι",
+    "topics": [
+      "animals"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Μικρό καφέ πουλί των πόλεων",
+    "shortClue": "Μικρό καφέ πουλί"
+  },
+  {
+    "word": "κουκοσ",
+    "topics": [
+      "animals"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Πουλί που αφήνει τα αβγά του σε ξένες φωλιές",
+    "shortClue": "Παρασιτικό πουλί"
+  },
+  {
+    "word": "γλαροσ",
+    "topics": [
+      "animals"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Θαλασσοπούλι με άσπρα φτερά",
+    "shortClue": "Θαλασσοπούλι"
+  },
+  {
+    "word": "κυκνοσ",
+    "topics": [
+      "animals"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Λευκό κομψό πουλί της λίμνης",
+    "shortClue": "Κομψό πουλί"
+  },
+  {
+    "word": "παγωνι",
+    "topics": [
+      "animals"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Πουλί με πολύχρωμη ουρά σε βεντάλια",
+    "shortClue": "Πολύχρωμη ουρά"
+  },
+  {
+    "word": "χελιδονι",
+    "topics": [
+      "animals"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Αποδημητικό πουλί που προμηνύει την άνοιξη",
+    "shortClue": "Πουλί της άνοιξης"
+  },
+  {
+    "word": "δελφινι",
+    "topics": [
+      "animals"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Έξυπνο θαλάσσιο θηλαστικό που πηδά στα κύματα",
+    "shortClue": "Έξυπνο θηλαστικό"
+  },
+  {
+    "word": "ιπποκαμποσ",
+    "topics": [
+      "animals"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Μικρό ψάρι με κεφάλι σαν αλόγου",
+    "shortClue": "Θαλάσσιο άλογο"
+  },
+  {
+    "word": "χταποδι",
+    "topics": [
+      "animals"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Θαλάσσιο ζώο με οκτώ πλοκάμια",
+    "shortClue": "Οκτώ πλοκάμια"
+  },
+  {
+    "word": "καβουρι",
+    "topics": [
+      "animals"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Θαλασσινό που περπατά πλάγια",
+    "shortClue": "Περπατά πλάγια"
+  },
+  {
+    "word": "ζεβρα",
+    "topics": [
+      "animals"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Ριγέ άλογο της σαβάνας",
+    "shortClue": "Ριγέ ζώο"
+  },
+  {
+    "word": "μαιμου",
+    "topics": [
+      "animals"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Επιδέξιο ζώο που πηδά στα δέντρα",
+    "shortClue": "Πίθηκος"
+  },
+  {
+    "word": "τιγρη",
+    "topics": [
+      "animals"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Ριγέ μεγάλη γάτα της Ασίας",
+    "shortClue": "Ριγέ αιλουροειδές"
+  },
+  {
+    "word": "λεοπαρδαλη",
+    "topics": [
+      "animals"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Στικτή μεγάλη γάτα",
+    "shortClue": "Στικτό αιλουροειδές"
+  },
+  {
+    "word": "ελαφι",
+    "topics": [
+      "animals"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Κεροφόρο ζώο του δάσους",
+    "shortClue": "Κεροφόρο ζώο"
+  },
+  {
+    "word": "λαγοσ",
+    "topics": [
+      "animals"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Ζώο με μακριά αυτιά που πηδά γρήγορα",
+    "shortClue": "Πηδά γρήγορα"
+  },
+  {
+    "word": "σκιουροσ",
+    "topics": [
+      "animals"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Τρωκτικό με φουντωτή ουρά που τρώει καρύδια",
+    "shortClue": "Φουντωτή ουρά"
+  },
+  {
+    "word": "ποντικι",
+    "topics": [
+      "animals"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Μικρό τρωκτικό που φοβάται τη γάτα",
+    "shortClue": "Μικρό τρωκτικό"
+  },
+  {
+    "word": "φιδι",
+    "topics": [
+      "animals"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Ερπετό χωρίς πόδια",
+    "shortClue": "Ερπετό"
+  },
+  {
+    "word": "χελωνα",
+    "topics": [
+      "animals"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Αργό ζώο με καβούκι",
+    "shortClue": "Αργό ζώο"
+  },
+  {
+    "word": "σαυρα",
+    "topics": [
+      "animals"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Μικρό ερπετό που λιάζεται στις πέτρες",
+    "shortClue": "Λιάζεται στις πέτρες"
+  },
+  {
+    "word": "βατραχοσ",
+    "topics": [
+      "animals"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Αμφίβιο που πηδά και κοάζει",
+    "shortClue": "Αμφίβιο"
+  },
+  {
+    "word": "μελισσα",
+    "topics": [
+      "animals"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Έντομο με κεντρί που ζει σε κυψέλη",
+    "shortClue": "Ζει σε κυψέλη"
+  },
+  {
+    "word": "αραχνη",
+    "topics": [
+      "animals"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Πλέκει ιστό για να πιάσει έντομα",
+    "shortClue": "Πλέκει ιστό"
+  },
+  {
+    "word": "καστορασ",
+    "topics": [
+      "animals"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Τρωκτικό που χτίζει φράγματα",
+    "shortClue": "Χτίζει φράγματα"
+  },
+  {
+    "word": "λυγκασ",
+    "topics": [
+      "animals"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Άγρια γάτα με θύσανο στα αυτιά",
+    "shortClue": "Άγρια γάτα"
+  },
+  {
+    "word": "τσακαλι",
+    "topics": [
+      "animals"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Άγριο σκυλοειδές της Αφρικής και της Ασίας",
+    "shortClue": "Άγριο σκυλοειδές"
+  },
+  {
+    "word": "καμηλα",
+    "topics": [
+      "animals"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Ζώο της ερήμου με καμπούρες",
+    "shortClue": "Ζώο της ερήμου"
+  },
+  {
+    "word": "φωκια",
+    "topics": [
+      "animals"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Θαλάσσιο θηλαστικό με πτερύγια",
+    "shortClue": "Θηλαστικό με πτερύγια"
+  },
+  {
+    "word": "καρχαριασ",
+    "topics": [
+      "animals"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Αρπακτικό ψάρι με μεγάλα δόντια",
+    "shortClue": "Αρπακτικό ψάρι"
+  },
+  {
+    "word": "ρυζι",
+    "topics": [
+      "food"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Λευκοί κόκκοι για πιλάφι",
+    "shortClue": "Λευκοί κόκκοι"
+  },
+  {
+    "word": "αλευρι",
+    "topics": [
+      "food"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Σκόνη από σιτάρι για ψωμί",
+    "shortClue": "Σκόνη από σιτάρι"
+  },
+  {
+    "word": "ρεβιθι",
+    "topics": [
+      "food"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Κιτρινωπό όσπριο για σούπα",
+    "shortClue": "Κιτρινωπό όσπριο"
+  },
+  {
+    "word": "φακη",
+    "topics": [
+      "food"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Επίπεδο μικρό όσπριο της σούπας",
+    "shortClue": "Επίπεδο όσπριο"
+  },
+  {
+    "word": "φασολι",
+    "topics": [
+      "food"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Λευκός ή κόκκινος κόκκος σούπας",
+    "shortClue": "Κόκκος σούπας"
+  },
+  {
+    "word": "ντοματα",
+    "topics": [
+      "food"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Κόκκινο ζουμερό λαχανικό της σαλάτας",
+    "shortClue": "Κόκκινο λαχανικό"
+  },
+  {
+    "word": "πατατα",
+    "topics": [
+      "food"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Κόνδυλος που τηγανίζουμε",
+    "shortClue": "Τηγανίζεται"
+  },
+  {
+    "word": "σκορδο",
+    "topics": [
+      "food"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Μυρωδάτος βολβός με σκελίδες",
+    "shortClue": "Βολβός με σκελίδες"
+  },
+  {
+    "word": "καροτο",
+    "topics": [
+      "food"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Πορτοκαλί ρίζα που τρώγεται",
+    "shortClue": "Πορτοκαλί ρίζα"
+  },
+  {
+    "word": "λεμονι",
+    "topics": [
+      "food"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Ξινό κίτρινο εσπεριδοειδές",
+    "shortClue": "Ξινό κίτρινο"
+  },
+  {
+    "word": "συκο",
+    "topics": [
+      "food"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Γλυκό φρούτο με πολλά σποράκια",
+    "shortClue": "Γλυκό φρούτο"
+  },
+  {
+    "word": "καρυδι",
+    "topics": [
+      "food"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Ξηρός καρπός με σκληρό κέλυφος",
+    "shortClue": "Ξηρός καρπός"
+  },
+  {
+    "word": "φιστικι",
+    "topics": [
+      "food"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Αλμυρός ξηρός καρπός με κέλυφος",
+    "shortClue": "Αλμυρός καρπός"
+  },
+  {
+    "word": "βουτυρο",
+    "topics": [
+      "food"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Λιπαρό προϊόν από κρέμα γάλακτος",
+    "shortClue": "Λιπαρό προϊόν"
+  },
+  {
+    "word": "αυγο",
+    "topics": [
+      "food"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Το γεννά η κότα",
+    "shortClue": "Γεννιέται από κότα"
+  },
+  {
+    "word": "κρεασ",
+    "topics": [
+      "food"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Σάρκα ζώου για φαγητό",
+    "shortClue": "Σάρκα ζώου"
+  },
+  {
+    "word": "σουπα",
+    "topics": [
+      "food"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Ζεστό υγρό φαγητό για κουτάλι",
+    "shortClue": "Ζεστό υγρό φαγητό"
+  },
+  {
+    "word": "σαλατα",
+    "topics": [
+      "food"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Ωμά λαχανικά με λάδι",
+    "shortClue": "Ωμά λαχανικά"
+  },
+  {
+    "word": "πιτα",
+    "topics": [
+      "food"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Φύλλο ζύμης με γέμιση",
+    "shortClue": "Ζύμη με γέμιση"
+  },
+  {
+    "word": "μουσακασ",
+    "topics": [
+      "food"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Φαγητό με μελιτζάνες και κιμά",
+    "shortClue": "Φαγητό με κιμά"
+  },
+  {
+    "word": "χαλβασ",
+    "topics": [
+      "food"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Γλυκό από σιμιγδάλι ή ταχίνι",
+    "shortClue": "Γλυκό σιμιγδαλιού"
+  },
+  {
+    "word": "κανελα",
+    "topics": [
+      "food"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Αρωματικός φλοιός για γλυκά",
+    "shortClue": "Αρωματικός φλοιός"
+  },
+  {
+    "word": "βανιλια",
+    "topics": [
+      "food"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Άρωμα για κέικ και παγωτό",
+    "shortClue": "Άρωμα για κέικ"
+  },
+  {
+    "word": "ξυδι",
+    "topics": [
+      "food"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Ξινό υγρό για σαλάτες",
+    "shortClue": "Ξινό υγρό"
+  },
+  {
+    "word": "λαδι",
+    "topics": [
+      "food"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Υγρό από ελιές",
+    "shortClue": "Υγρό από ελιές"
+  },
+  {
+    "word": "ζυμη",
+    "topics": [
+      "food"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Μείγμα αλευριού και νερού",
+    "shortClue": "Μείγμα αλευριού"
+  },
+  {
+    "word": "τσαι",
+    "topics": [
+      "food"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Αφέψημα από βότανα",
+    "shortClue": "Αφέψημα"
+  },
+  {
+    "word": "νερο",
+    "topics": [
+      "food"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Διάφανο υγρό που πίνουμε",
+    "shortClue": "Διάφανο υγρό"
+  },
+  {
+    "word": "χυμοσ",
+    "topics": [
+      "food"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Υγρό από στυμμένο φρούτο",
+    "shortClue": "Στυμμένο φρούτο"
+  },
+  {
+    "word": "μπιρα",
+    "topics": [
+      "food"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Αφρώδες ποτό από κριθάρι",
+    "shortClue": "Ποτό από κριθάρι"
+  },
+  {
+    "word": "κουλουρι",
+    "topics": [
+      "food"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Στριφτό ψωμάκι με σουσάμι",
+    "shortClue": "Ψωμάκι με σουσάμι"
+  },
+  {
+    "word": "ταχινι",
+    "topics": [
+      "food"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Πάστα από σουσάμι",
+    "shortClue": "Πάστα σουσαμιού"
+  },
+  {
+    "word": "νησι",
+    "topics": [
+      "geography"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Στεριά που την περιβάλλει θάλασσα",
+    "shortClue": "Στεριά στη θάλασσα"
+  },
+  {
+    "word": "χερσονησοσ",
+    "topics": [
+      "geography"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Στεριά περιτριγυρισμένη από νερό σχεδόν παντού",
+    "shortClue": "Σχεδόν νησί"
+  },
+  {
+    "word": "κολποσ",
+    "topics": [
+      "geography"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Θάλασσα που μπαίνει βαθιά στην ξηρά",
+    "shortClue": "Βαθύς όρμος"
+  },
+  {
+    "word": "λιμανι",
+    "topics": [
+      "geography"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Μέρος όπου δένουν τα πλοία",
+    "shortClue": "Δένουν τα πλοία"
+  },
+  {
+    "word": "πεδιαδα",
+    "topics": [
+      "geography"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Μεγάλη επίπεδη έκταση",
+    "shortClue": "Επίπεδη έκταση"
+  },
+  {
+    "word": "οροπεδιο",
+    "topics": [
+      "geography"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Ψηλή επίπεδη περιοχή",
+    "shortClue": "Ψηλή πεδιάδα"
+  },
+  {
+    "word": "ηπειροσ",
+    "topics": [
+      "geography"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Τεράστια ξηρά όπως η Ασία",
+    "shortClue": "Τεράστια ξηρά"
+  },
+  {
+    "word": "ισθμοσ",
+    "topics": [
+      "geography"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Στενή λωρίδα γης που ενώνει δύο στεριές",
+    "shortClue": "Στενή λωρίδα γης"
+  },
+  {
+    "word": "πολη",
+    "topics": [
+      "geography"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Μεγάλος οικισμός με πολλούς κατοίκους",
+    "shortClue": "Μεγάλος οικισμός"
+  },
+  {
+    "word": "χωριο",
+    "topics": [
+      "geography"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Μικρός οικισμός στην ύπαιθρο",
+    "shortClue": "Μικρός οικισμός"
+  },
+  {
+    "word": "πρωτευουσα",
+    "topics": [
+      "geography"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Η έδρα της κυβέρνησης μιας χώρας",
+    "shortClue": "Έδρα κυβέρνησης"
+  },
+  {
+    "word": "ωκεανοσ",
+    "topics": [
+      "geography"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Η μεγαλύτερη μάζα νερού της γης",
+    "shortClue": "Τεράστια θάλασσα"
+  },
+  {
+    "word": "ερημοσ",
+    "topics": [
+      "geography"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Άνυδρη και καυτή περιοχή",
+    "shortClue": "Άνυδρη περιοχή"
+  },
+  {
+    "word": "ηφαιστειο",
+    "topics": [
+      "geography"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Βουνό που εκτοξεύει λάβα",
+    "shortClue": "Βγάζει λάβα"
+  },
+  {
+    "word": "χαρτησ",
+    "topics": [
+      "geography"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Σχέδιο που δείχνει τόπους",
+    "shortClue": "Δείχνει τόπους"
+  },
+  {
+    "word": "πυξιδα",
+    "topics": [
+      "geography"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Όργανο με βελόνα που δείχνει βορρά",
+    "shortClue": "Δείχνει βορρά"
+  },
+  {
+    "word": "ακρωτηρι",
+    "topics": [
+      "geography"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Στεριά που προεξέχει στη θάλασσα",
+    "shortClue": "Προεξοχή της ξηράς"
+  },
+  {
+    "word": "δελτα",
+    "topics": [
+      "geography"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Εκβολή ποταμού που ανοίγει σε κλάδους",
+    "shortClue": "Εκβολή ποταμού"
+  },
+  {
+    "word": "κορυφη",
+    "topics": [
+      "geography"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Το ψηλότερο σημείο βουνού",
+    "shortClue": "Ψηλότερο σημείο"
+  },
+  {
+    "word": "πορθμοσ",
+    "topics": [
+      "geography"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Θαλάσσιο πέρασμα ανάμεσα σε στεριές",
+    "shortClue": "Θαλάσσιο πέρασμα"
+  },
+  {
+    "word": "Πηλιο",
+    "topics": [
+      "geography"
+    ],
+    "difficulty": 2,
+    "kind": "proper",
+    "clue": "Βουνό της Μαγνησίας με χωριά και δάση",
+    "shortClue": "Βουνό της Μαγνησίας"
+  },
+  {
+    "word": "Πινδοσ",
+    "topics": [
+      "geography"
+    ],
+    "difficulty": 2,
+    "kind": "proper",
+    "clue": "Η μεγάλη οροσειρά της Ηπείρου και της Θεσσαλίας",
+    "shortClue": "Μεγάλη οροσειρά"
+  },
+  {
+    "word": "Ιθακη",
+    "topics": [
+      "geography"
+    ],
+    "difficulty": 2,
+    "kind": "proper",
+    "clue": "Νησί όπου επέστρεψε ο Οδυσσέας",
+    "shortClue": "Νησί του Οδυσσέα"
+  },
+  {
+    "word": "Ναξοσ",
+    "topics": [
+      "geography"
+    ],
+    "difficulty": 2,
+    "kind": "proper",
+    "clue": "Το μεγαλύτερο νησί των Κυκλάδων",
+    "shortClue": "Μεγάλο κυκλαδίτικο νησί"
+  },
+  {
+    "word": "Σπαρτη",
+    "topics": [
+      "geography"
+    ],
+    "difficulty": 2,
+    "kind": "proper",
+    "clue": "Αρχαία πόλη της Λακωνίας",
+    "shortClue": "Αρχαία πόλη Λακωνίας"
+  },
+  {
+    "word": "Υδρα",
+    "topics": [
+      "geography"
+    ],
+    "difficulty": 2,
+    "kind": "proper",
+    "clue": "Νησί του Αργοσαρωνικού χωρίς αυτοκίνητα",
+    "shortClue": "Νησί χωρίς αυτοκίνητα"
+  },
+  {
+    "word": "Αιγαιο",
+    "topics": [
+      "geography"
+    ],
+    "difficulty": 1,
+    "kind": "proper",
+    "clue": "Η θάλασσα ανάμεσα στην Ελλάδα και τη Μικρά Ασία",
+    "shortClue": "Θάλασσα με νησιά"
+  },
+  {
+    "word": "Μετεωρα",
+    "topics": [
+      "geography"
+    ],
+    "difficulty": 2,
+    "kind": "proper",
+    "clue": "Βράχοι της Θεσσαλίας με μοναστήρια στην κορυφή",
+    "shortClue": "Βράχοι με μοναστήρια"
+  },
+  {
+    "word": "οπλιτησ",
+    "topics": [
+      "history"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Πολεμιστής με ασπίδα στην αρχαία Ελλάδα",
+    "shortClue": "Αρχαίος πολεμιστής"
+  },
+  {
+    "word": "κρανοσ",
+    "topics": [
+      "history"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Μεταλλικό κάλυμμα κεφαλής του πολεμιστή",
+    "shortClue": "Κάλυμμα κεφαλής"
+  },
+  {
+    "word": "δορυ",
+    "topics": [
+      "history"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Μακρύ όπλο με αιχμή",
+    "shortClue": "Μακρύ όπλο"
+  },
+  {
+    "word": "τοξο",
+    "topics": [
+      "history"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Όπλο που εκτοξεύει βέλη",
+    "shortClue": "Εκτοξεύει βέλη"
+  },
+  {
+    "word": "βελοσ",
+    "topics": [
+      "history"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Λεπτό ξύλινο βλήμα του τοξότη",
+    "shortClue": "Βλήμα τοξότη"
+  },
+  {
+    "word": "λογχη",
+    "topics": [
+      "history"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Μυτερή μεταλλική αιχμή του δόρατος",
+    "shortClue": "Αιχμή δόρατος"
+  },
+  {
+    "word": "καστρο",
+    "topics": [
+      "history"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Οχυρό αρχοντικό με πύργους",
+    "shortClue": "Οχυρό με πύργους"
+  },
+  {
+    "word": "τειχοσ",
+    "topics": [
+      "history"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Ψηλός τοίχος γύρω από πόλη",
+    "shortClue": "Τοίχος πόλης"
+  },
+  {
+    "word": "θρονοσ",
+    "topics": [
+      "history"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Η καρέκλα του βασιλιά",
+    "shortClue": "Καρέκλα βασιλιά"
+  },
+  {
+    "word": "στεμμα",
+    "topics": [
+      "history"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Κόσμημα στο κεφάλι του ηγεμόνα",
+    "shortClue": "Κόσμημα ηγεμόνα"
+  },
+  {
+    "word": "βασιλιασ",
+    "topics": [
+      "history"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Ηγεμόνας με στέμμα",
+    "shortClue": "Ηγεμόνας"
+  },
+  {
+    "word": "ιπποτησ",
+    "topics": [
+      "history"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Θωρακισμένος μεσαιωνικός πολεμιστής στο άλογο",
+    "shortClue": "Θωρακισμένος αναβάτης"
+  },
+  {
+    "word": "σπαθι",
+    "topics": [
+      "history"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Όπλο με μακριά λεπίδα",
+    "shortClue": "Όπλο με λεπίδα"
+  },
+  {
+    "word": "ανακτορο",
+    "topics": [
+      "history"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Παλάτι της αρχαίας Κρήτης",
+    "shortClue": "Παλάτι ηγεμόνα"
+  },
+  {
+    "word": "ψηφιδωτο",
+    "topics": [
+      "history"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Εικόνα από μικρές χρωματιστές πέτρες",
+    "shortClue": "Εικόνα από πέτρες"
+  },
+  {
+    "word": "κηρυκασ",
+    "topics": [
+      "history"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Αγγελιοφόρος που διαλαλούσε ειδήσεις",
+    "shortClue": "Αγγελιοφόρος"
+  },
+  {
+    "word": "δουλοσ",
+    "topics": [
+      "history"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Άνθρωπος χωρίς ελευθερία στην αρχαιότητα",
+    "shortClue": "Στερημένος ελευθερίας"
+  },
+  {
+    "word": "τριηρησ",
+    "topics": [
+      "history"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Αρχαίο πλοίο με τρεις σειρές κουπιών",
+    "shortClue": "Αρχαίο πλοίο"
+  },
+  {
+    "word": "μυθοσ",
+    "topics": [
+      "history"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Παραδοσιακή ιστορία με θεούς και ήρωες",
+    "shortClue": "Ιστορία με θεούς"
+  },
+  {
+    "word": "ηρωασ",
+    "topics": [
+      "history"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Γενναίος πρωταγωνιστής του μύθου",
+    "shortClue": "Γενναίος πρωταγωνιστής"
+  },
+  {
+    "word": "θεοσ",
+    "topics": [
+      "history"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Αθάνατο ον των αρχαίων",
+    "shortClue": "Αθάνατο ον"
+  },
+  {
+    "word": "λυχνοσ",
+    "topics": [
+      "history"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Αρχαία λάμπα με λάδι",
+    "shortClue": "Αρχαία λάμπα"
+  },
+  {
+    "word": "οβολοσ",
+    "topics": [
+      "history"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Μικρό αρχαίο νόμισμα",
+    "shortClue": "Αρχαίο νόμισμα"
+  },
+  {
+    "word": "ιερεασ",
+    "topics": [
+      "history"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Λειτουργός του ναού",
+    "shortClue": "Λειτουργός ναού"
+  },
+  {
+    "word": "χρησμοσ",
+    "topics": [
+      "history"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Απάντηση του μαντείου",
+    "shortClue": "Απάντηση μαντείου"
+  },
+  {
+    "word": "κλεψυδρα",
+    "topics": [
+      "history"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Αρχαίο όργανο μέτρησης χρόνου με νερό",
+    "shortClue": "Αρχαίο ρολόι νερού"
+  },
+  {
+    "word": "εποσ",
+    "topics": [
+      "history"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Μακρύ αφηγηματικό ποίημα για ήρωες",
+    "shortClue": "Ποίημα ηρώων"
+  },
+  {
+    "word": "κρατηρασ",
+    "topics": [
+      "history"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Αρχαίο αγγείο για ανάμειξη κρασιού με νερό",
+    "shortClue": "Αρχαίο αγγείο"
+  },
+  {
+    "word": "πυρηνασ",
+    "topics": [
+      "science"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Το κεντρικό μέρος του ατόμου",
+    "shortClue": "Κέντρο ατόμου"
+  },
+  {
+    "word": "πρωτονιο",
+    "topics": [
+      "science"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Θετικό σωματίδιο του πυρήνα",
+    "shortClue": "Θετικό σωματίδιο"
+  },
+  {
+    "word": "γαλαξιασ",
+    "topics": [
+      "science"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Τεράστιο σύνολο από άστρα",
+    "shortClue": "Σύνολο άστρων"
+  },
+  {
+    "word": "κομητησ",
+    "topics": [
+      "science"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Ουράνιο σώμα με φωτεινή ουρά",
+    "shortClue": "Σώμα με ουρά"
+  },
+  {
+    "word": "δορυφοροσ",
+    "topics": [
+      "science"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Σώμα που γυρίζει γύρω από πλανήτη",
+    "shortClue": "Συνοδός πλανήτη"
+  },
+  {
+    "word": "πυραυλοσ",
+    "topics": [
+      "science"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Όχημα που φτάνει στο διάστημα",
+    "shortClue": "Όχημα διαστήματος"
+  },
+  {
+    "word": "βαρυτητα",
+    "topics": [
+      "science"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Η δύναμη που μας τραβά προς τη γη",
+    "shortClue": "Έλξη της γης"
+  },
+  {
+    "word": "βαρομετρο",
+    "topics": [
+      "science"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Όργανο μέτρησης της ατμοσφαιρικής πίεσης",
+    "shortClue": "Μετρά πίεση αέρα"
+  },
+  {
+    "word": "εκκρεμεσ",
+    "topics": [
+      "science"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Βάρος που αιωρείται και ταλαντώνεται",
+    "shortClue": "Ταλαντώνεται"
+  },
+  {
+    "word": "οξυ",
+    "topics": [
+      "science"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Ξινή και διαβρωτική χημική ουσία",
+    "shortClue": "Ξινή ουσία"
+  },
+  {
+    "word": "ανθρακασ",
+    "topics": [
+      "science"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Μαύρο στοιχείο των διαμαντιών",
+    "shortClue": "Στοιχείο διαμαντιού"
+  },
+  {
+    "word": "υδρογονο",
+    "topics": [
+      "science"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Το ελαφρύτερο χημικό στοιχείο",
+    "shortClue": "Ελαφρύτερο στοιχείο"
+  },
+  {
+    "word": "χαλκοσ",
+    "topics": [
+      "science"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Κοκκινωπό μέταλλο των καλωδίων",
+    "shortClue": "Μέταλλο καλωδίων"
+  },
+  {
+    "word": "ατσαλι",
+    "topics": [
+      "science"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Κράμα σιδήρου και άνθρακα",
+    "shortClue": "Σκληρό κράμα"
+  },
+  {
+    "word": "χρυσοσ",
+    "topics": [
+      "science"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Κίτρινο πολύτιμο μέταλλο",
+    "shortClue": "Πολύτιμο μέταλλο"
+  },
+  {
+    "word": "ασημι",
+    "topics": [
+      "science"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Λευκό πολύτιμο μέταλλο",
+    "shortClue": "Λευκό μέταλλο"
+  },
+  {
+    "word": "διαμαντι",
+    "topics": [
+      "science"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Το σκληρότερο φυσικό ορυκτό",
+    "shortClue": "Σκληρότερο ορυκτό"
+  },
+  {
+    "word": "ορυκτο",
+    "topics": [
+      "science"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Φυσική ανόργανη ουσία της γης",
+    "shortClue": "Ουσία της γης"
+  },
+  {
+    "word": "γονιδιο",
+    "topics": [
+      "science"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Μονάδα κληρονομικότητας",
+    "shortClue": "Κληρονομική μονάδα"
+  },
+  {
+    "word": "πρωτεινη",
+    "topics": [
+      "science"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Θρεπτική ουσία των μυών",
+    "shortClue": "Ουσία των μυών"
+  },
+  {
+    "word": "ενζυμο",
+    "topics": [
+      "science"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Πρωτεΐνη που επιταχύνει χημικές αντιδράσεις",
+    "shortClue": "Επιταχύνει αντιδράσεις"
+  },
+  {
+    "word": "οστο",
+    "topics": [
+      "science"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Σκληρό μέρος του σκελετού",
+    "shortClue": "Σκληρό μέρος"
+  },
+  {
+    "word": "μυσ",
+    "topics": [
+      "science"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Ιστός που κινεί το σώμα",
+    "shortClue": "Κινεί το σώμα"
+  },
+  {
+    "word": "νεφρο",
+    "topics": [
+      "science"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Όργανο που φιλτράρει το αίμα",
+    "shortClue": "Φιλτράρει το αίμα"
+  },
+  {
+    "word": "δερμα",
+    "topics": [
+      "science"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Το εξωτερικό περίβλημα του σώματος",
+    "shortClue": "Περίβλημα σώματος"
+  },
+  {
+    "word": "αρτηρια",
+    "topics": [
+      "science"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Αγγείο που φέρνει αίμα από την καρδιά",
+    "shortClue": "Αγγείο αίματος"
+  },
+  {
+    "word": "κυκλοσ",
+    "topics": [
+      "science"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Τέλειο στρογγυλό σχήμα με ίση απόσταση από το κέντρο",
+    "shortClue": "Στρογγυλό σχήμα"
+  },
+  {
+    "word": "πρισμα",
+    "topics": [
+      "science"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Γυάλινο σώμα που αναλύει το φως",
+    "shortClue": "Αναλύει το φως"
+  },
+  {
+    "word": "φασμα",
+    "topics": [
+      "science"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Ανάλυση του φωτός στα χρώματά του",
+    "shortClue": "Χρώματα του φωτός"
+  },
+  {
+    "word": "ρακετα",
+    "topics": [
+      "sport"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Εργαλείο του τένις με χορδές",
+    "shortClue": "Εργαλείο με χορδές"
+  },
+  {
+    "word": "γκολ",
+    "topics": [
+      "sport"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Η είσοδος της μπάλας στα δίχτυα",
+    "shortClue": "Είσοδος στα δίχτυα"
+  },
+  {
+    "word": "πεναλτι",
+    "topics": [
+      "sport"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Εκτέλεση από το σημείο της ποινής",
+    "shortClue": "Βολή από σημείο"
+  },
+  {
+    "word": "τερμα",
+    "topics": [
+      "sport"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Η περιοχή όπου πρέπει να περάσει η μπάλα",
+    "shortClue": "Εστία"
+  },
+  {
+    "word": "αγωνασ",
+    "topics": [
+      "sport"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Αναμέτρηση ανάμεσα σε αθλητές",
+    "shortClue": "Αναμέτρηση"
+  },
+  {
+    "word": "αλτηρασ",
+    "topics": [
+      "sport"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Βάρος που σηκώνει ο αθλητής με τα χέρια",
+    "shortClue": "Βάρος των χεριών"
+  },
+  {
+    "word": "ηττα",
+    "topics": [
+      "sport"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Αποτυχία σε αγώνα",
+    "shortClue": "Αποτυχία σε αγώνα"
+  },
+  {
+    "word": "προπονητησ",
+    "topics": [
+      "sport"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Καθοδηγεί την ομάδα",
+    "shortClue": "Καθοδηγεί ομάδα"
+  },
+  {
+    "word": "αθλητησ",
+    "topics": [
+      "sport"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Άνθρωπος που αγωνίζεται σε αγώνες",
+    "shortClue": "Αγωνίζεται"
+  },
+  {
+    "word": "κερκιδα",
+    "topics": [
+      "sport"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Σειρά καθισμάτων για τους θεατές",
+    "shortClue": "Καθίσματα θεατών"
+  },
+  {
+    "word": "σταδιο",
+    "topics": [
+      "sport"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Χώρος αγώνων με κερκίδες",
+    "shortClue": "Χώρος αγώνων"
+  },
+  {
+    "word": "κυπελλο",
+    "topics": [
+      "sport"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Βραβείο σε σχήμα κούπας",
+    "shortClue": "Βραβείο νίκης"
+  },
+  {
+    "word": "αλμα",
+    "topics": [
+      "sport"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Πήδημα με φόρα",
+    "shortClue": "Πήδημα"
+  },
+  {
+    "word": "σφαιροβολια",
+    "topics": [
+      "sport"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Ρίψη βαριάς μεταλλικής μπάλας",
+    "shortClue": "Ρίψη βαριάς μπάλας"
+  },
+  {
+    "word": "δισκοβολια",
+    "topics": [
+      "sport"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Ρίψη του μεταλλικού δίσκου",
+    "shortClue": "Ρίψη δίσκου"
+  },
+  {
+    "word": "ακοντισμοσ",
+    "topics": [
+      "sport"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Ρίψη μακριού ξύλινου ραβδιού",
+    "shortClue": "Ρίψη ραβδιού"
+  },
+  {
+    "word": "ιστιοπλοια",
+    "topics": [
+      "sport"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Αγώνας με πανιά στη θάλασσα",
+    "shortClue": "Αγώνας με πανιά"
+  },
+  {
+    "word": "ξιφασκια",
+    "topics": [
+      "sport"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Μονομαχία με λεπίδες",
+    "shortClue": "Μονομαχία"
+  },
+  {
+    "word": "πυγμαχια",
+    "topics": [
+      "sport"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Άθλημα με γάντια",
+    "shortClue": "Άθλημα με γάντια"
+  },
+  {
+    "word": "σκακι",
+    "topics": [
+      "sport"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Επιτραπέζιο παιχνίδι με βασίλισσα και βασιλιά",
+    "shortClue": "Παιχνίδι στρατηγικής"
+  },
+  {
+    "word": "ταβλι",
+    "topics": [
+      "sport"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Επιτραπέζιο παιχνίδι με ζάρια και πούλια",
+    "shortClue": "Παιχνίδι με ζάρια"
+  },
+  {
+    "word": "ζαρι",
+    "topics": [
+      "sport"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Κύβος με τελείες",
+    "shortClue": "Κύβος με τελείες"
+  },
+  {
+    "word": "βολει",
+    "topics": [
+      "sport"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Παιχνίδι με φιλέ και μπάλα",
+    "shortClue": "Παιχνίδι με φιλέ"
+  },
+  {
+    "word": "φανελα",
+    "topics": [
+      "sport"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Μπλουζάκι της ομάδας",
+    "shortClue": "Μπλουζάκι ομάδας"
+  },
+  {
+    "word": "ελκηθρο",
+    "topics": [
+      "sport"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Όχημα που γλιστρά στο χιόνι",
+    "shortClue": "Όχημα του χιονιού"
+  },
+  {
+    "word": "πατιναζ",
+    "topics": [
+      "sport"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Αθλητισμός με λεπίδες σε παγωμένη επιφάνεια",
+    "shortClue": "Αθλητισμός με λεπίδες"
+  },
+  {
+    "word": "νοτα",
+    "topics": [
+      "arts"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Σύμβολο μουσικής στο πεντάγραμμο",
+    "shortClue": "Μουσικό σύμβολο"
+  },
+  {
+    "word": "χορδη",
+    "topics": [
+      "arts"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Νήμα που ηχεί στο βιολί",
+    "shortClue": "Νήμα οργάνου"
+  },
+  {
+    "word": "τυμπανο",
+    "topics": [
+      "arts"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Κρουστό όργανο που χτυπιέται με ραβδιά",
+    "shortClue": "Κρουστό"
+  },
+  {
+    "word": "φλογερα",
+    "topics": [
+      "arts"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Απλό πνευστό των βοσκών",
+    "shortClue": "Πνευστό των βοσκών"
+  },
+  {
+    "word": "λαουτο",
+    "topics": [
+      "arts"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Έγχορδο λαϊκό όργανο με μακρύ λαιμό",
+    "shortClue": "Λαϊκό έγχορδο"
+  },
+  {
+    "word": "ουτι",
+    "topics": [
+      "arts"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Έγχορδο της Ανατολής με αχλαδόσχημο σώμα",
+    "shortClue": "Αχλαδόσχημο έγχορδο"
+  },
+  {
+    "word": "σαντουρι",
+    "topics": [
+      "arts"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Έγχορδο που παίζεται με δύο ραβδάκια",
+    "shortClue": "Έγχορδο με ραβδάκια"
+  },
+  {
+    "word": "μασκα",
+    "topics": [
+      "arts"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Προσωπείο του ηθοποιού",
+    "shortClue": "Προσωπείο"
+  },
+  {
+    "word": "αυλαια",
+    "topics": [
+      "arts"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Βαρύ ύφασμα που ανοίγει στη σκηνή",
+    "shortClue": "Ύφασμα σκηνής"
+  },
+  {
+    "word": "ηθοποιοσ",
+    "topics": [
+      "arts"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Υποδύεται πρόσωπα στο θέατρο",
+    "shortClue": "Υποδύεται πρόσωπα"
+  },
+  {
+    "word": "χορωδια",
+    "topics": [
+      "arts"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Ομάδα που τραγουδά μαζί",
+    "shortClue": "Ομαδικό τραγούδι"
+  },
+  {
+    "word": "μαεστροσ",
+    "topics": [
+      "arts"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Κατευθύνει τους μουσικούς με μπαγκέτα",
+    "shortClue": "Διευθύνει μουσικούς"
+  },
+  {
+    "word": "συμφωνια",
+    "topics": [
+      "arts"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Μεγάλο έργο για ορχήστρα με πολλά μέρη",
+    "shortClue": "Έργο ορχήστρας"
+  },
+  {
+    "word": "μελωδια",
+    "topics": [
+      "arts"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Γλυκιά σειρά από νότες",
+    "shortClue": "Σειρά νοτών"
+  },
+  {
+    "word": "πιανο",
+    "topics": [
+      "arts"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Έγχορδο με άσπρα και μαύρα πλήκτρα",
+    "shortClue": "Έγχορδο με πλήκτρα"
+  },
+  {
+    "word": "αρπα",
+    "topics": [
+      "arts"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Έγχορδο με πολλές κάθετες χορδές",
+    "shortClue": "Κάθετες χορδές"
+  },
+  {
+    "word": "καμβασ",
+    "topics": [
+      "arts"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Ύφασμα όπου ζωγραφίζει ο καλλιτέχνης",
+    "shortClue": "Ύφασμα ζωγράφου"
+  },
+  {
+    "word": "τοπιο",
+    "topics": [
+      "arts"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Εικόνα της εξοχής",
+    "shortClue": "Εικόνα εξοχής"
+  },
+  {
+    "word": "πινακασ",
+    "topics": [
+      "arts"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Έργο ζωγραφικής σε κορνίζα",
+    "shortClue": "Έργο σε κορνίζα"
+  },
+  {
+    "word": "γλυπτο",
+    "topics": [
+      "arts"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Έργο σκαλισμένο σε πέτρα ή μάρμαρο",
+    "shortClue": "Σκαλισμένο έργο"
+  },
+  {
+    "word": "μαρμαρο",
+    "topics": [
+      "arts"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Λευκή πέτρα των αγαλμάτων",
+    "shortClue": "Πέτρα αγαλμάτων"
+  },
+  {
+    "word": "πηλοσ",
+    "topics": [
+      "arts"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Μαλακό χώμα για αγγεία",
+    "shortClue": "Χώμα για αγγεία"
+  },
+  {
+    "word": "κωμωδια",
+    "topics": [
+      "arts"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Θεατρικό έργο που προκαλεί γέλιο",
+    "shortClue": "Έργο με γέλιο"
+  },
+  {
+    "word": "τραγωδια",
+    "topics": [
+      "arts"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Σοβαρό αρχαίο δράμα με θλιβερό τέλος",
+    "shortClue": "Σοβαρό αρχαίο δράμα"
+  },
+  {
+    "word": "μπαλετο",
+    "topics": [
+      "arts"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Κλασικός χορός στις μύτες των ποδιών",
+    "shortClue": "Κλασικός χορός"
+  },
+  {
+    "word": "βαλσ",
+    "topics": [
+      "arts"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Χορός σε τρία τέταρτα",
+    "shortClue": "Χορός τριών τετάρτων"
+  },
+  {
+    "word": "σκιτσο",
+    "topics": [
+      "arts"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Γρήγορο σχέδιο με μολύβι",
+    "shortClue": "Γρήγορο σχέδιο"
+  },
+  {
+    "word": "εκθεση",
+    "topics": [
+      "arts"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Παρουσίαση έργων στο κοινό",
+    "shortClue": "Παρουσίαση έργων"
+  },
+  {
+    "word": "τεχνη",
+    "topics": [
+      "arts"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Δημιουργία ωραίων πραγμάτων",
+    "shortClue": "Δημιουργία ομορφιάς"
+  },
+  {
+    "word": "στιχοσ",
+    "topics": [
+      "arts"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Γραμμή ποιήματος",
+    "shortClue": "Γραμμή ποιήματος"
+  },
+  {
+    "word": "ριμα",
+    "topics": [
+      "arts"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Ομοιοκαταληξία στο τέλος των στίχων",
+    "shortClue": "Ομοιοκαταληξία"
+  },
+  {
+    "word": "χορογραφια",
+    "topics": [
+      "arts"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Η σύνθεση των κινήσεων ενός χορού",
+    "shortClue": "Σύνθεση κινήσεων"
+  },
+  {
+    "word": "ταινια",
+    "topics": [
+      "arts"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Έργο που προβάλλεται στον κινηματογράφο",
+    "shortClue": "Έργο κινηματογράφου"
+  },
+  {
+    "word": "τρομπετα",
+    "topics": [
+      "arts"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Χάλκινο πνευστό με τρεις βαλβίδες",
+    "shortClue": "Χάλκινο πνευστό"
+  },
+  {
+    "word": "τοιχοσ",
+    "topics": [
+      "home"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Όρθια πλευρά δωματίου",
+    "shortClue": "Πλευρά δωματίου"
+  },
+  {
+    "word": "στεγη",
+    "topics": [
+      "home"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Το κάλυμμα που προστατεύει το σπίτι από τη βροχή",
+    "shortClue": "Κάλυμμα σπιτιού"
+  },
+  {
+    "word": "πατωμα",
+    "topics": [
+      "home"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Η κάτω επιφάνεια ενός δωματίου",
+    "shortClue": "Κάτω επιφάνεια"
+  },
+  {
+    "word": "ταβανι",
+    "topics": [
+      "home"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Η πάνω επιφάνεια ενός δωματίου",
+    "shortClue": "Πάνω επιφάνεια"
+  },
+  {
+    "word": "αυλη",
+    "topics": [
+      "home"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Ανοιχτός χώρος μέσα στο σπίτι",
+    "shortClue": "Ανοιχτός χώρος"
+  },
+  {
+    "word": "τζακι",
+    "topics": [
+      "home"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Εστία με φωτιά στο σαλόνι",
+    "shortClue": "Εστία με φωτιά"
+  },
+  {
+    "word": "πιρουνι",
+    "topics": [
+      "home"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Σκεύος με δόντια για το φαγητό",
+    "shortClue": "Σκεύος με δόντια"
+  },
+  {
+    "word": "ποτηρι",
+    "topics": [
+      "home"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Γυάλινο σκεύος για το νερό",
+    "shortClue": "Γυάλινο σκεύος"
+  },
+  {
+    "word": "σφυρι",
+    "topics": [
+      "home"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Εργαλείο για καρφιά",
+    "shortClue": "Εργαλείο για καρφιά"
+  },
+  {
+    "word": "καρφι",
+    "topics": [
+      "home"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Μυτερό μέταλλο που χτυπιέται στο ξύλο",
+    "shortClue": "Μυτερό μέταλλο"
+  },
+  {
+    "word": "πριονι",
+    "topics": [
+      "home"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Εργαλείο με δόντια για κόψιμο ξύλου",
+    "shortClue": "Κόβει ξύλο"
+  },
+  {
+    "word": "πενσα",
+    "topics": [
+      "home"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Εργαλείο που πιάνει και κόβει σύρμα",
+    "shortClue": "Πιάνει σύρμα"
+  },
+  {
+    "word": "βουρτσα",
+    "topics": [
+      "home"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Εργαλείο με τρίχες για καθάρισμα",
+    "shortClue": "Εργαλείο με τρίχες"
+  },
+  {
+    "word": "σεντονι",
+    "topics": [
+      "home"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Λευκό ύφασμα του κρεβατιού",
+    "shortClue": "Ύφασμα κρεβατιού"
+  },
+  {
+    "word": "χαλι",
+    "topics": [
+      "home"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Υφαντό για το πάτωμα",
+    "shortClue": "Υφαντό δαπέδου"
+  },
+  {
+    "word": "ντουλαπα",
+    "topics": [
+      "home"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Έπιπλο για ρούχα",
+    "shortClue": "Έπιπλο για ρούχα"
+  },
+  {
+    "word": "ραφι",
+    "topics": [
+      "home"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Οριζόντια σανίδα για βιβλία",
+    "shortClue": "Σανίδα για βιβλία"
+  },
+  {
+    "word": "συρταρι",
+    "topics": [
+      "home"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Κουτί που ανοίγει μέσα σε έπιπλο",
+    "shortClue": "Κουτί επίπλου"
+  },
+  {
+    "word": "σκαμνι",
+    "topics": [
+      "home"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Κάθισμα χωρίς πλάτη",
+    "shortClue": "Χωρίς πλάτη"
+  },
+  {
+    "word": "πομολο",
+    "topics": [
+      "home"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Η λαβή που γυρίζεις για να ανοίξεις την πόρτα",
+    "shortClue": "Λαβή πόρτας"
+  },
+  {
+    "word": "μανταλο",
+    "topics": [
+      "home"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Μεταλλικός σύρτης που κλειδώνει την πόρτα",
+    "shortClue": "Σύρτης πόρτας"
+  },
+  {
+    "word": "ρολοι",
+    "topics": [
+      "home"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Δείχνει την ώρα",
+    "shortClue": "Δείχνει ώρα"
+  },
+  {
+    "word": "φακοσ",
+    "topics": [
+      "home"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Φορητή λάμπα με μπαταρία",
+    "shortClue": "Φορητή λάμπα"
+  },
+  {
+    "word": "κερι",
+    "topics": [
+      "home"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Φωτιστικό με φυτίλι που λιώνει",
+    "shortClue": "Φωτιστικό με φυτίλι"
+  },
+  {
+    "word": "σομπα",
+    "topics": [
+      "home"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Θερμάστρα με καυσόξυλα",
+    "shortClue": "Θέρμανση με ξύλα"
+  },
+  {
+    "word": "λεβητασ",
+    "topics": [
+      "home"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Δοχείο που ζεσταίνει το νερό για τα καλοριφέρ",
+    "shortClue": "Ζεσταίνει νερό"
+  },
+  {
+    "word": "παταρι",
+    "topics": [
+      "home"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Ενδιάμεσος όροφος κάτω από τη στέγη",
+    "shortClue": "Ημιώροφος"
+  },
+  {
+    "word": "σοφιτα",
+    "topics": [
+      "home"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Δωμάτιο ακριβώς κάτω από τη στέγη",
+    "shortClue": "Δωμάτιο στέγης"
+  },
+  {
+    "word": "υπογειο",
+    "topics": [
+      "home"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Χώρος του σπιτιού κάτω από το έδαφος",
+    "shortClue": "Κάτω από έδαφος"
+  },
+  {
+    "word": "κουβασ",
+    "topics": [
+      "home"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Δοχείο με χερούλι για νερό",
+    "shortClue": "Δοχείο με χερούλι"
+  },
+  {
+    "word": "ψαλιδι",
+    "topics": [
+      "home"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Κόβει χαρτί και ύφασμα",
+    "shortClue": "Κόβει χαρτί"
+  },
+  {
+    "word": "βελονα",
+    "topics": [
+      "home"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Λεπτό εργαλείο ραψίματος",
+    "shortClue": "Εργαλείο ραψίματος"
+  },
+  {
+    "word": "κουμπι",
+    "topics": [
+      "home"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Κλείνει το πουκάμισο",
+    "shortClue": "Κλείνει πουκάμισο"
+  },
+  {
+    "word": "κλωστη",
+    "topics": [
+      "home"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Λεπτό νήμα για ράψιμο",
+    "shortClue": "Νήμα ραψίματος"
+  },
+  {
+    "word": "δαχτυληθρα",
+    "topics": [
+      "home"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Μεταλλικό καπάκι που προστατεύει στο ράψιμο",
+    "shortClue": "Καπάκι ραψίματος"
+  },
+  {
+    "word": "νοσοκομοσ",
+    "topics": [
+      "professions"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Φροντίζει τους άρρωστους δίπλα στον γιατρό",
+    "shortClue": "Βοηθά τον γιατρό"
+  },
+  {
+    "word": "δικαστησ",
+    "topics": [
+      "professions"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Εκδίδει αποφάσεις σε υποθέσεις",
+    "shortClue": "Εκδίδει αποφάσεις"
+  },
+  {
+    "word": "πιλοτοσ",
+    "topics": [
+      "professions"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Οδηγεί το αεροπλάνο",
+    "shortClue": "Οδηγεί αεροπλάνο"
+  },
+  {
+    "word": "ναυτησ",
+    "topics": [
+      "professions"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Εργάζεται πάνω στο πλοίο",
+    "shortClue": "Δουλεύει σε πλοίο"
+  },
+  {
+    "word": "καπετανιοσ",
+    "topics": [
+      "professions"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Αρχηγός του πλοίου",
+    "shortClue": "Αρχηγός πλοίου"
+  },
+  {
+    "word": "μαραγκοσ",
+    "topics": [
+      "professions"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Δουλεύει το ξύλο και φτιάχνει έπιπλα",
+    "shortClue": "Ξυλουργός"
+  },
+  {
+    "word": "κτιστησ",
+    "topics": [
+      "professions"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Ανεγείρει τοίχους με τούβλα",
+    "shortClue": "Ανεγείρει τοίχους"
+  },
+  {
+    "word": "υδραυλικοσ",
+    "topics": [
+      "professions"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Επισκευάζει σωλήνες και βρύσες",
+    "shortClue": "Επισκευάζει σωλήνες"
+  },
+  {
+    "word": "τσαγκαρησ",
+    "topics": [
+      "professions"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Επισκευάζει τα παπούτσια",
+    "shortClue": "Επισκευάζει παπούτσια"
+  },
+  {
+    "word": "κουρεασ",
+    "topics": [
+      "professions"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Κόβει τα μαλλιά",
+    "shortClue": "Κόβει μαλλιά"
+  },
+  {
+    "word": "μπακαλησ",
+    "topics": [
+      "professions"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Πουλά τρόφιμα στη γειτονιά",
+    "shortClue": "Πουλά τρόφιμα"
+  },
+  {
+    "word": "χασαπησ",
+    "topics": [
+      "professions"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Πουλά φρέσκο κρέας",
+    "shortClue": "Πουλά κρέας"
+  },
+  {
+    "word": "βοσκοσ",
+    "topics": [
+      "professions"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Φυλάει τα πρόβατα στο βουνό",
+    "shortClue": "Φυλάει πρόβατα"
+  },
+  {
+    "word": "ταμιασ",
+    "topics": [
+      "professions"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Εισπράττει τα χρήματα στο κατάστημα",
+    "shortClue": "Εισπράττει χρήματα"
+  },
+  {
+    "word": "σερβιτοροσ",
+    "topics": [
+      "professions"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Φέρνει φαγητά στους πελάτες",
+    "shortClue": "Φέρνει φαγητά"
+  },
+  {
+    "word": "μαστορασ",
+    "topics": [
+      "professions"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Έμπειρος τεχνίτης",
+    "shortClue": "Έμπειρος τεχνίτης"
+  },
+  {
+    "word": "αστρονομοσ",
+    "topics": [
+      "professions"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Μελετά τους πλανήτες και τους γαλαξίες",
+    "shortClue": "Μελετά πλανήτες"
+  },
+  {
+    "word": "χημικοσ",
+    "topics": [
+      "professions"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Ειδικός στις ουσίες και τις αντιδράσεις",
+    "shortClue": "Ειδικός ουσιών"
+  },
+  {
+    "word": "γεωλογοσ",
+    "topics": [
+      "professions"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Μελετά τα πετρώματα της γης",
+    "shortClue": "Μελετά πετρώματα"
+  },
+  {
+    "word": "πρεσβησ",
+    "topics": [
+      "professions"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Εκπρόσωπος της χώρας του στο εξωτερικό",
+    "shortClue": "Εκπρόσωπος χώρας"
+  },
+  {
+    "word": "διερμηνεασ",
+    "topics": [
+      "professions"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Μεταφέρει προφορικά τα λόγια σε άλλη γλώσσα",
+    "shortClue": "Μεταφέρει λόγια"
+  },
+  {
+    "word": "φυλακασ",
+    "topics": [
+      "professions"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Προστατεύει ένα κτίριο ή χώρο",
+    "shortClue": "Προστατεύει χώρο"
+  },
+  {
+    "word": "λογιστησ",
+    "topics": [
+      "professions"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Τηρεί τα βιβλία εσόδων και εξόδων",
+    "shortClue": "Τηρεί βιβλία"
+  },
+  {
+    "word": "μπαγλαμασ",
+    "topics": [
+      "localCulture"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Μικρό έγχορδο του ρεμπέτικου",
+    "shortClue": "Μικρό έγχορδο"
+  },
+  {
+    "word": "φουστανελα",
+    "topics": [
+      "localCulture"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Πλισέ λευκή φορεσιά των τσολιάδων",
+    "shortClue": "Λευκή φορεσιά"
+  },
+  {
+    "word": "τσολιασ",
+    "topics": [
+      "localCulture"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Φρουρός με φουστανέλα και φούντα",
+    "shortClue": "Φρουρός με φούντα"
+  },
+  {
+    "word": "πανηγυρι",
+    "topics": [
+      "localCulture"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Γιορτή του χωριού με χορό και φαγητό",
+    "shortClue": "Γιορτή χωριού"
+  },
+  {
+    "word": "παρελαση",
+    "topics": [
+      "localCulture"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Πομπή στους δρόμους για εθνική γιορτή",
+    "shortClue": "Πομπή στους δρόμους"
+  },
+  {
+    "word": "καρναβαλι",
+    "topics": [
+      "localCulture"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Αποκριάτικη γιορτή με μεταμφιέσεις",
+    "shortClue": "Γιορτή με στολές"
+  },
+  {
+    "word": "λαμπαδα",
+    "topics": [
+      "localCulture"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Μεγάλο στολισμένο κερί του Πάσχα",
+    "shortClue": "Κερί του Πάσχα"
+  },
+  {
+    "word": "φετα",
+    "topics": [
+      "localCulture"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Λευκό τυρί σε άλμη",
+    "shortClue": "Λευκό τυρί"
+  },
+  {
+    "word": "μαστιχα",
+    "topics": [
+      "localCulture"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Ρητίνη από σκίνο της Χίου",
+    "shortClue": "Ρητίνη της Χίου"
+  },
+  {
+    "word": "τσιπουρο",
+    "topics": [
+      "localCulture"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Απόσταγμα από στέμφυλα",
+    "shortClue": "Απόσταγμα"
+  },
+  {
+    "word": "μεζεσ",
+    "topics": [
+      "localCulture"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Μικρή μπουκιά που συνοδεύει το ποτό",
+    "shortClue": "Μπουκιά με ποτό"
+  },
+  {
+    "word": "γυροσ",
+    "topics": [
+      "localCulture"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Κρέας από περιστρεφόμενη σούβλα σε πίτα",
+    "shortClue": "Κρέας σε πίτα"
+  },
+  {
+    "word": "ντολμαδεσ",
+    "topics": [
+      "localCulture"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Γεμιστά αμπελόφυλλα με ρύζι",
+    "shortClue": "Γεμιστά αμπελόφυλλα"
+  },
+  {
+    "word": "μελομακαρονο",
+    "topics": [
+      "localCulture"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Χριστουγεννιάτικο γλυκό με σιρόπι και καρύδι",
+    "shortClue": "Γλυκό Χριστουγέννων"
+  },
+  {
+    "word": "καλαματιανοσ",
+    "topics": [
+      "localCulture"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Παραδοσιακός χορός σε ρυθμό επτά όγδοα",
+    "shortClue": "Παραδοσιακός χορός"
+  },
+  {
+    "word": "τσαμικο",
+    "topics": [
+      "localCulture"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Παραδοσιακός ανδρικός χορός της Ρούμελης",
+    "shortClue": "Ανδρικός χορός"
+  },
+  {
+    "word": "κουραμπιεσ",
+    "topics": [
+      "localCulture"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Αμυγδαλωτό γλυκό με άχνη ζάχαρη",
+    "shortClue": "Γλυκό της άχνης"
+  },
+  {
+    "word": "Επιδαυροσ",
+    "topics": [
+      "localCulture"
+    ],
+    "difficulty": 2,
+    "kind": "proper",
+    "clue": "Αρχαίο θέατρο με εξαιρετική ακουστική",
+    "shortClue": "Αρχαίο θέατρο"
+  },
+  {
+    "word": "Μυστρασ",
+    "topics": [
+      "localCulture"
+    ],
+    "difficulty": 3,
+    "kind": "proper",
+    "clue": "Μεσαιωνική ερειπωμένη πόλη κοντά στη Σπάρτη",
+    "shortClue": "Βυζαντινή πόλη"
+  },
+  {
+    "word": "Ομηροσ",
+    "topics": [
+      "localCulture"
+    ],
+    "difficulty": 2,
+    "kind": "proper",
+    "clue": "Ο ποιητής της Ιλιάδας και της Οδύσσειας",
+    "shortClue": "Ποιητής των επών"
+  },
+  {
+    "word": "Ιλιαδα",
+    "topics": [
+      "localCulture"
+    ],
+    "difficulty": 2,
+    "kind": "proper",
+    "clue": "Το έπος του Ομήρου για την Τροία",
+    "shortClue": "Έπος της Τροίας"
+  },
+  {
+    "word": "Ερμησ",
+    "topics": [
+      "localCulture"
+    ],
+    "difficulty": 2,
+    "kind": "proper",
+    "clue": "Ο αγγελιοφόρος των θεών με φτερωτά σανδάλια",
+    "shortClue": "Αγγελιοφόρος θεών"
+  },
+  {
+    "word": "Ζευσ",
+    "topics": [
+      "localCulture"
+    ],
+    "difficulty": 1,
+    "kind": "proper",
+    "clue": "Ο πατέρας των θεών του Ολύμπου",
+    "shortClue": "Πατέρας των θεών"
+  },
+  {
+    "word": "Ηρακλησ",
+    "topics": [
+      "localCulture"
+    ],
+    "difficulty": 1,
+    "kind": "proper",
+    "clue": "Ο ήρωας με τους δώδεκα άθλους",
+    "shortClue": "Ήρωας με άθλους"
+  },
+  {
+    "word": "Αφροδιτη",
+    "topics": [
+      "localCulture"
+    ],
+    "difficulty": 2,
+    "kind": "proper",
+    "clue": "Θεά της ομορφιάς και του έρωτα",
+    "shortClue": "Θεά ομορφιάς"
+  },
+  {
+    "word": "Ορφεασ",
+    "topics": [
+      "localCulture"
+    ],
+    "difficulty": 3,
+    "kind": "proper",
+    "clue": "Μυθικός μουσικός με λύρα",
+    "shortClue": "Μυθικός μουσικός"
+  },
+  {
+    "word": "νοστοσ",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Η λαχτάρα της επιστροφής στην πατρίδα",
+    "shortClue": "Λαχτάρα επιστροφής"
+  },
+  {
+    "word": "σθενοσ",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Μεγάλη ψυχική αντοχή και δύναμη",
+    "shortClue": "Ψυχική αντοχή"
+  },
+  {
+    "word": "υβρισ",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Υπέρμετρη αλαζονεία απέναντι στους θεούς",
+    "shortClue": "Υπέρμετρη αλαζονεία"
+  },
+  {
+    "word": "κλεοσ",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Η δόξα που μένει για πάντα",
+    "shortClue": "Αιώνια δόξα"
+  },
+  {
+    "word": "ποθοσ",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Έντονη επιθυμία",
+    "shortClue": "Έντονη επιθυμία"
+  },
+  {
+    "word": "χαοσ",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Πλήρης αταξία και σύγχυση",
+    "shortClue": "Πλήρης αταξία"
+  },
+  {
+    "word": "λαθοσ",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Σφάλμα που γίνεται από απροσεξία",
+    "shortClue": "Σφάλμα"
+  },
+  {
+    "word": "οριο",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Γραμμή που δεν πρέπει να ξεπεράσεις",
+    "shortClue": "Γραμμή περιορισμού"
+  },
+  {
+    "word": "πεισμα",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Άκαμπτη επιμονή στη γνώμη σου",
+    "shortClue": "Άκαμπτη επιμονή"
+  },
+  {
+    "word": "ριγοσ",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Ανατριχίλα από το κρύο",
+    "shortClue": "Ανατριχίλα"
+  },
+  {
+    "word": "πιστη",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Σταθερή εμπιστοσύνη σε κάποιον ή κάτι",
+    "shortClue": "Σταθερή εμπιστοσύνη"
+  },
+  {
+    "word": "ψυχη",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Η άυλη ουσία του ανθρώπου",
+    "shortClue": "Άυλη ουσία"
+  },
+  {
+    "word": "ρολοσ",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Η θέση του ηθοποιού στο έργο",
+    "shortClue": "Θέση στο έργο"
+  },
+  {
+    "word": "ζαλη",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Αίσθηση που γυρίζει το κεφάλι",
+    "shortClue": "Γυρίζει το κεφάλι"
+  },
+  {
+    "word": "ζημια",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Φθορά που φέρνει απώλεια",
+    "shortClue": "Φθορά"
+  },
+  {
+    "word": "ωθηση",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Σπρώξιμο προς τα μπρος",
+    "shortClue": "Σπρώξιμο"
+  },
+  {
+    "word": "μοδα",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Το κυρίαρχο στυλ ρούχων μιας εποχής",
+    "shortClue": "Στυλ εποχής"
+  },
+  {
+    "word": "θεα",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Αυτό που αντικρίζεις από ψηλά",
+    "shortClue": "Εικόνα από ψηλά"
+  },
+  {
+    "word": "ληθη",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Το να χάνεται κάτι από τη μνήμη",
+    "shortClue": "Απώλεια μνήμης"
+  },
+  {
+    "word": "παχνη",
+    "topics": [
+      "nature"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Λεπτό στρώμα πάγου στο χώμα το πρωί",
+    "shortClue": "Πρωινός πάγος"
+  },
+  {
+    "word": "οαση",
+    "topics": [
+      "nature"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Πράσινη νησίδα μέσα στην έρημο",
+    "shortClue": "Πράσινο της ερήμου"
+  },
+  {
+    "word": "φλοιοσ",
+    "topics": [
+      "nature"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Το εξωτερικό περίβλημα του κορμού",
+    "shortClue": "Περίβλημα κορμού"
+  },
+  {
+    "word": "ρεμα",
+    "topics": [
+      "nature"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Μικρός χείμαρρος που κυλά στην πλαγιά",
+    "shortClue": "Μικρός χείμαρρος"
+  },
+  {
+    "word": "φυκι",
+    "topics": [
+      "nature"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Πράσινο φυτό που ζει στη θάλασσα",
+    "shortClue": "Φυτό της θάλασσας"
+  },
+  {
+    "word": "βρυο",
+    "topics": [
+      "nature"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Μικρό πράσινο φυτό σε υγρούς βράχους",
+    "shortClue": "Φυτό των βράχων"
+  },
+  {
+    "word": "μυγα",
+    "topics": [
+      "animals"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Έντομο που βουίζει γύρω από το φαγητό",
+    "shortClue": "Βουίζον έντομο"
+  },
+  {
+    "word": "σφηκα",
+    "topics": [
+      "animals"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Κίτρινο ριγέ έντομο με κεντρί",
+    "shortClue": "Ριγέ έντομο"
+  },
+  {
+    "word": "χελι",
+    "topics": [
+      "animals"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Μακρύ ψάρι που μοιάζει με φίδι",
+    "shortClue": "Μακρύ ψάρι"
+  },
+  {
+    "word": "τονοσ",
+    "topics": [
+      "animals"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Μεγάλο ψάρι της κονσέρβας",
+    "shortClue": "Ψάρι κονσέρβας"
+  },
+  {
+    "word": "γαυροσ",
+    "topics": [
+      "animals"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Μικρό ψάρι που τρώγεται τηγανητό",
+    "shortClue": "Μικρό τηγανητό ψάρι"
+  },
+  {
+    "word": "ψυλλοσ",
+    "topics": [
+      "animals"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Μικροσκοπικό έντομο που πηδά και τσιμπά",
+    "shortClue": "Πηδά και τσιμπά"
+  },
+  {
+    "word": "ταυροσ",
+    "topics": [
+      "animals"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Αρσενικό βοοειδές με κέρατα",
+    "shortClue": "Αρσενικό βοοειδές"
+  },
+  {
+    "word": "τραγοσ",
+    "topics": [
+      "animals"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Αρσενική κατσίκα",
+    "shortClue": "Αρσενική κατσίκα"
+  },
+  {
+    "word": "κριαρι",
+    "topics": [
+      "animals"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Αρσενικό πρόβατο",
+    "shortClue": "Αρσενικό πρόβατο"
+  },
+  {
+    "word": "υαινα",
+    "topics": [
+      "animals"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Αρπακτικό της Αφρικής που ουρλιάζει σαν γέλιο",
+    "shortClue": "Αρπακτικό της Αφρικής"
+  },
+  {
+    "word": "πυλη",
+    "topics": [
+      "history"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Μεγάλη είσοδος ενός τείχους",
+    "shortClue": "Είσοδος τείχους"
+  },
+  {
+    "word": "αθλοσ",
+    "topics": [
+      "history"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Ηρωική πράξη που απαιτεί μεγάλη δύναμη",
+    "shortClue": "Ηρωική πράξη"
+  },
+  {
+    "word": "αρμα",
+    "topics": [
+      "history"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Αρχαίο όχημα που το τραβούσαν άλογα",
+    "shortClue": "Αρχαίο όχημα"
+  },
+  {
+    "word": "στηλη",
+    "topics": [
+      "history"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Όρθια πέτρα με χαραγμένο κείμενο",
+    "shortClue": "Πέτρα με κείμενο"
+  },
+  {
+    "word": "κλινη",
+    "topics": [
+      "history"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Αρχαίο κρεβάτι",
+    "shortClue": "Αρχαίο κρεβάτι"
+  },
+  {
+    "word": "υλη",
+    "topics": [
+      "science"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Ό,τι αποτελεί τα σώματα",
+    "shortClue": "Υλικό των σωμάτων"
+  },
+  {
+    "word": "οζον",
+    "topics": [
+      "science"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Μορφή οξυγόνου που προστατεύει από την ηλιακή ακτινοβολία",
+    "shortClue": "Προστατευτικό αέριο"
+  },
+  {
+    "word": "ατμοσ",
+    "topics": [
+      "science"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Νερό σε αέρια μορφή",
+    "shortClue": "Αέριο νερό"
+  },
+  {
+    "word": "ιοσ",
+    "topics": [
+      "science"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Μικροσκοπικός παράγοντας που προκαλεί ασθένειες",
+    "shortClue": "Μικροσκοπικός παράγοντας"
+  },
+  {
+    "word": "ηπαρ",
+    "topics": [
+      "science"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Μεγάλος αδένας της κοιλιάς που παράγει χολή",
+    "shortClue": "Συκώτι"
+  },
+  {
+    "word": "νικη",
+    "topics": [
+      "sport"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Επιτυχία σε αγώνα",
+    "shortClue": "Επιτυχία"
+  },
+  {
+    "word": "φαουλ",
+    "topics": [
+      "sport"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Παράβαση κανόνα στο ποδόσφαιρο",
+    "shortClue": "Παράβαση κανόνα"
+  },
+  {
+    "word": "γκολφ",
+    "topics": [
+      "sport"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Άθλημα με ραβδί και μικρό μπαλάκι",
+    "shortClue": "Άθλημα με ραβδί"
+  },
+  {
+    "word": "ραλι",
+    "topics": [
+      "sport"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Αγώνας αυτοκινήτων σε δρόμους με δυσκολίες",
+    "shortClue": "Αγώνας αυτοκινήτων"
+  },
+  {
+    "word": "ωδειο",
+    "topics": [
+      "arts"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Σχολή μουσικής",
+    "shortClue": "Σχολή μουσικής"
+  },
+  {
+    "word": "τσελο",
+    "topics": [
+      "arts"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Μεγάλο έγχορδο που παίζεται καθιστά",
+    "shortClue": "Μεγάλο έγχορδο"
+  },
+  {
+    "word": "υμνοσ",
+    "topics": [
+      "arts"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Εγκωμιαστικό τραγούδι για θεό ή πατρίδα",
+    "shortClue": "Εγκωμιαστικό τραγούδι"
+  },
+  {
+    "word": "αφισα",
+    "topics": [
+      "arts"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Μεγάλο χαρτί διαφήμισης στον τοίχο",
+    "shortClue": "Διαφημιστικό χαρτί"
+  },
+  {
+    "word": "μαγοσ",
+    "topics": [
+      "professions"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Κάνει κόλπα που φαίνονται απίθανα",
+    "shortClue": "Κάνει κόλπα"
+  },
+  {
+    "word": "κλοουν",
+    "topics": [
+      "professions"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Ο αστείος καλλιτέχνης του τσίρκου",
+    "shortClue": "Αστείος του τσίρκου"
+  },
+  {
+    "word": "ροδι",
+    "topics": [
+      "food"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Κόκκινος καρπός με πολλά σπυριά",
+    "shortClue": "Κόκκινος καρπός"
+  },
+  {
+    "word": "ζωμοσ",
+    "topics": [
+      "food"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Το υγρό από βρασμένο κρέας ή λαχανικά",
+    "shortClue": "Υγρό της σούπας"
+  },
+  {
+    "word": "κιμασ",
+    "topics": [
+      "food"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Κρέας που έχει περάσει από μηχανή κοπής",
+    "shortClue": "Τριμμένο κρέας"
+  },
+  {
+    "word": "ρουμι",
+    "topics": [
+      "food"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Ποτό από ζαχαροκάλαμο",
+    "shortClue": "Ποτό ζαχαροκάλαμου"
+  },
+  {
+    "word": "ντακοσ",
+    "topics": [
+      "food"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Κρητικό παξιμάδι με ντομάτα και τυρί",
+    "shortClue": "Κρητικό παξιμάδι"
+  },
+  {
+    "word": "ψητο",
+    "topics": [
+      "food"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Κρέας που έγινε στη σχάρα ή στον φούρνο",
+    "shortClue": "Κρέας στη σχάρα"
+  },
+  {
+    "word": "ελοσ",
+    "topics": [
+      "geography"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Περιοχή με στάσιμα νερά και καλάμια",
+    "shortClue": "Βάλτος"
+  },
+  {
+    "word": "βορρασ",
+    "topics": [
+      "geography"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Το σημείο του ορίζοντα απέναντι από τον νότο",
+    "shortClue": "Απέναντι από νότο"
+  },
+  {
+    "word": "δυση",
+    "topics": [
+      "geography"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Η πλευρά του ορίζοντα όπου χάνεται ο ήλιος",
+    "shortClue": "Πλευρά ορίζοντα"
+  }
+]
