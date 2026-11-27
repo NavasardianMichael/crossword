@@ -1,0 +1,4002 @@
+[
+  {
+    "word": "joy",
+    "topics": ["general"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Great happiness",
+    "shortClue": "Delight"
+  },
+  {
+    "word": "calm",
+    "topics": ["general"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Free of agitation",
+    "shortClue": "Peaceful"
+  },
+  {
+    "word": "proud",
+    "topics": ["general"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Pleased with one's own achievement",
+    "shortClue": "Pleased with oneself"
+  },
+  {
+    "word": "upset",
+    "topics": ["general"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Troubled or distressed",
+    "shortClue": "Distressed"
+  },
+  {
+    "word": "lonely",
+    "topics": ["general"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Feeling cut off from company",
+    "shortClue": "Without company"
+  },
+  {
+    "word": "gloomy",
+    "topics": ["general"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Dark and low in spirits",
+    "shortClue": "Dismal"
+  },
+  {
+    "word": "furious",
+    "topics": ["general"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Boiling with anger",
+    "shortClue": "Enraged"
+  },
+  {
+    "word": "nervous",
+    "topics": ["general"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Jittery before a big test",
+    "shortClue": "On edge"
+  },
+  {
+    "word": "weary",
+    "topics": ["general"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Worn out from long effort",
+    "shortClue": "Tired out"
+  },
+  {
+    "word": "serene",
+    "topics": ["general"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Calm and untroubled, like a still lake",
+    "shortClue": "Untroubled"
+  },
+  {
+    "word": "sulk",
+    "topics": ["general"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Stay silent in a bad mood",
+    "shortClue": "Pout"
+  },
+  {
+    "word": "rage",
+    "topics": ["general"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Violent anger",
+    "shortClue": "Fury"
+  },
+  {
+    "word": "dread",
+    "topics": ["general"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Fearful anticipation",
+    "shortClue": "Great fear"
+  },
+  {
+    "word": "relief",
+    "topics": ["general"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "What a sigh may show when worry ends",
+    "shortClue": "Comfort after worry"
+  },
+  {
+    "word": "bored",
+    "topics": ["general"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Uninterested for lack of anything to do",
+    "shortClue": "Uninterested"
+  },
+  {
+    "word": "polite",
+    "topics": ["general"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Showing good manners",
+    "shortClue": "Courteous"
+  },
+  {
+    "word": "curious",
+    "topics": ["general"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Eager to learn or know",
+    "shortClue": "Inquisitive"
+  },
+  {
+    "word": "clever",
+    "topics": ["general"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Quick to understand and devise",
+    "shortClue": "Smart"
+  },
+  {
+    "word": "humble",
+    "topics": ["general"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Not boastful about oneself",
+    "shortClue": "Unassuming"
+  },
+  {
+    "word": "cunning",
+    "topics": ["general"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Skilled at getting one's way by craft",
+    "shortClue": "Crafty"
+  },
+  {
+    "word": "gentle",
+    "topics": ["general"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Soft and kind in manner",
+    "shortClue": "Tender"
+  },
+  {
+    "word": "rude",
+    "topics": ["general"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Lacking good manners",
+    "shortClue": "Impolite"
+  },
+  {
+    "word": "bold",
+    "topics": ["general"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Daring and confident",
+    "shortClue": "Audacious"
+  },
+  {
+    "word": "timid",
+    "topics": ["general"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Easily frightened",
+    "shortClue": "Fearful"
+  },
+  {
+    "word": "arrogant",
+    "topics": ["general"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Overly sure of one's own importance",
+    "shortClue": "Haughty"
+  },
+  {
+    "word": "fussy",
+    "topics": ["general"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Hard to please over small details",
+    "shortClue": "Picky"
+  },
+  {
+    "word": "earnest",
+    "topics": ["general"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Sincerely serious in purpose",
+    "shortClue": "Intensely serious"
+  },
+  {
+    "word": "frugal",
+    "topics": ["general"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Careful about spending",
+    "shortClue": "Economical"
+  },
+  {
+    "word": "diligent",
+    "topics": ["general"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Steady and careful in work",
+    "shortClue": "Industrious"
+  },
+  {
+    "word": "eccentric",
+    "topics": ["general"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Pleasantly odd in behavior",
+    "shortClue": "Quirky"
+  },
+  {
+    "word": "gullible",
+    "topics": ["general"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Easily fooled",
+    "shortClue": "Too trusting"
+  },
+  {
+    "word": "carry",
+    "topics": ["general"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Hold and move from place to place",
+    "shortClue": "Transport"
+  },
+  {
+    "word": "borrow",
+    "topics": ["general"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Take with plans to return",
+    "shortClue": "Take on loan"
+  },
+  {
+    "word": "whistle",
+    "topics": ["general"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Make a sharp tune through pursed lips",
+    "shortClue": "Pucker and blow"
+  },
+  {
+    "word": "stumble",
+    "topics": ["general"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Trip and nearly fall",
+    "shortClue": "Misstep"
+  },
+  {
+    "word": "squeeze",
+    "topics": ["general"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Press firmly from all sides",
+    "shortClue": "Compress"
+  },
+  {
+    "word": "wander",
+    "topics": ["general"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Roam without a fixed goal",
+    "shortClue": "Roam"
+  },
+  {
+    "word": "scatter",
+    "topics": ["general"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Throw about in many directions",
+    "shortClue": "Strew"
+  },
+  {
+    "word": "polish",
+    "topics": ["general"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Rub until shiny",
+    "shortClue": "Buff"
+  },
+  {
+    "word": "gaze",
+    "topics": ["general"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Look steadily and long",
+    "shortClue": "Stare"
+  },
+  {
+    "word": "scold",
+    "topics": ["general"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Reprimand angrily",
+    "shortClue": "Chide"
+  },
+  {
+    "word": "tremble",
+    "topics": ["general"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Shake from cold or fear",
+    "shortClue": "Shiver"
+  },
+  {
+    "word": "dwindle",
+    "topics": ["general"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Shrink gradually in size or number",
+    "shortClue": "Slowly shrink"
+  },
+  {
+    "word": "cherish",
+    "topics": ["general"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Hold dear and protect",
+    "shortClue": "Treasure"
+  },
+  {
+    "word": "nudge",
+    "topics": ["general"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Poke gently to get attention",
+    "shortClue": "Prod"
+  },
+  {
+    "word": "rummage",
+    "topics": ["general"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Search messily through belongings",
+    "shortClue": "Dig around"
+  },
+  {
+    "word": "sprint",
+    "topics": ["general"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Run at top speed",
+    "shortClue": "Dash"
+  },
+  {
+    "word": "glance",
+    "topics": ["general"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Look briefly",
+    "shortClue": "Quick look"
+  },
+  {
+    "word": "chuckle",
+    "topics": ["general"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Laugh softly",
+    "shortClue": "Quiet laugh"
+  },
+  {
+    "word": "mend",
+    "topics": ["general"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Fix a tear or break",
+    "shortClue": "Repair"
+  },
+  {
+    "word": "bargain",
+    "topics": ["general"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Deal bought for less than its worth",
+    "shortClue": "Good buy"
+  },
+  {
+    "word": "clutch",
+    "topics": ["general"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Grip tightly",
+    "shortClue": "Hold fast"
+  },
+  {
+    "word": "narrow",
+    "topics": ["general"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Small in width",
+    "shortClue": "Not wide"
+  },
+  {
+    "word": "jagged",
+    "topics": ["general"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "With sharp, uneven points",
+    "shortClue": "Spiky"
+  },
+  {
+    "word": "spiral",
+    "topics": ["general"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Curve winding around a center",
+    "shortClue": "Coil"
+  },
+  {
+    "word": "crooked",
+    "topics": ["general"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Not straight",
+    "shortClue": "Bent"
+  },
+  {
+    "word": "hollow",
+    "topics": ["general"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Empty inside",
+    "shortClue": "Not solid"
+  },
+  {
+    "word": "oval",
+    "topics": ["general"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Egg-shaped",
+    "shortClue": "Stretched circle"
+  },
+  {
+    "word": "weekend",
+    "topics": ["general"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Saturday and Sunday",
+    "shortClue": "Days off"
+  },
+  {
+    "word": "decade",
+    "topics": ["general"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Ten years",
+    "shortClue": "Ten-year span"
+  },
+  {
+    "word": "century",
+    "topics": ["general"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "A hundred years",
+    "shortClue": "Hundred years"
+  },
+  {
+    "word": "noon",
+    "topics": ["general"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Twelve o'clock in the day",
+    "shortClue": "Midday"
+  },
+  {
+    "word": "lately",
+    "topics": ["general"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Not long ago",
+    "shortClue": "Recently"
+  },
+  {
+    "word": "meanwhile",
+    "topics": ["general"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "During the interval between two events",
+    "shortClue": "In the interim"
+  },
+  {
+    "word": "forever",
+    "topics": ["general"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Without end",
+    "shortClue": "For all time"
+  },
+  {
+    "word": "chilly",
+    "topics": ["general"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Unpleasantly cool",
+    "shortClue": "Nippy"
+  },
+  {
+    "word": "muggy",
+    "topics": ["general"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Warm and sticky with moisture",
+    "shortClue": "Sticky"
+  },
+  {
+    "word": "perhaps",
+    "topics": ["general"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "It could be",
+    "shortClue": "Possibly"
+  },
+  {
+    "word": "agree",
+    "topics": ["general"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Share the same opinion",
+    "shortClue": "Concur"
+  },
+  {
+    "word": "refuse",
+    "topics": ["general"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Say no to",
+    "shortClue": "Decline"
+  },
+  {
+    "word": "skeptical",
+    "topics": ["general"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Slow to believe what is claimed",
+    "shortClue": "Unconvinced"
+  },
+  {
+    "word": "likely",
+    "topics": ["general"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "More apt than not to happen",
+    "shortClue": "Probable"
+  },
+  {
+    "word": "recess",
+    "topics": ["general"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Break between classes",
+    "shortClue": "Playtime"
+  },
+  {
+    "word": "diploma",
+    "topics": ["general"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Graduation certificate",
+    "shortClue": "School credential"
+  },
+  {
+    "word": "essay",
+    "topics": ["general"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Short written composition",
+    "shortClue": "Paper"
+  },
+  {
+    "word": "cousin",
+    "topics": ["general"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Aunt's child",
+    "shortClue": "Relative"
+  },
+  {
+    "word": "sibling",
+    "topics": ["general"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Brother or sister",
+    "shortClue": "Family member"
+  },
+  {
+    "word": "friend",
+    "topics": ["general"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Person you know well and like",
+    "shortClue": "Close pal"
+  },
+  {
+    "word": "trust",
+    "topics": ["general"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Firm belief in someone's reliability",
+    "shortClue": "Confidence"
+  },
+  {
+    "word": "gossip",
+    "topics": ["general"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Idle talk about others",
+    "shortClue": "Chatter"
+  },
+  {
+    "word": "quarrel",
+    "topics": ["general"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Heated argument",
+    "shortClue": "Spat"
+  },
+  {
+    "word": "mistake",
+    "topics": ["general"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Something done wrong by accident",
+    "shortClue": "Error"
+  },
+  {
+    "word": "gamble",
+    "topics": ["general"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Bet on an uncertain outcome",
+    "shortClue": "Take a risk"
+  },
+  {
+    "word": "fiasco",
+    "topics": ["general"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Total, embarrassing failure",
+    "shortClue": "Utter flop"
+  },
+  {
+    "word": "secret",
+    "topics": ["general"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Something kept hidden",
+    "shortClue": "Hidden matter"
+  },
+  {
+    "word": "surprise",
+    "topics": ["general"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Unexpected event",
+    "shortClue": "Shock"
+  },
+  {
+    "word": "clue",
+    "topics": ["general"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Hint that helps solve a mystery",
+    "shortClue": "Hint"
+  },
+  {
+    "word": "enigma",
+    "topics": ["general"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Person or thing hard to understand",
+    "shortClue": "Puzzle"
+  },
+  {
+    "word": "origin",
+    "topics": ["general"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Point where something starts",
+    "shortClue": "Source"
+  },
+  {
+    "word": "outset",
+    "topics": ["general"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "The very start",
+    "shortClue": "Beginning"
+  },
+  {
+    "word": "finish",
+    "topics": ["general"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Come to an end",
+    "shortClue": "Complete"
+  },
+  {
+    "word": "cease",
+    "topics": ["general"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Come to a stop",
+    "shortClue": "Halt"
+  },
+  {
+    "word": "abandon",
+    "topics": ["general"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Leave behind for good",
+    "shortClue": "Forsake"
+  },
+  {
+    "word": "several",
+    "topics": ["general"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "More than two but not many",
+    "shortClue": "A few"
+  },
+  {
+    "word": "scarce",
+    "topics": ["general"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "In short supply",
+    "shortClue": "Hard to find"
+  },
+  {
+    "word": "plenty",
+    "topics": ["general"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "More than enough",
+    "shortClue": "Abundance"
+  },
+  {
+    "word": "pair",
+    "topics": ["general"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Two of a kind",
+    "shortClue": "Couple"
+  },
+  {
+    "word": "trio",
+    "topics": ["general"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Group of three",
+    "shortClue": "Three together"
+  },
+  {
+    "word": "pardon",
+    "topics": ["general"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Forgive or excuse",
+    "shortClue": "Excuse"
+  },
+  {
+    "word": "welcome",
+    "topics": ["general"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Greet kindly",
+    "shortClue": "Warm greeting"
+  },
+  {
+    "word": "itinerary",
+    "topics": ["general"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Planned route and schedule of a trip",
+    "shortClue": "Trip plan"
+  },
+  {
+    "word": "expedition",
+    "topics": ["general"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Organized journey for exploration",
+    "shortClue": "Exploring trip"
+  },
+  {
+    "word": "nomad",
+    "topics": ["general"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Wanderer with no fixed home",
+    "shortClue": "Roving traveler"
+  },
+  {
+    "word": "maze",
+    "topics": ["general"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Network of confusing paths",
+    "shortClue": "Twisty puzzle"
+  },
+  {
+    "word": "bluff",
+    "topics": ["general"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Pretend to hold a strong hand",
+    "shortClue": "Fake confidence"
+  },
+  {
+    "word": "rebus",
+    "topics": ["general"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Puzzle using pictures for syllables",
+    "shortClue": "Picture puzzle"
+  },
+  {
+    "word": "benign",
+    "topics": ["general"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Harmless, not cancerous",
+    "shortClue": "Gentle"
+  },
+  {
+    "word": "elusive",
+    "topics": ["general"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Hard to catch or pin down",
+    "shortClue": "Slippery"
+  },
+  {
+    "word": "frail",
+    "topics": ["general"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Weak and delicate",
+    "shortClue": "Delicate"
+  },
+  {
+    "word": "gratitude",
+    "topics": ["general"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Appreciation for a kindness",
+    "shortClue": "Appreciation"
+  },
+  {
+    "word": "hostile",
+    "topics": ["general"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Unfriendly and aggressive",
+    "shortClue": "Antagonistic"
+  },
+  {
+    "word": "integrity",
+    "topics": ["general"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Honesty and strong moral principles",
+    "shortClue": "Moral soundness"
+  },
+  {
+    "word": "lenient",
+    "topics": ["general"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Not strict in punishment",
+    "shortClue": "Merciful"
+  },
+  {
+    "word": "notorious",
+    "topics": ["general"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Famous for something bad",
+    "shortClue": "Infamous"
+  },
+  {
+    "word": "prudent",
+    "topics": ["general"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Wise and careful about the future",
+    "shortClue": "Sensible"
+  },
+  {
+    "word": "reluctant",
+    "topics": ["general"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Unwilling and hesitant",
+    "shortClue": "Loath"
+  },
+  {
+    "word": "negligible",
+    "topics": ["general"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "So small it can be ignored",
+    "shortClue": "Barely worth noting"
+  },
+  {
+    "word": "versatile",
+    "topics": ["general"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Able to do many things well",
+    "shortClue": "Adaptable"
+  },
+  {
+    "word": "wholesome",
+    "topics": ["general"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Good for body or mind",
+    "shortClue": "Healthy"
+  },
+  {
+    "word": "zany",
+    "topics": ["general"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Comically wacky",
+    "shortClue": "Clownish"
+  },
+  {
+    "word": "willow",
+    "topics": ["nature"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Tree with drooping branches near water",
+    "shortClue": "Weeping tree"
+  },
+  {
+    "word": "pine",
+    "topics": ["nature"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Evergreen with needles",
+    "shortClue": "Cone bearer"
+  },
+  {
+    "word": "violet",
+    "topics": ["nature"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Small purple spring flower",
+    "shortClue": "Purple bloom"
+  },
+  {
+    "word": "dandelion",
+    "topics": ["nature"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Yellow weed that turns to puffballs",
+    "shortClue": "Lawn weed"
+  },
+  {
+    "word": "clover",
+    "topics": ["nature"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Meadow plant with three-part leaves",
+    "shortClue": "Lucky leaf"
+  },
+  {
+    "word": "bamboo",
+    "topics": ["nature"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Fast-growing giant grass",
+    "shortClue": "Panda's food"
+  },
+  {
+    "word": "cactus",
+    "topics": ["nature"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Prickly desert plant",
+    "shortClue": "Spiny succulent"
+  },
+  {
+    "word": "canyon",
+    "topics": ["nature"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Deep gorge cut by a river",
+    "shortClue": "Rocky chasm"
+  },
+  {
+    "word": "fog",
+    "topics": ["nature"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Thick low cloud at ground level",
+    "shortClue": "Low cloud"
+  },
+  {
+    "word": "breeze",
+    "topics": ["nature"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Gentle wind",
+    "shortClue": "Light wind"
+  },
+  {
+    "word": "rainbow",
+    "topics": ["nature"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Arc of colors after a shower",
+    "shortClue": "Colorful arc"
+  },
+  {
+    "word": "thunder",
+    "topics": ["nature"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Rumble after a lightning flash",
+    "shortClue": "Sky rumble"
+  },
+  {
+    "word": "drought",
+    "topics": ["nature"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Long spell without rain",
+    "shortClue": "Dry spell"
+  },
+  {
+    "word": "fungus",
+    "topics": ["nature"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Mushroom or mold, e.g.",
+    "shortClue": "Spore producer"
+  },
+  {
+    "word": "hail",
+    "topics": ["nature"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Frozen pellets falling from storm clouds",
+    "shortClue": "Icy pellets"
+  },
+  {
+    "word": "gust",
+    "topics": ["nature"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Sudden burst of wind",
+    "shortClue": "Wind burst"
+  },
+  {
+    "word": "thaw",
+    "topics": ["nature"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Melt, as ice in spring",
+    "shortClue": "Melt away"
+  },
+  {
+    "word": "ridge",
+    "topics": ["nature"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Long narrow hilltop",
+    "shortClue": "Mountain spine"
+  },
+  {
+    "word": "jungle",
+    "topics": ["nature"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Dense tropical forest",
+    "shortClue": "Tropical thicket"
+  },
+  {
+    "word": "stalagmite",
+    "topics": ["nature"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Cave spike rising from the floor",
+    "shortClue": "Cave formation"
+  },
+  {
+    "word": "eucalyptus",
+    "topics": ["nature"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Tall tree whose leaves koalas eat",
+    "shortClue": "Gum tree"
+  },
+  {
+    "word": "moor",
+    "topics": ["nature"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Open, boggy upland",
+    "shortClue": "Heath"
+  },
+  {
+    "word": "gorilla",
+    "topics": ["animals"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Largest ape",
+    "shortClue": "Big ape"
+  },
+  {
+    "word": "elephant",
+    "topics": ["animals"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Animal with a trunk",
+    "shortClue": "Trunked giant"
+  },
+  {
+    "word": "penguin",
+    "topics": ["animals"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Flightless bird of the Antarctic",
+    "shortClue": "Tuxedoed swimmer"
+  },
+  {
+    "word": "dolphin",
+    "topics": ["animals"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Playful, clicking sea mammal",
+    "shortClue": "Sleek swimmer"
+  },
+  {
+    "word": "turtle",
+    "topics": ["animals"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Reptile with a shell",
+    "shortClue": "Shelled reptile"
+  },
+  {
+    "word": "rabbit",
+    "topics": ["animals"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Long-eared hopper",
+    "shortClue": "Hopping pet"
+  },
+  {
+    "word": "cheetah",
+    "topics": ["animals"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Fastest land animal",
+    "shortClue": "Spotted sprinter"
+  },
+  {
+    "word": "flamingo",
+    "topics": ["animals"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Pink bird that stands on one leg",
+    "shortClue": "Pink wader"
+  },
+  {
+    "word": "woodpecker",
+    "topics": ["animals"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Bird that drums on tree trunks",
+    "shortClue": "Tree drummer"
+  },
+  {
+    "word": "pigeon",
+    "topics": ["animals"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "City bird that coos",
+    "shortClue": "Park bird"
+  },
+  {
+    "word": "beetle",
+    "topics": ["animals"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Insect with hardened wing covers",
+    "shortClue": "Hard-shelled insect"
+  },
+  {
+    "word": "caterpillar",
+    "topics": ["animals"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Larva that becomes a butterfly",
+    "shortClue": "Fuzzy larva"
+  },
+  {
+    "word": "trout",
+    "topics": ["animals"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Freshwater fish prized by anglers",
+    "shortClue": "Stream fish"
+  },
+  {
+    "word": "cobra",
+    "topics": ["animals"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Hooded venomous snake",
+    "shortClue": "Hooded snake"
+  },
+  {
+    "word": "gecko",
+    "topics": ["animals"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Small tropical climber with sticky toes",
+    "shortClue": "Wall climber"
+  },
+  {
+    "word": "hyena",
+    "topics": ["animals"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Scavenger with a laughing call",
+    "shortClue": "Laughing scavenger"
+  },
+  {
+    "word": "raven",
+    "topics": ["animals"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Large black bird in a Poe poem",
+    "shortClue": "Poe's black bird"
+  },
+  {
+    "word": "kitten",
+    "topics": ["animals"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Young cat",
+    "shortClue": "Baby feline"
+  },
+  {
+    "word": "cygnet",
+    "topics": ["animals"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Young swan",
+    "shortClue": "Baby swan"
+  },
+  {
+    "word": "walrus",
+    "topics": ["animals"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Tusked Arctic seal relative",
+    "shortClue": "Tusked swimmer"
+  },
+  {
+    "word": "hornet",
+    "topics": ["animals"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Large, aggressive wasp",
+    "shortClue": "Big stinger"
+  },
+  {
+    "word": "toucan",
+    "topics": ["animals"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Tropical bird with a huge colorful bill",
+    "shortClue": "Big-billed bird"
+  },
+  {
+    "word": "waffle",
+    "topics": ["food"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Grid-patterned breakfast treat",
+    "shortClue": "Syrup holder"
+  },
+  {
+    "word": "cheddar",
+    "topics": ["food"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Sharp, orange cheese",
+    "shortClue": "Sharp cheese"
+  },
+  {
+    "word": "yogurt",
+    "topics": ["food"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Cultured dairy snack",
+    "shortClue": "Cultured milk"
+  },
+  {
+    "word": "donut",
+    "topics": ["food"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Fried ring of dough",
+    "shortClue": "Glazed ring"
+  },
+  {
+    "word": "caramel",
+    "topics": ["food"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Burnt-sugar candy",
+    "shortClue": "Gooey sweet"
+  },
+  {
+    "word": "licorice",
+    "topics": ["food"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Black twisted candy",
+    "shortClue": "Anise candy"
+  },
+  {
+    "word": "raisin",
+    "topics": ["food"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Dried grape",
+    "shortClue": "Wrinkled snack"
+  },
+  {
+    "word": "almond",
+    "topics": ["food"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Oval kernel used in marzipan",
+    "shortClue": "Marzipan base"
+  },
+  {
+    "word": "celery",
+    "topics": ["food"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Crunchy stalk with peanut butter",
+    "shortClue": "Crunchy stalk"
+  },
+  {
+    "word": "papaya",
+    "topics": ["food"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Orange tropical fruit with black seeds",
+    "shortClue": "Tropical fruit"
+  },
+  {
+    "word": "lentil",
+    "topics": ["food"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Small legume in dal",
+    "shortClue": "Tiny legume"
+  },
+  {
+    "word": "hummus",
+    "topics": ["food"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Chickpea spread",
+    "shortClue": "Pita dip"
+  },
+  {
+    "word": "ramen",
+    "topics": ["food"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Noodle soup in a bowl",
+    "shortClue": "Noodle soup"
+  },
+  {
+    "word": "cider",
+    "topics": ["food"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Pressed apple drink",
+    "shortClue": "Autumn drink"
+  },
+  {
+    "word": "croissant",
+    "topics": ["food"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Flaky French crescent roll",
+    "shortClue": "Buttery crescent"
+  },
+  {
+    "word": "simmer",
+    "topics": ["food"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Cook just below boiling",
+    "shortClue": "Cook gently"
+  },
+  {
+    "word": "ginger",
+    "topics": ["food"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Spicy root grated into stir-fries and cookies",
+    "shortClue": "Zesty root"
+  },
+  {
+    "word": "vanilla",
+    "topics": ["food"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Popular ice cream flavor",
+    "shortClue": "Plain flavor"
+  },
+  {
+    "word": "kebab",
+    "topics": ["food"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Grilled meat on a skewer",
+    "shortClue": "Skewered meat"
+  },
+  {
+    "word": "olive",
+    "topics": ["food"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Pitted fruit pressed for oil",
+    "shortClue": "Martini garnish"
+  },
+  {
+    "word": "jam",
+    "topics": ["food"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Fruit preserve",
+    "shortClue": "Toast spread"
+  },
+  {
+    "word": "kiwi",
+    "topics": ["food"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Fuzzy-skinned green fruit",
+    "shortClue": "Fuzzy green fruit"
+  },
+  {
+    "word": "gulf",
+    "topics": ["geography"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Large inlet of the sea",
+    "shortClue": "Big inlet"
+  },
+  {
+    "word": "strait",
+    "topics": ["geography"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Narrow channel linking seas",
+    "shortClue": "Narrow channel"
+  },
+  {
+    "word": "basin",
+    "topics": ["geography"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Low area drained by a river system",
+    "shortClue": "Bowl of land"
+  },
+  {
+    "word": "ocean",
+    "topics": ["geography"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Vast salt water body",
+    "shortClue": "Briny deep"
+  },
+  {
+    "word": "border",
+    "topics": ["geography"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Line between countries",
+    "shortClue": "Boundary"
+  },
+  {
+    "word": "capital",
+    "topics": ["geography"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Seat of government",
+    "shortClue": "Government seat"
+  },
+  {
+    "word": "coast",
+    "topics": ["geography"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Land along the sea",
+    "shortClue": "Shoreline"
+  },
+  {
+    "word": "metropolis",
+    "topics": ["geography"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Very large, busy city",
+    "shortClue": "Major city"
+  },
+  {
+    "word": "suburb",
+    "topics": ["geography"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Residential area outside a city",
+    "shortClue": "Commuter town"
+  },
+  {
+    "word": "village",
+    "topics": ["geography"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Small rural settlement",
+    "shortClue": "Tiny town"
+  },
+  {
+    "word": "port",
+    "topics": ["geography"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Place where ships dock",
+    "shortClue": "Dock town"
+  },
+  {
+    "word": "atlas",
+    "topics": ["geography"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Book of maps",
+    "shortClue": "Map book"
+  },
+  {
+    "word": "compass",
+    "topics": ["geography"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Needle pointing north",
+    "shortClue": "Direction finder"
+  },
+  {
+    "word": "meridian",
+    "topics": ["geography"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Imaginary line from pole to pole",
+    "shortClue": "Pole-to-pole line"
+  },
+  {
+    "word": "Arctic",
+    "topics": ["geography"],
+    "difficulty": 2,
+    "kind": "proper",
+    "clue": "Frozen region near the North Pole",
+    "shortClue": "Polar region"
+  },
+  {
+    "word": "gorge",
+    "topics": ["geography"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Narrow, steep-walled valley",
+    "shortClue": "Rocky cleft"
+  },
+  {
+    "word": "inlet",
+    "topics": ["geography"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Narrow arm of the sea",
+    "shortClue": "Small bay"
+  },
+  {
+    "word": "marsh",
+    "topics": ["geography"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Low, soggy grassland",
+    "shortClue": "Wet lowland"
+  },
+  {
+    "word": "avenue",
+    "topics": ["geography"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Wide city street",
+    "shortClue": "Tree-lined street"
+  },
+  {
+    "word": "bridge",
+    "topics": ["geography"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Span over water",
+    "shortClue": "River crossing"
+  },
+  {
+    "word": "Canada",
+    "topics": ["geography"],
+    "difficulty": 1,
+    "kind": "proper",
+    "clue": "Country north of the US",
+    "shortClue": "Northern neighbor"
+  },
+  {
+    "word": "Egypt",
+    "topics": ["geography"],
+    "difficulty": 1,
+    "kind": "proper",
+    "clue": "Land of the pyramids",
+    "shortClue": "Nile country"
+  },
+  {
+    "word": "Norway",
+    "topics": ["geography"],
+    "difficulty": 2,
+    "kind": "proper",
+    "clue": "Land of the fjords",
+    "shortClue": "Nordic kingdom"
+  },
+  {
+    "word": "Chile",
+    "topics": ["geography"],
+    "difficulty": 2,
+    "kind": "proper",
+    "clue": "Long, thin South American country",
+    "shortClue": "Andean nation"
+  },
+  {
+    "word": "Cuba",
+    "topics": ["geography"],
+    "difficulty": 2,
+    "kind": "proper",
+    "clue": "Largest Caribbean island",
+    "shortClue": "Caribbean island"
+  },
+  {
+    "word": "Thames",
+    "topics": ["geography"],
+    "difficulty": 2,
+    "kind": "proper",
+    "clue": "River through London",
+    "shortClue": "London's river"
+  },
+  {
+    "word": "Fuji",
+    "topics": ["geography"],
+    "difficulty": 2,
+    "kind": "proper",
+    "clue": "Japan's highest peak",
+    "shortClue": "Sacred Japanese peak"
+  },
+  {
+    "word": "knight",
+    "topics": ["history"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Armored horseman of the Middle Ages",
+    "shortClue": "Armored rider"
+  },
+  {
+    "word": "castle",
+    "topics": ["history"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Fortified medieval residence",
+    "shortClue": "Noble's stronghold"
+  },
+  {
+    "word": "throne",
+    "topics": ["history"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Royal seat",
+    "shortClue": "Ruler's chair"
+  },
+  {
+    "word": "toga",
+    "topics": ["history"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Draped robe of ancient Rome",
+    "shortClue": "Roman robe"
+  },
+  {
+    "word": "tribe",
+    "topics": ["history"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Group of related people under a leader",
+    "shortClue": "Kin community"
+  },
+  {
+    "word": "clan",
+    "topics": ["history"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Family group of kin",
+    "shortClue": "Kin group"
+  },
+  {
+    "word": "viking",
+    "topics": ["history"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Norse seafarer who sailed longships",
+    "shortClue": "Norse raider"
+  },
+  {
+    "word": "jester",
+    "topics": ["history"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Court fool in motley",
+    "shortClue": "Court joker"
+  },
+  {
+    "word": "squire",
+    "topics": ["history"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Knight's attendant",
+    "shortClue": "Knight's aide"
+  },
+  {
+    "word": "cannon",
+    "topics": ["history"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Heavy gun on wheels",
+    "shortClue": "Artillery piece"
+  },
+  {
+    "word": "sphinx",
+    "topics": ["history"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Egyptian creature with a lion's body",
+    "shortClue": "Giza statue"
+  },
+  {
+    "word": "noble",
+    "topics": ["history"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Person of high birth",
+    "shortClue": "Titled person"
+  },
+  {
+    "word": "barter",
+    "topics": ["history"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Trade goods without money",
+    "shortClue": "Swap"
+  },
+  {
+    "word": "shield",
+    "topics": ["history"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Defensive armor carried on the arm",
+    "shortClue": "Arm defense"
+  },
+  {
+    "word": "regent",
+    "topics": ["history"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Ruler acting for a young monarch",
+    "shortClue": "Stand-in ruler"
+  },
+  {
+    "word": "heir",
+    "topics": ["history"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Successor to a title or fortune",
+    "shortClue": "Next in line"
+  },
+  {
+    "word": "realm",
+    "topics": ["history"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "A monarch's domain",
+    "shortClue": "Kingdom"
+  },
+  {
+    "word": "exile",
+    "topics": ["history"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Forced absence from one's homeland",
+    "shortClue": "Banishment"
+  },
+  {
+    "word": "epoch",
+    "topics": ["history"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Distinct period of history",
+    "shortClue": "Age"
+  },
+  {
+    "word": "decree",
+    "topics": ["history"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Official order from a ruler",
+    "shortClue": "Royal order"
+  },
+  {
+    "word": "scroll",
+    "topics": ["history"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Rolled parchment document",
+    "shortClue": "Rolled document"
+  },
+  {
+    "word": "quill",
+    "topics": ["history"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Feather pen",
+    "shortClue": "Old writing tool"
+  },
+  {
+    "word": "carbon",
+    "topics": ["science"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Element in diamonds and coal",
+    "shortClue": "Diamond element"
+  },
+  {
+    "word": "helium",
+    "topics": ["science"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Gas that lifts balloons",
+    "shortClue": "Balloon gas"
+  },
+  {
+    "word": "iron",
+    "topics": ["science"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Metal of nails and anvils",
+    "shortClue": "Magnetic metal"
+  },
+  {
+    "word": "copper",
+    "topics": ["science"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Reddish metal in wires",
+    "shortClue": "Reddish metal"
+  },
+  {
+    "word": "sodium",
+    "topics": ["science"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Element in table salt",
+    "shortClue": "Salt element"
+  },
+  {
+    "word": "galaxy",
+    "topics": ["science"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Island of billions of stars",
+    "shortClue": "Star system"
+  },
+  {
+    "word": "planet",
+    "topics": ["science"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Body orbiting a star",
+    "shortClue": "Orbiting world"
+  },
+  {
+    "word": "cosmos",
+    "topics": ["science"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "The universe as an ordered whole",
+    "shortClue": "Universe"
+  },
+  {
+    "word": "nucleus",
+    "topics": ["science"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Core of an atom or cell",
+    "shortClue": "Central core"
+  },
+  {
+    "word": "lung",
+    "topics": ["science"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Organ you breathe with",
+    "shortClue": "Breathing organ"
+  },
+  {
+    "word": "heart",
+    "topics": ["science"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Pump of the circulatory system",
+    "shortClue": "Blood pump"
+  },
+  {
+    "word": "brain",
+    "topics": ["science"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Organ of thought",
+    "shortClue": "Thinking organ"
+  },
+  {
+    "word": "artery",
+    "topics": ["science"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Vessel carrying blood away from the heart",
+    "shortClue": "Blood vessel"
+  },
+  {
+    "word": "skull",
+    "topics": ["science"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Bony case around the brain",
+    "shortClue": "Head bones"
+  },
+  {
+    "word": "spine",
+    "topics": ["science"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Backbone",
+    "shortClue": "Vertebral column"
+  },
+  {
+    "word": "pupil",
+    "topics": ["science"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Dark opening in the eye",
+    "shortClue": "Eye opening"
+  },
+  {
+    "word": "retina",
+    "topics": ["science"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Light-sensing layer of the eye",
+    "shortClue": "Eye's screen"
+  },
+  {
+    "word": "ozone",
+    "topics": ["science"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Layer shielding Earth from ultraviolet rays",
+    "shortClue": "Protective layer"
+  },
+  {
+    "word": "granite",
+    "topics": ["science"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Hard igneous rock used in countertops",
+    "shortClue": "Speckled rock"
+  },
+  {
+    "word": "marble",
+    "topics": ["science"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Metamorphic stone for statues",
+    "shortClue": "Statue stone"
+  },
+  {
+    "word": "basalt",
+    "topics": ["science"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Dark volcanic rock",
+    "shortClue": "Dark lava rock"
+  },
+  {
+    "word": "magma",
+    "topics": ["science"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Molten rock beneath the surface",
+    "shortClue": "Underground melt"
+  },
+  {
+    "word": "pixel",
+    "topics": ["science"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Single dot on a screen",
+    "shortClue": "Screen dot"
+  },
+  {
+    "word": "antibody",
+    "topics": ["science"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Protein that fights an invader",
+    "shortClue": "Immune protein"
+  },
+  {
+    "word": "fever",
+    "topics": ["science"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Raised body temperature",
+    "shortClue": "Hot symptom"
+  },
+  {
+    "word": "soccer",
+    "topics": ["sport"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "World's most popular team sport",
+    "shortClue": "World Cup sport"
+  },
+  {
+    "word": "tennis",
+    "topics": ["sport"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Racket sport played over a net",
+    "shortClue": "Court game"
+  },
+  {
+    "word": "hockey",
+    "topics": ["sport"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Game with sticks and a puck",
+    "shortClue": "Ice game"
+  },
+  {
+    "word": "kayak",
+    "topics": ["sport"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Narrow canoe paddled with a double blade",
+    "shortClue": "Paddle craft"
+  },
+  {
+    "word": "canoe",
+    "topics": ["sport"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Light boat moved with single-bladed paddles",
+    "shortClue": "Paddled boat"
+  },
+  {
+    "word": "paddle",
+    "topics": ["sport"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Blade for propelling a small boat",
+    "shortClue": "Boating blade"
+  },
+  {
+    "word": "coach",
+    "topics": ["sport"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Team's trainer and strategist",
+    "shortClue": "Team leader"
+  },
+  {
+    "word": "trophy",
+    "topics": ["sport"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Cup awarded to a champion",
+    "shortClue": "Winner's cup"
+  },
+  {
+    "word": "rookie",
+    "topics": ["sport"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "First-year pro",
+    "shortClue": "Newcomer"
+  },
+  {
+    "word": "tournament",
+    "topics": ["sport"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Series of contests ending in a champion",
+    "shortClue": "Elimination event"
+  },
+  {
+    "word": "racket",
+    "topics": ["sport"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Strung frame for hitting a shuttlecock",
+    "shortClue": "Strung frame"
+  },
+  {
+    "word": "badminton",
+    "topics": ["sport"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Net game with a feathered shuttle",
+    "shortClue": "Feathered-shuttle game"
+  },
+  {
+    "word": "ski",
+    "topics": ["sport"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Glide down a snowy slope",
+    "shortClue": "Slide on snow"
+  },
+  {
+    "word": "sled",
+    "topics": ["sport"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Snow vehicle on runners",
+    "shortClue": "Runner vehicle"
+  },
+  {
+    "word": "skate",
+    "topics": ["sport"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Glide on ice",
+    "shortClue": "Move on blades"
+  },
+  {
+    "word": "fumble",
+    "topics": ["sport"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Drop the football",
+    "shortClue": "Lose the ball"
+  },
+  {
+    "word": "tackle",
+    "topics": ["sport"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Bring down a ball carrier",
+    "shortClue": "Take down"
+  },
+  {
+    "word": "karate",
+    "topics": ["sport"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Japanese martial art of kicks and strikes",
+    "shortClue": "Martial art"
+  },
+  {
+    "word": "judo",
+    "topics": ["sport"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Martial art of throws and holds",
+    "shortClue": "Gentle way"
+  },
+  {
+    "word": "polo",
+    "topics": ["sport"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Sport played on horseback with mallets",
+    "shortClue": "Mounted mallet game"
+  },
+  {
+    "word": "jockey",
+    "topics": ["sport"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Horse racer",
+    "shortClue": "Race rider"
+  },
+  {
+    "word": "surf",
+    "topics": ["sport"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Ride waves on a board",
+    "shortClue": "Ride the waves"
+  },
+  {
+    "word": "lap",
+    "topics": ["sport"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "One circuit of a track",
+    "shortClue": "Track circuit"
+  },
+  {
+    "word": "mitt",
+    "topics": ["sport"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Baseball glove",
+    "shortClue": "Fielder's glove"
+  },
+  {
+    "word": "putt",
+    "topics": ["sport"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Gentle golf stroke on the green",
+    "shortClue": "Short golf stroke"
+  },
+  {
+    "word": "violin",
+    "topics": ["arts"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Four-stringed instrument played with a bow",
+    "shortClue": "Bowed instrument"
+  },
+  {
+    "word": "guitar",
+    "topics": ["arts"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Six-stringed instrument strummed by rock stars",
+    "shortClue": "Strummed instrument"
+  },
+  {
+    "word": "tuba",
+    "topics": ["arts"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Largest brass instrument",
+    "shortClue": "Big brass horn"
+  },
+  {
+    "word": "melody",
+    "topics": ["arts"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Sequence of notes that makes a tune",
+    "shortClue": "Main tune"
+  },
+  {
+    "word": "chorus",
+    "topics": ["arts"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Repeated part of a song",
+    "shortClue": "Song refrain"
+  },
+  {
+    "word": "verse",
+    "topics": ["arts"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Section of a song or poem",
+    "shortClue": "Poem section"
+  },
+  {
+    "word": "sketch",
+    "topics": ["arts"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Quick drawing",
+    "shortClue": "Rough drawing"
+  },
+  {
+    "word": "canvas",
+    "topics": ["arts"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Fabric an artist paints on",
+    "shortClue": "Painter's surface"
+  },
+  {
+    "word": "epic",
+    "topics": ["arts"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Long heroic poem",
+    "shortClue": "Heroic tale"
+  },
+  {
+    "word": "fable",
+    "topics": ["arts"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Short moral tale with talking animals",
+    "shortClue": "Aesop's story"
+  },
+  {
+    "word": "legend",
+    "topics": ["arts"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Traditional tale handed down",
+    "shortClue": "Old story"
+  },
+  {
+    "word": "plot",
+    "topics": ["arts"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Storyline of a book",
+    "shortClue": "Narrative arc"
+  },
+  {
+    "word": "chapter",
+    "topics": ["arts"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Section of a book",
+    "shortClue": "Book section"
+  },
+  {
+    "word": "harmony",
+    "topics": ["arts"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Notes sounding well together",
+    "shortClue": "Chord blend"
+  },
+  {
+    "word": "lullaby",
+    "topics": ["arts"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Song to put a baby to sleep",
+    "shortClue": "Bedtime song"
+  },
+  {
+    "word": "tenor",
+    "topics": ["arts"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "High male singing voice",
+    "shortClue": "High male voice"
+  },
+  {
+    "word": "rhyme",
+    "topics": ["arts"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Matching word endings",
+    "shortClue": "Word match"
+  },
+  {
+    "word": "pastel",
+    "topics": ["arts"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Soft, pale chalky crayon",
+    "shortClue": "Soft hue"
+  },
+  {
+    "word": "choir",
+    "topics": ["arts"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Group of singers",
+    "shortClue": "Singing group"
+  },
+  {
+    "word": "arch",
+    "topics": ["arts"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Curved structure over an opening",
+    "shortClue": "Curved span"
+  },
+  {
+    "word": "dome",
+    "topics": ["arts"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Rounded roof",
+    "shortClue": "Hemispherical roof"
+  },
+  {
+    "word": "spire",
+    "topics": ["arts"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Tapering tower atop a church",
+    "shortClue": "Pointed steeple"
+  },
+  {
+    "word": "accordion",
+    "topics": ["arts"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Squeezebox with keys and bellows",
+    "shortClue": "Squeezebox"
+  },
+  {
+    "word": "origami",
+    "topics": ["arts"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Japanese paper-folding art",
+    "shortClue": "Paper folding"
+  },
+  {
+    "word": "pillow",
+    "topics": ["home"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Head rest in bed",
+    "shortClue": "Head rest"
+  },
+  {
+    "word": "cushion",
+    "topics": ["home"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Soft pad on a chair",
+    "shortClue": "Soft seat pad"
+  },
+  {
+    "word": "drawer",
+    "topics": ["home"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Sliding compartment in a dresser",
+    "shortClue": "Sliding box"
+  },
+  {
+    "word": "lawn",
+    "topics": ["home"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Mowed grass",
+    "shortClue": "Grassy yard"
+  },
+  {
+    "word": "hearth",
+    "topics": ["home"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Stone floor of a fireplace",
+    "shortClue": "Fireplace floor"
+  },
+  {
+    "word": "kettle",
+    "topics": ["home"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Pot for boiling water",
+    "shortClue": "Tea boiler"
+  },
+  {
+    "word": "fork",
+    "topics": ["home"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Eating utensil with tines",
+    "shortClue": "Dinner utensil"
+  },
+  {
+    "word": "spoon",
+    "topics": ["home"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Utensil for soup",
+    "shortClue": "Soup utensil"
+  },
+  {
+    "word": "knife",
+    "topics": ["home"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Sharp cutting tool",
+    "shortClue": "Cutting tool"
+  },
+  {
+    "word": "plate",
+    "topics": ["home"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Dish for dinner",
+    "shortClue": "Dinner dish"
+  },
+  {
+    "word": "mug",
+    "topics": ["home"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Coffee cup with a handle",
+    "shortClue": "Handled cup"
+  },
+  {
+    "word": "tray",
+    "topics": ["home"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Flat carrier for dishes",
+    "shortClue": "Serving platter"
+  },
+  {
+    "word": "wok",
+    "topics": ["home"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Round-bottomed Asian pan",
+    "shortClue": "Stir-fry pan"
+  },
+  {
+    "word": "sponge",
+    "topics": ["home"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Absorbent scrubber",
+    "shortClue": "Absorbent pad"
+  },
+  {
+    "word": "thread",
+    "topics": ["home"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Fine strand drawn through a needle",
+    "shortClue": "Sewing strand"
+  },
+  {
+    "word": "needle",
+    "topics": ["home"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Pointed sewing tool",
+    "shortClue": "Sewing tool"
+  },
+  {
+    "word": "button",
+    "topics": ["home"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Small disk for fastening a shirt",
+    "shortClue": "Shirt fastener"
+  },
+  {
+    "word": "ladder",
+    "topics": ["home"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Rungs for climbing",
+    "shortClue": "Climbing aid"
+  },
+  {
+    "word": "candle",
+    "topics": ["home"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Wax stick with a wick",
+    "shortClue": "Wax light"
+  },
+  {
+    "word": "mirror",
+    "topics": ["home"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Reflecting glass",
+    "shortClue": "Reflector"
+  },
+  {
+    "word": "clock",
+    "topics": ["home"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Wall timekeeper",
+    "shortClue": "Wall timepiece"
+  },
+  {
+    "word": "fence",
+    "topics": ["home"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Barrier around a yard",
+    "shortClue": "Yard barrier"
+  },
+  {
+    "word": "nail",
+    "topics": ["home"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Slim metal fastener",
+    "shortClue": "Metal fastener"
+  },
+  {
+    "word": "stool",
+    "topics": ["home"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Backless seat",
+    "shortClue": "Backless seat"
+  },
+  {
+    "word": "dentist",
+    "topics": ["professions"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Tooth doctor",
+    "shortClue": "Cavity filler"
+  },
+  {
+    "word": "teacher",
+    "topics": ["professions"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Classroom instructor",
+    "shortClue": "Class leader"
+  },
+  {
+    "word": "engineer",
+    "topics": ["professions"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Designer of bridges and machines",
+    "shortClue": "Machine designer"
+  },
+  {
+    "word": "welder",
+    "topics": ["professions"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Joiner of metal with a torch",
+    "shortClue": "Metal joiner"
+  },
+  {
+    "word": "mechanic",
+    "topics": ["professions"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Car repair specialist",
+    "shortClue": "Auto fixer"
+  },
+  {
+    "word": "cashier",
+    "topics": ["professions"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Store worker at the register",
+    "shortClue": "Checkout worker"
+  },
+  {
+    "word": "waiter",
+    "topics": ["professions"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Takes orders at a table",
+    "shortClue": "Table server"
+  },
+  {
+    "word": "captain",
+    "topics": ["professions"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Ship's commander",
+    "shortClue": "Ship's boss"
+  },
+  {
+    "word": "sailor",
+    "topics": ["professions"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Seagoing crew member",
+    "shortClue": "Deckhand"
+  },
+  {
+    "word": "dispatcher",
+    "topics": ["professions"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Sends help to emergency calls",
+    "shortClue": "Call coordinator"
+  },
+  {
+    "word": "interpreter",
+    "topics": ["professions"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Renders speech into another language on the spot",
+    "shortClue": "Live linguist"
+  },
+  {
+    "word": "editor",
+    "topics": ["professions"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "One who revises text for publication",
+    "shortClue": "Text reviser"
+  },
+  {
+    "word": "reporter",
+    "topics": ["professions"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "News writer on the scene",
+    "shortClue": "Story chaser"
+  },
+  {
+    "word": "designer",
+    "topics": ["professions"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Creator of plans and styles",
+    "shortClue": "Creative planner"
+  },
+  {
+    "word": "programmer",
+    "topics": ["professions"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Writer of computer code",
+    "shortClue": "Code writer"
+  },
+  {
+    "word": "analyst",
+    "topics": ["professions"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Examiner of data or markets",
+    "shortClue": "Data examiner"
+  },
+  {
+    "word": "gardener",
+    "topics": ["professions"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Tender of plants and lawns",
+    "shortClue": "Plant tender"
+  },
+  {
+    "word": "angler",
+    "topics": ["professions"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Rod-and-line fisher",
+    "shortClue": "Line caster"
+  },
+  {
+    "word": "weaver",
+    "topics": ["professions"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Maker of cloth on a loom",
+    "shortClue": "Loom worker"
+  },
+  {
+    "word": "ranger",
+    "topics": ["professions"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Park guardian",
+    "shortClue": "Park warden"
+  },
+  {
+    "word": "mayor",
+    "topics": ["professions"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Head of a city government",
+    "shortClue": "City leader"
+  },
+  {
+    "word": "governor",
+    "topics": ["professions"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "State's chief executive",
+    "shortClue": "State leader"
+  },
+  {
+    "word": "juror",
+    "topics": ["professions"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Trial decider chosen from citizens",
+    "shortClue": "Trial decider"
+  },
+  {
+    "word": "driver",
+    "topics": ["professions"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Operator of a vehicle",
+    "shortClue": "Behind the wheel"
+  },
+  {
+    "word": "prom",
+    "topics": ["localCulture"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "High school formal dance",
+    "shortClue": "Formal dance"
+  },
+  {
+    "word": "homecoming",
+    "topics": ["localCulture"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Fall school celebration with a dance and big game",
+    "shortClue": "Alumni weekend"
+  },
+  {
+    "word": "locker",
+    "topics": ["localCulture"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "School hallway storage",
+    "shortClue": "Hallway cubby"
+  },
+  {
+    "word": "mascot",
+    "topics": ["localCulture"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Costumed team symbol",
+    "shortClue": "Team symbol"
+  },
+  {
+    "word": "jukebox",
+    "topics": ["localCulture"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Coin-operated tune machine",
+    "shortClue": "Diner music maker"
+  },
+  {
+    "word": "fiddle",
+    "topics": ["localCulture"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Bluegrass violin",
+    "shortClue": "Country violin"
+  },
+  {
+    "word": "lasso",
+    "topics": ["localCulture"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Looped rope for catching cattle",
+    "shortClue": "Looped rope"
+  },
+  {
+    "word": "sparkler",
+    "topics": ["localCulture"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Handheld Fourth of July firework",
+    "shortClue": "Handheld firework"
+  },
+  {
+    "word": "costume",
+    "topics": ["localCulture"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Halloween outfit",
+    "shortClue": "Dress-up outfit"
+  },
+  {
+    "word": "tinsel",
+    "topics": ["localCulture"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Shiny strands on a Christmas tree",
+    "shortClue": "Glittering strands"
+  },
+  {
+    "word": "pilgrim",
+    "topics": ["general"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Traveler on a journey to a holy place",
+    "shortClue": "Holy traveler"
+  },
+  {
+    "word": "carnival",
+    "topics": ["localCulture"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Traveling fair with rides",
+    "shortClue": "Fair with rides"
+  },
+  {
+    "word": "Easter",
+    "topics": ["localCulture"],
+    "difficulty": 1,
+    "kind": "proper",
+    "clue": "Spring holiday with egg hunts",
+    "shortClue": "Egg-hunt holiday"
+  },
+  {
+    "word": "Alice",
+    "topics": ["localCulture"],
+    "difficulty": 1,
+    "kind": "proper",
+    "clue": "Girl who fell down a rabbit hole",
+    "shortClue": "Wonderland girl"
+  },
+  {
+    "word": "Watson",
+    "topics": ["localCulture"],
+    "difficulty": 2,
+    "kind": "proper",
+    "clue": "Holmes's loyal friend",
+    "shortClue": "Holmes's sidekick"
+  },
+  {
+    "word": "Twain",
+    "topics": ["localCulture"],
+    "difficulty": 2,
+    "kind": "proper",
+    "clue": "Pen name of Samuel Clemens",
+    "shortClue": "Sawyer's author"
+  },
+  {
+    "word": "Elvis",
+    "topics": ["localCulture"],
+    "difficulty": 1,
+    "kind": "proper",
+    "clue": "King of rock and roll",
+    "shortClue": "The King"
+  },
+  {
+    "word": "Mayflower",
+    "topics": ["localCulture"],
+    "difficulty": 2,
+    "kind": "proper",
+    "clue": "Ship of the Pilgrims",
+    "shortClue": "Plymouth voyager"
+  },
+  {
+    "word": "glad",
+    "topics": ["general"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Pleased and happy",
+    "shortClue": "Pleased"
+  },
+  {
+    "word": "kind",
+    "topics": ["general"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Considerate and caring",
+    "shortClue": "Caring"
+  },
+  {
+    "word": "grim",
+    "topics": ["general"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Stern and forbidding",
+    "shortClue": "Dour"
+  },
+  {
+    "word": "wise",
+    "topics": ["general"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Having good judgment",
+    "shortClue": "Insightful"
+  },
+  {
+    "word": "tact",
+    "topics": ["general"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Skill in handling touchy matters politely",
+    "shortClue": "Diplomacy"
+  },
+  {
+    "word": "sigh",
+    "topics": ["general"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Audible breath of relief or sorrow",
+    "shortClue": "Weary exhale"
+  },
+  {
+    "word": "sneak",
+    "topics": ["general"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Move quietly and secretly",
+    "shortClue": "Slink"
+  },
+  {
+    "word": "swirl",
+    "topics": ["general"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Move in a twisting pattern",
+    "shortClue": "Whirl"
+  },
+  {
+    "word": "fling",
+    "topics": ["general"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Throw with force",
+    "shortClue": "Hurl"
+  },
+  {
+    "word": "creep",
+    "topics": ["general"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Move slowly and stealthily",
+    "shortClue": "Crawl"
+  },
+  {
+    "word": "dodge",
+    "topics": ["general"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Sidestep to avoid",
+    "shortClue": "Evade"
+  },
+  {
+    "word": "linger",
+    "topics": ["general"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Stay longer than necessary",
+    "shortClue": "Loiter"
+  },
+  {
+    "word": "ponder",
+    "topics": ["general"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Think over carefully",
+    "shortClue": "Mull over"
+  },
+  {
+    "word": "flaw",
+    "topics": ["general"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Imperfection",
+    "shortClue": "Defect"
+  },
+  {
+    "word": "blame",
+    "topics": ["general"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Hold responsible for a fault",
+    "shortClue": "Place fault"
+  },
+  {
+    "word": "folly",
+    "topics": ["general"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Foolishness",
+    "shortClue": "Lack of sense"
+  },
+  {
+    "word": "ruse",
+    "topics": ["general"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Clever trick to deceive",
+    "shortClue": "Cunning ploy"
+  },
+  {
+    "word": "twist",
+    "topics": ["general"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Unexpected turn in a story",
+    "shortClue": "Plot turn"
+  },
+  {
+    "word": "terse",
+    "topics": ["general"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Brief to the point of curtness",
+    "shortClue": "Curt"
+  },
+  {
+    "word": "inane",
+    "topics": ["general"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Silly and empty of meaning",
+    "shortClue": "Pointless"
+  },
+  {
+    "word": "lithe",
+    "topics": ["general"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Graceful and flexible",
+    "shortClue": "Supple"
+  },
+  {
+    "word": "stoic",
+    "topics": ["general"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Calm in the face of hardship",
+    "shortClue": "Unflinching"
+  },
+  {
+    "word": "awry",
+    "topics": ["general"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Off course or crooked",
+    "shortClue": "Askew"
+  },
+  {
+    "word": "deft",
+    "topics": ["general"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Skillful and quick with the hands",
+    "shortClue": "Adroit"
+  },
+  {
+    "word": "gaunt",
+    "topics": ["general"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Thin and bony",
+    "shortClue": "Haggard"
+  },
+  {
+    "word": "mirth",
+    "topics": ["general"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Cheerful laughter",
+    "shortClue": "Merriment"
+  },
+  {
+    "word": "tepid",
+    "topics": ["general"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Barely warm",
+    "shortClue": "Lukewarm"
+  },
+  {
+    "word": "dire",
+    "topics": ["general"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Extremely serious",
+    "shortClue": "Dreadful"
+  },
+  {
+    "word": "bleak",
+    "topics": ["general"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Dreary and without hope",
+    "shortClue": "Desolate"
+  },
+  {
+    "word": "short",
+    "topics": ["general"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Of small length or duration",
+    "shortClue": "Not long"
+  },
+  {
+    "word": "leaf",
+    "topics": ["nature"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Flat green part of a plant",
+    "shortClue": "Foliage piece"
+  },
+  {
+    "word": "vine",
+    "topics": ["nature"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Climbing plant",
+    "shortClue": "Trellis climber"
+  },
+  {
+    "word": "palm",
+    "topics": ["nature"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Tropical tree with fronds",
+    "shortClue": "Tropical tree"
+  },
+  {
+    "word": "shrub",
+    "topics": ["nature"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Low woody plant",
+    "shortClue": "Bushy plant"
+  },
+  {
+    "word": "grove",
+    "topics": ["nature"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Small stand of trees",
+    "shortClue": "Tree cluster"
+  },
+  {
+    "word": "cave",
+    "topics": ["nature"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Natural hollow in a hillside",
+    "shortClue": "Rocky hollow"
+  },
+  {
+    "word": "brook",
+    "topics": ["nature"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Small stream",
+    "shortClue": "Babbling stream"
+  },
+  {
+    "word": "knoll",
+    "topics": ["nature"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Small rounded hill",
+    "shortClue": "Little hill"
+  },
+  {
+    "word": "swamp",
+    "topics": ["nature"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Forested wetland",
+    "shortClue": "Soggy forest"
+  },
+  {
+    "word": "yew",
+    "topics": ["nature"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Evergreen with red berries",
+    "shortClue": "Churchyard tree"
+  },
+  {
+    "word": "bear",
+    "topics": ["animals"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Large furry hibernator",
+    "shortClue": "Winter sleeper"
+  },
+  {
+    "word": "lion",
+    "topics": ["animals"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Maned big cat",
+    "shortClue": "Maned cat"
+  },
+  {
+    "word": "deer",
+    "topics": ["animals"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Antlered woodland grazer",
+    "shortClue": "Antlered grazer"
+  },
+  {
+    "word": "goat",
+    "topics": ["animals"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Horned climber that eats anything",
+    "shortClue": "Horned climber"
+  },
+  {
+    "word": "crab",
+    "topics": ["animals"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Sideways-walking shellfish",
+    "shortClue": "Sideways walker"
+  },
+  {
+    "word": "viper",
+    "topics": ["animals"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Venomous snake with hinged fangs",
+    "shortClue": "Poisonous snake"
+  },
+  {
+    "word": "lynx",
+    "topics": ["animals"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Tufted-eared wild cat",
+    "shortClue": "Bobcat relative"
+  },
+  {
+    "word": "okapi",
+    "topics": ["animals"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Striped-legged cousin of the giraffe",
+    "shortClue": "Striped-leg grazer"
+  },
+  {
+    "word": "sloth",
+    "topics": ["animals"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Tree-dwelling mammal that barely moves",
+    "shortClue": "Lethargic climber"
+  },
+  {
+    "word": "stork",
+    "topics": ["animals"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Bird said to deliver babies",
+    "shortClue": "Baby deliverer"
+  },
+  {
+    "word": "rice",
+    "topics": ["food"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Staple grain of paddies",
+    "shortClue": "Paddy grain"
+  },
+  {
+    "word": "corn",
+    "topics": ["food"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Golden kernels on the cob",
+    "shortClue": "Yellow kernels"
+  },
+  {
+    "word": "bean",
+    "topics": ["food"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Pod seed such as pinto",
+    "shortClue": "Pod seed"
+  },
+  {
+    "word": "tuna",
+    "topics": ["food"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Canned fish for sandwiches",
+    "shortClue": "Canned fish"
+  },
+  {
+    "word": "curry",
+    "topics": ["food"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Spiced sauce dish of India",
+    "shortClue": "Spiced dish"
+  },
+  {
+    "word": "salad",
+    "topics": ["food"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Bowl of mixed greens",
+    "shortClue": "Leafy dish"
+  },
+  {
+    "word": "cake",
+    "topics": ["food"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Birthday dessert topped with frosting",
+    "shortClue": "Frosted dessert"
+  },
+  {
+    "word": "steak",
+    "topics": ["food"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Thick cut of grilled beef",
+    "shortClue": "Grilled cut"
+  },
+  {
+    "word": "fig",
+    "topics": ["food"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Soft fruit with tiny seeds",
+    "shortClue": "Soft sweet fruit"
+  },
+  {
+    "word": "feta",
+    "topics": ["food"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Crumbly Greek cheese",
+    "shortClue": "Brined cheese"
+  },
+  {
+    "word": "pesto",
+    "topics": ["food"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Basil and pine nut sauce",
+    "shortClue": "Green Italian sauce"
+  },
+  {
+    "word": "tarn",
+    "topics": ["geography"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Small mountain lake",
+    "shortClue": "Alpine pond"
+  },
+  {
+    "word": "river",
+    "topics": ["geography"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Waterway flowing to the sea",
+    "shortClue": "Flowing water"
+  },
+  {
+    "word": "hill",
+    "topics": ["geography"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Small rise in the land",
+    "shortClue": "Low rise"
+  },
+  {
+    "word": "ford",
+    "topics": ["geography"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Shallow river crossing",
+    "shortClue": "Shallow crossing"
+  },
+  {
+    "word": "Rhine",
+    "topics": ["geography"],
+    "difficulty": 3,
+    "kind": "proper",
+    "clue": "European river through Germany",
+    "shortClue": "Cologne's river"
+  },
+  {
+    "word": "queen",
+    "topics": ["history"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Female monarch",
+    "shortClue": "Female ruler"
+  },
+  {
+    "word": "lord",
+    "topics": ["history"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Feudal landowner",
+    "shortClue": "Manor master"
+  },
+  {
+    "word": "khan",
+    "topics": ["history"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Title of a Mongol or Central Asian ruler",
+    "shortClue": "Mongol ruler"
+  },
+  {
+    "word": "hoard",
+    "topics": ["history"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Hidden stash of valuables",
+    "shortClue": "Stashed treasure"
+  },
+  {
+    "word": "mace",
+    "topics": ["history"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Spiked club of knights",
+    "shortClue": "Spiked club"
+  },
+  {
+    "word": "guild",
+    "topics": ["history"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Medieval trade association",
+    "shortClue": "Craftsmen's union"
+  },
+  {
+    "word": "oracle",
+    "topics": ["history"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Priestess consulted at Delphi",
+    "shortClue": "Delphi seer"
+  },
+  {
+    "word": "forum",
+    "topics": ["history"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Roman public meeting place",
+    "shortClue": "Roman plaza"
+  },
+  {
+    "word": "coin",
+    "topics": ["history"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Piece of metal money",
+    "shortClue": "Metal money"
+  },
+  {
+    "word": "pact",
+    "topics": ["history"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Formal agreement between parties",
+    "shortClue": "Solemn deal"
+  },
+  {
+    "word": "lymph",
+    "topics": ["science"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Clear fluid of the immune system",
+    "shortClue": "Immune fluid"
+  },
+  {
+    "word": "argon",
+    "topics": ["science"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Inert gas in light bulbs",
+    "shortClue": "Inert gas"
+  },
+  {
+    "word": "joule",
+    "topics": ["science"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Unit of energy",
+    "shortClue": "Energy unit"
+  },
+  {
+    "word": "ulna",
+    "topics": ["science"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Forearm bone",
+    "shortClue": "Arm bone"
+  },
+  {
+    "word": "pulse",
+    "topics": ["science"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Rhythmic throb felt at the wrist",
+    "shortClue": "Wrist throb"
+  },
+  {
+    "word": "liver",
+    "topics": ["science"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Large organ that filters toxins",
+    "shortClue": "Bile maker"
+  },
+  {
+    "word": "virus",
+    "topics": ["science"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Tiny infectious agent",
+    "shortClue": "Germ"
+  },
+  {
+    "word": "swim",
+    "topics": ["sport"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Move through water with strokes",
+    "shortClue": "Do laps"
+  },
+  {
+    "word": "pass",
+    "topics": ["sport"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Throw to a teammate",
+    "shortClue": "Teammate toss"
+  },
+  {
+    "word": "lane",
+    "topics": ["sport"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Bowling or swimming strip",
+    "shortClue": "Pool division"
+  },
+  {
+    "word": "pool",
+    "topics": ["sport"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Water for laps",
+    "shortClue": "Swimming venue"
+  },
+  {
+    "word": "hoop",
+    "topics": ["sport"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Basketball's rim",
+    "shortClue": "Basket ring"
+  },
+  {
+    "word": "deuce",
+    "topics": ["sport"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Tie at forty in tennis",
+    "shortClue": "Tennis tie"
+  },
+  {
+    "word": "squash",
+    "topics": ["sport"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Court game with a small rubber ball",
+    "shortClue": "Walled-court game"
+  },
+  {
+    "word": "film",
+    "topics": ["arts"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Movie shown in a theater",
+    "shortClue": "Motion picture"
+  },
+  {
+    "word": "cornet",
+    "topics": ["arts"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Brass horn like a small trumpet",
+    "shortClue": "Trumpet cousin"
+  },
+  {
+    "word": "lyre",
+    "topics": ["arts"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Ancient Greek stringed instrument",
+    "shortClue": "Ancient harp"
+  },
+  {
+    "word": "gong",
+    "topics": ["arts"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Struck metal disc",
+    "shortClue": "Metal disc"
+  },
+  {
+    "word": "bust",
+    "topics": ["arts"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Sculpture of head and shoulders",
+    "shortClue": "Head sculpture"
+  },
+  {
+    "word": "prose",
+    "topics": ["arts"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Ordinary written language, not verse",
+    "shortClue": "Non-verse writing"
+  },
+  {
+    "word": "theme",
+    "topics": ["arts"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Central idea of a work",
+    "shortClue": "Central idea"
+  },
+  {
+    "word": "tome",
+    "topics": ["arts"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Large, heavy book",
+    "shortClue": "Weighty volume"
+  },
+  {
+    "word": "desk",
+    "topics": ["home"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Writing table",
+    "shortClue": "Study table"
+  },
+  {
+    "word": "roof",
+    "topics": ["home"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "House's top covering",
+    "shortClue": "Shingle bearer"
+  },
+  {
+    "word": "tile",
+    "topics": ["home"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Ceramic square for floors",
+    "shortClue": "Ceramic square"
+  },
+  {
+    "word": "bin",
+    "topics": ["home"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Open container for trash or storage",
+    "shortClue": "Trash holder"
+  },
+  {
+    "word": "jar",
+    "topics": ["home"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Glass container with a lid",
+    "shortClue": "Lidded container"
+  },
+  {
+    "word": "tub",
+    "topics": ["home"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Bathing basin",
+    "shortClue": "Bath basin"
+  },
+  {
+    "word": "stove",
+    "topics": ["home"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Cooking range",
+    "shortClue": "Kitchen burner"
+  },
+  {
+    "word": "ledge",
+    "topics": ["home"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Narrow shelf-like projection",
+    "shortClue": "Narrow shelf"
+  },
+  {
+    "word": "fair",
+    "topics": ["localCulture"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "County gathering with rides and prizes",
+    "shortClue": "Rides and prizes"
+  },
+  {
+    "word": "float",
+    "topics": ["localCulture"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Decorated parade vehicle",
+    "shortClue": "Parade vehicle"
+  },
+  {
+    "word": "silo",
+    "topics": ["localCulture"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Tall grain storage tower",
+    "shortClue": "Grain tower"
+  },
+  {
+    "word": "barn",
+    "topics": ["localCulture"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Farm building with a hayloft",
+    "shortClue": "Red farm building"
+  },
+  {
+    "word": "corral",
+    "topics": ["localCulture"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Fenced pen for horses",
+    "shortClue": "Horse pen"
+  },
+  {
+    "word": "twang",
+    "topics": ["localCulture"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Nasal country-music sound",
+    "shortClue": "Country sound"
+  },
+  {
+    "word": "gown",
+    "topics": ["localCulture"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Formal dress for a dance",
+    "shortClue": "Formal dress"
+  },
+  {
+    "word": "Santa",
+    "topics": ["localCulture"],
+    "difficulty": 1,
+    "kind": "proper",
+    "clue": "Jolly gift-bringer in red",
+    "shortClue": "Jolly Saint Nick"
+  },
+  {
+    "word": "Niagara",
+    "topics": ["geography"],
+    "difficulty": 2,
+    "kind": "proper",
+    "clue": "River and famous falls between New York and Ontario",
+    "shortClue": "Famous falls"
+  },
+  {
+    "word": "yule",
+    "topics": ["localCulture"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Old name for the Christmas season",
+    "shortClue": "Winter festival"
+  },
+  {
+    "word": "cabin",
+    "topics": ["localCulture"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Small log house",
+    "shortClue": "Log home"
+  },
+  {
+    "word": "boss",
+    "topics": ["professions"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Head of a workplace",
+    "shortClue": "One in charge"
+  },
+  {
+    "word": "agent",
+    "topics": ["professions"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Representative who handles business for others",
+    "shortClue": "Go-between"
+  },
+  {
+    "word": "actor",
+    "topics": ["professions"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Stage or screen performer",
+    "shortClue": "Stage performer"
+  },
+  {
+    "word": "clown",
+    "topics": ["professions"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Circus performer with a red nose",
+    "shortClue": "Big-top jester"
+  },
+  {
+    "word": "model",
+    "topics": ["professions"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Poser for painters and photographers",
+    "shortClue": "Runway walker"
+  },
+  {
+    "word": "aide",
+    "topics": ["professions"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Assistant to a senior person",
+    "shortClue": "Helper"
+  },
+  {
+    "word": "dean",
+    "topics": ["professions"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "College administrator",
+    "shortClue": "Campus official"
+  },
+  {
+    "word": "bosun",
+    "topics": ["professions"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Ship's officer in charge of deck crew",
+    "shortClue": "Deck supervisor"
+  }
+]
