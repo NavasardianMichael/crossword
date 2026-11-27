@@ -36,8 +36,8 @@
     ],
     "difficulty": 1,
     "kind": "common",
-    "clue": "Hatvan másodpercnyi idő",
-    "shortClue": "Hatvan másodperc"
+    "clue": "Az óra hatvanad része",
+    "shortClue": "Óra hatvanada"
   },
   {
     "word": "hónap",
@@ -97,7 +97,7 @@
     "difficulty": 1,
     "kind": "common",
     "clue": "Ami már megtörtént, és nem tér vissza",
-    "shortClue": "Elmúlt idő"
+    "shortClue": "Ami egykor volt"
   },
   {
     "word": "jövő",

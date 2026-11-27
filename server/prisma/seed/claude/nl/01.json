@@ -93,7 +93,7 @@
     "difficulty": 1,
     "kind": "common",
     "clue": "Verklaring waarom iets gebeurt",
-    "shortClue": "Beweegreden"
+    "shortClue": "Oorzaak"
   },
   {
     "word": "probleem",
@@ -917,7 +917,7 @@
     "difficulty": 2,
     "kind": "common",
     "clue": "Boom met hartvormige bladeren",
-    "shortClue": "Lindeboom"
+    "shortClue": "Loofboom"
   },
   {
     "word": "iep",
@@ -997,7 +997,7 @@
     "difficulty": 1,
     "kind": "common",
     "clue": "Hevige wind",
-    "shortClue": "Stormachtig weer"
+    "shortClue": "Zware wind"
   },
   {
     "word": "bries",
@@ -2085,7 +2085,7 @@
     "difficulty": 1,
     "kind": "common",
     "clue": "Scheidslijn tussen twee landen",
-    "shortClue": "Landsgrens"
+    "shortClue": "Scheidslijn"
   },
   {
     "word": "oceaan",
@@ -2805,7 +2805,7 @@
     "difficulty": 1,
     "kind": "common",
     "clue": "Gespannen draadwerk tussen twee palen",
-    "shortClue": "Netwerk"
+    "shortClue": "Draadwerk"
   },
   {
     "word": "hockeystick",
@@ -3117,7 +3117,7 @@
     "difficulty": 1,
     "kind": "common",
     "clue": "Kookgerei met deksel",
-    "shortClue": "Kookpot"
+    "shortClue": "Kookgerei"
   },
   {
     "word": "lepel",
@@ -3125,7 +3125,7 @@
     "difficulty": 1,
     "kind": "common",
     "clue": "Eetgerei voor soep",
-    "shortClue": "Soeplepel"
+    "shortClue": "Bestekstuk"
   },
   {
     "word": "vork",
@@ -3149,7 +3149,7 @@
     "difficulty": 1,
     "kind": "common",
     "clue": "Rond servies voor het eten",
-    "shortClue": "Etensbord"
+    "shortClue": "Servies"
   },
   {
     "word": "kopje",

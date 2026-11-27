@@ -340,8 +340,8 @@
     "topics": ["general"],
     "difficulty": 1,
     "kind": "common",
-    "clue": "De grande profundidade",
-    "shortClue": "Profundo"
+    "clue": "Que desce muito abaixo da superfície",
+    "shortClue": "Nada raso"
   },
   {
     "word": "raso",
@@ -365,7 +365,7 @@
     "difficulty": 2,
     "kind": "common",
     "clue": "Sem curvas nem desvios",
-    "shortClue": "Direto"
+    "shortClue": "Sem curvas"
   },
   {
     "word": "sincero",

@@ -1732,7 +1732,7 @@
     "topics": ["geography"],
     "difficulty": 1,
     "kind": "common",
-    "clue": "Eingebuchtetes Stück Küste",
+    "clue": "Meeresteil, der ins Land hineinreicht",
     "shortClue": "Küsteneinschnitt"
   },
   {
@@ -3692,7 +3692,7 @@
     "topics": ["science"],
     "difficulty": 2,
     "kind": "common",
-    "clue": "Bläulich-weißes Metall zum Verzinken",
+    "clue": "Bläulich-weißes Metall, schützt Eisen vor Rost",
     "shortClue": "Rostschutzmetall"
   },
   {
