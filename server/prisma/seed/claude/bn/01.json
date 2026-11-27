@@ -1,0 +1,5006 @@
+[
+  {
+    "word": "আনন্দ",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "মন খুশিতে ভরে ওঠার অনুভূতি",
+    "shortClue": "খুশির ভাব"
+  },
+  {
+    "word": "দুঃখ",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "প্রিয় কিছু হারালে মনে যে কষ্ট জাগে",
+    "shortClue": "মনের ব্যথা"
+  },
+  {
+    "word": "রাগ",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "অন্যায় দেখলে মাথা গরম হওয়ার ভাব",
+    "shortClue": "মেজাজ চড়া"
+  },
+  {
+    "word": "ভয়",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "অন্ধকারে বা বিপদে বুক কাঁপার অনুভূতি",
+    "shortClue": "বুক কাঁপা"
+  },
+  {
+    "word": "লজ্জা",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "ভুল ধরা পড়লে মুখ লাল হওয়ার ভাব",
+    "shortClue": "সংকোচের ভাব"
+  },
+  {
+    "word": "হিংসা",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "অন্যের সুখ দেখে মনে যে জ্বলুনি হয়",
+    "shortClue": "পরের সুখে জ্বলা"
+  },
+  {
+    "word": "সাহস",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "বিপদেও ভয় না পাওয়ার গুণ",
+    "shortClue": "বুকের জোর"
+  },
+  {
+    "word": "ধৈর্য",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "না রেগে শান্তভাবে অপেক্ষা করার ক্ষমতা",
+    "shortClue": "সহ্যের গুণ"
+  },
+  {
+    "word": "আশা",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "ভবিষ্যতে ভালো কিছু ঘটবে, এমন বিশ্বাস",
+    "shortClue": "সুদিনের অপেক্ষা"
+  },
+  {
+    "word": "চিন্তা",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "মনে মনে ভাবনা বা দুর্ভাবনা",
+    "shortClue": "মনের ভাবনা"
+  },
+  {
+    "word": "ঘুম",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "রাতে চোখ বুজে শরীরের বিশ্রাম",
+    "shortClue": "রাতের বিশ্রাম"
+  },
+  {
+    "word": "খিদে",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "পেট খালি হলে খাবার চাওয়ার অনুভূতি",
+    "shortClue": "খাওয়ার ইচ্ছে"
+  },
+  {
+    "word": "সকাল",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "সূর্য ওঠার পরের সময়",
+    "shortClue": "দিনের শুরু"
+  },
+  {
+    "word": "দুপুর",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "দিনের মাঝামাঝি, সূর্য যখন মাথার ওপর",
+    "shortClue": "মধ্যাহ্ন"
+  },
+  {
+    "word": "বিকেল",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "দুপুর আর সন্ধ্যার মাঝের সময়",
+    "shortClue": "অপরাহ্ণ"
+  },
+  {
+    "word": "সন্ধ্যা",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "সূর্য ডোবার পরের আবছা সময়",
+    "shortClue": "দিনের শেষে"
+  },
+  {
+    "word": "রাত",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "চাঁদ আর তারা ওঠার অন্ধকার সময়",
+    "shortClue": "আঁধার প্রহর"
+  },
+  {
+    "word": "বছর",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "বারো মাসের সময়কাল",
+    "shortClue": "বারো মাস"
+  },
+  {
+    "word": "মুহূর্ত",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "চোখের পলকের মতো অল্প সময়",
+    "shortClue": "ক্ষণকাল"
+  },
+  {
+    "word": "ভবিষ্যৎ",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "যে সময় এখনও আসেনি",
+    "shortClue": "আগামী দিন"
+  },
+  {
+    "word": "অতীত",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "যে সময় পেরিয়ে গেছে",
+    "shortClue": "পেরোনো সময়"
+  },
+  {
+    "word": "শেষ",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "যেখানে এসে কিছু থেমে যায়",
+    "shortClue": "সমাপ্তি"
+  },
+  {
+    "word": "ভুল",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "যা ঠিক নয়, এমন কাজ বা উত্তর",
+    "shortClue": "অশুদ্ধ কাজ"
+  },
+  {
+    "word": "ভাগ্য",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "যা কপালে লেখা আছে বলে মানা হয়",
+    "shortClue": "কপালের লিখন"
+  },
+  {
+    "word": "রহস্য",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "যার কারণ বা মানে লুকোনো থাকে",
+    "shortClue": "গোপন ব্যাপার"
+  },
+  {
+    "word": "চমক",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "হঠাৎ অবাক করে দেওয়া ঘটনা",
+    "shortClue": "হঠাৎ বিস্ময়"
+  },
+  {
+    "word": "সন্দেহ",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "পুরো বিশ্বাস না হওয়ার ভাব",
+    "shortClue": "অবিশ্বাস"
+  },
+  {
+    "word": "প্রশ্ন",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "উত্তর জানতে যা জিজ্ঞেস করা হয়",
+    "shortClue": "জিজ্ঞাসা"
+  },
+  {
+    "word": "উত্তর",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "প্রশ্নের জবাব; আবার দক্ষিণের উল্টো দিক",
+    "shortClue": "জবাব"
+  },
+  {
+    "word": "কথা",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "মুখ দিয়ে বলা শব্দ বা বাক্য",
+    "shortClue": "মুখের বুলি"
+  },
+  {
+    "word": "উপহার",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "ভালোবেসে কাউকে দেওয়া জিনিস",
+    "shortClue": "উপঢৌকন"
+  },
+  {
+    "word": "নিমন্ত্রণ",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "বিয়ে বা উৎসবে আসার আহ্বান",
+    "shortClue": "দাওয়াত"
+  },
+  {
+    "word": "বিশ্রাম",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "ক্লান্তির পর কাজ থেকে বিরতি",
+    "shortClue": "জিরোনো"
+  },
+  {
+    "word": "পরিশ্রম",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "গায়ের ঘাম ঝরানো খাটুনি",
+    "shortClue": "খাটুনি"
+  },
+  {
+    "word": "সাফল্য",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "চেষ্টার পর লক্ষ্যে পৌঁছানো",
+    "shortClue": "কৃতকার্যতা"
+  },
+  {
+    "word": "সুযোগ",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "কিছু করার উপযুক্ত সময়",
+    "shortClue": "মওকা"
+  },
+  {
+    "word": "অভ্যাস",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "বারবার করতে করতে যা স্বভাব হয়ে যায়",
+    "shortClue": "রোজের রীতি"
+  },
+  {
+    "word": "স্বভাব",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "মানুষের সহজাত আচরণ",
+    "shortClue": "প্রকৃতি"
+  },
+  {
+    "word": "শান্তি",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "কোলাহল বা বিবাদহীন স্থির অবস্থা",
+    "shortClue": "স্থিরতা"
+  },
+  {
+    "word": "ঝগড়া",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "রেগে গিয়ে কথা কাটাকাটি",
+    "shortClue": "কলহ"
+  },
+  {
+    "word": "খবর",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "নতুন কোনো ঘটনার বার্তা",
+    "shortClue": "সংবাদ"
+  },
+  {
+    "word": "আওয়াজ",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "কানে যা শোনা যায়",
+    "shortClue": "শব্দ"
+  },
+  {
+    "word": "নীরবতা",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "কোনো শব্দ না থাকার অবস্থা",
+    "shortClue": "চুপচাপ ভাব"
+  },
+  {
+    "word": "গন্ধ",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "নাক দিয়ে যা টের পাওয়া যায়",
+    "shortClue": "ঘ্রাণ"
+  },
+  {
+    "word": "আকার",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "কোনো কিছুর গড়ন বা মাপ",
+    "shortClue": "গড়ন"
+  },
+  {
+    "word": "ওজন",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "দাঁড়িপাল্লায় মাপা ভার",
+    "shortClue": "ভার"
+  },
+  {
+    "word": "দূরত্ব",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "দুই জায়গার মাঝের ফাঁক",
+    "shortClue": "ফারাক"
+  },
+  {
+    "word": "উচ্চতা",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "পা থেকে মাথা পর্যন্ত মাপ",
+    "shortClue": "লম্বার মাপ"
+  },
+  {
+    "word": "পরিমাণ",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "কতখানি আছে তার মাপ",
+    "shortClue": "মাত্রা"
+  },
+  {
+    "word": "ডজন",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "বারোটির একটি গোছা",
+    "shortClue": "বারোটি"
+  },
+  {
+    "word": "অতিথি",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "বাড়িতে বেড়াতে আসা লোক",
+    "shortClue": "মেহমান"
+  },
+  {
+    "word": "আত্মীয়",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "রক্ত বা বিয়ের সূত্রে আপনজন",
+    "shortClue": "স্বজন"
+  },
+  {
+    "word": "বোন",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "একই মা-বাবার কন্যাসন্তান",
+    "shortClue": "সহোদরা"
+  },
+  {
+    "word": "ভাই",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "একই মা-বাবার পুত্রসন্তান",
+    "shortClue": "সহোদর"
+  },
+  {
+    "word": "বিয়ে",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "দুজনের সংসার বাঁধার অনুষ্ঠান",
+    "shortClue": "পরিণয়"
+  },
+  {
+    "word": "জন্মদিন",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "প্রতি বছর ভূমিষ্ঠ হওয়ার তারিখ",
+    "shortClue": "কেক কাটার উৎসব"
+  },
+  {
+    "word": "বয়স",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "জন্ম থেকে কত বছর পেরোল তার হিসাব",
+    "shortClue": "বছরের হিসাব"
+  },
+  {
+    "word": "শৈশব",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "জীবনের ছোটবেলার সময়",
+    "shortClue": "ছোটবেলা"
+  },
+  {
+    "word": "যৌবন",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "কৈশোর পেরিয়ে তারুণ্যের বয়স",
+    "shortClue": "তরুণ বয়স"
+  },
+  {
+    "word": "স্মৃতি",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "মনে রয়ে যাওয়া পুরোনো কথা",
+    "shortClue": "মনে রাখা"
+  },
+  {
+    "word": "ইচ্ছা",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "মন যা চায়",
+    "shortClue": "বাসনা"
+  },
+  {
+    "word": "চেষ্টা",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "কিছু করার জন্য খাটা বা উদ্যোগ",
+    "shortClue": "প্রয়াস"
+  },
+  {
+    "word": "সাহায্য",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "বিপদে কারও পাশে দাঁড়ানো",
+    "shortClue": "সহায়তা"
+  },
+  {
+    "word": "পরীক্ষা",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "পড়াশোনা যাচাইয়ের লিখিত বা মৌখিক ধাপ",
+    "shortClue": "যাচাই"
+  },
+  {
+    "word": "তারিখ",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "মাসের কোন দিন, তার উল্লেখ",
+    "shortClue": "পঞ্জিকার দিন"
+  },
+  {
+    "word": "নাম",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "যে শব্দে কাউকে ডাকা হয়",
+    "shortClue": "পরিচয়ের শব্দ"
+  },
+  {
+    "word": "হিসাব",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "টাকাপয়সার গোনাগুনতি",
+    "shortClue": "গণনা"
+  },
+  {
+    "word": "ভ্রমণ",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "বেড়ানোর জন্য দূরে যাওয়া",
+    "shortClue": "সফর"
+  },
+  {
+    "word": "বেতন",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "কাজের বিনিময়ে মাসে পাওয়া টাকা",
+    "shortClue": "মাইনে"
+  },
+  {
+    "word": "ক্ষমা",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "কারও দোষ মাফ করে দেওয়া",
+    "shortClue": "মার্জনা"
+  },
+  {
+    "word": "অনুরোধ",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "বিনীতভাবে কিছু চাওয়া",
+    "shortClue": "আবদার"
+  },
+  {
+    "word": "প্রতিজ্ঞা",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "কিছু করার পাকা কথা দেওয়া",
+    "shortClue": "শপথ"
+  },
+  {
+    "word": "অহংকার",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "নিজেকে সবার চেয়ে বড় ভাবার দোষ",
+    "shortClue": "দেমাক"
+  },
+  {
+    "word": "বিশ্বাস",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "কারও ওপর ভরসা রাখা",
+    "shortClue": "আস্থা"
+  },
+  {
+    "word": "কৌতূহল",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "নতুন কিছু জানার আগ্রহ",
+    "shortClue": "জানার আগ্রহ"
+  },
+  {
+    "word": "অভিমান",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "আপনজনের ওপর চাপা রাগ",
+    "shortClue": "চাপা রাগ"
+  },
+  {
+    "word": "মজা",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "যাতে হাসি পায় বা আনন্দ হয়",
+    "shortClue": "কৌতুক"
+  },
+  {
+    "word": "উদাহরণ",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "বোঝানোর জন্য দেওয়া নমুনা",
+    "shortClue": "দৃষ্টান্ত"
+  },
+  {
+    "word": "সমস্যা",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "যার সমাধান খুঁজতে হয়",
+    "shortClue": "ঝামেলা"
+  },
+  {
+    "word": "নিয়ম",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "যা মেনে চলতে হয়",
+    "shortClue": "বিধি"
+  },
+  {
+    "word": "অভিজ্ঞতা",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "কাজ করতে করতে অর্জিত জ্ঞান",
+    "shortClue": "ঠেকে শেখা"
+  },
+  {
+    "word": "ভাষা",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "মনের ভাব প্রকাশের মাধ্যম, যেমন বাংলা",
+    "shortClue": "মুখের বোল"
+  },
+  {
+    "word": "অক্ষর",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "বর্ণমালার প্রতিটি চিহ্ন",
+    "shortClue": "বর্ণ"
+  },
+  {
+    "word": "সংখ্যা",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "যা দিয়ে গোনা হয়, যেমন এক দুই তিন",
+    "shortClue": "অঙ্ক"
+  },
+  {
+    "word": "একাকীত্ব",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "কোনো সঙ্গী না থাকার বোধ",
+    "shortClue": "নিঃসঙ্গতা"
+  },
+  {
+    "word": "উদ্বেগ",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "কী হবে ভেবে মনের অস্থিরতা",
+    "shortClue": "দুশ্চিন্তা"
+  },
+  {
+    "word": "বিস্ময়",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "অবাক হওয়ার ভাব",
+    "shortClue": "অবাক ভাব"
+  },
+  {
+    "word": "প্রতীক্ষা",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "কারও আসার পথ চেয়ে থাকা",
+    "shortClue": "অপেক্ষা"
+  },
+  {
+    "word": "অনুশোচনা",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "ভুল করার পর মনের দহন",
+    "shortClue": "পস্তানো"
+  },
+  {
+    "word": "কল্পনা",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "মনে মনে না-দেখা ছবি গড়া",
+    "shortClue": "মনের ছবি"
+  },
+  {
+    "word": "প্রতিভা",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "জন্মগত বিশেষ দক্ষতা",
+    "shortClue": "সহজাত গুণ"
+  },
+  {
+    "word": "ঐতিহ্য",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "পূর্বপুরুষের কাছ থেকে পাওয়া রীতি ও সম্পদ",
+    "shortClue": "পরম্পরা"
+  },
+  {
+    "word": "আলস্য",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "কাজ করতে অনিচ্ছা ও ঢিলেমি",
+    "shortClue": "কুঁড়েমি"
+  },
+  {
+    "word": "গুজব",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "লোকমুখে ছড়ানো যাচাইহীন কথা",
+    "shortClue": "রটনা"
+  },
+  {
+    "word": "শৃঙ্খলা",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "নিয়ম মেনে গুছিয়ে চলা",
+    "shortClue": "নিয়মানুবর্তিতা"
+  },
+  {
+    "word": "দায়িত্ব",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "যে কাজের ভার নিজের ওপর",
+    "shortClue": "কর্তব্য"
+  },
+  {
+    "word": "অধিকার",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "আইনত বা ন্যায্যভাবে যা প্রাপ্য",
+    "shortClue": "ন্যায্য দাবি"
+  },
+  {
+    "word": "স্বাধীনতা",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "কারও অধীনে না থাকার অবস্থা",
+    "shortClue": "মুক্তি"
+  },
+  {
+    "word": "আকাশ",
+    "topics": [
+      "nature"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "মাথার ওপর নীল বিস্তার",
+    "shortClue": "নীল ছাদ"
+  },
+  {
+    "word": "তারা",
+    "topics": [
+      "nature"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "রাতের আকাশে মিটমিট করা আলোর বিন্দু",
+    "shortClue": "রাতের দীপ"
+  },
+  {
+    "word": "পাথর",
+    "topics": [
+      "nature"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "শক্ত খনিজের টুকরো",
+    "shortClue": "শিলাখণ্ড"
+  },
+  {
+    "word": "শিশির",
+    "topics": [
+      "nature"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "ভোরে ঘাসের ডগায় জমা জলবিন্দু",
+    "shortClue": "ভোরের ফোঁটা"
+  },
+  {
+    "word": "কুয়াশা",
+    "topics": [
+      "nature"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "শীতের সকালে চারদিক ঢেকে দেওয়া সাদা বাষ্প",
+    "shortClue": "সাদা বাষ্পের চাদর"
+  },
+  {
+    "word": "রামধনু",
+    "topics": [
+      "nature"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "বৃষ্টির পর আকাশে সাত রঙের বাঁকা রেখা",
+    "shortClue": "সাত রঙের খিলান"
+  },
+  {
+    "word": "ঋতু",
+    "topics": [
+      "nature"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "বছরের ভাগ, যেমন গ্রীষ্ম বা বর্ষা",
+    "shortClue": "বছরের ভাগ"
+  },
+  {
+    "word": "বর্ষা",
+    "topics": [
+      "nature"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "যে ঋতুতে সবচেয়ে বেশি বৃষ্টি হয়",
+    "shortClue": "বাদলের ঋতু"
+  },
+  {
+    "word": "শীত",
+    "topics": [
+      "nature"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "কুয়াশা আর ঠান্ডার ঋতু",
+    "shortClue": "ঠান্ডার ঋতু"
+  },
+  {
+    "word": "বসন্ত",
+    "topics": [
+      "nature"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "কোকিল ডাকে, ফুল ফোটে যে ঋতুতে",
+    "shortClue": "ঋতুরাজ"
+  },
+  {
+    "word": "গ্রীষ্ম",
+    "topics": [
+      "nature"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "বছরের সবচেয়ে গরম ঋতু",
+    "shortClue": "গরমকাল"
+  },
+  {
+    "word": "শরৎ",
+    "topics": [
+      "nature"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "নীল আকাশে পেঁজা তুলোর মতো সাদা মেঘের ঋতু",
+    "shortClue": "সাদা মেঘের ঋতু"
+  },
+  {
+    "word": "হেমন্ত",
+    "topics": [
+      "nature"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "নতুন ধান কাটার ঋতু, শীতের ঠিক আগে",
+    "shortClue": "ধান কাটার ঋতু"
+  },
+  {
+    "word": "সমুদ্র",
+    "topics": [
+      "nature"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "পৃথিবীর বিশাল লোনা জলরাশি",
+    "shortClue": "সাগর"
+  },
+  {
+    "word": "ঢেউ",
+    "topics": [
+      "nature"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "জলের ওপর ওঠানামা করা তরঙ্গ",
+    "shortClue": "তরঙ্গ"
+  },
+  {
+    "word": "ঝরনা",
+    "topics": [
+      "nature"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "পাহাড় থেকে নেমে আসা জলধারা",
+    "shortClue": "পাহাড়ি ধারা"
+  },
+  {
+    "word": "জলপ্রপাত",
+    "topics": [
+      "nature"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "উঁচু খাড়া থেকে সোজা নিচে পড়া স্রোত",
+    "shortClue": "খাড়া স্রোতধারা"
+  },
+  {
+    "word": "শিকড়",
+    "topics": [
+      "nature"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "মাটির নিচে গাছের যে অংশ জল টানে",
+    "shortClue": "মূল"
+  },
+  {
+    "word": "গোলাপ",
+    "topics": [
+      "nature"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "কাঁটাওয়ালা সুগন্ধি লাল ফুল",
+    "shortClue": "ফুলের রানি"
+  },
+  {
+    "word": "শাপলা",
+    "topics": [
+      "nature"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "বাংলাদেশের জাতীয় ফুল, পুকুরে ফোটে",
+    "shortClue": "জাতীয় ফুল"
+  },
+  {
+    "word": "শিউলি",
+    "topics": [
+      "nature"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "শরতের ভোরে ঝরে পড়া কমলা বোঁটার সাদা ফুল",
+    "shortClue": "শরতের ফুল"
+  },
+  {
+    "word": "কদম",
+    "topics": [
+      "nature"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "বর্ষায় ফোটা বলের মতো গোল হলুদ-সাদা ফুল",
+    "shortClue": "বর্ষার ফুল"
+  },
+  {
+    "word": "মরুদ্যান",
+    "topics": [
+      "nature"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "ধু ধু বালুর মধ্যে জল আর খেজুরগাছের ঠাঁই",
+    "shortClue": "বালুর মাঝে সবুজ"
+  },
+  {
+    "word": "আগ্নেয়গিরি",
+    "topics": [
+      "nature"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "যে পর্বতের মুখ দিয়ে লাভা বেরোয়",
+    "shortClue": "লাভার পাহাড়"
+  },
+  {
+    "word": "ভূমিকম্প",
+    "topics": [
+      "nature"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "মাটির নিচের নড়াচড়ায় ধরিত্রী কেঁপে ওঠা",
+    "shortClue": "মাটির কাঁপুনি"
+  },
+  {
+    "word": "তুষার",
+    "topics": [
+      "nature"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "ঠান্ডায় আকাশ থেকে ঝরা সাদা বরফকণা",
+    "shortClue": "সাদা বরফকণা"
+  },
+  {
+    "word": "গুহা",
+    "topics": [
+      "nature"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "পাহাড়ের ভেতরের প্রাকৃতিক গর্ত",
+    "shortClue": "পাহাড়ি গর্ত"
+  },
+  {
+    "word": "উপত্যকা",
+    "topics": [
+      "nature"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "দুই পাহাড়ের মাঝের নিচু জমি",
+    "shortClue": "পাহাড়ি খাদ"
+  },
+  {
+    "word": "হ্রদ",
+    "topics": [
+      "nature"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "চারদিকে ডাঙায় ঘেরা বড় জলাশয়",
+    "shortClue": "বড় জলাশয়"
+  },
+  {
+    "word": "পুকুর",
+    "topics": [
+      "nature"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "গ্রামে খোঁড়া ছোট জলাশয়",
+    "shortClue": "ছোট জলাশয়"
+  },
+  {
+    "word": "চর",
+    "topics": [
+      "nature"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "নদীর বুকে জেগে ওঠা বালির ভূমি",
+    "shortClue": "নদীর দ্বীপ"
+  },
+  {
+    "word": "জোয়ার",
+    "topics": [
+      "nature"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "চাঁদের টানে সমুদ্রের জল ফুলে ওঠা",
+    "shortClue": "জল ফুলে ওঠা"
+  },
+  {
+    "word": "গোধূলি",
+    "topics": [
+      "nature"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "সূর্য ডোবার মুহূর্তের রাঙা আলো",
+    "shortClue": "সাঁঝের আলো"
+  },
+  {
+    "word": "জ্যোৎস্না",
+    "topics": [
+      "nature"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "পূর্ণিমার রাতে চাঁদের স্নিগ্ধ আলো",
+    "shortClue": "চাঁদের আলো"
+  },
+  {
+    "word": "অমাবস্যা",
+    "topics": [
+      "nature"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "যে রাতে চাঁদ একেবারে দেখা যায় না",
+    "shortClue": "চাঁদহীন রাত"
+  },
+  {
+    "word": "কাশফুল",
+    "topics": [
+      "nature"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "শরতে নদীর চরে দোলা সাদা পালকের মতো মঞ্জরি",
+    "shortClue": "শরতের সাদা পালক"
+  },
+  {
+    "word": "ছাগল",
+    "topics": [
+      "animals"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "দাড়িওয়ালা ছোট গৃহপালিত পশু, ম্যা ম্যা ডাকে",
+    "shortClue": "ম্যা ডাকা পশু"
+  },
+  {
+    "word": "মহিষ",
+    "topics": [
+      "animals"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "কালো রঙের বড় শিংওয়ালা দুধেল পশু",
+    "shortClue": "কালো দুধেল পশু"
+  },
+  {
+    "word": "উট",
+    "topics": [
+      "animals"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "কুঁজওয়ালা মরুভূমির বাহন",
+    "shortClue": "মরুর জাহাজ"
+  },
+  {
+    "word": "হরিণ",
+    "topics": [
+      "animals"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "শিংওয়ালা ছটফটে বনের তৃণভোজী",
+    "shortClue": "বনের দৌড়বাজ"
+  },
+  {
+    "word": "বানর",
+    "topics": [
+      "animals"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "গাছে গাছে লাফানো লেজওয়ালা প্রাণী",
+    "shortClue": "গাছের লাফবাজ"
+  },
+  {
+    "word": "ভালুক",
+    "topics": [
+      "animals"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "মধু খেতে ভালোবাসা লোমশ বড় জন্তু",
+    "shortClue": "লোমশ জন্তু"
+  },
+  {
+    "word": "কাঠবিড়ালি",
+    "topics": [
+      "animals"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "ঝোপালো লেজের গাছে চড়া ছোট প্রাণী",
+    "shortClue": "ঝোপালো লেজ"
+  },
+  {
+    "word": "গন্ডার",
+    "topics": [
+      "animals"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "নাকের ওপর শিংওয়ালা ভারী চামড়ার প্রাণী",
+    "shortClue": "নাকে শিং"
+  },
+  {
+    "word": "জলহস্তী",
+    "topics": [
+      "animals"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "নদীতে থাকা বিশাল মুখের ভারী প্রাণী",
+    "shortClue": "নদীর ভারী জন্তু"
+  },
+  {
+    "word": "নেকড়ে",
+    "topics": [
+      "animals"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "দল বেঁধে শিকার করা বুনো কুকুরজাতীয় প্রাণী",
+    "shortClue": "বুনো শিকারি"
+  },
+  {
+    "word": "চিতা",
+    "topics": [
+      "animals"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "সবচেয়ে দ্রুত দৌড়ানো ছোপওয়ালা বড় বিড়াল",
+    "shortClue": "দ্রুততম প্রাণী"
+  },
+  {
+    "word": "কুমির",
+    "topics": [
+      "animals"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "নদীতে থাকা লম্বা চোয়ালের সরীসৃপ",
+    "shortClue": "জলের সরীসৃপ"
+  },
+  {
+    "word": "কচ্ছপ",
+    "topics": [
+      "animals"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "শক্ত খোলের ভেতর থাকা ধীরগতির প্রাণী",
+    "shortClue": "ধীরগতির খোলস"
+  },
+  {
+    "word": "সাপ",
+    "topics": [
+      "animals"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "পা নেই, বুকে হেঁটে চলা সরীসৃপ",
+    "shortClue": "বুকে হাঁটা প্রাণী"
+  },
+  {
+    "word": "অজগর",
+    "topics": [
+      "animals"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "শিকার পেঁচিয়ে মারা বিশাল নির্বিষ সাপ",
+    "shortClue": "বিশাল সাপ"
+  },
+  {
+    "word": "গিরগিটি",
+    "topics": [
+      "animals"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "রং বদলাতে পারা ছোট সরীসৃপ",
+    "shortClue": "রং বদলায়"
+  },
+  {
+    "word": "ব্যাঙ",
+    "topics": [
+      "animals"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "বর্ষায় ঘ্যাঙর ঘ্যাঙ ডাকা উভচর",
+    "shortClue": "উভচর প্রাণী"
+  },
+  {
+    "word": "কাক",
+    "topics": [
+      "animals"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "কা কা ডাকা কালো পাখি",
+    "shortClue": "কালো পাখি"
+  },
+  {
+    "word": "শালিক",
+    "topics": [
+      "animals"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "হলুদ ঠোঁটের বাদামি পাখি, ঝাঁকে চলে",
+    "shortClue": "হলুদ ঠোঁট"
+  },
+  {
+    "word": "কোকিল",
+    "topics": [
+      "animals"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "বসন্তে কুহু কুহু ডাকা পাখি",
+    "shortClue": "বসন্তের গায়ক"
+  },
+  {
+    "word": "ময়ূর",
+    "topics": [
+      "animals"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "পেখম মেলে নাচা রঙিন পাখি",
+    "shortClue": "পেখমওয়ালা পাখি"
+  },
+  {
+    "word": "বক",
+    "topics": [
+      "animals"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "জলের ধারে এক পায়ে দাঁড়ানো সাদা পাখি",
+    "shortClue": "সাদা জলচর"
+  },
+  {
+    "word": "মাছরাঙা",
+    "topics": [
+      "animals"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "জলে ঝাঁপিয়ে শিকার ধরা উজ্জ্বল নীল পাখি",
+    "shortClue": "নীল শিকারি পাখি"
+  },
+  {
+    "word": "কাঠঠোকরা",
+    "topics": [
+      "animals"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "ঠোঁট দিয়ে গাছের গুঁড়ি ফুটো করা পাখি",
+    "shortClue": "গাছ ফুটো করে"
+  },
+  {
+    "word": "হাঁস",
+    "topics": [
+      "animals"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "পুকুরে সাঁতার কাটা প্যাঁক প্যাঁক ডাকা পাখি",
+    "shortClue": "প্যাঁক ডাকা পাখি"
+  },
+  {
+    "word": "বাদুড়",
+    "topics": [
+      "animals"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "দিনে উল্টো ঝুলে থাকা উড়ুক্কু স্তন্যপায়ী",
+    "shortClue": "উড়ুক্কু স্তন্যপায়ী"
+  },
+  {
+    "word": "পিঁপড়া",
+    "topics": [
+      "animals"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "সারি বেঁধে চলা পরিশ্রমী ছোট পোকা",
+    "shortClue": "সারির পোকা"
+  },
+  {
+    "word": "মশা",
+    "topics": [
+      "animals"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "কামড়ে রক্ত খাওয়া ভনভনে পোকা",
+    "shortClue": "রক্তচোষা পোকা"
+  },
+  {
+    "word": "জোনাকি",
+    "topics": [
+      "animals"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "রাতে আলো জ্বেলে ওড়া পোকা",
+    "shortClue": "আলোর পোকা"
+  },
+  {
+    "word": "শামুক",
+    "topics": [
+      "animals"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "পিঠে প্যাঁচানো খোল নিয়ে ধীরে চলা প্রাণী",
+    "shortClue": "প্যাঁচানো খোল"
+  },
+  {
+    "word": "চিংড়ি",
+    "topics": [
+      "animals"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "লম্বা শুঁড়ের খোলওয়ালা জলজ প্রাণী, মালাইকারির উপকরণ",
+    "shortClue": "লম্বা শুঁড়ের জলচর"
+  },
+  {
+    "word": "রুই",
+    "topics": [
+      "animals"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "বাঙালির প্রিয় বড় আঁশের মিঠাপানির মাছ",
+    "shortClue": "বড় আঁশের মাছ"
+  },
+  {
+    "word": "কাতলা",
+    "topics": [
+      "animals"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "বড় মাথাওয়ালা রুইজাতীয় মাছ",
+    "shortClue": "বড় মাথার মাছ"
+  },
+  {
+    "word": "হাঙর",
+    "topics": [
+      "animals"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "ধারালো দাঁতের ভয়ংকর সামুদ্রিক মাছ",
+    "shortClue": "দাঁতাল সাগরমাছ"
+  },
+  {
+    "word": "শুশুক",
+    "topics": [
+      "animals"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "গঙ্গা ও পদ্মায় দেখা মেলে এমন নদীর ডলফিন",
+    "shortClue": "নদীর ডলফিন"
+  },
+  {
+    "word": "অক্টোপাস",
+    "topics": [
+      "animals"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "আটটি শুঁড়ওয়ালা সামুদ্রিক প্রাণী",
+    "shortClue": "আট শুঁড়"
+  },
+  {
+    "word": "বাছুর",
+    "topics": [
+      "animals"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "গরুর বাচ্চা",
+    "shortClue": "গাভীর ছানা"
+  },
+  {
+    "word": "বাবুই",
+    "topics": [
+      "animals"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "তালগাছে ঝুলন্ত সুন্দর বাসা বোনা পাখি",
+    "shortClue": "বাসা বোনা পাখি"
+  },
+  {
+    "word": "ঘুঘু",
+    "topics": [
+      "animals"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "দুপুরে করুণ সুরে ডাকা ধূসর পায়রাজাতীয় পাখি",
+    "shortClue": "ধূসর পাখি"
+  },
+  {
+    "word": "ডিম",
+    "topics": [
+      "food"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "মুরগি বা হাঁসের পাড়া, সেদ্ধ বা ভাজা খাওয়া হয়",
+    "shortClue": "পাখির পাড়া"
+  },
+  {
+    "word": "মাংস",
+    "topics": [
+      "food"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "খাসি বা মুরগির রান্না করা পেশি",
+    "shortClue": "খাসির ঝোল"
+  },
+  {
+    "word": "মাখন",
+    "topics": [
+      "food"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "দুধের সর মন্থন করে পাওয়া চর্বি",
+    "shortClue": "ননী"
+  },
+  {
+    "word": "পনির",
+    "topics": [
+      "food"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "দুধ ছানা চেপে তৈরি শক্ত খাবার",
+    "shortClue": "চাপা ছানা"
+  },
+  {
+    "word": "খিচুড়ি",
+    "topics": [
+      "food"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "চাল আর ডাল একসঙ্গে ফুটিয়ে রান্না",
+    "shortClue": "বর্ষার রান্না"
+  },
+  {
+    "word": "পোলাও",
+    "topics": [
+      "food"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "ঘিয়ে রাঁধা সুগন্ধি চালের ভাত",
+    "shortClue": "সুগন্ধি ভাত"
+  },
+  {
+    "word": "বিরিয়ানি",
+    "topics": [
+      "food"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "মাংস আর মসলায় দমে রাঁধা চালের পদ",
+    "shortClue": "দমের রান্না"
+  },
+  {
+    "word": "পিঠা",
+    "topics": [
+      "food",
+      "localCulture"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "শীতে চালের গুঁড়ো দিয়ে বানানো মিষ্টি খাবার",
+    "shortClue": "শীতের মিঠাই"
+  },
+  {
+    "word": "পায়েস",
+    "topics": [
+      "food"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "দুধে চাল আর চিনি দিয়ে রাঁধা মিষ্টান্ন",
+    "shortClue": "দুধের মিষ্টান্ন"
+  },
+  {
+    "word": "চমচম",
+    "topics": [
+      "food"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "টাঙ্গাইলের পোড়াবাড়ির বিখ্যাত লম্বাটে মিষ্টি",
+    "shortClue": "লম্বাটে মিষ্টি"
+  },
+  {
+    "word": "মসলা",
+    "topics": [
+      "food"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "রান্নায় স্বাদ-গন্ধ আনতে দেওয়া গুঁড়ো বা দানা",
+    "shortClue": "রান্নার গুঁড়ো"
+  },
+  {
+    "word": "হলুদ",
+    "topics": [
+      "food"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "রান্নায় সোনালি রং আনা কন্দজাত মসলা",
+    "shortClue": "সোনালি মসলা"
+  },
+  {
+    "word": "লবঙ্গ",
+    "topics": [
+      "food"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "কুঁড়ির মতো দেখতে ঝাঁঝালো সুগন্ধি মসলা",
+    "shortClue": "ঝাঁঝালো কুঁড়ি"
+  },
+  {
+    "word": "এলাচ",
+    "topics": [
+      "food"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "সবুজ খোসায় সুগন্ধি দানার মসলা, পায়েসে দেওয়া হয়",
+    "shortClue": "সুগন্ধি দানা"
+  },
+  {
+    "word": "দারুচিনি",
+    "topics": [
+      "food"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "গাছের সুগন্ধি ছাল, মসলা হিসেবে চলে",
+    "shortClue": "সুগন্ধি ছাল"
+  },
+  {
+    "word": "মরিচ",
+    "topics": [
+      "food"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "তরকারিতে ঝাল আনা সবুজ বা লাল ফল",
+    "shortClue": "ঝালের উৎস"
+  },
+  {
+    "word": "পেঁয়াজ",
+    "topics": [
+      "food"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "কাটলে চোখে জল আনে এমন স্তরে স্তরে গড়া কন্দ",
+    "shortClue": "চোখে জল আনে"
+  },
+  {
+    "word": "বেগুন",
+    "topics": [
+      "food"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "গাঢ় নীলচে খোসার সবজি, ভর্তায় জনপ্রিয়",
+    "shortClue": "ভর্তার সবজি"
+  },
+  {
+    "word": "কুমড়া",
+    "topics": [
+      "food"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "হলুদ শাঁসের বড় গোলাকার সবজি",
+    "shortClue": "গোল হলুদ সবজি"
+  },
+  {
+    "word": "পটল",
+    "topics": [
+      "food"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "ডোরাকাটা ছোট সবুজ সবজি",
+    "shortClue": "ডোরাকাটা সবজি"
+  },
+  {
+    "word": "শাক",
+    "topics": [
+      "food"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "রান্না করে খাওয়া গাছের পাতা",
+    "shortClue": "পাতার তরকারি"
+  },
+  {
+    "word": "কাঁঠাল",
+    "topics": [
+      "food"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "বাংলাদেশের জাতীয় ফল, কাঁটাওয়ালা বিশাল",
+    "shortClue": "জাতীয় ফল"
+  },
+  {
+    "word": "পেয়ারা",
+    "topics": [
+      "food"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "সবুজ খোসা, ভেতরে ছোট বিচিভরা ফল",
+    "shortClue": "বিচিভরা ফল"
+  },
+  {
+    "word": "নারকেল",
+    "topics": [
+      "food"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "শক্ত খোলের ভেতর জল ও সাদা শাঁসের ফল",
+    "shortClue": "শাঁসভরা খোল"
+  },
+  {
+    "word": "আনারস",
+    "topics": [
+      "food"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "খসখসে খোসা আর মাথায় পাতার মুকুটওয়ালা ফল",
+    "shortClue": "মুকুটওয়ালা ফল"
+  },
+  {
+    "word": "খেজুর",
+    "topics": [
+      "food"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "মরুর গাছের মিষ্টি বাদামি ফল, শীতে রস মেলে",
+    "shortClue": "বাদামি মিষ্টি ফল"
+  },
+  {
+    "word": "বাদাম",
+    "topics": [
+      "food"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "শক্ত খোসার ভেতর তেলতেলে দানা",
+    "shortClue": "খোসার দানা"
+  },
+  {
+    "word": "মধু",
+    "topics": [
+      "food"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "মৌমাছির জমানো মিষ্টি তরল",
+    "shortClue": "ফুলের রস"
+  },
+  {
+    "word": "ভর্তা",
+    "topics": [
+      "food"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "আলু বা বেগুন সেদ্ধ করে চটকে মাখা পদ",
+    "shortClue": "চটকানো পদ"
+  },
+  {
+    "word": "চাটনি",
+    "topics": [
+      "food"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "টক-মিষ্টি স্বাদের মাখা পদ, শেষ পাতে খাওয়া হয়",
+    "shortClue": "শেষ পাতের পদ"
+  },
+  {
+    "word": "আচার",
+    "topics": [
+      "food"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "তেল-মসলায় জারিয়ে রাখা টক ফল",
+    "shortClue": "জারানো ফল"
+  },
+  {
+    "word": "শিঙাড়া",
+    "topics": [
+      "food"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "আলুর পুর ভরা তিনকোনা ভাজা খাবার",
+    "shortClue": "তিনকোনা ভাজা"
+  },
+  {
+    "word": "ফুচকা",
+    "topics": [
+      "food"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "তেঁতুলজলে ভরা ফাঁপা ছোট পুরি",
+    "shortClue": "তেঁতুলজলের পুরি"
+  },
+  {
+    "word": "চানাচুর",
+    "topics": [
+      "food"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "ভাজা ডাল আর বাদাম মেশানো ঝাল মুখরোচক",
+    "shortClue": "ঝাল মুখরোচক"
+  },
+  {
+    "word": "শরবত",
+    "topics": [
+      "food"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "চিনি-লেবু গোলা ঠান্ডা পানীয়",
+    "shortClue": "ঠান্ডা পানীয়"
+  },
+  {
+    "word": "দ্বীপ",
+    "topics": [
+      "geography"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "চারদিকে জলে ঘেরা ভূখণ্ড",
+    "shortClue": "জলে ঘেরা ডাঙা"
+  },
+  {
+    "word": "মহাদেশ",
+    "topics": [
+      "geography"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "পৃথিবীর বিশাল ভূখণ্ড, যেমন এশিয়া বা আফ্রিকা",
+    "shortClue": "বিশাল ভূখণ্ড"
+  },
+  {
+    "word": "দেশ",
+    "topics": [
+      "geography"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "নিজস্ব সীমানা ও সরকারওয়ালা ভূখণ্ড",
+    "shortClue": "রাষ্ট্র"
+  },
+  {
+    "word": "মহাসাগর",
+    "topics": [
+      "geography"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "পৃথিবীর সবচেয়ে বড় জলরাশিগুলোর একটি, যেমন প্রশান্ত",
+    "shortClue": "বিশাল লোনা জল"
+  },
+  {
+    "word": "রাজধানী",
+    "topics": [
+      "geography"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "কোনো দেশের সরকারের প্রধান শহর",
+    "shortClue": "প্রধান শহর"
+  },
+  {
+    "word": "বন্দর",
+    "topics": [
+      "geography"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "যেখানে জাহাজ ভিড়ে মাল তোলে আর নামায়",
+    "shortClue": "জাহাজঘাট"
+  },
+  {
+    "word": "বিমানবন্দর",
+    "topics": [
+      "geography"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "উড়োজাহাজ ওঠানামার জায়গা",
+    "shortClue": "উড়োজাহাজের ঘাঁটি"
+  },
+  {
+    "word": "সীমান্ত",
+    "topics": [
+      "geography"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "দুই দেশের ভূখণ্ড যেখানে মেলে",
+    "shortClue": "দুই দেশের কিনারা"
+  },
+  {
+    "word": "অক্ষাংশ",
+    "topics": [
+      "geography"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "নিরক্ষরেখা থেকে উত্তর বা দক্ষিণে কৌণিক দূরত্ব",
+    "shortClue": "উত্তর-দক্ষিণ মাপ"
+  },
+  {
+    "word": "নিরক্ষরেখা",
+    "topics": [
+      "geography"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "পৃথিবীকে উত্তর ও দক্ষিণ গোলার্ধে ভাগ করা কল্পিত রেখা",
+    "shortClue": "বিষুবরেখা"
+  },
+  {
+    "word": "বদ্বীপ",
+    "topics": [
+      "geography"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "নদীর মোহনায় পলি জমে গড়া ত্রিভুজাকার ভূমি",
+    "shortClue": "মোহনার পলিভূমি"
+  },
+  {
+    "word": "মোহনা",
+    "topics": [
+      "geography"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "যেখানে নদী গিয়ে সাগরে মেশে",
+    "shortClue": "নদীর মুখ"
+  },
+  {
+    "word": "উপকূল",
+    "topics": [
+      "geography"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "সাগরের তীর ঘেঁষা ভূমি",
+    "shortClue": "সাগরতীর"
+  },
+  {
+    "word": "মালভূমি",
+    "topics": [
+      "geography"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "উঁচু অথচ সমতল বিস্তীর্ণ এলাকা",
+    "shortClue": "উঁচু সমতল"
+  },
+  {
+    "word": "পর্বত",
+    "topics": [
+      "geography"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "পাহাড়ের চেয়েও উঁচু বিশাল শৈল",
+    "shortClue": "উঁচু শৃঙ্গ"
+  },
+  {
+    "word": "জলবায়ু",
+    "topics": [
+      "geography"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "কোনো অঞ্চলের দীর্ঘদিনের আবহাওয়ার ধরন",
+    "shortClue": "আবহাওয়ার ধরন"
+  },
+  {
+    "word": "মেরু",
+    "topics": [
+      "geography"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "পৃথিবীর একেবারে উত্তর বা দক্ষিণ প্রান্ত",
+    "shortClue": "পৃথিবীর প্রান্ত"
+  },
+  {
+    "word": "প্রণালী",
+    "topics": [
+      "geography"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "দুই সাগরকে জোড়া সরু জলপথ",
+    "shortClue": "সরু সাগরপথ"
+  },
+  {
+    "word": "হিমালয়",
+    "topics": [
+      "geography"
+    ],
+    "difficulty": 1,
+    "kind": "proper",
+    "clue": "পৃথিবীর সর্বোচ্চ পর্বতমালা",
+    "shortClue": "সর্বোচ্চ পর্বতমালা"
+  },
+  {
+    "word": "এভারেস্ট",
+    "topics": [
+      "geography"
+    ],
+    "difficulty": 1,
+    "kind": "proper",
+    "clue": "পৃথিবীর সবচেয়ে উঁচু শৃঙ্গ",
+    "shortClue": "সর্বোচ্চ শৃঙ্গ"
+  },
+  {
+    "word": "যমুনা",
+    "topics": [
+      "geography"
+    ],
+    "difficulty": 2,
+    "kind": "proper",
+    "clue": "বাংলাদেশে ব্রহ্মপুত্রের প্রধান ধারার নাম",
+    "shortClue": "ব্রহ্মপুত্রের ধারা"
+  },
+  {
+    "word": "ব্রহ্মপুত্র",
+    "topics": [
+      "geography"
+    ],
+    "difficulty": 2,
+    "kind": "proper",
+    "clue": "তিব্বত থেকে আসাম হয়ে বাংলায় নামা বড় নদ",
+    "shortClue": "আসামের নদ"
+  },
+  {
+    "word": "তিস্তা",
+    "topics": [
+      "geography"
+    ],
+    "difficulty": 2,
+    "kind": "proper",
+    "clue": "সিকিম থেকে নেমে উত্তরবঙ্গ পেরোনো নদী",
+    "shortClue": "উত্তরবঙ্গের নদী"
+  },
+  {
+    "word": "কর্ণফুলী",
+    "topics": [
+      "geography"
+    ],
+    "difficulty": 2,
+    "kind": "proper",
+    "clue": "চট্টগ্রাম শহরের পাশ দিয়ে বয়ে যাওয়া নদী",
+    "shortClue": "চট্টগ্রামের নদী"
+  },
+  {
+    "word": "খুলনা",
+    "topics": [
+      "geography"
+    ],
+    "difficulty": 2,
+    "kind": "proper",
+    "clue": "সুন্দরবনের কাছে দক্ষিণ-পশ্চিমের বিভাগীয় শহর",
+    "shortClue": "দক্ষিণের শহর"
+  },
+  {
+    "word": "বরিশাল",
+    "topics": [
+      "geography"
+    ],
+    "difficulty": 2,
+    "kind": "proper",
+    "clue": "নদী আর খালে ঘেরা দক্ষিণের বিভাগীয় শহর",
+    "shortClue": "নদীর শহর"
+  },
+  {
+    "word": "দার্জিলিং",
+    "topics": [
+      "geography"
+    ],
+    "difficulty": 2,
+    "kind": "proper",
+    "clue": "চা বাগান আর কাঞ্চনজঙ্ঘার দৃশ্যের পাহাড়ি শহর",
+    "shortClue": "পাহাড়ি শৈলশহর"
+  },
+  {
+    "word": "কাঞ্চনজঙ্ঘা",
+    "topics": [
+      "geography"
+    ],
+    "difficulty": 2,
+    "kind": "proper",
+    "clue": "সিকিম আর নেপালের সীমায় পৃথিবীর তৃতীয় উচ্চতম শৃঙ্গ",
+    "shortClue": "তৃতীয় উচ্চতম শৃঙ্গ"
+  },
+  {
+    "word": "কুয়াকাটা",
+    "topics": [
+      "geography"
+    ],
+    "difficulty": 2,
+    "kind": "proper",
+    "clue": "যে সৈকত থেকে সাগরে সূর্যোদয় ও সূর্যাস্ত দুই-ই দেখা যায়",
+    "shortClue": "সাগরকন্যা"
+  },
+  {
+    "word": "ত্রিপুরা",
+    "topics": [
+      "geography"
+    ],
+    "difficulty": 3,
+    "kind": "proper",
+    "clue": "আগরতলা যার রাজধানী, এমন বাংলাভাষী রাজ্য",
+    "shortClue": "আগরতলার রাজ্য"
+  },
+  {
+    "word": "নেপাল",
+    "topics": [
+      "geography"
+    ],
+    "difficulty": 1,
+    "kind": "proper",
+    "clue": "হিমালয়ের কোলে কাঠমান্ডু যার রাজধানী",
+    "shortClue": "কাঠমান্ডুর দেশ"
+  },
+  {
+    "word": "শ্রীলঙ্কা",
+    "topics": [
+      "geography"
+    ],
+    "difficulty": 2,
+    "kind": "proper",
+    "clue": "ভারতের দক্ষিণে চায়ের জন্য বিখ্যাত দ্বীপদেশ",
+    "shortClue": "দক্ষিণের দ্বীপদেশ"
+  },
+  {
+    "word": "বর্শা",
+    "topics": [
+      "history"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "লম্বা লাঠির মাথায় ধারালো ফলা",
+    "shortClue": "লম্বা ফলা"
+  },
+  {
+    "word": "মুদ্রা",
+    "topics": [
+      "history"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "ধাতুর তৈরি পুরোনো দিনের টাকা",
+    "shortClue": "ধাতব টাকা"
+  },
+  {
+    "word": "রাজা",
+    "topics": [
+      "history"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "সিংহাসনে বসা মুকুটধারী শাসক",
+    "shortClue": "মুকুটধারী শাসক"
+  },
+  {
+    "word": "রানি",
+    "topics": [
+      "history"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "রাজার স্ত্রী, বা নিজেই নারী শাসক",
+    "shortClue": "রাজমহিষী"
+  },
+  {
+    "word": "সম্রাট",
+    "topics": [
+      "history"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "বহু রাজ্যের ওপর রাজত্ব করা শাসক",
+    "shortClue": "রাজাধিরাজ"
+  },
+  {
+    "word": "নবাব",
+    "topics": [
+      "history"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "মুঘল আমলে বাংলার মতো প্রদেশের শাসক",
+    "shortClue": "প্রদেশের শাসক"
+  },
+  {
+    "word": "জমিদার",
+    "topics": [
+      "history"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "ব্রিটিশ আমলে বিরাট ভূসম্পত্তির মালিক, প্রজার কাছে খাজনা নিতেন",
+    "shortClue": "খাজনা আদায়কারী"
+  },
+  {
+    "word": "খাজনা",
+    "topics": [
+      "history"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "জমির জন্য সরকারকে দেওয়া কর",
+    "shortClue": "ভূমিকর"
+  },
+  {
+    "word": "মসলিন",
+    "topics": [
+      "history"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "ঢাকার কারিগরদের বোনা অতি সূক্ষ্ম সুতির কাপড়",
+    "shortClue": "ঢাকাই সূক্ষ্ম কাপড়"
+  },
+  {
+    "word": "জামদানি",
+    "topics": [
+      "history",
+      "localCulture"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "ঢাকার তাঁতিদের বোনা নকশাদার শাড়ি",
+    "shortClue": "নকশি তাঁতের শাড়ি"
+  },
+  {
+    "word": "তাঁত",
+    "topics": [
+      "history"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "হাতে কাপড় বোনার কাঠের যন্ত্র",
+    "shortClue": "বোনার যন্ত্র"
+  },
+  {
+    "word": "লিপি",
+    "topics": [
+      "history"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "কোনো ভাষা লেখার অক্ষরের ধারা",
+    "shortClue": "লেখার হরফ"
+  },
+  {
+    "word": "পুঁথি",
+    "topics": [
+      "history"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "হাতে লেখা পুরোনো দিনের বই",
+    "shortClue": "হাতে লেখা বই"
+  },
+  {
+    "word": "প্রত্নতত্ত্ব",
+    "topics": [
+      "history"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "মাটি খুঁড়ে পাওয়া নিদর্শনে অতীত জানার বিদ্যা",
+    "shortClue": "খননের বিদ্যা"
+  },
+  {
+    "word": "জাদুঘর",
+    "topics": [
+      "history"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "পুরোনো নিদর্শন সাজিয়ে রাখার ভবন",
+    "shortClue": "সংগ্রহশালা"
+  },
+  {
+    "word": "মন্দির",
+    "topics": [
+      "history"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "দেবতার পুজোর জন্য গড়া ঘর",
+    "shortClue": "পুজোর ঘর"
+  },
+  {
+    "word": "মসজিদ",
+    "topics": [
+      "history"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "মিনার আর গম্বুজওয়ালা নামাজের ঘর",
+    "shortClue": "নামাজের ঘর"
+  },
+  {
+    "word": "গম্বুজ",
+    "topics": [
+      "history"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "ভবনের মাথায় উল্টানো বাটির মতো গোল ছাদ",
+    "shortClue": "গোল ছাদ"
+  },
+  {
+    "word": "মিনার",
+    "topics": [
+      "history"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "সরু উঁচু স্তম্ভের মতো চূড়া",
+    "shortClue": "উঁচু স্তম্ভ"
+  },
+  {
+    "word": "বর্ম",
+    "topics": [
+      "history"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "যোদ্ধার গায়ে পরা লোহার আবরণ",
+    "shortClue": "লোহার পোশাক"
+  },
+  {
+    "word": "কামান",
+    "topics": [
+      "history"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "গোলা ছোড়ার ভারী নলওয়ালা অস্ত্র",
+    "shortClue": "গোলার নল"
+  },
+  {
+    "word": "উপাধি",
+    "topics": [
+      "history"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "সম্মান হিসেবে পাওয়া পদবি, যেমন রায়বাহাদুর",
+    "shortClue": "সম্মানের পদবি"
+  },
+  {
+    "word": "পিরামিড",
+    "topics": [
+      "history"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "মিশরের ফারাওদের বিশাল ত্রিকোণ সমাধি",
+    "shortClue": "মিশরের সমাধি"
+  },
+  {
+    "word": "ইতিহাস",
+    "topics": [
+      "history"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "অতীতের ঘটনার ধারাবাহিক বিবরণ",
+    "shortClue": "অতীতের বিবরণ"
+  },
+  {
+    "word": "সভ্যতা",
+    "topics": [
+      "history"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "নগর, লিপি ও সমাজের উন্নত রূপ",
+    "shortClue": "উন্নত সমাজ"
+  },
+  {
+    "word": "রাজবংশ",
+    "topics": [
+      "history"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "পুরুষানুক্রমে শাসন করা শাসকদের পরিবার",
+    "shortClue": "শাসক পরিবার"
+  },
+  {
+    "word": "খোদাই",
+    "topics": [
+      "history"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "পাথর বা কাঠ কেটে নকশা ফোটানো",
+    "shortClue": "কাটা নকশা"
+  },
+  {
+    "word": "বজরা",
+    "topics": [
+      "history"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "জমিদারদের ঘরওয়ালা বড় শৌখিন নৌকা",
+    "shortClue": "শৌখিন নৌকা"
+  },
+  {
+    "word": "টাকশাল",
+    "topics": [
+      "history"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "যেখানে মুদ্রা তৈরি হয়",
+    "shortClue": "মুদ্রার কারখানা"
+  },
+  {
+    "word": "অক্সিজেন",
+    "topics": [
+      "science"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "শ্বাস নিতে যে গ্যাস লাগে",
+    "shortClue": "প্রাণবায়ু"
+  },
+  {
+    "word": "হাইড্রোজেন",
+    "topics": [
+      "science"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "সবচেয়ে হালকা মৌলিক গ্যাস",
+    "shortClue": "হালকাতম গ্যাস"
+  },
+  {
+    "word": "সোনা",
+    "topics": [
+      "science"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "হলুদ চকচকে দামি ধাতু, গয়নায় লাগে",
+    "shortClue": "দামি হলদে ধাতু"
+  },
+  {
+    "word": "পারদ",
+    "topics": [
+      "science"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "ঘরের তাপে তরল থাকা রুপালি ধাতু",
+    "shortClue": "তরল ধাতু"
+  },
+  {
+    "word": "বাষ্প",
+    "topics": [
+      "science"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "জল ফুটলে যে ধোঁয়ার মতো রূপ নেয়",
+    "shortClue": "জলের ধোঁয়া"
+  },
+  {
+    "word": "তাপ",
+    "topics": [
+      "science"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "আগুন বা রোদ থেকে পাওয়া উষ্ণতা",
+    "shortClue": "উষ্ণতা"
+  },
+  {
+    "word": "থার্মোমিটার",
+    "topics": [
+      "science"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "জ্বর বা উষ্ণতা মাপার যন্ত্র",
+    "shortClue": "জ্বর মাপার যন্ত্র"
+  },
+  {
+    "word": "ঘর্ষণ",
+    "topics": [
+      "science"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "দুটি তল একে অপরের ওপর সরতে গেলে যে বাধা",
+    "shortClue": "তলের বাধা"
+  },
+  {
+    "word": "প্রতিধ্বনি",
+    "topics": [
+      "science"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "দেয়াল বা পাহাড়ে লেগে ফিরে আসা আওয়াজ",
+    "shortClue": "ফিরতি আওয়াজ"
+  },
+  {
+    "word": "রক্ত",
+    "topics": [
+      "science"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "শিরা দিয়ে বয়ে চলা লাল তরল",
+    "shortClue": "লাল তরল"
+  },
+  {
+    "word": "ফুসফুস",
+    "topics": [
+      "science"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "বুকের ভেতর শ্বাস নেওয়ার অঙ্গ",
+    "shortClue": "শ্বাসের অঙ্গ"
+  },
+  {
+    "word": "মস্তিষ্ক",
+    "topics": [
+      "science"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "খুলির ভেতর চিন্তা ও স্মৃতির অঙ্গ",
+    "shortClue": "মগজ"
+  },
+  {
+    "word": "পাকস্থলী",
+    "topics": [
+      "science"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "পেটের যে থলিতে খাবার হজম শুরু হয়",
+    "shortClue": "হজমের থলি"
+  },
+  {
+    "word": "যকৃৎ",
+    "topics": [
+      "science"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "পেটের ডান দিকের বড় অঙ্গ, পিত্ত তৈরি করে",
+    "shortClue": "কলিজা"
+  },
+  {
+    "word": "দাঁত",
+    "topics": [
+      "science"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "মুখের ভেতর চিবোনোর সাদা শক্ত অংশ",
+    "shortClue": "চিবোনোর হাতিয়ার"
+  },
+  {
+    "word": "কঙ্কাল",
+    "topics": [
+      "science"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "শরীরের সব হাড় মিলে গড়া কাঠামো",
+    "shortClue": "হাড়ের কাঠামো"
+  },
+  {
+    "word": "পেশি",
+    "topics": [
+      "science"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "নড়াচড়ার সময় সংকুচিত হয় শরীরের যে তন্তু",
+    "shortClue": "শক্তির তন্তু"
+  },
+  {
+    "word": "জীবাণু",
+    "topics": [
+      "science"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "খালি চোখে অদৃশ্য, রোগ ছড়ানো ক্ষুদ্র প্রাণ",
+    "shortClue": "রোগের বীজ"
+  },
+  {
+    "word": "টিকা",
+    "topics": [
+      "science"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "রোগ ঠেকাতে শরীরে দেওয়া প্রতিষেধক",
+    "shortClue": "প্রতিষেধক"
+  },
+  {
+    "word": "ওষুধ",
+    "topics": [
+      "science"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "রোগ সারাতে খাওয়া বড়ি বা তরল",
+    "shortClue": "দাওয়াই"
+  },
+  {
+    "word": "জ্বর",
+    "topics": [
+      "science"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "শরীরের তাপ বেড়ে যাওয়া অসুখ",
+    "shortClue": "গা গরম"
+  },
+  {
+    "word": "উপগ্রহ",
+    "topics": [
+      "science"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "কোনো বড় জ্যোতিষ্ককে ঘিরে ঘোরা বস্তু, যেমন চাঁদ",
+    "shortClue": "ঘূর্ণমান সঙ্গী"
+  },
+  {
+    "word": "ধূমকেতু",
+    "topics": [
+      "science"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "লম্বা উজ্জ্বল লেজওয়ালা মহাজাগতিক বস্তু",
+    "shortClue": "লেজওয়ালা জ্যোতিষ্ক"
+  },
+  {
+    "word": "ছায়াপথ",
+    "topics": [
+      "science"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "কোটি কোটি নক্ষত্রের বিশাল দল, যেমন আকাশগঙ্গা",
+    "shortClue": "নক্ষত্রের দল"
+  },
+  {
+    "word": "মহাকাশচারী",
+    "topics": [
+      "science",
+      "professions"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "রকেটে চড়ে পৃথিবীর বাইরে যাওয়া অভিযাত্রী",
+    "shortClue": "নভোচারী"
+  },
+  {
+    "word": "দূরবীন",
+    "topics": [
+      "science"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "চোখে লাগিয়ে বহু তফাতের জিনিস বড় করে দেখার নল",
+    "shortClue": "দেখার নল"
+  },
+  {
+    "word": "বিজ্ঞানী",
+    "topics": [
+      "science"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "গবেষণা করে প্রকৃতির নিয়ম খোঁজেন যিনি",
+    "shortClue": "গবেষক"
+  },
+  {
+    "word": "গবেষণাগার",
+    "topics": [
+      "science"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "বিজ্ঞানীরা যেখানে যন্ত্রপাতি নিয়ে পরীক্ষা চালান",
+    "shortClue": "বিজ্ঞানের ঘর"
+  },
+  {
+    "word": "সমীকরণ",
+    "topics": [
+      "science"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "দুই রাশি সমান দেখানো গাণিতিক বাক্য",
+    "shortClue": "গণিতের বাক্য"
+  },
+  {
+    "word": "বৃত্ত",
+    "topics": [
+      "science"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "কেন্দ্র থেকে সমান দূরের বিন্দু দিয়ে আঁকা গোল রেখা",
+    "shortClue": "গোল রেখা"
+  },
+  {
+    "word": "ভগ্নাংশ",
+    "topics": [
+      "science"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "পুরো সংখ্যার অংশ, যেমন আধা বা সিকি",
+    "shortClue": "অংশের সংখ্যা"
+  },
+  {
+    "word": "খনিজ",
+    "topics": [
+      "science"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "মাটির নিচে পাওয়া প্রাকৃতিক পদার্থ, যেমন লবণ বা লোহা",
+    "shortClue": "মাটির সম্পদ"
+  },
+  {
+    "word": "জীবাশ্ম",
+    "topics": [
+      "science"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "পাথরে জমে থাকা প্রাচীন প্রাণী বা গাছের ছাপ",
+    "shortClue": "পাথুরে ছাপ"
+  },
+  {
+    "word": "হকি",
+    "topics": [
+      "sport"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "বাঁকা লাঠি দিয়ে বল মেরে খেলা",
+    "shortClue": "লাঠির খেলা"
+  },
+  {
+    "word": "দাবা",
+    "topics": [
+      "sport"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "রাজা আর মন্ত্রী নিয়ে চৌষট্টি ঘরের খেলা",
+    "shortClue": "চৌষট্টি ঘর"
+  },
+  {
+    "word": "ক্যারম",
+    "topics": [
+      "sport"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "বোর্ডে স্ট্রাইকারে টোকা দিয়ে গুটি পকেটে ফেলার খেলা",
+    "shortClue": "গুটি পকেটে"
+  },
+  {
+    "word": "ব্যাডমিন্টন",
+    "topics": [
+      "sport"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "শাটলকক মেরে জালের ওপারে পাঠানোর খেলা",
+    "shortClue": "শাটলককের খেলা"
+  },
+  {
+    "word": "টেনিস",
+    "topics": [
+      "sport"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "জালের দুপাশ থেকে হলুদ বল পেটানোর খেলা",
+    "shortClue": "কোর্টের খেলা"
+  },
+  {
+    "word": "ভলিবল",
+    "topics": [
+      "sport"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "উঁচু জালের ওপর দিয়ে হাতের চাপড়ে গোলক পাঠানোর খেলা",
+    "shortClue": "জালের খেলা"
+  },
+  {
+    "word": "কুস্তি",
+    "topics": [
+      "sport"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "দুজনে জাপটে ধরে প্রতিপক্ষকে চিত করার লড়াই",
+    "shortClue": "মল্লযুদ্ধ"
+  },
+  {
+    "word": "ম্যারাথন",
+    "topics": [
+      "sport"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "প্রায় বিয়াল্লিশ কিলোমিটারের দৌড় প্রতিযোগিতা",
+    "shortClue": "লম্বা দৌড়"
+  },
+  {
+    "word": "রেফারি",
+    "topics": [
+      "sport"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "খেলার নিয়ম দেখেন ও বাঁশি বাজান যিনি",
+    "shortClue": "খেলার বিচারক"
+  },
+  {
+    "word": "আম্পায়ার",
+    "topics": [
+      "sport"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "ক্রিকেটে আউট হলো কি না ঠিক করেন যিনি",
+    "shortClue": "ক্রিকেটের বিচারক"
+  },
+  {
+    "word": "অধিনায়ক",
+    "topics": [
+      "sport"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "দলের নেতৃত্ব দেন যে খেলোয়াড়",
+    "shortClue": "দলনেতা"
+  },
+  {
+    "word": "গোলরক্ষক",
+    "topics": [
+      "sport"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "জালের সামনে দাঁড়িয়ে বল আটকান যিনি",
+    "shortClue": "জালের প্রহরী"
+  },
+  {
+    "word": "উইকেট",
+    "topics": [
+      "sport"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "ক্রিকেটে তিনটি স্টাম্প আর দুটি বেল",
+    "shortClue": "তিন স্টাম্প"
+  },
+  {
+    "word": "স্টেডিয়াম",
+    "topics": [
+      "sport"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "চারপাশে গ্যালারিওয়ালা বড় খেলার মাঠ",
+    "shortClue": "গ্যালারির মাঠ"
+  },
+  {
+    "word": "দর্শক",
+    "topics": [
+      "sport"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "খেলা বা অনুষ্ঠান দেখতে আসা লোক",
+    "shortClue": "দেখতে আসা লোক"
+  },
+  {
+    "word": "প্রতিযোগিতা",
+    "topics": [
+      "sport"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "কে সেরা তা ঠিক করার লড়াই",
+    "shortClue": "সেরার লড়াই"
+  },
+  {
+    "word": "অনুশীলন",
+    "topics": [
+      "sport"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "দক্ষ হতে বারবার চর্চা",
+    "shortClue": "চর্চা"
+  },
+  {
+    "word": "প্রশিক্ষক",
+    "topics": [
+      "sport"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "খেলোয়াড়দের তালিম দেন যিনি",
+    "shortClue": "কোচ"
+  },
+  {
+    "word": "হাডুডু",
+    "topics": [
+      "sport"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "দম ধরে বিপক্ষের কোর্টে ঢোকার গ্রামীণ খেলা",
+    "shortClue": "দমের খেলা"
+  },
+  {
+    "word": "নৌকাবাইচ",
+    "topics": [
+      "sport"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "বর্ষায় নদীতে লম্বা তরীর দৌড় প্রতিযোগিতা",
+    "shortClue": "বৈঠার দৌড়"
+  },
+  {
+    "word": "গোল্লাছুট",
+    "topics": [
+      "sport"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "খুঁটি ছুঁয়ে থেকে ছুটে পালানোর গ্রামীণ শিশুখেলা",
+    "shortClue": "গ্রামীণ শিশুখেলা"
+  },
+  {
+    "word": "কানামাছি",
+    "topics": [
+      "sport"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "চোখ বেঁধে অন্যদের ছোঁয়ার খেলা",
+    "shortClue": "চোখ বাঁধা খেলা"
+  },
+  {
+    "word": "ঘুড়ি",
+    "topics": [
+      "sport"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "সুতোয় বেঁধে আকাশে ওড়ানো কাগজের খেলনা",
+    "shortClue": "আকাশে ওড়ে"
+  },
+  {
+    "word": "লাটিম",
+    "topics": [
+      "sport"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "সুতো পেঁচিয়ে ছুড়ে মাটিতে ঘোরানো খেলনা",
+    "shortClue": "ঘুরন্ত খেলনা"
+  },
+  {
+    "word": "শতরান",
+    "topics": [
+      "sport"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "ক্রিকেটে এক ইনিংসে একশো রান",
+    "shortClue": "সেঞ্চুরি"
+  },
+  {
+    "word": "সমর্থক",
+    "topics": [
+      "sport"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "কোনো দলের হয়ে গলা ফাটানো ভক্ত",
+    "shortClue": "দলের ভক্ত"
+  },
+  {
+    "word": "সুর",
+    "topics": [
+      "arts"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "গানের মিষ্টি ধ্বনির ধারা",
+    "shortClue": "গানের ধ্বনি"
+  },
+  {
+    "word": "তাল",
+    "topics": [
+      "arts"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "গানে বা নাচে মাত্রার নিয়মিত ছন্দ",
+    "shortClue": "মাত্রার ছন্দ"
+  },
+  {
+    "word": "ছন্দ",
+    "topics": [
+      "arts"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "কবিতায় মাত্রার নিয়মিত দোলা",
+    "shortClue": "কবিতার দোলা"
+  },
+  {
+    "word": "নাচ",
+    "topics": [
+      "arts"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "সুর আর তালের সঙ্গে শরীর দোলানো",
+    "shortClue": "নৃত্য"
+  },
+  {
+    "word": "সেতার",
+    "topics": [
+      "arts"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "লম্বা গলার ঝংকার তোলা বাদ্য, রবিশঙ্করের হাতে বিখ্যাত",
+    "shortClue": "রবিশঙ্করের বাদ্য"
+  },
+  {
+    "word": "একতারা",
+    "topics": [
+      "arts"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "বাউলের হাতের লাউয়ের খোলের ছোট বাদ্য",
+    "shortClue": "বাউলের বাদ্য"
+  },
+  {
+    "word": "হারমোনিয়াম",
+    "topics": [
+      "arts"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "বেলো টেনে চাবি টিপে বাজানো যন্ত্র",
+    "shortClue": "বেলোর বাদ্য"
+  },
+  {
+    "word": "বেহালা",
+    "topics": [
+      "arts"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "ছড় টেনে বাজানো তারযন্ত্র",
+    "shortClue": "ছড়ের যন্ত্র"
+  },
+  {
+    "word": "সানাই",
+    "topics": [
+      "arts"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "বিয়েবাড়িতে বাজানো সুরেলা ফুঁয়ের যন্ত্র",
+    "shortClue": "বিয়ের বাদ্য"
+  },
+  {
+    "word": "উপন্যাস",
+    "topics": [
+      "arts"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "অনেক চরিত্র নিয়ে লেখা দীর্ঘ কাহিনি",
+    "shortClue": "দীর্ঘ কাহিনি"
+  },
+  {
+    "word": "লেখক",
+    "topics": [
+      "arts"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "বই রচনা করেন যিনি",
+    "shortClue": "গ্রন্থকার"
+  },
+  {
+    "word": "অভিনেতা",
+    "topics": [
+      "arts"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "মঞ্চে বা পর্দায় চরিত্র ফোটান যিনি",
+    "shortClue": "মঞ্চের শিল্পী"
+  },
+  {
+    "word": "নায়ক",
+    "topics": [
+      "arts"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "গল্প বা সিনেমার প্রধান পুরুষ চরিত্র",
+    "shortClue": "মূল চরিত্র"
+  },
+  {
+    "word": "ক্যানভাস",
+    "topics": [
+      "arts"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "তেলরঙে ছবি আঁকার টানটান মোটা কাপড়",
+    "shortClue": "আঁকার কাপড়"
+  },
+  {
+    "word": "জলরং",
+    "topics": [
+      "arts"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "কাগজে স্বচ্ছ ছোপ ফেলার রঞ্জক, তুলি ভিজিয়ে আঁকা হয়",
+    "shortClue": "স্বচ্ছ রঞ্জক"
+  },
+  {
+    "word": "প্রতিকৃতি",
+    "topics": [
+      "arts"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "কোনো মানুষের মুখের আঁকা ছবি",
+    "shortClue": "মুখের ছবি"
+  },
+  {
+    "word": "কার্টুন",
+    "topics": [
+      "arts"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "মজার ভঙ্গিতে আঁকা ছবি বা চলচ্চিত্র",
+    "shortClue": "মজার ছবি"
+  },
+  {
+    "word": "গায়ক",
+    "topics": [
+      "arts"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "গান গেয়ে শোনান যিনি",
+    "shortClue": "শিল্পী"
+  },
+  {
+    "word": "মূকাভিনয়",
+    "topics": [
+      "arts"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "কথা ছাড়া শুধু অঙ্গভঙ্গিতে গল্প বলা মঞ্চকলা",
+    "shortClue": "নির্বাক মঞ্চকলা"
+  },
+  {
+    "word": "পটচিত্র",
+    "topics": [
+      "arts"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "গোটানো কাপড়ে আঁকা ছবি দেখিয়ে গান গেয়ে গল্প বলার লোকশিল্প",
+    "shortClue": "গোটানো ছবি"
+  },
+  {
+    "word": "মৃৎশিল্প",
+    "topics": [
+      "arts"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "মাটি দিয়ে হাঁড়ি আর পুতুল গড়ার কারুকাজ",
+    "shortClue": "মাটির কারুকাজ"
+  },
+  {
+    "word": "টেরাকোটা",
+    "topics": [
+      "arts"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "পোড়ামাটির ফলকে নকশা, বিষ্ণুপুরের মন্দিরে বিখ্যাত",
+    "shortClue": "পোড়ামাটির শিল্প"
+  },
+  {
+    "word": "মুখোশ",
+    "topics": [
+      "arts"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "চেহারা ঢাকার আঁকা আবরণ, নাচ বা উৎসবে পরা হয়",
+    "shortClue": "চেহারার ঢাকনা"
+  },
+  {
+    "word": "স্থাপত্য",
+    "topics": [
+      "arts"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "ভবন নকশা ও নির্মাণের শিল্প",
+    "shortClue": "ভবনের শিল্প"
+  },
+  {
+    "word": "প্রদর্শনী",
+    "topics": [
+      "arts"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "ছবি বা জিনিস সাজিয়ে সবাইকে দেখানোর আয়োজন",
+    "shortClue": "শিল্পের মেলা"
+  },
+  {
+    "word": "গীতিকার",
+    "topics": [
+      "arts"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "গানের কথা লেখেন যিনি",
+    "shortClue": "গানের লেখক"
+  },
+  {
+    "word": "সংগীত",
+    "topics": [
+      "arts"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "গান আর বাজনার শিল্প",
+    "shortClue": "গানবাজনা"
+  },
+  {
+    "word": "নকশিকাঁথা",
+    "topics": [
+      "arts",
+      "localCulture"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "পুরোনো শাড়ির পরতে সুতোয় ছবি ফোটানো বাংলার লেপ",
+    "shortClue": "সুতোর ছবি"
+  },
+  {
+    "word": "পর্দা",
+    "topics": [
+      "home"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "জানালা বা দরজায় ঝোলানো কাপড়",
+    "shortClue": "জানালার কাপড়"
+  },
+  {
+    "word": "চিরুনি",
+    "topics": [
+      "home"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "চুল আঁচড়ানোর দাঁতওয়ালা জিনিস",
+    "shortClue": "চুল আঁচড়ানো"
+  },
+  {
+    "word": "কড়াই",
+    "topics": [
+      "home"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "ভাজাভুজির গোল তলার লোহার পাত্র",
+    "shortClue": "ভাজার পাত্র"
+  },
+  {
+    "word": "বঁটি",
+    "topics": [
+      "home"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "পায়ে চেপে বসে মাছ আর সবজি কাটার বাঁকা ফলা",
+    "shortClue": "বাঙালির কাটারি"
+  },
+  {
+    "word": "চুলা",
+    "topics": [
+      "home"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "আগুন জ্বেলে রান্নার জায়গা",
+    "shortClue": "রান্নার আগুন"
+  },
+  {
+    "word": "কেটলি",
+    "topics": [
+      "home"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "চায়ের জল ফোটানোর নলওয়ালা পাত্র",
+    "shortClue": "চায়ের পাত্র"
+  },
+  {
+    "word": "বাতি",
+    "topics": [
+      "home"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "অন্ধকার ঘরে আলো দেয় যা",
+    "shortClue": "আলোর উৎস"
+  },
+  {
+    "word": "প্রদীপ",
+    "topics": [
+      "home"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "সলতে জ্বালানো মাটির তেলের বাতি",
+    "shortClue": "মাটির বাতি"
+  },
+  {
+    "word": "কাঁচি",
+    "topics": [
+      "home"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "দুই ফলার কাটার যন্ত্র, কাপড় বা কাগজ কাটে",
+    "shortClue": "দুই ফলা"
+  },
+  {
+    "word": "বোতাম",
+    "topics": [
+      "home"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "জামার ঘরে আটকানো গোল চাকতি",
+    "shortClue": "জামার চাকতি"
+  },
+  {
+    "word": "কম্বল",
+    "topics": [
+      "home"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "পশমের মোটা গরম চাদর",
+    "shortClue": "পশমি চাদর"
+  },
+  {
+    "word": "চাদর",
+    "topics": [
+      "home"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "বিছানায় পাতা বা গায়ে জড়ানো কাপড়",
+    "shortClue": "বিছানার কাপড়"
+  },
+  {
+    "word": "তোষক",
+    "topics": [
+      "home"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "বিছানায় পাতা তুলোভরা মোটা গদি",
+    "shortClue": "তুলোর গদি"
+  },
+  {
+    "word": "তাক",
+    "topics": [
+      "home"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "দেয়ালে বসানো জিনিস রাখার পাটাতন",
+    "shortClue": "দেয়ালের পাটাতন"
+  },
+  {
+    "word": "ছাতা",
+    "topics": [
+      "home"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "রোদ-বৃষ্টি থেকে বাঁচতে মাথার ওপর মেলা আবরণ",
+    "shortClue": "বর্ষার সঙ্গী"
+  },
+  {
+    "word": "জুতা",
+    "topics": [
+      "home"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "পা ঢাকার চামড়া বা কাপড়ের পরিধেয়",
+    "shortClue": "পায়ের পোশাক"
+  },
+  {
+    "word": "চশমা",
+    "topics": [
+      "home"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "চোখে ভালো দেখার জন্য পরা কাচের জোড়া",
+    "shortClue": "চোখের কাচ"
+  },
+  {
+    "word": "সিঁড়ি",
+    "topics": [
+      "home"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "ওপর-নিচ ওঠানামার ধাপের সারি",
+    "shortClue": "ধাপের সারি"
+  },
+  {
+    "word": "উঠান",
+    "topics": [
+      "home"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "বাড়ির সামনের খোলা আঙিনা",
+    "shortClue": "আঙিনা"
+  },
+  {
+    "word": "ছাদ",
+    "topics": [
+      "home"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "ঘরের মাথার ঢাকনা",
+    "shortClue": "ঘরের মাথা"
+  },
+  {
+    "word": "দেয়াল",
+    "topics": [
+      "home"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "ঘরের চারপাশের খাড়া গাঁথনি",
+    "shortClue": "খাড়া গাঁথনি"
+  },
+  {
+    "word": "বারান্দা",
+    "topics": [
+      "home"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "ঘরের সামনে বা পাশে খোলা ঢাকা জায়গা",
+    "shortClue": "খোলা অলিন্দ"
+  },
+  {
+    "word": "বাগান",
+    "topics": [
+      "home"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "বাড়ির পাশে ফুল আর ফলের গাছ লাগানো জমি",
+    "shortClue": "ফুলের জমি"
+  },
+  {
+    "word": "ইস্ত্রি",
+    "topics": [
+      "home"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "গরম করে কাপড়ের ভাঁজ সমান করার যন্ত্র",
+    "shortClue": "ভাঁজ সমান করে"
+  },
+  {
+    "word": "কুমোর",
+    "topics": [
+      "professions"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "চাকা ঘুরিয়ে মাটির হাঁড়ি গড়েন যিনি",
+    "shortClue": "মাটির কারিগর"
+  },
+  {
+    "word": "জেলে",
+    "topics": [
+      "professions"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "জাল ফেলে মাছ ধরেন যিনি",
+    "shortClue": "মাছ ধরেন"
+  },
+  {
+    "word": "নাপিত",
+    "topics": [
+      "professions"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "চুল আর দাড়ি কাটেন যিনি",
+    "shortClue": "চুল কাটেন"
+  },
+  {
+    "word": "দরজি",
+    "topics": [
+      "professions"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "মাপ নিয়ে জামা সেলাই করেন যিনি",
+    "shortClue": "জামার কারিগর"
+  },
+  {
+    "word": "মুচি",
+    "topics": [
+      "professions"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "জুতা সেলাই ও মেরামত করেন যিনি",
+    "shortClue": "জুতার কারিগর"
+  },
+  {
+    "word": "ধোপা",
+    "topics": [
+      "professions"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "কাপড় কেচে ইস্ত্রি করে দেন যিনি",
+    "shortClue": "কাপড় কাচেন"
+  },
+  {
+    "word": "গোয়ালা",
+    "topics": [
+      "professions"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "গরু পুষে দুধ বেচেন যিনি",
+    "shortClue": "দুধওয়ালা"
+  },
+  {
+    "word": "ডাকপিয়ন",
+    "topics": [
+      "professions"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "বাড়ি বাড়ি চিঠি পৌঁছে দেন যিনি",
+    "shortClue": "চিঠি বিলি"
+  },
+  {
+    "word": "সৈনিক",
+    "topics": [
+      "professions"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "দেশের সীমানা পাহারা দেন যিনি",
+    "shortClue": "দেশরক্ষী"
+  },
+  {
+    "word": "বিচারক",
+    "topics": [
+      "professions"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "আদালতে রায় দেন যিনি",
+    "shortClue": "আদালতের রায়দাতা"
+  },
+  {
+    "word": "উকিল",
+    "topics": [
+      "professions"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "আদালতে মক্কেলের হয়ে লড়েন যিনি",
+    "shortClue": "আইনজীবী"
+  },
+  {
+    "word": "ব্যবসায়ী",
+    "topics": [
+      "professions"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "কেনাবেচা করে লাভ করেন যিনি",
+    "shortClue": "বণিক"
+  },
+  {
+    "word": "রাজমিস্ত্রি",
+    "topics": [
+      "professions"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "ইট গেঁথে দেয়াল তোলেন যিনি",
+    "shortClue": "ইটের কারিগর"
+  },
+  {
+    "word": "দমকলকর্মী",
+    "topics": [
+      "professions"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "আগুন নেভাতে ছুটে যান যিনি",
+    "shortClue": "আগুন নেভান"
+  },
+  {
+    "word": "পুরোহিত",
+    "topics": [
+      "professions"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "পুজো ও যজ্ঞ করান যিনি",
+    "shortClue": "পুজারি"
+  },
+  {
+    "word": "ইমাম",
+    "topics": [
+      "professions"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "মসজিদে নামাজ পরিচালনা করেন যিনি",
+    "shortClue": "নামাজের নেতা"
+  },
+  {
+    "word": "ফেরিওয়ালা",
+    "topics": [
+      "professions"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "হেঁকে হেঁকে পথে পথে জিনিস বেচেন যিনি",
+    "shortClue": "পথের বিক্রেতা"
+  },
+  {
+    "word": "ঘটক",
+    "topics": [
+      "professions"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "বিয়ের সম্বন্ধ ঠিক করে দেন যিনি",
+    "shortClue": "সম্বন্ধের দূত"
+  },
+  {
+    "word": "মহাজন",
+    "topics": [
+      "professions"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "সুদে টাকা ধার দেন যে কারবারি",
+    "shortClue": "সুদের কারবারি"
+  },
+  {
+    "word": "অধ্যাপক",
+    "topics": [
+      "professions"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "কলেজ বা বিশ্ববিদ্যালয়ে পড়ান যিনি",
+    "shortClue": "কলেজের শিক্ষক"
+  },
+  {
+    "word": "সম্পাদক",
+    "topics": [
+      "professions"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "পত্রিকার লেখা বাছাই ও সংশোধন করেন যিনি",
+    "shortClue": "পত্রিকার প্রধান"
+  },
+  {
+    "word": "প্রহরী",
+    "topics": [
+      "professions"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "রাত জেগে পাহারা দেন যিনি",
+    "shortClue": "পাহারাদার"
+  },
+  {
+    "word": "নাবিক",
+    "topics": [
+      "professions"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "জাহাজে সাগর পাড়ি দেন যিনি",
+    "shortClue": "জাহাজি"
+  },
+  {
+    "word": "বাবুর্চি",
+    "topics": [
+      "professions"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "বিয়েবাড়িতে বড় ডেকচিতে রাঁধেন যিনি",
+    "shortClue": "ভোজের রাঁধুনি"
+  },
+  {
+    "word": "অনুবাদক",
+    "topics": [
+      "professions"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "এক ভাষার লেখা অন্য ভাষায় রূপান্তর করেন যিনি",
+    "shortClue": "ভাষান্তরকারী"
+  },
+  {
+    "word": "কেরানি",
+    "topics": [
+      "professions"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "দপ্তরে খাতাপত্র লেখার কাজ করেন যিনি",
+    "shortClue": "দপ্তরের লেখক"
+  },
+  {
+    "word": "গোয়েন্দা",
+    "topics": [
+      "professions"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "গোপনে অপরাধের রহস্য খোঁজেন যিনি",
+    "shortClue": "রহস্যভেদী"
+  },
+  {
+    "word": "রবীন্দ্রনাথ",
+    "topics": [
+      "localCulture"
+    ],
+    "difficulty": 1,
+    "kind": "proper",
+    "clue": "গীতাঞ্জলির কবি, বাংলার প্রথম নোবেলজয়ী",
+    "shortClue": "গীতাঞ্জলির কবি"
+  },
+  {
+    "word": "নজরুল",
+    "topics": [
+      "localCulture"
+    ],
+    "difficulty": 1,
+    "kind": "proper",
+    "clue": "বাংলাদেশের জাতীয় কবি, বিদ্রোহী কবি নামে খ্যাত",
+    "shortClue": "বিদ্রোহী কবি"
+  },
+  {
+    "word": "লালন",
+    "topics": [
+      "localCulture"
+    ],
+    "difficulty": 2,
+    "kind": "proper",
+    "clue": "বাউল গানের সাধক, ছেঁউড়িয়ায় যাঁর আখড়া",
+    "shortClue": "বাউলসম্রাট"
+  },
+  {
+    "word": "জীবনানন্দ",
+    "topics": [
+      "localCulture"
+    ],
+    "difficulty": 2,
+    "kind": "proper",
+    "clue": "রূপসী বাংলা ও বনলতা সেনের কবি",
+    "shortClue": "বনলতার কবি"
+  },
+  {
+    "word": "সত্যজিৎ",
+    "topics": [
+      "localCulture"
+    ],
+    "difficulty": 1,
+    "kind": "proper",
+    "clue": "পথের পাঁচালী ছবির পরিচালক, ফেলুদার স্রষ্টা",
+    "shortClue": "ফেলুদার স্রষ্টা"
+  },
+  {
+    "word": "বঙ্কিমচন্দ্র",
+    "topics": [
+      "localCulture"
+    ],
+    "difficulty": 2,
+    "kind": "proper",
+    "clue": "আনন্দমঠ ও কপালকুণ্ডলার লেখক",
+    "shortClue": "আনন্দমঠের লেখক"
+  },
+  {
+    "word": "সুকুমার",
+    "topics": [
+      "localCulture"
+    ],
+    "difficulty": 3,
+    "kind": "proper",
+    "clue": "আবোল তাবোল আর হযবরল-র লেখক",
+    "shortClue": "আবোল তাবোলের কবি"
+  },
+  {
+    "word": "জসীমউদ্দীন",
+    "topics": [
+      "localCulture"
+    ],
+    "difficulty": 2,
+    "kind": "proper",
+    "clue": "নকশী কাঁথার মাঠ কাব্যের পল্লিকবি",
+    "shortClue": "পল্লিকবি"
+  },
+  {
+    "word": "মেলা",
+    "topics": [
+      "localCulture"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "উৎসবে বসা দোকানপাট, নাগরদোলা আর ভিড়",
+    "shortClue": "উৎসবের হাট"
+  },
+  {
+    "word": "নাগরদোলা",
+    "topics": [
+      "localCulture"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "মেলায় বসানো বিশাল ঘুরন্ত চাকা, চড়ে আকাশে ওঠা যায়",
+    "shortClue": "মেলার ঘুরন্ত চাকা"
+  },
+  {
+    "word": "সুপারি",
+    "topics": [
+      "localCulture"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "পানের সঙ্গে খাওয়া শক্ত বাদামি ফল",
+    "shortClue": "পানের সঙ্গী"
+  },
+  {
+    "word": "শাঁখ",
+    "topics": [
+      "localCulture"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "সন্ধ্যায় ফুঁ দিয়ে বাজানো সামুদ্রিক খোল",
+    "shortClue": "ফুঁয়ের খোল"
+  },
+  {
+    "word": "সিঁদুর",
+    "topics": [
+      "localCulture"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "বিবাহিত হিন্দু নারীর সিঁথিতে দেওয়া লাল গুঁড়ো",
+    "shortClue": "সিঁথির লাল"
+  },
+  {
+    "word": "উলু",
+    "topics": [
+      "localCulture"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "শুভ কাজে মেয়েদের মুখে জিভ নেড়ে করা মঙ্গলধ্বনি",
+    "shortClue": "মঙ্গলধ্বনি"
+  },
+  {
+    "word": "ধুতি",
+    "topics": [
+      "localCulture"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "কোমরে জড়িয়ে পরা পুরুষের লম্বা সাদা কাপড়",
+    "shortClue": "পুরুষের পরিধান"
+  },
+  {
+    "word": "নৌকা",
+    "topics": [
+      "localCulture"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "বৈঠা বেয়ে নদী পারাপারের জলযান",
+    "shortClue": "পারাপারের যান"
+  },
+  {
+    "word": "ভাটিয়ালি",
+    "topics": [
+      "localCulture"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "মাঝিদের নদীর স্রোতে গাওয়া লোকগান",
+    "shortClue": "মাঝির গান"
+  },
+  {
+    "word": "ভাওয়াইয়া",
+    "topics": [
+      "localCulture"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "উত্তরবঙ্গের গাড়োয়ানদের লোকগান",
+    "shortClue": "উত্তরবঙ্গের লোকগান"
+  },
+  {
+    "word": "হালখাতা",
+    "topics": [
+      "localCulture"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "পহেলা বৈশাখে দোকানে নতুন হিসাবের বই খোলার রীতি",
+    "shortClue": "নববর্ষের হিসাব"
+  },
+  {
+    "word": "চৈত্রসংক্রান্তি",
+    "topics": [
+      "localCulture"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "বাংলা বছরের শেষ দিনের উৎসব",
+    "shortClue": "বছরের শেষ দিন"
+  },
+  {
+    "word": "বৈশাখ",
+    "topics": [
+      "localCulture"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "বাংলা বছরের প্রথম মাস",
+    "shortClue": "প্রথম বাংলা মাস"
+  },
+  {
+    "word": "ফাল্গুন",
+    "topics": [
+      "localCulture"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "বসন্তের প্রথম বাংলা মাস",
+    "shortClue": "বসন্তের মাস"
+  },
+  {
+    "word": "শ্রাবণ",
+    "topics": [
+      "localCulture"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "বর্ষার দ্বিতীয় বাংলা মাস, অঝোর ধারার মাস",
+    "shortClue": "বর্ষার মাস"
+  },
+  {
+    "word": "পৌষ",
+    "topics": [
+      "localCulture"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "শীতের প্রথম বাংলা মাস, পিঠার মাস",
+    "shortClue": "পিঠার মাস"
+  },
+  {
+    "word": "ঈদ",
+    "topics": [
+      "localCulture"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "রোজার শেষে খুশির উৎসব",
+    "shortClue": "খুশির উৎসব"
+  },
+  {
+    "word": "আড্ডা",
+    "topics": [
+      "localCulture"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "চায়ের কাপে বন্ধুদের অলস গল্পগুজব",
+    "shortClue": "গল্পের আসর"
+  },
+  {
+    "word": "মাদুর",
+    "topics": [
+      "localCulture"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "বেত বা পাটি বুনে তৈরি মেঝেতে পাতার আসন",
+    "shortClue": "মেঝের আসন"
+  },
+  {
+    "word": "ভাঁড়",
+    "topics": [
+      "localCulture"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "মাটির ছোট কাপ, চা খেয়ে ফেলে দেওয়া হয়",
+    "shortClue": "মাটির কাপ"
+  },
+  {
+    "word": "প্রতিমা",
+    "topics": [
+      "localCulture"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "পুজোর জন্য গড়া মাটির দেবমূর্তি",
+    "shortClue": "মাটির দেবমূর্তি"
+  },
+  {
+    "word": "টোপর",
+    "topics": [
+      "localCulture"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "বিয়েতে বরের মাথার শোলার মুকুট",
+    "shortClue": "বরের মুকুট"
+  },
+  {
+    "word": "বরযাত্রী",
+    "topics": [
+      "localCulture"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "বিয়েতে পাত্রের সঙ্গে কনের বাড়ি যাওয়া অতিথির দল",
+    "shortClue": "পাত্রের সঙ্গীরা"
+  },
+  {
+    "word": "ঘোমটা",
+    "topics": [
+      "localCulture"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "শাড়ির আঁচল টেনে মাথা ঢাকা",
+    "shortClue": "মাথার আঁচল"
+  },
+  {
+    "word": "আঁচল",
+    "topics": [
+      "localCulture"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "শাড়ির ঝুলন্ত প্রান্ত",
+    "shortClue": "শাড়ির প্রান্ত"
+  },
+  {
+    "word": "বিদ্যালয়",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "যেখানে ছেলেমেয়েরা রোজ পড়তে যায়",
+    "shortClue": "পড়ার প্রতিষ্ঠান"
+  },
+  {
+    "word": "হাসপাতাল",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "অসুস্থ মানুষের চিকিৎসা হয় যেখানে",
+    "shortClue": "রোগীর আশ্রয়"
+  },
+  {
+    "word": "সংবাদপত্র",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "প্রতিদিন সকালে আসা ছাপা খবরের পাতা",
+    "shortClue": "দৈনিক পত্রিকা"
+  },
+  {
+    "word": "আবহাওয়া",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "রোদ, বৃষ্টি আর ঝড় মিলিয়ে দিনের আকাশের অবস্থা",
+    "shortClue": "রোদ-বৃষ্টির হাল"
+  },
+  {
+    "word": "রবিবার",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "শনির পরের দিন, সূর্যের নামে নাম",
+    "shortClue": "সূর্যের দিন"
+  },
+  {
+    "word": "অনুষ্ঠান",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "উৎসব বা সভার আয়োজন",
+    "shortClue": "আয়োজন"
+  },
+  {
+    "word": "অনুমতি",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "কিছু করার আগে নেওয়া সম্মতি",
+    "shortClue": "সম্মতি"
+  },
+  {
+    "word": "পরিবেশ",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "চারপাশের জল, মাটি, বাতাস মিলিয়ে প্রকৃতি",
+    "shortClue": "চারপাশ"
+  },
+  {
+    "word": "পরিকল্পনা",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "কাজ শুরুর আগে ভেবে ঠিক করা ছক",
+    "shortClue": "কাজের ছক"
+  },
+  {
+    "word": "ব্যবহার",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "কাজে লাগানো; কারও প্রতি আচরণ",
+    "shortClue": "আচরণ"
+  },
+  {
+    "word": "অভিনন্দন",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "কারও সাফল্যে জানানো শুভেচ্ছা",
+    "shortClue": "শুভেচ্ছা"
+  },
+  {
+    "word": "অবহেলা",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "যত্ন না নেওয়া, গা না করা",
+    "shortClue": "উপেক্ষা"
+  },
+  {
+    "word": "উপদেশ",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "ভালোর জন্য দেওয়া পরামর্শ",
+    "shortClue": "পরামর্শ"
+  },
+  {
+    "word": "অপমান",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "কাউকে ছোট করে দেওয়া আচরণ",
+    "shortClue": "অসম্মান"
+  },
+  {
+    "word": "সহানুভূতি",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "অন্যের দুঃখ নিজের মতো করে বোঝা",
+    "shortClue": "সমবেদনা"
+  },
+  {
+    "word": "পরোপকার",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "নিঃস্বার্থভাবে অন্যের ভালো করা",
+    "shortClue": "পরের হিত"
+  },
+  {
+    "word": "কুসংস্কার",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "যুক্তিহীন অন্ধ বিশ্বাস",
+    "shortClue": "অন্ধ বিশ্বাস"
+  },
+  {
+    "word": "সূর্যোদয়",
+    "topics": [
+      "nature"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "ভোরে পুব আকাশে দিনের আলো ফোটা",
+    "shortClue": "ভোরের আলো"
+  },
+  {
+    "word": "সমুদ্রসৈকত",
+    "topics": [
+      "nature"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "সাগরপাড়ের বালুময় তীর, যেমন কক্সবাজারে",
+    "shortClue": "সাগরপাড়ের বালু"
+  },
+  {
+    "word": "ঘূর্ণিঝড়",
+    "topics": [
+      "nature"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "সাগর থেকে ধেয়ে আসা পাক খাওয়া প্রবল বাতাস",
+    "shortClue": "পাক খাওয়া বাতাস"
+  },
+  {
+    "word": "বজ্রপাত",
+    "topics": [
+      "nature"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "মেঘ থেকে মাটিতে নেমে আসা বিদ্যুতের ঝলক",
+    "shortClue": "আকাশের ঝলক"
+  },
+  {
+    "word": "কৃষ্ণচূড়া",
+    "topics": [
+      "nature"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "গ্রীষ্মে আগুনরাঙা লাল ফুলে ভরে ওঠা গাছ",
+    "shortClue": "আগুনরাঙা ফুল"
+  },
+  {
+    "word": "রজনীগন্ধা",
+    "topics": [
+      "nature"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "রাতে সুবাস ছড়ানো লম্বা ডাঁটার সাদা ফুল",
+    "shortClue": "রাতের সাদা ফুল"
+  },
+  {
+    "word": "চিড়িয়াখানা",
+    "topics": [
+      "animals"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "যেখানে নানা বুনো প্রাণী রেখে দেখানো হয়",
+    "shortClue": "প্রাণীর সংগ্রহশালা"
+  },
+  {
+    "word": "ডলফিন",
+    "topics": [
+      "animals"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "বুদ্ধিমান সামুদ্রিক স্তন্যপায়ী, ঢেউয়ে লাফিয়ে খেলে",
+    "shortClue": "সাগরের খেলুড়ে"
+  },
+  {
+    "word": "পানকৌড়ি",
+    "topics": [
+      "animals"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "জলে ডুব দিয়ে মাছ ধরা কালো পাখি",
+    "shortClue": "ডুবুরি পাখি"
+  },
+  {
+    "word": "ঘাসফড়িং",
+    "topics": [
+      "animals"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "মাঠে লাফিয়ে বেড়ানো সবুজ পতঙ্গ",
+    "shortClue": "লাফানো পতঙ্গ"
+  },
+  {
+    "word": "পেঙ্গুইন",
+    "topics": [
+      "animals"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "বরফের দেশে থাকা উড়তে না পারা সাদা-কালো পাখি",
+    "shortClue": "বরফের পাখি"
+  },
+  {
+    "word": "ডালপুরি",
+    "topics": [
+      "food"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "মসুরের পুর ভরা ফোলা ভাজা রুটি",
+    "shortClue": "পুরভরা রুটি"
+  },
+  {
+    "word": "মালাইকারি",
+    "topics": [
+      "food"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "নারকেলের দুধে রাঁধা চিংড়ির পদ",
+    "shortClue": "চিংড়ির পদ"
+  },
+  {
+    "word": "কালোজিরা",
+    "topics": [
+      "food"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "ভাতে বা ভর্তায় দেওয়া ছোট কৃষ্ণবর্ণ ঝাঁঝালো দানা",
+    "shortClue": "ঝাঁঝালো দানা"
+  },
+  {
+    "word": "রসমালাই",
+    "topics": [
+      "food"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "ঘন মিষ্টি দুধে ভাসানো ছোট ছানার গোলা, কুমিল্লার খ্যাতি",
+    "shortClue": "দুধে ভাসা ছানা"
+  },
+  {
+    "word": "পশ্চিমবঙ্গ",
+    "topics": [
+      "geography"
+    ],
+    "difficulty": 1,
+    "kind": "proper",
+    "clue": "কলকাতা যার রাজধানী, ভারতের বাংলাভাষী রাজ্য",
+    "shortClue": "কলকাতার রাজ্য"
+  },
+  {
+    "word": "জনবসতি",
+    "topics": [
+      "geography"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "মানুষ ঘর বেঁধে থাকে এমন এলাকা",
+    "shortClue": "লোকালয়"
+  },
+  {
+    "word": "গিরিপথ",
+    "topics": [
+      "geography"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "দুই পাহাড়ের মাঝ দিয়ে চলার সরু পথ",
+    "shortClue": "পাহাড়ি রাস্তা"
+  },
+  {
+    "word": "প্রস্তরযুগ",
+    "topics": [
+      "history"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "মানুষ যখন পাথরের হাতিয়ার ব্যবহার করত, সেই প্রাচীন কাল",
+    "shortClue": "পাথরের কাল"
+  },
+  {
+    "word": "আবিষ্কার",
+    "topics": [
+      "history"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "নতুন কিছু প্রথম খুঁজে পাওয়া বা উদ্ভাবন",
+    "shortClue": "উদ্ভাবন"
+  },
+  {
+    "word": "রাজদরবার",
+    "topics": [
+      "history"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "সম্রাট যেখানে সভাসদ নিয়ে বসতেন",
+    "shortClue": "শাসকের সভা"
+  },
+  {
+    "word": "অশ্বারোহী",
+    "topics": [
+      "history"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "ঘোড়ায় চড়া সৈনিক",
+    "shortClue": "ঘোড়সওয়ার"
+  },
+  {
+    "word": "নাইট্রোজেন",
+    "topics": [
+      "science"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "বাতাসের প্রায় চার ভাগের তিন ভাগ যে গ্যাস",
+    "shortClue": "বাতাসের প্রধান গ্যাস"
+  },
+  {
+    "word": "বায়ুমণ্ডল",
+    "topics": [
+      "science"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "পৃথিবীকে ঘিরে থাকা বাতাসের স্তর",
+    "shortClue": "বাতাসের চাদর"
+  },
+  {
+    "word": "আলোকবর্ষ",
+    "topics": [
+      "science"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "রশ্মি বারো মাসে যত পথ পেরোয়, নক্ষত্রের দূরত্বের একক",
+    "shortClue": "দূরত্বের একক"
+  },
+  {
+    "word": "সৌরজগৎ",
+    "topics": [
+      "science"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "সূর্য আর তাকে ঘিরে ঘোরা গ্রহ ও উপগ্রহের পরিবার",
+    "shortClue": "সূর্যের পরিবার"
+  },
+  {
+    "word": "ক্যালসিয়াম",
+    "topics": [
+      "science"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "দাঁত আর হাড় মজবুত করা খনিজ, দুধে মেলে",
+    "shortClue": "হাড়ের খনিজ"
+  },
+  {
+    "word": "বাস্কেটবল",
+    "topics": [
+      "sport"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "উঁচু ঝুড়ির রিং দিয়ে গোলক গলানোর খেলা",
+    "shortClue": "ঝুড়ির খেলা"
+  },
+  {
+    "word": "ভারোত্তোলন",
+    "topics": [
+      "sport"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "লোহার চাকতি লাগানো দণ্ড মাথার ওপরে ধরে রাখার খেলা",
+    "shortClue": "বারবেলের খেলা"
+  },
+  {
+    "word": "রূপকথা",
+    "topics": [
+      "arts"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "রাজপুত্র, পরি আর দৈত্যের গল্প",
+    "shortClue": "পরির গল্প"
+  },
+  {
+    "word": "রবীন্দ্রসংগীত",
+    "topics": [
+      "arts"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "গীতাঞ্জলির কবির লেখা ও সুর দেওয়া গান",
+    "shortClue": "কবিগুরুর গান"
+  },
+  {
+    "word": "টেলিভিশন",
+    "topics": [
+      "home"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "ঘরে বসে খবর আর নানা অনুষ্ঠান দেখার যন্ত্র",
+    "shortClue": "দেখার যন্ত্র"
+  },
+  {
+    "word": "হাঁড়িপাতিল",
+    "topics": [
+      "home"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "রান্নাঘরের নানা রকম পাত্র",
+    "shortClue": "রান্নার বাসনপত্র"
+  },
+  {
+    "word": "আসবাবপত্র",
+    "topics": [
+      "home"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "চেয়ার, টেবিল, খাট মিলে ঘরের সরঞ্জাম",
+    "shortClue": "ঘরের সরঞ্জাম"
+  },
+  {
+    "word": "জামাকাপড়",
+    "topics": [
+      "home"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "গায়ে পরার সব রকম পোশাক",
+    "shortClue": "পোশাক-আশাক"
+  },
+  {
+    "word": "স্নানঘর",
+    "topics": [
+      "home"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "গোসল করার জন্য আলাদা কামরা",
+    "shortClue": "গোসলের কামরা"
+  },
+  {
+    "word": "মোমবাতি",
+    "topics": [
+      "home"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "সলতেওয়ালা সাদা দণ্ড, বিদ্যুৎ গেলে জ্বালানো হয়",
+    "shortClue": "আঁধারের সাদা দণ্ড"
+  },
+  {
+    "word": "পরিচ্ছন্নতাকর্মী",
+    "topics": [
+      "professions"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "রাস্তা আর শহর ঝাড়ু দিয়ে সাফ রাখেন যিনি",
+    "shortClue": "শহরের ঝাড়ুদার"
+  },
+  {
+    "word": "পশুচিকিৎসক",
+    "topics": [
+      "professions"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "অসুস্থ গরু-ছাগল আর পোষা প্রাণীর ডাক্তার",
+    "shortClue": "প্রাণীর ডাক্তার"
+  },
+  {
+    "word": "জ্যোতির্বিদ",
+    "topics": [
+      "professions"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "গ্রহ-নক্ষত্র নিয়ে গবেষণা করেন যিনি",
+    "shortClue": "আকাশের গবেষক"
+  },
+  {
+    "word": "জামাইষষ্ঠী",
+    "topics": [
+      "localCulture"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "জ্যৈষ্ঠ মাসে মেয়ের বরকে শ্বশুরবাড়িতে আপ্যায়নের পার্বণ",
+    "shortClue": "শ্বশুরবাড়ির পার্বণ"
+  },
+  {
+    "word": "বিসর্জন",
+    "topics": [
+      "localCulture"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "পুজো শেষে প্রতিমা জলে ভাসানো",
+    "shortClue": "প্রতিমা ভাসান"
+  },
+  {
+    "word": "নববর্ষ",
+    "topics": [
+      "localCulture"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "পুরোনো সাল বিদায়ের পর নতুন সালের প্রথম দিন",
+    "shortClue": "সালের প্রথম দিন"
+  }
+]
