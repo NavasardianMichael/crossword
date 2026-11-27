@@ -1,0 +1,5002 @@
+[
+ {
+  "word": "شادی",
+  "topics": [
+   "general"
+  ],
+  "difficulty": 1,
+  "kind": "common",
+  "clue": "حالت خوشدلی و بی غمی",
+  "shortClue": "خوشدلی"
+ },
+ {
+  "word": "ترس",
+  "topics": [
+   "general"
+  ],
+  "difficulty": 1,
+  "kind": "common",
+  "clue": "حس گریز از خطر",
+  "shortClue": "حس خطر"
+ },
+ {
+  "word": "خشم",
+  "topics": [
+   "general"
+  ],
+  "difficulty": 1,
+  "kind": "common",
+  "clue": "تندی و برافروختگی درونی",
+  "shortClue": "برافروختگی"
+ },
+ {
+  "word": "مهربانی",
+  "topics": [
+   "general"
+  ],
+  "difficulty": 1,
+  "kind": "common",
+  "clue": "رفتار نرم و دلسوزانه با دیگران",
+  "shortClue": "دلسوزی"
+ },
+ {
+  "word": "صبر",
+  "topics": [
+   "general"
+  ],
+  "difficulty": 1,
+  "kind": "common",
+  "clue": "تاب اوردن بی شتاب",
+  "shortClue": "تاب بی شتاب"
+ },
+ {
+  "word": "عشق",
+  "topics": [
+   "general"
+  ],
+  "difficulty": 1,
+  "kind": "common",
+  "clue": "دلبستگی بسیار به کسی",
+  "shortClue": "دلبستگی"
+ },
+ {
+  "word": "خنده",
+  "topics": [
+   "general"
+  ],
+  "difficulty": 1,
+  "kind": "common",
+  "clue": "صدای شادی که از دهان برمی خیزد",
+  "shortClue": "نشان شادی"
+ },
+ {
+  "word": "گریه",
+  "topics": [
+   "general"
+  ],
+  "difficulty": 1,
+  "kind": "common",
+  "clue": "ریختن اشک از غم",
+  "shortClue": "ریزش اشک"
+ },
+ {
+  "word": "خواب",
+  "topics": [
+   "general"
+  ],
+  "difficulty": 1,
+  "kind": "common",
+  "clue": "ارامش شبانه با چشم بسته",
+  "shortClue": "ارامش شب"
+ },
+ {
+  "word": "رویا",
+  "topics": [
+   "general"
+  ],
+  "difficulty": 1,
+  "kind": "common",
+  "clue": "تصویرهای ذهن هنگام خفتن",
+  "shortClue": "تصویر شب"
+ },
+ {
+  "word": "فراموشی",
+  "topics": [
+   "general"
+  ],
+  "difficulty": 2,
+  "kind": "common",
+  "clue": "از ذهن رفتن چیزی",
+  "shortClue": "از ذهن رفتن"
+ },
+ {
+  "word": "سفر",
+  "topics": [
+   "general"
+  ],
+  "difficulty": 1,
+  "kind": "common",
+  "clue": "رفتن به شهر یا کشوری دیگر",
+  "shortClue": "رفتن دور"
+ },
+ {
+  "word": "مسافر",
+  "topics": [
+   "general"
+  ],
+  "difficulty": 1,
+  "kind": "common",
+  "clue": "کسی که در راه است و سفر دارد",
+  "shortClue": "راهی دور"
+ },
+ {
+  "word": "مهمان",
+  "topics": [
+   "general"
+  ],
+  "difficulty": 1,
+  "kind": "common",
+  "clue": "کسی که به خانه دیگری می رود",
+  "shortClue": "میهمان خانه"
+ },
+ {
+  "word": "میزبان",
+  "topics": [
+   "general"
+  ],
+  "difficulty": 2,
+  "kind": "common",
+  "clue": "صاحب خانه ای که پذیرایی می کند",
+  "shortClue": "پذیرنده مهمان"
+ },
+ {
+  "word": "همسایه",
+  "topics": [
+   "general"
+  ],
+  "difficulty": 1,
+  "kind": "common",
+  "clue": "کسی که دیوار به دیوار شماست",
+  "shortClue": "دیوار به دیوار"
+ },
+ {
+  "word": "خانواده",
+  "topics": [
+   "general"
+  ],
+  "difficulty": 1,
+  "kind": "common",
+  "clue": "پدر و مادر و فرزندان",
+  "shortClue": "پدر و مادر"
+ },
+ {
+  "word": "پدر",
+  "topics": [
+   "general"
+  ],
+  "difficulty": 1,
+  "kind": "common",
+  "clue": "مرد صاحب فرزند",
+  "shortClue": "سرپرست خانه"
+ },
+ {
+  "word": "مادر",
+  "topics": [
+   "general"
+  ],
+  "difficulty": 1,
+  "kind": "common",
+  "clue": "زنی که فرزندی زاییده",
+  "shortClue": "زن فرزنددار"
+ },
+ {
+  "word": "برادر",
+  "topics": [
+   "general"
+  ],
+  "difficulty": 1,
+  "kind": "common",
+  "clue": "پسر همزاد در یک خانواده",
+  "shortClue": "هم خون"
+ },
+ {
+  "word": "خواهر",
+  "topics": [
+   "general"
+  ],
+  "difficulty": 1,
+  "kind": "common",
+  "clue": "دختر همزاد در یک خانواده",
+  "shortClue": "هم خون دختر"
+ },
+ {
+  "word": "فرزند",
+  "topics": [
+   "general"
+  ],
+  "difficulty": 1,
+  "kind": "common",
+  "clue": "پسر یا دختر یک پدر و مادر",
+  "shortClue": "بچه خانه"
+ },
+ {
+  "word": "نوه",
+  "topics": [
+   "general"
+  ],
+  "difficulty": 2,
+  "kind": "common",
+  "clue": "فرزند فرزند",
+  "shortClue": "فرزند فرزند"
+ },
+ {
+  "word": "دبستان",
+  "topics": [
+   "general"
+  ],
+  "difficulty": 1,
+  "kind": "common",
+  "clue": "مدرسه کودکان خردسال",
+  "shortClue": "مدرسه خردسالان"
+ },
+ {
+  "word": "مدرسه",
+  "topics": [
+   "general"
+  ],
+  "difficulty": 1,
+  "kind": "common",
+  "clue": "جای درس خواندن بچه ها",
+  "shortClue": "جای درس"
+ },
+ {
+  "word": "درس",
+  "topics": [
+   "general"
+  ],
+  "difficulty": 1,
+  "kind": "common",
+  "clue": "مطلبی که معلم می اموزد",
+  "shortClue": "اموخته کلاس"
+ },
+ {
+  "word": "تکلیف",
+  "topics": [
+   "general"
+  ],
+  "difficulty": 1,
+  "kind": "common",
+  "clue": "کاری که معلم برای خانه می دهد",
+  "shortClue": "کار خانه"
+ },
+ {
+  "word": "امتحان",
+  "topics": [
+   "general"
+  ],
+  "difficulty": 1,
+  "kind": "common",
+  "clue": "سنجش دانسته های دانش اموز",
+  "shortClue": "سنجش دانش"
+ },
+ {
+  "word": "نمره",
+  "topics": [
+   "general"
+  ],
+  "difficulty": 1,
+  "kind": "common",
+  "clue": "عددی که معلم برای پاسخ می دهد",
+  "shortClue": "عدد کارنامه"
+ },
+ {
+  "word": "کلاس",
+  "topics": [
+   "general"
+  ],
+  "difficulty": 1,
+  "kind": "common",
+  "clue": "اتاق درس و گروه دانش اموزان",
+  "shortClue": "اتاق درس"
+ },
+ {
+  "word": "سال",
+  "topics": [
+   "general"
+  ],
+  "difficulty": 1,
+  "kind": "common",
+  "clue": "دوازده ماه پیاپی",
+  "shortClue": "دوازده ماه"
+ },
+ {
+  "word": "هفته",
+  "topics": [
+   "general"
+  ],
+  "difficulty": 1,
+  "kind": "common",
+  "clue": "هفت روز پیاپی",
+  "shortClue": "هفت روز"
+ },
+ {
+  "word": "صبح",
+  "topics": [
+   "general"
+  ],
+  "difficulty": 1,
+  "kind": "common",
+  "clue": "بامداد پس از سپیده",
+  "shortClue": "بامداد"
+ },
+ {
+  "word": "عصر",
+  "topics": [
+   "general"
+  ],
+  "difficulty": 1,
+  "kind": "common",
+  "clue": "پایان بعدازظهر نزدیک غروب",
+  "shortClue": "پیش غروب"
+ },
+ {
+  "word": "ساعت",
+  "topics": [
+   "general"
+  ],
+  "difficulty": 1,
+  "kind": "common",
+  "clue": "وسیله اندازه گیری وقت",
+  "shortClue": "وقت سنج"
+ },
+ {
+  "word": "لحظه",
+  "topics": [
+   "general"
+  ],
+  "difficulty": 2,
+  "kind": "common",
+  "clue": "زمان بسیار کوتاه",
+  "shortClue": "دم کوتاه"
+ },
+ {
+  "word": "اغاز",
+  "topics": [
+   "general"
+  ],
+  "difficulty": 2,
+  "kind": "common",
+  "clue": "نقطه شروع کار",
+  "shortClue": "نقطه نخست"
+ },
+ {
+  "word": "پایان",
+  "topics": [
+   "general"
+  ],
+  "difficulty": 1,
+  "kind": "common",
+  "clue": "سرانجام و انتهای هر کار",
+  "shortClue": "انتها"
+ },
+ {
+  "word": "ادامه",
+  "topics": [
+   "general"
+  ],
+  "difficulty": 2,
+  "kind": "common",
+  "clue": "دنباله یک کار",
+  "shortClue": "دنباله"
+ },
+ {
+  "word": "کار",
+  "topics": [
+   "general"
+  ],
+  "difficulty": 1,
+  "kind": "common",
+  "clue": "هر چه انجام می دهند و مزد می گیرند",
+  "shortClue": "فعالیت روزانه"
+ },
+ {
+  "word": "تلاش",
+  "topics": [
+   "general"
+  ],
+  "difficulty": 1,
+  "kind": "common",
+  "clue": "کوشش بسیار برای رسیدن به چیزی",
+  "shortClue": "کوشش"
+ },
+ {
+  "word": "استراحت",
+  "topics": [
+   "general"
+  ],
+  "difficulty": 2,
+  "kind": "common",
+  "clue": "اسودن پس از خستگی",
+  "shortClue": "اسایش کوتاه"
+ },
+ {
+  "word": "کمک",
+  "topics": [
+   "general"
+  ],
+  "difficulty": 1,
+  "kind": "common",
+  "clue": "یاری رساندن به دیگری",
+  "shortClue": "یاری"
+ },
+ {
+  "word": "پیام",
+  "topics": [
+   "general"
+  ],
+  "difficulty": 1,
+  "kind": "common",
+  "clue": "خبری که برای کسی می فرستند",
+  "shortClue": "خبر فرستاده"
+ },
+ {
+  "word": "راز",
+  "topics": [
+   "general"
+  ],
+  "difficulty": 1,
+  "kind": "common",
+  "clue": "سخنی پنهان که نباید گفت",
+  "shortClue": "سخن پنهان"
+ },
+ {
+  "word": "دروغ",
+  "topics": [
+   "general"
+  ],
+  "difficulty": 1,
+  "kind": "common",
+  "clue": "گفتار ناراست",
+  "shortClue": "گفتار ناراست"
+ },
+ {
+  "word": "اشتباه",
+  "topics": [
+   "general"
+  ],
+  "difficulty": 2,
+  "kind": "common",
+  "clue": "خطا در کار یا گفتار",
+  "shortClue": "خطا"
+ },
+ {
+  "word": "تفاوت",
+  "topics": [
+   "general"
+  ],
+  "difficulty": 2,
+  "kind": "common",
+  "clue": "ناهمانندی دو چیز",
+  "shortClue": "ناهمانندی"
+ },
+ {
+  "word": "اندازه",
+  "topics": [
+   "general"
+  ],
+  "difficulty": 1,
+  "kind": "common",
+  "clue": "مقدار هر چیز",
+  "shortClue": "مقدار"
+ },
+ {
+  "word": "وزن",
+  "topics": [
+   "general"
+  ],
+  "difficulty": 1,
+  "kind": "common",
+  "clue": "سنگینی یک جسم",
+  "shortClue": "سنگینی"
+ },
+ {
+  "word": "فاصله",
+  "topics": [
+   "general"
+  ],
+  "difficulty": 1,
+  "kind": "common",
+  "clue": "میان دو نقطه",
+  "shortClue": "میان دو نقطه"
+ },
+ {
+  "word": "مقدار",
+  "topics": [
+   "general"
+  ],
+  "difficulty": 2,
+  "kind": "common",
+  "clue": "چند و چون یک چیز",
+  "shortClue": "چندی"
+ },
+ {
+  "word": "شمار",
+  "topics": [
+   "general"
+  ],
+  "difficulty": 2,
+  "kind": "common",
+  "clue": "تعداد چیزها",
+  "shortClue": "تعداد"
+ },
+ {
+  "word": "نیمه",
+  "topics": [
+   "general"
+  ],
+  "difficulty": 1,
+  "kind": "common",
+  "clue": "یکی از دو بخش برابر",
+  "shortClue": "نیم"
+ },
+ {
+  "word": "گروه",
+  "topics": [
+   "general"
+  ],
+  "difficulty": 1,
+  "kind": "common",
+  "clue": "چند نفر که با هم اند",
+  "shortClue": "دسته مردم"
+ },
+ {
+  "word": "تکه",
+  "topics": [
+   "general"
+  ],
+  "difficulty": 1,
+  "kind": "common",
+  "clue": "پاره ای جدا شده از چیزی",
+  "shortClue": "پاره"
+ },
+ {
+  "word": "ادب",
+  "topics": [
+   "general"
+  ],
+  "difficulty": 2,
+  "kind": "common",
+  "clue": "رفتار نیکو و شایسته با دیگران",
+  "shortClue": "رفتار شایسته"
+ },
+ {
+  "word": "احترام",
+  "topics": [
+   "general"
+  ],
+  "difficulty": 2,
+  "kind": "common",
+  "clue": "گرامی داشتن بزرگان",
+  "shortClue": "گرامی داشت"
+ },
+ {
+  "word": "شرم",
+  "topics": [
+   "general"
+  ],
+  "difficulty": 2,
+  "kind": "common",
+  "clue": "سرخی چهره از کار ناپسند",
+  "shortClue": "سرخی چهره"
+ },
+ {
+  "word": "غرور",
+  "topics": [
+   "general"
+  ],
+  "difficulty": 2,
+  "kind": "common",
+  "clue": "خودبزرگ بینی",
+  "shortClue": "خودبینی"
+ },
+ {
+  "word": "ارزو",
+  "topics": [
+   "general"
+  ],
+  "difficulty": 1,
+  "kind": "common",
+  "clue": "خواسته ای که دل می طلبد",
+  "shortClue": "خواسته دل"
+ },
+ {
+  "word": "هدف",
+  "topics": [
+   "general"
+  ],
+  "difficulty": 1,
+  "kind": "common",
+  "clue": "جایی که می خواهیم برسیم",
+  "shortClue": "مقصود"
+ },
+ {
+  "word": "برنامه",
+  "topics": [
+   "general"
+  ],
+  "difficulty": 1,
+  "kind": "common",
+  "clue": "طرح کارها پیش از انجام",
+  "shortClue": "طرح کار"
+ },
+ {
+  "word": "تصمیم",
+  "topics": [
+   "general"
+  ],
+  "difficulty": 1,
+  "kind": "common",
+  "clue": "اراده بر کاری پس از سنجش",
+  "shortClue": "اراده"
+ },
+ {
+  "word": "انتخاب",
+  "topics": [
+   "general"
+  ],
+  "difficulty": 1,
+  "kind": "common",
+  "clue": "برگزیدن یکی از چند چیز",
+  "shortClue": "برگزیدن"
+ },
+ {
+  "word": "فرصت",
+  "topics": [
+   "general"
+  ],
+  "difficulty": 1,
+  "kind": "common",
+  "clue": "زمان مناسب برای کاری",
+  "shortClue": "زمان مناسب"
+ },
+ {
+  "word": "خطر",
+  "topics": [
+   "general"
+  ],
+  "difficulty": 1,
+  "kind": "common",
+  "clue": "احتمال زیان و گزند",
+  "shortClue": "احتمال گزند"
+ },
+ {
+  "word": "بیماری",
+  "topics": [
+   "general"
+  ],
+  "difficulty": 1,
+  "kind": "common",
+  "clue": "ناخوشی تن",
+  "shortClue": "ناخوشی"
+ },
+ {
+  "word": "درد",
+  "topics": [
+   "general"
+  ],
+  "difficulty": 1,
+  "kind": "common",
+  "clue": "رنج تن",
+  "shortClue": "رنج تن"
+ },
+ {
+  "word": "خستگی",
+  "topics": [
+   "general"
+  ],
+  "difficulty": 1,
+  "kind": "common",
+  "clue": "بی توانی پس از کار بسیار",
+  "shortClue": "بی توانی"
+ },
+ {
+  "word": "نیرو",
+  "topics": [
+   "general"
+  ],
+  "difficulty": 1,
+  "kind": "common",
+  "clue": "توان و زور",
+  "shortClue": "زور"
+ },
+ {
+  "word": "ارزش",
+  "topics": [
+   "general"
+  ],
+  "difficulty": 2,
+  "kind": "common",
+  "clue": "بهای یک چیز",
+  "shortClue": "بها"
+ },
+ {
+  "word": "نشانه",
+  "topics": [
+   "general"
+  ],
+  "difficulty": 1,
+  "kind": "common",
+  "clue": "اثری که چیزی را می نمایاند",
+  "shortClue": "اثر"
+ },
+ {
+  "word": "نام",
+  "topics": [
+   "general"
+  ],
+  "difficulty": 1,
+  "kind": "common",
+  "clue": "واژه ای که با ان کسی را می خوانند",
+  "shortClue": "نشان خواندن"
+ },
+ {
+  "word": "جوانی",
+  "topics": [
+   "general"
+  ],
+  "difficulty": 1,
+  "kind": "common",
+  "clue": "دوران پس از نوجوانی",
+  "shortClue": "دوره شور"
+ },
+ {
+  "word": "پیری",
+  "topics": [
+   "general"
+  ],
+  "difficulty": 1,
+  "kind": "common",
+  "clue": "روزگار سالخوردگی",
+  "shortClue": "سالخوردگی"
+ },
+ {
+  "word": "کودکی",
+  "topics": [
+   "general"
+  ],
+  "difficulty": 1,
+  "kind": "common",
+  "clue": "روزگار خردسالی",
+  "shortClue": "خردسالی"
+ },
+ {
+  "word": "رنگ",
+  "topics": [
+   "general"
+  ],
+  "difficulty": 1,
+  "kind": "common",
+  "clue": "سرخی و سبزی و زردی",
+  "shortClue": "سرخ و سبز"
+ },
+ {
+  "word": "مزه",
+  "topics": [
+   "general"
+  ],
+  "difficulty": 1,
+  "kind": "common",
+  "clue": "چیزی که زبان می چشد",
+  "shortClue": "حس زبان"
+ },
+ {
+  "word": "صدا",
+  "topics": [
+   "general"
+  ],
+  "difficulty": 1,
+  "kind": "common",
+  "clue": "چیزی که گوش می شنود",
+  "shortClue": "حس گوش"
+ },
+ {
+  "word": "سکوت",
+  "topics": [
+   "general"
+  ],
+  "difficulty": 1,
+  "kind": "common",
+  "clue": "خاموشی کامل",
+  "shortClue": "خاموشی"
+ },
+ {
+  "word": "فریاد",
+  "topics": [
+   "general"
+  ],
+  "difficulty": 2,
+  "kind": "common",
+  "clue": "بانگ بلند از سر خشم یا ترس",
+  "shortClue": "بانگ بلند"
+ },
+ {
+  "word": "گفتگو",
+  "topics": [
+   "general"
+  ],
+  "difficulty": 1,
+  "kind": "common",
+  "clue": "سخن گفتن دو نفر با هم",
+  "shortClue": "سخن دو نفر"
+ },
+ {
+  "word": "داستان",
+  "topics": [
+   "general"
+  ],
+  "difficulty": 1,
+  "kind": "common",
+  "clue": "قصه ای که می خوانند",
+  "shortClue": "قصه"
+ },
+ {
+  "word": "معما",
+  "topics": [
+   "general"
+  ],
+  "difficulty": 2,
+  "kind": "common",
+  "clue": "پرسش سرگرم کننده با پاسخ پنهان",
+  "shortClue": "پرسش پیچیده"
+ },
+ {
+  "word": "لطیفه",
+  "topics": [
+   "general"
+  ],
+  "difficulty": 2,
+  "kind": "common",
+  "clue": "سخن خنده دار کوتاه",
+  "shortClue": "سخن خنده دار"
+ },
+ {
+  "word": "مرد",
+  "topics": [
+   "general"
+  ],
+  "difficulty": 1,
+  "kind": "common",
+  "clue": "بزرگسال مذکر",
+  "shortClue": "اقا"
+ },
+ {
+  "word": "خانه",
+  "topics": [
+   "general"
+  ],
+  "difficulty": 1,
+  "kind": "common",
+  "clue": "جای زندگی خانواده",
+  "shortClue": "سرپناه"
+ },
+ {
+  "word": "ثروت",
+  "topics": [
+   "general"
+  ],
+  "difficulty": 2,
+  "kind": "common",
+  "clue": "دارایی بسیار",
+  "shortClue": "دارایی"
+ },
+ {
+  "word": "فقر",
+  "topics": [
+   "general"
+  ],
+  "difficulty": 2,
+  "kind": "common",
+  "clue": "نداشتن مال کافی",
+  "shortClue": "تنگدستی"
+ },
+ {
+  "word": "عادت",
+  "topics": [
+   "general"
+  ],
+  "difficulty": 2,
+  "kind": "common",
+  "clue": "کاری که بارها تکرار می شود",
+  "shortClue": "خوی تکراری"
+ },
+ {
+  "word": "تجربه",
+  "topics": [
+   "general"
+  ],
+  "difficulty": 2,
+  "kind": "common",
+  "clue": "دانسته ای که از زندگی می رسد",
+  "shortClue": "دانسته روزگار"
+ },
+ {
+  "word": "فکر",
+  "topics": [
+   "general"
+  ],
+  "difficulty": 1,
+  "kind": "common",
+  "clue": "کار ذهن",
+  "shortClue": "کار ذهن"
+ },
+ {
+  "word": "حافظه",
+  "topics": [
+   "general"
+  ],
+  "difficulty": 2,
+  "kind": "common",
+  "clue": "توان نگه داشتن دانسته ها",
+  "shortClue": "ذهن نگهدار"
+ },
+ {
+  "word": "یادگار",
+  "topics": [
+   "general"
+  ],
+  "difficulty": 3,
+  "kind": "common",
+  "clue": "چیزی که از گذشتگان می ماند",
+  "shortClue": "چیز مانده"
+ },
+ {
+  "word": "اتفاق",
+  "topics": [
+   "general"
+  ],
+  "difficulty": 2,
+  "kind": "common",
+  "clue": "رویدادی ناگهانی",
+  "shortClue": "رخداد"
+ },
+ {
+  "word": "شگفتی",
+  "topics": [
+   "general"
+  ],
+  "difficulty": 3,
+  "kind": "common",
+  "clue": "حالت حیرت از چیزی تازه",
+  "shortClue": "حیرت"
+ },
+ {
+  "word": "دلتنگی",
+  "topics": [
+   "general"
+  ],
+  "difficulty": 3,
+  "kind": "common",
+  "clue": "غم دوری از عزیزان",
+  "shortClue": "غم دوری"
+ },
+ {
+  "word": "بخشش",
+  "topics": [
+   "general"
+  ],
+  "difficulty": 3,
+  "kind": "common",
+  "clue": "چشم پوشی از خطای دیگری",
+  "shortClue": "چشم پوشی"
+ },
+ {
+  "word": "خودداری",
+  "topics": [
+   "general"
+  ],
+  "difficulty": 3,
+  "kind": "common",
+  "clue": "نگه داشتن خود از کاری ناپسند",
+  "shortClue": "پرهیز"
+ },
+ {
+  "word": "همدلی",
+  "topics": [
+   "general"
+  ],
+  "difficulty": 2,
+  "kind": "common",
+  "clue": "یک دلی میان مردم",
+  "shortClue": "یکدلی"
+ },
+ {
+  "word": "پاییز",
+  "topics": [
+   "nature"
+  ],
+  "difficulty": 1,
+  "kind": "common",
+  "clue": "فصل ریزش برگ ها",
+  "shortClue": "فصل برگ ریزان"
+ },
+ {
+  "word": "تابستان",
+  "topics": [
+   "nature"
+  ],
+  "difficulty": 1,
+  "kind": "common",
+  "clue": "گرم ترین فصل سال",
+  "shortClue": "فصل گرما"
+ },
+ {
+  "word": "چنار",
+  "topics": [
+   "nature"
+  ],
+  "difficulty": 2,
+  "kind": "common",
+  "clue": "درخت بلند با برگ های پنجه ای",
+  "shortClue": "درخت پنجه برگ"
+ },
+ {
+  "word": "سرو",
+  "topics": [
+   "nature"
+  ],
+  "difficulty": 2,
+  "kind": "common",
+  "clue": "درخت همیشه سبز و کشیده",
+  "shortClue": "درخت همیشه سبز"
+ },
+ {
+  "word": "بید",
+  "topics": [
+   "nature"
+  ],
+  "difficulty": 2,
+  "kind": "common",
+  "clue": "درختی با شاخه های اویخته کنار اب",
+  "shortClue": "درخت کنار رود"
+ },
+ {
+  "word": "لاله",
+  "topics": [
+   "nature"
+  ],
+  "difficulty": 1,
+  "kind": "common",
+  "clue": "گل جامی شکل بهاری",
+  "shortClue": "گل جامی"
+ },
+ {
+  "word": "نرگس",
+  "topics": [
+   "nature"
+  ],
+  "difficulty": 2,
+  "kind": "common",
+  "clue": "گل سفید و زرد خوشبوی زمستان",
+  "shortClue": "گل زرد سفید"
+ },
+ {
+  "word": "یاس",
+  "topics": [
+   "nature"
+  ],
+  "difficulty": 2,
+  "kind": "common",
+  "clue": "گل سفید و معطر بوته ای",
+  "shortClue": "گل سفید معطر"
+ },
+ {
+  "word": "شبنم",
+  "topics": [
+   "nature"
+  ],
+  "difficulty": 2,
+  "kind": "common",
+  "clue": "قطره های اب بر گیاه در بامداد",
+  "shortClue": "قطره بامدادی"
+ },
+ {
+  "word": "تگرگ",
+  "topics": [
+   "nature"
+  ],
+  "difficulty": 2,
+  "kind": "common",
+  "clue": "دانه های یخ که از اسمان می بارد",
+  "shortClue": "دانه یخ"
+ },
+ {
+  "word": "رعد",
+  "topics": [
+   "nature"
+  ],
+  "difficulty": 3,
+  "kind": "common",
+  "clue": "غرش اسمان در توفان",
+  "shortClue": "غرش اسمان"
+ },
+ {
+  "word": "رنگینکمان",
+  "topics": [
+   "nature"
+  ],
+  "difficulty": 2,
+  "kind": "common",
+  "clue": "کمان هفت رنگ پس از باران",
+  "shortClue": "کمان هفت رنگ"
+ },
+ {
+  "word": "چشمه",
+  "topics": [
+   "nature"
+  ],
+  "difficulty": 1,
+  "kind": "common",
+  "clue": "جای جوشیدن اب از زمین",
+  "shortClue": "اب جوشان"
+ },
+ {
+  "word": "دریاچه",
+  "topics": [
+   "nature"
+  ],
+  "difficulty": 2,
+  "kind": "common",
+  "clue": "پهنه اب در میان خشکی",
+  "shortClue": "اب میان خشکی"
+ },
+ {
+  "word": "اقیانوس",
+  "topics": [
+   "nature"
+  ],
+  "difficulty": 2,
+  "kind": "common",
+  "clue": "پهناورترین توده اب جهان",
+  "shortClue": "توده اب بزرگ"
+ },
+ {
+  "word": "موج",
+  "topics": [
+   "nature"
+  ],
+  "difficulty": 1,
+  "kind": "common",
+  "clue": "بالا و پایین رفتن اب",
+  "shortClue": "خیزش اب"
+ },
+ {
+  "word": "ساحل",
+  "topics": [
+   "nature"
+  ],
+  "difficulty": 1,
+  "kind": "common",
+  "clue": "کناره دریا",
+  "shortClue": "کنار دریا"
+ },
+ {
+  "word": "صخره",
+  "topics": [
+   "nature"
+  ],
+  "difficulty": 2,
+  "kind": "common",
+  "clue": "سنگ بزرگ و بی ترک",
+  "shortClue": "سنگ بزرگ"
+ },
+ {
+  "word": "غار",
+  "topics": [
+   "nature"
+  ],
+  "difficulty": 2,
+  "kind": "common",
+  "clue": "گودی بزرگ در دل کوه",
+  "shortClue": "گودی کوه"
+ },
+ {
+  "word": "دره",
+  "topics": [
+   "nature"
+  ],
+  "difficulty": 2,
+  "kind": "common",
+  "clue": "گودی دراز میان دو کوه",
+  "shortClue": "گودی میان کوه"
+ },
+ {
+  "word": "اتشفشان",
+  "topics": [
+   "nature"
+  ],
+  "difficulty": 2,
+  "kind": "common",
+  "clue": "کوهی که گدازه بیرون می ریزد",
+  "shortClue": "کوه گدازه"
+ },
+ {
+  "word": "ابشار",
+  "topics": [
+   "nature"
+  ],
+  "difficulty": 1,
+  "kind": "common",
+  "clue": "ریزش اب از بلندی",
+  "shortClue": "سقوط اب"
+ },
+ {
+  "word": "ماسه",
+  "topics": [
+   "nature"
+  ],
+  "difficulty": 3,
+  "kind": "common",
+  "clue": "خرده سنگ ریز ساحلی",
+  "shortClue": "دانه ساحل"
+ },
+ {
+  "word": "گیاه",
+  "topics": [
+   "nature"
+  ],
+  "difficulty": 1,
+  "kind": "common",
+  "clue": "هر رستنی سبز",
+  "shortClue": "رستنی"
+ },
+ {
+  "word": "برگ",
+  "topics": [
+   "nature"
+  ],
+  "difficulty": 1,
+  "kind": "common",
+  "clue": "بخش پهن و سبز شاخه",
+  "shortClue": "بخش سبز شاخه"
+ },
+ {
+  "word": "ریشه",
+  "topics": [
+   "nature"
+  ],
+  "difficulty": 1,
+  "kind": "common",
+  "clue": "بخش زیرزمینی گیاه",
+  "shortClue": "بخش زیرخاکی"
+ },
+ {
+  "word": "شاخه",
+  "topics": [
+   "nature"
+  ],
+  "difficulty": 1,
+  "kind": "common",
+  "clue": "بخشی که از تنه درخت جدا می شود",
+  "shortClue": "بازوی درخت"
+ },
+ {
+  "word": "تنه",
+  "topics": [
+   "nature"
+  ],
+  "difficulty": 2,
+  "kind": "common",
+  "clue": "بخش اصلی و ستبر درخت",
+  "shortClue": "ساقه ستبر"
+ },
+ {
+  "word": "سبزه",
+  "topics": [
+   "nature"
+  ],
+  "difficulty": 2,
+  "kind": "common",
+  "clue": "علف تازه و سبز",
+  "shortClue": "علف تازه"
+ },
+ {
+  "word": "نیلوفر",
+  "topics": [
+   "nature"
+  ],
+  "difficulty": 3,
+  "kind": "common",
+  "clue": "گل روی اب که شب بسته می شود",
+  "shortClue": "گل روی اب"
+ },
+ {
+  "word": "بنفشه",
+  "topics": [
+   "nature"
+  ],
+  "difficulty": 2,
+  "kind": "common",
+  "clue": "گل کوچک و خوشبوی پیش از بهار",
+  "shortClue": "گل کوچک بهاری"
+ },
+ {
+  "word": "خروس",
+  "topics": [
+   "animals"
+  ],
+  "difficulty": 1,
+  "kind": "common",
+  "clue": "پرنده ای که سحر بانگ می زند",
+  "shortClue": "بانگ سحر"
+ },
+ {
+  "word": "جوجه",
+  "topics": [
+   "animals"
+  ],
+  "difficulty": 1,
+  "kind": "common",
+  "clue": "بچه مرغ",
+  "shortClue": "بچه مرغ"
+ },
+ {
+  "word": "کبوتر",
+  "topics": [
+   "animals"
+  ],
+  "difficulty": 1,
+  "kind": "common",
+  "clue": "پرنده نامه رسان و نماد صلح",
+  "shortClue": "نماد صلح"
+ },
+ {
+  "word": "گنجشک",
+  "topics": [
+   "animals"
+  ],
+  "difficulty": 1,
+  "kind": "common",
+  "clue": "پرنده کوچک و قهوه ای شهر",
+  "shortClue": "پرنده کوچک"
+ },
+ {
+  "word": "عقاب",
+  "topics": [
+   "animals"
+  ],
+  "difficulty": 2,
+  "kind": "common",
+  "clue": "شکارگر بزرگ و تیزبین اسمان",
+  "shortClue": "شکارگر اسمان"
+ },
+ {
+  "word": "شاهین",
+  "topics": [
+   "animals"
+  ],
+  "difficulty": 3,
+  "kind": "common",
+  "clue": "پرنده شکاری تند پرواز",
+  "shortClue": "شکاری تیز"
+ },
+ {
+  "word": "جغد",
+  "topics": [
+   "animals"
+  ],
+  "difficulty": 2,
+  "kind": "common",
+  "clue": "پرنده شبگرد با چشمان درشت",
+  "shortClue": "پرنده شب"
+ },
+ {
+  "word": "طوطی",
+  "topics": [
+   "animals"
+  ],
+  "difficulty": 2,
+  "kind": "common",
+  "clue": "پرنده رنگین که سخن تقلید می کند",
+  "shortClue": "پرنده سخنگو"
+ },
+ {
+  "word": "بلبل",
+  "topics": [
+   "animals"
+  ],
+  "difficulty": 2,
+  "kind": "common",
+  "clue": "پرنده خوش اواز باغ",
+  "shortClue": "خوش اواز"
+ },
+ {
+  "word": "لکلک",
+  "topics": [
+   "animals"
+  ],
+  "difficulty": 3,
+  "kind": "common",
+  "clue": "پرنده پا بلند و مهاجر",
+  "shortClue": "پرنده پا بلند"
+ },
+ {
+  "word": "شیر",
+  "topics": [
+   "animals"
+  ],
+  "difficulty": 1,
+  "kind": "common",
+  "clue": "پادشاه جنگل",
+  "shortClue": "پادشاه جنگل"
+ },
+ {
+  "word": "ببر",
+  "topics": [
+   "animals"
+  ],
+  "difficulty": 1,
+  "kind": "common",
+  "clue": "گربه بزرگ راه راه",
+  "shortClue": "گربه راه راه"
+ },
+ {
+  "word": "پلنگ",
+  "topics": [
+   "animals"
+  ],
+  "difficulty": 2,
+  "kind": "common",
+  "clue": "گربه سان خالدار",
+  "shortClue": "گربه خالدار"
+ },
+ {
+  "word": "یوزپلنگ",
+  "topics": [
+   "animals"
+  ],
+  "difficulty": 3,
+  "kind": "common",
+  "clue": "تندترین جانور خشکی",
+  "shortClue": "تندرو خشکی"
+ },
+ {
+  "word": "خرس",
+  "topics": [
+   "animals"
+  ],
+  "difficulty": 1,
+  "kind": "common",
+  "clue": "جانور درشت و پشمالو که زمستان می خوابد",
+  "shortClue": "جانور خوابگرد"
+ },
+ {
+  "word": "میمون",
+  "topics": [
+   "animals"
+  ],
+  "difficulty": 1,
+  "kind": "common",
+  "clue": "جانور درخت نشین و بازیگوش",
+  "shortClue": "درخت نشین"
+ },
+ {
+  "word": "زرافه",
+  "topics": [
+   "animals"
+  ],
+  "difficulty": 2,
+  "kind": "common",
+  "clue": "جانور با گردن بسیار دراز",
+  "shortClue": "گردن دراز"
+ },
+ {
+  "word": "شترمرغ",
+  "topics": [
+   "animals"
+  ],
+  "difficulty": 3,
+  "kind": "common",
+  "clue": "بزرگترین پرنده ناپرواز",
+  "shortClue": "پرنده ناپرواز"
+ },
+ {
+  "word": "سنجاب",
+  "topics": [
+   "animals"
+  ],
+  "difficulty": 2,
+  "kind": "common",
+  "clue": "جونده دم پرپشت درخت نشین",
+  "shortClue": "جونده دم پر"
+ },
+ {
+  "word": "مار",
+  "topics": [
+   "animals"
+  ],
+  "difficulty": 1,
+  "kind": "common",
+  "clue": "خزنده بی پا",
+  "shortClue": "خزنده بی پا"
+ },
+ {
+  "word": "مارمولک",
+  "topics": [
+   "animals"
+  ],
+  "difficulty": 2,
+  "kind": "common",
+  "clue": "خزنده کوچک چهارپا",
+  "shortClue": "خزنده کوچک"
+ },
+ {
+  "word": "لاکپشت",
+  "topics": [
+   "animals"
+  ],
+  "difficulty": 2,
+  "kind": "common",
+  "clue": "جانور کند با صدف پشتی",
+  "shortClue": "صدف دار کند"
+ },
+ {
+  "word": "قورباغه",
+  "topics": [
+   "animals"
+  ],
+  "difficulty": 2,
+  "kind": "common",
+  "clue": "دوزیست جهنده و غارغار کننده",
+  "shortClue": "دوزیست جهنده"
+ },
+ {
+  "word": "دلفین",
+  "topics": [
+   "animals"
+  ],
+  "difficulty": 2,
+  "kind": "common",
+  "clue": "پستاندار باهوش و دوست داشتنی دریا",
+  "shortClue": "پستاندار باهوش"
+ },
+ {
+  "word": "کوسه",
+  "topics": [
+   "animals"
+  ],
+  "difficulty": 2,
+  "kind": "common",
+  "clue": "ماهی شکارگر و تیز دندان",
+  "shortClue": "ماهی تیز دندان"
+ },
+ {
+  "word": "خرچنگ",
+  "topics": [
+   "animals"
+  ],
+  "difficulty": 2,
+  "kind": "common",
+  "clue": "جانور ده پا با چنگال",
+  "shortClue": "جانور چنگالی"
+ },
+ {
+  "word": "زنبور",
+  "topics": [
+   "animals"
+  ],
+  "difficulty": 2,
+  "kind": "common",
+  "clue": "حشره عسل ساز یا نیش زن",
+  "shortClue": "حشره نیشدار"
+ },
+ {
+  "word": "پروانه",
+  "topics": [
+   "animals"
+  ],
+  "difficulty": 1,
+  "kind": "common",
+  "clue": "حشره بالرنگین گل",
+  "shortClue": "حشره رنگین"
+ },
+ {
+  "word": "عنکبوت",
+  "topics": [
+   "animals"
+  ],
+  "difficulty": 2,
+  "kind": "common",
+  "clue": "تارتن هشت پا",
+  "shortClue": "هشت پا"
+ },
+ {
+  "word": "قاطر",
+  "topics": [
+   "animals"
+  ],
+  "difficulty": 3,
+  "kind": "common",
+  "clue": "زاده اسب و الاغ",
+  "shortClue": "بارکش دورگه"
+ },
+ {
+  "word": "بوفالو",
+  "topics": [
+   "animals"
+  ],
+  "difficulty": 3,
+  "kind": "common",
+  "clue": "گاو وحشی بزرگ",
+  "shortClue": "گاو وحشی"
+ },
+ {
+  "word": "گوزن",
+  "topics": [
+   "animals"
+  ],
+  "difficulty": 2,
+  "kind": "common",
+  "clue": "جانور شاخ شاخه ای جنگل",
+  "shortClue": "شاخ شاخه"
+ },
+ {
+  "word": "شغال",
+  "topics": [
+   "animals"
+  ],
+  "difficulty": 3,
+  "kind": "common",
+  "clue": "جانور خانواده سگ و زوزه کش",
+  "shortClue": "زوزه کش"
+ },
+ {
+  "word": "لواش",
+  "topics": [
+   "food"
+  ],
+  "difficulty": 2,
+  "kind": "common",
+  "clue": "نان نازک و بسیار تنک",
+  "shortClue": "نان تنک"
+ },
+ {
+  "word": "سنگک",
+  "topics": [
+   "food"
+  ],
+  "difficulty": 2,
+  "kind": "common",
+  "clue": "نان دراز که روی ریگ های داغ تنور پخته می شود",
+  "shortClue": "نان ریگی"
+ },
+ {
+  "word": "بربری",
+  "topics": [
+   "food"
+  ],
+  "difficulty": 2,
+  "kind": "common",
+  "clue": "نان ضخیم و کشیده با کنجد",
+  "shortClue": "نان کشیده"
+ },
+ {
+  "word": "خامه",
+  "topics": [
+   "food"
+  ],
+  "difficulty": 2,
+  "kind": "common",
+  "clue": "لایه چرب روی شیر",
+  "shortClue": "لایه چرب"
+ },
+ {
+  "word": "دوغ",
+  "topics": [
+   "food"
+  ],
+  "difficulty": 1,
+  "kind": "common",
+  "clue": "نوشیدنی ترش از ماست",
+  "shortClue": "نوشیدنی ترش"
+ },
+ {
+  "word": "زردالو",
+  "topics": [
+   "food"
+  ],
+  "difficulty": 2,
+  "kind": "common",
+  "clue": "میوه نارنجی کوچک با هسته",
+  "shortClue": "میوه نارنجی"
+ },
+ {
+  "word": "توت",
+  "topics": [
+   "food"
+  ],
+  "difficulty": 2,
+  "kind": "common",
+  "clue": "میوه ریز سیاه یا سفید درخت",
+  "shortClue": "میوه ریز"
+ },
+ {
+  "word": "انجیر",
+  "topics": [
+   "food"
+  ],
+  "difficulty": 2,
+  "kind": "common",
+  "clue": "میوه شیرین با دانه های ریز درونی",
+  "shortClue": "میوه پر دانه"
+ },
+ {
+  "word": "خربزه",
+  "topics": [
+   "food"
+  ],
+  "difficulty": 2,
+  "kind": "common",
+  "clue": "میوه بزرگ و شیرین تابستان",
+  "shortClue": "میوه تابستانی"
+ },
+ {
+  "word": "هندوانه",
+  "topics": [
+   "food"
+  ],
+  "difficulty": 1,
+  "kind": "common",
+  "clue": "میوه بزرگ با مغز سرخ",
+  "shortClue": "میوه مغز سرخ"
+ },
+ {
+  "word": "خیار",
+  "topics": [
+   "food"
+  ],
+  "difficulty": 1,
+  "kind": "common",
+  "clue": "سبزی دراز و ابدار سالاد",
+  "shortClue": "سبزی سالاد"
+ },
+ {
+  "word": "گوجه",
+  "topics": [
+   "food"
+  ],
+  "difficulty": 1,
+  "kind": "common",
+  "clue": "میوه سرخ پای سالاد و خورش",
+  "shortClue": "سبزی سرخ"
+ },
+ {
+  "word": "سیر",
+  "topics": [
+   "food"
+  ],
+  "difficulty": 1,
+  "kind": "common",
+  "clue": "سبزی تند با حبه های سفید",
+  "shortClue": "حبه تند"
+ },
+ {
+  "word": "کدو",
+  "topics": [
+   "food"
+  ],
+  "difficulty": 2,
+  "kind": "common",
+  "clue": "سبزی دراز و سبز دارای دانه",
+  "shortClue": "سبزی دراز"
+ },
+ {
+  "word": "بادمجان",
+  "topics": [
+   "food"
+  ],
+  "difficulty": 2,
+  "kind": "common",
+  "clue": "سبزی بنفش و براق",
+  "shortClue": "سبزی بنفش"
+ },
+ {
+  "word": "اسفناج",
+  "topics": [
+   "food"
+  ],
+  "difficulty": 2,
+  "kind": "common",
+  "clue": "سبزی برگ پهن و پرآهن",
+  "shortClue": "سبزی برگ پهن"
+ },
+ {
+  "word": "کوبیده",
+  "topics": [
+   "food"
+  ],
+  "difficulty": 2,
+  "kind": "common",
+  "clue": "کباب چرخ کرده ایرانی",
+  "shortClue": "کباب چرخ کرده"
+ },
+ {
+  "word": "چلو",
+  "topics": [
+   "food"
+  ],
+  "difficulty": 2,
+  "kind": "common",
+  "clue": "برنج ابکش و پخته",
+  "shortClue": "برنج پخته"
+ },
+ {
+  "word": "خورش",
+  "topics": [
+   "food"
+  ],
+  "difficulty": 2,
+  "kind": "common",
+  "clue": "غذای پخته با گوشت و سبزی",
+  "shortClue": "غذای غلیظ"
+ },
+ {
+  "word": "قیمه",
+  "topics": [
+   "food"
+  ],
+  "difficulty": 3,
+  "kind": "common",
+  "clue": "خورش گوشت و لپه",
+  "shortClue": "خورش لپه ای"
+ },
+ {
+  "word": "فسنجان",
+  "topics": [
+   "food"
+  ],
+  "difficulty": 3,
+  "kind": "common",
+  "clue": "خورش گردو و انار",
+  "shortClue": "خورش گردویی"
+ },
+ {
+  "word": "حلوا",
+  "topics": [
+   "food"
+  ],
+  "difficulty": 2,
+  "kind": "common",
+  "clue": "شیرینی از ارد و شکر",
+  "shortClue": "شیرینی ارد"
+ },
+ {
+  "word": "باقلوا",
+  "topics": [
+   "food"
+  ],
+  "difficulty": 3,
+  "kind": "common",
+  "clue": "شیرینی لایه لایه با مغز",
+  "shortClue": "شیرینی لایه ای"
+ },
+ {
+  "word": "شکلات",
+  "topics": [
+   "food"
+  ],
+  "difficulty": 1,
+  "kind": "common",
+  "clue": "شیرینی کاکائویی",
+  "shortClue": "شیرینی کاکائو"
+ },
+ {
+  "word": "فلفل",
+  "topics": [
+   "food"
+  ],
+  "difficulty": 2,
+  "kind": "common",
+  "clue": "ادویه تند",
+  "shortClue": "ادویه تند"
+ },
+ {
+  "word": "زعفران",
+  "topics": [
+   "food"
+  ],
+  "difficulty": 2,
+  "kind": "common",
+  "clue": "ادویه زرین و گران",
+  "shortClue": "ادویه زرین"
+ },
+ {
+  "word": "زردچوبه",
+  "topics": [
+   "food"
+  ],
+  "difficulty": 2,
+  "kind": "common",
+  "clue": "ادویه زرد رنگ",
+  "shortClue": "ادویه زرد"
+ },
+ {
+  "word": "دارچین",
+  "topics": [
+   "food"
+  ],
+  "difficulty": 2,
+  "kind": "common",
+  "clue": "پوست خشک و خوشبو درخت شیرین",
+  "shortClue": "ادویه خوشبو"
+ },
+ {
+  "word": "بادام",
+  "topics": [
+   "food"
+  ],
+  "difficulty": 1,
+  "kind": "common",
+  "clue": "مغز خوراکی با پوست سخت",
+  "shortClue": "مغز پوسته دار"
+ },
+ {
+  "word": "گردو",
+  "topics": [
+   "food"
+  ],
+  "difficulty": 1,
+  "kind": "common",
+  "clue": "مغز چین دار درون پوست سخت",
+  "shortClue": "مغز چین دار"
+ },
+ {
+  "word": "پسته",
+  "topics": [
+   "food"
+  ],
+  "difficulty": 1,
+  "kind": "common",
+  "clue": "مغز سبز با پوست خندان",
+  "shortClue": "مغز سبز"
+ },
+ {
+  "word": "کشمش",
+  "topics": [
+   "food"
+  ],
+  "difficulty": 2,
+  "kind": "common",
+  "clue": "انگور خشک",
+  "shortClue": "انگور خشک"
+ },
+ {
+  "word": "عدس",
+  "topics": [
+   "food"
+  ],
+  "difficulty": 2,
+  "kind": "common",
+  "clue": "دانه تخت و حبوب سوپ",
+  "shortClue": "حبوب سوپ"
+ },
+ {
+  "word": "لوبیا",
+  "topics": [
+   "food"
+  ],
+  "difficulty": 2,
+  "kind": "common",
+  "clue": "حبوب دانه ای شبیه کلیه",
+  "shortClue": "حبوب دانه ای"
+ },
+ {
+  "word": "نخود",
+  "topics": [
+   "food"
+  ],
+  "difficulty": 2,
+  "kind": "common",
+  "clue": "حبوب گرد و ریز",
+  "shortClue": "حبوب گرد"
+ },
+ {
+  "word": "ترشی",
+  "topics": [
+   "food"
+  ],
+  "difficulty": 2,
+  "kind": "common",
+  "clue": "سبزی خوابانده در سرکه",
+  "shortClue": "سبزی ترش"
+ },
+ {
+  "word": "سرکه",
+  "topics": [
+   "food"
+  ],
+  "difficulty": 2,
+  "kind": "common",
+  "clue": "ماده ترش از تخمیر",
+  "shortClue": "ماده ترش"
+ },
+ {
+  "word": "تخم",
+  "topics": [
+   "food"
+  ],
+  "difficulty": 2,
+  "kind": "common",
+  "clue": "فراورده مرغ برای صبحانه",
+  "shortClue": "صبحانه مرغ"
+ },
+ {
+  "word": "ارد",
+  "topics": [
+   "food"
+  ],
+  "difficulty": 2,
+  "kind": "common",
+  "clue": "گندم ساییده برای نان",
+  "shortClue": "گندم ساییده"
+ },
+ {
+  "word": "بوشهر",
+  "topics": [
+   "geography"
+  ],
+  "difficulty": 2,
+  "kind": "proper",
+  "clue": "بندر مهم خلیج فارس",
+  "shortClue": "بندر جنوبی"
+ },
+ {
+  "word": "اردبیل",
+  "topics": [
+   "geography"
+  ],
+  "difficulty": 2,
+  "kind": "proper",
+  "clue": "شهری سردسیر در شمال غرب",
+  "shortClue": "شهر شمال غربی"
+ },
+ {
+  "word": "ارومیه",
+  "topics": [
+   "geography"
+  ],
+  "difficulty": 2,
+  "kind": "proper",
+  "clue": "شهر کنار دریاچه ای شور",
+  "shortClue": "شهر کنار دریاچه"
+ },
+ {
+  "word": "کرمانشاه",
+  "topics": [
+   "geography"
+  ],
+  "difficulty": 2,
+  "kind": "proper",
+  "clue": "شهر غرب ایران و طاق بستان",
+  "shortClue": "شهر غربی"
+ },
+ {
+  "word": "گرگان",
+  "topics": [
+   "geography"
+  ],
+  "difficulty": 2,
+  "kind": "proper",
+  "clue": "شهر مرکز گلستان",
+  "shortClue": "مرکز گلستان"
+ },
+ {
+  "word": "قزوین",
+  "topics": [
+   "geography"
+  ],
+  "difficulty": 2,
+  "kind": "proper",
+  "clue": "شهر کهن نزدیک تهران",
+  "shortClue": "شهر کهن"
+ },
+ {
+  "word": "کاشان",
+  "topics": [
+   "geography"
+  ],
+  "difficulty": 2,
+  "kind": "proper",
+  "clue": "شهر گلاب و فرش",
+  "shortClue": "شهر گلاب"
+ },
+ {
+  "word": "هرمز",
+  "topics": [
+   "geography"
+  ],
+  "difficulty": 2,
+  "kind": "proper",
+  "clue": "تنگه ای میان خلیج و دریای عمان",
+  "shortClue": "تنگه جنوبی"
+ },
+ {
+  "word": "قشم",
+  "topics": [
+   "geography"
+  ],
+  "difficulty": 2,
+  "kind": "proper",
+  "clue": "بزرگترین جزیره ایران",
+  "shortClue": "جزیره بزرگ"
+ },
+ {
+  "word": "کارون",
+  "topics": [
+   "geography"
+  ],
+  "difficulty": 2,
+  "kind": "proper",
+  "clue": "پرآب ترین رود ایران",
+  "shortClue": "رود خوزستان"
+ },
+ {
+  "word": "خزر",
+  "topics": [
+   "geography"
+  ],
+  "difficulty": 2,
+  "kind": "proper",
+  "clue": "بزرگترین دریاچه جهان",
+  "shortClue": "دریای شمال"
+ },
+ {
+  "word": "زاگرس",
+  "topics": [
+   "geography"
+  ],
+  "difficulty": 2,
+  "kind": "proper",
+  "clue": "رشته کوه غرب و جنوب غرب ایران",
+  "shortClue": "رشته کوه غرب"
+ },
+ {
+  "word": "ایران",
+  "topics": [
+   "geography"
+  ],
+  "difficulty": 1,
+  "kind": "proper",
+  "clue": "سرزمین پارس",
+  "shortClue": "سرزمین ما"
+ },
+ {
+  "word": "پاریس",
+  "topics": [
+   "geography"
+  ],
+  "difficulty": 1,
+  "kind": "proper",
+  "clue": "پایتخت فرانسه و برج ایفل",
+  "shortClue": "پایتخت فرانسه"
+ },
+ {
+  "word": "مصر",
+  "topics": [
+   "geography"
+  ],
+  "difficulty": 1,
+  "kind": "proper",
+  "clue": "سرزمین اهرام",
+  "shortClue": "سرزمین اهرام"
+ },
+ {
+  "word": "ژاپن",
+  "topics": [
+   "geography"
+  ],
+  "difficulty": 1,
+  "kind": "proper",
+  "clue": "کشور جزیره ای خاور دور",
+  "shortClue": "کشور خورشید"
+ },
+ {
+  "word": "تنگه",
+  "topics": [
+   "geography"
+  ],
+  "difficulty": 2,
+  "kind": "common",
+  "clue": "گذرگاه باریک میان دو دریا",
+  "shortClue": "گذرگاه باریک"
+ },
+ {
+  "word": "شبهجزیره",
+  "topics": [
+   "geography"
+  ],
+  "difficulty": 3,
+  "kind": "common",
+  "clue": "خشکی با سه سوی دریا",
+  "shortClue": "خشکی دریاکنار"
+ },
+ {
+  "word": "مرز",
+  "topics": [
+   "geography"
+  ],
+  "difficulty": 1,
+  "kind": "common",
+  "clue": "خط جدا کننده دو کشور",
+  "shortClue": "خط جدایی"
+ },
+ {
+  "word": "پایتخت",
+  "topics": [
+   "geography"
+  ],
+  "difficulty": 1,
+  "kind": "common",
+  "clue": "شهر اصلی هر کشور",
+  "shortClue": "شهر اصلی"
+ },
+ {
+  "word": "کوهستان",
+  "topics": [
+   "geography"
+  ],
+  "difficulty": 2,
+  "kind": "common",
+  "clue": "ناحیه ای پر از کوه",
+  "shortClue": "ناحیه کوهی"
+ },
+ {
+  "word": "جلگه",
+  "topics": [
+   "geography"
+  ],
+  "difficulty": 3,
+  "kind": "common",
+  "clue": "زمین پست و هموار کنار دریا",
+  "shortClue": "زمین پست"
+ },
+ {
+  "word": "فلات",
+  "topics": [
+   "geography"
+  ],
+  "difficulty": 3,
+  "kind": "common",
+  "clue": "زمین هموار و بلند",
+  "shortClue": "دشت بلند"
+ },
+ {
+  "word": "تپه",
+  "topics": [
+   "geography"
+  ],
+  "difficulty": 1,
+  "kind": "common",
+  "clue": "برآمدگی کوچکتر از کوه",
+  "shortClue": "برآمدگی خاک"
+ },
+ {
+  "word": "مرداب",
+  "topics": [
+   "geography"
+  ],
+  "difficulty": 3,
+  "kind": "common",
+  "clue": "اب راکد و گل الود",
+  "shortClue": "اب راکد"
+ },
+ {
+  "word": "تالاب",
+  "topics": [
+   "geography"
+  ],
+  "difficulty": 3,
+  "kind": "common",
+  "clue": "پهنه اب کم عمق با گیاهان",
+  "shortClue": "اب کم عمق"
+ },
+ {
+  "word": "واحه",
+  "topics": [
+   "geography"
+  ],
+  "difficulty": 3,
+  "kind": "common",
+  "clue": "جای سبز در دل کویر",
+  "shortClue": "سبزه کویر"
+ },
+ {
+  "word": "بندر",
+  "topics": [
+   "geography"
+  ],
+  "difficulty": 1,
+  "kind": "common",
+  "clue": "جای پهلو گرفتن کشتی ها",
+  "shortClue": "لنگرگاه"
+ },
+ {
+  "word": "کرانه",
+  "topics": [
+   "geography"
+  ],
+  "difficulty": 3,
+  "kind": "common",
+  "clue": "کناره دریا یا رود",
+  "shortClue": "کناره"
+ },
+ {
+  "word": "دماغه",
+  "topics": [
+   "geography"
+  ],
+  "difficulty": 3,
+  "kind": "common",
+  "clue": "خشکی که درون دریا پیش رفته",
+  "shortClue": "زبانه خشکی"
+ },
+ {
+  "word": "مصب",
+  "topics": [
+   "geography"
+  ],
+  "difficulty": 3,
+  "kind": "common",
+  "clue": "جای ریختن رود به دریا",
+  "shortClue": "دهانه رود"
+ },
+ {
+  "word": "نقشه",
+  "topics": [
+   "geography"
+  ],
+  "difficulty": 1,
+  "kind": "common",
+  "clue": "تصویر کوچک شده زمین روی کاغذ",
+  "shortClue": "تصویر زمین"
+ },
+ {
+  "word": "قطب",
+  "topics": [
+   "geography"
+  ],
+  "difficulty": 2,
+  "kind": "common",
+  "clue": "دو سر محور زمین",
+  "shortClue": "سر زمین"
+ },
+ {
+  "word": "استوا",
+  "topics": [
+   "geography"
+  ],
+  "difficulty": 2,
+  "kind": "common",
+  "clue": "خط فرضی میان دو قطب",
+  "shortClue": "خط میانی"
+ },
+ {
+  "word": "زمین",
+  "topics": [
+   "geography"
+  ],
+  "difficulty": 1,
+  "kind": "common",
+  "clue": "سیاره ما",
+  "shortClue": "سیاره ما"
+ },
+ {
+  "word": "قاره",
+  "topics": [
+   "geography"
+  ],
+  "difficulty": 1,
+  "kind": "common",
+  "clue": "خشکی بسیار بزرگ",
+  "shortClue": "خشکی بزرگ"
+ },
+ {
+  "word": "محله",
+  "topics": [
+   "geography"
+  ],
+  "difficulty": 2,
+  "kind": "common",
+  "clue": "بخشی از شهر",
+  "shortClue": "بخشی از شهر"
+ },
+ {
+  "word": "خیابان",
+  "topics": [
+   "geography"
+  ],
+  "difficulty": 1,
+  "kind": "common",
+  "clue": "راه پهن شهر",
+  "shortClue": "راه شهری"
+ },
+ {
+  "word": "کوچه",
+  "topics": [
+   "geography"
+  ],
+  "difficulty": 1,
+  "kind": "common",
+  "clue": "راه باریک میان خانه ها",
+  "shortClue": "راه باریک"
+ },
+ {
+  "word": "میدان",
+  "topics": [
+   "geography"
+  ],
+  "difficulty": 1,
+  "kind": "common",
+  "clue": "محوطه پهن در شهر",
+  "shortClue": "محوطه شهری"
+ },
+ {
+  "word": "بزرگراه",
+  "topics": [
+   "geography"
+  ],
+  "difficulty": 2,
+  "kind": "common",
+  "clue": "راه پهن و پرسرعت میان شهرها",
+  "shortClue": "راه پرسرعت"
+ },
+ {
+  "word": "گردنه",
+  "topics": [
+   "geography"
+  ],
+  "difficulty": 3,
+  "kind": "common",
+  "clue": "گذرگاه سرایشیب میان دو کوه",
+  "shortClue": "گذر کوهستان"
+ },
+ {
+  "word": "کویر",
+  "topics": [
+   "geography"
+  ],
+  "difficulty": 1,
+  "kind": "common",
+  "clue": "زمین خشک و شور",
+  "shortClue": "زمین شوره"
+ },
+ {
+  "word": "سواحل",
+  "topics": [
+   "geography"
+  ],
+  "difficulty": 3,
+  "kind": "common",
+  "clue": "کرانه های دریا",
+  "shortClue": "کرانه ها"
+ },
+ {
+  "word": "تاریخ",
+  "topics": [
+   "history"
+  ],
+  "difficulty": 1,
+  "kind": "common",
+  "clue": "دانش درباره گذشته",
+  "shortClue": "دانش گذشته"
+ },
+ {
+  "word": "موزه",
+  "topics": [
+   "history"
+  ],
+  "difficulty": 1,
+  "kind": "common",
+  "clue": "جای نگهداری اشیای کهن",
+  "shortClue": "جای اشیای کهن"
+ },
+ {
+  "word": "کاخ",
+  "topics": [
+   "history"
+  ],
+  "difficulty": 1,
+  "kind": "common",
+  "clue": "خانه بزرگ پادشاه",
+  "shortClue": "خانه پادشاه"
+ },
+ {
+  "word": "مجسمه",
+  "topics": [
+   "history"
+  ],
+  "difficulty": 2,
+  "kind": "common",
+  "clue": "پیکر تراشیده از سنگ یا فلز",
+  "shortClue": "پیکر تراشیده"
+ },
+ {
+  "word": "سپر",
+  "topics": [
+   "history"
+  ],
+  "difficulty": 1,
+  "kind": "common",
+  "clue": "وسیله دفاع در دست جنگجو",
+  "shortClue": "دفاع جنگجو"
+ },
+ {
+  "word": "زره",
+  "topics": [
+   "history"
+  ],
+  "difficulty": 2,
+  "kind": "common",
+  "clue": "پوشش فلزی جنگجو",
+  "shortClue": "پوشش فلزی"
+ },
+ {
+  "word": "نیزه",
+  "topics": [
+   "history"
+  ],
+  "difficulty": 2,
+  "kind": "common",
+  "clue": "چوب بلند با نوک تیز",
+  "shortClue": "چوب تیزسر"
+ },
+ {
+  "word": "ایوان",
+  "topics": [
+   "history"
+  ],
+  "difficulty": 2,
+  "kind": "common",
+  "clue": "فضای سرپوشیده رو به حیاط",
+  "shortClue": "فضای سرگشاده"
+ },
+ {
+  "word": "کاروانسرا",
+  "topics": [
+   "history"
+  ],
+  "difficulty": 2,
+  "kind": "common",
+  "clue": "جای اتراق مسافران قدیم",
+  "shortClue": "منزلگاه مسافر"
+ },
+ {
+  "word": "حمام",
+  "topics": [
+   "history"
+  ],
+  "difficulty": 1,
+  "kind": "common",
+  "clue": "جای شستشوی تن",
+  "shortClue": "جای شستشو"
+ },
+ {
+  "word": "اسیاب",
+  "topics": [
+   "history"
+  ],
+  "difficulty": 2,
+  "kind": "common",
+  "clue": "جای ساییدن گندم",
+  "shortClue": "جای ساییدن"
+ },
+ {
+  "word": "حصار",
+  "topics": [
+   "history"
+  ],
+  "difficulty": 2,
+  "kind": "common",
+  "clue": "دیوار دور شهر",
+  "shortClue": "دیوار شهر"
+ },
+ {
+  "word": "تخت",
+  "topics": [
+   "history"
+  ],
+  "difficulty": 1,
+  "kind": "common",
+  "clue": "جایگاه پادشاه",
+  "shortClue": "جایگاه شاه"
+ },
+ {
+  "word": "پادشاه",
+  "topics": [
+   "history"
+  ],
+  "difficulty": 1,
+  "kind": "common",
+  "clue": "فرمانروای یک کشور",
+  "shortClue": "فرمانروا"
+ },
+ {
+  "word": "ملکه",
+  "topics": [
+   "history"
+  ],
+  "difficulty": 1,
+  "kind": "common",
+  "clue": "همسر پادشاه",
+  "shortClue": "همسر شاه"
+ },
+ {
+  "word": "وزیر",
+  "topics": [
+   "history"
+  ],
+  "difficulty": 2,
+  "kind": "common",
+  "clue": "یار و مشاور پادشاه",
+  "shortClue": "مشاور شاه"
+ },
+ {
+  "word": "لوح",
+  "topics": [
+   "history"
+  ],
+  "difficulty": 3,
+  "kind": "common",
+  "clue": "صفحه سنگی یا گلی برای نوشتن",
+  "shortClue": "صفحه نوشتنی"
+ },
+ {
+  "word": "طومار",
+  "topics": [
+   "history"
+  ],
+  "difficulty": 3,
+  "kind": "common",
+  "clue": "نوشته پیچیده شده روی هم",
+  "shortClue": "نوشته پیچیده"
+ },
+ {
+  "word": "مهر",
+  "topics": [
+   "history"
+  ],
+  "difficulty": 2,
+  "kind": "common",
+  "clue": "نشان حکاکی شده برای تایید نوشته",
+  "shortClue": "نشان تایید"
+ },
+ {
+  "word": "درهم",
+  "topics": [
+   "history"
+  ],
+  "difficulty": 3,
+  "kind": "common",
+  "clue": "سکه نقره ای کهن",
+  "shortClue": "سکه نقره"
+ },
+ {
+  "word": "منجنیق",
+  "topics": [
+   "history"
+  ],
+  "difficulty": 3,
+  "kind": "common",
+  "clue": "دستگاه پرتاب سنگ در محاصره",
+  "shortClue": "پرتاب کننده سنگ"
+ },
+ {
+  "word": "بادبان",
+  "topics": [
+   "history"
+  ],
+  "difficulty": 2,
+  "kind": "common",
+  "clue": "پارچه بزرگ روی دکل کشتی",
+  "shortClue": "پارچه کشتی"
+ },
+ {
+  "word": "گاری",
+  "topics": [
+   "history"
+  ],
+  "difficulty": 2,
+  "kind": "common",
+  "clue": "ارابه چهارچرخ کشیده با اسب",
+  "shortClue": "ارابه"
+ },
+ {
+  "word": "کهن",
+  "topics": [
+   "history"
+  ],
+  "difficulty": 2,
+  "kind": "common",
+  "clue": "بسیار قدیمی",
+  "shortClue": "بسیار قدیمی"
+ },
+ {
+  "word": "ارابه",
+  "topics": [
+   "history"
+  ],
+  "difficulty": 3,
+  "kind": "common",
+  "clue": "گردونه جنگی دو چرخ",
+  "shortClue": "گردونه"
+ },
+ {
+  "word": "باستانشناس",
+  "topics": [
+   "history"
+  ],
+  "difficulty": 3,
+  "kind": "common",
+  "clue": "پژوهشگر خاک و ویرانه های کهن",
+  "shortClue": "پژوهنده گذشته"
+ },
+ {
+  "word": "شاهنشاه",
+  "topics": [
+   "history"
+  ],
+  "difficulty": 3,
+  "kind": "common",
+  "clue": "پادشاه پادشاهان",
+  "shortClue": "شاه شاهان"
+ },
+ {
+  "word": "پیکرتراش",
+  "topics": [
+   "history"
+  ],
+  "difficulty": 3,
+  "kind": "common",
+  "clue": "سازنده مجسمه های سنگی",
+  "shortClue": "سنگتراش"
+ },
+ {
+  "word": "دیوارنگاره",
+  "topics": [
+   "history"
+  ],
+  "difficulty": 3,
+  "kind": "common",
+  "clue": "نقاشی روی بنای کهن",
+  "shortClue": "نقش بنا"
+ },
+ {
+  "word": "سنگنبشته",
+  "topics": [
+   "history"
+  ],
+  "difficulty": 3,
+  "kind": "common",
+  "clue": "نوشته حک شده بر سنگ",
+  "shortClue": "نوشته سنگی"
+ },
+ {
+  "word": "جاذبه",
+  "topics": [
+   "science"
+  ],
+  "difficulty": 2,
+  "kind": "common",
+  "clue": "نیرویی که اشیا را به زمین می کشد",
+  "shortClue": "کشش زمین"
+ },
+ {
+  "word": "شتاب",
+  "topics": [
+   "science"
+  ],
+  "difficulty": 2,
+  "kind": "common",
+  "clue": "تغییر سرعت در واحد زمان",
+  "shortClue": "تغییر سرعت"
+ },
+ {
+  "word": "سرعت",
+  "topics": [
+   "science"
+  ],
+  "difficulty": 1,
+  "kind": "common",
+  "clue": "تندی حرکت",
+  "shortClue": "تندی"
+ },
+ {
+  "word": "جرم",
+  "topics": [
+   "science"
+  ],
+  "difficulty": 2,
+  "kind": "common",
+  "clue": "مقدار ماده یک جسم",
+  "shortClue": "مقدار ماده"
+ },
+ {
+  "word": "حجم",
+  "topics": [
+   "science"
+  ],
+  "difficulty": 2,
+  "kind": "common",
+  "clue": "فضایی که جسم اشغال می کند",
+  "shortClue": "فضای جسم"
+ },
+ {
+  "word": "دما",
+  "topics": [
+   "science"
+  ],
+  "difficulty": 1,
+  "kind": "common",
+  "clue": "اندازه گرمی یا سردی",
+  "shortClue": "اندازه گرما"
+ },
+ {
+  "word": "فشار",
+  "topics": [
+   "science"
+  ],
+  "difficulty": 2,
+  "kind": "common",
+  "clue": "نیرو بر واحد سطح",
+  "shortClue": "نیرو بر سطح"
+ },
+ {
+  "word": "الکترون",
+  "topics": [
+   "science"
+  ],
+  "difficulty": 2,
+  "kind": "common",
+  "clue": "ذره باردار منفی اتم",
+  "shortClue": "ذره منفی"
+ },
+ {
+  "word": "پروتون",
+  "topics": [
+   "science"
+  ],
+  "difficulty": 3,
+  "kind": "common",
+  "clue": "ذره مثبت هسته",
+  "shortClue": "ذره مثبت"
+ },
+ {
+  "word": "عنصر",
+  "topics": [
+   "science"
+  ],
+  "difficulty": 2,
+  "kind": "common",
+  "clue": "ماده ساده در جدول مندلیف",
+  "shortClue": "ماده ساده"
+ },
+ {
+  "word": "اسید",
+  "topics": [
+   "science"
+  ],
+  "difficulty": 2,
+  "kind": "common",
+  "clue": "ماده ترش و خورنده",
+  "shortClue": "ماده خورنده"
+ },
+ {
+  "word": "الماس",
+  "topics": [
+   "science"
+  ],
+  "difficulty": 2,
+  "kind": "common",
+  "clue": "سخت ترین سنگ گرانبها",
+  "shortClue": "سخت ترین سنگ"
+ },
+ {
+  "word": "اهن",
+  "topics": [
+   "science"
+  ],
+  "difficulty": 1,
+  "kind": "common",
+  "clue": "فلز محکم برای ساخت و ساز",
+  "shortClue": "فلز محکم"
+ },
+ {
+  "word": "طلا",
+  "topics": [
+   "science"
+  ],
+  "difficulty": 1,
+  "kind": "common",
+  "clue": "فلز زرد و گرانبها",
+  "shortClue": "فلز زرد"
+ },
+ {
+  "word": "نقره",
+  "topics": [
+   "science"
+  ],
+  "difficulty": 1,
+  "kind": "common",
+  "clue": "فلز سپید و براق",
+  "shortClue": "فلز سپید"
+ },
+ {
+  "word": "جیوه",
+  "topics": [
+   "science"
+  ],
+  "difficulty": 3,
+  "kind": "common",
+  "clue": "فلز مایع دماسنج",
+  "shortClue": "فلز مایع"
+ },
+ {
+  "word": "کربن",
+  "topics": [
+   "science"
+  ],
+  "difficulty": 2,
+  "kind": "common",
+  "clue": "عنصر زغال و الماس",
+  "shortClue": "عنصر زغال"
+ },
+ {
+  "word": "هیدروژن",
+  "topics": [
+   "science"
+  ],
+  "difficulty": 2,
+  "kind": "common",
+  "clue": "سبک ترین عنصر",
+  "shortClue": "سبک ترین گاز"
+ },
+ {
+  "word": "ویروس",
+  "topics": [
+   "science"
+  ],
+  "difficulty": 2,
+  "kind": "common",
+  "clue": "میکروب بسیار ریز بیماری زا",
+  "shortClue": "میکروب ریز"
+ },
+ {
+  "word": "باکتری",
+  "topics": [
+   "science"
+  ],
+  "difficulty": 2,
+  "kind": "common",
+  "clue": "جاندار تک سلولی ریز",
+  "shortClue": "جاندار ریز"
+ },
+ {
+  "word": "استخوان",
+  "topics": [
+   "science"
+  ],
+  "difficulty": 1,
+  "kind": "common",
+  "clue": "بخش سخت اسکلت",
+  "shortClue": "بخش سخت تن"
+ },
+ {
+  "word": "ماهیچه",
+  "topics": [
+   "science"
+  ],
+  "difficulty": 2,
+  "kind": "common",
+  "clue": "بافتی که تن را حرکت می دهد",
+  "shortClue": "بافت حرکتی"
+ },
+ {
+  "word": "ریه",
+  "topics": [
+   "science"
+  ],
+  "difficulty": 1,
+  "kind": "common",
+  "clue": "اندام نفس کشیدن",
+  "shortClue": "اندام نفس"
+ },
+ {
+  "word": "کلیه",
+  "topics": [
+   "science"
+  ],
+  "difficulty": 2,
+  "kind": "common",
+  "clue": "اندام پالایش خون",
+  "shortClue": "اندام پالایش"
+ },
+ {
+  "word": "کبد",
+  "topics": [
+   "science"
+  ],
+  "difficulty": 2,
+  "kind": "common",
+  "clue": "بزرگترین غده تن",
+  "shortClue": "غده بزرگ"
+ },
+ {
+  "word": "مریخ",
+  "topics": [
+   "science"
+  ],
+  "difficulty": 2,
+  "kind": "common",
+  "clue": "سیاره سرخ",
+  "shortClue": "سیاره سرخ"
+ },
+ {
+  "word": "مشتری",
+  "topics": [
+   "science"
+  ],
+  "difficulty": 2,
+  "kind": "common",
+  "clue": "بزرگترین سیاره منظومه",
+  "shortClue": "سیاره بزرگ"
+ },
+ {
+  "word": "زحل",
+  "topics": [
+   "science"
+  ],
+  "difficulty": 3,
+  "kind": "common",
+  "clue": "سیاره دارای حلقه های درخشان",
+  "shortClue": "سیاره حلقه دار"
+ },
+ {
+  "word": "کهکشان",
+  "topics": [
+   "science"
+  ],
+  "difficulty": 2,
+  "kind": "common",
+  "clue": "مجموعه بسیار بزرگ ستاره ها",
+  "shortClue": "خوشه ستاره"
+ },
+ {
+  "word": "شهاب",
+  "topics": [
+   "science"
+  ],
+  "difficulty": 3,
+  "kind": "common",
+  "clue": "سنگ سوزان در اسمان",
+  "shortClue": "سنگ سوزان"
+ },
+ {
+  "word": "لیزر",
+  "topics": [
+   "science"
+  ],
+  "difficulty": 2,
+  "kind": "common",
+  "clue": "پرتو نور متمرکز",
+  "shortClue": "پرتو متمرکز"
+ },
+ {
+  "word": "باتری",
+  "topics": [
+   "science"
+  ],
+  "difficulty": 1,
+  "kind": "common",
+  "clue": "منبع کوچک برق",
+  "shortClue": "منبع برق"
+ },
+ {
+  "word": "طیف",
+  "topics": [
+   "science"
+  ],
+  "difficulty": 3,
+  "kind": "common",
+  "clue": "گستره رنگ های نور",
+  "shortClue": "گستره رنگ"
+ },
+ {
+  "word": "زاویه",
+  "topics": [
+   "science"
+  ],
+  "difficulty": 2,
+  "kind": "common",
+  "clue": "فاصله دو خط در یک نقطه",
+  "shortClue": "گشودگی دو خط"
+ },
+ {
+  "word": "تلسکوپ",
+  "topics": [
+   "science"
+  ],
+  "difficulty": 2,
+  "kind": "common",
+  "clue": "دوربین دیدن ستاره ها",
+  "shortClue": "دوربین ستاره"
+ },
+ {
+  "word": "میکروسکوپ",
+  "topics": [
+   "science"
+  ],
+  "difficulty": 2,
+  "kind": "common",
+  "clue": "دستگاه دیدن چیزهای ریز",
+  "shortClue": "ذره بین قوی"
+ },
+ {
+  "word": "ورزش",
+  "topics": [
+   "sport"
+  ],
+  "difficulty": 1,
+  "kind": "common",
+  "clue": "حرکت بدنی برای تندرستی و رقابت",
+  "shortClue": "حرکت تندرستی"
+ },
+ {
+  "word": "تنیس",
+  "topics": [
+   "sport"
+  ],
+  "difficulty": 1,
+  "kind": "common",
+  "clue": "بازی راکت و توپ در زمین خاکی یا چمن",
+  "shortClue": "راکت و توپ"
+ },
+ {
+  "word": "ژیمناستیک",
+  "topics": [
+   "sport"
+  ],
+  "difficulty": 2,
+  "kind": "common",
+  "clue": "حرکت های هنری روی میله و بارفیکس",
+  "shortClue": "حرکت های هنری"
+ },
+ {
+  "word": "دوچرخه",
+  "topics": [
+   "sport"
+  ],
+  "difficulty": 1,
+  "kind": "common",
+  "clue": "وسیله دو چرخ با رکاب",
+  "shortClue": "دو چرخ رکابی"
+ },
+ {
+  "word": "شناگر",
+  "topics": [
+   "sport"
+  ],
+  "difficulty": 1,
+  "kind": "common",
+  "clue": "کسی که در استخر مسابقه می دهد",
+  "shortClue": "ورزشکار استخر"
+ },
+ {
+  "word": "پرش",
+  "topics": [
+   "sport"
+  ],
+  "difficulty": 2,
+  "kind": "common",
+  "clue": "جهیدن از روی مانع یا فاصله",
+  "shortClue": "جهش"
+ },
+ {
+  "word": "پرتاب",
+  "topics": [
+   "sport"
+  ],
+  "difficulty": 2,
+  "kind": "common",
+  "clue": "انداختن نیزه یا وزنه به دور",
+  "shortClue": "انداختن دور"
+ },
+ {
+  "word": "وزنهبرداری",
+  "topics": [
+   "sport"
+  ],
+  "difficulty": 2,
+  "kind": "common",
+  "clue": "بلند کردن میله سنگین",
+  "shortClue": "بلند کردن وزنه"
+ },
+ {
+  "word": "کاراته",
+  "topics": [
+   "sport"
+  ],
+  "difficulty": 2,
+  "kind": "common",
+  "clue": "رزم ژاپنی با دست و پا",
+  "shortClue": "رزم ژاپنی"
+ },
+ {
+  "word": "تکواندو",
+  "topics": [
+   "sport"
+  ],
+  "difficulty": 3,
+  "kind": "common",
+  "clue": "رزم کره ای با ضربه پا",
+  "shortClue": "رزم کره ای"
+ },
+ {
+  "word": "جودو",
+  "topics": [
+   "sport"
+  ],
+  "difficulty": 3,
+  "kind": "common",
+  "clue": "رزم ژاپنی با زمین زدن حریف",
+  "shortClue": "رزم ژاپنی"
+ },
+ {
+  "word": "اسکی",
+  "topics": [
+   "sport"
+  ],
+  "difficulty": 2,
+  "kind": "common",
+  "clue": "سرخوردن بر برف با دو چوب",
+  "shortClue": "سرخوردن بر برف"
+ },
+ {
+  "word": "تیراندازی",
+  "topics": [
+   "sport"
+  ],
+  "difficulty": 2,
+  "kind": "common",
+  "clue": "نشانه گیری با تفنگ یا کمان",
+  "shortClue": "نشانه گیری"
+ },
+ {
+  "word": "قایقرانی",
+  "topics": [
+   "sport"
+  ],
+  "difficulty": 2,
+  "kind": "common",
+  "clue": "پارو زدن روی اب",
+  "shortClue": "پارو زنی"
+ },
+ {
+  "word": "کوهنوردی",
+  "topics": [
+   "sport"
+  ],
+  "difficulty": 2,
+  "kind": "common",
+  "clue": "بالا رفتن از قله ها",
+  "shortClue": "صعود به قله"
+ },
+ {
+  "word": "مربی",
+  "topics": [
+   "sport"
+  ],
+  "difficulty": 1,
+  "kind": "common",
+  "clue": "راهنمای تمرین تیم",
+  "shortClue": "راهنمای تیم"
+ },
+ {
+  "word": "تماشاگر",
+  "topics": [
+   "sport"
+  ],
+  "difficulty": 1,
+  "kind": "common",
+  "clue": "کسی که بازی را از ورزشگاه می نگرد",
+  "shortClue": "بیننده بازی"
+ },
+ {
+  "word": "دروازهبان",
+  "topics": [
+   "sport"
+  ],
+  "difficulty": 2,
+  "kind": "common",
+  "clue": "بازیکنی که جلوی دهانه گل توپ را می گیرد",
+  "shortClue": "گلر تیم"
+ },
+ {
+  "word": "مهاجم",
+  "topics": [
+   "sport"
+  ],
+  "difficulty": 1,
+  "kind": "common",
+  "clue": "بازیکن حمله",
+  "shortClue": "بازیکن حمله"
+ },
+ {
+  "word": "مدافع",
+  "topics": [
+   "sport"
+  ],
+  "difficulty": 2,
+  "kind": "common",
+  "clue": "بازیکن پشت خط",
+  "shortClue": "بازیکن عقب"
+ },
+ {
+  "word": "راکت",
+  "topics": [
+   "sport"
+  ],
+  "difficulty": 2,
+  "kind": "common",
+  "clue": "چوب بازی تنیس و بدمینتون",
+  "shortClue": "چوب تنیس"
+ },
+ {
+  "word": "پنالتی",
+  "topics": [
+   "sport"
+  ],
+  "difficulty": 2,
+  "kind": "common",
+  "clue": "ضربه ایستاده از نقطه ای معین",
+  "shortClue": "ضربه ایستاده"
+ },
+ {
+  "word": "قهرمان",
+  "topics": [
+   "sport"
+  ],
+  "difficulty": 1,
+  "kind": "common",
+  "clue": "برنده نهایی",
+  "shortClue": "برنده"
+ },
+ {
+  "word": "جام",
+  "topics": [
+   "sport"
+  ],
+  "difficulty": 1,
+  "kind": "common",
+  "clue": "پیاله فلزی برای برنده",
+  "shortClue": "پیاله پیروزی"
+ },
+ {
+  "word": "تمرین",
+  "topics": [
+   "sport"
+  ],
+  "difficulty": 1,
+  "kind": "common",
+  "clue": "تکرار برای اماده شدن",
+  "shortClue": "اماده سازی"
+ },
+ {
+  "word": "شطرنج",
+  "topics": [
+   "sport"
+  ],
+  "difficulty": 1,
+  "kind": "common",
+  "clue": "بازی فکری با شاه و وزیر",
+  "shortClue": "بازی فکری"
+ },
+ {
+  "word": "تخته",
+  "topics": [
+   "sport"
+  ],
+  "difficulty": 2,
+  "kind": "common",
+  "clue": "زمین بازی با مهره و تاس",
+  "shortClue": "بازی تاس"
+ },
+ {
+  "word": "بدمینتون",
+  "topics": [
+   "sport"
+  ],
+  "difficulty": 3,
+  "kind": "common",
+  "clue": "بازی راکت و توپ پردار",
+  "shortClue": "توپ پردار"
+ },
+ {
+  "word": "بیلیارد",
+  "topics": [
+   "sport"
+  ],
+  "difficulty": 3,
+  "kind": "common",
+  "clue": "بازی با چوب و گوی روی میز",
+  "shortClue": "بازی گوی"
+ },
+ {
+  "word": "اسبسواری",
+  "topics": [
+   "sport"
+  ],
+  "difficulty": 2,
+  "kind": "common",
+  "clue": "ورزش نشستن بر پشت چارپا",
+  "shortClue": "ورزش چارپا"
+ },
+ {
+  "word": "هندبال",
+  "topics": [
+   "sport"
+  ],
+  "difficulty": 2,
+  "kind": "common",
+  "clue": "توپ و دست و دروازه",
+  "shortClue": "بازی دستی"
+ },
+ {
+  "word": "پینگپنگ",
+  "topics": [
+   "sport"
+  ],
+  "difficulty": 3,
+  "kind": "common",
+  "clue": "بازی توپ سبک روی میز",
+  "shortClue": "توپ کوچک"
+ },
+ {
+  "word": "غزل",
+  "topics": [
+   "arts"
+  ],
+  "difficulty": 2,
+  "kind": "common",
+  "clue": "شعر عاشقانه کوتاه با قافیه",
+  "shortClue": "شعر عاشقانه"
+ },
+ {
+  "word": "رباعی",
+  "topics": [
+   "arts"
+  ],
+  "difficulty": 2,
+  "kind": "common",
+  "clue": "شعر چهار مصراعی",
+  "shortClue": "شعر چهارپاره"
+ },
+ {
+  "word": "مثنوی",
+  "topics": [
+   "arts"
+  ],
+  "difficulty": 3,
+  "kind": "common",
+  "clue": "شعر با قافیه جفت جفت",
+  "shortClue": "شعر جفت قافیه"
+ },
+ {
+  "word": "قصیده",
+  "topics": [
+   "arts"
+  ],
+  "difficulty": 3,
+  "kind": "common",
+  "clue": "شعر بلند ستایشی",
+  "shortClue": "شعر بلند"
+ },
+ {
+  "word": "شاعر",
+  "topics": [
+   "arts"
+  ],
+  "difficulty": 1,
+  "kind": "common",
+  "clue": "سراینده شعر",
+  "shortClue": "سراینده"
+ },
+ {
+  "word": "نویسنده",
+  "topics": [
+   "arts"
+  ],
+  "difficulty": 1,
+  "kind": "common",
+  "clue": "پدیدآورنده کتاب",
+  "shortClue": "پدیدآورنده"
+ },
+ {
+  "word": "قلم",
+  "topics": [
+   "arts"
+  ],
+  "difficulty": 1,
+  "kind": "common",
+  "clue": "ابزار نوشتن",
+  "shortClue": "ابزار نوشتن"
+ },
+ {
+  "word": "مرکب",
+  "topics": [
+   "arts"
+  ],
+  "difficulty": 2,
+  "kind": "common",
+  "clue": "مایع سیاه نوشتن با قلم نی",
+  "shortClue": "مایع نوشتن"
+ },
+ {
+  "word": "بوم",
+  "topics": [
+   "arts"
+  ],
+  "difficulty": 2,
+  "kind": "common",
+  "clue": "پارچه ای که نقاش روی ان می کشد",
+  "shortClue": "پارچه نقاشی"
+ },
+ {
+  "word": "بازیگر",
+  "topics": [
+   "arts"
+  ],
+  "difficulty": 1,
+  "kind": "common",
+  "clue": "کسی که در فیلم نقش می گیرد",
+  "shortClue": "نقش اور"
+ },
+ {
+  "word": "کارگردان",
+  "topics": [
+   "arts"
+  ],
+  "difficulty": 2,
+  "kind": "common",
+  "clue": "هدایت کننده فیلم",
+  "shortClue": "هدایتگر فیلم"
+ },
+ {
+  "word": "تئاتر",
+  "topics": [
+   "arts"
+  ],
+  "difficulty": 1,
+  "kind": "common",
+  "clue": "نمایش روی صحنه",
+  "shortClue": "نمایش صحنه"
+ },
+ {
+  "word": "اواز",
+  "topics": [
+   "arts"
+  ],
+  "difficulty": 1,
+  "kind": "common",
+  "clue": "صدای خوش با ریتم",
+  "shortClue": "صدای موزون"
+ },
+ {
+  "word": "خواننده",
+  "topics": [
+   "arts"
+  ],
+  "difficulty": 1,
+  "kind": "common",
+  "clue": "کسی که اواز می سراید",
+  "shortClue": "اواز سرا"
+ },
+ {
+  "word": "نوازنده",
+  "topics": [
+   "arts"
+  ],
+  "difficulty": 2,
+  "kind": "common",
+  "clue": "کسی که ساز می زند",
+  "shortClue": "ساز زن"
+ },
+ {
+  "word": "ویولن",
+  "topics": [
+   "arts"
+  ],
+  "difficulty": 1,
+  "kind": "common",
+  "clue": "ساز زهی با کمانه",
+  "shortClue": "ساز کمانی"
+ },
+ {
+  "word": "پیانو",
+  "topics": [
+   "arts"
+  ],
+  "difficulty": 1,
+  "kind": "common",
+  "clue": "ساز با صفحه کلید سیاه و سفید",
+  "shortClue": "ساز کلیددار"
+ },
+ {
+  "word": "گیتار",
+  "topics": [
+   "arts"
+  ],
+  "difficulty": 1,
+  "kind": "common",
+  "clue": "ساز زهی شش سیم",
+  "shortClue": "ساز شش سیم"
+ },
+ {
+  "word": "عود",
+  "topics": [
+   "arts"
+  ],
+  "difficulty": 3,
+  "kind": "common",
+  "clue": "ساز زهی با کاسه گلابی شکل",
+  "shortClue": "ساز گلابی"
+ },
+ {
+  "word": "قانون",
+  "topics": [
+   "arts"
+  ],
+  "difficulty": 3,
+  "kind": "common",
+  "clue": "ساز زهی تخت و خوابیده",
+  "shortClue": "ساز خوابیده"
+ },
+ {
+  "word": "ملودی",
+  "topics": [
+   "arts"
+  ],
+  "difficulty": 2,
+  "kind": "common",
+  "clue": "رشته نت های اهنگین",
+  "shortClue": "اهنگ"
+ },
+ {
+  "word": "ارکستر",
+  "topics": [
+   "arts"
+  ],
+  "difficulty": 2,
+  "kind": "common",
+  "clue": "گروه بزرگ نوازندگان",
+  "shortClue": "گروه نوازنده"
+ },
+ {
+  "word": "سرود",
+  "topics": [
+   "arts"
+  ],
+  "difficulty": 2,
+  "kind": "common",
+  "clue": "اواز دسته جمعی",
+  "shortClue": "اواز گروهی"
+ },
+ {
+  "word": "ترانه",
+  "topics": [
+   "arts"
+  ],
+  "difficulty": 1,
+  "kind": "common",
+  "clue": "شعر خوانده شده با موسیقی",
+  "shortClue": "شعر اهنگین"
+ },
+ {
+  "word": "نقاش",
+  "topics": [
+   "arts"
+  ],
+  "difficulty": 1,
+  "kind": "common",
+  "clue": "هنرمند رنگ و بوم",
+  "shortClue": "هنرمند رنگ"
+ },
+ {
+  "word": "گالری",
+  "topics": [
+   "arts"
+  ],
+  "difficulty": 2,
+  "kind": "common",
+  "clue": "نمایشگاه تابلوها",
+  "shortClue": "نمایشگاه تابلو"
+ },
+ {
+  "word": "رقص",
+  "topics": [
+   "arts"
+  ],
+  "difficulty": 1,
+  "kind": "common",
+  "clue": "حرکت موزون بدن",
+  "shortClue": "حرکت موزون"
+ },
+ {
+  "word": "عکاسی",
+  "topics": [
+   "arts"
+  ],
+  "difficulty": 1,
+  "kind": "common",
+  "clue": "ثبت تصویر با دوربین",
+  "shortClue": "ثبت تصویر"
+ },
+ {
+  "word": "خطاط",
+  "topics": [
+   "arts"
+  ],
+  "difficulty": 3,
+  "kind": "common",
+  "clue": "هنرمند زیبا نویس",
+  "shortClue": "زیبا نویس"
+ },
+ {
+  "word": "تذهیب",
+  "topics": [
+   "arts"
+  ],
+  "difficulty": 3,
+  "kind": "common",
+  "clue": "زرین کاری و لاجوردی صفحه کتاب",
+  "shortClue": "زرین کاری"
+ },
+ {
+  "word": "معماری",
+  "topics": [
+   "arts"
+  ],
+  "difficulty": 2,
+  "kind": "common",
+  "clue": "هنر ساختن بنا",
+  "shortClue": "هنر بنا"
+ },
+ {
+  "word": "تابلو",
+  "topics": [
+   "arts"
+  ],
+  "difficulty": 1,
+  "kind": "common",
+  "clue": "نقاشی قاب شده",
+  "shortClue": "نقاشی قاب دار"
+ },
+ {
+  "word": "کمد",
+  "topics": [
+   "home"
+  ],
+  "difficulty": 1,
+  "kind": "common",
+  "clue": "گنجه لباس",
+  "shortClue": "گنجه لباس"
+ },
+ {
+  "word": "قفسه",
+  "topics": [
+   "home"
+  ],
+  "difficulty": 2,
+  "kind": "common",
+  "clue": "طبقه بندی دیواری برای کتاب",
+  "shortClue": "طبقه کتاب"
+ },
+ {
+  "word": "تشک",
+  "topics": [
+   "home"
+  ],
+  "difficulty": 2,
+  "kind": "common",
+  "clue": "پوشش نرم که زیر خواب پهن می کنند",
+  "shortClue": "زیر انداز نرم"
+ },
+ {
+  "word": "لحاف",
+  "topics": [
+   "home"
+  ],
+  "difficulty": 2,
+  "kind": "common",
+  "clue": "روپوش پنبه ای شب",
+  "shortClue": "روانداز زمستانی"
+ },
+ {
+  "word": "ملافه",
+  "topics": [
+   "home"
+  ],
+  "difficulty": 3,
+  "kind": "common",
+  "clue": "پارچه رویی تشک",
+  "shortClue": "روکش تشک"
+ },
+ {
+  "word": "فرش",
+  "topics": [
+   "home"
+  ],
+  "difficulty": 1,
+  "kind": "common",
+  "clue": "زیرانداز بافته شده",
+  "shortClue": "زیرانداز"
+ },
+ {
+  "word": "چراغ",
+  "topics": [
+   "home"
+  ],
+  "difficulty": 1,
+  "kind": "common",
+  "clue": "وسیله روشنایی",
+  "shortClue": "وسیله روشنایی"
+ },
+ {
+  "word": "لامپ",
+  "topics": [
+   "home"
+  ],
+  "difficulty": 1,
+  "kind": "common",
+  "clue": "حباب شیشه ای روشنایی",
+  "shortClue": "حباب روشنایی"
+ },
+ {
+  "word": "شومینه",
+  "topics": [
+   "home"
+  ],
+  "difficulty": 2,
+  "kind": "common",
+  "clue": "اتشدان دیواری با دودکش",
+  "shortClue": "اتشدان دیواری"
+ },
+ {
+  "word": "بخاری",
+  "topics": [
+   "home"
+  ],
+  "difficulty": 1,
+  "kind": "common",
+  "clue": "وسیله گرم کردن اتاق",
+  "shortClue": "گرم کننده اتاق"
+ },
+ {
+  "word": "کولر",
+  "topics": [
+   "home"
+  ],
+  "difficulty": 1,
+  "kind": "common",
+  "clue": "وسیله خنک کردن هوا",
+  "shortClue": "خنک کننده"
+ },
+ {
+  "word": "اجاق",
+  "topics": [
+   "home"
+  ],
+  "difficulty": 2,
+  "kind": "common",
+  "clue": "جای پختن غذا",
+  "shortClue": "جای پخت"
+ },
+ {
+  "word": "ماهیتابه",
+  "topics": [
+   "home"
+  ],
+  "difficulty": 2,
+  "kind": "common",
+  "clue": "ظرف تخت برای سرخ کردن",
+  "shortClue": "ظرف سرخ کردن"
+ },
+ {
+  "word": "قابلمه",
+  "topics": [
+   "home"
+  ],
+  "difficulty": 2,
+  "kind": "common",
+  "clue": "دیگ کوچک دردار",
+  "shortClue": "دیگ کوچک"
+ },
+ {
+  "word": "بشقاب",
+  "topics": [
+   "home"
+  ],
+  "difficulty": 1,
+  "kind": "common",
+  "clue": "ظرف گرد غذاخوری",
+  "shortClue": "ظرف غذاخوری"
+ },
+ {
+  "word": "قاشق",
+  "topics": [
+   "home"
+  ],
+  "difficulty": 1,
+  "kind": "common",
+  "clue": "ابزار خوردن سوپ",
+  "shortClue": "ابزار سوپ"
+ },
+ {
+  "word": "چنگال",
+  "topics": [
+   "home"
+  ],
+  "difficulty": 1,
+  "kind": "common",
+  "clue": "ابزار با دندانه برای برداشتن غذا",
+  "shortClue": "ابزار دندانه دار"
+ },
+ {
+  "word": "کارد",
+  "topics": [
+   "home"
+  ],
+  "difficulty": 1,
+  "kind": "common",
+  "clue": "ابزار برنده اشپزخانه",
+  "shortClue": "ابزار برنده"
+ },
+ {
+  "word": "لیوان",
+  "topics": [
+   "home"
+  ],
+  "difficulty": 1,
+  "kind": "common",
+  "clue": "ظرف شیشه ای نوشیدن",
+  "shortClue": "ظرف نوشیدن"
+ },
+ {
+  "word": "پارچ",
+  "topics": [
+   "home"
+  ],
+  "difficulty": 2,
+  "kind": "common",
+  "clue": "ظرف دسته دار برای ریختن اب",
+  "shortClue": "ظرف دسته دار"
+ },
+ {
+  "word": "سینی",
+  "topics": [
+   "home"
+  ],
+  "difficulty": 2,
+  "kind": "common",
+  "clue": "ظرف تخت برای بردن چای",
+  "shortClue": "ظرف تخت"
+ },
+ {
+  "word": "قندان",
+  "topics": [
+   "home"
+  ],
+  "difficulty": 2,
+  "kind": "common",
+  "clue": "ظرف نگهداری شکر یا نبات",
+  "shortClue": "ظرف قند"
+ },
+ {
+  "word": "سبد",
+  "topics": [
+   "home"
+  ],
+  "difficulty": 2,
+  "kind": "common",
+  "clue": "ظرف حصیری",
+  "shortClue": "ظرف حصیری"
+ },
+ {
+  "word": "چکش",
+  "topics": [
+   "home"
+  ],
+  "difficulty": 1,
+  "kind": "common",
+  "clue": "ابزار کوبیدن میخ",
+  "shortClue": "ابزار میخ"
+ },
+ {
+  "word": "اینه",
+  "topics": [
+   "home"
+  ],
+  "difficulty": 1,
+  "kind": "common",
+  "clue": "سطح صیقلی دیدن چهره",
+  "shortClue": "سطح صیقلی"
+ },
+ {
+  "word": "تلفن",
+  "topics": [
+   "home"
+  ],
+  "difficulty": 1,
+  "kind": "common",
+  "clue": "دستگاه سخن گفتن از دور",
+  "shortClue": "دستگاه گفتگو"
+ },
+ {
+  "word": "تلویزیون",
+  "topics": [
+   "home"
+  ],
+  "difficulty": 1,
+  "kind": "common",
+  "clue": "دستگاه نمایش برنامه های تصویری",
+  "shortClue": "جعبه تصویر"
+ },
+ {
+  "word": "رادیو",
+  "topics": [
+   "home"
+  ],
+  "difficulty": 1,
+  "kind": "common",
+  "clue": "دستگاه شنیدن برنامه های صوتی",
+  "shortClue": "دستگاه صوتی"
+ },
+ {
+  "word": "حیاط",
+  "topics": [
+   "home"
+  ],
+  "difficulty": 1,
+  "kind": "common",
+  "clue": "فضای باز درون خانه",
+  "shortClue": "فضای باز"
+ },
+ {
+  "word": "بالکن",
+  "topics": [
+   "home"
+  ],
+  "difficulty": 2,
+  "kind": "common",
+  "clue": "تراس بیرون زده ساختمان",
+  "shortClue": "تراس"
+ },
+ {
+  "word": "زیرزمین",
+  "topics": [
+   "home"
+  ],
+  "difficulty": 2,
+  "kind": "common",
+  "clue": "طبقه ای پایین تر از کف خانه",
+  "shortClue": "طبقه زیرین"
+ },
+ {
+  "word": "انباری",
+  "topics": [
+   "home"
+  ],
+  "difficulty": 2,
+  "kind": "common",
+  "clue": "جای نگهداری وسایل اضافی",
+  "shortClue": "جای وسایل"
+ },
+ {
+  "word": "جاروبرقی",
+  "topics": [
+   "home"
+  ],
+  "difficulty": 2,
+  "kind": "common",
+  "clue": "دستگاه مکنده گرد و خاک",
+  "shortClue": "مکنده گرد"
+ },
+ {
+  "word": "پرستار",
+  "topics": [
+   "professions"
+  ],
+  "difficulty": 1,
+  "kind": "common",
+  "clue": "مراقب بیماران در بیمارستان",
+  "shortClue": "مراقب بیمار"
+ },
+ {
+  "word": "دندانپزشک",
+  "topics": [
+   "professions"
+  ],
+  "difficulty": 1,
+  "kind": "common",
+  "clue": "درمانگر کرم خوردگی و لثه",
+  "shortClue": "درمانگر لثه"
+ },
+ {
+  "word": "دامپزشک",
+  "topics": [
+   "professions"
+  ],
+  "difficulty": 2,
+  "kind": "common",
+  "clue": "درمانگر گاو و گوسفند و سگ",
+  "shortClue": "درمانگر جانور"
+ },
+ {
+  "word": "داروساز",
+  "topics": [
+   "professions"
+  ],
+  "difficulty": 2,
+  "kind": "common",
+  "clue": "سازنده قرص و شربت",
+  "shortClue": "قرص ساز"
+ },
+ {
+  "word": "وکیل",
+  "topics": [
+   "professions"
+  ],
+  "difficulty": 1,
+  "kind": "common",
+  "clue": "مدافع حقوق موکل در دادگاه",
+  "shortClue": "مدافع دادگاه"
+ },
+ {
+  "word": "قاضی",
+  "topics": [
+   "professions"
+  ],
+  "difficulty": 1,
+  "kind": "common",
+  "clue": "حکم دهنده در دادگاه",
+  "shortClue": "داور دادگاه"
+ },
+ {
+  "word": "خبرنگار",
+  "topics": [
+   "professions"
+  ],
+  "difficulty": 1,
+  "kind": "common",
+  "clue": "گزارشگر رویدادها",
+  "shortClue": "گزارشگر"
+ },
+ {
+  "word": "کارگر",
+  "topics": [
+   "professions"
+  ],
+  "difficulty": 1,
+  "kind": "common",
+  "clue": "کسی که با دست کار می کند و مزد می گیرد",
+  "shortClue": "مزدبگیر"
+ },
+ {
+  "word": "برقکار",
+  "topics": [
+   "professions"
+  ],
+  "difficulty": 2,
+  "kind": "common",
+  "clue": "متخصص سیم کشی",
+  "shortClue": "سیم کش"
+ },
+ {
+  "word": "لولهکش",
+  "topics": [
+   "professions"
+  ],
+  "difficulty": 2,
+  "kind": "common",
+  "clue": "تعمیرکار اب و فاضلاب",
+  "shortClue": "تعمیرکار اب"
+ },
+ {
+  "word": "مکانیک",
+  "topics": [
+   "professions"
+  ],
+  "difficulty": 1,
+  "kind": "common",
+  "clue": "تعمیرکار ماشین",
+  "shortClue": "تعمیرکار خودرو"
+ },
+ {
+  "word": "کفاش",
+  "topics": [
+   "professions"
+  ],
+  "difficulty": 2,
+  "kind": "common",
+  "clue": "سازنده و تعمیرکار پاپوش",
+  "shortClue": "پاپوش دوز"
+ },
+ {
+  "word": "بقال",
+  "topics": [
+   "professions"
+  ],
+  "difficulty": 2,
+  "kind": "common",
+  "clue": "خواربار فروش محله",
+  "shortClue": "خواربار فروش"
+ },
+ {
+  "word": "عطار",
+  "topics": [
+   "professions"
+  ],
+  "difficulty": 3,
+  "kind": "common",
+  "clue": "فروشنده گیاهان دارویی و ادویه",
+  "shortClue": "داروی گیاهی"
+ },
+ {
+  "word": "زرگر",
+  "topics": [
+   "professions"
+  ],
+  "difficulty": 3,
+  "kind": "common",
+  "clue": "سازنده زیورالات طلا",
+  "shortClue": "زیور ساز"
+ },
+ {
+  "word": "چوپان",
+  "topics": [
+   "professions"
+  ],
+  "difficulty": 1,
+  "kind": "common",
+  "clue": "نگهبان گله",
+  "shortClue": "نگهبان گله"
+ },
+ {
+  "word": "ماهیگیر",
+  "topics": [
+   "professions"
+  ],
+  "difficulty": 1,
+  "kind": "common",
+  "clue": "کسی که تور به دریا می اندازد",
+  "shortClue": "تورانداز"
+ },
+ {
+  "word": "خلبان",
+  "topics": [
+   "professions"
+  ],
+  "difficulty": 1,
+  "kind": "common",
+  "clue": "راننده هواپیما",
+  "shortClue": "راننده اسمان"
+ },
+ {
+  "word": "ملوان",
+  "topics": [
+   "professions"
+  ],
+  "difficulty": 2,
+  "kind": "common",
+  "clue": "کارکن کشتی",
+  "shortClue": "کارکن کشتی"
+ },
+ {
+  "word": "پلیس",
+  "topics": [
+   "professions"
+  ],
+  "difficulty": 1,
+  "kind": "common",
+  "clue": "نگهبان امنیت شهر",
+  "shortClue": "مامور امنیت"
+ },
+ {
+  "word": "اتشنشان",
+  "topics": [
+   "professions"
+  ],
+  "difficulty": 1,
+  "kind": "common",
+  "clue": "مبارز با اتش سوزی",
+  "shortClue": "مبارز با اتش"
+ },
+ {
+  "word": "نگهبان",
+  "topics": [
+   "professions"
+  ],
+  "difficulty": 1,
+  "kind": "common",
+  "clue": "مراقب جای مهم",
+  "shortClue": "مراقب"
+ },
+ {
+  "word": "منشی",
+  "topics": [
+   "professions"
+  ],
+  "difficulty": 2,
+  "kind": "common",
+  "clue": "دبیر دفتر",
+  "shortClue": "دبیر دفتر"
+ },
+ {
+  "word": "حسابدار",
+  "topics": [
+   "professions"
+  ],
+  "difficulty": 2,
+  "kind": "common",
+  "clue": "ثبت کننده ورود و خروج پول",
+  "shortClue": "دفتردار مالی"
+ },
+ {
+  "word": "مترجم",
+  "topics": [
+   "professions"
+  ],
+  "difficulty": 2,
+  "kind": "common",
+  "clue": "برگرداننده متن به زبان دیگر",
+  "shortClue": "برگرداننده"
+ },
+ {
+  "word": "استاد",
+  "topics": [
+   "professions"
+  ],
+  "difficulty": 1,
+  "kind": "common",
+  "clue": "مدرس دانشگاه",
+  "shortClue": "مدرس دانشگاه"
+ },
+ {
+  "word": "دانشمند",
+  "topics": [
+   "professions"
+  ],
+  "difficulty": 1,
+  "kind": "common",
+  "clue": "پژوهشگر علم",
+  "shortClue": "پژوهشگر"
+ },
+ {
+  "word": "فروشنده",
+  "topics": [
+   "professions"
+  ],
+  "difficulty": 1,
+  "kind": "common",
+  "clue": "کسی که جنس را به مشتری می دهد",
+  "shortClue": "طرف مشتری"
+ },
+ {
+  "word": "کتابدار",
+  "topics": [
+   "professions"
+  ],
+  "difficulty": 2,
+  "kind": "common",
+  "clue": "مسئول کتابخانه",
+  "shortClue": "مسئول کتابخانه"
+ },
+ {
+  "word": "پیشخدمت",
+  "topics": [
+   "professions"
+  ],
+  "difficulty": 2,
+  "kind": "common",
+  "clue": "سرویس دهنده در رستوران",
+  "shortClue": "سرویس دهنده"
+ },
+ {
+  "word": "رفتگر",
+  "topics": [
+   "professions"
+  ],
+  "difficulty": 2,
+  "kind": "common",
+  "clue": "پاک کننده خیابان",
+  "shortClue": "پاک کننده خیابان"
+ },
+ {
+  "word": "قالی",
+  "topics": [
+   "localCulture"
+  ],
+  "difficulty": 1,
+  "kind": "common",
+  "clue": "فرش بافته شده با گره",
+  "shortClue": "فرش گره دار"
+ },
+ {
+  "word": "گلیم",
+  "topics": [
+   "localCulture"
+  ],
+  "difficulty": 2,
+  "kind": "common",
+  "clue": "زیراندازی بی پرز و بافته",
+  "shortClue": "فرش بی پرز"
+ },
+ {
+  "word": "منبت",
+  "topics": [
+   "localCulture"
+  ],
+  "difficulty": 3,
+  "kind": "common",
+  "clue": "کنده کاری روی چوب",
+  "shortClue": "کنده کاری چوب"
+ },
+ {
+  "word": "خاتم",
+  "topics": [
+   "localCulture"
+  ],
+  "difficulty": 3,
+  "kind": "common",
+  "clue": "هنر چیدن چوب و استخوان به شکل منظم",
+  "shortClue": "هنر چیدن"
+ },
+ {
+  "word": "مینا",
+  "topics": [
+   "localCulture"
+  ],
+  "difficulty": 3,
+  "kind": "common",
+  "clue": "لعاب رنگین بر فلز",
+  "shortClue": "لعاب فلز"
+ },
+ {
+  "word": "ترمه",
+  "topics": [
+   "localCulture"
+  ],
+  "difficulty": 3,
+  "kind": "common",
+  "clue": "پارچه زربفت کهن",
+  "shortClue": "پارچه زربفت"
+ },
+ {
+  "word": "قلمکار",
+  "topics": [
+   "localCulture"
+  ],
+  "difficulty": 3,
+  "kind": "common",
+  "clue": "پارچه نقش دار چاپی اصفهان",
+  "shortClue": "پارچه چاپی"
+ },
+ {
+  "word": "گلاب",
+  "topics": [
+   "localCulture"
+  ],
+  "difficulty": 2,
+  "kind": "common",
+  "clue": "عرق گل محمدی",
+  "shortClue": "عرق گل"
+ },
+ {
+  "word": "سفره",
+  "topics": [
+   "localCulture"
+  ],
+  "difficulty": 1,
+  "kind": "common",
+  "clue": "پارچه ای که غذا را روی ان می چینند",
+  "shortClue": "بساط غذا"
+ },
+ {
+  "word": "عیدی",
+  "topics": [
+   "localCulture"
+  ],
+  "difficulty": 1,
+  "kind": "common",
+  "clue": "پول هدیه بچه ها در جشن",
+  "shortClue": "هدیه جشن"
+ },
+ {
+  "word": "چایخانه",
+  "topics": [
+   "localCulture"
+  ],
+  "difficulty": 3,
+  "kind": "common",
+  "clue": "جای نوشیدن چای و قلیان",
+  "shortClue": "جای چای"
+ },
+ {
+  "word": "ضربالمثل",
+  "topics": [
+   "localCulture"
+  ],
+  "difficulty": 2,
+  "kind": "common",
+  "clue": "جمله کوتاه حکمت امیز",
+  "shortClue": "جمله حکمت"
+ },
+ {
+  "word": "نقالی",
+  "topics": [
+   "localCulture"
+  ],
+  "difficulty": 3,
+  "kind": "common",
+  "clue": "بازگو کردن داستان های قهرمانی",
+  "shortClue": "قصه گویی"
+ },
+ {
+  "word": "چهارشنبهسوری",
+  "topics": [
+   "localCulture"
+  ],
+  "difficulty": 2,
+  "kind": "proper",
+  "clue": "شب پرش از اتش پیش از نوروز",
+  "shortClue": "شب اتش"
+ },
+ {
+  "word": "سیزدهبدر",
+  "topics": [
+   "localCulture"
+  ],
+  "difficulty": 2,
+  "kind": "proper",
+  "clue": "روز طبیعت در پایان جشن بهاری",
+  "shortClue": "روز طبیعت"
+ },
+ {
+  "word": "خیام",
+  "topics": [
+   "localCulture"
+  ],
+  "difficulty": 2,
+  "kind": "proper",
+  "clue": "شاعر و ریاضیدان رباعی سرای نیشابور",
+  "shortClue": "رباعی سرای"
+ },
+ {
+  "word": "مولوی",
+  "topics": [
+   "localCulture"
+  ],
+  "difficulty": 2,
+  "kind": "proper",
+  "clue": "سراینده مثنوی معنوی",
+  "shortClue": "سراینده مثنوی"
+ },
+ {
+  "word": "رودکی",
+  "topics": [
+   "localCulture"
+  ],
+  "difficulty": 3,
+  "kind": "proper",
+  "clue": "پدر شعر فارسی",
+  "shortClue": "پدر شعر"
+ },
+ {
+  "word": "نظامی",
+  "topics": [
+   "localCulture"
+  ],
+  "difficulty": 3,
+  "kind": "proper",
+  "clue": "سراینده خمسه از گنجه",
+  "shortClue": "سراینده خمسه"
+ },
+ {
+  "word": "بیستون",
+  "topics": [
+   "localCulture"
+  ],
+  "difficulty": 3,
+  "kind": "proper",
+  "clue": "کوه و کتیبه ای کهن در کرمانشاه",
+  "shortClue": "کوه کتیبه"
+ },
+ {
+  "word": "سیمرغ",
+  "topics": [
+   "localCulture"
+  ],
+  "difficulty": 3,
+  "kind": "proper",
+  "clue": "پرنده افسانه ای شاهنامه",
+  "shortClue": "پرنده افسانه"
+ },
+ {
+  "word": "رستم",
+  "topics": [
+   "localCulture"
+  ],
+  "difficulty": 2,
+  "kind": "proper",
+  "clue": "پهلوان بزرگ شاهنامه",
+  "shortClue": "پهلوان شاهنامه"
+ },
+ {
+  "word": "خرمن",
+  "topics": [
+   "localCulture"
+  ],
+  "difficulty": 3,
+  "kind": "common",
+  "clue": "توده محصول گندم در پایان درو",
+  "shortClue": "توده گندم"
+ },
+ {
+  "word": "پالیز",
+  "topics": [
+   "localCulture"
+  ],
+  "difficulty": 3,
+  "kind": "common",
+  "clue": "جای کشت خربزه و هندوانه",
+  "shortClue": "جای خربزه"
+ },
+ {
+  "word": "کلاه",
+  "topics": [
+   "localCulture"
+  ],
+  "difficulty": 1,
+  "kind": "common",
+  "clue": "پوشش سر",
+  "shortClue": "پوشش سر"
+ },
+ {
+  "word": "دیدوبازدید",
+  "topics": [
+   "localCulture"
+  ],
+  "difficulty": 2,
+  "kind": "common",
+  "clue": "رفتن به خانه یکدیگر در عید",
+  "shortClue": "مهمانی عید"
+ },
+ {
+  "word": "شبچله",
+  "topics": [
+   "localCulture"
+  ],
+  "difficulty": 2,
+  "kind": "common",
+  "clue": "بلندترین شب سال",
+  "shortClue": "بلندترین شب"
+ },
+ {
+  "word": "نقاره",
+  "topics": [
+   "localCulture"
+  ],
+  "difficulty": 3,
+  "kind": "common",
+  "clue": "طبل بزرگ جشن",
+  "shortClue": "طبل جشن"
+ },
+ {
+  "word": "خونچه",
+  "topics": [
+   "localCulture"
+  ],
+  "difficulty": 3,
+  "kind": "common",
+  "clue": "سینی بزرگ پر از خوراکی",
+  "shortClue": "سینی بزرگ"
+ },
+ {
+  "word": "ارسی",
+  "topics": [
+   "localCulture"
+  ],
+  "difficulty": 3,
+  "kind": "common",
+  "clue": "پنجره بزرگ چوبی رنگین",
+  "shortClue": "پنجره رنگین"
+ },
+ {
+  "word": "بادگیر",
+  "topics": [
+   "localCulture"
+  ],
+  "difficulty": 2,
+  "kind": "common",
+  "clue": "برج خنک کننده خانه های یزد",
+  "shortClue": "برج خنک کن"
+ },
+ {
+  "word": "چادرشب",
+  "topics": [
+   "localCulture"
+  ],
+  "difficulty": 3,
+  "kind": "common",
+  "clue": "پارچه گلدار روی بستر",
+  "shortClue": "پارچه گلدار"
+ },
+ {
+  "word": "دلهره",
+  "topics": [
+   "general"
+  ],
+  "difficulty": 3,
+  "kind": "common",
+  "clue": "نگرانی پراضطراب پیش از اتفاق",
+  "shortClue": "نگرانی"
+ },
+ {
+  "word": "خرسندی",
+  "topics": [
+   "general"
+  ],
+  "difficulty": 3,
+  "kind": "common",
+  "clue": "حالت رضایت و خوشی",
+  "shortClue": "رضایت"
+ },
+ {
+  "word": "پشیمانی",
+  "topics": [
+   "general"
+  ],
+  "difficulty": 3,
+  "kind": "common",
+  "clue": "اندوه از کاری که کرده اند",
+  "shortClue": "اندوه کرده"
+ },
+ {
+  "word": "بردباری",
+  "topics": [
+   "general"
+  ],
+  "difficulty": 3,
+  "kind": "common",
+  "clue": "تحمل دشواری با اراده",
+  "shortClue": "تحمل"
+ },
+ {
+  "word": "فروتنی",
+  "topics": [
+   "general"
+  ],
+  "difficulty": 3,
+  "kind": "common",
+  "clue": "نداشتن خودبزرگ بینی",
+  "shortClue": "بی ادعایی"
+ },
+ {
+  "word": "کنجکاوی",
+  "topics": [
+   "general"
+  ],
+  "difficulty": 3,
+  "kind": "common",
+  "clue": "میل به دانستن و پرسیدن",
+  "shortClue": "میل دانستن"
+ },
+ {
+  "word": "فرزانگی",
+  "topics": [
+   "general"
+  ],
+  "difficulty": 3,
+  "kind": "common",
+  "clue": "خرد و دانایی بزرگ",
+  "shortClue": "خردمندی"
+ },
+ {
+  "word": "سپیده",
+  "topics": [
+   "nature"
+  ],
+  "difficulty": 3,
+  "kind": "common",
+  "clue": "روشنایی نخست پیش از برآمدن خورشید",
+  "shortClue": "پیش از طلوع"
+ },
+ {
+  "word": "توفان",
+  "topics": [
+   "nature"
+  ],
+  "difficulty": 3,
+  "kind": "common",
+  "clue": "باد بسیار سخت همراه باران",
+  "shortClue": "باد سهمگین"
+ },
+ {
+  "word": "گردباد",
+  "topics": [
+   "nature"
+  ],
+  "difficulty": 3,
+  "kind": "common",
+  "clue": "باد چرخان ستونی",
+  "shortClue": "باد چرخان"
+ },
+ {
+  "word": "کرکس",
+  "topics": [
+   "animals"
+  ],
+  "difficulty": 3,
+  "kind": "common",
+  "clue": "پرنده لاشه خوار و بزرگ",
+  "shortClue": "لاشه خوار"
+ },
+ {
+  "word": "خفاش",
+  "topics": [
+   "animals"
+  ],
+  "difficulty": 3,
+  "kind": "common",
+  "clue": "پستاندار پرنده شب",
+  "shortClue": "پستاندار شبگرد"
+ },
+ {
+  "word": "بلور",
+  "topics": [
+   "science"
+  ],
+  "difficulty": 3,
+  "kind": "common",
+  "clue": "ماده شفاف و سخت با ساختار منظم",
+  "shortClue": "ماده شفاف"
+ },
+ {
+  "word": "نوترون",
+  "topics": [
+   "science"
+  ],
+  "difficulty": 3,
+  "kind": "common",
+  "clue": "ذره خنثی هسته",
+  "shortClue": "ذره خنثی"
+ },
+ {
+  "word": "دیدهبان",
+  "topics": [
+   "history"
+  ],
+  "difficulty": 3,
+  "kind": "common",
+  "clue": "مراقب بالای برج",
+  "shortClue": "مراقب بالا"
+ },
+ {
+  "word": "گنجینه",
+  "topics": [
+   "history"
+  ],
+  "difficulty": 3,
+  "kind": "common",
+  "clue": "اندوخته گرانبهای نهان",
+  "shortClue": "اندوخته گرانبها"
+ },
+ {
+  "word": "نگارگر",
+  "topics": [
+   "arts"
+  ],
+  "difficulty": 3,
+  "kind": "common",
+  "clue": "مینیاتور ساز ایرانی",
+  "shortClue": "مینیاتور ساز"
+ },
+ {
+  "word": "تصنیف",
+  "topics": [
+   "arts"
+  ],
+  "difficulty": 3,
+  "kind": "common",
+  "clue": "اهنگ و شعر ساخته شده",
+  "shortClue": "اهنگ شعردار"
+ },
+ {
+  "word": "پردهخوانی",
+  "topics": [
+   "arts"
+  ],
+  "difficulty": 3,
+  "kind": "common",
+  "clue": "قصه گویی همراه تابلو بزرگ",
+  "shortClue": "قصه تصویری"
+ },
+ {
+  "word": "سفالگر",
+  "topics": [
+   "professions"
+  ],
+  "difficulty": 3,
+  "kind": "common",
+  "clue": "سازنده کوزه و کاسه گلی",
+  "shortClue": "کوزه ساز"
+ },
+ {
+  "word": "قلمزن",
+  "topics": [
+   "professions"
+  ],
+  "difficulty": 3,
+  "kind": "common",
+  "clue": "کنده کار روی مس و نقره",
+  "shortClue": "حکاک"
+ },
+ {
+  "word": "دباغ",
+  "topics": [
+   "professions"
+  ],
+  "difficulty": 3,
+  "kind": "common",
+  "clue": "اماده کننده چرم از پوست",
+  "shortClue": "چرم ساز"
+ },
+ {
+  "word": "جارچی",
+  "topics": [
+   "professions"
+  ],
+  "difficulty": 3,
+  "kind": "common",
+  "clue": "کسی که خبر را در کوچه بانگ می زند",
+  "shortClue": "خبر رسان قدیم"
+ },
+ {
+  "word": "گدازه",
+  "topics": [
+   "nature"
+  ],
+  "difficulty": 3,
+  "kind": "common",
+  "clue": "سنگ مذاب بیرون ریخته",
+  "shortClue": "سنگ مذاب"
+ },
+ {
+  "word": "لنگرگاه",
+  "topics": [
+   "geography"
+  ],
+  "difficulty": 3,
+  "kind": "common",
+  "clue": "جای ایستادن کشتی در دریا",
+  "shortClue": "جای کشتی"
+ },
+ {
+  "word": "فانوس",
+  "topics": [
+   "home"
+  ],
+  "difficulty": 3,
+  "kind": "common",
+  "clue": "چراغ دستی با شیشه",
+  "shortClue": "چراغ دستی"
+ }
+]
