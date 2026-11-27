@@ -1,6 +1,6 @@
 [
   {"word":"matahari","topics":["general"],"difficulty":1,"kind":"common","clue":"Benda langit yang menerangi siang","shortClue":"Penerang siang"},
-  {"word":"hari","topics":["general"],"difficulty":1,"kind":"common","clue":"Satu putaran dari pagi sampai malam","shortClue":"Putaran sehari"},
+  {"word":"hari","topics":["general"],"difficulty":1,"kind":"common","clue":"Satu putaran dari pagi sampai malam","shortClue":"Putaran bumi"},
   {"word":"cahaya","topics":["general"],"difficulty":1,"kind":"common","clue":"Sesuatu yang dipancarkan lampu","shortClue":"Sinar lampu"},
   {"word":"rumah","topics":["general"],"difficulty":1,"kind":"common","clue":"Tempat tinggal sebuah keluarga","shortClue":"Tempat keluarga"},
   {"word":"buku","topics":["general"],"difficulty":1,"kind":"common","clue":"Kumpulan halaman untuk dibaca","shortClue":"Untuk dibaca"},
@@ -10,7 +10,7 @@
   {"word":"harapan","topics":["general"],"difficulty":2,"kind":"common","clue":"Perasaan bahwa hal baik akan datang","shortClue":"Hal baik"},
   {"word":"gagasan","topics":["general"],"difficulty":2,"kind":"common","clue":"Pikiran yang muncul tiba-tiba","shortClue":"Pikiran mendadak"},
   {"word":"bulan","topics":["general"],"difficulty":1,"kind":"common","clue":"Satelit yang bersinar pada malam","shortClue":"Bersinar malam"},
-  {"word":"rasa","topics":["general"],"difficulty":2,"kind":"common","clue":"Isi perasaan di dalam hati","shortClue":"Isi hati"},
+  {"word":"rasa","topics":["general"],"difficulty":2,"kind":"common","clue":"Apa yang dialami di dalam hati","shortClue":"Isi hati"},
   {"word":"laut","topics":["nature"],"difficulty":1,"kind":"common","clue":"Hamparan air asin yang luas","shortClue":"Air asin"},
   {"word":"ombak","topics":["nature"],"difficulty":1,"kind":"common","clue":"Gelombang yang pecah di pantai","shortClue":"Pecah di pantai"},
   {"word":"batu","topics":["nature"],"difficulty":1,"kind":"common","clue":"Benda keras dari bumi","shortClue":"Benda keras"},

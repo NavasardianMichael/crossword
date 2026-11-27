@@ -20,6 +20,20 @@ describe('isGiveaway', () => {
     expect(isGiveaway('waterfall', 'A fall of water from a cliff', 'en')).toBe(true)
   })
 
+  it('catches a clue word built on the answer', () => {
+    expect(isGiveaway('lepel', 'Soeplepel', 'nl')).toBe(true)
+    expect(isGiveaway('zink', 'Bläulich-weißes Metall zum Verzinken', 'de')).toBe(true)
+    expect(isGiveaway('pot', 'Kookpot', 'nl')).toBe(true)
+    expect(isGiveaway('حصن', 'مبنى محصن ضد الاعداء', 'ar')).toBe(true)
+    expect(isGiveaway('युग', 'इतिहास का लंबा दौर, जैसे सतयुग', 'hi')).toBe(true)
+    expect(isGiveaway('火车', '在铁轨上跑的长火车头', 'zh')).toBe(true)
+  })
+
+  it('lets a short answer hidden by chance inside a word through', () => {
+    expect(isGiveaway('car', 'Scarlet bird of the eastern woods', 'en')).toBe(false)
+    expect(isGiveaway('ong', 'Côn trùng làm mật trong tổ', 'vi')).toBe(false)
+  })
+
   it('lets unrelated words with a short shared start through', () => {
     expect(isGiveaway('forest', 'Land covered with trees, good for a walk', 'en')).toBe(false)
     expect(isGiveaway('tear', 'The greatest earnest drop from an eye', 'en')).toBe(false)

@@ -108,7 +108,7 @@
   {"word":"बुद्धीबळ","topics":["sport"],"difficulty":3,"kind":"common","clue":"चौसष्ट घरांवरील डावपेचाचा खेळ","shortClue":"डावपेचाचा खेळ"},
   {"word":"कुस्ती","topics":["sport"],"difficulty":2,"kind":"common","clue":"आखाड्यात दोघे मिठीत गुंततात तो खेळ","shortClue":"आखाड्यातील मिठी"},
   {"word":"सायकल","topics":["sport"],"difficulty":1,"kind":"common","clue":"दोन चाके, पायांच्या जोरावर चालणारे वाहन","shortClue":"दोन चाके"},
-  {"word":"खेळ","topics":["sport"],"difficulty":1,"kind":"common","clue":"नियमांनी खेळली जाणारी मजेची स्पर्धा","shortClue":"मजेची स्पर्धा"},
+  {"word":"खेळ","topics":["sport"],"difficulty":1,"kind":"common","clue":"नियम पाळून मजेसाठी केली जाणारी स्पर्धा","shortClue":"मजेची स्पर्धा"},
   {"word":"धाव","topics":["sport"],"difficulty":1,"kind":"common","clue":"दोन पाय वेगाने पुढे नेणे","shortClue":"पाय वेगाने"},
 
   {"word":"तबला","topics":["arts"],"difficulty":1,"kind":"common","clue":"हाताने वाजवायची जोडीदार चर्मवाद्ये","shortClue":"चर्मवाद्य जोडी"},

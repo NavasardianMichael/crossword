@@ -90,7 +90,8 @@ floor; aim for a natural spread rather than forcing long words.
    ```
 
    It validates every word as generated words are validated (alphabet, length in cells, clue
-   lengths, script, giveaways), rejects duplicates across all files, and gates the balance once
+   lengths, script, giveaways — including the answer inside a longer clue word, `Soeplepel` for
+   `lepel`), rejects duplicates across all files, and gates the balance once
    there are 200 Claude-written words. If you bend a word to pass the checker, say so in your
    report — the checker may be what is wrong.
 4. Read the "possible same-root pairs" it prints: replace the ones that really are one word's

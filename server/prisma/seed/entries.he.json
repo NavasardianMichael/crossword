@@ -117,7 +117,7 @@
   {"word":"כרית","topics":["home"],"difficulty":1,"kind":"common","clue":"משענת רכה מתחת לראש","shortClue":"משענת רכה"},
   {"word":"שטיח","topics":["home"],"difficulty":1,"kind":"common","clue":"אריג שמכסה את הרצפה","shortClue":"כיסוי לרצפה"},
   {"word":"קומקום","topics":["home"],"difficulty":1,"kind":"common","clue":"כלי שמוזגים ממנו תה","shortClue":"כלי לתה"},
-  {"word":"נורה","topics":["home"],"difficulty":1,"kind":"common","clue":"כדור זכוכית שמאיר בבית מנורה","shortClue":"כדור מאיר"},
+  {"word":"נורה","topics":["home"],"difficulty":1,"kind":"common","clue":"כדור זכוכית שמאיר כשמדליקים את האור","shortClue":"כדור מאיר"},
   {"word":"מקרר","topics":["home"],"difficulty":1,"kind":"common","clue":"ארון ששומר אוכל בקור","shortClue":"ארון קר"},
   {"word":"רופא","topics":["professions"],"difficulty":1,"kind":"common","clue":"אדם בחלוק לבן שקובע אבחנה","shortClue":"חלוק לבן"},
   {"word":"מורה","topics":["professions"],"difficulty":1,"kind":"common","clue":"אדם עם גיר מול הלוח","shortClue":"גיר ולוח"},

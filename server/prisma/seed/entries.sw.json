@@ -19,7 +19,7 @@
   {"word": "msitu", "topics": ["nature"], "difficulty": 1, "kind": "common", "clue": "Eneo lenye miti mingi na kivuli", "shortClue": "Miti na kivuli"},
   {"word": "pwani", "topics": ["nature"], "difficulty": 1, "kind": "common", "clue": "Kingo ya bahari yenye mchanga", "shortClue": "Kingo ya bahari"},
   {"word": "maua", "topics": ["nature"], "difficulty": 1, "kind": "common", "clue": "Sehemu ya mmea yenye rangi na harufu nzuri", "shortClue": "Harufu nzuri"},
-  {"word": "jani", "topics": ["nature"], "difficulty": 1, "kind": "common", "clue": "Kijani bapa kinachoota kwenye tawi", "shortClue": "Kijani cha tawi"},
+  {"word": "jani", "topics": ["nature"], "difficulty": 1, "kind": "common", "clue": "Sehemu bapa ya mmea inayoota kwenye tawi", "shortClue": "Sehemu ya mti"},
   {"word": "mzizi", "topics": ["nature"], "difficulty": 2, "kind": "common", "clue": "Sehemu ya mmea iliyo chini ya udongo", "shortClue": "Chini ya udongo"},
   {"word": "upinde", "topics": ["nature"], "difficulty": 2, "kind": "common", "clue": "Tao la rangi baada ya mvua", "shortClue": "Tao la rangi"},
   {"word": "mti", "topics": ["nature"], "difficulty": 1, "kind": "common", "clue": "Mmea mrefu wenye shina na matawi", "shortClue": "Mmea mrefu"},

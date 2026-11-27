@@ -123,7 +123,7 @@
   {"word":"фреска","topics":["arts"],"difficulty":2,"kind":"common","clue":"Мальовання по ще вологому тинку","shortClue":"Фарба на тинку"},
   {"word":"скульптура","topics":["arts"],"difficulty":2,"kind":"common","clue":"Постать, висічена в мармурі або бронзі","shortClue":"Постать у мармурі"},
 
-  {"word":"стіл","topics":["home"],"difficulty":1,"kind":"common","clue":"Меблі зі стільницею, за якою їдять","shortClue":"Стільниця для їжі"},
+  {"word":"стіл","topics":["home"],"difficulty":1,"kind":"common","clue":"Меблі на ніжках, за якими їдять і працюють","shortClue":"Обідні меблі"},
   {"word":"стілець","topics":["home"],"difficulty":1,"kind":"common","clue":"Меблі зі спинкою, щоб сидіти","shortClue":"Має спинку"},
   {"word":"ліжко","topics":["home"],"difficulty":1,"kind":"common","clue":"Меблі, на яких сплять уночі","shortClue":"Для сну"},
   {"word":"кухня","topics":["home"],"difficulty":1,"kind":"common","clue":"Кімната з пальниками й каструлями","shortClue":"Кімната з пальниками"},

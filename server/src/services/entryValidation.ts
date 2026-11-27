@@ -63,10 +63,10 @@ export const minWordLength = (locale: Locale): number => (TWO_CELL.has(locale) ?
 export const clip = (text: unknown, maxLength: number): string =>
   typeof text === 'string' ? text.trim().replace(/\s+/g, ' ').slice(0, maxLength + 1) : ''
 
-/** Clue words, folded the way answers are, so `Лесной` and `лес` compare. */
+/** Clue words, folded the way answers are, so `Лесной` and `лес` compare. Marks stay in the word (`सतयुग`). */
 const clueTokens = (clue: string, locale: Locale): string[] =>
   clue
-    .split(/[^\p{L}]+/u)
+    .split(/[^\p{L}\p{M}]+/u)
     .map((token) => normalizeWord(token, locale))
     .filter((token): token is string => Boolean(token))
 
@@ -77,8 +77,23 @@ const sharedPrefix = (a: readonly string[], b: readonly string[]): number => {
 }
 
 /**
+ * Whether one clue word carries the whole answer inside it: a compound built on it (`Soeplepel` →
+ * `lepel`), a prefixed derivative (`محصن` → `حصن`, `सतयुग` → `युग`), or, in a script
+ * without spaces, the answer anywhere in the clue. From 4 cells anywhere in the word (2 where a cell
+ * is a syllable or a character); a 3-cell answer only as the word's end — the head of a compound or a
+ * prefixed form — since at its start it is mostly chance ("cardinal", "Antarctica"). Not in
+ * Vietnamese, whose clue words are single syllables: `ong` in `trong` is always chance.
+ */
+const containsAnswer = (token: string, answer: string, answerLength: number, locale: Locale): boolean => {
+  if (locale === 'vi' || token.length <= answer.length || !token.includes(answer)) return false
+  if (answerLength >= (TWO_CELL.has(locale) ? 2 : 4)) return true
+  return answerLength === 3 && token.endsWith(answer)
+}
+
+/**
  * Whether a clue gives its answer away: the answer itself, a word of the same root (`лес` →
- * `лесник`), a long part of a compound (`пароход` → `ход`), or the answer hidden across words.
+ * `лесник`), a word containing it (`Kookpot` → `pot`), a long part of a compound (`пароход` →
+ * `ход`), or the answer hidden across words.
  */
 export const isGiveaway = (answer: string, clue: string, locale: Locale): boolean => {
   const answerCells = toCells(answer, locale)
@@ -90,6 +105,7 @@ export const isGiveaway = (answer: string, clue: string, locale: Locale): boolea
   return tokens.some((token) => {
     // eslint-disable-next-line security/detect-possible-timing-attacks -- comparing words, not secrets
     if (token === answer) return true
+    if (containsAnswer(token, answer, answerCells.length, locale)) return true
     const tokenCells = toCells(token, locale)
     // Both must carry the whole stem, so "for" is no giveaway for "forest", but "лесной" is for "лес";
     // and an inflection adds a few letters at most, so "cardinal" is no giveaway for "car".
