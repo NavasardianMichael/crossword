@@ -1,0 +1,5002 @@
+[
+  {
+    "word": "ครอบครัว",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "คนในบ้านที่เป็นญาติกัน",
+    "shortClue": "คนในบ้าน"
+  },
+  {
+    "word": "เพื่อน",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "คนที่สนิทกันและคบกันดี",
+    "shortClue": "คนสนิท"
+  },
+  {
+    "word": "กลางคืน",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "ช่วงเวลาที่ฟ้ามืด",
+    "shortClue": "ฟ้ามืด"
+  },
+  {
+    "word": "สัปดาห์",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "เจ็ดวันนับรวมกัน",
+    "shortClue": "เจ็ดวัน"
+  },
+  {
+    "word": "ปัญหา",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "เรื่องยุ่งยากที่ต้องแก้ไข",
+    "shortClue": "เรื่องที่ต้องแก้"
+  },
+  {
+    "word": "คำตอบ",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "สิ่งที่ได้เมื่อไขปริศนาสำเร็จ",
+    "shortClue": "ไขปริศนา"
+  },
+  {
+    "word": "โอกาส",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "จังหวะที่เหมาะจะลงมือทำ",
+    "shortClue": "จังหวะดี"
+  },
+  {
+    "word": "เหตุผล",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "ข้อที่อธิบายว่าทำไมจึงเป็นเช่นนั้น",
+    "shortClue": "คำอธิบาย"
+  },
+  {
+    "word": "ประสบการณ์",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "สิ่งที่สะสมจากการลงมือทำมานาน",
+    "shortClue": "ได้จากการทำ"
+  },
+  {
+    "word": "ตัวอย่าง",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "สิ่งที่ยกมาให้ดูเพื่อให้เข้าใจ",
+    "shortClue": "ยกมาดู"
+  },
+  {
+    "word": "มิตรภาพ",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "ความผูกพันระหว่างเพื่อนที่ดีต่อกัน",
+    "shortClue": "ใจที่ผูกกัน"
+  },
+  {
+    "word": "น้ำใจ",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "ความมีเมตตาช่วยเหลือผู้อื่น",
+    "shortClue": "ใจกว้างช่วยคน"
+  },
+  {
+    "word": "อารมณ์",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "ความรู้สึกที่เกิดขึ้นในใจขณะนั้น",
+    "shortClue": "สภาพจิตใจ"
+  },
+  {
+    "word": "ฝัน",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "ภาพที่เห็นในหัวตอนหลับ",
+    "shortClue": "เห็นตอนหลับ"
+  },
+  {
+    "word": "รอยยิ้ม",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "ใบหน้าที่ยกมุมปากขึ้นด้วยความสุข",
+    "shortClue": "ปากยกขึ้น"
+  },
+  {
+    "word": "น้ำตา",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "ของเหลวเค็มที่หลั่งตอนเสียใจ",
+    "shortClue": "หลั่งตอนเศร้า"
+  },
+  {
+    "word": "เมตตา",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "ความรักและสงสารที่ให้ผู้อื่น",
+    "shortClue": "ใจอ่อนโยน"
+  },
+  {
+    "word": "กตัญญู",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "รู้คุณและตอบแทนพ่อแม่",
+    "shortClue": "รู้บุญคุณ"
+  },
+  {
+    "word": "ขยัน",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "ทำงานเอาจริงเอาจังสม่ำเสมอ",
+    "shortClue": "ไม่เกียจคร้าน"
+  },
+  {
+    "word": "ขี้เกียจ",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "ไม่อยากทำงานหรือขยับตัว",
+    "shortClue": "ไม่อยากทำ"
+  },
+  {
+    "word": "อดทน",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "ทนต่อความลำบากโดยไม่ท้อ",
+    "shortClue": "ทนไม่ท้อ"
+  },
+  {
+    "word": "สะอาด",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "ไม่มีสิ่งสกปรกเลย",
+    "shortClue": "ไม่สกปรก"
+  },
+  {
+    "word": "สกปรก",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "เปื้อนฝุ่นและเลอะเทอะ",
+    "shortClue": "เลอะเทอะ"
+  },
+  {
+    "word": "ปลอดภัย",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "ไม่มีอะไรมาทำร้าย",
+    "shortClue": "ไม่มีอันตราย"
+  },
+  {
+    "word": "อันตราย",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "สิ่งที่อาจทำให้บาดเจ็บ",
+    "shortClue": "เสี่ยงเจ็บ"
+  },
+  {
+    "word": "สุขภาพ",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "สภาพร่างกายว่าแข็งแรงหรือไม่",
+    "shortClue": "ร่างกายดีไหม"
+  },
+  {
+    "word": "สำเร็จ",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "ทำได้ตามที่ตั้งใจไว้",
+    "shortClue": "ทำได้ตามหวัง"
+  },
+  {
+    "word": "ล้มเหลว",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "ทำไม่ได้ตามที่หวัง",
+    "shortClue": "ไม่สมหวัง"
+  },
+  {
+    "word": "พยายาม",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "ลงแรงทำอย่างไม่ย่อท้อ",
+    "shortClue": "ลงแรงทำ"
+  },
+  {
+    "word": "ตัดสินใจ",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "เลือกทางใดทางหนึ่งจนเด็ดขาด",
+    "shortClue": "เลือกให้ได้"
+  },
+  {
+    "word": "สนุก",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "รู้สึกเพลิดเพลินและขำ",
+    "shortClue": "เพลิดเพลิน"
+  },
+  {
+    "word": "เบื่อ",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "รู้สึกไม่อยากทำสิ่งเดิมอีก",
+    "shortClue": "ไม่อยากทำอีก"
+  },
+  {
+    "word": "เหนื่อย",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "รู้สึกหมดแรงหลังทำงานหนัก",
+    "shortClue": "หมดแรง"
+  },
+  {
+    "word": "หิว",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "ท้องร้องอยากกิน",
+    "shortClue": "อยากกิน"
+  },
+  {
+    "word": "ง่วง",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "อยากนอนเต็มที่",
+    "shortClue": "อยากนอน"
+  },
+  {
+    "word": "ตื่นเต้น",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "ใจเต้นแรงเพราะรอสิ่งสำคัญ",
+    "shortClue": "ใจเต้นแรง"
+  },
+  {
+    "word": "ภูมิใจ",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "สุขใจที่ได้ทำสิ่งดี",
+    "shortClue": "สุขกับผลงาน"
+  },
+  {
+    "word": "อิจฉา",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "ไม่พอใจที่คนอื่นมีดีกว่า",
+    "shortClue": "ไม่พอใจที่เขามี"
+  },
+  {
+    "word": "ขอบคุณ",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "คำที่พูดเมื่อได้รับความช่วยเหลือ",
+    "shortClue": "คำตอบแทนน้ำใจ"
+  },
+  {
+    "word": "ขอโทษ",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "คำที่พูดเมื่อทำผิด",
+    "shortClue": "คำเมื่อทำผิด"
+  },
+  {
+    "word": "ยินดี",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "พอใจที่เห็นผู้อื่นสมหวัง",
+    "shortClue": "ดีใจด้วย"
+  },
+  {
+    "word": "สวัสดี",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "คำทักทายเมื่อพบกัน",
+    "shortClue": "คำทักทาย"
+  },
+  {
+    "word": "ลาก่อน",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "คำที่พูดเมื่อต้องจากกัน",
+    "shortClue": "คำจากลา"
+  },
+  {
+    "word": "เชิญ",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "ขอให้มาร่วมงานอย่างสุภาพ",
+    "shortClue": "ขอให้มา"
+  },
+  {
+    "word": "กรุณา",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "คำสุภาพที่ใช้ขอความช่วยเหลือ",
+    "shortClue": "คำขอสุภาพ"
+  },
+  {
+    "word": "เรียบร้อย",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "อยู่ในสภาพดีและไม่ยุ่งเหยิง",
+    "shortClue": "เป็นระเบียบ"
+  },
+  {
+    "word": "สุภาพ",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "มีมารยาทดีในการพูดและทำ",
+    "shortClue": "มีมารยาท"
+  },
+  {
+    "word": "มารยาท",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "กิริยาที่สังคมถือว่าดี",
+    "shortClue": "กิริยาดี"
+  },
+  {
+    "word": "ชั่วโมง",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "หกสิบนาทีรวมกัน",
+    "shortClue": "หกสิบนาที"
+  },
+  {
+    "word": "วินาที",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "ช่วงเวลาสั้นที่สุดที่นาฬิกาเดินหนึ่งก้าว",
+    "shortClue": "ช่วงสั้นสุด"
+  },
+  {
+    "word": "เมื่อวาน",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "วันก่อนวันนี้",
+    "shortClue": "วันก่อนหน้า"
+  },
+  {
+    "word": "พรุ่งนี้",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "วันถัดจากวันนี้",
+    "shortClue": "วันถัดไป"
+  },
+  {
+    "word": "ปัจจุบัน",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "เวลาตอนนี้ ไม่ใช่อดีตหรืออนาคต",
+    "shortClue": "ตอนนี้"
+  },
+  {
+    "word": "อดีต",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "เวลาที่ผ่านพ้นไปแล้ว",
+    "shortClue": "ผ่านไปแล้ว"
+  },
+  {
+    "word": "อนาคต",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "เวลาที่ยังมาไม่ถึง",
+    "shortClue": "ยังไม่ถึง"
+  },
+  {
+    "word": "เริ่มต้น",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "จุดแรกของสิ่งหนึ่ง",
+    "shortClue": "จุดแรก"
+  },
+  {
+    "word": "สิ้นสุด",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "จบลงโดยสมบูรณ์",
+    "shortClue": "จบลง"
+  },
+  {
+    "word": "โชค",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "เหตุการณ์ดีที่เกิดโดยไม่ได้คาด",
+    "shortClue": "ผลดีที่มาเอง"
+  },
+  {
+    "word": "ระยะทาง",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "ความห่างระหว่างสองที่",
+    "shortClue": "ความห่าง"
+  },
+  {
+    "word": "กระเป๋า",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "ถุงใบใหญ่ใส่ของตอนเดินทาง",
+    "shortClue": "ใส่ของเดินทาง"
+  },
+  {
+    "word": "สัมภาระ",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "ข้าวของที่ถือหรือแบกไปในการเดินทาง",
+    "shortClue": "ของพกไปทาง"
+  },
+  {
+    "word": "ตั๋ว",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "กระดาษแสดงสิทธิ์ขึ้นรถหรือเข้าชม",
+    "shortClue": "ใบแสดงสิทธิ์"
+  },
+  {
+    "word": "เส้นทาง",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "ทางที่ใช้ไปยังที่หมาย",
+    "shortClue": "ทางไปที่หมาย"
+  },
+  {
+    "word": "ท่องเที่ยว",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "เดินทางไปชมที่ต่างถิ่นเพื่อความเพลิดเพลิน",
+    "shortClue": "ไปชมที่ใหม่"
+  },
+  {
+    "word": "สถานี",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "ที่รถไฟหรือรถประจำทางหยุดรับคน",
+    "shortClue": "ที่รถจอดรับ"
+  },
+  {
+    "word": "จำนวน",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "ตัวเลขที่บอกว่ามีเท่าไร",
+    "shortClue": "ตัวเลขที่นับ"
+  },
+  {
+    "word": "ครึ่ง",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "หนึ่งในสองส่วนเท่ากัน",
+    "shortClue": "สองส่วนเท่ากัน"
+  },
+  {
+    "word": "ตัวเลข",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "สัญลักษณ์ที่ใช้นับและคำนวณ",
+    "shortClue": "สัญลักษณ์นับ"
+  },
+  {
+    "word": "วงกลม",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "รูปทรงกลมแบนไม่มีเหลี่ยม",
+    "shortClue": "รูปไม่มีเหลี่ยม"
+  },
+  {
+    "word": "สี่เหลี่ยม",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "รูปที่มีสี่มุมและสี่ด้าน",
+    "shortClue": "รูปสี่มุม"
+  },
+  {
+    "word": "ชมพู",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "สีอ่อนระหว่างแดงกับขาว",
+    "shortClue": "แดงจาง"
+  },
+  {
+    "word": "ม่วง",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "สีผสมระหว่างน้ำเงินกับแดง",
+    "shortClue": "น้ำเงินผสมแดง"
+  },
+  {
+    "word": "เหลือง",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "สีของขมิ้นและดอกทานตะวัน",
+    "shortClue": "สีขมิ้น"
+  },
+  {
+    "word": "เขียว",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "สีของใบไม้สด",
+    "shortClue": "สีใบไม้"
+  },
+  {
+    "word": "ขนาด",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "ความใหญ่หรือเล็กของสิ่งหนึ่ง",
+    "shortClue": "ใหญ่เล็ก"
+  },
+  {
+    "word": "น้ำหนัก",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "ค่าที่อ่านได้จากตาชั่ง",
+    "shortClue": "ค่าจากตาชั่ง"
+  },
+  {
+    "word": "ส่วนสูง",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "ค่าที่วัดจากเท้าถึงศีรษะ",
+    "shortClue": "วัดจากเท้าถึงหัว"
+  },
+  {
+    "word": "เรื่องราว",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "สิ่งที่เล่าต่อกันมีต้นและจบ",
+    "shortClue": "เล่าต่อกัน"
+  },
+  {
+    "word": "นิทาน",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "เรื่องเล่าให้เด็กฟังก่อนนอน",
+    "shortClue": "เล่าก่อนนอน"
+  },
+  {
+    "word": "หน้าที่",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "งานที่ต้องรับผิดชอบ",
+    "shortClue": "งานที่ต้องทำ"
+  },
+  {
+    "word": "สิทธิ",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "ประโยชน์ที่ควรได้รับตามกฎ",
+    "shortClue": "สิ่งที่พึงได้"
+  },
+  {
+    "word": "กฎ",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "ข้อบังคับที่ทุกคนต้องทำตาม",
+    "shortClue": "ข้อบังคับ"
+  },
+  {
+    "word": "เป้าหมาย",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "สิ่งที่ตั้งใจจะไปให้ถึง",
+    "shortClue": "สิ่งที่มุ่งไป"
+  },
+  {
+    "word": "แผนการ",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "ข้อกำหนดล่วงหน้าว่าจะทำอะไร",
+    "shortClue": "สิ่งที่วางไว้"
+  },
+  {
+    "word": "ทักษะ",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "ความชำนาญที่ฝึกจนทำได้ดี",
+    "shortClue": "ฝีมือที่ฝึก"
+  },
+  {
+    "word": "พรสวรรค์",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "ความสามารถที่มีมาแต่กำเนิด",
+    "shortClue": "ติดตัวมาเกิด"
+  },
+  {
+    "word": "จินตนาการ",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "การนึกเห็นภาพที่ไม่มีอยู่จริง",
+    "shortClue": "นึกเป็นภาพ"
+  },
+  {
+    "word": "ข้อตกลง",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "สิ่งที่ทั้งสองฝ่ายยอมรับร่วมกัน",
+    "shortClue": "ที่ยอมรับร่วม"
+  },
+  {
+    "word": "ช่วยเหลือ",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "ยื่นมือให้ผู้ที่ลำบาก",
+    "shortClue": "ยื่นมือให้"
+  },
+  {
+    "word": "ต้อนรับ",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "แสดงความยินดีเมื่อแขกมา",
+    "shortClue": "รับแขก"
+  },
+  {
+    "word": "แขก",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "ผู้มาเยือนบ้าน",
+    "shortClue": "ผู้มาเยือน"
+  },
+  {
+    "word": "เจ้าของ",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "ผู้ที่ครอบครองสิ่งใดสิ่งหนึ่ง",
+    "shortClue": "ผู้ครอบครอง"
+  },
+  {
+    "word": "ญาติ",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "คนในตระกูลเดียวกัน",
+    "shortClue": "คนในตระกูล"
+  },
+  {
+    "word": "พี่น้อง",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "ลูกของพ่อแม่เดียวกัน",
+    "shortClue": "ลูกพ่อแม่เดียว"
+  },
+  {
+    "word": "ลูกหลาน",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "คนรุ่นหลังในครอบครัว",
+    "shortClue": "คนรุ่นหลัง"
+  },
+  {
+    "word": "พ่อแม่",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "ผู้ให้กำเนิดและเลี้ยงดูลูก",
+    "shortClue": "ผู้ให้กำเนิด"
+  },
+  {
+    "word": "วัยรุ่น",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "คนที่อยู่ระหว่างเด็กกับผู้ใหญ่",
+    "shortClue": "ระหว่างวัย"
+  },
+  {
+    "word": "ผู้ใหญ่",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "คนที่โตเต็มวัยแล้ว",
+    "shortClue": "โตเต็มวัย"
+  },
+  {
+    "word": "เด็ก",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "คนที่ยังอายุน้อยมาก",
+    "shortClue": "อายุน้อย"
+  },
+  {
+    "word": "สมุด",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "กระดาษเย็บเล่มไว้จดบันทึก",
+    "shortClue": "ไว้จดบันทึก"
+  },
+  {
+    "word": "ดินสอ",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "แท่งไม้ไส้ดำใช้เขียน",
+    "shortClue": "ไส้ดำเขียนได้"
+  },
+  {
+    "word": "ปากกา",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "เครื่องเขียนที่ใช้หมึก",
+    "shortClue": "ใช้หมึกเขียน"
+  },
+  {
+    "word": "ยางลบ",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "ของที่ลบรอยดินสอ",
+    "shortClue": "ลบรอยเขียน"
+  },
+  {
+    "word": "การบ้าน",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "งานที่ครูสั่งให้ทำนอกเวลาเรียน",
+    "shortClue": "งานนอกเวลา"
+  },
+  {
+    "word": "สอบ",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "ทำข้อเขียนให้ครูวัดความรู้",
+    "shortClue": "วัดผลความรู้"
+  },
+  {
+    "word": "คะแนน",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "ตัวเลขที่ได้จากการสอบ",
+    "shortClue": "ผลสอบ"
+  },
+  {
+    "word": "ตำรา",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "หนังสือที่ใช้เรียนวิชาหนึ่ง",
+    "shortClue": "หนังสือเรียน"
+  },
+  {
+    "word": "พจนานุกรม",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "หนังสือรวบรวมคำพร้อมความหมาย",
+    "shortClue": "หนังสือรวมคำ"
+  },
+  {
+    "word": "ภาษา",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "ระบบเสียงและคำที่คนใช้สื่อสาร",
+    "shortClue": "ใช้สื่อสาร"
+  },
+  {
+    "word": "ตัวอักษร",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "เครื่องหมายแทนเสียงที่ใช้เขียน",
+    "shortClue": "แทนเสียงเขียน"
+  },
+  {
+    "word": "ธรรมชาติ",
+    "topics": [
+      "nature"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "สิ่งแวดล้อมที่เกิดเองไม่มีมนุษย์สร้าง",
+    "shortClue": "เกิดขึ้นเอง"
+  },
+  {
+    "word": "ลำธาร",
+    "topics": [
+      "nature"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "ทางน้ำเล็กในป่าไหลลงที่ต่ำ",
+    "shortClue": "ลำน้ำเล็ก"
+  },
+  {
+    "word": "น้ำตก",
+    "topics": [
+      "nature"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "น้ำไหลจากที่สูงลงมาเป็นสาย",
+    "shortClue": "ไหลจากหน้าผา"
+  },
+  {
+    "word": "พายุ",
+    "topics": [
+      "nature"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "ลมแรงจัดมักมาพร้อมฝน",
+    "shortClue": "ลมแรงจัด"
+  },
+  {
+    "word": "ฟ้าแลบ",
+    "topics": [
+      "nature"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "แสงวาบจากเมฆฝน",
+    "shortClue": "แสงวาบ"
+  },
+  {
+    "word": "หมอก",
+    "topics": [
+      "nature"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "ไอน้ำเกาะแน่นใกล้พื้นดินตอนเช้า",
+    "shortClue": "ไอน้ำขาว"
+  },
+  {
+    "word": "น้ำค้าง",
+    "topics": [
+      "nature"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "หยดเล็กบนใบหญ้าตอนเช้ามืด",
+    "shortClue": "หยดเล็กยามเช้า"
+  },
+  {
+    "word": "ฤดู",
+    "topics": [
+      "nature"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "ช่วงของปีที่อากาศต่างกัน",
+    "shortClue": "ช่วงของปี"
+  },
+  {
+    "word": "หญ้า",
+    "topics": [
+      "nature"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "พืชเขียวเตี้ยปกคลุมพื้นดิน",
+    "shortClue": "พืชปูพื้น"
+  },
+  {
+    "word": "บัว",
+    "topics": [
+      "nature"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "ไม้น้ำที่ชูกลีบเหนือผิวสระ",
+    "shortClue": "พืชในสระ"
+  },
+  {
+    "word": "กุหลาบ",
+    "topics": [
+      "nature"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "ดอกมีหนามกลิ่นหอมนิยมให้กัน",
+    "shortClue": "ดอกมีหนาม"
+  },
+  {
+    "word": "มะลิ",
+    "topics": [
+      "nature"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "ดอกขาวเล็กกลิ่นหอมใช้ร้อยมาลัย",
+    "shortClue": "ดอกขาวหอม"
+  },
+  {
+    "word": "ทานตะวัน",
+    "topics": [
+      "nature"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "ดอกเหลืองใหญ่หันตามแสง",
+    "shortClue": "ดอกเหลืองใหญ่"
+  },
+  {
+    "word": "กล้วยไม้",
+    "topics": [
+      "nature"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "ดอกหลากสีที่เกาะอยู่กับต้นอื่น",
+    "shortClue": "ดอกหลากสี"
+  },
+  {
+    "word": "สน",
+    "topics": [
+      "nature"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "ต้นไม้ใบเป็นเข็มเขตหนาว",
+    "shortClue": "ใบเป็นเข็ม"
+  },
+  {
+    "word": "ทราย",
+    "topics": [
+      "nature"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "เม็ดหินเล็กละเอียดบนชายหาด",
+    "shortClue": "เม็ดบนชายหาด"
+  },
+  {
+    "word": "คลื่น",
+    "topics": [
+      "nature"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "น้ำที่ซัดขึ้นลงบนผิวทะเล",
+    "shortClue": "ซัดเข้าฝั่ง"
+  },
+  {
+    "word": "กรวด",
+    "topics": [
+      "nature"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "ก้อนหินเล็กกลมในลำธาร",
+    "shortClue": "หินก้อนเล็ก"
+  },
+  {
+    "word": "หน้าผา",
+    "topics": [
+      "nature"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "ผนังหินสูงชันตั้งตรง",
+    "shortClue": "ผนังหินชัน"
+  },
+  {
+    "word": "ทะเล",
+    "topics": [
+      "nature"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "น้ำเค็มกว้างใหญ่ติดแผ่นดิน",
+    "shortClue": "น้ำเค็มกว้าง"
+  },
+  {
+    "word": "มหาสมุทร",
+    "topics": [
+      "nature"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "ผืนน้ำเค็มที่ใหญ่กว่าทะเล",
+    "shortClue": "ผืนน้ำยักษ์"
+  },
+  {
+    "word": "ปะการัง",
+    "topics": [
+      "nature"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "สัตว์เล็กสร้างโขดสีสวยใต้ทะเล",
+    "shortClue": "โขดสวยใต้น้ำ"
+  },
+  {
+    "word": "หิน",
+    "topics": [
+      "nature"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "ก้อนแข็งจากแผ่นดิน",
+    "shortClue": "ก้อนแข็ง"
+  },
+  {
+    "word": "ดิน",
+    "topics": [
+      "nature"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "พื้นที่ปลูกพืช",
+    "shortClue": "ที่ปลูกพืช"
+  },
+  {
+    "word": "โคลน",
+    "topics": [
+      "nature"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "ดินเปียกเละติดเท้า",
+    "shortClue": "ดินเหลว"
+  },
+  {
+    "word": "ดาว",
+    "topics": [
+      "nature"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "จุดสว่างเล็กบนฟ้ายามค่ำ",
+    "shortClue": "จุดสว่างยามค่ำ"
+  },
+  {
+    "word": "ดวงจันทร์",
+    "topics": [
+      "nature"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "บริวารของโลกที่ส่องแสงยามค่ำ",
+    "shortClue": "บริวารของโลก"
+  },
+  {
+    "word": "อาทิตย์",
+    "topics": [
+      "nature"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "ดวงสว่างที่ให้แสงตอนกลางวัน",
+    "shortClue": "ให้แสงกลางวัน"
+  },
+  {
+    "word": "กิ่ง",
+    "topics": [
+      "nature"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "ส่วนที่แตกออกจากลำต้น",
+    "shortClue": "แตกจากลำต้น"
+  },
+  {
+    "word": "เมล็ด",
+    "topics": [
+      "nature"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "ส่วนที่ฝังดินแล้วงอกเป็นต้นใหม่",
+    "shortClue": "งอกเป็นต้นใหม่"
+  },
+  {
+    "word": "เมฆ",
+    "topics": [
+      "nature"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "ละอองน้ำลอยสูงบนฟ้า",
+    "shortClue": "ลอยสูงสีขาว"
+  },
+  {
+    "word": "หิมะ",
+    "topics": [
+      "nature"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "ผลึกน้ำแข็งสีขาวร่วงจากฟ้าเขตหนาว",
+    "shortClue": "ผลึกขาวเย็น"
+  },
+  {
+    "word": "กระต่าย",
+    "topics": [
+      "animals"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "สัตว์หูยาวชอบกินแครอท",
+    "shortClue": "หูยาวกระโดด"
+  },
+  {
+    "word": "หมู",
+    "topics": [
+      "animals"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "สัตว์เลี้ยงตัวอ้วนร้องฮึดฮัด",
+    "shortClue": "สัตว์เลี้ยงอ้วน"
+  },
+  {
+    "word": "วัว",
+    "topics": [
+      "animals"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "สัตว์เลี้ยงให้นมและลากไถ",
+    "shortClue": "ให้นม"
+  },
+  {
+    "word": "แพะ",
+    "topics": [
+      "animals"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "สัตว์เลี้ยงมีเครามีเขาร้องเบะ",
+    "shortClue": "ร้องเบะ"
+  },
+  {
+    "word": "แกะ",
+    "topics": [
+      "animals"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "สัตว์ที่ให้ขนปุยทำผ้า",
+    "shortClue": "ให้ขนปุย"
+  },
+  {
+    "word": "ม้า",
+    "topics": [
+      "animals"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "สัตว์ขี่วิ่งเร็วมีแผงคอ",
+    "shortClue": "ขี่วิ่งเร็ว"
+  },
+  {
+    "word": "หนู",
+    "topics": [
+      "animals"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "สัตว์ฟันแทะตัวเล็กหางยาว",
+    "shortClue": "ฟันแทะ"
+  },
+  {
+    "word": "จิ้งจก",
+    "topics": [
+      "animals"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "สัตว์เกาะฝาบ้านกินแมลงยามค่ำ",
+    "shortClue": "เกาะฝาบ้าน"
+  },
+  {
+    "word": "ตุ๊กแก",
+    "topics": [
+      "animals"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "สัตว์เลื้อยคลานร้องเสียงดังตามบ้าน",
+    "shortClue": "ร้องเสียงดัง"
+  },
+  {
+    "word": "กบ",
+    "topics": [
+      "animals"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "สัตว์สะเทินน้ำสะเทินบกกระโดดเก่ง",
+    "shortClue": "ร้องหน้าฝน"
+  },
+  {
+    "word": "ปลาหมึก",
+    "topics": [
+      "animals"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "สัตว์ทะเลนิ่มมีหนวดหลายเส้น",
+    "shortClue": "หนวดหลายเส้น"
+  },
+  {
+    "word": "วาฬ",
+    "topics": [
+      "animals"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "สัตว์ทะเลตัวใหญ่ที่สุดหายใจด้วยปอด",
+    "shortClue": "ยักษ์ใหญ่ในทะเล"
+  },
+  {
+    "word": "โลมา",
+    "topics": [
+      "animals"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "สัตว์ทะเลฉลาดชอบกระโดดเหนือผิวน้ำ",
+    "shortClue": "ฉลาดชอบกระโดด"
+  },
+  {
+    "word": "ฉลาม",
+    "topics": [
+      "animals"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "ปลาล่าเหยื่อฟันแหลมครีบหลังโผล่",
+    "shortClue": "ครีบเหนือน้ำ"
+  },
+  {
+    "word": "กุ้ง",
+    "topics": [
+      "animals"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "สัตว์ทะเลเปลือกแข็งหางงอ",
+    "shortClue": "เปลือกแข็งหางงอ"
+  },
+  {
+    "word": "หอย",
+    "topics": [
+      "animals"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "สัตว์นิ่มในเปลือกแข็งสองฝา",
+    "shortClue": "ในเปลือกแข็ง"
+  },
+  {
+    "word": "ผีเสื้อ",
+    "topics": [
+      "animals"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "แมลงปีกสวยบินตอมดอกไม้",
+    "shortClue": "ปีกสีสวย"
+  },
+  {
+    "word": "ผึ้ง",
+    "topics": [
+      "animals"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "แมลงที่ทำน้ำหวานเก็บในรัง",
+    "shortClue": "ทำน้ำหวาน"
+  },
+  {
+    "word": "มด",
+    "topics": [
+      "animals"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "แมลงเล็กเดินเป็นแถวหาอาหาร",
+    "shortClue": "เดินเป็นแถว"
+  },
+  {
+    "word": "ยุง",
+    "topics": [
+      "animals"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "แมลงตัวเล็กกัดแล้วคัน",
+    "shortClue": "กัดแล้วคัน"
+  },
+  {
+    "word": "จิ้งหรีด",
+    "topics": [
+      "animals"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "แมลงร้องเสียงดังยามค่ำ",
+    "shortClue": "ร้องยามค่ำ"
+  },
+  {
+    "word": "หิ่งห้อย",
+    "topics": [
+      "animals"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "แมลงมีแสงวาบตอนกลางคืน",
+    "shortClue": "ก้นมีแสง"
+  },
+  {
+    "word": "แมงมุม",
+    "topics": [
+      "animals"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "สัตว์แปดขาชักใยดักเหยื่อ",
+    "shortClue": "แปดขาชักใย"
+  },
+  {
+    "word": "ค้างคาว",
+    "topics": [
+      "animals"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "สัตว์ปีกหนังหากินกลางคืนห้อยหัวนอน",
+    "shortClue": "ห้อยหัวนอน"
+  },
+  {
+    "word": "นกฮูก",
+    "topics": [
+      "animals"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "นกกลางคืนตากลมโตหมุนคอได้",
+    "shortClue": "ตากลมโตกลางคืน"
+  },
+  {
+    "word": "อินทรี",
+    "topics": [
+      "animals"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "นกล่าเหยื่อบินสูงปีกกว้าง",
+    "shortClue": "นกล่าเหยื่อ"
+  },
+  {
+    "word": "นกยูง",
+    "topics": [
+      "animals"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "นกหางงามแผ่เป็นพัด",
+    "shortClue": "หางแผ่งาม"
+  },
+  {
+    "word": "เหยี่ยว",
+    "topics": [
+      "animals"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "นกร่อนบนฟ้าโฉบจับหนู",
+    "shortClue": "โฉบจับเหยื่อ"
+  },
+  {
+    "word": "ห่าน",
+    "topics": [
+      "animals"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "นกใหญ่คอยาวร้องเสียงดังเฝ้าบ้านได้",
+    "shortClue": "นกคอยาว"
+  },
+  {
+    "word": "หงส์",
+    "topics": [
+      "animals"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "นกคอยาวสีขาวว่ายสง่าในสระ",
+    "shortClue": "คอยาวสง่า"
+  },
+  {
+    "word": "กระรอก",
+    "topics": [
+      "animals"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "สัตว์ฟันแทะหางฟูปีนต้นไม้เก็บถั่ว",
+    "shortClue": "หางฟูปีนไม้"
+  },
+  {
+    "word": "ลิง",
+    "topics": [
+      "animals"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "สัตว์ปีนป่ายชอบกินกล้วย",
+    "shortClue": "ชอบกินกล้วย"
+  },
+  {
+    "word": "อูฐ",
+    "topics": [
+      "animals"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "สัตว์ตัวสูงมีโหนกบนหลังข้ามทะเลทราย",
+    "shortClue": "มีโหนกบนหลัง"
+  },
+  {
+    "word": "ยีราฟ",
+    "topics": [
+      "animals"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "สัตว์คอยาวที่สุดในโลก",
+    "shortClue": "คอยาวที่สุด"
+  },
+  {
+    "word": "แรด",
+    "topics": [
+      "animals"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "สัตว์ใหญ่มีนอบนจมูก",
+    "shortClue": "มีนอบนจมูก"
+  },
+  {
+    "word": "หมี",
+    "topics": [
+      "animals"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "สัตว์ป่าตัวใหญ่ชอบน้ำผึ้ง",
+    "shortClue": "ชอบน้ำผึ้ง"
+  },
+  {
+    "word": "จระเข้",
+    "topics": [
+      "animals"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "สัตว์เลื้อยคลานปากยาวฟันคม",
+    "shortClue": "ปากยาวฟันคม"
+  },
+  {
+    "word": "ตะขาบ",
+    "topics": [
+      "animals"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "สัตว์หลายขามีพิษกัดเจ็บ",
+    "shortClue": "หลายขากัดเจ็บ"
+  },
+  {
+    "word": "หมาป่า",
+    "topics": [
+      "animals"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "สัตว์ล่าเหยื่อเป็นฝูงรูปคล้ายสุนัข",
+    "shortClue": "ล่าเหยื่อเป็นฝูง"
+  },
+  {
+    "word": "นกกระจอก",
+    "topics": [
+      "animals"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "นกเล็กสีน้ำตาลอยู่ตามชายคา",
+    "shortClue": "นกเล็กชายคา"
+  },
+  {
+    "word": "ข้าวเหนียว",
+    "topics": [
+      "food"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "เมล็ดเหนียวนึ่งกินกับมะม่วงสุก",
+    "shortClue": "เหนียวนึ่ง"
+  },
+  {
+    "word": "โจ๊ก",
+    "topics": [
+      "food"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "อาหารเช้าเละร้อนใส่หมูสับ",
+    "shortClue": "อาหารเช้าเละ"
+  },
+  {
+    "word": "ผัดไทย",
+    "topics": [
+      "food"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "เส้นเล็กคลุกถั่วป่นกุ้งแห้ง",
+    "shortClue": "เส้นถั่วป่น"
+  },
+  {
+    "word": "แกง",
+    "topics": [
+      "food"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "กับข้าวน้ำใส่กะทิหรือพริกราดบนจาน",
+    "shortClue": "กับข้าวน้ำ"
+  },
+  {
+    "word": "ลาบ",
+    "topics": [
+      "food"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "เนื้อสับปรุงรสเปรี้ยวเผ็ดโรยข้าวคั่ว",
+    "shortClue": "เนื้อสับเปรี้ยว"
+  },
+  {
+    "word": "น้ำพริก",
+    "topics": [
+      "food"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "เครื่องจิ้มรสเผ็ดกินกับผักสด",
+    "shortClue": "เครื่องจิ้มเผ็ด"
+  },
+  {
+    "word": "ผักบุ้ง",
+    "topics": [
+      "food"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "ยอดอ่อนกลวงใช้ผัดไฟแดง",
+    "shortClue": "ยอดอ่อนกลวง"
+  },
+  {
+    "word": "กะเพรา",
+    "topics": [
+      "food"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "ใบหอมเผ็ดใช้ผัดกับเนื้อสับ",
+    "shortClue": "ใบหอมผัดเผ็ด"
+  },
+  {
+    "word": "มะนาว",
+    "topics": [
+      "food"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "ผลสีเขียวรสเปรี้ยวบีบใส่อาหาร",
+    "shortClue": "ผลเขียวเปรี้ยว"
+  },
+  {
+    "word": "มะละกอ",
+    "topics": [
+      "food"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "ผลยาวเนื้อสีส้มดิบใช้ตำ",
+    "shortClue": "ผลเนื้อสีส้ม"
+  },
+  {
+    "word": "กล้วย",
+    "topics": [
+      "food"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "ผลยาวสีเหลืองปอกเปลือกกิน",
+    "shortClue": "ผลยาวเหลือง"
+  },
+  {
+    "word": "สับปะรด",
+    "topics": [
+      "food"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "ผลหนามเนื้อเหลืองเปรี้ยวหวาน",
+    "shortClue": "ผลหนามเหลือง"
+  },
+  {
+    "word": "แตงโม",
+    "topics": [
+      "food"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "ผลใหญ่เปลือกเขียวเนื้อแดงฉ่ำ",
+    "shortClue": "เนื้อแดงฉ่ำ"
+  },
+  {
+    "word": "ลำไย",
+    "topics": [
+      "food"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "ผลกลมเปลือกบางเนื้อใสหวาน",
+    "shortClue": "ผลกลมเนื้อใส"
+  },
+  {
+    "word": "ลิ้นจี่",
+    "topics": [
+      "food"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "ผลเปลือกขรุขระสีแดงเนื้อขาวฉ่ำ",
+    "shortClue": "เปลือกแดงขรุขระ"
+  },
+  {
+    "word": "มังคุด",
+    "topics": [
+      "food"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "ผลเปลือกม่วงเนื้อขาวเป็นกลีบ",
+    "shortClue": "เปลือกม่วง"
+  },
+  {
+    "word": "ขนมปัง",
+    "topics": [
+      "food"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "แป้งอบฟูกินตอนเช้ากับแยม",
+    "shortClue": "แป้งอบฟู"
+  },
+  {
+    "word": "เนย",
+    "topics": [
+      "food"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "ไขมันจากนมใช้ทาขนมปัง",
+    "shortClue": "ไขมันทาขนม"
+  },
+  {
+    "word": "ซีอิ๊ว",
+    "topics": [
+      "food"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "ซอสดำเค็มทำจากถั่วเหลือง",
+    "shortClue": "ซอสดำจากถั่ว"
+  },
+  {
+    "word": "พริก",
+    "topics": [
+      "food"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "ผลเล็กรสเผ็ดร้อน",
+    "shortClue": "รสเผ็ดร้อน"
+  },
+  {
+    "word": "กระเทียม",
+    "topics": [
+      "food"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "หัวเล็กกลิ่นฉุนแบ่งเป็นกลีบ",
+    "shortClue": "หัวกลิ่นฉุน"
+  },
+  {
+    "word": "ขิง",
+    "topics": [
+      "food"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "หัวเหง้ารสเผ็ดอุ่นใช้ต้มดื่ม",
+    "shortClue": "เหง้าเผ็ดอุ่น"
+  },
+  {
+    "word": "ตะไคร้",
+    "topics": [
+      "food"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "พืชกลิ่นหอมต้นยาวใส่ต้มยำ",
+    "shortClue": "ใส่ต้มยำ"
+  },
+  {
+    "word": "ขมิ้น",
+    "topics": [
+      "food"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "เหง้าสีเหลืองใช้แต่งสีอาหาร",
+    "shortClue": "เหง้าสีเหลือง"
+  },
+  {
+    "word": "ข่า",
+    "topics": [
+      "food"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "เหง้าแก่แข็งกลิ่นหอมใส่แกงกะทิ",
+    "shortClue": "เหง้าแก่แข็ง"
+  },
+  {
+    "word": "ถั่ว",
+    "topics": [
+      "food"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "เมล็ดในฝักนำมาต้มหรือคั่ว",
+    "shortClue": "เมล็ดในฝัก"
+  },
+  {
+    "word": "งา",
+    "topics": [
+      "food"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "เมล็ดจิ๋วโรยหน้าขนมปัง",
+    "shortClue": "เมล็ดจิ๋ว"
+  },
+  {
+    "word": "ซุป",
+    "topics": [
+      "food"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "อาหารเหลวร้อนกินช้อนแรก",
+    "shortClue": "อาหารเหลวร้อน"
+  },
+  {
+    "word": "สลัด",
+    "topics": [
+      "food"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "ผักสดคลุกซอสกินแบบเย็น",
+    "shortClue": "ผักสดคลุกซอส"
+  },
+  {
+    "word": "ทองหยิบ",
+    "topics": [
+      "food"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "ขนมไข่แดงเป็นดอกเคี่ยวน้ำเชื่อม",
+    "shortClue": "ขนมดอกสีทอง"
+  },
+  {
+    "word": "บัวลอย",
+    "topics": [
+      "food"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "ขนมก้อนกลมในกะทิอุ่น",
+    "shortClue": "ก้อนกลมในกะทิ"
+  },
+  {
+    "word": "ลอดช่อง",
+    "topics": [
+      "food"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "ขนมเส้นเขียวในน้ำกะทิหวานเย็น",
+    "shortClue": "เส้นเขียวกะทิ"
+  },
+  {
+    "word": "กะทิ",
+    "topics": [
+      "food"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "น้ำข้นสีขาวคั้นจากมะพร้าว",
+    "shortClue": "คั้นจากมะพร้าว"
+  },
+  {
+    "word": "มะพร้าว",
+    "topics": [
+      "food"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "ผลเปลือกแข็งมีน้ำใสหวานข้างใน",
+    "shortClue": "ผลมีน้ำใส"
+  },
+  {
+    "word": "ไอศกรีม",
+    "topics": [
+      "food"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "ของหวานเย็นแข็งตักเป็นก้อน",
+    "shortClue": "หวานเย็นแข็ง"
+  },
+  {
+    "word": "ชา",
+    "topics": [
+      "food"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "เครื่องดื่มจากใบแห้งชงน้ำร้อน",
+    "shortClue": "ชงจากใบแห้ง"
+  },
+  {
+    "word": "ช็อกโกแลต",
+    "topics": [
+      "food"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "ขนมสีน้ำตาลหวานมันทำจากโกโก้",
+    "shortClue": "ขนมโกโก้"
+  },
+  {
+    "word": "ซาลาเปา",
+    "topics": [
+      "food"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "ขนมแป้งนึ่งฟูไส้หมูหรือครีม",
+    "shortClue": "แป้งนึ่งมีไส้"
+  },
+  {
+    "word": "ปาท่องโก๋",
+    "topics": [
+      "food"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "แป้งทอดคู่กินกับกาแฟร้อน",
+    "shortClue": "แป้งทอดคู่"
+  },
+  {
+    "word": "ไส้กรอก",
+    "topics": [
+      "food"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "เนื้อบดอัดใส่ไส้แล้วย่างหรือทอด",
+    "shortClue": "เนื้อบดอัดไส้"
+  },
+  {
+    "word": "เต้าหู้",
+    "topics": [
+      "food"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "ก้อนนุ่มสีขาวทำจากถั่วเหลือง",
+    "shortClue": "ก้อนนุ่มจากถั่ว"
+  },
+  {
+    "word": "เชียงราย",
+    "topics": [
+      "geography"
+    ],
+    "difficulty": 2,
+    "kind": "proper",
+    "clue": "จังหวัดเหนือสุดที่มีดอยตุง",
+    "shortClue": "จังหวัดเหนือสุด"
+  },
+  {
+    "word": "น่าน",
+    "topics": [
+      "geography"
+    ],
+    "difficulty": 2,
+    "kind": "proper",
+    "clue": "จังหวัดภาคเหนือชายแดนลาวมีดอยภูคา",
+    "shortClue": "จังหวัดภาคเหนือ"
+  },
+  {
+    "word": "แพร่",
+    "topics": [
+      "geography"
+    ],
+    "difficulty": 3,
+    "kind": "proper",
+    "clue": "จังหวัดภาคเหนือที่ขึ้นชื่อเรื่องผ้าหม้อฮ่อม",
+    "shortClue": "จังหวัดผ้าหม้อฮ่อม"
+  },
+  {
+    "word": "ตรัง",
+    "topics": [
+      "geography"
+    ],
+    "difficulty": 3,
+    "kind": "proper",
+    "clue": "จังหวัดภาคใต้ฝั่งอันดามันขึ้นชื่อหมูย่าง",
+    "shortClue": "จังหวัดฝั่งอันดามัน"
+  },
+  {
+    "word": "สงขลา",
+    "topics": [
+      "geography"
+    ],
+    "difficulty": 2,
+    "kind": "proper",
+    "clue": "จังหวัดภาคใต้ที่มีทะเลสาบใหญ่",
+    "shortClue": "จังหวัดภาคใต้"
+  },
+  {
+    "word": "ระยอง",
+    "topics": [
+      "geography"
+    ],
+    "difficulty": 2,
+    "kind": "proper",
+    "clue": "จังหวัดภาคตะวันออกขึ้นชื่อน้ำปลาและผลไม้",
+    "shortClue": "จังหวัดตะวันออก"
+  },
+  {
+    "word": "ขอนแก่น",
+    "topics": [
+      "geography"
+    ],
+    "difficulty": 2,
+    "kind": "proper",
+    "clue": "จังหวัดใหญ่ภาคอีสานที่เป็นศูนย์กลางการศึกษา",
+    "shortClue": "จังหวัดอีสาน"
+  },
+  {
+    "word": "กาญจนบุรี",
+    "topics": [
+      "geography"
+    ],
+    "difficulty": 2,
+    "kind": "proper",
+    "clue": "จังหวัดภาคตะวันตกที่มีน้ำตกเอราวัณ",
+    "shortClue": "จังหวัดน้ำตกเอราวัณ"
+  },
+  {
+    "word": "พัทยา",
+    "topics": [
+      "geography"
+    ],
+    "difficulty": 2,
+    "kind": "proper",
+    "clue": "เมืองชายทะเลตะวันออกที่คนนิยมไปเที่ยว",
+    "shortClue": "เมืองชายทะเล"
+  },
+  {
+    "word": "ลาว",
+    "topics": [
+      "geography"
+    ],
+    "difficulty": 1,
+    "kind": "proper",
+    "clue": "ประเทศเพื่อนบ้านทางเหนือและตะวันออกเฉียงเหนือของไทย",
+    "shortClue": "เพื่อนบ้านไทย"
+  },
+  {
+    "word": "กัมพูชา",
+    "topics": [
+      "geography"
+    ],
+    "difficulty": 2,
+    "kind": "proper",
+    "clue": "ประเทศเพื่อนบ้านทางตะวันออกที่มีนครวัด",
+    "shortClue": "เพื่อนบ้านตะวันออก"
+  },
+  {
+    "word": "เวียดนาม",
+    "topics": [
+      "geography"
+    ],
+    "difficulty": 1,
+    "kind": "proper",
+    "clue": "ประเทศรูปตัวเอสบนคาบสมุทรอินโดจีน",
+    "shortClue": "ประเทศรูปตัวเอส"
+  },
+  {
+    "word": "สิงคโปร์",
+    "topics": [
+      "geography"
+    ],
+    "difficulty": 1,
+    "kind": "proper",
+    "clue": "เกาะเมืองรัฐเล็กทางใต้ของมาเลเซีย",
+    "shortClue": "เกาะเมืองรัฐ"
+  },
+  {
+    "word": "จีน",
+    "topics": [
+      "geography"
+    ],
+    "difficulty": 1,
+    "kind": "proper",
+    "clue": "ประเทศใหญ่ในเอเชียตะวันออกที่มีกำแพงยาว",
+    "shortClue": "ประเทศกำแพงยาว"
+  },
+  {
+    "word": "อินเดีย",
+    "topics": [
+      "geography"
+    ],
+    "difficulty": 1,
+    "kind": "proper",
+    "clue": "ประเทศในเอเชียใต้ที่มีทัชมาฮาล",
+    "shortClue": "ประเทศทัชมาฮาล"
+  },
+  {
+    "word": "โตเกียว",
+    "topics": [
+      "geography"
+    ],
+    "difficulty": 1,
+    "kind": "proper",
+    "clue": "เมืองหลวงของประเทศแถบตะวันออกไกลที่ผู้คนหนาแน่น",
+    "shortClue": "เมืองหลวงญี่ปุ่น"
+  },
+  {
+    "word": "ปารีส",
+    "topics": [
+      "geography"
+    ],
+    "difficulty": 1,
+    "kind": "proper",
+    "clue": "เมืองหลวงที่มีหอไอเฟล",
+    "shortClue": "เมืองหอไอเฟล"
+  },
+  {
+    "word": "เจ้าพระยา",
+    "topics": [
+      "geography"
+    ],
+    "difficulty": 2,
+    "kind": "proper",
+    "clue": "แม่น้ำสายหลักของภาคกลาง",
+    "shortClue": "แม่น้ำภาคกลาง"
+  },
+  {
+    "word": "หิมาลัย",
+    "topics": [
+      "geography"
+    ],
+    "difficulty": 3,
+    "kind": "proper",
+    "clue": "เทือกเขาที่สูงที่สุดในโลก",
+    "shortClue": "เทือกเขาสูงสุด"
+  },
+  {
+    "word": "แอฟริกา",
+    "topics": [
+      "geography"
+    ],
+    "difficulty": 1,
+    "kind": "proper",
+    "clue": "ทวีปที่มีทะเลทรายซาฮาราและสะวันนา",
+    "shortClue": "ทวีปซาฮารา"
+  },
+  {
+    "word": "ยุโรป",
+    "topics": [
+      "geography"
+    ],
+    "difficulty": 1,
+    "kind": "proper",
+    "clue": "ทวีปที่มีฝรั่งเศสและเยอรมนี",
+    "shortClue": "ทวีปตะวันตก"
+  },
+  {
+    "word": "ที่ราบ",
+    "topics": [
+      "geography"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "ผืนดินเรียบกว้างไม่มีเนิน",
+    "shortClue": "ผืนดินเรียบ"
+  },
+  {
+    "word": "คาบสมุทร",
+    "topics": [
+      "geography"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "แผ่นดินยื่นลงทะเลสามด้าน",
+    "shortClue": "ดินยื่นลงน้ำ"
+  },
+  {
+    "word": "อ่าว",
+    "topics": [
+      "geography"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "ทะเลที่เว้าเข้าไปในฝั่ง",
+    "shortClue": "ทะเลเว้าเข้า"
+  },
+  {
+    "word": "ชายฝั่ง",
+    "topics": [
+      "geography"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "แนวที่แผ่นดินจรดทะเล",
+    "shortClue": "ขอบแผ่นดิน"
+  },
+  {
+    "word": "บึง",
+    "topics": [
+      "geography"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "แหล่งน้ำนิ่งตื้นกว้างตามธรรมชาติ",
+    "shortClue": "แหล่งน้ำนิ่ง"
+  },
+  {
+    "word": "ภูมิประเทศ",
+    "topics": [
+      "geography"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "ลักษณะพื้นผิวของแผ่นดินในที่หนึ่ง",
+    "shortClue": "ลักษณะผิวดิน"
+  },
+  {
+    "word": "ละติจูด",
+    "topics": [
+      "geography"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "เส้นสมมติขนานวัดระยะเหนือใต้",
+    "shortClue": "เส้นสมมติ"
+  },
+  {
+    "word": "เส้นศูนย์สูตร",
+    "topics": [
+      "geography"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "เส้นสมมติแบ่งโลกเป็นสองซีก",
+    "shortClue": "แบ่งโลกครึ่ง"
+  },
+  {
+    "word": "ขั้วโลก",
+    "topics": [
+      "geography"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "ปลายสุดทั้งสองของแกนโลก",
+    "shortClue": "ปลายแกนโลก"
+  },
+  {
+    "word": "ชนบท",
+    "topics": [
+      "geography"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "ถิ่นที่ห่างจากเมืองใหญ่",
+    "shortClue": "ถิ่นนอกเมือง"
+  },
+  {
+    "word": "ชุมชน",
+    "topics": [
+      "geography"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "กลุ่มคนที่อาศัยอยู่ย่านเดียวกัน",
+    "shortClue": "คนย่านเดียวกัน"
+  },
+  {
+    "word": "เมือง",
+    "topics": [
+      "geography"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "ที่อยู่หนาแน่นของผู้คนและตึก",
+    "shortClue": "ที่คนอยู่หนาแน่น"
+  },
+  {
+    "word": "พรมแดน",
+    "topics": [
+      "geography"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "เส้นแบ่งระหว่างสองประเทศ",
+    "shortClue": "เส้นแบ่งประเทศ"
+  },
+  {
+    "word": "ประเทศ",
+    "topics": [
+      "geography"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "ดินแดนที่มีพรมแดนและชื่อเฉพาะ",
+    "shortClue": "ดินแดนมีพรมแดน"
+  },
+  {
+    "word": "กำแพง",
+    "topics": [
+      "history"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "แนวก่อสูงล้อมเมืองป้องกันข้าศึก",
+    "shortClue": "ล้อมเมืองกันศัตรู"
+  },
+  {
+    "word": "ป้อม",
+    "topics": [
+      "history"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "สิ่งก่อสร้างแข็งแรงสำหรับตั้งรับศัตรู",
+    "shortClue": "ที่มั่นรับศึก"
+  },
+  {
+    "word": "ธนู",
+    "topics": [
+      "history"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "อาวุธยิงลูกที่ใช้สายโก่ง",
+    "shortClue": "ยิงด้วยสาย"
+  },
+  {
+    "word": "หอก",
+    "topics": [
+      "history"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "อาวุธด้ามยาวปลายแหลม",
+    "shortClue": "ด้ามยาวปลายคม"
+  },
+  {
+    "word": "เกราะ",
+    "topics": [
+      "history"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "เครื่องสวมกันอาวุธ",
+    "shortClue": "ป้องกันตัว"
+  },
+  {
+    "word": "ขุดค้น",
+    "topics": [
+      "history"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "ขุดดินเพื่อหาของเก่า",
+    "shortClue": "ขุดหาของเก่า"
+  },
+  {
+    "word": "ตำนาน",
+    "topics": [
+      "history"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "เรื่องเล่าสืบต่อกันมาแต่โบราณ",
+    "shortClue": "เรื่องเล่าสืบมา"
+  },
+  {
+    "word": "พงศาวดาร",
+    "topics": [
+      "history"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "หนังสือบันทึกเรื่องในอดีตตามลำดับปี",
+    "shortClue": "บันทึกอดีต"
+  },
+  {
+    "word": "หลักฐาน",
+    "topics": [
+      "history"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "สิ่งที่ยืนยันเรื่องในอดีต",
+    "shortClue": "ยืนยันความจริง"
+  },
+  {
+    "word": "ยุคสมัย",
+    "topics": [
+      "history"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "ช่วงเวลาใหญ่ที่มีลักษณะเฉพาะ",
+    "shortClue": "ช่วงเวลาหนึ่ง"
+  },
+  {
+    "word": "เหรียญ",
+    "topics": [
+      "history"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "เงินโลหะกลมแบน",
+    "shortClue": "เงินโลหะกลม"
+  },
+  {
+    "word": "พ่อค้า",
+    "topics": [
+      "history"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "ผู้ขนสินค้าไปขายต่างถิ่น",
+    "shortClue": "ขายต่างถิ่น"
+  },
+  {
+    "word": "ขุนนาง",
+    "topics": [
+      "history"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "ข้าราชการชั้นสูงในอดีต",
+    "shortClue": "ผู้มียศในอดีต"
+  },
+  {
+    "word": "ชนเผ่า",
+    "topics": [
+      "history"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "กลุ่มคนที่ใช้ภาษาและประเพณีร่วมกัน",
+    "shortClue": "กลุ่มประเพณีเดียว"
+  },
+  {
+    "word": "อัศวิน",
+    "topics": [
+      "history"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "นักรบขี่ม้าในยุโรปยุคกลาง",
+    "shortClue": "นักรบขี่ม้า"
+  },
+  {
+    "word": "ปิรามิด",
+    "topics": [
+      "history"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "สุสานรูปเหลี่ยมใหญ่ในอียิปต์",
+    "shortClue": "สุสานรูปเหลี่ยม"
+  },
+  {
+    "word": "มัมมี่",
+    "topics": [
+      "history"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "ร่างที่ห่อผ้าเก็บรักษานานหลายพันปี",
+    "shortClue": "ศพโบราณอียิปต์"
+  },
+  {
+    "word": "นักสำรวจ",
+    "topics": [
+      "history"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "ผู้เดินทางไปค้นหาดินแดนใหม่",
+    "shortClue": "ค้นหาดินแดน"
+  },
+  {
+    "word": "บรรพบุรุษ",
+    "topics": [
+      "history"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "คนรุ่นก่อนในตระกูลที่ล่วงลับ",
+    "shortClue": "คนรุ่นก่อนโน้น"
+  },
+  {
+    "word": "โบราณสถาน",
+    "topics": [
+      "history"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "ซากสิ่งก่อสร้างเก่าที่ต้องรักษา",
+    "shortClue": "ซากอาคารเก่า"
+  },
+  {
+    "word": "หม้อ",
+    "topics": [
+      "history"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "ภาชนะดินเผาใช้ต้มหุงอาหาร",
+    "shortClue": "ภาชนะดินเผา"
+  },
+  {
+    "word": "ตะเกียง",
+    "topics": [
+      "history"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "เครื่องให้แสงสว่างใช้น้ำมันก่อนมีไฟฟ้า",
+    "shortClue": "ให้แสงก่อนไฟฟ้า"
+  },
+  {
+    "word": "เรือใบ",
+    "topics": [
+      "history"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "พาหนะน้ำใช้ผ้ารับลมแล่นไป",
+    "shortClue": "ใช้ผ้ารับลม"
+  },
+  {
+    "word": "อนุสาวรีย์",
+    "topics": [
+      "history"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "สิ่งก่อสร้างตั้งไว้ระลึกถึงผู้คนหรือเหตุการณ์",
+    "shortClue": "ตั้งไว้ระลึกถึง"
+  },
+  {
+    "word": "ปาปิรุส",
+    "topics": [
+      "history"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "กระดาษโบราณทำจากต้นกกอียิปต์",
+    "shortClue": "กระดาษจากต้นกก"
+  },
+  {
+    "word": "ศิลาแลง",
+    "topics": [
+      "history"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "หินสีน้ำตาลแดงที่ใช้ก่อกำแพงเก่า",
+    "shortClue": "หินสีแดงเข้ม"
+  },
+  {
+    "word": "โมเลกุล",
+    "topics": [
+      "science"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "กลุ่มอะตอมที่จับกันเป็นหน่วยของสาร",
+    "shortClue": "อะตอมรวมกัน"
+  },
+  {
+    "word": "พลังงาน",
+    "topics": [
+      "science"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "สิ่งที่ทำให้เกิดงานและความร้อน",
+    "shortClue": "ทำให้เกิดงาน"
+  },
+  {
+    "word": "ไฟฟ้า",
+    "topics": [
+      "science"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "กระแสที่วิ่งในสายทองแดงให้แสงสว่าง",
+    "shortClue": "กระแสในสายทอง"
+  },
+  {
+    "word": "อุณหภูมิ",
+    "topics": [
+      "science"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "ค่าบอกความร้อนความเย็นของสิ่งหนึ่ง",
+    "shortClue": "ค่าร้อนเย็น"
+  },
+  {
+    "word": "แสง",
+    "topics": [
+      "science"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "สิ่งที่ทำให้มองเห็นได้",
+    "shortClue": "ทำให้มองเห็น"
+  },
+  {
+    "word": "เสียง",
+    "topics": [
+      "science"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "สิ่งที่หูได้ยินจากการสั่น",
+    "shortClue": "หูได้ยิน"
+  },
+  {
+    "word": "แรง",
+    "topics": [
+      "science"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "สิ่งที่ดันหรือดึงให้วัตถุเคลื่อน",
+    "shortClue": "ดันหรือดึง"
+  },
+  {
+    "word": "ปฏิกิริยา",
+    "topics": [
+      "science"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "การเปลี่ยนแปลงของสารเคมี",
+    "shortClue": "สารเปลี่ยนไป"
+  },
+  {
+    "word": "สารละลาย",
+    "topics": [
+      "science"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "ของเหลวผสมใสที่ได้เมื่อเอาเกลือใส่น้ำ",
+    "shortClue": "ของเหลวผสมใส"
+  },
+  {
+    "word": "ธาตุ",
+    "topics": [
+      "science"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "สารที่มีอะตอมชนิดเดียวกันทั้งหมด",
+    "shortClue": "อะตอมชนิดเดียว"
+  },
+  {
+    "word": "โลหะ",
+    "topics": [
+      "science"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "วัสดุแข็งเป็นมันนำไฟฟ้าได้",
+    "shortClue": "แข็งเป็นมันวาว"
+  },
+  {
+    "word": "แร่",
+    "topics": [
+      "science"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "สารแข็งตามธรรมชาติที่ขุดได้จากดิน",
+    "shortClue": "ขุดจากดิน"
+  },
+  {
+    "word": "ผลึก",
+    "topics": [
+      "science"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "ก้อนแข็งเหลี่ยมเงางามเรียงตัวเป็นระเบียบ",
+    "shortClue": "เหลี่ยมเงางาม"
+  },
+  {
+    "word": "ทดลอง",
+    "topics": [
+      "science"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "ลองทำเพื่อพิสูจน์ข้อสงสัย",
+    "shortClue": "ลองทำพิสูจน์"
+  },
+  {
+    "word": "สมมติฐาน",
+    "topics": [
+      "science"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "คำตอบที่คาดไว้ก่อนการทดสอบ",
+    "shortClue": "คาดเดาก่อนทดสอบ"
+  },
+  {
+    "word": "สมอง",
+    "topics": [
+      "science"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "อวัยวะในกะโหลกควบคุมความคิด",
+    "shortClue": "อยู่ในกะโหลก"
+  },
+  {
+    "word": "ปอด",
+    "topics": [
+      "science"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "อวัยวะคู่ในอกใช้หายใจ",
+    "shortClue": "ใช้หายใจ"
+  },
+  {
+    "word": "ตับ",
+    "topics": [
+      "science"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "อวัยวะใหญ่ใต้ซี่โครงขวากรองเลือด",
+    "shortClue": "กรองเลือด"
+  },
+  {
+    "word": "กล้ามเนื้อ",
+    "topics": [
+      "science"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "เนื้อเยื่อที่หดตัวทำให้ขยับ",
+    "shortClue": "ทำให้ขยับ"
+  },
+  {
+    "word": "เลือด",
+    "topics": [
+      "science"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "ของเหลวสีแดงในเส้นของร่างกาย",
+    "shortClue": "ของเหลวสีแดง"
+  },
+  {
+    "word": "กระเพาะ",
+    "topics": [
+      "science"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "ถุงย่อยอาหารในท้อง",
+    "shortClue": "ถุงย่อยอาหาร"
+  },
+  {
+    "word": "ฟัน",
+    "topics": [
+      "science"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "ชิ้นแข็งในปากใช้เคี้ยว",
+    "shortClue": "ใช้เคี้ยว"
+  },
+  {
+    "word": "ผิวหนัง",
+    "topics": [
+      "science"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "เนื้อเยื่อหุ้มร่างกายภายนอก",
+    "shortClue": "ห่อหุ้มตัว"
+  },
+  {
+    "word": "ภูมิคุ้มกัน",
+    "topics": [
+      "science"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "ระบบป้องกันโรคของร่างกาย",
+    "shortClue": "ต้านโรค"
+  },
+  {
+    "word": "วัคซีน",
+    "topics": [
+      "science"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "ยาฉีดป้องกันโรคล่วงหน้า",
+    "shortClue": "ป้องกันล่วงหน้า"
+  },
+  {
+    "word": "ยา",
+    "topics": [
+      "science"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "สิ่งที่กินเพื่อรักษาโรค",
+    "shortClue": "กินรักษาโรค"
+  },
+  {
+    "word": "แบคทีเรีย",
+    "topics": [
+      "science"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "สิ่งมีชีวิตเซลล์เดียวที่เล็กเกินตามองเห็น",
+    "shortClue": "จิ๋วมองไม่เห็น"
+  },
+  {
+    "word": "กาแล็กซี",
+    "topics": [
+      "science"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "กลุ่มดาวนับล้านล้านดวงรวมกัน",
+    "shortClue": "ดาวมากมายรวมกัน"
+  },
+  {
+    "word": "จักรวาล",
+    "topics": [
+      "science"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "ทุกสิ่งในอวกาศทั้งหมด",
+    "shortClue": "ทุกสิ่งทั้งหมด"
+  },
+  {
+    "word": "อวกาศ",
+    "topics": [
+      "science"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "ที่ว่างนอกบรรยากาศโลก",
+    "shortClue": "นอกโลก"
+  },
+  {
+    "word": "อุกกาบาต",
+    "topics": [
+      "science"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "ก้อนหินจากอวกาศที่ตกมายังโลก",
+    "shortClue": "หินตกจากฟ้า"
+  },
+  {
+    "word": "จันทรุปราคา",
+    "topics": [
+      "science"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "เงาโลกบังดวงเดือนเต็มดวง",
+    "shortClue": "เงาโลกบังเดือน"
+  },
+  {
+    "word": "คณิตศาสตร์",
+    "topics": [
+      "science"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "วิชาว่าด้วยตัวเลขและการคำนวณ",
+    "shortClue": "วิชาตัวเลข"
+  },
+  {
+    "word": "เรขาคณิต",
+    "topics": [
+      "science"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "วิชาว่าด้วยรูปร่างและมุม",
+    "shortClue": "วิชารูปร่าง"
+  },
+  {
+    "word": "สมการ",
+    "topics": [
+      "science"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "ประโยคที่มีเครื่องหมายเท่ากับคั่นกลาง",
+    "shortClue": "เท่ากันสองข้าง"
+  },
+  {
+    "word": "เศษส่วน",
+    "topics": [
+      "science"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "จำนวนที่เขียนเป็นบนและล่างคั่นด้วยขีด",
+    "shortClue": "จำนวนบนล่าง"
+  },
+  {
+    "word": "กราฟ",
+    "topics": [
+      "science"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "ภาพแสดงความสัมพันธ์ของข้อมูล",
+    "shortClue": "ภาพแสดงข้อมูล"
+  },
+  {
+    "word": "ฟอสซิล",
+    "topics": [
+      "science"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "ซากสัตว์หรือพืชโบราณที่กลายเป็นหิน",
+    "shortClue": "ซากกลายเป็นหิน"
+  },
+  {
+    "word": "ฟุตบอล",
+    "topics": [
+      "sport"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "กีฬาที่สองทีมเตะลูกกลมเข้าประตู",
+    "shortClue": "เตะลงตาข่าย"
+  },
+  {
+    "word": "บาสเกตบอล",
+    "topics": [
+      "sport"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "กีฬาโยนลูกลงห่วงสูง",
+    "shortClue": "โยนลงห่วง"
+  },
+  {
+    "word": "วอลเลย์บอล",
+    "topics": [
+      "sport"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "กีฬาตีลูกข้ามตาข่ายด้วยมือ",
+    "shortClue": "ตีข้ามตาข่าย"
+  },
+  {
+    "word": "เทนนิส",
+    "topics": [
+      "sport"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "กีฬาตีลูกด้วยไม้ข้ามตาข่ายในสนาม",
+    "shortClue": "ตีด้วยไม้ข้ามตาข่าย"
+  },
+  {
+    "word": "กอล์ฟ",
+    "topics": [
+      "sport"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "กีฬาตีลูกเล็กลงหลุมบนสนามกว้าง",
+    "shortClue": "ตีลูกลงหลุม"
+  },
+  {
+    "word": "ปิงปอง",
+    "topics": [
+      "sport"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "กีฬาตีลูกเล็กเบาบนโต๊ะ",
+    "shortClue": "ตีลูกเบาบนโต๊ะ"
+  },
+  {
+    "word": "กรีฑา",
+    "topics": [
+      "sport"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "กีฬาวิ่งกระโดดขว้างบนลู่และลาน",
+    "shortClue": "วิ่งกระโดดขว้าง"
+  },
+  {
+    "word": "ยิมนาสติก",
+    "topics": [
+      "sport"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "กีฬาท่ากายบนพื้นและอุปกรณ์",
+    "shortClue": "ท่ากายบนพื้น"
+  },
+  {
+    "word": "ยูโด",
+    "topics": [
+      "sport"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "กีฬาต่อสู้ของญี่ปุ่นที่ใช้การทุ่ม",
+    "shortClue": "ทุ่มคู่ต่อสู้"
+  },
+  {
+    "word": "เทควันโด",
+    "topics": [
+      "sport"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "ศิลปะการต่อสู้ของเกาหลีที่เน้นการเตะ",
+    "shortClue": "ต่อสู้เกาหลี"
+  },
+  {
+    "word": "สนุกเกอร์",
+    "topics": [
+      "sport"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "กีฬาใช้ไม้แท่งยาวแทงลูกลงหลุมบนโต๊ะผ้า",
+    "shortClue": "แทงลูกลงหลุม"
+  },
+  {
+    "word": "โบว์ลิ่ง",
+    "topics": [
+      "sport"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "กีฬากลิ้งลูกหนักให้ล้มหมุดสิบอัน",
+    "shortClue": "กลิ้งล้มหมุด"
+  },
+  {
+    "word": "ผู้เล่น",
+    "topics": [
+      "sport"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "คนที่ลงสนามแข่งขัน",
+    "shortClue": "ลงสนามแข่ง"
+  },
+  {
+    "word": "โค้ช",
+    "topics": [
+      "sport"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "ผู้ฝึกสอนนักกีฬา",
+    "shortClue": "ผู้ฝึกสอน"
+  },
+  {
+    "word": "นักกีฬา",
+    "topics": [
+      "sport"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "ผู้ฝึกซ้อมและลงแข่งขันเป็นอาชีพ",
+    "shortClue": "ผู้ลงแข่ง"
+  },
+  {
+    "word": "แชมป์",
+    "topics": [
+      "sport"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "ผู้ชนะอันดับหนึ่งในการแข่งขัน",
+    "shortClue": "ผู้ชนะที่สุด"
+  },
+  {
+    "word": "นกหวีด",
+    "topics": [
+      "sport"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "เครื่องเป่าเสียงแหลมของผู้ตัดสิน",
+    "shortClue": "เป่าเสียงแหลม"
+  },
+  {
+    "word": "สเก็ต",
+    "topics": [
+      "sport"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "รองเท้าติดล้อหรือใบมีดไถไปบนพื้นเรียบ",
+    "shortClue": "รองเท้าติดล้อ"
+  },
+  {
+    "word": "สกี",
+    "topics": [
+      "sport"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "แผ่นยาวสวมเท้าใช้ลื่นบนหิมะ",
+    "shortClue": "ลื่นบนหิมะ"
+  },
+  {
+    "word": "ดนตรี",
+    "topics": [
+      "arts"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "เสียงที่เรียบเรียงเป็นทำนองและจังหวะ",
+    "shortClue": "ทำนองและจังหวะ"
+  },
+  {
+    "word": "ไวโอลิน",
+    "topics": [
+      "arts"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "เครื่องสายเล็กที่ใช้คันชักสี",
+    "shortClue": "ใช้คันชักสี"
+  },
+  {
+    "word": "เปียโน",
+    "topics": [
+      "arts"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "เครื่องดนตรีมีแป้นขาวดำกดเล่น",
+    "shortClue": "แป้นขาวดำ"
+  },
+  {
+    "word": "ขลุ่ย",
+    "topics": [
+      "arts"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "เครื่องเป่าไม้เรียวยาวมีรู",
+    "shortClue": "เป่าไม้มีรู"
+  },
+  {
+    "word": "ระนาด",
+    "topics": [
+      "arts"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "เครื่องดนตรีไทยตีบนลูกไม้เรียงราง",
+    "shortClue": "ตีลูกไม้เรียง"
+  },
+  {
+    "word": "จะเข้",
+    "topics": [
+      "arts"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "เครื่องสายไทยดีดบนตัวรูปสัตว์เลื้อยคลาน",
+    "shortClue": "สายไทยรูปสัตว์"
+  },
+  {
+    "word": "ฆ้อง",
+    "topics": [
+      "arts"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "แผ่นโลหะกลมตีให้เสียงกังวาน",
+    "shortClue": "โลหะกลมตีดัง"
+  },
+  {
+    "word": "ฉิ่ง",
+    "topics": [
+      "arts"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "เครื่องตีคู่เล็กให้จังหวะ",
+    "shortClue": "ตีคู่ให้จังหวะ"
+  },
+  {
+    "word": "ทำนอง",
+    "topics": [
+      "arts"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "เสียงสูงต่ำที่ร้อยเรียงเป็นเพลง",
+    "shortClue": "สูงต่ำเรียงกัน"
+  },
+  {
+    "word": "จังหวะ",
+    "topics": [
+      "arts"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "การเคาะซ้ำสม่ำเสมอในดนตรี",
+    "shortClue": "เคาะซ้ำสม่ำเสมอ"
+  },
+  {
+    "word": "ภาพถ่าย",
+    "topics": [
+      "arts"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "รูปที่ได้จากกล้อง",
+    "shortClue": "รูปจากกล้อง"
+  },
+  {
+    "word": "จิตรกร",
+    "topics": [
+      "arts"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "ผู้วาดภาพเป็นอาชีพ",
+    "shortClue": "ผู้วาดภาพ"
+  },
+  {
+    "word": "ประติมากรรม",
+    "topics": [
+      "arts"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "งานปั้นหรือแกะเป็นรูปสามมิติ",
+    "shortClue": "งานปั้นแกะรูป"
+  },
+  {
+    "word": "วรรณกรรม",
+    "topics": [
+      "arts"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "งานเขียนที่มีคุณค่าด้านภาษาและเรื่องราว",
+    "shortClue": "งานเขียนมีคุณค่า"
+  },
+  {
+    "word": "นักแสดง",
+    "topics": [
+      "arts"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "ผู้สวมบทบาทบนเวทีหรือจอ",
+    "shortClue": "สวมบทบาท"
+  },
+  {
+    "word": "ผู้กำกับ",
+    "topics": [
+      "arts"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "ผู้ควบคุมการสร้างภาพยนตร์",
+    "shortClue": "คุมกองถ่าย"
+  },
+  {
+    "word": "เวที",
+    "topics": [
+      "arts"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "พื้นยกสูงที่ใช้แสดง",
+    "shortClue": "ที่แสดงยกสูง"
+  },
+  {
+    "word": "ม่าน",
+    "topics": [
+      "arts"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "ผ้าผืนใหญ่ที่เปิดปิดหน้าเวที",
+    "shortClue": "ผ้าเปิดปิดเวที"
+  },
+  {
+    "word": "ผู้ชม",
+    "topics": [
+      "arts"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "คนที่นั่งดูการแสดง",
+    "shortClue": "คนดูการแสดง"
+  },
+  {
+    "word": "ตลก",
+    "topics": [
+      "arts"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "ทำให้คนหัวเราะ",
+    "shortClue": "ทำให้หัวเราะ"
+  },
+  {
+    "word": "การ์ตูน",
+    "topics": [
+      "arts"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "ภาพวาดเล่าเรื่องสนุกสำหรับเด็ก",
+    "shortClue": "ภาพวาดเล่าเรื่อง"
+  },
+  {
+    "word": "พู่กัน",
+    "topics": [
+      "arts"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "แปรงปลายนุ่มจุ่มสีวาด",
+    "shortClue": "แปรงจุ่มสี"
+  },
+  {
+    "word": "ผ้าใบ",
+    "topics": [
+      "arts"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "ผืนผ้าที่จิตรกรใช้วาดสีน้ำมัน",
+    "shortClue": "ผืนผ้าสำหรับวาด"
+  },
+  {
+    "word": "สถาปัตยกรรม",
+    "topics": [
+      "arts"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "ศาสตร์ออกแบบอาคาร",
+    "shortClue": "ศาสตร์ออกแบบตึก"
+  },
+  {
+    "word": "ลวดลาย",
+    "topics": [
+      "arts"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "รูปแบบที่ซ้ำกันบนผ้าหรือภาชนะ",
+    "shortClue": "แบบซ้ำบนผ้า"
+  },
+  {
+    "word": "คอนเสิร์ต",
+    "topics": [
+      "arts"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "การแสดงดนตรีสดต่อหน้าผู้ชม",
+    "shortClue": "ดนตรีสด"
+  },
+  {
+    "word": "กวี",
+    "topics": [
+      "arts"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "ผู้แต่งบทร้อยกรอง",
+    "shortClue": "ผู้แต่งร้อยกรอง"
+  },
+  {
+    "word": "ร้อยกรอง",
+    "topics": [
+      "arts"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "ถ้อยคำที่เรียงตามฉันทลักษณ์",
+    "shortClue": "ถ้อยคำมีสัมผัส"
+  },
+  {
+    "word": "ตู้เย็น",
+    "topics": [
+      "home"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "ตู้ไฟฟ้าที่เก็บอาหารให้เย็น",
+    "shortClue": "เก็บของให้เย็น"
+  },
+  {
+    "word": "พัดลม",
+    "topics": [
+      "home"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "เครื่องหมุนใบให้อากาศเคลื่อนคลายร้อน",
+    "shortClue": "หมุนใบคลายร้อน"
+  },
+  {
+    "word": "เตารีด",
+    "topics": [
+      "home"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "เครื่องร้อนที่ทำให้ผ้าเรียบ",
+    "shortClue": "ทำให้ผ้าเรียบ"
+  },
+  {
+    "word": "ไม้กวาด",
+    "topics": [
+      "home"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "ด้ามยาวปลายเป็นฟ่อนใช้ปัดฝุ่นพื้น",
+    "shortClue": "ด้ามยาวปัดพื้น"
+  },
+  {
+    "word": "กะละมัง",
+    "topics": [
+      "home"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "ภาชนะกลมปากกว้างใช้ซักผ้า",
+    "shortClue": "ภาชนะซักผ้า"
+  },
+  {
+    "word": "จาน",
+    "topics": [
+      "home"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "ภาชนะแบนใส่อาหารตอนกิน",
+    "shortClue": "ใส่อาหาร"
+  },
+  {
+    "word": "ชาม",
+    "topics": [
+      "home"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "ภาชนะลึกใส่ก๋วยเตี๋ยวหรือแกง",
+    "shortClue": "ภาชนะลึก"
+  },
+  {
+    "word": "ช้อน",
+    "topics": [
+      "home"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "เครื่องใช้ตักอาหารเข้าปาก",
+    "shortClue": "ตักเข้าปาก"
+  },
+  {
+    "word": "ส้อม",
+    "topics": [
+      "home"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "เครื่องใช้มีง่ามเสียบอาหาร",
+    "shortClue": "ง่ามเสียบอาหาร"
+  },
+  {
+    "word": "มีด",
+    "topics": [
+      "home"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "เครื่องใช้คมหั่นหรือตัด",
+    "shortClue": "ของมีคม"
+  },
+  {
+    "word": "แก้ว",
+    "topics": [
+      "home"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "ภาชนะใสใส่น้ำดื่ม",
+    "shortClue": "ภาชนะใสดื่มน้ำ"
+  },
+  {
+    "word": "ขวด",
+    "topics": [
+      "home"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "ภาชนะคอแคบใส่ของเหลว",
+    "shortClue": "คอแคบใส่น้ำ"
+  },
+  {
+    "word": "กระทะ",
+    "topics": [
+      "home"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "ภาชนะแบนก้นตื้นใช้ผัดทอด",
+    "shortClue": "ผัดทอดบนเตา"
+  },
+  {
+    "word": "เตา",
+    "topics": [
+      "home"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "ที่ก่อความร้อนสำหรับหุงต้ม",
+    "shortClue": "ที่หุงต้ม"
+  },
+  {
+    "word": "ตะหลิว",
+    "topics": [
+      "home"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "ด้ามยาวหัวแบนใช้พลิกอาหารในกระทะ",
+    "shortClue": "พลิกอาหารร้อน"
+  },
+  {
+    "word": "ครก",
+    "topics": [
+      "home"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "ภาชนะหินใช้โขลกพริก",
+    "shortClue": "ที่โขลกของ"
+  },
+  {
+    "word": "แปรงสีฟัน",
+    "topics": [
+      "home"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "ด้ามขนนุ่มสำหรับขัดภายในปากตอนเช้า",
+    "shortClue": "ขัดในปาก"
+  },
+  {
+    "word": "หวี",
+    "topics": [
+      "home"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "ของใช้ซี่ห่างสางผม",
+    "shortClue": "ซี่ห่างสางผม"
+  },
+  {
+    "word": "ร่ม",
+    "topics": [
+      "home"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "ของกางกันฝนหรือแดด",
+    "shortClue": "กางกันฝน"
+  },
+  {
+    "word": "กุญแจ",
+    "topics": [
+      "home"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "ของโลหะไขเปิดล็อกประตู",
+    "shortClue": "ไขเปิดล็อก"
+  },
+  {
+    "word": "นาฬิกา",
+    "topics": [
+      "home"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "เครื่องบอกเวลาบนข้อมือหรือผนัง",
+    "shortClue": "บอกเวลา"
+  },
+  {
+    "word": "กรรไกร",
+    "topics": [
+      "home"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "เครื่องมือสองใบตัดกระดาษหรือผม",
+    "shortClue": "สองใบตัด"
+  },
+  {
+    "word": "เข็ม",
+    "topics": [
+      "home"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "แท่งเล็กแหลมรูตรงปลายใช้เย็บผ้า",
+    "shortClue": "ใช้เย็บผ้า"
+  },
+  {
+    "word": "ด้าย",
+    "topics": [
+      "home"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "เส้นใยยาวที่ร้อยเข็มเย็บผ้า",
+    "shortClue": "เส้นร้อยเข็ม"
+  },
+  {
+    "word": "พรม",
+    "topics": [
+      "home"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "ผืนผ้าหนานุ่มปูพื้นห้อง",
+    "shortClue": "ปูพื้นห้อง"
+  },
+  {
+    "word": "โซฟา",
+    "topics": [
+      "home"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "ที่นั่งนุ่มยาวในห้องรับแขก",
+    "shortClue": "เบาะนั่งยาว"
+  },
+  {
+    "word": "ระเบียง",
+    "topics": [
+      "home"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "พื้นยื่นหน้าห้องไว้นั่งรับลม",
+    "shortClue": "ที่ยื่นนอกห้อง"
+  },
+  {
+    "word": "หลังคา",
+    "topics": [
+      "home"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "ส่วนบนสุดของบ้านกันแดดฝน",
+    "shortClue": "ส่วนบนสุดตึก"
+  },
+  {
+    "word": "บันได",
+    "topics": [
+      "home"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "ขั้นเรียงให้เดินขึ้นลงชั้น",
+    "shortClue": "ขั้นเดินขึ้นลง"
+  },
+  {
+    "word": "รั้ว",
+    "topics": [
+      "home"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "แนวกั้นรอบที่ดิน",
+    "shortClue": "แนวกั้นรอบที่"
+  },
+  {
+    "word": "ตะกร้า",
+    "topics": [
+      "home"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "ภาชนะสานมีหูหิ้วใส่ของ",
+    "shortClue": "สานใส่ของ"
+  },
+  {
+    "word": "ถุง",
+    "topics": [
+      "home"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "ภาชนะอ่อนปากเปิดใส่ของ",
+    "shortClue": "ใส่ของหิ้ว"
+  },
+  {
+    "word": "กล่อง",
+    "topics": [
+      "home"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "ภาชนะเหลี่ยมมีฝาปิดใส่ของ",
+    "shortClue": "มีฝาปิดใส่ของ"
+  },
+  {
+    "word": "ชาวสวน",
+    "topics": [
+      "professions"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "คนปลูกผลไม้และพืชในที่ดิน",
+    "shortClue": "คนทำสวน"
+  },
+  {
+    "word": "นักบิน",
+    "topics": [
+      "professions"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "ผู้ขับเครื่องบินพาผู้โดยสาร",
+    "shortClue": "ขับเครื่องบิน"
+  },
+  {
+    "word": "กัปตัน",
+    "topics": [
+      "professions"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "ผู้บังคับการเรือหรือเครื่องบิน",
+    "shortClue": "ผู้บังคับการ"
+  },
+  {
+    "word": "ช่างภาพ",
+    "topics": [
+      "professions"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "ผู้ถ่ายรูปเป็นอาชีพ",
+    "shortClue": "คนถ่ายรูป"
+  },
+  {
+    "word": "นักข่าว",
+    "topics": [
+      "professions"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "ผู้รายงานเหตุการณ์ประจำวัน",
+    "shortClue": "รายงานเหตุการณ์"
+  },
+  {
+    "word": "ผู้พิพากษา",
+    "topics": [
+      "professions"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "ผู้ชี้ขาดคดีในศาล",
+    "shortClue": "ชี้ขาดคดี"
+  },
+  {
+    "word": "เภสัชกร",
+    "topics": [
+      "professions"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "ผู้จัดยาให้ผู้ป่วยในร้านยา",
+    "shortClue": "ผู้จัดยา"
+  },
+  {
+    "word": "ทันตแพทย์",
+    "topics": [
+      "professions"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "หมอที่รักษาโรคในช่องปาก",
+    "shortClue": "หมอช่องปาก"
+  },
+  {
+    "word": "สัตวแพทย์",
+    "topics": [
+      "professions"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "หมอที่รักษาสัตว์เลี้ยง",
+    "shortClue": "หมอของสัตว์"
+  },
+  {
+    "word": "ช่างทอง",
+    "topics": [
+      "professions"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "ผู้ทำเครื่องประดับจากโลหะมีค่า",
+    "shortClue": "ทำเครื่องประดับ"
+  },
+  {
+    "word": "เกษตรกร",
+    "topics": [
+      "professions"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "ผู้ทำการเพาะปลูกเลี้ยงสัตว์",
+    "shortClue": "ผู้เพาะปลูก"
+  },
+  {
+    "word": "พนักงาน",
+    "topics": [
+      "professions"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "ผู้ทำงานให้บริษัทหรือร้านค้า",
+    "shortClue": "ทำงานให้นาย"
+  },
+  {
+    "word": "เสมียน",
+    "topics": [
+      "professions"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "ผู้จดและจัดเอกสารในสำนักงาน",
+    "shortClue": "จดเอกสาร"
+  },
+  {
+    "word": "เลขานุการ",
+    "topics": [
+      "professions"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "ผู้ช่วยจัดตารางนัดและเอกสารให้เจ้านาย",
+    "shortClue": "ผู้ช่วยจัดนัด"
+  },
+  {
+    "word": "นักบัญชี",
+    "topics": [
+      "professions"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "ผู้บันทึกรายรับรายจ่าย",
+    "shortClue": "จดรายรับจ่าย"
+  },
+  {
+    "word": "ผู้จัดการ",
+    "topics": [
+      "professions"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "ผู้บริหารงานของร้านหรือบริษัท",
+    "shortClue": "ผู้บริหารงาน"
+  },
+  {
+    "word": "ยาม",
+    "topics": [
+      "professions"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "ผู้เฝ้าดูแลความปลอดภัยของอาคาร",
+    "shortClue": "ผู้เฝ้าอาคาร"
+  },
+  {
+    "word": "กะลาสี",
+    "topics": [
+      "professions"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "ลูกเรือที่ทำงานบนเรือเดินทะเล",
+    "shortClue": "ลูกเรือทะเล"
+  },
+  {
+    "word": "นักวิจัย",
+    "topics": [
+      "professions"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "ผู้ค้นคว้าหาความรู้ใหม่",
+    "shortClue": "ค้นคว้าความรู้"
+  },
+  {
+    "word": "ล่าม",
+    "topics": [
+      "professions"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "ผู้แปลคำพูดสองภาษาทันที",
+    "shortClue": "แปลคำพูดสด"
+  },
+  {
+    "word": "นักแปล",
+    "topics": [
+      "professions"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "ผู้ถ่ายความจากภาษาหนึ่งสู่อีกภาษา",
+    "shortClue": "แปลข้อความ"
+  },
+  {
+    "word": "บุรุษไปรษณีย์",
+    "topics": [
+      "professions"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "ผู้นำจดหมายไปส่งตามบ้าน",
+    "shortClue": "ส่งจดหมาย"
+  },
+  {
+    "word": "ชาวไร่",
+    "topics": [
+      "professions"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "ผู้ทำการเกษตรในที่ดอนกว้าง",
+    "shortClue": "ปลูกพืชไร่"
+  },
+  {
+    "word": "ไหว้",
+    "topics": [
+      "localCulture"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "ท่าทักทายพนมมือแสดงความเคารพ",
+    "shortClue": "ท่าทักทายพนมมือ"
+  },
+  {
+    "word": "ตลาดน้ำ",
+    "topics": [
+      "localCulture"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "แหล่งซื้อขายที่พ่อค้าแม่ค้าพายเรือมาขายของ",
+    "shortClue": "ขายของบนเรือ"
+  },
+  {
+    "word": "ผ้าขาวม้า",
+    "topics": [
+      "localCulture"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "ผ้าผืนยาวลายตารางที่ชายไทยใช้นุ่ง",
+    "shortClue": "ผ้าลายตาราง"
+  },
+  {
+    "word": "จักสาน",
+    "topics": [
+      "localCulture"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "งานฝีมือสานเส้นไม้เป็นภาชนะ",
+    "shortClue": "สานเส้นไม้ไผ่"
+  },
+  {
+    "word": "หนังตะลุง",
+    "topics": [
+      "localCulture"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "การเล่นเงารูปหนังบนจอผ้าทางภาคใต้",
+    "shortClue": "เล่นเงาบนจอ"
+  },
+  {
+    "word": "หมอลำ",
+    "topics": [
+      "localCulture"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "ศิลปะการขับร้องของภาคอีสาน",
+    "shortClue": "ขับร้องอีสาน"
+  },
+  {
+    "word": "ลำตัด",
+    "topics": [
+      "localCulture"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "การร้องโต้ตอบเป็นชุดมีกลองรำมะนา",
+    "shortClue": "ร้องโต้ตอบ"
+  },
+  {
+    "word": "ฟ้อน",
+    "topics": [
+      "localCulture"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "ท่าร่ายรำนุ่มนวลของภาคเหนือ",
+    "shortClue": "ร่ายรำเหนือ"
+  },
+  {
+    "word": "โนรา",
+    "topics": [
+      "localCulture"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "ศิลปะการรำของภาคใต้ที่สวมเทริด",
+    "shortClue": "รำแดนใต้"
+  },
+  {
+    "word": "ขนมจีน",
+    "topics": [
+      "localCulture"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "เส้นนุ่มขาวกินกับน้ำยาและผักสด",
+    "shortClue": "เส้นกินกับน้ำยา"
+  },
+  {
+    "word": "เครื่องเงิน",
+    "topics": [
+      "localCulture"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "งานฝีมือที่ตีโลหะขาวเป็นลวดลาย",
+    "shortClue": "โลหะขาวลวดลาย"
+  },
+  {
+    "word": "ไทย",
+    "topics": [
+      "localCulture"
+    ],
+    "difficulty": 1,
+    "kind": "proper",
+    "clue": "ชื่อของประเทศและชนชาติของเรา",
+    "shortClue": "ชื่อประเทศเรา"
+  },
+  {
+    "word": "สำนวน",
+    "topics": [
+      "localCulture"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "กลุ่มถ้อยคำที่มีความหมายเปรียบเทียบ",
+    "shortClue": "คำเปรียบเปรย"
+  },
+  {
+    "word": "สุภาษิต",
+    "topics": [
+      "localCulture"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "ถ้อยคำสั้นที่สอนใจคน",
+    "shortClue": "คำสอนสั้น"
+  },
+  {
+    "word": "ประเพณี",
+    "topics": [
+      "localCulture"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "ธรรมเนียมที่สืบทอดกันมา",
+    "shortClue": "ธรรมเนียมสืบมา"
+  },
+  {
+    "word": "เทศกาล",
+    "topics": [
+      "localCulture"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "ช่วงเวลาที่จัดงานรื่นเริงประจำปี",
+    "shortClue": "งานประจำปี"
+  },
+  {
+    "word": "เรือยาว",
+    "topics": [
+      "localCulture"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "พาหนะน้ำลำเพรียวมีฝีพายหลายสิบคน",
+    "shortClue": "ฝีพายหลายสิบ"
+  },
+  {
+    "word": "วัฒนธรรม",
+    "topics": [
+      "localCulture"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "แบบแผนการดำรงชีวิตของคนกลุ่มหนึ่ง",
+    "shortClue": "แบบแผนชีวิต"
+  },
+  {
+    "word": "ภูมิปัญญา",
+    "topics": [
+      "localCulture"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "ความรู้ที่สั่งสมสืบทอดในชุมชน",
+    "shortClue": "ความรู้สืบทอด"
+  },
+  {
+    "word": "ขันโตก",
+    "topics": [
+      "localCulture"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "สำรับอาหารแบบล้านนากินล้อมวงบนพื้น",
+    "shortClue": "โต๊ะเตี้ยล้านนา"
+  },
+  {
+    "word": "มัดหมี่",
+    "topics": [
+      "localCulture"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "ผ้าทอที่ย้อมเส้นด้ายให้เป็นลายก่อนทอ",
+    "shortClue": "ย้อมด้ายเป็นลาย"
+  },
+  {
+    "word": "เบญจรงค์",
+    "topics": [
+      "localCulture"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "เครื่องถ้วยชามเขียนลายห้าสี",
+    "shortClue": "ถ้วยชามห้าสี"
+  },
+  {
+    "word": "ข้าวหลาม",
+    "topics": [
+      "localCulture"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "ของหวานเหนียวกะทิเผาในกระบอกไม้ไผ่",
+    "shortClue": "เผาในกระบอก"
+  },
+  {
+    "word": "รำวง",
+    "topics": [
+      "localCulture"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "การเต้นเป็นวงตามจังหวะเพลงพื้นบ้าน",
+    "shortClue": "เต้นเป็นวง"
+  },
+  {
+    "word": "ตลาดนัด",
+    "topics": [
+      "localCulture"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "ที่ขายของเปิดเฉพาะบางวัน",
+    "shortClue": "ขายของบางวัน"
+  },
+  {
+    "word": "ของฝาก",
+    "topics": [
+      "localCulture"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "สิ่งที่ซื้อจากต่างถิ่นกลับมาให้คนที่บ้าน",
+    "shortClue": "ซื้อมาให้คนบ้าน"
+  },
+  {
+    "word": "รักบี้",
+    "topics": [
+      "sport"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "กีฬาถือลูกวิ่งข้ามเส้นเพื่อทำแต้ม",
+    "shortClue": "ถือลูกวิ่งทำแต้ม"
+  },
+  {
+    "word": "แฮนด์บอล",
+    "topics": [
+      "sport"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "กีฬาโยนลูกด้วยมือลงประตูคู่แข่ง",
+    "shortClue": "โยนลูกด้วยมือ"
+  },
+  {
+    "word": "คริกเก็ต",
+    "topics": [
+      "sport"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "กีฬาตีลูกด้วยไม้แบนแล้ววิ่งทำแต้ม",
+    "shortClue": "ตีลูกด้วยไม้แบน"
+  },
+  {
+    "word": "เบสบอล",
+    "topics": [
+      "sport"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "กีฬาตีลูกด้วยไม้กลมแล้ววิ่งรอบฐาน",
+    "shortClue": "วิ่งรอบฐาน"
+  },
+  {
+    "word": "ผลัด",
+    "topics": [
+      "sport"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "การวิ่งส่งไม้ให้เพื่อนร่วมทีมต่อ",
+    "shortClue": "ส่งไม้ต่อ"
+  },
+  {
+    "word": "แต้ม",
+    "topics": [
+      "sport"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "ตัวเลขที่ทีมได้เมื่อทำสำเร็จ",
+    "shortClue": "ตัวเลขของทีม"
+  },
+  {
+    "word": "เส้นชัย",
+    "topics": [
+      "sport"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "เส้นที่ผู้แข่งต้องวิ่งถึงก่อน",
+    "shortClue": "เส้นปลายทางแข่ง"
+  },
+  {
+    "word": "อาณาจักร",
+    "topics": [
+      "history"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "ดินแดนใหญ่ที่รวมเมืองเข้าเป็นแคว้นเดียว",
+    "shortClue": "แคว้นขนาดใหญ่"
+  },
+  {
+    "word": "โบราณคดี",
+    "topics": [
+      "history"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "ศาสตร์ศึกษาอดีตจากสิ่งที่ขุดพบ",
+    "shortClue": "ศึกษาอดีตจากซาก"
+  },
+  {
+    "word": "บันทึก",
+    "topics": [
+      "history"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "ข้อความที่จดไว้เพื่อให้จำได้",
+    "shortClue": "จดไว้ดูภายหลัง"
+  },
+  {
+    "word": "ยุคหิน",
+    "topics": [
+      "history"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "ช่วงแรกของมนุษย์ที่ทำเครื่องมือจากก้อนแข็ง",
+    "shortClue": "ก่อนมีโลหะ"
+  },
+  {
+    "word": "ซามูไร",
+    "topics": [
+      "history"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "นักรบแห่งญี่ปุ่นยุคเก่า",
+    "shortClue": "นักรบญี่ปุ่นเก่า"
+  },
+  {
+    "word": "ไวกิ้ง",
+    "topics": [
+      "history"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "นักเดินเรือชาวเหนือในยุโรปยุคเก่า",
+    "shortClue": "นักเดินเรือเหนือ"
+  },
+  {
+    "word": "หอคอย",
+    "topics": [
+      "history"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "อาคารสูงเรียวใช้เฝ้ามอง",
+    "shortClue": "อาคารสูงเรียว"
+  },
+  {
+    "word": "เรือกลไฟ",
+    "topics": [
+      "history"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "พาหนะน้ำที่ใช้พลังไอร้อนขับใบพัด",
+    "shortClue": "ใช้พลังไอน้ำ"
+  },
+  {
+    "word": "นักดนตรี",
+    "topics": [
+      "professions"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "ผู้บรรเลงเพลงเป็นงานหลัก",
+    "shortClue": "ผู้บรรเลงเพลง"
+  },
+  {
+    "word": "ผู้ประกาศ",
+    "topics": [
+      "professions"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "ผู้อ่านข่าวหรือแจ้งข้อความทางสื่อ",
+    "shortClue": "อ่านข่าวทางจอ"
+  },
+  {
+    "word": "นักสืบ",
+    "topics": [
+      "professions"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "ผู้สอบสวนหาความจริงของคดี",
+    "shortClue": "ค้นหาความจริง"
+  },
+  {
+    "word": "นักดับเพลิง",
+    "topics": [
+      "professions"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "ผู้ที่ระงับเหตุเมื่อเกิดไฟไหม้",
+    "shortClue": "ระงับไฟไหม้"
+  },
+  {
+    "word": "ช่างปูน",
+    "topics": [
+      "professions"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "ผู้ก่อผนังด้วยซีเมนต์ทราย",
+    "shortClue": "ก่อผนังซีเมนต์"
+  },
+  {
+    "word": "ผู้อำนวยการ",
+    "topics": [
+      "professions"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "ผู้บริหารสูงสุดของโรงเรียนหรือหน่วยงาน",
+    "shortClue": "ผู้บริหารสูงสุด"
+  },
+  {
+    "word": "แอร์โฮสเตส",
+    "topics": [
+      "professions"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "ผู้ดูแลผู้โดยสารบนเครื่องบิน",
+    "shortClue": "ดูแลบนเครื่องบิน"
+  },
+  {
+    "word": "จิตแพทย์",
+    "topics": [
+      "professions"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "หมอที่รักษาโรคทางใจ",
+    "shortClue": "หมอทางใจ"
+  },
+  {
+    "word": "ผู้เชี่ยวชาญ",
+    "topics": [
+      "professions"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "คนที่รู้ลึกและชำนาญในเรื่องหนึ่ง",
+    "shortClue": "รู้ลึกชำนาญ"
+  },
+  {
+    "word": "มรสุม",
+    "topics": [
+      "nature"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "อากาศแปรปรวนตามฤดูที่หอบฝนมาจากทะเล",
+    "shortClue": "หอบฝนตามฤดู"
+  },
+  {
+    "word": "ป่าชายเลน",
+    "topics": [
+      "nature"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "ต้นไม้ขึ้นหนาแน่นริมปากอ่าวน้ำกร่อย",
+    "shortClue": "รากค้ำน้ำกร่อย"
+  },
+  {
+    "word": "แสงแดด",
+    "topics": [
+      "nature"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "ความอบอุ่นสว่างที่ตกลงบนพื้นช่วงกลางวัน",
+    "shortClue": "ความอุ่นกลางวัน"
+  },
+  {
+    "word": "รุ่งอรุณ",
+    "topics": [
+      "nature"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "ช่วงแรกที่ฟ้าสว่างตอนเช้า",
+    "shortClue": "ฟ้าเริ่มสว่าง"
+  },
+  {
+    "word": "พลบค่ำ",
+    "topics": [
+      "nature"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "ช่วงฟ้าเริ่มมืดหลังอาทิตย์ตก",
+    "shortClue": "ฟ้าเริ่มมืด"
+  },
+  {
+    "word": "ปี่พาทย์",
+    "topics": [
+      "arts"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "วงดนตรีไทยบรรเลงประกอบโขนและละคร",
+    "shortClue": "วงดนตรีไทย"
+  },
+  {
+    "word": "ศิลปิน",
+    "topics": [
+      "arts"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "ผู้สร้างงานที่งดงามด้วยฝีมือ",
+    "shortClue": "ผู้สร้างงานงาม"
+  },
+  {
+    "word": "โอเปร่า",
+    "topics": [
+      "arts"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "ละครร้องเพลงทั้งเรื่องแบบยุโรป",
+    "shortClue": "ละครร้องยุโรป"
+  },
+  {
+    "word": "ซิมโฟนี",
+    "topics": [
+      "arts"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "ผลงานหลายท่อนบรรเลงโดยวงใหญ่",
+    "shortClue": "ผลงานวงใหญ่"
+  },
+  {
+    "word": "ฉาก",
+    "topics": [
+      "arts"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "ภาพหรือสถานที่เป็นพื้นหลังของการแสดง",
+    "shortClue": "พื้นหลังการแสดง"
+  },
+  {
+    "word": "เสียสละ",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "ยอมให้ประโยชน์ตนเพื่อผู้อื่น",
+    "shortClue": "ยอมให้ผู้อื่น"
+  },
+  {
+    "word": "อุปสรรค",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "สิ่งที่ขวางทางไม่ให้ไปถึงเป้าหมาย",
+    "shortClue": "สิ่งขวางทาง"
+  },
+  {
+    "word": "สามัคคี",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "การร่วมใจกันทำงานเป็นหนึ่ง",
+    "shortClue": "ร่วมใจกัน"
+  },
+  {
+    "word": "ซื่อสัตย์",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "ไม่โกหกและไม่คดโกง",
+    "shortClue": "ไม่โกหกหลอก"
+  },
+  {
+    "word": "อดออม",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "เก็บเงินไว้ไม่ใช้ฟุ่มเฟือย",
+    "shortClue": "เก็บเงินไว้"
+  },
+  {
+    "word": "ประหยัด",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "ใช้สิ่งของพอดีไม่สิ้นเปลือง",
+    "shortClue": "ใช้พอดีไม่เปลือง"
+  },
+  {
+    "word": "สนทนา",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "พูดคุยโต้ตอบกัน",
+    "shortClue": "พูดคุยกัน"
+  },
+  {
+    "word": "ตั้งใจ",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "มุ่งมั่นทำสิ่งหนึ่งอย่างจริงจัง",
+    "shortClue": "มุ่งมั่นทำ"
+  },
+  {
+    "word": "อาสา",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "เสนอตัวทำสิ่งที่ไม่มีใครบังคับ",
+    "shortClue": "เสนอตัวทำ"
+  },
+  {
+    "word": "ลังเล",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "ไม่แน่ใจจะเลือกทางใด",
+    "shortClue": "ไม่แน่ใจ"
+  },
+  {
+    "word": "สงสัย",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "อยากรู้เพราะยังไม่เข้าใจ",
+    "shortClue": "อยากรู้ที่มา"
+  },
+  {
+    "word": "คุ้นเคย",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "รู้จักกันดีเพราะพบบ่อย",
+    "shortClue": "รู้จักดี"
+  },
+  {
+    "word": "ยุติธรรม",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "เท่าเทียมไม่เข้าข้างใคร",
+    "shortClue": "ไม่เข้าข้าง"
+  },
+  {
+    "word": "ผจญภัย",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "เดินทางไปเผชิญสิ่งเสี่ยงอันน่าตื่นเต้น",
+    "shortClue": "เดินทางเสี่ยง"
+  },
+  {
+    "word": "วันหยุด",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "ช่วงที่ไม่ต้องทำงานหรือเรียน",
+    "shortClue": "ไม่ต้องทำงาน"
+  }
+]
