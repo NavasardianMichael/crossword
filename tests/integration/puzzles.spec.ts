@@ -82,11 +82,18 @@ describe('POST /puzzles', () => {
   })
 
   it('answers pool_exhausted when even the oldest-seen words cannot fill it', async () => {
-    // Swahili has only its hand-written words, so its whole pool fits among the newest 500 seen:
-    // none of it may come back.
-    const all = await prisma.entry.findMany({ where: { locale: 'sw' }, select: { id: true } })
-    expect(all.length).toBeLessThan(500)
-    const response = await create({ locale: 'sw', exclude: all.map(({ id }) => id) })
+    // Every language now seeds more than 500 words, so Swahili is cut to 400 for this test: its whole
+    // pool then fits among the newest 500 seen, and none of it may come back.
+    const live = await prisma.entry.findMany({ where: { locale: 'sw', retiredAt: null }, select: { id: true }, orderBy: { id: 'asc' } })
+    const kept = live.slice(0, 400).map(({ id }) => id)
+    const cut = live.slice(400).map(({ id }) => id)
+    await prisma.entry.updateMany({ where: { id: { in: cut } }, data: { retiredAt: new Date() } })
+    let response
+    try {
+      response = await create({ locale: 'sw', exclude: kept })
+    } finally {
+      await prisma.entry.updateMany({ where: { id: { in: cut } }, data: { retiredAt: null } })
+    }
     expect(response.status).toBe(503)
     expect(response.body.error.message).toBe('pool_exhausted')
     // …and the gap is recorded for the refill job.
