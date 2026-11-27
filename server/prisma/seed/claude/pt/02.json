@@ -1,0 +1,4002 @@
+[
+  {
+    "word": "amor",
+    "topics": ["general"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Sentimento profundo de afeição por alguém",
+    "shortClue": "Afeto"
+  },
+  {
+    "word": "odio",
+    "topics": ["general"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Aversão intensa por alguém ou algo",
+    "shortClue": "Aversão"
+  },
+  {
+    "word": "nojo",
+    "topics": ["general"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Repulsa diante de algo sujo ou podre",
+    "shortClue": "Repulsa"
+  },
+  {
+    "word": "pena",
+    "topics": ["general"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Compaixão por quem sofre",
+    "shortClue": "Compaixão"
+  },
+  {
+    "word": "susto",
+    "topics": ["general"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Sobressalto causado por algo inesperado",
+    "shortClue": "Sobressalto"
+  },
+  {
+    "word": "tedio",
+    "topics": ["general"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Aborrecimento de quem não tem o que fazer",
+    "shortClue": "Enfado"
+  },
+  {
+    "word": "fome",
+    "topics": ["general"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Necessidade urgente de comer",
+    "shortClue": "Barriga vazia"
+  },
+  {
+    "word": "sede",
+    "topics": ["general"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Vontade de beber água",
+    "shortClue": "Boca seca"
+  },
+  {
+    "word": "hoje",
+    "topics": ["general"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "O dia em que estamos",
+    "shortClue": "Neste dia"
+  },
+  {
+    "word": "jamais",
+    "topics": ["general"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Em tempo algum, de modo nenhum",
+    "shortClue": "De forma alguma"
+  },
+  {
+    "word": "enfim",
+    "topics": ["general"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Finalmente, depois de tanta espera",
+    "shortClue": "Finalmente"
+  },
+  {
+    "word": "ainda",
+    "topics": ["general"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Até agora, até este momento",
+    "shortClue": "Até agora"
+  },
+  {
+    "word": "tudo",
+    "topics": ["general"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "A totalidade das coisas",
+    "shortClue": "Totalidade"
+  },
+  {
+    "word": "nada",
+    "topics": ["general"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Coisa nenhuma",
+    "shortClue": "Coisa nenhuma"
+  },
+  {
+    "word": "algo",
+    "topics": ["general"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Alguma coisa não definida",
+    "shortClue": "Alguma coisa"
+  },
+  {
+    "word": "cada",
+    "topics": ["general"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Pronome que trata os membros de um grupo um a um",
+    "shortClue": "Um por um"
+  },
+  {
+    "word": "outro",
+    "topics": ["general"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Diferente do que já foi citado",
+    "shortClue": "Diferente"
+  },
+  {
+    "word": "turvo",
+    "topics": ["general"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Que perdeu a transparência, como a água suja",
+    "shortClue": "Embaçado"
+  },
+  {
+    "word": "escuro",
+    "topics": ["general"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Sem luz, na penumbra",
+    "shortClue": "Sem claridade"
+  },
+  {
+    "word": "forte",
+    "topics": ["general"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Que tem muito vigor físico",
+    "shortClue": "Vigoroso"
+  },
+  {
+    "word": "fraco",
+    "topics": ["general"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Sem vigor nem resistência",
+    "shortClue": "Débil"
+  },
+  {
+    "word": "raro",
+    "topics": ["general"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Que se encontra muito pouco",
+    "shortClue": "Incomum"
+  },
+  {
+    "word": "feio",
+    "topics": ["general"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Sem beleza, desagradável de ver",
+    "shortClue": "Sem graça"
+  },
+  {
+    "word": "belo",
+    "topics": ["general"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Que agrada aos olhos",
+    "shortClue": "Bonito"
+  },
+  {
+    "word": "justo",
+    "topics": ["general"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Que age com equidade",
+    "shortClue": "Imparcial"
+  },
+  {
+    "word": "falso",
+    "topics": ["general"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Que não corresponde à verdade",
+    "shortClue": "Mentiroso"
+  },
+  {
+    "word": "certo",
+    "topics": ["general"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Livre de falhas; correto",
+    "shortClue": "Correto"
+  },
+  {
+    "word": "vazio",
+    "topics": ["general"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Sem nada dentro",
+    "shortClue": "Oco"
+  },
+  {
+    "word": "livre",
+    "topics": ["general"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Solto, sem prisão nem amarras",
+    "shortClue": "Solto"
+  },
+  {
+    "word": "lento",
+    "topics": ["general"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Que anda devagar",
+    "shortClue": "Vagaroso"
+  },
+  {
+    "word": "rapido",
+    "topics": ["general"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Que se move com muita velocidade",
+    "shortClue": "Veloz"
+  },
+  {
+    "word": "ajuda",
+    "topics": ["general"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Auxílio dado a quem precisa",
+    "shortClue": "Socorro"
+  },
+  {
+    "word": "troca",
+    "topics": ["general"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Ato de dar uma coisa por outra",
+    "shortClue": "Permuta"
+  },
+  {
+    "word": "grito",
+    "topics": ["general"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Voz muito alta e forte",
+    "shortClue": "Berro"
+  },
+  {
+    "word": "ordem",
+    "topics": ["general"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Boa arrumação das coisas",
+    "shortClue": "Arrumação"
+  },
+  {
+    "word": "tema",
+    "topics": ["general"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Assunto de um texto ou de uma conversa",
+    "shortClue": "Assunto"
+  },
+  {
+    "word": "etapa",
+    "topics": ["general"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Fase de um processo",
+    "shortClue": "Fase"
+  },
+  {
+    "word": "valor",
+    "topics": ["general"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Preço ou importância de algo",
+    "shortClue": "Mérito"
+  },
+  {
+    "word": "utopia",
+    "topics": ["general"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Lugar perfeito que só existe na imaginação",
+    "shortClue": "Mundo perfeito"
+  },
+  {
+    "word": "zelo",
+    "topics": ["general"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Cuidado extremo com algo",
+    "shortClue": "Dedicação"
+  },
+  {
+    "word": "caos",
+    "topics": ["general"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Desordem total e confusão",
+    "shortClue": "Confusão"
+  },
+  {
+    "word": "ansia",
+    "topics": ["general"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Aflição de quem espera algo",
+    "shortClue": "Aflição"
+  },
+  {
+    "word": "pacto",
+    "topics": ["general"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Acordo solene entre as partes",
+    "shortClue": "Trato firme"
+  },
+  {
+    "word": "alivio",
+    "topics": ["general"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Fim de uma dor ou preocupação",
+    "shortClue": "Descanso"
+  },
+  {
+    "word": "tristeza",
+    "topics": ["general"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Sentimento de quem está abatido",
+    "shortClue": "Pesar"
+  },
+  {
+    "word": "cansaco",
+    "topics": ["general"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Falta de forças depois do esforço",
+    "shortClue": "Exaustão"
+  },
+  {
+    "word": "amanha",
+    "topics": ["general"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "O dia depois de hoje",
+    "shortClue": "Dia seguinte"
+  },
+  {
+    "word": "apenas",
+    "topics": ["general"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Somente, nada além disso",
+    "shortClue": "Somente"
+  },
+  {
+    "word": "mesmo",
+    "topics": ["general"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Idêntico, sem diferença alguma",
+    "shortClue": "Idêntico"
+  },
+  {
+    "word": "epoca",
+    "topics": ["general"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Período marcado por certas características",
+    "shortClue": "Período"
+  },
+  {
+    "word": "futuro",
+    "topics": ["general"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Tempo que ainda vai chegar",
+    "shortClue": "Porvir"
+  },
+  {
+    "word": "domingo",
+    "topics": ["general"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Primeiro dia da semana no calendário",
+    "shortClue": "Dia de folga"
+  },
+  {
+    "word": "janeiro",
+    "topics": ["general"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Primeiro mês do calendário",
+    "shortClue": "Mês de férias"
+  },
+  {
+    "word": "semana",
+    "topics": ["general"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Período de sete dias",
+    "shortClue": "Sete dias"
+  },
+  {
+    "word": "seculo",
+    "topics": ["general"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Período de cem anos",
+    "shortClue": "Cem anos"
+  },
+  {
+    "word": "minuto",
+    "topics": ["general"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Sessenta segundos",
+    "shortClue": "Sessenta segundos"
+  },
+  {
+    "word": "instante",
+    "topics": ["general"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Espaço de tempo muito curto",
+    "shortClue": "Momento"
+  },
+  {
+    "word": "decada",
+    "topics": ["general"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Período de dez anos",
+    "shortClue": "Dez anos"
+  },
+  {
+    "word": "milenio",
+    "topics": ["general"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Período de dez séculos",
+    "shortClue": "Dez séculos"
+  },
+  {
+    "word": "quinzena",
+    "topics": ["general"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Período de duas semanas, mais ou menos",
+    "shortClue": "Duas semanas"
+  },
+  {
+    "word": "feriado",
+    "topics": ["general"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Dia de descanso previsto em lei",
+    "shortClue": "Dia sem aula"
+  },
+  {
+    "word": "madrugada",
+    "topics": ["general"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Parte da noite que antecede o nascer do sol",
+    "shortClue": "Antes do amanhecer"
+  },
+  {
+    "word": "viagem",
+    "topics": ["general"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Deslocamento de um lugar a outro",
+    "shortClue": "Jornada"
+  },
+  {
+    "word": "excursao",
+    "topics": ["general"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Viagem curta em grupo para conhecer um lugar",
+    "shortClue": "Passeio em grupo"
+  },
+  {
+    "word": "visita",
+    "topics": ["general"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Ida à casa de alguém para vê-lo",
+    "shortClue": "Estada breve"
+  },
+  {
+    "word": "encontro",
+    "topics": ["general"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Reunião marcada entre pessoas",
+    "shortClue": "Reunião"
+  },
+  {
+    "word": "conversa",
+    "topics": ["general"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Troca de palavras entre pessoas",
+    "shortClue": "Papo"
+  },
+  {
+    "word": "barulho",
+    "topics": ["general"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Som forte e desagradável",
+    "shortClue": "Ruído"
+  },
+  {
+    "word": "sussurro",
+    "topics": ["general"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Voz baixinha, quase sem som",
+    "shortClue": "Cochicho"
+  },
+  {
+    "word": "opiniao",
+    "topics": ["general"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Modo pessoal de ver um assunto",
+    "shortClue": "Ponto de vista"
+  },
+  {
+    "word": "conselho",
+    "topics": ["general"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Orientação dada a quem a pede",
+    "shortClue": "Orientação"
+  },
+  {
+    "word": "segredo",
+    "topics": ["general"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Coisa que ninguém mais deve saber",
+    "shortClue": "Sigilo"
+  },
+  {
+    "word": "mentira",
+    "topics": ["general"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Afirmação contrária à verdade",
+    "shortClue": "Falsidade"
+  },
+  {
+    "word": "promessa",
+    "topics": ["general"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Compromisso de fazer algo no futuro",
+    "shortClue": "Palavra dada"
+  },
+  {
+    "word": "coragem",
+    "topics": ["general"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Força de ânimo diante do perigo",
+    "shortClue": "Bravura"
+  },
+  {
+    "word": "respeito",
+    "topics": ["general"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Consideração pelo outro",
+    "shortClue": "Apreço"
+  },
+  {
+    "word": "saude",
+    "topics": ["general"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Estado de quem não está doente",
+    "shortClue": "Bem-estar"
+  },
+  {
+    "word": "ironia",
+    "topics": ["general"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Modo de dizer o oposto do que se pensa",
+    "shortClue": "Sarcasmo"
+  },
+  {
+    "word": "dilema",
+    "topics": ["general"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Escolha difícil entre duas saídas",
+    "shortClue": "Impasse"
+  },
+  {
+    "word": "euforia",
+    "topics": ["general"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Alegria intensa e exagerada",
+    "shortClue": "Êxtase"
+  },
+  {
+    "word": "rancor",
+    "topics": ["general"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Mágoa guardada por muito tempo",
+    "shortClue": "Mágoa velha"
+  },
+  {
+    "word": "afinco",
+    "topics": ["general"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Empenho e persistência no que se faz",
+    "shortClue": "Empenho"
+  },
+  {
+    "word": "ousadia",
+    "topics": ["general"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Atrevimento diante do risco",
+    "shortClue": "Audácia"
+  },
+  {
+    "word": "surpresa",
+    "topics": ["general"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Coisa que ninguém esperava",
+    "shortClue": "Imprevisto"
+  },
+  {
+    "word": "vergonha",
+    "topics": ["general"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Desconforto diante dos outros por um deslize",
+    "shortClue": "Constrangimento"
+  },
+  {
+    "word": "empatia",
+    "topics": ["general"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Capacidade de sentir o que o outro sente",
+    "shortClue": "Sentir junto"
+  },
+  {
+    "word": "preguica",
+    "topics": ["general"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Vontade de não fazer nada",
+    "shortClue": "Moleza"
+  },
+  {
+    "word": "paixao",
+    "topics": ["general"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Amor intenso e arrebatador",
+    "shortClue": "Amor ardente"
+  },
+  {
+    "word": "perdao",
+    "topics": ["general"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Ato de desculpar uma ofensa",
+    "shortClue": "Absolvição"
+  },
+  {
+    "word": "gratidao",
+    "topics": ["general"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Reconhecimento por um favor recebido",
+    "shortClue": "Agradecimento"
+  },
+  {
+    "word": "solidao",
+    "topics": ["general"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Estado de quem está sem companhia",
+    "shortClue": "Isolamento"
+  },
+  {
+    "word": "exemplo",
+    "topics": ["general"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Caso usado para ilustrar uma regra",
+    "shortClue": "Modelo"
+  },
+  {
+    "word": "razao",
+    "topics": ["general"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Capacidade de pensar com lógica",
+    "shortClue": "Lógica"
+  },
+  {
+    "word": "sentido",
+    "topics": ["general"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Significado de uma palavra",
+    "shortClue": "Significado"
+  },
+  {
+    "word": "inicio",
+    "topics": ["general"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Primeiro momento de algo",
+    "shortClue": "Começo"
+  },
+  {
+    "word": "talento",
+    "topics": ["general"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Dom natural para uma atividade",
+    "shortClue": "Dom"
+  },
+  {
+    "word": "infancia",
+    "topics": ["general"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Primeira fase da vida",
+    "shortClue": "Idade dos pequenos"
+  },
+  {
+    "word": "bagunca",
+    "topics": ["general"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Confusão de coisas fora do lugar",
+    "shortClue": "Desarrumação"
+  },
+  {
+    "word": "anseio",
+    "topics": ["general"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Desejo profundo e impaciente",
+    "shortClue": "Anelo"
+  },
+  {
+    "word": "paradoxo",
+    "topics": ["general"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Ideia que parece contradizer a si mesma",
+    "shortClue": "Contradição"
+  },
+  {
+    "word": "obstaculo",
+    "topics": ["general"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Barreira que atrapalha o caminho",
+    "shortClue": "Empecilho"
+  },
+  {
+    "word": "nostalgia",
+    "topics": ["general"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Saudade doce de um tempo que passou",
+    "shortClue": "Lembrança doce"
+  },
+  {
+    "word": "melancolia",
+    "topics": ["general"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Tristeza vaga e prolongada",
+    "shortClue": "Tristeza vaga"
+  },
+  {
+    "word": "paciencia",
+    "topics": ["general"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Capacidade de esperar sem se irritar",
+    "shortClue": "Calma longa"
+  },
+  {
+    "word": "confianca",
+    "topics": ["general"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Crença na honestidade de alguém",
+    "shortClue": "Fé em alguém"
+  },
+  {
+    "word": "prudencia",
+    "topics": ["general"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Cautela para evitar erros",
+    "shortClue": "Cautela"
+  },
+  {
+    "word": "sabedoria",
+    "topics": ["general"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Conhecimento unido ao bom senso",
+    "shortClue": "Conhecimento profundo"
+  },
+  {
+    "word": "inteligencia",
+    "topics": ["general"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Capacidade de compreender e aprender",
+    "shortClue": "Mente ágil"
+  },
+  {
+    "word": "eternidade",
+    "topics": ["general"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Tempo sem começo nem fim",
+    "shortClue": "Sem fim"
+  },
+  {
+    "word": "juventude",
+    "topics": ["general"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Fase da vida entre a infância e a maturidade",
+    "shortClue": "Mocidade"
+  },
+  {
+    "word": "igualdade",
+    "topics": ["general"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Condição de ser tratado do mesmo modo",
+    "shortClue": "Paridade"
+  },
+  {
+    "word": "adolescencia",
+    "topics": ["general"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Fase de transição entre a meninice e a vida adulta",
+    "shortClue": "Idade difícil"
+  },
+  {
+    "word": "imaginacao",
+    "topics": ["general"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Capacidade de criar cenas na mente",
+    "shortClue": "Fantasia"
+  },
+  {
+    "word": "coincidencia",
+    "topics": ["general"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Fato de dois eventos ocorrerem juntos por acaso",
+    "shortClue": "Acaso"
+  },
+  {
+    "word": "oportunidade",
+    "topics": ["general"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Ocasião favorável para algo",
+    "shortClue": "Chance"
+  },
+  {
+    "word": "habilidade",
+    "topics": ["general"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Aptidão para fazer algo bem",
+    "shortClue": "Destreza"
+  },
+  {
+    "word": "felicidade",
+    "topics": ["general"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Estado de quem tem plena satisfação",
+    "shortClue": "Contentamento"
+  },
+  {
+    "word": "tranquilidade",
+    "topics": ["general"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Estado de quem está sereno e sem agitação",
+    "shortClue": "Serenidade"
+  },
+  {
+    "word": "solidariedade",
+    "topics": ["general"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Apoio mútuo entre pessoas em dificuldade",
+    "shortClue": "União"
+  },
+  {
+    "word": "ipe",
+    "topics": ["nature"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Árvore de flores amarelas, flor-símbolo do Brasil",
+    "shortClue": "Árvore amarela"
+  },
+  {
+    "word": "rosa",
+    "topics": ["nature"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Flor de espinhos e perfume suave",
+    "shortClue": "Flor espinhosa"
+  },
+  {
+    "word": "trevo",
+    "topics": ["nature"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Planta rasteira cujas folhas de quatro pontas dão sorte",
+    "shortClue": "Folha da sorte"
+  },
+  {
+    "word": "mofo",
+    "topics": ["nature"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Camada esverdeada que surge em lugar úmido",
+    "shortClue": "Bolor"
+  },
+  {
+    "word": "alga",
+    "topics": ["nature"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Planta aquática sem raízes, comum no mar",
+    "shortClue": "Planta marinha"
+  },
+  {
+    "word": "broto",
+    "topics": ["nature"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Planta recém-nascida",
+    "shortClue": "Primeiro verde"
+  },
+  {
+    "word": "fruto",
+    "topics": ["nature"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Parte da planta que guarda a semente",
+    "shortClue": "Dono do caroço"
+  },
+  {
+    "word": "caule",
+    "topics": ["nature"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Haste que sustenta folhas e flores",
+    "shortClue": "Haste da planta"
+  },
+  {
+    "word": "mata",
+    "topics": ["nature"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Terreno coberto de árvores altas",
+    "shortClue": "Bosque denso"
+  },
+  {
+    "word": "sedimento",
+    "topics": ["nature"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Material depositado pela água ou pelo vento",
+    "shortClue": "Depósito"
+  },
+  {
+    "word": "garoa",
+    "topics": ["nature"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Chuva fina e persistente",
+    "shortClue": "Chuvisco"
+  },
+  {
+    "word": "mare",
+    "topics": ["nature"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Subida e descida periódica do nível do oceano",
+    "shortClue": "Vaivém do oceano"
+  },
+  {
+    "word": "lirio",
+    "topics": ["nature"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Flor elegante de pétalas largas, símbolo de pureza",
+    "shortClue": "Flor pura"
+  },
+  {
+    "word": "cedro",
+    "topics": ["nature"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Árvore de madeira aromática e muito apreciada",
+    "shortClue": "Madeira cheirosa"
+  },
+  {
+    "word": "tronco",
+    "topics": ["nature"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Parte grossa e lenhosa de uma árvore",
+    "shortClue": "Caule grosso"
+  },
+  {
+    "word": "semente",
+    "topics": ["nature"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Grão de que nasce uma nova planta",
+    "shortClue": "Grão de plantio"
+  },
+  {
+    "word": "espinho",
+    "topics": ["nature"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Ponta rija que defende certas plantas",
+    "shortClue": "Ponta defensiva"
+  },
+  {
+    "word": "caverna",
+    "topics": ["nature"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Grande cavidade natural na rocha",
+    "shortClue": "Gruta"
+  },
+  {
+    "word": "granito",
+    "topics": ["nature"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Rocha dura e salpicada, muito usada em bancadas",
+    "shortClue": "Rocha dura"
+  },
+  {
+    "word": "marmore",
+    "topics": ["nature"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Rocha polida da qual se esculpem estátuas",
+    "shortClue": "Pedra de estátua"
+  },
+  {
+    "word": "argila",
+    "topics": ["nature"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Barro fino usado em cerâmica",
+    "shortClue": "Barro fino"
+  },
+  {
+    "word": "poco",
+    "topics": ["nature"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Buraco fundo escavado para tirar água",
+    "shortClue": "Buraco de água"
+  },
+  {
+    "word": "outono",
+    "topics": ["nature"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Estação em que as folhas caem",
+    "shortClue": "Estação do meio"
+  },
+  {
+    "word": "inverno",
+    "topics": ["nature"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Estação mais fria do ano",
+    "shortClue": "Estação gelada"
+  },
+  {
+    "word": "furacao",
+    "topics": ["nature"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Ciclone de ventos fortíssimos, comum no Caribe",
+    "shortClue": "Vento destruidor"
+  },
+  {
+    "word": "cogumelo",
+    "topics": ["nature"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Fungo de chapéu que nasce em lugar úmido",
+    "shortClue": "Fungo de chapéu"
+  },
+  {
+    "word": "nevoeiro",
+    "topics": ["nature"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Neblina densa rente ao chão",
+    "shortClue": "Neblina espessa"
+  },
+  {
+    "word": "tormenta",
+    "topics": ["nature"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Tempestade violenta, sobretudo no mar",
+    "shortClue": "Temporal marinho"
+  },
+  {
+    "word": "liquen",
+    "topics": ["nature"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Associação de alga e fungo que cobre troncos e rochas",
+    "shortClue": "Mancha de tronco"
+  },
+  {
+    "word": "primavera",
+    "topics": ["nature"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Estação das flores",
+    "shortClue": "Estação florida"
+  },
+  {
+    "word": "biodiversidade",
+    "topics": ["nature"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Variedade de seres vivos em um ambiente",
+    "shortClue": "Vida variada"
+  },
+  {
+    "word": "ecossistema",
+    "topics": ["nature"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Conjunto de seres vivos e o meio em que vivem",
+    "shortClue": "Meio vivo"
+  },
+  {
+    "word": "estalactite",
+    "topics": ["nature"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Coluna calcária que pende do teto das cavernas",
+    "shortClue": "Pendente de gruta"
+  },
+  {
+    "word": "vegetacao",
+    "topics": ["nature"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Conjunto das plantas de uma região",
+    "shortClue": "Cobertura verde"
+  },
+  {
+    "word": "equinocio",
+    "topics": ["nature"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Data em que o dia e a noite têm a mesma duração",
+    "shortClue": "Igualdade de luz"
+  },
+  {
+    "word": "foca",
+    "topics": ["animals"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Mamífero marinho de corpo roliço e bigodes",
+    "shortClue": "Bigodes do mar"
+  },
+  {
+    "word": "urso",
+    "topics": ["animals"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Grande mamífero peludo que hiberna",
+    "shortClue": "Peludo que hiberna"
+  },
+  {
+    "word": "tigre",
+    "topics": ["animals"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Grande felino de listras escuras",
+    "shortClue": "Felino listrado"
+  },
+  {
+    "word": "lula",
+    "topics": ["animals"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Molusco marinho de dez braços",
+    "shortClue": "Molusco de tinta"
+  },
+  {
+    "word": "atum",
+    "topics": ["animals"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Grande peixe marinho de carne vermelha",
+    "shortClue": "Peixe veloz"
+  },
+  {
+    "word": "mico",
+    "topics": ["animals"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Pequeno primata brasileiro de cauda longa",
+    "shortClue": "Macaquinho"
+  },
+  {
+    "word": "zebra",
+    "topics": ["animals"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Equídeo africano de listras pretas e brancas",
+    "shortClue": "Listrada"
+  },
+  {
+    "word": "panda",
+    "topics": ["animals"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Urso preto e branco que mastiga bambu",
+    "shortClue": "Urso de bambu"
+  },
+  {
+    "word": "coala",
+    "topics": ["animals"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Marsupial australiano que vive em eucaliptos",
+    "shortClue": "Ama eucalipto"
+  },
+  {
+    "word": "cisne",
+    "topics": ["animals"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Ave aquática de pescoço longo e plumas brancas",
+    "shortClue": "Ave elegante"
+  },
+  {
+    "word": "corvo",
+    "topics": ["animals"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Ave de plumagem negra e bico forte",
+    "shortClue": "Ave negra"
+  },
+  {
+    "word": "lince",
+    "topics": ["animals"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Felino de tufos nas orelhas e cauda curta",
+    "shortClue": "Felino de tufos"
+  },
+  {
+    "word": "lebre",
+    "topics": ["animals"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Mamífero veloz de orelhas longas, parente do coelho",
+    "shortClue": "Veloz de orelhas"
+  },
+  {
+    "word": "pombo",
+    "topics": ["animals"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Ave comum nas praças das cidades",
+    "shortClue": "Ave de praça"
+  },
+  {
+    "word": "cabra",
+    "topics": ["animals"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Ruminante de chifres e barbicha",
+    "shortClue": "Ruminante"
+  },
+  {
+    "word": "galinha",
+    "topics": ["animals"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Ave de granja que bota ovos",
+    "shortClue": "Ave poedeira"
+  },
+  {
+    "word": "tucano",
+    "topics": ["animals"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Ave de grande bico colorido",
+    "shortClue": "Bico gigante"
+  },
+  {
+    "word": "girafa",
+    "topics": ["animals"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Animal de pescoço muito comprido",
+    "shortClue": "Pescoço longo"
+  },
+  {
+    "word": "macaco",
+    "topics": ["animals"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Primata ágil que se pendura em galhos",
+    "shortClue": "Primata ágil"
+  },
+  {
+    "word": "morcego",
+    "topics": ["animals"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Único mamífero que voa de verdade",
+    "shortClue": "Voa à noite"
+  },
+  {
+    "word": "esquilo",
+    "topics": ["animals"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Roedor de cauda peluda que junta nozes",
+    "shortClue": "Roedor de nozes"
+  },
+  {
+    "word": "raposa",
+    "topics": ["animals"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Canídeo de cauda espessa e fama de astuto",
+    "shortClue": "Esperta de pelo"
+  },
+  {
+    "word": "formiga",
+    "topics": ["animals"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Inseto minúsculo que vive em colônias",
+    "shortClue": "Operária"
+  },
+  {
+    "word": "aranha",
+    "topics": ["animals"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Aracnídeo que tece teias",
+    "shortClue": "Tecelã de teias"
+  },
+  {
+    "word": "camelo",
+    "topics": ["animals"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Animal de corcovas que atravessa desertos",
+    "shortClue": "Navio do deserto"
+  },
+  {
+    "word": "piranha",
+    "topics": ["animals"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Peixe de dentes cortantes dos rios amazônicos",
+    "shortClue": "Peixe feroz"
+  },
+  {
+    "word": "sucuri",
+    "topics": ["animals"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Cobra gigante que vive nas águas do Brasil",
+    "shortClue": "Cobra gigante"
+  },
+  {
+    "word": "tubarao",
+    "topics": ["animals"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Peixe de dentes afiados e grandes barbatanas",
+    "shortClue": "Peixe de dentes"
+  },
+  {
+    "word": "golfinho",
+    "topics": ["animals"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Mamífero marinho inteligente e brincalhão",
+    "shortClue": "Mamífero do mar"
+  },
+  {
+    "word": "hipopotamo",
+    "topics": ["animals"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Grande mamífero africano que passa o dia na água",
+    "shortClue": "Gigante dos rios"
+  },
+  {
+    "word": "rinoceronte",
+    "topics": ["animals"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Grande animal com chifre sobre o focinho",
+    "shortClue": "Chifrudo africano"
+  },
+  {
+    "word": "caranguejo",
+    "topics": ["animals"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Crustáceo de pinças que anda de lado",
+    "shortClue": "Anda de lado"
+  },
+  {
+    "word": "escorpiao",
+    "topics": ["animals"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Aracnídeo de cauda com ferrão venenoso",
+    "shortClue": "Ferrão na cauda"
+  },
+  {
+    "word": "gafanhoto",
+    "topics": ["animals"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Inseto saltador que devora plantações",
+    "shortClue": "Saltador voraz"
+  },
+  {
+    "word": "salamandra",
+    "topics": ["animals"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Anfíbio de corpo alongado e cauda comprida",
+    "shortClue": "Anfíbio de cauda"
+  },
+  {
+    "word": "pera",
+    "topics": ["food"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Fruta de formato afunilado e polpa suave",
+    "shortClue": "Fruta suave"
+  },
+  {
+    "word": "cha",
+    "topics": ["food"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Infusão de ervas servida quente",
+    "shortClue": "Infusão"
+  },
+  {
+    "word": "suco",
+    "topics": ["food"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Líquido extraído de frutas",
+    "shortClue": "Bebida de fruta"
+  },
+  {
+    "word": "milho",
+    "topics": ["food"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Cereal de grãos amarelos em espiga",
+    "shortClue": "Grão da espiga"
+  },
+  {
+    "word": "trigo",
+    "topics": ["food"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Cereal de que se faz o pão",
+    "shortClue": "Cereal do pão"
+  },
+  {
+    "word": "couve",
+    "topics": ["food"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Folha verde servida refogada com feijoada",
+    "shortClue": "Verde da feijoada"
+  },
+  {
+    "word": "fuba",
+    "topics": ["food"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Farinha amarela de milho",
+    "shortClue": "Pó de milho"
+  },
+  {
+    "word": "aveia",
+    "topics": ["food"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Cereal usado em mingaus e granolas",
+    "shortClue": "Cereal de mingau"
+  },
+  {
+    "word": "pizza",
+    "topics": ["food"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Disco de massa assada com molho e queijo",
+    "shortClue": "Disco italiano"
+  },
+  {
+    "word": "vinho",
+    "topics": ["food"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Bebida feita da fermentação da uva",
+    "shortClue": "Bebida de uva"
+  },
+  {
+    "word": "cacau",
+    "topics": ["food"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Fruto de cujas sementes se faz o chocolate",
+    "shortClue": "Fonte do chocolate"
+  },
+  {
+    "word": "manga",
+    "topics": ["food"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Fruta tropical de polpa alaranjada e caroço grande",
+    "shortClue": "Fruta de caroço"
+  },
+  {
+    "word": "caldo",
+    "topics": ["food"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Líquido saboroso em que se cozinham os alimentos",
+    "shortClue": "Líquido de sopa"
+  },
+  {
+    "word": "creme",
+    "topics": ["food"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Preparo espesso e macio que recheia doces",
+    "shortClue": "Recheio macio"
+  },
+  {
+    "word": "gema",
+    "topics": ["food"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Parte amarela do ovo",
+    "shortClue": "Amarelo do ovo"
+  },
+  {
+    "word": "manteiga",
+    "topics": ["food"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Gordura cremosa feita do leite para passar no pão",
+    "shortClue": "Gordura cremosa"
+  },
+  {
+    "word": "iogurte",
+    "topics": ["food"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Leite fermentado, cremoso e levemente ácido",
+    "shortClue": "Leite fermentado"
+  },
+  {
+    "word": "presunto",
+    "topics": ["food"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Carne suína curada e fatiada",
+    "shortClue": "Frio de sanduíche"
+  },
+  {
+    "word": "cenoura",
+    "topics": ["food"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Raiz alaranjada e crocante",
+    "shortClue": "Raiz crocante"
+  },
+  {
+    "word": "batata",
+    "topics": ["food"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Tubérculo que vira purê ou fritas",
+    "shortClue": "Tubérculo"
+  },
+  {
+    "word": "cebola",
+    "topics": ["food"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Bulbo de camadas que faz chorar quem o corta",
+    "shortClue": "Bulbo de camadas"
+  },
+  {
+    "word": "alface",
+    "topics": ["food"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Folha verde que é a base de muitas saladas",
+    "shortClue": "Folha de salada"
+  },
+  {
+    "word": "abacaxi",
+    "topics": ["food"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Fruta tropical de coroa espetada",
+    "shortClue": "Fruta de coroa"
+  },
+  {
+    "word": "banana",
+    "topics": ["food"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Fruta alongada de casca amarela",
+    "shortClue": "Fruta amarela"
+  },
+  {
+    "word": "morango",
+    "topics": ["food"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Fruta vermelha de sementes na casca",
+    "shortClue": "Fruta vermelha"
+  },
+  {
+    "word": "biscoito",
+    "topics": ["food"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Massa seca e crocante servida com café",
+    "shortClue": "Massa crocante"
+  },
+  {
+    "word": "macarrao",
+    "topics": ["food"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Massa italiana de fios longos",
+    "shortClue": "Massa longa"
+  },
+  {
+    "word": "cerveja",
+    "topics": ["food"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Bebida fermentada de cevada e lúpulo",
+    "shortClue": "Bebida de espuma"
+  },
+  {
+    "word": "pastel",
+    "topics": ["food"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Massa frita e recheada, comum nas feiras",
+    "shortClue": "Frito de feira"
+  },
+  {
+    "word": "ervilha",
+    "topics": ["food"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Grão verde que cresce em vagens",
+    "shortClue": "Grão verde"
+  },
+  {
+    "word": "hamburguer",
+    "topics": ["food"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Sanduíche de carne moída no pão redondo",
+    "shortClue": "Carne no pão"
+  },
+  {
+    "word": "jabuticaba",
+    "topics": ["food"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Fruta preta que nasce no tronco da árvore",
+    "shortClue": "Fruta do tronco"
+  },
+  {
+    "word": "refrigerante",
+    "topics": ["food"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Bebida gasosa e adocicada",
+    "shortClue": "Bebida gasosa"
+  },
+  {
+    "word": "beterraba",
+    "topics": ["food"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Raiz roxa que tinge o prato de vermelho",
+    "shortClue": "Raiz roxa"
+  },
+  {
+    "word": "espinafre",
+    "topics": ["food"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Folha verde escura, rica em ferro",
+    "shortClue": "Folha com ferro"
+  },
+  {
+    "word": "sul",
+    "topics": ["geography"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Ponto cardeal oposto ao norte",
+    "shortClue": "Ponto cardeal"
+  },
+  {
+    "word": "leste",
+    "topics": ["geography"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Ponto cardeal onde o sol nasce",
+    "shortClue": "Lado do nascer"
+  },
+  {
+    "word": "oeste",
+    "topics": ["geography"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Ponto cardeal onde o sol se põe",
+    "shortClue": "Lado do poente"
+  },
+  {
+    "word": "norte",
+    "topics": ["geography"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Direção para onde aponta a bússola",
+    "shortClue": "Ponto cardeal"
+  },
+  {
+    "word": "orla",
+    "topics": ["geography"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Faixa de terra à beira do mar ou de um rio",
+    "shortClue": "Beira-mar"
+  },
+  {
+    "word": "atol",
+    "topics": ["geography"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Ilha de coral em forma de anel",
+    "shortClue": "Anel de coral"
+  },
+  {
+    "word": "taiga",
+    "topics": ["geography"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Floresta de coníferas das regiões muito frias",
+    "shortClue": "Floresta gelada"
+  },
+  {
+    "word": "pampa",
+    "topics": ["geography"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Planície de vegetação rasteira no sul do Brasil",
+    "shortClue": "Campo do sul"
+  },
+  {
+    "word": "vila",
+    "topics": ["geography"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Pequena povoação, maior que um lugarejo",
+    "shortClue": "Povoação"
+  },
+  {
+    "word": "cume",
+    "topics": ["geography"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Ponto mais alto de uma montanha",
+    "shortClue": "Topo"
+  },
+  {
+    "word": "praia",
+    "topics": ["geography"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Faixa de areia à beira-mar",
+    "shortClue": "Areia e mar"
+  },
+  {
+    "word": "Alpes",
+    "topics": ["geography"],
+    "difficulty": 2,
+    "kind": "proper",
+    "clue": "Cordilheira europeia de picos nevados",
+    "shortClue": "Cordilheira europeia"
+  },
+  {
+    "word": "Belem",
+    "topics": ["geography"],
+    "difficulty": 2,
+    "kind": "proper",
+    "clue": "Capital do Pará, perto da foz do rio Amazonas",
+    "shortClue": "Capital paraense"
+  },
+  {
+    "word": "rota",
+    "topics": ["geography"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Caminho previsto para uma viagem",
+    "shortClue": "Trajeto"
+  },
+  {
+    "word": "planicie",
+    "topics": ["geography"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Terreno chato e extenso, sem morros",
+    "shortClue": "Campo chato"
+  },
+  {
+    "word": "colina",
+    "topics": ["geography"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Pequena elevação de terreno arredondada",
+    "shortClue": "Pequeno morro"
+  },
+  {
+    "word": "canion",
+    "topics": ["geography"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Vale profundo de paredes íngremes",
+    "shortClue": "Garganta funda"
+  },
+  {
+    "word": "afluente",
+    "topics": ["geography"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Rio menor que deságua em outro maior",
+    "shortClue": "Rio tributário"
+  },
+  {
+    "word": "geiser",
+    "topics": ["geography"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Jorro de água quente que sai do solo",
+    "shortClue": "Jato quente"
+  },
+  {
+    "word": "tundra",
+    "topics": ["geography"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Planície gelada de vegetação rasteira",
+    "shortClue": "Planície gelada"
+  },
+  {
+    "word": "agreste",
+    "topics": ["geography"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Zona de transição entre o litoral úmido e o sertão",
+    "shortClue": "Zona de transição"
+  },
+  {
+    "word": "sertao",
+    "topics": ["geography"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Região seca do interior do Nordeste",
+    "shortClue": "Interior seco"
+  },
+  {
+    "word": "capital",
+    "topics": ["geography"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Cidade sede do governo de um país",
+    "shortClue": "Sede do governo"
+  },
+  {
+    "word": "povoado",
+    "topics": ["geography"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Pequeno aglomerado de casas no campo",
+    "shortClue": "Vilarejo"
+  },
+  {
+    "word": "tropico",
+    "topics": ["geography"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Cada um dos paralelos de Câncer e Capricórnio",
+    "shortClue": "Linha do mapa"
+  },
+  {
+    "word": "fiorde",
+    "topics": ["geography"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Braço de mar entre montanhas, típico da Noruega",
+    "shortClue": "Braço de mar"
+  },
+  {
+    "word": "Africa",
+    "topics": ["geography"],
+    "difficulty": 1,
+    "kind": "proper",
+    "clue": "Continente do deserto do Saara e do rio Nilo",
+    "shortClue": "Continente"
+  },
+  {
+    "word": "Europa",
+    "topics": ["geography"],
+    "difficulty": 1,
+    "kind": "proper",
+    "clue": "Continente onde ficam a França e a Itália",
+    "shortClue": "Velho Continente"
+  },
+  {
+    "word": "Pantanal",
+    "topics": ["geography"],
+    "difficulty": 1,
+    "kind": "proper",
+    "clue": "Maior planície alagável do mundo, no Centro-Oeste",
+    "shortClue": "Planície alagada"
+  },
+  {
+    "word": "Portugal",
+    "topics": ["geography"],
+    "difficulty": 1,
+    "kind": "proper",
+    "clue": "País europeu cuja capital é Lisboa",
+    "shortClue": "País lusitano"
+  },
+  {
+    "word": "continente",
+    "topics": ["geography"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Grande massa de terra emersa",
+    "shortClue": "Terra imensa"
+  },
+  {
+    "word": "fronteira",
+    "topics": ["geography"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Linha que separa dois países",
+    "shortClue": "Limite de países"
+  },
+  {
+    "word": "territorio",
+    "topics": ["geography"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Área sob o domínio de um país",
+    "shortClue": "Área nacional"
+  },
+  {
+    "word": "populacao",
+    "topics": ["geography"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Total de habitantes de um lugar",
+    "shortClue": "Habitantes"
+  },
+  {
+    "word": "metropole",
+    "topics": ["geography"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Grande cidade, centro de uma região",
+    "shortClue": "Cidade enorme"
+  },
+  {
+    "word": "Argentina",
+    "topics": ["geography"],
+    "difficulty": 1,
+    "kind": "proper",
+    "clue": "País vizinho do Brasil, de capital Buenos Aires",
+    "shortClue": "País do tango"
+  },
+  {
+    "word": "moeda",
+    "topics": ["history"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Peça metálica usada nas trocas desde a Antiguidade",
+    "shortClue": "Dinheiro antigo"
+  },
+  {
+    "word": "tocha",
+    "topics": ["history"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Facho de fogo que iluminava corredores antigos",
+    "shortClue": "Facho aceso"
+  },
+  {
+    "word": "prensa",
+    "topics": ["history"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Máquina de Gutenberg que imprimia livros",
+    "shortClue": "Máquina de imprimir"
+  },
+  {
+    "word": "templo",
+    "topics": ["history"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Edifício dedicado ao culto e à devoção",
+    "shortClue": "Casa sagrada"
+  },
+  {
+    "word": "bronze",
+    "topics": ["history"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Liga de cobre e estanho que nomeou uma era",
+    "shortClue": "Liga de metais"
+  },
+  {
+    "word": "urna",
+    "topics": ["history"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Vaso antigo que guardava cinzas ou votos",
+    "shortClue": "Vaso funerário"
+  },
+  {
+    "word": "selo",
+    "topics": ["history"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Marca de cera que autenticava cartas antigas",
+    "shortClue": "Marca de cera"
+  },
+  {
+    "word": "dama",
+    "topics": ["history"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Mulher nobre que vivia na corte",
+    "shortClue": "Nobre da corte"
+  },
+  {
+    "word": "bobo",
+    "topics": ["history"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Humorista que divertia o rei na corte medieval",
+    "shortClue": "Palhaço da corte"
+  },
+  {
+    "word": "arena",
+    "topics": ["history"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Palco de lutas na Roma antiga",
+    "shortClue": "Palco de lutas"
+  },
+  {
+    "word": "cetro",
+    "topics": ["history"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Bastão de comando dos monarcas",
+    "shortClue": "Bastão real"
+  },
+  {
+    "word": "toga",
+    "topics": ["history"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Veste ampla dos antigos romanos",
+    "shortClue": "Veste romana"
+  },
+  {
+    "word": "mito",
+    "topics": ["history"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Narrativa fantástica dos povos antigos",
+    "shortClue": "Narrativa antiga"
+  },
+  {
+    "word": "heroi",
+    "topics": ["history"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Figura admirada por seus feitos corajosos",
+    "shortClue": "Figura lendária"
+  },
+  {
+    "word": "lorde",
+    "topics": ["history"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Título de nobreza inglês",
+    "shortClue": "Nobre inglês"
+  },
+  {
+    "word": "escudo",
+    "topics": ["history"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Peça defensiva levada no braço pelos guerreiros",
+    "shortClue": "Defesa do braço"
+  },
+  {
+    "word": "armadura",
+    "topics": ["history"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Vestimenta de metal dos cavaleiros medievais",
+    "shortClue": "Roupa de ferro"
+  },
+  {
+    "word": "muralha",
+    "topics": ["history"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Muro grosso que protege uma cidade",
+    "shortClue": "Muro defensivo"
+  },
+  {
+    "word": "escriba",
+    "topics": ["history"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Profissional que copiava textos no Egito antigo",
+    "shortClue": "Copista egípcio"
+  },
+  {
+    "word": "papiro",
+    "topics": ["history"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Planta que deu o papel dos antigos egípcios",
+    "shortClue": "Papel egípcio"
+  },
+  {
+    "word": "esfinge",
+    "topics": ["history"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Monstro de corpo de leão e cabeça humana, famoso em Gizé",
+    "shortClue": "Monumento de Gizé"
+  },
+  {
+    "word": "obelisco",
+    "topics": ["history"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Pilar de pedra alto e pontiagudo do Egito",
+    "shortClue": "Pilar pontudo"
+  },
+  {
+    "word": "coliseu",
+    "topics": ["history"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Grande anfiteatro de Roma",
+    "shortClue": "Arena romana"
+  },
+  {
+    "word": "torneio",
+    "topics": ["history"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Competição entre cavaleiros medievais",
+    "shortClue": "Justa medieval"
+  },
+  {
+    "word": "mosteiro",
+    "topics": ["history"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Casa de monges isolada do mundo",
+    "shortClue": "Casa de monges"
+  },
+  {
+    "word": "flecha",
+    "topics": ["history"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Haste pontuda lançada por um arco",
+    "shortClue": "Haste do arco"
+  },
+  {
+    "word": "brasao",
+    "topics": ["history"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Emblema que identifica uma família nobre",
+    "shortClue": "Emblema nobre"
+  },
+  {
+    "word": "filosofo",
+    "topics": ["history"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Pensador que busca compreender o mundo",
+    "shortClue": "Pensador"
+  },
+  {
+    "word": "partenon",
+    "topics": ["history"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Templo de Atena na Acrópole de Atenas",
+    "shortClue": "Templo grego"
+  },
+  {
+    "word": "cavaleiro",
+    "topics": ["history"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Nobre guerreiro da Idade Média, de armadura e lança",
+    "shortClue": "Nobre guerreiro"
+  },
+  {
+    "word": "ameia",
+    "topics": ["history"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Cada parapeito dentado no alto das muralhas de um castelo",
+    "shortClue": "Dente de muralha"
+  },
+  {
+    "word": "explorador",
+    "topics": ["history"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Quem desbrava terras desconhecidas",
+    "shortClue": "Desbravador"
+  },
+  {
+    "word": "astrolabio",
+    "topics": ["history"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Instrumento antigo para medir a altura das estrelas no céu",
+    "shortClue": "Instrumento de bordo"
+  },
+  {
+    "word": "democracia",
+    "topics": ["history"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Governo em que o povo decide pelo voto",
+    "shortClue": "Governo do povo"
+  },
+  {
+    "word": "catapulta",
+    "topics": ["history"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Máquina de guerra que arremessava pedras",
+    "shortClue": "Lança-pedras"
+  },
+  {
+    "word": "rim",
+    "topics": ["science"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Órgão que filtra o sangue e produz urina",
+    "shortClue": "Órgão filtrador"
+  },
+  {
+    "word": "pele",
+    "topics": ["science"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Maior órgão do corpo, que o reveste",
+    "shortClue": "Capa do corpo"
+  },
+  {
+    "word": "metal",
+    "topics": ["science"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Material brilhante que conduz eletricidade",
+    "shortClue": "Material condutor"
+  },
+  {
+    "word": "massa",
+    "topics": ["science"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Quantidade de matéria de um corpo",
+    "shortClue": "Matéria contida"
+  },
+  {
+    "word": "peso",
+    "topics": ["science"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Força com que a Terra atrai um corpo",
+    "shortClue": "Força da gravidade"
+  },
+  {
+    "word": "vacuo",
+    "topics": ["science"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Espaço sem matéria alguma",
+    "shortClue": "Espaço sem nada"
+  },
+  {
+    "word": "vetor",
+    "topics": ["science"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Grandeza com direção e sentido",
+    "shortClue": "Grandeza orientada"
+  },
+  {
+    "word": "virus",
+    "topics": ["science"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Agente microscópico que invade células",
+    "shortClue": "Agente invasor"
+  },
+  {
+    "word": "lupa",
+    "topics": ["science"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Lente que aumenta o tamanho dos objetos",
+    "shortClue": "Lente de aumento"
+  },
+  {
+    "word": "bile",
+    "topics": ["science"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Líquido amarelo produzido pelo fígado",
+    "shortClue": "Líquido do fígado"
+  },
+  {
+    "word": "veia",
+    "topics": ["science"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Vaso que leva o sangue de volta ao coração",
+    "shortClue": "Vaso sanguíneo"
+  },
+  {
+    "word": "nervo",
+    "topics": ["science"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Fibra que leva sinais ao cérebro",
+    "shortClue": "Fibra de sinais"
+  },
+  {
+    "word": "sismo",
+    "topics": ["science"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Tremor da crosta terrestre",
+    "shortClue": "Tremor de terra"
+  },
+  {
+    "word": "sangue",
+    "topics": ["science"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Líquido vermelho que circula pelas veias",
+    "shortClue": "Líquido vital"
+  },
+  {
+    "word": "pulmao",
+    "topics": ["science"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Órgão que se enche de ar na respiração",
+    "shortClue": "Órgão do fôlego"
+  },
+  {
+    "word": "cerebro",
+    "topics": ["science"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Órgão que comanda o corpo, dentro do crânio",
+    "shortClue": "Sede do pensamento"
+  },
+  {
+    "word": "figado",
+    "topics": ["science"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Grande órgão que produz a bile",
+    "shortClue": "Órgão da bile"
+  },
+  {
+    "word": "vacina",
+    "topics": ["science"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Preparo que protege o corpo contra doenças",
+    "shortClue": "Dose protetora"
+  },
+  {
+    "word": "hormonio",
+    "topics": ["science"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Mensageiro químico produzido pelas glândulas",
+    "shortClue": "Mensageiro químico"
+  },
+  {
+    "word": "enzima",
+    "topics": ["science"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Proteína que acelera reações químicas",
+    "shortClue": "Acelerador químico"
+  },
+  {
+    "word": "cristal",
+    "topics": ["science"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Sólido de átomos dispostos em padrão regular",
+    "shortClue": "Sólido brilhante"
+  },
+  {
+    "word": "diamante",
+    "topics": ["science"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Pedra preciosa, a mais dura que existe",
+    "shortClue": "Gema dura"
+  },
+  {
+    "word": "cometa",
+    "topics": ["science"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Corpo de gelo com cauda luminosa que cruza o céu",
+    "shortClue": "Astro de cauda"
+  },
+  {
+    "word": "estrela",
+    "topics": ["science"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Astro que brilha com luz própria",
+    "shortClue": "Astro luminoso"
+  },
+  {
+    "word": "universo",
+    "topics": ["science"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Conjunto de tudo o que existe no espaço",
+    "shortClue": "Cosmos"
+  },
+  {
+    "word": "atrito",
+    "topics": ["science"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Resistência entre superfícies que se tocam",
+    "shortClue": "Resistência"
+  },
+  {
+    "word": "pipeta",
+    "topics": ["science"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Tubo fino para medir pequenos volumes de líquido",
+    "shortClue": "Tubo de lab"
+  },
+  {
+    "word": "telescopio",
+    "topics": ["science"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Instrumento que aproxima astros distantes",
+    "shortClue": "Olho dos astros"
+  },
+  {
+    "word": "laboratorio",
+    "topics": ["science"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Local onde se fazem experimentos",
+    "shortClue": "Sala de testes"
+  },
+  {
+    "word": "temperatura",
+    "topics": ["science"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Medida do grau de calor",
+    "shortClue": "Grau de calor"
+  },
+  {
+    "word": "velocidade",
+    "topics": ["science"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Distância percorrida por unidade de tempo",
+    "shortClue": "Rapidez"
+  },
+  {
+    "word": "experimento",
+    "topics": ["science"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Teste feito para comprovar uma ideia",
+    "shortClue": "Teste científico"
+  },
+  {
+    "word": "asteroide",
+    "topics": ["science"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Pequeno corpo rochoso que gira em torno do Sol",
+    "shortClue": "Rocha espacial"
+  },
+  {
+    "word": "taca",
+    "topics": ["sport"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Prêmio em forma de copa entregue ao vencedor",
+    "shortClue": "Prêmio de copa"
+  },
+  {
+    "word": "luta",
+    "topics": ["sport"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Combate corpo a corpo entre dois atletas",
+    "shortClue": "Combate"
+  },
+  {
+    "word": "jogo",
+    "topics": ["sport"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Disputa com regras entre adversários",
+    "shortClue": "Partida"
+  },
+  {
+    "word": "tiro",
+    "topics": ["sport"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Modalidade olímpica de pontaria com alvo",
+    "shortClue": "Prova de mira"
+  },
+  {
+    "word": "alvo",
+    "topics": ["sport"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Ponto que o atleta procura acertar",
+    "shortClue": "Mira"
+  },
+  {
+    "word": "vela",
+    "topics": ["sport"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Esporte de navegar com a força do vento",
+    "shortClue": "Barco ao vento"
+  },
+  {
+    "word": "golfe",
+    "topics": ["sport"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Esporte de tacos e buracos num gramado",
+    "shortClue": "Tacadas no gramado"
+  },
+  {
+    "word": "taco",
+    "topics": ["sport"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Haste usada para bater na bola no golfe",
+    "shortClue": "Haste de bater"
+  },
+  {
+    "word": "sumo",
+    "topics": ["sport"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Luta japonesa entre gigantes",
+    "shortClue": "Luta japonesa"
+  },
+  {
+    "word": "xeque",
+    "topics": ["sport"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Ameaça direta ao rei no xadrez",
+    "shortClue": "Ameaça no tabuleiro"
+  },
+  {
+    "word": "peao",
+    "topics": ["sport"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Peça menos valiosa do xadrez",
+    "shortClue": "Peça menor"
+  },
+  {
+    "word": "falta",
+    "topics": ["sport"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Infração às regras de uma partida",
+    "shortClue": "Infração"
+  },
+  {
+    "word": "esqui",
+    "topics": ["sport"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Esporte de deslizar sobre a neve",
+    "shortClue": "Tábuas na neve"
+  },
+  {
+    "word": "bocha",
+    "topics": ["sport"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Jogo de bolas pesadas arremessadas rente ao chão",
+    "shortClue": "Bolas pesadas"
+  },
+  {
+    "word": "quadra",
+    "topics": ["sport"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Piso demarcado onde se joga vôlei ou basquete",
+    "shortClue": "Piso do jogo"
+  },
+  {
+    "word": "arquibancada",
+    "topics": ["sport"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Fileira de degraus onde o público assiste ao jogo",
+    "shortClue": "Degraus do estádio"
+  },
+  {
+    "word": "torcida",
+    "topics": ["sport"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Multidão que apoia seu time",
+    "shortClue": "Apoio da arquibancada"
+  },
+  {
+    "word": "penalti",
+    "topics": ["sport"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Falta máxima, cobrada da marca da cal",
+    "shortClue": "Cobrança da marca"
+  },
+  {
+    "word": "zagueiro",
+    "topics": ["sport"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Jogador que atua na defesa do time",
+    "shortClue": "Defensor"
+  },
+  {
+    "word": "atacante",
+    "topics": ["sport"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Jogador que tenta marcar gols",
+    "shortClue": "Artilheiro"
+  },
+  {
+    "word": "empate",
+    "topics": ["sport"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Resultado em que ninguém vence",
+    "shortClue": "Igualdade no placar"
+  },
+  {
+    "word": "vitoria",
+    "topics": ["sport"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Triunfo em uma disputa",
+    "shortClue": "Triunfo"
+  },
+  {
+    "word": "reserva",
+    "topics": ["sport"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Jogador que começa a partida no banco",
+    "shortClue": "Fica no banco"
+  },
+  {
+    "word": "uniforme",
+    "topics": ["sport"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Roupa padronizada de uma equipe",
+    "shortClue": "Fardamento"
+  },
+  {
+    "word": "meiao",
+    "topics": ["sport"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Peça comprida que cobre a perna até o joelho, no futebol",
+    "shortClue": "Cobre a perna"
+  },
+  {
+    "word": "piscina",
+    "topics": ["sport"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Tanque de água para nadadores",
+    "shortClue": "Tanque de águas"
+  },
+  {
+    "word": "mergulho",
+    "topics": ["sport"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Entrada na água de cabeça",
+    "shortClue": "Salto na piscina"
+  },
+  {
+    "word": "xadrez",
+    "topics": ["sport"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Jogo de tabuleiro de peões e bispos",
+    "shortClue": "Jogo de peças"
+  },
+  {
+    "word": "artilheiro",
+    "topics": ["sport"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Quem mais faz gols em um campeonato",
+    "shortClue": "Goleador"
+  },
+  {
+    "word": "ginastica",
+    "topics": ["sport"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Exercícios para ganhar força e flexibilidade",
+    "shortClue": "Exercício físico"
+  },
+  {
+    "word": "cronometro",
+    "topics": ["sport"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Relógio que mede o tempo de uma prova",
+    "shortClue": "Relógio de prova"
+  },
+  {
+    "word": "alongamento",
+    "topics": ["sport"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Exercício que estica os músculos",
+    "shortClue": "Esticada muscular"
+  },
+  {
+    "word": "aquecimento",
+    "topics": ["sport"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Exercício leve feito antes da prova",
+    "shortClue": "Antes do jogo"
+  },
+  {
+    "word": "sino",
+    "topics": ["arts"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Instrumento de bronze que soa quando é batido",
+    "shortClue": "Bronze sonoro"
+  },
+  {
+    "word": "gaita",
+    "topics": ["arts"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Pequeno instrumento de palhetas tocado com a boca",
+    "shortClue": "Instrumento de boca"
+  },
+  {
+    "word": "clave",
+    "topics": ["arts"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Sinal que define o nome das notas na pauta",
+    "shortClue": "Sinal da pauta"
+  },
+  {
+    "word": "pauta",
+    "topics": ["arts"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Conjunto de cinco linhas onde se escreve a música",
+    "shortClue": "Linhas da música"
+  },
+  {
+    "word": "letra",
+    "topics": ["arts"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Texto de uma música",
+    "shortClue": "Texto musical"
+  },
+  {
+    "word": "bale",
+    "topics": ["arts"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Dança clássica de pontas e saltos",
+    "shortClue": "Dança clássica"
+  },
+  {
+    "word": "valsa",
+    "topics": ["arts"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Dança de compasso ternário",
+    "shortClue": "Dança ternária"
+  },
+  {
+    "word": "circo",
+    "topics": ["arts"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Espetáculo de palhaços e malabaristas",
+    "shortClue": "Lona e palhaços"
+  },
+  {
+    "word": "jazz",
+    "topics": ["arts"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Gênero musical de improviso nascido em Nova Orleans",
+    "shortClue": "Gênero de improviso"
+  },
+  {
+    "word": "afresco",
+    "topics": ["arts"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Pintura feita sobre reboco ainda úmido",
+    "shortClue": "Pintura em parede"
+  },
+  {
+    "word": "busto",
+    "topics": ["arts"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Escultura da cabeça e dos ombros",
+    "shortClue": "Cabeça esculpida"
+  },
+  {
+    "word": "lapis",
+    "topics": ["arts"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Instrumento de grafite para desenhar",
+    "shortClue": "Grafite"
+  },
+  {
+    "word": "livro",
+    "topics": ["arts"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Conjunto de folhas impressas e encadernadas",
+    "shortClue": "Folhas encadernadas"
+  },
+  {
+    "word": "dueto",
+    "topics": ["arts"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Peça cantada ou tocada por duas vozes",
+    "shortClue": "Música a dois"
+  },
+  {
+    "word": "flauta",
+    "topics": ["arts"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Instrumento de sopro em forma de tubo fino",
+    "shortClue": "Instrumento de sopro"
+  },
+  {
+    "word": "violao",
+    "topics": ["arts"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Instrumento de seis cordas dedilhadas",
+    "shortClue": "Seis cordas"
+  },
+  {
+    "word": "guitarra",
+    "topics": ["arts"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Instrumento de cordas amplificado, símbolo do rock",
+    "shortClue": "Cordas elétricas"
+  },
+  {
+    "word": "trombone",
+    "topics": ["arts"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Instrumento de sopro com vara deslizante",
+    "shortClue": "Vara deslizante"
+  },
+  {
+    "word": "maestro",
+    "topics": ["arts"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Regente de uma orquestra",
+    "shortClue": "Regente"
+  },
+  {
+    "word": "compasso",
+    "topics": ["arts"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Divisão regular do tempo na música",
+    "shortClue": "Divisão rítmica"
+  },
+  {
+    "word": "harmonia",
+    "topics": ["arts"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Combinação agradável de sons",
+    "shortClue": "Sons combinados"
+  },
+  {
+    "word": "pincel",
+    "topics": ["arts"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Instrumento de cerdas para pintar",
+    "shortClue": "Cerdas e tinta"
+  },
+  {
+    "word": "paleta",
+    "topics": ["arts"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Tábua onde o pintor mistura as cores",
+    "shortClue": "Mistura de cores"
+  },
+  {
+    "word": "estatua",
+    "topics": ["arts"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Figura esculpida em pedra ou bronze",
+    "shortClue": "Figura esculpida"
+  },
+  {
+    "word": "desenho",
+    "topics": ["arts"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Traço feito a lápis sobre papel",
+    "shortClue": "Traço em papel"
+  },
+  {
+    "word": "vitral",
+    "topics": ["arts"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Vidro colorido das janelas de igrejas",
+    "shortClue": "Vidro colorido"
+  },
+  {
+    "word": "ceramica",
+    "topics": ["arts"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Arte de modelar e queimar o barro",
+    "shortClue": "Arte do barro"
+  },
+  {
+    "word": "plateia",
+    "topics": ["arts"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Público sentado diante do palco",
+    "shortClue": "Público"
+  },
+  {
+    "word": "camarim",
+    "topics": ["arts"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Sala onde os artistas se preparam",
+    "shortClue": "Sala dos artistas"
+  },
+  {
+    "word": "clarinete",
+    "topics": ["arts"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Instrumento de sopro de palheta simples",
+    "shortClue": "Sopro de palheta"
+  },
+  {
+    "word": "contrabaixo",
+    "topics": ["arts"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Maior instrumento de cordas da orquestra",
+    "shortClue": "Cordas graves"
+  },
+  {
+    "word": "compositor",
+    "topics": ["arts"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Autor de peças musicais",
+    "shortClue": "Criador de músicas"
+  },
+  {
+    "word": "coreografia",
+    "topics": ["arts"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Sequência de passos de uma dança",
+    "shortClue": "Passos ensaiados"
+  },
+  {
+    "word": "biografia",
+    "topics": ["arts"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Relato da vida de uma pessoa",
+    "shortClue": "Vida contada"
+  },
+  {
+    "word": "protagonista",
+    "topics": ["arts"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Personagem principal de uma história",
+    "shortClue": "Personagem central"
+  },
+  {
+    "word": "pano",
+    "topics": ["home"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Tecido usado para limpar ou cobrir",
+    "shortClue": "Tecido"
+  },
+  {
+    "word": "cano",
+    "topics": ["home"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Tubo por onde passa a água",
+    "shortClue": "Tubo"
+  },
+  {
+    "word": "fio",
+    "topics": ["home"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Condutor de eletricidade",
+    "shortClue": "Condutor"
+  },
+  {
+    "word": "mala",
+    "topics": ["home"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Bagagem de viagem",
+    "shortClue": "Bagagem"
+  },
+  {
+    "word": "bacia",
+    "topics": ["home"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Recipiente largo e fundo para lavar",
+    "shortClue": "Vasilha larga"
+  },
+  {
+    "word": "pote",
+    "topics": ["home"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Vasilha tampada para guardar alimentos",
+    "shortClue": "Vasilha tampada"
+  },
+  {
+    "word": "tampa",
+    "topics": ["home"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Peça que fecha a abertura de um recipiente",
+    "shortClue": "Cobertura"
+  },
+  {
+    "word": "lata",
+    "topics": ["home"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Recipiente de folha de metal",
+    "shortClue": "Embalagem de metal"
+  },
+  {
+    "word": "cofre",
+    "topics": ["home"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Caixa forte para guardar valores",
+    "shortClue": "Caixa forte"
+  },
+  {
+    "word": "grade",
+    "topics": ["home"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Estrutura de barras que protege janelas e portões",
+    "shortClue": "Barras de ferro"
+  },
+  {
+    "word": "piso",
+    "topics": ["home"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Superfície do chão de um cômodo",
+    "shortClue": "Chão do cômodo"
+  },
+  {
+    "word": "teto",
+    "topics": ["home"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Parte superior interna de um cômodo",
+    "shortClue": "Cobertura interna"
+  },
+  {
+    "word": "pente",
+    "topics": ["home"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Objeto de dentes que alisa o cabelo",
+    "shortClue": "Alisa o cabelo"
+  },
+  {
+    "word": "chave",
+    "topics": ["home"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Peça de metal que abre fechaduras",
+    "shortClue": "Abre a fechadura"
+  },
+  {
+    "word": "rodo",
+    "topics": ["home"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Utensílio de borracha que puxa a água do chão",
+    "shortClue": "Puxa a água"
+  },
+  {
+    "word": "xampu",
+    "topics": ["home"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Produto para lavar o cabelo",
+    "shortClue": "Lava cabelo"
+  },
+  {
+    "word": "tapete",
+    "topics": ["home"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Peça de tecido que cobre o chão da sala",
+    "shortClue": "Cobre o chão"
+  },
+  {
+    "word": "cortina",
+    "topics": ["home"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Pano que cobre a janela",
+    "shortClue": "Pano da janela"
+  },
+  {
+    "word": "armario",
+    "topics": ["home"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Móvel com portas para guardar roupas ou louças",
+    "shortClue": "Móvel de guardar"
+  },
+  {
+    "word": "gaveta",
+    "topics": ["home"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Compartimento que se puxa de dentro de um móvel",
+    "shortClue": "Caixa de móvel"
+  },
+  {
+    "word": "poltrona",
+    "topics": ["home"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Assento estofado e confortável, de braços",
+    "shortClue": "Assento estofado"
+  },
+  {
+    "word": "escada",
+    "topics": ["home"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Sequência de degraus que liga andares",
+    "shortClue": "Degraus"
+  },
+  {
+    "word": "varanda",
+    "topics": ["home"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Área aberta anexa à casa",
+    "shortClue": "Sacada"
+  },
+  {
+    "word": "quintal",
+    "topics": ["home"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Terreno aos fundos da casa",
+    "shortClue": "Fundos da casa"
+  },
+  {
+    "word": "garagem",
+    "topics": ["home"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Lugar onde se guarda o carro",
+    "shortClue": "Abrigo do carro"
+  },
+  {
+    "word": "vassoura",
+    "topics": ["home"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Cabo com cerdas para varrer o chão",
+    "shortClue": "Varre o chão"
+  },
+  {
+    "word": "esponja",
+    "topics": ["home"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Material macio que absorve água e limpa a louça",
+    "shortClue": "Limpa louça"
+  },
+  {
+    "word": "chaleira",
+    "topics": ["home"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Recipiente para ferver água",
+    "shortClue": "Ferve a água"
+  },
+  {
+    "word": "almofada",
+    "topics": ["home"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Saco de pano macio com enchimento, enfeite de sofá",
+    "shortClue": "Enfeite de sofá"
+  },
+  {
+    "word": "aquecedor",
+    "topics": ["home"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Aparelho que esquenta o ambiente no frio",
+    "shortClue": "Esquenta o ambiente"
+  },
+  {
+    "word": "fechadura",
+    "topics": ["home"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Mecanismo da porta que se abre com chave",
+    "shortClue": "Trava da porta"
+  },
+  {
+    "word": "campainha",
+    "topics": ["home"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Aparelho que toca quando alguém chega",
+    "shortClue": "Avisa visitas"
+  },
+  {
+    "word": "batedeira",
+    "topics": ["home"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Aparelho que mistura massas de bolo",
+    "shortClue": "Mistura massas"
+  },
+  {
+    "word": "aspirador",
+    "topics": ["home"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Aparelho que suga o pó do chão",
+    "shortClue": "Suga poeira"
+  },
+  {
+    "word": "vigia",
+    "topics": ["professions"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Quem observa e protege um local",
+    "shortClue": "Guardião noturno"
+  },
+  {
+    "word": "tutor",
+    "topics": ["professions"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Responsável por orientar um aluno",
+    "shortClue": "Orientador"
+  },
+  {
+    "word": "perito",
+    "topics": ["professions"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Especialista chamado para dar parecer técnico",
+    "shortClue": "Especialista"
+  },
+  {
+    "word": "fiscal",
+    "topics": ["professions"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Quem verifica o cumprimento de regras",
+    "shortClue": "Vistoriador"
+  },
+  {
+    "word": "mestre",
+    "topics": ["professions"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Quem ensina ou domina um ofício",
+    "shortClue": "Dono do ofício"
+  },
+  {
+    "word": "atleta",
+    "topics": ["professions"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Esportista profissional",
+    "shortClue": "Esportista"
+  },
+  {
+    "word": "sindico",
+    "topics": ["professions"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Responsável pela administração de um condomínio",
+    "shortClue": "Gestor de prédio"
+  },
+  {
+    "word": "dentista",
+    "topics": ["professions"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Profissional que trata da boca e do sorriso",
+    "shortClue": "Cuida do sorriso"
+  },
+  {
+    "word": "garcom",
+    "topics": ["professions"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Profissional que serve as mesas de um restaurante",
+    "shortClue": "Serve à mesa"
+  },
+  {
+    "word": "carteiro",
+    "topics": ["professions"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Leva a correspondência e as encomendas às casas",
+    "shortClue": "Leva correspondência"
+  },
+  {
+    "word": "pedreiro",
+    "topics": ["professions"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Quem levanta paredes com tijolos",
+    "shortClue": "Levanta paredes"
+  },
+  {
+    "word": "bancario",
+    "topics": ["professions"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Quem trabalha numa agência financeira",
+    "shortClue": "Cuida do dinheiro"
+  },
+  {
+    "word": "aprendiz",
+    "topics": ["professions"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Iniciante que se forma ao lado de um mestre",
+    "shortClue": "Iniciante de ofício"
+  },
+  {
+    "word": "mineiro",
+    "topics": ["professions"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Quem extrai riquezas do subsolo",
+    "shortClue": "Trabalha na mina"
+  },
+  {
+    "word": "lenhador",
+    "topics": ["professions"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Quem corta árvores",
+    "shortClue": "Corta árvores"
+  },
+  {
+    "word": "alfaiate",
+    "topics": ["professions"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Quem faz roupas sob medida",
+    "shortClue": "Mestre da agulha"
+  },
+  {
+    "word": "geologo",
+    "topics": ["professions"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Cientista que estuda as rochas",
+    "shortClue": "Estuda a terra"
+  },
+  {
+    "word": "biologo",
+    "topics": ["professions"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Cientista que estuda os seres vivos",
+    "shortClue": "Estuda a vida"
+  },
+  {
+    "word": "locutor",
+    "topics": ["professions"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Quem fala no rádio",
+    "shortClue": "Voz do rádio"
+  },
+  {
+    "word": "policial",
+    "topics": ["professions"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Agente que zela pela ordem pública",
+    "shortClue": "Agente da lei"
+  },
+  {
+    "word": "motorista",
+    "topics": ["professions"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Quem dirige veículos como ofício",
+    "shortClue": "Dirige ônibus"
+  },
+  {
+    "word": "advogado",
+    "topics": ["professions"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Quem defende pessoas perante a justiça",
+    "shortClue": "Defende no tribunal"
+  },
+  {
+    "word": "psicologo",
+    "topics": ["professions"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Profissional que estuda a mente e o comportamento",
+    "shortClue": "Estuda a mente"
+  },
+  {
+    "word": "fisioterapeuta",
+    "topics": ["professions"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Profissional que trata lesões com exercícios",
+    "shortClue": "Reabilita o corpo"
+  },
+  {
+    "word": "recepcionista",
+    "topics": ["professions"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Quem atende clientes na entrada",
+    "shortClue": "Atende na entrada"
+  },
+  {
+    "word": "secretario",
+    "topics": ["professions"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Auxilia nas tarefas de um escritório",
+    "shortClue": "Auxiliar de escritório"
+  },
+  {
+    "word": "confeiteiro",
+    "topics": ["professions"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Profissional que faz bolos e doces finos",
+    "shortClue": "Faz doces finos"
+  },
+  {
+    "word": "frentista",
+    "topics": ["professions"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Quem abastece carros nos postos",
+    "shortClue": "Abastece carros"
+  },
+  {
+    "word": "carpinteiro",
+    "topics": ["professions"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Quem trabalha a madeira em estruturas",
+    "shortClue": "Mestre da madeira"
+  },
+  {
+    "word": "pesquisador",
+    "topics": ["professions"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Quem investiga assuntos de forma sistemática",
+    "shortClue": "Investigador"
+  },
+  {
+    "word": "historiador",
+    "topics": ["professions"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Estudioso do passado",
+    "shortClue": "Estuda o passado"
+  },
+  {
+    "word": "apicultor",
+    "topics": ["professions"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Quem cria abelhas",
+    "shortClue": "Cria abelhas"
+  },
+  {
+    "word": "cirurgiao",
+    "topics": ["professions"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Médico que faz operações",
+    "shortClue": "Médico de bisturi"
+  },
+  {
+    "word": "oca",
+    "topics": ["localCulture"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Casa coletiva dos povos indígenas",
+    "shortClue": "Casa indígena"
+  },
+  {
+    "word": "taba",
+    "topics": ["localCulture"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Aldeia indígena",
+    "shortClue": "Aldeia"
+  },
+  {
+    "word": "tutu",
+    "topics": ["localCulture"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Feijão cozido e engrossado com farinha, prato mineiro",
+    "shortClue": "Prato mineiro"
+  },
+  {
+    "word": "axe",
+    "topics": ["localCulture"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Gênero musical baiano de festas de rua",
+    "shortClue": "Música baiana"
+  },
+  {
+    "word": "surdo",
+    "topics": ["localCulture"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Tambor grave que marca o ritmo da bateria",
+    "shortClue": "Tambor grave"
+  },
+  {
+    "word": "agogo",
+    "topics": ["localCulture"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Instrumento de duas campânulas de metal",
+    "shortClue": "Campânulas de ferro"
+  },
+  {
+    "word": "maxixe",
+    "topics": ["localCulture"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Dança urbana brasileira do fim do século XIX",
+    "shortClue": "Dança antiga"
+  },
+  {
+    "word": "folia",
+    "topics": ["localCulture"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Festa popular de música e dança",
+    "shortClue": "Festa animada"
+  },
+  {
+    "word": "jongo",
+    "topics": ["localCulture"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Dança de roda afro-brasileira ao som de tambores",
+    "shortClue": "Dança de tambores"
+  },
+  {
+    "word": "lundu",
+    "topics": ["localCulture"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Dança e canto de origem africana no Brasil",
+    "shortClue": "Dança antiga"
+  },
+  {
+    "word": "tupi",
+    "topics": ["localCulture"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Língua indígena que deu muitas palavras ao português",
+    "shortClue": "Língua indígena"
+  },
+  {
+    "word": "cocar",
+    "topics": ["localCulture"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Adorno de penas usado na cabeça por indígenas",
+    "shortClue": "Adorno de penas"
+  },
+  {
+    "word": "dende",
+    "topics": ["localCulture"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Palmeira cujo óleo alaranjado tempera pratos baianos",
+    "shortClue": "Óleo baiano"
+  },
+  {
+    "word": "lenda",
+    "topics": ["localCulture"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Narrativa fantástica passada de geração em geração",
+    "shortClue": "Conto antigo"
+  },
+  {
+    "word": "pandeiro",
+    "topics": ["localCulture"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Instrumento de aro com platinelas, base do samba",
+    "shortClue": "Percussão de aro"
+  },
+  {
+    "word": "sanfona",
+    "topics": ["localCulture"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Instrumento de fole tocado no forró",
+    "shortClue": "Fole nordestino"
+  },
+  {
+    "word": "fogueira",
+    "topics": ["localCulture"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Pilha de lenha acesa nas festas de junho",
+    "shortClue": "Brasas de junho"
+  },
+  {
+    "word": "arraial",
+    "topics": ["localCulture"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Festa popular de junho, com barracas e danças",
+    "shortClue": "Festa de junho"
+  },
+  {
+    "word": "canjica",
+    "topics": ["localCulture"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Doce de milho com leite e coco",
+    "shortClue": "Doce de milho"
+  },
+  {
+    "word": "moqueca",
+    "topics": ["localCulture"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Ensopado de peixe com leite de coco e dendê",
+    "shortClue": "Ensopado de peixe"
+  },
+  {
+    "word": "caruru",
+    "topics": ["localCulture"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Prato baiano de quiabo e camarão",
+    "shortClue": "Prato de quiabo"
+  },
+  {
+    "word": "jangada",
+    "topics": ["localCulture"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Embarcação de troncos usada por pescadores nordestinos",
+    "shortClue": "Barco nordestino"
+  },
+  {
+    "word": "carranca",
+    "topics": ["localCulture"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Figura esculpida na proa dos barcos do rio São Francisco",
+    "shortClue": "Figura de proa"
+  },
+  {
+    "word": "seresta",
+    "topics": ["localCulture"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Canto ao ar livre, à noite, sob a janela da amada",
+    "shortClue": "Canto noturno"
+  },
+  {
+    "word": "pagode",
+    "topics": ["localCulture"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Roda de samba entre amigos",
+    "shortClue": "Roda de samba"
+  },
+  {
+    "word": "folclore",
+    "topics": ["localCulture"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Conjunto das tradições populares de um povo",
+    "shortClue": "Saber popular"
+  },
+  {
+    "word": "caipora",
+    "topics": ["localCulture"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Protetora das matas no folclore, de pés virados",
+    "shortClue": "Guardiã da mata"
+  },
+  {
+    "word": "Lobato",
+    "topics": ["localCulture"],
+    "difficulty": 2,
+    "kind": "proper",
+    "clue": "Escritor criador do Sítio do Picapau Amarelo",
+    "shortClue": "Autor do Sítio"
+  },
+  {
+    "word": "Salvador",
+    "topics": ["localCulture"],
+    "difficulty": 1,
+    "kind": "proper",
+    "clue": "Capital da Bahia, de ladeiras e igrejas barrocas",
+    "shortClue": "Capital baiana"
+  },
+  {
+    "word": "quadrilha",
+    "topics": ["localCulture"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Dança em pares das festas juninas",
+    "shortClue": "Dança junina"
+  },
+  {
+    "word": "mapinguari",
+    "topics": ["localCulture"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Monstro de um olho só do folclore amazônico",
+    "shortClue": "Monstro da floresta"
+  },
+  {
+    "word": "carimbo",
+    "topics": ["localCulture"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Ritmo e dança tradicional do Pará, de tambores",
+    "shortClue": "Ritmo paraense"
+  },
+  {
+    "word": "xilogravura",
+    "topics": ["localCulture"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Arte de imprimir imagens entalhadas em madeira",
+    "shortClue": "Imagem entalhada"
+  },
+  {
+    "word": "Aleijadinho",
+    "topics": ["localCulture"],
+    "difficulty": 3,
+    "kind": "proper",
+    "clue": "Escultor barroco dos profetas de Congonhas",
+    "shortClue": "Escultor barroco"
+  },
+  {
+    "word": "Ibirapuera",
+    "topics": ["localCulture"],
+    "difficulty": 2,
+    "kind": "proper",
+    "clue": "Grande parque da cidade de São Paulo",
+    "shortClue": "Parque paulistano"
+  },
+  {
+    "word": "Tiradentes",
+    "topics": ["localCulture"],
+    "difficulty": 2,
+    "kind": "proper",
+    "clue": "Cidade histórica de Minas Gerais, de casarões coloniais",
+    "shortClue": "Cidade mineira"
+  },
+  {
+    "word": "Corcovado",
+    "topics": ["localCulture"],
+    "difficulty": 2,
+    "kind": "proper",
+    "clue": "Morro do Rio de Janeiro onde fica o Cristo Redentor",
+    "shortClue": "Morro do Cristo"
+  }
+]
