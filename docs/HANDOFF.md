@@ -79,7 +79,7 @@ player's next puzzle would run short (event-driven refill job, 100 requests a da
 per language with oldest-seen repeats past it, the daily reserve, measured sizes and costs.
 
 **Where we left off (2026-11-27):** the first seed file (`01.json`, 500 words) is written for en, ru,
-hy, de, it, pl, pt, es, fr, nl, ro, sv, cs, el, hu, uk, id, ms, vi, ja, ko, zh, ar, fa, he, hi, th, sw, mr (29 languages, 14,500
-words). **Not started: ta, bn, fil, ur.** On any machine: `git pull`, run `pnpm --filter crossword-server exec tsx
+hy, de, it, pl, pt, es, fr, nl, ro, sv, cs, el, hu, uk, id, ms, vi, ja, ko, zh, ar, fa, he, hi, th, sw, mr, ta (30 languages, 15,000
+words). **Not started: bn, fil, ur.** On any machine: `git pull`, run `pnpm --filter crossword-server exec tsx
 prisma/seed-status.ts`, then say "continue the word seeding per docs/WORD_SEEDING_PLAN.md" — section
 "Continuing the seeding" has the writer prompt, the waves, the review and the no-repeat rules.
