@@ -1,0 +1,5032 @@
+[
+  {
+    "word": "lungkot",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Damdaming mabigat kapag may nawala o umalis",
+    "shortClue": "Mabigat na damdamin"
+  },
+  {
+    "word": "galit",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Matinding damdamin kapag inaapi o niloloko",
+    "shortClue": "Init ng ulo"
+  },
+  {
+    "word": "takot",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Damdamin sa harap ng panganib o dilim",
+    "shortClue": "Kaba sa panganib"
+  },
+  {
+    "word": "ngiti",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Pagbuka ng labi tanda ng saya, walang tunog",
+    "shortClue": "Saya sa labi"
+  },
+  {
+    "word": "luha",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Patak ng tubig mula sa mata kapag umiiyak",
+    "shortClue": "Patak ng mata"
+  },
+  {
+    "word": "hiya",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Damdaming nagpapapula ng pisngi sa harap ng iba",
+    "shortClue": "Pula ng pisngi"
+  },
+  {
+    "word": "inggit",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Paghahangad sa ari-arian o suwerte ng kapwa",
+    "shortClue": "Hangad sa iba"
+  },
+  {
+    "word": "selos",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Takot na mapunta sa iba ang minamahal",
+    "shortClue": "Takot na maagawan"
+  },
+  {
+    "word": "alaala",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Larawan ng nakaraan na nananatili sa isip",
+    "shortClue": "Bakas sa isip"
+  },
+  {
+    "word": "isip",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Kakayahang umunawa, magnilay at magpasya",
+    "shortClue": "Pang-unawa"
+  },
+  {
+    "word": "oras",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Animnapung minuto",
+    "shortClue": "Animnapung minuto"
+  },
+  {
+    "word": "araw",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Panahon mula pagsikat hanggang paglubog ng liwanag",
+    "shortClue": "Isang maghapon"
+  },
+  {
+    "word": "gabi",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Panahong madilim mula takipsilim hanggang madaling-araw",
+    "shortClue": "Dilim ng langit"
+  },
+  {
+    "word": "umaga",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Bahagi ng araw pagkatapos ng bukang-liwayway",
+    "shortClue": "Simula ng araw"
+  },
+  {
+    "word": "hapon",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Bahagi ng araw mula tanghali hanggang takipsilim",
+    "shortClue": "Matapos ang tanghali"
+  },
+  {
+    "word": "linggo",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Pitong magkakasunod na araw",
+    "shortClue": "Pitong araw"
+  },
+  {
+    "word": "buwan",
+    "topics": [
+      "general",
+      "science"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Tanglaw sa gabi na umiikot sa mundo",
+    "shortClue": "Tanglaw sa gabi"
+  },
+  {
+    "word": "sandali",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Napakaikling panahon, isang kisapmata",
+    "shortClue": "Kisapmata"
+  },
+  {
+    "word": "simula",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Unang bahagi ng anumang bagay o gawain",
+    "shortClue": "Unang bahagi"
+  },
+  {
+    "word": "wakas",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Huling bahagi ng kuwento o pangyayari",
+    "shortClue": "Katapusan"
+  },
+  {
+    "word": "lihim",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Bagay na itinatago at hindi ipinagsasabi",
+    "shortClue": "Itinatagong bagay"
+  },
+  {
+    "word": "suwerte",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Magandang kapalaran na dumarating nang di inaasahan",
+    "shortClue": "Mabuting kapalaran"
+  },
+  {
+    "word": "kapalaran",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Takbo ng buhay na tila nakatakda na",
+    "shortClue": "Takbo ng buhay"
+  },
+  {
+    "word": "tadhana",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Kapangyarihang sinasabing nagtatakda ng buhay ng tao",
+    "shortClue": "Nakatakdang buhay"
+  },
+  {
+    "word": "salita",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Yunit ng wika na may sariling kahulugan",
+    "shortClue": "Yunit ng wika"
+  },
+  {
+    "word": "sagot",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Tugon sa isang tanong o liham",
+    "shortClue": "Tugon"
+  },
+  {
+    "word": "kuwento",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Salaysay ng mga pangyayari, totoo man o kathang-isip",
+    "shortClue": "Salaysay"
+  },
+  {
+    "word": "regalo",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Bagay na ibinibigay nang walang bayad sa okasyon",
+    "shortClue": "Handog"
+  },
+  {
+    "word": "tiwala",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Paniniwalang hindi ka bibiguin ng kapwa",
+    "shortClue": "Pananalig sa kapwa"
+  },
+  {
+    "word": "ugali",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Nakasanayang kilos o asal ng isang tao",
+    "shortClue": "Asal ng tao"
+  },
+  {
+    "word": "katapatan",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Pagiging totoo at hindi nagsisinungaling",
+    "shortClue": "Pagiging totoo"
+  },
+  {
+    "word": "sipag",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Pagiging masigasig sa trabaho at gawain",
+    "shortClue": "Kasigasigan"
+  },
+  {
+    "word": "yabang",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Labis na pagmamalaki sa sarili",
+    "shortClue": "Pagmamalaki"
+  },
+  {
+    "word": "dangal",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Mabuting pangalan at paggalang sa sarili",
+    "shortClue": "Puri ng tao"
+  },
+  {
+    "word": "galang",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Pagpapakita ng pagpapahalaga sa nakatatanda",
+    "shortClue": "Pagpapahalaga"
+  },
+  {
+    "word": "utang",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Halagang hiniram at kailangang bayaran",
+    "shortClue": "Hiniram na halaga"
+  },
+  {
+    "word": "daan",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Landas ng tao at sasakyan",
+    "shortClue": "Landas"
+  },
+  {
+    "word": "sukat",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Haba, lapad o bigat ng isang bagay",
+    "shortClue": "Haba o lapad"
+  },
+  {
+    "word": "laki",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Kabuuang sukat ng isang bagay",
+    "shortClue": "Kabuuang sukat"
+  },
+  {
+    "word": "hugis",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Anyo ng bagay, gaya ng tatsulok o bilog",
+    "shortClue": "Anyo ng bagay"
+  },
+  {
+    "word": "amoy",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Nalalanghap ng ilong",
+    "shortClue": "Nalalanghap"
+  },
+  {
+    "word": "lasa",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Nararamdaman ng dila: tamis, alat o asim",
+    "shortClue": "Pandama ng dila"
+  },
+  {
+    "word": "ingay",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Malakas at magulong tunog",
+    "shortClue": "Magulong tunog"
+  },
+  {
+    "word": "dilim",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Kawalan ng liwanag",
+    "shortClue": "Walang liwanag"
+  },
+  {
+    "word": "init",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Mataas na temperatura, gaya sa tanghaling tapat",
+    "shortClue": "Taas ng temperatura"
+  },
+  {
+    "word": "lamig",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Mababang temperatura, gaya sa madaling-araw",
+    "shortClue": "Ginaw"
+  },
+  {
+    "word": "gutom",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Pakiramdam kapag matagal nang hindi kumakain",
+    "shortClue": "Kailangan ng pagkain"
+  },
+  {
+    "word": "uhaw",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Pangangailangan ng katawan sa tubig",
+    "shortClue": "Hanap ay tubig"
+  },
+  {
+    "word": "antok",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Bigat ng mata kapag gusto nang matulog",
+    "shortClue": "Gustong matulog"
+  },
+  {
+    "word": "panaginip",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Mga larawang nakikita habang natutulog",
+    "shortClue": "Larawan sa pagtulog"
+  },
+  {
+    "word": "bangungot",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Nakatatakot na panaginip na mahirap gisingan",
+    "shortClue": "Masamang panaginip"
+  },
+  {
+    "word": "hiling",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Bagay na hinihingi o inaasam",
+    "shortClue": "Inaasam"
+  },
+  {
+    "word": "usapan",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Palitan ng salita ng dalawa o higit pang tao",
+    "shortClue": "Palitan ng salita"
+  },
+  {
+    "word": "away",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Pagtatalo o bangayan ng dalawang panig",
+    "shortClue": "Bangayan"
+  },
+  {
+    "word": "kapayapaan",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Kalagayang walang gulo at labanan",
+    "shortClue": "Walang gulo"
+  },
+  {
+    "word": "kalayaan",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Kakayahang kumilos ayon sa sariling pasya",
+    "shortClue": "Sariling pasya"
+  },
+  {
+    "word": "katotohanan",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Bagay na tunay at hindi kasinungalingan",
+    "shortClue": "Tunay na bagay"
+  },
+  {
+    "word": "kapitbahay",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Taong nakatira sa tabi ng inyong tirahan",
+    "shortClue": "Katabing tirahan"
+  },
+  {
+    "word": "pasasalamat",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Pagkilala sa kabutihang tinanggap mula sa iba",
+    "shortClue": "Pagkilala sa tulong"
+  },
+  {
+    "word": "paumanhin",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Magalang na paghingi ng tawad",
+    "shortClue": "Paghingi ng tawad"
+  },
+  {
+    "word": "paaralan",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Pook ng pagtuturo sa mga bata",
+    "shortClue": "Pook ng pagtuturo"
+  },
+  {
+    "word": "aklat",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Mga pahinang may nakalimbag na sulat at may pabalat",
+    "shortClue": "Libro"
+  },
+  {
+    "word": "lapis",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Panulat na may tingga at pambura sa dulo",
+    "shortClue": "Panulat na tingga"
+  },
+  {
+    "word": "pagsusulit",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Pagsubok sa natutunan ng mag-aaral",
+    "shortClue": "Pagsubok sa klase"
+  },
+  {
+    "word": "lunas",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Gamot o kasagutan sa isang suliranin",
+    "shortClue": "Gamot sa sakit"
+  },
+  {
+    "word": "dahilan",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Sanhi kung bakit nangyari ang isang bagay",
+    "shortClue": "Bakit nangyari"
+  },
+  {
+    "word": "layunin",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Bagay na nais abutin sa paggawa",
+    "shortClue": "Mithiin"
+  },
+  {
+    "word": "pagkakataon",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Tamang panahon para gumawa ng isang bagay",
+    "shortClue": "Tamang panahon"
+  },
+  {
+    "word": "panganib",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Bagay na maaaring magdulot ng pinsala",
+    "shortClue": "Banta ng pinsala"
+  },
+  {
+    "word": "kaligtasan",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Kalagayang malayo sa panganib at pinsala",
+    "shortClue": "Walang panganib"
+  },
+  {
+    "word": "kalusugan",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Kalagayan ng katawang malakas at walang sakit",
+    "shortClue": "Lakas ng katawan"
+  },
+  {
+    "word": "sakit",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Karamdamang nagpapahina sa katawan",
+    "shortClue": "Karamdaman"
+  },
+  {
+    "word": "lagnat",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Pagtaas ng init ng katawan dahil sa karamdaman",
+    "shortClue": "Mainit na katawan"
+  },
+  {
+    "word": "ubo",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Biglang paglabas ng hangin mula sa baga na may tunog",
+    "shortClue": "Sakit sa lalamunan"
+  },
+  {
+    "word": "sipon",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Karamdamang nagpapatulo ng ilong",
+    "shortClue": "Tulo ng ilong"
+  },
+  {
+    "word": "hilo",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Pakiramdam na umiikot ang paligid",
+    "shortClue": "Ikot ng paningin"
+  },
+  {
+    "word": "ginhawa",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Pakiramdam ng gaan matapos ang hirap",
+    "shortClue": "Gaan ng loob"
+  },
+  {
+    "word": "hirap",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Matinding pagod o kakulangan sa buhay",
+    "shortClue": "Kagipitan"
+  },
+  {
+    "word": "yaman",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Maraming pera at ari-arian",
+    "shortClue": "Ari-arian"
+  },
+  {
+    "word": "tagumpay",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Pagkamit ng minimithi matapos ang pagsisikap",
+    "shortClue": "Pagwawagi"
+  },
+  {
+    "word": "paligsahan",
+    "topics": [
+      "general",
+      "sport"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Labanan ng galing kung saan may nananalo",
+    "shortClue": "Timpalak"
+  },
+  {
+    "word": "hamon",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Mahirap na gawaing sumusubok sa kakayahan",
+    "shortClue": "Pagsubok"
+  },
+  {
+    "word": "karapatan",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Pribilehiyong ibinibigay ng batas sa bawat tao",
+    "shortClue": "Pribilehiyo"
+  },
+  {
+    "word": "katarungan",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Pagbibigay ng nararapat sa bawat isa ayon sa batas",
+    "shortClue": "Hustisya"
+  },
+  {
+    "word": "halimbawa",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Bagay na ipinapakita upang ipaliwanag ang iba",
+    "shortClue": "Ipinakikitang kaso"
+  },
+  {
+    "word": "dulo",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Pinakahuling bahagi o gilid ng isang bagay",
+    "shortClue": "Gilid o hangganan"
+  },
+  {
+    "word": "gitna",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Bahaging nasa pagitan ng dalawang dulo",
+    "shortClue": "Pagitan"
+  },
+  {
+    "word": "gilid",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Tabing bahagi ng isang bagay",
+    "shortClue": "Tabi"
+  },
+  {
+    "word": "ibabaw",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Bahaging nasa itaas ng isang bagay",
+    "shortClue": "Itaas na bahagi"
+  },
+  {
+    "word": "ilalim",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Bahaging nasa baba ng isang bagay",
+    "shortClue": "Babang bahagi"
+  },
+  {
+    "word": "hangganan",
+    "topics": [
+      "general",
+      "geography"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Guhit na naghihiwalay sa dalawang lupain",
+    "shortClue": "Guhit ng lupain"
+  },
+  {
+    "word": "kahulugan",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Ibig sabihin ng isang salita",
+    "shortClue": "Ibig sabihin"
+  },
+  {
+    "word": "gawain",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Trabahong kailangang tapusin",
+    "shortClue": "Dapat tapusin"
+  },
+  {
+    "word": "sahod",
+    "topics": [
+      "general",
+      "professions"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Perang kinikita ng manggagawa",
+    "shortClue": "Suweldo"
+  },
+  {
+    "word": "ipon",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Perang itinatabi para sa kinabukasan",
+    "shortClue": "Naitabing pera"
+  },
+  {
+    "word": "kinabukasan",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Panahong darating pa, ang hinaharap",
+    "shortClue": "Hinaharap"
+  },
+  {
+    "word": "panahon",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Takbo ng oras, o lagay ng langit",
+    "shortClue": "Lagay ng langit"
+  },
+  {
+    "word": "pagkakaisa",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Pagbubuklod ng marami tungo sa magkaparehong layunin",
+    "shortClue": "Pagbubuklod"
+  },
+  {
+    "word": "kapwa",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Ibang tao na itinuturing na kapantay mo",
+    "shortClue": "Kapantay na tao"
+  },
+  {
+    "word": "pook",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Lugar na may tiyak na kinalalagyan",
+    "shortClue": "Lugar"
+  },
+  {
+    "word": "husay",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Galing sa paggawa ng isang bagay",
+    "shortClue": "Galing"
+  },
+  {
+    "word": "karanasan",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Mga pangyayaring pinagdaanan at pinagkunan ng aral",
+    "shortClue": "Pinagdaanan"
+  },
+  {
+    "word": "edad",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Bilang ng taon mula nang ipanganak",
+    "shortClue": "Gulang"
+  },
+  {
+    "word": "sanggol",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Napakabatang anak na hindi pa nakalalakad",
+    "shortClue": "Bagong silang"
+  },
+  {
+    "word": "tinig",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Tunog na lumalabas sa bibig kapag nagsasalita",
+    "shortClue": "Boses"
+  },
+  {
+    "word": "sigaw",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Malakas na pagtawag o pagsasalita",
+    "shortClue": "Malakas na tawag"
+  },
+  {
+    "word": "halik",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Paglapat ng labi sa pisngi tanda ng pagmamahal",
+    "shortClue": "Lapat ng labi"
+  },
+  {
+    "word": "yakap",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Pagpulupot ng mga braso sa iba tanda ng pagmamahal",
+    "shortClue": "Higpit ng braso"
+  },
+  {
+    "word": "hula",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Pagsasabi ng mangyayari bago pa ito dumating",
+    "shortClue": "Sabi sa hinaharap"
+  },
+  {
+    "word": "tsismis",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Usap-usapan tungkol sa buhay ng ibang tao",
+    "shortClue": "Usap-usapan"
+  },
+  {
+    "word": "dasal",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Pakikipag-usap sa Diyos",
+    "shortClue": "Panalangin"
+  },
+  {
+    "word": "dagat",
+    "topics": [
+      "nature"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Malawak na anyong tubig na maalat",
+    "shortClue": "Maalat na tubig"
+  },
+  {
+    "word": "alon",
+    "topics": [
+      "nature"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Tubig na tumataas at bumabagsak sa dagat",
+    "shortClue": "Galaw ng dagat"
+  },
+  {
+    "word": "buhangin",
+    "topics": [
+      "nature"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Pinong butil ng bato sa dalampasigan",
+    "shortClue": "Butil sa baybay"
+  },
+  {
+    "word": "bato",
+    "topics": [
+      "nature"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Matigas na piraso ng mineral sa lupa",
+    "shortClue": "Matigas na mineral"
+  },
+  {
+    "word": "putik",
+    "topics": [
+      "nature"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Basang lupa na malagkit",
+    "shortClue": "Basang lupa"
+  },
+  {
+    "word": "kulog",
+    "topics": [
+      "nature"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Dagundong sa langit kasunod ng kidlat",
+    "shortClue": "Dagundong sa langit"
+  },
+  {
+    "word": "ulap",
+    "topics": [
+      "nature"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Puting kumpol ng singaw sa langit",
+    "shortClue": "Kumpol sa langit"
+  },
+  {
+    "word": "bahaghari",
+    "topics": [
+      "nature"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Arko ng pitong kulay sa langit matapos umulan",
+    "shortClue": "Arko ng kulay"
+  },
+  {
+    "word": "bituin",
+    "topics": [
+      "nature",
+      "science"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Kumikislap na tuldok ng liwanag sa langit sa gabi",
+    "shortClue": "Tala sa langit"
+  },
+  {
+    "word": "sapa",
+    "topics": [
+      "nature"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Maliit at mababaw na ilog",
+    "shortClue": "Munting ilog"
+  },
+  {
+    "word": "bukal",
+    "topics": [
+      "nature"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Pinagmumulan ng tubig mula sa ilalim ng lupa",
+    "shortClue": "Pinagmulan ng tubig"
+  },
+  {
+    "word": "damo",
+    "topics": [
+      "nature"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Luntiang halamang tumutubo sa parang at bakuran",
+    "shortClue": "Luntiang halaman"
+  },
+  {
+    "word": "dahon",
+    "topics": [
+      "nature"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Luntiang bahagi ng halaman na sumasalo ng araw",
+    "shortClue": "Bahagi ng sanga"
+  },
+  {
+    "word": "ugat",
+    "topics": [
+      "nature"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Bahagi ng halaman na nasa ilalim ng lupa",
+    "shortClue": "Ilalim ng halaman"
+  },
+  {
+    "word": "sanga",
+    "topics": [
+      "nature"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Bahagi ng puno na lumalabas sa katawan nito",
+    "shortClue": "Bisig ng puno"
+  },
+  {
+    "word": "bulaklak",
+    "topics": [
+      "nature"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Makulay at mabangong bahagi ng halaman",
+    "shortClue": "Mabangong bahagi"
+  },
+  {
+    "word": "sampaguita",
+    "topics": [
+      "nature",
+      "localCulture"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Maliit na puting bulaklak na mabango, pambansang bulaklak",
+    "shortClue": "Pambansang bulaklak"
+  },
+  {
+    "word": "kawayan",
+    "topics": [
+      "nature"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Matangkad na halamang may bukong guwang",
+    "shortClue": "Guwang na tangkay"
+  },
+  {
+    "word": "niyog",
+    "topics": [
+      "nature"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Punong palma na may bungang may tubig at laman",
+    "shortClue": "Bunga ng palma"
+  },
+  {
+    "word": "narra",
+    "topics": [
+      "nature"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Punong matigas ang kahoy, pambansang puno ng bansa",
+    "shortClue": "Pambansang puno"
+  },
+  {
+    "word": "lumot",
+    "topics": [
+      "nature"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Malambot na luntiang halaman sa basang bato",
+    "shortClue": "Luntian sa bato"
+  },
+  {
+    "word": "binhi",
+    "topics": [
+      "nature"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Butong itinatanim upang tumubo",
+    "shortClue": "Itinatanim na buto"
+  },
+  {
+    "word": "tagtuyot",
+    "topics": [
+      "nature"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Mahabang panahong walang ulan",
+    "shortClue": "Walang ulan"
+  },
+  {
+    "word": "baha",
+    "topics": [
+      "nature"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Pag-apaw ng tubig na lumulubog sa daan",
+    "shortClue": "Apaw ng tubig"
+  },
+  {
+    "word": "lindol",
+    "topics": [
+      "nature"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Pagyanig ng lupa",
+    "shortClue": "Yanig ng lupa"
+  },
+  {
+    "word": "latian",
+    "topics": [
+      "nature"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Lupang laging basa at maputik",
+    "shortClue": "Maputik na lupa"
+  },
+  {
+    "word": "parang",
+    "topics": [
+      "nature"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Malawak na damuhang walang puno",
+    "shortClue": "Bukas na damuhan"
+  },
+  {
+    "word": "bulalakaw",
+    "topics": [
+      "nature"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Batong nagliliyab na dumaraan sa langit sa gabi",
+    "shortClue": "Tala na bumabagsak"
+  },
+  {
+    "word": "takipsilim",
+    "topics": [
+      "nature"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Agaw-dilim bago gumabi",
+    "shortClue": "Agaw-dilim"
+  },
+  {
+    "word": "bunga",
+    "topics": [
+      "nature"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Nabubuo mula sa bulaklak ng halaman at may buto",
+    "shortClue": "Ani ng puno"
+  },
+  {
+    "word": "ambon",
+    "topics": [
+      "nature"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Mahinang ulan na pino ang patak",
+    "shortClue": "Mahinang ulan"
+  },
+  {
+    "word": "daluyong",
+    "topics": [
+      "nature"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Malaking alon na sumasalpok sa baybayin",
+    "shortClue": "Malaking alon"
+  },
+  {
+    "word": "alimpuyo",
+    "topics": [
+      "nature"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Paikot na agos ng tubig sa ilog o dagat",
+    "shortClue": "Paikot na agos"
+  },
+  {
+    "word": "alinsangan",
+    "topics": [
+      "nature"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Init ng hangin na mabigat at malagkit sa balat",
+    "shortClue": "Mainit na hangin"
+  },
+  {
+    "word": "alipato",
+    "topics": [
+      "nature"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Lumilipad na maliit na baga ng apoy",
+    "shortClue": "Lumilipad na baga"
+  },
+  {
+    "word": "banlik",
+    "topics": [
+      "nature"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Pinong putik na dala ng agos ng ilog",
+    "shortClue": "Putik ng ilog"
+  },
+  {
+    "word": "unos",
+    "topics": [
+      "nature"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Malakas na ulan at hangin na biglang dumarating",
+    "shortClue": "Biglang sigwa"
+  },
+  {
+    "word": "habagat",
+    "topics": [
+      "nature"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Hanging mula sa timog-kanluran na nagdadala ng ulan",
+    "shortClue": "Hanging may ulan"
+  },
+  {
+    "word": "amihan",
+    "topics": [
+      "nature"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Malamig na hanging mula sa hilagang-silangan",
+    "shortClue": "Malamig na hangin"
+  },
+  {
+    "word": "dagta",
+    "topics": [
+      "nature"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Malagkit na katas ng puno",
+    "shortClue": "Katas ng puno"
+  },
+  {
+    "word": "apoy",
+    "topics": [
+      "nature"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Mainit at maliwanag na liyab mula sa nasusunog",
+    "shortClue": "Liyab"
+  },
+  {
+    "word": "baboy",
+    "topics": [
+      "animals"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Hayop sa bukid na may nguso at kulot na buntot",
+    "shortClue": "Kulot ang buntot"
+  },
+  {
+    "word": "baka",
+    "topics": [
+      "animals"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Malaking hayop sa bukid na pinagkukunan ng gatas",
+    "shortClue": "Nagbibigay ng gatas"
+  },
+  {
+    "word": "kambing",
+    "topics": [
+      "animals"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Hayop na may balbas at sungay na kumakain ng damo",
+    "shortClue": "Balbas at sungay"
+  },
+  {
+    "word": "daga",
+    "topics": [
+      "animals"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Maliit na hayop na ngumangatngat ng butil at keso",
+    "shortClue": "Kaaway ng pusa"
+  },
+  {
+    "word": "unggoy",
+    "topics": [
+      "animals"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Hayop sa gubat na mahilig sa saging",
+    "shortClue": "Mahilig sa saging"
+  },
+  {
+    "word": "maya",
+    "topics": [
+      "animals"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Maliit na kayumangging ibon sa bakuran",
+    "shortClue": "Ibon sa bakuran"
+  },
+  {
+    "word": "kuwago",
+    "topics": [
+      "animals"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Ibon sa gabi na malalaki ang mata",
+    "shortClue": "Ibong panggabi"
+  },
+  {
+    "word": "lawin",
+    "topics": [
+      "animals"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Ibong mandaragit na mabilis lumipad",
+    "shortClue": "Ibong mandaragit"
+  },
+  {
+    "word": "tagak",
+    "topics": [
+      "animals"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Mahabang-binting puting ibon sa palayan",
+    "shortClue": "Ibon sa palayan"
+  },
+  {
+    "word": "itik",
+    "topics": [
+      "animals"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Ibon sa tubig na ang itlog ay ginagawang balut",
+    "shortClue": "Ibong lumalangoy"
+  },
+  {
+    "word": "sisiw",
+    "topics": [
+      "animals"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Inakay ng manok",
+    "shortClue": "Inakay ng manok"
+  },
+  {
+    "word": "langgam",
+    "topics": [
+      "animals"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Maliit na insektong masipag at nagtutulungan",
+    "shortClue": "Masipag na insekto"
+  },
+  {
+    "word": "lamok",
+    "topics": [
+      "animals"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Insektong sumisipsip ng dugo at nagdadala ng sakit",
+    "shortClue": "Sumisipsip ng dugo"
+  },
+  {
+    "word": "langaw",
+    "topics": [
+      "animals"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Insektong dumadapo sa basura at pagkain",
+    "shortClue": "Dumadapo sa basura"
+  },
+  {
+    "word": "ipis",
+    "topics": [
+      "animals"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Kayumangging insekto sa kusina na kinatatakutan",
+    "shortClue": "Insekto sa kusina"
+  },
+  {
+    "word": "gagamba",
+    "topics": [
+      "animals"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Hayop na may walong paa at gumagawa ng sapot",
+    "shortClue": "Gumagawa ng sapot"
+  },
+  {
+    "word": "salagubang",
+    "topics": [
+      "animals"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Insektong may matigas na pakpak, kulay luntian o itim",
+    "shortClue": "Matigas na pakpak"
+  },
+  {
+    "word": "alitaptap",
+    "topics": [
+      "animals"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Insektong may ilaw sa katawan sa gabi",
+    "shortClue": "Kislap sa gabi"
+  },
+  {
+    "word": "tipaklong",
+    "topics": [
+      "animals"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Luntiang insekto na mahusay lumukso",
+    "shortClue": "Lumulukso na insekto"
+  },
+  {
+    "word": "uod",
+    "topics": [
+      "animals"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Maliit na hayop na gumagapang sa lupa at prutas",
+    "shortClue": "Gumagapang sa lupa"
+  },
+  {
+    "word": "tuko",
+    "topics": [
+      "animals"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Malaking butiking may malakas na huni sa gabi",
+    "shortClue": "Malakas na huni"
+  },
+  {
+    "word": "bangus",
+    "topics": [
+      "animals"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Pilak na isdang inaalagaan sa palaisdaan, madalas iprito sa almusal",
+    "shortClue": "Isda sa palaisdaan"
+  },
+  {
+    "word": "hipon",
+    "topics": [
+      "animals"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Maliit na hayop-dagat na namumula kapag niluto",
+    "shortClue": "Mapulang hayop-dagat"
+  },
+  {
+    "word": "alimango",
+    "topics": [
+      "animals"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Hayop-dagat na may malalaking sipit",
+    "shortClue": "May sipit"
+  },
+  {
+    "word": "balyena",
+    "topics": [
+      "animals"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Pinakamalaking hayop sa dagat na nagpapasuso",
+    "shortClue": "Higante ng dagat"
+  },
+  {
+    "word": "pugita",
+    "topics": [
+      "animals"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Hayop-dagat na may walong galamay",
+    "shortClue": "Walong galamay"
+  },
+  {
+    "word": "dikya",
+    "topics": [
+      "animals"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Malambot at malinaw na hayop-dagat na nanunusok",
+    "shortClue": "Nanunusok sa dagat"
+  },
+  {
+    "word": "tigre",
+    "topics": [
+      "animals"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Malaking pusang may guhit na itim at kahel",
+    "shortClue": "Guhit-guhit na pusa"
+  },
+  {
+    "word": "leon",
+    "topics": [
+      "animals"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Hari ng kagubatan na may kiling",
+    "shortClue": "Hari ng hayop"
+  },
+  {
+    "word": "elepante",
+    "topics": [
+      "animals"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Malaking hayop na may mahabang nguso at pangil",
+    "shortClue": "May mahabang nguso"
+  },
+  {
+    "word": "usa",
+    "topics": [
+      "animals"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Mailap na hayop sa gubat na may sungay na sanga-sanga",
+    "shortClue": "Mailap na hayop"
+  },
+  {
+    "word": "paniki",
+    "topics": [
+      "animals"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Hayop na lumilipad sa gabi at natutulog nang patiwarik",
+    "shortClue": "Patiwarik matulog"
+  },
+  {
+    "word": "tamaraw",
+    "topics": [
+      "animals"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Maliit na kalabaw na sa Mindoro lamang matatagpuan",
+    "shortClue": "Kalabaw ng Mindoro"
+  },
+  {
+    "word": "bayawak",
+    "topics": [
+      "animals"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Malaking butiking nakatira malapit sa ilog",
+    "shortClue": "Malaking butiki"
+  },
+  {
+    "word": "dugong",
+    "topics": [
+      "animals"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Mailap na hayop-dagat na kumakain ng damong-dagat",
+    "shortClue": "Baka ng dagat"
+  },
+  {
+    "word": "kalaw",
+    "topics": [
+      "animals"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Ibong may malaki at kurbadong tuka sa gubat",
+    "shortClue": "Malaking tuka"
+  },
+  {
+    "word": "kuliglig",
+    "topics": [
+      "animals"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Insektong umaawit sa gabi sa damuhan",
+    "shortClue": "Huni sa gabi"
+  },
+  {
+    "word": "alakdan",
+    "topics": [
+      "animals"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Hayop na may sipit at makamandag na buntot",
+    "shortClue": "Makamandag na buntot"
+  },
+  {
+    "word": "alupihan",
+    "topics": [
+      "animals"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Hayop na maraming paa na nangangagat",
+    "shortClue": "Maraming paa"
+  },
+  {
+    "word": "linta",
+    "topics": [
+      "animals"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Uod sa tubig na sumisipsip ng dugo",
+    "shortClue": "Sipsip-dugo"
+  },
+  {
+    "word": "hito",
+    "topics": [
+      "animals"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Isdang may balbas na nakatira sa putik",
+    "shortClue": "Balbas na isda"
+  },
+  {
+    "word": "dalag",
+    "topics": [
+      "animals"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Isdang tabang na mahaba at madulas",
+    "shortClue": "Madulas na isda"
+  },
+  {
+    "word": "talaba",
+    "topics": [
+      "animals"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Kabibe na may perlas sa loob",
+    "shortClue": "Kabibeng may perlas"
+  },
+  {
+    "word": "pusit",
+    "topics": [
+      "animals",
+      "food"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Hayop-dagat na may tinta na iniihaw o inaadobo",
+    "shortClue": "May tinta"
+  },
+  {
+    "word": "anay",
+    "topics": [
+      "animals"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Maliit na insektong kumakain ng kahoy",
+    "shortClue": "Kumakain ng kahoy"
+  },
+  {
+    "word": "itlog",
+    "topics": [
+      "food"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Bilog na may pula at puti, galing sa inahin",
+    "shortClue": "Galing sa inahin"
+  },
+  {
+    "word": "gatas",
+    "topics": [
+      "food"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Puting inumin mula sa baka",
+    "shortClue": "Puting inumin"
+  },
+  {
+    "word": "kape",
+    "topics": [
+      "food"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Mapait na inuming mainit sa almusal",
+    "shortClue": "Mainit na inumin"
+  },
+  {
+    "word": "tsaa",
+    "topics": [
+      "food"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Inuming mula sa pinatuyong dahon",
+    "shortClue": "Inuming dahon"
+  },
+  {
+    "word": "asukal",
+    "topics": [
+      "food"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Matamis na puting butil na panghalo",
+    "shortClue": "Pampatamis"
+  },
+  {
+    "word": "paminta",
+    "topics": [
+      "food"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Maanghang na itim na butil na panimpla",
+    "shortClue": "Itim na panimpla"
+  },
+  {
+    "word": "sibuyas",
+    "topics": [
+      "food"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Gulay na nagpapaluha kapag hinihiwa",
+    "shortClue": "Pampaluha sa kusina"
+  },
+  {
+    "word": "ampalaya",
+    "topics": [
+      "food"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Mapait na gulay na kulubot ang balat",
+    "shortClue": "Mapait na gulay"
+  },
+  {
+    "word": "sitaw",
+    "topics": [
+      "food"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Mahabang luntiang bunga na niluluto bilang gulay",
+    "shortClue": "Mahabang gulay"
+  },
+  {
+    "word": "kangkong",
+    "topics": [
+      "food"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Madahong gulay na tumutubo sa tubig",
+    "shortClue": "Gulay sa tubig"
+  },
+  {
+    "word": "malunggay",
+    "topics": [
+      "food"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Maliliit na dahong masustansiya na isinasahog sa sabaw",
+    "shortClue": "Masustansiyang dahon"
+  },
+  {
+    "word": "tinola",
+    "topics": [
+      "food"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Sabaw ng manok na may luya at sayote",
+    "shortClue": "Sabaw ng manok"
+  },
+  {
+    "word": "luya",
+    "topics": [
+      "food"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Maanghang na ugat na pampainit ng lalamunan",
+    "shortClue": "Maanghang na ugat"
+  },
+  {
+    "word": "pansit",
+    "topics": [
+      "food"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Mahahabang hibla na inihahain sa kaarawan",
+    "shortClue": "Pagkain sa kaarawan"
+  },
+  {
+    "word": "sisig",
+    "topics": [
+      "food"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Tinadtad na mukha ng baboy na inihahain sa mainit na plato",
+    "shortClue": "Tinadtad na baboy"
+  },
+  {
+    "word": "tapa",
+    "topics": [
+      "food"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Pinatuyong karneng hiniwang manipis sa almusal",
+    "shortClue": "Pinatuyong karne"
+  },
+  {
+    "word": "longganisa",
+    "topics": [
+      "food"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Giniling na karneng isinilid sa bituka at prinito",
+    "shortClue": "Karne sa bituka"
+  },
+  {
+    "word": "kutsinta",
+    "topics": [
+      "food"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Kayumangging kakaning malagkit na may niyog sa ibabaw",
+    "shortClue": "Kayumangging kakanin"
+  },
+  {
+    "word": "suman",
+    "topics": [
+      "food"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Malagkit na binalot sa dahon ng saging",
+    "shortClue": "Binalot na malagkit"
+  },
+  {
+    "word": "ube",
+    "topics": [
+      "food"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Lilang halamang-ugat na ginagawang halaya",
+    "shortClue": "Lilang halaya"
+  },
+  {
+    "word": "mais",
+    "topics": [
+      "food"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Dilaw na butil sa busal na iniihaw o nilalaga",
+    "shortClue": "Butil sa busal"
+  },
+  {
+    "word": "bayabas",
+    "topics": [
+      "food"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Luntiang prutas na maraming maliliit na buto",
+    "shortClue": "Prutas na mabuto"
+  },
+  {
+    "word": "kalamansi",
+    "topics": [
+      "food"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Maliit na maasim na prutas na pampiga",
+    "shortClue": "Maasim na pampiga"
+  },
+  {
+    "word": "lansones",
+    "topics": [
+      "food"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Maliit na prutas na nasa kumpol, may dilaw na balat",
+    "shortClue": "Kumpol na prutas"
+  },
+  {
+    "word": "rambutan",
+    "topics": [
+      "food"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Pulang prutas na mabalahibo ang balat",
+    "shortClue": "Mabalahibong prutas"
+  },
+  {
+    "word": "durian",
+    "topics": [
+      "food"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Matinik na prutas na matapang ang amoy",
+    "shortClue": "Mabahong prutas"
+  },
+  {
+    "word": "suka",
+    "topics": [
+      "food"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Maasim na sawsawang gawa sa niyog o tubo",
+    "shortClue": "Maasim na sawsawan"
+  },
+  {
+    "word": "bagoong",
+    "topics": [
+      "food"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Inasin at binurong maliliit na isda o alamang",
+    "shortClue": "Binurong alamang"
+  },
+  {
+    "word": "ulam",
+    "topics": [
+      "food"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Kasama ng kanin sa hapag",
+    "shortClue": "Kasama ng kanin"
+  },
+  {
+    "word": "almusal",
+    "topics": [
+      "food"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Unang pagkain sa umaga",
+    "shortClue": "Pagkain sa umaga"
+  },
+  {
+    "word": "meryenda",
+    "topics": [
+      "food"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Magaang kainan sa hapon",
+    "shortClue": "Kainan sa hapon"
+  },
+  {
+    "word": "tsokolate",
+    "topics": [
+      "food"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Matamis at kayumangging gawa sa kakaw",
+    "shortClue": "Gawa sa kakaw"
+  },
+  {
+    "word": "keso",
+    "topics": [
+      "food"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Gatas na pinatigas at inasnan",
+    "shortClue": "Pinatigas na gatas"
+  },
+  {
+    "word": "kakaw",
+    "topics": [
+      "food"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Butong pinagmumulan ng tsokolate",
+    "shortClue": "Buto ng tsokolate"
+  },
+  {
+    "word": "pulo",
+    "topics": [
+      "geography"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Lupang napaliligiran ng tubig",
+    "shortClue": "Lupa sa dagat"
+  },
+  {
+    "word": "look",
+    "topics": [
+      "geography"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Bahagi ng dagat na pinaliligiran ng lupa sa tatlong gilid",
+    "shortClue": "Bahagi ng dagat"
+  },
+  {
+    "word": "kipot",
+    "topics": [
+      "geography"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Makitid na daanan ng tubig sa pagitan ng dalawang pulo",
+    "shortClue": "Makitid na tubig"
+  },
+  {
+    "word": "disyerto",
+    "topics": [
+      "geography"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Tuyong lupain na halos walang ulan at puro buhangin",
+    "shortClue": "Tuyong lupain"
+  },
+  {
+    "word": "kontinente",
+    "topics": [
+      "geography"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Pinakamalaking bahagi ng lupa sa mundo, gaya ng Aprika",
+    "shortClue": "Malaking lupain"
+  },
+  {
+    "word": "mapa",
+    "topics": [
+      "geography"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Larawan ng lupain at dagat sa papel",
+    "shortClue": "Larawan ng lupain"
+  },
+  {
+    "word": "bansa",
+    "topics": [
+      "geography"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Lupain na may sariling pamahalaan at mamamayan",
+    "shortClue": "Sariling lupain"
+  },
+  {
+    "word": "lungsod",
+    "topics": [
+      "geography"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Malaking bayan na maraming gusali at tao",
+    "shortClue": "Malaking bayan"
+  },
+  {
+    "word": "lalawigan",
+    "topics": [
+      "geography"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Bahagi ng bansa na may sariling gobernador",
+    "shortClue": "Probinsiya"
+  },
+  {
+    "word": "nayon",
+    "topics": [
+      "geography"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Maliit na pamayanan sa labas ng kabayanan",
+    "shortClue": "Maliit na pamayanan"
+  },
+  {
+    "word": "ekwador",
+    "topics": [
+      "geography"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Guhit na humahati sa mundo sa hilaga at timog",
+    "shortClue": "Gitnang guhit"
+  },
+  {
+    "word": "hilaga",
+    "topics": [
+      "geography"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Direksiyong itinuturo ng karayom ng kompas",
+    "shortClue": "Itaas ng mapa"
+  },
+  {
+    "word": "timog",
+    "topics": [
+      "geography"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Direksiyong katapat ng hilaga",
+    "shortClue": "Katapat ng hilaga"
+  },
+  {
+    "word": "silangan",
+    "topics": [
+      "geography"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Direksiyon kung saan sumisikat ang araw",
+    "shortClue": "Sikatan ng araw"
+  },
+  {
+    "word": "kanluran",
+    "topics": [
+      "geography"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Direksiyon kung saan lumulubog ang araw",
+    "shortClue": "Lubugan ng araw"
+  },
+  {
+    "word": "kabisera",
+    "topics": [
+      "geography"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Pangunahing lungsod ng isang bansa",
+    "shortClue": "Punong lungsod"
+  },
+  {
+    "word": "tuktok",
+    "topics": [
+      "geography"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Pinakamataas na bahagi ng bundok",
+    "shortClue": "Taluktok"
+  },
+  {
+    "word": "bangin",
+    "topics": [
+      "geography"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Matarik na gilid ng bundok na malalim ang ibaba",
+    "shortClue": "Matarik na gilid"
+  },
+  {
+    "word": "wawa",
+    "topics": [
+      "geography"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Bunganga ng ilog na sumasalubong sa dagat",
+    "shortClue": "Bukana ng ilog"
+  },
+  {
+    "word": "klima",
+    "topics": [
+      "geography"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Karaniwang lagay ng panahon sa isang lugar sa mahabang panahon",
+    "shortClue": "Lagay ng panahon"
+  },
+  {
+    "word": "golpo",
+    "topics": [
+      "geography"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Malawak na look na halos napaliligiran ng lupa",
+    "shortClue": "Malawak na look"
+  },
+  {
+    "word": "arkipelago",
+    "topics": [
+      "geography"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Pangkat ng maraming pulo, gaya ng Pilipinas",
+    "shortClue": "Pangkat ng pulo"
+  },
+  {
+    "word": "Luzon",
+    "topics": [
+      "geography"
+    ],
+    "difficulty": 1,
+    "kind": "proper",
+    "clue": "Pinakamalaking pulo sa hilaga ng Pilipinas",
+    "shortClue": "Malaking pulo"
+  },
+  {
+    "word": "Mindanao",
+    "topics": [
+      "geography"
+    ],
+    "difficulty": 1,
+    "kind": "proper",
+    "clue": "Malaking pulo sa timog ng Pilipinas",
+    "shortClue": "Pulo sa timog"
+  },
+  {
+    "word": "Kabisayaan",
+    "topics": [
+      "geography"
+    ],
+    "difficulty": 2,
+    "kind": "proper",
+    "clue": "Pangkat ng mga pulo sa gitna ng Pilipinas",
+    "shortClue": "Gitnang kapuluan"
+  },
+  {
+    "word": "Boracay",
+    "topics": [
+      "geography"
+    ],
+    "difficulty": 1,
+    "kind": "proper",
+    "clue": "Pulong tanyag sa puting buhangin, nasa Aklan",
+    "shortClue": "Puting dalampasigan"
+  },
+  {
+    "word": "Bohol",
+    "topics": [
+      "geography"
+    ],
+    "difficulty": 2,
+    "kind": "proper",
+    "clue": "Pulong lalawigan ng mga Tsokolateng Burol",
+    "shortClue": "Tsokolateng burol"
+  },
+  {
+    "word": "Iloilo",
+    "topics": [
+      "geography"
+    ],
+    "difficulty": 2,
+    "kind": "proper",
+    "clue": "Lungsod sa Panay na tanyag sa batsoy at Dinagyang",
+    "shortClue": "Lungsod sa Panay"
+  },
+  {
+    "word": "Vigan",
+    "topics": [
+      "geography"
+    ],
+    "difficulty": 2,
+    "kind": "proper",
+    "clue": "Lumang lungsod sa Ilocos Sur na may kalyeng bato",
+    "shortClue": "Lumang lungsod"
+  },
+  {
+    "word": "Taal",
+    "topics": [
+      "geography"
+    ],
+    "difficulty": 2,
+    "kind": "proper",
+    "clue": "Maliit na bulkan sa gitna ng lawa sa Batangas",
+    "shortClue": "Bulkan sa Batangas"
+  },
+  {
+    "word": "Bikol",
+    "topics": [
+      "geography"
+    ],
+    "difficulty": 2,
+    "kind": "proper",
+    "clue": "Rehiyong tanyag sa sili at gata, kinaroroonan ng Mayon",
+    "shortClue": "Rehiyon ng Mayon"
+  },
+  {
+    "word": "Laguna",
+    "topics": [
+      "geography"
+    ],
+    "difficulty": 2,
+    "kind": "proper",
+    "clue": "Lalawigan sa timog ng Maynila na may malaking lawa",
+    "shortClue": "Lalawigan ng lawa"
+  },
+  {
+    "word": "Apo",
+    "topics": [
+      "geography"
+    ],
+    "difficulty": 2,
+    "kind": "proper",
+    "clue": "Pinakamataas na bundok sa Pilipinas, nasa Mindanao",
+    "shortClue": "Bundok sa Mindanao"
+  },
+  {
+    "word": "Asya",
+    "topics": [
+      "geography"
+    ],
+    "difficulty": 1,
+    "kind": "proper",
+    "clue": "Pinakamalaking kontinente sa mundo",
+    "shortClue": "Malaking kontinente"
+  },
+  {
+    "word": "Tsina",
+    "topics": [
+      "geography"
+    ],
+    "difficulty": 1,
+    "kind": "proper",
+    "clue": "Malaking bansa sa silangang Asya na may Malaking Pader",
+    "shortClue": "May Malaking Pader"
+  },
+  {
+    "word": "Mindoro",
+    "topics": [
+      "geography"
+    ],
+    "difficulty": 2,
+    "kind": "proper",
+    "clue": "Pulo sa timog ng Luzon na tahanan ng tamaraw",
+    "shortClue": "Pulo ng tamaraw"
+  },
+  {
+    "word": "Banaue",
+    "topics": [
+      "geography"
+    ],
+    "difficulty": 2,
+    "kind": "proper",
+    "clue": "Bayan sa Ifugao na tanyag sa hagdan-hagdang palayan",
+    "shortClue": "Hagdang palayan"
+  },
+  {
+    "word": "Sulu",
+    "topics": [
+      "geography"
+    ],
+    "difficulty": 2,
+    "kind": "proper",
+    "clue": "Kapuluan sa pinakatimog ng bansa, malapit sa Borneo",
+    "shortClue": "Kapuluan sa timog"
+  },
+  {
+    "word": "baybayin",
+    "topics": [
+      "history",
+      "localCulture"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Sinaunang paraan ng pagsulat ng mga Tagalog",
+    "shortClue": "Sinaunang sulat"
+  },
+  {
+    "word": "balangay",
+    "topics": [
+      "history"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Sinaunang bangkang kahoy na sinakyan ng mga ninuno",
+    "shortClue": "Sinaunang bangka"
+  },
+  {
+    "word": "datu",
+    "topics": [
+      "history"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Pinuno ng sinaunang barangay",
+    "shortClue": "Sinaunang pinuno"
+  },
+  {
+    "word": "raha",
+    "topics": [
+      "history"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Makapangyarihang pinuno ng sinaunang kaharian sa kapuluan",
+    "shortClue": "Sinaunang hari"
+  },
+  {
+    "word": "sultan",
+    "topics": [
+      "history"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Pinuno ng kaharian sa Sulu at Mindanao noong una",
+    "shortClue": "Hari sa Sulu"
+  },
+  {
+    "word": "alipin",
+    "topics": [
+      "history"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Taong walang kalayaan na pag-aari ng iba noong unang panahon",
+    "shortClue": "Taong pag-aari"
+  },
+  {
+    "word": "timawa",
+    "topics": [
+      "history"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Malayang tao sa lipunan ng sinaunang barangay",
+    "shortClue": "Malayang tao"
+  },
+  {
+    "word": "maharlika",
+    "topics": [
+      "history"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Uring mandirigma sa sinaunang lipunang Tagalog",
+    "shortClue": "Uring mandirigma"
+  },
+  {
+    "word": "kaharian",
+    "topics": [
+      "history"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Lupaing pinamumunuan ng isang monarka",
+    "shortClue": "Lupain ng monarka"
+  },
+  {
+    "word": "reyna",
+    "topics": [
+      "history"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Asawa ng hari o babaeng monarka",
+    "shortClue": "Babaeng monarka"
+  },
+  {
+    "word": "kabalyero",
+    "topics": [
+      "history"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Mandirigmang nakasakay sa kabayo noong Gitnang Panahon",
+    "shortClue": "Nakakabayong mandirigma"
+  },
+  {
+    "word": "galyon",
+    "topics": [
+      "history"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Malaking barkong naglayag mula Maynila hanggang Acapulco",
+    "shortClue": "Barko ng kalakalan"
+  },
+  {
+    "word": "pader",
+    "topics": [
+      "history"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Mataas na harang na bato sa paligid ng lungsod",
+    "shortClue": "Batong harang"
+  },
+  {
+    "word": "moog",
+    "topics": [
+      "history"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Tore o kutang bantayan laban sa mga mananakop",
+    "shortClue": "Bantayang tore"
+  },
+  {
+    "word": "sibat",
+    "topics": [
+      "history"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Mahabang patpat na may matulis na dulo, panghuli o panlaban",
+    "shortClue": "Matulis na patpat"
+  },
+  {
+    "word": "kampilan",
+    "topics": [
+      "history"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Mahabang tabak ng mga mandirigma sa Mindanao",
+    "shortClue": "Tabak ng mandirigma"
+  },
+  {
+    "word": "kris",
+    "topics": [
+      "history"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Kulot-kulot na patalim mula sa timog",
+    "shortClue": "Kulot na patalim"
+  },
+  {
+    "word": "kasaysayan",
+    "topics": [
+      "history"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Pag-aaral ng mga nangyari sa nakaraan",
+    "shortClue": "Talaan ng nakaraan"
+  },
+  {
+    "word": "ninuno",
+    "topics": [
+      "history"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Mga taong pinagmulan ng angkan noong unang panahon",
+    "shortClue": "Pinagmulan ng angkan"
+  },
+  {
+    "word": "angkan",
+    "topics": [
+      "history"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Lahi o pamilyang nagmula sa iisang ninuno",
+    "shortClue": "Lahi"
+  },
+  {
+    "word": "salinlahi",
+    "topics": [
+      "history"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Henerasyon ng mga taong ipinanganak sa iisang panahon",
+    "shortClue": "Henerasyon"
+  },
+  {
+    "word": "tanso",
+    "topics": [
+      "history",
+      "science"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Mamula-mulang metal na ginamit sa sinaunang kasangkapan",
+    "shortClue": "Mamulang metal"
+  },
+  {
+    "word": "imbensiyon",
+    "topics": [
+      "history"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Bagong likhang makina o kasangkapan",
+    "shortClue": "Bagong likha"
+  },
+  {
+    "word": "limbagan",
+    "topics": [
+      "history"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Makina sa pag-imprenta ng aklat at pahayagan",
+    "shortClue": "Pang-imprenta"
+  },
+  {
+    "word": "gulong",
+    "topics": [
+      "history"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Bilog na umiikot sa ilalim ng kariton",
+    "shortClue": "Bilog na umiikot"
+  },
+  {
+    "word": "museo",
+    "topics": [
+      "history",
+      "arts"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Gusali kung saan nakatanghal ang mga lumang bagay",
+    "shortClue": "Tanghalan ng luma"
+  },
+  {
+    "word": "kalesa",
+    "topics": [
+      "history"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Karwaheng hinihila ng kabayo sa lumang kalye",
+    "shortClue": "Karwahe ng kabayo"
+  },
+  {
+    "word": "parola",
+    "topics": [
+      "history"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Mataas na tore na may ilaw na gabay sa barko",
+    "shortClue": "Gabay sa barko"
+  },
+  {
+    "word": "lampara",
+    "topics": [
+      "history"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Ilawang de-gas noong wala pang kuryente",
+    "shortClue": "Lumang ilaw"
+  },
+  {
+    "word": "babaylan",
+    "topics": [
+      "history",
+      "localCulture"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Sinaunang manggagamot at pinuno ng ritwal sa barangay",
+    "shortClue": "Sinaunang manggagamot"
+  },
+  {
+    "word": "kalawakan",
+    "topics": [
+      "science"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Walang hanggang espasyo na kinaroroonan ng mga bituin",
+    "shortClue": "Walang hanggang langit"
+  },
+  {
+    "word": "elektron",
+    "topics": [
+      "science"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Maliit na butil na may negatibong karga sa atomo",
+    "shortClue": "Negatibong butil"
+  },
+  {
+    "word": "enerhiya",
+    "topics": [
+      "science"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Kakayahang gumawa ng trabaho, gaya ng init o kuryente",
+    "shortClue": "Lakas na nagpapagalaw"
+  },
+  {
+    "word": "liwanag",
+    "topics": [
+      "science"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Sinag na nagpapakita ng mga bagay sa paningin",
+    "shortClue": "Sinag ng araw"
+  },
+  {
+    "word": "puwersa",
+    "topics": [
+      "science"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Tulak o hila na nagpapagalaw sa bagay",
+    "shortClue": "Tulak o hila"
+  },
+  {
+    "word": "temperatura",
+    "topics": [
+      "science"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Sukat ng init o lamig",
+    "shortClue": "Sukat ng init"
+  },
+  {
+    "word": "termometro",
+    "topics": [
+      "science"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Kasangkapang sumusukat ng init ng katawan",
+    "shortClue": "Panukat ng init"
+  },
+  {
+    "word": "mikroskopyo",
+    "topics": [
+      "science"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Kasangkapang nagpapalaki ng napakaliit na bagay",
+    "shortClue": "Pampalaki ng tingin"
+  },
+  {
+    "word": "bakuna",
+    "topics": [
+      "science"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Iniiniksiyon upang hindi magkasakit",
+    "shortClue": "Panlaban sa sakit"
+  },
+  {
+    "word": "dugo",
+    "topics": [
+      "science"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Pulang likidong dumadaloy sa ugat ng katawan",
+    "shortClue": "Pulang likido"
+  },
+  {
+    "word": "puso",
+    "topics": [
+      "science"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Organong nagbobomba ng dugo",
+    "shortClue": "Bomba ng katawan"
+  },
+  {
+    "word": "utak",
+    "topics": [
+      "science"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Organong nag-iisip sa loob ng bungo",
+    "shortClue": "Laman ng bungo"
+  },
+  {
+    "word": "baga",
+    "topics": [
+      "science"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Organong panghinga sa loob ng dibdib",
+    "shortClue": "Organ sa paghinga"
+  },
+  {
+    "word": "atay",
+    "topics": [
+      "science"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Malaking organong naglilinis ng dugo",
+    "shortClue": "Panlinis ng dugo"
+  },
+  {
+    "word": "kalansay",
+    "topics": [
+      "science"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Balangkas ng mga buto sa katawan",
+    "shortClue": "Balangkas ng buto"
+  },
+  {
+    "word": "kalamnan",
+    "topics": [
+      "science"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Laman ng katawan na nagpapagalaw ng buto",
+    "shortClue": "Masel"
+  },
+  {
+    "word": "ngipin",
+    "topics": [
+      "science"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Matigas na puting bahagi ng bibig na pangnguya",
+    "shortClue": "Pangnguya"
+  },
+  {
+    "word": "dila",
+    "topics": [
+      "science"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Malambot na bahagi ng bibig na panlasa",
+    "shortClue": "Panlasa"
+  },
+  {
+    "word": "mata",
+    "topics": [
+      "science"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Organong ginagamit sa pagtingin",
+    "shortClue": "Pantingin"
+  },
+  {
+    "word": "tainga",
+    "topics": [
+      "science"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Organong ginagamit sa pakikinig",
+    "shortClue": "Pandinig"
+  },
+  {
+    "word": "ilong",
+    "topics": [
+      "science"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Organong pang-amoy sa gitna ng mukha",
+    "shortClue": "Pang-amoy"
+  },
+  {
+    "word": "paa",
+    "topics": [
+      "science"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Bahagi ng binti na itinatapak sa lupa",
+    "shortClue": "Pantapak"
+  },
+  {
+    "word": "siko",
+    "topics": [
+      "science"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Kasukasuan sa gitna ng braso",
+    "shortClue": "Gitna ng braso"
+  },
+  {
+    "word": "bakal",
+    "topics": [
+      "science"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Matigas na metal na kinakalawang",
+    "shortClue": "Metal na kinakalawang"
+  },
+  {
+    "word": "ginto",
+    "topics": [
+      "science"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Mamahaling dilaw na metal",
+    "shortClue": "Dilaw na metal"
+  },
+  {
+    "word": "pilak",
+    "topics": [
+      "science"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Mamahaling puting metal",
+    "shortClue": "Puting metal"
+  },
+  {
+    "word": "tingga",
+    "topics": [
+      "science"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Mabigat at malambot na kulay-abong metal",
+    "shortClue": "Mabigat na metal"
+  },
+  {
+    "word": "asoge",
+    "topics": [
+      "science"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Metal na likido sa karaniwang temperatura",
+    "shortClue": "Likidong metal"
+  },
+  {
+    "word": "lente",
+    "topics": [
+      "science"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Kurbadong salamin na nagpapalaki o nagpapaliit ng tingin",
+    "shortClue": "Kurbadong salamin"
+  },
+  {
+    "word": "bitamina",
+    "topics": [
+      "science"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Sustansiyang kailangan ng katawan, gaya ng nasa prutas",
+    "shortClue": "Sustansiya"
+  },
+  {
+    "word": "sero",
+    "topics": [
+      "science"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Bilang na walang halaga",
+    "shortClue": "Walang halaga"
+  },
+  {
+    "word": "parisukat",
+    "topics": [
+      "science"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Hugis na may apat na pantay na gilid",
+    "shortClue": "Apat na gilid"
+  },
+  {
+    "word": "kometa",
+    "topics": [
+      "science"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Bituing may buntot na umiikot sa araw",
+    "shortClue": "Bituing may buntot"
+  },
+  {
+    "word": "eklipse",
+    "topics": [
+      "science"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Pagtakip ng buwan sa araw o ng anino ng mundo sa buwan",
+    "shortClue": "Pagtakip sa araw"
+  },
+  {
+    "word": "orbita",
+    "topics": [
+      "science"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Landas ng planeta sa palibot ng araw",
+    "shortClue": "Landas ng planeta"
+  },
+  {
+    "word": "hidroheno",
+    "topics": [
+      "science"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Pinakamagaang elemento, sangkap ng tubig",
+    "shortClue": "Magaang elemento"
+  },
+  {
+    "word": "singaw",
+    "topics": [
+      "science"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Tubig na naging hangin dahil sa init",
+    "shortClue": "Usok ng kumukulo"
+  },
+  {
+    "word": "asido",
+    "topics": [
+      "science"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Maasim na sangkap na nakatutunaw ng metal",
+    "shortClue": "Maasim na sangkap"
+  },
+  {
+    "word": "metro",
+    "topics": [
+      "science"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Pangunahing yunit ng haba sa agham",
+    "shortClue": "Yunit ng haba"
+  },
+  {
+    "word": "litro",
+    "topics": [
+      "science"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Yunit ng dami ng likido",
+    "shortClue": "Yunit ng likido"
+  },
+  {
+    "word": "gramo",
+    "topics": [
+      "science"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Yunit ng bigat, ikasanlibo ng kilo",
+    "shortClue": "Yunit ng bigat"
+  },
+  {
+    "word": "prisma",
+    "topics": [
+      "science"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Tatsulok na salaming naghahati sa liwanag sa mga kulay",
+    "shortClue": "Hati ng liwanag"
+  },
+  {
+    "word": "basketbol",
+    "topics": [
+      "sport"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Larong ipinapasok ang bola sa buslo",
+    "shortClue": "Bola sa buslo"
+  },
+  {
+    "word": "ahedres",
+    "topics": [
+      "sport"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Larong may hari, reyna at kabayo sa tablero",
+    "shortClue": "Laro sa tablero"
+  },
+  {
+    "word": "dama",
+    "topics": [
+      "sport"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Larong may pitsa sa tablerong itim at puti",
+    "shortClue": "Pitsa sa tablero"
+  },
+  {
+    "word": "sungka",
+    "topics": [
+      "sport",
+      "localCulture"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Katutubong larong may mga butas at sigay",
+    "shortClue": "Laro ng sigay"
+  },
+  {
+    "word": "patintero",
+    "topics": [
+      "sport",
+      "localCulture"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Larong habulan sa mga guhit na binabantayan",
+    "shortClue": "Larong may guhit"
+  },
+  {
+    "word": "habulan",
+    "topics": [
+      "sport"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Larong pambata ng paghuli sa tumatakbong kalaro",
+    "shortClue": "Larong paghuli"
+  },
+  {
+    "word": "bisikleta",
+    "topics": [
+      "sport"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Sasakyang may dalawang gulong na pinapadyakan",
+    "shortClue": "Dalawang gulong"
+  },
+  {
+    "word": "paggaod",
+    "topics": [
+      "sport"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Pagpapatakbo ng bangka gamit ang sagwan",
+    "shortClue": "Gamit ang sagwan"
+  },
+  {
+    "word": "sagwan",
+    "topics": [
+      "sport"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Patpat na may patag na dulo, pantulak ng bangka sa tubig",
+    "shortClue": "Pantulak ng bangka"
+  },
+  {
+    "word": "lambat",
+    "topics": [
+      "sport"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Tali-taling harang sa gitna ng korte ng tenis",
+    "shortClue": "Harang sa korte"
+  },
+  {
+    "word": "balibol",
+    "topics": [
+      "sport"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Larong pinapalo ng kamay ang bola sa ibabaw ng lambat",
+    "shortClue": "Palo sa ibabaw"
+  },
+  {
+    "word": "medalya",
+    "topics": [
+      "sport"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Gantimpalang ginto, pilak o tanso sa paligsahan",
+    "shortClue": "Gantimpalang ginto"
+  },
+  {
+    "word": "himnastiko",
+    "topics": [
+      "sport"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Isport ng pag-ikot, pagtalon at balanse sa sahig",
+    "shortClue": "Pag-ikot at talon"
+  },
+  {
+    "word": "iskor",
+    "topics": [
+      "sport"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Bilang ng puntos ng bawat koponan",
+    "shortClue": "Bilang ng puntos"
+  },
+  {
+    "word": "guwantes",
+    "topics": [
+      "sport"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Suot sa kamay ng boksingero",
+    "shortClue": "Suot sa kamay"
+  },
+  {
+    "word": "lubid",
+    "topics": [
+      "sport"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Makapal na tali na hinihila sa paligsahan ng lakas",
+    "shortClue": "Makapal na tali"
+  },
+  {
+    "word": "pagbubuhat",
+    "topics": [
+      "sport"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Isport ng pag-angat ng mabigat na bakal",
+    "shortClue": "Pag-angat ng bakal"
+  },
+  {
+    "word": "karate",
+    "topics": [
+      "sport"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Sining ng pakikipaglaban mula sa Hapon, gamit ang kamay at paa",
+    "shortClue": "Labanang Hapon"
+  },
+  {
+    "word": "eskrima",
+    "topics": [
+      "sport"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Katutubong sining ng pakikipaglaban gamit ang yantok",
+    "shortClue": "Labanang may yantok"
+  },
+  {
+    "word": "gimnasyo",
+    "topics": [
+      "sport"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Gusaling pinagsasanayan ng katawan at isport",
+    "shortClue": "Sanayan ng katawan"
+  },
+  {
+    "word": "ensayo",
+    "topics": [
+      "sport"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Pagsasanay bago ang tunay na laban",
+    "shortClue": "Pagsasanay"
+  },
+  {
+    "word": "holen",
+    "topics": [
+      "sport"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Maliit na bolang salamin sa larong pambata",
+    "shortClue": "Bolang salamin"
+  },
+  {
+    "word": "trumpo",
+    "topics": [
+      "sport",
+      "localCulture"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Laruang umiikot sa dulo ng pisi",
+    "shortClue": "Umiikot na laruan"
+  },
+  {
+    "word": "saranggola",
+    "topics": [
+      "sport"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Laruang pinalilipad sa hangin gamit ang pisi",
+    "shortClue": "Lipad sa hangin"
+  },
+  {
+    "word": "tambol",
+    "topics": [
+      "arts"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Instrumentong pinapalo na may balat sa ibabaw",
+    "shortClue": "Pinapalong balat"
+  },
+  {
+    "word": "plauta",
+    "topics": [
+      "arts"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Instrumentong hinihipan na may mga butas",
+    "shortClue": "Hinihipang instrumento"
+  },
+  {
+    "word": "biyolin",
+    "topics": [
+      "arts"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Instrumentong may kuwerdas na kinikiskis ng arko",
+    "shortClue": "Kinikiskis na kuwerdas"
+  },
+  {
+    "word": "kulintang",
+    "topics": [
+      "arts",
+      "localCulture"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Hanay ng maliliit na gong na tinutugtog sa Mindanao",
+    "shortClue": "Hanay ng gong"
+  },
+  {
+    "word": "bandurya",
+    "topics": [
+      "arts"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Instrumentong may kuwerdas na tinutugtog sa rondalya",
+    "shortClue": "Kuwerdas ng rondalya"
+  },
+  {
+    "word": "rondalya",
+    "topics": [
+      "arts"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Pangkat ng mga tumutugtog ng instrumentong may kuwerdas",
+    "shortClue": "Pangkat ng kuwerdas"
+  },
+  {
+    "word": "himig",
+    "topics": [
+      "arts"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Magkakasunod na nota na bumubuo ng tugtugin",
+    "shortClue": "Tono ng awit"
+  },
+  {
+    "word": "nota",
+    "topics": [
+      "arts"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Simbolo ng tunog sa musika",
+    "shortClue": "Simbolo ng tunog"
+  },
+  {
+    "word": "koro",
+    "topics": [
+      "arts"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Pangkat ng mga umaawit nang sabay",
+    "shortClue": "Pangkat ng umaawit"
+  },
+  {
+    "word": "dula",
+    "topics": [
+      "arts"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Kuwentong itinatanghal sa entablado",
+    "shortClue": "Itinatanghal na kuwento"
+  },
+  {
+    "word": "entablado",
+    "topics": [
+      "arts"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Mataas na sahig kung saan nagtatanghal",
+    "shortClue": "Plataporma ng tanghal"
+  },
+  {
+    "word": "aktor",
+    "topics": [
+      "arts"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Lalaking gumaganap sa dula o pelikula",
+    "shortClue": "Gumaganap"
+  },
+  {
+    "word": "pelikula",
+    "topics": [
+      "arts"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Gumagalaw na larawang pinapanood sa sinehan",
+    "shortClue": "Pinapanood sa sinehan"
+  },
+  {
+    "word": "tugma",
+    "topics": [
+      "arts"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Pagkakatulad ng tunog sa dulo ng taludtod",
+    "shortClue": "Tunog sa dulo"
+  },
+  {
+    "word": "taludtod",
+    "topics": [
+      "arts"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Isang linya ng tula",
+    "shortClue": "Linya ng tula"
+  },
+  {
+    "word": "saknong",
+    "topics": [
+      "arts"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Pangkat ng mga taludtod sa tula",
+    "shortClue": "Pangkat ng taludtod"
+  },
+  {
+    "word": "makata",
+    "topics": [
+      "arts",
+      "professions"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Taong sumusulat ng tula",
+    "shortClue": "Manunulat ng tula"
+  },
+  {
+    "word": "larawan",
+    "topics": [
+      "arts"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Imahe ng tao o tanawin na iginuhit o kinunan",
+    "shortClue": "Imahe"
+  },
+  {
+    "word": "kuwadro",
+    "topics": [
+      "arts"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Balangkas na kahoy na kinalalagyan ng larawan",
+    "shortClue": "Balangkas ng larawan"
+  },
+  {
+    "word": "tanawin",
+    "topics": [
+      "arts"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Larawan ng bundok, dagat o parang",
+    "shortClue": "Larawan ng kalikasan"
+  },
+  {
+    "word": "guhit",
+    "topics": [
+      "arts"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Linyang ginawa ng lapis sa papel",
+    "shortClue": "Linya"
+  },
+  {
+    "word": "obra",
+    "topics": [
+      "arts"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Akdang sining na itinuturing na dakila",
+    "shortClue": "Dakilang akda"
+  },
+  {
+    "word": "akda",
+    "topics": [
+      "arts"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Anumang sinulat ng awtor, gaya ng nobela o tula",
+    "shortClue": "Sinulat ng awtor"
+  },
+  {
+    "word": "tauhan",
+    "topics": [
+      "arts"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Karakter sa kuwento o dula",
+    "shortClue": "Karakter"
+  },
+  {
+    "word": "eksena",
+    "topics": [
+      "arts"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Bahagi ng dula o pelikula sa iisang tagpo",
+    "shortClue": "Tagpo"
+  },
+  {
+    "word": "balagtasan",
+    "topics": [
+      "arts",
+      "localCulture"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Pagtatalo sa anyong patula ng dalawang makata",
+    "shortClue": "Debate sa tula"
+  },
+  {
+    "word": "senakulo",
+    "topics": [
+      "arts",
+      "localCulture"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Dula tungkol sa pasyon na itinatanghal tuwing Mahal na Araw",
+    "shortClue": "Dula ng Kuwaresma"
+  },
+  {
+    "word": "sarswela",
+    "topics": [
+      "arts"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Dulang may awit at sayaw na mula sa Espanya",
+    "shortClue": "Dulang may awit"
+  },
+  {
+    "word": "sining",
+    "topics": [
+      "arts"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Malikhaing likha gaya ng pagpipinta at musika",
+    "shortClue": "Malikhaing likha"
+  },
+  {
+    "word": "musika",
+    "topics": [
+      "arts"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Sining ng tunog at himig",
+    "shortClue": "Sining ng tunog"
+  },
+  {
+    "word": "luwad",
+    "topics": [
+      "arts"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Malagkit na lupang hinuhubog sa paso at palayok",
+    "shortClue": "Lupang hinuhubog"
+  },
+  {
+    "word": "korido",
+    "topics": [
+      "arts"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Mahabang tulang pasalaysay na may sukat na wawaluhin",
+    "shortClue": "Tulang pasalaysay"
+  },
+  {
+    "word": "kudyapi",
+    "topics": [
+      "arts"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Katutubong gitarang may dalawang kuwerdas",
+    "shortClue": "Katutubong gitara"
+  },
+  {
+    "word": "tanaga",
+    "topics": [
+      "arts"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Maikling tulang may apat na taludtod na tig-pitong pantig",
+    "shortClue": "Tulang may apat"
+  },
+  {
+    "word": "salawikain",
+    "topics": [
+      "arts",
+      "localCulture"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Kasabihang may aral na minana sa mga ninuno",
+    "shortClue": "Kasabihang may aral"
+  },
+  {
+    "word": "bahay",
+    "topics": [
+      "home"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Gusaling tinitirhan ng pamilya",
+    "shortClue": "Tirahan"
+  },
+  {
+    "word": "tahanan",
+    "topics": [
+      "home"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Pugad ng pamilyang nagmamahalan",
+    "shortClue": "Pugad ng pamilya"
+  },
+  {
+    "word": "pinto",
+    "topics": [
+      "home"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Daanang may bisagra papasok sa silid",
+    "shortClue": "Daanang may bisagra"
+  },
+  {
+    "word": "bintana",
+    "topics": [
+      "home"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Butas sa dingding na may salamin para sa liwanag at hangin",
+    "shortClue": "Butas sa dingding"
+  },
+  {
+    "word": "sahig",
+    "topics": [
+      "home"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Tinatapakan sa loob ng bahay",
+    "shortClue": "Tinatapakan"
+  },
+  {
+    "word": "dingding",
+    "topics": [
+      "home"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Pader sa loob ng bahay na naghihiwalay sa mga silid",
+    "shortClue": "Pader ng silid"
+  },
+  {
+    "word": "hagdan",
+    "topics": [
+      "home"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Mga baitang paakyat sa itaas na palapag",
+    "shortClue": "Mga baitang"
+  },
+  {
+    "word": "banyo",
+    "topics": [
+      "home"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Silid na paliguan sa bahay",
+    "shortClue": "Paliguan"
+  },
+  {
+    "word": "mesa",
+    "topics": [
+      "home"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Muwebles na may patag na ibabaw at apat na paa",
+    "shortClue": "Patag na muwebles"
+  },
+  {
+    "word": "aparador",
+    "topics": [
+      "home"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Muwebles na lalagyan ng damit",
+    "shortClue": "Lalagyan ng damit"
+  },
+  {
+    "word": "kulambo",
+    "topics": [
+      "home"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Manipis na tabing sa kama laban sa lamok",
+    "shortClue": "Tabing sa lamok"
+  },
+  {
+    "word": "tasa",
+    "topics": [
+      "home"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Maliit na lalagyang may hawakan para sa kape",
+    "shortClue": "Lalagyan ng kape"
+  },
+  {
+    "word": "sandok",
+    "topics": [
+      "home"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Malaking kutsarang pansalok ng ulam",
+    "shortClue": "Malaking kutsara"
+  },
+  {
+    "word": "palayok",
+    "topics": [
+      "home"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Lutuang gawa sa luwad",
+    "shortClue": "Lutuang luwad"
+  },
+  {
+    "word": "sabon",
+    "topics": [
+      "home"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Panlinis na bumubula sa tubig",
+    "shortClue": "Bumubulang panlinis"
+  },
+  {
+    "word": "suklay",
+    "topics": [
+      "home"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Pang-ayos ng buhok na may mga ngipin",
+    "shortClue": "Pang-ayos ng buhok"
+  },
+  {
+    "word": "gunting",
+    "topics": [
+      "home"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Kasangkapang may dalawang talim na panggupit",
+    "shortClue": "Panggupit"
+  },
+  {
+    "word": "sinulid",
+    "topics": [
+      "home"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Manipis na hiblang panahi",
+    "shortClue": "Panahi"
+  },
+  {
+    "word": "damit",
+    "topics": [
+      "home"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Suot na tela sa katawan",
+    "shortClue": "Kasuotan"
+  },
+  {
+    "word": "sampayan",
+    "topics": [
+      "home"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Lubid na pinagbibitinan ng nilabhang damit",
+    "shortClue": "Bitinan ng damit"
+  },
+  {
+    "word": "lampaso",
+    "topics": [
+      "home"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Basahang may hawakan na pamunas ng sahig",
+    "shortClue": "Pamunas ng sahig"
+  },
+  {
+    "word": "kisame",
+    "topics": [
+      "home"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Itaas na bahagi ng silid sa ilalim ng bubong",
+    "shortClue": "Itaas ng silid"
+  },
+  {
+    "word": "pala",
+    "topics": [
+      "home"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Kasangkapang panghukay ng lupa",
+    "shortClue": "Panghukay"
+  },
+  {
+    "word": "kalaykay",
+    "topics": [
+      "home"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Kasangkapang may mga ngipin na pang-ipon ng tuyong dahon",
+    "shortClue": "Pang-ipon ng dahon"
+  },
+  {
+    "word": "itak",
+    "topics": [
+      "home"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Mahabang patalim na pantabas ng damo at kahoy",
+    "shortClue": "Pantabas"
+  },
+  {
+    "word": "pamaypay",
+    "topics": [
+      "home"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Abaniko o bagay na pinagmumulan ng hangin sa kamay",
+    "shortClue": "Abaniko"
+  },
+  {
+    "word": "bentilador",
+    "topics": [
+      "home"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Makinang umiikot na nagbibigay ng hangin",
+    "shortClue": "Makinang panghangin"
+  },
+  {
+    "word": "telebisyon",
+    "topics": [
+      "home"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Kahong de-kuryente na may palabas at balita",
+    "shortClue": "Kahong may palabas"
+  },
+  {
+    "word": "kandado",
+    "topics": [
+      "home"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Pansara ng pinto na binubuksan ng susi",
+    "shortClue": "Pansara ng pinto"
+  },
+  {
+    "word": "sopa",
+    "topics": [
+      "home"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Mahabang upuang malambot sa sala",
+    "shortClue": "Upuan sa sala"
+  },
+  {
+    "word": "sala",
+    "topics": [
+      "home"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Silid tanggapan ng bisita sa bahay",
+    "shortClue": "Tanggapan ng bisita"
+  },
+  {
+    "word": "tagpi",
+    "topics": [
+      "home"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Piraso ng telang itinatapal sa butas ng damit",
+    "shortClue": "Tapal sa damit"
+  },
+  {
+    "word": "banga",
+    "topics": [
+      "home"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Malaking palayok na imbakan ng tubig",
+    "shortClue": "Imbakan ng tubig"
+  },
+  {
+    "word": "lusong",
+    "topics": [
+      "home",
+      "localCulture"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Malalim na lalagyang kahoy na binabayuhan ng palay",
+    "shortClue": "Bayuhan ng palay"
+  },
+  {
+    "word": "kudkuran",
+    "topics": [
+      "home"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Kasangkapang pangkayod ng niyog",
+    "shortClue": "Pangkayod ng niyog"
+  },
+  {
+    "word": "dulang",
+    "topics": [
+      "home"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Mababang hapag na kinakainan habang nakaupo sa sahig",
+    "shortClue": "Mababang hapag"
+  },
+  {
+    "word": "banggerahan",
+    "topics": [
+      "home"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Lalagyang kawayan ng nahugasang pinggan sa labas ng bintana",
+    "shortClue": "Patuyuan ng pinggan"
+  },
+  {
+    "word": "batalan",
+    "topics": [
+      "home"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Bahagi ng kubo na hugasan at paliguan",
+    "shortClue": "Hugasan sa kubo"
+  },
+  {
+    "word": "silong",
+    "topics": [
+      "home"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Ilalim na bahagi ng bahay na nakaangat",
+    "shortClue": "Ilalim ng bahay"
+  },
+  {
+    "word": "bulwagan",
+    "topics": [
+      "home"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Malaking silid na pagtitipunan ng maraming tao",
+    "shortClue": "Malaking silid"
+  },
+  {
+    "word": "palikuran",
+    "topics": [
+      "home"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Silid na may inodoro",
+    "shortClue": "Kubeta"
+  },
+  {
+    "word": "doktor",
+    "topics": [
+      "professions"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Taong nanggagamot ng maysakit",
+    "shortClue": "Tagagamot"
+  },
+  {
+    "word": "nars",
+    "topics": [
+      "professions"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Katuwang ng doktor sa ospital na nag-aalaga ng pasyente",
+    "shortClue": "Alaga ng pasyente"
+  },
+  {
+    "word": "dentista",
+    "topics": [
+      "professions"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Doktor ng ngipin",
+    "shortClue": "Doktor ng ngipin"
+  },
+  {
+    "word": "magsasaka",
+    "topics": [
+      "professions"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Taong nagtatanim ng palay sa bukid",
+    "shortClue": "Nagtatanim ng palay"
+  },
+  {
+    "word": "mananahi",
+    "topics": [
+      "professions"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Taong gumagawa ng damit gamit ang makina at karayom",
+    "shortClue": "Tagagawa ng damit"
+  },
+  {
+    "word": "tsuper",
+    "topics": [
+      "professions"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Taong nagmamaneho ng dyip o sasakyan",
+    "shortClue": "Nagmamaneho"
+  },
+  {
+    "word": "konduktor",
+    "topics": [
+      "professions"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Taong naniningil ng pamasahe sa bus",
+    "shortClue": "Naniningil ng pamasahe"
+  },
+  {
+    "word": "hukom",
+    "topics": [
+      "professions"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Taong nagpapasya ng kaso sa korte",
+    "shortClue": "Nagpapasya ng kaso"
+  },
+  {
+    "word": "mekaniko",
+    "topics": [
+      "professions"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Taong nag-aayos ng makina ng sasakyan",
+    "shortClue": "Ayos ng makina"
+  },
+  {
+    "word": "elektrisista",
+    "topics": [
+      "professions"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Taong nag-aayos ng kawad at kuryente",
+    "shortClue": "Ayos ng kuryente"
+  },
+  {
+    "word": "siyentipiko",
+    "topics": [
+      "professions"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Taong nagsasaliksik sa laboratoryo",
+    "shortClue": "Mananaliksik"
+  },
+  {
+    "word": "sekretarya",
+    "topics": [
+      "professions"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Katuwang sa opisina na nag-aayos ng sulat at iskedyul",
+    "shortClue": "Katuwang sa opisina"
+  },
+  {
+    "word": "manunulat",
+    "topics": [
+      "professions"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Awtor ng mga aklat at kuwento",
+    "shortClue": "Awtor"
+  },
+  {
+    "word": "mamamahayag",
+    "topics": [
+      "professions"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Taong nag-uulat ng balita sa radyo o diyaryo",
+    "shortClue": "Tagapag-ulat"
+  },
+  {
+    "word": "litratista",
+    "topics": [
+      "professions"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Taong kumukuha ng larawan gamit ang kamera",
+    "shortClue": "Kumukuha ng larawan"
+  },
+  {
+    "word": "barbero",
+    "topics": [
+      "professions"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Taong gumugupit ng buhok ng lalaki",
+    "shortClue": "Gupit ng buhok"
+  },
+  {
+    "word": "minero",
+    "topics": [
+      "professions"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Taong naghuhukay ng ginto at karbon sa ilalim ng lupa",
+    "shortClue": "Naghuhukay ng ginto"
+  },
+  {
+    "word": "pastol",
+    "topics": [
+      "professions"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Taong nagbabantay sa kawan ng tupa o kambing",
+    "shortClue": "Bantay ng kawan"
+  },
+  {
+    "word": "manghahabi",
+    "topics": [
+      "professions"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Taong naglalala ng tela mula sa sinulid",
+    "shortClue": "Gumagawa ng tela"
+  },
+  {
+    "word": "empleyado",
+    "topics": [
+      "professions"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Taong nagtatrabaho sa isang kompanya kapalit ng sahod",
+    "shortClue": "Manggagawa"
+  },
+  {
+    "word": "guwardiya",
+    "topics": [
+      "professions"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Bantay sa pinto ng gusali o bangko",
+    "shortClue": "Bantay ng gusali"
+  },
+  {
+    "word": "parmasyutiko",
+    "topics": [
+      "professions"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Taong naghahanda at nagbebenta ng gamot sa botika",
+    "shortClue": "Tagabenta ng gamot"
+  },
+  {
+    "word": "beterinaryo",
+    "topics": [
+      "professions"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Doktor ng mga hayop",
+    "shortClue": "Doktor ng hayop"
+  },
+  {
+    "word": "dalubhasa",
+    "topics": [
+      "professions"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Taong may malalim na kaalaman sa isang larangan",
+    "shortClue": "Eksperto"
+  },
+  {
+    "word": "kutsero",
+    "topics": [
+      "professions"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Taong nagpapatakbo ng kalesa",
+    "shortClue": "Tsuper ng kalesa"
+  },
+  {
+    "word": "piskal",
+    "topics": [
+      "professions"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Abogado ng pamahalaan na nag-uusig sa korte",
+    "shortClue": "Tagausig"
+  },
+  {
+    "word": "mangangalakal",
+    "topics": [
+      "professions"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Taong namumuhay sa pagbili at pagbebenta",
+    "shortClue": "Negosyante"
+  },
+  {
+    "word": "pista",
+    "topics": [
+      "localCulture"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Masayang pagdiriwang ng patron ng bayan na may handaan",
+    "shortClue": "Pagdiriwang ng bayan"
+  },
+  {
+    "word": "mano",
+    "topics": [
+      "localCulture"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Pagdampi ng kamay ng nakatatanda sa noo bilang paggalang",
+    "shortClue": "Paggalang sa noo"
+  },
+  {
+    "word": "traysikel",
+    "topics": [
+      "localCulture"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Motorsiklong may kabit na upuan, sakayan sa bayan",
+    "shortClue": "Motorsiklong may kabit"
+  },
+  {
+    "word": "balut",
+    "topics": [
+      "food",
+      "localCulture"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Pinakuluang itlog ng itik na may sisiw sa loob",
+    "shortClue": "Itlog ng itik"
+  },
+  {
+    "word": "kubo",
+    "topics": [
+      "localCulture",
+      "home"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Maliit na bahay na gawa sa kawayan at nipa",
+    "shortClue": "Bahay na nipa"
+  },
+  {
+    "word": "nipa",
+    "topics": [
+      "localCulture"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Palmang ginagawang bubong ng kubo",
+    "shortClue": "Pambubong na palma"
+  },
+  {
+    "word": "terno",
+    "topics": [
+      "localCulture"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Baro ng babae na may manggas na parang pakpak ng paruparo",
+    "shortClue": "Baro ng babae"
+  },
+  {
+    "word": "salakot",
+    "topics": [
+      "localCulture"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Malapad na sombrerong pansaka na gawa sa kawayan o yantok",
+    "shortClue": "Sombrerong pansaka"
+  },
+  {
+    "word": "bakya",
+    "topics": [
+      "localCulture"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Sapin sa paang gawa sa kahoy",
+    "shortClue": "Sapin na kahoy"
+  },
+  {
+    "word": "Sinulog",
+    "topics": [
+      "localCulture"
+    ],
+    "difficulty": 2,
+    "kind": "proper",
+    "clue": "Pista sa Cebu na may sayaw na pasulong at paurong",
+    "shortClue": "Pista ng Cebu"
+  },
+  {
+    "word": "Panagbenga",
+    "topics": [
+      "localCulture"
+    ],
+    "difficulty": 2,
+    "kind": "proper",
+    "clue": "Pista ng mga bulaklak sa Baguio tuwing Pebrero",
+    "shortClue": "Pista ng bulaklak"
+  },
+  {
+    "word": "Pahiyas",
+    "topics": [
+      "localCulture"
+    ],
+    "difficulty": 3,
+    "kind": "proper",
+    "clue": "Pista sa Lucban na makulay sa palamuting kiping",
+    "shortClue": "Pista ng kiping"
+  },
+  {
+    "word": "Dinagyang",
+    "topics": [
+      "localCulture"
+    ],
+    "difficulty": 3,
+    "kind": "proper",
+    "clue": "Pista sa Iloilo na may sayaw ng mga mandirigma",
+    "shortClue": "Pista ng Iloilo"
+  },
+  {
+    "word": "Rizal",
+    "topics": [
+      "localCulture"
+    ],
+    "difficulty": 1,
+    "kind": "proper",
+    "clue": "Pambansang bayani at may-akda ng dalawang tanyag na nobela",
+    "shortClue": "Pambansang bayani"
+  },
+  {
+    "word": "Makiling",
+    "topics": [
+      "geography",
+      "localCulture"
+    ],
+    "difficulty": 2,
+    "kind": "proper",
+    "clue": "Bundok sa Laguna na tahanan ng isang diwata sa alamat",
+    "shortClue": "Bundok ng diwata"
+  },
+  {
+    "word": "diwata",
+    "topics": [
+      "localCulture"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Mahiwagang nilalang sa gubat sa mga alamat",
+    "shortClue": "Engkantada"
+  },
+  {
+    "word": "aswang",
+    "topics": [
+      "localCulture"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Halimaw sa kuwentong-bayan na lumilipad sa gabi",
+    "shortClue": "Halimaw sa gabi"
+  },
+  {
+    "word": "tikbalang",
+    "topics": [
+      "localCulture"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Nilalang na may ulo ng kabayo sa kuwentong-bayan",
+    "shortClue": "Ulo ng kabayo"
+  },
+  {
+    "word": "kapre",
+    "topics": [
+      "localCulture"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Higanteng naninigarilyo sa puno ng balete",
+    "shortClue": "Higante sa balete"
+  },
+  {
+    "word": "duwende",
+    "topics": [
+      "localCulture"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Maliit na nilalang na nakatira sa punso",
+    "shortClue": "Nilalang sa punso"
+  },
+  {
+    "word": "balete",
+    "topics": [
+      "localCulture",
+      "nature"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Malaking punong may nakabiting ugat, kinatatakutan sa gabi",
+    "shortClue": "Punong may ugat"
+  },
+  {
+    "word": "pandanggo",
+    "topics": [
+      "localCulture",
+      "arts"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Sayaw na may mga ilaw sa ulo at kamay",
+    "shortClue": "Sayaw ng ilaw"
+  },
+  {
+    "word": "pamamanhikan",
+    "topics": [
+      "localCulture"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Pagdalaw ng pamilya ng lalaki upang hingin ang kamay ng babae",
+    "shortClue": "Paghingi ng kamay"
+  },
+  {
+    "word": "aginaldo",
+    "topics": [
+      "localCulture"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Regalo o perang ibinibigay tuwing Pasko",
+    "shortClue": "Regalo ng Pasko"
+  },
+  {
+    "word": "pasalubong",
+    "topics": [
+      "localCulture"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Regalong dala ng taong galing sa biyahe",
+    "shortClue": "Dala galing biyahe"
+  },
+  {
+    "word": "tabo",
+    "topics": [
+      "localCulture",
+      "home"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Lalagyang may hawakan na gamit sa banyo",
+    "shortClue": "Panalok sa banyo"
+  },
+  {
+    "word": "sorbetes",
+    "topics": [
+      "localCulture",
+      "food"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Malamig at matamis na tinda sa kariton sa kalye",
+    "shortClue": "Malamig na tinda"
+  },
+  {
+    "word": "taho",
+    "topics": [
+      "localCulture",
+      "food"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Malambot na tokwa na may arnibal at sago sa umaga",
+    "shortClue": "Tokwa at arnibal"
+  },
+  {
+    "word": "pakikisama",
+    "topics": [
+      "localCulture"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Maayos na ugnayan sa grupo kahit isantabi ang sariling gusto",
+    "shortClue": "Ugnayan sa grupo"
+  },
+  {
+    "word": "tampo",
+    "topics": [
+      "localCulture",
+      "general"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Pagdaramdam na ipinapakita sa pananahimik",
+    "shortClue": "Pagdaramdam"
+  },
+  {
+    "word": "agimat",
+    "topics": [
+      "localCulture"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Bagay na pinaniniwalaang nagbibigay ng lakas at proteksiyon",
+    "shortClue": "Anting-anting"
+  },
+  {
+    "word": "punso",
+    "topics": [
+      "localCulture",
+      "nature"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Bunton ng lupang tirahan ng anay at ng duwende sa kuwento",
+    "shortClue": "Tirahan ng anay"
+  }
+]
