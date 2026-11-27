@@ -1,0 +1,5002 @@
+[
+  {
+    "word": "よろこび",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "うれしくて胸が弾む気持ち",
+    "shortClue": "弾む気持ち"
+  },
+  {
+    "word": "かなしみ",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "涙がこぼれるほど重い気持ち",
+    "shortClue": "重い気持ち"
+  },
+  {
+    "word": "いかり",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "腹が立って煮え立つ感情",
+    "shortClue": "煮え立つ感情"
+  },
+  {
+    "word": "おどろき",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "思いがけず目を見張る気持ち",
+    "shortClue": "目を見張る気持ち"
+  },
+  {
+    "word": "あんしん",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "気がかりが消えてほっとすること",
+    "shortClue": "ほっとすること"
+  },
+  {
+    "word": "しんぱい",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "悪いことが起きないかと気にかかること",
+    "shortClue": "気にかかること"
+  },
+  {
+    "word": "ゆうき",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "怖くても前へ進む強さ",
+    "shortClue": "前へ進む強さ"
+  },
+  {
+    "word": "しんらい",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "この人なら任せられると思う気持ち",
+    "shortClue": "任せる気持ち"
+  },
+  {
+    "word": "かんしゃ",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "ありがたいと思う気持ち",
+    "shortClue": "ありがたい気持ち"
+  },
+  {
+    "word": "ゆめ",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "眠っている間に見る光景",
+    "shortClue": "眠りの光景"
+  },
+  {
+    "word": "きおく",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "覚えておく頭の働き",
+    "shortClue": "覚える働き"
+  },
+  {
+    "word": "やくそく",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "守ると言い交わした取り決め",
+    "shortClue": "言い交わすこと"
+  },
+  {
+    "word": "うそ",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "事実と違う言葉",
+    "shortClue": "事実と違う話"
+  },
+  {
+    "word": "せいこう",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "ねらいどおり良い結果を得ること",
+    "shortClue": "ねらい通りの結果"
+  },
+  {
+    "word": "どりょく",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "目標に向けて地道に励むこと",
+    "shortClue": "地道に励むこと"
+  },
+  {
+    "word": "けいけん",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "実際にやって身に付いたこと",
+    "shortClue": "身に付いたこと"
+  },
+  {
+    "word": "ひらめき",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "ふと浮かぶ名案",
+    "shortClue": "ふと浮かぶ名案"
+  },
+  {
+    "word": "なやみ",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "答えが出ず気を重くする事柄",
+    "shortClue": "気を重くする事"
+  },
+  {
+    "word": "せいかく",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "その人らしい考え方や振る舞いの傾向",
+    "shortClue": "考え方の傾向"
+  },
+  {
+    "word": "じんせい",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "この世に出てから終わりまでの歩み",
+    "shortClue": "この世の歩み"
+  },
+  {
+    "word": "へいわ",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "穏やかで安らかな世の中",
+    "shortClue": "穏やかな世の中"
+  },
+  {
+    "word": "せきにん",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "引き受けて果たすべき務め",
+    "shortClue": "果たすべき務め"
+  },
+  {
+    "word": "じょうしき",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "誰もが知っているはずの決まり事",
+    "shortClue": "誰もが知る決まり"
+  },
+  {
+    "word": "ふしぎ",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "どうしてか分からず首をかしげること",
+    "shortClue": "首をかしげる事"
+  },
+  {
+    "word": "きのう",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "眠る前に過ぎた一昼夜",
+    "shortClue": "過ぎた一昼夜"
+  },
+  {
+    "word": "あした",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "眠ったあとにやって来る次の一昼夜",
+    "shortClue": "次の一昼夜"
+  },
+  {
+    "word": "きょう",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "いま話している時が属する一昼夜",
+    "shortClue": "いまの一昼夜"
+  },
+  {
+    "word": "まいにち",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "朝を迎えるたびの繰り返し",
+    "shortClue": "朝ごとの繰り返し"
+  },
+  {
+    "word": "しゅうまつ",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "土曜と日曜を含む休みの頃",
+    "shortClue": "休みの頃"
+  },
+  {
+    "word": "ゆうがた",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "日が傾き空が赤らむ頃",
+    "shortClue": "空が赤らむ頃"
+  },
+  {
+    "word": "はんぶん",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "二つに等しく割った片方",
+    "shortClue": "二つの片方"
+  },
+  {
+    "word": "じゅぎょう",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "先生が教室で教えること",
+    "shortClue": "教室での勉強"
+  },
+  {
+    "word": "しゅくだい",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "家でやるよう言われる勉強",
+    "shortClue": "家でやる勉強"
+  },
+  {
+    "word": "こくばん",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "チョークで文字を書く深緑の面",
+    "shortClue": "チョークで書く面"
+  },
+  {
+    "word": "がっこう",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "児童や生徒が通って授業を受ける所",
+    "shortClue": "授業を受ける所"
+  },
+  {
+    "word": "あいさつ",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "会ったときに交わす決まり文句",
+    "shortClue": "会った時の言葉"
+  },
+  {
+    "word": "おもてなし",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "心を込めて客を迎える心配り",
+    "shortClue": "客を迎える心配り"
+  },
+  {
+    "word": "ぐうぜん",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "たまたまそうなること",
+    "shortClue": "たまたまの出来事"
+  },
+  {
+    "word": "きせき",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "起こるはずのない驚くべき出来事",
+    "shortClue": "ありえない出来事"
+  },
+  {
+    "word": "しあわせ",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "満ち足りて心が温かい状態",
+    "shortClue": "満ち足りた状態"
+  },
+  {
+    "word": "なぞ",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "解けそうで解けない不思議な問い",
+    "shortClue": "不思議な問い"
+  },
+  {
+    "word": "ふいうち",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "油断を突いて仕掛けること",
+    "shortClue": "油断を突く攻め"
+  },
+  {
+    "word": "けっか",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "原因を受けて現れる成り行き",
+    "shortClue": "現れた成り行き"
+  },
+  {
+    "word": "げんいん",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "ある出来事を引き起こしたもと",
+    "shortClue": "引き起こすもと"
+  },
+  {
+    "word": "もくてき",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "めざして行うねらい",
+    "shortClue": "めざすねらい"
+  },
+  {
+    "word": "ほうほう",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "物事を行うための手立て",
+    "shortClue": "行う手立て"
+  },
+  {
+    "word": "けっしん",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "迷いを断ち進むと定めること",
+    "shortClue": "迷いを断つ事"
+  },
+  {
+    "word": "おかげ",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "ある人や物の助けによる良い結果",
+    "shortClue": "助けの恩恵"
+  },
+  {
+    "word": "しつもん",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "分からない点を尋ねること",
+    "shortClue": "尋ねること"
+  },
+  {
+    "word": "いけん",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "自分の考えとして述べる主張",
+    "shortClue": "述べる主張"
+  },
+  {
+    "word": "ぎもん",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "どうしてだろうと思う点",
+    "shortClue": "どうしてと思う点"
+  },
+  {
+    "word": "おしゃべり",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "気楽に交わす雑談",
+    "shortClue": "気楽な雑談"
+  },
+  {
+    "word": "ねぼう",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "起きる時刻を過ぎても眠ること",
+    "shortClue": "遅い目覚め"
+  },
+  {
+    "word": "しごと",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "働いて報酬を得る務め",
+    "shortClue": "働いて得る務め"
+  },
+  {
+    "word": "りょこう",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "家を離れ見知らぬ土地を訪ねること",
+    "shortClue": "土地を訪ねる"
+  },
+  {
+    "word": "さぷらいず",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "知らせずに用意する驚きの贈り物",
+    "shortClue": "驚きの贈り物"
+  },
+  {
+    "word": "ちゃんす",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "巡ってきた絶好の機会",
+    "shortClue": "絶好の機会"
+  },
+  {
+    "word": "ぷれぜんと",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "誕生日などに贈る品",
+    "shortClue": "贈り物"
+  },
+  {
+    "word": "るーる",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "皆が守る決まり",
+    "shortClue": "皆が守る決まり"
+  },
+  {
+    "word": "まなー",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "人前で守る礼儀作法",
+    "shortClue": "礼儀作法"
+  },
+  {
+    "word": "あどばいす",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "経験者が授ける助言",
+    "shortClue": "経験者の助言"
+  },
+  {
+    "word": "あいであ",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "ふと浮かんだ新しい思いつき",
+    "shortClue": "新しい思いつき"
+  },
+  {
+    "word": "ぐるーぷ",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "同じ目的で集まった人の集まり",
+    "shortClue": "人の集まり"
+  },
+  {
+    "word": "ちーむわーく",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "仲間が力を合わせる動き",
+    "shortClue": "力を合わせる動き"
+  },
+  {
+    "word": "こみゅにけーしょん",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "言葉や身振りで思いを伝え合うこと",
+    "shortClue": "伝え合うこと"
+  },
+  {
+    "word": "じこしょうかい",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "初対面で名前や趣味などを述べること",
+    "shortClue": "初対面での挨拶"
+  },
+  {
+    "word": "ふくしゅう",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "授かった知識をもう一度確かめること",
+    "shortClue": "もう一度確かめる"
+  },
+  {
+    "word": "よしゅう",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "前もって授業の内容に目を通すこと",
+    "shortClue": "前もって読んでおく"
+  },
+  {
+    "word": "いみ",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "言葉が表す内容",
+    "shortClue": "言葉の内容"
+  },
+  {
+    "word": "こころ",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "感情や思いが生まれるところ",
+    "shortClue": "思いの宿る所"
+  },
+  {
+    "word": "からだ",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "頭と胴と手足をそなえたもの",
+    "shortClue": "頭と胴と手足"
+  },
+  {
+    "word": "いのち",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "生き物が生きている源",
+    "shortClue": "生き物の源"
+  },
+  {
+    "word": "はなし",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "人に語って聞かせる内容",
+    "shortClue": "語り聞かせる内容"
+  },
+  {
+    "word": "こえ",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "喉から出る音",
+    "shortClue": "喉から出る音"
+  },
+  {
+    "word": "わらい",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "おかしくて顔がほころぶこと",
+    "shortClue": "顔がほころぶ事"
+  },
+  {
+    "word": "なみだ",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "悲しいときに目からこぼれるもの",
+    "shortClue": "目からこぼれる水"
+  },
+  {
+    "word": "ためいき",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "疲れや失望で深く吐き出す呼吸",
+    "shortClue": "深く吐く呼吸"
+  },
+  {
+    "word": "あくび",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "眠いときに大きく口が開く動作",
+    "shortClue": "口が大きく開く"
+  },
+  {
+    "word": "くしゃみ",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "鼻がむずむずして突然出る息",
+    "shortClue": "突然出る息"
+  },
+  {
+    "word": "しゃっくり",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "横隔膜のけいれんで出る音",
+    "shortClue": "ひくひくする音"
+  },
+  {
+    "word": "めいわく",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "他人に煩わしい思いをさせること",
+    "shortClue": "煩わしい事"
+  },
+  {
+    "word": "かんちがい",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "思い込みで取り誤ること",
+    "shortClue": "思い込みの誤り"
+  },
+  {
+    "word": "ひま",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "することがなく空いている時間",
+    "shortClue": "空いた時間"
+  },
+  {
+    "word": "やくわり",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "集団の中で受け持つ務め",
+    "shortClue": "受け持つ務め"
+  },
+  {
+    "word": "ちゅうい",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "気を付けて見張ること",
+    "shortClue": "気を付ける事"
+  },
+  {
+    "word": "そうだん",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "悩みなどを人に打ち明けて意見を求めること",
+    "shortClue": "意見を求める"
+  },
+  {
+    "word": "おもいで",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "過ぎ去った日々の懐かしい記憶",
+    "shortClue": "懐かしい記憶"
+  },
+  {
+    "word": "たからもの",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "取っておきたい貴重な品",
+    "shortClue": "貴重な品"
+  },
+  {
+    "word": "あんぜん",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "危険や心配のない状態",
+    "shortClue": "危険のない状態"
+  },
+  {
+    "word": "きけん",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "傷や損をするおそれのある状態",
+    "shortClue": "害を受けるおそれ"
+  },
+  {
+    "word": "いわい",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "めでたい出来事を喜び合うこと",
+    "shortClue": "めでたい事の宴"
+  },
+  {
+    "word": "れんしゅう",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "上達のために繰り返しやること",
+    "shortClue": "上達の繰り返し"
+  },
+  {
+    "word": "けんか",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "気持ちがぶつかって言い合うこと",
+    "shortClue": "言い合うこと"
+  },
+  {
+    "word": "なかなおり",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "いさかいのあとで元の間柄に戻ること",
+    "shortClue": "元の間柄に戻る"
+  },
+  {
+    "word": "しゅうかん",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "毎日の決まりのように繰り返す行い",
+    "shortClue": "繰り返す行い"
+  },
+  {
+    "word": "てつだい",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "人の仕事に力を貸すこと",
+    "shortClue": "力を貸す事"
+  },
+  {
+    "word": "わすれもの",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "うっかり置き去りにしてきた品",
+    "shortClue": "置き去りの品"
+  },
+  {
+    "word": "さがしもの",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "見当たらなくて捜している品",
+    "shortClue": "捜している品"
+  },
+  {
+    "word": "ひとりごと",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "相手もいないのにこぼす話",
+    "shortClue": "相手のいない話"
+  },
+  {
+    "word": "いびき",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "眠っている間にたてる大きな音",
+    "shortClue": "眠りながらの音"
+  },
+  {
+    "word": "もみじ",
+    "topics": [
+      "nature"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "秋に赤く染まるかえでの仲間",
+    "shortClue": "秋の赤い彩り"
+  },
+  {
+    "word": "どんぐり",
+    "topics": [
+      "nature"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "ならや樫の木になる固い実",
+    "shortClue": "樫の木の実"
+  },
+  {
+    "word": "きのこ",
+    "topics": [
+      "nature"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "森の湿った地面に生える傘形の菌",
+    "shortClue": "傘形の菌"
+  },
+  {
+    "word": "たけのこ",
+    "topics": [
+      "nature"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "春先に地面から顔を出す、煮物にする若芽",
+    "shortClue": "春先の若芽"
+  },
+  {
+    "word": "つらら",
+    "topics": [
+      "nature"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "軒先から垂れる先の尖った凍りもの",
+    "shortClue": "軒先の凍りもの"
+  },
+  {
+    "word": "にじ",
+    "topics": [
+      "nature"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "雨上がりの空にかかる七色の弧",
+    "shortClue": "七色の弧"
+  },
+  {
+    "word": "かみなり",
+    "topics": [
+      "nature"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "稲光のあとに鳴り響く大きな音",
+    "shortClue": "稲光の後の音"
+  },
+  {
+    "word": "たいふう",
+    "topics": [
+      "nature"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "夏から秋に近づく大きな渦巻き",
+    "shortClue": "大きな渦巻き"
+  },
+  {
+    "word": "つゆ",
+    "topics": [
+      "nature"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "初夏に長く続くじめじめした季節",
+    "shortClue": "初夏のじめじめ期"
+  },
+  {
+    "word": "こもれび",
+    "topics": [
+      "nature"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "葉の隙間から地面に落ちる光",
+    "shortClue": "葉の間の光"
+  },
+  {
+    "word": "せせらぎ",
+    "topics": [
+      "nature"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "浅い小川がさらさら流れる音",
+    "shortClue": "小川の流れる音"
+  },
+  {
+    "word": "ふぶき",
+    "topics": [
+      "nature"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "強い風にあおられて視界を奪う白い嵐",
+    "shortClue": "視界を奪う嵐"
+  },
+  {
+    "word": "ひまわり",
+    "topics": [
+      "nature"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "夏に咲く背の高い黄色い大輪",
+    "shortClue": "夏の黄色い大輪"
+  },
+  {
+    "word": "あさがお",
+    "topics": [
+      "nature"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "つるを伸ばして夏の早い時刻に開くらっぱ形の花",
+    "shortClue": "らっぱ形の花"
+  },
+  {
+    "word": "たんぽぽ",
+    "topics": [
+      "nature"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "綿毛を風に飛ばす黄色い野の花",
+    "shortClue": "綿毛の野の花"
+  },
+  {
+    "word": "いずみ",
+    "topics": [
+      "nature"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "地面から湧き出る清らかな水",
+    "shortClue": "湧き出る清い水"
+  },
+  {
+    "word": "ゆうやけ",
+    "topics": [
+      "nature"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "日の入りに西の空が赤く染まること",
+    "shortClue": "西の空の赤さ"
+  },
+  {
+    "word": "さんごしょう",
+    "topics": [
+      "nature"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "暖かい海で小さな生き物が築く岩場",
+    "shortClue": "海に築かれた岩場"
+  },
+  {
+    "word": "はるいちばん",
+    "topics": [
+      "nature"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "二月から三月ごろ、その年に初めて吹く暖かく強い南風",
+    "shortClue": "初めて吹く南風"
+  },
+  {
+    "word": "しもばしら",
+    "topics": [
+      "nature"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "冬の朝に土を持ち上げる細い氷の結晶",
+    "shortClue": "土を持ち上げる結晶"
+  },
+  {
+    "word": "ひなたぼっこ",
+    "topics": [
+      "nature"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "冬の陽だまりでのんびり暖まること",
+    "shortClue": "のんびり暖まる事"
+  },
+  {
+    "word": "みずたまり",
+    "topics": [
+      "nature"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "雨のあと道にできる小さな池",
+    "shortClue": "雨上がりの小池"
+  },
+  {
+    "word": "さくらふぶき",
+    "topics": [
+      "nature"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "風に舞い散る無数の薄紅の花びら",
+    "shortClue": "舞い散る薄紅"
+  },
+  {
+    "word": "ほしぞら",
+    "topics": [
+      "nature"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "無数の光の粒が散る夜の頭上",
+    "shortClue": "光の粒が散る夜"
+  },
+  {
+    "word": "きりさめ",
+    "topics": [
+      "nature"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "音もなく降る細かな水の粒",
+    "shortClue": "細かな水の粒"
+  },
+  {
+    "word": "さざなみ",
+    "topics": [
+      "nature"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "風が水面に立てる小さな揺れ",
+    "shortClue": "小さな揺れ"
+  },
+  {
+    "word": "かざはな",
+    "topics": [
+      "nature"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "晴れた空にちらつく雪の欠片",
+    "shortClue": "ちらつく雪片"
+  },
+  {
+    "word": "あさつゆ",
+    "topics": [
+      "nature"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "早い時刻に葉の上で光る水玉",
+    "shortClue": "葉の上の水玉"
+  },
+  {
+    "word": "やまびこ",
+    "topics": [
+      "nature"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "谷に向かって叫ぶと返ってくる声",
+    "shortClue": "返ってくる声"
+  },
+  {
+    "word": "ひだまり",
+    "topics": [
+      "nature"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "冬の窓辺に集まる暖かな光",
+    "shortClue": "暖かな光"
+  },
+  {
+    "word": "すずめ",
+    "topics": [
+      "animals"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "電線にとまる茶色の小鳥",
+    "shortClue": "茶色の小鳥"
+  },
+  {
+    "word": "ふくろう",
+    "topics": [
+      "animals"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "夜に静かに飛ぶ丸い顔の鳥",
+    "shortClue": "夜に飛ぶ丸い顔"
+  },
+  {
+    "word": "うぐいす",
+    "topics": [
+      "animals"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "春を告げて鳴く茶緑の小鳥",
+    "shortClue": "春を告げる小鳥"
+  },
+  {
+    "word": "ちょうちょう",
+    "topics": [
+      "animals"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "羽をひらひらさせて花を訪ねる虫",
+    "shortClue": "ひらひら舞う虫"
+  },
+  {
+    "word": "かぶとむし",
+    "topics": [
+      "animals"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "立派な角を持つ夏の人気者",
+    "shortClue": "立派な角の人気者"
+  },
+  {
+    "word": "ほたる",
+    "topics": [
+      "animals"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "夏の夜に水辺で光る虫",
+    "shortClue": "夜に光る虫"
+  },
+  {
+    "word": "てんとうむし",
+    "topics": [
+      "animals"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "赤い背に黒い点を散らした小さな丸い生き物",
+    "shortClue": "赤い背の丸い生き物"
+  },
+  {
+    "word": "かたつむり",
+    "topics": [
+      "animals"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "背に渦巻き殻を負って雨の日に這う生き物",
+    "shortClue": "渦巻き殻の生き物"
+  },
+  {
+    "word": "ぺんぎん",
+    "topics": [
+      "animals"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "飛べず泳ぎが得意な氷原の鳥",
+    "shortClue": "泳ぎが得意な鳥"
+  },
+  {
+    "word": "こあら",
+    "topics": [
+      "animals"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "ユーカリの葉を食べて木にしがみつく動物",
+    "shortClue": "ユーカリを食べる獣"
+  },
+  {
+    "word": "こうのとり",
+    "topics": [
+      "animals"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "赤ちゃんを運ぶと言われる大きな白い鳥",
+    "shortClue": "赤ちゃん運びの鳥"
+  },
+  {
+    "word": "くじゃく",
+    "topics": [
+      "animals"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "扇のように美しい尾羽を広げる鳥",
+    "shortClue": "扇の尾羽の鳥"
+  },
+  {
+    "word": "かんがるー",
+    "topics": [
+      "animals"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "お腹の袋で子を育てて跳ねる動物",
+    "shortClue": "袋で子を育てる"
+  },
+  {
+    "word": "おらんうーたん",
+    "topics": [
+      "animals"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "ボルネオの森に暮らす赤茶色の類人猿",
+    "shortClue": "赤茶色の類人猿"
+  },
+  {
+    "word": "はりねずみ",
+    "topics": [
+      "animals"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "とげのような毛で身を守る小動物",
+    "shortClue": "とげの毛の小動物"
+  },
+  {
+    "word": "いそぎんちゃく",
+    "topics": [
+      "animals"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "岩に張りつき触手を揺らす海の生き物",
+    "shortClue": "触手を揺らす生物"
+  },
+  {
+    "word": "たつのおとしご",
+    "topics": [
+      "animals"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "馬に似た顔で直立して泳ぐ小さな魚",
+    "shortClue": "直立して泳ぐ魚"
+  },
+  {
+    "word": "あんこう",
+    "topics": [
+      "animals"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "提灯のような突起で獲物を誘う深海魚",
+    "shortClue": "深海の提灯魚"
+  },
+  {
+    "word": "すぱげってぃー",
+    "topics": [
+      "food"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "細長い麺をフォークに巻いて食べる料理",
+    "shortClue": "フォークで巻く麺"
+  },
+  {
+    "word": "はんばーぐ",
+    "topics": [
+      "food"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "ひき肉を丸めて焼いた料理",
+    "shortClue": "ひき肉を丸めた料理"
+  },
+  {
+    "word": "おむらいす",
+    "topics": [
+      "food"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "卵でくるんだケチャップ味のご飯",
+    "shortClue": "卵でくるんだご飯"
+  },
+  {
+    "word": "ちょこれーと",
+    "topics": [
+      "food"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "カカオから作る甘く茶色い菓子",
+    "shortClue": "カカオの甘い菓子"
+  },
+  {
+    "word": "あいすくりーむ",
+    "topics": [
+      "food"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "夏に食べる冷たくて甘い乳製品の菓子",
+    "shortClue": "冷たい甘い菓子"
+  },
+  {
+    "word": "さんどいっち",
+    "topics": [
+      "food"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "二枚の食パンに具を挟んだ軽食",
+    "shortClue": "具を挟んだ軽食"
+  },
+  {
+    "word": "ほっとけーき",
+    "topics": [
+      "food"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "フライパンで丸く焼いてバターとシロップをのせる菓子",
+    "shortClue": "丸く焼いた菓子"
+  },
+  {
+    "word": "どーなつ",
+    "topics": [
+      "food"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "真ん中に穴のある揚げ菓子",
+    "shortClue": "穴のある揚げ菓子"
+  },
+  {
+    "word": "おにぎり",
+    "topics": [
+      "food"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "三角に整えて海苔を巻いたご飯",
+    "shortClue": "海苔を巻いたご飯"
+  },
+  {
+    "word": "たこやき",
+    "topics": [
+      "food"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "鉄板の丸いくぼみで作る粉の食べ物",
+    "shortClue": "丸い粉の食べ物"
+  },
+  {
+    "word": "おこのみやき",
+    "topics": [
+      "food"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "キャベツ入りの生地を鉄板で作る粉もの",
+    "shortClue": "鉄板の粉もの"
+  },
+  {
+    "word": "みそしる",
+    "topics": [
+      "food"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "朝食に出る大豆の発酵調味料を溶いた椀物",
+    "shortClue": "大豆調味料の椀物"
+  },
+  {
+    "word": "しょうゆ",
+    "topics": [
+      "food"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "大豆と麦から作る黒い調味料",
+    "shortClue": "黒い調味料"
+  },
+  {
+    "word": "ほうれんそう",
+    "topics": [
+      "food"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "鉄分が多いと言われる緑の葉野菜",
+    "shortClue": "鉄分の多い野菜"
+  },
+  {
+    "word": "さつまいも",
+    "topics": [
+      "food"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "焼くとほくほく甘くなる赤紫の根",
+    "shortClue": "焼くと甘い赤紫"
+  },
+  {
+    "word": "じゃがいも",
+    "topics": [
+      "food"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "ポテトチップスの原料になる土の中の塊",
+    "shortClue": "ポテトの原料"
+  },
+  {
+    "word": "こんにゃく",
+    "topics": [
+      "food"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "芋から作る弾力のあるカロリーの低い食品",
+    "shortClue": "弾力のある食品"
+  },
+  {
+    "word": "ちらしずし",
+    "topics": [
+      "food"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "酢飯に具を散らした祝いの料理",
+    "shortClue": "具を散らした祝い飯"
+  },
+  {
+    "word": "へいや",
+    "topics": [
+      "geography"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "起伏が少なく果てしなく広がる低地",
+    "shortClue": "起伏の少ない低地"
+  },
+  {
+    "word": "ぼんち",
+    "topics": [
+      "geography"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "周りを高い峰に囲まれた鍋底のようなくぼみ",
+    "shortClue": "峰に囲まれた窪み"
+  },
+  {
+    "word": "さんみゃく",
+    "topics": [
+      "geography"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "高い峰が長く連なる地形",
+    "shortClue": "長く連なる峰"
+  },
+  {
+    "word": "はんとう",
+    "topics": [
+      "geography"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "三方を海に囲まれ突き出た陸地",
+    "shortClue": "海に突き出た陸地"
+  },
+  {
+    "word": "みさき",
+    "topics": [
+      "geography"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "海へ細く突き出た陸の先",
+    "shortClue": "突き出た陸の先"
+  },
+  {
+    "word": "しま",
+    "topics": [
+      "geography"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "四方を水に囲まれた小さな陸地",
+    "shortClue": "水に囲まれた陸地"
+  },
+  {
+    "word": "たに",
+    "topics": [
+      "geography"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "山と山に挟まれた低い所",
+    "shortClue": "山に挟まれた低地"
+  },
+  {
+    "word": "こうげん",
+    "topics": [
+      "geography"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "夏でも涼しい山あいの広々とした台地",
+    "shortClue": "涼しい広い台地"
+  },
+  {
+    "word": "かざん",
+    "topics": [
+      "geography"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "地下の熱い岩を噴き上げる峰",
+    "shortClue": "煙を上げる峰"
+  },
+  {
+    "word": "かいがん",
+    "topics": [
+      "geography"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "波が打ち寄せる陸の縁",
+    "shortClue": "波が寄せる陸の縁"
+  },
+  {
+    "word": "かいきょう",
+    "topics": [
+      "geography"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "二つの陸地に挟まれた狭い水路",
+    "shortClue": "陸に挟まれた水路"
+  },
+  {
+    "word": "しょとう",
+    "topics": [
+      "geography"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "小さな陸地が点々と連なる群れ",
+    "shortClue": "点々と並ぶ陸地"
+  },
+  {
+    "word": "ちず",
+    "topics": [
+      "geography"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "町や道を縮めて描いた紙",
+    "shortClue": "町や道を描く紙"
+  },
+  {
+    "word": "ちきゅう",
+    "topics": [
+      "geography"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "私たちが暮らす青い惑星",
+    "shortClue": "青い惑星"
+  },
+  {
+    "word": "かんたい",
+    "topics": [
+      "geography"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "凍てつく北や南の果ての地域",
+    "shortClue": "凍てつく果ての地"
+  },
+  {
+    "word": "さばく",
+    "topics": [
+      "geography"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "雨がほとんど降らない乾いた大地",
+    "shortClue": "雨の少ない大地"
+  },
+  {
+    "word": "みなとまち",
+    "topics": [
+      "geography"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "船が出入りする波止場のある街",
+    "shortClue": "波止場のある街"
+  },
+  {
+    "word": "じょうかまち",
+    "topics": [
+      "geography"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "殿様の館を中心に発展した街",
+    "shortClue": "殿様の館の街"
+  },
+  {
+    "word": "ちへいせん",
+    "topics": [
+      "geography"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "陸と空が出会って見える遠い境目",
+    "shortClue": "空との境目"
+  },
+  {
+    "word": "すいへいせん",
+    "topics": [
+      "geography"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "海原の果てで空と接する所",
+    "shortClue": "海原の果て"
+  },
+  {
+    "word": "せとないかい",
+    "topics": [
+      "geography"
+    ],
+    "difficulty": 2,
+    "kind": "proper",
+    "clue": "本州と四国の間に小島が点々と浮かぶ穏やかな水域",
+    "shortClue": "小島の多い水域"
+  },
+  {
+    "word": "にほんかい",
+    "topics": [
+      "geography"
+    ],
+    "difficulty": 2,
+    "kind": "proper",
+    "clue": "大陸と列島に挟まれ冬に荒れる水域",
+    "shortClue": "冬に荒れる水域"
+  },
+  {
+    "word": "たいへいよう",
+    "topics": [
+      "geography"
+    ],
+    "difficulty": 2,
+    "kind": "proper",
+    "clue": "地球の三分の一を占めるほど広い水域",
+    "shortClue": "地球最大の水域"
+  },
+  {
+    "word": "しこく",
+    "topics": [
+      "geography"
+    ],
+    "difficulty": 2,
+    "kind": "proper",
+    "clue": "八十八か所の巡礼路がある瀬戸内海の南の地方",
+    "shortClue": "巡礼路のある地方"
+  },
+  {
+    "word": "きゅうしゅう",
+    "topics": [
+      "geography"
+    ],
+    "difficulty": 2,
+    "kind": "proper",
+    "clue": "列島の南西にある温泉の多い大きな島",
+    "shortClue": "温泉の多い島"
+  },
+  {
+    "word": "ふくおか",
+    "topics": [
+      "geography"
+    ],
+    "difficulty": 2,
+    "kind": "proper",
+    "clue": "九州北部にある博多で知られる県庁の街",
+    "shortClue": "博多のある県庁の街"
+  },
+  {
+    "word": "ながさき",
+    "topics": [
+      "geography"
+    ],
+    "difficulty": 2,
+    "kind": "proper",
+    "clue": "坂が多い九州西部の港町",
+    "shortClue": "坂の多い港町"
+  },
+  {
+    "word": "かなざわ",
+    "topics": [
+      "geography"
+    ],
+    "difficulty": 3,
+    "kind": "proper",
+    "clue": "兼六園で知られる北陸の城下町",
+    "shortClue": "兼六園のある街"
+  },
+  {
+    "word": "せんだい",
+    "topics": [
+      "geography"
+    ],
+    "difficulty": 2,
+    "kind": "proper",
+    "clue": "杜の都と呼ばれる東北地方の中心都市",
+    "shortClue": "杜の都"
+  },
+  {
+    "word": "よこはま",
+    "topics": [
+      "geography"
+    ],
+    "difficulty": 2,
+    "kind": "proper",
+    "clue": "神奈川県の県庁がある国際色豊かな港町",
+    "shortClue": "神奈川の港町"
+  },
+  {
+    "word": "ひめじ",
+    "topics": [
+      "geography"
+    ],
+    "difficulty": 3,
+    "kind": "proper",
+    "clue": "白鷺城と呼ばれる白い城がある兵庫県の市",
+    "shortClue": "白鷺城の街"
+  },
+  {
+    "word": "しれとこ",
+    "topics": [
+      "geography"
+    ],
+    "difficulty": 3,
+    "kind": "proper",
+    "clue": "北海道の北東に突き出た世界自然遺産の半島",
+    "shortClue": "世界遺産の半島"
+  },
+  {
+    "word": "あそさん",
+    "topics": [
+      "geography"
+    ],
+    "difficulty": 3,
+    "kind": "proper",
+    "clue": "世界有数の巨大なカルデラを抱く熊本県の火の峰",
+    "shortClue": "熊本のカルデラ"
+  },
+  {
+    "word": "しなのがわ",
+    "topics": [
+      "geography"
+    ],
+    "difficulty": 3,
+    "kind": "proper",
+    "clue": "新潟県を流れる国内最長の流れ",
+    "shortClue": "国内最長の流れ"
+  },
+  {
+    "word": "しょうぐん",
+    "topics": [
+      "history"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "幕府を開いた武士の最高位",
+    "shortClue": "武士の最高位"
+  },
+  {
+    "word": "さむらい",
+    "topics": [
+      "history"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "刀を腰に差した昔の武人",
+    "shortClue": "刀を差した武人"
+  },
+  {
+    "word": "にんじゃ",
+    "topics": [
+      "history"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "密かに働いた戦国の諜報員",
+    "shortClue": "戦国の諜報員"
+  },
+  {
+    "word": "ゆみや",
+    "topics": [
+      "history"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "引き絞って放つ昔の遠距離の武器",
+    "shortClue": "引き絞る武器"
+  },
+  {
+    "word": "よろい",
+    "topics": [
+      "history"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "戦で身を守る金属や革の衣",
+    "shortClue": "戦で身を守る衣"
+  },
+  {
+    "word": "いしがき",
+    "topics": [
+      "history"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "城の土台に積み上げた岩の壁",
+    "shortClue": "積み上げた岩壁"
+  },
+  {
+    "word": "はにわ",
+    "topics": [
+      "history"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "古墳に並べた素焼きの人や馬の像",
+    "shortClue": "古墳の素焼き像"
+  },
+  {
+    "word": "かいづか",
+    "topics": [
+      "history"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "縄文の人々が食べ残しを積み重ねた跡",
+    "shortClue": "縄文人の捨て場"
+  },
+  {
+    "word": "どき",
+    "topics": [
+      "history"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "泥をこねて焼いた大昔の入れ物",
+    "shortClue": "大昔の入れ物"
+  },
+  {
+    "word": "どぐう",
+    "topics": [
+      "history"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "縄文時代に泥をこねて作られた人形",
+    "shortClue": "縄文の泥人形"
+  },
+  {
+    "word": "ばくふ",
+    "topics": [
+      "history"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "将軍が政治を行った武家の政権",
+    "shortClue": "武家の政権"
+  },
+  {
+    "word": "ちょんまげ",
+    "topics": [
+      "history"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "江戸時代の男の髪型",
+    "shortClue": "江戸の男の髪型"
+  },
+  {
+    "word": "こばん",
+    "topics": [
+      "history"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "江戸時代に使われた楕円形の金貨",
+    "shortClue": "江戸の金貨"
+  },
+  {
+    "word": "かわらばん",
+    "topics": [
+      "history"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "江戸の町で売られた一枚刷りの読み物",
+    "shortClue": "江戸の一枚刷り"
+  },
+  {
+    "word": "てらこや",
+    "topics": [
+      "history"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "江戸時代に庶民の少年少女が読み書きを習った所",
+    "shortClue": "庶民の学び舎"
+  },
+  {
+    "word": "にしきえ",
+    "topics": [
+      "history"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "江戸の人々が愛でた多色刷りの版画",
+    "shortClue": "多色刷りの版画"
+  },
+  {
+    "word": "かんむり",
+    "topics": [
+      "history"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "昔の貴族が頭にのせた装い",
+    "shortClue": "貴族の頭の装い"
+  },
+  {
+    "word": "じゅうにひとえ",
+    "topics": [
+      "history"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "平安の宮廷の女性が重ね着した華やかな装束",
+    "shortClue": "重ね着の装束"
+  },
+  {
+    "word": "しんでんづくり",
+    "topics": [
+      "history"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "平安貴族の屋敷に見られた建築の様式",
+    "shortClue": "貴族屋敷の様式"
+  },
+  {
+    "word": "すずり",
+    "topics": [
+      "history"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "墨をする平らな道具",
+    "shortClue": "墨をする道具"
+  },
+  {
+    "word": "もっかん",
+    "topics": [
+      "history"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "紙が広まる前に文字を書いた薄い板",
+    "shortClue": "文字を書いた板"
+  },
+  {
+    "word": "まきもの",
+    "topics": [
+      "history"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "ころころと丸めてしまう昔の長い文書",
+    "shortClue": "丸めてしまう文書"
+  },
+  {
+    "word": "のろし",
+    "topics": [
+      "history"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "火をたいて遠くへ知らせる合図",
+    "shortClue": "遠くへ知らせる合図"
+  },
+  {
+    "word": "しゅくば",
+    "topics": [
+      "history"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "旅人が泊まった街道沿いの町",
+    "shortClue": "街道沿いの町"
+  },
+  {
+    "word": "あんどん",
+    "topics": [
+      "history"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "紙で覆い油に火をともした昔の明かり",
+    "shortClue": "紙で覆った明かり"
+  },
+  {
+    "word": "ちょうちん",
+    "topics": [
+      "history"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "竹ひごと紙で作った折りたためる明かり",
+    "shortClue": "折りたたむ明かり"
+  },
+  {
+    "word": "そろばん",
+    "topics": [
+      "history"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "珠をはじいて足し引きをする道具",
+    "shortClue": "珠をはじく道具"
+  },
+  {
+    "word": "いろり",
+    "topics": [
+      "history"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "床を切って火を焚く昔の暖房",
+    "shortClue": "床の火の暖房"
+  },
+  {
+    "word": "かまど",
+    "topics": [
+      "history"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "薪で火を焚いて煮炊きをする設備",
+    "shortClue": "薪で煮炊きする設備"
+  },
+  {
+    "word": "ぎゅうしゃ",
+    "topics": [
+      "history"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "平安の貴族が乗った、獣に引かせる屋形",
+    "shortClue": "貴族の乗り物"
+  },
+  {
+    "word": "てんしゅかく",
+    "topics": [
+      "history"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "城の中心にそびえる最も高い建物",
+    "shortClue": "城でいちばん高い所"
+  },
+  {
+    "word": "かっちゅう",
+    "topics": [
+      "history"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "武士が戦で全身に着けた防具の総称",
+    "shortClue": "武士の防具"
+  },
+  {
+    "word": "やぐら",
+    "topics": [
+      "history"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "見張りのために高く組んだ台",
+    "shortClue": "見張りの高い台"
+  },
+  {
+    "word": "ひうちいし",
+    "topics": [
+      "history"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "ぶつけ合って小さな閃光を散らす古い道具",
+    "shortClue": "閃光を散らす道具"
+  },
+  {
+    "word": "げんそ",
+    "topics": [
+      "science"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "金や鉄や炭のような物質の基本",
+    "shortClue": "物質の基本"
+  },
+  {
+    "word": "ぶんし",
+    "topics": [
+      "science"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "水の性質を保つ最小の粒",
+    "shortClue": "最小の粒"
+  },
+  {
+    "word": "でんし",
+    "topics": [
+      "science"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "水素や酸素の中心の周りを飛び回る負の粒",
+    "shortClue": "飛び回る負の粒"
+  },
+  {
+    "word": "さんそ",
+    "topics": [
+      "science"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "呼吸に欠かせない空気中の気体",
+    "shortClue": "呼吸に必要な気体"
+  },
+  {
+    "word": "すいそ",
+    "topics": [
+      "science"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "最も軽く宇宙に豊富にある気体",
+    "shortClue": "最も軽い気体"
+  },
+  {
+    "word": "ちっそ",
+    "topics": [
+      "science"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "空気の約八割を占める気体",
+    "shortClue": "空気の大半の気体"
+  },
+  {
+    "word": "にさんかたんそ",
+    "topics": [
+      "science"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "息に含まれ植物が取り込む気体",
+    "shortClue": "植物が取り込む気体"
+  },
+  {
+    "word": "こうごうせい",
+    "topics": [
+      "science"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "葉の緑が日ざしから養分を作る働き",
+    "shortClue": "葉の養分づくり"
+  },
+  {
+    "word": "けつえき",
+    "topics": [
+      "science"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "全身を巡る赤い流れ",
+    "shortClue": "全身を巡る流れ"
+  },
+  {
+    "word": "きんにく",
+    "topics": [
+      "science"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "縮んで体を動かす組織",
+    "shortClue": "縮んで動かす組織"
+  },
+  {
+    "word": "かんぞう",
+    "topics": [
+      "science"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "胆汁を作り、お酒の分解も担う大きな器官",
+    "shortClue": "胆汁を作る器官"
+  },
+  {
+    "word": "めんえき",
+    "topics": [
+      "science"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "病原体から体を守る仕組み",
+    "shortClue": "体を守る仕組み"
+  },
+  {
+    "word": "えいせい",
+    "topics": [
+      "science"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "月のように大きな天体の周りを巡るもの",
+    "shortClue": "月のような天体"
+  },
+  {
+    "word": "すいせい",
+    "topics": [
+      "science"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "尾を引いて太陽に近づく天体",
+    "shortClue": "尾を引く天体"
+  },
+  {
+    "word": "ぎんが",
+    "topics": [
+      "science"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "無数の星が集まる大きな渦",
+    "shortClue": "星が集まる渦"
+  },
+  {
+    "word": "うちゅう",
+    "topics": [
+      "science"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "星や銀河が広がる果てしない空間",
+    "shortClue": "星々が浮かぶ空間"
+  },
+  {
+    "word": "にっしょく",
+    "topics": [
+      "science"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "月が太陽を隠す現象",
+    "shortClue": "月が隠す現象"
+  },
+  {
+    "word": "こうてん",
+    "topics": [
+      "science"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "天体が他の周りを回る動き",
+    "shortClue": "周りを巡る運行"
+  },
+  {
+    "word": "ぼうえんきょう",
+    "topics": [
+      "science"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "夜空の天体を近くに見せる筒",
+    "shortClue": "天体を見る筒"
+  },
+  {
+    "word": "おんどけい",
+    "topics": [
+      "science"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "暑さ寒さを数字で示す器具",
+    "shortClue": "暑さ寒さの器具"
+  },
+  {
+    "word": "ふりこ",
+    "topics": [
+      "science"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "糸に重りを吊るして揺らす装置",
+    "shortClue": "揺れる重りの装置"
+  },
+  {
+    "word": "てんびん",
+    "topics": [
+      "science"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "両側の皿で重さを比べる道具",
+    "shortClue": "皿で重さを比べる"
+  },
+  {
+    "word": "しけんかん",
+    "topics": [
+      "science"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "理科室で薬品を入れる細いガラスの筒",
+    "shortClue": "細いガラスの筒"
+  },
+  {
+    "word": "ふらすこ",
+    "topics": [
+      "science"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "口の細い丸底の実験用ガラス容器",
+    "shortClue": "実験の丸底容器"
+  },
+  {
+    "word": "ぷりずむ",
+    "topics": [
+      "science"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "光を七色に分ける三角のガラス",
+    "shortClue": "光を分けるガラス"
+  },
+  {
+    "word": "せいでんき",
+    "topics": [
+      "science"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "冬にセーターを脱ぐとぱちぱち鳴る現象",
+    "shortClue": "ぱちぱち鳴る現象"
+  },
+  {
+    "word": "ちょうおんぱ",
+    "topics": [
+      "science"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "人の耳に聞こえない高い振動",
+    "shortClue": "聞こえない高い振動"
+  },
+  {
+    "word": "ぶっしつ",
+    "topics": [
+      "science"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "ものを成り立たせる材料",
+    "shortClue": "成り立たせる材料"
+  },
+  {
+    "word": "いでんし",
+    "topics": [
+      "science"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "親に似る理由を決める体内の設計図",
+    "shortClue": "体内の設計図"
+  },
+  {
+    "word": "さいきん",
+    "topics": [
+      "science"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "顕微鏡でしか見えない一つの膜に包まれた微生物",
+    "shortClue": "目に見えない微生物"
+  },
+  {
+    "word": "ういるす",
+    "topics": [
+      "science"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "生き物の細胞に入り込んで増える小さな病原体",
+    "shortClue": "増える病原体"
+  },
+  {
+    "word": "かせき",
+    "topics": [
+      "science"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "大昔の生き物が岩に残した跡",
+    "shortClue": "岩に残った生物の跡"
+  },
+  {
+    "word": "きょうりゅう",
+    "topics": [
+      "science"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "中生代に栄えた巨大な爬虫類の仲間",
+    "shortClue": "大昔の巨大爬虫類"
+  },
+  {
+    "word": "ばすけっとぼーる",
+    "topics": [
+      "sport"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "輪へ球を投げ入れて得点を競う室内の団体競技",
+    "shortClue": "輪へ球を入れる競技"
+  },
+  {
+    "word": "ばれーぼーる",
+    "topics": [
+      "sport"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "網越しに球を打ち合う団体競技",
+    "shortClue": "網越しの団体競技"
+  },
+  {
+    "word": "ばどみんとん",
+    "topics": [
+      "sport"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "羽根を打ち合う軽いラケット競技",
+    "shortClue": "羽根を打つ競技"
+  },
+  {
+    "word": "たっきゅう",
+    "topics": [
+      "sport"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "台を挟み軽い白玉をラケットで打ち返す競技",
+    "shortClue": "白玉を打ち返す"
+  },
+  {
+    "word": "ふぃぎゅあすけーと",
+    "topics": [
+      "sport"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "氷上で回転や跳躍を披露する競技",
+    "shortClue": "氷上で舞う競技"
+  },
+  {
+    "word": "じゅうどう",
+    "topics": [
+      "sport"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "畳の上で投げや固め技を競う日本発祥の格闘技",
+    "shortClue": "畳の上の格闘技"
+  },
+  {
+    "word": "けんどう",
+    "topics": [
+      "sport"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "防具を着け竹刀で打ち合う格闘技",
+    "shortClue": "竹刀を使う格闘技"
+  },
+  {
+    "word": "きゅうどう",
+    "topics": [
+      "sport"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "的を狙って矢を放つ日本の伝統競技",
+    "shortClue": "的を狙う競技"
+  },
+  {
+    "word": "からて",
+    "topics": [
+      "sport"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "突きや蹴りを使う沖縄発祥の武術",
+    "shortClue": "突きと蹴りの武術"
+  },
+  {
+    "word": "まらそん",
+    "topics": [
+      "sport"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "四十二キロ余りを走る長距離競走",
+    "shortClue": "長距離の競走"
+  },
+  {
+    "word": "ほーむらん",
+    "topics": [
+      "sport"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "打球が柵を越える野球の一打",
+    "shortClue": "柵越えの一打"
+  },
+  {
+    "word": "ぴっちゃー",
+    "topics": [
+      "sport"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "マウンドから打者へ球を投げる野球の役",
+    "shortClue": "投げる野球の役"
+  },
+  {
+    "word": "ごーるきーぱー",
+    "topics": [
+      "sport"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "枠の前に立ち球を止める守りの役",
+    "shortClue": "枠を守る役"
+  },
+  {
+    "word": "さーふぃん",
+    "topics": [
+      "sport"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "板に乗り波を滑る海の遊び",
+    "shortClue": "波に乗る遊び"
+  },
+  {
+    "word": "ひらおよぎ",
+    "topics": [
+      "sport"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "蛙のように手足を動かして進む型",
+    "shortClue": "蛙のような型"
+  },
+  {
+    "word": "ばたふらい",
+    "topics": [
+      "sport"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "両腕を同時に回して進む泳法",
+    "shortClue": "両腕を回す泳法"
+  },
+  {
+    "word": "とびこみ",
+    "topics": [
+      "sport"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "高い台から水へ入り美しさを競う競技",
+    "shortClue": "台から水へ入る競技"
+  },
+  {
+    "word": "ぼうたかとび",
+    "topics": [
+      "sport"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "しなる長い竿で地上数メートルの横木を越える競技",
+    "shortClue": "竿で横木を越える"
+  },
+  {
+    "word": "やりなげ",
+    "topics": [
+      "sport"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "細長い道具を肩から放つ陸上競技",
+    "shortClue": "細長い道具を放つ"
+  },
+  {
+    "word": "はんまーなげ",
+    "topics": [
+      "sport"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "鎖の先の鉄球を回して放つ陸上競技",
+    "shortClue": "鎖付き鉄球の競技"
+  },
+  {
+    "word": "りれー",
+    "topics": [
+      "sport"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "走者が次の走者へバトンを渡す競走",
+    "shortClue": "次へつなぐ競走"
+  },
+  {
+    "word": "くらいみんぐ",
+    "topics": [
+      "sport"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "岩壁を手足でよじ登る競技",
+    "shortClue": "岩壁をよじ登る"
+  },
+  {
+    "word": "ぼうりんぐ",
+    "topics": [
+      "sport"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "球を転がして十本のピンを倒す競技",
+    "shortClue": "ピンを倒す競技"
+  },
+  {
+    "word": "どひょう",
+    "topics": [
+      "sport"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "力士が組み合う円形の舞台",
+    "shortClue": "力士の円い舞台"
+  },
+  {
+    "word": "ひょうしょうだい",
+    "topics": [
+      "sport"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "三位までの選手が上がる三段の壇",
+    "shortClue": "三段の壇"
+  },
+  {
+    "word": "すたじあむ",
+    "topics": [
+      "sport"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "大観衆が入る競技の大きな会場",
+    "shortClue": "大きな競技会場"
+  },
+  {
+    "word": "さかあがり",
+    "topics": [
+      "sport"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "鉄棒に足を振り体をくるりと回す技",
+    "shortClue": "鉄棒の回転技"
+  },
+  {
+    "word": "とびばこ",
+    "topics": [
+      "sport"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "体育館で段重ねの台に手を突いて越える用具",
+    "shortClue": "手を突いて越える台"
+  },
+  {
+    "word": "うきよえ",
+    "topics": [
+      "arts"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "江戸の庶民が楽しんだ風景や役者の版画",
+    "shortClue": "江戸の版画"
+  },
+  {
+    "word": "たんか",
+    "topics": [
+      "arts"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "五七五七七の三十一音で詠む詩",
+    "shortClue": "三十一音の詩"
+  },
+  {
+    "word": "せんりゅう",
+    "topics": [
+      "arts"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "五七五で世相や人情を詠む短い詩",
+    "shortClue": "五七五の短い詩"
+  },
+  {
+    "word": "しょどう",
+    "topics": [
+      "arts"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "筆と墨で文字を美しく仕上げる芸術",
+    "shortClue": "筆と墨の芸"
+  },
+  {
+    "word": "いけばな",
+    "topics": [
+      "arts"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "草木を器に整え美を表す日本の芸",
+    "shortClue": "器に整える芸"
+  },
+  {
+    "word": "おりがみ",
+    "topics": [
+      "arts"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "色つきの正方形を畳んで鶴などを作る遊び",
+    "shortClue": "鶴を作る遊び"
+  },
+  {
+    "word": "のう",
+    "topics": [
+      "arts"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "面をつけて舞う室町時代からの舞台芸",
+    "shortClue": "面をつけて舞う"
+  },
+  {
+    "word": "きょうげん",
+    "topics": [
+      "arts"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "能の合間に演じられる笑いの劇",
+    "shortClue": "笑いの古典劇"
+  },
+  {
+    "word": "ぶんらく",
+    "topics": [
+      "arts"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "人形を三人で操る浄瑠璃の劇",
+    "shortClue": "三人で操る人形劇"
+  },
+  {
+    "word": "らくご",
+    "topics": [
+      "arts"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "座布団に座って一人で滑稽な話を演じる芸",
+    "shortClue": "一人で演じる芸"
+  },
+  {
+    "word": "まんざい",
+    "topics": [
+      "arts"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "二人の掛け合いで笑わせる芸",
+    "shortClue": "二人の掛け合い"
+  },
+  {
+    "word": "まんが",
+    "topics": [
+      "arts"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "コマと吹き出しで物語を描く読み物",
+    "shortClue": "コマで描く物語"
+  },
+  {
+    "word": "ばいおりん",
+    "topics": [
+      "arts"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "顎に挟み弓で弦をこすって鳴らす楽器",
+    "shortClue": "弓で弾く弦楽器"
+  },
+  {
+    "word": "ふるーと",
+    "topics": [
+      "arts"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "横に構えて吹く銀色の管楽器",
+    "shortClue": "銀色の管楽器"
+  },
+  {
+    "word": "とらんぺっと",
+    "topics": [
+      "arts"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "金色に輝く高らかな響きの金管楽器",
+    "shortClue": "高らかな金管楽器"
+  },
+  {
+    "word": "がっしょう",
+    "topics": [
+      "arts"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "大勢が声を揃えて歌うこと",
+    "shortClue": "声を揃える歌"
+  },
+  {
+    "word": "おーけすとら",
+    "topics": [
+      "arts"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "さまざまな楽器が集まる大編成の楽団",
+    "shortClue": "大編成の楽団"
+  },
+  {
+    "word": "こうきょうきょく",
+    "topics": [
+      "arts"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "楽団が奏でる四つの楽章からなる大作",
+    "shortClue": "楽団の大作"
+  },
+  {
+    "word": "おぺら",
+    "topics": [
+      "arts"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "歌手が歌い通して物語を見せる劇",
+    "shortClue": "歌で見せる劇"
+  },
+  {
+    "word": "すいさい",
+    "topics": [
+      "arts"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "にじみやぼかしが得意な透き通る絵の具の技法",
+    "shortClue": "透き通る絵の具"
+  },
+  {
+    "word": "あぶらえ",
+    "topics": [
+      "arts"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "厚塗りが映える重厚な描き方",
+    "shortClue": "厚塗りの描き方"
+  },
+  {
+    "word": "びじゅつかん",
+    "topics": [
+      "arts"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "絵や彫刻を並べて見せる施設",
+    "shortClue": "名作を飾る施設"
+  },
+  {
+    "word": "はくぶつかん",
+    "topics": [
+      "arts"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "歴史や自然の資料を集めて見せる施設",
+    "shortClue": "資料を見せる施設"
+  },
+  {
+    "word": "とうげい",
+    "topics": [
+      "arts"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "泥をこねて窯で焼く器作り",
+    "shortClue": "窯で焼く器作り"
+  },
+  {
+    "word": "えいがかん",
+    "topics": [
+      "arts"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "暗い客席で大きな幕に向かう場所",
+    "shortClue": "大きな幕の場所"
+  },
+  {
+    "word": "しゃくはち",
+    "topics": [
+      "arts"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "縦に構えて吹く竹の管楽器",
+    "shortClue": "縦に吹く竹の笛"
+  },
+  {
+    "word": "びわ",
+    "topics": [
+      "arts"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "撥で弾く平家物語の語りで使う楽器",
+    "shortClue": "撥で弾く楽器"
+  },
+  {
+    "word": "はんが",
+    "topics": [
+      "arts"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "彫った板に絵の具を付けて刷る作品",
+    "shortClue": "彫った板で刷る"
+  },
+  {
+    "word": "きゃくほん",
+    "topics": [
+      "arts"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "せりふや動きを書いた劇の元",
+    "shortClue": "せりふを書いた劇の元"
+  },
+  {
+    "word": "おわん",
+    "topics": [
+      "home"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "汁物を注ぐ漆塗りの器",
+    "shortClue": "漆塗りの汁物の器"
+  },
+  {
+    "word": "ふらいぱん",
+    "topics": [
+      "home"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "焼いたり炒めたりする平たい調理器具",
+    "shortClue": "炒める平たい器具"
+  },
+  {
+    "word": "ほうちょう",
+    "topics": [
+      "home"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "野菜や魚を切る刃物",
+    "shortClue": "食材を切る刃物"
+  },
+  {
+    "word": "まないた",
+    "topics": [
+      "home"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "食材を切るとき下に敷く台",
+    "shortClue": "切る時に敷く台"
+  },
+  {
+    "word": "やかん",
+    "topics": [
+      "home"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "湯を沸かす注ぎ口のある器具",
+    "shortClue": "湯を沸かす器具"
+  },
+  {
+    "word": "すいはんき",
+    "topics": [
+      "home"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "お米を水と一緒に入れるとふっくら仕上がる電気の釜",
+    "shortClue": "お米を仕上げる釜"
+  },
+  {
+    "word": "でんしれんじ",
+    "topics": [
+      "home"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "食べ物を短時間であたためる台所の箱",
+    "shortClue": "あたためる箱"
+  },
+  {
+    "word": "せんたくき",
+    "topics": [
+      "home"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "汚れた衣類をぐるぐる回して清める電気器具",
+    "shortClue": "衣類を清める器具"
+  },
+  {
+    "word": "そうじき",
+    "topics": [
+      "home"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "吸い込んでごみを取る電気器具",
+    "shortClue": "ごみを吸う器具"
+  },
+  {
+    "word": "ちりとり",
+    "topics": [
+      "home"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "集めたごみをすくい上げる道具",
+    "shortClue": "ごみをすくう道具"
+  },
+  {
+    "word": "ぞうきん",
+    "topics": [
+      "home"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "床や窓を拭く古布",
+    "shortClue": "床を拭く古布"
+  },
+  {
+    "word": "せんざい",
+    "topics": [
+      "home"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "汚れを落とす泡立つ液",
+    "shortClue": "泡立つ液体"
+  },
+  {
+    "word": "ざぶとん",
+    "topics": [
+      "home"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "床に敷いて腰かける四角い綿入り",
+    "shortClue": "床に敷く四角"
+  },
+  {
+    "word": "こたつ",
+    "topics": [
+      "home"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "冬に足を入れて暖まる机",
+    "shortClue": "冬の足入れの机"
+  },
+  {
+    "word": "せんぷうき",
+    "topics": [
+      "home"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "羽根を回して涼しさを送る夏の電気器具",
+    "shortClue": "羽根を回す電気器具"
+  },
+  {
+    "word": "じゅうたん",
+    "topics": [
+      "home"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "床に敷く厚い織物",
+    "shortClue": "床に敷く織物"
+  },
+  {
+    "word": "しょうじ",
+    "topics": [
+      "home"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "白い紙を貼った桟の引き戸",
+    "shortClue": "桟に紙を貼った戸"
+  },
+  {
+    "word": "げんかん",
+    "topics": [
+      "home"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "靴を脱いで家に上がる入口",
+    "shortClue": "靴を脱ぐ入口"
+  },
+  {
+    "word": "べらんだ",
+    "topics": [
+      "home"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "洗濯物を干す外へ張り出した場所",
+    "shortClue": "外へ張り出した場所"
+  },
+  {
+    "word": "もうふ",
+    "topics": [
+      "home"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "寒い夜に体を包む柔らかな寝具",
+    "shortClue": "体を包む寝具"
+  },
+  {
+    "word": "せんめんじょ",
+    "topics": [
+      "home"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "顔や手を清める小部屋",
+    "shortClue": "顔を清める部屋"
+  },
+  {
+    "word": "ゆぶね",
+    "topics": [
+      "home"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "入浴で体を沈める大きな容器",
+    "shortClue": "体を沈める容器"
+  },
+  {
+    "word": "はぶらし",
+    "topics": [
+      "home"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "口の中を磨く柄の付いた毛の道具",
+    "shortClue": "口を磨く道具"
+  },
+  {
+    "word": "はたき",
+    "topics": [
+      "home"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "棒の先に房の付いた埃落としの道具",
+    "shortClue": "房付きの埃落とし"
+  },
+  {
+    "word": "ふうりん",
+    "topics": [
+      "home"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "夏に軒先で涼しげに鳴る小さな鐘",
+    "shortClue": "軒先で鳴る小鐘"
+  },
+  {
+    "word": "てぬぐい",
+    "topics": [
+      "home"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "日本の細長い木綿の布",
+    "shortClue": "細長い木綿の布"
+  },
+  {
+    "word": "ふろしき",
+    "topics": [
+      "home"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "四角い布で物を包んで運ぶ",
+    "shortClue": "四角い包み布"
+  },
+  {
+    "word": "ひきだし",
+    "topics": [
+      "home"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "机や箪笥に収まる抜き差しする箱",
+    "shortClue": "抜き差しする箱"
+  },
+  {
+    "word": "ぱんや",
+    "topics": [
+      "professions"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "小麦を焼き上げた主食を売る人",
+    "shortClue": "主食を売る人"
+  },
+  {
+    "word": "やおや",
+    "topics": [
+      "professions"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "野菜や果物を並べて売る店の人",
+    "shortClue": "野菜を売る店の人"
+  },
+  {
+    "word": "はなや",
+    "topics": [
+      "professions"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "季節の彩りを束ねて売る店の人",
+    "shortClue": "彩りを束ねる人"
+  },
+  {
+    "word": "りょうし",
+    "topics": [
+      "professions"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "網や釣り竿で海の幸を捕る人",
+    "shortClue": "網や釣り竿の人"
+  },
+  {
+    "word": "ゆうびんはいたついん",
+    "topics": [
+      "professions"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "手紙や小包を家々に届ける人",
+    "shortClue": "家々に届ける人"
+  },
+  {
+    "word": "べんごし",
+    "topics": [
+      "professions"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "法律を使って人の権利を守る専門家",
+    "shortClue": "法律の専門家"
+  },
+  {
+    "word": "さいばんかん",
+    "topics": [
+      "professions"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "法廷で白黒を言い渡す人",
+    "shortClue": "法廷で結論を出す人"
+  },
+  {
+    "word": "かいけいし",
+    "topics": [
+      "professions"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "お金の帳簿を調べる専門家",
+    "shortClue": "帳簿を調べる人"
+  },
+  {
+    "word": "けんちくか",
+    "topics": [
+      "professions"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "住まいやビルの図面を引く専門職",
+    "shortClue": "図面を引く専門職"
+  },
+  {
+    "word": "ほんやくか",
+    "topics": [
+      "professions"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "外国語の文章を別の言語に直す人",
+    "shortClue": "文章を直す人"
+  },
+  {
+    "word": "うんてんしゅ",
+    "topics": [
+      "professions"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "バスやタクシーを操る人",
+    "shortClue": "バスを操る人"
+  },
+  {
+    "word": "きかんし",
+    "topics": [
+      "professions"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "列車を走らせる動力を扱う専門職",
+    "shortClue": "列車の動力を扱う"
+  },
+  {
+    "word": "しゃしょう",
+    "topics": [
+      "professions"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "鉄道で扉の合図や案内をする乗務員",
+    "shortClue": "鉄道の乗務員"
+  },
+  {
+    "word": "ちょうりし",
+    "topics": [
+      "professions"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "国家資格を持ち厨房で腕をふるう専門職",
+    "shortClue": "資格を持つ厨房の人"
+  },
+  {
+    "word": "えいようし",
+    "topics": [
+      "professions"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "献立で健康を支える専門家",
+    "shortClue": "献立の専門家"
+  },
+  {
+    "word": "こうむいん",
+    "topics": [
+      "professions"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "役所などで国や町のために働く人",
+    "shortClue": "役所で働く人"
+  },
+  {
+    "word": "けんきゅうしゃ",
+    "topics": [
+      "professions"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "未知の事柄を調べる人",
+    "shortClue": "未知を調べる人"
+  },
+  {
+    "word": "しかい",
+    "topics": [
+      "professions"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "口の中の悩みを診る専門家",
+    "shortClue": "口の専門家"
+  },
+  {
+    "word": "やくざいし",
+    "topics": [
+      "professions"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "処方箋を見て調合し渡す専門家",
+    "shortClue": "処方箋どおり調合"
+  },
+  {
+    "word": "じゅうい",
+    "topics": [
+      "professions"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "ペットや家畜の病を診る専門家",
+    "shortClue": "ペットの専門家"
+  },
+  {
+    "word": "ほいくし",
+    "topics": [
+      "professions"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "幼い子の遊びと生活を見守る専門家",
+    "shortClue": "幼児を見守る人"
+  },
+  {
+    "word": "でざいなー",
+    "topics": [
+      "professions"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "形や色を考えて図案を作る人",
+    "shortClue": "図案を作る人"
+  },
+  {
+    "word": "ぷろぐらまー",
+    "topics": [
+      "professions"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "計算機への命令を書く人",
+    "shortClue": "命令を書く人"
+  },
+  {
+    "word": "えんじにあ",
+    "topics": [
+      "professions"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "機械や電気の技術者",
+    "shortClue": "機械の技術者"
+  },
+  {
+    "word": "いんすとらくたー",
+    "topics": [
+      "professions"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "技や運動を教える指導者",
+    "shortClue": "技を教える指導者"
+  },
+  {
+    "word": "かんぬし",
+    "topics": [
+      "professions"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "鳥居をくぐった先で祭祀を司る人",
+    "shortClue": "祭祀を司る人"
+  },
+  {
+    "word": "うえきや",
+    "topics": [
+      "professions"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "庭の枝を整える職人",
+    "shortClue": "庭の枝を整える"
+  },
+  {
+    "word": "ふなのり",
+    "topics": [
+      "professions"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "大海原を渡って働く人",
+    "shortClue": "海を渡る人"
+  },
+  {
+    "word": "うちゅうひこうし",
+    "topics": [
+      "professions"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "ロケットで大気圏の外へ旅立つ職業",
+    "shortClue": "ロケットの乗り手"
+  },
+  {
+    "word": "おぼん",
+    "topics": [
+      "localCulture"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "夏に先祖の霊を迎える行事",
+    "shortClue": "夏の先祖供養"
+  },
+  {
+    "word": "はなび",
+    "topics": [
+      "localCulture"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "夏の夜空に開く打ち上げの光",
+    "shortClue": "夜空に開く光"
+  },
+  {
+    "word": "はなみ",
+    "topics": [
+      "localCulture"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "桜の下で宴を開く春の行事",
+    "shortClue": "桜の下の宴"
+  },
+  {
+    "word": "もちつき",
+    "topics": [
+      "localCulture"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "杵と臼でこね上げる年末の行事",
+    "shortClue": "杵と臼の行事"
+  },
+  {
+    "word": "はつもうで",
+    "topics": [
+      "localCulture"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "年が明けて真っ先に神社や寺へ参ること",
+    "shortClue": "年明けの参拝"
+  },
+  {
+    "word": "おとしだま",
+    "topics": [
+      "localCulture"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "正月に子どもへ渡す祝い金",
+    "shortClue": "子どもへの祝い金"
+  },
+  {
+    "word": "かがみもち",
+    "topics": [
+      "localCulture"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "正月に床の間へ飾る丸い二段の供え",
+    "shortClue": "丸い二段の供え"
+  },
+  {
+    "word": "しめなわ",
+    "topics": [
+      "localCulture"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "聖なる場所の境を示す稲藁の綱",
+    "shortClue": "境を示す稲藁の綱"
+  },
+  {
+    "word": "おせちりょうり",
+    "topics": [
+      "localCulture"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "重箱に詰めた正月の祝い膳",
+    "shortClue": "重箱の祝い膳"
+  },
+  {
+    "word": "ぞうに",
+    "topics": [
+      "localCulture"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "正月に餅や野菜を入れた汁の祝い料理",
+    "shortClue": "正月の汁物"
+  },
+  {
+    "word": "ちとせあめ",
+    "topics": [
+      "localCulture"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "七五三で配られる長い紅白の菓子",
+    "shortClue": "紅白の長い菓子"
+  },
+  {
+    "word": "しちごさん",
+    "topics": [
+      "localCulture"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "子どもの成長を祝う十一月の行事",
+    "shortClue": "成長を祝う行事"
+  },
+  {
+    "word": "せつぶん",
+    "topics": [
+      "localCulture"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "豆をまいて鬼を追い払う二月の行事",
+    "shortClue": "豆まきの行事"
+  },
+  {
+    "word": "こどものひ",
+    "topics": [
+      "localCulture"
+    ],
+    "difficulty": 2,
+    "kind": "proper",
+    "clue": "端午の節句に当たる五月の祝祭",
+    "shortClue": "五月の祝祭"
+  },
+  {
+    "word": "こいのぼり",
+    "topics": [
+      "localCulture"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "五月に空を泳ぐ布の魚",
+    "shortClue": "空を泳ぐ布の魚"
+  },
+  {
+    "word": "かしわもち",
+    "topics": [
+      "localCulture"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "端午の節句に葉で包んだ餡入りの菓子",
+    "shortClue": "葉で包んだ菓子"
+  },
+  {
+    "word": "ねぶた",
+    "topics": [
+      "localCulture"
+    ],
+    "difficulty": 3,
+    "kind": "proper",
+    "clue": "青森の夏に巨大な灯籠が練り歩く祭り",
+    "shortClue": "青森の夏の祭り"
+  },
+  {
+    "word": "ぎおんまつり",
+    "topics": [
+      "localCulture"
+    ],
+    "difficulty": 2,
+    "kind": "proper",
+    "clue": "七月に京都で山鉾が巡行する行事",
+    "shortClue": "京都の山鉾行事"
+  },
+  {
+    "word": "だいもんじ",
+    "topics": [
+      "localCulture"
+    ],
+    "difficulty": 3,
+    "kind": "proper",
+    "clue": "お盆の夜に京都の山肌で燃える送り火",
+    "shortClue": "京都の送り火"
+  },
+  {
+    "word": "えきべん",
+    "topics": [
+      "localCulture"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "旅の途中で列車の中で食べる箱詰めの食事",
+    "shortClue": "旅先の箱詰め食"
+  },
+  {
+    "word": "ひゃくにんいっしゅ",
+    "topics": [
+      "localCulture"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "藤原定家が鎌倉時代に選んだ歌集",
+    "shortClue": "定家が選んだ歌集"
+  },
+  {
+    "word": "かるた",
+    "topics": [
+      "localCulture"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "読み札に合う絵や文字の札を取り合う遊び",
+    "shortClue": "札を取り合う遊び"
+  },
+  {
+    "word": "たこあげ",
+    "topics": [
+      "localCulture"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "風に乗せて糸を伸ばす正月の遊び",
+    "shortClue": "風に乗せる遊び"
+  },
+  {
+    "word": "すごろく",
+    "topics": [
+      "localCulture"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "さいころを振って進む盤の遊び",
+    "shortClue": "さいころで進む遊び"
+  },
+  {
+    "word": "けんだま",
+    "topics": [
+      "localCulture"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "皿と剣先に球を乗せる木の玩具",
+    "shortClue": "皿と剣先の玩具"
+  },
+  {
+    "word": "ちゃのゆ",
+    "topics": [
+      "localCulture"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "粉末の緑を泡立てて客に振る舞う作法",
+    "shortClue": "客をもてなす作法"
+  },
+  {
+    "word": "ゆかた",
+    "topics": [
+      "localCulture"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "夏祭りで着る薄手の木綿の和装",
+    "shortClue": "夏の薄手の和装"
+  },
+  {
+    "word": "はっぴ",
+    "topics": [
+      "localCulture"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "祭りで着る襟に文字の入った上着",
+    "shortClue": "祭りの上着"
+  },
+  {
+    "word": "おりづる",
+    "topics": [
+      "localCulture"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "祈りを込めて千羽つなぐ紙の鳥",
+    "shortClue": "祈りの紙の鳥"
+  },
+  {
+    "word": "ししまい",
+    "topics": [
+      "localCulture"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "正月に家々を回り大きな頭で厄を払う芸能",
+    "shortClue": "厄を払う芸能"
+  },
+  {
+    "word": "まねきねこ",
+    "topics": [
+      "localCulture"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "片手を上げて商売繁盛を願う置物",
+    "shortClue": "片手を上げる置物"
+  },
+  {
+    "word": "てるてるぼうず",
+    "topics": [
+      "localCulture"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "晴れを願って軒下に吊るす布の人形",
+    "shortClue": "晴れを願う人形"
+  },
+  {
+    "word": "ちゅうがっこう",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "十二歳から十五歳までの子が通う所",
+    "shortClue": "十二歳から通う所"
+  },
+  {
+    "word": "しょうがっこう",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "六歳から六年間通う義務教育の最初の場",
+    "shortClue": "六歳から通う場"
+  },
+  {
+    "word": "ちゅうしゃじょう",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "乗り物を一時止めておく広い空き地",
+    "shortClue": "乗り物を止める空地"
+  },
+  {
+    "word": "じどうはんばいき",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "お金を入れると飲み物が出る路傍の箱",
+    "shortClue": "飲み物が出る箱"
+  },
+  {
+    "word": "おうだんほどう",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "白い縞模様を踏んで通りの向こうへ行く所",
+    "shortClue": "縞模様の渡り場"
+  },
+  {
+    "word": "しんごうき",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "赤と青と黄色で通行を示す灯",
+    "shortClue": "赤青黄の灯"
+  },
+  {
+    "word": "こうさてん",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "道と道が十字に重なる所",
+    "shortClue": "十字に重なる所"
+  },
+  {
+    "word": "ゆうびんきょく",
+    "topics": [
+      "professions"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "手紙や小包を扱う窓口がある施設",
+    "shortClue": "手紙の窓口"
+  },
+  {
+    "word": "しょうてんがい",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "八百屋や魚屋が軒を連ねる通り",
+    "shortClue": "軒を連ねる通り"
+  },
+  {
+    "word": "すーぱーまーけっと",
+    "topics": [
+      "professions"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "食料品を中心に品物を広く並べて売る大きな店",
+    "shortClue": "大きな食料品の店"
+  },
+  {
+    "word": "ゆうえんち",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "観覧車や乗り物がある娯楽施設",
+    "shortClue": "乗り物の娯楽施設"
+  },
+  {
+    "word": "どうぶつえん",
+    "topics": [
+      "animals"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "ライオンやゾウなどを飼って見せる施設",
+    "shortClue": "ライオンのいる施設"
+  },
+  {
+    "word": "すいぞくかん",
+    "topics": [
+      "animals"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "魚や海の生き物を展示する施設",
+    "shortClue": "海の生き物の施設"
+  },
+  {
+    "word": "かんらんしゃ",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "大きな輪がゆっくり回る遊園地の乗り物",
+    "shortClue": "輪が回る乗り物"
+  },
+  {
+    "word": "じぇっとこーすたー",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "急降下や急旋回で叫ばせる遊園地の乗り物",
+    "shortClue": "叫ばせる乗り物"
+  },
+  {
+    "word": "めりーごーらんど",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "木馬が回りながら上下する遊園地の乗り物",
+    "shortClue": "回る木馬"
+  },
+  {
+    "word": "すまーとふぉん",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "画面に触れて操作する携帯電話",
+    "shortClue": "画面を触る電話"
+  },
+  {
+    "word": "いんたーねっと",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "世界中をつなぐ情報の網",
+    "shortClue": "世界をつなぐ網"
+  },
+  {
+    "word": "でんしめーる",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "画面で送る手紙のような文書",
+    "shortClue": "画面で送る手紙"
+  },
+  {
+    "word": "にんこうちのう",
+    "topics": [
+      "science"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "学習して判断する計算機の仕組み",
+    "shortClue": "学習する計算機"
+  },
+  {
+    "word": "じんこうえいせい",
+    "topics": [
+      "science"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "ロケットで打ち上げられ地球を巡る機械",
+    "shortClue": "地球を巡る機械"
+  },
+  {
+    "word": "たいようでんち",
+    "topics": [
+      "science"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "日ざしから動力を生む薄い板",
+    "shortClue": "日ざしを受ける板"
+  },
+  {
+    "word": "じゅんびたいそう",
+    "topics": [
+      "sport"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "運動の前に筋を伸ばして身をほぐす動き",
+    "shortClue": "運動前のほぐし"
+  },
+  {
+    "word": "つうちひょう",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "学期末に成績を記して渡される紙",
+    "shortClue": "成績を記した紙"
+  },
+  {
+    "word": "てれびどらま",
+    "topics": [
+      "arts"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "毎週続きを楽しむ連続の放送劇",
+    "shortClue": "連続の放送劇"
+  },
+  {
+    "word": "どきゅめんたりー",
+    "topics": [
+      "arts"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "実際の出来事を記録した映像作品",
+    "shortClue": "事実を記録した作品"
+  },
+  {
+    "word": "いんしょうは",
+    "topics": [
+      "arts"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "光の移ろいを捉える十九世紀フランスの画家たち",
+    "shortClue": "光を捉える画風"
+  },
+  {
+    "word": "こんさーと",
+    "topics": [
+      "arts"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "大勢の客の前で行う演奏会",
+    "shortClue": "客の前の演奏会"
+  },
+  {
+    "word": "おるごーる",
+    "topics": [
+      "arts"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "ねじを巻くと小さな曲を奏でる箱",
+    "shortClue": "ねじで鳴る小箱"
+  },
+  {
+    "word": "はーもにか",
+    "topics": [
+      "arts"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "口にくわえて吹き吸いする小さな楽器",
+    "shortClue": "口にくわえる楽器"
+  },
+  {
+    "word": "しんせさいざー",
+    "topics": [
+      "arts"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "鍵盤で多様な音を作る電子楽器",
+    "shortClue": "鍵盤の電子楽器"
+  },
+  {
+    "word": "さーかす",
+    "topics": [
+      "arts"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "空中ブランコや動物の芸を見せるテント興行",
+    "shortClue": "テントの興行"
+  },
+  {
+    "word": "ぶらすばんど",
+    "topics": [
+      "arts"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "金管楽器と打楽器で行進しながら演奏する楽団",
+    "shortClue": "行進する楽団"
+  },
+  {
+    "word": "とうもろこし",
+    "topics": [
+      "food"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "黄色い粒が並ぶ夏の穂の野菜",
+    "shortClue": "粒が並ぶ野菜"
+  },
+  {
+    "word": "てんぷらそば",
+    "topics": [
+      "food"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "えびの揚げ物を載せた温かい麺",
+    "shortClue": "揚げ物の温かい麺"
+  },
+  {
+    "word": "かつおぶし",
+    "topics": [
+      "food"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "削って出汁を取る乾かした魚",
+    "shortClue": "削って使う乾物"
+  },
+  {
+    "word": "ちゃんこなべ",
+    "topics": [
+      "food"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "力士が毎日食べる具だくさんの煮込み",
+    "shortClue": "力士の煮込み"
+  },
+  {
+    "word": "どらやき",
+    "topics": [
+      "food"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "二枚の丸い生地であんこを挟んだ菓子",
+    "shortClue": "あんこを挟んだ菓子"
+  },
+  {
+    "word": "みたらしだんご",
+    "topics": [
+      "food"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "甘辛いたれをからめた串の菓子",
+    "shortClue": "たれをからめた串"
+  },
+  {
+    "word": "さくらもち",
+    "topics": [
+      "food"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "薄紅色の生地を塩漬けの葉で包んだ春の和菓子",
+    "shortClue": "塩漬けの葉の菓子"
+  },
+  {
+    "word": "ちーずけーき",
+    "topics": [
+      "food"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "乳の風味が濃いなめらかな洋菓子",
+    "shortClue": "なめらかな洋菓子"
+  },
+  {
+    "word": "あっぷるぱい",
+    "topics": [
+      "food"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "林檎を詰めて焼いた洋菓子",
+    "shortClue": "林檎の洋菓子"
+  },
+  {
+    "word": "ぽてとさらだ",
+    "topics": [
+      "food"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "ゆでてつぶした根菜にマヨネーズを和えた惣菜",
+    "shortClue": "マヨネーズの惣菜"
+  },
+  {
+    "word": "ろーるきゃべつ",
+    "topics": [
+      "food"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "ひき肉を葉で巻いて煮た洋風の惣菜",
+    "shortClue": "葉で巻いた惣菜"
+  },
+  {
+    "word": "こーんすーぷ",
+    "topics": [
+      "food"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "黄色い粒入りのとろりと甘い洋風の汁",
+    "shortClue": "とろりと甘い汁"
+  },
+  {
+    "word": "ぱいなっぷる",
+    "topics": [
+      "food"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "頭に冠のような葉が付く黄色く甘酸っぱい南国の果物",
+    "shortClue": "冠の葉の果物"
+  },
+  {
+    "word": "くりーむそーだ",
+    "topics": [
+      "food"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "緑の炭酸にアイスをのせた喫茶店の飲み物",
+    "shortClue": "緑の炭酸の飲み物"
+  },
+  {
+    "word": "ふれんちとーすと",
+    "topics": [
+      "food"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "卵液に浸して焼いた甘い食パン料理",
+    "shortClue": "卵液に浸した料理"
+  },
+  {
+    "word": "ふりかけ",
+    "topics": [
+      "food"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "ご飯にかけて味を添える乾いた粉末",
+    "shortClue": "ご飯にかける粉"
+  },
+  {
+    "word": "かいせきりょうり",
+    "topics": [
+      "food"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "茶席で出される季節の小皿の続くもてなし食",
+    "shortClue": "茶席の小皿の食事"
+  },
+  {
+    "word": "あさごはん",
+    "topics": [
+      "food"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "目覚めて最初にとる食事",
+    "shortClue": "目覚めの食事"
+  },
+  {
+    "word": "かまきり",
+    "topics": [
+      "animals"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "前脚で獲物を挟む斧のような緑の昆虫",
+    "shortClue": "斧のような前脚"
+  },
+  {
+    "word": "こおろぎ",
+    "topics": [
+      "animals"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "秋の夜に草むらで鳴く黒褐色の昆虫",
+    "shortClue": "秋の夜の鳴き手"
+  },
+  {
+    "word": "すずむし",
+    "topics": [
+      "animals"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "秋の夜にりんりんと羽を震わせる飼育で人気の鳴き手",
+    "shortClue": "秋の鳴き手"
+  },
+  {
+    "word": "あげはちょう",
+    "topics": [
+      "animals"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "大きな翅に黒い縞を持つ鮮やかな昆虫",
+    "shortClue": "黒縞の大きな翅"
+  },
+  {
+    "word": "こうもり",
+    "topics": [
+      "animals"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "夜に洞窟で逆さまにぶら下がる飛ぶ哺乳類",
+    "shortClue": "逆さにぶら下がる獣"
+  },
+  {
+    "word": "ふらみんご",
+    "topics": [
+      "animals"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "桃色の羽で片脚で立つ水辺の鳥",
+    "shortClue": "桃色の水辺の鳥"
+  },
+  {
+    "word": "きつつき",
+    "topics": [
+      "animals"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "太い幹をコンコン叩いて虫を探す尖った嘴の森の住人",
+    "shortClue": "幹を叩く住人"
+  },
+  {
+    "word": "おしどり",
+    "topics": [
+      "animals"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "仲のよい夫婦のたとえにされる水鳥",
+    "shortClue": "夫婦円満のたとえ"
+  },
+  {
+    "word": "とびうお",
+    "topics": [
+      "animals"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "海面を滑空する大きな胸びれの海の生き物",
+    "shortClue": "海面を滑空する"
+  },
+  {
+    "word": "いのしし",
+    "topics": [
+      "animals"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "牙を持つ茶色く太った山野の獣",
+    "shortClue": "牙のある山野の獣"
+  },
+  {
+    "word": "たんちょう",
+    "topics": [
+      "animals"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "頭に赤い斑がある北海道の大きな白い鳥",
+    "shortClue": "頭が赤い大きな鳥"
+  },
+  {
+    "word": "うみがめ",
+    "topics": [
+      "animals"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "砂浜に上がって卵を産む大洋の甲羅持ち",
+    "shortClue": "砂浜で産卵する"
+  },
+  {
+    "word": "すけーとぼーど",
+    "topics": [
+      "sport"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "車輪の付いた板に乗って街を滑る遊び",
+    "shortClue": "車輪の板で滑る"
+  },
+  {
+    "word": "すのーぼーど",
+    "topics": [
+      "sport"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "一枚の板で雪の斜面を滑る競技",
+    "shortClue": "一枚板で斜面を滑る"
+  },
+  {
+    "word": "ごるふじょう",
+    "topics": [
+      "sport"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "芝生が広がり穴を目指して球を打つ敷地",
+    "shortClue": "芝生の広い敷地"
+  },
+  {
+    "word": "しゃーぷぺんしる",
+    "topics": [
+      "home"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "芯を送り出して書く筆記具",
+    "shortClue": "芯を出す筆記具"
+  },
+  {
+    "word": "ぼーるぺん",
+    "topics": [
+      "home"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "先の小さな玉でインクを出す筆記具",
+    "shortClue": "玉でインクを出す"
+  },
+  {
+    "word": "ほっちきす",
+    "topics": [
+      "home"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "紙の束を針で留める文具",
+    "shortClue": "針で留める文具"
+  },
+  {
+    "word": "せろてーぷ",
+    "topics": [
+      "home"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "透明で貼って剥がせる粘着の文具",
+    "shortClue": "透明な粘着の文具"
+  },
+  {
+    "word": "れいんこーと",
+    "topics": [
+      "home"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "雨をはじく丈の長い上着",
+    "shortClue": "雨をはじく上着"
+  },
+  {
+    "word": "でんきすたんど",
+    "topics": [
+      "home"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "机の上で手元を照らす照明",
+    "shortClue": "手元を照らす照明"
+  },
+  {
+    "word": "ものほしざお",
+    "topics": [
+      "home"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "洗った衣類を掛けて乾かす長い棒",
+    "shortClue": "衣類を乾かす長い棒"
+  },
+  {
+    "word": "せんたくばさみ",
+    "topics": [
+      "home"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "物干しの紐に衣服を留める小さな留め具",
+    "shortClue": "衣服を留める具"
+  },
+  {
+    "word": "しょっきあらいき",
+    "topics": [
+      "home"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "汚れた皿やお椀を自動で清める台所の家電",
+    "shortClue": "皿を清める家電"
+  },
+  {
+    "word": "でんきぽっと",
+    "topics": [
+      "home"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "湯をためて保温する卓上の台所用具",
+    "shortClue": "湯を保つ用具"
+  },
+  {
+    "word": "てんきよほう",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "明日の空模様を知らせる番組",
+    "shortClue": "空模様の知らせ"
+  },
+  {
+    "word": "ぼうねんかい",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "師走に一同で労をねぎらう宴",
+    "shortClue": "師走の宴"
+  },
+  {
+    "word": "なつやすみ",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "登校のない暑い季節の長い期間",
+    "shortClue": "暑い季節の長い期間"
+  },
+  {
+    "word": "にゅうがくしき",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "新しく通う子を迎える春の儀礼",
+    "shortClue": "春の儀礼"
+  },
+  {
+    "word": "ぶんかさい",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "展示や劇を発表する学校の秋の行事",
+    "shortClue": "学校の秋の行事"
+  },
+  {
+    "word": "ねんがじょう",
+    "topics": [
+      "localCulture"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "元日に届くように出す挨拶の葉書",
+    "shortClue": "元日の挨拶の葉書"
+  },
+  {
+    "word": "おちゅうげん",
+    "topics": [
+      "localCulture"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "夏に感謝を込めて贈る品",
+    "shortClue": "夏の贈り物"
+  },
+  {
+    "word": "おおみそか",
+    "topics": [
+      "localCulture"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "一年の最後の夜",
+    "shortClue": "一年の最後の夜"
+  },
+  {
+    "word": "ふくわらい",
+    "topics": [
+      "localCulture"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "目隠しで顔の部品を置く正月の遊び",
+    "shortClue": "目隠しの正月遊び"
+  },
+  {
+    "word": "ぼんおどり",
+    "topics": [
+      "localCulture"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "夏の夜に櫓の周りで輪になって舞う行事",
+    "shortClue": "輪になる夏の行事"
+  },
+  {
+    "word": "せいじんしき",
+    "topics": [
+      "localCulture"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "二十歳を迎えた若者を祝う儀礼",
+    "shortClue": "二十歳の儀礼"
+  }
+]
