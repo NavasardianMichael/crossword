@@ -1,0 +1,4002 @@
+[
+  {
+    "word": "бровь",
+    "topics": ["general"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Дугообразная полоска волос над глазом",
+    "shortClue": "Над глазом"
+  },
+  {
+    "word": "щека",
+    "topics": ["general"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Мягкая часть лица под глазом",
+    "shortClue": "Румяная часть лица"
+  },
+  {
+    "word": "палец",
+    "topics": ["general"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Один из пяти на кисти руки",
+    "shortClue": "Часть кисти"
+  },
+  {
+    "word": "кулак",
+    "topics": ["general"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Сжатая в комок кисть руки",
+    "shortClue": "Сжатая кисть"
+  },
+  {
+    "word": "подбородок",
+    "topics": ["general"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Нижняя выступающая часть лица",
+    "shortClue": "Низ лица"
+  },
+  {
+    "word": "висок",
+    "topics": ["general"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Часть головы между глазом и ухом",
+    "shortClue": "Часть головы"
+  },
+  {
+    "word": "ноготь",
+    "topics": ["general"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Роговая пластинка на кончике пальца",
+    "shortClue": "Пластинка на пальце"
+  },
+  {
+    "word": "пятка",
+    "topics": ["general"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Задняя часть стопы",
+    "shortClue": "Часть стопы"
+  },
+  {
+    "word": "локон",
+    "topics": ["general"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Завиток волос на голове",
+    "shortClue": "Завиток волос"
+  },
+  {
+    "word": "грудь",
+    "topics": ["general"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Передняя часть туловища выше живота",
+    "shortClue": "Часть туловища"
+  },
+  {
+    "word": "спина",
+    "topics": ["general"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Задняя часть туловища",
+    "shortClue": "Тыл туловища"
+  },
+  {
+    "word": "рассвет",
+    "topics": ["general"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Время, когда небо на востоке розовеет",
+    "shortClue": "Утренняя заря"
+  },
+  {
+    "word": "будни",
+    "topics": ["general"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Рабочая часть недели",
+    "shortClue": "Не выходные"
+  },
+  {
+    "word": "понедельник",
+    "topics": ["general"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Тяжёлый день, с которого начинаются будни",
+    "shortClue": "Тяжёлый день"
+  },
+  {
+    "word": "пятница",
+    "topics": ["general"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Канун выходных",
+    "shortClue": "Канун выходных"
+  },
+  {
+    "word": "февраль",
+    "topics": ["general"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Самый короткий месяц года",
+    "shortClue": "Короткий месяц"
+  },
+  {
+    "word": "август",
+    "topics": ["general"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Последний месяц лета",
+    "shortClue": "Конец лета"
+  },
+  {
+    "word": "секунда",
+    "topics": ["general"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Шестидесятая часть минуты",
+    "shortClue": "Часть минуты"
+  },
+  {
+    "word": "эпоха",
+    "topics": ["general"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Длительный период истории с особым обликом",
+    "shortClue": "Период истории"
+  },
+  {
+    "word": "каникулы",
+    "topics": ["general"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Школьный отдых между четвертями",
+    "shortClue": "Школьный отдых"
+  },
+  {
+    "word": "отпуск",
+    "topics": ["general"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Оплачиваемый перерыв в работе",
+    "shortClue": "Перерыв в работе"
+  },
+  {
+    "word": "привычка",
+    "topics": ["general"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "То, что человек делает не задумываясь",
+    "shortClue": "Вторая натура"
+  },
+  {
+    "word": "печаль",
+    "topics": ["general"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Тихая грусть, лёгкая скорбь",
+    "shortClue": "Тихая грусть"
+  },
+  {
+    "word": "надежда",
+    "topics": ["general"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Вера в лучшее, умирающая последней",
+    "shortClue": "Умирает последней"
+  },
+  {
+    "word": "тревога",
+    "topics": ["general"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Беспокойное предчувствие беды",
+    "shortClue": "Предчувствие беды"
+  },
+  {
+    "word": "смелость",
+    "topics": ["general"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Готовность идти навстречу опасности",
+    "shortClue": "Не знает страха"
+  },
+  {
+    "word": "упрямство",
+    "topics": ["general"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Нежелание уступать вопреки доводам",
+    "shortClue": "Нежелание уступать"
+  },
+  {
+    "word": "доброта",
+    "topics": ["general"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Отзывчивость к чужой беде",
+    "shortClue": "Отзывчивость"
+  },
+  {
+    "word": "скромность",
+    "topics": ["general"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Нежелание выставлять себя напоказ",
+    "shortClue": "Отсутствие хвастовства"
+  },
+  {
+    "word": "ссора",
+    "topics": ["general"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Резкая размолвка между близкими",
+    "shortClue": "Резкая размолвка"
+  },
+  {
+    "word": "забота",
+    "topics": ["general"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Внимательное отношение к тем, кто рядом",
+    "shortClue": "Внимание к близким"
+  },
+  {
+    "word": "обещание",
+    "topics": ["general"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Данное слово, которое нужно сдержать",
+    "shortClue": "Данное слово"
+  },
+  {
+    "word": "слава",
+    "topics": ["general"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Широкая известность и признание",
+    "shortClue": "Громкая известность"
+  },
+  {
+    "word": "мода",
+    "topics": ["general"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Диктует, что сейчас носят",
+    "shortClue": "Диктует, что носить"
+  },
+  {
+    "word": "вещь",
+    "topics": ["general"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Предмет обихода",
+    "shortClue": "Предмет обихода"
+  },
+  {
+    "word": "мелочь",
+    "topics": ["general"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Пустяк; монеты, звенящие в кармане",
+    "shortClue": "Звон в кармане"
+  },
+  {
+    "word": "порядок",
+    "topics": ["general"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Когда всё лежит на своих местах",
+    "shortClue": "Всё на местах"
+  },
+  {
+    "word": "билет",
+    "topics": ["general"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Бумажка для входа в театр или посадки в поезд",
+    "shortClue": "Пропуск в театр"
+  },
+  {
+    "word": "багаж",
+    "topics": ["general"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Чемоданы и сумки пассажира",
+    "shortClue": "Вещи пассажира"
+  },
+  {
+    "word": "чемодан",
+    "topics": ["general"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Вместилище вещей в дальнюю поездку",
+    "shortClue": "Дорожный ящик"
+  },
+  {
+    "word": "вокзал",
+    "topics": ["general"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Здание, где ждут поезда",
+    "shortClue": "Здание для поездов"
+  },
+  {
+    "word": "купе",
+    "topics": ["general"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Отсек пассажирского вагона",
+    "shortClue": "Отсек вагона"
+  },
+  {
+    "word": "тротуар",
+    "topics": ["general"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Дорожка для пешеходов вдоль улицы",
+    "shortClue": "Для пешеходов"
+  },
+  {
+    "word": "перекрёсток",
+    "topics": ["general"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Место пересечения двух дорог",
+    "shortClue": "Пересечение дорог"
+  },
+  {
+    "word": "светофор",
+    "topics": ["general"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Трёхцветный регулировщик движения",
+    "shortClue": "Трёхцветный регулировщик"
+  },
+  {
+    "word": "трамвай",
+    "topics": ["general"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Рельсовый городской транспорт с дугой на крыше",
+    "shortClue": "Рельсовый транспорт"
+  },
+  {
+    "word": "остановка",
+    "topics": ["general"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Место, где пассажиры ждут транспорт",
+    "shortClue": "Место ожидания"
+  },
+  {
+    "word": "простуда",
+    "topics": ["general"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Недомогание после сильного холода",
+    "shortClue": "Хворь от холода"
+  },
+  {
+    "word": "температура",
+    "topics": ["general"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Показание градусника",
+    "shortClue": "Градусы на шкале"
+  },
+  {
+    "word": "аппетит",
+    "topics": ["general"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Желание поесть; приходит во время еды",
+    "shortClue": "Приходит с едой"
+  },
+  {
+    "word": "усталость",
+    "topics": ["general"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Чувство разбитости после тяжёлого дня",
+    "shortClue": "Разбитость"
+  },
+  {
+    "word": "отдых",
+    "topics": ["general"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Передышка от трудов",
+    "shortClue": "Передышка"
+  },
+  {
+    "word": "фотография",
+    "topics": ["general"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Снимок на память",
+    "shortClue": "Снимок на память"
+  },
+  {
+    "word": "открытка",
+    "topics": ["general"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Поздравление на картоне, которое шлют по почте",
+    "shortClue": "Поздравление на картоне"
+  },
+  {
+    "word": "марка",
+    "topics": ["general"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Значок на конверте, оплачивающий доставку",
+    "shortClue": "Оплата доставки"
+  },
+  {
+    "word": "адрес",
+    "topics": ["general"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Улица, дом и квартира получателя",
+    "shortClue": "Куда писать"
+  },
+  {
+    "word": "заголовок",
+    "topics": ["general"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Крупная фраза над текстом статьи",
+    "shortClue": "Фраза над статьёй"
+  },
+  {
+    "word": "пенал",
+    "topics": ["general"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Футляр для ручек и карандашей",
+    "shortClue": "Футляр для ручек"
+  },
+  {
+    "word": "линейка",
+    "topics": ["general"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Чертёжный инструмент с делениями",
+    "shortClue": "Инструмент с делениями"
+  },
+  {
+    "word": "перемена",
+    "topics": ["general"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Короткий отдых между уроками",
+    "shortClue": "Отдых между уроками"
+  },
+  {
+    "word": "урок",
+    "topics": ["general"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Сорок пять минут в классе",
+    "shortClue": "Школьное занятие"
+  },
+  {
+    "word": "оценка",
+    "topics": ["general"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Балл, который ставят в дневник",
+    "shortClue": "Балл в дневнике"
+  },
+  {
+    "word": "град",
+    "topics": ["general"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Ледяные шарики, падающие с неба",
+    "shortClue": "Ледяные шарики"
+  },
+  {
+    "word": "мороз",
+    "topics": ["general"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Сильный холод зимой",
+    "shortClue": "Лютый холод"
+  },
+  {
+    "word": "жара",
+    "topics": ["general"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Очень высокая летняя температура",
+    "shortClue": "Летнее пекло"
+  },
+  {
+    "word": "зной",
+    "topics": ["general"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Палящий воздух над раскалённым песком",
+    "shortClue": "Палящий воздух"
+  },
+  {
+    "word": "пятно",
+    "topics": ["general"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Грязная метка на скатерти",
+    "shortClue": "Грязная метка"
+  },
+  {
+    "word": "шрам",
+    "topics": ["general"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Рубец на месте зажившей раны",
+    "shortClue": "Рубец после раны"
+  },
+  {
+    "word": "узел",
+    "topics": ["general"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Сплетение концов верёвки",
+    "shortClue": "Затянутая верёвка"
+  },
+  {
+    "word": "рубеж",
+    "topics": ["general"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Граница, предельная черта",
+    "shortClue": "Предельная черта"
+  },
+  {
+    "word": "итог",
+    "topics": ["general"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Результат подсчёта",
+    "shortClue": "Результат подсчёта"
+  },
+  {
+    "word": "причина",
+    "topics": ["general"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "То, что порождает следствие",
+    "shortClue": "Порождает следствие"
+  },
+  {
+    "word": "цель",
+    "topics": ["general"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "То, к чему направлены усилия",
+    "shortClue": "К чему стремятся"
+  },
+  {
+    "word": "план",
+    "topics": ["general"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Намеченная последовательность действий",
+    "shortClue": "Намеченные действия"
+  },
+  {
+    "word": "шанс",
+    "topics": ["general"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Благоприятный случай",
+    "shortClue": "Удачный случай"
+  },
+  {
+    "word": "риск",
+    "topics": ["general"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Опасность, на которую идут ради успеха",
+    "shortClue": "Опасная затея"
+  },
+  {
+    "word": "долг",
+    "topics": ["general"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Занятое, подлежащее возврату",
+    "shortClue": "Занятые деньги"
+  },
+  {
+    "word": "вред",
+    "topics": ["general"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Ущерб, урон",
+    "shortClue": "Урон"
+  },
+  {
+    "word": "хандра",
+    "topics": ["general"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Затяжная тоска без видимой причины",
+    "shortClue": "Затяжная тоска"
+  },
+  {
+    "word": "прихоть",
+    "topics": ["general"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Каприз, внезапная блажь",
+    "shortClue": "Каприз"
+  },
+  {
+    "word": "уловка",
+    "topics": ["general"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Хитрый приём, чтобы обмануть",
+    "shortClue": "Хитрый приём"
+  },
+  {
+    "word": "затея",
+    "topics": ["general"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Задуманное дело, часто рискованное",
+    "shortClue": "Задуманное дело"
+  },
+  {
+    "word": "раздор",
+    "topics": ["general"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Вражда и несогласие внутри семьи или народа",
+    "shortClue": "Вражда внутри"
+  },
+  {
+    "word": "смятение",
+    "topics": ["general"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Растерянность, душевная сумятица",
+    "shortClue": "Душевная сумятица"
+  },
+  {
+    "word": "замешательство",
+    "topics": ["general"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Минутная растерянность от неожиданности",
+    "shortClue": "Минутная растерянность"
+  },
+  {
+    "word": "невзгода",
+    "topics": ["general"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Жизненная беда, тяготы",
+    "shortClue": "Жизненная беда"
+  },
+  {
+    "word": "недуг",
+    "topics": ["general"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Хворь, нездоровье",
+    "shortClue": "Хворь"
+  },
+  {
+    "word": "крапива",
+    "topics": ["nature"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Жгучая сорная трава",
+    "shortClue": "Обжигающая трава"
+  },
+  {
+    "word": "лопух",
+    "topics": ["nature"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Сорняк с огромными листьями и цепкими репьями",
+    "shortClue": "Широколистый сорняк"
+  },
+  {
+    "word": "тополь",
+    "topics": ["nature"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Дерево, пух которого летит в июне",
+    "shortClue": "Пух в июне"
+  },
+  {
+    "word": "сирень",
+    "topics": ["nature"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Весенний куст с душистыми гроздьями",
+    "shortClue": "Весенний куст"
+  },
+  {
+    "word": "малина",
+    "topics": ["nature"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Душистая ягода, которую заваривают при простуде",
+    "shortClue": "Ягода при простуде"
+  },
+  {
+    "word": "смородина",
+    "topics": ["nature"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Кустовая ягода, чёрная или красная",
+    "shortClue": "Чёрная ягода"
+  },
+  {
+    "word": "клюква",
+    "topics": ["nature"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Кислая ягода болот",
+    "shortClue": "Болотная ягода"
+  },
+  {
+    "word": "черника",
+    "topics": ["nature"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Тёмная лесная ягода, окрашивающая язык",
+    "shortClue": "Тёмная лесная ягода"
+  },
+  {
+    "word": "тропа",
+    "topics": ["nature"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Узкая дорожка, протоптанная в лесу",
+    "shortClue": "Лесная дорожка"
+  },
+  {
+    "word": "поляна",
+    "topics": ["nature"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Открытое место среди деревьев",
+    "shortClue": "Лесная лужайка"
+  },
+  {
+    "word": "хвоя",
+    "topics": ["nature"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Иглы сосны и ели",
+    "shortClue": "Колючие иглы"
+  },
+  {
+    "word": "смола",
+    "topics": ["nature"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Липкий душистый сок хвойных",
+    "shortClue": "Липкий сок"
+  },
+  {
+    "word": "кора",
+    "topics": ["nature"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Покров ствола дерева",
+    "shortClue": "Одёжка ствола"
+  },
+  {
+    "word": "пень",
+    "topics": ["nature"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Остаток спиленного дерева",
+    "shortClue": "Остаток ствола"
+  },
+  {
+    "word": "дупло",
+    "topics": ["nature"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Углубление в стволе, где селятся белки и совы",
+    "shortClue": "Полость в стволе"
+  },
+  {
+    "word": "бриз",
+    "topics": ["nature"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Лёгкий ветерок с моря на берег",
+    "shortClue": "Морской ветерок"
+  },
+  {
+    "word": "шторм",
+    "topics": ["nature"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Сильное волнение на море",
+    "shortClue": "Буря на море"
+  },
+  {
+    "word": "валун",
+    "topics": ["nature"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Огромный округлый камень на поле",
+    "shortClue": "Огромный камень"
+  },
+  {
+    "word": "песок",
+    "topics": ["nature"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Рассыпчатая масса мелких зёрен на пляже",
+    "shortClue": "Россыпь пляжа"
+  },
+  {
+    "word": "глина",
+    "topics": ["nature"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Вязкая земля, из которой лепят горшки",
+    "shortClue": "Горшечная земля"
+  },
+  {
+    "word": "заморозок",
+    "topics": ["nature"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Ночное похолодание ниже нуля весной или осенью",
+    "shortClue": "Ночной холод"
+  },
+  {
+    "word": "капель",
+    "topics": ["nature"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Весенний перезвон талой воды с крыш",
+    "shortClue": "Весенний перезвон"
+  },
+  {
+    "word": "паводок",
+    "topics": ["nature"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Быстрый подъём воды в реке после дождей или таяния",
+    "shortClue": "Подъём воды"
+  },
+  {
+    "word": "солнце",
+    "topics": ["nature"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Дневное светило, дающее тепло",
+    "shortClue": "Дневное светило"
+  },
+  {
+    "word": "луна",
+    "topics": ["nature"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Ночное светило, спутник Земли",
+    "shortClue": "Ночное светило"
+  },
+  {
+    "word": "тигр",
+    "topics": ["animals"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Полосатый хищник уссурийской тайги",
+    "shortClue": "Полосатый хищник"
+  },
+  {
+    "word": "бегемот",
+    "topics": ["animals"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Любитель воды в Африке с огромной пастью",
+    "shortClue": "Речной великан"
+  },
+  {
+    "word": "верблюд",
+    "topics": ["animals"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Корабль пустыни",
+    "shortClue": "Корабль пустыни"
+  },
+  {
+    "word": "обезьяна",
+    "topics": ["animals"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Ловкая жительница тропиков, любящая бананы",
+    "shortClue": "Любит бананы"
+  },
+  {
+    "word": "крокодил",
+    "topics": ["animals"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Зубастый хищник нильских берегов",
+    "shortClue": "Нильский хищник"
+  },
+  {
+    "word": "кенгуру",
+    "topics": ["animals"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Австралийский прыгун с сумкой на животе",
+    "shortClue": "Прыгун с сумкой"
+  },
+  {
+    "word": "зубр",
+    "topics": ["animals"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Крупный лесной бык, живущий в Беловежской пуще",
+    "shortClue": "Лесной бык"
+  },
+  {
+    "word": "песец",
+    "topics": ["animals"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Полярная лиса с белоснежным мехом",
+    "shortClue": "Полярная лиса"
+  },
+  {
+    "word": "тюлень",
+    "topics": ["animals"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Морской зверь с гладкой шкурой, ныряющий за рыбой",
+    "shortClue": "Морской зверь"
+  },
+  {
+    "word": "морж",
+    "topics": ["animals"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Клыкастый великан арктических льдин",
+    "shortClue": "Клыкастый великан"
+  },
+  {
+    "word": "дельфин",
+    "topics": ["animals"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Умное морское млекопитающее, любящее играть с кораблями",
+    "shortClue": "Умное млекопитающее"
+  },
+  {
+    "word": "краб",
+    "topics": ["animals"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Ракообразное с клешнями, шагающее боком",
+    "shortClue": "Ходит боком"
+  },
+  {
+    "word": "воробей",
+    "topics": ["animals"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Серая шустрая птичка, частая гостья городских дворов",
+    "shortClue": "Серая птичка"
+  },
+  {
+    "word": "синица",
+    "topics": ["animals"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Птичка, которая лучше журавля в небе",
+    "shortClue": "Лучше журавля"
+  },
+  {
+    "word": "ворона",
+    "topics": ["animals"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Птица из басни Крылова, уронившая сыр к ногам лисицы",
+    "shortClue": "Героиня басни"
+  },
+  {
+    "word": "сорока",
+    "topics": ["animals"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Белобокая болтливая птица, любящая блестящее",
+    "shortClue": "Белобокая стрекотунья"
+  },
+  {
+    "word": "грач",
+    "topics": ["animals"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Чёрная птица, прилетающая на пашню ранней весной",
+    "shortClue": "Вестник весны"
+  },
+  {
+    "word": "кукушка",
+    "topics": ["animals"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Птица, которая считает людям годы",
+    "shortClue": "Считает годы"
+  },
+  {
+    "word": "цапля",
+    "topics": ["animals"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Длинноногая болотная птица, замирающая на одной ноге",
+    "shortClue": "Длинноногая птица"
+  },
+  {
+    "word": "пингвин",
+    "topics": ["animals"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Нелетающая птица антарктических льдов",
+    "shortClue": "Птица Антарктиды"
+  },
+  {
+    "word": "карп",
+    "topics": ["animals"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Прудовая рыба, одомашненная человеком",
+    "shortClue": "Прудовая рыба"
+  },
+  {
+    "word": "камбала",
+    "topics": ["animals"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Плоская морская рыба с обоими глазами на одной стороне",
+    "shortClue": "Плоская рыба"
+  },
+  {
+    "word": "муравей",
+    "topics": ["animals"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Лесной трудяга, строящий большую кучу из хвои",
+    "shortClue": "Лесной трудяга"
+  },
+  {
+    "word": "кузнечик",
+    "topics": ["animals"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Зелёный стрекотун луга, прыгающий на длинных ногах",
+    "shortClue": "Зелёный стрекотун"
+  },
+  {
+    "word": "светлячок",
+    "topics": ["animals"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Жук, мерцающий в ночной траве огоньком",
+    "shortClue": "Жук с огоньком"
+  },
+  {
+    "word": "корова",
+    "topics": ["animals"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Домашнее животное, дающее молоко",
+    "shortClue": "Даёт молоко"
+  },
+  {
+    "word": "коршун",
+    "topics": ["animals"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Хищная птица, кружащая над полем",
+    "shortClue": "Хищная птица"
+  },
+  {
+    "word": "иволга",
+    "topics": ["animals"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Золотистая певунья с флейтовым голосом",
+    "shortClue": "Жёлтая певунья"
+  },
+  {
+    "word": "нарвал",
+    "topics": ["animals"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Арктический кит с длинным бивнем, морской единорог",
+    "shortClue": "Морской единорог"
+  },
+  {
+    "word": "выпь",
+    "topics": ["animals"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Болотная птица, издающая гулкий низкий крик",
+    "shortClue": "Болотная птица"
+  },
+  {
+    "word": "дрофа",
+    "topics": ["animals"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Тяжёлая степная птица, плохо летающая",
+    "shortClue": "Степная птица"
+  },
+  {
+    "word": "попугай",
+    "topics": ["animals"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Яркая птица, повторяющая слова",
+    "shortClue": "Повторяет слова"
+  },
+  {
+    "word": "пельмени",
+    "topics": ["food"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Сибирские комочки теста с мясной начинкой",
+    "shortClue": "Тесто с мясом"
+  },
+  {
+    "word": "оладьи",
+    "topics": ["food"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Пышные кругляши из теста на сковороде",
+    "shortClue": "Пышные лепёшки"
+  },
+  {
+    "word": "пирог",
+    "topics": ["food"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Запечённое тесто с начинкой",
+    "shortClue": "Выпечка с начинкой"
+  },
+  {
+    "word": "бублик",
+    "topics": ["food"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Хлебное колечко с дырочкой",
+    "shortClue": "Колечко с дыркой"
+  },
+  {
+    "word": "котлета",
+    "topics": ["food"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Жареная лепёшка из фарша",
+    "shortClue": "Жареный фарш"
+  },
+  {
+    "word": "колбаса",
+    "topics": ["food"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Мясной батон в оболочке",
+    "shortClue": "Мясной батон"
+  },
+  {
+    "word": "сметана",
+    "topics": ["food"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Густая белая добавка к борщу",
+    "shortClue": "Добавка к борщу"
+  },
+  {
+    "word": "огурец",
+    "topics": ["food"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Зелёный овощ для засолки",
+    "shortClue": "Зелёный овощ"
+  },
+  {
+    "word": "помидор",
+    "topics": ["food"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Красный овощ для салата",
+    "shortClue": "Красный овощ"
+  },
+  {
+    "word": "капуста",
+    "topics": ["food"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Овощ с кочаном, идущий на щи",
+    "shortClue": "Овощ с кочаном"
+  },
+  {
+    "word": "морковь",
+    "topics": ["food"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Оранжевый корнеплод, любимец зайцев",
+    "shortClue": "Оранжевый корнеплод"
+  },
+  {
+    "word": "свёкла",
+    "topics": ["food"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Бордовый корнеплод для борща и винегрета",
+    "shortClue": "Бордовый корнеплод"
+  },
+  {
+    "word": "горох",
+    "topics": ["food"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Зелёные шарики в стручках",
+    "shortClue": "Зелёные шарики"
+  },
+  {
+    "word": "чечевица",
+    "topics": ["food"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Плоские зёрна бобового растения для похлёбки",
+    "shortClue": "Бобовое зерно"
+  },
+  {
+    "word": "овёс",
+    "topics": ["food"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Злак для лошадей и каши",
+    "shortClue": "Лошадиный корм"
+  },
+  {
+    "word": "мука",
+    "topics": ["food"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Порошок из размолотого зерна для теста",
+    "shortClue": "Порошок для теста"
+  },
+  {
+    "word": "уксус",
+    "topics": ["food"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Кислая жидкость для маринада",
+    "shortClue": "Кислая приправа"
+  },
+  {
+    "word": "лимон",
+    "topics": ["food"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Жёлтый кислый цитрус",
+    "shortClue": "Кислый цитрус"
+  },
+  {
+    "word": "арбуз",
+    "topics": ["food"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Полосатая ягода с алой мякотью",
+    "shortClue": "Полосатая ягода"
+  },
+  {
+    "word": "компот",
+    "topics": ["food"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Напиток из сваренных фруктов",
+    "shortClue": "Фруктовый напиток"
+  },
+  {
+    "word": "какао",
+    "topics": ["food"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Порошок из бобов для горячего напитка",
+    "shortClue": "Шоколадный порошок"
+  },
+  {
+    "word": "шашлык",
+    "topics": ["food"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Мясо на шампурах над углями",
+    "shortClue": "Мясо на углях"
+  },
+  {
+    "word": "повидло",
+    "topics": ["food"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Густая фруктовая масса для начинки пирожков",
+    "shortClue": "Густая начинка"
+  },
+  {
+    "word": "желе",
+    "topics": ["food"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Дрожащее сладкое лакомство",
+    "shortClue": "Дрожащее лакомство"
+  },
+  {
+    "word": "ирис",
+    "topics": ["food"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Тянучая конфета",
+    "shortClue": "Тянучая конфета"
+  },
+  {
+    "word": "сухарь",
+    "topics": ["food"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Подсушенный кусочек хлеба",
+    "shortClue": "Подсушенный хлеб"
+  },
+  {
+    "word": "море",
+    "topics": ["geography"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Часть океана, омывающая берега",
+    "shortClue": "Часть океана"
+  },
+  {
+    "word": "долина",
+    "topics": ["geography"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Низкое место между горами",
+    "shortClue": "Между горами"
+  },
+  {
+    "word": "склон",
+    "topics": ["geography"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Наклонная поверхность горы",
+    "shortClue": "Бок горы"
+  },
+  {
+    "word": "дюна",
+    "topics": ["geography"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Песчаный холм, созданный ветром",
+    "shortClue": "Песчаный холм"
+  },
+  {
+    "word": "риф",
+    "topics": ["geography"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Подводная гряда у берега",
+    "shortClue": "Подводная гряда"
+  },
+  {
+    "word": "отмель",
+    "topics": ["geography"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Мелкое место в реке или у моря",
+    "shortClue": "Мелкое место"
+  },
+  {
+    "word": "параллель",
+    "topics": ["geography"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Линия на глобусе, идущая с запада на восток",
+    "shortClue": "Линия на глобусе"
+  },
+  {
+    "word": "глобус",
+    "topics": ["geography"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Модель Земли на подставке",
+    "shortClue": "Модель Земли"
+  },
+  {
+    "word": "компас",
+    "topics": ["geography"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Прибор со стрелкой, показывающей на север",
+    "shortClue": "Стрелка на север"
+  },
+  {
+    "word": "столица",
+    "topics": ["geography"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Главный город страны",
+    "shortClue": "Главный город"
+  },
+  {
+    "word": "порт",
+    "topics": ["geography"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Место, где швартуются корабли",
+    "shortClue": "Корабельная стоянка"
+  },
+  {
+    "word": "маяк",
+    "topics": ["geography"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Башня, светящая морякам в ночи",
+    "shortClue": "Башня для моряков"
+  },
+  {
+    "word": "плотина",
+    "topics": ["geography"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Преграда, поднимающая уровень воды в реке",
+    "shortClue": "Преграда на реке"
+  },
+  {
+    "word": "Ангара",
+    "topics": ["geography"],
+    "difficulty": 2,
+    "kind": "proper",
+    "clue": "Единственная река, вытекающая из Байкала",
+    "shortClue": "Река из Байкала"
+  },
+  {
+    "word": "Иртыш",
+    "topics": ["geography"],
+    "difficulty": 2,
+    "kind": "proper",
+    "clue": "Крупнейший приток Оби",
+    "shortClue": "Приток Оби"
+  },
+  {
+    "word": "Кама",
+    "topics": ["geography"],
+    "difficulty": 2,
+    "kind": "proper",
+    "clue": "Крупнейший левый приток Волги",
+    "shortClue": "Приток Волги"
+  },
+  {
+    "word": "Ярославль",
+    "topics": ["geography"],
+    "difficulty": 2,
+    "kind": "proper",
+    "clue": "Город Золотого кольца на Волге с медведем на гербе",
+    "shortClue": "Город с медведем"
+  },
+  {
+    "word": "Сахалин",
+    "topics": ["geography"],
+    "difficulty": 2,
+    "kind": "proper",
+    "clue": "Крупнейший остров России на Дальнем Востоке",
+    "shortClue": "Остров России"
+  },
+  {
+    "word": "Кавказ",
+    "topics": ["geography"],
+    "difficulty": 2,
+    "kind": "proper",
+    "clue": "Горная страна между Чёрным и Каспийским морями",
+    "shortClue": "Горная страна"
+  },
+  {
+    "word": "Альпы",
+    "topics": ["geography"],
+    "difficulty": 2,
+    "kind": "proper",
+    "clue": "Горы с Монбланом",
+    "shortClue": "Горы с Монбланом"
+  },
+  {
+    "word": "Сахара",
+    "topics": ["geography"],
+    "difficulty": 1,
+    "kind": "proper",
+    "clue": "Крупнейшая жаркая пустыня мира",
+    "shortClue": "Африканская пустыня"
+  },
+  {
+    "word": "Эверест",
+    "topics": ["geography"],
+    "difficulty": 2,
+    "kind": "proper",
+    "clue": "Высочайшая вершина мира",
+    "shortClue": "Высочайшая вершина"
+  },
+  {
+    "word": "Антарктида",
+    "topics": ["geography"],
+    "difficulty": 2,
+    "kind": "proper",
+    "clue": "Ледяной материк вокруг Южного полюса",
+    "shortClue": "Южный материк"
+  },
+  {
+    "word": "Везувий",
+    "topics": ["geography"],
+    "difficulty": 3,
+    "kind": "proper",
+    "clue": "Вулкан над Неаполитанским заливом",
+    "shortClue": "Вулкан у Неаполя"
+  },
+  {
+    "word": "рыцарь",
+    "topics": ["history"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Средневековый воин в латах, верный даме сердца",
+    "shortClue": "Воин в латах"
+  },
+  {
+    "word": "крепость",
+    "topics": ["history"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Сооружение с башнями и стенами для обороны",
+    "shortClue": "Стены и башни"
+  },
+  {
+    "word": "меч",
+    "topics": ["history"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Длинное клинковое оружие рыцаря",
+    "shortClue": "Рыцарский клинок"
+  },
+  {
+    "word": "щит",
+    "topics": ["history"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Вооружение воина, закрывающее его от ударов",
+    "shortClue": "Броня на руке"
+  },
+  {
+    "word": "корона",
+    "topics": ["history"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Золотой убор монарха",
+    "shortClue": "Убор монарха"
+  },
+  {
+    "word": "наследник",
+    "topics": ["history"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Тот, кому достанется трон после монарха",
+    "shortClue": "Будущий монарх"
+  },
+  {
+    "word": "указ",
+    "topics": ["history"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Распоряжение монарха",
+    "shortClue": "Приказ монарха"
+  },
+  {
+    "word": "фараон",
+    "topics": ["history"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Правитель Древнего Египта",
+    "shortClue": "Правитель Египта"
+  },
+  {
+    "word": "обелиск",
+    "topics": ["history"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Высокий четырёхгранный каменный столб",
+    "shortClue": "Каменный столб"
+  },
+  {
+    "word": "иероглиф",
+    "topics": ["history"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Знак древнеегипетского письма",
+    "shortClue": "Знак письма"
+  },
+  {
+    "word": "дань",
+    "topics": ["history"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Подать, которую платили покорённые",
+    "shortClue": "Подать победителю"
+  },
+  {
+    "word": "оброк",
+    "topics": ["history"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Плата помещику натурой или деньгами",
+    "shortClue": "Плата помещику"
+  },
+  {
+    "word": "барщина",
+    "topics": ["history"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Работа крепостного на земле помещика",
+    "shortClue": "Труд на помещика"
+  },
+  {
+    "word": "посад",
+    "topics": ["history"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Поселение ремесленников и торговцев у городских стен",
+    "shortClue": "Предместье"
+  },
+  {
+    "word": "парик",
+    "topics": ["history"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Накладные волосы, модные при дворе",
+    "shortClue": "Накладные волосы"
+  },
+  {
+    "word": "камзол",
+    "topics": ["history"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Короткая приталенная мужская одежда восемнадцатого века",
+    "shortClue": "Старинная одежда"
+  },
+  {
+    "word": "гривенник",
+    "topics": ["history"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Старая монета в десять копеек",
+    "shortClue": "Десять копеек"
+  },
+  {
+    "word": "пядь",
+    "topics": ["history"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Старинная мера длины между раздвинутыми пальцами",
+    "shortClue": "Старинная мера"
+  },
+  {
+    "word": "миля",
+    "topics": ["history"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Морская единица длины",
+    "shortClue": "Морская мера"
+  },
+  {
+    "word": "фунт",
+    "topics": ["history"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Старинная мера веса, ныне ещё и валюта Британии",
+    "shortClue": "Мера веса"
+  },
+  {
+    "word": "форум",
+    "topics": ["history"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Главная площадь в Древнем Риме",
+    "shortClue": "Римская площадь"
+  },
+  {
+    "word": "патриций",
+    "topics": ["history"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Знатный римлянин, представитель аристократии",
+    "shortClue": "Знатный римлянин"
+  },
+  {
+    "word": "центурион",
+    "topics": ["history"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Командир сотни в римском легионе",
+    "shortClue": "Командир сотни"
+  },
+  {
+    "word": "агора",
+    "topics": ["history"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Рыночная площадь Древней Греции, место собраний",
+    "shortClue": "Площадь Афин"
+  },
+  {
+    "word": "оруженосец",
+    "topics": ["history"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Помощник рыцаря, подающий копьё и доспехи",
+    "shortClue": "Слуга рыцаря"
+  },
+  {
+    "word": "менестрель",
+    "topics": ["history"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Странствующий певец средневековья",
+    "shortClue": "Странствующий певец"
+  },
+  {
+    "word": "пергамент",
+    "topics": ["history"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Тонко выделанная телячья кожа для письма",
+    "shortClue": "Кожа для письма"
+  },
+  {
+    "word": "натрий",
+    "topics": ["science"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Мягкий металл, входящий в состав поваренной соли",
+    "shortClue": "Металл в соли"
+  },
+  {
+    "word": "хлор",
+    "topics": ["science"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Жёлтый с зелёным оттенком газ для обеззараживания воды",
+    "shortClue": "Газ для бассейнов"
+  },
+  {
+    "word": "сера",
+    "topics": ["science"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Жёлтое горючее вещество, входящее в спичечные головки",
+    "shortClue": "Жёлтый порошок"
+  },
+  {
+    "word": "йод",
+    "topics": ["science"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Коричневая жидкость для обработки ранок",
+    "shortClue": "Жидкость для ранок"
+  },
+  {
+    "word": "кремний",
+    "topics": ["science"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Элемент, из которого делают микросхемы и стекло",
+    "shortClue": "Элемент чипов"
+  },
+  {
+    "word": "титан",
+    "topics": ["science"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Лёгкий прочный металл авиации и космоса",
+    "shortClue": "Лёгкий прочный металл"
+  },
+  {
+    "word": "озон",
+    "topics": ["science"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Газ защитного слоя атмосферы",
+    "shortClue": "Защитный газ атмосферы"
+  },
+  {
+    "word": "гипотенуза",
+    "topics": ["science"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Самая длинная сторона прямоугольного треугольника",
+    "shortClue": "Сторона треугольника"
+  },
+  {
+    "word": "треугольник",
+    "topics": ["science"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Фигура с тремя вершинами и тремя сторонами",
+    "shortClue": "Три вершины"
+  },
+  {
+    "word": "окружность",
+    "topics": ["science"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Замкнутая кривая, все точки которой равноудалены от центра",
+    "shortClue": "Кривая вокруг центра"
+  },
+  {
+    "word": "интеграл",
+    "topics": ["science"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Понятие математического анализа, обратное производной",
+    "shortClue": "Обратное производной"
+  },
+  {
+    "word": "логарифм",
+    "topics": ["science"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Показатель степени, в которую возводят основание",
+    "shortClue": "Показатель степени"
+  },
+  {
+    "word": "энергия",
+    "topics": ["science"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Способность тела совершать работу",
+    "shortClue": "Способность к работе"
+  },
+  {
+    "word": "амплитуда",
+    "topics": ["science"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Наибольшее отклонение колеблющейся величины",
+    "shortClue": "Размах колебаний"
+  },
+  {
+    "word": "резонанс",
+    "topics": ["science"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Резкий рост колебаний при совпадении частот",
+    "shortClue": "Усиление колебаний"
+  },
+  {
+    "word": "термометр",
+    "topics": ["science"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Прибор для измерения температуры",
+    "shortClue": "Измеритель температуры"
+  },
+  {
+    "word": "секундомер",
+    "topics": ["science"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Часы, засекающие время забега",
+    "shortClue": "Спортивные часы"
+  },
+  {
+    "word": "невесомость",
+    "topics": ["science"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Парение космонавта на орбите",
+    "shortClue": "Парение на орбите"
+  },
+  {
+    "word": "бактерия",
+    "topics": ["science"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Одноклеточный микроорганизм",
+    "shortClue": "Одноклеточный микроб"
+  },
+  {
+    "word": "иммунитет",
+    "topics": ["science"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Защитная способность организма против инфекций",
+    "shortClue": "Защита организма"
+  },
+  {
+    "word": "мышца",
+    "topics": ["science"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Орган движения, который можно накачать",
+    "shortClue": "Орган движения"
+  },
+  {
+    "word": "скелет",
+    "topics": ["science"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Костяк тела",
+    "shortClue": "Костяк"
+  },
+  {
+    "word": "хрящ",
+    "topics": ["science"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Упругая ткань ушей и носа",
+    "shortClue": "Упругая ткань"
+  },
+  {
+    "word": "железо",
+    "topics": ["science"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Металл, из которого делают гвозди и рельсы",
+    "shortClue": "Металл для гвоздей"
+  },
+  {
+    "word": "золото",
+    "topics": ["science"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Жёлтый драгоценный металл",
+    "shortClue": "Жёлтый металл"
+  },
+  {
+    "word": "теннис",
+    "topics": ["sport"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Игра ракетками через сетку",
+    "shortClue": "Игра с ракетками"
+  },
+  {
+    "word": "гольф",
+    "topics": ["sport"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Игра клюшками с лунками на лугу",
+    "shortClue": "Клюшки и лунки"
+  },
+  {
+    "word": "регби",
+    "topics": ["sport"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Командная игра с овальным мячом",
+    "shortClue": "Овальный мяч"
+  },
+  {
+    "word": "борьба",
+    "topics": ["sport"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Состязание, где побеждают захватами",
+    "shortClue": "Схватка на ковре"
+  },
+  {
+    "word": "дзюдо",
+    "topics": ["sport"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Японская борьба с бросками",
+    "shortClue": "Японская борьба"
+  },
+  {
+    "word": "самбо",
+    "topics": ["sport"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Отечественный вид борьбы, возникший в двадцатом веке",
+    "shortClue": "Отечественная борьба"
+  },
+  {
+    "word": "шашки",
+    "topics": ["sport"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Игра на клетчатой доске с круглыми фишками",
+    "shortClue": "Игра на доске"
+  },
+  {
+    "word": "боксёр",
+    "topics": ["sport"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Спортсмен, выходящий на ринг в перчатках",
+    "shortClue": "Спортсмен на ринге"
+  },
+  {
+    "word": "медаль",
+    "topics": ["sport"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Награда на ленте за победу",
+    "shortClue": "Награда на ленте"
+  },
+  {
+    "word": "ракетка",
+    "topics": ["sport"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Инструмент теннисиста",
+    "shortClue": "Инструмент теннисиста"
+  },
+  {
+    "word": "клюшка",
+    "topics": ["sport"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Инструмент хоккеиста для удара по шайбе",
+    "shortClue": "Инструмент хоккеиста"
+  },
+  {
+    "word": "кёрлинг",
+    "topics": ["sport"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Игра в тяжёлые камни на льду со щётками",
+    "shortClue": "Камни на льду"
+  },
+  {
+    "word": "бобслей",
+    "topics": ["sport"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Скоростной спуск по ледяному жёлобу на санях",
+    "shortClue": "Спуск по жёлобу"
+  },
+  {
+    "word": "санки",
+    "topics": ["sport"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Зимняя повозка на полозьях для горки",
+    "shortClue": "Для горки"
+  },
+  {
+    "word": "ничья",
+    "topics": ["sport"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Матч, в котором победителя нет",
+    "shortClue": "Нет победителя"
+  },
+  {
+    "word": "диск",
+    "topics": ["sport"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Плоский снаряд метателя",
+    "shortClue": "Снаряд метателя"
+  },
+  {
+    "word": "молот",
+    "topics": ["sport"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Тяжёлый шар на тросе в лёгкой атлетике",
+    "shortClue": "Шар на тросе"
+  },
+  {
+    "word": "шест",
+    "topics": ["sport"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Гибкая палка для прыжка вверх",
+    "shortClue": "Гибкая палка"
+  },
+  {
+    "word": "спринт",
+    "topics": ["sport"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Бег на короткую дистанцию",
+    "shortClue": "Короткий забег"
+  },
+  {
+    "word": "весло",
+    "topics": ["sport"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Лопасть на длинной рукояти, толкающая лодку",
+    "shortClue": "Лодочная лопасть"
+  },
+  {
+    "word": "яхта",
+    "topics": ["sport"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Парусное судно для прогулок и регат",
+    "shortClue": "Парусное судно"
+  },
+  {
+    "word": "парус",
+    "topics": ["sport"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Полотнище на мачте, ловящее ветер",
+    "shortClue": "Полотнище на мачте"
+  },
+  {
+    "word": "перекладина",
+    "topics": ["sport"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Высокий гимнастический снаряд для больших оборотов",
+    "shortClue": "Снаряд гимнаста"
+  },
+  {
+    "word": "раунд",
+    "topics": ["sport"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Часть боксёрского поединка",
+    "shortClue": "Часть боя"
+  },
+  {
+    "word": "ринг",
+    "topics": ["sport"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Огороженная площадка для боксёров",
+    "shortClue": "Площадка боксёров"
+  },
+  {
+    "word": "гиря",
+    "topics": ["sport"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Груз с ручкой для силовых упражнений",
+    "shortClue": "Груз с ручкой"
+  },
+  {
+    "word": "канат",
+    "topics": ["sport"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Толстая верёвка для лазания",
+    "shortClue": "Толстая верёвка"
+  },
+  {
+    "word": "стайер",
+    "topics": ["sport"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Бегун на длинные дистанции",
+    "shortClue": "Бегун на длинные"
+  },
+  {
+    "word": "реванш",
+    "topics": ["sport"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Ответный матч",
+    "shortClue": "Ответный матч"
+  },
+  {
+    "word": "сюжет",
+    "topics": ["arts"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Цепь событий в произведении",
+    "shortClue": "Ход событий"
+  },
+  {
+    "word": "герой",
+    "topics": ["arts"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Главное действующее лицо книги",
+    "shortClue": "Лицо книги"
+  },
+  {
+    "word": "поэт",
+    "topics": ["arts"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Тот, кто пишет стихи",
+    "shortClue": "Автор стихов"
+  },
+  {
+    "word": "очерк",
+    "topics": ["arts"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Литературная зарисовка с натуры",
+    "shortClue": "Зарисовка с натуры"
+  },
+  {
+    "word": "эссе",
+    "topics": ["arts"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Небольшое сочинение в свободной форме",
+    "shortClue": "Свободное сочинение"
+  },
+  {
+    "word": "элегия",
+    "topics": ["arts"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Печальное лирическое стихотворение",
+    "shortClue": "Печальные стихи"
+  },
+  {
+    "word": "ода",
+    "topics": ["arts"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Торжественное стихотворение в честь героя",
+    "shortClue": "Хвалебные стихи"
+  },
+  {
+    "word": "баллада",
+    "topics": ["arts"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Стихотворение с сюжетом и таинственным оттенком",
+    "shortClue": "Стих с сюжетом"
+  },
+  {
+    "word": "эпос",
+    "topics": ["arts"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Героические сказания народа",
+    "shortClue": "Героические сказания"
+  },
+  {
+    "word": "роль",
+    "topics": ["arts"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Образ, который воплощает актёр",
+    "shortClue": "Образ актёра"
+  },
+  {
+    "word": "сцена",
+    "topics": ["arts"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Площадка, на которую выходят артисты",
+    "shortClue": "Подмостки театра"
+  },
+  {
+    "word": "репетиция",
+    "topics": ["arts"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Подготовка спектакля без зрителей",
+    "shortClue": "Прогон без зрителей"
+  },
+  {
+    "word": "премьера",
+    "topics": ["arts"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Первый показ спектакля или фильма",
+    "shortClue": "Первый показ"
+  },
+  {
+    "word": "солист",
+    "topics": ["arts"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Певец или музыкант, выступающий отдельно от хора",
+    "shortClue": "Номер без хора"
+  },
+  {
+    "word": "хор",
+    "topics": ["arts"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Большой коллектив певцов",
+    "shortClue": "Певчий коллектив"
+  },
+  {
+    "word": "мелодия",
+    "topics": ["arts"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Напев, который можно насвистеть",
+    "shortClue": "Напев"
+  },
+  {
+    "word": "гобой",
+    "topics": ["arts"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Деревянный духовой инструмент с двойной тростью",
+    "shortClue": "Двойная трость"
+  },
+  {
+    "word": "гитара",
+    "topics": ["arts"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Шестиструнный инструмент бардов",
+    "shortClue": "Шесть струн"
+  },
+  {
+    "word": "пианино",
+    "topics": ["arts"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Клавишный инструмент с вертикальным корпусом",
+    "shortClue": "Домашний клавишный"
+  },
+  {
+    "word": "вальс",
+    "topics": ["arts"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Танец в три счёта",
+    "shortClue": "Трёхдольный танец"
+  },
+  {
+    "word": "полонез",
+    "topics": ["arts"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Торжественный танец польского происхождения",
+    "shortClue": "Польский танец"
+  },
+  {
+    "word": "режиссёр",
+    "topics": ["arts"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Руководитель постановки спектакля или фильма",
+    "shortClue": "Постановщик"
+  },
+  {
+    "word": "гравюра",
+    "topics": ["arts"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Оттиск с рисунка, вырезанного на металле или дереве",
+    "shortClue": "Оттиск с доски"
+  },
+  {
+    "word": "кисть",
+    "topics": ["arts"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Инструмент живописца для нанесения краски",
+    "shortClue": "Инструмент живописца"
+  },
+  {
+    "word": "пастель",
+    "topics": ["arts"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Цветные сухие мелки художника",
+    "shortClue": "Цветные мелки"
+  },
+  {
+    "word": "бюст",
+    "topics": ["arts"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Скульптурное изображение головы и плеч",
+    "shortClue": "Голова и плечи"
+  },
+  {
+    "word": "мультфильм",
+    "topics": ["arts"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Рисованное кино для детей",
+    "shortClue": "Рисованное кино"
+  },
+  {
+    "word": "стул",
+    "topics": ["home"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Сиденье со спинкой и четырьмя ножками",
+    "shortClue": "Сиденье со спинкой"
+  },
+  {
+    "word": "кресло",
+    "topics": ["home"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Мягкое сиденье с подлокотниками",
+    "shortClue": "Мягкое сиденье"
+  },
+  {
+    "word": "кровать",
+    "topics": ["home"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Спальная мебель",
+    "shortClue": "Спальная мебель"
+  },
+  {
+    "word": "тумба",
+    "topics": ["home"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Низкий шкафчик",
+    "shortClue": "Низкий шкафчик"
+  },
+  {
+    "word": "полка",
+    "topics": ["home"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Доска на стене для книг",
+    "shortClue": "Доска для книг"
+  },
+  {
+    "word": "люстра",
+    "topics": ["home"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Потолочный светильник с подвесками",
+    "shortClue": "Потолочный светильник"
+  },
+  {
+    "word": "свеча",
+    "topics": ["home"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Воск с фитилём",
+    "shortClue": "Воск с фитилём"
+  },
+  {
+    "word": "камин",
+    "topics": ["home"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Открытый очаг в гостиной",
+    "shortClue": "Открытый очаг"
+  },
+  {
+    "word": "тарелка",
+    "topics": ["home"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Плоская посуда для супа или второго",
+    "shortClue": "Плоская посуда"
+  },
+  {
+    "word": "скатерть",
+    "topics": ["home"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Ткань на обеденном столе",
+    "shortClue": "Ткань на столе"
+  },
+  {
+    "word": "полотенце",
+    "topics": ["home"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Ткань для вытирания рук",
+    "shortClue": "Для вытирания рук"
+  },
+  {
+    "word": "ширма",
+    "topics": ["home"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Складная перегородка в комнате",
+    "shortClue": "Складная перегородка"
+  },
+  {
+    "word": "обои",
+    "topics": ["home"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Бумага или полотно на стенах комнаты",
+    "shortClue": "Для оклейки стен"
+  },
+  {
+    "word": "потолок",
+    "topics": ["home"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Верхняя поверхность комнаты",
+    "shortClue": "Верх комнаты"
+  },
+  {
+    "word": "расчёска",
+    "topics": ["home"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Гребень для волос",
+    "shortClue": "Гребень для волос"
+  },
+  {
+    "word": "швабра",
+    "topics": ["home"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Палка с тряпкой для мытья пола",
+    "shortClue": "Для мытья полов"
+  },
+  {
+    "word": "совок",
+    "topics": ["home"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Лопатка для мусора",
+    "shortClue": "Лопатка для мусора"
+  },
+  {
+    "word": "термос",
+    "topics": ["home"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Сосуд, долго хранящий тепло напитков",
+    "shortClue": "Хранит горячее"
+  },
+  {
+    "word": "противень",
+    "topics": ["home"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Плоский лист для выпечки в духовке",
+    "shortClue": "Лист для выпечки"
+  },
+  {
+    "word": "гвоздь",
+    "topics": ["home"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Металлический стержень с шляпкой",
+    "shortClue": "Стержень с шляпкой"
+  },
+  {
+    "word": "шуруп",
+    "topics": ["home"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Крепёж с резьбой, который ввинчивают",
+    "shortClue": "Крепёж с резьбой"
+  },
+  {
+    "word": "клещи",
+    "topics": ["home"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Захват для вытаскивания гвоздей",
+    "shortClue": "Захват для гвоздей"
+  },
+  {
+    "word": "тиски",
+    "topics": ["home"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Зажим на верстаке для деталей",
+    "shortClue": "Зажим на верстаке"
+  },
+  {
+    "word": "лопата",
+    "topics": ["home"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Инструмент для копки земли",
+    "shortClue": "Для копки земли"
+  },
+  {
+    "word": "грабли",
+    "topics": ["home"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Инструмент, на который дважды не наступают",
+    "shortClue": "Инструмент садовода"
+  },
+  {
+    "word": "лейка",
+    "topics": ["home"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Садовый сосуд для полива с ситечком",
+    "shortClue": "Для полива"
+  },
+  {
+    "word": "амбар",
+    "topics": ["home"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Хозяйственная постройка для хранения зерна",
+    "shortClue": "Склад зерна"
+  },
+  {
+    "word": "колодец",
+    "topics": ["home"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Яма в земле с воротом и ведром",
+    "shortClue": "Яма с водой"
+  },
+  {
+    "word": "будильник",
+    "topics": ["home"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Часы, поднимающие утром",
+    "shortClue": "Утренний звонок"
+  },
+  {
+    "word": "плотник",
+    "topics": ["professions"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Строит срубы и стропила из дерева",
+    "shortClue": "Мастер по дереву"
+  },
+  {
+    "word": "портной",
+    "topics": ["professions"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Шьёт одежду на заказ",
+    "shortClue": "Шьёт одежду"
+  },
+  {
+    "word": "шахтёр",
+    "topics": ["professions"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Добывает уголь под землёй",
+    "shortClue": "Подземный труженик"
+  },
+  {
+    "word": "инженер",
+    "topics": ["professions"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Проектирует машины и сооружения",
+    "shortClue": "Конструктор машин"
+  },
+  {
+    "word": "сантехник",
+    "topics": ["professions"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Чинит трубы и краны",
+    "shortClue": "Мастер по трубам"
+  },
+  {
+    "word": "лётчик",
+    "topics": ["professions"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Профессионал воздушных трасс за штурвалом",
+    "shortClue": "За штурвалом"
+  },
+  {
+    "word": "капитан",
+    "topics": ["professions"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Командир корабля",
+    "shortClue": "Командир судна"
+  },
+  {
+    "word": "юнга",
+    "topics": ["professions"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Подросток на корабле, помощник матросов",
+    "shortClue": "Корабельный подросток"
+  },
+  {
+    "word": "боцман",
+    "topics": ["professions"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Старший над палубной командой",
+    "shortClue": "Старший над палубой"
+  },
+  {
+    "word": "дворник",
+    "topics": ["professions"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Подметает улицы",
+    "shortClue": "Подметает улицы"
+  },
+  {
+    "word": "сторож",
+    "topics": ["professions"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Охраняет склад ночью",
+    "shortClue": "Ночной страж"
+  },
+  {
+    "word": "спасатель",
+    "topics": ["professions"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Выручает людей в беде на воде и в горах",
+    "shortClue": "Выручает в беде"
+  },
+  {
+    "word": "корректор",
+    "topics": ["professions"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Исправляет опечатки в вёрстке",
+    "shortClue": "Ловит опечатки"
+  },
+  {
+    "word": "физик",
+    "topics": ["professions"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Учёный, изучающий законы материи и энергии",
+    "shortClue": "Изучает законы природы"
+  },
+  {
+    "word": "химик",
+    "topics": ["professions"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Изучает вещества и их превращения",
+    "shortClue": "Знаток веществ"
+  },
+  {
+    "word": "воспитатель",
+    "topics": ["professions"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Присматривает за малышами в детском саду",
+    "shortClue": "Работник детсада"
+  },
+  {
+    "word": "массажист",
+    "topics": ["professions"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Разминает мышцы клиента",
+    "shortClue": "Разминает спину"
+  },
+  {
+    "word": "тракторист",
+    "topics": ["professions"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Работает в поле на гусеничной или колёсной машине",
+    "shortClue": "Работает в поле"
+  },
+  {
+    "word": "секретарь",
+    "topics": ["professions"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Ведёт бумаги и принимает звонки у начальника",
+    "shortClue": "Помощник начальника"
+  },
+  {
+    "word": "экскурсовод",
+    "topics": ["professions"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Рассказывает туристам о достопримечательностях",
+    "shortClue": "Рассказчик для туристов"
+  },
+  {
+    "word": "провизор",
+    "topics": ["professions"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Аптечный специалист с высшим образованием",
+    "shortClue": "Аптечный специалист"
+  },
+  {
+    "word": "фельдшер",
+    "topics": ["professions"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Медработник со средним образованием, помощник врача",
+    "shortClue": "Помощник врача"
+  },
+  {
+    "word": "тройка",
+    "topics": ["localCulture"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Лошади в одной упряжке: коренник и две пристяжные",
+    "shortClue": "Упряжка лошадей"
+  },
+  {
+    "word": "тельняшка",
+    "topics": ["localCulture"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Полосатая рубаха моряка",
+    "shortClue": "Рубаха моряка"
+  },
+  {
+    "word": "платок",
+    "topics": ["localCulture"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Квадрат ткани, который повязывают на голову",
+    "shortClue": "Ткань на голову"
+  },
+  {
+    "word": "шаль",
+    "topics": ["localCulture"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Тёплая большая накидка на плечи",
+    "shortClue": "Накидка на плечи"
+  },
+  {
+    "word": "чучело",
+    "topics": ["localCulture"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Соломенная фигура, которую сжигают, провожая зиму",
+    "shortClue": "Сжигают на Масленицу"
+  },
+  {
+    "word": "качели",
+    "topics": ["localCulture"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Доска на верёвках для катания в парке",
+    "shortClue": "Доска на верёвках"
+  },
+  {
+    "word": "городки",
+    "topics": ["localCulture"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Игра, где битой выбивают фигуры из чурок",
+    "shortClue": "Игра с битой"
+  },
+  {
+    "word": "жмурки",
+    "topics": ["localCulture"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Игра с завязанными глазами",
+    "shortClue": "Игра с повязкой"
+  },
+  {
+    "word": "пляска",
+    "topics": ["localCulture"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Народный танец с притопами",
+    "shortClue": "Народный танец"
+  },
+  {
+    "word": "дудка",
+    "topics": ["localCulture"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Простая пастушья свирель",
+    "shortClue": "Пастушья свирель"
+  },
+  {
+    "word": "бубенцы",
+    "topics": ["localCulture"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Звонкие шарики на конской сбруе",
+    "shortClue": "Звонкие шарики"
+  },
+  {
+    "word": "баян",
+    "topics": ["localCulture"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Русская кнопочная гармонь",
+    "shortClue": "Кнопочная гармонь"
+  },
+  {
+    "word": "шайка",
+    "topics": ["localCulture"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Деревянная ёмкость для воды в бане",
+    "shortClue": "Банная ёмкость"
+  },
+  {
+    "word": "полок",
+    "topics": ["localCulture"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Верхняя скамья в бане для прогрева",
+    "shortClue": "Банная скамья"
+  },
+  {
+    "word": "свирель",
+    "topics": ["localCulture"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Простая пастушья флейта",
+    "shortClue": "Пастушья флейта"
+  },
+  {
+    "word": "трещотка",
+    "topics": ["localCulture"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Деревянная погремушка, шумящая при размахивании",
+    "shortClue": "Шумовой инструмент"
+  },
+  {
+    "word": "Левша",
+    "topics": ["localCulture"],
+    "difficulty": 2,
+    "kind": "proper",
+    "clue": "Тульский мастер, подковавший стальную блоху",
+    "shortClue": "Герой Лескова"
+  },
+  {
+    "word": "Карлсон",
+    "topics": ["localCulture"],
+    "difficulty": 2,
+    "kind": "proper",
+    "clue": "Шведский озорник с пропеллером, живущий на крыше",
+    "shortClue": "Живёт на крыше"
+  },
+  {
+    "word": "Шапокляк",
+    "topics": ["localCulture"],
+    "difficulty": 2,
+    "kind": "proper",
+    "clue": "Старушка с крысой Лариской из мультфильма",
+    "shortClue": "Старушка с Лариской"
+  },
+  {
+    "word": "Пьеро",
+    "topics": ["localCulture"],
+    "difficulty": 2,
+    "kind": "proper",
+    "clue": "Печальный артист кукольного театра, влюблённый в Мальвину",
+    "shortClue": "Печальный артист"
+  },
+  {
+    "word": "Дюймовочка",
+    "topics": ["localCulture"],
+    "difficulty": 2,
+    "kind": "proper",
+    "clue": "Крошечная девочка из цветка в сказке Андерсена",
+    "shortClue": "Малютка из цветка"
+  },
+  {
+    "word": "Лукоморье",
+    "topics": ["localCulture"],
+    "difficulty": 2,
+    "kind": "proper",
+    "clue": "Сказочная страна, где дуб зелёный и златая цепь на нём",
+    "shortClue": "Сказочная страна"
+  },
+  {
+    "word": "быт",
+    "topics": ["general"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Повседневный уклад жизни",
+    "shortClue": "Уклад жизни"
+  },
+  {
+    "word": "нрав",
+    "topics": ["general"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Склад души, характер человека",
+    "shortClue": "Склад души"
+  },
+  {
+    "word": "толк",
+    "topics": ["general"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Польза, смысл в деле",
+    "shortClue": "Польза и смысл"
+  },
+  {
+    "word": "лад",
+    "topics": ["general"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Согласие и мир в семье",
+    "shortClue": "Согласие в семье"
+  },
+  {
+    "word": "пора",
+    "topics": ["general"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Подходящее время для дела",
+    "shortClue": "Самое время"
+  },
+  {
+    "word": "клад",
+    "topics": ["general"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Зарытое сокровище",
+    "shortClue": "Зарытое сокровище"
+  },
+  {
+    "word": "звено",
+    "topics": ["general"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Одно кольцо цепи",
+    "shortClue": "Кольцо цепи"
+  },
+  {
+    "word": "юность",
+    "topics": ["general"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Пора между детством и зрелостью",
+    "shortClue": "Молодые годы"
+  },
+  {
+    "word": "синяк",
+    "topics": ["general"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Фиолетовое пятно на коже после удара",
+    "shortClue": "След ушиба"
+  },
+  {
+    "word": "заноза",
+    "topics": ["general"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Тонкая щепка, засевшая под кожей",
+    "shortClue": "Щепка в пальце"
+  },
+  {
+    "word": "озноб",
+    "topics": ["general"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Дрожь при подскочившей температуре",
+    "shortClue": "Дрожь от холода"
+  },
+  {
+    "word": "ушиб",
+    "topics": ["general"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Удар, оставляющий синяк на теле",
+    "shortClue": "Удар с синяком"
+  },
+  {
+    "word": "зять",
+    "topics": ["general"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Муж дочери",
+    "shortClue": "Муж дочери"
+  },
+  {
+    "word": "сосед",
+    "topics": ["general"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Тот, кто живёт за стеной",
+    "shortClue": "Живёт за стеной"
+  },
+  {
+    "word": "цена",
+    "topics": ["general"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Сколько стоит товар",
+    "shortClue": "Сколько стоит"
+  },
+  {
+    "word": "след",
+    "topics": ["general"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Отпечаток ноги на земле или снегу",
+    "shortClue": "Отпечаток ноги"
+  },
+  {
+    "word": "путь",
+    "topics": ["general"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Дорога, по которой идут к цели",
+    "shortClue": "Дорога к цели"
+  },
+  {
+    "word": "осторожность",
+    "topics": ["general"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Умение избегать опасности",
+    "shortClue": "Умение беречься"
+  },
+  {
+    "word": "откровенность",
+    "topics": ["general"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Честность в разговоре без утайки",
+    "shortClue": "Без утайки"
+  },
+  {
+    "word": "выносливость",
+    "topics": ["general"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Способность долго переносить нагрузки",
+    "shortClue": "Долго терпит нагрузки"
+  },
+  {
+    "word": "новоселье",
+    "topics": ["general"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Праздник по случаю переезда в свежее жильё",
+    "shortClue": "Праздник переезда"
+  },
+  {
+    "word": "недоразумение",
+    "topics": ["general"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Досадная ошибка в понимании друг друга",
+    "shortClue": "Досадная ошибка"
+  },
+  {
+    "word": "разочарование",
+    "topics": ["general"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Чувство, когда ожидания не сбылись",
+    "shortClue": "Крах ожиданий"
+  },
+  {
+    "word": "пихта",
+    "topics": ["nature"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Хвойное дерево с плоскими мягкими иглами",
+    "shortClue": "Хвойное дерево"
+  },
+  {
+    "word": "ясень",
+    "topics": ["nature"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Лиственное дерево с крылатыми семенами",
+    "shortClue": "Дерево с крылатками"
+  },
+  {
+    "word": "мята",
+    "topics": ["nature"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Душистая трава для чая",
+    "shortClue": "Трава для чая"
+  },
+  {
+    "word": "рожь",
+    "topics": ["nature"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Хлебный злак для тёмного хлеба",
+    "shortClue": "Злак чёрного хлеба"
+  },
+  {
+    "word": "мгла",
+    "topics": ["nature"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Тёмная дымка, застилающая даль",
+    "shortClue": "Дымка вдали"
+  },
+  {
+    "word": "ряска",
+    "topics": ["nature"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Мелкие зелёные листочки на глади пруда",
+    "shortClue": "Зелень на пруду"
+  },
+  {
+    "word": "полнолуние",
+    "topics": ["nature"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Ночь, когда ночное светило круглое",
+    "shortClue": "Круглое светило"
+  },
+  {
+    "word": "багульник",
+    "topics": ["nature"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Болотный кустарник с резким запахом",
+    "shortClue": "Болотный кустарник"
+  },
+  {
+    "word": "первоцвет",
+    "topics": ["nature"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Ранний весенний цветок",
+    "shortClue": "Ранний цветок"
+  },
+  {
+    "word": "жук",
+    "topics": ["animals"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Насекомое с твёрдыми надкрыльями",
+    "shortClue": "Твёрдые надкрылья"
+  },
+  {
+    "word": "осёл",
+    "topics": ["animals"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Упрямое вьючное животное с длинными ушами",
+    "shortClue": "Длинноухий упрямец"
+  },
+  {
+    "word": "лама",
+    "topics": ["animals"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Южноамериканский горный родич верблюда",
+    "shortClue": "Родич верблюда"
+  },
+  {
+    "word": "кондор",
+    "topics": ["animals"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Гигантский стервятник Анд",
+    "shortClue": "Стервятник Анд"
+  },
+  {
+    "word": "чибис",
+    "topics": ["animals"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Болотная птица с хохолком",
+    "shortClue": "Птица с хохолком"
+  },
+  {
+    "word": "хариус",
+    "topics": ["animals"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Рыба прохладных быстрых рек с высоким спинным плавником",
+    "shortClue": "Рыба быстрых рек"
+  },
+  {
+    "word": "жаворонок",
+    "topics": ["animals"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Полевая птица, поющая в вышине",
+    "shortClue": "Певец над полем"
+  },
+  {
+    "word": "орангутан",
+    "topics": ["animals"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Рыжая человекообразная обезьяна Азии",
+    "shortClue": "Рыжий примат"
+  },
+  {
+    "word": "рис",
+    "topics": ["food"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Зерно для плова и суши",
+    "shortClue": "Крупа для плова"
+  },
+  {
+    "word": "соус",
+    "topics": ["food"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Жидкая приправа к блюду",
+    "shortClue": "Приправа к блюду"
+  },
+  {
+    "word": "омлет",
+    "topics": ["food"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Взбитые яйца, запечённые на сковороде",
+    "shortClue": "Взбитые яйца"
+  },
+  {
+    "word": "нуга",
+    "topics": ["food"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Тягучая сладость с орехами",
+    "shortClue": "Сладость с орехами"
+  },
+  {
+    "word": "тмин",
+    "topics": ["food"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Пряность с острым запахом, добавляемая в хлеб",
+    "shortClue": "Хлебная пряность"
+  },
+  {
+    "word": "пюре",
+    "topics": ["food"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Размятая в кашицу варёная картошка",
+    "shortClue": "Размятая картошка"
+  },
+  {
+    "word": "бутерброд",
+    "topics": ["food"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Ломоть хлеба с колбасой или сыром",
+    "shortClue": "Хлеб с колбасой"
+  },
+  {
+    "word": "холм",
+    "topics": ["geography"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Невысокая возвышенность с пологими склонами",
+    "shortClue": "Невысокая гора"
+  },
+  {
+    "word": "коса",
+    "topics": ["geography"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Узкая песчаная полоса, вдающаяся в море",
+    "shortClue": "Песчаная полоса"
+  },
+  {
+    "word": "брод",
+    "topics": ["geography"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Мелкое место, где реку переходят пешком",
+    "shortClue": "Мелкое место реки"
+  },
+  {
+    "word": "шлюз",
+    "topics": ["geography"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Гидротехническое сооружение для подъёма судов",
+    "shortClue": "Лестница для судов"
+  },
+  {
+    "word": "дамба",
+    "topics": ["geography"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Земляная насыпь против наводнения",
+    "shortClue": "Насыпь у воды"
+  },
+  {
+    "word": "мель",
+    "topics": ["geography"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Место, где судно может сесть на дно",
+    "shortClue": "Опасна для корабля"
+  },
+  {
+    "word": "водораздел",
+    "topics": ["geography"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Линия между бассейнами соседних рек",
+    "shortClue": "Граница бассейнов"
+  },
+  {
+    "word": "мегаполис",
+    "topics": ["geography"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Огромный город с множеством пригородов",
+    "shortClue": "Огромный город"
+  },
+  {
+    "word": "лук",
+    "topics": ["history"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Оружие, из которого пускают стрелы",
+    "shortClue": "Оружие для стрел"
+  },
+  {
+    "word": "эфес",
+    "topics": ["history"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Рукоять шпаги или меча",
+    "shortClue": "Рукоять меча"
+  },
+  {
+    "word": "вождь",
+    "topics": ["history"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Предводитель племени",
+    "shortClue": "Предводитель племени"
+  },
+  {
+    "word": "тога",
+    "topics": ["history"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Верхняя одежда древнего римлянина",
+    "shortClue": "Римская одежда"
+  },
+  {
+    "word": "средневековье",
+    "topics": ["history"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Эпоха между античностью и Возрождением",
+    "shortClue": "Эпоха рыцарей"
+  },
+  {
+    "word": "цивилизация",
+    "topics": ["history"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Развитое общество с городами и письменностью",
+    "shortClue": "Развитое общество"
+  },
+  {
+    "word": "луч",
+    "topics": ["science"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Тонкая полоска света",
+    "shortClue": "Полоска света"
+  },
+  {
+    "word": "конус",
+    "topics": ["science"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Тело с круглым основанием и острой вершиной",
+    "shortClue": "Тело с вершиной"
+  },
+  {
+    "word": "угол",
+    "topics": ["science"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Фигура из двух лучей, выходящих из одной точки",
+    "shortClue": "Два луча"
+  },
+  {
+    "word": "лимфа",
+    "topics": ["science"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Прозрачная жидкость, омывающая клетки тела",
+    "shortClue": "Жидкость тела"
+  },
+  {
+    "word": "кварк",
+    "topics": ["science"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Элементарная частица внутри протона",
+    "shortClue": "Частица в протоне"
+  },
+  {
+    "word": "хром",
+    "topics": ["science"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Блестящий металл для покрытия деталей",
+    "shortClue": "Блестящее покрытие"
+  },
+  {
+    "word": "атмосфера",
+    "topics": ["science"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Воздушная оболочка планеты",
+    "shortClue": "Воздушная оболочка"
+  },
+  {
+    "word": "хлорофилл",
+    "topics": ["science"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Зелёный пигмент растений",
+    "shortClue": "Зелёный пигмент"
+  },
+  {
+    "word": "аккумулятор",
+    "topics": ["science"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Батарея, которую можно зарядить снова",
+    "shortClue": "Перезаряжаемая батарея"
+  },
+  {
+    "word": "старт",
+    "topics": ["sport"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Момент начала забега",
+    "shortClue": "Начало забега"
+  },
+  {
+    "word": "шпага",
+    "topics": ["sport"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Колющее оружие фехтовальщика",
+    "shortClue": "Колющий клинок"
+  },
+  {
+    "word": "сабля",
+    "topics": ["sport"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Рубящее оружие фехтовальщика",
+    "shortClue": "Рубящий клинок"
+  },
+  {
+    "word": "лунка",
+    "topics": ["sport"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Ямка, в которую загоняют мяч в гольфе",
+    "shortClue": "Цель клюшки"
+  },
+  {
+    "word": "ласты",
+    "topics": ["sport"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Резиновые приспособления для быстрого плавания",
+    "shortClue": "Для быстрого плавания"
+  },
+  {
+    "word": "физкультура",
+    "topics": ["sport"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Школьный урок с мячами и скакалками",
+    "shortClue": "Школьный урок"
+  },
+  {
+    "word": "фуга",
+    "topics": ["arts"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Многоголосая пьеса, где тема повторяется в разных голосах",
+    "shortClue": "Многоголосая пьеса"
+  },
+  {
+    "word": "бас",
+    "topics": ["arts"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Самый низкий мужской голос",
+    "shortClue": "Низкий голос"
+  },
+  {
+    "word": "лира",
+    "topics": ["arts"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Древний струнный инструмент Аполлона",
+    "shortClue": "Инструмент Аполлона"
+  },
+  {
+    "word": "джаз",
+    "topics": ["arts"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Музыка с импровизацией родом из Нового Орлеана",
+    "shortClue": "Музыка импровизации"
+  },
+  {
+    "word": "шарж",
+    "topics": ["arts"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Шутливый портрет с преувеличенными чертами",
+    "shortClue": "Шутливый портрет"
+  },
+  {
+    "word": "припев",
+    "topics": ["arts"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Повторяющаяся часть песни",
+    "shortClue": "Повтор в песне"
+  },
+  {
+    "word": "антология",
+    "topics": ["arts"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Сборник избранных стихов разных авторов",
+    "shortClue": "Сборник избранного"
+  },
+  {
+    "word": "эпиграмма",
+    "topics": ["arts"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Короткое стихотворение с едкой насмешкой",
+    "shortClue": "Колкое стихотворение"
+  },
+  {
+    "word": "крыша",
+    "topics": ["home"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Верхнее покрытие здания от дождя",
+    "shortClue": "Верх дома"
+  },
+  {
+    "word": "бочка",
+    "topics": ["home"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Круглая дубовая ёмкость из клёпок",
+    "shortClue": "Ёмкость из клёпок"
+  },
+  {
+    "word": "плед",
+    "topics": ["home"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Тёплое клетчатое покрывало",
+    "shortClue": "Клетчатое покрывало"
+  },
+  {
+    "word": "сундук",
+    "topics": ["home"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Большой ящик с крышкой для вещей",
+    "shortClue": "Ящик с крышкой"
+  },
+  {
+    "word": "метла",
+    "topics": ["home"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Пучок прутьев на длинной палке",
+    "shortClue": "Прутья на палке"
+  },
+  {
+    "word": "сени",
+    "topics": ["home"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Холодное помещение перед входом в избу",
+    "shortClue": "Прихожая избы"
+  },
+  {
+    "word": "подоконник",
+    "topics": ["home"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Плита под стеклом, где стоят цветочные горшки",
+    "shortClue": "Плита под стеклом"
+  },
+  {
+    "word": "кондиционер",
+    "topics": ["home"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Прибор, охлаждающий воздух в комнате",
+    "shortClue": "Охлаждает комнату"
+  },
+  {
+    "word": "мусоропровод",
+    "topics": ["home"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Вертикальный жёлоб многоэтажки для спуска отходов",
+    "shortClue": "Жёлоб для отходов"
+  },
+  {
+    "word": "кок",
+    "topics": ["professions"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Повар на корабле",
+    "shortClue": "Корабельный повар"
+  },
+  {
+    "word": "гид",
+    "topics": ["professions"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Проводник по достопримечательностям",
+    "shortClue": "Проводник туристов"
+  },
+  {
+    "word": "ткач",
+    "topics": ["professions"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Работает за станком, создавая полотно",
+    "shortClue": "Мастер станка"
+  },
+  {
+    "word": "певец",
+    "topics": ["professions"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Артист, исполняющий песни",
+    "shortClue": "Исполнитель песен"
+  },
+  {
+    "word": "клоун",
+    "topics": ["professions"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Рыжий парик и красный нос на арене",
+    "shortClue": "Артист арены"
+  },
+  {
+    "word": "переплётчик",
+    "topics": ["professions"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Мастер, одевающий книги в обложки",
+    "shortClue": "Мастер обложек"
+  },
+  {
+    "word": "реставратор",
+    "topics": ["professions"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Возвращает облик старым картинам и зданиям",
+    "shortClue": "Спасает старину"
+  },
+  {
+    "word": "метеоролог",
+    "topics": ["professions"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Составляет прогноз погоды",
+    "shortClue": "Прогноз погоды"
+  },
+  {
+    "word": "кушак",
+    "topics": ["localCulture"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Широкий пояс поверх рубахи",
+    "shortClue": "Широкий пояс"
+  },
+  {
+    "word": "соха",
+    "topics": ["localCulture"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Старинное деревянное орудие пахоты",
+    "shortClue": "Орудие пахоты"
+  },
+  {
+    "word": "ларец",
+    "topics": ["localCulture"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Небольшой ящичек для драгоценностей и безделушек",
+    "shortClue": "Ящичек для украшений"
+  },
+  {
+    "word": "ведьма",
+    "topics": ["localCulture"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Сказочная колдунья верхом на метле",
+    "shortClue": "Колдунья на метле"
+  },
+  {
+    "word": "игра",
+    "topics": ["general"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Забава по правилам",
+    "shortClue": "Забава по правилам"
+  },
+  {
+    "word": "шутка",
+    "topics": ["general"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Слова, сказанные ради смеха",
+    "shortClue": "Слово ради смеха"
+  },
+  {
+    "word": "семья",
+    "topics": ["general"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Родители, дети, бабушки с дедушками",
+    "shortClue": "Родные под крышей"
+  },
+  {
+    "word": "счастье",
+    "topics": ["general"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Полная радость от жизни",
+    "shortClue": "Полная радость"
+  },
+  {
+    "word": "мера",
+    "topics": ["general"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Предел, которого надо держаться во всём",
+    "shortClue": "Чувство предела"
+  },
+  {
+    "word": "слог",
+    "topics": ["general"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Звук или группа звуков, произносимых на одном выдохе",
+    "shortClue": "Группа звуков"
+  },
+  {
+    "word": "случай",
+    "topics": ["general"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Непредвиденное событие",
+    "shortClue": "Непредвиденное событие"
+  },
+  {
+    "word": "труд",
+    "topics": ["general"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Работа, которая кормит",
+    "shortClue": "Работа, что кормит"
+  },
+  {
+    "word": "лужа",
+    "topics": ["nature"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Мелкая вода на дороге после дождя",
+    "shortClue": "Вода после дождя"
+  },
+  {
+    "word": "метель",
+    "topics": ["general"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Снежная круговерть на улице",
+    "shortClue": "Снежная круговерть"
+  },
+  {
+    "word": "тетива",
+    "topics": ["history"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Тугая нить на изгибе оружия лучника",
+    "shortClue": "Нить на луке"
+  },
+  {
+    "word": "олимпиада",
+    "topics": ["sport"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Всемирные состязания раз в четыре года",
+    "shortClue": "Всемирные состязания"
+  },
+  {
+    "word": "кровельщик",
+    "topics": ["professions"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Покрывает дома листами металла и черепицей",
+    "shortClue": "Мастер на высоте"
+  },
+  {
+    "word": "монтёр",
+    "topics": ["professions"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Прокладывает провода и чинит сети",
+    "shortClue": "Мастер проводов"
+  },
+  {
+    "word": "кабачок",
+    "topics": ["food"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Продолговатый овощ для оладий и икры",
+    "shortClue": "Овощ для икры"
+  },
+  {
+    "word": "щавель",
+    "topics": ["food"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Кислая трава для зелёных щей",
+    "shortClue": "Кислая трава"
+  },
+  {
+    "word": "микстура",
+    "topics": ["general"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Жидкое средство от кашля",
+    "shortClue": "Жидкое средство"
+  },
+  {
+    "word": "рекорд",
+    "topics": ["sport"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Наивысшее достижение в состязании",
+    "shortClue": "Наивысшее достижение"
+  },
+  {
+    "word": "половик",
+    "topics": ["home"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Коврик, лежащий у входной двери",
+    "shortClue": "Коврик у двери"
+  },
+  {
+    "word": "стекольщик",
+    "topics": ["professions"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Вставляет прозрачные листы в оконные рамы",
+    "shortClue": "Мастер оконных рам"
+  }
+]
