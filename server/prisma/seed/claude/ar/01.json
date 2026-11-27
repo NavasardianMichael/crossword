@@ -1,0 +1,5002 @@
+[
+ {
+  "word": "فرح",
+  "topics": [
+   "general"
+  ],
+  "difficulty": 1,
+  "kind": "common",
+  "clue": "شعور بالسرور والبهجة",
+  "shortClue": "شعور سعيد"
+ },
+ {
+  "word": "حزن",
+  "topics": [
+   "general"
+  ],
+  "difficulty": 1,
+  "kind": "common",
+  "clue": "شعور ثقيل بالاسى",
+  "shortClue": "شعور ثقيل"
+ },
+ {
+  "word": "خوف",
+  "topics": [
+   "general"
+  ],
+  "difficulty": 1,
+  "kind": "common",
+  "clue": "شعور يصيبنا عند الخطر",
+  "shortClue": "شعور الخطر"
+ },
+ {
+  "word": "غضب",
+  "topics": [
+   "general"
+  ],
+  "difficulty": 1,
+  "kind": "common",
+  "clue": "انفعال شديد عند الاستياء",
+  "shortClue": "انفعال شديد"
+ },
+ {
+  "word": "امل",
+  "topics": [
+   "general"
+  ],
+  "difficulty": 1,
+  "kind": "common",
+  "clue": "رجاء بان يتحقق الخير",
+  "shortClue": "رجاء الخير"
+ },
+ {
+  "word": "صبر",
+  "topics": [
+   "general"
+  ],
+  "difficulty": 1,
+  "kind": "common",
+  "clue": "تحمل المشقة بلا شكوى",
+  "shortClue": "تحمل المشقة"
+ },
+ {
+  "word": "شجاعة",
+  "topics": [
+   "general"
+  ],
+  "difficulty": 2,
+  "kind": "common",
+  "clue": "قوة القلب عند المخاطر",
+  "shortClue": "قوة القلب"
+ },
+ {
+  "word": "كرم",
+  "topics": [
+   "general"
+  ],
+  "difficulty": 1,
+  "kind": "common",
+  "clue": "سخاء في العطاء",
+  "shortClue": "سخاء وعطاء"
+ },
+ {
+  "word": "صدق",
+  "topics": [
+   "general"
+  ],
+  "difficulty": 1,
+  "kind": "common",
+  "clue": "قول ما يطابق الواقع",
+  "shortClue": "قول الحقيقة"
+ },
+ {
+  "word": "كذب",
+  "topics": [
+   "general"
+  ],
+  "difficulty": 1,
+  "kind": "common",
+  "clue": "قول يخالف الحقيقة",
+  "shortClue": "قول مخالف"
+ },
+ {
+  "word": "امانة",
+  "topics": [
+   "general"
+  ],
+  "difficulty": 2,
+  "kind": "common",
+  "clue": "حفظ ما استودعنا غيرنا",
+  "shortClue": "حفظ الوديعة"
+ },
+ {
+  "word": "وفاء",
+  "topics": [
+   "general"
+  ],
+  "difficulty": 2,
+  "kind": "common",
+  "clue": "ثبات على العهد والمودة",
+  "shortClue": "ثبات على العهد"
+ },
+ {
+  "word": "حياء",
+  "topics": [
+   "general"
+  ],
+  "difficulty": 2,
+  "kind": "common",
+  "clue": "خلق يمنع من فعل القبيح",
+  "shortClue": "خجل محمود"
+ },
+ {
+  "word": "تواضع",
+  "topics": [
+   "general"
+  ],
+  "difficulty": 2,
+  "kind": "common",
+  "clue": "ترك التكبر على الناس",
+  "shortClue": "ضد الغرور"
+ },
+ {
+  "word": "غرور",
+  "topics": [
+   "general"
+  ],
+  "difficulty": 2,
+  "kind": "common",
+  "clue": "اعتداد مفرط بالنفس",
+  "shortClue": "اعتداد مفرط"
+ },
+ {
+  "word": "كسل",
+  "topics": [
+   "general"
+  ],
+  "difficulty": 1,
+  "kind": "common",
+  "clue": "ميل الى ترك العمل",
+  "shortClue": "ترك العمل"
+ },
+ {
+  "word": "نشاط",
+  "topics": [
+   "general"
+  ],
+  "difficulty": 2,
+  "kind": "common",
+  "clue": "حيوية وهمة في العمل",
+  "shortClue": "حيوية وهمة"
+ },
+ {
+  "word": "ذكاء",
+  "topics": [
+   "general"
+  ],
+  "difficulty": 1,
+  "kind": "common",
+  "clue": "سرعة الفهم والادراك",
+  "shortClue": "سرعة الفهم"
+ },
+ {
+  "word": "حكمة",
+  "topics": [
+   "general"
+  ],
+  "difficulty": 2,
+  "kind": "common",
+  "clue": "فعل الصواب عن خبرة وعقل",
+  "shortClue": "رجاحة العقل"
+ },
+ {
+  "word": "نسيان",
+  "topics": [
+   "general"
+  ],
+  "difficulty": 2,
+  "kind": "common",
+  "clue": "غياب الشيء عن الذاكرة",
+  "shortClue": "غياب الذاكرة"
+ },
+ {
+  "word": "ذاكرة",
+  "topics": [
+   "general"
+  ],
+  "difficulty": 2,
+  "kind": "common",
+  "clue": "قدرة العقل على حفظ ما مضى",
+  "shortClue": "خزانة العقل"
+ },
+ {
+  "word": "فكرة",
+  "topics": [
+   "general"
+  ],
+  "difficulty": 1,
+  "kind": "common",
+  "clue": "ما يخطر في الذهن",
+  "shortClue": "خاطر الذهن"
+ },
+ {
+  "word": "سؤال",
+  "topics": [
+   "general"
+  ],
+  "difficulty": 1,
+  "kind": "common",
+  "clue": "عبارة نطرحها لنعرف",
+  "shortClue": "طلب المعرفة"
+ },
+ {
+  "word": "جواب",
+  "topics": [
+   "general"
+  ],
+  "difficulty": 1,
+  "kind": "common",
+  "clue": "ما نقوله ردا على الاستفهام",
+  "shortClue": "رد السائل"
+ },
+ {
+  "word": "لغز",
+  "topics": [
+   "general"
+  ],
+  "difficulty": 2,
+  "kind": "common",
+  "clue": "شيء غامض ننتظر حله",
+  "shortClue": "امر غامض"
+ },
+ {
+  "word": "مفاجاة",
+  "topics": [
+   "general"
+  ],
+  "difficulty": 2,
+  "kind": "common",
+  "clue": "حدث غير متوقع",
+  "shortClue": "حدث مباغت"
+ },
+ {
+  "word": "نصيب",
+  "topics": [
+   "general"
+  ],
+  "difficulty": 2,
+  "kind": "common",
+  "clue": "قسمة كتبت للانسان",
+  "shortClue": "قسمة مقدرة"
+ },
+ {
+  "word": "خطا",
+  "topics": [
+   "general"
+  ],
+  "difficulty": 1,
+  "kind": "common",
+  "clue": "فعل غير صواب",
+  "shortClue": "فعل غير صائب"
+ },
+ {
+  "word": "نجاح",
+  "topics": [
+   "general"
+  ],
+  "difficulty": 1,
+  "kind": "common",
+  "clue": "بلوغ الهدف المنشود",
+  "shortClue": "بلوغ الهدف"
+ },
+ {
+  "word": "فشل",
+  "topics": [
+   "general"
+  ],
+  "difficulty": 1,
+  "kind": "common",
+  "clue": "عدم بلوغ المراد",
+  "shortClue": "اخفاق"
+ },
+ {
+  "word": "بداية",
+  "topics": [
+   "general"
+  ],
+  "difficulty": 1,
+  "kind": "common",
+  "clue": "نقطة الانطلاق الاولى",
+  "shortClue": "نقطة الانطلاق"
+ },
+ {
+  "word": "نهاية",
+  "topics": [
+   "general"
+  ],
+  "difficulty": 1,
+  "kind": "common",
+  "clue": "اخر الشيء وخاتمته",
+  "shortClue": "خاتمة الامر"
+ },
+ {
+  "word": "زمن",
+  "topics": [
+   "general"
+  ],
+  "difficulty": 1,
+  "kind": "common",
+  "clue": "امتداد تقاس به الاحداث",
+  "shortClue": "امتداد الاحداث"
+ },
+ {
+  "word": "ساعة",
+  "topics": [
+   "general"
+  ],
+  "difficulty": 1,
+  "kind": "common",
+  "clue": "جهاز يدور عقرباه",
+  "shortClue": "جهاز بعقربين"
+ },
+ {
+  "word": "دقيقة",
+  "topics": [
+   "general"
+  ],
+  "difficulty": 1,
+  "kind": "common",
+  "clue": "ستون ثانية",
+  "shortClue": "ستون ثانية"
+ },
+ {
+  "word": "صباح",
+  "topics": [
+   "general"
+  ],
+  "difficulty": 1,
+  "kind": "common",
+  "clue": "اول النهار بعد الفجر",
+  "shortClue": "اول النهار"
+ },
+ {
+  "word": "ليل",
+  "topics": [
+   "general"
+  ],
+  "difficulty": 1,
+  "kind": "common",
+  "clue": "وقت الظلام والنوم",
+  "shortClue": "وقت الظلام"
+ },
+ {
+  "word": "اسبوع",
+  "topics": [
+   "general"
+  ],
+  "difficulty": 1,
+  "kind": "common",
+  "clue": "ايام تدور من السبت الى الجمعة",
+  "shortClue": "من السبت للجمعة"
+ },
+ {
+  "word": "شهر",
+  "topics": [
+   "general"
+  ],
+  "difficulty": 1,
+  "kind": "common",
+  "clue": "ثلاثون يوما تقريبا",
+  "shortClue": "ثلاثون يوما"
+ },
+ {
+  "word": "سنة",
+  "topics": [
+   "general"
+  ],
+  "difficulty": 1,
+  "kind": "common",
+  "clue": "اثنا عشر شهرا",
+  "shortClue": "اثنا عشر شهرا"
+ },
+ {
+  "word": "فصل",
+  "topics": [
+   "general"
+  ],
+  "difficulty": 2,
+  "kind": "common",
+  "clue": "ربع من السنة كالشتاء",
+  "shortClue": "ربع السنة"
+ },
+ {
+  "word": "امس",
+  "topics": [
+   "general"
+  ],
+  "difficulty": 1,
+  "kind": "common",
+  "clue": "اليوم الذي سبق يومنا",
+  "shortClue": "اليوم الماضي"
+ },
+ {
+  "word": "عادة",
+  "topics": [
+   "general"
+  ],
+  "difficulty": 1,
+  "kind": "common",
+  "clue": "سلوك نكرره حتى يصير مالوفا",
+  "shortClue": "سلوك متكرر"
+ },
+ {
+  "word": "هدية",
+  "topics": [
+   "general"
+  ],
+  "difficulty": 1,
+  "kind": "common",
+  "clue": "شيء نقدمه تحببا للاخرين",
+  "shortClue": "عطية محببة"
+ },
+ {
+  "word": "ضيف",
+  "topics": [
+   "general"
+  ],
+  "difficulty": 1,
+  "kind": "common",
+  "clue": "من يحل عندنا زائرا",
+  "shortClue": "زائر مكرم"
+ },
+ {
+  "word": "جار",
+  "topics": [
+   "general"
+  ],
+  "difficulty": 1,
+  "kind": "common",
+  "clue": "من يسكن بقربنا",
+  "shortClue": "ساكن قريب"
+ },
+ {
+  "word": "اسرة",
+  "topics": [
+   "general"
+  ],
+  "difficulty": 1,
+  "kind": "common",
+  "clue": "اب وام واولاد",
+  "shortClue": "اب وام واولاد"
+ },
+ {
+  "word": "اهل",
+  "topics": [
+   "general"
+  ],
+  "difficulty": 1,
+  "kind": "common",
+  "clue": "ذوو القربى والبيت",
+  "shortClue": "قرابة الدم"
+ },
+ {
+  "word": "اخت",
+  "topics": [
+   "general"
+  ],
+  "difficulty": 1,
+  "kind": "common",
+  "clue": "بنت الوالدين نفسهما",
+  "shortClue": "بنت الوالدين"
+ },
+ {
+  "word": "جدة",
+  "topics": [
+   "general"
+  ],
+  "difficulty": 1,
+  "kind": "common",
+  "clue": "ام الاب او الام",
+  "shortClue": "ام الوالد"
+ },
+ {
+  "word": "خال",
+  "topics": [
+   "general"
+  ],
+  "difficulty": 1,
+  "kind": "common",
+  "clue": "اخو الام",
+  "shortClue": "اخو الوالدة"
+ },
+ {
+  "word": "عمر",
+  "topics": [
+   "general"
+  ],
+  "difficulty": 1,
+  "kind": "common",
+  "clue": "مدة الحياة",
+  "shortClue": "مدة الحياة"
+ },
+ {
+  "word": "طفولة",
+  "topics": [
+   "general"
+  ],
+  "difficulty": 2,
+  "kind": "common",
+  "clue": "اول مراحل العمر واللعب",
+  "shortClue": "اول العمر"
+ },
+ {
+  "word": "شباب",
+  "topics": [
+   "general"
+  ],
+  "difficulty": 2,
+  "kind": "common",
+  "clue": "مرحلة القوة بعد الصبا",
+  "shortClue": "عمر القوة"
+ },
+ {
+  "word": "شيخوخة",
+  "topics": [
+   "general"
+  ],
+  "difficulty": 3,
+  "kind": "common",
+  "clue": "اواخر العمر ووهن الجسد",
+  "shortClue": "اواخر العمر"
+ },
+ {
+  "word": "تحية",
+  "topics": [
+   "general"
+  ],
+  "difficulty": 2,
+  "kind": "common",
+  "clue": "كلمة نلقيها عند اللقاء",
+  "shortClue": "كلمة اللقاء"
+ },
+ {
+  "word": "شكر",
+  "topics": [
+   "general"
+  ],
+  "difficulty": 1,
+  "kind": "common",
+  "clue": "كلمة عرفان بالجميل",
+  "shortClue": "عرفان بالجميل"
+ },
+ {
+  "word": "اعتذار",
+  "topics": [
+   "general"
+  ],
+  "difficulty": 2,
+  "kind": "common",
+  "clue": "طلب العفو عن زلة",
+  "shortClue": "طلب الصفح"
+ },
+ {
+  "word": "عفو",
+  "topics": [
+   "general"
+  ],
+  "difficulty": 2,
+  "kind": "common",
+  "clue": "تجاوز عن الاساءة",
+  "shortClue": "صفح وتسامح"
+ },
+ {
+  "word": "سلام",
+  "topics": [
+   "general"
+  ],
+  "difficulty": 1,
+  "kind": "common",
+  "clue": "هدوء وامن بين الناس",
+  "shortClue": "هدوء وامن"
+ },
+ {
+  "word": "محبة",
+  "topics": [
+   "general"
+  ],
+  "difficulty": 1,
+  "kind": "common",
+  "clue": "ميل القلب الى من نود",
+  "shortClue": "ميل القلب"
+ },
+ {
+  "word": "صداقة",
+  "topics": [
+   "general"
+  ],
+  "difficulty": 1,
+  "kind": "common",
+  "clue": "رابطة ود بين رفيقين",
+  "shortClue": "رابطة الود"
+ },
+ {
+  "word": "اتفاق",
+  "topics": [
+   "general"
+  ],
+  "difficulty": 2,
+  "kind": "common",
+  "clue": "رضا الطرفين على امر واحد",
+  "shortClue": "رضا الطرفين"
+ },
+ {
+  "word": "تباين",
+  "topics": [
+   "general"
+  ],
+  "difficulty": 3,
+  "kind": "common",
+  "clue": "اختلاف ظاهر بين امرين",
+  "shortClue": "فرق ظاهر"
+ },
+ {
+  "word": "يقين",
+  "topics": [
+   "general"
+  ],
+  "difficulty": 2,
+  "kind": "common",
+  "clue": "علم لا يخالطه ريب",
+  "shortClue": "علم بلا ريب"
+ },
+ {
+  "word": "رغبة",
+  "topics": [
+   "general"
+  ],
+  "difficulty": 2,
+  "kind": "common",
+  "clue": "ميل قوي الى نيل الشيء",
+  "shortClue": "ميل قوي"
+ },
+ {
+  "word": "حاجة",
+  "topics": [
+   "general"
+  ],
+  "difficulty": 1,
+  "kind": "common",
+  "clue": "ما نفتقر اليه",
+  "shortClue": "امر ضروري"
+ },
+ {
+  "word": "كمية",
+  "topics": [
+   "general"
+  ],
+  "difficulty": 2,
+  "kind": "common",
+  "clue": "مقدار من الشيء",
+  "shortClue": "مقدار العدد"
+ },
+ {
+  "word": "نصف",
+  "topics": [
+   "general"
+  ],
+  "difficulty": 1,
+  "kind": "common",
+  "clue": "احد جزءين متساويين",
+  "shortClue": "جزء من اثنين"
+ },
+ {
+  "word": "زيادة",
+  "topics": [
+   "general"
+  ],
+  "difficulty": 2,
+  "kind": "common",
+  "clue": "اضافة تكبر المقدار",
+  "shortClue": "اضافة مقدار"
+ },
+ {
+  "word": "نقص",
+  "topics": [
+   "general"
+  ],
+  "difficulty": 2,
+  "kind": "common",
+  "clue": "قلة عن المقدار الكامل",
+  "shortClue": "قلة وعوز"
+ },
+ {
+  "word": "حجم",
+  "topics": [
+   "general"
+  ],
+  "difficulty": 2,
+  "kind": "common",
+  "clue": "مقدار ما يشغله الجسم من فراغ",
+  "shortClue": "مقدار الفراغ"
+ },
+ {
+  "word": "شكل",
+  "topics": [
+   "general"
+  ],
+  "difficulty": 1,
+  "kind": "common",
+  "clue": "هيئة الشيء الخارجية",
+  "shortClue": "هيئة خارجية"
+ },
+ {
+  "word": "دائرة",
+  "topics": [
+   "general"
+  ],
+  "difficulty": 2,
+  "kind": "common",
+  "clue": "خط منحن مغلق بعده ثابت عن المركز",
+  "shortClue": "شكل بلا زوايا"
+ },
+ {
+  "word": "ارتفاع",
+  "topics": [
+   "general"
+  ],
+  "difficulty": 2,
+  "kind": "common",
+  "clue": "علو الشيء عن الارض",
+  "shortClue": "علو عن الارض"
+ },
+ {
+  "word": "عمق",
+  "topics": [
+   "general"
+  ],
+  "difficulty": 2,
+  "kind": "common",
+  "clue": "بعد القاع عن السطح",
+  "shortClue": "بعد القاع"
+ },
+ {
+  "word": "وزن",
+  "topics": [
+   "general"
+  ],
+  "difficulty": 2,
+  "kind": "common",
+  "clue": "ثقل الشيء بالميزان",
+  "shortClue": "ثقل الجسم"
+ },
+ {
+  "word": "سرعة",
+  "topics": [
+   "general"
+  ],
+  "difficulty": 1,
+  "kind": "common",
+  "clue": "قطع المسافة في وقت قصير",
+  "shortClue": "قلة الزمن"
+ },
+ {
+  "word": "بطء",
+  "topics": [
+   "general"
+  ],
+  "difficulty": 2,
+  "kind": "common",
+  "clue": "تاخر في الحركة",
+  "shortClue": "تاخر الحركة"
+ },
+ {
+  "word": "قوة",
+  "topics": [
+   "general"
+  ],
+  "difficulty": 1,
+  "kind": "common",
+  "clue": "ضد الضعف",
+  "shortClue": "ضد الضعف"
+ },
+ {
+  "word": "راحة",
+  "topics": [
+   "general"
+  ],
+  "difficulty": 1,
+  "kind": "common",
+  "clue": "سكون بعد التعب",
+  "shortClue": "سكون بعد التعب"
+ },
+ {
+  "word": "تعب",
+  "topics": [
+   "general"
+  ],
+  "difficulty": 1,
+  "kind": "common",
+  "clue": "اجهاد يصيب الجسم",
+  "shortClue": "اجهاد الجسم"
+ },
+ {
+  "word": "نوم",
+  "topics": [
+   "general"
+  ],
+  "difficulty": 1,
+  "kind": "common",
+  "clue": "سكون الجسم ليلا",
+  "shortClue": "راحة الليل"
+ },
+ {
+  "word": "حركة",
+  "topics": [
+   "general"
+  ],
+  "difficulty": 1,
+  "kind": "common",
+  "clue": "ضد السكون",
+  "shortClue": "ضد السكون"
+ },
+ {
+  "word": "صمت",
+  "topics": [
+   "general"
+  ],
+  "difficulty": 1,
+  "kind": "common",
+  "clue": "غياب الكلام والصوت",
+  "shortClue": "غياب الكلام"
+ },
+ {
+  "word": "ضجيج",
+  "topics": [
+   "general"
+  ],
+  "difficulty": 2,
+  "kind": "common",
+  "clue": "اصوات عالية مزعجة",
+  "shortClue": "اصوات مزعجة"
+ },
+ {
+  "word": "صدى",
+  "topics": [
+   "general"
+  ],
+  "difficulty": 2,
+  "kind": "common",
+  "clue": "صوت يرتد من الجبل",
+  "shortClue": "رجع الصوت"
+ },
+ {
+  "word": "ظلام",
+  "topics": [
+   "general"
+  ],
+  "difficulty": 2,
+  "kind": "common",
+  "clue": "غياب النور",
+  "shortClue": "غياب النور"
+ },
+ {
+  "word": "خيال",
+  "topics": [
+   "general"
+  ],
+  "difficulty": 2,
+  "kind": "common",
+  "clue": "صور يرسمها الذهن",
+  "shortClue": "صور الذهن"
+ },
+ {
+  "word": "واقع",
+  "topics": [
+   "general"
+  ],
+  "difficulty": 2,
+  "kind": "common",
+  "clue": "ما يحدث فعلا لا تخيلا",
+  "shortClue": "ضد الخيال"
+ },
+ {
+  "word": "عنوان",
+  "topics": [
+   "general"
+  ],
+  "difficulty": 2,
+  "kind": "common",
+  "clue": "اسم يتصدر الكتاب",
+  "shortClue": "اسم الكتاب"
+ },
+ {
+  "word": "رسالة",
+  "topics": [
+   "general"
+  ],
+  "difficulty": 2,
+  "kind": "common",
+  "clue": "ورقة نبعثها لغائب",
+  "shortClue": "ورقة لغائب"
+ },
+ {
+  "word": "وعد",
+  "topics": [
+   "general"
+  ],
+  "difficulty": 1,
+  "kind": "common",
+  "clue": "التزام بفعل شيء مستقبلا",
+  "shortClue": "التزام مستقبلي"
+ },
+ {
+  "word": "سبب",
+  "topics": [
+   "general"
+  ],
+  "difficulty": 1,
+  "kind": "common",
+  "clue": "ما يؤدي الى حدوث امر",
+  "shortClue": "باعث الحدوث"
+ },
+ {
+  "word": "حصيلة",
+  "topics": [
+   "general"
+  ],
+  "difficulty": 3,
+  "kind": "common",
+  "clue": "ما يؤول اليه الامر اخيرا",
+  "shortClue": "خلاصة الامر"
+ },
+ {
+  "word": "قرار",
+  "topics": [
+   "general"
+  ],
+  "difficulty": 2,
+  "kind": "common",
+  "clue": "حكم نعزم عليه بعد تفكير",
+  "shortClue": "عزم بعد تفكير"
+ },
+ {
+  "word": "تجربة",
+  "topics": [
+   "general"
+  ],
+  "difficulty": 2,
+  "kind": "common",
+  "clue": "محاولة لاختبار شيء",
+  "shortClue": "محاولة اختبار"
+ },
+ {
+  "word": "خبرة",
+  "topics": [
+   "general"
+  ],
+  "difficulty": 2,
+  "kind": "common",
+  "clue": "معرفة تاتي من الممارسة",
+  "shortClue": "معرفة الممارسة"
+ },
+ {
+  "word": "مهارة",
+  "topics": [
+   "general"
+  ],
+  "difficulty": 2,
+  "kind": "common",
+  "clue": "اتقان لعمل بالتدريب",
+  "shortClue": "اتقان العمل"
+ },
+ {
+  "word": "تمرين",
+  "topics": [
+   "general"
+  ],
+  "difficulty": 2,
+  "kind": "common",
+  "clue": "عمل نكرره لنتقن",
+  "shortClue": "عمل متكرر"
+ },
+ {
+  "word": "درس",
+  "topics": [
+   "general"
+  ],
+  "difficulty": 1,
+  "kind": "common",
+  "clue": "ما يشرحه المعلم في الصف",
+  "shortClue": "حصة الصف"
+ },
+ {
+  "word": "امتحان",
+  "topics": [
+   "general"
+  ],
+  "difficulty": 1,
+  "kind": "common",
+  "clue": "ورقة اسئلة تقيس ما تعلمناه",
+  "shortClue": "اسئلة تقييم"
+ },
+ {
+  "word": "استقلال",
+  "topics": [
+   "general"
+  ],
+  "difficulty": 3,
+  "kind": "common",
+  "clue": "تدبير المرء شؤونه بنفسه",
+  "shortClue": "تدبير ذاتي"
+ },
+ {
+  "word": "طمانينة",
+  "topics": [
+   "general"
+  ],
+  "difficulty": 3,
+  "kind": "common",
+  "clue": "هدوء النفس وراحة البال",
+  "shortClue": "هدوء النفس"
+ },
+ {
+  "word": "دهشة",
+  "topics": [
+   "general"
+  ],
+  "difficulty": 2,
+  "kind": "common",
+  "clue": "حيرة تصيبنا لامر غريب",
+  "shortClue": "حيرة وعجب"
+ },
+ {
+  "word": "حنين",
+  "topics": [
+   "general"
+  ],
+  "difficulty": 2,
+  "kind": "common",
+  "clue": "شوق الى ما مضى",
+  "shortClue": "شوق للماضي"
+ },
+ {
+  "word": "ضمير",
+  "topics": [
+   "general"
+  ],
+  "difficulty": 2,
+  "kind": "common",
+  "clue": "صوت داخلي يميز الصواب",
+  "shortClue": "صوت داخلي"
+ },
+ {
+  "word": "فضول",
+  "topics": [
+   "general"
+  ],
+  "difficulty": 2,
+  "kind": "common",
+  "clue": "رغبة في معرفة ما يخفى",
+  "shortClue": "حب الاستطلاع"
+ },
+ {
+  "word": "مسؤولية",
+  "topics": [
+   "general"
+  ],
+  "difficulty": 3,
+  "kind": "common",
+  "clue": "التزام المرء بما كلف به",
+  "shortClue": "التزام بالواجب"
+ },
+ {
+  "word": "حرية",
+  "topics": [
+   "general"
+  ],
+  "difficulty": 2,
+  "kind": "common",
+  "clue": "قدرة الانسان على الاختيار",
+  "shortClue": "ضد القيد"
+ },
+ {
+  "word": "عدل",
+  "topics": [
+   "general"
+  ],
+  "difficulty": 2,
+  "kind": "common",
+  "clue": "اعطاء كل ذي حق حقه",
+  "shortClue": "انصاف"
+ },
+ {
+  "word": "عزيمة",
+  "topics": [
+   "general"
+  ],
+  "difficulty": 2,
+  "kind": "common",
+  "clue": "قوة الارادة على المضي في الامر",
+  "shortClue": "قوة الارادة"
+ },
+ {
+  "word": "شغف",
+  "topics": [
+   "general"
+  ],
+  "difficulty": 2,
+  "kind": "common",
+  "clue": "حب عميق لامر ما",
+  "shortClue": "حب عميق"
+ },
+ {
+  "word": "طموح",
+  "topics": [
+   "general"
+  ],
+  "difficulty": 2,
+  "kind": "common",
+  "clue": "سعي الى مرتبة اعلى",
+  "shortClue": "سعي للاعلى"
+ },
+ {
+  "word": "مكنسة",
+  "topics": [
+   "home"
+  ],
+  "difficulty": 1,
+  "kind": "common",
+  "clue": "اداة نزيل بها الغبار عن الارض",
+  "shortClue": "اداة التنظيف"
+ },
+ {
+  "word": "غسالة",
+  "topics": [
+   "home"
+  ],
+  "difficulty": 1,
+  "kind": "common",
+  "clue": "جهاز كهربائي ينظف الثياب",
+  "shortClue": "جهاز الثياب"
+ },
+ {
+  "word": "مكواة",
+  "topics": [
+   "home"
+  ],
+  "difficulty": 1,
+  "kind": "common",
+  "clue": "اداة ساخنة تسوي الثياب",
+  "shortClue": "اداة ساخنة"
+ },
+ {
+  "word": "مروحة",
+  "topics": [
+   "home"
+  ],
+  "difficulty": 1,
+  "kind": "common",
+  "clue": "جهاز ريشه يدور فيبرد الغرفة",
+  "shortClue": "جهاز التهوية"
+ },
+ {
+  "word": "ستارة",
+  "topics": [
+   "home"
+  ],
+  "difficulty": 1,
+  "kind": "common",
+  "clue": "قماش يحجب النافذة",
+  "shortClue": "قماش النافذة"
+ },
+ {
+  "word": "خزانة",
+  "topics": [
+   "home"
+  ],
+  "difficulty": 1,
+  "kind": "common",
+  "clue": "اثاث تعلق فيه الملابس",
+  "shortClue": "اثاث الثياب"
+ },
+ {
+  "word": "فنجان",
+  "topics": [
+   "home"
+  ],
+  "difficulty": 1,
+  "kind": "common",
+  "clue": "اناء صغير بمقبض للقهوة",
+  "shortClue": "اناء القهوة"
+ },
+ {
+  "word": "مقلاة",
+  "topics": [
+   "home"
+  ],
+  "difficulty": 2,
+  "kind": "common",
+  "clue": "اناء مسطح نقلي فيه الطعام",
+  "shortClue": "اناء القلي"
+ },
+ {
+  "word": "ابريق",
+  "topics": [
+   "home"
+  ],
+  "difficulty": 2,
+  "kind": "common",
+  "clue": "وعاء بسكب نصب منه الشاي",
+  "shortClue": "وعاء بسكب"
+ },
+ {
+  "word": "صنبور",
+  "topics": [
+   "home"
+  ],
+  "difficulty": 2,
+  "kind": "common",
+  "clue": "ما نفتحه فينزل الماء",
+  "shortClue": "حنفية"
+ },
+ {
+  "word": "منشفة",
+  "topics": [
+   "home"
+  ],
+  "difficulty": 1,
+  "kind": "common",
+  "clue": "قماش نجفف به الجسم",
+  "shortClue": "قماش التجفيف"
+ },
+ {
+  "word": "صابون",
+  "topics": [
+   "home"
+  ],
+  "difficulty": 1,
+  "kind": "common",
+  "clue": "مادة تزيل الاوساخ بالرغوة",
+  "shortClue": "مادة الرغوة"
+ },
+ {
+  "word": "فرشاة",
+  "topics": [
+   "home"
+  ],
+  "difficulty": 1,
+  "kind": "common",
+  "clue": "اداة ذات شعيرات للتنظيف",
+  "shortClue": "اداة الشعيرات"
+ },
+ {
+  "word": "بطانية",
+  "topics": [
+   "home"
+  ],
+  "difficulty": 2,
+  "kind": "common",
+  "clue": "غطاء صوفي ثقيل للنوم",
+  "shortClue": "غطاء صوفي"
+ },
+ {
+  "word": "اريكة",
+  "topics": [
+   "home"
+  ],
+  "difficulty": 2,
+  "kind": "common",
+  "clue": "مقعد طويل مريح في الصالة",
+  "shortClue": "مقعد طويل"
+ },
+ {
+  "word": "مطرقة",
+  "topics": [
+   "home"
+  ],
+  "difficulty": 1,
+  "kind": "common",
+  "clue": "اداة يدق بها المسمار",
+  "shortClue": "اداة الدق"
+ },
+ {
+  "word": "مسمار",
+  "topics": [
+   "home"
+  ],
+  "difficulty": 1,
+  "kind": "common",
+  "clue": "قضيب معدني مدبب تثبت به الالواح",
+  "shortClue": "قضيب مدبب"
+ },
+ {
+  "word": "منشار",
+  "topics": [
+   "home"
+  ],
+  "difficulty": 2,
+  "kind": "common",
+  "clue": "اداة اسنانها تقطع الخشب",
+  "shortClue": "اداة قطع الخشب"
+ },
+ {
+  "word": "مثقاب",
+  "topics": [
+   "home"
+  ],
+  "difficulty": 3,
+  "kind": "common",
+  "clue": "اداة كهربائية تحفر ثقبا في الجدار",
+  "shortClue": "اداة الحفر"
+ },
+ {
+  "word": "مدخنة",
+  "topics": [
+   "home"
+  ],
+  "difficulty": 2,
+  "kind": "common",
+  "clue": "انبوب يخرج منه دخان الموقد",
+  "shortClue": "انبوب الدخان"
+ },
+ {
+  "word": "ميكروويف",
+  "topics": [
+   "home"
+  ],
+  "difficulty": 3,
+  "kind": "common",
+  "clue": "جهاز يسخن الطعام بالموجات",
+  "shortClue": "جهاز التسخين"
+ },
+ {
+  "word": "ثريا",
+  "topics": [
+   "home"
+  ],
+  "difficulty": 3,
+  "kind": "common",
+  "clue": "مصباح كبير معلق في السقف",
+  "shortClue": "مصباح السقف"
+ },
+ {
+  "word": "شمعدان",
+  "topics": [
+   "home"
+  ],
+  "difficulty": 3,
+  "kind": "common",
+  "clue": "حامل الشموع",
+  "shortClue": "حامل الشموع"
+ },
+ {
+  "word": "خلاط",
+  "topics": [
+   "home"
+  ],
+  "difficulty": 2,
+  "kind": "common",
+  "clue": "جهاز يطحن الفاكهة ويمزجها",
+  "shortClue": "جهاز المزج"
+ },
+ {
+  "word": "محاسب",
+  "topics": [
+   "professions"
+  ],
+  "difficulty": 2,
+  "kind": "common",
+  "clue": "موظف يمسك الدفاتر المالية",
+  "shortClue": "ممسك الدفاتر"
+ },
+ {
+  "word": "صيدلي",
+  "topics": [
+   "professions"
+  ],
+  "difficulty": 2,
+  "kind": "common",
+  "clue": "من يصرف الادوية",
+  "shortClue": "مصرف الادوية"
+ },
+ {
+  "word": "ممرض",
+  "topics": [
+   "professions"
+  ],
+  "difficulty": 1,
+  "kind": "common",
+  "clue": "من يعتني بالمرضى مع الطبيب",
+  "shortClue": "معاون الطبيب"
+ },
+ {
+  "word": "جراح",
+  "topics": [
+   "professions"
+  ],
+  "difficulty": 2,
+  "kind": "common",
+  "clue": "طبيب يجري العمليات",
+  "shortClue": "طبيب العمليات"
+ },
+ {
+  "word": "محامي",
+  "topics": [
+   "professions"
+  ],
+  "difficulty": 2,
+  "kind": "common",
+  "clue": "من يدافع عن موكله امام القاضي",
+  "shortClue": "مدافع قانوني"
+ },
+ {
+  "word": "قاضي",
+  "topics": [
+   "professions"
+  ],
+  "difficulty": 2,
+  "kind": "common",
+  "clue": "من يحكم بين المتخاصمين",
+  "shortClue": "حاكم المحكمة"
+ },
+ {
+  "word": "استاذ",
+  "topics": [
+   "professions"
+  ],
+  "difficulty": 1,
+  "kind": "common",
+  "clue": "لقب المدرس في الجامعة",
+  "shortClue": "مدرس جامعي"
+ },
+ {
+  "word": "مذيع",
+  "topics": [
+   "professions"
+  ],
+  "difficulty": 2,
+  "kind": "common",
+  "clue": "من يقدم الاخبار على الشاشة",
+  "shortClue": "مقدم الاخبار"
+ },
+ {
+  "word": "مصور",
+  "topics": [
+   "professions"
+  ],
+  "difficulty": 2,
+  "kind": "common",
+  "clue": "من يلتقط الصور بالكاميرا",
+  "shortClue": "ملتقط الصور"
+ },
+ {
+  "word": "مترجم",
+  "topics": [
+   "professions"
+  ],
+  "difficulty": 2,
+  "kind": "common",
+  "clue": "من ينقل الكلام من لغة الى لغة",
+  "shortClue": "ناقل اللغات"
+ },
+ {
+  "word": "خياط",
+  "topics": [
+   "professions"
+  ],
+  "difficulty": 1,
+  "kind": "common",
+  "clue": "من يفصل الثياب ويخيطها",
+  "shortClue": "مفصل الثياب"
+ },
+ {
+  "word": "حلاق",
+  "topics": [
+   "professions"
+  ],
+  "difficulty": 1,
+  "kind": "common",
+  "clue": "من يقص الشعر",
+  "shortClue": "قاص الشعر"
+ },
+ {
+  "word": "ميكانيكي",
+  "topics": [
+   "professions"
+  ],
+  "difficulty": 2,
+  "kind": "common",
+  "clue": "من يصلح محركات السيارات",
+  "shortClue": "مصلح المحركات"
+ },
+ {
+  "word": "سباك",
+  "topics": [
+   "professions"
+  ],
+  "difficulty": 2,
+  "kind": "common",
+  "clue": "من يصلح انابيب الماء",
+  "shortClue": "مصلح الانابيب"
+ },
+ {
+  "word": "صياد",
+  "topics": [
+   "professions"
+  ],
+  "difficulty": 1,
+  "kind": "common",
+  "clue": "من يلاحق السمك او الطرائد",
+  "shortClue": "ملاحق الطرائد"
+ },
+ {
+  "word": "جزار",
+  "topics": [
+   "professions"
+  ],
+  "difficulty": 2,
+  "kind": "common",
+  "clue": "من يبيع اللحم",
+  "shortClue": "بائع اللحم"
+ },
+ {
+  "word": "عطار",
+  "topics": [
+   "professions"
+  ],
+  "difficulty": 3,
+  "kind": "common",
+  "clue": "من يبيع الاعشاب والتوابل",
+  "shortClue": "بائع الاعشاب"
+ },
+ {
+  "word": "مبرمج",
+  "topics": [
+   "professions"
+  ],
+  "difficulty": 2,
+  "kind": "common",
+  "clue": "من يكتب شيفرة الحاسوب",
+  "shortClue": "كاتب الشيفرة"
+ },
+ {
+  "word": "سكرتير",
+  "topics": [
+   "professions"
+  ],
+  "difficulty": 2,
+  "kind": "common",
+  "clue": "من ينظم مواعيد المدير ومراسلاته",
+  "shortClue": "منظم المواعيد"
+ },
+ {
+  "word": "قبطان",
+  "topics": [
+   "professions"
+  ],
+  "difficulty": 2,
+  "kind": "common",
+  "clue": "قائد السفينة",
+  "shortClue": "قائد السفينة"
+ },
+ {
+  "word": "مرشد",
+  "topics": [
+   "professions"
+  ],
+  "difficulty": 2,
+  "kind": "common",
+  "clue": "من يدل السياح على المعالم",
+  "shortClue": "دليل السياح"
+ },
+ {
+  "word": "بستاني",
+  "topics": [
+   "professions"
+  ],
+  "difficulty": 2,
+  "kind": "common",
+  "clue": "من يعتني بالحدائق والاشجار",
+  "shortClue": "راعي الحدائق"
+ },
+ {
+  "word": "ضيافة",
+  "topics": [
+   "localCulture"
+  ],
+  "difficulty": 2,
+  "kind": "common",
+  "clue": "اكرام الضيف بالقهوة والتمر",
+  "shortClue": "اكرام الضيف"
+ },
+ {
+  "word": "سحور",
+  "topics": [
+   "localCulture"
+  ],
+  "difficulty": 1,
+  "kind": "common",
+  "clue": "وجبة اخر الليل قبل الفجر في رمضان",
+  "shortClue": "وجبة الفجر"
+ },
+ {
+  "word": "افطار",
+  "topics": [
+   "localCulture"
+  ],
+  "difficulty": 1,
+  "kind": "common",
+  "clue": "وجبة الغروب عند انتهاء نهار الصيام",
+  "shortClue": "وجبة الغروب"
+ },
+ {
+  "word": "مسحراتي",
+  "topics": [
+   "localCulture"
+  ],
+  "difficulty": 3,
+  "kind": "common",
+  "clue": "رجل يطوف قبل الفجر بطبله في رمضان",
+  "shortClue": "موقظ الصائمين"
+ },
+ {
+  "word": "قنديل",
+  "topics": [
+   "localCulture"
+  ],
+  "difficulty": 2,
+  "kind": "common",
+  "clue": "مصباح زيتي قديم",
+  "shortClue": "مصباح قديم"
+ },
+ {
+  "word": "خيمة",
+  "topics": [
+   "localCulture"
+  ],
+  "difficulty": 1,
+  "kind": "common",
+  "clue": "مسكن من قماش في البادية",
+  "shortClue": "مسكن البادية"
+ },
+ {
+  "word": "بدوي",
+  "topics": [
+   "localCulture"
+  ],
+  "difficulty": 1,
+  "kind": "common",
+  "clue": "ساكن الصحراء المترحل",
+  "shortClue": "ساكن الصحراء"
+ },
+ {
+  "word": "مجلس",
+  "topics": [
+   "localCulture"
+  ],
+  "difficulty": 2,
+  "kind": "common",
+  "clue": "غرفة استقبال الضيوف",
+  "shortClue": "غرفة الضيوف"
+ },
+ {
+  "word": "غترة",
+  "topics": [
+   "localCulture"
+  ],
+  "difficulty": 2,
+  "kind": "common",
+  "clue": "غطاء راس خليجي",
+  "shortClue": "غطاء الراس"
+ },
+ {
+  "word": "عقال",
+  "topics": [
+   "localCulture"
+  ],
+  "difficulty": 2,
+  "kind": "common",
+  "clue": "حلقة سوداء تثبت غطاء الراس",
+  "shortClue": "حلقة الراس"
+ },
+ {
+  "word": "ثوب",
+  "topics": [
+   "localCulture"
+  ],
+  "difficulty": 1,
+  "kind": "common",
+  "clue": "لباس طويل يلبسه الرجال",
+  "shortClue": "لباس طويل"
+ },
+ {
+  "word": "جلابية",
+  "topics": [
+   "localCulture"
+  ],
+  "difficulty": 3,
+  "kind": "common",
+  "clue": "ثوب فضفاض طويل الكمين",
+  "shortClue": "ثوب فضفاض"
+ },
+ {
+  "word": "قفطان",
+  "topics": [
+   "localCulture"
+  ],
+  "difficulty": 3,
+  "kind": "common",
+  "clue": "لباس مغربي مزخرف طويل",
+  "shortClue": "لباس مغربي"
+ },
+ {
+  "word": "طربوش",
+  "topics": [
+   "localCulture"
+  ],
+  "difficulty": 3,
+  "kind": "common",
+  "clue": "قبعة حمراء اسطوانية",
+  "shortClue": "قبعة حمراء"
+ },
+ {
+  "word": "حناء",
+  "topics": [
+   "localCulture"
+  ],
+  "difficulty": 2,
+  "kind": "common",
+  "clue": "صبغة نباتية ترسم بها الايدي في الافراح",
+  "shortClue": "صبغة نباتية"
+ },
+ {
+  "word": "حكواتي",
+  "topics": [
+   "localCulture"
+  ],
+  "difficulty": 3,
+  "kind": "common",
+  "clue": "راو يروي السير في المقاهي",
+  "shortClue": "راوي المقاهي"
+ },
+ {
+  "word": "اسطورة",
+  "topics": [
+   "localCulture"
+  ],
+  "difficulty": 2,
+  "kind": "common",
+  "clue": "حكاية خيالية قديمة",
+  "shortClue": "حكاية قديمة"
+ },
+ {
+  "word": "شهرزاد",
+  "topics": [
+   "localCulture"
+  ],
+  "difficulty": 2,
+  "kind": "proper",
+  "clue": "راوية حكايات الف ليلة وليلة",
+  "shortClue": "راوية الليالي"
+ },
+ {
+  "word": "سندباد",
+  "topics": [
+   "localCulture"
+  ],
+  "difficulty": 2,
+  "kind": "proper",
+  "clue": "بحار حكايات رحلاته السبع",
+  "shortClue": "بحار الحكايات"
+ },
+ {
+  "word": "جحا",
+  "topics": [
+   "localCulture"
+  ],
+  "difficulty": 2,
+  "kind": "proper",
+  "clue": "شخصية فكاهية في النوادر الشعبية",
+  "shortClue": "شخصية فكاهية"
+ },
+ {
+  "word": "زغرودة",
+  "topics": [
+   "localCulture"
+  ],
+  "difficulty": 3,
+  "kind": "common",
+  "clue": "صوت فرح تطلقه النساء في العرس",
+  "shortClue": "صوت الفرح"
+ },
+ {
+  "word": "نرجيلة",
+  "topics": [
+   "localCulture"
+  ],
+  "difficulty": 3,
+  "kind": "common",
+  "clue": "اداة تدخين شرقية بماء",
+  "shortClue": "اداة شرقية"
+ },
+ {
+  "word": "عرس",
+  "topics": [
+   "localCulture"
+  ],
+  "difficulty": 1,
+  "kind": "common",
+  "clue": "حفل زواج",
+  "shortClue": "حفل الزواج"
+ },
+ {
+  "word": "مضافة",
+  "topics": [
+   "localCulture"
+  ],
+  "difficulty": 3,
+  "kind": "common",
+  "clue": "بيت وجيه القرية يستقبل فيه الزوار",
+  "shortClue": "بيت الزوار"
+ },
+ {
+  "word": "سنديان",
+  "topics": [
+   "nature"
+  ],
+  "difficulty": 3,
+  "kind": "common",
+  "clue": "شجر معمر صلب خشبه وثماره بلوط",
+  "shortClue": "شجر صلب"
+ },
+ {
+  "word": "صنوبر",
+  "topics": [
+   "nature"
+  ],
+  "difficulty": 2,
+  "kind": "common",
+  "clue": "شجرة مخروطية ابرية الاوراق",
+  "shortClue": "شجرة ابرية"
+ },
+ {
+  "word": "نخلة",
+  "topics": [
+   "nature"
+  ],
+  "difficulty": 1,
+  "kind": "common",
+  "clue": "شجرة تحمل التمر",
+  "shortClue": "شجرة التمر"
+ },
+ {
+  "word": "زيتون",
+  "topics": [
+   "nature"
+  ],
+  "difficulty": 1,
+  "kind": "common",
+  "clue": "شجرة معمرة تعصر ثمارها زيتا",
+  "shortClue": "شجرة معمرة"
+ },
+ {
+  "word": "ياسمين",
+  "topics": [
+   "nature"
+  ],
+  "difficulty": 1,
+  "kind": "common",
+  "clue": "زهر ابيض عطري يتسلق الجدران",
+  "shortClue": "زهر ابيض عطري"
+ },
+ {
+  "word": "وردة",
+  "topics": [
+   "nature"
+  ],
+  "difficulty": 1,
+  "kind": "common",
+  "clue": "زهرة شائكة الساق عطرة",
+  "shortClue": "زهرة شائكة"
+ },
+ {
+  "word": "شقائق",
+  "topics": [
+   "nature"
+  ],
+  "difficulty": 3,
+  "kind": "common",
+  "clue": "ازهار حمراء تنبت في الربيع على السفوح",
+  "shortClue": "ازهار حمراء ربيعية"
+ },
+ {
+  "word": "غيمة",
+  "topics": [
+   "nature"
+  ],
+  "difficulty": 1,
+  "kind": "common",
+  "clue": "كتلة بخار تسبح في السماء",
+  "shortClue": "كتلة بخار"
+ },
+ {
+  "word": "عاصفة",
+  "topics": [
+   "nature"
+  ],
+  "difficulty": 2,
+  "kind": "common",
+  "clue": "ريح شديدة مع مطر ورعد",
+  "shortClue": "ريح شديدة"
+ },
+ {
+  "word": "رعد",
+  "topics": [
+   "nature"
+  ],
+  "difficulty": 2,
+  "kind": "common",
+  "clue": "صوت يدوي في السماء بعد البرق",
+  "shortClue": "دوي السماء"
+ },
+ {
+  "word": "برق",
+  "topics": [
+   "nature"
+  ],
+  "difficulty": 1,
+  "kind": "common",
+  "clue": "وميض مفاجئ يسبق صوت الرعد",
+  "shortClue": "وميض السماء"
+ },
+ {
+  "word": "ثلج",
+  "topics": [
+   "nature"
+  ],
+  "difficulty": 1,
+  "kind": "common",
+  "clue": "بلور ابيض يتساقط شتاء",
+  "shortClue": "بلور ابيض"
+ },
+ {
+  "word": "ضباب",
+  "topics": [
+   "nature"
+  ],
+  "difficulty": 2,
+  "kind": "common",
+  "clue": "بخار كثيف يحجب الرؤية قرب الارض",
+  "shortClue": "بخار كثيف"
+ },
+ {
+  "word": "صقيع",
+  "topics": [
+   "nature"
+  ],
+  "difficulty": 3,
+  "kind": "common",
+  "clue": "جليد رقيق يغطي الارض ليلا",
+  "shortClue": "جليد رقيق"
+ },
+ {
+  "word": "شتاء",
+  "topics": [
+   "nature"
+  ],
+  "difficulty": 1,
+  "kind": "common",
+  "clue": "الفصل البارد من السنة",
+  "shortClue": "الفصل البارد"
+ },
+ {
+  "word": "ربيع",
+  "topics": [
+   "nature"
+  ],
+  "difficulty": 1,
+  "kind": "common",
+  "clue": "فصل تزهر فيه الحقول",
+  "shortClue": "فصل الازهار"
+ },
+ {
+  "word": "خريف",
+  "topics": [
+   "nature"
+  ],
+  "difficulty": 1,
+  "kind": "common",
+  "clue": "فصل تتساقط فيه اوراق الشجر",
+  "shortClue": "فصل التساقط"
+ },
+ {
+  "word": "صخرة",
+  "topics": [
+   "nature"
+  ],
+  "difficulty": 1,
+  "kind": "common",
+  "clue": "قطعة ضخمة من الحجر",
+  "shortClue": "حجر ضخم"
+ },
+ {
+  "word": "رمل",
+  "topics": [
+   "nature"
+  ],
+  "difficulty": 1,
+  "kind": "common",
+  "clue": "حبيبات ناعمة تغطي الكثبان",
+  "shortClue": "حبيبات ناعمة"
+ },
+ {
+  "word": "كثيب",
+  "topics": [
+   "nature"
+  ],
+  "difficulty": 3,
+  "kind": "common",
+  "clue": "تل من الرمل تصنعه الريح",
+  "shortClue": "تل رملي"
+ },
+ {
+  "word": "واحة",
+  "topics": [
+   "nature"
+  ],
+  "difficulty": 2,
+  "kind": "common",
+  "clue": "بقعة خضراء وسط الصحراء",
+  "shortClue": "خضرة الصحراء"
+ },
+ {
+  "word": "وادي",
+  "topics": [
+   "nature"
+  ],
+  "difficulty": 2,
+  "kind": "common",
+  "clue": "منخفض بين جبلين يجري فيه الماء",
+  "shortClue": "منخفض بين جبلين"
+ },
+ {
+  "word": "شلال",
+  "topics": [
+   "nature"
+  ],
+  "difficulty": 2,
+  "kind": "common",
+  "clue": "ماء يسقط من مرتفع",
+  "shortClue": "ماء ساقط"
+ },
+ {
+  "word": "ينبوع",
+  "topics": [
+   "nature"
+  ],
+  "difficulty": 2,
+  "kind": "common",
+  "clue": "عين ماء تتفجر من الارض",
+  "shortClue": "عين ماء"
+ },
+ {
+  "word": "جدول",
+  "topics": [
+   "nature"
+  ],
+  "difficulty": 2,
+  "kind": "common",
+  "clue": "مجرى ماء صغير",
+  "shortClue": "مجرى صغير"
+ },
+ {
+  "word": "بركان",
+  "topics": [
+   "nature"
+  ],
+  "difficulty": 2,
+  "kind": "common",
+  "clue": "جبل ينفث الحمم والرماد",
+  "shortClue": "جبل ناري"
+ },
+ {
+  "word": "شاطئ",
+  "topics": [
+   "nature"
+  ],
+  "difficulty": 1,
+  "kind": "common",
+  "clue": "حافة البحر التي يلامسها الموج",
+  "shortClue": "حافة البحر"
+ },
+ {
+  "word": "موجة",
+  "topics": [
+   "nature"
+  ],
+  "difficulty": 1,
+  "kind": "common",
+  "clue": "ارتفاع الماء المتحرك في البحر",
+  "shortClue": "ماء متحرك"
+ },
+ {
+  "word": "مرجان",
+  "topics": [
+   "nature"
+  ],
+  "difficulty": 3,
+  "kind": "common",
+  "clue": "كائنات بحرية تبني شعابا ملونة",
+  "shortClue": "شعاب ملونة"
+ },
+ {
+  "word": "هلال",
+  "topics": [
+   "nature"
+  ],
+  "difficulty": 2,
+  "kind": "common",
+  "clue": "القمر في اول الشهر",
+  "shortClue": "قمر الاول"
+ },
+ {
+  "word": "نيزك",
+  "topics": [
+   "nature"
+  ],
+  "difficulty": 3,
+  "kind": "common",
+  "clue": "حجر يشتعل حين يخترق الجو",
+  "shortClue": "حجر مشتعل"
+ },
+ {
+  "word": "شهاب",
+  "topics": [
+   "nature"
+  ],
+  "difficulty": 3,
+  "kind": "common",
+  "clue": "خط ضوء يلمع لحظة في السماء الليلية",
+  "shortClue": "خط ضوء عابر"
+ },
+ {
+  "word": "مجرة",
+  "topics": [
+   "nature"
+  ],
+  "difficulty": 2,
+  "kind": "common",
+  "clue": "مجموعة هائلة من النجوم",
+  "shortClue": "مجموعة نجوم"
+ },
+ {
+  "word": "نجمة",
+  "topics": [
+   "nature"
+  ],
+  "difficulty": 1,
+  "kind": "common",
+  "clue": "جرم يتلالا في السماء ليلا",
+  "shortClue": "جرم متلالئ"
+ },
+ {
+  "word": "فجر",
+  "topics": [
+   "nature"
+  ],
+  "difficulty": 1,
+  "kind": "common",
+  "clue": "اول ضوء قبل الشروق",
+  "shortClue": "اول الضوء"
+ },
+ {
+  "word": "غروب",
+  "topics": [
+   "nature"
+  ],
+  "difficulty": 1,
+  "kind": "common",
+  "clue": "اختفاء الشمس عند الافق",
+  "shortClue": "اختفاء الشمس"
+ },
+ {
+  "word": "سراب",
+  "topics": [
+   "nature"
+  ],
+  "difficulty": 2,
+  "kind": "common",
+  "clue": "ماء كاذب في الصحراء",
+  "shortClue": "ماء كاذب"
+ },
+ {
+  "word": "طحلب",
+  "topics": [
+   "nature"
+  ],
+  "difficulty": 3,
+  "kind": "common",
+  "clue": "نبات اخضر ينمو على الماء الراكد",
+  "shortClue": "نبات مائي"
+ },
+ {
+  "word": "فطر",
+  "topics": [
+   "nature"
+  ],
+  "difficulty": 2,
+  "kind": "common",
+  "clue": "كائن يشبه المظلة ينمو في الرطوبة",
+  "shortClue": "كائن رطب"
+ },
+ {
+  "word": "عشب",
+  "topics": [
+   "nature"
+  ],
+  "difficulty": 1,
+  "kind": "common",
+  "clue": "نبات اخضر ينبت دون زراعة",
+  "shortClue": "نبات اخضر"
+ },
+ {
+  "word": "غصن",
+  "topics": [
+   "nature"
+  ],
+  "difficulty": 1,
+  "kind": "common",
+  "clue": "فرع الشجرة",
+  "shortClue": "فرع الشجرة"
+ },
+ {
+  "word": "جذر",
+  "topics": [
+   "nature"
+  ],
+  "difficulty": 1,
+  "kind": "common",
+  "clue": "ما يثبت الشجرة في التراب",
+  "shortClue": "ثابت الشجرة"
+ },
+ {
+  "word": "ورقة",
+  "topics": [
+   "nature"
+  ],
+  "difficulty": 1,
+  "kind": "common",
+  "clue": "ما يخضر على الغصن",
+  "shortClue": "اخضر الغصن"
+ },
+ {
+  "word": "بذرة",
+  "topics": [
+   "nature"
+  ],
+  "difficulty": 1,
+  "kind": "common",
+  "clue": "حبة تنمو منها النبتة",
+  "shortClue": "حبة النبتة"
+ },
+ {
+  "word": "صبار",
+  "topics": [
+   "nature"
+  ],
+  "difficulty": 2,
+  "kind": "common",
+  "clue": "نبات شوكي يخزن الماء",
+  "shortClue": "نبات شوكي"
+ },
+ {
+  "word": "قصب",
+  "topics": [
+   "nature"
+  ],
+  "difficulty": 3,
+  "kind": "common",
+  "clue": "نبات ساقه مجوفة يستخرج منه السكر",
+  "shortClue": "نبات مجوف"
+ },
+ {
+  "word": "حقل",
+  "topics": [
+   "nature"
+  ],
+  "difficulty": 1,
+  "kind": "common",
+  "clue": "ارض واسعة تزرع",
+  "shortClue": "ارض مزروعة"
+ },
+ {
+  "word": "كهف",
+  "topics": [
+   "nature"
+  ],
+  "difficulty": 2,
+  "kind": "common",
+  "clue": "تجويف كبير في الجبل",
+  "shortClue": "تجويف الجبل"
+ },
+ {
+  "word": "جزيرة",
+  "topics": [
+   "nature"
+  ],
+  "difficulty": 1,
+  "kind": "common",
+  "clue": "ارض يحيط بها الماء",
+  "shortClue": "ارض في البحر"
+ },
+ {
+  "word": "غدير",
+  "topics": [
+   "nature"
+  ],
+  "difficulty": 3,
+  "kind": "common",
+  "clue": "ماء قليل تركه السيل",
+  "shortClue": "ماء راكد"
+ },
+ {
+  "word": "زلزال",
+  "topics": [
+   "nature"
+  ],
+  "difficulty": 2,
+  "kind": "common",
+  "clue": "اهتزاز عنيف للارض",
+  "shortClue": "اهتزاز الارض"
+ },
+ {
+  "word": "اعصار",
+  "topics": [
+   "nature"
+  ],
+  "difficulty": 2,
+  "kind": "common",
+  "clue": "ريح دوارة مدمرة",
+  "shortClue": "ريح دوارة"
+ },
+ {
+  "word": "غبار",
+  "topics": [
+   "nature"
+  ],
+  "difficulty": 1,
+  "kind": "common",
+  "clue": "ذرات دقيقة تعلو الاشياء",
+  "shortClue": "ذرات دقيقة"
+ },
+ {
+  "word": "ذئب",
+  "topics": [
+   "animals"
+  ],
+  "difficulty": 1,
+  "kind": "common",
+  "clue": "حيوان مفترس يعوي في الليل",
+  "shortClue": "مفترس يعوي"
+ },
+ {
+  "word": "غزال",
+  "topics": [
+   "animals"
+  ],
+  "difficulty": 1,
+  "kind": "common",
+  "clue": "حيوان رشيق ذو عينين واسعتين يعدو بسرعة",
+  "shortClue": "حيوان رشيق"
+ },
+ {
+  "word": "زرافة",
+  "topics": [
+   "animals"
+  ],
+  "difficulty": 1,
+  "kind": "common",
+  "clue": "اطول الحيوانات عنقا",
+  "shortClue": "طويلة العنق"
+ },
+ {
+  "word": "قرد",
+  "topics": [
+   "animals"
+  ],
+  "difficulty": 1,
+  "kind": "common",
+  "clue": "حيوان يتسلق الاشجار ويقلد",
+  "shortClue": "متسلق مقلد"
+ },
+ {
+  "word": "دلفين",
+  "topics": [
+   "animals"
+  ],
+  "difficulty": 1,
+  "kind": "common",
+  "clue": "ثديي بحري ذكي يقفز فوق الموج",
+  "shortClue": "ثديي بحري ذكي"
+ },
+ {
+  "word": "حوت",
+  "topics": [
+   "animals"
+  ],
+  "difficulty": 2,
+  "kind": "common",
+  "clue": "اضخم الكائنات البحرية",
+  "shortClue": "عملاق البحر"
+ },
+ {
+  "word": "قرش",
+  "topics": [
+   "animals"
+  ],
+  "difficulty": 2,
+  "kind": "common",
+  "clue": "سمكة مفترسة ذات زعنفة ظهرية بارزة",
+  "shortClue": "سمكة مفترسة"
+ },
+ {
+  "word": "اخطبوط",
+  "topics": [
+   "animals"
+  ],
+  "difficulty": 2,
+  "kind": "common",
+  "clue": "رخويات ثمانية الاذرع",
+  "shortClue": "ثماني الاذرع"
+ },
+ {
+  "word": "سلحفاة",
+  "topics": [
+   "animals"
+  ],
+  "difficulty": 1,
+  "kind": "common",
+  "clue": "زاحف بطيء يحمل بيتا على ظهره",
+  "shortClue": "زاحف بطيء"
+ },
+ {
+  "word": "تمساح",
+  "topics": [
+   "animals"
+  ],
+  "difficulty": 2,
+  "kind": "common",
+  "clue": "زاحف كبير يعيش في الانهار",
+  "shortClue": "زاحف نهري"
+ },
+ {
+  "word": "ثعبان",
+  "topics": [
+   "animals"
+  ],
+  "difficulty": 1,
+  "kind": "common",
+  "clue": "زاحف طويل بلا ارجل",
+  "shortClue": "زاحف طويل"
+ },
+ {
+  "word": "عقرب",
+  "topics": [
+   "animals"
+  ],
+  "difficulty": 2,
+  "kind": "common",
+  "clue": "مفصلي صغير بذيل ذي ابرة سامة",
+  "shortClue": "مفصلي سام"
+ },
+ {
+  "word": "حرباء",
+  "topics": [
+   "animals"
+  ],
+  "difficulty": 2,
+  "kind": "common",
+  "clue": "زاحف يغير لونه",
+  "shortClue": "متلونة"
+ },
+ {
+  "word": "ضفدع",
+  "topics": [
+   "animals"
+  ],
+  "difficulty": 1,
+  "kind": "common",
+  "clue": "برمائي يقفز وينق",
+  "shortClue": "برمائي ناق"
+ },
+ {
+  "word": "عصفور",
+  "topics": [
+   "animals"
+  ],
+  "difficulty": 1,
+  "kind": "common",
+  "clue": "طائر صغير يزقزق",
+  "shortClue": "طائر صغير"
+ },
+ {
+  "word": "حمامة",
+  "topics": [
+   "animals"
+  ],
+  "difficulty": 1,
+  "kind": "common",
+  "clue": "طائر السلام",
+  "shortClue": "طائر السلام"
+ },
+ {
+  "word": "نسر",
+  "topics": [
+   "animals"
+  ],
+  "difficulty": 2,
+  "kind": "common",
+  "clue": "طائر جارح كبير الجناحين",
+  "shortClue": "جارح كبير"
+ },
+ {
+  "word": "صقر",
+  "topics": [
+   "animals"
+  ],
+  "difficulty": 2,
+  "kind": "common",
+  "clue": "طائر جارح يستخدم في الصيد",
+  "shortClue": "طائر الصيد"
+ },
+ {
+  "word": "بومة",
+  "topics": [
+   "animals"
+  ],
+  "difficulty": 2,
+  "kind": "common",
+  "clue": "طائر ليلي يطلق نداء مخيفا",
+  "shortClue": "طائر ليلي"
+ },
+ {
+  "word": "ببغاء",
+  "topics": [
+   "animals"
+  ],
+  "difficulty": 1,
+  "kind": "common",
+  "clue": "طائر يردد الكلام",
+  "shortClue": "طائر مردد"
+ },
+ {
+  "word": "طاووس",
+  "topics": [
+   "animals"
+  ],
+  "difficulty": 2,
+  "kind": "common",
+  "clue": "طائر ذيله يشبه مروحة ملونة",
+  "shortClue": "ذيل مروحي"
+ },
+ {
+  "word": "دجاجة",
+  "topics": [
+   "animals"
+  ],
+  "difficulty": 1,
+  "kind": "common",
+  "clue": "طائر الدار الذي يبيض",
+  "shortClue": "طائر يبيض"
+ },
+ {
+  "word": "ديك",
+  "topics": [
+   "animals"
+  ],
+  "difficulty": 1,
+  "kind": "common",
+  "clue": "طائر يصيح مع الفجر",
+  "shortClue": "صائح الفجر"
+ },
+ {
+  "word": "بطة",
+  "topics": [
+   "animals"
+  ],
+  "difficulty": 1,
+  "kind": "common",
+  "clue": "طائر يسبح ويصدر صوتا ثنائيا",
+  "shortClue": "طائر سباح"
+ },
+ {
+  "word": "اوزة",
+  "topics": [
+   "animals"
+  ],
+  "difficulty": 2,
+  "kind": "common",
+  "clue": "طائر مائي كبير ابيض الريش",
+  "shortClue": "طائر مائي"
+ },
+ {
+  "word": "بقرة",
+  "topics": [
+   "animals"
+  ],
+  "difficulty": 1,
+  "kind": "common",
+  "clue": "حيوان يعطينا الحليب",
+  "shortClue": "حلوب المزرعة"
+ },
+ {
+  "word": "خروف",
+  "topics": [
+   "animals"
+  ],
+  "difficulty": 1,
+  "kind": "common",
+  "clue": "صغير الضان",
+  "shortClue": "صغير الضان"
+ },
+ {
+  "word": "ماعز",
+  "topics": [
+   "animals"
+  ],
+  "difficulty": 2,
+  "kind": "common",
+  "clue": "حيوان ذو لحية يرعى في الجبال",
+  "shortClue": "حيوان ملتح"
+ },
+ {
+  "word": "حمار",
+  "topics": [
+   "animals"
+  ],
+  "difficulty": 1,
+  "kind": "common",
+  "clue": "حيوان صبور يحمل الاثقال",
+  "shortClue": "حيوان صبور"
+ },
+ {
+  "word": "بغل",
+  "topics": [
+   "animals"
+  ],
+  "difficulty": 3,
+  "kind": "common",
+  "clue": "نتاج الفرس والحمار",
+  "shortClue": "هجين الحصان"
+ },
+ {
+  "word": "ناقة",
+  "topics": [
+   "animals"
+  ],
+  "difficulty": 2,
+  "kind": "common",
+  "clue": "انثى الجمل",
+  "shortClue": "انثى الجمل"
+ },
+ {
+  "word": "فرس",
+  "topics": [
+   "animals"
+  ],
+  "difficulty": 2,
+  "kind": "common",
+  "clue": "انثى الخيل",
+  "shortClue": "انثى الخيل"
+ },
+ {
+  "word": "ارنب",
+  "topics": [
+   "animals"
+  ],
+  "difficulty": 1,
+  "kind": "common",
+  "clue": "حيوان طويل الاذنين يقفز",
+  "shortClue": "طويل الاذنين"
+ },
+ {
+  "word": "فار",
+  "topics": [
+   "animals"
+  ],
+  "difficulty": 1,
+  "kind": "common",
+  "clue": "قارض صغير يخشى القطط",
+  "shortClue": "قارض صغير"
+ },
+ {
+  "word": "سنجاب",
+  "topics": [
+   "animals"
+  ],
+  "difficulty": 2,
+  "kind": "common",
+  "clue": "قارض يخزن البندق",
+  "shortClue": "قارض ذو ذيل"
+ },
+ {
+  "word": "خفاش",
+  "topics": [
+   "animals"
+  ],
+  "difficulty": 2,
+  "kind": "common",
+  "clue": "ثديي يطير ليلا",
+  "shortClue": "طائر الظلام"
+ },
+ {
+  "word": "قنفذ",
+  "topics": [
+   "animals"
+  ],
+  "difficulty": 2,
+  "kind": "common",
+  "clue": "حيوان صغير مغطى بالاشواك",
+  "shortClue": "حيوان شائك"
+ },
+ {
+  "word": "ظبي",
+  "topics": [
+   "animals"
+  ],
+  "difficulty": 2,
+  "kind": "common",
+  "clue": "غزال صحراوي",
+  "shortClue": "غزال بري"
+ },
+ {
+  "word": "ضبع",
+  "topics": [
+   "animals"
+  ],
+  "difficulty": 3,
+  "kind": "common",
+  "clue": "حيوان مفترس يتغذى على الجيف",
+  "shortClue": "يتغذى على الجيف"
+ },
+ {
+  "word": "فهد",
+  "topics": [
+   "animals"
+  ],
+  "difficulty": 2,
+  "kind": "common",
+  "clue": "اسرع الحيوانات عدوا",
+  "shortClue": "اسرع عداء"
+ },
+ {
+  "word": "غراب",
+  "topics": [
+   "animals"
+  ],
+  "difficulty": 2,
+  "kind": "common",
+  "clue": "طائر اسود ينعق",
+  "shortClue": "طائر اسود"
+ },
+ {
+  "word": "هدهد",
+  "topics": [
+   "animals"
+  ],
+  "difficulty": 3,
+  "kind": "common",
+  "clue": "طائر على راسه تاج من الريش ومنقاره طويل رفيع",
+  "shortClue": "طائر ذو تاج"
+ },
+ {
+  "word": "بلبل",
+  "topics": [
+   "animals"
+  ],
+  "difficulty": 2,
+  "kind": "common",
+  "clue": "طائر مغرد حسن الصوت",
+  "shortClue": "طائر مغرد"
+ },
+ {
+  "word": "يمامة",
+  "topics": [
+   "animals"
+  ],
+  "difficulty": 3,
+  "kind": "common",
+  "clue": "طائر يهدل وهو قريب من الحمام",
+  "shortClue": "طائر هديله"
+ },
+ {
+  "word": "بجعة",
+  "topics": [
+   "animals"
+  ],
+  "difficulty": 2,
+  "kind": "common",
+  "clue": "طائر مائي ابيض طويل العنق",
+  "shortClue": "طائر ابيض"
+ },
+ {
+  "word": "نورس",
+  "topics": [
+   "animals"
+  ],
+  "difficulty": 3,
+  "kind": "common",
+  "clue": "طائر يحلق فوق الشاطئ",
+  "shortClue": "طائر الشاطئ"
+ },
+ {
+  "word": "جرادة",
+  "topics": [
+   "animals"
+  ],
+  "difficulty": 3,
+  "kind": "common",
+  "clue": "حشرة تسرب على المزارع زرافات",
+  "shortClue": "حشرة مهاجمة"
+ },
+ {
+  "word": "خنفساء",
+  "topics": [
+   "animals"
+  ],
+  "difficulty": 2,
+  "kind": "common",
+  "clue": "حشرة ذات غمد صلب",
+  "shortClue": "حشرة مغمدة"
+ },
+ {
+  "word": "يعسوب",
+  "topics": [
+   "animals"
+  ],
+  "difficulty": 3,
+  "kind": "common",
+  "clue": "حشرة مائية كبيرة العينين ذات جناحين شفافين",
+  "shortClue": "حشرة شفافة"
+ },
+ {
+  "word": "صرصور",
+  "topics": [
+   "animals"
+  ],
+  "difficulty": 2,
+  "kind": "common",
+  "clue": "حشرة بنية تكره المطابخ",
+  "shortClue": "حشرة منزلية"
+ },
+ {
+  "word": "بعوضة",
+  "topics": [
+   "animals"
+  ],
+  "difficulty": 2,
+  "kind": "common",
+  "clue": "حشرة صغيرة تلسع وتطن",
+  "shortClue": "حشرة لاسعة"
+ },
+ {
+  "word": "عنكبوت",
+  "topics": [
+   "animals"
+  ],
+  "difficulty": 2,
+  "kind": "common",
+  "clue": "مفصلي ينسج خيوطا لاصطياد الذباب",
+  "shortClue": "ناسج الخيوط"
+ },
+ {
+  "word": "دودة",
+  "topics": [
+   "animals"
+  ],
+  "difficulty": 1,
+  "kind": "common",
+  "clue": "كائن طويل رخو يعيش في التربة",
+  "shortClue": "كائن رخو"
+ },
+ {
+  "word": "ملوخية",
+  "topics": [
+   "food"
+  ],
+  "difficulty": 2,
+  "kind": "common",
+  "clue": "ورق اخضر يطبخ حساء لزجا في مصر",
+  "shortClue": "حساء اخضر"
+ },
+ {
+  "word": "مقلوبة",
+  "topics": [
+   "food"
+  ],
+  "difficulty": 2,
+  "kind": "common",
+  "clue": "ارز ولحم وخضار تنزل من القدر على الصحن",
+  "shortClue": "طبق ارز ولحم"
+ },
+ {
+  "word": "بسبوسة",
+  "topics": [
+   "food"
+  ],
+  "difficulty": 2,
+  "kind": "common",
+  "clue": "حلوى سميدية مغمورة بالقطر",
+  "shortClue": "حلوى بالقطر"
+ },
+ {
+  "word": "مهلبية",
+  "topics": [
+   "food"
+  ],
+  "difficulty": 2,
+  "kind": "common",
+  "clue": "حلوى بيضاء من الحليب والنشا",
+  "shortClue": "حلوى الحليب"
+ },
+ {
+  "word": "فاصولياء",
+  "topics": [
+   "food"
+  ],
+  "difficulty": 1,
+  "kind": "common",
+  "clue": "بقول خضراء او بيضاء تطبخ في المرق",
+  "shortClue": "بقول مطبوخة"
+ },
+ {
+  "word": "باذنجان",
+  "topics": [
+   "food"
+  ],
+  "difficulty": 1,
+  "kind": "common",
+  "clue": "خضار بنفسجي يستعمل في المتبل",
+  "shortClue": "خضار بنفسجي"
+ },
+ {
+  "word": "زعفران",
+  "topics": [
+   "food"
+  ],
+  "difficulty": 3,
+  "kind": "common",
+  "clue": "توابل غالية حمراء الخيوط تلون الارز",
+  "shortClue": "توابل غالية"
+ },
+ {
+  "word": "بقدونس",
+  "topics": [
+   "food"
+  ],
+  "difficulty": 1,
+  "kind": "common",
+  "clue": "عشب اخضر مجعد يزين الاطباق",
+  "shortClue": "عشب مجعد"
+ },
+ {
+  "word": "برتقال",
+  "topics": [
+   "food"
+  ],
+  "difficulty": 1,
+  "kind": "common",
+  "clue": "فاكهة حمضية مستديرة عصيرها حلو",
+  "shortClue": "فاكهة حمضية"
+ },
+ {
+  "word": "فراولة",
+  "topics": [
+   "food"
+  ],
+  "difficulty": 1,
+  "kind": "common",
+  "clue": "فاكهة حمراء صغيرة بذورها خارجية",
+  "shortClue": "فاكهة حمراء"
+ },
+ {
+  "word": "اناناس",
+  "topics": [
+   "food"
+  ],
+  "difficulty": 2,
+  "kind": "common",
+  "clue": "فاكهة استوائية قشرتها شائكة",
+  "shortClue": "فاكهة استوائية"
+ },
+ {
+  "word": "يوغورت",
+  "topics": [
+   "food"
+  ],
+  "difficulty": 2,
+  "kind": "common",
+  "clue": "حليب مخمر قوامه كثيف",
+  "shortClue": "حليب مخمر"
+ },
+ {
+  "word": "سمبوسة",
+  "topics": [
+   "food"
+  ],
+  "difficulty": 2,
+  "kind": "common",
+  "clue": "عجين مثلث محشو يقلى",
+  "shortClue": "عجين مثلث"
+ },
+ {
+  "word": "مكرونة",
+  "topics": [
+   "food"
+  ],
+  "difficulty": 1,
+  "kind": "common",
+  "clue": "عجين مجفف يسلق ويؤكل بالصلصة",
+  "shortClue": "عجين مسلوق"
+ },
+ {
+  "word": "شاورما",
+  "topics": [
+   "food"
+  ],
+  "difficulty": 1,
+  "kind": "common",
+  "clue": "لحم يشوى على سيخ عمودي ويلف في الخبز",
+  "shortClue": "لحم عمودي"
+ },
+ {
+  "word": "كنافة",
+  "topics": [
+   "food"
+  ],
+  "difficulty": 2,
+  "kind": "common",
+  "clue": "حلوى خيوطها رقيقة محشوة بالجبن",
+  "shortClue": "حلوى الخيوط"
+ },
+ {
+  "word": "قطايف",
+  "topics": [
+   "food"
+  ],
+  "difficulty": 2,
+  "kind": "common",
+  "clue": "فطائر صغيرة تحشى بالجوز وتؤكل في رمضان",
+  "shortClue": "فطائر محشوة"
+ },
+ {
+  "word": "طحينة",
+  "topics": [
+   "food"
+  ],
+  "difficulty": 2,
+  "kind": "common",
+  "clue": "معجون السمسم",
+  "shortClue": "معجون السمسم"
+ },
+ {
+  "word": "كسكسي",
+  "topics": [
+   "food"
+  ],
+  "difficulty": 2,
+  "kind": "common",
+  "clue": "حبيبات سميد تطهى على البخار في المغرب",
+  "shortClue": "سميد مبخر"
+ },
+ {
+  "word": "شوربة",
+  "topics": [
+   "food"
+  ],
+  "difficulty": 1,
+  "kind": "common",
+  "clue": "طعام سائل ساخن يؤكل بالملعقة",
+  "shortClue": "طعام ساخن"
+ },
+ {
+  "word": "بطاطس",
+  "topics": [
+   "food"
+  ],
+  "difficulty": 1,
+  "kind": "common",
+  "clue": "درنات تقلى او تسلق",
+  "shortClue": "درنات مقلية"
+ },
+ {
+  "word": "طماطم",
+  "topics": [
+   "food"
+  ],
+  "difficulty": 1,
+  "kind": "common",
+  "clue": "ثمرة حمراء تصنع منها الصلصة",
+  "shortClue": "ثمرة حمراء"
+ },
+ {
+  "word": "قرنفل",
+  "topics": [
+   "food"
+  ],
+  "difficulty": 3,
+  "kind": "common",
+  "clue": "براعم مجففة عطرية تضاف للطعام",
+  "shortClue": "توابل عطرية"
+ },
+ {
+  "word": "كزبرة",
+  "topics": [
+   "food"
+  ],
+  "difficulty": 3,
+  "kind": "common",
+  "clue": "عشب اوراقه وبذوره تضاف للطبخ",
+  "shortClue": "عشب عطري"
+ },
+ {
+  "word": "نعناع",
+  "topics": [
+   "food"
+  ],
+  "difficulty": 1,
+  "kind": "common",
+  "clue": "عشب منعش يضاف الى الشاي",
+  "shortClue": "عشب منعش"
+ },
+ {
+  "word": "مشمش",
+  "topics": [
+   "food"
+  ],
+  "difficulty": 2,
+  "kind": "common",
+  "clue": "فاكهة صفراء مائلة للحمرة تجفف وتصنع رقائق",
+  "shortClue": "فاكهة صفراء"
+ },
+ {
+  "word": "كمثرى",
+  "topics": [
+   "food"
+  ],
+  "difficulty": 3,
+  "kind": "common",
+  "clue": "فاكهة عريضة الاسفل ضيقة الاعلى",
+  "shortClue": "فاكهة كالجرس"
+ },
+ {
+  "word": "جوافة",
+  "topics": [
+   "food"
+  ],
+  "difficulty": 2,
+  "kind": "common",
+  "clue": "ثمرة عطرية بذورها كثيرة",
+  "shortClue": "ثمرة عطرية"
+ },
+ {
+  "word": "زبيب",
+  "topics": [
+   "food"
+  ],
+  "difficulty": 2,
+  "kind": "common",
+  "clue": "عنب مجفف",
+  "shortClue": "عنب مجفف"
+ },
+ {
+  "word": "فستق",
+  "topics": [
+   "food"
+  ],
+  "difficulty": 2,
+  "kind": "common",
+  "clue": "مكسرات خضراء داخل قشرة بيضاء",
+  "shortClue": "مكسرات خضراء"
+ },
+ {
+  "word": "لبنة",
+  "topics": [
+   "food"
+  ],
+  "difficulty": 2,
+  "kind": "common",
+  "clue": "جبن طري من اللبن المصفى",
+  "shortClue": "جبن طري"
+ },
+ {
+  "word": "رغيف",
+  "topics": [
+   "food"
+  ],
+  "difficulty": 1,
+  "kind": "common",
+  "clue": "قرص من الخبز",
+  "shortClue": "قرص الخبز"
+ },
+ {
+  "word": "فطيرة",
+  "topics": [
+   "food"
+  ],
+  "difficulty": 2,
+  "kind": "common",
+  "clue": "عجينة مسطحة تحشى وتخبز",
+  "shortClue": "عجينة محشوة"
+ },
+ {
+  "word": "سلطة",
+  "topics": [
+   "food"
+  ],
+  "difficulty": 1,
+  "kind": "common",
+  "clue": "خضار نيئة مقطعة تقدم باردة",
+  "shortClue": "خضار باردة"
+ },
+ {
+  "word": "سوريا",
+  "topics": [
+   "geography"
+  ],
+  "difficulty": 1,
+  "kind": "proper",
+  "clue": "بلاد شامية عاصمتها دمشق",
+  "shortClue": "بلد شامي"
+ },
+ {
+  "word": "ليبيا",
+  "topics": [
+   "geography"
+  ],
+  "difficulty": 1,
+  "kind": "proper",
+  "clue": "بلد مغاربي على المتوسط عاصمته طرابلس",
+  "shortClue": "بلد مغاربي"
+ },
+ {
+  "word": "لبنان",
+  "topics": [
+   "geography"
+  ],
+  "difficulty": 1,
+  "kind": "proper",
+  "clue": "بلد جبلي على المتوسط عاصمته بيروت",
+  "shortClue": "بلد الارز"
+ },
+ {
+  "word": "تونس",
+  "topics": [
+   "geography"
+  ],
+  "difficulty": 1,
+  "kind": "proper",
+  "clue": "بلد مغاربي عاصمته تحمل اسمه",
+  "shortClue": "بلد مغاربي"
+ },
+ {
+  "word": "عمان",
+  "topics": [
+   "geography"
+  ],
+  "difficulty": 1,
+  "kind": "proper",
+  "clue": "سلطنة خليجية عاصمتها مسقط",
+  "shortClue": "سلطنة خليجية"
+ },
+ {
+  "word": "دجلة",
+  "topics": [
+   "geography"
+  ],
+  "difficulty": 2,
+  "kind": "proper",
+  "clue": "نهر عراقي يجري في بغداد",
+  "shortClue": "نهر بغداد"
+ },
+ {
+  "word": "سيناء",
+  "topics": [
+   "geography"
+  ],
+  "difficulty": 2,
+  "kind": "proper",
+  "clue": "شبه جزيرة بين افريقيا واسيا",
+  "shortClue": "شبه جزيرة"
+ },
+ {
+  "word": "اوروبا",
+  "topics": [
+   "geography"
+  ],
+  "difficulty": 1,
+  "kind": "proper",
+  "clue": "قارة شمال المتوسط",
+  "shortClue": "القارة العجوز"
+ },
+ {
+  "word": "افريقيا",
+  "topics": [
+   "geography"
+  ],
+  "difficulty": 1,
+  "kind": "proper",
+  "clue": "قارة بها الصحراء الكبرى والنيل",
+  "shortClue": "قارة النيل"
+ },
+ {
+  "word": "دبي",
+  "topics": [
+   "geography"
+  ],
+  "difficulty": 2,
+  "kind": "proper",
+  "clue": "مدينة اماراتية على الخليج",
+  "shortClue": "مدينة اماراتية"
+ },
+ {
+  "word": "هضبة",
+  "topics": [
+   "geography"
+  ],
+  "difficulty": 2,
+  "kind": "common",
+  "clue": "ارض مرتفعة مستوية السطح",
+  "shortClue": "ارض مرتفعة"
+ },
+ {
+  "word": "سهل",
+  "topics": [
+   "geography"
+  ],
+  "difficulty": 1,
+  "kind": "common",
+  "clue": "ارض منبسطة بلا مرتفعات",
+  "shortClue": "ارض منبسطة"
+ },
+ {
+  "word": "خليج",
+  "topics": [
+   "geography"
+  ],
+  "difficulty": 2,
+  "kind": "common",
+  "clue": "جزء من البحر يغور في اليابسة",
+  "shortClue": "ماء داخل اليابسة"
+ },
+ {
+  "word": "مضيق",
+  "topics": [
+   "geography"
+  ],
+  "difficulty": 2,
+  "kind": "common",
+  "clue": "ممر مائي ضيق بين يابستين",
+  "shortClue": "ممر مائي"
+ },
+ {
+  "word": "قارة",
+  "topics": [
+   "geography"
+  ],
+  "difficulty": 1,
+  "kind": "common",
+  "clue": "يابسة كبرى كاسيا",
+  "shortClue": "يابسة كبرى"
+ },
+ {
+  "word": "محيط",
+  "topics": [
+   "geography"
+  ],
+  "difficulty": 1,
+  "kind": "common",
+  "clue": "اكبر المسطحات المائية",
+  "shortClue": "مسطح مائي"
+ },
+ {
+  "word": "خريطة",
+  "topics": [
+   "geography"
+  ],
+  "difficulty": 1,
+  "kind": "common",
+  "clue": "رسم يمثل الارض على الورق",
+  "shortClue": "رسم الارض"
+ },
+ {
+  "word": "شمال",
+  "topics": [
+   "geography"
+  ],
+  "difficulty": 1,
+  "kind": "common",
+  "clue": "الجهة التي تشير اليها البوصلة",
+  "shortClue": "جهة البوصلة"
+ },
+ {
+  "word": "جنوب",
+  "topics": [
+   "geography"
+  ],
+  "difficulty": 1,
+  "kind": "common",
+  "clue": "عكس الشمال",
+  "shortClue": "عكس الشمال"
+ },
+ {
+  "word": "شرق",
+  "topics": [
+   "geography"
+  ],
+  "difficulty": 1,
+  "kind": "common",
+  "clue": "جهة شروق الشمس",
+  "shortClue": "جهة الشروق"
+ },
+ {
+  "word": "غرب",
+  "topics": [
+   "geography"
+  ],
+  "difficulty": 1,
+  "kind": "common",
+  "clue": "جهة غروب الشمس",
+  "shortClue": "جهة الغروب"
+ },
+ {
+  "word": "حدود",
+  "topics": [
+   "geography"
+  ],
+  "difficulty": 2,
+  "kind": "common",
+  "clue": "خطوط تفصل بين بلدين",
+  "shortClue": "خطوط فاصلة"
+ },
+ {
+  "word": "عاصمة",
+  "topics": [
+   "geography"
+  ],
+  "difficulty": 1,
+  "kind": "common",
+  "clue": "مدينة مقر الحكومة",
+  "shortClue": "مقر الحكومة"
+ },
+ {
+  "word": "مدينة",
+  "topics": [
+   "geography"
+  ],
+  "difficulty": 1,
+  "kind": "common",
+  "clue": "تجمع سكاني كبير",
+  "shortClue": "تجمع كبير"
+ },
+ {
+  "word": "قرية",
+  "topics": [
+   "geography"
+  ],
+  "difficulty": 1,
+  "kind": "common",
+  "clue": "تجمع سكاني صغير بين الحقول",
+  "shortClue": "تجمع ريفي"
+ },
+ {
+  "word": "ميناء",
+  "topics": [
+   "geography"
+  ],
+  "difficulty": 1,
+  "kind": "common",
+  "clue": "مرفا ترسو فيه السفن",
+  "shortClue": "مرفا السفن"
+ },
+ {
+  "word": "بحيرة",
+  "topics": [
+   "geography"
+  ],
+  "difficulty": 1,
+  "kind": "common",
+  "clue": "ماء واسع تحيط به اليابسة",
+  "shortClue": "ماء محاط بالارض"
+ },
+ {
+  "word": "دلتا",
+  "topics": [
+   "geography"
+  ],
+  "difficulty": 3,
+  "kind": "common",
+  "clue": "ارض مثلثة تكونها الرواسب عند مصب النهر",
+  "shortClue": "ارض المصب"
+ },
+ {
+  "word": "استواء",
+  "topics": [
+   "geography"
+  ],
+  "difficulty": 3,
+  "kind": "common",
+  "clue": "يسبقه خط: دائرة وهمية تقسم الارض شمالا وجنوبا",
+  "shortClue": "خط وهمي"
+ },
+ {
+  "word": "مناخ",
+  "topics": [
+   "geography"
+  ],
+  "difficulty": 2,
+  "kind": "common",
+  "clue": "احوال الطقس في اقليم على مدى سنين",
+  "shortClue": "طقس الاقليم"
+ },
+ {
+  "word": "قطب",
+  "topics": [
+   "geography"
+  ],
+  "difficulty": 2,
+  "kind": "common",
+  "clue": "طرف الارض الشمالي او الجنوبي",
+  "shortClue": "طرف الارض"
+ },
+ {
+  "word": "تضاريس",
+  "topics": [
+   "geography"
+  ],
+  "difficulty": 3,
+  "kind": "common",
+  "clue": "ما يعلو ويهبط من سطح الارض",
+  "shortClue": "سطح الارض"
+ },
+ {
+  "word": "سلسلة",
+  "topics": [
+   "geography"
+  ],
+  "difficulty": 2,
+  "kind": "common",
+  "clue": "جبال متصلة بعضها ببعض",
+  "shortClue": "جبال متصلة"
+ },
+ {
+  "word": "ارخبيل",
+  "topics": [
+   "geography"
+  ],
+  "difficulty": 3,
+  "kind": "common",
+  "clue": "مجموعة جزر متقاربة",
+  "shortClue": "جزر متقاربة"
+ },
+ {
+  "word": "فرعون",
+  "topics": [
+   "history"
+  ],
+  "difficulty": 2,
+  "kind": "common",
+  "clue": "لقب ملوك مصر القديمة",
+  "shortClue": "ملك مصر القديم"
+ },
+ {
+  "word": "مومياء",
+  "topics": [
+   "history"
+  ],
+  "difficulty": 2,
+  "kind": "common",
+  "clue": "جثة محنطة بالعطور والاشرطة",
+  "shortClue": "جثة محنطة"
+ },
+ {
+  "word": "بردي",
+  "topics": [
+   "history"
+  ],
+  "difficulty": 3,
+  "kind": "common",
+  "clue": "نبات صنع منه المصريون ورقا قديما",
+  "shortClue": "ورق قديم"
+ },
+ {
+  "word": "مسلة",
+  "topics": [
+   "history"
+  ],
+  "difficulty": 3,
+  "kind": "common",
+  "clue": "عمود حجري رباعي مدبب في مصر القديمة",
+  "shortClue": "عمود حجري"
+ },
+ {
+  "word": "حضارة",
+  "topics": [
+   "history"
+  ],
+  "difficulty": 1,
+  "kind": "common",
+  "clue": "ما بنته امة من علم وفن وعمران",
+  "shortClue": "تقدم امة"
+ },
+ {
+  "word": "امبراطورية",
+  "topics": [
+   "history"
+  ],
+  "difficulty": 2,
+  "kind": "common",
+  "clue": "دولة شاسعة تضم شعوبا عدة",
+  "shortClue": "دولة شاسعة"
+ },
+ {
+  "word": "سلطان",
+  "topics": [
+   "history"
+  ],
+  "difficulty": 2,
+  "kind": "common",
+  "clue": "لقب حاكم في العصور الاسلامية",
+  "shortClue": "لقب حاكم"
+ },
+ {
+  "word": "خليفة",
+  "topics": [
+   "history"
+  ],
+  "difficulty": 2,
+  "kind": "common",
+  "clue": "من يخلف الحاكم السابق",
+  "shortClue": "حاكم المسلمين"
+ },
+ {
+  "word": "امير",
+  "topics": [
+   "history"
+  ],
+  "difficulty": 2,
+  "kind": "common",
+  "clue": "لقب حاكم اقليم او ابن ملك",
+  "shortClue": "لقب ملكي"
+ },
+ {
+  "word": "ملكة",
+  "topics": [
+   "history"
+  ],
+  "difficulty": 1,
+  "kind": "common",
+  "clue": "زوجة الملك او حاكمة المملكة",
+  "shortClue": "زوجة الملك"
+ },
+ {
+  "word": "قصر",
+  "topics": [
+   "history"
+  ],
+  "difficulty": 1,
+  "kind": "common",
+  "clue": "بناء فخم يسكنه الملوك",
+  "shortClue": "بناء فخم"
+ },
+ {
+  "word": "حصن",
+  "topics": [
+   "history"
+  ],
+  "difficulty": 2,
+  "kind": "common",
+  "clue": "مبنى محصن ضد الاعداء",
+  "shortClue": "مبنى محصن"
+ },
+ {
+  "word": "برج",
+  "topics": [
+   "history"
+  ],
+  "difficulty": 1,
+  "kind": "common",
+  "clue": "بناء عال ضيق",
+  "shortClue": "بناء عال"
+ },
+ {
+  "word": "حفرية",
+  "topics": [
+   "history"
+  ],
+  "difficulty": 3,
+  "kind": "common",
+  "clue": "اثر قديم يستخرج من باطن الارض",
+  "shortClue": "اثر مستخرج"
+ },
+ {
+  "word": "مخطوطة",
+  "topics": [
+   "history"
+  ],
+  "difficulty": 2,
+  "kind": "common",
+  "clue": "كتاب قديم كتب بخط اليد",
+  "shortClue": "كتاب بخط اليد"
+ },
+ {
+  "word": "رقيم",
+  "topics": [
+   "history"
+  ],
+  "difficulty": 3,
+  "kind": "common",
+  "clue": "لوح من الطين نقشت عليه الكتابة",
+  "shortClue": "لوح طيني"
+ },
+ {
+  "word": "دينار",
+  "topics": [
+   "history"
+  ],
+  "difficulty": 2,
+  "kind": "common",
+  "clue": "عملة ذهبية قديمة",
+  "shortClue": "عملة قديمة"
+ },
+ {
+  "word": "درهم",
+  "topics": [
+   "history"
+  ],
+  "difficulty": 2,
+  "kind": "common",
+  "clue": "عملة فضية قديمة",
+  "shortClue": "عملة فضية"
+ },
+ {
+  "word": "سفينة",
+  "topics": [
+   "history"
+  ],
+  "difficulty": 1,
+  "kind": "common",
+  "clue": "مركب كبير يجوب البحر",
+  "shortClue": "مركب كبير"
+ },
+ {
+  "word": "منارة",
+  "topics": [
+   "history"
+  ],
+  "difficulty": 2,
+  "kind": "common",
+  "clue": "برج عال يرشد السفن بنوره",
+  "shortClue": "برج الارشاد"
+ },
+ {
+  "word": "فارس",
+  "topics": [
+   "history"
+  ],
+  "difficulty": 2,
+  "kind": "common",
+  "clue": "محارب يمتطي الجواد",
+  "shortClue": "راكب الجواد"
+ },
+ {
+  "word": "رمح",
+  "topics": [
+   "history"
+  ],
+  "difficulty": 2,
+  "kind": "common",
+  "clue": "سلاح طويل راسه مدبب",
+  "shortClue": "سلاح طويل"
+ },
+ {
+  "word": "خنجر",
+  "topics": [
+   "history"
+  ],
+  "difficulty": 2,
+  "kind": "common",
+  "clue": "سلاح قصير حاد منحني",
+  "shortClue": "سلاح قصير"
+ },
+ {
+  "word": "منجنيق",
+  "topics": [
+   "history"
+  ],
+  "difficulty": 3,
+  "kind": "common",
+  "clue": "الة قديمة ترمي الحجارة الكبيرة",
+  "shortClue": "الة الرمي"
+ },
+ {
+  "word": "خندق",
+  "topics": [
+   "history"
+  ],
+  "difficulty": 3,
+  "kind": "common",
+  "clue": "حفرة طويلة حول القلعة",
+  "shortClue": "حفرة دفاعية"
+ },
+ {
+  "word": "فسيفساء",
+  "topics": [
+   "history"
+  ],
+  "difficulty": 2,
+  "kind": "common",
+  "clue": "لوحة من قطع صغيرة ملونة مرصوصة",
+  "shortClue": "لوحة الحجارة"
+ },
+ {
+  "word": "اسطرلاب",
+  "topics": [
+   "history"
+  ],
+  "difficulty": 3,
+  "kind": "common",
+  "clue": "اداة قديمة لقياس ارتفاع النجوم",
+  "shortClue": "اداة فلكية"
+ },
+ {
+  "word": "اختراع",
+  "topics": [
+   "history"
+  ],
+  "difficulty": 2,
+  "kind": "common",
+  "clue": "ابتكار شيء جديد لم يكن",
+  "shortClue": "ابتكار جديد"
+ },
+ {
+  "word": "طباعة",
+  "topics": [
+   "history"
+  ],
+  "difficulty": 2,
+  "kind": "common",
+  "clue": "نسخ الكتب بالحبر على الورق الية",
+  "shortClue": "نسخ الكتب"
+ },
+ {
+  "word": "بارود",
+  "topics": [
+   "history"
+  ],
+  "difficulty": 3,
+  "kind": "common",
+  "clue": "مسحوق ينفجر عند الاشتعال",
+  "shortClue": "مسحوق متفجر"
+ },
+ {
+  "word": "تاريخ",
+  "topics": [
+   "history"
+  ],
+  "difficulty": 1,
+  "kind": "common",
+  "clue": "سجل احداث الماضي",
+  "shortClue": "سجل الماضي"
+ },
+ {
+  "word": "حقبة",
+  "topics": [
+   "history"
+  ],
+  "difficulty": 3,
+  "kind": "common",
+  "clue": "فترة طويلة من الزمن",
+  "shortClue": "فترة طويلة"
+ },
+ {
+  "word": "تنقيب",
+  "topics": [
+   "history"
+  ],
+  "difficulty": 3,
+  "kind": "common",
+  "clue": "بحث عن الاثار تحت التراب",
+  "shortClue": "بحث عن الاثار"
+ },
+ {
+  "word": "سلالة",
+  "topics": [
+   "history"
+  ],
+  "difficulty": 3,
+  "kind": "common",
+  "clue": "اسرة حاكمة تتوارث الحكم",
+  "shortClue": "اسرة حاكمة"
+ },
+ {
+  "word": "قافلة",
+  "topics": [
+   "history"
+  ],
+  "difficulty": 2,
+  "kind": "common",
+  "clue": "مجموعة مسافرين وجمال تجارية",
+  "shortClue": "جمال وتجار"
+ },
+ {
+  "word": "كيمياء",
+  "topics": [
+   "science"
+  ],
+  "difficulty": 2,
+  "kind": "common",
+  "clue": "علم يدرس المواد وتفاعلاتها",
+  "shortClue": "علم المواد"
+ },
+ {
+  "word": "فيزياء",
+  "topics": [
+   "science"
+  ],
+  "difficulty": 2,
+  "kind": "common",
+  "clue": "علم يدرس المادة والطاقة والحركة",
+  "shortClue": "علم الطاقة"
+ },
+ {
+  "word": "بروتون",
+  "topics": [
+   "science"
+  ],
+  "difficulty": 3,
+  "kind": "common",
+  "clue": "جسيم موجب الشحنة في نواة الذرة",
+  "shortClue": "جسيم موجب"
+ },
+ {
+  "word": "الكترون",
+  "topics": [
+   "science"
+  ],
+  "difficulty": 2,
+  "kind": "common",
+  "clue": "جسيم سالب الشحنة يدور حول النواة",
+  "shortClue": "جسيم سالب"
+ },
+ {
+  "word": "نيوترون",
+  "topics": [
+   "science"
+  ],
+  "difficulty": 3,
+  "kind": "common",
+  "clue": "جسيم متعادل في قلب الذرة",
+  "shortClue": "جسيم متعادل"
+ },
+ {
+  "word": "نواة",
+  "topics": [
+   "science"
+  ],
+  "difficulty": 2,
+  "kind": "common",
+  "clue": "مركز الذرة او الخلية",
+  "shortClue": "مركز الذرة"
+ },
+ {
+  "word": "هيدروجين",
+  "topics": [
+   "science"
+  ],
+  "difficulty": 2,
+  "kind": "common",
+  "clue": "اخف عناصر الجدول الدوري",
+  "shortClue": "اخف العناصر"
+ },
+ {
+  "word": "اكسجين",
+  "topics": [
+   "science"
+  ],
+  "difficulty": 1,
+  "kind": "common",
+  "clue": "غاز نتنفسه ليحيا الجسم",
+  "shortClue": "غاز التنفس"
+ },
+ {
+  "word": "كربون",
+  "topics": [
+   "science"
+  ],
+  "difficulty": 2,
+  "kind": "common",
+  "clue": "عنصر اساس في الفحم والالماس",
+  "shortClue": "عنصر الفحم"
+ },
+ {
+  "word": "نيتروجين",
+  "topics": [
+   "science"
+  ],
+  "difficulty": 3,
+  "kind": "common",
+  "clue": "غاز يشكل معظم هواء الغلاف الجوي",
+  "shortClue": "غاز الهواء"
+ },
+ {
+  "word": "حديد",
+  "topics": [
+   "science"
+  ],
+  "difficulty": 1,
+  "kind": "common",
+  "clue": "معدن صلب يصدا ويجذبه المغناطيس",
+  "shortClue": "معدن صلب"
+ },
+ {
+  "word": "نحاس",
+  "topics": [
+   "science"
+  ],
+  "difficulty": 1,
+  "kind": "common",
+  "clue": "معدن احمر موصل جيد للتيار",
+  "shortClue": "معدن احمر"
+ },
+ {
+  "word": "ذهب",
+  "topics": [
+   "science"
+  ],
+  "difficulty": 1,
+  "kind": "common",
+  "clue": "معدن اصفر ثمين لا يصدا",
+  "shortClue": "معدن اصفر"
+ },
+ {
+  "word": "فضة",
+  "topics": [
+   "science"
+  ],
+  "difficulty": 1,
+  "kind": "common",
+  "clue": "معدن ابيض لامع تصاغ منه الحلي",
+  "shortClue": "معدن لامع"
+ },
+ {
+  "word": "ترمومتر",
+  "topics": [
+   "science"
+  ],
+  "difficulty": 2,
+  "kind": "common",
+  "clue": "جهاز يقيس درجة الحرارة",
+  "shortClue": "مقياس الحرارة"
+ },
+ {
+  "word": "بارومتر",
+  "topics": [
+   "science"
+  ],
+  "difficulty": 3,
+  "kind": "common",
+  "clue": "جهاز يقيس الضغط الجوي",
+  "shortClue": "مقياس الضغط"
+ },
+ {
+  "word": "عطارد",
+  "topics": [
+   "science"
+  ],
+  "difficulty": 2,
+  "kind": "common",
+  "clue": "اقرب الكواكب الى الشمس",
+  "shortClue": "اقرب الكواكب"
+ },
+ {
+  "word": "مريخ",
+  "topics": [
+   "science"
+  ],
+  "difficulty": 1,
+  "kind": "common",
+  "clue": "الكوكب الاحمر",
+  "shortClue": "الكوكب الاحمر"
+ },
+ {
+  "word": "مشتري",
+  "topics": [
+   "science"
+  ],
+  "difficulty": 2,
+  "kind": "common",
+  "clue": "اكبر كواكب المجموعة الشمسية",
+  "shortClue": "اكبر الكواكب"
+ },
+ {
+  "word": "زحل",
+  "topics": [
+   "science"
+  ],
+  "difficulty": 2,
+  "kind": "common",
+  "clue": "كوكب تحيط به حلقات",
+  "shortClue": "كوكب الحلقات"
+ },
+ {
+  "word": "نبتون",
+  "topics": [
+   "science"
+  ],
+  "difficulty": 3,
+  "kind": "common",
+  "clue": "ابعد الكواكب عن الشمس",
+  "shortClue": "اخر الكواكب"
+ },
+ {
+  "word": "مذنب",
+  "topics": [
+   "science"
+  ],
+  "difficulty": 3,
+  "kind": "common",
+  "clue": "جرم جليدي له ذيل لامع",
+  "shortClue": "جرم له ذيل"
+ },
+ {
+  "word": "احتكاك",
+  "topics": [
+   "science"
+  ],
+  "difficulty": 3,
+  "kind": "common",
+  "clue": "قوة تقاوم انزلاق سطحين متلامسين",
+  "shortClue": "قوة المقاومة"
+ },
+ {
+  "word": "حرارة",
+  "topics": [
+   "science"
+  ],
+  "difficulty": 1,
+  "kind": "common",
+  "clue": "طاقة تحسها عند النار",
+  "shortClue": "طاقة النار"
+ },
+ {
+  "word": "عدسة",
+  "topics": [
+   "science"
+  ],
+  "difficulty": 2,
+  "kind": "common",
+  "clue": "قطعة زجاج شفافة تجمع الضوء او تفرقه",
+  "shortClue": "زجاج شفاف"
+ },
+ {
+  "word": "بكتيريا",
+  "topics": [
+   "science"
+  ],
+  "difficulty": 2,
+  "kind": "common",
+  "clue": "كائنات مجهرية وحيدة الخلية",
+  "shortClue": "كائنات مجهرية"
+ },
+ {
+  "word": "فيروس",
+  "topics": [
+   "science"
+  ],
+  "difficulty": 2,
+  "kind": "common",
+  "clue": "كائن دقيق يتطفل على الخلايا",
+  "shortClue": "كائن متطفل"
+ },
+ {
+  "word": "كروموسوم",
+  "topics": [
+   "science"
+  ],
+  "difficulty": 3,
+  "kind": "common",
+  "clue": "تركيب في النواة يحمل الصفات الموروثة",
+  "shortClue": "حامل الصفات"
+ },
+ {
+  "word": "هرمون",
+  "topics": [
+   "science"
+  ],
+  "difficulty": 2,
+  "kind": "common",
+  "clue": "مادة كيميائية تفرزها الغدد",
+  "shortClue": "افراز الغدد"
+ },
+ {
+  "word": "انزيم",
+  "topics": [
+   "science"
+  ],
+  "difficulty": 3,
+  "kind": "common",
+  "clue": "بروتين يسرع التفاعلات في الجسم",
+  "shortClue": "محفز حيوي"
+ },
+ {
+  "word": "شريان",
+  "topics": [
+   "science"
+  ],
+  "difficulty": 2,
+  "kind": "common",
+  "clue": "وعاء ينقل الدم من القلب",
+  "shortClue": "وعاء دموي"
+ },
+ {
+  "word": "قلب",
+  "topics": [
+   "science"
+  ],
+  "difficulty": 1,
+  "kind": "common",
+  "clue": "عضو يضخ الدم في الجسم",
+  "shortClue": "عضو النبض"
+ },
+ {
+  "word": "كلية",
+  "topics": [
+   "science"
+  ],
+  "difficulty": 2,
+  "kind": "common",
+  "clue": "عضو يرشح الدم ويصنع البول",
+  "shortClue": "عضو الترشيح"
+ },
+ {
+  "word": "جمجمة",
+  "topics": [
+   "science"
+  ],
+  "difficulty": 2,
+  "kind": "common",
+  "clue": "عظام الراس التي تحمي الدماغ",
+  "shortClue": "عظام الراس"
+ },
+ {
+  "word": "رياضيات",
+  "topics": [
+   "science"
+  ],
+  "difficulty": 2,
+  "kind": "common",
+  "clue": "علم الارقام والاشكال والحساب",
+  "shortClue": "علم الحساب"
+ },
+ {
+  "word": "معادلة",
+  "topics": [
+   "science"
+  ],
+  "difficulty": 2,
+  "kind": "common",
+  "clue": "مساواة بين طرفين فيها مجهول",
+  "shortClue": "مساواة رياضية"
+ },
+ {
+  "word": "تفاعل",
+  "topics": [
+   "science"
+  ],
+  "difficulty": 2,
+  "kind": "common",
+  "clue": "تحول مواد الى مواد اخرى",
+  "shortClue": "تحول المواد"
+ },
+ {
+  "word": "جيولوجيا",
+  "topics": [
+   "science"
+  ],
+  "difficulty": 3,
+  "kind": "common",
+  "clue": "علم طبقات الارض وصخورها",
+  "shortClue": "علم الارض"
+ },
+ {
+  "word": "بيولوجيا",
+  "topics": [
+   "science"
+  ],
+  "difficulty": 2,
+  "kind": "common",
+  "clue": "علم الكائنات الحية",
+  "shortClue": "علم الاحياء"
+ },
+ {
+  "word": "فيتامين",
+  "topics": [
+   "science"
+  ],
+  "difficulty": 2,
+  "kind": "common",
+  "clue": "مغذ ضروري بكميات صغيرة للجسم",
+  "shortClue": "مغذ ضروري"
+ },
+ {
+  "word": "كربوهيدرات",
+  "topics": [
+   "science"
+  ],
+  "difficulty": 3,
+  "kind": "common",
+  "clue": "مواد نشوية وسكرية تمد الجسم بالطاقة",
+  "shortClue": "مواد الطاقة"
+ },
+ {
+  "word": "تكنولوجيا",
+  "topics": [
+   "science"
+  ],
+  "difficulty": 2,
+  "kind": "common",
+  "clue": "تطبيق العلم في الاجهزة والصناعة",
+  "shortClue": "علم التطبيق"
+ },
+ {
+  "word": "ميكروسكوب",
+  "topics": [
+   "science"
+  ],
+  "difficulty": 3,
+  "kind": "common",
+  "clue": "جهاز يكبر الاشياء الدقيقة",
+  "shortClue": "مكبر الدقائق"
+ },
+ {
+  "word": "مباراة",
+  "topics": [
+   "sport"
+  ],
+  "difficulty": 1,
+  "kind": "common",
+  "clue": "لقاء رياضي بين فريقين",
+  "shortClue": "لقاء فريقين"
+ },
+ {
+  "word": "بطولة",
+  "topics": [
+   "sport"
+  ],
+  "difficulty": 2,
+  "kind": "common",
+  "clue": "مسابقة تنتهي بتتويج فائز",
+  "shortClue": "مسابقة التتويج"
+ },
+ {
+  "word": "تسديدة",
+  "topics": [
+   "sport"
+  ],
+  "difficulty": 2,
+  "kind": "common",
+  "clue": "رمي الكرة نحو المرمى بقوة",
+  "shortClue": "ضربة للمرمى"
+ },
+ {
+  "word": "حارس",
+  "topics": [
+   "sport"
+  ],
+  "difficulty": 1,
+  "kind": "common",
+  "clue": "لاعب يحمي الشباك",
+  "shortClue": "حامي الشباك"
+ },
+ {
+  "word": "مدافع",
+  "topics": [
+   "sport"
+  ],
+  "difficulty": 2,
+  "kind": "common",
+  "clue": "لاعب يصد هجمات الخصم",
+  "shortClue": "لاعب الخط الخلفي"
+ },
+ {
+  "word": "مهاجم",
+  "topics": [
+   "sport"
+  ],
+  "difficulty": 2,
+  "kind": "common",
+  "clue": "لاعب مهمته تسجيل الاهداف",
+  "shortClue": "لاعب الامام"
+ },
+ {
+  "word": "مدرب",
+  "topics": [
+   "sport"
+  ],
+  "difficulty": 1,
+  "kind": "common",
+  "clue": "من يقود الفريق ويضع خطته",
+  "shortClue": "قائد الفريق"
+ },
+ {
+  "word": "صافرة",
+  "topics": [
+   "sport"
+  ],
+  "difficulty": 1,
+  "kind": "common",
+  "clue": "ما ينفخ فيه الحكم",
+  "shortClue": "اداة الحكم"
+ },
+ {
+  "word": "تسلل",
+  "topics": [
+   "sport"
+  ],
+  "difficulty": 2,
+  "kind": "common",
+  "clue": "وقوف المهاجم خلف المدافعين عند التمرير",
+  "shortClue": "موقف مخالف"
+ },
+ {
+  "word": "ماراثون",
+  "topics": [
+   "sport"
+  ],
+  "difficulty": 2,
+  "kind": "common",
+  "clue": "سباق جري طويل جدا",
+  "shortClue": "جري طويل"
+ },
+ {
+  "word": "مصارعة",
+  "topics": [
+   "sport"
+  ],
+  "difficulty": 2,
+  "kind": "common",
+  "clue": "رياضة التحام بين لاعبين على الارض",
+  "shortClue": "رياضة الالتحام"
+ },
+ {
+  "word": "ملاكمة",
+  "topics": [
+   "sport"
+  ],
+  "difficulty": 2,
+  "kind": "common",
+  "clue": "رياضة يتبادل فيها لاعبان اللكمات",
+  "shortClue": "رياضة اللكمات"
+ },
+ {
+  "word": "كاراتيه",
+  "topics": [
+   "sport"
+  ],
+  "difficulty": 2,
+  "kind": "common",
+  "clue": "فن قتالي ياباني باليد والقدم",
+  "shortClue": "فن قتالي"
+ },
+ {
+  "word": "مبارزة",
+  "topics": [
+   "sport"
+  ],
+  "difficulty": 3,
+  "kind": "common",
+  "clue": "قتال بالسيوف الرياضية بين اثنين",
+  "shortClue": "قتال بالسيوف"
+ },
+ {
+  "word": "اولمبياد",
+  "topics": [
+   "sport"
+  ],
+  "difficulty": 2,
+  "kind": "common",
+  "clue": "دورة رياضية عالمية كل اربع سنين",
+  "shortClue": "دورة عالمية"
+ },
+ {
+  "word": "جمباز",
+  "topics": [
+   "sport"
+  ],
+  "difficulty": 2,
+  "kind": "common",
+  "clue": "حركات رشيقة على الحلقات والمتوازي",
+  "shortClue": "حركات رشيقة"
+ },
+ {
+  "word": "تزلج",
+  "topics": [
+   "sport"
+  ],
+  "difficulty": 2,
+  "kind": "common",
+  "clue": "انزلاق على الثلج بلوحين",
+  "shortClue": "انزلاق الثلج"
+ },
+ {
+  "word": "غولف",
+  "topics": [
+   "sport"
+  ],
+  "difficulty": 2,
+  "kind": "common",
+  "clue": "رياضة ضرب كرة صغيرة داخل حفرة",
+  "shortClue": "ضرب كرة صغيرة"
+ },
+ {
+  "word": "شطرنج",
+  "topics": [
+   "sport"
+  ],
+  "difficulty": 1,
+  "kind": "common",
+  "clue": "لعبة ملك ووزير على رقعة مربعة",
+  "shortClue": "لعبة الملك"
+ },
+ {
+  "word": "تعادل",
+  "topics": [
+   "sport"
+  ],
+  "difficulty": 1,
+  "kind": "common",
+  "clue": "نتيجة لا فائز فيها",
+  "shortClue": "نتيجة بلا فائز"
+ },
+ {
+  "word": "خسارة",
+  "topics": [
+   "sport"
+  ],
+  "difficulty": 1,
+  "kind": "common",
+  "clue": "عكس الفوز في المباراة",
+  "shortClue": "عكس الفوز"
+ },
+ {
+  "word": "هاتريك",
+  "topics": [
+   "sport"
+  ],
+  "difficulty": 3,
+  "kind": "common",
+  "clue": "ثلاثة اهداف من لاعب واحد في لقاء",
+  "shortClue": "ثلاثية لاعب"
+ },
+ {
+  "word": "مراوغة",
+  "topics": [
+   "sport"
+  ],
+  "difficulty": 2,
+  "kind": "common",
+  "clue": "خداع الخصم بحركة بالكرة",
+  "shortClue": "خداع الخصم"
+ },
+ {
+  "word": "لياقة",
+  "topics": [
+   "sport"
+  ],
+  "difficulty": 2,
+  "kind": "common",
+  "clue": "قدرة الجسم على بذل الجهد",
+  "shortClue": "قدرة الجسم"
+ },
+ {
+  "word": "رماية",
+  "topics": [
+   "sport"
+  ],
+  "difficulty": 2,
+  "kind": "common",
+  "clue": "اصابة الهدف بقوس او بندقية رياضية",
+  "shortClue": "اصابة الهدف"
+ },
+ {
+  "word": "تجديف",
+  "topics": [
+   "sport"
+  ],
+  "difficulty": 2,
+  "kind": "common",
+  "clue": "دفع القارب بالمجاذيف",
+  "shortClue": "دفع القارب"
+ },
+ {
+  "word": "ستاد",
+  "topics": [
+   "sport"
+  ],
+  "difficulty": 2,
+  "kind": "common",
+  "clue": "ميدان كبير تحيط به المدرجات",
+  "shortClue": "ميدان المدرجات"
+ },
+ {
+  "word": "عارضة",
+  "topics": [
+   "sport"
+  ],
+  "difficulty": 3,
+  "kind": "common",
+  "clue": "الخشبة الافقية العليا للمرمى",
+  "shortClue": "خشبة المرمى"
+ },
+ {
+  "word": "بلياردو",
+  "topics": [
+   "sport"
+  ],
+  "difficulty": 3,
+  "kind": "common",
+  "clue": "لعبة تضرب فيها الكرات بعصا على طاولة",
+  "shortClue": "لعبة العصا"
+ },
+ {
+  "word": "كمان",
+  "topics": [
+   "arts"
+  ],
+  "difficulty": 2,
+  "kind": "common",
+  "clue": "الة وترية صغيرة تعزف بقوس",
+  "shortClue": "الة وترية"
+ },
+ {
+  "word": "بيانو",
+  "topics": [
+   "arts"
+  ],
+  "difficulty": 1,
+  "kind": "common",
+  "clue": "الة ذات مفاتيح بيضاء وسوداء",
+  "shortClue": "الة المفاتيح"
+ },
+ {
+  "word": "قيثارة",
+  "topics": [
+   "arts"
+  ],
+  "difficulty": 3,
+  "kind": "common",
+  "clue": "الة وترية قديمة تشبه الهارب",
+  "shortClue": "الة وترية قديمة"
+ },
+ {
+  "word": "ربابة",
+  "topics": [
+   "arts"
+  ],
+  "difficulty": 3,
+  "kind": "common",
+  "clue": "الة وترية بدوية بوتر واحد",
+  "shortClue": "الة البادية"
+ },
+ {
+  "word": "قانون",
+  "topics": [
+   "arts"
+  ],
+  "difficulty": 2,
+  "kind": "common",
+  "clue": "الة وترية مسطحة تعزف بالاصابع",
+  "shortClue": "الة وترية مسطحة"
+ },
+ {
+  "word": "اكورديون",
+  "topics": [
+   "arts"
+  ],
+  "difficulty": 3,
+  "kind": "common",
+  "clue": "الة تنفخ وتضغط بالمنفاخ",
+  "shortClue": "الة المنفاخ"
+ },
+ {
+  "word": "اوركسترا",
+  "topics": [
+   "arts"
+  ],
+  "difficulty": 2,
+  "kind": "common",
+  "clue": "فرقة كبيرة تعزف مقطوعات متناغمة",
+  "shortClue": "فرقة عازفين"
+ },
+ {
+  "word": "سيمفونية",
+  "topics": [
+   "arts"
+  ],
+  "difficulty": 3,
+  "kind": "common",
+  "clue": "مقطوعة موسيقية كبيرة لفرقة كاملة",
+  "shortClue": "مقطوعة كبيرة"
+ },
+ {
+  "word": "موسيقى",
+  "topics": [
+   "arts"
+  ],
+  "difficulty": 1,
+  "kind": "common",
+  "clue": "فن الالحان والاصوات المتناغمة",
+  "shortClue": "فن الالحان"
+ },
+ {
+  "word": "ايقاع",
+  "topics": [
+   "arts"
+  ],
+  "difficulty": 2,
+  "kind": "common",
+  "clue": "نظام النقر المنتظم في اللحن",
+  "shortClue": "نبض اللحن"
+ },
+ {
+  "word": "مغني",
+  "topics": [
+   "arts"
+  ],
+  "difficulty": 1,
+  "kind": "common",
+  "clue": "من يؤدي الاغاني بصوته",
+  "shortClue": "مؤدي الاغاني"
+ },
+ {
+  "word": "مطرب",
+  "topics": [
+   "arts"
+  ],
+  "difficulty": 2,
+  "kind": "common",
+  "clue": "فنان طربت لصوته الاذان",
+  "shortClue": "فنان الصوت"
+ },
+ {
+  "word": "عازف",
+  "topics": [
+   "arts"
+  ],
+  "difficulty": 1,
+  "kind": "common",
+  "clue": "من يشغل الة موسيقية بيده",
+  "shortClue": "مشغل الة"
+ },
+ {
+  "word": "ملحن",
+  "topics": [
+   "arts"
+  ],
+  "difficulty": 2,
+  "kind": "common",
+  "clue": "من يضع الحان الاغاني",
+  "shortClue": "واضع الالحان"
+ },
+ {
+  "word": "اوبرا",
+  "topics": [
+   "arts"
+  ],
+  "difficulty": 2,
+  "kind": "common",
+  "clue": "مسرح غنائي كبير",
+  "shortClue": "مسرح غنائي"
+ },
+ {
+  "word": "باليه",
+  "topics": [
+   "arts"
+  ],
+  "difficulty": 2,
+  "kind": "common",
+  "clue": "رقص كلاسيكي على اطراف الاصابع",
+  "shortClue": "رقص كلاسيكي"
+ },
+ {
+  "word": "كوميديا",
+  "topics": [
+   "arts"
+  ],
+  "difficulty": 2,
+  "kind": "common",
+  "clue": "عمل مسرحي يضحك الجمهور",
+  "shortClue": "عمل مضحك"
+ },
+ {
+  "word": "ماساة",
+  "topics": [
+   "arts"
+  ],
+  "difficulty": 2,
+  "kind": "common",
+  "clue": "عمل درامي نهايته حزينة",
+  "shortClue": "دراما حزينة"
+ },
+ {
+  "word": "ممثل",
+  "topics": [
+   "arts"
+  ],
+  "difficulty": 1,
+  "kind": "common",
+  "clue": "من يؤدي دورا في فيلم",
+  "shortClue": "مؤدي الدور"
+ },
+ {
+  "word": "مخرج",
+  "topics": [
+   "arts"
+  ],
+  "difficulty": 2,
+  "kind": "common",
+  "clue": "من يقود التصوير والممثلين",
+  "shortClue": "قائد التصوير"
+ },
+ {
+  "word": "سيناريو",
+  "topics": [
+   "arts"
+  ],
+  "difficulty": 3,
+  "kind": "common",
+  "clue": "نص يكتب لمشاهد الفيلم",
+  "shortClue": "نص الفيلم"
+ },
+ {
+  "word": "كاميرا",
+  "topics": [
+   "arts"
+  ],
+  "difficulty": 1,
+  "kind": "common",
+  "clue": "جهاز يلتقط الصور",
+  "shortClue": "جهاز الصور"
+ },
+ {
+  "word": "كاريكاتير",
+  "topics": [
+   "arts"
+  ],
+  "difficulty": 3,
+  "kind": "common",
+  "clue": "رسم ساخر يبالغ في الملامح",
+  "shortClue": "رسم ساخر"
+ },
+ {
+  "word": "معرض",
+  "topics": [
+   "arts"
+  ],
+  "difficulty": 1,
+  "kind": "common",
+  "clue": "مكان تعرض فيه اللوحات او البضائع",
+  "shortClue": "مكان العرض"
+ },
+ {
+  "word": "متحف",
+  "topics": [
+   "arts"
+  ],
+  "difficulty": 1,
+  "kind": "common",
+  "clue": "مبنى يحفظ الاثار والتحف",
+  "shortClue": "بيت الاثار"
+ },
+ {
+  "word": "فنان",
+  "topics": [
+   "arts"
+  ],
+  "difficulty": 1,
+  "kind": "common",
+  "clue": "من يبدع اعمالا جميلة",
+  "shortClue": "مبدع الجمال"
+ },
+ {
+  "word": "شاعر",
+  "topics": [
+   "arts"
+  ],
+  "difficulty": 1,
+  "kind": "common",
+  "clue": "من ينظم القصائد",
+  "shortClue": "ناظم القصائد"
+ },
+ {
+  "word": "ديوان",
+  "topics": [
+   "arts"
+  ],
+  "difficulty": 2,
+  "kind": "common",
+  "clue": "مجموعة قصائد في كتاب",
+  "shortClue": "مجموعة قصائد"
+ },
+ {
+  "word": "قافية",
+  "topics": [
+   "arts"
+  ],
+  "difficulty": 2,
+  "kind": "common",
+  "clue": "حرف تنتهي به ابيات القصيدة",
+  "shortClue": "نهاية البيت"
+ },
+ {
+  "word": "موال",
+  "topics": [
+   "arts"
+  ],
+  "difficulty": 3,
+  "kind": "common",
+  "clue": "غناء شعبي حزين مرتجل",
+  "shortClue": "غناء شعبي"
+ },
+ {
+  "word": "نشيد",
+  "topics": [
+   "arts"
+  ],
+  "difficulty": 2,
+  "kind": "common",
+  "clue": "كلام مغنى جماعي يردده الطلاب",
+  "shortClue": "انشودة جماعية"
+ },
+ {
+  "word": "كورال",
+  "topics": [
+   "arts"
+  ],
+  "difficulty": 3,
+  "kind": "common",
+  "clue": "مجموعة تغني بصوت واحد",
+  "shortClue": "مجموعة مغنين"
+ },
+ {
+  "word": "ارتجال",
+  "topics": [
+   "arts"
+  ],
+  "difficulty": 3,
+  "kind": "common",
+  "clue": "اداء فوري دون تحضير",
+  "shortClue": "اداء فوري"
+ },
+ {
+  "word": "جدارية",
+  "topics": [
+   "arts"
+  ],
+  "difficulty": 3,
+  "kind": "common",
+  "clue": "رسم كبير على الحائط",
+  "shortClue": "رسم الحائط"
+ },
+ {
+  "word": "فخار",
+  "topics": [
+   "arts"
+  ],
+  "difficulty": 2,
+  "kind": "common",
+  "clue": "اواني من الطين المحروق",
+  "shortClue": "اواني الطين"
+ }
+]
