@@ -1,0 +1,5005 @@
+[
+ {
+  "word": "朋友",
+  "topics": [
+   "general"
+  ],
+  "difficulty": 1,
+  "kind": "common",
+  "clue": "和你互相喜欢、常来往的人",
+  "shortClue": "知心人"
+ },
+ {
+  "word": "快乐",
+  "topics": [
+   "general"
+  ],
+  "difficulty": 1,
+  "kind": "common",
+  "clue": "心里高兴舒畅的感觉",
+  "shortClue": "开心之感"
+ },
+ {
+  "word": "悲伤",
+  "topics": [
+   "general"
+  ],
+  "difficulty": 2,
+  "kind": "common",
+  "clue": "失去心爱之物时的难受心情",
+  "shortClue": "难过心情"
+ },
+ {
+  "word": "愤怒",
+  "topics": [
+   "general"
+  ],
+  "difficulty": 2,
+  "kind": "common",
+  "clue": "火气上头、非常生气的情绪",
+  "shortClue": "火冒三丈"
+ },
+ {
+  "word": "勇敢",
+  "topics": [
+   "general"
+  ],
+  "difficulty": 1,
+  "kind": "common",
+  "clue": "遇到危险也不退缩的品质",
+  "shortClue": "不怕危险"
+ },
+ {
+  "word": "善良",
+  "topics": [
+   "general"
+  ],
+  "difficulty": 2,
+  "kind": "common",
+  "clue": "心地好、愿意帮人的品质",
+  "shortClue": "心肠好"
+ },
+ {
+  "word": "聪明",
+  "topics": [
+   "general"
+  ],
+  "difficulty": 1,
+  "kind": "common",
+  "clue": "脑子转得快、会想办法",
+  "shortClue": "头脑灵活"
+ },
+ {
+  "word": "懒惰",
+  "topics": [
+   "general"
+  ],
+  "difficulty": 2,
+  "kind": "common",
+  "clue": "不爱干活、总想歇着的毛病",
+  "shortClue": "不愿勤快"
+ },
+ {
+  "word": "勤奋",
+  "topics": [
+   "general"
+  ],
+  "difficulty": 2,
+  "kind": "common",
+  "clue": "肯下功夫、天天努力",
+  "shortClue": "刻苦用功"
+ },
+ {
+  "word": "诚实",
+  "topics": [
+   "general"
+  ],
+  "difficulty": 2,
+  "kind": "common",
+  "clue": "不说假话、有一说一",
+  "shortClue": "不撒谎"
+ },
+ {
+  "word": "骄傲",
+  "topics": [
+   "general"
+  ],
+  "difficulty": 2,
+  "kind": "common",
+  "clue": "觉得自己了不起而看轻别人",
+  "shortClue": "自以为是"
+ },
+ {
+  "word": "谦虚",
+  "topics": [
+   "general"
+  ],
+  "difficulty": 2,
+  "kind": "common",
+  "clue": "不自夸、肯向别人请教的态度",
+  "shortClue": "不自满"
+ },
+ {
+  "word": "耐心",
+  "topics": [
+   "general"
+  ],
+  "difficulty": 1,
+  "kind": "common",
+  "clue": "做事不急躁、肯慢慢等",
+  "shortClue": "不急不躁"
+ },
+ {
+  "word": "爸爸",
+  "topics": [
+   "general"
+  ],
+  "difficulty": 1,
+  "kind": "common",
+  "clue": "孩子对父亲的口头称呼",
+  "shortClue": "父亲俗称"
+ },
+ {
+  "word": "妈妈",
+  "topics": [
+   "general"
+  ],
+  "difficulty": 1,
+  "kind": "common",
+  "clue": "孩子对母亲的口头称呼",
+  "shortClue": "母亲俗称"
+ },
+ {
+  "word": "爷爷",
+  "topics": [
+   "general"
+  ],
+  "difficulty": 1,
+  "kind": "common",
+  "clue": "父亲的父亲，孩子这样叫他",
+  "shortClue": "父亲之父"
+ },
+ {
+  "word": "奶奶",
+  "topics": [
+   "general"
+  ],
+  "difficulty": 1,
+  "kind": "common",
+  "clue": "父亲的母亲，孩子这样叫她",
+  "shortClue": "父亲之母"
+ },
+ {
+  "word": "哥哥",
+  "topics": [
+   "general"
+  ],
+  "difficulty": 1,
+  "kind": "common",
+  "clue": "同一父母所生、年纪比你大的男孩",
+  "shortClue": "年长男手足"
+ },
+ {
+  "word": "姐姐",
+  "topics": [
+   "general"
+  ],
+  "difficulty": 1,
+  "kind": "common",
+  "clue": "比你年长的女性手足",
+  "shortClue": "年长女手足"
+ },
+ {
+  "word": "弟弟",
+  "topics": [
+   "general"
+  ],
+  "difficulty": 1,
+  "kind": "common",
+  "clue": "比你年幼的男性手足",
+  "shortClue": "年幼男手足"
+ },
+ {
+  "word": "妹妹",
+  "topics": [
+   "general"
+  ],
+  "difficulty": 1,
+  "kind": "common",
+  "clue": "比你年幼的女性手足",
+  "shortClue": "幼小女手足"
+ },
+ {
+  "word": "家人",
+  "topics": [
+   "general"
+  ],
+  "difficulty": 1,
+  "kind": "common",
+  "clue": "共同生活、血脉相连的亲属",
+  "shortClue": "骨肉至亲"
+ },
+ {
+  "word": "同学",
+  "topics": [
+   "general"
+  ],
+  "difficulty": 1,
+  "kind": "common",
+  "clue": "一个班里一起听课的伙伴",
+  "shortClue": "一班伙伴"
+ },
+ {
+  "word": "作业",
+  "topics": [
+   "general"
+  ],
+  "difficulty": 1,
+  "kind": "common",
+  "clue": "老师课后留给学生做的功课",
+  "shortClue": "课后功课"
+ },
+ {
+  "word": "考试",
+  "topics": [
+   "general"
+  ],
+  "difficulty": 1,
+  "kind": "common",
+  "clue": "用卷子检验学习成果的活动",
+  "shortClue": "检验成绩"
+ },
+ {
+  "word": "时间",
+  "topics": [
+   "general"
+  ],
+  "difficulty": 1,
+  "kind": "common",
+  "clue": "钟表指针走过的东西",
+  "shortClue": "钟表所示"
+ },
+ {
+  "word": "早晨",
+  "topics": [
+   "general"
+  ],
+  "difficulty": 1,
+  "kind": "common",
+  "clue": "太阳刚升起的那段时光",
+  "shortClue": "一日之始"
+ },
+ {
+  "word": "晚上",
+  "topics": [
+   "general"
+  ],
+  "difficulty": 1,
+  "kind": "common",
+  "clue": "太阳落山以后的时间",
+  "shortClue": "日落之后"
+ },
+ {
+  "word": "黄昏",
+  "topics": [
+   "general"
+  ],
+  "difficulty": 2,
+  "kind": "common",
+  "clue": "太阳落下、天将黑未黑的时候",
+  "shortClue": "日暮时分"
+ },
+ {
+  "word": "星期",
+  "topics": [
+   "general"
+  ],
+  "difficulty": 1,
+  "kind": "common",
+  "clue": "七天为一轮的计日单位",
+  "shortClue": "七天一轮"
+ },
+ {
+  "word": "周末",
+  "topics": [
+   "general"
+  ],
+  "difficulty": 1,
+  "kind": "common",
+  "clue": "七天里放假的那两天",
+  "shortClue": "休息两天"
+ },
+ {
+  "word": "假期",
+  "topics": [
+   "general"
+  ],
+  "difficulty": 1,
+  "kind": "common",
+  "clue": "不用上课也不用上班的那些天",
+  "shortClue": "不上班日"
+ },
+ {
+  "word": "永远",
+  "topics": [
+   "general"
+  ],
+  "difficulty": 2,
+  "kind": "common",
+  "clue": "没有尽头、一直到底",
+  "shortClue": "无穷无尽"
+ },
+ {
+  "word": "突然",
+  "topics": [
+   "general"
+  ],
+  "difficulty": 2,
+  "kind": "common",
+  "clue": "来得很快、让人没想到",
+  "shortClue": "出乎意料"
+ },
+ {
+  "word": "终于",
+  "topics": [
+   "general"
+  ],
+  "difficulty": 2,
+  "kind": "common",
+  "clue": "等了很久之后事情总算发生",
+  "shortClue": "久等之后"
+ },
+ {
+  "word": "已经",
+  "topics": [
+   "general"
+  ],
+  "difficulty": 1,
+  "kind": "common",
+  "clue": "表示事情做完在先的词",
+  "shortClue": "事先完成"
+ },
+ {
+  "word": "也许",
+  "topics": [
+   "general"
+  ],
+  "difficulty": 2,
+  "kind": "common",
+  "clue": "说不准、可能是这样",
+  "shortClue": "说不定"
+ },
+ {
+  "word": "几乎",
+  "topics": [
+   "general"
+  ],
+  "difficulty": 2,
+  "kind": "common",
+  "clue": "差一点就是、快要达到",
+  "shortClue": "差不多"
+ },
+ {
+  "word": "许多",
+  "topics": [
+   "general"
+  ],
+  "difficulty": 1,
+  "kind": "common",
+  "clue": "数目不少、远超几个",
+  "shortClue": "不是少数"
+ },
+ {
+  "word": "全部",
+  "topics": [
+   "general"
+  ],
+  "difficulty": 1,
+  "kind": "common",
+  "clue": "一点不剩、整个的",
+  "shortClue": "一个不少"
+ },
+ {
+  "word": "左边",
+  "topics": [
+   "general"
+  ],
+  "difficulty": 1,
+  "kind": "common",
+  "clue": "面朝前时心脏所在的一侧",
+  "shortClue": "心脏一侧"
+ },
+ {
+  "word": "右边",
+  "topics": [
+   "general"
+  ],
+  "difficulty": 1,
+  "kind": "common",
+  "clue": "面朝前时与左相对的一侧",
+  "shortClue": "左的对面"
+ },
+ {
+  "word": "前面",
+  "topics": [
+   "general"
+  ],
+  "difficulty": 1,
+  "kind": "common",
+  "clue": "脸朝向的那一边",
+  "shortClue": "正对之处"
+ },
+ {
+  "word": "后面",
+  "topics": [
+   "general"
+  ],
+  "difficulty": 1,
+  "kind": "common",
+  "clue": "背向前方的那一边",
+  "shortClue": "背朝之处"
+ },
+ {
+  "word": "旁边",
+  "topics": [
+   "general"
+  ],
+  "difficulty": 2,
+  "kind": "common",
+  "clue": "紧挨着身侧的地方",
+  "shortClue": "贴身之处"
+ },
+ {
+  "word": "附近",
+  "topics": [
+   "general"
+  ],
+  "difficulty": 2,
+  "kind": "common",
+  "clue": "离得不远的一带",
+  "shortClue": "不远之处"
+ },
+ {
+  "word": "谢谢",
+  "topics": [
+   "general"
+  ],
+  "difficulty": 1,
+  "kind": "common",
+  "clue": "得了帮助后常说的两个字",
+  "shortClue": "表达感激"
+ },
+ {
+  "word": "再见",
+  "topics": [
+   "general"
+  ],
+  "difficulty": 1,
+  "kind": "common",
+  "clue": "分别时说的话",
+  "shortClue": "临别之语"
+ },
+ {
+  "word": "欢迎",
+  "topics": [
+   "general"
+  ],
+  "difficulty": 1,
+  "kind": "common",
+  "clue": "客人到来时主人热情说的话",
+  "shortClue": "对来客说"
+ },
+ {
+  "word": "对不起",
+  "topics": [
+   "general"
+  ],
+  "difficulty": 1,
+  "kind": "common",
+  "clue": "做错事后向人表示歉意的话",
+  "shortClue": "道歉之语"
+ },
+ {
+  "word": "请问",
+  "topics": [
+   "general"
+  ],
+  "difficulty": 2,
+  "kind": "common",
+  "clue": "向别人打听事情前客气的开头",
+  "shortClue": "客气打听"
+ },
+ {
+  "word": "问候",
+  "topics": [
+   "general"
+  ],
+  "difficulty": 2,
+  "kind": "common",
+  "clue": "见面时关心地打招呼",
+  "shortClue": "见面致意"
+ },
+ {
+  "word": "开始",
+  "topics": [
+   "general"
+  ],
+  "difficulty": 1,
+  "kind": "common",
+  "clue": "事情刚刚动手进行",
+  "shortClue": "揭幕之时"
+ },
+ {
+  "word": "结束",
+  "topics": [
+   "general"
+  ],
+  "difficulty": 1,
+  "kind": "common",
+  "clue": "事情到了尽头、不再继续",
+  "shortClue": "画上句号"
+ },
+ {
+  "word": "继续",
+  "topics": [
+   "general"
+  ],
+  "difficulty": 2,
+  "kind": "common",
+  "clue": "接着往下做、不中断",
+  "shortClue": "接着干"
+ },
+ {
+  "word": "停止",
+  "topics": [
+   "general"
+  ],
+  "difficulty": 2,
+  "kind": "common",
+  "clue": "不再前进或活动",
+  "shortClue": "不动了"
+ },
+ {
+  "word": "出发",
+  "topics": [
+   "general"
+  ],
+  "difficulty": 1,
+  "kind": "common",
+  "clue": "离开原地、踏上行程",
+  "shortClue": "踏上旅程"
+ },
+ {
+  "word": "到达",
+  "topics": [
+   "general"
+  ],
+  "difficulty": 2,
+  "kind": "common",
+  "clue": "走完全程、进入目的地的那一刻",
+  "shortClue": "旅程终点站"
+ },
+ {
+  "word": "旅行",
+  "topics": [
+   "general"
+  ],
+  "difficulty": 1,
+  "kind": "common",
+  "clue": "离开家去远方游玩",
+  "shortClue": "出门远游"
+ },
+ {
+  "word": "行李",
+  "topics": [
+   "general"
+  ],
+  "difficulty": 1,
+  "kind": "common",
+  "clue": "旅途中随身带的箱包衣物",
+  "shortClue": "旅途箱包"
+ },
+ {
+  "word": "地图",
+  "topics": [
+   "general"
+  ],
+  "difficulty": 1,
+  "kind": "common",
+  "clue": "标出山河道路、帮人认路的纸",
+  "shortClue": "认路的纸"
+ },
+ {
+  "word": "护照",
+  "topics": [
+   "general"
+  ],
+  "difficulty": 2,
+  "kind": "common",
+  "clue": "出国时要出示的证件",
+  "shortClue": "出境证件"
+ },
+ {
+  "word": "风景",
+  "topics": [
+   "general"
+  ],
+  "difficulty": 1,
+  "kind": "common",
+  "clue": "眼前山河草木所构成的好看画面",
+  "shortClue": "山水之美"
+ },
+ {
+  "word": "故事",
+  "topics": [
+   "general"
+  ],
+  "difficulty": 1,
+  "kind": "common",
+  "clue": "有开头有结尾、讲给人听的情节",
+  "shortClue": "睡前读物"
+ },
+ {
+  "word": "梦想",
+  "topics": [
+   "general"
+  ],
+  "difficulty": 2,
+  "kind": "common",
+  "clue": "心里长久盼着实现的愿望",
+  "shortClue": "心中期盼"
+ },
+ {
+  "word": "记忆",
+  "topics": [
+   "general"
+  ],
+  "difficulty": 2,
+  "kind": "common",
+  "clue": "脑子里留着的过去的事",
+  "shortClue": "往事留存"
+ },
+ {
+  "word": "希望",
+  "topics": [
+   "general"
+  ],
+  "difficulty": 1,
+  "kind": "common",
+  "clue": "盼着事情变好的心情",
+  "shortClue": "未来的盼头"
+ },
+ {
+  "word": "秘密",
+  "topics": [
+   "general"
+  ],
+  "difficulty": 2,
+  "kind": "common",
+  "clue": "只有少数人知道、不能说出去的事",
+  "shortClue": "不外传事"
+ },
+ {
+  "word": "习惯",
+  "topics": [
+   "general"
+  ],
+  "difficulty": 2,
+  "kind": "common",
+  "clue": "长期养成、不自觉就会做的做法",
+  "shortClue": "日久成性"
+ },
+ {
+  "word": "经验",
+  "topics": [
+   "general"
+  ],
+  "difficulty": 2,
+  "kind": "common",
+  "clue": "做过多次后积累的本事和见识",
+  "shortClue": "阅历积累"
+ },
+ {
+  "word": "机会",
+  "topics": [
+   "general"
+  ],
+  "difficulty": 1,
+  "kind": "common",
+  "clue": "恰好出现、可以抓住的时刻",
+  "shortClue": "难得时刻"
+ },
+ {
+  "word": "困难",
+  "topics": [
+   "general"
+  ],
+  "difficulty": 2,
+  "kind": "common",
+  "clue": "事情进行中遇到的阻碍",
+  "shortClue": "拦路虎"
+ },
+ {
+  "word": "办法",
+  "topics": [
+   "general"
+  ],
+  "difficulty": 1,
+  "kind": "common",
+  "clue": "解决问题的路子",
+  "shortClue": "应对之策"
+ },
+ {
+  "word": "原因",
+  "topics": [
+   "general"
+  ],
+  "difficulty": 2,
+  "kind": "common",
+  "clue": "事情发生背后的理由",
+  "shortClue": "背后理由"
+ },
+ {
+  "word": "结果",
+  "topics": [
+   "general"
+  ],
+  "difficulty": 1,
+  "kind": "common",
+  "clue": "事情最后落下的样子",
+  "shortClue": "最终模样"
+ },
+ {
+  "word": "意思",
+  "topics": [
+   "general"
+  ],
+  "difficulty": 1,
+  "kind": "common",
+  "clue": "话语或字词所表达的内容",
+  "shortClue": "字词含义"
+ },
+ {
+  "word": "声音",
+  "topics": [
+   "general"
+  ],
+  "difficulty": 1,
+  "kind": "common",
+  "clue": "耳朵能听见的东西",
+  "shortClue": "耳听之物"
+ },
+ {
+  "word": "颜色",
+  "topics": [
+   "general"
+  ],
+  "difficulty": 1,
+  "kind": "common",
+  "clue": "红黄蓝绿的统称",
+  "shortClue": "红黄蓝绿"
+ },
+ {
+  "word": "味道",
+  "topics": [
+   "general"
+  ],
+  "difficulty": 1,
+  "kind": "common",
+  "clue": "舌头和鼻子能感觉到的气息",
+  "shortClue": "口舌感受"
+ },
+ {
+  "word": "温度",
+  "topics": [
+   "general"
+  ],
+  "difficulty": 1,
+  "kind": "common",
+  "clue": "冷与热的高低",
+  "shortClue": "冷热高低"
+ },
+ {
+  "word": "重量",
+  "topics": [
+   "general"
+  ],
+  "difficulty": 1,
+  "kind": "common",
+  "clue": "物体到底有多沉",
+  "shortClue": "沉的程度"
+ },
+ {
+  "word": "速度",
+  "topics": [
+   "general"
+  ],
+  "difficulty": 2,
+  "kind": "common",
+  "clue": "物体移动得多快",
+  "shortClue": "快与慢"
+ },
+ {
+  "word": "安静",
+  "topics": [
+   "general"
+  ],
+  "difficulty": 1,
+  "kind": "common",
+  "clue": "没有声响、不吵闹",
+  "shortClue": "悄然无声"
+ },
+ {
+  "word": "热闹",
+  "topics": [
+   "general"
+  ],
+  "difficulty": 1,
+  "kind": "common",
+  "clue": "人多声大、气氛欢腾",
+  "shortClue": "人声鼎沸"
+ },
+ {
+  "word": "干净",
+  "topics": [
+   "general"
+  ],
+  "difficulty": 1,
+  "kind": "common",
+  "clue": "一点脏东西也没有",
+  "shortClue": "清洁无尘"
+ },
+ {
+  "word": "漂亮",
+  "topics": [
+   "general"
+  ],
+  "difficulty": 1,
+  "kind": "common",
+  "clue": "样子好看，惹人喜爱",
+  "shortClue": "美丽动人"
+ },
+ {
+  "word": "危险",
+  "topics": [
+   "general"
+  ],
+  "difficulty": 1,
+  "kind": "common",
+  "clue": "可能遭到伤害或损失的状态",
+  "shortClue": "随时受伤"
+ },
+ {
+  "word": "安全",
+  "topics": [
+   "general"
+  ],
+  "difficulty": 2,
+  "kind": "common",
+  "clue": "不受伤害，没有闪失",
+  "shortClue": "无事平稳"
+ },
+ {
+  "word": "自由",
+  "topics": [
+   "general"
+  ],
+  "difficulty": 2,
+  "kind": "common",
+  "clue": "不受拘束，想做就做",
+  "shortClue": "无拘无束"
+ },
+ {
+  "word": "健康",
+  "topics": [
+   "general"
+  ],
+  "difficulty": 1,
+  "kind": "common",
+  "clue": "身体没有病、状态好",
+  "shortClue": "身强体壮"
+ },
+ {
+  "word": "疲劳",
+  "topics": [
+   "general"
+  ],
+  "difficulty": 3,
+  "kind": "common",
+  "clue": "身心用力过度后又困又乏",
+  "shortClue": "累得慌"
+ },
+ {
+  "word": "感冒",
+  "topics": [
+   "general"
+  ],
+  "difficulty": 1,
+  "kind": "common",
+  "clue": "着凉后常见的鼻塞发烧",
+  "shortClue": "着凉小病"
+ },
+ {
+  "word": "害怕",
+  "topics": [
+   "general"
+  ],
+  "difficulty": 1,
+  "kind": "common",
+  "clue": "心里发慌，想躲开",
+  "shortClue": "心中惊恐"
+ },
+ {
+  "word": "惊讶",
+  "topics": [
+   "general"
+  ],
+  "difficulty": 2,
+  "kind": "common",
+  "clue": "遇到没想到的事而睁大眼睛",
+  "shortClue": "出乎意料"
+ },
+ {
+  "word": "羡慕",
+  "topics": [
+   "general"
+  ],
+  "difficulty": 3,
+  "kind": "common",
+  "clue": "看别人有好处而心里也想要",
+  "shortClue": "暗自眼红"
+ },
+ {
+  "word": "后悔",
+  "topics": [
+   "general"
+  ],
+  "difficulty": 2,
+  "kind": "common",
+  "clue": "过去做错了、心里直想重来",
+  "shortClue": "懊恼不已"
+ },
+ {
+  "word": "寂寞",
+  "topics": [
+   "general"
+  ],
+  "difficulty": 3,
+  "kind": "common",
+  "clue": "没人作伴、心里空荡",
+  "shortClue": "孤单冷清"
+ },
+ {
+  "word": "思念",
+  "topics": [
+   "general"
+  ],
+  "difficulty": 2,
+  "kind": "common",
+  "clue": "离得远的亲友在心里不断出现",
+  "shortClue": "牵挂远人"
+ },
+ {
+  "word": "满意",
+  "topics": [
+   "general"
+  ],
+  "difficulty": 2,
+  "kind": "common",
+  "clue": "觉得合乎心愿",
+  "shortClue": "称心顺眼"
+ },
+ {
+  "word": "紧张",
+  "topics": [
+   "general"
+  ],
+  "difficulty": 2,
+  "kind": "common",
+  "clue": "绷着劲、心里放不下",
+  "shortClue": "心弦绷着"
+ },
+ {
+  "word": "轻松",
+  "topics": [
+   "general"
+  ],
+  "difficulty": 2,
+  "kind": "common",
+  "clue": "没有负担，身心舒展",
+  "shortClue": "卸下重担"
+ },
+ {
+  "word": "热情",
+  "topics": [
+   "general"
+  ],
+  "difficulty": 2,
+  "kind": "common",
+  "clue": "待人亲切、劲头十足",
+  "shortClue": "亲切周到"
+ },
+ {
+  "word": "冷静",
+  "topics": [
+   "general"
+  ],
+  "difficulty": 3,
+  "kind": "common",
+  "clue": "遇事不慌、头脑清醒",
+  "shortClue": "沉着应对"
+ },
+ {
+  "word": "幸福",
+  "topics": [
+   "general"
+  ],
+  "difficulty": 2,
+  "kind": "common",
+  "clue": "生活美满、心里踏实的状态",
+  "shortClue": "美满生活"
+ },
+ {
+  "word": "成功",
+  "topics": [
+   "general"
+  ],
+  "difficulty": 1,
+  "kind": "common",
+  "clue": "达到了预定目的",
+  "shortClue": "如愿以偿"
+ },
+ {
+  "word": "失败",
+  "topics": [
+   "general"
+  ],
+  "difficulty": 1,
+  "kind": "common",
+  "clue": "没有达到目的，输了",
+  "shortClue": "功亏一篑"
+ },
+ {
+  "word": "重要",
+  "topics": [
+   "general"
+  ],
+  "difficulty": 1,
+  "kind": "common",
+  "clue": "分量大、不可忽视",
+  "shortClue": "分量很大"
+ },
+ {
+  "word": "简单",
+  "topics": [
+   "general"
+  ],
+  "difficulty": 1,
+  "kind": "common",
+  "clue": "不复杂、容易做",
+  "shortClue": "易如反掌"
+ },
+ {
+  "word": "复杂",
+  "topics": [
+   "general"
+  ],
+  "difficulty": 2,
+  "kind": "common",
+  "clue": "头绪多、不容易弄清",
+  "shortClue": "错综纷乱"
+ },
+ {
+  "word": "普通",
+  "topics": [
+   "general"
+  ],
+  "difficulty": 2,
+  "kind": "common",
+  "clue": "没什么特别、很常见",
+  "shortClue": "平平常常"
+ },
+ {
+  "word": "特别",
+  "topics": [
+   "general"
+  ],
+  "difficulty": 2,
+  "kind": "common",
+  "clue": "和一般的不同",
+  "shortClue": "与众不同"
+ },
+ {
+  "word": "必须",
+  "topics": [
+   "general"
+  ],
+  "difficulty": 2,
+  "kind": "common",
+  "clue": "一定要这样做",
+  "shortClue": "非做不可"
+ },
+ {
+  "word": "应该",
+  "topics": [
+   "general"
+  ],
+  "difficulty": 2,
+  "kind": "common",
+  "clue": "依常理就当这样",
+  "shortClue": "理当如此"
+ },
+ {
+  "word": "可能",
+  "topics": [
+   "general"
+  ],
+  "difficulty": 1,
+  "kind": "common",
+  "clue": "有这样的机会、说不定",
+  "shortClue": "或许会"
+ },
+ {
+  "word": "需要",
+  "topics": [
+   "general"
+  ],
+  "difficulty": 1,
+  "kind": "common",
+  "clue": "非有不可、缺了不行",
+  "shortClue": "少不了"
+ },
+ {
+  "word": "喜欢",
+  "topics": [
+   "general"
+  ],
+  "difficulty": 1,
+  "kind": "common",
+  "clue": "对人或事物有好感",
+  "shortClue": "心生好感"
+ },
+ {
+  "word": "讨厌",
+  "topics": [
+   "general"
+  ],
+  "difficulty": 2,
+  "kind": "common",
+  "clue": "心里反感、不想接近",
+  "shortClue": "不待见"
+ },
+ {
+  "word": "森林",
+  "topics": [
+   "nature"
+  ],
+  "difficulty": 1,
+  "kind": "common",
+  "clue": "大片树木连成的地方",
+  "shortClue": "树木成片"
+ },
+ {
+  "word": "湖泊",
+  "topics": [
+   "nature"
+  ],
+  "difficulty": 3,
+  "kind": "common",
+  "clue": "陆地上大片积水的洼地",
+  "shortClue": "大水洼"
+ },
+ {
+  "word": "沙漠",
+  "topics": [
+   "nature"
+  ],
+  "difficulty": 1,
+  "kind": "common",
+  "clue": "干旱少雨、驼铃响起的荒原",
+  "shortClue": "骆驼的家"
+ },
+ {
+  "word": "海洋",
+  "topics": [
+   "nature"
+  ],
+  "difficulty": 1,
+  "kind": "common",
+  "clue": "地球上最宽广的咸水",
+  "shortClue": "蓝色咸水"
+ },
+ {
+  "word": "瀑布",
+  "topics": [
+   "nature"
+  ],
+  "difficulty": 2,
+  "kind": "common",
+  "clue": "从高处直落而下的水流",
+  "shortClue": "飞流直下"
+ },
+ {
+  "word": "彩虹",
+  "topics": [
+   "nature"
+  ],
+  "difficulty": 1,
+  "kind": "common",
+  "clue": "雨后天边的七色弧",
+  "shortClue": "雨后七色桥"
+ },
+ {
+  "word": "闪电",
+  "topics": [
+   "nature"
+  ],
+  "difficulty": 1,
+  "kind": "common",
+  "clue": "雷雨时天空划过的亮光",
+  "shortClue": "雷前亮光"
+ },
+ {
+  "word": "露水",
+  "topics": [
+   "nature"
+  ],
+  "difficulty": 2,
+  "kind": "common",
+  "clue": "清晨草叶上凝成的小圆珠",
+  "shortClue": "叶上小珠"
+ },
+ {
+  "word": "冰雪",
+  "topics": [
+   "nature"
+  ],
+  "difficulty": 2,
+  "kind": "common",
+  "clue": "冬日里又冷又白的东西",
+  "shortClue": "寒冬白物"
+ },
+ {
+  "word": "月亮",
+  "topics": [
+   "nature"
+  ],
+  "difficulty": 1,
+  "kind": "common",
+  "clue": "夜里挂在天上的发光圆盘",
+  "shortClue": "夜空明灯"
+ },
+ {
+  "word": "星星",
+  "topics": [
+   "nature"
+  ],
+  "difficulty": 1,
+  "kind": "common",
+  "clue": "夜空中一闪一闪的亮点",
+  "shortClue": "夜空亮点"
+ },
+ {
+  "word": "太阳",
+  "topics": [
+   "nature"
+  ],
+  "difficulty": 1,
+  "kind": "common",
+  "clue": "白天照亮大地的火球",
+  "shortClue": "白昼之光"
+ },
+ {
+  "word": "银河",
+  "topics": [
+   "nature"
+  ],
+  "difficulty": 3,
+  "kind": "common",
+  "clue": "夜晚横贯天空的亮带",
+  "shortClue": "天上星带"
+ },
+ {
+  "word": "草原",
+  "topics": [
+   "nature"
+  ],
+  "difficulty": 1,
+  "kind": "common",
+  "clue": "牛羊成群、一望无际的绿色大地",
+  "shortClue": "牛羊牧场"
+ },
+ {
+  "word": "花朵",
+  "topics": [
+   "nature"
+  ],
+  "difficulty": 1,
+  "kind": "common",
+  "clue": "植物开出的艳丽部分",
+  "shortClue": "枝头艳色"
+ },
+ {
+  "word": "树叶",
+  "topics": [
+   "nature"
+  ],
+  "difficulty": 1,
+  "kind": "common",
+  "clue": "长在枝上的绿色薄片",
+  "shortClue": "枝上绿片"
+ },
+ {
+  "word": "种子",
+  "topics": [
+   "nature"
+  ],
+  "difficulty": 1,
+  "kind": "common",
+  "clue": "埋进土里会长出新苗的小粒",
+  "shortClue": "发芽之源"
+ },
+ {
+  "word": "竹子",
+  "topics": [
+   "nature"
+  ],
+  "difficulty": 1,
+  "kind": "common",
+  "clue": "中空有节、四季常青的植物",
+  "shortClue": "空心有节"
+ },
+ {
+  "word": "荷花",
+  "topics": [
+   "nature"
+  ],
+  "difficulty": 2,
+  "kind": "common",
+  "clue": "夏日池塘里出淤泥而不染的水生植物",
+  "shortClue": "出泥不染"
+ },
+ {
+  "word": "松树",
+  "topics": [
+   "nature"
+  ],
+  "difficulty": 2,
+  "kind": "common",
+  "clue": "针叶常绿、冬天不凋的高大乔木",
+  "shortClue": "岁寒三友"
+ },
+ {
+  "word": "柳树",
+  "topics": [
+   "nature"
+  ],
+  "difficulty": 2,
+  "kind": "common",
+  "clue": "春天枝条细长下垂的乔木",
+  "shortClue": "垂丝绿枝"
+ },
+ {
+  "word": "岩石",
+  "topics": [
+   "nature"
+  ],
+  "difficulty": 2,
+  "kind": "common",
+  "clue": "地壳里坚硬的大块矿物集合",
+  "shortClue": "坚硬大块"
+ },
+ {
+  "word": "泥土",
+  "topics": [
+   "nature"
+  ],
+  "difficulty": 1,
+  "kind": "common",
+  "clue": "田里松软的黄褐色颗粒",
+  "shortClue": "松软黄褐"
+ },
+ {
+  "word": "火山",
+  "topics": [
+   "nature"
+  ],
+  "difficulty": 2,
+  "kind": "common",
+  "clue": "能喷出岩浆与灰烟的高地",
+  "shortClue": "喷发岩浆"
+ },
+ {
+  "word": "浪花",
+  "topics": [
+   "nature"
+  ],
+  "difficulty": 2,
+  "kind": "common",
+  "clue": "海面上翻起的白色泡沫",
+  "shortClue": "海面白沫"
+ },
+ {
+  "word": "潮汐",
+  "topics": [
+   "nature"
+  ],
+  "difficulty": 3,
+  "kind": "common",
+  "clue": "大海每天定时的涨落",
+  "shortClue": "涨落规律"
+ },
+ {
+  "word": "溪流",
+  "topics": [
+   "nature"
+  ],
+  "difficulty": 3,
+  "kind": "common",
+  "clue": "山间细小的水道",
+  "shortClue": "山涧细水"
+ },
+ {
+  "word": "沼泽",
+  "topics": [
+   "nature"
+  ],
+  "difficulty": 3,
+  "kind": "common",
+  "clue": "泥水交杂、人难行走的洼地",
+  "shortClue": "烂泥洼地"
+ },
+ {
+  "word": "峡谷",
+  "topics": [
+   "nature"
+  ],
+  "difficulty": 3,
+  "kind": "common",
+  "clue": "两山夹着的深长沟壑",
+  "shortClue": "深长沟壑"
+ },
+ {
+  "word": "悬崖",
+  "topics": [
+   "nature"
+  ],
+  "difficulty": 2,
+  "kind": "common",
+  "clue": "陡直如削、下面很深的山壁",
+  "shortClue": "陡峭山壁"
+ },
+ {
+  "word": "冰川",
+  "topics": [
+   "nature"
+  ],
+  "difficulty": 3,
+  "kind": "common",
+  "clue": "高寒处缓慢移动的巨型固态水",
+  "shortClue": "缓行的雪河"
+ },
+ {
+  "word": "旋风",
+  "topics": [
+   "nature"
+  ],
+  "difficulty": 3,
+  "kind": "common",
+  "clue": "空气急速打转形成的柱状气流",
+  "shortClue": "打转的气流"
+ },
+ {
+  "word": "晴天",
+  "topics": [
+   "nature"
+  ],
+  "difficulty": 1,
+  "kind": "common",
+  "clue": "万里无云、阳光灿烂的日子",
+  "shortClue": "艳阳高照"
+ },
+ {
+  "word": "阴天",
+  "topics": [
+   "nature"
+  ],
+  "difficulty": 1,
+  "kind": "common",
+  "clue": "云层很厚、见不到日头",
+  "shortClue": "云层密布"
+ },
+ {
+  "word": "暴雨",
+  "topics": [
+   "nature"
+  ],
+  "difficulty": 2,
+  "kind": "common",
+  "clue": "又急又猛、哗哗直下的降水",
+  "shortClue": "倾盆而下"
+ },
+ {
+  "word": "云朵",
+  "topics": [
+   "nature"
+  ],
+  "difficulty": 1,
+  "kind": "common",
+  "clue": "天上漂浮的白色水汽团",
+  "shortClue": "白色棉絮"
+ },
+ {
+  "word": "蘑菇",
+  "topics": [
+   "nature"
+  ],
+  "difficulty": 2,
+  "kind": "common",
+  "clue": "雨后长在林间的伞状菌类",
+  "shortClue": "伞形菌"
+ },
+ {
+  "word": "苔藓",
+  "topics": [
+   "nature"
+  ],
+  "difficulty": 3,
+  "kind": "common",
+  "clue": "潮湿处贴地而生的绿色小植物",
+  "shortClue": "石上绿毯"
+ },
+ {
+  "word": "芦苇",
+  "topics": [
+   "nature"
+  ],
+  "difficulty": 3,
+  "kind": "common",
+  "clue": "水边丛生的高大禾草",
+  "shortClue": "水边禾草"
+ },
+ {
+  "word": "沙滩",
+  "topics": [
+   "nature"
+  ],
+  "difficulty": 1,
+  "kind": "common",
+  "clue": "海边细软的黄色地面",
+  "shortClue": "海边软地"
+ },
+ {
+  "word": "老虎",
+  "topics": [
+   "animals"
+  ],
+  "difficulty": 1,
+  "kind": "common",
+  "clue": "身上有横条纹的大型猫科猛兽",
+  "shortClue": "森林霸主"
+ },
+ {
+  "word": "狮子",
+  "topics": [
+   "animals"
+  ],
+  "difficulty": 1,
+  "kind": "common",
+  "clue": "雄性颈上长着浓密长鬃的猛兽",
+  "shortClue": "草原之王"
+ },
+ {
+  "word": "熊猫",
+  "topics": [
+   "animals"
+  ],
+  "difficulty": 1,
+  "kind": "common",
+  "clue": "黑白相间、爱吃竹叶的国宝",
+  "shortClue": "黑白国宝"
+ },
+ {
+  "word": "猴子",
+  "topics": [
+   "animals"
+  ],
+  "difficulty": 1,
+  "kind": "common",
+  "clue": "爱爬树、会剥香蕉的动物",
+  "shortClue": "灵长类"
+ },
+ {
+  "word": "兔子",
+  "topics": [
+   "animals"
+  ],
+  "difficulty": 1,
+  "kind": "common",
+  "clue": "长耳朵、短尾巴、爱吃萝卜",
+  "shortClue": "长耳小兽"
+ },
+ {
+  "word": "狐狸",
+  "topics": [
+   "animals"
+  ],
+  "difficulty": 2,
+  "kind": "common",
+  "clue": "传说中狡猾、毛色火红的小兽",
+  "shortClue": "红毛小兽"
+ },
+ {
+  "word": "老鹰",
+  "topics": [
+   "animals"
+  ],
+  "difficulty": 2,
+  "kind": "common",
+  "clue": "在高空盘旋、捕食小兽的猛禽",
+  "shortClue": "空中猎手"
+ },
+ {
+  "word": "麻雀",
+  "topics": [
+   "animals"
+  ],
+  "difficulty": 1,
+  "kind": "common",
+  "clue": "常在屋檐下蹦跳的小灰鸟",
+  "shortClue": "小灰鸟"
+ },
+ {
+  "word": "燕子",
+  "topics": [
+   "animals"
+  ],
+  "difficulty": 1,
+  "kind": "common",
+  "clue": "春天飞回、衔泥筑巢的鸟",
+  "shortClue": "春来筑巢"
+ },
+ {
+  "word": "喜鹊",
+  "topics": [
+   "animals"
+  ],
+  "difficulty": 2,
+  "kind": "common",
+  "clue": "俗说叫声带来好消息的黑白鸟",
+  "shortClue": "黑白报信鸟"
+ },
+ {
+  "word": "乌鸦",
+  "topics": [
+   "animals"
+  ],
+  "difficulty": 2,
+  "kind": "common",
+  "clue": "浑身漆黑、叫声沙哑的鸟",
+  "shortClue": "黑衣沙哑"
+ },
+ {
+  "word": "鸽子",
+  "topics": [
+   "animals"
+  ],
+  "difficulty": 1,
+  "kind": "common",
+  "clue": "养在笼里能飞回家送信的鸟",
+  "shortClue": "送信飞鸟"
+ },
+ {
+  "word": "鸭子",
+  "topics": [
+   "animals"
+  ],
+  "difficulty": 1,
+  "kind": "common",
+  "clue": "会游泳、走路摇摆、嘎嘎叫的家禽",
+  "shortClue": "嘎嘎叫"
+ },
+ {
+  "word": "公鸡",
+  "topics": [
+   "animals"
+  ],
+  "difficulty": 1,
+  "kind": "common",
+  "clue": "清晨报晓的雄性家禽",
+  "shortClue": "报晓家禽"
+ },
+ {
+  "word": "绵羊",
+  "topics": [
+   "animals"
+  ],
+  "difficulty": 2,
+  "kind": "common",
+  "clue": "身披厚毛、可剪毛织衣的家畜",
+  "shortClue": "产毛家畜"
+ },
+ {
+  "word": "骆驼",
+  "topics": [
+   "animals"
+  ],
+  "difficulty": 2,
+  "kind": "common",
+  "clue": "背上有肉峰、能耐渴的牲畜",
+  "shortClue": "沙漠之舟"
+ },
+ {
+  "word": "青蛙",
+  "topics": [
+   "animals"
+  ],
+  "difficulty": 1,
+  "kind": "common",
+  "clue": "会跳、会呱呱叫的两栖动物",
+  "shortClue": "捉虫能手"
+ },
+ {
+  "word": "蝴蝶",
+  "topics": [
+   "animals"
+  ],
+  "difficulty": 1,
+  "kind": "common",
+  "clue": "翅膀有花纹、在花间飞舞的昆虫",
+  "shortClue": "花间飞舞者"
+ },
+ {
+  "word": "蜜蜂",
+  "topics": [
+   "animals"
+  ],
+  "difficulty": 1,
+  "kind": "common",
+  "clue": "采花粉、酿甜浆的群居昆虫",
+  "shortClue": "勤劳小虫"
+ },
+ {
+  "word": "蚂蚁",
+  "topics": [
+   "animals"
+  ],
+  "difficulty": 1,
+  "kind": "common",
+  "clue": "成群搬运食物的小黑虫",
+  "shortClue": "搬家小虫"
+ },
+ {
+  "word": "蜘蛛",
+  "topics": [
+   "animals"
+  ],
+  "difficulty": 2,
+  "kind": "common",
+  "clue": "结网捕虫的八足小动物",
+  "shortClue": "织网高手"
+ },
+ {
+  "word": "蜻蜓",
+  "topics": [
+   "animals"
+  ],
+  "difficulty": 3,
+  "kind": "common",
+  "clue": "停在荷叶上、尾巴点水的昆虫",
+  "shortClue": "点水飞虫"
+ },
+ {
+  "word": "萤火虫",
+  "topics": [
+   "animals"
+  ],
+  "difficulty": 3,
+  "kind": "common",
+  "clue": "夏夜尾部会亮、飞来飞去的小生灵",
+  "shortClue": "夜间提灯者"
+ },
+ {
+  "word": "海豚",
+  "topics": [
+   "animals"
+  ],
+  "difficulty": 2,
+  "kind": "common",
+  "clue": "聪明活泼、常跃出水面的哺乳动物",
+  "shortClue": "聪明水兽"
+ },
+ {
+  "word": "鲸鱼",
+  "topics": [
+   "animals"
+  ],
+  "difficulty": 2,
+  "kind": "common",
+  "clue": "体型最大的水中哺乳动物",
+  "shortClue": "水中巨兽"
+ },
+ {
+  "word": "章鱼",
+  "topics": [
+   "animals"
+  ],
+  "difficulty": 3,
+  "kind": "common",
+  "clue": "八条腕足、遇险喷墨的软体动物",
+  "shortClue": "八爪软体"
+ },
+ {
+  "word": "螃蟹",
+  "topics": [
+   "animals"
+  ],
+  "difficulty": 1,
+  "kind": "common",
+  "clue": "横着走路、有两只大钳的小动物",
+  "shortClue": "横行将军"
+ },
+ {
+  "word": "乌龟",
+  "topics": [
+   "animals"
+  ],
+  "difficulty": 1,
+  "kind": "common",
+  "clue": "背着硬壳、寿命很长的爬行动物",
+  "shortClue": "长寿爬虫"
+ },
+ {
+  "word": "鳄鱼",
+  "topics": [
+   "animals"
+  ],
+  "difficulty": 3,
+  "kind": "common",
+  "clue": "水边张着大嘴的凶猛爬行动物",
+  "shortClue": "水边猎手"
+ },
+ {
+  "word": "企鹅",
+  "topics": [
+   "animals"
+  ],
+  "difficulty": 2,
+  "kind": "common",
+  "clue": "南极摇摆走路的黑白鸟",
+  "shortClue": "南极燕尾服"
+ },
+ {
+  "word": "长颈鹿",
+  "topics": [
+   "animals"
+  ],
+  "difficulty": 3,
+  "kind": "common",
+  "clue": "脖子高高伸起、专吃树梢嫩叶的非洲动物",
+  "shortClue": "高个草食兽"
+ },
+ {
+  "word": "斑马",
+  "topics": [
+   "animals"
+  ],
+  "difficulty": 2,
+  "kind": "common",
+  "clue": "非洲草原上身披黑白条纹的草食兽",
+  "shortClue": "黑白条纹"
+ },
+ {
+  "word": "金鱼",
+  "topics": [
+   "animals"
+  ],
+  "difficulty": 1,
+  "kind": "common",
+  "clue": "玻璃缸里摇尾游动的橙红色观赏动物",
+  "shortClue": "橙红观赏"
+ },
+ {
+  "word": "猫咪",
+  "topics": [
+   "animals"
+  ],
+  "difficulty": 1,
+  "kind": "common",
+  "clue": "会抓老鼠、喵喵叫的宠物",
+  "shortClue": "爱晒太阳"
+ },
+ {
+  "word": "鹦鹉",
+  "topics": [
+   "animals"
+  ],
+  "difficulty": 3,
+  "kind": "common",
+  "clue": "会学人说话的彩羽鸟",
+  "shortClue": "学舌之鸟"
+ },
+ {
+  "word": "孔雀",
+  "topics": [
+   "animals"
+  ],
+  "difficulty": 2,
+  "kind": "common",
+  "clue": "雄鸟能开屏的美丽大鸟",
+  "shortClue": "开屏之鸟"
+ },
+ {
+  "word": "老鼠",
+  "topics": [
+   "animals"
+  ],
+  "difficulty": 1,
+  "kind": "common",
+  "clue": "偷粮食、怕猫的小兽",
+  "shortClue": "怕猫小兽"
+ },
+ {
+  "word": "刺猬",
+  "topics": [
+   "animals"
+  ],
+  "difficulty": 3,
+  "kind": "common",
+  "clue": "遇险就缩成一团、背上长满尖针",
+  "shortClue": "尖针小兽"
+ },
+ {
+  "word": "松鼠",
+  "topics": [
+   "animals"
+  ],
+  "difficulty": 2,
+  "kind": "common",
+  "clue": "爱藏坚果、尾巴蓬大的树上小兽",
+  "shortClue": "蓬尾小兽"
+ },
+ {
+  "word": "袋鼠",
+  "topics": [
+   "animals"
+  ],
+  "difficulty": 2,
+  "kind": "common",
+  "clue": "腹前有育儿囊、靠后腿蹦跳",
+  "shortClue": "澳洲跳将"
+ },
+ {
+  "word": "面条",
+  "topics": [
+   "food"
+  ],
+  "difficulty": 1,
+  "kind": "common",
+  "clue": "麦粉和水擀成细细一缕缕，下锅煮熟",
+  "shortClue": "细长主食"
+ },
+ {
+  "word": "馒头",
+  "topics": [
+   "food"
+  ],
+  "difficulty": 1,
+  "kind": "common",
+  "clue": "北方常见的白色蒸制主食",
+  "shortClue": "蒸制主食"
+ },
+ {
+  "word": "包子",
+  "topics": [
+   "food"
+  ],
+  "difficulty": 1,
+  "kind": "common",
+  "clue": "有馅的蒸制主食",
+  "shortClue": "带馅蒸食"
+ },
+ {
+  "word": "豆腐",
+  "topics": [
+   "food"
+  ],
+  "difficulty": 1,
+  "kind": "common",
+  "clue": "磨浆点卤凝成的白嫩块状食物",
+  "shortClue": "点卤成块"
+ },
+ {
+  "word": "鸡蛋",
+  "topics": [
+   "food"
+  ],
+  "difficulty": 1,
+  "kind": "common",
+  "clue": "家禽所下、可煮可煎的椭圆食物",
+  "shortClue": "煮煎皆宜"
+ },
+ {
+  "word": "牛奶",
+  "topics": [
+   "food"
+  ],
+  "difficulty": 1,
+  "kind": "common",
+  "clue": "乳白色、早餐常喝的营养饮品",
+  "shortClue": "乳白饮品"
+ },
+ {
+  "word": "苹果",
+  "topics": [
+   "food"
+  ],
+  "difficulty": 1,
+  "kind": "common",
+  "clue": "红皮脆甜、砸中牛顿的圆形鲜物",
+  "shortClue": "红皮脆甜"
+ },
+ {
+  "word": "香蕉",
+  "topics": [
+   "food"
+  ],
+  "difficulty": 1,
+  "kind": "common",
+  "clue": "黄皮弯弯、猴子爱吃的水果",
+  "shortClue": "弯弯黄皮"
+ },
+ {
+  "word": "西瓜",
+  "topics": [
+   "food"
+  ],
+  "difficulty": 1,
+  "kind": "common",
+  "clue": "夏天解暑、红瓤黑籽的大圆果实",
+  "shortClue": "夏日解暑"
+ },
+ {
+  "word": "葡萄",
+  "topics": [
+   "food"
+  ],
+  "difficulty": 1,
+  "kind": "common",
+  "clue": "一串串、可酿酒的紫色小果",
+  "shortClue": "成串紫果"
+ },
+ {
+  "word": "橘子",
+  "topics": [
+   "food"
+  ],
+  "difficulty": 1,
+  "kind": "common",
+  "clue": "剥皮后一瓣一瓣的金黄水果",
+  "shortClue": "金黄瓣果"
+ },
+ {
+  "word": "桃子",
+  "topics": [
+   "food"
+  ],
+  "difficulty": 1,
+  "kind": "common",
+  "clue": "寿星手捧的粉红圆形鲜果",
+  "shortClue": "寿星之果"
+ },
+ {
+  "word": "草莓",
+  "topics": [
+   "food"
+  ],
+  "difficulty": 2,
+  "kind": "common",
+  "clue": "红色表面带小籽的酸甜浆果",
+  "shortClue": "红色浆果"
+ },
+ {
+  "word": "西红柿",
+  "topics": [
+   "food"
+  ],
+  "difficulty": 1,
+  "kind": "common",
+  "clue": "圆润多汁、可炒蛋可做汤的蔬菜",
+  "shortClue": "炒蛋好搭档"
+ },
+ {
+  "word": "土豆",
+  "topics": [
+   "food"
+  ],
+  "difficulty": 1,
+  "kind": "common",
+  "clue": "地下长出的块茎、可炸成条",
+  "shortClue": "地下块茎"
+ },
+ {
+  "word": "黄瓜",
+  "topics": [
+   "food"
+  ],
+  "difficulty": 1,
+  "kind": "common",
+  "clue": "绿皮带刺、清脆多汁的蔬菜",
+  "shortClue": "脆绿蔬菜"
+ },
+ {
+  "word": "白菜",
+  "topics": [
+   "food"
+  ],
+  "difficulty": 1,
+  "kind": "common",
+  "clue": "北方冬天窖藏的大叶青蔬",
+  "shortClue": "冬储青蔬"
+ },
+ {
+  "word": "萝卜",
+  "topics": [
+   "food"
+  ],
+  "difficulty": 1,
+  "kind": "common",
+  "clue": "兔子爱啃的红白根茎",
+  "shortClue": "兔子爱啃"
+ },
+ {
+  "word": "辣椒",
+  "topics": [
+   "food"
+  ],
+  "difficulty": 1,
+  "kind": "common",
+  "clue": "吃了让人流泪出汗的红色调味菜",
+  "shortClue": "火爆口感"
+ },
+ {
+  "word": "生姜",
+  "topics": [
+   "food"
+  ],
+  "difficulty": 2,
+  "kind": "common",
+  "clue": "辛辣、可驱寒的根茎调料",
+  "shortClue": "驱寒根茎"
+ },
+ {
+  "word": "酱油",
+  "topics": [
+   "food"
+  ],
+  "difficulty": 1,
+  "kind": "common",
+  "clue": "黑褐色、咸鲜的液体调味品",
+  "shortClue": "咸鲜佐料"
+ },
+ {
+  "word": "红茶",
+  "topics": [
+   "food"
+  ],
+  "difficulty": 2,
+  "kind": "common",
+  "clue": "完全发酵、汤色橙亮的饮品原料",
+  "shortClue": "全发酵"
+ },
+ {
+  "word": "咖啡",
+  "topics": [
+   "food"
+  ],
+  "difficulty": 2,
+  "kind": "common",
+  "clue": "烘焙后磨粉冲泡、提神的苦香饮品",
+  "shortClue": "提神饮品"
+ },
+ {
+  "word": "饼干",
+  "topics": [
+   "food"
+  ],
+  "difficulty": 1,
+  "kind": "common",
+  "clue": "烤得酥脆、装在盒里的小块点心",
+  "shortClue": "酥脆点心"
+ },
+ {
+  "word": "月饼",
+  "topics": [
+   "food"
+  ],
+  "difficulty": 1,
+  "kind": "common",
+  "clue": "中秋团圆时分吃的圆形馅点",
+  "shortClue": "团圆圆点"
+ },
+ {
+  "word": "汤圆",
+  "topics": [
+   "food"
+  ],
+  "difficulty": 1,
+  "kind": "common",
+  "clue": "元宵节煮着吃的糯米球",
+  "shortClue": "糯米团子"
+ },
+ {
+  "word": "粽子",
+  "topics": [
+   "food"
+  ],
+  "difficulty": 1,
+  "kind": "common",
+  "clue": "端午节用箬叶包成三角的糯米食品",
+  "shortClue": "五月节食"
+ },
+ {
+  "word": "火锅",
+  "topics": [
+   "food"
+  ],
+  "difficulty": 2,
+  "kind": "common",
+  "clue": "桌上汤水翻滚、边涮边吃的美食",
+  "shortClue": "涮着吃"
+ },
+ {
+  "word": "面包",
+  "topics": [
+   "food"
+  ],
+  "difficulty": 1,
+  "kind": "common",
+  "clue": "麦粉发酵烤成的松软主食",
+  "shortClue": "烤制主食"
+ },
+ {
+  "word": "蛋糕",
+  "topics": [
+   "food"
+  ],
+  "difficulty": 1,
+  "kind": "common",
+  "clue": "过生日时插蜡烛的松软甜点",
+  "shortClue": "生日甜点"
+ },
+ {
+  "word": "花生",
+  "topics": [
+   "food"
+  ],
+  "difficulty": 2,
+  "kind": "common",
+  "clue": "果实长在地下、壳里有红衣的坚果",
+  "shortClue": "地下坚果"
+ },
+ {
+  "word": "核桃",
+  "topics": [
+   "food"
+  ],
+  "difficulty": 2,
+  "kind": "common",
+  "clue": "壳硬如石、仁像脑子的坚果",
+  "shortClue": "补脑坚果"
+ },
+ {
+  "word": "栗子",
+  "topics": [
+   "food"
+  ],
+  "difficulty": 3,
+  "kind": "common",
+  "clue": "秋天炒着吃的毛刺壳硬果",
+  "shortClue": "糖炒坚果"
+ },
+ {
+  "word": "豆浆",
+  "topics": [
+   "food"
+  ],
+  "difficulty": 1,
+  "kind": "common",
+  "clue": "磨出来的白色早餐热饮",
+  "shortClue": "早点热饮"
+ },
+ {
+  "word": "油条",
+  "topics": [
+   "food"
+  ],
+  "difficulty": 1,
+  "kind": "common",
+  "clue": "金黄蓬松、早餐里炸制的长形面食",
+  "shortClue": "炸制早点"
+ },
+ {
+  "word": "北京",
+  "topics": [
+   "geography"
+  ],
+  "difficulty": 1,
+  "kind": "proper",
+  "clue": "中国的首都，故宫所在的城市",
+  "shortClue": "故宫所在地"
+ },
+ {
+  "word": "上海",
+  "topics": [
+   "geography"
+  ],
+  "difficulty": 1,
+  "kind": "proper",
+  "clue": "长江口南岸的大都会，黄浦江穿城而过",
+  "shortClue": "黄浦江畔"
+ },
+ {
+  "word": "长江",
+  "topics": [
+   "geography"
+  ],
+  "difficulty": 1,
+  "kind": "proper",
+  "clue": "中国最大的河，穿过三峡奔向东方",
+  "shortClue": "穿过三峡"
+ },
+ {
+  "word": "杭州",
+  "topics": [
+   "geography"
+  ],
+  "difficulty": 1,
+  "kind": "proper",
+  "clue": "西湖所在的浙江省会",
+  "shortClue": "西湖之畔"
+ },
+ {
+  "word": "西安",
+  "topics": [
+   "geography"
+  ],
+  "difficulty": 1,
+  "kind": "proper",
+  "clue": "兵马俑所在的古城",
+  "shortClue": "兵马俑之乡"
+ },
+ {
+  "word": "成都",
+  "topics": [
+   "geography"
+  ],
+  "difficulty": 1,
+  "kind": "proper",
+  "clue": "四川省会，因大熊猫闻名的天府",
+  "shortClue": "天府之地"
+ },
+ {
+  "word": "四川",
+  "topics": [
+   "geography"
+  ],
+  "difficulty": 1,
+  "kind": "proper",
+  "clue": "天府之国，省会在成都",
+  "shortClue": "熊猫故乡"
+ },
+ {
+  "word": "云南",
+  "topics": [
+   "geography"
+  ],
+  "difficulty": 2,
+  "kind": "proper",
+  "clue": "丽江、大理所在的边疆省份",
+  "shortClue": "春城所在省"
+ },
+ {
+  "word": "新疆",
+  "topics": [
+   "geography"
+  ],
+  "difficulty": 2,
+  "kind": "proper",
+  "clue": "盛产葡萄和哈密瓜的西北大区",
+  "shortClue": "西北边陲"
+ },
+ {
+  "word": "西藏",
+  "topics": [
+   "geography"
+  ],
+  "difficulty": 2,
+  "kind": "proper",
+  "clue": "布达拉宫所在的高原地区",
+  "shortClue": "雪域高原"
+ },
+ {
+  "word": "海南",
+  "topics": [
+   "geography"
+  ],
+  "difficulty": 2,
+  "kind": "proper",
+  "clue": "简称琼的热带岛省，椰树成林",
+  "shortClue": "椰风岛省"
+ },
+ {
+  "word": "珠江",
+  "topics": [
+   "geography"
+  ],
+  "difficulty": 2,
+  "kind": "proper",
+  "clue": "流经广州的南方大河",
+  "shortClue": "南方大河"
+ },
+ {
+  "word": "渤海",
+  "topics": [
+   "geography"
+  ],
+  "difficulty": 3,
+  "kind": "proper",
+  "clue": "辽东与山东两半岛环抱的内湾",
+  "shortClue": "环抱的内湾"
+ },
+ {
+  "word": "太湖",
+  "topics": [
+   "geography"
+  ],
+  "difficulty": 3,
+  "kind": "proper",
+  "clue": "江浙之间鱼米之乡的大水域",
+  "shortClue": "江南大水"
+ },
+ {
+  "word": "昆仑",
+  "topics": [
+   "geography"
+  ],
+  "difficulty": 3,
+  "kind": "proper",
+  "clue": "西部巨大山系，神话中仙人所居",
+  "shortClue": "万山之祖"
+ },
+ {
+  "word": "桂林",
+  "topics": [
+   "geography"
+  ],
+  "difficulty": 2,
+  "kind": "proper",
+  "clue": "漓江边山水甲天下的城市",
+  "shortClue": "漓江之畔"
+ },
+ {
+  "word": "青岛",
+  "topics": [
+   "geography"
+  ],
+  "difficulty": 2,
+  "kind": "proper",
+  "clue": "胶东沿海、以啤酒闻名的城市",
+  "shortClue": "胶东海滨"
+ },
+ {
+  "word": "平原",
+  "topics": [
+   "geography"
+  ],
+  "difficulty": 1,
+  "kind": "common",
+  "clue": "地势低而开阔的大片土地",
+  "shortClue": "广阔低地"
+ },
+ {
+  "word": "高原",
+  "topics": [
+   "geography"
+  ],
+  "difficulty": 1,
+  "kind": "common",
+  "clue": "海拔极大、顶面宽广的地区",
+  "shortClue": "屋脊之地"
+ },
+ {
+  "word": "盆地",
+  "topics": [
+   "geography"
+  ],
+  "difficulty": 3,
+  "kind": "common",
+  "clue": "四周隆起、中间低凹的形态",
+  "shortClue": "四周环山"
+ },
+ {
+  "word": "半岛",
+  "topics": [
+   "geography"
+  ],
+  "difficulty": 3,
+  "kind": "common",
+  "clue": "三面环水一面连陆的地方",
+  "shortClue": "三面环水"
+ },
+ {
+  "word": "海峡",
+  "topics": [
+   "geography"
+  ],
+  "difficulty": 3,
+  "kind": "common",
+  "clue": "两片陆地间的狭窄水道",
+  "shortClue": "狭窄水道"
+ },
+ {
+  "word": "港口",
+  "topics": [
+   "geography"
+  ],
+  "difficulty": 1,
+  "kind": "common",
+  "clue": "船只停靠装卸的地方",
+  "shortClue": "船舶码头"
+ },
+ {
+  "word": "山脉",
+  "topics": [
+   "geography"
+  ],
+  "difficulty": 3,
+  "kind": "common",
+  "clue": "连绵起伏成行的峰峦",
+  "shortClue": "绵延群峰"
+ },
+ {
+  "word": "大陆",
+  "topics": [
+   "geography"
+  ],
+  "difficulty": 3,
+  "kind": "common",
+  "clue": "地球上被海水环绕的宽广地块",
+  "shortClue": "辽阔洲块"
+ },
+ {
+  "word": "赤道",
+  "topics": [
+   "geography"
+  ],
+  "difficulty": 2,
+  "kind": "common",
+  "clue": "地球表面最热的那条纬线",
+  "shortClue": "零度纬线"
+ },
+ {
+  "word": "北极",
+  "topics": [
+   "geography"
+  ],
+  "difficulty": 2,
+  "kind": "common",
+  "clue": "地轴上端、冰天雪地的尽头",
+  "shortClue": "地球顶端"
+ },
+ {
+  "word": "南极",
+  "topics": [
+   "geography"
+  ],
+  "difficulty": 2,
+  "kind": "common",
+  "clue": "企鹅出没的冰封大洲",
+  "shortClue": "冰封大洲"
+ },
+ {
+  "word": "绿洲",
+  "topics": [
+   "geography"
+  ],
+  "difficulty": 3,
+  "kind": "common",
+  "clue": "荒漠里有水有草的福地",
+  "shortClue": "荒漠福地"
+ },
+ {
+  "word": "丘陵",
+  "topics": [
+   "geography"
+  ],
+  "difficulty": 3,
+  "kind": "common",
+  "clue": "起伏和缓的低矮山地",
+  "shortClue": "低矮山地"
+ },
+ {
+  "word": "三角洲",
+  "topics": [
+   "geography"
+  ],
+  "difficulty": 3,
+  "kind": "common",
+  "clue": "河流入海处泥沙堆成的平地",
+  "shortClue": "河口平地"
+ },
+ {
+  "word": "海岸",
+  "topics": [
+   "geography"
+  ],
+  "difficulty": 1,
+  "kind": "common",
+  "clue": "陆地与大洋相接的边缘",
+  "shortClue": "水陆交界"
+ },
+ {
+  "word": "村庄",
+  "topics": [
+   "geography"
+  ],
+  "difficulty": 1,
+  "kind": "common",
+  "clue": "农民聚居的地方",
+  "shortClue": "乡下聚落"
+ },
+ {
+  "word": "街道",
+  "topics": [
+   "geography"
+  ],
+  "difficulty": 1,
+  "kind": "common",
+  "clue": "城里两旁有房屋的路",
+  "shortClue": "城中大路"
+ },
+ {
+  "word": "国家",
+  "topics": [
+   "geography"
+  ],
+  "difficulty": 1,
+  "kind": "common",
+  "clue": "有疆域、有政府、有人民的共同体",
+  "shortClue": "疆域之主"
+ },
+ {
+  "word": "首都",
+  "topics": [
+   "geography"
+  ],
+  "difficulty": 2,
+  "kind": "common",
+  "clue": "一个国家政府所在的城市",
+  "shortClue": "国家中枢"
+ },
+ {
+  "word": "边界",
+  "topics": [
+   "geography"
+  ],
+  "difficulty": 3,
+  "kind": "common",
+  "clue": "两国或两地相连处的分隔线",
+  "shortClue": "分隔线"
+ },
+ {
+  "word": "纬度",
+  "topics": [
+   "geography"
+  ],
+  "difficulty": 3,
+  "kind": "common",
+  "clue": "地球表面南北方向的位置",
+  "shortClue": "南北位置"
+ },
+ {
+  "word": "海拔",
+  "topics": [
+   "geography"
+  ],
+  "difficulty": 3,
+  "kind": "common",
+  "clue": "地面高出平均水位的数值",
+  "shortClue": "高度数值"
+ },
+ {
+  "word": "岛屿",
+  "topics": [
+   "geography"
+  ],
+  "difficulty": 2,
+  "kind": "common",
+  "clue": "海中零星的小块陆地",
+  "shortClue": "海中陆地"
+ },
+ {
+  "word": "朝代",
+  "topics": [
+   "history"
+  ],
+  "difficulty": 3,
+  "kind": "common",
+  "clue": "一个家族相继统治的时期",
+  "shortClue": "一姓统治期"
+ },
+ {
+  "word": "皇帝",
+  "topics": [
+   "history"
+  ],
+  "difficulty": 1,
+  "kind": "common",
+  "clue": "古代一国最高统治者",
+  "shortClue": "九五之尊"
+ },
+ {
+  "word": "宫殿",
+  "topics": [
+   "history"
+  ],
+  "difficulty": 3,
+  "kind": "common",
+  "clue": "帝王居住的巨大建筑",
+  "shortClue": "皇家大屋"
+ },
+ {
+  "word": "长城",
+  "topics": [
+   "history"
+  ],
+  "difficulty": 1,
+  "kind": "common",
+  "clue": "蜿蜒在北方山岭上的古代防御工事",
+  "shortClue": "万里工程"
+ },
+ {
+  "word": "故宫",
+  "topics": [
+   "history"
+  ],
+  "difficulty": 1,
+  "kind": "common",
+  "clue": "北京中轴线上的明清皇家建筑群",
+  "shortClue": "紫禁城"
+ },
+ {
+  "word": "丝绸",
+  "topics": [
+   "history"
+  ],
+  "difficulty": 1,
+  "kind": "common",
+  "clue": "蚕吐出的细线织成的光滑织物",
+  "shortClue": "蚕织品"
+ },
+ {
+  "word": "瓷器",
+  "topics": [
+   "history"
+  ],
+  "difficulty": 3,
+  "kind": "common",
+  "clue": "用高岭土烧成的光滑易碎的餐具",
+  "shortClue": "景德镇出产"
+ },
+ {
+  "word": "青铜",
+  "topics": [
+   "history"
+  ],
+  "difficulty": 3,
+  "kind": "common",
+  "clue": "含锡的合金，商周礼器常用",
+  "shortClue": "古代合金"
+ },
+ {
+  "word": "竹简",
+  "topics": [
+   "history"
+  ],
+  "difficulty": 3,
+  "kind": "common",
+  "clue": "古人写字用的、串成册的细长薄片",
+  "shortClue": "古时书册"
+ },
+ {
+  "word": "印刷",
+  "topics": [
+   "history"
+  ],
+  "difficulty": 3,
+  "kind": "common",
+  "clue": "把文字图案批量复制到纸上",
+  "shortClue": "批量复制"
+ },
+ {
+  "word": "火药",
+  "topics": [
+   "history"
+  ],
+  "difficulty": 3,
+  "kind": "common",
+  "clue": "四大发明之一，点着会爆燃的黑色粉末",
+  "shortClue": "黑色粉末"
+ },
+ {
+  "word": "指南针",
+  "topics": [
+   "history"
+  ],
+  "difficulty": 3,
+  "kind": "common",
+  "clue": "四大发明之一，辨别方向的磁性小仪器",
+  "shortClue": "辨向工具"
+ },
+ {
+  "word": "科举",
+  "topics": [
+   "history"
+  ],
+  "difficulty": 3,
+  "kind": "common",
+  "clue": "古代通过考试选拔官员的制度",
+  "shortClue": "选官考试"
+ },
+ {
+  "word": "状元",
+  "topics": [
+   "history"
+  ],
+  "difficulty": 3,
+  "kind": "common",
+  "clue": "科举殿试第一名",
+  "shortClue": "殿试头名"
+ },
+ {
+  "word": "书院",
+  "topics": [
+   "history"
+  ],
+  "difficulty": 3,
+  "kind": "common",
+  "clue": "古代聚众讲学、学子研读的场所",
+  "shortClue": "旧式学堂"
+ },
+ {
+  "word": "将军",
+  "topics": [
+   "history"
+  ],
+  "difficulty": 2,
+  "kind": "common",
+  "clue": "统率部队的高级武官",
+  "shortClue": "带兵统帅"
+ },
+ {
+  "word": "皇后",
+  "topics": [
+   "history"
+  ],
+  "difficulty": 3,
+  "kind": "common",
+  "clue": "天子的原配正妻",
+  "shortClue": "六宫之主"
+ },
+ {
+  "word": "丞相",
+  "topics": [
+   "history"
+  ],
+  "difficulty": 3,
+  "kind": "common",
+  "clue": "古代辅佐皇帝的最高官员",
+  "shortClue": "百官之首"
+ },
+ {
+  "word": "衙门",
+  "topics": [
+   "history"
+  ],
+  "difficulty": 3,
+  "kind": "common",
+  "clue": "旧时官府办公的地方",
+  "shortClue": "旧式官府"
+ },
+ {
+  "word": "牌坊",
+  "topics": [
+   "history"
+  ],
+  "difficulty": 3,
+  "kind": "common",
+  "clue": "旧时为表彰而立的门形建筑",
+  "shortClue": "旌表之门"
+ },
+ {
+  "word": "灯笼",
+  "topics": [
+   "history"
+  ],
+  "difficulty": 2,
+  "kind": "common",
+  "clue": "纸糊的、里面点蜡烛的挂饰",
+  "shortClue": "红纸挂饰"
+ },
+ {
+  "word": "烽火",
+  "topics": [
+   "history"
+  ],
+  "difficulty": 3,
+  "kind": "common",
+  "clue": "古代边防报警的烟柱信号",
+  "shortClue": "报警狼烟"
+ },
+ {
+  "word": "城墙",
+  "topics": [
+   "history"
+  ],
+  "difficulty": 3,
+  "kind": "common",
+  "clue": "环绕古代都邑的高厚砖垣",
+  "shortClue": "环绕都邑"
+ },
+ {
+  "word": "马车",
+  "topics": [
+   "history"
+  ],
+  "difficulty": 1,
+  "kind": "common",
+  "clue": "牲口拉着走的交通工具",
+  "shortClue": "牲口拉的"
+ },
+ {
+  "word": "轿子",
+  "topics": [
+   "history"
+  ],
+  "difficulty": 3,
+  "kind": "common",
+  "clue": "旧时由人抬着走的座椅",
+  "shortClue": "人抬座椅"
+ },
+ {
+  "word": "算盘",
+  "topics": [
+   "history"
+  ],
+  "difficulty": 3,
+  "kind": "common",
+  "clue": "拨动珠子来加减乘除的传统用具",
+  "shortClue": "珠子上下拨"
+ },
+ {
+  "word": "铜钱",
+  "topics": [
+   "history"
+  ],
+  "difficulty": 3,
+  "kind": "common",
+  "clue": "中间有方孔的旧时货币",
+  "shortClue": "方孔旧币"
+ },
+ {
+  "word": "银两",
+  "topics": [
+   "history"
+  ],
+  "difficulty": 3,
+  "kind": "common",
+  "clue": "旧时作货币用的白金属",
+  "shortClue": "旧时货币"
+ },
+ {
+  "word": "祠堂",
+  "topics": [
+   "history"
+  ],
+  "difficulty": 3,
+  "kind": "common",
+  "clue": "宗族祭祀祖先的房屋",
+  "shortClue": "宗族之屋"
+ },
+ {
+  "word": "陵墓",
+  "topics": [
+   "history"
+  ],
+  "difficulty": 3,
+  "kind": "common",
+  "clue": "帝王的埋葬处",
+  "shortClue": "帝王长眠处"
+ },
+ {
+  "word": "石碑",
+  "topics": [
+   "history"
+  ],
+  "difficulty": 3,
+  "kind": "common",
+  "clue": "镌刻着文字、竖起来纪念用的平整巨块",
+  "shortClue": "刻字巨块"
+ },
+ {
+  "word": "驿站",
+  "topics": [
+   "history"
+  ],
+  "difficulty": 3,
+  "kind": "common",
+  "clue": "古代传递公文的人换马休息处",
+  "shortClue": "信使歇脚"
+ },
+ {
+  "word": "月球",
+  "topics": [
+   "science"
+  ],
+  "difficulty": 2,
+  "kind": "common",
+  "clue": "围着我们的家园转的天然卫星",
+  "shortClue": "夜空伴侣"
+ },
+ {
+  "word": "行星",
+  "topics": [
+   "science"
+  ],
+  "difficulty": 2,
+  "kind": "common",
+  "clue": "围着太阳转、自己不发光的天体",
+  "shortClue": "绕日天体"
+ },
+ {
+  "word": "恒星",
+  "topics": [
+   "science"
+  ],
+  "difficulty": 3,
+  "kind": "common",
+  "clue": "自己会发光发热的天体",
+  "shortClue": "自发光体"
+ },
+ {
+  "word": "彗星",
+  "topics": [
+   "science"
+  ],
+  "difficulty": 3,
+  "kind": "common",
+  "clue": "拖着长尾巴的天体",
+  "shortClue": "长尾天体"
+ },
+ {
+  "word": "宇宙",
+  "topics": [
+   "science"
+  ],
+  "difficulty": 2,
+  "kind": "common",
+  "clue": "包含一切星系的无限空间",
+  "shortClue": "万物总和"
+ },
+ {
+  "word": "氧气",
+  "topics": [
+   "science"
+  ],
+  "difficulty": 1,
+  "kind": "common",
+  "clue": "人呼吸必需、物体燃烧也靠它的成分",
+  "shortClue": "维持呼吸"
+ },
+ {
+  "word": "氢气",
+  "topics": [
+   "science"
+  ],
+  "difficulty": 2,
+  "kind": "common",
+  "clue": "宇宙中最轻的元素，造水的原料之一",
+  "shortClue": "最轻元素"
+ },
+ {
+  "word": "二氧化碳",
+  "topics": [
+   "science"
+  ],
+  "difficulty": 2,
+  "kind": "common",
+  "clue": "植物光合作用吸收的气体",
+  "shortClue": "温室气体"
+ },
+ {
+  "word": "原子",
+  "topics": [
+   "science"
+  ],
+  "difficulty": 3,
+  "kind": "common",
+  "clue": "构成元素的最小微粒",
+  "shortClue": "物质基本颗粒"
+ },
+ {
+  "word": "电子",
+  "topics": [
+   "science"
+  ],
+  "difficulty": 3,
+  "kind": "common",
+  "clue": "绕着核心转动、带负性的微粒",
+  "shortClue": "负极微粒"
+ },
+ {
+  "word": "磁铁",
+  "topics": [
+   "science"
+  ],
+  "difficulty": 3,
+  "kind": "common",
+  "clue": "两端相吸相斥、能吸住钢针的物体",
+  "shortClue": "两极相吸"
+ },
+ {
+  "word": "电池",
+  "topics": [
+   "science"
+  ],
+  "difficulty": 2,
+  "kind": "common",
+  "clue": "遥控器里装的、能供能的圆柱体",
+  "shortClue": "供能圆柱"
+ },
+ {
+  "word": "重力",
+  "topics": [
+   "science"
+  ],
+  "difficulty": 2,
+  "kind": "common",
+  "clue": "苹果砸向牛顿的原因",
+  "shortClue": "落地原因"
+ },
+ {
+  "word": "摩擦",
+  "topics": [
+   "science"
+  ],
+  "difficulty": 3,
+  "kind": "common",
+  "clue": "两个物体接触面互相阻碍滑动",
+  "shortClue": "相互阻碍"
+ },
+ {
+  "word": "影子",
+  "topics": [
+   "science"
+  ],
+  "difficulty": 2,
+  "kind": "common",
+  "clue": "光被挡住后留在地上的黑形",
+  "shortClue": "黑色形状"
+ },
+ {
+  "word": "显微镜",
+  "topics": [
+   "science"
+  ],
+  "difficulty": 3,
+  "kind": "common",
+  "clue": "能看清细菌的放大仪器",
+  "shortClue": "放大观察物"
+ },
+ {
+  "word": "望远镜",
+  "topics": [
+   "science"
+  ],
+  "difficulty": 2,
+  "kind": "common",
+  "clue": "能把夜空天体拉近来看的筒状仪器",
+  "shortClue": "千里眼"
+ },
+ {
+  "word": "细胞",
+  "topics": [
+   "science"
+  ],
+  "difficulty": 3,
+  "kind": "common",
+  "clue": "生物体结构和功能的基本单位",
+  "shortClue": "生命单位"
+ },
+ {
+  "word": "血液",
+  "topics": [
+   "science"
+  ],
+  "difficulty": 2,
+  "kind": "common",
+  "clue": "在脉管里奔流、运送养分的红色浆汁",
+  "shortClue": "红色浆汁"
+ },
+ {
+  "word": "骨头",
+  "topics": [
+   "science"
+  ],
+  "difficulty": 2,
+  "kind": "common",
+  "clue": "撑起身体的坚硬条块",
+  "shortClue": "身体支架"
+ },
+ {
+  "word": "心脏",
+  "topics": [
+   "science"
+  ],
+  "difficulty": 1,
+  "kind": "common",
+  "clue": "胸腔里不停跳动的器官",
+  "shortClue": "胸中泵"
+ },
+ {
+  "word": "眼睛",
+  "topics": [
+   "science"
+  ],
+  "difficulty": 1,
+  "kind": "common",
+  "clue": "用来看东西的器官",
+  "shortClue": "视觉器官"
+ },
+ {
+  "word": "耳朵",
+  "topics": [
+   "science"
+  ],
+  "difficulty": 1,
+  "kind": "common",
+  "clue": "用来听声音的器官",
+  "shortClue": "听觉器官"
+ },
+ {
+  "word": "牙齿",
+  "topics": [
+   "science"
+  ],
+  "difficulty": 1,
+  "kind": "common",
+  "clue": "嘴里用来咬东西的白色硬物",
+  "shortClue": "口中白物"
+ },
+ {
+  "word": "皮肤",
+  "topics": [
+   "science"
+  ],
+  "difficulty": 2,
+  "kind": "common",
+  "clue": "包在身体表面的一层",
+  "shortClue": "体表外衣"
+ },
+ {
+  "word": "基因",
+  "topics": [
+   "science"
+  ],
+  "difficulty": 3,
+  "kind": "common",
+  "clue": "决定遗传特征的片段",
+  "shortClue": "遗传片段"
+ },
+ {
+  "word": "细菌",
+  "topics": [
+   "science"
+  ],
+  "difficulty": 2,
+  "kind": "common",
+  "clue": "肉眼看不见的单个生命体",
+  "shortClue": "微生物"
+ },
+ {
+  "word": "病毒",
+  "topics": [
+   "science"
+  ],
+  "difficulty": 2,
+  "kind": "common",
+  "clue": "比细菌更小、必须寄生才能繁殖的微生物",
+  "shortClue": "寄生微生物"
+ },
+ {
+  "word": "化石",
+  "topics": [
+   "science"
+  ],
+  "difficulty": 3,
+  "kind": "common",
+  "clue": "埋在地层里的古生物遗迹",
+  "shortClue": "远古遗迹"
+ },
+ {
+  "word": "火星",
+  "topics": [
+   "science"
+  ],
+  "difficulty": 3,
+  "kind": "common",
+  "clue": "邻近地球、表面发红的天体",
+  "shortClue": "红色邻居"
+ },
+ {
+  "word": "金属",
+  "topics": [
+   "science"
+  ],
+  "difficulty": 2,
+  "kind": "common",
+  "clue": "有光泽、能导电的一类物质",
+  "shortClue": "闪亮导体"
+ },
+ {
+  "word": "塑料",
+  "topics": [
+   "science"
+  ],
+  "difficulty": 2,
+  "kind": "common",
+  "clue": "可以模压成各种形状的人造物质",
+  "shortClue": "人造物质"
+ },
+ {
+  "word": "玻璃",
+  "topics": [
+   "science"
+  ],
+  "difficulty": 2,
+  "kind": "common",
+  "clue": "透明易碎的硅酸盐制品",
+  "shortClue": "透明易碎物"
+ },
+ {
+  "word": "蒸汽",
+  "topics": [
+   "science"
+  ],
+  "difficulty": 3,
+  "kind": "common",
+  "clue": "烧开的壶口冒出的白色热气",
+  "shortClue": "沸腾白气"
+ },
+ {
+  "word": "网球",
+  "topics": [
+   "sport"
+  ],
+  "difficulty": 1,
+  "kind": "common",
+  "clue": "拍子在场地两侧来回对击的黄绿色小圆物",
+  "shortClue": "拍子对击"
+ },
+ {
+  "word": "游泳",
+  "topics": [
+   "sport"
+  ],
+  "difficulty": 1,
+  "kind": "common",
+  "clue": "人在水里划动手脚前进的运动",
+  "shortClue": "水中前进"
+ },
+ {
+  "word": "跑步",
+  "topics": [
+   "sport"
+  ],
+  "difficulty": 1,
+  "kind": "common",
+  "clue": "两脚交替快速向前的运动",
+  "shortClue": "双脚交替"
+ },
+ {
+  "word": "跳高",
+  "topics": [
+   "sport"
+  ],
+  "difficulty": 2,
+  "kind": "common",
+  "clue": "助跑后越过横杆的田径项目",
+  "shortClue": "越过横杆"
+ },
+ {
+  "word": "跳远",
+  "topics": [
+   "sport"
+  ],
+  "difficulty": 2,
+  "kind": "common",
+  "clue": "助跑后落进沙坑量距离的项目",
+  "shortClue": "沙坑落地"
+ },
+ {
+  "word": "马拉松",
+  "topics": [
+   "sport"
+  ],
+  "difficulty": 2,
+  "kind": "common",
+  "clue": "全程四十二公里多的长跑赛",
+  "shortClue": "超长赛跑"
+ },
+ {
+  "word": "太极拳",
+  "topics": [
+   "sport"
+  ],
+  "difficulty": 2,
+  "kind": "common",
+  "clue": "动作缓慢圆活的传统健身武术",
+  "shortClue": "缓慢武术"
+ },
+ {
+  "word": "围棋",
+  "topics": [
+   "sport"
+  ],
+  "difficulty": 3,
+  "kind": "common",
+  "clue": "黑白子在纵横线交点上落子的游戏",
+  "shortClue": "黑白对弈"
+ },
+ {
+  "word": "象棋",
+  "topics": [
+   "sport"
+  ],
+  "difficulty": 3,
+  "kind": "common",
+  "clue": "盘中有楚河汉界、将帅对阵的智力游戏",
+  "shortClue": "楚河汉界"
+ },
+ {
+  "word": "冠军",
+  "topics": [
+   "sport"
+  ],
+  "difficulty": 1,
+  "kind": "common",
+  "clue": "比赛里拿第一的人",
+  "shortClue": "夺魁者"
+ },
+ {
+  "word": "裁判",
+  "topics": [
+   "sport"
+  ],
+  "difficulty": 3,
+  "kind": "common",
+  "clue": "执行规则、宣布胜负的人",
+  "shortClue": "吹哨之人"
+ },
+ {
+  "word": "教练",
+  "topics": [
+   "sport"
+  ],
+  "difficulty": 2,
+  "kind": "common",
+  "clue": "指导运动员提高成绩的人",
+  "shortClue": "场边指导"
+ },
+ {
+  "word": "运动员",
+  "topics": [
+   "sport"
+  ],
+  "difficulty": 1,
+  "kind": "common",
+  "clue": "参加体育比赛的人",
+  "shortClue": "赛场选手"
+ },
+ {
+  "word": "奥运会",
+  "topics": [
+   "sport"
+  ],
+  "difficulty": 1,
+  "kind": "common",
+  "clue": "每四年一次的综合体育盛典",
+  "shortClue": "四年一届"
+ },
+ {
+  "word": "金牌",
+  "topics": [
+   "sport"
+  ],
+  "difficulty": 1,
+  "kind": "common",
+  "clue": "最高名次获得的黄色奖章",
+  "shortClue": "头名奖章"
+ },
+ {
+  "word": "比分",
+  "topics": [
+   "sport"
+  ],
+  "difficulty": 1,
+  "kind": "common",
+  "clue": "赛场上双方得到的数",
+  "shortClue": "胜负数字"
+ },
+ {
+  "word": "接力",
+  "topics": [
+   "sport"
+  ],
+  "difficulty": 2,
+  "kind": "common",
+  "clue": "四人一棒传一棒跑的比赛",
+  "shortClue": "一棒传一棒"
+ },
+ {
+  "word": "滑冰",
+  "topics": [
+   "sport"
+  ],
+  "difficulty": 2,
+  "kind": "common",
+  "clue": "脚下装着刀刃在光洁冻面上飞驰",
+  "shortClue": "刀刃飞驰"
+ },
+ {
+  "word": "滑雪",
+  "topics": [
+   "sport"
+  ],
+  "difficulty": 2,
+  "kind": "common",
+  "clue": "脚踏长板从山坡冲下",
+  "shortClue": "踏板下坡"
+ },
+ {
+  "word": "射箭",
+  "topics": [
+   "sport"
+  ],
+  "difficulty": 3,
+  "kind": "common",
+  "clue": "拉弓瞄准靶心",
+  "shortClue": "拉弓瞄靶"
+ },
+ {
+  "word": "举重",
+  "topics": [
+   "sport"
+  ],
+  "difficulty": 2,
+  "kind": "common",
+  "clue": "把杠铃托过头顶",
+  "shortClue": "托起杠铃"
+ },
+ {
+  "word": "体操",
+  "topics": [
+   "sport"
+  ],
+  "difficulty": 2,
+  "kind": "common",
+  "clue": "在器械和垫上做柔韧翻转动作",
+  "shortClue": "翻转柔韧"
+ },
+ {
+  "word": "跳绳",
+  "topics": [
+   "sport"
+  ],
+  "difficulty": 1,
+  "kind": "common",
+  "clue": "手摇长索、从脚下跃过",
+  "shortClue": "摇索跃过"
+ },
+ {
+  "word": "毽子",
+  "topics": [
+   "sport"
+  ],
+  "difficulty": 2,
+  "kind": "common",
+  "clue": "脚踢翻飞的羽毛小玩意",
+  "shortClue": "羽毛小球"
+ },
+ {
+  "word": "风筝",
+  "topics": [
+   "sport"
+  ],
+  "difficulty": 1,
+  "kind": "common",
+  "clue": "春天放飞的、线牵着的纸扎飞物",
+  "shortClue": "线牵飞物"
+ },
+ {
+  "word": "赛跑",
+  "topics": [
+   "sport"
+  ],
+  "difficulty": 1,
+  "kind": "common",
+  "clue": "比谁先到终点",
+  "shortClue": "争先抢快"
+ },
+ {
+  "word": "终点",
+  "topics": [
+   "sport"
+  ],
+  "difficulty": 2,
+  "kind": "common",
+  "clue": "比赛路线的尽头",
+  "shortClue": "路线尽头"
+ },
+ {
+  "word": "起点",
+  "topics": [
+   "sport"
+  ],
+  "difficulty": 2,
+  "kind": "common",
+  "clue": "比赛路线的出发处",
+  "shortClue": "出发处"
+ },
+ {
+  "word": "篮板",
+  "topics": [
+   "sport"
+  ],
+  "difficulty": 3,
+  "kind": "common",
+  "clue": "球架上铁圈后面的长方形挡面",
+  "shortClue": "铁圈后挡面"
+ },
+ {
+  "word": "哨子",
+  "topics": [
+   "sport"
+  ],
+  "difficulty": 2,
+  "kind": "common",
+  "clue": "裁判吹响的小器具",
+  "shortClue": "吹响小器"
+ },
+ {
+  "word": "击剑",
+  "topics": [
+   "sport"
+  ],
+  "difficulty": 3,
+  "kind": "common",
+  "clue": "手持细长利刃刺向对手护甲的竞技",
+  "shortClue": "刺中得分"
+ },
+ {
+  "word": "羽毛球",
+  "topics": [
+   "sport"
+  ],
+  "difficulty": 1,
+  "kind": "common",
+  "clue": "用拍子隔网打带翎的软头小物的运动",
+  "shortClue": "轻盈对打"
+ },
+ {
+  "word": "乒乓球",
+  "topics": [
+   "sport"
+  ],
+  "difficulty": 1,
+  "kind": "common",
+  "clue": "在台面两侧用小拍对打的白色小圆物",
+  "shortClue": "桌上对打"
+ },
+ {
+  "word": "绘画",
+  "topics": [
+   "arts"
+  ],
+  "difficulty": 2,
+  "kind": "common",
+  "clue": "用笔与颜料在纸或布上创造形象",
+  "shortClue": "笔下形象"
+ },
+ {
+  "word": "雕塑",
+  "topics": [
+   "arts"
+  ],
+  "difficulty": 2,
+  "kind": "common",
+  "clue": "用石头泥巴做出立体形象",
+  "shortClue": "立体造型"
+ },
+ {
+  "word": "音乐",
+  "topics": [
+   "arts"
+  ],
+  "difficulty": 1,
+  "kind": "common",
+  "clue": "旋律与节奏组成的艺术",
+  "shortClue": "旋律艺术"
+ },
+ {
+  "word": "歌曲",
+  "topics": [
+   "arts"
+  ],
+  "difficulty": 1,
+  "kind": "common",
+  "clue": "配上旋律唱出来的词",
+  "shortClue": "有调之词"
+ },
+ {
+  "word": "钢琴",
+  "topics": [
+   "arts"
+  ],
+  "difficulty": 2,
+  "kind": "common",
+  "clue": "黑白键盘的西洋乐器",
+  "shortClue": "黑白键盘"
+ },
+ {
+  "word": "二胡",
+  "topics": [
+   "arts"
+  ],
+  "difficulty": 3,
+  "kind": "common",
+  "clue": "两根弦、拉出哀婉曲调的民族乐器",
+  "shortClue": "拉弦乐器"
+ },
+ {
+  "word": "笛子",
+  "topics": [
+   "arts"
+  ],
+  "difficulty": 2,
+  "kind": "common",
+  "clue": "竖着吹的中空管乐器",
+  "shortClue": "竖吹乐器"
+ },
+ {
+  "word": "古筝",
+  "topics": [
+   "arts"
+  ],
+  "difficulty": 3,
+  "kind": "common",
+  "clue": "二十一根弦的传统拨弦乐器",
+  "shortClue": "拨弦乐器"
+ },
+ {
+  "word": "琵琶",
+  "topics": [
+   "arts"
+  ],
+  "difficulty": 3,
+  "kind": "common",
+  "clue": "怀抱弹奏的梨形弦乐",
+  "shortClue": "抱着弹"
+ },
+ {
+  "word": "唢呐",
+  "topics": [
+   "arts"
+  ],
+  "difficulty": 3,
+  "kind": "common",
+  "clue": "喇叭口、声音高亢的民族管乐",
+  "shortClue": "高亢管乐"
+ },
+ {
+  "word": "昆曲",
+  "topics": [
+   "arts"
+  ],
+  "difficulty": 3,
+  "kind": "common",
+  "clue": "诞生于江南、婉转细腻的古老剧种",
+  "shortClue": "水磨腔"
+ },
+ {
+  "word": "戏台",
+  "topics": [
+   "arts"
+  ],
+  "difficulty": 2,
+  "kind": "common",
+  "clue": "演员在上面唱念做打的高处",
+  "shortClue": "唱念高处"
+ },
+ {
+  "word": "舞蹈",
+  "topics": [
+   "arts"
+  ],
+  "difficulty": 1,
+  "kind": "common",
+  "clue": "随音乐摆动身体",
+  "shortClue": "随乐而动"
+ },
+ {
+  "word": "芭蕾",
+  "topics": [
+   "arts"
+  ],
+  "difficulty": 3,
+  "kind": "common",
+  "clue": "踮着脚尖跳的西方舞",
+  "shortClue": "踮脚舞"
+ },
+ {
+  "word": "电影",
+  "topics": [
+   "arts"
+  ],
+  "difficulty": 1,
+  "kind": "common",
+  "clue": "大银幕上放映的画面故事",
+  "shortClue": "银幕故事"
+ },
+ {
+  "word": "小说",
+  "topics": [
+   "arts"
+  ],
+  "difficulty": 2,
+  "kind": "common",
+  "clue": "虚构人物故事的长篇文字",
+  "shortClue": "虚构长文"
+ },
+ {
+  "word": "散文",
+  "topics": [
+   "arts"
+  ],
+  "difficulty": 3,
+  "kind": "common",
+  "clue": "不押韵、形式自由的作品",
+  "shortClue": "形式自由"
+ },
+ {
+  "word": "毛笔",
+  "topics": [
+   "arts"
+  ],
+  "difficulty": 2,
+  "kind": "common",
+  "clue": "蘸着墨汁写字的软头工具",
+  "shortClue": "蘸墨软头"
+ },
+ {
+  "word": "砚台",
+  "topics": [
+   "arts"
+  ],
+  "difficulty": 3,
+  "kind": "common",
+  "clue": "磨墨用的石质文具",
+  "shortClue": "磨墨之具"
+ },
+ {
+  "word": "宣纸",
+  "topics": [
+   "arts"
+  ],
+  "difficulty": 3,
+  "kind": "common",
+  "clue": "书画家爱用、产自安徽的薄而韧的材料",
+  "shortClue": "书画用料"
+ },
+ {
+  "word": "印章",
+  "topics": [
+   "arts"
+  ],
+  "difficulty": 3,
+  "kind": "common",
+  "clue": "盖在作品上表示姓名的刻字小块",
+  "shortClue": "盖名刻块"
+ },
+ {
+  "word": "剧场",
+  "topics": [
+   "arts"
+  ],
+  "difficulty": 3,
+  "kind": "common",
+  "clue": "专供演出的大厅",
+  "shortClue": "演出大厅"
+ },
+ {
+  "word": "舞台",
+  "topics": [
+   "arts"
+  ],
+  "difficulty": 1,
+  "kind": "common",
+  "clue": "演员表演的地方",
+  "shortClue": "表演之处"
+ },
+ {
+  "word": "乐队",
+  "topics": [
+   "arts"
+  ],
+  "difficulty": 2,
+  "kind": "common",
+  "clue": "多人一同演奏的团体",
+  "shortClue": "合奏团体"
+ },
+ {
+  "word": "指挥",
+  "topics": [
+   "arts"
+  ],
+  "difficulty": 2,
+  "kind": "common",
+  "clue": "站在乐队前打拍子的人",
+  "shortClue": "打拍子者"
+ },
+ {
+  "word": "歌手",
+  "topics": [
+   "arts"
+  ],
+  "difficulty": 1,
+  "kind": "common",
+  "clue": "以演唱为职业的人",
+  "shortClue": "台上开嗓"
+ },
+ {
+  "word": "陶艺",
+  "topics": [
+   "arts"
+  ],
+  "difficulty": 3,
+  "kind": "common",
+  "clue": "用泥土捏成器物再烧制的技术",
+  "shortClue": "泥土烧制"
+ },
+ {
+  "word": "剪纸",
+  "topics": [
+   "arts",
+   "localCulture"
+  ],
+  "difficulty": 2,
+  "kind": "common",
+  "clue": "用刀具在薄片上刻出镂空图案的民间手艺",
+  "shortClue": "镂空图案"
+ },
+ {
+  "word": "相声",
+  "topics": [
+   "arts",
+   "localCulture"
+  ],
+  "difficulty": 2,
+  "kind": "common",
+  "clue": "两个人说说笑笑的曲艺",
+  "shortClue": "逗哏捧哏"
+ },
+ {
+  "word": "评书",
+  "topics": [
+   "arts",
+   "localCulture"
+  ],
+  "difficulty": 3,
+  "kind": "common",
+  "clue": "一人坐着说长篇故事的曲艺",
+  "shortClue": "单人说长篇"
+ },
+ {
+  "word": "桌子",
+  "topics": [
+   "home"
+  ],
+  "difficulty": 1,
+  "kind": "common",
+  "clue": "吃饭写字用的平面家具",
+  "shortClue": "平面家具"
+ },
+ {
+  "word": "椅子",
+  "topics": [
+   "home"
+  ],
+  "difficulty": 1,
+  "kind": "common",
+  "clue": "供人坐的有靠背的家具",
+  "shortClue": "有背座具"
+ },
+ {
+  "word": "沙发",
+  "topics": [
+   "home"
+  ],
+  "difficulty": 2,
+  "kind": "common",
+  "clue": "客厅里软软的长座椅",
+  "shortClue": "软座长椅"
+ },
+ {
+  "word": "书架",
+  "topics": [
+   "home"
+  ],
+  "difficulty": 1,
+  "kind": "common",
+  "clue": "一层层摆放读物的柜状家具",
+  "shortClue": "多层搁板"
+ },
+ {
+  "word": "衣柜",
+  "topics": [
+   "home"
+  ],
+  "difficulty": 1,
+  "kind": "common",
+  "clue": "挂放换洗穿戴的立式家具",
+  "shortClue": "立式家具"
+ },
+ {
+  "word": "被子",
+  "topics": [
+   "home"
+  ],
+  "difficulty": 1,
+  "kind": "common",
+  "clue": "睡觉时盖在身上的棉絮布套",
+  "shortClue": "盖身棉絮"
+ },
+ {
+  "word": "枕头",
+  "topics": [
+   "home"
+  ],
+  "difficulty": 1,
+  "kind": "common",
+  "clue": "睡觉时垫在脑袋下的软物",
+  "shortClue": "垫脑软物"
+ },
+ {
+  "word": "窗帘",
+  "topics": [
+   "home"
+  ],
+  "difficulty": 1,
+  "kind": "common",
+  "clue": "挂在玻璃前遮挡阳光的布幔",
+  "shortClue": "遮光布幔"
+ },
+ {
+  "word": "地毯",
+  "topics": [
+   "home"
+  ],
+  "difficulty": 2,
+  "kind": "common",
+  "clue": "铺在脚下的毛织物",
+  "shortClue": "脚下织物"
+ },
+ {
+  "word": "镜子",
+  "topics": [
+   "home"
+  ],
+  "difficulty": 2,
+  "kind": "common",
+  "clue": "梳妆时照出模样的反光玻璃",
+  "shortClue": "照模样"
+ },
+ {
+  "word": "钥匙",
+  "topics": [
+   "home"
+  ],
+  "difficulty": 2,
+  "kind": "common",
+  "clue": "开锁用的小金属",
+  "shortClue": "开锁小件"
+ },
+ {
+  "word": "电视",
+  "topics": [
+   "home"
+  ],
+  "difficulty": 2,
+  "kind": "common",
+  "clue": "客厅里放节目的屏幕",
+  "shortClue": "客厅屏幕"
+ },
+ {
+  "word": "冰箱",
+  "topics": [
+   "home"
+  ],
+  "difficulty": 1,
+  "kind": "common",
+  "clue": "厨房里让食物保鲜的电器",
+  "shortClue": "保鲜电器"
+ },
+ {
+  "word": "空调",
+  "topics": [
+   "home"
+  ],
+  "difficulty": 2,
+  "kind": "common",
+  "clue": "改变室内冷热的电器",
+  "shortClue": "送冷送暖"
+ },
+ {
+  "word": "风扇",
+  "topics": [
+   "home"
+  ],
+  "difficulty": 1,
+  "kind": "common",
+  "clue": "转动叶片带来凉意的电器",
+  "shortClue": "转叶送凉"
+ },
+ {
+  "word": "台灯",
+  "topics": [
+   "home"
+  ],
+  "difficulty": 1,
+  "kind": "common",
+  "clue": "书桌上的小照明具",
+  "shortClue": "书桌光源"
+ },
+ {
+  "word": "蜡烛",
+  "topics": [
+   "home"
+  ],
+  "difficulty": 3,
+  "kind": "common",
+  "clue": "点燃后滴泪的照明物",
+  "shortClue": "滴泪照明"
+ },
+ {
+  "word": "扫帚",
+  "topics": [
+   "home"
+  ],
+  "difficulty": 2,
+  "kind": "common",
+  "clue": "清理地面灰尘的长柄工具",
+  "shortClue": "长柄清理"
+ },
+ {
+  "word": "拖把",
+  "topics": [
+   "home"
+  ],
+  "difficulty": 2,
+  "kind": "common",
+  "clue": "沾水擦地的长柄工具",
+  "shortClue": "擦地长柄"
+ },
+ {
+  "word": "抹布",
+  "topics": [
+   "home"
+  ],
+  "difficulty": 2,
+  "kind": "common",
+  "clue": "擦桌子的软织物",
+  "shortClue": "擦桌软物"
+ },
+ {
+  "word": "肥皂",
+  "topics": [
+   "home"
+  ],
+  "difficulty": 2,
+  "kind": "common",
+  "clue": "洗手洗衣用的滑腻块",
+  "shortClue": "洗涤块"
+ },
+ {
+  "word": "牙刷",
+  "topics": [
+   "home"
+  ],
+  "difficulty": 1,
+  "kind": "common",
+  "clue": "清洁口腔时用的带毛小柄",
+  "shortClue": "口腔清洁"
+ },
+ {
+  "word": "毛巾",
+  "topics": [
+   "home"
+  ],
+  "difficulty": 1,
+  "kind": "common",
+  "clue": "洗脸擦手的布",
+  "shortClue": "擦脸之布"
+ },
+ {
+  "word": "雨伞",
+  "topics": [
+   "home"
+  ],
+  "difficulty": 1,
+  "kind": "common",
+  "clue": "天上落水时撑在头顶的工具",
+  "shortClue": "头顶遮挡"
+ },
+ {
+  "word": "筷子",
+  "topics": [
+   "home"
+  ],
+  "difficulty": 1,
+  "kind": "common",
+  "clue": "用餐时夹菜的一双细棍",
+  "shortClue": "夹菜细棍"
+ },
+ {
+  "word": "勺子",
+  "topics": [
+   "home"
+  ],
+  "difficulty": 2,
+  "kind": "common",
+  "clue": "舀汤的小器具",
+  "shortClue": "舀汤小具"
+ },
+ {
+  "word": "盘子",
+  "topics": [
+   "home"
+  ],
+  "difficulty": 2,
+  "kind": "common",
+  "clue": "盛菜的扁圆餐具",
+  "shortClue": "扁圆餐具"
+ },
+ {
+  "word": "菜刀",
+  "topics": [
+   "home"
+  ],
+  "difficulty": 2,
+  "kind": "common",
+  "clue": "厨房里切肉剁骨的锋利家什",
+  "shortClue": "厨房利器"
+ },
+ {
+  "word": "水壶",
+  "topics": [
+   "home"
+  ],
+  "difficulty": 2,
+  "kind": "common",
+  "clue": "烧热后倒进杯里的带嘴容器",
+  "shortClue": "带嘴容器"
+ },
+ {
+  "word": "铅笔",
+  "topics": [
+   "home"
+  ],
+  "difficulty": 2,
+  "kind": "common",
+  "clue": "写字时用的、里面是石墨芯的木杆",
+  "shortClue": "石墨芯杆"
+ },
+ {
+  "word": "护士",
+  "topics": [
+   "professions"
+  ],
+  "difficulty": 1,
+  "kind": "common",
+  "clue": "在医院里照料病人打针的人",
+  "shortClue": "白衣天使"
+ },
+ {
+  "word": "警察",
+  "topics": [
+   "professions"
+  ],
+  "difficulty": 1,
+  "kind": "common",
+  "clue": "维护治安、抓坏人的人",
+  "shortClue": "维护治安"
+ },
+ {
+  "word": "司机",
+  "topics": [
+   "professions"
+  ],
+  "difficulty": 1,
+  "kind": "common",
+  "clue": "驾驶汽车的人",
+  "shortClue": "开车的人"
+ },
+ {
+  "word": "农民",
+  "topics": [
+   "professions"
+  ],
+  "difficulty": 1,
+  "kind": "common",
+  "clue": "种田为生的人",
+  "shortClue": "种田人"
+ },
+ {
+  "word": "渔夫",
+  "topics": [
+   "professions"
+  ],
+  "difficulty": 2,
+  "kind": "common",
+  "clue": "撑船下网捕鱼的人",
+  "shortClue": "撑船捕鱼"
+ },
+ {
+  "word": "木匠",
+  "topics": [
+   "professions"
+  ],
+  "difficulty": 2,
+  "kind": "common",
+  "clue": "做桌椅门窗的手艺人",
+  "shortClue": "榫卯行家"
+ },
+ {
+  "word": "铁匠",
+  "topics": [
+   "professions"
+  ],
+  "difficulty": 3,
+  "kind": "common",
+  "clue": "打造农具刀剪的手艺人",
+  "shortClue": "炉边锤打"
+ },
+ {
+  "word": "裁缝",
+  "topics": [
+   "professions"
+  ],
+  "difficulty": 2,
+  "kind": "common",
+  "clue": "给人量身做衣服的人",
+  "shortClue": "量身做衣"
+ },
+ {
+  "word": "律师",
+  "topics": [
+   "professions"
+  ],
+  "difficulty": 3,
+  "kind": "common",
+  "clue": "替人打官司的专业人士",
+  "shortClue": "代理官司"
+ },
+ {
+  "word": "法官",
+  "topics": [
+   "professions"
+  ],
+  "difficulty": 3,
+  "kind": "common",
+  "clue": "审理案件的人",
+  "shortClue": "主持庭审"
+ },
+ {
+  "word": "记者",
+  "topics": [
+   "professions"
+  ],
+  "difficulty": 2,
+  "kind": "common",
+  "clue": "采访新闻的人",
+  "shortClue": "采访新闻"
+ },
+ {
+  "word": "作家",
+  "topics": [
+   "professions"
+  ],
+  "difficulty": 2,
+  "kind": "common",
+  "clue": "靠著书立说出名的人",
+  "shortClue": "笔耕者"
+ },
+ {
+  "word": "演员",
+  "topics": [
+   "professions"
+  ],
+  "difficulty": 2,
+  "kind": "common",
+  "clue": "在影视或舞台上装扮成角色的人",
+  "shortClue": "扮角色"
+ },
+ {
+  "word": "导游",
+  "topics": [
+   "professions"
+  ],
+  "difficulty": 2,
+  "kind": "common",
+  "clue": "带着客人参观并讲解的人",
+  "shortClue": "带队讲解"
+ },
+ {
+  "word": "会计",
+  "topics": [
+   "professions"
+  ],
+  "difficulty": 3,
+  "kind": "common",
+  "clue": "管账算账的人",
+  "shortClue": "算账之人"
+ },
+ {
+  "word": "飞行员",
+  "topics": [
+   "professions"
+  ],
+  "difficulty": 2,
+  "kind": "common",
+  "clue": "驾驶客机的人",
+  "shortClue": "驾机之人"
+ },
+ {
+  "word": "船长",
+  "topics": [
+   "professions"
+  ],
+  "difficulty": 2,
+  "kind": "common",
+  "clue": "水上航行时的最高指挥者",
+  "shortClue": "舵手之首"
+ },
+ {
+  "word": "邮递员",
+  "topics": [
+   "professions"
+  ],
+  "difficulty": 2,
+  "kind": "common",
+  "clue": "挨家挨户送信件的人",
+  "shortClue": "送信的人"
+ },
+ {
+  "word": "理发师",
+  "topics": [
+   "professions"
+  ],
+  "difficulty": 2,
+  "kind": "common",
+  "clue": "在店里给人修剪头型的人",
+  "shortClue": "修剪头型"
+ },
+ {
+  "word": "园丁",
+  "topics": [
+   "professions"
+  ],
+  "difficulty": 3,
+  "kind": "common",
+  "clue": "照料花木的人",
+  "shortClue": "花木看护"
+ },
+ {
+  "word": "牧民",
+  "topics": [
+   "professions"
+  ],
+  "difficulty": 3,
+  "kind": "common",
+  "clue": "在草地放养牛羊的人",
+  "shortClue": "放羊人"
+ },
+ {
+  "word": "矿工",
+  "topics": [
+   "professions"
+  ],
+  "difficulty": 3,
+  "kind": "common",
+  "clue": "在地下开采煤炭的人",
+  "shortClue": "地下采煤"
+ },
+ {
+  "word": "科学家",
+  "topics": [
+   "professions"
+  ],
+  "difficulty": 2,
+  "kind": "common",
+  "clue": "从事研究、探索自然规律的人",
+  "shortClue": "研究者"
+ },
+ {
+  "word": "翻译",
+  "topics": [
+   "professions"
+  ],
+  "difficulty": 3,
+  "kind": "common",
+  "clue": "把一种语言换成另一种语言的人",
+  "shortClue": "语言桥梁"
+ },
+ {
+  "word": "店员",
+  "topics": [
+   "professions"
+  ],
+  "difficulty": 2,
+  "kind": "common",
+  "clue": "在柜台后招呼顾客的人",
+  "shortClue": "柜台后的人"
+ },
+ {
+  "word": "商人",
+  "topics": [
+   "professions"
+  ],
+  "difficulty": 2,
+  "kind": "common",
+  "clue": "靠买进卖出赚差价的行家",
+  "shortClue": "做买卖者"
+ },
+ {
+  "word": "保安",
+  "topics": [
+   "professions"
+  ],
+  "difficulty": 2,
+  "kind": "common",
+  "clue": "看守门口、巡逻的人",
+  "shortClue": "看门巡逻"
+ },
+ {
+  "word": "清洁工",
+  "topics": [
+   "professions"
+  ],
+  "difficulty": 2,
+  "kind": "common",
+  "clue": "打扫街道的人",
+  "shortClue": "扫街的人"
+ },
+ {
+  "word": "老板",
+  "topics": [
+   "professions"
+  ],
+  "difficulty": 2,
+  "kind": "common",
+  "clue": "雇用员工的店主",
+  "shortClue": "店铺主人"
+ },
+ {
+  "word": "摄影师",
+  "topics": [
+   "professions"
+  ],
+  "difficulty": 2,
+  "kind": "common",
+  "clue": "用相机拍照片的人",
+  "shortClue": "拍照的人"
+ },
+ {
+  "word": "程序员",
+  "topics": [
+   "professions"
+  ],
+  "difficulty": 2,
+  "kind": "common",
+  "clue": "编写代码让机器听话的人",
+  "shortClue": "写代码的"
+ },
+ {
+  "word": "建筑师",
+  "topics": [
+   "professions"
+  ],
+  "difficulty": 3,
+  "kind": "common",
+  "clue": "设计楼房图纸的人",
+  "shortClue": "楼房设计者"
+ },
+ {
+  "word": "春联",
+  "topics": [
+   "localCulture"
+  ],
+  "difficulty": 1,
+  "kind": "common",
+  "clue": "过年时贴在门两边的红纸对句",
+  "shortClue": "门边红字"
+ },
+ {
+  "word": "鞭炮",
+  "topics": [
+   "localCulture"
+  ],
+  "difficulty": 1,
+  "kind": "common",
+  "clue": "过年时点燃后噼啪作响的红纸卷",
+  "shortClue": "噼啪作响"
+ },
+ {
+  "word": "红包",
+  "topics": [
+   "localCulture"
+  ],
+  "difficulty": 1,
+  "kind": "common",
+  "clue": "过年长辈给孩子的赤色纸袋",
+  "shortClue": "长辈压岁"
+ },
+ {
+  "word": "元宵",
+  "topics": [
+   "localCulture"
+  ],
+  "difficulty": 1,
+  "kind": "common",
+  "clue": "正月十五吃汤圆赏灯的节日",
+  "shortClue": "正月十五"
+ },
+ {
+  "word": "端午",
+  "topics": [
+   "localCulture"
+  ],
+  "difficulty": 1,
+  "kind": "common",
+  "clue": "农历五月初五的节日",
+  "shortClue": "五月初五"
+ },
+ {
+  "word": "清明",
+  "topics": [
+   "localCulture"
+  ],
+  "difficulty": 2,
+  "kind": "common",
+  "clue": "扫墓踏青的节气",
+  "shortClue": "扫墓踏青"
+ },
+ {
+  "word": "重阳",
+  "topics": [
+   "localCulture"
+  ],
+  "difficulty": 2,
+  "kind": "common",
+  "clue": "九月初九登高的节日",
+  "shortClue": "九月初九"
+ },
+ {
+  "word": "七夕",
+  "topics": [
+   "localCulture"
+  ],
+  "difficulty": 2,
+  "kind": "common",
+  "clue": "牛郎织女相会的传说节日",
+  "shortClue": "鹊桥相会"
+ },
+ {
+  "word": "腊八",
+  "topics": [
+   "localCulture"
+  ],
+  "difficulty": 3,
+  "kind": "common",
+  "clue": "农历十二月初的传统节日，家家喝杂粮粥",
+  "shortClue": "喝杂粮粥"
+ },
+ {
+  "word": "舞狮",
+  "topics": [
+   "localCulture"
+  ],
+  "difficulty": 2,
+  "kind": "common",
+  "clue": "锣鼓声中披着彩布蹦跳的民间表演",
+  "shortClue": "锣鼓助兴"
+ },
+ {
+  "word": "龙舟",
+  "topics": [
+   "localCulture"
+  ],
+  "difficulty": 2,
+  "kind": "common",
+  "clue": "端午竞渡的长形木船",
+  "shortClue": "端午竞渡"
+ },
+ {
+  "word": "年糕",
+  "topics": [
+   "localCulture"
+  ],
+  "difficulty": 2,
+  "kind": "common",
+  "clue": "春节吃的、寓意步步登高的糯米点心",
+  "shortClue": "步步登高"
+ },
+ {
+  "word": "生肖",
+  "topics": [
+   "localCulture"
+  ],
+  "difficulty": 2,
+  "kind": "common",
+  "clue": "十二种属相的统称",
+  "shortClue": "十二属相"
+ },
+ {
+  "word": "汉字",
+  "topics": [
+   "localCulture"
+  ],
+  "difficulty": 1,
+  "kind": "common",
+  "clue": "中国人使用的、一笔一画写成的方块符号",
+  "shortClue": "方块符号"
+ },
+ {
+  "word": "旗袍",
+  "topics": [
+   "localCulture"
+  ],
+  "difficulty": 2,
+  "kind": "common",
+  "clue": "立领、开衩的传统女装",
+  "shortClue": "开衩女装"
+ },
+ {
+  "word": "茶道",
+  "topics": [
+   "localCulture"
+  ],
+  "difficulty": 3,
+  "kind": "common",
+  "clue": "冲泡、品饮叶汤时讲究的礼仪艺术",
+  "shortClue": "品饮礼仪"
+ },
+ {
+  "word": "灯会",
+  "topics": [
+   "localCulture"
+  ],
+  "difficulty": 2,
+  "kind": "common",
+  "clue": "元宵节观赏彩饰的热闹活动",
+  "shortClue": "彩饰展示"
+ },
+ {
+  "word": "庙会",
+  "topics": [
+   "localCulture"
+  ],
+  "difficulty": 2,
+  "kind": "common",
+  "clue": "节日里在寺观旁摆开的热闹集市",
+  "shortClue": "节日集市"
+ },
+ {
+  "word": "武侠",
+  "topics": [
+   "localCulture"
+  ],
+  "difficulty": 3,
+  "kind": "common",
+  "clue": "讲述江湖豪杰仗剑行走的小说类型",
+  "shortClue": "仗剑江湖"
+ },
+ {
+  "word": "唐装",
+  "topics": [
+   "localCulture"
+  ],
+  "difficulty": 3,
+  "kind": "common",
+  "clue": "立领盘扣、过节常穿的中式上衣",
+  "shortClue": "盘扣上衣"
+ },
+ {
+  "word": "门神",
+  "topics": [
+   "localCulture"
+  ],
+  "difficulty": 3,
+  "kind": "common",
+  "clue": "过年贴在宅院入口的守卫画像",
+  "shortClue": "入口守卫"
+ },
+ {
+  "word": "皮影",
+  "topics": [
+   "localCulture"
+  ],
+  "difficulty": 3,
+  "kind": "common",
+  "clue": "用兽革刻成、灯下操纵的戏",
+  "shortClue": "灯下偶戏"
+ },
+ {
+  "word": "年夜饭",
+  "topics": [
+   "localCulture"
+  ],
+  "difficulty": 2,
+  "kind": "common",
+  "clue": "除夕全家团聚吃的那一餐",
+  "shortClue": "除夕团圆"
+ },
+ {
+  "word": "拜年",
+  "topics": [
+   "localCulture"
+  ],
+  "difficulty": 1,
+  "kind": "common",
+  "clue": "春节时向亲友问候祝福",
+  "shortClue": "新岁问候"
+ },
+ {
+  "word": "节气",
+  "topics": [
+   "localCulture"
+  ],
+  "difficulty": 2,
+  "kind": "common",
+  "clue": "二十四个反映寒暑变化的日子",
+  "shortClue": "二十四个"
+ },
+ {
+  "word": "冬至",
+  "topics": [
+   "localCulture"
+  ],
+  "difficulty": 2,
+  "kind": "common",
+  "clue": "一年中白天最短的节气",
+  "shortClue": "白昼最短"
+ },
+ {
+  "word": "孔子",
+  "topics": [
+   "localCulture"
+  ],
+  "difficulty": 2,
+  "kind": "proper",
+  "clue": "儒家创始人，被尊为圣人",
+  "shortClue": "至圣先师"
+ },
+ {
+  "word": "李白",
+  "topics": [
+   "localCulture"
+  ],
+  "difficulty": 2,
+  "kind": "proper",
+  "clue": "唐代被称为诗仙的人",
+  "shortClue": "唐代诗仙"
+ },
+ {
+  "word": "杜甫",
+  "topics": [
+   "localCulture"
+  ],
+  "difficulty": 2,
+  "kind": "proper",
+  "clue": "唐代被称为诗圣的人",
+  "shortClue": "唐代诗圣"
+ },
+ {
+  "word": "孙悟空",
+  "topics": [
+   "localCulture"
+  ],
+  "difficulty": 1,
+  "kind": "proper",
+  "clue": "西游记里会七十二变的石猴",
+  "shortClue": "七十二变"
+ },
+ {
+  "word": "红楼梦",
+  "topics": [
+   "localCulture"
+  ],
+  "difficulty": 2,
+  "kind": "proper",
+  "clue": "曹雪芹所著的古典名著",
+  "shortClue": "曹雪芹作"
+ },
+ {
+  "word": "琥珀",
+  "topics": [
+   "nature"
+  ],
+  "difficulty": 3,
+  "kind": "common",
+  "clue": "树脂埋藏地下千万年形成的金黄色宝石",
+  "shortClue": "金黄宝石"
+ },
+ {
+  "word": "珊瑚",
+  "topics": [
+   "nature"
+  ],
+  "difficulty": 3,
+  "kind": "common",
+  "clue": "海底由小生物骨骼堆成的红色枝状物",
+  "shortClue": "枝状海物"
+ },
+ {
+  "word": "蟋蟀",
+  "topics": [
+   "animals"
+  ],
+  "difficulty": 3,
+  "kind": "common",
+  "clue": "秋夜草丛里鸣叫的善斗昆虫",
+  "shortClue": "秋夜鸣虫"
+ },
+ {
+  "word": "牡丹",
+  "topics": [
+   "nature"
+  ],
+  "difficulty": 3,
+  "kind": "common",
+  "clue": "有花王之称的雍容大花",
+  "shortClue": "花中之王"
+ },
+ {
+  "word": "榫卯",
+  "topics": [
+   "history"
+  ],
+  "difficulty": 3,
+  "kind": "common",
+  "clue": "木构件不用钉子相互咬合的结构",
+  "shortClue": "无钉连接"
+ },
+ {
+  "word": "屏风",
+  "topics": [
+   "home"
+  ],
+  "difficulty": 3,
+  "kind": "common",
+  "clue": "立在室内用来遮挡视线的可折叠隔断",
+  "shortClue": "折叠隔断"
+ }
+]
