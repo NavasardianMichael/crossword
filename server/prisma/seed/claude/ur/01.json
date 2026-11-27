@@ -1,0 +1,5002 @@
+[
+  {
+    "word": "تندرستی",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "جسم کا بیماری سے پاک ہونا",
+    "shortClue": "اچھی صحت"
+  },
+  {
+    "word": "مہربانی",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "دوسروں سے نرمی اور شفقت کا برتاؤ",
+    "shortClue": "شفقت"
+  },
+  {
+    "word": "دلچسپی",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "کسی چیز کی طرف دھیان کا کھنچاؤ",
+    "shortClue": "شغف"
+  },
+  {
+    "word": "بدتمیزی",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "بڑوں کے سامنے گستاخانہ رویہ",
+    "shortClue": "گستاخی"
+  },
+  {
+    "word": "انسانیت",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "دوسروں کے دکھ درد کا احساس",
+    "shortClue": "آدمیت"
+  },
+  {
+    "word": "رضامندی",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "کسی بات کو دل سے مان لینا",
+    "shortClue": "ہامی"
+  },
+  {
+    "word": "خودداری",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "کسی کے آگے نہ جھکنے والی غیرت",
+    "shortClue": "غیرت"
+  },
+  {
+    "word": "فرمانبرداری",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "بڑوں کا حکم بلا چوں چرا ماننا",
+    "shortClue": "اطاعت"
+  },
+  {
+    "word": "خیرخواہی",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "دوسروں کا بھلا چاہنا",
+    "shortClue": "بھلا چاہنا"
+  },
+  {
+    "word": "وفاداری",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "مشکل میں بھی ساتھ نبھانے کی پختگی",
+    "shortClue": "پکا ساتھ"
+  },
+  {
+    "word": "پریشانی",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "دل کی الجھن اور فکر",
+    "shortClue": "فکر مندی"
+  },
+  {
+    "word": "مصروفیت",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "فرصت نہ ملنے کی حالت",
+    "shortClue": "کام کاج"
+  },
+  {
+    "word": "تنخواہ",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "ملازم کو ہر ماہ ملنے والی اجرت",
+    "shortClue": "ماہانہ اجرت"
+  },
+  {
+    "word": "سالگرہ",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "جنم دن کی ہر برس منائی جانے والی خوشی",
+    "shortClue": "جنم دن"
+  },
+  {
+    "word": "انتخاب",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "بہت سی چیزوں میں سے ایک کو چننا",
+    "shortClue": "چناؤ"
+  },
+  {
+    "word": "اختلاف",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "رائے کا آپس میں نہ ملنا",
+    "shortClue": "ان بن"
+  },
+  {
+    "word": "معلومات",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "کسی بارے میں جانی ہوئی باتیں",
+    "shortClue": "واقفیت"
+  },
+  {
+    "word": "بہادری",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "خطرے سے نہ ڈرنے کی صفت",
+    "shortClue": "دلیری"
+  },
+  {
+    "word": "چالاکی",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "مکاری بھری ہوشیاری",
+    "shortClue": "عیاری"
+  },
+  {
+    "word": "سنجیدگی",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "ہنسی مذاق سے پرہیز والی متانت",
+    "shortClue": "متانت"
+  },
+  {
+    "word": "اطمینان",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "دل کا چین اور تسلی",
+    "shortClue": "تسلی"
+  },
+  {
+    "word": "انتقام",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "کسی زیادتی کا بدلہ لینا",
+    "shortClue": "بدلہ"
+  },
+  {
+    "word": "مستقبل",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "آنے والا زمانہ",
+    "shortClue": "آنے والا کل"
+  },
+  {
+    "word": "بیماری",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "صحت کی خرابی",
+    "shortClue": "روگ"
+  },
+  {
+    "word": "ہریالی",
+    "topics": [
+      "nature"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "ہر طرف پھیلا سبزہ",
+    "shortClue": "سبزہ"
+  },
+  {
+    "word": "کہکشاں",
+    "topics": [
+      "nature"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "اربوں ستاروں کا عظیم جھرمٹ",
+    "shortClue": "ستاروں کا جھرمٹ"
+  },
+  {
+    "word": "نیلوفر",
+    "topics": [
+      "nature"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "تالاب کی سطح پر تیرتا کنول",
+    "shortClue": "کنول"
+  },
+  {
+    "word": "برفباری",
+    "topics": [
+      "nature"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "سردیوں میں آسمان سے سفید گالوں کا گرنا",
+    "shortClue": "سفید گالے"
+  },
+  {
+    "word": "طغیانی",
+    "topics": [
+      "nature"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "دریا کا چڑھاؤ اور بپھرنا",
+    "shortClue": "چڑھاؤ"
+  },
+  {
+    "word": "چراگاہ",
+    "topics": [
+      "nature"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "مویشیوں کے لیے گھاس والی کھلی زمین",
+    "shortClue": "مویشیوں کا میدان"
+  },
+  {
+    "word": "اندھیرا",
+    "topics": [
+      "nature"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "روشنی نہ ہونے کی کیفیت",
+    "shortClue": "تاریکی"
+  },
+  {
+    "word": "پگڈنڈی",
+    "topics": [
+      "geography"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "کھیتوں کے بیچ پتلا کچا رستہ",
+    "shortClue": "کچا رستہ"
+  },
+  {
+    "word": "شاہراہ",
+    "topics": [
+      "geography"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "شہروں کو جوڑنے والی بڑی پکی سڑک",
+    "shortClue": "بڑی سڑک"
+  },
+  {
+    "word": "چوراہا",
+    "topics": [
+      "geography"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "جہاں دو سڑکیں ایک دوسرے کو کاٹیں",
+    "shortClue": "سڑکوں کا سنگم"
+  },
+  {
+    "word": "مضافات",
+    "topics": [
+      "geography"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "شہر کے گرد و نواح کی بستیاں",
+    "shortClue": "نواحی علاقے"
+  },
+  {
+    "word": "افغانستان",
+    "topics": [
+      "geography"
+    ],
+    "difficulty": 1,
+    "kind": "proper",
+    "clue": "پاکستان کا شمال مغربی ہمسایہ، کابل والا",
+    "shortClue": "کابل والا ملک"
+  },
+  {
+    "word": "انڈونیشیا",
+    "topics": [
+      "geography"
+    ],
+    "difficulty": 2,
+    "kind": "proper",
+    "clue": "دنیا کا سب سے بڑا جزائری ملک",
+    "shortClue": "جزائری ملک"
+  },
+  {
+    "word": "گھڑیال",
+    "topics": [
+      "animals"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "لمبے پتلے منہ والا دریائی مگرمچھ",
+    "shortClue": "دریائی جانور"
+  },
+  {
+    "word": "خارپشت",
+    "topics": [
+      "animals"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "کانٹوں سے ڈھکا چھوٹا جانور",
+    "shortClue": "سیہ"
+  },
+  {
+    "word": "کینچوا",
+    "topics": [
+      "animals"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "مٹی میں رینگنے والا لمبا نرم کیڑا",
+    "shortClue": "مٹی کا کیڑا"
+  },
+  {
+    "word": "شترمرغ",
+    "topics": [
+      "animals"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "سب سے بڑا پرندہ جو اڑ نہیں سکتا",
+    "shortClue": "بڑا پرندہ"
+  },
+  {
+    "word": "ابابیل",
+    "topics": [
+      "animals"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "تیز اڑان والی کالی ننھی چڑیا",
+    "shortClue": "تیز چڑیا"
+  },
+  {
+    "word": "جھینگا",
+    "topics": [
+      "animals"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "لمبی مونچھوں والا آبی جانور جو کھایا جاتا ہے",
+    "shortClue": "آبی خوراک"
+  },
+  {
+    "word": "چھپکلی",
+    "topics": [
+      "animals"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "دیواروں پر رینگنے والا چھوٹا جانور",
+    "shortClue": "دیوار پر رینگے"
+  },
+  {
+    "word": "تیندوا",
+    "topics": [
+      "animals"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "دھبے دار کھال والی بڑی جنگلی بلی",
+    "shortClue": "دھبے دار"
+  },
+  {
+    "word": "ناشپاتی",
+    "topics": [
+      "food"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "سیب جیسا رسیلا لمبوترا پھل",
+    "shortClue": "لمبوترا پھل"
+  },
+  {
+    "word": "شکرقندی",
+    "topics": [
+      "food"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "بھون کر کھائی جانے والی میٹھی جڑ",
+    "shortClue": "میٹھی جڑ"
+  },
+  {
+    "word": "چلغوزہ",
+    "topics": [
+      "food"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "صنوبر کی ایک قسم کا مہنگا لمبوترا میوہ",
+    "shortClue": "مہنگا میوہ"
+  },
+  {
+    "word": "پودینہ",
+    "topics": [
+      "food"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "چٹنی میں پڑنے والی خوشبودار ہری پتی",
+    "shortClue": "ہری پتی"
+  },
+  {
+    "word": "فالودہ",
+    "topics": [
+      "food"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "سویوں اور قلفی والا ٹھنڈا میٹھا",
+    "shortClue": "ٹھنڈا میٹھا"
+  },
+  {
+    "word": "سکنجبین",
+    "topics": [
+      "food"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "لیموں، چینی اور پانی کا ٹھنڈا مشروب",
+    "shortClue": "لیموں پانی"
+  },
+  {
+    "word": "شیرمال",
+    "topics": [
+      "food"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "زعفران والی میٹھی نرم روٹی",
+    "shortClue": "میٹھی روٹی"
+  },
+  {
+    "word": "شہنشاہ",
+    "topics": [
+      "history"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "بہت سے حکمرانوں پر حکومت کرنے والا",
+    "shortClue": "قیصر"
+  },
+  {
+    "word": "دستاویز",
+    "topics": [
+      "history"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "سرکاری یا قانونی کاغذ جو ثبوت ہو",
+    "shortClue": "سند"
+  },
+  {
+    "word": "ہتھیار",
+    "topics": [
+      "history"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "لڑائی میں کام آنے والا آلہ",
+    "shortClue": "اسلحہ"
+  },
+  {
+    "word": "ڈھنڈورا",
+    "topics": [
+      "history"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "شہر بھر میں ڈھول پیٹ کر کیا گیا اعلان",
+    "shortClue": "شاہی اعلان"
+  },
+  {
+    "word": "تاجپوشی",
+    "topics": [
+      "history"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "نئے بادشاہ کی تخت نشینی کی رسم",
+    "shortClue": "تخت نشینی"
+  },
+  {
+    "word": "شہزادہ",
+    "topics": [
+      "history"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "حکمران کا بیٹا جو تخت کا وارث ہو",
+    "shortClue": "ولی عہد"
+  },
+  {
+    "word": "سوداگر",
+    "topics": [
+      "history"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "دور دیسوں سے تجارت کرنے والا",
+    "shortClue": "تاجر"
+  },
+  {
+    "word": "ہرکارہ",
+    "topics": [
+      "history"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "پرانے زمانے کا پیغام رساں",
+    "shortClue": "قاصد"
+  },
+  {
+    "word": "ہتھیلی",
+    "topics": [
+      "science"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "مٹھی کھولنے پر سامنے آنے والا حصہ",
+    "shortClue": "کھلی مٹھی"
+  },
+  {
+    "word": "تھرمامیٹر",
+    "topics": [
+      "science"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "بخار ناپنے کا آلہ",
+    "shortClue": "حرارت پیما"
+  },
+  {
+    "word": "دریافت",
+    "topics": [
+      "science"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "کسی انجانی چیز کو پہلی بار ڈھونڈ نکالنا",
+    "shortClue": "نئی کھوج"
+  },
+  {
+    "word": "مستطیل",
+    "topics": [
+      "science"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "چار قائم زاویوں والی لمبوتری شکل",
+    "shortClue": "لمبوتری شکل"
+  },
+  {
+    "word": "الجبرا",
+    "topics": [
+      "science"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "حروف کی مدد سے حساب کا علم",
+    "shortClue": "حرفی حساب"
+  },
+  {
+    "word": "اعشاریہ",
+    "topics": [
+      "science"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "عدد میں پورے اور کسر کے بیچ کا نقطہ",
+    "shortClue": "عددی نقطہ"
+  },
+  {
+    "word": "حیوانات",
+    "topics": [
+      "science"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "جانوروں کا علم",
+    "shortClue": "جانوروں کا علم"
+  },
+  {
+    "word": "ارضیات",
+    "topics": [
+      "science"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "زمین کی چٹانوں اور تہوں کا علم",
+    "shortClue": "چٹانوں کا علم"
+  },
+  {
+    "word": "کمپیوٹر",
+    "topics": [
+      "science"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "حساب اور معلومات سنبھالنے والی برقی مشین",
+    "shortClue": "برقی دماغ"
+  },
+  {
+    "word": "بیڈمنٹن",
+    "topics": [
+      "sport"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "پروں والی چڑیا اور ریکٹ کا کھیل",
+    "shortClue": "چڑیا کا کھیل"
+  },
+  {
+    "word": "ٹورنامنٹ",
+    "topics": [
+      "sport"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "کئی ٹیموں کا مرحلہ وار مقابلہ",
+    "shortClue": "مرحلہ وار مقابلہ"
+  },
+  {
+    "word": "اسٹیڈیم",
+    "topics": [
+      "sport"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "تماشائیوں کی نشستوں والا بڑا میدان",
+    "shortClue": "بڑا میدان"
+  },
+  {
+    "word": "میراتھن",
+    "topics": [
+      "sport"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "بیالیس کلومیٹر سے زیادہ کی لمبی دوڑ",
+    "shortClue": "لمبی دوڑ"
+  },
+  {
+    "word": "موسیقی",
+    "topics": [
+      "arts"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "سروں اور لے کا فن",
+    "shortClue": "سنگیت"
+  },
+  {
+    "word": "گھنگھرو",
+    "topics": [
+      "arts"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "رقص میں پاؤں پر بندھی چھوٹی گھنٹیاں",
+    "shortClue": "پاؤں کی گھنٹیاں"
+  },
+  {
+    "word": "سفرنامہ",
+    "topics": [
+      "arts"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "سیاح کا لکھا ہوا احوال",
+    "shortClue": "سیاحت کا احوال"
+  },
+  {
+    "word": "خودنوشت",
+    "topics": [
+      "arts"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "اپنی زندگی کا اپنے قلم سے لکھا حال",
+    "shortClue": "آپ بیتی"
+  },
+  {
+    "word": "مکالمہ",
+    "topics": [
+      "arts"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "ڈرامے کے کرداروں کی بات چیت",
+    "shortClue": "بات چیت"
+  },
+  {
+    "word": "محاورہ",
+    "topics": [
+      "arts"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "لفظوں کا ایسا جوڑ جس کا خاص مطلب ہو",
+    "shortClue": "لفظی ترکیب"
+  },
+  {
+    "word": "انگیٹھی",
+    "topics": [
+      "home"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "کوئلے جلا کر گرمی لینے کا برتن",
+    "shortClue": "کوئلوں کا برتن"
+  },
+  {
+    "word": "ازاربند",
+    "topics": [
+      "home"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "شلوار کے نیفے میں ڈالی جانے والی ڈوری",
+    "shortClue": "نیفے کی ڈوری"
+  },
+  {
+    "word": "انگوٹھی",
+    "topics": [
+      "home"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "انگلی میں پہنا جانے والا چھلا",
+    "shortClue": "انگلی کا زیور"
+  },
+  {
+    "word": "میزپوش",
+    "topics": [
+      "home"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "کھانے کے تختے پر بچھایا جانے والا کپڑا",
+    "shortClue": "تختے کا غلاف"
+  },
+  {
+    "word": "لالٹین",
+    "topics": [
+      "home"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "شیشے کے غلاف والا مٹی کے تیل کا دیا",
+    "shortClue": "تیل کا دیا"
+  },
+  {
+    "word": "ٹیلیویژن",
+    "topics": [
+      "home"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "گھر میں خبریں اور ڈرامے دکھانے والی سکرین",
+    "shortClue": "چھوٹی سکرین"
+  },
+  {
+    "word": "ٹیلیفون",
+    "topics": [
+      "home"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "دور بیٹھے شخص سے بات کرانے والا آلہ",
+    "shortClue": "بات کا آلہ"
+  },
+  {
+    "word": "روشندان",
+    "topics": [
+      "home"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "دیوار میں اوپر ہوا کی آمد کا چھوٹا سوراخ",
+    "shortClue": "اوپری سوراخ"
+  },
+  {
+    "word": "بالکونی",
+    "topics": [
+      "home"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "اوپری منزل کا باہر نکلا چبوترا",
+    "shortClue": "چھجا"
+  },
+  {
+    "word": "کاشتکار",
+    "topics": [
+      "professions"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "کھیتی باڑی کرنے والا",
+    "shortClue": "کھیتی والا"
+  },
+  {
+    "word": "ٹھیکیدار",
+    "topics": [
+      "professions"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "تعمیر کا کام ذمے لے کر کروانے والا",
+    "shortClue": "تعمیری ذمہ دار"
+  },
+  {
+    "word": "خزانچی",
+    "topics": [
+      "professions"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "دفتر میں نقدی سنبھالنے والا",
+    "shortClue": "نقدی کا نگران"
+  },
+  {
+    "word": "پنساری",
+    "topics": [
+      "professions"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "جڑی بوٹیاں اور مسالے بیچنے والا",
+    "shortClue": "بوٹیوں والا"
+  },
+  {
+    "word": "کارندہ",
+    "topics": [
+      "professions"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "مالک کا کام سنبھالنے والا ملازم",
+    "shortClue": "ملازم"
+  },
+  {
+    "word": "خانقاہ",
+    "topics": [
+      "localCulture"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "صوفیوں کے رہنے اور ذکر کی جگہ",
+    "shortClue": "صوفی ٹھکانا"
+  },
+  {
+    "word": "پشمینہ",
+    "topics": [
+      "localCulture"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "کشمیری بکری کی نرم اون کی شال",
+    "shortClue": "نرم اون"
+  },
+  {
+    "word": "شیروانی",
+    "topics": [
+      "localCulture"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "دولہا کی لمبی بٹن دار اچکن",
+    "shortClue": "اچکن"
+  },
+  {
+    "word": "گھونگھٹ",
+    "topics": [
+      "localCulture"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "دلہن کا چہرہ چھپانے والا دوپٹے کا پلو",
+    "shortClue": "دلہن کا پردہ"
+  },
+  {
+    "word": "چھالیہ",
+    "topics": [
+      "localCulture"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "پان میں ڈالی جانے والی سخت ڈلی",
+    "shortClue": "سپاری"
+  },
+  {
+    "word": "پھلکاری",
+    "topics": [
+      "localCulture"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "پنجاب کی رنگین ریشمی کڑھائی",
+    "shortClue": "پنجابی کڑھائی"
+  },
+  {
+    "word": "دوست",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "وہ ساتھی جس پر دل سے بھروسا ہو",
+    "shortClue": "بھروسے کا ساتھی"
+  },
+  {
+    "word": "غصہ",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "ناگوار بات پر بھڑکتا جذبہ",
+    "shortClue": "بھڑکتا جذبہ"
+  },
+  {
+    "word": "خوف",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "خطرہ دیکھ کر دل کی کیفیت",
+    "shortClue": "دل کا ڈر"
+  },
+  {
+    "word": "اداسی",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "رنج و ملال کی کیفیت",
+    "shortClue": "دل کا ملال"
+  },
+  {
+    "word": "ہنسی",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "خوشی میں منہ سے نکلنے والی آواز",
+    "shortClue": "کھلکھلاہٹ"
+  },
+  {
+    "word": "صبح",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "سورج نکلنے کا وقت، دن کا آغاز",
+    "shortClue": "دن کا آغاز"
+  },
+  {
+    "word": "شام",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "سورج ڈھلنے کا وقت",
+    "shortClue": "دن ڈھلے"
+  },
+  {
+    "word": "ہفتہ",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "سات دنوں کی مدت",
+    "shortClue": "سات دن"
+  },
+  {
+    "word": "سال",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "بارہ مہینوں کی مدت",
+    "shortClue": "بارہ مہینے"
+  },
+  {
+    "word": "گھڑی",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "کلائی یا دیوار پر وقت بتانے والا آلہ",
+    "shortClue": "وقت بتائے"
+  },
+  {
+    "word": "ماں",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "بچے کو جنم دینے والی",
+    "shortClue": "والدہ"
+  },
+  {
+    "word": "باپ",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "اولاد کا والد",
+    "shortClue": "والد"
+  },
+  {
+    "word": "بہن",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "ایک ہی ماں باپ کی بیٹی",
+    "shortClue": "ہمشیرہ"
+  },
+  {
+    "word": "بیٹا",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "ماں باپ کا لڑکا",
+    "shortClue": "نرینہ اولاد"
+  },
+  {
+    "word": "دادا",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "باپ کے والد",
+    "shortClue": "باپ کا باپ"
+  },
+  {
+    "word": "ماموں",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "والدہ کا بھائی",
+    "shortClue": "والدہ کا بھائی"
+  },
+  {
+    "word": "شوہر",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "بیوی کا جیون ساتھی",
+    "shortClue": "خاوند"
+  },
+  {
+    "word": "بچہ",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "کم عمر انسان",
+    "shortClue": "ننھا انسان"
+  },
+  {
+    "word": "جھوٹ",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "سچ کا الٹ، غلط بیانی",
+    "shortClue": "غلط بیانی"
+  },
+  {
+    "word": "نیند",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "رات کا آرام جب آنکھیں بند ہوں",
+    "shortClue": "رات کا آرام"
+  },
+  {
+    "word": "خواب",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "سوتے میں دکھنے والا منظر",
+    "shortClue": "نیند کا منظر"
+  },
+  {
+    "word": "سوال",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "جواب مانگنے والی بات",
+    "shortClue": "پوچھی بات"
+  },
+  {
+    "word": "جواب",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "سوال کے بدلے کہی بات",
+    "shortClue": "سوال کا حل"
+  },
+  {
+    "word": "راستہ",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "منزل تک لے جانے والی راہ",
+    "shortClue": "راہ"
+  },
+  {
+    "word": "شہر",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "بہت بڑی آبادی والی بستی",
+    "shortClue": "بڑی بستی"
+  },
+  {
+    "word": "دنیا",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "زمین اور اس پر بسنے والے سب لوگ",
+    "shortClue": "سارا جہان"
+  },
+  {
+    "word": "زندگی",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "پیدائش سے موت تک کا سفر",
+    "shortClue": "جیون"
+  },
+  {
+    "word": "سفر",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "ایک جگہ سے دوسری جگہ جانا",
+    "shortClue": "دور کی روانگی"
+  },
+  {
+    "word": "پرانا",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "جو بہت پہلے کا ہو",
+    "shortClue": "قدیم"
+  },
+  {
+    "word": "خوبصورت",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "دیکھنے میں دلکش",
+    "shortClue": "حسین"
+  },
+  {
+    "word": "ہمت",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "مشکل میں نہ ہارنے کی طاقت",
+    "shortClue": "حوصلہ"
+  },
+  {
+    "word": "سلام",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "ملتے وقت دی جانے والی دعا",
+    "shortClue": "ملاقات کی دعا"
+  },
+  {
+    "word": "پڑوسی",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "ساتھ والے گھر میں رہنے والا",
+    "shortClue": "ہمسایہ"
+  },
+  {
+    "word": "تحفہ",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "خوشی سے دی گئی سوغات",
+    "shortClue": "سوغات"
+  },
+  {
+    "word": "لمحہ",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "پلک جھپکنے جتنا وقت",
+    "shortClue": "مختصر پل"
+  },
+  {
+    "word": "فخر",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "اپنی کامیابی پر ناز",
+    "shortClue": "ناز"
+  },
+  {
+    "word": "شرم",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "غلطی پر جھینپ",
+    "shortClue": "حیا"
+  },
+  {
+    "word": "حیرت",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "انوکھی بات پر اچنبھا",
+    "shortClue": "اچنبھا"
+  },
+  {
+    "word": "یاد",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "ذہن میں محفوظ پرانی بات",
+    "shortClue": "حافظے کی بات"
+  },
+  {
+    "word": "بھول",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "کسی بات کا ذہن سے نکل جانا",
+    "shortClue": "نسیان"
+  },
+  {
+    "word": "وعدہ",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "کچھ کرنے کا پکا قول",
+    "shortClue": "پکا قول"
+  },
+  {
+    "word": "قسمت",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "جو تقدیر میں لکھا ہو",
+    "shortClue": "نصیب"
+  },
+  {
+    "word": "منزل",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "سفر کا آخری مقام",
+    "shortClue": "آخری پڑاؤ"
+  },
+  {
+    "word": "انجام",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "کسی کام کا آخر",
+    "shortClue": "اختتام"
+  },
+  {
+    "word": "شروع",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "کسی کام کی ابتدا",
+    "shortClue": "ابتدا"
+  },
+  {
+    "word": "کوشش",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "کامیابی کے لیے جدوجہد",
+    "shortClue": "جدوجہد"
+  },
+  {
+    "word": "کامیابی",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "محنت کا میٹھا پھل، جیت",
+    "shortClue": "فتح"
+  },
+  {
+    "word": "عزت",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "معاشرے میں قدر و منزلت",
+    "shortClue": "آبرو"
+  },
+  {
+    "word": "انصاف",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "ہر ایک کو اس کا حق دینا",
+    "shortClue": "عدل"
+  },
+  {
+    "word": "بھروسا",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "کسی پر پکا یقین",
+    "shortClue": "اعتماد"
+  },
+  {
+    "word": "صبر",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "مشکل میں برداشت اور تحمل",
+    "shortClue": "تحمل"
+  },
+  {
+    "word": "خلوص",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "نیت کی سچائی",
+    "shortClue": "سچی نیت"
+  },
+  {
+    "word": "غرور",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "اپنے آپ پر بے جا ناز",
+    "shortClue": "تکبر"
+  },
+  {
+    "word": "لالچ",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "زیادہ پانے کی حرص",
+    "shortClue": "حرص"
+  },
+  {
+    "word": "حسد",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "دوسرے کی خوشی پر جلنا",
+    "shortClue": "جلن"
+  },
+  {
+    "word": "شوق",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "کسی چیز کی دلی رغبت",
+    "shortClue": "رغبت"
+  },
+  {
+    "word": "عادت",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "بار بار دہرایا جانے والا طور",
+    "shortClue": "پرانی خو"
+  },
+  {
+    "word": "خبر",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "کسی واقعے کی اطلاع",
+    "shortClue": "اطلاع"
+  },
+  {
+    "word": "پیغام",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "کسی کو پہنچائی گئی بات",
+    "shortClue": "سندیسہ"
+  },
+  {
+    "word": "فاصلہ",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "دو جگہوں کے بیچ کی دوری",
+    "shortClue": "دوری"
+  },
+  {
+    "word": "رفتار",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "چلنے کی تیزی کی مقدار",
+    "shortClue": "چال"
+  },
+  {
+    "word": "وزن",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "کسی چیز کا تول میں بوجھ",
+    "shortClue": "بوجھ"
+  },
+  {
+    "word": "خاندان",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "ماں باپ، بچے اور رشتہ دار",
+    "shortClue": "کنبہ"
+  },
+  {
+    "word": "رشتہ",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "خون یا شادی کا تعلق",
+    "shortClue": "ناتا"
+  },
+  {
+    "word": "اجازت",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "کوئی کام کرنے کی رضامندی",
+    "shortClue": "اذن"
+  },
+  {
+    "word": "انتظار",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "کسی کے آنے کی راہ تکنا",
+    "shortClue": "راہ تکنا"
+  },
+  {
+    "word": "خطرہ",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "نقصان کا اندیشہ",
+    "shortClue": "اندیشہ"
+  },
+  {
+    "word": "غلطی",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "انجانے میں ہونے والی چوک",
+    "shortClue": "چوک"
+  },
+  {
+    "word": "ضرورت",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "جس کے بغیر گزارا نہ ہو",
+    "shortClue": "حاجت"
+  },
+  {
+    "word": "سکون",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "بے چینی کا خاتمہ",
+    "shortClue": "چین"
+  },
+  {
+    "word": "ہمدردی",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "دوسرے کے دکھ میں شریک ہونا",
+    "shortClue": "غمخواری"
+  },
+  {
+    "word": "جھجک",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "بات کرنے میں ہچکچاہٹ",
+    "shortClue": "ہچکچاہٹ"
+  },
+  {
+    "word": "تمنا",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "دل کی گہری آرزو",
+    "shortClue": "آرزو"
+  },
+  {
+    "word": "ندامت",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "کیے پر پچھتاوا",
+    "shortClue": "پچھتاوا"
+  },
+  {
+    "word": "تجسس",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "جاننے کی بے چینی",
+    "shortClue": "کرید"
+  },
+  {
+    "word": "قناعت",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "تھوڑے پر راضی رہنا",
+    "shortClue": "صبر شکر"
+  },
+  {
+    "word": "سخاوت",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "دل کھول کر دینے کی عادت",
+    "shortClue": "فیاضی"
+  },
+  {
+    "word": "دیانت",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "لین دین میں ایمان داری",
+    "shortClue": "امانت داری"
+  },
+  {
+    "word": "ذہانت",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "تیز سمجھ بوجھ",
+    "shortClue": "عقلمندی"
+  },
+  {
+    "word": "فراغت",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "کام سے خالی وقت",
+    "shortClue": "فرصت"
+  },
+  {
+    "word": "تذبذب",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "فیصلہ نہ کر پانے کی کیفیت",
+    "shortClue": "پس و پیش"
+  },
+  {
+    "word": "اضطراب",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "دل کی بے قراری",
+    "shortClue": "بے چینی"
+  },
+  {
+    "word": "انکسار",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "اپنے آپ کو چھوٹا جاننا",
+    "shortClue": "عاجزی"
+  },
+  {
+    "word": "حماقت",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "بے وقوفی کی حرکت",
+    "shortClue": "بے وقوفی"
+  },
+  {
+    "word": "تکرار",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "ایک بات بار بار کہنا",
+    "shortClue": "دہرانا"
+  },
+  {
+    "word": "شگون",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "آنے والے وقت کی نیک یا بد علامت",
+    "shortClue": "فال"
+  },
+  {
+    "word": "جستجو",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "کسی چیز کی تلاش اور کھوج",
+    "shortClue": "کھوج"
+  },
+  {
+    "word": "بیزاری",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "کسی چیز سے دل کی اکتاہٹ",
+    "shortClue": "اکتاہٹ"
+  },
+  {
+    "word": "رقابت",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "ایک ہی چیز کے دو چاہنے والوں کی دشمنی",
+    "shortClue": "مخاصمت"
+  },
+  {
+    "word": "فراق",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "محبوب سے دوری",
+    "shortClue": "جدائی"
+  },
+  {
+    "word": "وصال",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "بچھڑوں کا ملاپ",
+    "shortClue": "ملن"
+  },
+  {
+    "word": "کدورت",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "دل میں بیٹھا میل",
+    "shortClue": "رنجش"
+  },
+  {
+    "word": "تساہل",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "کام میں سستی برتنا",
+    "shortClue": "کاہلی"
+  },
+  {
+    "word": "اعتدال",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "نہ کم نہ زیادہ، بیچ کی راہ",
+    "shortClue": "میانہ روی"
+  },
+  {
+    "word": "ایثار",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "دوسروں کی خاطر اپنا حق چھوڑنا",
+    "shortClue": "قربانی"
+  },
+  {
+    "word": "عناد",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "دل میں چھپی دشمنی",
+    "shortClue": "بغض"
+  },
+  {
+    "word": "سورج",
+    "topics": [
+      "nature"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "دن کو روشنی اور گرمی دینے والا ستارہ",
+    "shortClue": "دن کا ستارہ"
+  },
+  {
+    "word": "چاند",
+    "topics": [
+      "nature"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "رات کو چمکنے والا زمین کا ساتھی",
+    "shortClue": "رات کا چراغ"
+  },
+  {
+    "word": "ستارہ",
+    "topics": [
+      "nature"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "رات کے آسمان پر ٹمٹماتا روشن نقطہ",
+    "shortClue": "ٹمٹماتا نقطہ"
+  },
+  {
+    "word": "بادل",
+    "topics": [
+      "nature"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "آسمان پر تیرتی بھاپ جو برستی ہے",
+    "shortClue": "برسنے والا"
+  },
+  {
+    "word": "برف",
+    "topics": [
+      "nature"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "ٹھنڈ سے جما ہوا پانی",
+    "shortClue": "جما پانی"
+  },
+  {
+    "word": "زمین",
+    "topics": [
+      "nature"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "وہ سیارہ جس پر ہم رہتے ہیں",
+    "shortClue": "دھرتی"
+  },
+  {
+    "word": "پتھر",
+    "topics": [
+      "nature"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "چٹان کا سخت ٹھوس ٹکڑا",
+    "shortClue": "سنگ"
+  },
+  {
+    "word": "گلاب",
+    "topics": [
+      "nature"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "کانٹوں والی ٹہنی پر کھلنے والا خوشبودار پھول",
+    "shortClue": "پھولوں کا بادشاہ"
+  },
+  {
+    "word": "موسم",
+    "topics": [
+      "nature"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "سال کا گرم، سرد یا برساتی دور",
+    "shortClue": "سردی گرمی"
+  },
+  {
+    "word": "دھوپ",
+    "topics": [
+      "nature"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "سورج کی روشنی اور تپش",
+    "shortClue": "سورج کی تپش"
+  },
+  {
+    "word": "طوفان",
+    "topics": [
+      "nature"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "تیز ہوا اور موسلا دھار بارش کا زور",
+    "shortClue": "آندھی"
+  },
+  {
+    "word": "چشمہ",
+    "topics": [
+      "nature"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "زمین سے پھوٹ کر نکلتا پانی",
+    "shortClue": "سوتا"
+  },
+  {
+    "word": "کنواں",
+    "topics": [
+      "nature"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "زمین کھود کر بنایا گیا پانی کا گڑھا",
+    "shortClue": "پانی کا گڑھا"
+  },
+  {
+    "word": "وادی",
+    "topics": [
+      "nature"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "پہاڑوں کے بیچ کی نشیبی زمین",
+    "shortClue": "پہاڑی نشیب"
+  },
+  {
+    "word": "چٹان",
+    "topics": [
+      "nature"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "بہت بڑا اور سخت پتھر",
+    "shortClue": "بڑا سنگ"
+  },
+  {
+    "word": "کہر",
+    "topics": [
+      "nature"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "سردیوں کی صبح چھائی دھندلی نمی",
+    "shortClue": "دھند"
+  },
+  {
+    "word": "شبنم",
+    "topics": [
+      "nature"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "صبح سویرے گھاس پر پڑے قطرے",
+    "shortClue": "اوس"
+  },
+  {
+    "word": "کونپل",
+    "topics": [
+      "nature"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "پودے سے پھوٹتی نئی پتی",
+    "shortClue": "نئی پتی"
+  },
+  {
+    "word": "چنار",
+    "topics": [
+      "nature"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "خزاں میں سرخ پتوں والا کشمیری درخت",
+    "shortClue": "کشمیر کا درخت"
+  },
+  {
+    "word": "دیودار",
+    "topics": [
+      "nature"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "پہاڑوں کا اونچا سدا بہار درخت",
+    "shortClue": "پہاڑی درخت"
+  },
+  {
+    "word": "کیکر",
+    "topics": [
+      "nature"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "کانٹے دار صحرائی درخت",
+    "shortClue": "ببول"
+  },
+  {
+    "word": "چنبیلی",
+    "topics": [
+      "nature"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "پاکستان کا قومی پھول",
+    "shortClue": "قومی پھول"
+  },
+  {
+    "word": "خزاں",
+    "topics": [
+      "nature"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "پتے جھڑنے کا موسم",
+    "shortClue": "پت جھڑ"
+  },
+  {
+    "word": "بہار",
+    "topics": [
+      "nature"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "پھول کھلنے کا موسم",
+    "shortClue": "موسم گل"
+  },
+  {
+    "word": "افق",
+    "topics": [
+      "nature"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "جہاں زمین اور آسمان ملتے دکھائی دیں",
+    "shortClue": "دور کا کنارا"
+  },
+  {
+    "word": "مرغزار",
+    "topics": [
+      "nature"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "ہرا بھرا سبزے کا کھلا میدان",
+    "shortClue": "سبزہ زار"
+  },
+  {
+    "word": "بھینس",
+    "topics": [
+      "animals"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "دودھ دینے والا کالا مویشی",
+    "shortClue": "کالا مویشی"
+  },
+  {
+    "word": "مرغی",
+    "topics": [
+      "animals"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "انڈے دینے والا گھریلو پرندہ",
+    "shortClue": "انڈوں والی"
+  },
+  {
+    "word": "طوطا",
+    "topics": [
+      "animals"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "ہرا پرندہ جو باتیں دہراتا ہے",
+    "shortClue": "ہرا پرندہ"
+  },
+  {
+    "word": "کبوتر",
+    "topics": [
+      "animals"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "پرانے زمانے میں پیغام لے جانے والا پرندہ",
+    "shortClue": "قاصد پرندہ"
+  },
+  {
+    "word": "عقاب",
+    "topics": [
+      "animals"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "تیز نظر والا بڑا شکاری پرندہ",
+    "shortClue": "شکاری پرندہ"
+  },
+  {
+    "word": "خرگوش",
+    "topics": [
+      "animals"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "لمبے کانوں والا تیز دوڑتا جانور",
+    "shortClue": "لمبے کان"
+  },
+  {
+    "word": "ریچھ",
+    "topics": [
+      "animals"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "گھنے بالوں والا شہد کا شوقین جانور",
+    "shortClue": "شہد کا شوقین"
+  },
+  {
+    "word": "گیدڑ",
+    "topics": [
+      "animals"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "رات کو ہوکنے والا جنگلی جانور",
+    "shortClue": "ہوکنے والا"
+  },
+  {
+    "word": "لومڑی",
+    "topics": [
+      "animals"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "کہانیوں کا چالاک جانور",
+    "shortClue": "چالاک جانور"
+  },
+  {
+    "word": "ہرن",
+    "topics": [
+      "animals"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "تیز دوڑنے والا خوبصورت جنگلی جانور",
+    "shortClue": "غزال"
+  },
+  {
+    "word": "مگرمچھ",
+    "topics": [
+      "animals"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "دریا کا بڑے جبڑوں والا رینگنے والا جانور",
+    "shortClue": "دریائی شکاری"
+  },
+  {
+    "word": "چیونٹی",
+    "topics": [
+      "animals"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "قطار میں چلنے والا ننھا محنتی کیڑا",
+    "shortClue": "محنتی کیڑا"
+  },
+  {
+    "word": "بلبل",
+    "topics": [
+      "animals"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "میٹھی آواز میں گانے والا پرندہ",
+    "shortClue": "خوش الحان پرندہ"
+  },
+  {
+    "word": "فاختہ",
+    "topics": [
+      "animals"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "امن کی علامت سمجھا جانے والا پرندہ",
+    "shortClue": "امن کا پرندہ"
+  },
+  {
+    "word": "شاہین",
+    "topics": [
+      "animals"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "اقبال کی شاعری کا بلند پرواز پرندہ",
+    "shortClue": "اقبال کا پرندہ"
+  },
+  {
+    "word": "مارخور",
+    "topics": [
+      "animals"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "پاکستان کا قومی جانور، مڑے سینگوں والا",
+    "shortClue": "قومی جانور"
+  },
+  {
+    "word": "چکور",
+    "topics": [
+      "animals"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "پاکستان کا قومی پرندہ",
+    "shortClue": "قومی پرندہ"
+  },
+  {
+    "word": "اژدہا",
+    "topics": [
+      "animals"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "کہانیوں کا بہت بڑا سانپ",
+    "shortClue": "بڑا سانپ"
+  },
+  {
+    "word": "بچھڑا",
+    "topics": [
+      "animals"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "گائے کا بچہ",
+    "shortClue": "گائے کا بچہ"
+  },
+  {
+    "word": "میمنا",
+    "topics": [
+      "animals"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "بھیڑ کا بچہ",
+    "shortClue": "بھیڑ کا بچہ"
+  },
+  {
+    "word": "ہدہد",
+    "topics": [
+      "animals"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "سر پر کلغی والا پرندہ",
+    "shortClue": "کلغی دار"
+  },
+  {
+    "word": "گینڈا",
+    "topics": [
+      "animals"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "ناک پر سینگ والا بھاری جانور",
+    "shortClue": "ناک پر سینگ"
+  },
+  {
+    "word": "کیکڑا",
+    "topics": [
+      "animals"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "ٹیڑھا چلنے والا جانور جس کے پنجے ہوں",
+    "shortClue": "ٹیڑھی چال"
+  },
+  {
+    "word": "سیپ",
+    "topics": [
+      "animals"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "سمندری جانور کا خول جس میں موتی پلتا ہے",
+    "shortClue": "موتی کا گھر"
+  },
+  {
+    "word": "خچر",
+    "topics": [
+      "animals"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "گھوڑی اور گدھے کی نسل کا جانور",
+    "shortClue": "بار بردار"
+  },
+  {
+    "word": "جگنو",
+    "topics": [
+      "animals"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "رات کو چمکنے والا کیڑا",
+    "shortClue": "چمکتا کیڑا"
+  },
+  {
+    "word": "چمگادڑ",
+    "topics": [
+      "animals"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "الٹا لٹکنے والا اڑتا ممالیہ",
+    "shortClue": "الٹا لٹکے"
+  },
+  {
+    "word": "سارس",
+    "topics": [
+      "animals"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "لمبی ٹانگوں والا بڑا آبی پرندہ",
+    "shortClue": "لمبی ٹانگیں"
+  },
+  {
+    "word": "پراٹھا",
+    "topics": [
+      "food"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "گھی میں تلی پرت دار روٹی",
+    "shortClue": "تلی روٹی"
+  },
+  {
+    "word": "سالن",
+    "topics": [
+      "food"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "روٹی کے ساتھ کھایا جانے والا شوربے دار کھانا",
+    "shortClue": "شوربے والا"
+  },
+  {
+    "word": "لہسن",
+    "topics": [
+      "food"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "تیز بو والی سفید گٹھی",
+    "shortClue": "سفید گٹھی"
+  },
+  {
+    "word": "ادرک",
+    "topics": [
+      "food"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "سالن اور قہوے میں ڈالی جانے والی تیز جڑ",
+    "shortClue": "تیز جڑ"
+  },
+  {
+    "word": "گاجر",
+    "topics": [
+      "food"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "حلوے میں پڑنے والی نارنجی جڑ",
+    "shortClue": "نارنجی جڑ"
+  },
+  {
+    "word": "بھنڈی",
+    "topics": [
+      "food"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "لیس دار سبز پھلی جو بھون کر پکائیں",
+    "shortClue": "لیسدار پھلی"
+  },
+  {
+    "word": "امرود",
+    "topics": [
+      "food"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "سبز چھلکے کا بیجوں بھرا پھل",
+    "shortClue": "بیجوں والا پھل"
+  },
+  {
+    "word": "خربوزہ",
+    "topics": [
+      "food"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "گرمیوں کا میٹھا بیل والا پھل",
+    "shortClue": "بیل کا پھل"
+  },
+  {
+    "word": "تربوز",
+    "topics": [
+      "food"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "باہر سے ہرا، اندر سے لال پھل",
+    "shortClue": "اندر سے لال"
+  },
+  {
+    "word": "مالٹا",
+    "topics": [
+      "food"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "سنگترے سے ملتا جلتا رسیلا ترش پھل",
+    "shortClue": "ترش پھل"
+  },
+  {
+    "word": "کھجور",
+    "topics": [
+      "food"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "صحرا کا میٹھا بھورا پھل",
+    "shortClue": "صحرا کا پھل"
+  },
+  {
+    "word": "خوبانی",
+    "topics": [
+      "food"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "ہنزہ کا مشہور زرد پھل",
+    "shortClue": "ہنزہ کا پھل"
+  },
+  {
+    "word": "بادام",
+    "topics": [
+      "food"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "سخت چھلکے والا قیمتی خشک میوہ",
+    "shortClue": "خشک میوہ"
+  },
+  {
+    "word": "اخروٹ",
+    "topics": [
+      "food"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "دماغ جیسی گری والا میوہ",
+    "shortClue": "سخت گری"
+  },
+  {
+    "word": "پنیر",
+    "topics": [
+      "food"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "دودھ پھاڑ کر بنائی گئی ٹکیہ",
+    "shortClue": "دودھ کی ٹکیہ"
+  },
+  {
+    "word": "کھیر",
+    "topics": [
+      "food"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "دودھ اور چاول سے بنا میٹھا",
+    "shortClue": "دودھ چاول"
+  },
+  {
+    "word": "زردہ",
+    "topics": [
+      "food"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "زعفرانی رنگ کے میٹھے چاول",
+    "shortClue": "میٹھے چاول"
+  },
+  {
+    "word": "جلیبی",
+    "topics": [
+      "food"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "شیرے میں ڈوبی پیچ دار مٹھائی",
+    "shortClue": "پیچ دار مٹھائی"
+  },
+  {
+    "word": "سموسہ",
+    "topics": [
+      "food"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "آلو یا قیمے سے بھرا تکونا تلا پکوان",
+    "shortClue": "تکونا پکوان"
+  },
+  {
+    "word": "پکوڑا",
+    "topics": [
+      "food"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "بیسن میں لپیٹ کر تلا پکوان",
+    "shortClue": "بیسنی پکوان"
+  },
+  {
+    "word": "قیمہ",
+    "topics": [
+      "food"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "باریک کٹا ہوا گوشت",
+    "shortClue": "کٹا گوشت"
+  },
+  {
+    "word": "نہاری",
+    "topics": [
+      "food"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "رات بھر پکنے والا ناشتے کا شوربہ",
+    "shortClue": "صبح کا شوربہ"
+  },
+  {
+    "word": "حلیم",
+    "topics": [
+      "food"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "گوشت، گندم اور دالوں کا گاڑھا کھانا",
+    "shortClue": "گاڑھا کھانا"
+  },
+  {
+    "word": "اچار",
+    "topics": [
+      "food"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "تیل اور مصالحے میں ڈالا کھٹا آم یا لیموں",
+    "shortClue": "تیل کا کھٹا"
+  },
+  {
+    "word": "مصالحہ",
+    "topics": [
+      "food"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "کھانے کا مزہ بڑھانے والی پسی چیزیں",
+    "shortClue": "پسی چیزیں"
+  },
+  {
+    "word": "زیرہ",
+    "topics": [
+      "food"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "سالن میں بگھارے جانے والے ننھے بیج",
+    "shortClue": "ننھے بیج"
+  },
+  {
+    "word": "زعفران",
+    "topics": [
+      "food"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "سرخ ریشوں والا سب سے مہنگا مصالحہ",
+    "shortClue": "مہنگا مصالحہ"
+  },
+  {
+    "word": "سرکہ",
+    "topics": [
+      "food"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "کھٹا مائع جو اچار میں ڈالا جائے",
+    "shortClue": "کھٹا مائع"
+  },
+  {
+    "word": "قہوہ",
+    "topics": [
+      "food"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "بغیر دودھ کی سبز پتی کی چائے",
+    "shortClue": "سبز چائے"
+  },
+  {
+    "word": "کھچڑی",
+    "topics": [
+      "food"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "دال اور چاول ملا کر پکا کھانا",
+    "shortClue": "دال چاول"
+  },
+  {
+    "word": "ساگ",
+    "topics": [
+      "food"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "سرسوں کے پتوں کا پنجابی پکوان",
+    "shortClue": "سرسوں کا پکوان"
+  },
+  {
+    "word": "سرحد",
+    "topics": [
+      "geography"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "دو ملکوں کو جدا کرنے والی لکیر",
+    "shortClue": "ملکی لکیر"
+  },
+  {
+    "word": "ضلع",
+    "topics": [
+      "geography"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "صوبے کا ایک انتظامی حصہ",
+    "shortClue": "صوبے کا حصہ"
+  },
+  {
+    "word": "دارالحکومت",
+    "topics": [
+      "geography"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "ملک کا صدر مقام، جیسے اسلام آباد",
+    "shortClue": "صدر مقام"
+  },
+  {
+    "word": "خلیج",
+    "topics": [
+      "geography"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "خشکی میں گھسا سمندر کا حصہ",
+    "shortClue": "سمندری کھاڑی"
+  },
+  {
+    "word": "بندرگاہ",
+    "topics": [
+      "geography"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "جہاں جہاز لنگر ڈالتے ہیں",
+    "shortClue": "جہازوں کا ٹھکانا"
+  },
+  {
+    "word": "قطب",
+    "topics": [
+      "geography"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "زمین کا شمالی یا جنوبی سرا",
+    "shortClue": "زمین کا سرا"
+  },
+  {
+    "word": "شمال",
+    "topics": [
+      "geography"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "قطب نما کی سوئی جدھر اشارہ کرے",
+    "shortClue": "اتر"
+  },
+  {
+    "word": "جنوب",
+    "topics": [
+      "geography"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "قطب نما کی سوئی کے الٹ سمت",
+    "shortClue": "شمال کا الٹ"
+  },
+  {
+    "word": "چوٹی",
+    "topics": [
+      "geography"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "پہاڑ کا سب سے اونچا حصہ",
+    "shortClue": "پہاڑ کی نوک"
+  },
+  {
+    "word": "نخلستان",
+    "topics": [
+      "geography"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "صحرا میں پانی اور ہریالی کی جگہ",
+    "shortClue": "صحرا کی ہریالی"
+  },
+  {
+    "word": "قصبہ",
+    "topics": [
+      "geography"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "گاؤں سے بڑی اور شہر سے چھوٹی بستی",
+    "shortClue": "چھوٹی بستی"
+  },
+  {
+    "word": "دیہات",
+    "topics": [
+      "geography"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "کھیتوں کے بیچ بسے گاؤں",
+    "shortClue": "گاؤں"
+  },
+  {
+    "word": "ڈھلوان",
+    "topics": [
+      "geography"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "اترائی والی ترچھی زمین",
+    "shortClue": "اترائی"
+  },
+  {
+    "word": "ریگستان",
+    "topics": [
+      "geography"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "ریت کا وسیع خشک علاقہ",
+    "shortClue": "ریتلا علاقہ"
+  },
+  {
+    "word": "جغرافیہ",
+    "topics": [
+      "geography"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "زمین اور اس کے خطوں کا علم",
+    "shortClue": "زمین کا علم"
+  },
+  {
+    "word": "کوہستان",
+    "topics": [
+      "geography"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "پہاڑوں سے بھرا علاقہ",
+    "shortClue": "پہاڑی علاقہ"
+  },
+  {
+    "word": "نہر",
+    "topics": [
+      "geography"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "کھیتوں تک پانی لے جانے کی کھدی ہوئی راہ",
+    "shortClue": "آبی گزرگاہ"
+  },
+  {
+    "word": "بیراج",
+    "topics": [
+      "geography"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "دریا پر پانی روکنے اور بانٹنے کا بند",
+    "shortClue": "دریا کا بند"
+  },
+  {
+    "word": "سندھ",
+    "topics": [
+      "geography"
+    ],
+    "difficulty": 1,
+    "kind": "proper",
+    "clue": "پاکستان کا جنوبی صوبہ اور بڑا دریا",
+    "shortClue": "جنوبی صوبہ"
+  },
+  {
+    "word": "پنجاب",
+    "topics": [
+      "geography"
+    ],
+    "difficulty": 1,
+    "kind": "proper",
+    "clue": "پانچ دریاؤں کی سرزمین",
+    "shortClue": "پانچ دریا"
+  },
+  {
+    "word": "بلوچستان",
+    "topics": [
+      "geography"
+    ],
+    "difficulty": 1,
+    "kind": "proper",
+    "clue": "رقبے میں پاکستان کا سب سے بڑا صوبہ",
+    "shortClue": "رقبے میں بڑا"
+  },
+  {
+    "word": "راولپنڈی",
+    "topics": [
+      "geography"
+    ],
+    "difficulty": 1,
+    "kind": "proper",
+    "clue": "اسلام آباد کا جڑواں شہر",
+    "shortClue": "جڑواں شہر"
+  },
+  {
+    "word": "سیالکوٹ",
+    "topics": [
+      "geography"
+    ],
+    "difficulty": 2,
+    "kind": "proper",
+    "clue": "علامہ اقبال کی جائے پیدائش",
+    "shortClue": "اقبال کا شہر"
+  },
+  {
+    "word": "سوات",
+    "topics": [
+      "geography"
+    ],
+    "difficulty": 2,
+    "kind": "proper",
+    "clue": "خیبر پختونخوا کی سرسبز وادی",
+    "shortClue": "سرسبز وادی"
+  },
+  {
+    "word": "ہنزہ",
+    "topics": [
+      "geography"
+    ],
+    "difficulty": 2,
+    "kind": "proper",
+    "clue": "خوبانیوں کے لیے مشہور شمالی وادی",
+    "shortClue": "شمالی وادی"
+  },
+  {
+    "word": "راوی",
+    "topics": [
+      "geography"
+    ],
+    "difficulty": 2,
+    "kind": "proper",
+    "clue": "لاہور کے پاس سے بہنے والا دریا",
+    "shortClue": "لاہور کا دریا"
+  },
+  {
+    "word": "جہلم",
+    "topics": [
+      "geography"
+    ],
+    "difficulty": 2,
+    "kind": "proper",
+    "clue": "منگلا ڈیم والا دریا اور شہر",
+    "shortClue": "منگلا کا دریا"
+  },
+  {
+    "word": "چناب",
+    "topics": [
+      "geography"
+    ],
+    "difficulty": 3,
+    "kind": "proper",
+    "clue": "سوہنی کی داستان والا پنجاب کا دریا",
+    "shortClue": "سوہنی کا دریا"
+  },
+  {
+    "word": "ہمالیہ",
+    "topics": [
+      "geography"
+    ],
+    "difficulty": 1,
+    "kind": "proper",
+    "clue": "دنیا کا بلند ترین پہاڑی سلسلہ",
+    "shortClue": "بلند سلسلہ"
+  },
+  {
+    "word": "چین",
+    "topics": [
+      "geography"
+    ],
+    "difficulty": 1,
+    "kind": "proper",
+    "clue": "پاکستان کا شمالی پڑوسی ملک",
+    "shortClue": "شمالی پڑوسی"
+  },
+  {
+    "word": "ایران",
+    "topics": [
+      "geography"
+    ],
+    "difficulty": 1,
+    "kind": "proper",
+    "clue": "پاکستان کا مغربی ہمسایہ، تہران والا",
+    "shortClue": "تہران والا ملک"
+  },
+  {
+    "word": "مکہ",
+    "topics": [
+      "geography"
+    ],
+    "difficulty": 1,
+    "kind": "proper",
+    "clue": "خانہ کعبہ والا مقدس شہر",
+    "shortClue": "کعبہ کا شہر"
+  },
+  {
+    "word": "افریقہ",
+    "topics": [
+      "geography"
+    ],
+    "difficulty": 1,
+    "kind": "proper",
+    "clue": "مصر اور کینیا والا براعظم",
+    "shortClue": "کینیا کا براعظم"
+  },
+  {
+    "word": "ایشیا",
+    "topics": [
+      "geography"
+    ],
+    "difficulty": 1,
+    "kind": "proper",
+    "clue": "دنیا کا سب سے بڑا براعظم",
+    "shortClue": "بڑا براعظم"
+  },
+  {
+    "word": "بادشاہ",
+    "topics": [
+      "history"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "تخت پر بیٹھنے والا حکمران",
+    "shortClue": "سلطان"
+  },
+  {
+    "word": "تخت",
+    "topics": [
+      "history"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "حکمران کے بیٹھنے کی اونچی شاہی نشست",
+    "shortClue": "شاہی نشست"
+  },
+  {
+    "word": "سلطنت",
+    "topics": [
+      "history"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "کسی بادشاہ کے زیر حکومت علاقہ",
+    "shortClue": "مملکت"
+  },
+  {
+    "word": "نیزہ",
+    "topics": [
+      "history"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "لمبے ڈنڈے پر لگا نوکیلا پھل",
+    "shortClue": "برچھا"
+  },
+  {
+    "word": "زرہ",
+    "topics": [
+      "history"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "لوہے کی کڑیوں سے بنا جنگی لباس",
+    "shortClue": "جنگی لباس"
+  },
+  {
+    "word": "خنجر",
+    "topics": [
+      "history"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "دو دھاری چھوٹی چھری",
+    "shortClue": "کٹار"
+  },
+  {
+    "word": "مقبرہ",
+    "topics": [
+      "history"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "کسی بڑے کے مزار پر بنی عالیشان عمارت",
+    "shortClue": "مزار کی عمارت"
+  },
+  {
+    "word": "محراب",
+    "topics": [
+      "history"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "دروازے کا خمیدہ اوپری حصہ",
+    "shortClue": "خمدار در"
+  },
+  {
+    "word": "فصیل",
+    "topics": [
+      "history"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "پرانے شہر کے گرد اونچی دیوار",
+    "shortClue": "شہر پناہ"
+  },
+  {
+    "word": "خندق",
+    "topics": [
+      "history"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "قلعے کے گرد کھدی گہری کھائی",
+    "shortClue": "حفاظتی کھائی"
+  },
+  {
+    "word": "کھنڈر",
+    "topics": [
+      "history"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "پرانی عمارت کی ٹوٹی پھوٹی باقیات",
+    "shortClue": "ٹوٹی عمارت"
+  },
+  {
+    "word": "تہذیب",
+    "topics": [
+      "history"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "کسی قوم کا رہن سہن، فنون اور اطوار",
+    "shortClue": "ثقافت"
+  },
+  {
+    "word": "قافلہ",
+    "topics": [
+      "history"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "ساتھ سفر کرتے لوگوں کی ٹولی",
+    "shortClue": "کارواں"
+  },
+  {
+    "word": "جاگیر",
+    "topics": [
+      "history"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "بادشاہ کی طرف سے عطا کی گئی زمین",
+    "shortClue": "عطا کی زمین"
+  },
+  {
+    "word": "نواب",
+    "topics": [
+      "history"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "ریاست کا امیر حکمران",
+    "shortClue": "رئیس"
+  },
+  {
+    "word": "منجنیق",
+    "topics": [
+      "history"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "پتھر پھینکنے کا قدیم جنگی آلہ",
+    "shortClue": "پتھر پھینک"
+  },
+  {
+    "word": "بگل",
+    "topics": [
+      "history"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "فوجی دھن بجانے کا باجا",
+    "shortClue": "فوجی باجا"
+  },
+  {
+    "word": "دربار",
+    "topics": [
+      "history"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "بادشاہ کی محفل جہاں فیصلے سنائے جائیں",
+    "shortClue": "شاہی محفل"
+  },
+  {
+    "word": "سفیر",
+    "topics": [
+      "history"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "دوسرے ملک میں اپنی قوم کا نمائندہ",
+    "shortClue": "ایلچی"
+  },
+  {
+    "word": "قزاق",
+    "topics": [
+      "history"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "سمندر میں جہاز لوٹنے والا",
+    "shortClue": "بحری ڈاکو"
+  },
+  {
+    "word": "چرخہ",
+    "topics": [
+      "history"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "سوت کاتنے کا لکڑی کا پہیہ",
+    "shortClue": "کاتنے کا پہیہ"
+  },
+  {
+    "word": "مخطوطہ",
+    "topics": [
+      "history"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "ہاتھ سے لکھا ہوا پرانا نسخہ",
+    "shortClue": "قلمی نسخہ"
+  },
+  {
+    "word": "رتھ",
+    "topics": [
+      "history"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "گھوڑوں سے کھنچنے والی قدیم جنگی سواری",
+    "shortClue": "جنگی گاڑی"
+  },
+  {
+    "word": "خراج",
+    "topics": [
+      "history"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "مغلوب علاقے سے لیا جانے والا مال",
+    "shortClue": "باج"
+  },
+  {
+    "word": "دماغ",
+    "topics": [
+      "science"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "سر میں سوچنے سمجھنے کا عضو",
+    "shortClue": "سوچ کا عضو"
+  },
+  {
+    "word": "پھیپھڑا",
+    "topics": [
+      "science"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "سینے میں سانس لینے کا عضو",
+    "shortClue": "سانس کا عضو"
+  },
+  {
+    "word": "گردہ",
+    "topics": [
+      "science"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "خون صاف کر کے پیشاب بنانے والا عضو",
+    "shortClue": "صفائی کا عضو"
+  },
+  {
+    "word": "جگر",
+    "topics": [
+      "science"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "جسم کا سب سے بڑا اندرونی عضو",
+    "shortClue": "بڑا عضو"
+  },
+  {
+    "word": "پسینہ",
+    "topics": [
+      "science"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "گرمی میں جلد سے نکلتا نمکین پانی",
+    "shortClue": "جلد کا پانی"
+  },
+  {
+    "word": "بخار",
+    "topics": [
+      "science"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "جسم کی معمول سے بڑھی ہوئی گرمی",
+    "shortClue": "تیز تپش"
+  },
+  {
+    "word": "حرارت",
+    "topics": [
+      "science"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "گرمی کی مقدار جو تھرمامیٹر ناپے",
+    "shortClue": "تپش"
+  },
+  {
+    "word": "بھاپ",
+    "topics": [
+      "science"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "ابلتے پانی سے اٹھنے والی گیس",
+    "shortClue": "اڑتا پانی"
+  },
+  {
+    "word": "تیزاب",
+    "topics": [
+      "science"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "دھات کو گلا دینے والا کھٹا مائع",
+    "shortClue": "گلانے والا"
+  },
+  {
+    "word": "تانبا",
+    "topics": [
+      "science"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "بجلی کی تاروں والی سرخی مائل دھات",
+    "shortClue": "سرخ دھات"
+  },
+  {
+    "word": "پارہ",
+    "topics": [
+      "science"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "تھرمامیٹر میں چمکنے والی مائع دھات",
+    "shortClue": "مائع دھات"
+  },
+  {
+    "word": "زنگ",
+    "topics": [
+      "science"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "نمی سے لوہے پر جمی بھوری تہ",
+    "shortClue": "بھوری تہ"
+  },
+  {
+    "word": "خلا",
+    "topics": [
+      "science"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "زمین کی فضا سے پرے کی وسعت",
+    "shortClue": "بیرونی فضا"
+  },
+  {
+    "word": "کرہ",
+    "topics": [
+      "science"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "گیند جیسی گول ٹھوس شکل",
+    "shortClue": "گولا"
+  },
+  {
+    "word": "زاویہ",
+    "topics": [
+      "science"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "دو لکیروں کے ملنے سے بنا کونا",
+    "shortClue": "کونا"
+  },
+  {
+    "word": "تفریق",
+    "topics": [
+      "science"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "بڑے عدد سے چھوٹا عدد گھٹانا",
+    "shortClue": "منفی کرنا"
+  },
+  {
+    "word": "ضرب",
+    "topics": [
+      "science"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "کسی عدد کو کئی گنا کرنا",
+    "shortClue": "گنا کرنا"
+  },
+  {
+    "word": "تقسیم",
+    "topics": [
+      "science"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "عدد کو برابر حصوں میں بانٹنا",
+    "shortClue": "بٹوارا"
+  },
+  {
+    "word": "ہندسہ",
+    "topics": [
+      "science"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "گنتی لکھنے کی علامت",
+    "shortClue": "عدد"
+  },
+  {
+    "word": "پیمانہ",
+    "topics": [
+      "science"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "لمبائی یا مقدار ناپنے کا آلہ",
+    "shortClue": "ناپ کا آلہ"
+  },
+  {
+    "word": "کیمیا",
+    "topics": [
+      "science"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "مادوں کی بناوٹ اور ملاپ کا علم",
+    "shortClue": "مادوں کا علم"
+  },
+  {
+    "word": "طبیعیات",
+    "topics": [
+      "science"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "حرکت، روشنی اور قوت کا علم",
+    "shortClue": "قوت کا علم"
+  },
+  {
+    "word": "حیاتیات",
+    "topics": [
+      "science"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "جانداروں کا علم",
+    "shortClue": "جانداروں کا علم"
+  },
+  {
+    "word": "فلکیات",
+    "topics": [
+      "science"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "ستاروں اور سیاروں کا علم",
+    "shortClue": "ستاروں کا علم"
+  },
+  {
+    "word": "نباتات",
+    "topics": [
+      "science"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "پودوں کا علم",
+    "shortClue": "پودوں کا علم"
+  },
+  {
+    "word": "گونج",
+    "topics": [
+      "science"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "پہاڑ سے ٹکرا کر پلٹتی آواز",
+    "shortClue": "بازگشت"
+  },
+  {
+    "word": "عدسہ",
+    "topics": [
+      "science"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "روشنی کو موڑنے والا محدب یا مقعر شیشہ",
+    "shortClue": "محدب شیشہ"
+  },
+  {
+    "word": "پٹھا",
+    "topics": [
+      "science"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "جسم کو حرکت دینے والا گوشت کا ریشہ",
+    "shortClue": "عضلہ"
+  },
+  {
+    "word": "کھوپڑی",
+    "topics": [
+      "science"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "دماغ کی حفاظت کرنے والی ہڈی",
+    "shortClue": "سر کی ہڈی"
+  },
+  {
+    "word": "بلا",
+    "topics": [
+      "sport"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "کرکٹ میں گیند کو مارنے کا لکڑی کا آلہ",
+    "shortClue": "لکڑی کا آلہ"
+  },
+  {
+    "word": "کپتان",
+    "topics": [
+      "sport"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "ٹیم کی قیادت کرنے والا",
+    "shortClue": "ٹیم کا سربراہ"
+  },
+  {
+    "word": "کھلاڑی",
+    "topics": [
+      "sport"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "ٹیم کا رکن جو میدان میں اترے",
+    "shortClue": "ٹیم کا رکن"
+  },
+  {
+    "word": "پہلوان",
+    "topics": [
+      "sport"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "اکھاڑے میں زور آزمانے والا طاقتور",
+    "shortClue": "زور آزما"
+  },
+  {
+    "word": "اکھاڑا",
+    "topics": [
+      "sport"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "کشتی لڑنے کی جگہ",
+    "shortClue": "دنگل کی جگہ"
+  },
+  {
+    "word": "کبڈی",
+    "topics": [
+      "sport"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "سانس روک کر کھیلا جانے والا دیہی کھیل",
+    "shortClue": "دیہی کھیل"
+  },
+  {
+    "word": "شطرنج",
+    "topics": [
+      "sport"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "شاہ، وزیر اور پیادوں کا بساط والا کھیل",
+    "shortClue": "بساط کا کھیل"
+  },
+  {
+    "word": "پیادہ",
+    "topics": [
+      "sport"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "شطرنج کا سب سے کم قدر مہرہ",
+    "shortClue": "ادنی مہرہ"
+  },
+  {
+    "word": "مہرہ",
+    "topics": [
+      "sport"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "بساط پر چلی جانے والی گوٹ",
+    "shortClue": "گوٹ"
+  },
+  {
+    "word": "کیرم",
+    "topics": [
+      "sport"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "انگلی سے گوٹیں دھکیلنے کا تختہ",
+    "shortClue": "تختے کا کھیل"
+  },
+  {
+    "word": "پولو",
+    "topics": [
+      "sport"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "شندور میں گھوڑوں پر کھیلا جانے والا کھیل",
+    "shortClue": "گھڑ سوار کھیل"
+  },
+  {
+    "word": "فٹبال",
+    "topics": [
+      "sport"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "پاؤں سے گیند کو جال میں ڈالنے کا کھیل",
+    "shortClue": "پاؤں کا کھیل"
+  },
+  {
+    "word": "سکواش",
+    "topics": [
+      "sport"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "جہانگیر خان کا کھیل، بند کمرے میں ریکٹ اور دیوار",
+    "shortClue": "جہانگیر کا کھیل"
+  },
+  {
+    "word": "اوور",
+    "topics": [
+      "sport"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "کرکٹ میں ایک باؤلر کی چھ گیندیں",
+    "shortClue": "چھ گیندیں"
+  },
+  {
+    "word": "چھکا",
+    "topics": [
+      "sport"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "گیند ہوا میں باؤنڈری پار، چھ رن",
+    "shortClue": "چھ رن"
+  },
+  {
+    "word": "چوکا",
+    "topics": [
+      "sport"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "گیند لڑھک کر باؤنڈری پار، چار رن",
+    "shortClue": "چار رن"
+  },
+  {
+    "word": "فاتح",
+    "topics": [
+      "sport"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "مقابلہ جیتنے والا",
+    "shortClue": "جیتنے والا"
+  },
+  {
+    "word": "مقابلہ",
+    "topics": [
+      "sport"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "جیت کے لیے آمنا سامنا",
+    "shortClue": "جیت کی دوڑ"
+  },
+  {
+    "word": "تمغہ",
+    "topics": [
+      "sport"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "جیتنے والے کو ملنے والا دھاتی نشان",
+    "shortClue": "دھاتی نشان"
+  },
+  {
+    "word": "چھلانگ",
+    "topics": [
+      "sport"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "زور سے اچھل کر کودنا",
+    "shortClue": "لمبی کود"
+  },
+  {
+    "word": "نشانہ",
+    "topics": [
+      "sport"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "تیر یا گولی کا ہدف",
+    "shortClue": "ہدف"
+  },
+  {
+    "word": "شاعر",
+    "topics": [
+      "arts"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "غزلیں اور نظمیں کہنے والا",
+    "shortClue": "سخن ور"
+  },
+  {
+    "word": "داستان",
+    "topics": [
+      "arts"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "لمبا قصہ جو کئی راتوں میں سنایا جائے",
+    "shortClue": "طویل قصہ"
+  },
+  {
+    "word": "افسانہ",
+    "topics": [
+      "arts"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "نثر میں لکھی مختصر کہانی",
+    "shortClue": "مختصر کہانی"
+  },
+  {
+    "word": "مصور",
+    "topics": [
+      "arts"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "رنگوں سے فن پارے بنانے والا",
+    "shortClue": "رنگوں کا فنکار"
+  },
+  {
+    "word": "ستار",
+    "topics": [
+      "arts"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "تاروں والا کلاسیکی ساز",
+    "shortClue": "کلاسیکی ساز"
+  },
+  {
+    "word": "طبلہ",
+    "topics": [
+      "arts"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "ہاتھ کی تھاپ سے بجنے والی جوڑی",
+    "shortClue": "تھاپ کا ساز"
+  },
+  {
+    "word": "بانسری",
+    "topics": [
+      "arts"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "پھونک سے بجنے والی سوراخ دار نلکی",
+    "shortClue": "پھونک کا ساز"
+  },
+  {
+    "word": "ہارمونیم",
+    "topics": [
+      "arts"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "قوالی میں بجنے والا دھونکنی والا باجا",
+    "shortClue": "دھونکنی باجا"
+  },
+  {
+    "word": "سارنگی",
+    "topics": [
+      "arts"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "گز سے بجایا جانے والا تار دار ساز",
+    "shortClue": "گز کا ساز"
+  },
+  {
+    "word": "رباب",
+    "topics": [
+      "arts"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "پشتو موسیقی کا تار والا ساز",
+    "shortClue": "پشتو ساز"
+  },
+  {
+    "word": "راگ",
+    "topics": [
+      "arts"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "کلاسیکی موسیقی میں سروں کا مقررہ ڈھانچہ",
+    "shortClue": "سروں کا ڈھانچہ"
+  },
+  {
+    "word": "گلوکار",
+    "topics": [
+      "arts"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "گانے والا فنکار",
+    "shortClue": "گائیک"
+  },
+  {
+    "word": "رقاص",
+    "topics": [
+      "arts"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "ناچنے والا فنکار",
+    "shortClue": "ناچنے والا"
+  },
+  {
+    "word": "کتھک",
+    "topics": [
+      "arts"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "گھنگھروؤں والا کلاسیکی رقص",
+    "shortClue": "کلاسیکی رقص"
+  },
+  {
+    "word": "اداکار",
+    "topics": [
+      "arts"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "فلم یا ڈرامے میں کردار نبھانے والا",
+    "shortClue": "پردے کا فنکار"
+  },
+  {
+    "word": "کردار",
+    "topics": [
+      "arts"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "کہانی یا ڈرامے کا کوئی فرد",
+    "shortClue": "قصے کا فرد"
+  },
+  {
+    "word": "خطاطی",
+    "topics": [
+      "arts"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "قلم سے حروف کو سجا کر لکھنے کا فن",
+    "shortClue": "لکھائی کا فن"
+  },
+  {
+    "word": "نقاش",
+    "topics": [
+      "arts"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "دیواروں پر بیل بوٹے بنانے والا",
+    "shortClue": "بیل بوٹے ساز"
+  },
+  {
+    "word": "مشاعرہ",
+    "topics": [
+      "arts"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "غزلیں اور نظمیں سنانے کی محفل",
+    "shortClue": "سخن کی محفل"
+  },
+  {
+    "word": "ردیف",
+    "topics": [
+      "arts"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "غزل میں قافیے کے بعد بار بار آنے والا لفظ",
+    "shortClue": "دہرایا لفظ"
+  },
+  {
+    "word": "قافیہ",
+    "topics": [
+      "arts"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "شعر کے آخر میں ہم آواز لفظ",
+    "shortClue": "ہم آواز لفظ"
+  },
+  {
+    "word": "مصرع",
+    "topics": [
+      "arts"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "شعر کی ایک سطر",
+    "shortClue": "آدھا شعر"
+  },
+  {
+    "word": "ادب",
+    "topics": [
+      "arts"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "شعر و نثر کا ذخیرہ",
+    "shortClue": "شعر و نثر"
+  },
+  {
+    "word": "فنکار",
+    "topics": [
+      "arts"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "کسی ہنر میں کمال رکھنے والا",
+    "shortClue": "ہنرمند"
+  },
+  {
+    "word": "سنگتراش",
+    "topics": [
+      "arts"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "پتھر کو مجسمے میں ڈھالنے والا",
+    "shortClue": "پتھر کا فنکار"
+  },
+  {
+    "word": "قصیدہ",
+    "topics": [
+      "arts"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "کسی کی تعریف میں کہی گئی لمبی نظم",
+    "shortClue": "مدحیہ نظم"
+  },
+  {
+    "word": "کمرہ",
+    "topics": [
+      "home"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "مکان کا چار دیواری والا حصہ",
+    "shortClue": "مکان کا حصہ"
+  },
+  {
+    "word": "دیوار",
+    "topics": [
+      "home"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "کمرے کو گھیرنے والی اینٹوں کی سطح",
+    "shortClue": "اینٹوں کی سطح"
+  },
+  {
+    "word": "چولہا",
+    "topics": [
+      "home"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "جس پر ہانڈی پکتی ہے",
+    "shortClue": "آگ کی جگہ"
+  },
+  {
+    "word": "ہانڈی",
+    "topics": [
+      "home"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "سالن پکانے کا برتن",
+    "shortClue": "پکانے کا برتن"
+  },
+  {
+    "word": "دیگچی",
+    "topics": [
+      "home"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "ڈھکن والا پکانے کا چھوٹا برتن",
+    "shortClue": "پتیلی"
+  },
+  {
+    "word": "رکابی",
+    "topics": [
+      "home"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "کھانا رکھنے کی چپٹی تھالی",
+    "shortClue": "تھالی"
+  },
+  {
+    "word": "صراحی",
+    "topics": [
+      "home"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "پانی ٹھنڈا رکھنے کا لمبی گردن والا برتن",
+    "shortClue": "لمبی گردن"
+  },
+  {
+    "word": "جھاڑو",
+    "topics": [
+      "home"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "فرش صاف کرنے کا تیلیوں کا گچھا",
+    "shortClue": "صفائی کا آلہ"
+  },
+  {
+    "word": "بالٹی",
+    "topics": [
+      "home"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "پانی بھرنے کا کنڈے والا برتن",
+    "shortClue": "پانی کا ڈول"
+  },
+  {
+    "word": "تولیہ",
+    "topics": [
+      "home"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "نہا کر بدن پونچھنے کا کپڑا",
+    "shortClue": "پونچھنے کا کپڑا"
+  },
+  {
+    "word": "قالین",
+    "topics": [
+      "home"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "فرش پر بچھا نقش دار موٹا کپڑا",
+    "shortClue": "غالیچہ"
+  },
+  {
+    "word": "پنکھا",
+    "topics": [
+      "home"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "چھت سے لٹک کر ہوا دینے والا",
+    "shortClue": "ہوا دینے والا"
+  },
+  {
+    "word": "الماری",
+    "topics": [
+      "home"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "کپڑے رکھنے کا دروازوں والا خانہ",
+    "shortClue": "کپڑوں کا خانہ"
+  },
+  {
+    "word": "صندوق",
+    "topics": [
+      "home"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "سامان رکھنے کا بڑا ڈبا",
+    "shortClue": "بکسا"
+  },
+  {
+    "word": "تجوری",
+    "topics": [
+      "home"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "قیمتی چیزیں رکھنے کی لوہے کی الماری",
+    "shortClue": "لوہے کا خانہ"
+  },
+  {
+    "word": "دھاگہ",
+    "topics": [
+      "home"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "سلائی کا پتلا تار",
+    "shortClue": "سوت"
+  },
+  {
+    "word": "قینچی",
+    "topics": [
+      "home"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "کپڑا کاٹنے کا دو پھلوں والا اوزار",
+    "shortClue": "کترنی"
+  },
+  {
+    "word": "دوپٹہ",
+    "topics": [
+      "home"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "عورتوں کا سر اور کندھے ڈھانپنے کا کپڑا",
+    "shortClue": "اوڑھنی"
+  },
+  {
+    "word": "کرتا",
+    "topics": [
+      "home"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "لمبی آستینوں والی ڈھیلی قمیص",
+    "shortClue": "ڈھیلی قمیص"
+  },
+  {
+    "word": "کھونٹی",
+    "topics": [
+      "home"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "دیوار پر کپڑے ٹانگنے کی میخ",
+    "shortClue": "ٹانگنے کی میخ"
+  },
+  {
+    "word": "موڑھا",
+    "topics": [
+      "home"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "بید سے بنی گول نشست",
+    "shortClue": "بید کی نشست"
+  },
+  {
+    "word": "پیڑھی",
+    "topics": [
+      "home"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "زمین کے قریب نیچی چوکی",
+    "shortClue": "نیچی چوکی"
+  },
+  {
+    "word": "کواڑ",
+    "topics": [
+      "home"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "دروازے کا لکڑی کا پٹ",
+    "shortClue": "دروازے کا پٹ"
+  },
+  {
+    "word": "چوکھٹ",
+    "topics": [
+      "home"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "دروازے کی لکڑی کا ڈھانچہ",
+    "shortClue": "در کا ڈھانچہ"
+  },
+  {
+    "word": "دہلیز",
+    "topics": [
+      "home"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "دروازے کی نچلی لکڑی جس پر قدم پڑے",
+    "shortClue": "در کی سل"
+  },
+  {
+    "word": "استری",
+    "topics": [
+      "home"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "کپڑوں کی سلوٹیں مٹانے کا گرم آلہ",
+    "shortClue": "سلوٹ مٹائے"
+  },
+  {
+    "word": "چمٹا",
+    "topics": [
+      "home"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "انگارے یا روٹی پکڑنے کا دو بازوؤں والا آلہ",
+    "shortClue": "پکڑنے کا آلہ"
+  },
+  {
+    "word": "جھولا",
+    "topics": [
+      "home"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "رسیوں سے لٹکی آگے پیچھے ہلتی نشست",
+    "shortClue": "لٹکی نشست"
+  },
+  {
+    "word": "گلدان",
+    "topics": [
+      "home"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "پھول سجانے کا برتن",
+    "shortClue": "پھولوں کا برتن"
+  },
+  {
+    "word": "دھوبی",
+    "topics": [
+      "professions"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "میلے کپڑے صاف کرنے والا",
+    "shortClue": "کپڑے نکھارنے والا"
+  },
+  {
+    "word": "سنار",
+    "topics": [
+      "professions"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "زیور گھڑنے والا",
+    "shortClue": "زرگر"
+  },
+  {
+    "word": "ترکھان",
+    "topics": [
+      "professions"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "لکڑی کا کام کرنے والا",
+    "shortClue": "نجار"
+  },
+  {
+    "word": "کمہار",
+    "topics": [
+      "professions"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "چاک پر مٹی کے برتن بنانے والا",
+    "shortClue": "کوزہ گر"
+  },
+  {
+    "word": "جولاہا",
+    "topics": [
+      "professions"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "کھڈی پر کپڑا بننے والا",
+    "shortClue": "بافندہ"
+  },
+  {
+    "word": "چوکیدار",
+    "topics": [
+      "professions"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "رات کو پہرا دینے والا",
+    "shortClue": "پہرے دار"
+  },
+  {
+    "word": "ڈاکیا",
+    "topics": [
+      "professions"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "خط گھر گھر پہنچانے والا",
+    "shortClue": "خط والا"
+  },
+  {
+    "word": "دکاندار",
+    "topics": [
+      "professions"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "سودا بیچنے والا",
+    "shortClue": "بیوپاری"
+  },
+  {
+    "word": "منشی",
+    "topics": [
+      "professions"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "حساب کتاب لکھنے والا کاتب",
+    "shortClue": "محرر"
+  },
+  {
+    "word": "صحافی",
+    "topics": [
+      "professions"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "اخبار کے لیے خبریں لکھنے والا",
+    "shortClue": "اخبار نویس"
+  },
+  {
+    "word": "مترجم",
+    "topics": [
+      "professions"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "ایک زبان کی بات دوسری میں ڈھالنے والا",
+    "shortClue": "زبان دان"
+  },
+  {
+    "word": "ملاح",
+    "topics": [
+      "professions"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "کشتی چلانے والا",
+    "shortClue": "ناخدا"
+  },
+  {
+    "word": "چرواہا",
+    "topics": [
+      "professions"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "ریوڑ کا رکھوالا",
+    "shortClue": "ریوڑ والا"
+  },
+  {
+    "word": "کوچوان",
+    "topics": [
+      "professions"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "تانگہ چلانے والا",
+    "shortClue": "تانگے والا"
+  },
+  {
+    "word": "مستری",
+    "topics": [
+      "professions"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "مکان کی چنائی کرنے والا کاریگر",
+    "shortClue": "چنائی والا"
+  },
+  {
+    "word": "خاکروب",
+    "topics": [
+      "professions"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "گلیاں اور گھر صاف کرنے والا",
+    "shortClue": "صفائی والا"
+  },
+  {
+    "word": "سپیرا",
+    "topics": [
+      "professions"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "بین بجا کر سانپ نچانے والا",
+    "shortClue": "سانپ والا"
+  },
+  {
+    "word": "مداری",
+    "topics": [
+      "professions"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "بندر اور ریچھ نچانے والا تماشا گر",
+    "shortClue": "تماشا گر"
+  },
+  {
+    "word": "خانساماں",
+    "topics": [
+      "professions"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "گھر کا باورچی",
+    "shortClue": "گھر کا باورچی"
+  },
+  {
+    "word": "معلم",
+    "topics": [
+      "professions"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "بچوں کو پڑھانے والا",
+    "shortClue": "مدرس"
+  },
+  {
+    "word": "طبیب",
+    "topics": [
+      "professions"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "جڑی بوٹیوں سے علاج کرنے والا",
+    "shortClue": "حکیم"
+  },
+  {
+    "word": "نجومی",
+    "topics": [
+      "professions"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "ستاروں سے قسمت کا حال بتانے والا",
+    "shortClue": "ستارہ شناس"
+  },
+  {
+    "word": "قلی",
+    "topics": [
+      "professions"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "اسٹیشن پر سامان اٹھانے والا",
+    "shortClue": "سامان بردار"
+  },
+  {
+    "word": "مصنف",
+    "topics": [
+      "professions"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "کتاب لکھنے والا",
+    "shortClue": "ادیب"
+  },
+  {
+    "word": "کاتب",
+    "topics": [
+      "professions"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "خوش خط نقل لکھنے والا",
+    "shortClue": "نقل نویس"
+  },
+  {
+    "word": "رمضان",
+    "topics": [
+      "localCulture"
+    ],
+    "difficulty": 1,
+    "kind": "proper",
+    "clue": "روزوں کا مہینہ",
+    "shortClue": "روزوں کا مہینہ"
+  },
+  {
+    "word": "افطار",
+    "topics": [
+      "localCulture"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "شام کو روزہ کھولنے کا کھانا",
+    "shortClue": "روزہ کشائی"
+  },
+  {
+    "word": "بارات",
+    "topics": [
+      "localCulture"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "دولہا کے ساتھ دلہن کے گھر جانے والے لوگ",
+    "shortClue": "دولہا کے ساتھی"
+  },
+  {
+    "word": "دولہا",
+    "topics": [
+      "localCulture"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "سہرا باندھے شادی کا لڑکا",
+    "shortClue": "سہرے والا"
+  },
+  {
+    "word": "سہرا",
+    "topics": [
+      "localCulture"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "شادی پر لڑکے کے چہرے پر لٹکتی پھولوں کی لڑیاں",
+    "shortClue": "پھولوں کی لڑی"
+  },
+  {
+    "word": "ولیمہ",
+    "topics": [
+      "localCulture"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "شادی کے بعد لڑکے والوں کی دعوت",
+    "shortClue": "شادی کی دعوت"
+  },
+  {
+    "word": "جہیز",
+    "topics": [
+      "localCulture"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "دلہن کے ساتھ دیا جانے والا سامان",
+    "shortClue": "دلہن کا سامان"
+  },
+  {
+    "word": "جھومر",
+    "topics": [
+      "localCulture"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "ماتھے پر سجنے والا زیور",
+    "shortClue": "ماتھے کا زیور"
+  },
+  {
+    "word": "پراندہ",
+    "topics": [
+      "localCulture"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "چوٹی میں گوندھا رنگین ریشمی گچھا",
+    "shortClue": "چوٹی کا گچھا"
+  },
+  {
+    "word": "کھسہ",
+    "topics": [
+      "localCulture"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "کڑھائی والا نوک دار جوتا",
+    "shortClue": "نوک دار جوتا"
+  },
+  {
+    "word": "رلی",
+    "topics": [
+      "localCulture"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "سندھ کی رنگین ٹکڑوں سے سلی چادر",
+    "shortClue": "سندھی چادر"
+  },
+  {
+    "word": "تانگہ",
+    "topics": [
+      "localCulture"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "گھوڑے سے کھینچی جانے والی سواری",
+    "shortClue": "گھوڑا گاڑی"
+  },
+  {
+    "word": "ڈھابہ",
+    "topics": [
+      "localCulture"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "سڑک کنارے کا سستا کھانے کا ٹھکانا",
+    "shortClue": "سڑک کا ہوٹل"
+  },
+  {
+    "word": "عرس",
+    "topics": [
+      "localCulture"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "بزرگ کے مزار پر ہر سال لگنے والا میلہ",
+    "shortClue": "مزار کا میلہ"
+  },
+  {
+    "word": "لنگر",
+    "topics": [
+      "localCulture"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "مزار پر مفت بانٹا جانے والا کھانا",
+    "shortClue": "مفت کھانا"
+  },
+  {
+    "word": "دمال",
+    "topics": [
+      "localCulture"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "مزار پر ڈھول کی تھاپ پر صوفیانہ رقص",
+    "shortClue": "صوفی رقص"
+  },
+  {
+    "word": "بھنگڑا",
+    "topics": [
+      "localCulture"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "ڈھول پر اچھل کود کا پنجابی ناچ",
+    "shortClue": "پنجابی ناچ"
+  },
+  {
+    "word": "اتن",
+    "topics": [
+      "localCulture"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "پشتونوں کا دائرے میں رقص",
+    "shortClue": "پشتون رقص"
+  },
+  {
+    "word": "ماہیا",
+    "topics": [
+      "localCulture"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "پنجابی لوک گیت کی ایک صنف",
+    "shortClue": "لوک گیت"
+  },
+  {
+    "word": "دسترخوان",
+    "topics": [
+      "localCulture"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "کھانا چننے کے لیے بچھایا جانے والا کپڑا",
+    "shortClue": "کھانے کی بساط"
+  },
+  {
+    "word": "بیٹھک",
+    "topics": [
+      "localCulture"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "گھر میں مہمانوں کی نشست گاہ",
+    "shortClue": "مہمان خانہ"
+  },
+  {
+    "word": "حویلی",
+    "topics": [
+      "localCulture"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "پرانی طرز کا بڑا خاندانی گھر",
+    "shortClue": "بڑا گھر"
+  },
+  {
+    "word": "چوپال",
+    "topics": [
+      "localCulture"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "گاؤں کے بزرگوں کی محفل کی جگہ",
+    "shortClue": "گاؤں کی محفل"
+  },
+  {
+    "word": "پنچایت",
+    "topics": [
+      "localCulture"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "گاؤں کے بڑوں کی فیصلہ کرنے والی مجلس",
+    "shortClue": "دیہی مجلس"
+  },
+  {
+    "word": "گجرا",
+    "topics": [
+      "localCulture"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "کلائی پر باندھا موتیے کے پھولوں کا ہار",
+    "shortClue": "پھولوں کا کنگن"
+  },
+  {
+    "word": "ہیر",
+    "topics": [
+      "localCulture"
+    ],
+    "difficulty": 2,
+    "kind": "proper",
+    "clue": "وارث شاہ کی مشہور داستان میں رانجھے کی محبوبہ",
+    "shortClue": "رانجھے کی محبوبہ"
+  },
+  {
+    "word": "سسی",
+    "topics": [
+      "localCulture"
+    ],
+    "difficulty": 3,
+    "kind": "proper",
+    "clue": "پنوں کی محبوبہ، سندھ کی لوک داستان",
+    "shortClue": "پنوں کی محبوبہ"
+  },
+  {
+    "word": "اقبال",
+    "topics": [
+      "localCulture"
+    ],
+    "difficulty": 1,
+    "kind": "proper",
+    "clue": "شاعر مشرق کہلانے والے شاعر",
+    "shortClue": "شاعر مشرق"
+  },
+  {
+    "word": "غالب",
+    "topics": [
+      "localCulture"
+    ],
+    "difficulty": 2,
+    "kind": "proper",
+    "clue": "دلی کے عظیم غزل گو، مرزا اسد اللہ خان",
+    "shortClue": "دلی کا مرزا"
+  },
+  {
+    "word": "شالیمار",
+    "topics": [
+      "localCulture"
+    ],
+    "difficulty": 2,
+    "kind": "proper",
+    "clue": "لاہور کا مغلیہ دور کا باغ",
+    "shortClue": "مغل باغ"
+  },
+  {
+    "word": "اردو",
+    "topics": [
+      "localCulture"
+    ],
+    "difficulty": 1,
+    "kind": "proper",
+    "clue": "پاکستان کی قومی زبان",
+    "shortClue": "قومی زبان"
+  },
+  {
+    "word": "پشتو",
+    "topics": [
+      "localCulture"
+    ],
+    "difficulty": 2,
+    "kind": "proper",
+    "clue": "پختونوں کی زبان",
+    "shortClue": "پختونوں کی زبان"
+  }
+]

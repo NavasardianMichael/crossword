@@ -155,11 +155,11 @@ so they eat never-served words before anything else, and a daily wanting fresh w
 | | Languages | Claude-written words |
 |---|---|---|
 | Done (reviewed: flagged facts checked, a sample read, fixes applied) | en, ru, hy, de, it, pl, pt, es, fr, nl, ro, sv, cs | `01.json`, 500 each — 6,500 |
-| Done on the second machine (checker passes) | el, hu, uk, id, ms, vi, ja, ko | `01.json`, 500 each — 4,000 |
+| Done on the second machine (reviewed) | el, hu, uk, id, ms, vi, ja, ko, ur | `01.json`, 500 each — 4,500 |
 | Done on the first machine, 2026-11-27 (reviewed) | zh, ar, fa, he, hi, th, sw, mr, ta, bn, fil | `01.json`, 500 each — 5,500 |
-| **Not started** | **ur** | none: their first file is `01.json` |
+| **Next: a second file** | en, ru, hy, de, then by traffic | `02.json`, 500 each |
 
-16,000 Claude-written words in 32 languages. Update this table in the same commit as the seed files.
+16,500 Claude-written words in all 33 languages. Update this table in the same commit as the seed files.
 
 Lessons from the first round, already folded into the brief: proper nouns keep their capital;
 compounds and words that merely share a root may coexist (only forms and close derivatives of one
@@ -170,7 +170,7 @@ were wrong: a misquoted Мойдодыр line and an ambiguous "smallest Wadden 
 six hit the 5-hour usage limit after about seven languages; a stopped writer resumes with
 SendMessage once the limit resets.
 
-So the next round writes `01.json` for the 1 language not started, then `02.json` for the rest.
+Every language has its `01.json`; the next rounds write `02.json`, en, ru, hy first, then by traffic.
 `seed-status.ts` is the live truth and supersedes this table; a language whose `claude/` folder is
 missing or empty simply has not started. A file that does not pass `check-seed.ts` (a writer stopped
 mid-file) must be finished or deleted before committing — never commit one half-written.
