@@ -157,10 +157,10 @@ so they eat never-served words before anything else, and a daily wanting fresh w
 | Done (reviewed: flagged facts checked, a sample read, fixes applied) | en, ru, hy, de, it, pl, pt, es, fr, nl, ro, sv, cs | `01.json`, 500 each — 6,500 |
 | Done on the second machine (reviewed) | el, hu, uk, id, ms, vi, ja, ko, ur | `01.json`, 500 each — 4,500 |
 | Done on the first machine, 2026-11-27 (reviewed) | zh, ar, fa, he, hi, th, sw, mr, ta, bn, fil | `01.json`, 500 each — 5,500 |
-| Second file (reviewed) | en, ru | `02.json`, 500 each — 1,000 |
-| **Next: a second file** | hy, de, then by traffic | `02.json`, 500 each |
+| Second file (reviewed) | en, ru, hy | `02.json`, 500 each — 1,500 |
+| **Next: a second file** | de, then by traffic | `02.json`, 500 each |
 
-17,500 Claude-written words in all 33 languages. Update this table in the same commit as the seed files.
+18,000 Claude-written words in all 33 languages. Update this table in the same commit as the seed files.
 
 Lessons from the first round, already folded into the brief: proper nouns keep their capital;
 compounds and words that merely share a root may coexist (only forms and close derivatives of one
