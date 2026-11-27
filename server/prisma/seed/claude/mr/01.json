@@ -1,0 +1,5030 @@
+[
+ {
+  "word": "आनंद",
+  "topics": [
+   "general"
+  ],
+  "difficulty": 1,
+  "kind": "common",
+  "clue": "चांगली बातमी ऐकून मनात उमटणारी भावना",
+  "shortClue": "मनाचा उल्हास"
+ },
+ {
+  "word": "दुःख",
+  "topics": [
+   "general"
+  ],
+  "difficulty": 1,
+  "kind": "common",
+  "clue": "जवळचे माणूस दूर गेल्यावर मनाला होणारी वेदना",
+  "shortClue": "मनाची वेदना"
+ },
+ {
+  "word": "राग",
+  "topics": [
+   "general"
+  ],
+  "difficulty": 1,
+  "kind": "common",
+  "clue": "अपमान झाल्यावर अंगात चढणारा संताप",
+  "shortClue": "संताप"
+ },
+ {
+  "word": "भीती",
+  "topics": [
+   "general"
+  ],
+  "difficulty": 1,
+  "kind": "common",
+  "clue": "अंधारात एकटे असताना वाटणारी धास्ती",
+  "shortClue": "मनातली धास्ती"
+ },
+ {
+  "word": "प्रेम",
+  "topics": [
+   "general"
+  ],
+  "difficulty": 1,
+  "kind": "common",
+  "clue": "दोन मनांना जोडणारी कोमल ओढ",
+  "shortClue": "कोमल ओढ"
+ },
+ {
+  "word": "हसू",
+  "topics": [
+   "general"
+  ],
+  "difficulty": 1,
+  "kind": "common",
+  "clue": "विनोद ऐकल्यावर ओठांवर उमटणारे",
+  "shortClue": "ओठांवरचे स्मित"
+ },
+ {
+  "word": "अश्रू",
+  "topics": [
+   "general"
+  ],
+  "difficulty": 2,
+  "kind": "common",
+  "clue": "दुःखात किंवा आनंदात डोळ्यांतून ओघळणारे थेंब",
+  "shortClue": "डोळ्यांतले थेंब"
+ },
+ {
+  "word": "लाज",
+  "topics": [
+   "general"
+  ],
+  "difficulty": 1,
+  "kind": "common",
+  "clue": "चारचौघांत चूक उघड झाल्यावर गाल लाल करणारी भावना",
+  "shortClue": "संकोच"
+ },
+ {
+  "word": "कंटाळा",
+  "topics": [
+   "general"
+  ],
+  "difficulty": 1,
+  "kind": "common",
+  "clue": "करण्यासारखे काहीच नसताना येणारा उदासपणा",
+  "shortClue": "निरुत्साह"
+ },
+ {
+  "word": "उत्साह",
+  "topics": [
+   "general"
+  ],
+  "difficulty": 2,
+  "kind": "common",
+  "clue": "नवे काम सुरू करताना अंगात संचारणारा जोम",
+  "shortClue": "अंगातला जोम"
+ },
+ {
+  "word": "धैर्य",
+  "topics": [
+   "general"
+  ],
+  "difficulty": 2,
+  "kind": "common",
+  "clue": "संकटासमोर न डगमगण्याची ताकद",
+  "shortClue": "निधडेपणा"
+ },
+ {
+  "word": "आशा",
+  "topics": [
+   "general"
+  ],
+  "difficulty": 1,
+  "kind": "common",
+  "clue": "उद्या चांगले घडेल असा मनातला भरवसा",
+  "shortClue": "उज्ज्वल अपेक्षा"
+ },
+ {
+  "word": "विश्वास",
+  "topics": [
+   "general"
+  ],
+  "difficulty": 1,
+  "kind": "common",
+  "clue": "दुसऱ्यावर पूर्ण भरोसा ठेवणे",
+  "shortClue": "भरोसा"
+ },
+ {
+  "word": "मत्सर",
+  "topics": [
+   "general"
+  ],
+  "difficulty": 3,
+  "kind": "common",
+  "clue": "दुसऱ्याचे यश पाहून मनात होणारी जळजळ",
+  "shortClue": "जळफळाट"
+ },
+ {
+  "word": "अभिमान",
+  "topics": [
+   "general"
+  ],
+  "difficulty": 2,
+  "kind": "common",
+  "clue": "आपल्या कामगिरीबद्दल वाटणारा रास्त गर्व",
+  "shortClue": "रास्त गर्व"
+ },
+ {
+  "word": "काळजी",
+  "topics": [
+   "general"
+  ],
+  "difficulty": 1,
+  "kind": "common",
+  "clue": "आपल्या माणसाबद्दल मनाला लागलेली चिंता",
+  "shortClue": "मनाची चिंता"
+ },
+ {
+  "word": "आळस",
+  "topics": [
+   "general"
+  ],
+  "difficulty": 1,
+  "kind": "common",
+  "clue": "काम टाळून पडून राहण्याची वृत्ती",
+  "shortClue": "सुस्ती"
+ },
+ {
+  "word": "प्रामाणिकपणा",
+  "topics": [
+   "general"
+  ],
+  "difficulty": 2,
+  "kind": "common",
+  "clue": "खोटे न बोलण्याचा आणि कुणाला न फसवण्याचा गुण",
+  "shortClue": "सचोटी"
+ },
+ {
+  "word": "नम्रता",
+  "topics": [
+   "general"
+  ],
+  "difficulty": 2,
+  "kind": "common",
+  "clue": "मोठेपणा न मिरवता वागण्याचा गुण",
+  "shortClue": "विनयशीलता"
+ },
+ {
+  "word": "हट्ट",
+  "topics": [
+   "general"
+  ],
+  "difficulty": 1,
+  "kind": "common",
+  "clue": "आपलेच खरे करण्याचा लहान मुलासारखा आग्रह",
+  "shortClue": "मुलांचा आग्रह"
+ },
+ {
+  "word": "स्वभाव",
+  "topics": [
+   "general"
+  ],
+  "difficulty": 1,
+  "kind": "common",
+  "clue": "माणसाची जन्मजात वागण्याची पद्धत",
+  "shortClue": "मूळ वृत्ती"
+ },
+ {
+  "word": "चतुर",
+  "topics": [
+   "general"
+  ],
+  "difficulty": 2,
+  "kind": "common",
+  "clue": "पटकन युक्ती सुचणारा, हुशार",
+  "shortClue": "हुशार"
+ },
+ {
+  "word": "भोळा",
+  "topics": [
+   "general"
+  ],
+  "difficulty": 2,
+  "kind": "common",
+  "clue": "कोणावरही सहज विश्वास ठेवणारा साधा",
+  "shortClue": "निष्कपट"
+ },
+ {
+  "word": "कंजूस",
+  "topics": [
+   "general"
+  ],
+  "difficulty": 2,
+  "kind": "common",
+  "clue": "पैसा खर्च करायला अगदी नाखूश असणारा",
+  "shortClue": "खर्चाला नाखूश"
+ },
+ {
+  "word": "उदार",
+  "topics": [
+   "general"
+  ],
+  "difficulty": 2,
+  "kind": "common",
+  "clue": "मोकळ्या हाताने दुसऱ्यांना देणारा",
+  "shortClue": "दिलदार"
+ },
+ {
+  "word": "झोप",
+  "topics": [
+   "general"
+  ],
+  "difficulty": 1,
+  "kind": "common",
+  "clue": "रात्री डोळे मिटल्यावर येणारी विश्रांती",
+  "shortClue": "निद्रा"
+ },
+ {
+  "word": "आठवण",
+  "topics": [
+   "general"
+  ],
+  "difficulty": 1,
+  "kind": "common",
+  "clue": "जुन्या प्रसंगाचे मनात पुन्हा जागे होणे",
+  "shortClue": "स्मृती"
+ },
+ {
+  "word": "वजन",
+  "topics": [
+   "general"
+  ],
+  "difficulty": 1,
+  "kind": "common",
+  "clue": "तराजूवर किलोमध्ये मोजले जाणारे जडपण",
+  "shortClue": "जडपणाचे माप"
+ },
+ {
+  "word": "अंतर",
+  "topics": [
+   "general"
+  ],
+  "difficulty": 1,
+  "kind": "common",
+  "clue": "दोन ठिकाणांमधला दुरावा",
+  "shortClue": "दुरावा"
+ },
+ {
+  "word": "गोल",
+  "topics": [
+   "general"
+  ],
+  "difficulty": 1,
+  "kind": "common",
+  "clue": "चेंडूसारखा किंवा चाकासारखा आकार",
+  "shortClue": "वर्तुळाकार"
+ },
+ {
+  "word": "त्रिकोण",
+  "topics": [
+   "general"
+  ],
+  "difficulty": 2,
+  "kind": "common",
+  "clue": "तीन सरळ बाजू असलेली आकृती",
+  "shortClue": "तीन बाजू"
+ },
+ {
+  "word": "सकाळ",
+  "topics": [
+   "general"
+  ],
+  "difficulty": 1,
+  "kind": "common",
+  "clue": "सूर्य उगवल्यानंतरचा दिवसाचा पहिला भाग",
+  "shortClue": "दिवसाची सुरुवात"
+ },
+ {
+  "word": "संध्याकाळ",
+  "topics": [
+   "general"
+  ],
+  "difficulty": 1,
+  "kind": "common",
+  "clue": "सूर्य मावळताना दिवेलागणीची वेळ",
+  "shortClue": "दिवेलागण"
+ },
+ {
+  "word": "रात्र",
+  "topics": [
+   "general"
+  ],
+  "difficulty": 1,
+  "kind": "common",
+  "clue": "सूर्य मावळल्यापासून उजाडेपर्यंतचा काळ",
+  "shortClue": "अंधाराचा काळ"
+ },
+ {
+  "word": "दुपार",
+  "topics": [
+   "general"
+  ],
+  "difficulty": 1,
+  "kind": "common",
+  "clue": "जेवणानंतर ऊन तापलेले असते ती वेळ",
+  "shortClue": "मध्यान्ह"
+ },
+ {
+  "word": "महिना",
+  "topics": [
+   "general"
+  ],
+  "difficulty": 1,
+  "kind": "common",
+  "clue": "सुमारे तीस दिवसांचा काळ",
+  "shortClue": "तीस दिवस"
+ },
+ {
+  "word": "वर्ष",
+  "topics": [
+   "general"
+  ],
+  "difficulty": 1,
+  "kind": "common",
+  "clue": "बारा महिन्यांचा काळ",
+  "shortClue": "बारा महिने"
+ },
+ {
+  "word": "क्षण",
+  "topics": [
+   "general"
+  ],
+  "difficulty": 2,
+  "kind": "common",
+  "clue": "पापणी लवण्याइतका अगदी थोडा वेळ",
+  "shortClue": "अगदी थोडा वेळ"
+ },
+ {
+  "word": "पहाट",
+  "topics": [
+   "general"
+  ],
+  "difficulty": 2,
+  "kind": "common",
+  "clue": "उजाडण्यापूर्वीची, कोंबडा आरवण्याची वेळ",
+  "shortClue": "उषःकाल"
+ },
+ {
+  "word": "थंडी",
+  "topics": [
+   "general"
+  ],
+  "difficulty": 1,
+  "kind": "common",
+  "clue": "हिवाळ्यात अंगावर काटा आणणारा गारवा",
+  "shortClue": "गारठा"
+ },
+ {
+  "word": "उकाडा",
+  "topics": [
+   "general"
+  ],
+  "difficulty": 2,
+  "kind": "common",
+  "clue": "उन्हाळ्यात घाम काढणारी दमट गरम हवा",
+  "shortClue": "दमट हवा"
+ },
+ {
+  "word": "नकार",
+  "topics": [
+   "general"
+  ],
+  "difficulty": 1,
+  "kind": "common",
+  "clue": "'नाही' म्हणून दिलेले उत्तर",
+  "shortClue": "नाही म्हणणे"
+ },
+ {
+  "word": "शंका",
+  "topics": [
+   "general"
+  ],
+  "difficulty": 2,
+  "kind": "common",
+  "clue": "खरे की खोटे याबद्दल मनात उठणारा प्रश्न",
+  "shortClue": "संशय"
+ },
+ {
+  "word": "वर्ग",
+  "topics": [
+   "general"
+  ],
+  "difficulty": 1,
+  "kind": "common",
+  "clue": "शाळेत विद्यार्थी एकत्र बसून शिकतात ती खोली",
+  "shortClue": "शिकण्याची खोली"
+ },
+ {
+  "word": "फळा",
+  "topics": [
+   "general"
+  ],
+  "difficulty": 1,
+  "kind": "common",
+  "clue": "शाळेतला काळा पृष्ठभाग, ज्यावर खडूने लिहितात",
+  "shortClue": "खडूची पाटी"
+ },
+ {
+  "word": "खडू",
+  "topics": [
+   "general"
+  ],
+  "difficulty": 1,
+  "kind": "common",
+  "clue": "फळ्यावर लिहायची पांढरी कांडी",
+  "shortClue": "पांढरी कांडी"
+ },
+ {
+  "word": "परीक्षा",
+  "topics": [
+   "general"
+  ],
+  "difficulty": 1,
+  "kind": "common",
+  "clue": "वर्षाअखेरीस ज्ञान तपासणारी कसोटी",
+  "shortClue": "कसोटी"
+ },
+ {
+  "word": "सुट्टी",
+  "topics": [
+   "general"
+  ],
+  "difficulty": 1,
+  "kind": "common",
+  "clue": "शाळेला किंवा कार्यालयाला कामकाज नसलेला दिवस",
+  "shortClue": "कामाविना दिवस"
+ },
+ {
+  "word": "दप्तर",
+  "topics": [
+   "general"
+  ],
+  "difficulty": 1,
+  "kind": "common",
+  "clue": "शाळेची पुस्तके नेण्याची पिशवी",
+  "shortClue": "शाळेची पिशवी"
+ },
+ {
+  "word": "गृहपाठ",
+  "topics": [
+   "general"
+  ],
+  "difficulty": 2,
+  "kind": "common",
+  "clue": "शिक्षकांनी घरी करायला दिलेला अभ्यास",
+  "shortClue": "घरचा अभ्यास"
+ },
+ {
+  "word": "अभ्यास",
+  "topics": [
+   "general"
+  ],
+  "difficulty": 1,
+  "kind": "common",
+  "clue": "परीक्षेसाठी पुस्तके वाचून केलेली तयारी",
+  "shortClue": "शिकण्याची मेहनत"
+ },
+ {
+  "word": "उत्तर",
+  "topics": [
+   "general"
+  ],
+  "difficulty": 1,
+  "kind": "common",
+  "clue": "विचारलेल्या प्रश्नाला दिलेला जबाब; एक दिशा",
+  "shortClue": "जबाब"
+ },
+ {
+  "word": "गुण",
+  "topics": [
+   "general"
+  ],
+  "difficulty": 2,
+  "kind": "common",
+  "clue": "परीक्षेत मिळणारे अंक; स्वभावातली चांगली बाजू",
+  "shortClue": "मिळालेले अंक"
+ },
+ {
+  "word": "शेजारी",
+  "topics": [
+   "general"
+  ],
+  "difficulty": 1,
+  "kind": "common",
+  "clue": "आपल्या घराच्या अगदी जवळ राहणारा माणूस",
+  "shortClue": "बाजूचा रहिवासी"
+ },
+ {
+  "word": "पाहुणा",
+  "topics": [
+   "general"
+  ],
+  "difficulty": 1,
+  "kind": "common",
+  "clue": "घरी काही दिवस राहायला आलेली व्यक्ती",
+  "shortClue": "अतिथी"
+ },
+ {
+  "word": "कुटुंब",
+  "topics": [
+   "general"
+  ],
+  "difficulty": 1,
+  "kind": "common",
+  "clue": "आई, वडील आणि भावंडे मिळून बनलेला गोतावळा",
+  "shortClue": "परिवार"
+ },
+ {
+  "word": "आई",
+  "topics": [
+   "general"
+  ],
+  "difficulty": 1,
+  "kind": "common",
+  "clue": "जन्म देणारी, मायेने वाढवणारी स्त्री",
+  "shortClue": "माता"
+ },
+ {
+  "word": "वडील",
+  "topics": [
+   "general"
+  ],
+  "difficulty": 1,
+  "kind": "common",
+  "clue": "घरातील कर्ता पुरुष, मुलांचा जन्मदाता",
+  "shortClue": "बाबा"
+ },
+ {
+  "word": "भाऊ",
+  "topics": [
+   "general"
+  ],
+  "difficulty": 1,
+  "kind": "common",
+  "clue": "एकाच आईवडिलांचा मुलगा, बहिणीचा पाठीराखा",
+  "shortClue": "सख्खा बंधू"
+ },
+ {
+  "word": "बहीण",
+  "topics": [
+   "general"
+  ],
+  "difficulty": 1,
+  "kind": "common",
+  "clue": "भाऊबिजेला भावाला ओवाळणारी",
+  "shortClue": "ताई"
+ },
+ {
+  "word": "आजी",
+  "topics": [
+   "general"
+  ],
+  "difficulty": 1,
+  "kind": "common",
+  "clue": "आईची किंवा वडिलांची आई",
+  "shortClue": "बाबांची आई"
+ },
+ {
+  "word": "मावशी",
+  "topics": [
+   "general"
+  ],
+  "difficulty": 2,
+  "kind": "common",
+  "clue": "आईची बहीण",
+  "shortClue": "आईची बहीण"
+ },
+ {
+  "word": "नशीब",
+  "topics": [
+   "general"
+  ],
+  "difficulty": 1,
+  "kind": "common",
+  "clue": "आयुष्यात आपोआप वाट्याला येणारे भले-बुरे",
+  "shortClue": "दैव"
+ },
+ {
+  "word": "संधी",
+  "topics": [
+   "general"
+  ],
+  "difficulty": 2,
+  "kind": "common",
+  "clue": "एखादे काम करण्याची योग्य वेळ आणि मोका",
+  "shortClue": "योग्य मोका"
+ },
+ {
+  "word": "योगायोग",
+  "topics": [
+   "general"
+  ],
+  "difficulty": 3,
+  "kind": "common",
+  "clue": "अनपेक्षितपणे जुळून आलेल्या दोन घटना",
+  "shortClue": "अचानक जुळणे"
+ },
+ {
+  "word": "संकट",
+  "topics": [
+   "general"
+  ],
+  "difficulty": 2,
+  "kind": "common",
+  "clue": "अचानक ओढवलेली मोठी अडचण",
+  "shortClue": "आपत्ती"
+ },
+ {
+  "word": "यश",
+  "topics": [
+   "general"
+  ],
+  "difficulty": 1,
+  "kind": "common",
+  "clue": "मेहनतीचे गोड फळ, कामात मिळालेला विजय",
+  "shortClue": "मेहनतीचे फळ"
+ },
+ {
+  "word": "धडा",
+  "topics": [
+   "general"
+  ],
+  "difficulty": 2,
+  "kind": "common",
+  "clue": "चुकीतून मिळालेली शिकवण; पुस्तकातील प्रकरण",
+  "shortClue": "शिकवण"
+ },
+ {
+  "word": "माफी",
+  "topics": [
+   "general"
+  ],
+  "difficulty": 1,
+  "kind": "common",
+  "clue": "चूक कबूल करून मागितलेली क्षमा",
+  "shortClue": "क्षमा"
+ },
+ {
+  "word": "आश्चर्य",
+  "topics": [
+   "general"
+  ],
+  "difficulty": 2,
+  "kind": "common",
+  "clue": "अनपेक्षित घडल्यावर डोळे विस्फारणारी भावना",
+  "shortClue": "नवल"
+ },
+ {
+  "word": "रहस्य",
+  "topics": [
+   "general"
+  ],
+  "difficulty": 2,
+  "kind": "common",
+  "clue": "ज्याचा उलगडा अजून झालेला नाही अशी गोष्ट",
+  "shortClue": "न उलगडलेले"
+ },
+ {
+  "word": "सुरुवात",
+  "topics": [
+   "general"
+  ],
+  "difficulty": 1,
+  "kind": "common",
+  "clue": "कोणत्याही कामाचा पहिला टप्पा",
+  "shortClue": "प्रारंभ"
+ },
+ {
+  "word": "शेवट",
+  "topics": [
+   "general"
+  ],
+  "difficulty": 1,
+  "kind": "common",
+  "clue": "गोष्टीचा अंतिम भाग",
+  "shortClue": "अखेर"
+ },
+ {
+  "word": "शून्य",
+  "topics": [
+   "general"
+  ],
+  "difficulty": 2,
+  "kind": "common",
+  "clue": "काहीच नसल्याचे दाखवणारा अंक",
+  "shortClue": "रिकामा अंक"
+ },
+ {
+  "word": "शंभर",
+  "topics": [
+   "general"
+  ],
+  "difficulty": 1,
+  "kind": "common",
+  "clue": "दहा दहे मिळून होणारी संख्या",
+  "shortClue": "दहा दहे"
+ },
+ {
+  "word": "जोडी",
+  "topics": [
+   "general"
+  ],
+  "difficulty": 1,
+  "kind": "common",
+  "clue": "दोन सारख्या वस्तूंचा संच",
+  "shortClue": "दोघांचा संच"
+ },
+ {
+  "word": "नमस्कार",
+  "topics": [
+   "general"
+  ],
+  "difficulty": 1,
+  "kind": "common",
+  "clue": "हात जोडून केलेले अभिवादन",
+  "shortClue": "अभिवादन"
+ },
+ {
+  "word": "धन्यवाद",
+  "topics": [
+   "general"
+  ],
+  "difficulty": 1,
+  "kind": "common",
+  "clue": "उपकाराबद्दल मानलेले आभार",
+  "shortClue": "आभार"
+ },
+ {
+  "word": "मदत",
+  "topics": [
+   "general"
+  ],
+  "difficulty": 1,
+  "kind": "common",
+  "clue": "अडचणीत दुसऱ्याला दिलेला हात",
+  "shortClue": "साहाय्य"
+ },
+ {
+  "word": "प्रयत्न",
+  "topics": [
+   "general"
+  ],
+  "difficulty": 1,
+  "kind": "common",
+  "clue": "काम साधण्यासाठी केलेली धडपड",
+  "shortClue": "धडपड"
+ },
+ {
+  "word": "निर्णय",
+  "topics": [
+   "general"
+  ],
+  "difficulty": 2,
+  "kind": "common",
+  "clue": "अनेक पर्यायांतून एक ठरवणे",
+  "shortClue": "ठरवलेली गोष्ट"
+ },
+ {
+  "word": "सवय",
+  "topics": [
+   "general"
+  ],
+  "difficulty": 1,
+  "kind": "common",
+  "clue": "पुन्हा पुन्हा केल्याने अंगवळणी पडलेली गोष्ट",
+  "shortClue": "अंगवळण"
+ },
+ {
+  "word": "इच्छा",
+  "topics": [
+   "general"
+  ],
+  "difficulty": 1,
+  "kind": "common",
+  "clue": "एखादी गोष्ट मिळवण्याची मनातली ओढ",
+  "shortClue": "मनीषा"
+ },
+ {
+  "word": "कल्पना",
+  "topics": [
+   "general"
+  ],
+  "difficulty": 2,
+  "kind": "common",
+  "clue": "मनात अचानक सुचलेला नवा विचार",
+  "shortClue": "सुचलेला विचार"
+ },
+ {
+  "word": "प्रवास",
+  "topics": [
+   "general"
+  ],
+  "difficulty": 1,
+  "kind": "common",
+  "clue": "एका गावाहून दुसऱ्या गावी केलेली यात्रा",
+  "shortClue": "यात्रा"
+ },
+ {
+  "word": "गर्दी",
+  "topics": [
+   "general"
+  ],
+  "difficulty": 1,
+  "kind": "common",
+  "clue": "बाजारात दाटीवाटीने जमलेले लोक",
+  "shortClue": "लोकांची दाटी"
+ },
+ {
+  "word": "गोंधळ",
+  "topics": [
+   "general"
+  ],
+  "difficulty": 1,
+  "kind": "common",
+  "clue": "गडबड आणि आरडाओरडा यांचा कल्लोळ",
+  "shortClue": "गडबड"
+ },
+ {
+  "word": "गोष्ट",
+  "topics": [
+   "general"
+  ],
+  "difficulty": 1,
+  "kind": "common",
+  "clue": "आजी झोपताना सांगते ती कथा",
+  "shortClue": "कहाणी"
+ },
+ {
+  "word": "विनोद",
+  "topics": [
+   "general"
+  ],
+  "difficulty": 2,
+  "kind": "common",
+  "clue": "हसवणारी गंमतीदार हकीकत",
+  "shortClue": "गंमत"
+ },
+ {
+  "word": "शब्द",
+  "topics": [
+   "general"
+  ],
+  "difficulty": 1,
+  "kind": "common",
+  "clue": "अक्षरांनी बनलेला अर्थपूर्ण तुकडा",
+  "shortClue": "अर्थाचा तुकडा"
+ },
+ {
+  "word": "भाषा",
+  "topics": [
+   "general"
+  ],
+  "difficulty": 1,
+  "kind": "common",
+  "clue": "लोक एकमेकांशी बोलण्यासाठी वापरतात ती बोली",
+  "shortClue": "बोली"
+ },
+ {
+  "word": "नाव",
+  "topics": [
+   "general"
+  ],
+  "difficulty": 1,
+  "kind": "common",
+  "clue": "माणसाला हाक मारायची ओळख; होडी",
+  "shortClue": "ओळखीची हाक"
+ },
+ {
+  "word": "पत्र",
+  "topics": [
+   "general"
+  ],
+  "difficulty": 1,
+  "kind": "common",
+  "clue": "पाकिटात घालून पाठवलेला लेखी मजकूर",
+  "shortClue": "लेखी मजकूर"
+ },
+ {
+  "word": "निरोप",
+  "topics": [
+   "general"
+  ],
+  "difficulty": 2,
+  "kind": "common",
+  "clue": "जाताना घेतलेली रजा; पोहोचवलेला सांगावा",
+  "shortClue": "सांगावा"
+ },
+ {
+  "word": "कडू",
+  "topics": [
+   "general"
+  ],
+  "difficulty": 1,
+  "kind": "common",
+  "clue": "कारल्यासारख्या चवीचे",
+  "shortClue": "कारल्याची चव"
+ },
+ {
+  "word": "आंबट",
+  "topics": [
+   "general"
+  ],
+  "difficulty": 1,
+  "kind": "common",
+  "clue": "कैरीसारख्या चवीचे",
+  "shortClue": "कैरीची चव"
+ },
+ {
+  "word": "सत्य",
+  "topics": [
+   "general"
+  ],
+  "difficulty": 2,
+  "kind": "common",
+  "clue": "जे खरोखर घडले ते, खोट्याच्या उलट",
+  "shortClue": "खरेपणा"
+ },
+ {
+  "word": "ओझे",
+  "topics": [
+   "general"
+  ],
+  "difficulty": 2,
+  "kind": "common",
+  "clue": "पाठीवर किंवा डोक्यावर वाहिलेला भार",
+  "shortClue": "भार"
+ },
+ {
+  "word": "वचन",
+  "topics": [
+   "general"
+  ],
+  "difficulty": 2,
+  "kind": "common",
+  "clue": "एखादी गोष्ट नक्की करीन असे दिलेले आश्वासन",
+  "shortClue": "आश्वासन"
+ },
+ {
+  "word": "पैसा",
+  "topics": [
+   "general"
+  ],
+  "difficulty": 1,
+  "kind": "common",
+  "clue": "वस्तू विकत घेण्यासाठी लागणारे चलन",
+  "shortClue": "चलन"
+ },
+ {
+  "word": "कडुनिंब",
+  "topics": [
+   "nature"
+  ],
+  "difficulty": 2,
+  "kind": "common",
+  "clue": "गुढीपाडव्याला पाने खाल्ली जाणारा औषधी वृक्ष",
+  "shortClue": "औषधी वृक्ष"
+ },
+ {
+  "word": "पिंपळ",
+  "topics": [
+   "nature"
+  ],
+  "difficulty": 2,
+  "kind": "common",
+  "clue": "सळसळणाऱ्या हृदयाकार पानांचा मोठा वृक्ष",
+  "shortClue": "सळसळणारी पाने"
+ },
+ {
+  "word": "वड",
+  "topics": [
+   "nature"
+  ],
+  "difficulty": 1,
+  "kind": "common",
+  "clue": "पारंब्या लोंबणारा विशाल वृक्ष",
+  "shortClue": "पारंब्यांचा वृक्ष"
+ },
+ {
+  "word": "चिंच",
+  "topics": [
+   "nature",
+   "food"
+  ],
+  "difficulty": 1,
+  "kind": "common",
+  "clue": "आंबट गराच्या वाकड्या शेंगांचे झाड",
+  "shortClue": "आंबट शेंगा"
+ },
+ {
+  "word": "मोगरा",
+  "topics": [
+   "nature"
+  ],
+  "difficulty": 1,
+  "kind": "common",
+  "clue": "उन्हाळ्यात फुलणारे पांढरे सुगंधी फूल",
+  "shortClue": "पांढरा सुगंध"
+ },
+ {
+  "word": "झेंडू",
+  "topics": [
+   "nature"
+  ],
+  "difficulty": 1,
+  "kind": "common",
+  "clue": "दसऱ्याला तोरणात गुंफले जाणारे पिवळे-केशरी फूल",
+  "shortClue": "तोरणाचे फूल"
+ },
+ {
+  "word": "कमळ",
+  "topics": [
+   "nature"
+  ],
+  "difficulty": 1,
+  "kind": "common",
+  "clue": "चिखलात उगवूनही स्वच्छ राहणारे पाण्यातले फूल",
+  "shortClue": "तळ्यातले फूल"
+ },
+ {
+  "word": "जास्वंद",
+  "topics": [
+   "nature"
+  ],
+  "difficulty": 2,
+  "kind": "common",
+  "clue": "गणपतीला वाहिले जाणारे लाल फूल",
+  "shortClue": "गणपतीचे फूल"
+ },
+ {
+  "word": "शेवाळ",
+  "topics": [
+   "nature"
+  ],
+  "difficulty": 3,
+  "kind": "common",
+  "clue": "ओल्या दगडांवर वाढणारा हिरवा बुळबुळीत थर",
+  "shortClue": "हिरवा थर"
+ },
+ {
+  "word": "अळंबी",
+  "topics": [
+   "nature"
+  ],
+  "difficulty": 3,
+  "kind": "common",
+  "clue": "पावसाळ्यात उगवणारी छत्रीसारखी बुरशी",
+  "shortClue": "छत्रीसारखी बुरशी"
+ },
+ {
+  "word": "वेल",
+  "topics": [
+   "nature"
+  ],
+  "difficulty": 2,
+  "kind": "common",
+  "clue": "आधाराला वेढे घालत वर चढणारी वनस्पती",
+  "shortClue": "चढणारी वनस्पती"
+ },
+ {
+  "word": "मूळ",
+  "topics": [
+   "nature"
+  ],
+  "difficulty": 2,
+  "kind": "common",
+  "clue": "झाडाचा जमिनीत रुतलेला भाग; उगम",
+  "shortClue": "झाडाचा पाय"
+ },
+ {
+  "word": "चंद्र",
+  "topics": [
+   "nature"
+  ],
+  "difficulty": 1,
+  "kind": "common",
+  "clue": "रात्री आकाशात कलाकलाने वाढणारा पृथ्वीचा उपग्रह",
+  "shortClue": "पृथ्वीचा उपग्रह"
+ },
+ {
+  "word": "इंद्रधनुष्य",
+  "topics": [
+   "nature"
+  ],
+  "difficulty": 1,
+  "kind": "common",
+  "clue": "पावसानंतर आकाशात उमटणारी सात रंगांची कमान",
+  "shortClue": "सप्तरंगी कमान"
+ },
+ {
+  "word": "वीज",
+  "topics": [
+   "nature"
+  ],
+  "difficulty": 1,
+  "kind": "common",
+  "clue": "पावसात आकाशात चमकणारी लखलखती रेषा",
+  "shortClue": "आकाशातली चमक"
+ },
+ {
+  "word": "गडगडाट",
+  "topics": [
+   "nature"
+  ],
+  "difficulty": 2,
+  "kind": "common",
+  "clue": "विजेनंतर आकाशातून येणारा मोठा आवाज",
+  "shortClue": "मेघगर्जना"
+ },
+ {
+  "word": "झुळूक",
+  "topics": [
+   "nature"
+  ],
+  "difficulty": 3,
+  "kind": "common",
+  "clue": "अंगाला सुखावणारी वाऱ्याची हलकी लहर",
+  "shortClue": "हलकी लहर"
+ },
+ {
+  "word": "उन्हाळा",
+  "topics": [
+   "nature"
+  ],
+  "difficulty": 1,
+  "kind": "common",
+  "clue": "एप्रिल-मेमधला तापलेला ऋतू",
+  "shortClue": "गरम ऋतू"
+ },
+ {
+  "word": "पावसाळा",
+  "topics": [
+   "nature"
+  ],
+  "difficulty": 1,
+  "kind": "common",
+  "clue": "जून ते सप्टेंबरमधला ओला ऋतू",
+  "shortClue": "ओला ऋतू"
+ },
+ {
+  "word": "ऋतू",
+  "topics": [
+   "nature"
+  ],
+  "difficulty": 2,
+  "kind": "common",
+  "clue": "वर्षातील उन्हाळा, हिवाळा यांसारखा काळ",
+  "shortClue": "हंगाम"
+ },
+ {
+  "word": "खडक",
+  "topics": [
+   "nature"
+  ],
+  "difficulty": 2,
+  "kind": "common",
+  "clue": "जमिनीतला कठीण मोठा पाषाण",
+  "shortClue": "पाषाण"
+ },
+ {
+  "word": "दलदल",
+  "topics": [
+   "nature"
+  ],
+  "difficulty": 3,
+  "kind": "common",
+  "clue": "पाय रुततो अशी पाणथळ जमीन",
+  "shortClue": "पाणथळ जमीन"
+ },
+ {
+  "word": "वाळवंट",
+  "topics": [
+   "nature"
+  ],
+  "difficulty": 1,
+  "kind": "common",
+  "clue": "रेतीचे ढिगारे आणि उंटांचा कोरडा प्रदेश",
+  "shortClue": "रेतीचा प्रदेश"
+ },
+ {
+  "word": "निवडुंग",
+  "topics": [
+   "nature"
+  ],
+  "difficulty": 2,
+  "kind": "common",
+  "clue": "वाळवंटात वाढणारी काटेरी वनस्पती",
+  "shortClue": "काटेरी झुडूप"
+ },
+ {
+  "word": "धबधबा",
+  "topics": [
+   "nature"
+  ],
+  "difficulty": 1,
+  "kind": "common",
+  "clue": "कड्यावरून कोसळणारा पाण्याचा प्रवाह",
+  "shortClue": "कोसळणारे पाणी"
+ },
+ {
+  "word": "लाट",
+  "topics": [
+   "nature"
+  ],
+  "difficulty": 1,
+  "kind": "common",
+  "clue": "समुद्रावर उसळणारी पाण्याची उंच रांग",
+  "shortClue": "उसळते पाणी"
+ },
+ {
+  "word": "भरती",
+  "topics": [
+   "nature"
+  ],
+  "difficulty": 2,
+  "kind": "common",
+  "clue": "चंद्रामुळे समुद्राचे पाणी किनाऱ्याकडे चढणे",
+  "shortClue": "पाण्याची चढण"
+ },
+ {
+  "word": "ओहोटी",
+  "topics": [
+   "nature"
+  ],
+  "difficulty": 2,
+  "kind": "common",
+  "clue": "समुद्राचे पाणी किनाऱ्यापासून मागे हटणे",
+  "shortClue": "पाणी उतरणे"
+ },
+ {
+  "word": "शंख",
+  "topics": [
+   "nature"
+  ],
+  "difficulty": 2,
+  "kind": "common",
+  "clue": "समुद्रकिनारी सापडणारे, फुंकल्यावर वाजणारे कवच",
+  "shortClue": "वाजणारे कवच"
+ },
+ {
+  "word": "चांदणे",
+  "topics": [
+   "nature"
+  ],
+  "difficulty": 2,
+  "kind": "common",
+  "clue": "चंद्राचा शीतल रुपेरी प्रकाश",
+  "shortClue": "शीतल प्रकाश"
+ },
+ {
+  "word": "उल्का",
+  "topics": [
+   "nature"
+  ],
+  "difficulty": 3,
+  "kind": "common",
+  "clue": "रात्री आकाशातून जळत पडणारा खडक",
+  "shortClue": "तुटता तारा"
+ },
+ {
+  "word": "दव",
+  "topics": [
+   "nature"
+  ],
+  "difficulty": 3,
+  "kind": "common",
+  "clue": "पहाटे गवतावर जमणारे पाण्याचे थेंब",
+  "shortClue": "पहाटेचे थेंब"
+ },
+ {
+  "word": "गारा",
+  "topics": [
+   "nature"
+  ],
+  "difficulty": 2,
+  "kind": "common",
+  "clue": "पावसासोबत पडणारे बर्फाचे खडे",
+  "shortClue": "बर्फाचे खडे"
+ },
+ {
+  "word": "झरा",
+  "topics": [
+   "nature"
+  ],
+  "difficulty": 2,
+  "kind": "common",
+  "clue": "डोंगरातून झुळझुळ वाहणारा पाण्याचा छोटा स्रोत",
+  "shortClue": "पाण्याचा उगम"
+ },
+ {
+  "word": "धुके",
+  "topics": [
+   "nature"
+  ],
+  "difficulty": 2,
+  "kind": "common",
+  "clue": "हिवाळ्यातील पहाटे दृष्टी अडवणारा पांढरा पडदा",
+  "shortClue": "पांढरा पडदा"
+ },
+ {
+  "word": "ऊन",
+  "topics": [
+   "nature"
+  ],
+  "difficulty": 1,
+  "kind": "common",
+  "clue": "सूर्याचा प्रखर प्रकाश आणि उष्णता",
+  "shortClue": "सूर्यप्रकाश"
+ },
+ {
+  "word": "चिमणी",
+  "topics": [
+   "animals"
+  ],
+  "difficulty": 1,
+  "kind": "common",
+  "clue": "अंगणात दाणे टिपणारी लहान तपकिरी पक्षीण",
+  "shortClue": "लहान पक्षीण"
+ },
+ {
+  "word": "मोर",
+  "topics": [
+   "animals"
+  ],
+  "difficulty": 1,
+  "kind": "common",
+  "clue": "पिसारा फुलवून नाचणारा राष्ट्रीय पक्षी",
+  "shortClue": "नाचणारा पक्षी"
+ },
+ {
+  "word": "कोकिळा",
+  "topics": [
+   "animals"
+  ],
+  "difficulty": 2,
+  "kind": "common",
+  "clue": "वसंतात कुहूकुहू गाणारी काळी पक्षीण",
+  "shortClue": "कुहू गाणारी"
+ },
+ {
+  "word": "घुबड",
+  "topics": [
+   "animals"
+  ],
+  "difficulty": 2,
+  "kind": "common",
+  "clue": "रात्री जागणारा, मोठ्या डोळ्यांचा पक्षी",
+  "shortClue": "रात्रीचा पक्षी"
+ },
+ {
+  "word": "बगळा",
+  "topics": [
+   "animals"
+  ],
+  "difficulty": 2,
+  "kind": "common",
+  "clue": "तलावाकाठी एका पायावर उभा राहणारा शुभ्र पक्षी",
+  "shortClue": "शुभ्र पक्षी"
+ },
+ {
+  "word": "म्हैस",
+  "topics": [
+   "animals"
+  ],
+  "difficulty": 1,
+  "kind": "common",
+  "clue": "काळ्या रंगाचे, भरपूर दूध देणारे जनावर",
+  "shortClue": "काळे दुभते"
+ },
+ {
+  "word": "बैल",
+  "topics": [
+   "animals"
+  ],
+  "difficulty": 1,
+  "kind": "common",
+  "clue": "पोळ्याला सजवले जाणारे, नांगर ओढणारे जनावर",
+  "shortClue": "नांगराचा साथी"
+ },
+ {
+  "word": "मेंढी",
+  "topics": [
+   "animals"
+  ],
+  "difficulty": 1,
+  "kind": "common",
+  "clue": "लोकर देणारे, कळपाने चरणारे जनावर",
+  "shortClue": "लोकर देणारी"
+ },
+ {
+  "word": "वासरू",
+  "topics": [
+   "animals"
+  ],
+  "difficulty": 1,
+  "kind": "common",
+  "clue": "गाईचे लहान पिल्लू",
+  "shortClue": "गाईचे पिल्लू"
+ },
+ {
+  "word": "कोकरू",
+  "topics": [
+   "animals"
+  ],
+  "difficulty": 3,
+  "kind": "common",
+  "clue": "मेंढीचे लहान पिल्लू",
+  "shortClue": "मेंढीचे पिल्लू"
+ },
+ {
+  "word": "मासा",
+  "topics": [
+   "animals"
+  ],
+  "difficulty": 1,
+  "kind": "common",
+  "clue": "पाण्यात कल्ल्यांनी श्वास घेणारा जीव",
+  "shortClue": "कल्ले असलेला"
+ },
+ {
+  "word": "मगर",
+  "topics": [
+   "animals"
+  ],
+  "difficulty": 1,
+  "kind": "common",
+  "clue": "नदीतला मोठ्या जबड्याचा सरपटणारा प्राणी",
+  "shortClue": "पाण्यातला शिकारी"
+ },
+ {
+  "word": "देवमासा",
+  "topics": [
+   "animals"
+  ],
+  "difficulty": 2,
+  "kind": "common",
+  "clue": "समुद्रातील सर्वांत मोठा सस्तन प्राणी",
+  "shortClue": "महाकाय सस्तन"
+ },
+ {
+  "word": "साप",
+  "topics": [
+   "animals"
+  ],
+  "difficulty": 1,
+  "kind": "common",
+  "clue": "पाय नसलेला, सरपटत चालणारा प्राणी",
+  "shortClue": "सरपटणारा जीव"
+ },
+ {
+  "word": "सरडा",
+  "topics": [
+   "animals"
+  ],
+  "difficulty": 1,
+  "kind": "common",
+  "clue": "रंग बदलणारा छोटा सरपटणारा जीव",
+  "shortClue": "रंग बदलणारा"
+ },
+ {
+  "word": "मुंगी",
+  "topics": [
+   "animals"
+  ],
+  "difficulty": 1,
+  "kind": "common",
+  "clue": "साखरेकडे रांगेने जाणारा छोटा कीटक",
+  "shortClue": "रांगेचा कीटक"
+ },
+ {
+  "word": "काजवा",
+  "topics": [
+   "animals"
+  ],
+  "difficulty": 2,
+  "kind": "common",
+  "clue": "रात्री अंधारात चमकणारा कीटक",
+  "shortClue": "चमकणारा कीटक"
+ },
+ {
+  "word": "कोळी",
+  "topics": [
+   "animals"
+  ],
+  "difficulty": 2,
+  "kind": "common",
+  "clue": "जाळे विणणारा आठ पायांचा जीव",
+  "shortClue": "जाळे विणणारा"
+ },
+ {
+  "word": "हत्ती",
+  "topics": [
+   "animals"
+  ],
+  "difficulty": 1,
+  "kind": "common",
+  "clue": "सोंड असलेला जमिनीवरचा सर्वांत मोठा प्राणी",
+  "shortClue": "सोंडवाला"
+ },
+ {
+  "word": "अस्वल",
+  "topics": [
+   "animals"
+  ],
+  "difficulty": 2,
+  "kind": "common",
+  "clue": "झाडावर चढून मध खाणारा केसाळ प्राणी",
+  "shortClue": "केसाळ श्वापद"
+ },
+ {
+  "word": "हरीण",
+  "topics": [
+   "animals"
+  ],
+  "difficulty": 1,
+  "kind": "common",
+  "clue": "चपळ उड्या मारणारा, शिंगांचा वन्य प्राणी",
+  "shortClue": "चपळ प्राणी"
+ },
+ {
+  "word": "कोल्हा",
+  "topics": [
+   "animals"
+  ],
+  "difficulty": 2,
+  "kind": "common",
+  "clue": "गोष्टींतील धूर्त, कुईकुई करणारा प्राणी",
+  "shortClue": "धूर्त प्राणी"
+ },
+ {
+  "word": "उंदीर",
+  "topics": [
+   "animals"
+  ],
+  "difficulty": 1,
+  "kind": "common",
+  "clue": "धान्य कुरतडणारा छोटा प्राणी",
+  "shortClue": "कुरतडणारा जीव"
+ },
+ {
+  "word": "खार",
+  "topics": [
+   "animals"
+  ],
+  "difficulty": 2,
+  "kind": "common",
+  "clue": "झुपकेदार शेपटीची, झाडावर सरसर चढणारी",
+  "shortClue": "झुपकेदार शेपूट"
+ },
+ {
+  "word": "ससा",
+  "topics": [
+   "animals"
+  ],
+  "difficulty": 1,
+  "kind": "common",
+  "clue": "गोष्टीत कासवाशी शर्यत हरलेला चपळ प्राणी",
+  "shortClue": "कासवाशी शर्यत"
+ },
+ {
+  "word": "घार",
+  "topics": [
+   "animals"
+  ],
+  "difficulty": 2,
+  "kind": "common",
+  "clue": "आकाशात घिरट्या घालणारा शिकारी पक्षी",
+  "shortClue": "घिरट्या घालणारी"
+ },
+ {
+  "word": "ससाणा",
+  "topics": [
+   "animals"
+  ],
+  "difficulty": 3,
+  "kind": "common",
+  "clue": "वेगाने झेप घेऊन सावज पकडणारा शिकारी पक्षी",
+  "shortClue": "शिकारी पक्षी"
+ },
+ {
+  "word": "गिधाड",
+  "topics": [
+   "animals"
+  ],
+  "difficulty": 2,
+  "kind": "common",
+  "clue": "मेलेल्या जनावरांवर ताव मारणारा पक्षी",
+  "shortClue": "मृतभक्षी पक्षी"
+ },
+ {
+  "word": "बिबट्या",
+  "topics": [
+   "animals"
+  ],
+  "difficulty": 2,
+  "kind": "common",
+  "clue": "ठिपकेदार कातडीचा चपळ शिकारी",
+  "shortClue": "ठिपकेदार शिकारी"
+ },
+ {
+  "word": "सिंह",
+  "topics": [
+   "animals"
+  ],
+  "difficulty": 1,
+  "kind": "common",
+  "clue": "आयाळ असलेला जंगलाचा राजा",
+  "shortClue": "जंगलाचा राजा"
+ },
+ {
+  "word": "चित्ता",
+  "topics": [
+   "animals"
+  ],
+  "difficulty": 2,
+  "kind": "common",
+  "clue": "जमिनीवरचा सर्वांत वेगवान प्राणी",
+  "shortClue": "सर्वांत वेगवान"
+ },
+ {
+  "word": "घरटे",
+  "topics": [
+   "animals"
+  ],
+  "difficulty": 1,
+  "kind": "common",
+  "clue": "काड्या-गवताने विणलेला पक्ष्यांचा निवारा",
+  "shortClue": "पक्ष्यांचा निवारा"
+ },
+ {
+  "word": "सुरमई",
+  "topics": [
+   "animals",
+   "food"
+  ],
+  "difficulty": 2,
+  "kind": "common",
+  "clue": "कोकणात तव्यावर तळला जाणारा लांबट समुद्री मासा",
+  "shortClue": "कोकणी मासा"
+ },
+ {
+  "word": "बोंबील",
+  "topics": [
+   "animals",
+   "food"
+  ],
+  "difficulty": 2,
+  "kind": "common",
+  "clue": "सुकवून खाल्ला जाणारा मुंबईचा प्रसिद्ध मासा",
+  "shortClue": "मुंबईचा मासा"
+ },
+ {
+  "word": "पारवा",
+  "topics": [
+   "animals"
+  ],
+  "difficulty": 2,
+  "kind": "common",
+  "clue": "घुमटावर घुमणारा राखाडी पक्षी",
+  "shortClue": "घुमणारा पक्षी"
+ },
+ {
+  "word": "शिंपला",
+  "topics": [
+   "animals"
+  ],
+  "difficulty": 3,
+  "kind": "common",
+  "clue": "ज्यात मोती तयार होतो ते समुद्री कवच",
+  "shortClue": "मोत्याचे कवच"
+ },
+ {
+  "word": "खेकडा",
+  "topics": [
+   "animals"
+  ],
+  "difficulty": 1,
+  "kind": "common",
+  "clue": "तिरका चालणारा, नांग्यांचा जलचर",
+  "shortClue": "तिरकी चाल"
+ },
+ {
+  "word": "गांडूळ",
+  "topics": [
+   "animals"
+  ],
+  "difficulty": 2,
+  "kind": "common",
+  "clue": "माती भुसभुशीत करणारा, शेतकऱ्याचा मित्र",
+  "shortClue": "शेतकऱ्याचा मित्र"
+ },
+ {
+  "word": "पोहे",
+  "topics": [
+   "food"
+  ],
+  "difficulty": 1,
+  "kind": "common",
+  "clue": "कांदा, शेंगदाणे घालून केलेला सकाळचा नाश्ता",
+  "shortClue": "सकाळचा नाश्ता"
+ },
+ {
+  "word": "थालीपीठ",
+  "topics": [
+   "food"
+  ],
+  "difficulty": 2,
+  "kind": "common",
+  "clue": "भाजणीपासून थापून बनवलेला खमंग पदार्थ",
+  "shortClue": "भाजणीचा पदार्थ"
+ },
+ {
+  "word": "साबुदाणा",
+  "topics": [
+   "food"
+  ],
+  "difficulty": 2,
+  "kind": "common",
+  "clue": "उपवासाला खिचडी करायचे पांढरे मणी",
+  "shortClue": "उपवासाचे मणी"
+ },
+ {
+  "word": "खिचडी",
+  "topics": [
+   "food"
+  ],
+  "difficulty": 1,
+  "kind": "common",
+  "clue": "डाळ आणि तांदूळ एकत्र शिजवलेला साधा पदार्थ",
+  "shortClue": "डाळतांदूळ"
+ },
+ {
+  "word": "वरण",
+  "topics": [
+   "food"
+  ],
+  "difficulty": 1,
+  "kind": "common",
+  "clue": "तुरीची डाळ शिजवून केलेला साधा पदार्थ",
+  "shortClue": "साधी डाळ"
+ },
+ {
+  "word": "हळद",
+  "topics": [
+   "food"
+  ],
+  "difficulty": 1,
+  "kind": "common",
+  "clue": "पदार्थाला पिवळा रंग देणारा मसाला",
+  "shortClue": "पिवळा मसाला"
+ },
+ {
+  "word": "मोहरी",
+  "topics": [
+   "food"
+  ],
+  "difficulty": 2,
+  "kind": "common",
+  "clue": "फोडणीत तडतडणारे छोटे काळे दाणे",
+  "shortClue": "काळे दाणे"
+ },
+ {
+  "word": "मिरची",
+  "topics": [
+   "food"
+  ],
+  "difficulty": 1,
+  "kind": "common",
+  "clue": "भाजीला झणझणीतपणा आणणारी हिरवी शेंग",
+  "shortClue": "तिखट शेंग"
+ },
+ {
+  "word": "वेलची",
+  "topics": [
+   "food"
+  ],
+  "difficulty": 2,
+  "kind": "common",
+  "clue": "चहात आणि खिरीत घालायचा सुगंधी मसाला",
+  "shortClue": "सुगंधी मसाला"
+ },
+ {
+  "word": "लवंग",
+  "topics": [
+   "food"
+  ],
+  "difficulty": 3,
+  "kind": "common",
+  "clue": "खिळ्यासारखी दिसणारी उग्र वासाची मसाल्याची कळी",
+  "shortClue": "खिळ्यासारखी कळी"
+ },
+ {
+  "word": "दालचिनी",
+  "topics": [
+   "food"
+  ],
+  "difficulty": 2,
+  "kind": "common",
+  "clue": "झाडाच्या सालीपासून मिळणारा गोडसर मसाला",
+  "shortClue": "सुगंधी साल"
+ },
+ {
+  "word": "लोणी",
+  "topics": [
+   "food"
+  ],
+  "difficulty": 1,
+  "kind": "common",
+  "clue": "ताक घुसळताना वर येणारा पांढरा गोळा",
+  "shortClue": "ताकातला गोळा"
+ },
+ {
+  "word": "ताक",
+  "topics": [
+   "food"
+  ],
+  "difficulty": 1,
+  "kind": "common",
+  "clue": "दही घुसळून उरलेले पातळ पेय",
+  "shortClue": "घुसळलेले दही"
+ },
+ {
+  "word": "दही",
+  "topics": [
+   "food"
+  ],
+  "difficulty": 1,
+  "kind": "common",
+  "clue": "दुधाला विरजण लावून बनलेला घट्ट पदार्थ",
+  "shortClue": "विरजलेले दूध"
+ },
+ {
+  "word": "तूप",
+  "topics": [
+   "food"
+  ],
+  "difficulty": 1,
+  "kind": "common",
+  "clue": "लोणी कढवून बनलेला सुगंधी पदार्थ",
+  "shortClue": "कढवलेले लोणी"
+ },
+ {
+  "word": "डाळिंब",
+  "topics": [
+   "food"
+  ],
+  "difficulty": 2,
+  "kind": "common",
+  "clue": "लाल रसाळ दाण्यांनी भरलेले फळ",
+  "shortClue": "लाल दाणे"
+ },
+ {
+  "word": "संत्रे",
+  "topics": [
+   "food"
+  ],
+  "difficulty": 1,
+  "kind": "common",
+  "clue": "नागपूरचे प्रसिद्ध केशरी फळ",
+  "shortClue": "नागपूरचे फळ"
+ },
+ {
+  "word": "द्राक्ष",
+  "topics": [
+   "food"
+  ],
+  "difficulty": 1,
+  "kind": "common",
+  "clue": "घडांनी लागणारे, नाशिकचे प्रसिद्ध फळ",
+  "shortClue": "घडाचे फळ"
+ },
+ {
+  "word": "नारळ",
+  "topics": [
+   "food"
+  ],
+  "difficulty": 1,
+  "kind": "common",
+  "clue": "कठीण कवच आणि आत गोड पाणी असलेले फळ",
+  "shortClue": "श्रीफळ"
+ },
+ {
+  "word": "कलिंगड",
+  "topics": [
+   "food"
+  ],
+  "difficulty": 1,
+  "kind": "common",
+  "clue": "उन्हाळ्यातले लाल गराचे मोठे हिरवे फळ",
+  "shortClue": "लाल गराचे"
+ },
+ {
+  "word": "वांगे",
+  "topics": [
+   "food"
+  ],
+  "difficulty": 1,
+  "kind": "common",
+  "clue": "भरताला वापरली जाणारी जांभळी फळभाजी",
+  "shortClue": "जांभळी फळभाजी"
+ },
+ {
+  "word": "कांदा",
+  "topics": [
+   "food"
+  ],
+  "difficulty": 1,
+  "kind": "common",
+  "clue": "चिरताना डोळ्यांत पाणी आणणारा कंद",
+  "shortClue": "रडवणारा कंद"
+ },
+ {
+  "word": "पालक",
+  "topics": [
+   "food"
+  ],
+  "difficulty": 1,
+  "kind": "common",
+  "clue": "लोहयुक्त हिरवी पालेभाजी; मुलांचा सांभाळ करणारा",
+  "shortClue": "हिरवी पालेभाजी"
+ },
+ {
+  "word": "गूळ",
+  "topics": [
+   "food"
+  ],
+  "difficulty": 1,
+  "kind": "common",
+  "clue": "उसाच्या रसापासून बनलेला तपकिरी गोड पदार्थ",
+  "shortClue": "उसाचा गोडवा"
+ },
+ {
+  "word": "पेढा",
+  "topics": [
+   "food"
+  ],
+  "difficulty": 1,
+  "kind": "common",
+  "clue": "खव्यापासून बनवलेली गोल मिठाई",
+  "shortClue": "खव्याची मिठाई"
+ },
+ {
+  "word": "श्रीखंड",
+  "topics": [
+   "food"
+  ],
+  "difficulty": 1,
+  "kind": "common",
+  "clue": "चक्का आणि साखर घोटून केलेले गोड पक्वान्न",
+  "shortClue": "चक्क्याचे पक्वान्न"
+ },
+ {
+  "word": "बासुंदी",
+  "topics": [
+   "food"
+  ],
+  "difficulty": 2,
+  "kind": "common",
+  "clue": "आटवलेल्या दुधाचे घट्ट गोड पक्वान्न",
+  "shortClue": "आटवलेले दूध"
+ },
+ {
+  "word": "करंजी",
+  "topics": [
+   "food",
+   "localCulture"
+  ],
+  "difficulty": 1,
+  "kind": "common",
+  "clue": "दिवाळीत केली जाणारी सारण भरलेली अर्धचंद्राकृती",
+  "shortClue": "सारण भरलेली"
+ },
+ {
+  "word": "चकली",
+  "topics": [
+   "food",
+   "localCulture"
+  ],
+  "difficulty": 1,
+  "kind": "common",
+  "clue": "दिवाळीच्या फराळातील काटेरी वेटोळे",
+  "shortClue": "काटेरी वेटोळे"
+ },
+ {
+  "word": "शंकरपाळी",
+  "topics": [
+   "food",
+   "localCulture"
+  ],
+  "difficulty": 2,
+  "kind": "common",
+  "clue": "मैद्याच्या चौकोनी तुकड्यांचा गोड फराळ",
+  "shortClue": "चौकोनी फराळ"
+ },
+ {
+  "word": "अनारसा",
+  "topics": [
+   "food",
+   "localCulture"
+  ],
+  "difficulty": 3,
+  "kind": "common",
+  "clue": "तांदळाच्या पिठाचा, खसखस लावलेला दिवाळी फराळ",
+  "shortClue": "खसखशीचा फराळ"
+ },
+ {
+  "word": "वडापाव",
+  "topics": [
+   "food",
+   "localCulture"
+  ],
+  "difficulty": 1,
+  "kind": "common",
+  "clue": "मुंबईच्या रस्त्यावरचा सर्वांत लोकप्रिय चटपटीत खाऊ",
+  "shortClue": "मुंबईचा खाऊ"
+ },
+ {
+  "word": "मिसळ",
+  "topics": [
+   "food",
+   "localCulture"
+  ],
+  "difficulty": 1,
+  "kind": "common",
+  "clue": "फरसाण घालून खाल्ली जाणारी झणझणीत उसळ",
+  "shortClue": "झणझणीत उसळ"
+ },
+ {
+  "word": "सोलकढी",
+  "topics": [
+   "food",
+   "localCulture"
+  ],
+  "difficulty": 3,
+  "kind": "common",
+  "clue": "कोकम आणि नारळाच्या दुधाचे गुलाबी पेय",
+  "shortClue": "कोकमाचे पेय"
+ },
+ {
+  "word": "पिठले",
+  "topics": [
+   "food"
+  ],
+  "difficulty": 1,
+  "kind": "common",
+  "clue": "बेसन घालून केलेले घट्ट कालवण, भाकरीचा जोडीदार",
+  "shortClue": "बेसनाचे कालवण"
+ },
+ {
+  "word": "कोशिंबीर",
+  "topics": [
+   "food"
+  ],
+  "difficulty": 2,
+  "kind": "common",
+  "clue": "काकडी, दही घालून केलेली कच्ची तोंडीलावणी",
+  "shortClue": "कच्ची तोंडीलावणी"
+ },
+ {
+  "word": "लोणचे",
+  "topics": [
+   "food"
+  ],
+  "difficulty": 1,
+  "kind": "common",
+  "clue": "तेलात मुरवलेल्या आंबट-तिखट फोडी",
+  "shortClue": "मुरलेल्या फोडी"
+ },
+ {
+  "word": "ज्वारी",
+  "topics": [
+   "food"
+  ],
+  "difficulty": 2,
+  "kind": "common",
+  "clue": "भाकरीचे पांढरे दाणेदार धान्य",
+  "shortClue": "भाकरीचे धान्य"
+ },
+ {
+  "word": "गहू",
+  "topics": [
+   "food"
+  ],
+  "difficulty": 1,
+  "kind": "common",
+  "clue": "पोळीसाठी दळले जाणारे धान्य",
+  "shortClue": "पोळीचे धान्य"
+ },
+ {
+  "word": "पठार",
+  "topics": [
+   "geography"
+  ],
+  "difficulty": 2,
+  "kind": "common",
+  "clue": "उंचावर पसरलेला सपाट प्रदेश, जसा दख्खनचा",
+  "shortClue": "उंच सपाटी"
+ },
+ {
+  "word": "खिंड",
+  "topics": [
+   "geography"
+  ],
+  "difficulty": 3,
+  "kind": "common",
+  "clue": "दोन डोंगरांमधील अरुंद वाट",
+  "shortClue": "डोंगरांतली वाट"
+ },
+ {
+  "word": "घाट",
+  "topics": [
+   "geography"
+  ],
+  "difficulty": 1,
+  "kind": "common",
+  "clue": "डोंगर चढून जाणारा वळणावळणाचा रस्ता",
+  "shortClue": "वळणाचा रस्ता"
+ },
+ {
+  "word": "सरोवर",
+  "topics": [
+   "geography"
+  ],
+  "difficulty": 2,
+  "kind": "common",
+  "clue": "चहूबाजूंनी जमिनीने वेढलेला मोठा जलाशय",
+  "shortClue": "मोठा जलाशय"
+ },
+ {
+  "word": "खाडी",
+  "topics": [
+   "geography"
+  ],
+  "difficulty": 2,
+  "kind": "common",
+  "clue": "समुद्राचे जमिनीत आत शिरलेले चिंचोळे पाणी",
+  "shortClue": "समुद्राचा फाटा"
+ },
+ {
+  "word": "द्वीपकल्प",
+  "topics": [
+   "geography"
+  ],
+  "difficulty": 3,
+  "kind": "common",
+  "clue": "तीन बाजूंनी पाण्याने वेढलेला भूभाग",
+  "shortClue": "तीन बाजूंनी पाणी"
+ },
+ {
+  "word": "नकाशा",
+  "topics": [
+   "geography"
+  ],
+  "difficulty": 1,
+  "kind": "common",
+  "clue": "देश, शहरे दाखवणारे कागदावरचे रेखाचित्र",
+  "shortClue": "भूभागाचे चित्र"
+ },
+ {
+  "word": "दिशा",
+  "topics": [
+   "geography"
+  ],
+  "difficulty": 1,
+  "kind": "common",
+  "clue": "पूर्व, पश्चिम, उत्तर, दक्षिण यांपैकी एक",
+  "shortClue": "पूर्व किंवा पश्चिम"
+ },
+ {
+  "word": "होकायंत्र",
+  "topics": [
+   "geography",
+   "science"
+  ],
+  "difficulty": 2,
+  "kind": "common",
+  "clue": "नेहमी उत्तरेकडे काटा रोखणारे चुंबकीय साधन",
+  "shortClue": "उत्तर दाखवणारे"
+ },
+ {
+  "word": "विषुववृत्त",
+  "topics": [
+   "geography"
+  ],
+  "difficulty": 3,
+  "kind": "common",
+  "clue": "पृथ्वीला दोन समान भागांत विभागणारी काल्पनिक रेषा",
+  "shortClue": "मधली रेषा"
+ },
+ {
+  "word": "खंड",
+  "topics": [
+   "geography"
+  ],
+  "difficulty": 2,
+  "kind": "common",
+  "clue": "आशिया किंवा आफ्रिकेसारखा अतिविशाल भूभाग",
+  "shortClue": "मोठा भूभाग"
+ },
+ {
+  "word": "ज्वालामुखी",
+  "topics": [
+   "geography",
+   "science"
+  ],
+  "difficulty": 2,
+  "kind": "common",
+  "clue": "पोटातून लाव्हा ओकणारा डोंगर",
+  "shortClue": "आग ओकणारा"
+ },
+ {
+  "word": "गाव",
+  "topics": [
+   "geography"
+  ],
+  "difficulty": 1,
+  "kind": "common",
+  "clue": "शेते आणि वाड्यांनी वसलेली लहान वस्ती",
+  "shortClue": "लहान वस्ती"
+ },
+ {
+  "word": "बंदर",
+  "topics": [
+   "geography"
+  ],
+  "difficulty": 2,
+  "kind": "common",
+  "clue": "जहाजे थांबतात तो किनाऱ्यावरचा धक्का",
+  "shortClue": "जहाजांचा धक्का"
+ },
+ {
+  "word": "आखात",
+  "topics": [
+   "geography"
+  ],
+  "difficulty": 3,
+  "kind": "common",
+  "clue": "जमिनीत खोलवर घुसलेला समुद्राचा विशाल भाग",
+  "shortClue": "मोठी खाडी"
+ },
+ {
+  "word": "पर्वत",
+  "topics": [
+   "geography"
+  ],
+  "difficulty": 2,
+  "kind": "common",
+  "clue": "ढगांना भिडणारा उंच आणि विशाल गिरी",
+  "shortClue": "उंच गिरी"
+ },
+ {
+  "word": "टेकडी",
+  "topics": [
+   "geography"
+  ],
+  "difficulty": 1,
+  "kind": "common",
+  "clue": "लहानसा उंचवटा, छोटा डोंगर",
+  "shortClue": "छोटा डोंगर"
+ },
+ {
+  "word": "जिल्हा",
+  "topics": [
+   "geography"
+  ],
+  "difficulty": 2,
+  "kind": "common",
+  "clue": "तालुक्यांनी बनलेला राज्याचा प्रशासकीय विभाग",
+  "shortClue": "राज्याचा विभाग"
+ },
+ {
+  "word": "महासागर",
+  "topics": [
+   "geography"
+  ],
+  "difficulty": 2,
+  "kind": "common",
+  "clue": "पृथ्वीवरील अफाट खाऱ्या पाण्याचा विस्तार, जसा हिंदी",
+  "shortClue": "अफाट जलसाठा"
+ },
+ {
+  "word": "धरण",
+  "topics": [
+   "geography"
+  ],
+  "difficulty": 1,
+  "kind": "common",
+  "clue": "नदीचे पाणी अडवण्यासाठी बांधलेली भक्कम भिंत",
+  "shortClue": "पाणी अडवणारी"
+ },
+ {
+  "word": "गुहा",
+  "topics": [
+   "geography"
+  ],
+  "difficulty": 1,
+  "kind": "common",
+  "clue": "डोंगरातील नैसर्गिक किंवा खोदलेली पोकळी",
+  "shortClue": "डोंगरातली पोकळी"
+ },
+ {
+  "word": "काठ",
+  "topics": [
+   "geography"
+  ],
+  "difficulty": 2,
+  "kind": "common",
+  "clue": "नदीचा किंवा तळ्याचा किनारा",
+  "shortClue": "नदीकिनारा"
+ },
+ {
+  "word": "उतार",
+  "topics": [
+   "geography"
+  ],
+  "difficulty": 2,
+  "kind": "common",
+  "clue": "डोंगरावरून खाली जाणारी तिरकी जमीन",
+  "shortClue": "तिरकी जमीन"
+ },
+ {
+  "word": "हवामान",
+  "topics": [
+   "geography"
+  ],
+  "difficulty": 2,
+  "kind": "common",
+  "clue": "एखाद्या प्रदेशातील ऊन, पाऊस, थंडीचे वर्षभराचे स्वरूप",
+  "shortClue": "ऋतूंचे स्वरूप"
+ },
+ {
+  "word": "कोकण",
+  "topics": [
+   "geography"
+  ],
+  "difficulty": 1,
+  "kind": "proper",
+  "clue": "सह्याद्री आणि अरबी समुद्रामधील हिरवी किनारपट्टी",
+  "shortClue": "हिरवी किनारपट्टी"
+ },
+ {
+  "word": "सातारा",
+  "topics": [
+   "geography"
+  ],
+  "difficulty": 1,
+  "kind": "proper",
+  "clue": "अजिंक्यतारा किल्ल्याचे, कंदी पेढ्यांचे शहर",
+  "shortClue": "कंदी पेढ्यांचे"
+ },
+ {
+  "word": "रत्नागिरी",
+  "topics": [
+   "geography"
+  ],
+  "difficulty": 2,
+  "kind": "proper",
+  "clue": "हापूस आंब्यासाठी प्रसिद्ध कोकणातील जिल्हा",
+  "shortClue": "हापूसचा जिल्हा"
+ },
+ {
+  "word": "ठाणे",
+  "topics": [
+   "geography"
+  ],
+  "difficulty": 1,
+  "kind": "proper",
+  "clue": "मुंबईलगतचे तलावांचे शहर",
+  "shortClue": "तलावांचे शहर"
+ },
+ {
+  "word": "नांदेड",
+  "topics": [
+   "geography"
+  ],
+  "difficulty": 2,
+  "kind": "proper",
+  "clue": "गोदावरीकाठचे मराठवाड्यातील शहर",
+  "shortClue": "मराठवाड्यातील शहर"
+ },
+ {
+  "word": "जळगाव",
+  "topics": [
+   "geography"
+  ],
+  "difficulty": 2,
+  "kind": "proper",
+  "clue": "केळीच्या बागांसाठी प्रसिद्ध खानदेशातील शहर",
+  "shortClue": "केळीचे शहर"
+ },
+ {
+  "word": "कृष्णा",
+  "topics": [
+   "geography"
+  ],
+  "difficulty": 1,
+  "kind": "proper",
+  "clue": "महाबळेश्वरात उगम पावणारी पूर्ववाहिनी नदी",
+  "shortClue": "सांगलीची नदी"
+ },
+ {
+  "word": "भीमा",
+  "topics": [
+   "geography"
+  ],
+  "difficulty": 2,
+  "kind": "proper",
+  "clue": "पंढरपूरजवळून वाहणारी, कृष्णेची उपनदी",
+  "shortClue": "कृष्णेची उपनदी"
+ },
+ {
+  "word": "महाबळेश्वर",
+  "topics": [
+   "geography"
+  ],
+  "difficulty": 2,
+  "kind": "proper",
+  "clue": "कृष्णेच्या उगमाचे, सह्याद्रीतील थंड हवेचे ठिकाण",
+  "shortClue": "थंड हवेचे ठिकाण"
+ },
+ {
+  "word": "लोणावळा",
+  "topics": [
+   "geography"
+  ],
+  "difficulty": 2,
+  "kind": "proper",
+  "clue": "चिक्कीसाठी प्रसिद्ध सह्याद्रीतील गिरिस्थान",
+  "shortClue": "चिक्कीचे ठिकाण"
+ },
+ {
+  "word": "हिमालय",
+  "topics": [
+   "geography"
+  ],
+  "difficulty": 1,
+  "kind": "proper",
+  "clue": "जगातील सर्वांत उंच पर्वतरांग",
+  "shortClue": "उंच पर्वतरांग"
+ },
+ {
+  "word": "गंगा",
+  "topics": [
+   "geography"
+  ],
+  "difficulty": 1,
+  "kind": "proper",
+  "clue": "हिमालयात उगम पावणारी भारतातील सर्वांत लांब नदी",
+  "shortClue": "भारतातील लांब नदी"
+ },
+ {
+  "word": "जपान",
+  "topics": [
+   "geography"
+  ],
+  "difficulty": 2,
+  "kind": "proper",
+  "clue": "उगवत्या सूर्याचा बेटांचा देश",
+  "shortClue": "उगवत्या सूर्याचा"
+ },
+ {
+  "word": "इजिप्त",
+  "topics": [
+   "geography"
+  ],
+  "difficulty": 2,
+  "kind": "proper",
+  "clue": "पिरॅमिड आणि नाईल नदीचा देश",
+  "shortClue": "पिरॅमिडांचा देश"
+ },
+ {
+  "word": "गोवा",
+  "topics": [
+   "geography"
+  ],
+  "difficulty": 1,
+  "kind": "proper",
+  "clue": "कोकणाला लागून असलेले किनाऱ्यांचे छोटे राज्य",
+  "shortClue": "किनाऱ्यांचे राज्य"
+ },
+ {
+  "word": "बुरूज",
+  "topics": [
+   "history"
+  ],
+  "difficulty": 2,
+  "kind": "common",
+  "clue": "किल्ल्याच्या तटबंदीवरचा गोलाकार टेहळणी मनोरा",
+  "shortClue": "तटाचा मनोरा"
+ },
+ {
+  "word": "तटबंदी",
+  "topics": [
+   "history"
+  ],
+  "difficulty": 3,
+  "kind": "common",
+  "clue": "किल्ल्याभोवती बांधलेली मजबूत दगडी भिंत",
+  "shortClue": "किल्ल्याची भिंत"
+ },
+ {
+  "word": "खंदक",
+  "topics": [
+   "history"
+  ],
+  "difficulty": 3,
+  "kind": "common",
+  "clue": "किल्ल्याभोवती खोदलेला पाण्याचा खोल चर",
+  "shortClue": "किल्ल्याचा चर"
+ },
+ {
+  "word": "भाला",
+  "topics": [
+   "history"
+  ],
+  "difficulty": 1,
+  "kind": "common",
+  "clue": "लांब दांड्याचे टोकदार हत्यार",
+  "shortClue": "टोकदार हत्यार"
+ },
+ {
+  "word": "बाण",
+  "topics": [
+   "history"
+  ],
+  "difficulty": 1,
+  "kind": "common",
+  "clue": "धनुष्यातून सोडली जाणारी टोकदार काडी",
+  "shortClue": "धनुष्याचे अस्त्र"
+ },
+ {
+  "word": "कट्यार",
+  "topics": [
+   "history"
+  ],
+  "difficulty": 3,
+  "kind": "common",
+  "clue": "कमरेला खोवायचा लहान दुधारी खंजीर",
+  "shortClue": "छोटा खंजीर"
+ },
+ {
+  "word": "गदा",
+  "topics": [
+   "history"
+  ],
+  "difficulty": 2,
+  "kind": "common",
+  "clue": "भीमाचे जड गोल डोक्याचे शस्त्र",
+  "shortClue": "भीमाचे शस्त्र"
+ },
+ {
+  "word": "चिलखत",
+  "topics": [
+   "history"
+  ],
+  "difficulty": 2,
+  "kind": "common",
+  "clue": "लढाईत अंगावर घालायचे लोखंडी कवच",
+  "shortClue": "लोखंडी कवच"
+ },
+ {
+  "word": "सिंहासन",
+  "topics": [
+   "history"
+  ],
+  "difficulty": 2,
+  "kind": "common",
+  "clue": "राजा बसतो ते राजेशाही आसन",
+  "shortClue": "राजाचे आसन"
+ },
+ {
+  "word": "राणी",
+  "topics": [
+   "history"
+  ],
+  "difficulty": 1,
+  "kind": "common",
+  "clue": "राजाची पत्नी",
+  "shortClue": "राजाची पत्नी"
+ },
+ {
+  "word": "राजवाडा",
+  "topics": [
+   "history"
+  ],
+  "difficulty": 2,
+  "kind": "common",
+  "clue": "सत्ताधीशाचे भव्य निवासस्थान",
+  "shortClue": "शाही निवास"
+ },
+ {
+  "word": "वाडा",
+  "topics": [
+   "history"
+  ],
+  "difficulty": 2,
+  "kind": "common",
+  "clue": "चौसोपी, ऐसपैस जुने घर",
+  "shortClue": "जुने ऐसपैस घर"
+ },
+ {
+  "word": "मावळा",
+  "topics": [
+   "history",
+   "localCulture"
+  ],
+  "difficulty": 2,
+  "kind": "common",
+  "clue": "शिवरायांचा डोंगराळ मुलखातला निष्ठावान सैनिक",
+  "shortClue": "शिवरायांचा सैनिक"
+ },
+ {
+  "word": "सेनापती",
+  "topics": [
+   "history"
+  ],
+  "difficulty": 2,
+  "kind": "common",
+  "clue": "सर्व फौजेचा सर्वोच्च प्रमुख",
+  "shortClue": "फौजेचा प्रमुख"
+ },
+ {
+  "word": "ताम्रपट",
+  "topics": [
+   "history"
+  ],
+  "difficulty": 3,
+  "kind": "common",
+  "clue": "तांब्याच्या पत्र्यावर कोरलेला जुना दानलेख",
+  "shortClue": "तांब्याचा लेख"
+ },
+ {
+  "word": "शिलालेख",
+  "topics": [
+   "history"
+  ],
+  "difficulty": 3,
+  "kind": "common",
+  "clue": "दगडावर कोरलेला प्राचीन मजकूर",
+  "shortClue": "दगडी मजकूर"
+ },
+ {
+  "word": "लिपी",
+  "topics": [
+   "history"
+  ],
+  "difficulty": 2,
+  "kind": "common",
+  "clue": "भाषा लिहिण्याची अक्षरपद्धती, जसे देवनागरी",
+  "shortClue": "अक्षरपद्धती"
+ },
+ {
+  "word": "मोडी",
+  "topics": [
+   "history"
+  ],
+  "difficulty": 3,
+  "kind": "common",
+  "clue": "जुन्या मराठी दप्तरांतील वळणदार लेखनपद्धती",
+  "shortClue": "जुनी वळणदार अक्षरे"
+ },
+ {
+  "word": "बखर",
+  "topics": [
+   "history"
+  ],
+  "difficulty": 3,
+  "kind": "common",
+  "clue": "जुन्या मराठी राजवटीचा गद्य इतिहासग्रंथ",
+  "shortClue": "ऐतिहासिक गद्य"
+ },
+ {
+  "word": "नाणे",
+  "topics": [
+   "history"
+  ],
+  "difficulty": 1,
+  "kind": "common",
+  "clue": "धातूचा गोल पैसा",
+  "shortClue": "धातूचा पैसा"
+ },
+ {
+  "word": "मोहर",
+  "topics": [
+   "history"
+  ],
+  "difficulty": 3,
+  "kind": "common",
+  "clue": "सोन्याचे जुने नाणे",
+  "shortClue": "सोन्याचे नाणे"
+ },
+ {
+  "word": "शिक्का",
+  "topics": [
+   "history"
+  ],
+  "difficulty": 2,
+  "kind": "common",
+  "clue": "कागदावर उमटवायची अधिकृत मुद्रा",
+  "shortClue": "मुद्रा"
+ },
+ {
+  "word": "गलबत",
+  "topics": [
+   "history"
+  ],
+  "difficulty": 3,
+  "kind": "common",
+  "clue": "जुन्या काळचे शिडाचे व्यापारी जहाज",
+  "shortClue": "शिडाचे जहाज"
+ },
+ {
+  "word": "आरमार",
+  "topics": [
+   "history"
+  ],
+  "difficulty": 3,
+  "kind": "common",
+  "clue": "शिवरायांनी उभारलेले युद्धनौकांचे दल",
+  "shortClue": "नौदल"
+ },
+ {
+  "word": "शीड",
+  "topics": [
+   "history"
+  ],
+  "difficulty": 3,
+  "kind": "common",
+  "clue": "वाऱ्याने जहाज पुढे ढकलणारे मोठे कापड",
+  "shortClue": "जहाजाचे कापड"
+ },
+ {
+  "word": "पालखी",
+  "topics": [
+   "history"
+  ],
+  "difficulty": 2,
+  "kind": "common",
+  "clue": "भोयांनी खांद्यावरून वाहायची सजवलेली डोली",
+  "shortClue": "भोयांची डोली"
+ },
+ {
+  "word": "घोडदळ",
+  "topics": [
+   "history"
+  ],
+  "difficulty": 3,
+  "kind": "common",
+  "clue": "अश्वारूढ सैनिकांची तुकडी",
+  "shortClue": "अश्वारूढ फौज"
+ },
+ {
+  "word": "पेशवा",
+  "topics": [
+   "history"
+  ],
+  "difficulty": 3,
+  "kind": "common",
+  "clue": "छत्रपतींचा मुख्य प्रधान",
+  "shortClue": "मुख्य प्रधान"
+ },
+ {
+  "word": "दुर्ग",
+  "topics": [
+   "history"
+  ],
+  "difficulty": 3,
+  "kind": "common",
+  "clue": "डोंगरावरचा मजबूत गड",
+  "shortClue": "डोंगरी गड"
+ },
+ {
+  "word": "तह",
+  "topics": [
+   "history"
+  ],
+  "difficulty": 3,
+  "kind": "common",
+  "clue": "लढाई थांबवण्यासाठी दोन राज्यांत झालेला करार",
+  "shortClue": "शांततेचा करार"
+ },
+ {
+  "word": "इतिहास",
+  "topics": [
+   "history"
+  ],
+  "difficulty": 1,
+  "kind": "common",
+  "clue": "भूतकाळातील घटनांचा अभ्यास",
+  "shortClue": "गतकाळाची गाथा"
+ },
+ {
+  "word": "साम्राज्य",
+  "topics": [
+   "history"
+  ],
+  "difficulty": 2,
+  "kind": "common",
+  "clue": "एका सम्राटाच्या सत्तेखालील विशाल भूभाग",
+  "shortClue": "सम्राटाची सत्ता"
+ },
+ {
+  "word": "मशाल",
+  "topics": [
+   "history"
+  ],
+  "difficulty": 2,
+  "kind": "common",
+  "clue": "अंधारात वाट दाखवणारी काठीवरची जळती ज्योत",
+  "shortClue": "जळती ज्योत"
+ },
+ {
+  "word": "चुंबक",
+  "topics": [
+   "science"
+  ],
+  "difficulty": 2,
+  "kind": "common",
+  "clue": "लोखंडाला आपल्याकडे ओढणारा धातूचा तुकडा",
+  "shortClue": "लोखंड ओढतो"
+ },
+ {
+  "word": "गुरुत्वाकर्षण",
+  "topics": [
+   "science"
+  ],
+  "difficulty": 3,
+  "kind": "common",
+  "clue": "वस्तू जमिनीकडे खेचणारी पृथ्वीची शक्ती",
+  "shortClue": "पृथ्वीची ओढ"
+ },
+ {
+  "word": "पृथ्वी",
+  "topics": [
+   "science"
+  ],
+  "difficulty": 1,
+  "kind": "common",
+  "clue": "आपण राहतो तो निळा ग्रह",
+  "shortClue": "आपला ग्रह"
+ },
+ {
+  "word": "मंगळ",
+  "topics": [
+   "science"
+  ],
+  "difficulty": 2,
+  "kind": "common",
+  "clue": "लाल रंगाचा, आपला शेजारी ग्रह",
+  "shortClue": "लाल ग्रह"
+ },
+ {
+  "word": "शनी",
+  "topics": [
+   "science"
+  ],
+  "difficulty": 2,
+  "kind": "common",
+  "clue": "सुंदर कड्यांचा वेढा असलेला ग्रह",
+  "shortClue": "कड्यांचा ग्रह"
+ },
+ {
+  "word": "सोने",
+  "topics": [
+   "science"
+  ],
+  "difficulty": 1,
+  "kind": "common",
+  "clue": "पिवळा चमकदार मौल्यवान धातू",
+  "shortClue": "पिवळा धातू"
+ },
+ {
+  "word": "तांबे",
+  "topics": [
+   "science"
+  ],
+  "difficulty": 2,
+  "kind": "common",
+  "clue": "विजेच्या तारांसाठी वापरला जाणारा लालसर धातू",
+  "shortClue": "लालसर धातू"
+ },
+ {
+  "word": "पारा",
+  "topics": [
+   "science"
+  ],
+  "difficulty": 3,
+  "kind": "common",
+  "clue": "तापमापकात वापरला जाणारा द्रव धातू",
+  "shortClue": "द्रव धातू"
+ },
+ {
+  "word": "हिरा",
+  "topics": [
+   "science"
+  ],
+  "difficulty": 2,
+  "kind": "common",
+  "clue": "कर्बाचेच रूप असलेले, सर्वांत कठीण नैसर्गिक रत्न",
+  "shortClue": "कठीण रत्न"
+ },
+ {
+  "word": "कोळसा",
+  "topics": [
+   "science"
+  ],
+  "difficulty": 1,
+  "kind": "common",
+  "clue": "जळण म्हणून वापरले जाणारे काळे खनिज",
+  "shortClue": "काळे इंधन"
+ },
+ {
+  "word": "आम्ल",
+  "topics": [
+   "science"
+  ],
+  "difficulty": 3,
+  "kind": "common",
+  "clue": "लिंबासारखे आंबट, लिटमस लाल करणारे रसायन",
+  "shortClue": "आंबट रसायन"
+ },
+ {
+  "word": "हाड",
+  "topics": [
+   "science"
+  ],
+  "difficulty": 1,
+  "kind": "common",
+  "clue": "शरीराचा सांगाडा बनवणारा कठीण भाग",
+  "shortClue": "सांगाड्याचा भाग"
+ },
+ {
+  "word": "रक्त",
+  "topics": [
+   "science"
+  ],
+  "difficulty": 1,
+  "kind": "common",
+  "clue": "शिरांमधून वाहणारा लाल द्रव",
+  "shortClue": "लाल द्रव"
+ },
+ {
+  "word": "फुफ्फुस",
+  "topics": [
+   "science"
+  ],
+  "difficulty": 2,
+  "kind": "common",
+  "clue": "श्वास घेताना हवा भरणारा छातीतील अवयव",
+  "shortClue": "श्वासाचा अवयव"
+ },
+ {
+  "word": "यकृत",
+  "topics": [
+   "science"
+  ],
+  "difficulty": 3,
+  "kind": "common",
+  "clue": "पित्त तयार करणारी पोटातील सर्वांत मोठी ग्रंथी",
+  "shortClue": "मोठी ग्रंथी"
+ },
+ {
+  "word": "नस",
+  "topics": [
+   "science"
+  ],
+  "difficulty": 2,
+  "kind": "common",
+  "clue": "रक्त वाहून नेणारी शरीरातील नलिका",
+  "shortClue": "रक्तवाहिनी"
+ },
+ {
+  "word": "सूक्ष्मदर्शक",
+  "topics": [
+   "science"
+  ],
+  "difficulty": 3,
+  "kind": "common",
+  "clue": "पेशी पाहण्यासाठी वापरले जाणारे भिंगांचे उपकरण",
+  "shortClue": "पेशी दाखवणारे"
+ },
+ {
+  "word": "दुर्बीण",
+  "topics": [
+   "science"
+  ],
+  "difficulty": 2,
+  "kind": "common",
+  "clue": "दूरचे तारे जवळ दाखवणारे नळीसारखे उपकरण",
+  "shortClue": "दूरदर्शी नळी"
+ },
+ {
+  "word": "प्रकाश",
+  "topics": [
+   "science"
+  ],
+  "difficulty": 1,
+  "kind": "common",
+  "clue": "अंधार दूर करणारे तेज",
+  "shortClue": "उजेड"
+ },
+ {
+  "word": "तापमान",
+  "topics": [
+   "science"
+  ],
+  "difficulty": 2,
+  "kind": "common",
+  "clue": "किती गरम किंवा थंड आहे याचे अंशांतले माप",
+  "shortClue": "उष्णतेचे माप"
+ },
+ {
+  "word": "वनस्पती",
+  "topics": [
+   "science"
+  ],
+  "difficulty": 2,
+  "kind": "common",
+  "clue": "झाडे, वेली, गवत यांचे एकत्रित नाव",
+  "shortClue": "झाडेझुडपे"
+ },
+ {
+  "word": "बीज",
+  "topics": [
+   "science"
+  ],
+  "difficulty": 2,
+  "kind": "common",
+  "clue": "रुजल्यावर नवे रोप उगवते असा दाणा",
+  "shortClue": "रुजणारा दाणा"
+ },
+ {
+  "word": "प्रकाशसंश्लेषण",
+  "topics": [
+   "science"
+  ],
+  "difficulty": 3,
+  "kind": "common",
+  "clue": "हरित पाने उन्हात कर्बवायू आणि पाण्यापासून अन्न बनवतात ती क्रिया",
+  "shortClue": "पानांची अन्ननिर्मिती"
+ },
+ {
+  "word": "औषध",
+  "topics": [
+   "science"
+  ],
+  "difficulty": 1,
+  "kind": "common",
+  "clue": "आजार बरा करण्यासाठी घ्यायची गोळी किंवा काढा",
+  "shortClue": "आजारावर उपाय"
+ },
+ {
+  "word": "लस",
+  "topics": [
+   "science"
+  ],
+  "difficulty": 2,
+  "kind": "common",
+  "clue": "रोग होऊ नये म्हणून आधीच टोचली जाणारी मात्रा",
+  "shortClue": "रोगप्रतिबंधक मात्रा"
+ },
+ {
+  "word": "विषाणू",
+  "topics": [
+   "science"
+  ],
+  "difficulty": 3,
+  "kind": "common",
+  "clue": "सर्दी-तापासारखे आजार पसरवणारा अतिसूक्ष्म जंतू",
+  "shortClue": "अतिसूक्ष्म जंतू"
+ },
+ {
+  "word": "जंतू",
+  "topics": [
+   "science"
+  ],
+  "difficulty": 2,
+  "kind": "common",
+  "clue": "रोग पसरवणारा, डोळ्यांना न दिसणारा जीव",
+  "shortClue": "सूक्ष्म जीव"
+ },
+ {
+  "word": "बेरीज",
+  "topics": [
+   "science"
+  ],
+  "difficulty": 1,
+  "kind": "common",
+  "clue": "दोन संख्या एकत्र करण्याची क्रिया",
+  "shortClue": "अधिक करणे"
+ },
+ {
+  "word": "गुणाकार",
+  "topics": [
+   "science"
+  ],
+  "difficulty": 2,
+  "kind": "common",
+  "clue": "पाढे पाठ असल्यावर सोपी होणारी गणिती क्रिया",
+  "shortClue": "पाढ्यांची क्रिया"
+ },
+ {
+  "word": "भागाकार",
+  "topics": [
+   "science"
+  ],
+  "difficulty": 2,
+  "kind": "common",
+  "clue": "संख्येचे समान वाटे करणारी गणिती क्रिया",
+  "shortClue": "समान वाटे"
+ },
+ {
+  "word": "अपूर्णांक",
+  "topics": [
+   "science"
+  ],
+  "difficulty": 3,
+  "kind": "common",
+  "clue": "एकाचा हिस्सा दाखवणारी संख्या, जसे अर्धा",
+  "shortClue": "हिश्शाची संख्या"
+ },
+ {
+  "word": "वर्तुळ",
+  "topics": [
+   "science"
+  ],
+  "difficulty": 2,
+  "kind": "common",
+  "clue": "केंद्रापासून सारख्या अंतरावरील बिंदूंची गोल रेषा",
+  "shortClue": "गोल रेषा"
+ },
+ {
+  "word": "धूमकेतू",
+  "topics": [
+   "science"
+  ],
+  "difficulty": 3,
+  "kind": "common",
+  "clue": "सूर्याजवळ आल्यावर लांब शेपूट दिसणारा खगोलीय पाहुणा",
+  "shortClue": "शेपटीचा तारा"
+ },
+ {
+  "word": "अंतराळ",
+  "topics": [
+   "science"
+  ],
+  "difficulty": 2,
+  "kind": "common",
+  "clue": "पृथ्वीच्या वातावरणापलीकडची अफाट पोकळी",
+  "shortClue": "अवकाश"
+ },
+ {
+  "word": "ध्वनी",
+  "topics": [
+   "science"
+  ],
+  "difficulty": 3,
+  "kind": "common",
+  "clue": "कानांना ऐकू येणारी कंपने",
+  "shortClue": "आवाजाच्या लहरी"
+ },
+ {
+  "word": "आकाशगंगा",
+  "topics": [
+   "science"
+  ],
+  "difficulty": 3,
+  "kind": "common",
+  "clue": "रात्री आकाशात दिसणारा ताऱ्यांचा दुधाळ पट्टा",
+  "shortClue": "ताऱ्यांचा पट्टा"
+ },
+ {
+  "word": "बाष्प",
+  "topics": [
+   "science"
+  ],
+  "difficulty": 3,
+  "kind": "common",
+  "clue": "पाणी तापल्यावर हवेत जाणारी वाफ",
+  "shortClue": "वाफ"
+ },
+ {
+  "word": "आट्यापाट्या",
+  "topics": [
+   "sport",
+   "localCulture"
+  ],
+  "difficulty": 3,
+  "kind": "common",
+  "clue": "मैदानात आखलेल्या पट्ट्या ओलांडण्याचा जुना मराठी खेळ",
+  "shortClue": "पट्ट्यांचा खेळ"
+ },
+ {
+  "word": "विटीदांडू",
+  "topics": [
+   "sport"
+  ],
+  "difficulty": 2,
+  "kind": "common",
+  "clue": "लाकडी काठीने छोटी लाकडी कांडी टोलवण्याचा गावचा खेळ",
+  "shortClue": "गावचा खेळ"
+ },
+ {
+  "word": "लगोरी",
+  "topics": [
+   "sport"
+  ],
+  "difficulty": 2,
+  "kind": "common",
+  "clue": "चपट्या दगडांची रास चेंडूने पाडण्याचा खेळ",
+  "shortClue": "दगडांची रास"
+ },
+ {
+  "word": "फुगडी",
+  "topics": [
+   "sport",
+   "localCulture"
+  ],
+  "difficulty": 2,
+  "kind": "common",
+  "clue": "दोघी हात धरून गोल फिरतात तो मंगळागौरीचा खेळ",
+  "shortClue": "मंगळागौरीचा खेळ"
+ },
+ {
+  "word": "मल्लखांब",
+  "topics": [
+   "sport",
+   "localCulture"
+  ],
+  "difficulty": 2,
+  "kind": "common",
+  "clue": "उभ्या लाकडी स्तंभावर कसरती करण्याचा मराठी व्यायामप्रकार",
+  "shortClue": "स्तंभावरची कसरत"
+ },
+ {
+  "word": "आखाडा",
+  "topics": [
+   "sport"
+  ],
+  "difficulty": 2,
+  "kind": "common",
+  "clue": "कुस्ती खेळण्यासाठी तयार केलेला मातीचा चौक",
+  "shortClue": "कुस्तीची माती"
+ },
+ {
+  "word": "पैलवान",
+  "topics": [
+   "sport"
+  ],
+  "difficulty": 2,
+  "kind": "common",
+  "clue": "लाल मातीत लढणारा बलदंड कुस्तीगीर",
+  "shortClue": "कुस्तीगीर"
+ },
+ {
+  "word": "फलंदाज",
+  "topics": [
+   "sport"
+  ],
+  "difficulty": 2,
+  "kind": "common",
+  "clue": "क्रिकेटमध्ये बॅटने धावा काढणारा खेळाडू",
+  "shortClue": "धावा काढणारा"
+ },
+ {
+  "word": "गोलंदाज",
+  "topics": [
+   "sport"
+  ],
+  "difficulty": 2,
+  "kind": "common",
+  "clue": "क्रिकेटमध्ये फलंदाजाकडे चेंडू टाकणारा खेळाडू",
+  "shortClue": "चेंडू टाकणारा"
+ },
+ {
+  "word": "यष्टी",
+  "topics": [
+   "sport"
+  ],
+  "difficulty": 3,
+  "kind": "common",
+  "clue": "क्रिकेटमध्ये फलंदाजामागे रोवलेल्या तीन दांड्या",
+  "shortClue": "तीन दांड्या"
+ },
+ {
+  "word": "षटकार",
+  "topics": [
+   "sport"
+  ],
+  "difficulty": 2,
+  "kind": "common",
+  "clue": "चेंडू थेट हवेतून सीमेपार गेल्याने मिळणाऱ्या सहा धावा",
+  "shortClue": "सहा धावा"
+ },
+ {
+  "word": "चौकार",
+  "topics": [
+   "sport"
+  ],
+  "difficulty": 2,
+  "kind": "common",
+  "clue": "चेंडू जमिनीवरून सीमेपार गेल्याने मिळणाऱ्या चार धावा",
+  "shortClue": "चार धावा"
+ },
+ {
+  "word": "संघ",
+  "topics": [
+   "sport"
+  ],
+  "difficulty": 1,
+  "kind": "common",
+  "clue": "एकत्र खेळणारा खेळाडूंचा गट",
+  "shortClue": "खेळाडूंचा गट"
+ },
+ {
+  "word": "स्पर्धा",
+  "topics": [
+   "sport"
+  ],
+  "difficulty": 1,
+  "kind": "common",
+  "clue": "कोण सरस ठरतो हे पाहण्यासाठी घेतलेली चुरस",
+  "shortClue": "चुरस"
+ },
+ {
+  "word": "विजय",
+  "topics": [
+   "sport"
+  ],
+  "difficulty": 1,
+  "kind": "common",
+  "clue": "सामन्यात प्रतिस्पर्ध्याला हरवणे",
+  "shortClue": "सामना जिंकणे"
+ },
+ {
+  "word": "सामना",
+  "topics": [
+   "sport"
+  ],
+  "difficulty": 1,
+  "kind": "common",
+  "clue": "दोन संघांमधील एक लढत",
+  "shortClue": "एक लढत"
+ },
+ {
+  "word": "शर्यत",
+  "topics": [
+   "sport"
+  ],
+  "difficulty": 1,
+  "kind": "common",
+  "clue": "कोण आधी पोहोचतो याची वेगाची चुरस",
+  "shortClue": "वेगाची चुरस"
+ },
+ {
+  "word": "पोहणे",
+  "topics": [
+   "sport"
+  ],
+  "difficulty": 1,
+  "kind": "common",
+  "clue": "हातपाय मारत पाण्यात पुढे जाणे",
+  "shortClue": "पाण्यात तरणे"
+ },
+ {
+  "word": "नेमबाजी",
+  "topics": [
+   "sport"
+  ],
+  "difficulty": 2,
+  "kind": "common",
+  "clue": "लक्ष्यावर अचूक गोळी झाडण्याचा खेळ",
+  "shortClue": "अचूक निशाणा"
+ },
+ {
+  "word": "तिरंदाजी",
+  "topics": [
+   "sport"
+  ],
+  "difficulty": 2,
+  "kind": "common",
+  "clue": "धनुष्यबाणाने निशाणा साधण्याचा खेळ",
+  "shortClue": "धनुर्विद्या"
+ },
+ {
+  "word": "व्यायाम",
+  "topics": [
+   "sport"
+  ],
+  "difficulty": 1,
+  "kind": "common",
+  "clue": "शरीर तंदुरुस्त ठेवण्यासाठी केलेली हालचाल",
+  "shortClue": "कसरत"
+ },
+ {
+  "word": "सूर्यनमस्कार",
+  "topics": [
+   "sport"
+  ],
+  "difficulty": 2,
+  "kind": "common",
+  "clue": "बारा आसनांचा पहाटेचा पारंपरिक व्यायाम",
+  "shortClue": "बारा आसने"
+ },
+ {
+  "word": "पतंग",
+  "topics": [
+   "sport",
+   "localCulture"
+  ],
+  "difficulty": 1,
+  "kind": "common",
+  "clue": "संक्रांतीला मांजाने आकाशात उडवायचा कागद",
+  "shortClue": "मांजाने उडवतात"
+ },
+ {
+  "word": "प्रशिक्षक",
+  "topics": [
+   "sport"
+  ],
+  "difficulty": 2,
+  "kind": "common",
+  "clue": "खेळाडूंना सराव देऊन तयार करणारा मार्गदर्शक",
+  "shortClue": "खेळाचा गुरू"
+ },
+ {
+  "word": "कर्णधार",
+  "topics": [
+   "sport"
+  ],
+  "difficulty": 2,
+  "kind": "common",
+  "clue": "संघाचे नेतृत्व करणारा खेळाडू",
+  "shortClue": "संघनायक"
+ },
+ {
+  "word": "चषक",
+  "topics": [
+   "sport"
+  ],
+  "difficulty": 3,
+  "kind": "common",
+  "clue": "विजेत्या संघाला मिळणारा करंडक",
+  "shortClue": "करंडक"
+ },
+ {
+  "word": "विक्रम",
+  "topics": [
+   "sport"
+  ],
+  "difficulty": 2,
+  "kind": "common",
+  "clue": "आजवर कोणीही न मोडलेली सर्वोत्तम कामगिरी",
+  "shortClue": "सर्वोत्तम कामगिरी"
+ },
+ {
+  "word": "गिर्यारोहक",
+  "topics": [
+   "sport"
+  ],
+  "difficulty": 3,
+  "kind": "common",
+  "clue": "उंच शिखरे सर करणारा साहसी",
+  "shortClue": "शिखरे चढणारा"
+ },
+ {
+  "word": "ढोलकी",
+  "topics": [
+   "arts"
+  ],
+  "difficulty": 2,
+  "kind": "common",
+  "clue": "लावणीला ताल देणारे, दोन्ही बाजूंनी वाजणारे वाद्य",
+  "shortClue": "लावणीचे वाद्य"
+ },
+ {
+  "word": "पेटी",
+  "topics": [
+   "arts"
+  ],
+  "difficulty": 2,
+  "kind": "common",
+  "clue": "भात्याने हवा भरून वाजवायचे सुरांचे वाद्य; डबा",
+  "shortClue": "सुरांचे वाद्य"
+ },
+ {
+  "word": "सतार",
+  "topics": [
+   "arts"
+  ],
+  "difficulty": 2,
+  "kind": "common",
+  "clue": "लांब दांडीचे, अनेक तारांचे वाद्य",
+  "shortClue": "तंतुवाद्य"
+ },
+ {
+  "word": "वीणा",
+  "topics": [
+   "arts"
+  ],
+  "difficulty": 2,
+  "kind": "common",
+  "clue": "सरस्वतीच्या हातातील तंतुवाद्य",
+  "shortClue": "सरस्वतीचे वाद्य"
+ },
+ {
+  "word": "सनई",
+  "topics": [
+   "arts"
+  ],
+  "difficulty": 2,
+  "kind": "common",
+  "clue": "लग्नात मंगल सूर आळवणारे फुंकवाद्य",
+  "shortClue": "मंगलवाद्य"
+ },
+ {
+  "word": "मृदुंग",
+  "topics": [
+   "arts"
+  ],
+  "difficulty": 3,
+  "kind": "common",
+  "clue": "भजन-कीर्तनात वाजणारे दोन तोंडांचे वाद्य",
+  "shortClue": "कीर्तनाचे वाद्य"
+ },
+ {
+  "word": "टाळ",
+  "topics": [
+   "arts"
+  ],
+  "difficulty": 2,
+  "kind": "common",
+  "clue": "वारकरी वाजवतात त्या पितळी चकत्यांची जोडी",
+  "shortClue": "पितळी जोडी"
+ },
+ {
+  "word": "सूर",
+  "topics": [
+   "arts"
+  ],
+  "difficulty": 2,
+  "kind": "common",
+  "clue": "सा, रे, ग, म यांपैकी एक",
+  "shortClue": "स्वर"
+ },
+ {
+  "word": "ताल",
+  "topics": [
+   "arts"
+  ],
+  "difficulty": 2,
+  "kind": "common",
+  "clue": "संगीतातील ठेका आणि लय",
+  "shortClue": "ठेका"
+ },
+ {
+  "word": "अभंग",
+  "topics": [
+   "arts",
+   "localCulture"
+  ],
+  "difficulty": 2,
+  "kind": "common",
+  "clue": "तुकारामांनी रचलेला भक्तिगीताचा छंद",
+  "shortClue": "संतांची रचना"
+ },
+ {
+  "word": "ओवी",
+  "topics": [
+   "arts",
+   "localCulture"
+  ],
+  "difficulty": 2,
+  "kind": "common",
+  "clue": "जात्यावर दळताना गायली जाणारी रचना",
+  "shortClue": "जात्यावरचे गीत"
+ },
+ {
+  "word": "पोवाडा",
+  "topics": [
+   "arts",
+   "localCulture"
+  ],
+  "difficulty": 2,
+  "kind": "common",
+  "clue": "शूरांच्या पराक्रमाचे शाहिरी गीत",
+  "shortClue": "शाहिरी गीत"
+ },
+ {
+  "word": "भारूड",
+  "topics": [
+   "arts",
+   "localCulture"
+  ],
+  "difficulty": 3,
+  "kind": "common",
+  "clue": "एकनाथांचे रूपकात्मक लोकगीत",
+  "shortClue": "रूपकात्मक गीत"
+ },
+ {
+  "word": "गझल",
+  "topics": [
+   "arts"
+  ],
+  "difficulty": 3,
+  "kind": "common",
+  "clue": "शेरांनी बनलेली प्रेमकाव्याची रचना",
+  "shortClue": "शेरांची रचना"
+ },
+ {
+  "word": "अभिनय",
+  "topics": [
+   "arts"
+  ],
+  "difficulty": 2,
+  "kind": "common",
+  "clue": "रंगमंचावर पात्र साकारण्याची कला",
+  "shortClue": "पात्र साकारणे"
+ },
+ {
+  "word": "रंगमंच",
+  "topics": [
+   "arts"
+  ],
+  "difficulty": 2,
+  "kind": "common",
+  "clue": "नाटक सादर होते तो प्रेक्षकांसमोरचा उंच चौथरा",
+  "shortClue": "नाटकाचा चौथरा"
+ },
+ {
+  "word": "पडदा",
+  "topics": [
+   "arts"
+  ],
+  "difficulty": 1,
+  "kind": "common",
+  "clue": "नाटक संपल्यावर पडणारा कापडी आडोसा",
+  "shortClue": "कापडी आडोसा"
+ },
+ {
+  "word": "लेखक",
+  "topics": [
+   "arts",
+   "professions"
+  ],
+  "difficulty": 1,
+  "kind": "common",
+  "clue": "कथा-कादंबऱ्या लिहिणारा",
+  "shortClue": "ग्रंथकार"
+ },
+ {
+  "word": "कादंबरी",
+  "topics": [
+   "arts"
+  ],
+  "difficulty": 2,
+  "kind": "common",
+  "clue": "अनेक प्रकरणांची दीर्घ कथा",
+  "shortClue": "दीर्घ कथा"
+ },
+ {
+  "word": "यमक",
+  "topics": [
+   "arts"
+  ],
+  "difficulty": 3,
+  "kind": "common",
+  "clue": "कवितेच्या ओळींच्या शेवटी जुळणारे शब्द",
+  "shortClue": "जुळणारे शब्द"
+ },
+ {
+  "word": "शिल्प",
+  "topics": [
+   "arts"
+  ],
+  "difficulty": 2,
+  "kind": "common",
+  "clue": "दगडात कोरलेली कलाकृती",
+  "shortClue": "कोरीव कलाकृती"
+ },
+ {
+  "word": "रांगोळी",
+  "topics": [
+   "arts",
+   "localCulture"
+  ],
+  "difficulty": 1,
+  "kind": "common",
+  "clue": "दारापुढे रंगीत पुडीने काढलेली नक्षी",
+  "shortClue": "दारापुढची नक्षी"
+ },
+ {
+  "word": "कथक",
+  "topics": [
+   "arts"
+  ],
+  "difficulty": 3,
+  "kind": "common",
+  "clue": "घुंगरांच्या पदन्यासाचा उत्तर भारतीय नृत्यप्रकार",
+  "shortClue": "घुंगरांचे नृत्य"
+ },
+ {
+  "word": "घुंगरू",
+  "topics": [
+   "arts"
+  ],
+  "difficulty": 3,
+  "kind": "common",
+  "clue": "नर्तकीच्या पायात बांधलेले छोटे वाजणारे गोळे",
+  "shortClue": "पायातले नाद"
+ },
+ {
+  "word": "संगीत",
+  "topics": [
+   "arts"
+  ],
+  "difficulty": 1,
+  "kind": "common",
+  "clue": "सूर आणि ताल यांची कला",
+  "shortClue": "सुरांची कला"
+ },
+ {
+  "word": "मैफल",
+  "topics": [
+   "arts"
+  ],
+  "difficulty": 3,
+  "kind": "common",
+  "clue": "गाण्याचा रंगलेला कार्यक्रम",
+  "shortClue": "संगीतसभा"
+ },
+ {
+  "word": "प्रेक्षक",
+  "topics": [
+   "arts"
+  ],
+  "difficulty": 2,
+  "kind": "common",
+  "clue": "नाटक पाहायला आलेले लोक",
+  "shortClue": "पाहणारे लोक"
+ },
+ {
+  "word": "संग्रहालय",
+  "topics": [
+   "arts"
+  ],
+  "difficulty": 2,
+  "kind": "common",
+  "clue": "जुन्या वस्तू जपून ठेवलेली इमारत",
+  "shortClue": "प्राचीन वस्तूंचे दालन"
+ },
+ {
+  "word": "वास्तुकला",
+  "topics": [
+   "arts"
+  ],
+  "difficulty": 3,
+  "kind": "common",
+  "clue": "इमारतींची रचना आणि सौंदर्य यांचे शास्त्र",
+  "shortClue": "बांधकामाचे शास्त्र"
+ },
+ {
+  "word": "शाहीर",
+  "topics": [
+   "arts",
+   "localCulture"
+  ],
+  "difficulty": 3,
+  "kind": "common",
+  "clue": "पोवाडे गाणारा लोककवी",
+  "shortClue": "लोककवी"
+ },
+ {
+  "word": "नाट्यगृह",
+  "topics": [
+   "arts"
+  ],
+  "difficulty": 2,
+  "kind": "common",
+  "clue": "रंगमंचासमोर प्रेक्षकांच्या खुर्च्या असलेली इमारत",
+  "shortClue": "प्रयोगाची इमारत"
+ },
+ {
+  "word": "कठपुतळी",
+  "topics": [
+   "arts"
+  ],
+  "difficulty": 3,
+  "kind": "common",
+  "clue": "दोऱ्यांनी नाचवली जाणारी लाकडी बाहुली",
+  "shortClue": "दोऱ्यांची बाहुली"
+ },
+ {
+  "word": "तवा",
+  "topics": [
+   "home"
+  ],
+  "difficulty": 1,
+  "kind": "common",
+  "clue": "पोळ्या भाजायचे लोखंडी सपाट भांडे",
+  "shortClue": "पोळीचे भांडे"
+ },
+ {
+  "word": "कढई",
+  "topics": [
+   "home"
+  ],
+  "difficulty": 1,
+  "kind": "common",
+  "clue": "तळण्यासाठीचे खोलगट भांडे",
+  "shortClue": "तळणीचे भांडे"
+ },
+ {
+  "word": "लाटणे",
+  "topics": [
+   "home"
+  ],
+  "difficulty": 1,
+  "kind": "common",
+  "clue": "पोळी पसरट करण्यासाठी पोळपाटावर फिरवायचे दांडके",
+  "shortClue": "पोळपाटाचा साथी"
+ },
+ {
+  "word": "कळशी",
+  "topics": [
+   "home"
+  ],
+  "difficulty": 3,
+  "kind": "common",
+  "clue": "विहिरीवरून पाणी आणायची मोठी घागर",
+  "shortClue": "पाण्याची घागर"
+ },
+ {
+  "word": "सुरी",
+  "topics": [
+   "home"
+  ],
+  "difficulty": 1,
+  "kind": "common",
+  "clue": "भाजी चिरायचे धारदार पाते",
+  "shortClue": "धारदार पाते"
+ },
+ {
+  "word": "विळी",
+  "topics": [
+   "home"
+  ],
+  "difficulty": 3,
+  "kind": "common",
+  "clue": "खाली बसून भाजी चिरायचे पारंपरिक पाते",
+  "shortClue": "बसून चिरायचे"
+ },
+ {
+  "word": "जाते",
+  "topics": [
+   "home"
+  ],
+  "difficulty": 2,
+  "kind": "common",
+  "clue": "धान्य दळायचे दोन दगडी चाकांचे साधन",
+  "shortClue": "दगडी चक्की"
+ },
+ {
+  "word": "उखळ",
+  "topics": [
+   "home"
+  ],
+  "difficulty": 3,
+  "kind": "common",
+  "clue": "धान्य कांडायचे दगडी खोलगट भांडे",
+  "shortClue": "कांडण्याचे भांडे"
+ },
+ {
+  "word": "दार",
+  "topics": [
+   "home"
+  ],
+  "difficulty": 1,
+  "kind": "common",
+  "clue": "घरात शिरायचे बिजागरीवरचे फळकूट",
+  "shortClue": "प्रवेशद्वार"
+ },
+ {
+  "word": "भिंत",
+  "topics": [
+   "home"
+  ],
+  "difficulty": 1,
+  "kind": "common",
+  "clue": "घराच्या चार बाजूंना उभे दगडविटांचे बांधकाम",
+  "shortClue": "घराची बाजू"
+ },
+ {
+  "word": "छप्पर",
+  "topics": [
+   "home"
+  ],
+  "difficulty": 1,
+  "kind": "common",
+  "clue": "घरावरचे पावसापासून वाचवणारे आच्छादन",
+  "shortClue": "घराचे आच्छादन"
+ },
+ {
+  "word": "गादी",
+  "topics": [
+   "home"
+  ],
+  "difficulty": 1,
+  "kind": "common",
+  "clue": "पलंगावर टाकायचे कापसाचे मऊ अंथरूण",
+  "shortClue": "मऊ अंथरूण"
+ },
+ {
+  "word": "घोंगडी",
+  "topics": [
+   "home"
+  ],
+  "difficulty": 2,
+  "kind": "common",
+  "clue": "मेंढीच्या लोकरीची जाड काळी शाल",
+  "shortClue": "लोकरीची शाल"
+ },
+ {
+  "word": "कपाट",
+  "topics": [
+   "home"
+  ],
+  "difficulty": 1,
+  "kind": "common",
+  "clue": "कपडे ठेवायची दारे असलेली उभी साठवण पेटी",
+  "shortClue": "कपड्यांची साठवण"
+ },
+ {
+  "word": "कंगवा",
+  "topics": [
+   "home"
+  ],
+  "difficulty": 1,
+  "kind": "common",
+  "clue": "केस विंचरायचे दात्यांचे साधन",
+  "shortClue": "केसांचे साधन"
+ },
+ {
+  "word": "पंचा",
+  "topics": [
+   "home"
+  ],
+  "difficulty": 2,
+  "kind": "common",
+  "clue": "अंघोळीनंतर अंग पुसायचे सुती कापड",
+  "shortClue": "अंग पुसायचे"
+ },
+ {
+  "word": "अंगण",
+  "topics": [
+   "home"
+  ],
+  "difficulty": 1,
+  "kind": "common",
+  "clue": "घरासमोरची मोकळी सारवलेली जागा",
+  "shortClue": "घरापुढची जागा"
+ },
+ {
+  "word": "विहीर",
+  "topics": [
+   "home"
+  ],
+  "difficulty": 1,
+  "kind": "common",
+  "clue": "पाणी शेंदण्यासाठी खोदलेला खोल गोल खड्डा",
+  "shortClue": "खोल खड्डा"
+ },
+ {
+  "word": "सदरा",
+  "topics": [
+   "home"
+  ],
+  "difficulty": 2,
+  "kind": "common",
+  "clue": "पुरुषांचा सैलसर अंगरखा",
+  "shortClue": "सैल अंगरखा"
+ },
+ {
+  "word": "साडी",
+  "topics": [
+   "home"
+  ],
+  "difficulty": 1,
+  "kind": "common",
+  "clue": "स्त्रियांचे सहावारी किंवा नऊवारी वस्त्र",
+  "shortClue": "नऊवारी वस्त्र"
+ },
+ {
+  "word": "धोतर",
+  "topics": [
+   "home"
+  ],
+  "difficulty": 2,
+  "kind": "common",
+  "clue": "पुरुषांचे कमरेला नेसायचे पांढरे वस्त्र",
+  "shortClue": "पुरुषांचे वस्त्र"
+ },
+ {
+  "word": "सुई",
+  "topics": [
+   "home"
+  ],
+  "difficulty": 1,
+  "kind": "common",
+  "clue": "धाग्याने शिवायचे टोकदार बारीक साधन",
+  "shortClue": "शिवणकामाचे साधन"
+ },
+ {
+  "word": "कुलूप",
+  "topics": [
+   "home"
+  ],
+  "difficulty": 1,
+  "kind": "common",
+  "clue": "किल्लीने उघडणारे दाराचे लोखंडी बंधन",
+  "shortClue": "दाराचे बंधन"
+ },
+ {
+  "word": "पणती",
+  "topics": [
+   "home",
+   "localCulture"
+  ],
+  "difficulty": 1,
+  "kind": "common",
+  "clue": "दिवाळीत लावायचा मातीचा छोटा दिवा",
+  "shortClue": "मातीचा दिवा"
+ },
+ {
+  "word": "कंदील",
+  "topics": [
+   "home"
+  ],
+  "difficulty": 2,
+  "kind": "common",
+  "clue": "काचेच्या आवरणात जळणारा वातीचा दिवा",
+  "shortClue": "काचेचा दिवा"
+ },
+ {
+  "word": "मेणबत्ती",
+  "topics": [
+   "home"
+  ],
+  "difficulty": 1,
+  "kind": "common",
+  "clue": "वीज गेल्यावर लावायची वात असलेली पांढरी कांडी",
+  "shortClue": "वातीची कांडी"
+ },
+ {
+  "word": "घड्याळ",
+  "topics": [
+   "home"
+  ],
+  "difficulty": 1,
+  "kind": "common",
+  "clue": "भिंतीवर टिकटिक करत वेळ दाखवणारे यंत्र",
+  "shortClue": "काटे फिरणारे"
+ },
+ {
+  "word": "ओसरी",
+  "topics": [
+   "home"
+  ],
+  "difficulty": 3,
+  "kind": "common",
+  "clue": "जुन्या घरासमोरची छप्पर असलेली मोकळी जागा",
+  "shortClue": "समोरचा सोपा"
+ },
+ {
+  "word": "माळा",
+  "topics": [
+   "home"
+  ],
+  "difficulty": 2,
+  "kind": "common",
+  "clue": "घराच्या छताखालचा अडगळीचा मजला",
+  "shortClue": "अडगळीचा मजला"
+ },
+ {
+  "word": "परात",
+  "topics": [
+   "home"
+  ],
+  "difficulty": 3,
+  "kind": "common",
+  "clue": "कणीक मळायचे मोठे पसरट भांडे",
+  "shortClue": "पसरट भांडे"
+ },
+ {
+  "word": "चूल",
+  "topics": [
+   "home"
+  ],
+  "difficulty": 2,
+  "kind": "common",
+  "clue": "लाकडे जाळून स्वयंपाक करायची मातीची शेगडी",
+  "shortClue": "मातीची शेगडी"
+ },
+ {
+  "word": "सतरंजी",
+  "topics": [
+   "home"
+  ],
+  "difficulty": 2,
+  "kind": "common",
+  "clue": "जमिनीवर बसायला अंथरायची जाड सुती पट्टेरी चटई",
+  "shortClue": "सुती चटई"
+ },
+ {
+  "word": "झोपाळा",
+  "topics": [
+   "home"
+  ],
+  "difficulty": 2,
+  "kind": "common",
+  "clue": "ओसरीवर टांगलेला झुलता पाट",
+  "shortClue": "झुलणारा पाट"
+ },
+ {
+  "word": "न्हावी",
+  "topics": [
+   "professions"
+  ],
+  "difficulty": 2,
+  "kind": "common",
+  "clue": "केस आणि दाढी करणारा कारागीर",
+  "shortClue": "केस कापणारा"
+ },
+ {
+  "word": "शिंपी",
+  "topics": [
+   "professions"
+  ],
+  "difficulty": 1,
+  "kind": "common",
+  "clue": "कापड मोजून कपडे शिवणारा",
+  "shortClue": "कपडे शिवणारा"
+ },
+ {
+  "word": "सोनार",
+  "topics": [
+   "professions"
+  ],
+  "difficulty": 1,
+  "kind": "common",
+  "clue": "दागिने घडवणारा कारागीर",
+  "shortClue": "दागिने घडवणारा"
+ },
+ {
+  "word": "माळी",
+  "topics": [
+   "professions"
+  ],
+  "difficulty": 1,
+  "kind": "common",
+  "clue": "बागेतील झाडांची निगा राखणारा",
+  "shortClue": "बाग राखणारा"
+ },
+ {
+  "word": "गवंडी",
+  "topics": [
+   "professions"
+  ],
+  "difficulty": 2,
+  "kind": "common",
+  "clue": "विटा रचून भिंत बांधणारा कारागीर",
+  "shortClue": "विटा रचणारा"
+ },
+ {
+  "word": "मजूर",
+  "topics": [
+   "professions"
+  ],
+  "difficulty": 1,
+  "kind": "common",
+  "clue": "रोजंदारीवर अंगमेहनतीचे काम करणारा",
+  "shortClue": "रोजंदारीवरचा कामगार"
+ },
+ {
+  "word": "वाहक",
+  "topics": [
+   "professions"
+  ],
+  "difficulty": 2,
+  "kind": "common",
+  "clue": "बसमध्ये प्रवाशांना तिकिटे देणारा कर्मचारी",
+  "shortClue": "तिकीट देणारा"
+ },
+ {
+  "word": "सैनिक",
+  "topics": [
+   "professions"
+  ],
+  "difficulty": 1,
+  "kind": "common",
+  "clue": "देशाच्या सीमेवर पहारा देणारा जवान",
+  "shortClue": "जवान"
+ },
+ {
+  "word": "पहारेकरी",
+  "topics": [
+   "professions"
+  ],
+  "difficulty": 2,
+  "kind": "common",
+  "clue": "रात्री जागून इमारतीचे रक्षण करणारा",
+  "shortClue": "रखवालदार"
+ },
+ {
+  "word": "वैमानिक",
+  "topics": [
+   "professions"
+  ],
+  "difficulty": 2,
+  "kind": "common",
+  "clue": "प्रवाशांना आकाशमार्गे नेणारा चालक",
+  "shortClue": "आकाशातला चालक"
+ },
+ {
+  "word": "खलाशी",
+  "topics": [
+   "professions"
+  ],
+  "difficulty": 2,
+  "kind": "common",
+  "clue": "जहाजावर काम करणारा दर्यावर्दी",
+  "shortClue": "जहाजावरचा कर्मचारी"
+ },
+ {
+  "word": "मच्छीमार",
+  "topics": [
+   "professions"
+  ],
+  "difficulty": 2,
+  "kind": "common",
+  "clue": "समुद्रात जाळी टाकून मासे पकडणारा",
+  "shortClue": "मासे पकडणारा"
+ },
+ {
+  "word": "गुराखी",
+  "topics": [
+   "professions"
+  ],
+  "difficulty": 3,
+  "kind": "common",
+  "clue": "रानात गुरे चारणारा",
+  "shortClue": "गुरे चारणारा"
+ },
+ {
+  "word": "मेंढपाळ",
+  "topics": [
+   "professions"
+  ],
+  "difficulty": 2,
+  "kind": "common",
+  "clue": "लोकर देणाऱ्या जनावरांचे कळप रानोमाळ फिरवणारा",
+  "shortClue": "कळप राखणारा"
+ },
+ {
+  "word": "अभियंता",
+  "topics": [
+   "professions"
+  ],
+  "difficulty": 2,
+  "kind": "common",
+  "clue": "पूल, इमारती, यंत्रे यांचा आराखडा करणारा तज्ज्ञ",
+  "shortClue": "आराखडा करणारा"
+ },
+ {
+  "word": "प्राध्यापक",
+  "topics": [
+   "professions"
+  ],
+  "difficulty": 2,
+  "kind": "common",
+  "clue": "महाविद्यालयात शिकवणारा",
+  "shortClue": "महाविद्यालयाचा शिक्षक"
+ },
+ {
+  "word": "लिपिक",
+  "topics": [
+   "professions"
+  ],
+  "difficulty": 3,
+  "kind": "common",
+  "clue": "कार्यालयात कागदपत्रे लिहिणारा कर्मचारी",
+  "shortClue": "कारकून"
+ },
+ {
+  "word": "संपादक",
+  "topics": [
+   "professions"
+  ],
+  "difficulty": 3,
+  "kind": "common",
+  "clue": "वृत्तपत्रातील मजकूर तपासून निवडणारा प्रमुख",
+  "shortClue": "वृत्तपत्राचा प्रमुख"
+ },
+ {
+  "word": "पत्रकार",
+  "topics": [
+   "professions"
+  ],
+  "difficulty": 2,
+  "kind": "common",
+  "clue": "बातम्या गोळा करून लोकांपर्यंत पोहोचवणारा",
+  "shortClue": "बातमीदार"
+ },
+ {
+  "word": "हमाल",
+  "topics": [
+   "professions"
+  ],
+  "difficulty": 2,
+  "kind": "common",
+  "clue": "स्थानकावर डोक्यावरून सामान वाहणारा",
+  "shortClue": "सामान वाहणारा"
+ },
+ {
+  "word": "आचारी",
+  "topics": [
+   "professions"
+  ],
+  "difficulty": 2,
+  "kind": "common",
+  "clue": "लग्नाच्या पंगतीसाठी जेवण रांधणारा",
+  "shortClue": "पंगतीचे जेवण"
+ },
+ {
+  "word": "विणकर",
+  "topics": [
+   "professions"
+  ],
+  "difficulty": 3,
+  "kind": "common",
+  "clue": "मागावर धाग्यांपासून कापड तयार करणारा",
+  "shortClue": "मागावरचा कारागीर"
+ },
+ {
+  "word": "सावकार",
+  "topics": [
+   "professions"
+  ],
+  "difficulty": 3,
+  "kind": "common",
+  "clue": "व्याजाने पैसे देणारा",
+  "shortClue": "व्याजाने कर्ज"
+ },
+ {
+  "word": "न्यायाधीश",
+  "topics": [
+   "professions"
+  ],
+  "difficulty": 2,
+  "kind": "common",
+  "clue": "न्यायालयात खटल्याचा निकाल देणारा",
+  "shortClue": "निकाल देणारा"
+ },
+ {
+  "word": "दंतवैद्य",
+  "topics": [
+   "professions"
+  ],
+  "difficulty": 2,
+  "kind": "common",
+  "clue": "दातांचे आजार बरे करणारा तज्ज्ञ",
+  "shortClue": "दातांचा तज्ज्ञ"
+ },
+ {
+  "word": "शास्त्रज्ञ",
+  "topics": [
+   "professions"
+  ],
+  "difficulty": 2,
+  "kind": "common",
+  "clue": "प्रयोगशाळेत संशोधन करणारा विद्वान",
+  "shortClue": "संशोधक"
+ },
+ {
+  "word": "मुनीम",
+  "topics": [
+   "professions"
+  ],
+  "difficulty": 3,
+  "kind": "common",
+  "clue": "दुकानाचा हिशेब लिहिणारा",
+  "shortClue": "हिशेबनीस"
+ },
+ {
+  "word": "वारी",
+  "topics": [
+   "localCulture"
+  ],
+  "difficulty": 2,
+  "kind": "common",
+  "clue": "आषाढीला पंढरीकडे पायी जाणारी यात्रा",
+  "shortClue": "पायी यात्रा"
+ },
+ {
+  "word": "दिंडी",
+  "topics": [
+   "localCulture"
+  ],
+  "difficulty": 3,
+  "kind": "common",
+  "clue": "टाळ-मृदंगासह चालणारा भक्तांचा जथा",
+  "shortClue": "भक्तांचा जथा"
+ },
+ {
+  "word": "जत्रा",
+  "topics": [
+   "localCulture"
+  ],
+  "difficulty": 1,
+  "kind": "common",
+  "clue": "गावदेवीच्या उत्सवात भरणारा मेळा",
+  "shortClue": "गावचा मेळा"
+ },
+ {
+  "word": "फराळ",
+  "topics": [
+   "localCulture"
+  ],
+  "difficulty": 1,
+  "kind": "common",
+  "clue": "दिवाळीत केले जाणारे चकली, लाडू यांचे खाद्य",
+  "shortClue": "दिवाळीचे पदार्थ"
+ },
+ {
+  "word": "तोरण",
+  "topics": [
+   "localCulture"
+  ],
+  "difficulty": 1,
+  "kind": "common",
+  "clue": "सणाला दारावर बांधलेली आंब्याच्या पानांची माळ",
+  "shortClue": "दारावरची माळ"
+ },
+ {
+  "word": "भाऊबीज",
+  "topics": [
+   "localCulture"
+  ],
+  "difficulty": 1,
+  "kind": "common",
+  "clue": "दिवाळीच्या शेवटी बहीण ओवाळणी करते तो दिवस",
+  "shortClue": "ओवाळणीचा दिवस"
+ },
+ {
+  "word": "पाडवा",
+  "topics": [
+   "localCulture"
+  ],
+  "difficulty": 2,
+  "kind": "common",
+  "clue": "चैत्रात गुढी उभारली जाते तो नववर्षाचा दिवस",
+  "shortClue": "नववर्षाचा दिवस"
+ },
+ {
+  "word": "संक्रांत",
+  "topics": [
+   "localCulture"
+  ],
+  "difficulty": 1,
+  "kind": "common",
+  "clue": "तिळगूळ वाटून गोड बोलण्याचा जानेवारीतला सण",
+  "shortClue": "तिळगुळाचा सण"
+ },
+ {
+  "word": "दसरा",
+  "topics": [
+   "localCulture"
+  ],
+  "difficulty": 1,
+  "kind": "common",
+  "clue": "आपट्याची पाने सोने म्हणून वाटण्याचा सण",
+  "shortClue": "सीमोल्लंघनाचा सण"
+ },
+ {
+  "word": "हळदीकुंकू",
+  "topics": [
+   "localCulture"
+  ],
+  "difficulty": 2,
+  "kind": "common",
+  "clue": "संक्रांतीला सुवासिनी एकत्र जमून वाण देतात तो समारंभ",
+  "shortClue": "वाण देणे"
+ },
+ {
+  "word": "मंगळागौर",
+  "topics": [
+   "localCulture"
+  ],
+  "difficulty": 3,
+  "kind": "common",
+  "clue": "नववधू श्रावणात रात्रभर खेळ खेळत साजरा करते तो सण",
+  "shortClue": "नववधूचा सण"
+ },
+ {
+  "word": "नारळीपौर्णिमा",
+  "topics": [
+   "localCulture"
+  ],
+  "difficulty": 2,
+  "kind": "common",
+  "clue": "मच्छीमार बांधव समुद्राला श्रीफळ अर्पण करतात तो श्रावणी सण",
+  "shortClue": "समुद्राचा सण"
+ },
+ {
+  "word": "दहीहंडी",
+  "topics": [
+   "localCulture"
+  ],
+  "difficulty": 1,
+  "kind": "common",
+  "clue": "उंच टांगलेले मडके मानवी मनोरा रचून फोडण्याचा उत्सव",
+  "shortClue": "मानवी मनोरा"
+ },
+ {
+  "word": "पैठणी",
+  "topics": [
+   "localCulture"
+  ],
+  "difficulty": 2,
+  "kind": "common",
+  "clue": "जरीच्या काठपदरावर मोर विणलेली रेशमी साडी",
+  "shortClue": "रेशमी साडी"
+ },
+ {
+  "word": "नथ",
+  "topics": [
+   "localCulture"
+  ],
+  "difficulty": 2,
+  "kind": "common",
+  "clue": "नाकात घालायचा मोत्यांचा मराठमोळा दागिना",
+  "shortClue": "नाकातला दागिना"
+ },
+ {
+  "word": "फेटा",
+  "topics": [
+   "localCulture"
+  ],
+  "difficulty": 2,
+  "kind": "common",
+  "clue": "डोक्यावर बांधायचा रंगीत मराठमोळा पटका",
+  "shortClue": "डोक्याचा पटका"
+ },
+ {
+  "word": "भोंडला",
+  "topics": [
+   "localCulture"
+  ],
+  "difficulty": 3,
+  "kind": "common",
+  "clue": "अश्विनात हत्तीच्या चित्राभोवती फेर धरून गाणी म्हणण्याचा खेळ",
+  "shortClue": "फेर धरणे"
+ },
+ {
+  "word": "वासुदेव",
+  "topics": [
+   "localCulture"
+  ],
+  "difficulty": 3,
+  "kind": "common",
+  "clue": "पहाटे टाळ वाजवत, मोरपिसांची टोपी घालून गाणारा लोककलावंत",
+  "shortClue": "मोरपिसांची टोपी"
+ },
+ {
+  "word": "जिजाबाई",
+  "topics": [
+   "localCulture"
+  ],
+  "difficulty": 1,
+  "kind": "proper",
+  "clue": "शिवरायांच्या मातोश्री",
+  "shortClue": "शिवरायांच्या मातोश्री"
+ },
+ {
+  "word": "प्रतापगड",
+  "topics": [
+   "localCulture"
+  ],
+  "difficulty": 2,
+  "kind": "proper",
+  "clue": "महाबळेश्वरजवळचा प्रसिद्ध शिवकालीन किल्ला",
+  "shortClue": "महाबळेश्वरजवळचा किल्ला"
+ },
+ {
+  "word": "शिवनेरी",
+  "topics": [
+   "localCulture"
+  ],
+  "difficulty": 2,
+  "kind": "proper",
+  "clue": "जुन्नरजवळचा, छत्रपतींचे जन्मस्थान असलेला किल्ला",
+  "shortClue": "जुन्नरचा किल्ला"
+ },
+ {
+  "word": "राजगड",
+  "topics": [
+   "localCulture"
+  ],
+  "difficulty": 2,
+  "kind": "proper",
+  "clue": "शिवकाळात दीर्घकाळ स्वराज्याचे मुख्य ठाणे असलेला वेल्ह्याजवळचा किल्ला",
+  "shortClue": "वेल्ह्याचा किल्ला"
+ },
+ {
+  "word": "पन्हाळा",
+  "topics": [
+   "localCulture"
+  ],
+  "difficulty": 2,
+  "kind": "proper",
+  "clue": "कोल्हापूरजवळचा प्रसिद्ध शिवकालीन किल्ला",
+  "shortClue": "कोल्हापूरचा किल्ला"
+ },
+ {
+  "word": "एकनाथ",
+  "topics": [
+   "localCulture"
+  ],
+  "difficulty": 2,
+  "kind": "proper",
+  "clue": "भारुडे रचणारे पैठणचे संत",
+  "shortClue": "पैठणचे संत"
+ },
+ {
+  "word": "नामदेव",
+  "topics": [
+   "localCulture"
+  ],
+  "difficulty": 2,
+  "kind": "proper",
+  "clue": "विठ्ठलभक्तीचे अभंग रचणारे, पंजाबपर्यंत गेलेले संतकवी",
+  "shortClue": "पंढरीचे संतकवी"
+ },
+ {
+  "word": "पंढरपूर",
+  "topics": [
+   "localCulture"
+  ],
+  "difficulty": 2,
+  "kind": "proper",
+  "clue": "भीमेकाठचे विठ्ठलाचे क्षेत्र, वारीचे गंतव्य",
+  "shortClue": "वारीचे गंतव्य"
+ },
+ {
+  "word": "बालगंधर्व",
+  "topics": [
+   "localCulture"
+  ],
+  "difficulty": 3,
+  "kind": "proper",
+  "clue": "स्त्रीभूमिकांसाठी गाजलेले संगीत रंगभूमीवरील गायक-नट",
+  "shortClue": "स्त्रीभूमिकांचे नट"
+ },
+ {
+  "word": "कृतज्ञता",
+  "topics": [
+   "general"
+  ],
+  "difficulty": 3,
+  "kind": "common",
+  "clue": "कोणी केलेल्या उपकाराची मनात ठेवलेली जाणीव",
+  "shortClue": "उपकाराची जाणीव"
+ },
+ {
+  "word": "तारांबळ",
+  "topics": [
+   "general"
+  ],
+  "difficulty": 3,
+  "kind": "common",
+  "clue": "एकाच वेळी अनेक कामे आल्याने उडणारी धांदल",
+  "shortClue": "उडालेली धांदल"
+ },
+ {
+  "word": "हुरहूर",
+  "topics": [
+   "general"
+  ],
+  "difficulty": 3,
+  "kind": "common",
+  "clue": "काहीतरी हरवल्यासारखी मनाला लागलेली रुखरुख",
+  "shortClue": "मनाची रुखरुख"
+ },
+ {
+  "word": "कुतूहल",
+  "topics": [
+   "general"
+  ],
+  "difficulty": 3,
+  "kind": "common",
+  "clue": "नवे काही जाणून घेण्याची उत्सुकता",
+  "shortClue": "उत्सुकता"
+ },
+ {
+  "word": "चिकाटी",
+  "topics": [
+   "general"
+  ],
+  "difficulty": 3,
+  "kind": "common",
+  "clue": "अपयश आले तरी प्रयत्न न सोडण्याचा गुण",
+  "shortClue": "जिद्द"
+ },
+ {
+  "word": "लगबग",
+  "topics": [
+   "general"
+  ],
+  "difficulty": 3,
+  "kind": "common",
+  "clue": "सणाच्या तयारीत घरभर चाललेली धावपळ",
+  "shortClue": "धावपळ"
+ },
+ {
+  "word": "वर्दळ",
+  "topics": [
+   "general"
+  ],
+  "difficulty": 3,
+  "kind": "common",
+  "clue": "रस्त्यावर लोकांची आणि वाहनांची सततची ये-जा",
+  "shortClue": "लोकांची ये-जा"
+ },
+ {
+  "word": "वाटसरू",
+  "topics": [
+   "general"
+  ],
+  "difficulty": 3,
+  "kind": "common",
+  "clue": "रस्त्याने पायी चाललेला प्रवासी",
+  "shortClue": "पांथस्थ"
+ },
+ {
+  "word": "सुगरण",
+  "topics": [
+   "animals"
+  ],
+  "difficulty": 3,
+  "kind": "common",
+  "clue": "झाडावर लोंबते घरटे विणणारा पिवळा पक्षी",
+  "shortClue": "घरटे विणणारा"
+ },
+ {
+  "word": "साळिंदर",
+  "topics": [
+   "animals"
+  ],
+  "difficulty": 3,
+  "kind": "common",
+  "clue": "अंगावर लांब काटे असलेला निशाचर प्राणी",
+  "shortClue": "काटेरी प्राणी"
+ },
+ {
+  "word": "शेकरू",
+  "topics": [
+   "animals"
+  ],
+  "difficulty": 3,
+  "kind": "common",
+  "clue": "महाराष्ट्राचा राज्यप्राणी असलेली मोठी खार",
+  "shortClue": "राज्यप्राणी"
+ },
+ {
+  "word": "रानडुक्कर",
+  "topics": [
+   "animals"
+  ],
+  "difficulty": 3,
+  "kind": "common",
+  "clue": "शेतातील पिकांची नासधूस करणारा सुळेवाला वन्य प्राणी",
+  "shortClue": "सुळेवाला प्राणी"
+ },
+ {
+  "word": "करवंद",
+  "topics": [
+   "food",
+   "nature"
+  ],
+  "difficulty": 3,
+  "kind": "common",
+  "clue": "डोंगरात काटेरी जाळीला लागणारा काळा आंबटगोड रानमेवा",
+  "shortClue": "डोंगराचा रानमेवा"
+ },
+ {
+  "word": "आमसूल",
+  "topics": [
+   "food"
+  ],
+  "difficulty": 3,
+  "kind": "common",
+  "clue": "कोकमाची वाळवलेली आंबट साल",
+  "shortClue": "कोकमाची साल"
+ },
+ {
+  "word": "मोरावळा",
+  "topics": [
+   "food"
+  ],
+  "difficulty": 3,
+  "kind": "common",
+  "clue": "साखरेच्या पाकात मुरवलेला आवळा",
+  "shortClue": "आवळ्याचा मुरंबा"
+ },
+ {
+  "word": "पारिजात",
+  "topics": [
+   "nature"
+  ],
+  "difficulty": 3,
+  "kind": "common",
+  "clue": "रात्री फुलून पहाटे गळणारी, केशरी देठाची फुले देणारा वृक्ष",
+  "shortClue": "प्राजक्त"
+ },
+ {
+  "word": "ध्रुव",
+  "topics": [
+   "science"
+  ],
+  "difficulty": 3,
+  "kind": "common",
+  "clue": "आकाशात जागा न सोडणारा उत्तरेकडचा तारा",
+  "shortClue": "उत्तरेचा तारा"
+ },
+ {
+  "word": "खग्रास",
+  "topics": [
+   "science"
+  ],
+  "difficulty": 3,
+  "kind": "common",
+  "clue": "सूर्य किंवा चंद्र पूर्ण झाकला जातो असे ग्रहण",
+  "shortClue": "पूर्ण ग्रहण"
+ },
+ {
+  "word": "भूमिती",
+  "topics": [
+   "science"
+  ],
+  "difficulty": 3,
+  "kind": "common",
+  "clue": "रेषा, कोन आणि आकृत्यांचा अभ्यास करणारी गणिताची शाखा",
+  "shortClue": "आकृत्यांचे गणित"
+ },
+ {
+  "word": "झिम्मा",
+  "topics": [
+   "sport",
+   "localCulture"
+  ],
+  "difficulty": 3,
+  "kind": "common",
+  "clue": "मंगळागौरीला टाळ्या वाजवत फेर धरून खेळायचा खेळ",
+  "shortClue": "टाळ्यांचा फेर"
+ },
+ {
+  "word": "सारीपाट",
+  "topics": [
+   "sport"
+  ],
+  "difficulty": 3,
+  "kind": "common",
+  "clue": "फासे टाकून सोंगट्या चालवायचा जुना बैठा खेळ",
+  "shortClue": "सोंगट्यांचा खेळ"
+ },
+ {
+  "word": "नांदी",
+  "topics": [
+   "arts"
+  ],
+  "difficulty": 3,
+  "kind": "common",
+  "clue": "संगीत नाटकाच्या सुरुवातीला गायले जाणारे मंगलगीत",
+  "shortClue": "सुरुवातीचे गीत"
+ },
+ {
+  "word": "भैरवी",
+  "topics": [
+   "arts"
+  ],
+  "difficulty": 3,
+  "kind": "common",
+  "clue": "मैफलीच्या शेवटी गायला जाणारा सकाळचा राग",
+  "shortClue": "शेवटचा राग"
+ },
+ {
+  "word": "आलाप",
+  "topics": [
+   "arts"
+  ],
+  "difficulty": 3,
+  "kind": "common",
+  "clue": "गाण्याआधी केलेला सुरांचा संथ विस्तार",
+  "shortClue": "सुरांचा विस्तार"
+ },
+ {
+  "word": "उंबरठा",
+  "topics": [
+   "home"
+  ],
+  "difficulty": 3,
+  "kind": "common",
+  "clue": "दाराच्या खालची आडवी लाकडी चौकट",
+  "shortClue": "दाराची चौकट"
+ },
+ {
+  "word": "कोनाडा",
+  "topics": [
+   "home"
+  ],
+  "difficulty": 3,
+  "kind": "common",
+  "clue": "भिंतीत वस्तू ठेवण्यासाठी केलेली खोबण",
+  "shortClue": "भिंतीतली खोबण"
+ },
+ {
+  "word": "खुंटी",
+  "topics": [
+   "home"
+  ],
+  "difficulty": 3,
+  "kind": "common",
+  "clue": "भिंतीत ठोकलेली कपडे अडकवायची लाकडी खिळी",
+  "shortClue": "कपड्यांची खिळी"
+ },
+ {
+  "word": "गारुडी",
+  "topics": [
+   "professions"
+  ],
+  "difficulty": 3,
+  "kind": "common",
+  "clue": "पुंगी वाजवून साप खेळवणारा",
+  "shortClue": "साप खेळवणारा"
+ },
+ {
+  "word": "कोतवाल",
+  "topics": [
+   "professions",
+   "history"
+  ],
+  "difficulty": 3,
+  "kind": "common",
+  "clue": "जुन्या काळी गावाची किंवा शहराची राखण करणारा अधिकारी",
+  "shortClue": "गावाचा रक्षक"
+ },
+ {
+  "word": "सनद",
+  "topics": [
+   "history"
+  ],
+  "difficulty": 3,
+  "kind": "common",
+  "clue": "राजाने दिलेले अधिकृत हक्कपत्र",
+  "shortClue": "हक्कपत्र"
+ },
+ {
+  "word": "दिवाण",
+  "topics": [
+   "history"
+  ],
+  "difficulty": 3,
+  "kind": "common",
+  "clue": "संस्थानाचा मुख्य कारभारी",
+  "shortClue": "संस्थानाचा कारभारी"
+ }
+]
