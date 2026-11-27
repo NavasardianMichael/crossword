@@ -1,0 +1,5002 @@
+[
+  {
+    "word": "vui",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Cảm giác khi gặp chuyện hợp lòng",
+    "shortClue": "Hân hoan"
+  },
+  {
+    "word": "buồn",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Tâm trạng nặng nề khi chuyện không như ý",
+    "shortClue": "Tâm trạng nặng"
+  },
+  {
+    "word": "giận",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Nổi nóng vì bị làm phật lòng",
+    "shortClue": "Nổi nóng"
+  },
+  {
+    "word": "thương",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Dành tình cảm xót xa, trìu mến cho ai",
+    "shortClue": "Trìu mến"
+  },
+  {
+    "word": "nhớ",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Mong gặp lại người đã xa",
+    "shortClue": "Mong gặp lại"
+  },
+  {
+    "word": "yêu",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Dành trọn tình cảm cho một người",
+    "shortClue": "Dành trọn tình"
+  },
+  {
+    "word": "ghét",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Không ưa, chỉ muốn tránh xa",
+    "shortClue": "Không ưa"
+  },
+  {
+    "word": "mừng",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Vui khi nghe tin tốt lành",
+    "shortClue": "Vui nghe tin"
+  },
+  {
+    "word": "thẹn",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Ngượng ngùng, đỏ mặt trước đông người",
+    "shortClue": "Ngượng đỏ mặt"
+  },
+  {
+    "word": "tủi",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Chạnh lòng khi thấy thân phận mình lẻ loi",
+    "shortClue": "Chạnh lòng"
+  },
+  {
+    "word": "chán",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Hết hứng thú vì làm mãi một việc",
+    "shortClue": "Hết hứng thú"
+  },
+  {
+    "word": "ghen",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Khó chịu khi người mình thương để ý người khác",
+    "shortClue": "Hờn vì thương"
+  },
+  {
+    "word": "tiếc",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Xót xa vì đã mất đi thứ quý",
+    "shortClue": "Xót vì mất"
+  },
+  {
+    "word": "thèm",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Muốn ăn một món đến cồn cào",
+    "shortClue": "Muốn cồn cào"
+  },
+  {
+    "word": "ngại",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "E dè, không muốn làm phiền ai",
+    "shortClue": "E dè"
+  },
+  {
+    "word": "hờn",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Giận dỗi nhẹ nhàng giữa những người thân",
+    "shortClue": "Giận dỗi nhẹ"
+  },
+  {
+    "word": "mến",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Có cảm tình, thấy gần gũi với ai",
+    "shortClue": "Có cảm tình"
+  },
+  {
+    "word": "sầu",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Nỗi buồn day dứt kéo dài",
+    "shortClue": "Buồn day dứt"
+  },
+  {
+    "word": "sướng",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Cảm giác dễ chịu, thỏa thích",
+    "shortClue": "Thỏa thích"
+  },
+  {
+    "word": "khổ",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Nỗi cực nhọc, thiếu thốn đè nặng cuộc sống",
+    "shortClue": "Cực nhọc"
+  },
+  {
+    "word": "hoảng",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Sợ đến mức luống cuống chân tay",
+    "shortClue": "Sợ luống cuống"
+  },
+  {
+    "word": "hiền",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Dịu dàng, không hay làm dữ với ai",
+    "shortClue": "Dịu dàng"
+  },
+  {
+    "word": "ngoan",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Biết nghe lời người lớn",
+    "shortClue": "Biết nghe lời"
+  },
+  {
+    "word": "lười",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Ngại làm việc, chỉ thích nằm không",
+    "shortClue": "Ngại làm việc"
+  },
+  {
+    "word": "khéo",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Làm việc gì cũng tinh tế, ít vụng về",
+    "shortClue": "Tay tinh tế"
+  },
+  {
+    "word": "vụng",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Làm gì cũng lóng ngóng, hay hỏng",
+    "shortClue": "Lóng ngóng"
+  },
+  {
+    "word": "bướng",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Cứng đầu, khó bảo",
+    "shortClue": "Cứng đầu"
+  },
+  {
+    "word": "nhát",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Hay sợ, thiếu can đảm",
+    "shortClue": "Hay sợ"
+  },
+  {
+    "word": "dạn",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Không còn e sợ vì đã quen",
+    "shortClue": "Không e sợ"
+  },
+  {
+    "word": "khôn",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Biết nghĩ, ít khi bị lừa",
+    "shortClue": "Biết nghĩ"
+  },
+  {
+    "word": "đẹp",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Nhìn thấy dễ chịu, bắt mắt",
+    "shortClue": "Dễ nhìn"
+  },
+  {
+    "word": "giỏi",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Làm việc gì cũng hơn người",
+    "shortClue": "Hơn người"
+  },
+  {
+    "word": "nhanh",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Mất ít thời gian để xong việc",
+    "shortClue": "Tốc độ cao"
+  },
+  {
+    "word": "cao",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Có chiều đứng lớn, như cây tre già",
+    "shortClue": "Chiều đứng lớn"
+  },
+  {
+    "word": "dài",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Có chiều kéo xa, như con đường quê",
+    "shortClue": "Kéo xa"
+  },
+  {
+    "word": "ngắn",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Chưa kéo được bao xa, như chiếc áo cộc",
+    "shortClue": "Chiều kéo ít"
+  },
+  {
+    "word": "rộng",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Nhiều chỗ, thoáng, nhìn mênh mông",
+    "shortClue": "Thoáng chỗ"
+  },
+  {
+    "word": "hẹp",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Ít chỗ, chật như ngõ nhỏ",
+    "shortClue": "Chật chội"
+  },
+  {
+    "word": "sâu",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Từ miệng xuống đáy rất xa, như giếng",
+    "shortClue": "Xa đến đáy"
+  },
+  {
+    "word": "dày",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Nhiều lớp chồng lên, như cuốn từ điển",
+    "shortClue": "Nhiều lớp"
+  },
+  {
+    "word": "mỏng",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Chỉ có một lớp, như tờ giấy",
+    "shortClue": "Như tờ giấy"
+  },
+  {
+    "word": "nặng",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Có sức đè lớn khi nhấc lên",
+    "shortClue": "Khó nhấc"
+  },
+  {
+    "word": "nhẹ",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Dễ nhấc, như chiếc lông chim",
+    "shortClue": "Dễ nhấc"
+  },
+  {
+    "word": "sạch",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Không còn bụi và vết nhơ",
+    "shortClue": "Không bụi"
+  },
+  {
+    "word": "bẩn",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Dính nhiều bụi và vết nhơ",
+    "shortClue": "Dính bụi"
+  },
+  {
+    "word": "mới",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Vừa có chưa lâu, chưa dùng nhiều",
+    "shortClue": "Chưa dùng"
+  },
+  {
+    "word": "vơi",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Bớt dần đi, như nước trong chén cạn",
+    "shortClue": "Bớt dần"
+  },
+  {
+    "word": "khô",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Hết nước, như quần áo phơi nắng",
+    "shortClue": "Hết nước"
+  },
+  {
+    "word": "ướt",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Thấm nước, như áo gặp mưa",
+    "shortClue": "Thấm nước"
+  },
+  {
+    "word": "nóng",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Có nhiệt độ cao, như nước sôi",
+    "shortClue": "Nhiệt độ cao"
+  },
+  {
+    "word": "lạnh",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Có nhiệt độ thấp, như đá viên",
+    "shortClue": "Rét buốt"
+  },
+  {
+    "word": "giàu",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Có nhiều của cải",
+    "shortClue": "Nhiều của"
+  },
+  {
+    "word": "nghèo",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Thiếu thốn, ít của cải",
+    "shortClue": "Thiếu thốn"
+  },
+  {
+    "word": "khỏe",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Không đau ốm, đầy sức lực",
+    "shortClue": "Đầy sức lực"
+  },
+  {
+    "word": "yếu",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Thiếu sức lực, dễ ngã bệnh",
+    "shortClue": "Thiếu sức"
+  },
+  {
+    "word": "đứng",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Giữ thân thẳng trên đôi chân",
+    "shortClue": "Thẳng trên chân"
+  },
+  {
+    "word": "ngồi",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Đặt thân xuống ghế hay nền nhà",
+    "shortClue": "Đặt thân xuống"
+  },
+  {
+    "word": "nằm",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Trải thân ra, thường lúc ngủ",
+    "shortClue": "Trải thân ra"
+  },
+  {
+    "word": "bước",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Đưa chân về phía trước một lần",
+    "shortClue": "Một nhịp chân"
+  },
+  {
+    "word": "trèo",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Dùng chân tay leo lên cây hay tường",
+    "shortClue": "Leo lên cây"
+  },
+  {
+    "word": "bay",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Di chuyển trên không bằng cánh",
+    "shortClue": "Lướt trên không"
+  },
+  {
+    "word": "nói",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Dùng lời để cho người khác nghe",
+    "shortClue": "Dùng lời"
+  },
+  {
+    "word": "hỏi",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Đặt câu để mong có lời đáp",
+    "shortClue": "Đặt câu"
+  },
+  {
+    "word": "đáp",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Trả lời khi có người hỏi",
+    "shortClue": "Trả lời"
+  },
+  {
+    "word": "cười",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Hé miệng, tỏ ra vui",
+    "shortClue": "Hé miệng vui"
+  },
+  {
+    "word": "khóc",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Rơi nước mắt vì buồn hay cảm động",
+    "shortClue": "Rơi nước mắt"
+  },
+  {
+    "word": "hát",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Cất giọng thành điệu nhạc",
+    "shortClue": "Cất giọng nhạc"
+  },
+  {
+    "word": "đọc",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Nhìn chữ và thốt thành lời",
+    "shortClue": "Nhìn chữ"
+  },
+  {
+    "word": "viết",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Dùng bút để ghi chữ lên giấy",
+    "shortClue": "Ghi chữ"
+  },
+  {
+    "word": "học",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Tiếp nhận kiến thức từ thầy và sách",
+    "shortClue": "Tiếp thu bài"
+  },
+  {
+    "word": "dạy",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Truyền kiến thức cho người khác",
+    "shortClue": "Truyền kiến thức"
+  },
+  {
+    "word": "mua",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Đưa tiền để nhận hàng",
+    "shortClue": "Bỏ tiền ra"
+  },
+  {
+    "word": "bán",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Giao hàng để lấy tiền",
+    "shortClue": "Thu tiền hàng"
+  },
+  {
+    "word": "giữ",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Không để mất, không buông ra",
+    "shortClue": "Không để mất"
+  },
+  {
+    "word": "nắm",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Co các ngón tay lại giữ chặt",
+    "shortClue": "Giữ chặt tay"
+  },
+  {
+    "word": "đẩy",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Dùng sức làm vật chuyển ra xa mình",
+    "shortClue": "Ra xa mình"
+  },
+  {
+    "word": "kéo",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Dùng sức làm vật tiến lại gần mình",
+    "shortClue": "Lại gần mình"
+  },
+  {
+    "word": "bắt",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Giữ lấy thứ đang chạy hay bay",
+    "shortClue": "Giữ lấy"
+  },
+  {
+    "word": "thấy",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Nhìn ra bằng mắt",
+    "shortClue": "Nhìn ra"
+  },
+  {
+    "word": "nghe",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Cảm nhận âm thanh bằng tai",
+    "shortClue": "Bằng đôi tai"
+  },
+  {
+    "word": "ngửi",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Dùng mũi để biết mùi",
+    "shortClue": "Dùng mũi"
+  },
+  {
+    "word": "chạm",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Đưa tay tới khẽ, vừa đụng vào",
+    "shortClue": "Vừa đụng vào"
+  },
+  {
+    "word": "đóng",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Khép lại cho kín, như cánh cửa",
+    "shortClue": "Khép cho kín"
+  },
+  {
+    "word": "gọi",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Cất tiếng để người ở xa nghe",
+    "shortClue": "Cất tiếng"
+  },
+  {
+    "word": "nghĩ",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Dùng đầu óc để suy xét",
+    "shortClue": "Suy xét"
+  },
+  {
+    "word": "biết",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Nắm được một điều",
+    "shortClue": "Nắm được"
+  },
+  {
+    "word": "quên",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Không còn nhớ ra việc đã qua",
+    "shortClue": "Không còn nhớ"
+  },
+  {
+    "word": "đếm",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Đọc lần lượt từng số để biết bao nhiêu",
+    "shortClue": "Đọc từng số"
+  },
+  {
+    "word": "góp",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Mỗi người đưa một phần để thành việc chung",
+    "shortClue": "Cùng đưa phần"
+  },
+  {
+    "word": "sớm",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Trước giờ thường lệ, như buổi bình minh",
+    "shortClue": "Trước giờ"
+  },
+  {
+    "word": "muộn",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Sau giờ đã hẹn, đến chậm",
+    "shortClue": "Sau giờ hẹn"
+  },
+  {
+    "word": "khuya",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Lúc đêm đã rất sâu, gần sáng",
+    "shortClue": "Đêm đã sâu"
+  },
+  {
+    "word": "trưa",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Lúc mặt trời lên cao nhất ngày",
+    "shortClue": "Giữa ngày"
+  },
+  {
+    "word": "chiều",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Quãng sau buổi giữa ngày, trước lúc tối",
+    "shortClue": "Gần hoàng hôn"
+  },
+  {
+    "word": "thuở",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Khoảng thời gian đã xa, như hồi còn bé",
+    "shortClue": "Hồi còn bé"
+  },
+  {
+    "word": "xưa",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Thời đã qua từ lâu lắm",
+    "shortClue": "Từ lâu lắm"
+  },
+  {
+    "word": "hẹn",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Thỏa thuận sẽ gặp nhau vào lúc nào đó",
+    "shortClue": "Thỏa thuận gặp"
+  },
+  {
+    "word": "ước",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Mong có được điều chưa có",
+    "shortClue": "Mong có được"
+  },
+  {
+    "word": "thật",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Đúng với sự việc, không giả dối",
+    "shortClue": "Không giả dối"
+  },
+  {
+    "word": "sai",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Không đúng, lệch khỏi lẽ phải",
+    "shortClue": "Không đúng"
+  },
+  {
+    "word": "đúng",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Phù hợp với sự thật",
+    "shortClue": "Hợp sự thật"
+  },
+  {
+    "word": "mẹo",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Cách khôn khéo để làm nhanh một việc",
+    "shortClue": "Cách khôn khéo"
+  },
+  {
+    "word": "duyên",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Nét dễ mến, hoặc mối gắn bó giữa hai người",
+    "shortClue": "Nét dễ mến"
+  },
+  {
+    "word": "nghĩa",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Ý của một từ",
+    "shortClue": "Ý của từ"
+  },
+  {
+    "word": "phúc",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Điều may lành do trời ban",
+    "shortClue": "May lành"
+  },
+  {
+    "word": "cha",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Người sinh ra mình, trụ cột trong nhà",
+    "shortClue": "Bậc sinh thành"
+  },
+  {
+    "word": "anh",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Người con trai sinh trước mình cùng cha mẹ",
+    "shortClue": "Người sinh trước"
+  },
+  {
+    "word": "chị",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Người con gái sinh trước mình cùng cha mẹ",
+    "shortClue": "Gái sinh trước"
+  },
+  {
+    "word": "cháu",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Con của con, hoặc con của anh chị em",
+    "shortClue": "Con của con"
+  },
+  {
+    "word": "chồng",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Người đàn ông đã kết hôn, đối với vợ",
+    "shortClue": "Người đàn ông"
+  },
+  {
+    "word": "dâu",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Vợ của con trai trong nhà",
+    "shortClue": "Vợ của con"
+  },
+  {
+    "word": "chú",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Em trai của cha",
+    "shortClue": "Em trai cha"
+  },
+  {
+    "word": "bác",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Anh hoặc chị của cha",
+    "shortClue": "Anh của cha"
+  },
+  {
+    "word": "cậu",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Anh hoặc em trai của mẹ",
+    "shortClue": "Em trai mẹ"
+  },
+  {
+    "word": "hai",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Số đứng ngay sau số một",
+    "shortClue": "Sau số một"
+  },
+  {
+    "word": "sáu",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Số bằng ba nhân với hai",
+    "shortClue": "Ba nhân hai"
+  },
+  {
+    "word": "tám",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Số chẵn đứng liền sau số bảy",
+    "shortClue": "Sau số bảy"
+  },
+  {
+    "word": "chín",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Số liền trước số mười",
+    "shortClue": "Trước số mười"
+  },
+  {
+    "word": "trăm",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Mười lần mười",
+    "shortClue": "Mười lần mười"
+  },
+  {
+    "word": "đôi",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Hai vật đi thành cặp, như giày dép",
+    "shortClue": "Cặp hai vật"
+  },
+  {
+    "word": "rêu",
+    "topics": [
+      "nature"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Lớp xanh mịn bám trên đá ẩm",
+    "shortClue": "Lớp xanh ẩm"
+  },
+  {
+    "word": "nấm",
+    "topics": [
+      "nature"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Mọc sau cơn mưa, có mũ tròn trên chân",
+    "shortClue": "Mũ trên chân"
+  },
+  {
+    "word": "tre",
+    "topics": [
+      "nature"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Cây thân rỗng có đốt, làng quê nào cũng có",
+    "shortClue": "Cây có đốt"
+  },
+  {
+    "word": "trúc",
+    "topics": [
+      "nature"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Loài tre nhỏ, thân thẳng, hay trồng làm cảnh",
+    "shortClue": "Họ nhà tre"
+  },
+  {
+    "word": "sen",
+    "topics": [
+      "nature"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Hoa nở trong đầm, thơm, biểu tượng thanh khiết",
+    "shortClue": "Hoa trong đầm"
+  },
+  {
+    "word": "lúa",
+    "topics": [
+      "nature"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Cây trồng ngoài ruộng, cho hạt thành gạo",
+    "shortClue": "Cây ngoài ruộng"
+  },
+  {
+    "word": "mía",
+    "topics": [
+      "nature"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Cây thân đặc, ép lấy nước ngọt",
+    "shortClue": "Ép nước ngọt"
+  },
+  {
+    "word": "thông",
+    "topics": [
+      "nature"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Cây lá kim mọc trên đồi cao, thơm nhựa",
+    "shortClue": "Cây lá kim"
+  },
+  {
+    "word": "sồi",
+    "topics": [
+      "nature"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Cây gỗ cứng, quả có mũ nhỏ bao quanh",
+    "shortClue": "Cây gỗ cứng"
+  },
+  {
+    "word": "liễu",
+    "topics": [
+      "nature"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Cây rủ cành mềm bên hồ",
+    "shortClue": "Cành rủ mềm"
+  },
+  {
+    "word": "bèo",
+    "topics": [
+      "nature"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Cây nhỏ nổi trên mặt ao, trôi theo nước",
+    "shortClue": "Nổi trên ao"
+  },
+  {
+    "word": "rong",
+    "topics": [
+      "nature"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Cây mọc dưới nước, mềm, bám vào đá",
+    "shortClue": "Cây dưới nước"
+  },
+  {
+    "word": "sậy",
+    "topics": [
+      "nature"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Cây mọc ven nước, thân cao và rỗng",
+    "shortClue": "Mọc ven nước"
+  },
+  {
+    "word": "lau",
+    "topics": [
+      "nature"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Cỏ cao mọc ven bãi, trổ hoa trắng",
+    "shortClue": "Cỏ hoa trắng"
+  },
+  {
+    "word": "băng",
+    "topics": [
+      "nature"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Nước đông cứng thành khối ở nơi giá rét",
+    "shortClue": "Nước đông cứng"
+  },
+  {
+    "word": "tuyết",
+    "topics": [
+      "nature"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Hạt trắng nhẹ rơi từ trời nơi giá lạnh",
+    "shortClue": "Hạt trắng nhẹ"
+  },
+  {
+    "word": "sấm",
+    "topics": [
+      "nature"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Tiếng nổ lớn trên trời sau tia chớp",
+    "shortClue": "Tiếng nổ trời"
+  },
+  {
+    "word": "chớp",
+    "topics": [
+      "nature"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Tia sáng lóe lên giữa cơn dông",
+    "shortClue": "Tia sáng lóe"
+  },
+  {
+    "word": "bão",
+    "topics": [
+      "nature"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Gió xoáy cực mạnh thổi từ biển vào",
+    "shortClue": "Gió rất mạnh"
+  },
+  {
+    "word": "lụt",
+    "topics": [
+      "nature"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Nước dâng tràn ngập đồng ruộng",
+    "shortClue": "Nước tràn ngập"
+  },
+  {
+    "word": "hạn",
+    "topics": [
+      "nature"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Trời lâu ngày không mưa, đất nứt nẻ",
+    "shortClue": "Trời khô lâu"
+  },
+  {
+    "word": "sóng",
+    "topics": [
+      "nature"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Dải nước nhấp nhô vỗ vào bờ biển",
+    "shortClue": "Nhấp nhô biển"
+  },
+  {
+    "word": "thác",
+    "topics": [
+      "nature"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Dòng nước đổ từ vách cao xuống",
+    "shortClue": "Nước đổ xuống"
+  },
+  {
+    "word": "đầm",
+    "topics": [
+      "nature"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Vũng nước rộng, nông, nhiều bùn",
+    "shortClue": "Vũng nước rộng"
+  },
+  {
+    "word": "ghềnh",
+    "topics": [
+      "nature"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Chỗ lòng sông có đá nhô lên, nước chảy xiết",
+    "shortClue": "Nước xiết"
+  },
+  {
+    "word": "cát",
+    "topics": [
+      "nature"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Hạt vụn mịn trải khắp bãi biển",
+    "shortClue": "Hạt vụn mịn"
+  },
+  {
+    "word": "bùn",
+    "topics": [
+      "nature"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Đất lẫn nước, nhão nhoẹt",
+    "shortClue": "Đất nhão"
+  },
+  {
+    "word": "hang",
+    "topics": [
+      "nature"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Lỗ lớn và sâu trong núi đá",
+    "shortClue": "Lỗ trong núi"
+  },
+  {
+    "word": "trời",
+    "topics": [
+      "nature"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Khoảng không bao la ở trên đầu",
+    "shortClue": "Phía trên đầu"
+  },
+  {
+    "word": "nguyệt",
+    "topics": [
+      "nature"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Tên gọi mặt trăng trong thơ cổ",
+    "shortClue": "Mặt trăng thơ"
+  },
+  {
+    "word": "mầm",
+    "topics": [
+      "nature"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Chồi non vừa nảy ra từ hạt",
+    "shortClue": "Chồi non"
+  },
+  {
+    "word": "cành",
+    "topics": [
+      "nature"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Nhánh mọc ra từ thân cây",
+    "shortClue": "Nhánh từ thân"
+  },
+  {
+    "word": "chồi",
+    "topics": [
+      "nature"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Mầm non mới nhú ở đầu cành",
+    "shortClue": "Mầm non nhú"
+  },
+  {
+    "word": "nhựa",
+    "topics": [
+      "nature"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Chất dính chảy ra từ vết cắt trên cây",
+    "shortClue": "Chất dính cây"
+  },
+  {
+    "word": "gai",
+    "topics": [
+      "nature"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Mũi nhọn mọc trên cành hoa hồng",
+    "shortClue": "Mũi nhọn"
+  },
+  {
+    "word": "lốc",
+    "topics": [
+      "nature"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Cơn gió xoáy cuốn bụi lên cao",
+    "shortClue": "Gió xoáy"
+  },
+  {
+    "word": "nồm",
+    "topics": [
+      "nature"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Gió ẩm cuối đông đầu xuân ở miền Bắc, làm nền nhà ướt",
+    "shortClue": "Gió ẩm"
+  },
+  {
+    "word": "bụi",
+    "topics": [
+      "nature"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Hạt rất nhỏ lơ lửng trong không khí",
+    "shortClue": "Hạt lơ lửng"
+  },
+  {
+    "word": "khói",
+    "topics": [
+      "nature"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Làn xám bay lên từ đám cháy",
+    "shortClue": "Làn từ lửa"
+  },
+  {
+    "word": "lửa",
+    "topics": [
+      "nature"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Ngọn bốc cháy, vừa nóng vừa sáng",
+    "shortClue": "Ngọn nóng sáng"
+  },
+  {
+    "word": "đồi",
+    "topics": [
+      "nature"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Chỗ đất nhô cao, thấp hơn núi",
+    "shortClue": "Thấp hơn núi"
+  },
+  {
+    "word": "đỉnh",
+    "topics": [
+      "nature"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Chỗ cao nhất của ngọn núi",
+    "shortClue": "Chỗ cao nhất"
+  },
+  {
+    "word": "sườn",
+    "topics": [
+      "nature"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Mặt nghiêng của một quả núi",
+    "shortClue": "Mặt nghiêng núi"
+  },
+  {
+    "word": "vực",
+    "topics": [
+      "nature"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Chỗ sâu hoắm giữa hai vách núi",
+    "shortClue": "Hố sâu hoắm"
+  },
+  {
+    "word": "heo",
+    "topics": [
+      "animals"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Vật nuôi béo, kêu ụt ịt",
+    "shortClue": "Vật nuôi béo"
+  },
+  {
+    "word": "cừu",
+    "topics": [
+      "animals"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Thú nuôi lấy lông len",
+    "shortClue": "Thú lấy len"
+  },
+  {
+    "word": "trâu",
+    "topics": [
+      "animals"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Thú kéo cày, thích đằm mình trong nước",
+    "shortClue": "Kéo cày ruộng"
+  },
+  {
+    "word": "ngỗng",
+    "topics": [
+      "animals"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Chim nước lớn, cổ dài, kêu to",
+    "shortClue": "Chim nước lớn"
+  },
+  {
+    "word": "quạ",
+    "topics": [
+      "animals"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Chim lông đen, giọng khàn",
+    "shortClue": "Chim đen khàn"
+  },
+  {
+    "word": "diều",
+    "topics": [
+      "animals"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Chim săn mồi lượn vòng trên cao",
+    "shortClue": "Chim săn lượn"
+  },
+  {
+    "word": "cắt",
+    "topics": [
+      "animals"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Chim săn nhỏ, bay cực nhanh",
+    "shortClue": "Chim săn nhanh"
+  },
+  {
+    "word": "ưng",
+    "topics": [
+      "animals"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Chim săn mồi, mỏ khoằm, mắt sắc",
+    "shortClue": "Chim mỏ khoằm"
+  },
+  {
+    "word": "vẹt",
+    "topics": [
+      "animals"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Chim biết bắt chước tiếng người",
+    "shortClue": "Nhại tiếng người"
+  },
+  {
+    "word": "yến",
+    "topics": [
+      "animals"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Chim làm tổ ăn được ở hang đá",
+    "shortClue": "Tổ ăn được"
+  },
+  {
+    "word": "nhạn",
+    "topics": [
+      "animals"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Chim nhỏ cánh dài, bay thành đàn qua mùa",
+    "shortClue": "Chim cánh dài"
+  },
+  {
+    "word": "công",
+    "topics": [
+      "animals"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Chim có đuôi xòe như chiếc quạt rực rỡ",
+    "shortClue": "Đuôi xòe"
+  },
+  {
+    "word": "cua",
+    "topics": [
+      "animals"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Có hai càng to, bò ngang",
+    "shortClue": "Hai càng"
+  },
+  {
+    "word": "tôm",
+    "topics": [
+      "animals"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Sống dưới nước, có râu, nấu chín thì đỏ",
+    "shortClue": "Chín thì đỏ"
+  },
+  {
+    "word": "chép",
+    "topics": [
+      "animals"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Loài cá nước ngọt, hóa rồng trong truyện xưa",
+    "shortClue": "Cá hóa rồng"
+  },
+  {
+    "word": "trê",
+    "topics": [
+      "animals"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Cá da trơn, có râu, sống ở ao bùn",
+    "shortClue": "Cá da trơn"
+  },
+  {
+    "word": "lươn",
+    "topics": [
+      "animals"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Thân dài trơn như rắn, sống trong bùn",
+    "shortClue": "Dài và trơn"
+  },
+  {
+    "word": "rùa",
+    "topics": [
+      "animals"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Có mai cứng trên lưng, bò chậm",
+    "shortClue": "Mai cứng"
+  },
+  {
+    "word": "nhái",
+    "topics": [
+      "animals"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Loài như ếch nhỏ, nhảy giỏi, da xanh",
+    "shortClue": "Nhỏ, nhảy giỏi"
+  },
+  {
+    "word": "cóc",
+    "topics": [
+      "animals"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Da sần sùi, hay ngồi ven ao",
+    "shortClue": "Da sần sùi"
+  },
+  {
+    "word": "nhện",
+    "topics": [
+      "animals"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Có tám chân, giăng tơ bắt mồi",
+    "shortClue": "Giăng tơ"
+  },
+  {
+    "word": "kiến",
+    "topics": [
+      "animals"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Côn trùng nhỏ xếp hàng tha mồi",
+    "shortClue": "Nhỏ xếp hàng"
+  },
+  {
+    "word": "ruồi",
+    "topics": [
+      "animals"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Côn trùng nhỏ bay quanh đồ ăn",
+    "shortClue": "Bay vo ve"
+  },
+  {
+    "word": "muỗi",
+    "topics": [
+      "animals"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Côn trùng hút máu, kêu vo ve về đêm",
+    "shortClue": "Hút máu"
+  },
+  {
+    "word": "bướm",
+    "topics": [
+      "animals"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Côn trùng có cánh phấn nhiều màu, đậu trên hoa",
+    "shortClue": "Cánh phấn"
+  },
+  {
+    "word": "tằm",
+    "topics": [
+      "animals"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Ăn lá dâu, nhả tơ làm kén",
+    "shortClue": "Nhả tơ"
+  },
+  {
+    "word": "cáo",
+    "topics": [
+      "animals"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Thú mõm nhọn, đuôi xù, nổi tiếng ranh mãnh",
+    "shortClue": "Thú ranh mãnh"
+  },
+  {
+    "word": "sói",
+    "topics": [
+      "animals"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Họ hàng hoang dã của chó, hay hú về đêm",
+    "shortClue": "Hú về đêm"
+  },
+  {
+    "word": "gấu",
+    "topics": [
+      "animals"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Thú lớn, lông dày, thích mật ong",
+    "shortClue": "Thú thích mật"
+  },
+  {
+    "word": "nai",
+    "topics": [
+      "animals"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Thú rừng có gạc phân nhánh",
+    "shortClue": "Thú có gạc"
+  },
+  {
+    "word": "hươu",
+    "topics": [
+      "animals"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Thú rừng cổ cao, chân dài",
+    "shortClue": "Cổ dài"
+  },
+  {
+    "word": "báo",
+    "topics": [
+      "animals"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Thú săn lông đốm, chạy rất nhanh",
+    "shortClue": "Lông đốm"
+  },
+  {
+    "word": "vượn",
+    "topics": [
+      "animals"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Họ khỉ không đuôi, tay rất dài",
+    "shortClue": "Khỉ tay dài"
+  },
+  {
+    "word": "nhím",
+    "topics": [
+      "animals"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Thú gặm nhấm có gai nhọn trên lưng",
+    "shortClue": "Thú gai nhọn"
+  },
+  {
+    "word": "sóc",
+    "topics": [
+      "animals"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Thú nhỏ đuôi xù, nhảy trên cây",
+    "shortClue": "Đuôi xù"
+  },
+  {
+    "word": "dơi",
+    "topics": [
+      "animals"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Thú biết bay, ngủ treo ngược mình",
+    "shortClue": "Treo ngược ngủ"
+  },
+  {
+    "word": "nghé",
+    "topics": [
+      "animals"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Con non của loài trâu",
+    "shortClue": "Trâu con"
+  },
+  {
+    "word": "rồng",
+    "topics": [
+      "animals"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Con vật trong truyền thuyết, có vảy, bay giữa mây",
+    "shortClue": "Vật huyền thoại"
+  },
+  {
+    "word": "hến",
+    "topics": [
+      "animals"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Con nhỏ vỏ đen sống ở sông, hay nấu canh",
+    "shortClue": "Vỏ đen"
+  },
+  {
+    "word": "nghêu",
+    "topics": [
+      "animals"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Loài nhuyễn thể vỏ cứng sống ở bãi biển",
+    "shortClue": "Sò bãi biển"
+  },
+  {
+    "word": "sứa",
+    "topics": [
+      "animals"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Thân mềm trong suốt như thạch, trôi giữa biển",
+    "shortClue": "Mềm như thạch"
+  },
+  {
+    "word": "chè",
+    "topics": [
+      "food"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Món ngọt nấu từ đậu, đường, hay nước cốt dừa",
+    "shortClue": "Món ngọt ly"
+  },
+  {
+    "word": "xôi",
+    "topics": [
+      "food"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Món nấu từ nếp đồ chín, ăn buổi sáng",
+    "shortClue": "Nếp đồ chín"
+  },
+  {
+    "word": "cháo",
+    "topics": [
+      "food"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Gạo nấu nhừ với nhiều nước, hợp cho người ốm",
+    "shortClue": "Gạo nấu nhừ"
+  },
+  {
+    "word": "canh",
+    "topics": [
+      "food"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Món nước chan với cơm trong bữa",
+    "shortClue": "Món nước"
+  },
+  {
+    "word": "gỏi",
+    "topics": [
+      "food"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Món trộn rau với thịt hay tôm, không nấu chín",
+    "shortClue": "Món trộn rau"
+  },
+  {
+    "word": "chả",
+    "topics": [
+      "food"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Thịt hay cá giã nhuyễn, nướng hoặc rán",
+    "shortClue": "Thịt giã nướng"
+  },
+  {
+    "word": "giò",
+    "topics": [
+      "food"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Món thịt giã quấn lá, luộc chín, hay có dịp lễ",
+    "shortClue": "Thịt quấn lá"
+  },
+  {
+    "word": "miến",
+    "topics": [
+      "food"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Sợi trong làm từ đậu xanh, nấu với gà",
+    "shortClue": "Sợi từ đậu"
+  },
+  {
+    "word": "bột",
+    "topics": [
+      "food"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Hạt xay mịn từ gạo hay lúa mì",
+    "shortClue": "Hạt xay mịn"
+  },
+  {
+    "word": "mật",
+    "topics": [
+      "food"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Chất ngọt đặc do ong làm ra",
+    "shortClue": "Chất ngọt đặc"
+  },
+  {
+    "word": "tiêu",
+    "topics": [
+      "food"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Hạt đen nhỏ, cay nồng, rắc lên món ăn",
+    "shortClue": "Hạt đen cay"
+  },
+  {
+    "word": "tỏi",
+    "topics": [
+      "food"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Củ có nhiều tép, nồng mùi, ướp món xào",
+    "shortClue": "Củ nhiều tép"
+  },
+  {
+    "word": "hành",
+    "topics": [
+      "food"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Cây lá rỗng, củ nhỏ, hay rắc lên bát canh",
+    "shortClue": "Rắc lên canh"
+  },
+  {
+    "word": "gừng",
+    "topics": [
+      "food"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Củ cay ấm, hay pha trà mùa rét",
+    "shortClue": "Củ cay ấm"
+  },
+  {
+    "word": "riềng",
+    "topics": [
+      "food"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Củ thơm họ hàng với gừng, dùng ướp thịt",
+    "shortClue": "Củ họ gừng"
+  },
+  {
+    "word": "quế",
+    "topics": [
+      "food"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Vỏ cây thơm nồng, dùng làm gia vị",
+    "shortClue": "Vỏ cây thơm"
+  },
+  {
+    "word": "nghệ",
+    "topics": [
+      "food"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Củ ruột vàng, dùng nhuộm màu cho món ăn",
+    "shortClue": "Củ ruột vàng"
+  },
+  {
+    "word": "chanh",
+    "topics": [
+      "food"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Quả xanh nhỏ, vắt lấy nước chua",
+    "shortClue": "Quả vắt chua"
+  },
+  {
+    "word": "bưởi",
+    "topics": [
+      "food"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Quả to nhất họ cam, múi mọng",
+    "shortClue": "Quả múi mọng"
+  },
+  {
+    "word": "mít",
+    "topics": [
+      "food"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Quả to, vỏ gai, múi vàng thơm",
+    "shortClue": "Quả vỏ gai"
+  },
+  {
+    "word": "nhãn",
+    "topics": [
+      "food"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Quả tròn nhỏ, vỏ nâu, cùi trắng ngọt",
+    "shortClue": "Cùi trắng ngọt"
+  },
+  {
+    "word": "vải",
+    "topics": [
+      "food"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Quả vỏ đỏ sần, chín vào đầu hè",
+    "shortClue": "Quả vỏ đỏ"
+  },
+  {
+    "word": "dưa",
+    "topics": [
+      "food"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Quả mát, ruột nhiều nước, ăn mùa hè",
+    "shortClue": "Quả nhiều nước"
+  },
+  {
+    "word": "dừa",
+    "topics": [
+      "food"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Quả có nước trong vắt, cùi trắng",
+    "shortClue": "Nước trong vắt"
+  },
+  {
+    "word": "mận",
+    "topics": [
+      "food"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Quả nhỏ vỏ đỏ hay tím, vị chua ngọt",
+    "shortClue": "Quả chua ngọt"
+  },
+  {
+    "word": "táo",
+    "topics": [
+      "food"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Quả tròn giòn, vỏ thường đỏ hay xanh",
+    "shortClue": "Quả tròn giòn"
+  },
+  {
+    "word": "nho",
+    "topics": [
+      "food"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Quả mọc thành chùm, ăn tươi hay phơi khô",
+    "shortClue": "Quả thành chùm"
+  },
+  {
+    "word": "đậu",
+    "topics": [
+      "food"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Hạt trong quả, dùng nấu chè hay làm tàu hũ",
+    "shortClue": "Hạt nấu chè"
+  },
+  {
+    "word": "bắp",
+    "topics": [
+      "food"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Hạt vàng xếp hàng đều trên lõi",
+    "shortClue": "Hạt vàng"
+  },
+  {
+    "word": "khoai",
+    "topics": [
+      "food"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Củ mọc dưới đất, luộc hay nướng đều ngon",
+    "shortClue": "Củ dưới đất"
+  },
+  {
+    "word": "rau",
+    "topics": [
+      "food"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Lá xanh nấu canh hay ăn sống",
+    "shortClue": "Lá xanh ăn"
+  },
+  {
+    "word": "cải",
+    "topics": [
+      "food"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Rau lá xanh, hay đem muối thành dưa",
+    "shortClue": "Rau muối dưa"
+  },
+  {
+    "word": "mướp",
+    "topics": [
+      "food"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Quả dài vỏ xanh, nấu canh, ruột có xơ",
+    "shortClue": "Quả dài xơ"
+  },
+  {
+    "word": "gấc",
+    "topics": [
+      "food"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Quả vỏ gai, ruột đỏ, nấu xôi cho đẹp màu",
+    "shortClue": "Quả ruột đỏ"
+  },
+  {
+    "word": "thịt",
+    "topics": [
+      "food"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Phần mềm của con vật, nấu để ăn",
+    "shortClue": "Phần mềm nấu"
+  },
+  {
+    "word": "trứng",
+    "topics": [
+      "food"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Có vỏ mỏng, do gà hay vịt đẻ ra",
+    "shortClue": "Vỏ mỏng"
+  },
+  {
+    "word": "tương",
+    "topics": [
+      "food"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Nước chấm làm từ đậu nành lên men",
+    "shortClue": "Nước chấm đậu"
+  },
+  {
+    "word": "mứt",
+    "topics": [
+      "food"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Quả sên với đường cho khô, bày dịp Tết",
+    "shortClue": "Quả sên đường"
+  },
+  {
+    "word": "kẹo",
+    "topics": [
+      "food"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Viên ngọt nhỏ, trẻ em thích ngậm",
+    "shortClue": "Viên ngọt nhỏ"
+  },
+  {
+    "word": "xào",
+    "topics": [
+      "food"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Đảo thức ăn trong chảo với dầu nóng",
+    "shortClue": "Đảo trong chảo"
+  },
+  {
+    "word": "nướng",
+    "topics": [
+      "food"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Làm chín trên than hồng",
+    "shortClue": "Chín trên than"
+  },
+  {
+    "word": "luộc",
+    "topics": [
+      "food"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Nấu chín trong nước sôi",
+    "shortClue": "Chín trong nước"
+  },
+  {
+    "word": "kho",
+    "topics": [
+      "food"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Nấu cá hay thịt đậm đà cho nước cạn",
+    "shortClue": "Nấu cho cạn"
+  },
+  {
+    "word": "vùng",
+    "topics": [
+      "geography"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Khu đất rộng có chung đặc điểm",
+    "shortClue": "Khu đất rộng"
+  },
+  {
+    "word": "miền",
+    "topics": [
+      "geography"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Phần lớn của một nước, như Bắc, Trung, Nam",
+    "shortClue": "Phần lớn nước"
+  },
+  {
+    "word": "tỉnh",
+    "topics": [
+      "geography"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Đơn vị hành chính lớn trong một nước",
+    "shortClue": "Đơn vị lớn"
+  },
+  {
+    "word": "huyện",
+    "topics": [
+      "geography"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Đơn vị hành chính nằm dưới cấp lớn nhất",
+    "shortClue": "Dưới cấp tỉnh"
+  },
+  {
+    "word": "làng",
+    "topics": [
+      "geography"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Nơi nhiều nhà ở quây quần ở nông thôn",
+    "shortClue": "Xóm quê"
+  },
+  {
+    "word": "phố",
+    "topics": [
+      "geography"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Đường có nhà hai bên ở thành thị",
+    "shortClue": "Đường thành thị"
+  },
+  {
+    "word": "bến",
+    "topics": [
+      "geography"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Chỗ thuyền đỗ để đón khách",
+    "shortClue": "Chỗ thuyền đỗ"
+  },
+  {
+    "word": "cầu",
+    "topics": [
+      "geography"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Công trình bắc ngang qua sông",
+    "shortClue": "Bắc qua sông"
+  },
+  {
+    "word": "kênh",
+    "topics": [
+      "geography"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Dòng nước người đào để dẫn nước hay đi thuyền",
+    "shortClue": "Dòng nước đào"
+  },
+  {
+    "word": "rạch",
+    "topics": [
+      "geography"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Dòng nước nhỏ chảy nối vào sông ở miền Tây",
+    "shortClue": "Dòng nước nhỏ"
+  },
+  {
+    "word": "cồn",
+    "topics": [
+      "geography"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Dải đất nổi giữa dòng sông",
+    "shortClue": "Đất nổi sông"
+  },
+  {
+    "word": "doi",
+    "topics": [
+      "geography"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Mỏm đất nhô ra sông hay biển",
+    "shortClue": "Mỏm đất nhô"
+  },
+  {
+    "word": "vũng",
+    "topics": [
+      "geography"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Chỗ biển lõm vào, tàu thuyền ẩn gió",
+    "shortClue": "Biển lõm vào"
+  },
+  {
+    "word": "ruộng",
+    "topics": [
+      "geography"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Mảnh đất bằng để cấy lúa",
+    "shortClue": "Đất cấy lúa"
+  },
+  {
+    "word": "nương",
+    "topics": [
+      "geography"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Đất trồng ngô, sắn trên đồi núi",
+    "shortClue": "Đất trên đồi"
+  },
+  {
+    "word": "bắc",
+    "topics": [
+      "geography"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Hướng nhìn lên phía trên của bản đồ",
+    "shortClue": "Hướng trên cùng"
+  },
+  {
+    "word": "nam",
+    "topics": [
+      "geography"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Hướng ngược với phía trên của bản đồ",
+    "shortClue": "Hướng dưới cùng"
+  },
+  {
+    "word": "đông",
+    "topics": [
+      "geography"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Hướng mặt trời mọc",
+    "shortClue": "Mặt trời mọc"
+  },
+  {
+    "word": "tây",
+    "topics": [
+      "geography"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Hướng mặt trời lặn",
+    "shortClue": "Mặt trời lặn"
+  },
+  {
+    "word": "cực",
+    "topics": [
+      "geography"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Đầu mút của Trái Đất, nơi lạnh nhất",
+    "shortClue": "Điểm tận cùng"
+  },
+  {
+    "word": "đới",
+    "topics": [
+      "geography"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Dải rộng trên Trái Đất chia theo khí hậu",
+    "shortClue": "Dải khí hậu"
+  },
+  {
+    "word": "bản",
+    "topics": [
+      "geography"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Làng của người dân miền núi",
+    "shortClue": "Làng miền núi"
+  },
+  {
+    "word": "mường",
+    "topics": [
+      "geography"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Vùng đất của người Thái và các dân tộc láng giềng",
+    "shortClue": "Vùng người Thái"
+  },
+  {
+    "word": "buôn",
+    "topics": [
+      "geography"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Làng của người dân Tây Nguyên",
+    "shortClue": "Làng Tây Nguyên"
+  },
+  {
+    "word": "hòn",
+    "topics": [
+      "geography"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Đảo nhỏ hay tảng đá nhô giữa biển",
+    "shortClue": "Đảo nhỏ"
+  },
+  {
+    "word": "mỏm",
+    "topics": [
+      "geography"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Chỗ đất đá nhô ra như chiếc mũi",
+    "shortClue": "Đất đá nhô"
+  },
+  {
+    "word": "Lào",
+    "topics": [
+      "geography"
+    ],
+    "difficulty": 1,
+    "kind": "proper",
+    "clue": "Nước láng giềng phía tây, có sông Mê Kông chảy qua",
+    "shortClue": "Nước phía tây"
+  },
+  {
+    "word": "Pháp",
+    "topics": [
+      "geography"
+    ],
+    "difficulty": 1,
+    "kind": "proper",
+    "clue": "Nước châu Âu có tháp sắt nổi tiếng ở thủ đô",
+    "shortClue": "Xứ tháp sắt"
+  },
+  {
+    "word": "Đức",
+    "topics": [
+      "geography"
+    ],
+    "difficulty": 1,
+    "kind": "proper",
+    "clue": "Nước châu Âu có thủ đô là Berlin",
+    "shortClue": "Thủ đô Berlin"
+  },
+  {
+    "word": "Nga",
+    "topics": [
+      "geography"
+    ],
+    "difficulty": 1,
+    "kind": "proper",
+    "clue": "Nước rộng nhất thế giới",
+    "shortClue": "Nước rộng nhất"
+  },
+  {
+    "word": "Nhật",
+    "topics": [
+      "geography"
+    ],
+    "difficulty": 1,
+    "kind": "proper",
+    "clue": "Quốc đảo ở Đông Á, nổi tiếng hoa anh đào",
+    "shortClue": "Xứ anh đào"
+  },
+  {
+    "word": "Hồng",
+    "topics": [
+      "geography"
+    ],
+    "difficulty": 2,
+    "kind": "proper",
+    "clue": "Con sông lớn chảy qua Hà Nội",
+    "shortClue": "Sông Hà Nội"
+  },
+  {
+    "word": "Hương",
+    "topics": [
+      "geography"
+    ],
+    "difficulty": 2,
+    "kind": "proper",
+    "clue": "Dòng sông thơ mộng chảy qua cố đô",
+    "shortClue": "Sông cố đô"
+  },
+  {
+    "word": "vua",
+    "topics": [
+      "history"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Bậc đứng đầu một nước thời quân chủ",
+    "shortClue": "Bậc quân chủ"
+  },
+  {
+    "word": "triều",
+    "topics": [
+      "history"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Dòng họ nối nhau cầm quyền một nước",
+    "shortClue": "Dòng họ vua"
+  },
+  {
+    "word": "ngai",
+    "topics": [
+      "history"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Chiếc ghế dành riêng cho vua",
+    "shortClue": "Ghế của vua"
+  },
+  {
+    "word": "lăng",
+    "topics": [
+      "history"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Công trình lớn đặt thi hài vua chúa",
+    "shortClue": "Mộ vua chúa"
+  },
+  {
+    "word": "đền",
+    "topics": [
+      "history"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Nơi thờ phụng thần hay người có công",
+    "shortClue": "Nơi thờ phụng"
+  },
+  {
+    "word": "miếu",
+    "topics": [
+      "history"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Nơi thờ nhỏ, thường ở đầu làng",
+    "shortClue": "Nơi thờ nhỏ"
+  },
+  {
+    "word": "giáo",
+    "topics": [
+      "history"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Vũ khí cổ, cán dài, đầu nhọn",
+    "shortClue": "Cán dài nhọn"
+  },
+  {
+    "word": "mác",
+    "topics": [
+      "history"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Vũ khí cổ cán dài, lưỡi to",
+    "shortClue": "Lưỡi to"
+  },
+  {
+    "word": "hào",
+    "topics": [
+      "history"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Rãnh sâu có nước quanh tòa thành",
+    "shortClue": "Rãnh quanh thành"
+  },
+  {
+    "word": "lầu",
+    "topics": [
+      "history"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Nhà cao nhiều tầng của quan xưa",
+    "shortClue": "Nhà nhiều tầng"
+  },
+  {
+    "word": "lệnh",
+    "topics": [
+      "history"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Điều vua hay tướng truyền xuống",
+    "shortClue": "Điều truyền xuống"
+  },
+  {
+    "word": "chiếu",
+    "topics": [
+      "history"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Giấy vua ban để báo điều lớn",
+    "shortClue": "Giấy vua ban"
+  },
+  {
+    "word": "sắc",
+    "topics": [
+      "history"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Giấy vua phong chức tước hay công nhận thần",
+    "shortClue": "Giấy vua phong"
+  },
+  {
+    "word": "tướng",
+    "topics": [
+      "history"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Người chỉ huy một đạo quân",
+    "shortClue": "Người chỉ huy"
+  },
+  {
+    "word": "gốm",
+    "topics": [
+      "history"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Đồ nung từ đất sét, thường tìm thấy trong di tích",
+    "shortClue": "Đồ nung"
+  },
+  {
+    "word": "bạc",
+    "topics": [
+      "history"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Kim loại trắng sáng, dùng đúc tiền cổ",
+    "shortClue": "Kim loại trắng"
+  },
+  {
+    "word": "vàng",
+    "topics": [
+      "history"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Kim loại quý, vua chúa dùng đúc ấn",
+    "shortClue": "Kim loại quý"
+  },
+  {
+    "word": "tiền",
+    "topics": [
+      "history"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Đồng xu cổ có lỗ vuông ở giữa",
+    "shortClue": "Đồng xu cổ"
+  },
+  {
+    "word": "hịch",
+    "topics": [
+      "history"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Bài văn kêu gọi quân sĩ và dân chúng",
+    "shortClue": "Bài kêu gọi"
+  },
+  {
+    "word": "dân",
+    "topics": [
+      "history"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Người sống trong một nước",
+    "shortClue": "Người trong nước"
+  },
+  {
+    "word": "thuế",
+    "topics": [
+      "history"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Khoản dân phải nộp cho nhà nước",
+    "shortClue": "Khoản phải nộp"
+  },
+  {
+    "word": "bảng",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Tấm phẳng trong lớp học để viết phấn lên",
+    "shortClue": "Để viết phấn"
+  },
+  {
+    "word": "khoa",
+    "topics": [
+      "history"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Kỳ thi chọn quan thời xưa",
+    "shortClue": "Kỳ thi xưa"
+  },
+  {
+    "word": "trạng",
+    "topics": [
+      "history"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Danh hiệu người đỗ đầu kỳ thi xưa",
+    "shortClue": "Đỗ đầu xưa"
+  },
+  {
+    "word": "đồn",
+    "topics": [
+      "history"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Nơi quân đóng để canh gác",
+    "shortClue": "Nơi quân đóng"
+  },
+  {
+    "word": "lũy",
+    "topics": [
+      "history"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Bờ đất đắp cao để ngăn giặc",
+    "shortClue": "Bờ đất đắp"
+  },
+  {
+    "word": "phủ",
+    "topics": [
+      "history"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Dinh thự lớn của quan hay chúa",
+    "shortClue": "Dinh thự lớn"
+  },
+  {
+    "word": "chúa",
+    "topics": [
+      "history"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Người nắm quyền, bên cạnh nhà vua",
+    "shortClue": "Người nắm quyền"
+  },
+  {
+    "word": "gan",
+    "topics": [
+      "science"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Cơ quan lớn bên phải bụng, lọc chất độc",
+    "shortClue": "Lọc chất độc"
+  },
+  {
+    "word": "thận",
+    "topics": [
+      "science"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Cơ quan hình hạt đậu, lọc máu thành nước tiểu",
+    "shortClue": "Lọc máu"
+  },
+  {
+    "word": "ruột",
+    "topics": [
+      "science"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Ống dài trong bụng, hấp thụ chất bổ",
+    "shortClue": "Ống trong bụng"
+  },
+  {
+    "word": "gân",
+    "topics": [
+      "science"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Dây dai nối cơ với xương",
+    "shortClue": "Nối cơ xương"
+  },
+  {
+    "word": "khớp",
+    "topics": [
+      "science"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Chỗ hai đầu xương gặp nhau",
+    "shortClue": "Chỗ xương gặp"
+  },
+  {
+    "word": "tủy",
+    "topics": [
+      "science"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Chất mềm nằm trong lòng xương",
+    "shortClue": "Chất mềm trong"
+  },
+  {
+    "word": "mạch",
+    "topics": [
+      "science"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Ống dẫn máu chạy khắp cơ thể",
+    "shortClue": "Ống dẫn máu"
+  },
+  {
+    "word": "răng",
+    "topics": [
+      "science"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Cứng, trắng, mọc trong miệng để nhai",
+    "shortClue": "Mọc trong miệng"
+  },
+  {
+    "word": "lưỡi",
+    "topics": [
+      "science"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Cơ mềm trong miệng, giúp nếm vị",
+    "shortClue": "Cơ nếm vị"
+  },
+  {
+    "word": "mắt",
+    "topics": [
+      "science"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Cơ quan để nhìn",
+    "shortClue": "Cơ quan nhìn"
+  },
+  {
+    "word": "tai",
+    "topics": [
+      "science"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Cơ quan để nghe, hai bên đầu",
+    "shortClue": "Cơ quan nghe"
+  },
+  {
+    "word": "tóc",
+    "topics": [
+      "science"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Sợi mọc trên đầu người",
+    "shortClue": "Sợi trên đầu"
+  },
+  {
+    "word": "lực",
+    "topics": [
+      "science"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Tác dụng lên vật làm nó đổi hướng hay hình dạng",
+    "shortClue": "Sức tác dụng"
+  },
+  {
+    "word": "nhôm",
+    "topics": [
+      "science"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Kim loại nhẹ, màu trắng bạc, dùng làm nồi",
+    "shortClue": "Kim loại nhẹ"
+  },
+  {
+    "word": "thiếc",
+    "topics": [
+      "science"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Kim loại mềm, dùng hàn và mạ",
+    "shortClue": "Kim loại mềm"
+  },
+  {
+    "word": "chì",
+    "topics": [
+      "science"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Kim loại nặng, mềm, xám xanh",
+    "shortClue": "Kim loại nặng"
+  },
+  {
+    "word": "kẽm",
+    "topics": [
+      "science"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Kim loại xanh trắng, dùng mạ tôn",
+    "shortClue": "Mạ tôn"
+  },
+  {
+    "word": "axit",
+    "topics": [
+      "science"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Chất có vị chua, làm quỳ tím hóa đỏ",
+    "shortClue": "Chất chua"
+  },
+  {
+    "word": "kiềm",
+    "topics": [
+      "science"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Chất đối lập với axit, làm quỳ tím hóa xanh",
+    "shortClue": "Đối của axit"
+  },
+  {
+    "word": "hơi",
+    "topics": [
+      "science"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Chất khí bốc lên từ nước sôi",
+    "shortClue": "Khí nước sôi"
+  },
+  {
+    "word": "hạt",
+    "topics": [
+      "science"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Phần rất nhỏ của vật chất",
+    "shortClue": "Phần rất nhỏ"
+  },
+  {
+    "word": "gen",
+    "topics": [
+      "science"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Đơn vị di truyền mang đặc điểm từ cha mẹ",
+    "shortClue": "Mã di truyền"
+  },
+  {
+    "word": "thuốc",
+    "topics": [
+      "science"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Chất dùng để chữa bệnh",
+    "shortClue": "Để chữa bệnh"
+  },
+  {
+    "word": "bệnh",
+    "topics": [
+      "science"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Tình trạng cơ thể không khỏe",
+    "shortClue": "Ốm đau"
+  },
+  {
+    "word": "sốt",
+    "topics": [
+      "science"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Thân nhiệt tăng cao hơn bình thường",
+    "shortClue": "Người nóng ran"
+  },
+  {
+    "word": "đau",
+    "topics": [
+      "science"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Cảm giác khó chịu khi cơ thể bị tổn thương",
+    "shortClue": "Khó chịu"
+  },
+  {
+    "word": "thở",
+    "topics": [
+      "science"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Hút khí vào phổi rồi đẩy ra",
+    "shortClue": "Hút khí vào"
+  },
+  {
+    "word": "góc",
+    "topics": [
+      "science"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Chỗ hai cạnh gặp nhau tạo thành",
+    "shortClue": "Hai cạnh gặp"
+  },
+  {
+    "word": "cạnh",
+    "topics": [
+      "science"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Đoạn thẳng bao quanh một hình",
+    "shortClue": "Đoạn bao hình"
+  },
+  {
+    "word": "trục",
+    "topics": [
+      "science"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Đường thẳng để vật quay quanh",
+    "shortClue": "Đường để quay"
+  },
+  {
+    "word": "tia",
+    "topics": [
+      "science"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Luồng sáng mảnh, đi thẳng",
+    "shortClue": "Luồng sáng mảnh"
+  },
+  {
+    "word": "pin",
+    "topics": [
+      "science"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Nguồn điện nhỏ gọn đặt trong điều khiển",
+    "shortClue": "Nguồn điện nhỏ"
+  },
+  {
+    "word": "dây",
+    "topics": [
+      "science"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Sợi dài dẫn điện",
+    "shortClue": "Sợi dẫn điện"
+  },
+  {
+    "word": "đua",
+    "topics": [
+      "sport"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Thi chạy nhanh xem ai về trước",
+    "shortClue": "Thi về trước"
+  },
+  {
+    "word": "giải",
+    "topics": [
+      "sport"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Cuộc thi lớn có trao thưởng",
+    "shortClue": "Cuộc thi lớn"
+  },
+  {
+    "word": "thắng",
+    "topics": [
+      "sport"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Về nhất sau cuộc đấu",
+    "shortClue": "Về nhất"
+  },
+  {
+    "word": "thua",
+    "topics": [
+      "sport"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Kết quả buồn sau trận đấu",
+    "shortClue": "Chịu kém"
+  },
+  {
+    "word": "hòa",
+    "topics": [
+      "sport"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Kết quả hai đội ngang điểm",
+    "shortClue": "Ngang điểm"
+  },
+  {
+    "word": "đội",
+    "topics": [
+      "sport"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Nhóm cầu thủ cùng thi đấu",
+    "shortClue": "Nhóm thi đấu"
+  },
+  {
+    "word": "hiệp",
+    "topics": [
+      "sport"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Phần chia ra trong một trận bóng đá",
+    "shortClue": "Phần của trận"
+  },
+  {
+    "word": "vạch",
+    "topics": [
+      "sport"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Đường kẻ trên sân để xuất phát",
+    "shortClue": "Đường kẻ sân"
+  },
+  {
+    "word": "đích",
+    "topics": [
+      "sport"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Điểm cuối cùng của cuộc chạy đua",
+    "shortClue": "Điểm cuối"
+  },
+  {
+    "word": "gậy",
+    "topics": [
+      "sport"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Vật dài dùng để đánh bóng gôn",
+    "shortClue": "Dụng cụ đánh"
+  },
+  {
+    "word": "lặn",
+    "topics": [
+      "sport"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Chìm xuống nước để bơi dưới đáy",
+    "shortClue": "Chìm dưới nước"
+  },
+  {
+    "word": "trượt",
+    "topics": [
+      "sport"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Lướt đi trên băng hay ván",
+    "shortClue": "Lướt đi"
+  },
+  {
+    "word": "lướt",
+    "topics": [
+      "sport"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Đi nhẹ nhàng trên mặt sóng",
+    "shortClue": "Đi trên sóng"
+  },
+  {
+    "word": "leo",
+    "topics": [
+      "sport"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Dùng tay chân vươn lên vách cao",
+    "shortClue": "Vươn lên vách"
+  },
+  {
+    "word": "chuyền",
+    "topics": [
+      "sport"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Đưa bóng cho đồng đội",
+    "shortClue": "Đưa đồng đội"
+  },
+  {
+    "word": "sút",
+    "topics": [
+      "sport"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Đá mạnh bóng vào lưới",
+    "shortClue": "Đá mạnh bóng"
+  },
+  {
+    "word": "đập",
+    "topics": [
+      "sport"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Dùng tay đánh bóng mạnh xuống",
+    "shortClue": "Đánh bóng xuống"
+  },
+  {
+    "word": "giày",
+    "topics": [
+      "sport"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Vật xỏ vào chân để chạy",
+    "shortClue": "Xỏ vào chân"
+  },
+  {
+    "word": "đai",
+    "topics": [
+      "sport"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Dải thắt ngang người của võ sĩ",
+    "shortClue": "Dải võ sĩ"
+  },
+  {
+    "word": "đạp",
+    "topics": [
+      "sport"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Dùng sức chân làm cho xe lăn bánh",
+    "shortClue": "Chân đẩy xe"
+  },
+  {
+    "word": "bắn",
+    "topics": [
+      "sport"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Phóng mũi tên hay đạn vào đích",
+    "shortClue": "Nhắm vào đích"
+  },
+  {
+    "word": "nhún",
+    "topics": [
+      "sport"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Co chân rồi bật lên",
+    "shortClue": "Co chân bật"
+  },
+  {
+    "word": "điệu",
+    "topics": [
+      "arts"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Phong cách riêng của khúc nhạc hay màn múa",
+    "shortClue": "Phong cách riêng"
+  },
+  {
+    "word": "phách",
+    "topics": [
+      "arts"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Dụng cụ gõ bằng tre hay gỗ để giữ nhịp",
+    "shortClue": "Gõ giữ nhịp"
+  },
+  {
+    "word": "chiêng",
+    "topics": [
+      "arts"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Nhạc cụ bằng đồng, tròn dẹt, treo lên rồi gõ",
+    "shortClue": "Đồng tròn dẹt"
+  },
+  {
+    "word": "cồng",
+    "topics": [
+      "arts"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Nhạc cụ đồng của vùng núi, có núm giữa",
+    "shortClue": "Đồng có núm"
+  },
+  {
+    "word": "khèn",
+    "topics": [
+      "arts"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Nhạc cụ thổi của người Mông, gồm nhiều ống",
+    "shortClue": "Thổi nhiều ống"
+  },
+  {
+    "word": "sênh",
+    "topics": [
+      "arts"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Hai thanh tre gõ vào nhau tạo nhịp",
+    "shortClue": "Thanh tre gõ"
+  },
+  {
+    "word": "nhị",
+    "topics": [
+      "arts"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Đàn hai dây kéo bằng cung",
+    "shortClue": "Đàn hai dây"
+  },
+  {
+    "word": "nốt",
+    "topics": [
+      "arts"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Dấu ghi cao độ trên khuông nhạc",
+    "shortClue": "Dấu trên khuông"
+  },
+  {
+    "word": "khuông",
+    "topics": [
+      "arts"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Năm dòng kẻ ngang để viết nhạc",
+    "shortClue": "Năm dòng kẻ"
+  },
+  {
+    "word": "lời",
+    "topics": [
+      "arts"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Phần chữ của một bài hát",
+    "shortClue": "Chữ bài hát"
+  },
+  {
+    "word": "vần",
+    "topics": [
+      "arts"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Âm cuối giống nhau giữa các câu thơ",
+    "shortClue": "Âm cuối giống"
+  },
+  {
+    "word": "truyện",
+    "topics": [
+      "arts"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Chuyện dài được kể hay viết ra",
+    "shortClue": "Chuyện được kể"
+  },
+  {
+    "word": "sơn",
+    "topics": [
+      "arts"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Chất màu phủ lên tranh hay tường",
+    "shortClue": "Chất phủ màu"
+  },
+  {
+    "word": "khung",
+    "topics": [
+      "arts"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Viền bao quanh bức tranh",
+    "shortClue": "Viền quanh tranh"
+  },
+  {
+    "word": "nét",
+    "topics": [
+      "arts"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Đường vẽ hay đường chữ mảnh",
+    "shortClue": "Đường vẽ mảnh"
+  },
+  {
+    "word": "đúc",
+    "topics": [
+      "arts"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Rót kim loại nóng vào khuôn để làm tượng",
+    "shortClue": "Rót kim loại"
+  },
+  {
+    "word": "khắc",
+    "topics": [
+      "arts"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Dùng dao đục tạo hình trên gỗ hay đá",
+    "shortClue": "Đục hình"
+  },
+  {
+    "word": "khuôn",
+    "topics": [
+      "arts"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Vật rỗng để đổ chất lỏng vào cho thành hình",
+    "shortClue": "Vật tạo hình"
+  },
+  {
+    "word": "kèn",
+    "topics": [
+      "arts"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Nhạc cụ thổi, có loa phình ở đầu",
+    "shortClue": "Nhạc cụ thổi"
+  },
+  {
+    "word": "chuông",
+    "topics": [
+      "arts"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Vật bằng đồng, rung lên thành tiếng ngân",
+    "shortClue": "Tiếng ngân"
+  },
+  {
+    "word": "rối",
+    "topics": [
+      "arts"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Hình nhỏ biểu diễn trên nước hay bằng dây",
+    "shortClue": "Hình nhỏ diễn"
+  },
+  {
+    "word": "vai",
+    "topics": [
+      "arts"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Phần của một người trong vở diễn",
+    "shortClue": "Phần diễn"
+  },
+  {
+    "word": "cảnh",
+    "topics": [
+      "arts"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Một đoạn nhỏ của vở kịch",
+    "shortClue": "Đoạn của vở"
+  },
+  {
+    "word": "bài",
+    "topics": [
+      "arts"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Một tác phẩm thơ hay nhạc ngắn",
+    "shortClue": "Tác phẩm ngắn"
+  },
+  {
+    "word": "ngâm",
+    "topics": [
+      "arts"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Đọc thơ thành điệu ngân nga",
+    "shortClue": "Đọc thơ ngân"
+  },
+  {
+    "word": "mái",
+    "topics": [
+      "home"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Phần phủ trên cùng của ngôi nhà, che mưa nắng",
+    "shortClue": "Che mưa nắng"
+  },
+  {
+    "word": "tường",
+    "topics": [
+      "home"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Bức xây bao quanh căn phòng",
+    "shortClue": "Bức xây"
+  },
+  {
+    "word": "sàn",
+    "topics": [
+      "home"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Mặt phẳng người ta bước đi trong phòng",
+    "shortClue": "Mặt để bước"
+  },
+  {
+    "word": "gạch",
+    "topics": [
+      "home"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Khối đất nung dùng để xây tường",
+    "shortClue": "Khối xây tường"
+  },
+  {
+    "word": "ngói",
+    "topics": [
+      "home"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Mảnh đất nung dùng lợp mái",
+    "shortClue": "Lợp mái"
+  },
+  {
+    "word": "cột",
+    "topics": [
+      "home"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Trụ đứng chống đỡ mái nhà",
+    "shortClue": "Trụ chống mái"
+  },
+  {
+    "word": "rèm",
+    "topics": [
+      "home"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Tấm vải che ô cửa",
+    "shortClue": "Che ô cửa"
+  },
+  {
+    "word": "thảm",
+    "topics": [
+      "home"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Tấm dệt trải sàn cho ấm",
+    "shortClue": "Trải sàn"
+  },
+  {
+    "word": "màn",
+    "topics": [
+      "home"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Tấm lưới mỏng chăng quanh giường tránh muỗi",
+    "shortClue": "Chống muỗi"
+  },
+  {
+    "word": "ngăn",
+    "topics": [
+      "home"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Hộc kéo ra kéo vào của bàn hay tủ",
+    "shortClue": "Hộc kéo"
+  },
+  {
+    "word": "chìa",
+    "topics": [
+      "home"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Vật nhỏ dùng để mở ổ khóa",
+    "shortClue": "Mở ổ khóa"
+  },
+  {
+    "word": "then",
+    "topics": [
+      "home"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Thanh gỗ cài ngang để chốt cánh cửa",
+    "shortClue": "Cài ngang cửa"
+  },
+  {
+    "word": "bậc",
+    "topics": [
+      "home"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Nấc đi lên ở cầu thang",
+    "shortClue": "Nấc đi lên"
+  },
+  {
+    "word": "thang",
+    "topics": [
+      "home"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Vật có nhiều nấc để leo lên cao",
+    "shortClue": "Nhiều nấc leo"
+  },
+  {
+    "word": "chảo",
+    "topics": [
+      "home"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Dụng cụ nông lòng để rán hay xào",
+    "shortClue": "Nông lòng"
+  },
+  {
+    "word": "xoong",
+    "topics": [
+      "home"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Nồi nhỏ có cán dài",
+    "shortClue": "Nồi cán dài"
+  },
+  {
+    "word": "chén",
+    "topics": [
+      "home"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Đồ nhỏ để uống trà hay ăn cơm",
+    "shortClue": "Đồ uống trà"
+  },
+  {
+    "word": "bát",
+    "topics": [
+      "home"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Đồ sứ tròn, lòng sâu, để đựng cơm",
+    "shortClue": "Đựng cơm"
+  },
+  {
+    "word": "đĩa",
+    "topics": [
+      "home"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Đồ tròn dẹt để bày thức ăn",
+    "shortClue": "Tròn dẹt"
+  },
+  {
+    "word": "thìa",
+    "topics": [
+      "home"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Dụng cụ nhỏ có cán để múc canh",
+    "shortClue": "Múc canh"
+  },
+  {
+    "word": "cốc",
+    "topics": [
+      "home"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Vật hình trụ để uống nước",
+    "shortClue": "Để uống nước"
+  },
+  {
+    "word": "bình",
+    "topics": [
+      "home"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Đồ đựng nước, có cổ nhỏ",
+    "shortClue": "Đồ đựng nước"
+  },
+  {
+    "word": "chậu",
+    "topics": [
+      "home"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Đồ rộng miệng để rửa mặt hay trồng cây",
+    "shortClue": "Rộng miệng"
+  },
+  {
+    "word": "kim",
+    "topics": [
+      "home"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Vật nhỏ nhọn có lỗ để xỏ chỉ",
+    "shortClue": "Xỏ chỉ"
+  },
+  {
+    "word": "chỉ",
+    "topics": [
+      "home"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Sợi nhỏ mảnh dùng để khâu vá",
+    "shortClue": "Sợi khâu vá"
+  },
+  {
+    "word": "len",
+    "topics": [
+      "home"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Sợi mềm lấy từ lông cừu",
+    "shortClue": "Sợi mềm"
+  },
+  {
+    "word": "quần",
+    "topics": [
+      "home"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Đồ mặc che hai chân",
+    "shortClue": "Đồ mặc chân"
+  },
+  {
+    "word": "váy",
+    "topics": [
+      "home"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Đồ mặc rộng che từ eo trở xuống",
+    "shortClue": "Đồ mặc rộng"
+  },
+  {
+    "word": "lược",
+    "topics": [
+      "home"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Dụng cụ có nhiều răng để chải tóc",
+    "shortClue": "Chải tóc"
+  },
+  {
+    "word": "ngõ",
+    "topics": [
+      "home"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Đường hẹp rẽ từ phố vào xóm",
+    "shortClue": "Đường hẹp"
+  },
+  {
+    "word": "chủ",
+    "topics": [
+      "professions"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Người sở hữu hay đứng đầu một cơ sở",
+    "shortClue": "Người sở hữu"
+  },
+  {
+    "word": "chài",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Lưới tròn có viền chì, quăng xuống nước để bắt cá",
+    "shortClue": "Lưới quăng"
+  },
+  {
+    "word": "lái",
+    "topics": [
+      "professions"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Điều khiển cho xe hay thuyền đi đúng hướng",
+    "shortClue": "Điều khiển xe"
+  },
+  {
+    "word": "cai",
+    "topics": [
+      "professions"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Người trông coi một nhóm thợ",
+    "shortClue": "Trông coi thợ"
+  },
+  {
+    "word": "trưởng",
+    "topics": [
+      "professions"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Người đứng đầu một nhóm hay đơn vị",
+    "shortClue": "Người đứng đầu"
+  },
+  {
+    "word": "phó",
+    "topics": [
+      "professions"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Cấp ngay dưới người đứng đầu",
+    "shortClue": "Cấp ngay dưới"
+  },
+  {
+    "word": "thư",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Giấy viết lời nhắn gửi cho người ở xa",
+    "shortClue": "Gửi người xa"
+  },
+  {
+    "word": "kép",
+    "topics": [
+      "professions"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Diễn viên nam trong tuồng hay chèo",
+    "shortClue": "Nam diễn viên"
+  },
+  {
+    "word": "đào",
+    "topics": [
+      "professions"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Diễn viên nữ trong tuồng hay chèo",
+    "shortClue": "Nữ diễn viên"
+  },
+  {
+    "word": "cày",
+    "topics": [
+      "professions"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Lật đất cho tơi để gieo hạt",
+    "shortClue": "Lật đất"
+  },
+  {
+    "word": "gặt",
+    "topics": [
+      "professions"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Cắt lúa chín về phơi",
+    "shortClue": "Cắt lúa chín"
+  },
+  {
+    "word": "cấy",
+    "topics": [
+      "professions"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Trồng mạ xuống ruộng",
+    "shortClue": "Trồng mạ"
+  },
+  {
+    "word": "gieo",
+    "topics": [
+      "professions"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Rải hạt xuống đất",
+    "shortClue": "Rải hạt"
+  },
+  {
+    "word": "khám",
+    "topics": [
+      "professions"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Xem xét người ốm để tìm ra bệnh",
+    "shortClue": "Xem người ốm"
+  },
+  {
+    "word": "chữa",
+    "topics": [
+      "professions"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Làm cho hết bệnh hay hết hỏng",
+    "shortClue": "Làm hết bệnh"
+  },
+  {
+    "word": "xây",
+    "topics": [
+      "professions"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Đặt gạch lên nhau để dựng nhà",
+    "shortClue": "Dựng nhà"
+  },
+  {
+    "word": "hàn",
+    "topics": [
+      "professions"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Nối hai miếng kim loại bằng sức nóng",
+    "shortClue": "Nối kim loại"
+  },
+  {
+    "word": "rèn",
+    "topics": [
+      "professions"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Nung sắt đỏ rồi đập thành đồ dùng",
+    "shortClue": "Đập sắt nóng"
+  },
+  {
+    "word": "thêu",
+    "topics": [
+      "professions"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Dùng kim chỉ để tạo hình trên vải",
+    "shortClue": "Tạo hình vải"
+  },
+  {
+    "word": "dệt",
+    "topics": [
+      "professions"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Đan các sợi thành tấm vải",
+    "shortClue": "Đan sợi"
+  },
+  {
+    "word": "gánh",
+    "topics": [
+      "professions"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Mang hàng trên hai đầu đòn",
+    "shortClue": "Mang trên vai"
+  },
+  {
+    "word": "săn",
+    "topics": [
+      "professions"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Đuổi bắt thú rừng để lấy thịt",
+    "shortClue": "Đuổi bắt thú"
+  },
+  {
+    "word": "chùa",
+    "topics": [
+      "localCulture"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Nơi thờ Phật, mái cong, đông người ngày rằm",
+    "shortClue": "Nơi thờ Phật"
+  },
+  {
+    "word": "đình",
+    "topics": [
+      "localCulture"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Ngôi nhà chung to của làng, mái lớn",
+    "shortClue": "Nhà chung làng"
+  },
+  {
+    "word": "mâm",
+    "topics": [
+      "localCulture"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Khay tròn lớn bày cơm cho cả nhà",
+    "shortClue": "Khay bày cơm"
+  },
+  {
+    "word": "hội",
+    "topics": [
+      "localCulture"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Cuộc vui đông người ở làng dịp xuân",
+    "shortClue": "Vui đông người"
+  },
+  {
+    "word": "chợ",
+    "topics": [
+      "localCulture"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Nơi mua bán ồn ào ở làng hay phố",
+    "shortClue": "Nơi mua bán"
+  },
+  {
+    "word": "quê",
+    "topics": [
+      "localCulture"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Nơi mình sinh ra và lớn lên",
+    "shortClue": "Nơi sinh ra"
+  },
+  {
+    "word": "xóm",
+    "topics": [
+      "localCulture"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Cụm nhà gần nhau trong làng",
+    "shortClue": "Cụm nhà gần"
+  },
+  {
+    "word": "trầu",
+    "topics": [
+      "localCulture"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Lá ăn kèm với cau, tục mời khách xưa",
+    "shortClue": "Lá mời khách"
+  },
+  {
+    "word": "cau",
+    "topics": [
+      "localCulture"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Quả tròn nhỏ, ăn cùng lá trầu",
+    "shortClue": "Quả ăn trầu"
+  },
+  {
+    "word": "giếng",
+    "topics": [
+      "localCulture"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Hố đào sâu lấy nước ở đầu làng",
+    "shortClue": "Hố lấy nước"
+  },
+  {
+    "word": "xẩm",
+    "topics": [
+      "localCulture"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Lối hát rong của người xưa, có đàn nhị đệm",
+    "shortClue": "Hát rong xưa"
+  },
+  {
+    "word": "dặm",
+    "topics": [
+      "history"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Đơn vị đo đường dài thời xưa",
+    "shortClue": "Đo đường xưa"
+  },
+  {
+    "word": "quất",
+    "topics": [
+      "localCulture"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Cây cảnh có quả vàng nhỏ, bày dịp Tết",
+    "shortClue": "Cây quả vàng"
+  },
+  {
+    "word": "mai",
+    "topics": [
+      "localCulture"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Hoa vàng nở rộ ngày xuân ở phương Nam",
+    "shortClue": "Hoa vàng xuân"
+  },
+  {
+    "word": "ghe",
+    "topics": [
+      "localCulture"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Thuyền nhỏ ở miền Tây",
+    "shortClue": "Thuyền miền Tây"
+  },
+  {
+    "word": "xuồng",
+    "topics": [
+      "localCulture"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Thuyền nhỏ chở người ở vùng sông nước Nam Bộ",
+    "shortClue": "Thuyền nhỏ"
+  },
+  {
+    "word": "lụa",
+    "topics": [
+      "localCulture"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Vải mềm óng ánh dệt từ tơ tằm",
+    "shortClue": "Vải óng ánh"
+  },
+  {
+    "word": "tét",
+    "topics": [
+      "localCulture"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Bánh gói dài của miền Nam dịp Tết",
+    "shortClue": "Bánh gói dài"
+  },
+  {
+    "word": "Tấm",
+    "topics": [
+      "localCulture"
+    ],
+    "difficulty": 2,
+    "kind": "proper",
+    "clue": "Cô gái hiền trong truyện cổ, nhờ Bụt giúp đỡ",
+    "shortClue": "Cô gái hiền"
+  },
+  {
+    "word": "Cám",
+    "topics": [
+      "localCulture"
+    ],
+    "difficulty": 2,
+    "kind": "proper",
+    "clue": "Người em ghẻ ác, hay hãm hại chị trong truyện cổ",
+    "shortClue": "Em ghẻ ác"
+  },
+  {
+    "word": "Cuội",
+    "topics": [
+      "localCulture"
+    ],
+    "difficulty": 2,
+    "kind": "proper",
+    "clue": "Chú bé ngồi gốc cây đa trên cung trăng theo truyện xưa",
+    "shortClue": "Chú trên trăng"
+  },
+  {
+    "word": "Bống",
+    "topics": [
+      "localCulture"
+    ],
+    "difficulty": 2,
+    "kind": "proper",
+    "clue": "Con cá nhỏ trong bài ca dao, hay được cô bé cho ăn",
+    "shortClue": "Cá ca dao"
+  },
+  {
+    "word": "Bụt",
+    "topics": [
+      "localCulture"
+    ],
+    "difficulty": 2,
+    "kind": "proper",
+    "clue": "Ông tiên hiền trong truyện cổ, hay hiện ra giúp người khổ",
+    "shortClue": "Ông tiên hiền"
+  },
+  {
+    "word": "Hùng",
+    "topics": [
+      "localCulture"
+    ],
+    "difficulty": 2,
+    "kind": "proper",
+    "clue": "Danh hiệu các vua dựng nước Văn Lang theo truyền thuyết",
+    "shortClue": "Vua Văn Lang"
+  },
+  {
+    "word": "ngẫm",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Nghĩ kỹ, suy xét thật lâu",
+    "shortClue": "Nghĩ kỹ"
+  },
+  {
+    "word": "thẳm",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Sâu hun hút, nhìn không thấy đáy",
+    "shortClue": "Sâu hun hút"
+  },
+  {
+    "word": "ngời",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Sáng rực lên, lấp lánh",
+    "shortClue": "Sáng rực"
+  },
+  {
+    "word": "mịt",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Mờ tối, chẳng nhìn thấy gì xa",
+    "shortClue": "Mờ tối"
+  },
+  {
+    "word": "nghiêng",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Không đứng thẳng, hơi lệch về một phía",
+    "shortClue": "Hơi lệch"
+  },
+  {
+    "word": "khuyên",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Nói điều hay lẽ phải để người ta nghe theo",
+    "shortClue": "Bảo điều hay"
+  },
+  {
+    "word": "xuyên",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Đi suốt từ bên này sang bên kia",
+    "shortClue": "Đi suốt qua"
+  },
+  {
+    "word": "nguyện",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Mong muốn và hứa sẽ thực hiện",
+    "shortClue": "Mong và hứa"
+  },
+  {
+    "word": "đượm",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Thấm sâu, nồng nàn",
+    "shortClue": "Thấm sâu"
+  },
+  {
+    "word": "nguồn",
+    "topics": [
+      "nature"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Chỗ dòng sông bắt đầu chảy",
+    "shortClue": "Đầu dòng sông"
+  },
+  {
+    "word": "hiên",
+    "topics": [
+      "home"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Phần mái đua ra phía trước nhà",
+    "shortClue": "Mái trước nhà"
+  },
+  {
+    "word": "thềm",
+    "topics": [
+      "home"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Nền cao ngay trước cửa nhà",
+    "shortClue": "Nền trước cửa"
+  },
+  {
+    "word": "kèo",
+    "topics": [
+      "home"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Thanh gỗ nghiêng chống đỡ mái",
+    "shortClue": "Gỗ chống mái"
+  },
+  {
+    "word": "ống",
+    "topics": [
+      "home"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Vật rỗng dài để dẫn nước hay khói",
+    "shortClue": "Vật rỗng dài"
+  },
+  {
+    "word": "yên",
+    "topics": [
+      "home"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Chỗ ngồi đặt trên lưng ngựa hay xe đạp",
+    "shortClue": "Chỗ ngồi"
+  },
+  {
+    "word": "yếm",
+    "topics": [
+      "home"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Mảnh vải che ngực của phụ nữ xưa",
+    "shortClue": "Vải che ngực"
+  },
+  {
+    "word": "quạt",
+    "topics": [
+      "home"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Đồ phe phẩy để có gió mát",
+    "shortClue": "Làm mát"
+  },
+  {
+    "word": "rương",
+    "topics": [
+      "home"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Hòm lớn, nắp phẳng, đựng đồ",
+    "shortClue": "Hòm đựng đồ"
+  },
+  {
+    "word": "vườn",
+    "topics": [
+      "home"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Mảnh đất trồng cây quanh nhà",
+    "shortClue": "Đất trồng cây"
+  },
+  {
+    "word": "vách",
+    "topics": [
+      "home"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Tấm ngăn dựng thay cho bức tường",
+    "shortClue": "Tấm ngăn"
+  },
+  {
+    "word": "rạp",
+    "topics": [
+      "arts"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Nơi chiếu phim hay diễn kịch",
+    "shortClue": "Nơi chiếu phim"
+  },
+  {
+    "word": "ảnh",
+    "topics": [
+      "arts"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Hình chụp bằng máy",
+    "shortClue": "Hình chụp máy"
+  },
+  {
+    "word": "hạch",
+    "topics": [
+      "science"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Khối nhỏ ở cổ hay nách, thuộc hệ miễn dịch",
+    "shortClue": "Khối ở nách"
+  },
+  {
+    "word": "thuyết",
+    "topics": [
+      "science"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Hệ thống ý kiến giải thích một điều",
+    "shortClue": "Hệ ý kiến"
+  },
+  {
+    "word": "ánh",
+    "topics": [
+      "science"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Tia sáng chiếu ra từ vật sáng",
+    "shortClue": "Tia sáng"
+  },
+  {
+    "word": "quả",
+    "topics": [
+      "nature"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Phần mọc ra từ hoa, chứa hạt",
+    "shortClue": "Chứa hạt"
+  },
+  {
+    "word": "xanh",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Màu của lá khi còn tươi",
+    "shortClue": "Màu lá tươi"
+  },
+  {
+    "word": "xám",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Màu pha giữa đen và trắng",
+    "shortClue": "Giữa đen trắng"
+  },
+  {
+    "word": "xinh",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Nhỏ nhắn, dễ thương",
+    "shortClue": "Nhỏ nhắn"
+  },
+  {
+    "word": "quý",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Có giá trị cao, đáng trân trọng",
+    "shortClue": "Giá trị cao"
+  },
+  {
+    "word": "quà",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Món tặng cho người thân",
+    "shortClue": "Món tặng"
+  },
+  {
+    "word": "rạng",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Lúc trời vừa hửng sáng",
+    "shortClue": "Hửng sáng"
+  },
+  {
+    "word": "rực",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Đỏ chói, sáng mạnh",
+    "shortClue": "Đỏ chói"
+  },
+  {
+    "word": "vệt",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Dải nhỏ dài do vật kéo lê để lại",
+    "shortClue": "Dải nhỏ dài"
+  },
+  {
+    "word": "ông",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Bậc nam cao tuổi trong nhà",
+    "shortClue": "Người cao tuổi"
+  }
+]
