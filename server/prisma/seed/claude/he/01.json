@@ -1,0 +1,5002 @@
+[
+  {
+    "word": "אושר",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "תחושת הנאה עמוקה ושלמה בחיים",
+    "shortClue": "הנאה עמוקה"
+  },
+  {
+    "word": "כעס",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "רגש חם של מי שנפגע ואיבד סבלנות",
+    "shortClue": "רגש חם"
+  },
+  {
+    "word": "פחד",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "רגש של מי שחושש מסכנה",
+    "shortClue": "רגש חושש"
+  },
+  {
+    "word": "אהבה",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "רגש חם וקרוב בין בני אדם",
+    "shortClue": "רגש קרוב"
+  },
+  {
+    "word": "קנאה",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "רגש של מי שרוצה את מה שיש לאחר",
+    "shortClue": "רצון במה שלאחר"
+  },
+  {
+    "word": "עצב",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "רגש של מי שלבו כבד",
+    "shortClue": "רגש כבד"
+  },
+  {
+    "word": "גאווה",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "הרגשה טובה על הישג שלנו או של קרובינו",
+    "shortClue": "הרגשה על הישג"
+  },
+  {
+    "word": "בושה",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "רגש לא נעים אחרי מעשה לא יפה",
+    "shortClue": "רגש לא נעים"
+  },
+  {
+    "word": "הפתעה",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "דבר שלא ציפינו לו, ולרוב הוא מתוק",
+    "shortClue": "דבר לא צפוי"
+  },
+  {
+    "word": "כבוד",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "יחס של הערכה כלפי אדם",
+    "shortClue": "הערכה לאדם"
+  },
+  {
+    "word": "אמון",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "תחושה שאפשר לסמוך על מישהו",
+    "shortClue": "סומכים על מישהו"
+  },
+  {
+    "word": "חרטה",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "צער על מעשה שהיינו רוצים לבטל",
+    "shortClue": "צער על מעשה"
+  },
+  {
+    "word": "ציפייה",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "המתנה מלאת תקווה למה שיבוא",
+    "shortClue": "המתנה לבאות"
+  },
+  {
+    "word": "געגוע",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "רצון עז לראות מי שרחוק מאיתנו",
+    "shortClue": "רצון לראות"
+  },
+  {
+    "word": "בדידות",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "מצב של אדם בלי חברה סביבו",
+    "shortClue": "מצב בלי חברה"
+  },
+  {
+    "word": "חמלה",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "רגש רך כלפי מי שסובל",
+    "shortClue": "רחמים"
+  },
+  {
+    "word": "ענווה",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "תכונה של מי שאינו מתנשא",
+    "shortClue": "תכונת הצנוע"
+  },
+  {
+    "word": "נדיבות",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "נטייה לתת לאחרים בעין יפה",
+    "shortClue": "נתינה בעין יפה"
+  },
+  {
+    "word": "עקשנות",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "סירוב לשנות דעה או כיוון",
+    "shortClue": "סירוב לוותר"
+  },
+  {
+    "word": "חוכמה",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "תכונת מי שמבין היטב ושופט נכון",
+    "shortClue": "שכל וידיעה"
+  },
+  {
+    "word": "שקר",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "דבר שנאמר בניגוד לאמת",
+    "shortClue": "הפך האמת"
+  },
+  {
+    "word": "יושר",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "תכונה של אדם שאינו מרמה",
+    "shortClue": "הוגנות"
+  },
+  {
+    "word": "נאמנות",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "תכונה של מי שלא בוגד בחבריו",
+    "shortClue": "לא בוגדים בחברים"
+  },
+  {
+    "word": "רוגע",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "מצב של שלווה ללא דאגה",
+    "shortClue": "שלווה"
+  },
+  {
+    "word": "מתח",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "מצב של דריכות לפני אירוע חשוב",
+    "shortClue": "דריכות"
+  },
+  {
+    "word": "עייפות",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "מצב של מי שצריך לישון",
+    "shortClue": "רצון לישון"
+  },
+  {
+    "word": "צמא",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "הרגשה של מי שרוצה לשתות",
+    "shortClue": "רצון לשתות"
+  },
+  {
+    "word": "שינה",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "מצב של מנוחה בלילה בעיניים עצומות",
+    "shortClue": "מנוחת לילה"
+  },
+  {
+    "word": "חלום",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "תמונות שרואים בלילה בראש",
+    "shortClue": "תמונות בלילה"
+  },
+  {
+    "word": "מחשבה",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "מה שעובר בראש של אדם",
+    "shortClue": "מה שעובר בראש"
+  },
+  {
+    "word": "רעיון",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "מחשבה חדשה שצצה בראש",
+    "shortClue": "הברקה"
+  },
+  {
+    "word": "זכות",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "מה שמגיע לאדם על פי כללים הוגנים",
+    "shortClue": "מה שמגיע לך"
+  },
+  {
+    "word": "חובה",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "משימה שאין ברירה אלא לבצע",
+    "shortClue": "דבר הכרחי"
+  },
+  {
+    "word": "בחירה",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "הכרעה בין כמה אפשרויות",
+    "shortClue": "הכרעה בין דרכים"
+  },
+  {
+    "word": "החלטה",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "מסקנה שבה בוחרים דרך פעולה",
+    "shortClue": "מסקנה לפעולה"
+  },
+  {
+    "word": "הצלחה",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "השגת מטרה כפי שרצינו",
+    "shortClue": "השגת מטרה"
+  },
+  {
+    "word": "כישלון",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "תוצאה של ניסיון שלא עלה יפה",
+    "shortClue": "ניסיון לא מוצלח"
+  },
+  {
+    "word": "ניסיון",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "פעולה שנועדה לבדוק אם משהו אפשרי",
+    "shortClue": "פעולת בדיקה"
+  },
+  {
+    "word": "מזל",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "מה שאומרים שגורם להצלחה בלי מאמץ",
+    "shortClue": "הצלחה מקרית"
+  },
+  {
+    "word": "סכנה",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "מצב שאפשר להיפגע בו",
+    "shortClue": "מצב מאיים"
+  },
+  {
+    "word": "פתרון",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "התשובה לבעיה או לחידה",
+    "shortClue": "מענה לבעיה"
+  },
+  {
+    "word": "שאלה",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "משפט שמבקש תשובה",
+    "shortClue": "בקשת מידע"
+  },
+  {
+    "word": "תשובה",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "מה שאומרים למי ששואל",
+    "shortClue": "מענה לשואל"
+  },
+  {
+    "word": "סיבה",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "הגורם שבגללו קרה דבר",
+    "shortClue": "הגורם למשהו"
+  },
+  {
+    "word": "תוצאה",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "מה שנובע ממעשה או מאירוע",
+    "shortClue": "מה שנובע"
+  },
+  {
+    "word": "התחלה",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "הנקודה הראשונה בציר הזמן",
+    "shortClue": "נקודת הפתיחה"
+  },
+  {
+    "word": "אמצע",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "הנקודה שרחוקה באותה מידה משני הקצוות",
+    "shortClue": "מרכז"
+  },
+  {
+    "word": "רגע",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "פרק זמן קצר מאוד",
+    "shortClue": "זמן קצר"
+  },
+  {
+    "word": "שנייה",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "יחידת זמן קטנה מדקה",
+    "shortClue": "יחידת זמן"
+  },
+  {
+    "word": "שבוע",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "פרק זמן מיום ראשון עד שבת",
+    "shortClue": "ראשון עד שבת"
+  },
+  {
+    "word": "שנה",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "פרק של ארבע עונות",
+    "shortClue": "ארבע עונות"
+  },
+  {
+    "word": "בוקר",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "שעות היום הראשונות אחרי הזריחה",
+    "shortClue": "תחילת היום"
+  },
+  {
+    "word": "לילה",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "הזמן שבו חשוך בחוץ",
+    "shortClue": "זמן החושך"
+  },
+  {
+    "word": "עבר",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "הזמן שכבר חלף",
+    "shortClue": "זמן שחלף"
+  },
+  {
+    "word": "עתיד",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "הזמן שעוד לא הגיע",
+    "shortClue": "זמן שיבוא"
+  },
+  {
+    "word": "תור",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "שורה של אנשים שממתינים",
+    "shortClue": "שורת ממתינים"
+  },
+  {
+    "word": "כיוון",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "הצד שאליו פונים או הולכים",
+    "shortClue": "הצד שפונים אליו"
+  },
+  {
+    "word": "דרך",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "נתיב שעוברים בו ממקום למקום",
+    "shortClue": "נתיב"
+  },
+  {
+    "word": "מסע",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "נסיעה ארוכה לארצות רחוקות",
+    "shortClue": "נסיעה ארוכה"
+  },
+  {
+    "word": "טיול",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "הליכה או נסיעה להנאה",
+    "shortClue": "יציאה להנאה"
+  },
+  {
+    "word": "פער",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "רווח או הבדל בין שני דברים",
+    "shortClue": "רווח בין דברים"
+  },
+  {
+    "word": "קרבה",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "מצב של מרחק קטן בין שני דברים",
+    "shortClue": "מרחק קטן"
+  },
+  {
+    "word": "משקל",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "מידת כבדותו של דבר",
+    "shortClue": "מידת הכובד"
+  },
+  {
+    "word": "גובה",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "המרחק מן הקרקע כלפי מעלה",
+    "shortClue": "מרחק מהקרקע"
+  },
+  {
+    "word": "מספר",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "ערך כמותי כמו שבע או תשע",
+    "shortClue": "ערך כמותי"
+  },
+  {
+    "word": "קבוצה",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "כמה אנשים או דברים שנמצאים יחד",
+    "shortClue": "אנשים יחד"
+  },
+  {
+    "word": "אור",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "מה שמאיר את החדר ביום",
+    "shortClue": "מאיר ביום"
+  },
+  {
+    "word": "קול",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "מה ששומעים כשמישהו מדבר",
+    "shortClue": "מה ששומעים"
+  },
+  {
+    "word": "רעש",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "צליל חזק ומפריע",
+    "shortClue": "צליל מפריע"
+  },
+  {
+    "word": "מגע",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "חוש שמרגישים בעזרת העור",
+    "shortClue": "חוש העור"
+  },
+  {
+    "word": "שכן",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "מי שגר בדירה או בבית לידנו",
+    "shortClue": "גר לידנו"
+  },
+  {
+    "word": "חבר",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "מי שקרוב אלינו בלב ובמעשים",
+    "shortClue": "איש קרוב"
+  },
+  {
+    "word": "אורח",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "מי שבא לבקר בביתנו",
+    "shortClue": "בא לבקר"
+  },
+  {
+    "word": "ילד",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "בן אדם צעיר מאוד",
+    "shortClue": "בן אדם צעיר"
+  },
+  {
+    "word": "תינוק",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "ילד בן כמה חודשים",
+    "shortClue": "ילד קטנטן"
+  },
+  {
+    "word": "נער",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "בן שבין ילד לבוגר",
+    "shortClue": "בין ילד לבוגר"
+  },
+  {
+    "word": "זקן",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "אדם בגיל מתקדם מאוד",
+    "shortClue": "אדם מבוגר"
+  },
+  {
+    "word": "אבא",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "ההורה הזכר",
+    "shortClue": "הורה זכר"
+  },
+  {
+    "word": "אמא",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "ההורה הנקבה",
+    "shortClue": "הורה נקבה"
+  },
+  {
+    "word": "סבתא",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "אמא של אחד ההורים",
+    "shortClue": "אם ההורה"
+  },
+  {
+    "word": "עיפרון",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "כלי כתיבה מעץ ועופרת",
+    "shortClue": "כלי כתיבה"
+  },
+  {
+    "word": "מחק",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "גומי להעלמת טעויות בכתב",
+    "shortClue": "גומי לטעויות"
+  },
+  {
+    "word": "לוח",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "משטח שכותבים עליו בכיתה",
+    "shortClue": "משטח לכתיבה"
+  },
+  {
+    "word": "שיעור",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "פרק של הוראה בבית הספר",
+    "shortClue": "פרק בכיתה"
+  },
+  {
+    "word": "מבחן",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "בדיקת ידע בכתב",
+    "shortClue": "בדיקת ידע"
+  },
+  {
+    "word": "ציון",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "מספר שהמורה נותן על עבודה",
+    "shortClue": "מספר מהמורה"
+  },
+  {
+    "word": "הפסקה",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "רגע של מנוחה בין שיעורים",
+    "shortClue": "מנוחה בין שיעורים"
+  },
+  {
+    "word": "חופשה",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "ימים ללא עבודה או לימודים",
+    "shortClue": "ימי מנוחה"
+  },
+  {
+    "word": "מתנה",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "חפץ שנותנים בשמחה ליום הולדת",
+    "shortClue": "חפץ ליום הולדת"
+  },
+  {
+    "word": "מסיבה",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "התכנסות שמחה עם מוזיקה וכיבוד",
+    "shortClue": "התכנסות שמחה"
+  },
+  {
+    "word": "תודה",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "מילת הכרת טובה",
+    "shortClue": "הכרת טובה"
+  },
+  {
+    "word": "סליחה",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "בקשה שאומרים אחרי טעות",
+    "shortClue": "בקשה אחרי טעות"
+  },
+  {
+    "word": "בקשה",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "פנייה בנימוס כדי לקבל דבר",
+    "shortClue": "פנייה בנימוס"
+  },
+  {
+    "word": "הזמנה",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "פנייה לבוא לאירוע",
+    "shortClue": "פנייה לאירוע"
+  },
+  {
+    "word": "ברכה",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "איחול טוב לחג או ליום הולדת",
+    "shortClue": "איחול טוב"
+  },
+  {
+    "word": "סיפור",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "תיאור של אירועים, בדוי או אמיתי",
+    "shortClue": "תיאור אירועים"
+  },
+  {
+    "word": "אחריות",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "חובה לדאוג למשהו ולענות על תוצאותיו",
+    "shortClue": "נשיאה בתוצאות"
+  },
+  {
+    "word": "כוח",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "עוצמה גופנית או נפשית",
+    "shortClue": "עוצמה"
+  },
+  {
+    "word": "מהירות",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "קצב התקדמות של דבר",
+    "shortClue": "קצב התקדמות"
+  },
+  {
+    "word": "הרגל",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "פעולה שחוזרים עליה שוב ושוב",
+    "shortClue": "פעולה קבועה"
+  },
+  {
+    "word": "תחביב",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "עיסוק שעושים בשעות הפנאי בהנאה",
+    "shortClue": "עיסוק לפנאי"
+  },
+  {
+    "word": "תכנית",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "סדר פעולות שמחליטים עליו מראש",
+    "shortClue": "סדר פעולות"
+  },
+  {
+    "word": "פגישה",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "מפגש שנקבע בין שני אנשים",
+    "shortClue": "מפגש מתואם"
+  },
+  {
+    "word": "שיחה",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "דברים שאנשים אומרים זה לזה",
+    "shortClue": "דיבור בין שניים"
+  },
+  {
+    "word": "שמועה",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "ידיעה שעוברת מפה לאוזן בלי הוכחה",
+    "shortClue": "ידיעה בלי הוכחה"
+  },
+  {
+    "word": "שתיקה",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "מצב שבו לא מוציאים מילה מהפה",
+    "shortClue": "אין מילים"
+  },
+  {
+    "word": "מחמאה",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "דברי שבח לאדם",
+    "shortClue": "דברי שבח"
+  },
+  {
+    "word": "ויכוח",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "חילופי דעות חריפים בין אנשים",
+    "shortClue": "חילוף דעות"
+  },
+  {
+    "word": "הבטחה",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "התחייבות לעשות דבר בעתיד",
+    "shortClue": "התחייבות"
+  },
+  {
+    "word": "איחור",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "הגעה אחרי הזמן שנקבע",
+    "shortClue": "בא אחרי הזמן"
+  },
+  {
+    "word": "זהירות",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "תשומת לב כדי לא להיפגע",
+    "shortClue": "תשומת לב"
+  },
+  {
+    "word": "עצלות",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "חוסר רצון לעשות מאמץ",
+    "shortClue": "חוסר רצון"
+  },
+  {
+    "word": "חריצות",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "התמדה בעבודה ובלימוד",
+    "shortClue": "התמדה בעבודה"
+  },
+  {
+    "word": "סקרנות",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "רצון לדעת ולגלות דברים חדשים",
+    "shortClue": "רצון לדעת"
+  },
+  {
+    "word": "רווח",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "הכסף שנשאר אחרי ההוצאות",
+    "shortClue": "הכנסה נטו"
+  },
+  {
+    "word": "עונש",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "מה שמקבל מי שעבר על הכללים",
+    "shortClue": "מחיר המעשה"
+  },
+  {
+    "word": "פרס",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "מה שמקבל המנצח או המצטיין",
+    "shortClue": "מתנה למנצח"
+  },
+  {
+    "word": "אפשרות",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "דרך שאפשר לבחור בה",
+    "shortClue": "דרך לבחירה"
+  },
+  {
+    "word": "הזדמנות",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "רגע נוח לעשות דבר חשוב",
+    "shortClue": "רגע נוח"
+  },
+  {
+    "word": "צורך",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "דבר שחסר ושמרגישים שחייבים אותו",
+    "shortClue": "דבר חסר"
+  },
+  {
+    "word": "רצון",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "מה שמבקשים בלב",
+    "shortClue": "משאלת הלב"
+  },
+  {
+    "word": "יתרון",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "מה שמעמיד אחד מעל השני",
+    "shortClue": "עדיפות"
+  },
+  {
+    "word": "דוגמה",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "מקרה שמראה כלל או רעיון",
+    "shortClue": "מקרה להמחשה"
+  },
+  {
+    "word": "כלל",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "הנחיה שפועלים לפיה",
+    "shortClue": "הנחיה קבועה"
+  },
+  {
+    "word": "חריג",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "מה שאינו מתאים לכלל הרגיל",
+    "shortClue": "יוצא מן הכלל"
+  },
+  {
+    "word": "סדר",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "מצב שבו כל דבר במקומו",
+    "shortClue": "הכול במקומו"
+  },
+  {
+    "word": "בלגן",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "מצב של בלבול ואי סדר",
+    "shortClue": "אי סדר"
+  },
+  {
+    "word": "שגרה",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "סדר קבוע של ימי השבוע",
+    "shortClue": "סדר קבוע"
+  },
+  {
+    "word": "חידוש",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "דבר שלא היה קיים קודם",
+    "shortClue": "דבר חדש"
+  },
+  {
+    "word": "תחבולה",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "דרך ערמומית להשיג מטרה",
+    "shortClue": "דרך ערמומית"
+  },
+  {
+    "word": "מבוכה",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "רגש של אי נעימות לפני אנשים",
+    "shortClue": "אי נעימות"
+  },
+  {
+    "word": "התלהבות",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "שמחה גדולה והתרגשות לקראת משהו",
+    "shortClue": "שמחה גדולה"
+  },
+  {
+    "word": "שעמום",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "מצב של מי שאין לו מה לעשות",
+    "shortClue": "אין מה לעשות"
+  },
+  {
+    "word": "ברוש",
+    "topics": [
+      "nature"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "עץ גבוה וצר, ירוק כל השנה",
+    "shortClue": "עץ גבוה וצר"
+  },
+  {
+    "word": "אלון",
+    "topics": [
+      "nature"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "עץ חורש עם פרי בשם בלוט",
+    "shortClue": "עץ הבלוט"
+  },
+  {
+    "word": "אורן",
+    "topics": [
+      "nature"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "עץ מחטים עם אצטרובלים",
+    "shortClue": "עץ אצטרובלים"
+  },
+  {
+    "word": "חרוב",
+    "topics": [
+      "nature"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "עץ ים תיכוני עם תרמילים חומים ומתוקים",
+    "shortClue": "עץ תרמילים"
+  },
+  {
+    "word": "שיבולת",
+    "topics": [
+      "nature"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "קצה הגבעול של חיטה ושעורה, עם גרגרים",
+    "shortClue": "ראש החיטה"
+  },
+  {
+    "word": "כלנית",
+    "topics": [
+      "nature"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "פרח אדום שפורח בחורף",
+    "shortClue": "פרח חורף אדום"
+  },
+  {
+    "word": "רקפת",
+    "topics": [
+      "nature"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "פרח חורף עם עלים עגולים בין הסלעים",
+    "shortClue": "פרח הסלעים"
+  },
+  {
+    "word": "נרקיס",
+    "topics": [
+      "nature"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "פרח לבן וריחני שפורח בחורף",
+    "shortClue": "פרח לבן ריחני"
+  },
+  {
+    "word": "סביון",
+    "topics": [
+      "nature"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "פרח צהוב שהופך לכדור של פלומה",
+    "shortClue": "פרח צהוב"
+  },
+  {
+    "word": "צבעוני",
+    "topics": [
+      "nature"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "פרח בצורת גביע בצבעים רבים",
+    "shortClue": "פרח בצורת גביע"
+  },
+  {
+    "word": "אזוב",
+    "topics": [
+      "nature"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "צמח קטן שגדל בין סדקי קירות",
+    "shortClue": "צמח הקירות"
+  },
+  {
+    "word": "ענן",
+    "topics": [
+      "nature"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "אדי מים לבנים או אפורים בשמיים",
+    "shortClue": "לבן בשמיים"
+  },
+  {
+    "word": "ברק",
+    "topics": [
+      "nature"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "הבזק אור חזק בשמי סערה",
+    "shortClue": "הבזק בשמיים"
+  },
+  {
+    "word": "רעם",
+    "topics": [
+      "nature"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "קול חזק שבא אחרי הבזק בשמיים",
+    "shortClue": "קול בשמיים"
+  },
+  {
+    "word": "כפור",
+    "topics": [
+      "nature"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "שכבת קרח דקה על הקרקע בבוקר קר",
+    "shortClue": "קרח בבוקר"
+  },
+  {
+    "word": "גאות",
+    "topics": [
+      "nature"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "עלייה של מפלס הים מדי יום",
+    "shortClue": "עליית הים"
+  },
+  {
+    "word": "שפל",
+    "topics": [
+      "nature"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "ירידה של מפלס הים מדי יום",
+    "shortClue": "ירידת הים"
+  },
+  {
+    "word": "חול",
+    "topics": [
+      "nature"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "גרגרים קטנים שמכסים חוף ומדבר",
+    "shortClue": "גרגרי חוף"
+  },
+  {
+    "word": "סלע",
+    "topics": [
+      "nature"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "גוש קשה של אבן גדולה",
+    "shortClue": "אבן גדולה"
+  },
+  {
+    "word": "צוק",
+    "topics": [
+      "nature"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "קיר סלע תלול מעל הים",
+    "shortClue": "קיר סלע"
+  },
+  {
+    "word": "מעיין",
+    "topics": [
+      "nature"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "מקום שבו מים יוצאים מן האדמה",
+    "shortClue": "מים מן האדמה"
+  },
+  {
+    "word": "מפל",
+    "topics": [
+      "nature"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "מים שנופלים מגובה סלע",
+    "shortClue": "מים נופלים"
+  },
+  {
+    "word": "זריחה",
+    "topics": [
+      "nature"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "הרגע שבו השמש עולה בבוקר",
+    "shortClue": "עליית השמש"
+  },
+  {
+    "word": "שקיעה",
+    "topics": [
+      "nature"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "הרגע שבו השמש יורדת בערב",
+    "shortClue": "ירידת השמש"
+  },
+  {
+    "word": "ירח",
+    "topics": [
+      "nature"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "גוף מואר שמקיף את כדור הארץ בלילה",
+    "shortClue": "גוף לילי מואר"
+  },
+  {
+    "word": "דימדומים",
+    "topics": [
+      "nature"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "שעת אור קלוש אחרי השקיעה",
+    "shortClue": "אור קלוש"
+  },
+  {
+    "word": "ענף",
+    "topics": [
+      "nature"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "זרוע של עץ שיוצאת מהגזע",
+    "shortClue": "זרוע העץ"
+  },
+  {
+    "word": "שורש",
+    "topics": [
+      "nature"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "חלק של צמח שמתחת לאדמה",
+    "shortClue": "חלק תת קרקעי"
+  },
+  {
+    "word": "גזע",
+    "topics": [
+      "nature"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "החלק העבה והקשיח של עץ",
+    "shortClue": "עמוד העץ"
+  },
+  {
+    "word": "זרע",
+    "topics": [
+      "nature"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "גרעין קטן שממנו צומח צמח",
+    "shortClue": "גרעין צמח"
+  },
+  {
+    "word": "ניצן",
+    "topics": [
+      "nature"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "פרח שעוד לא נפתח",
+    "shortClue": "פרח סגור"
+  },
+  {
+    "word": "סתיו",
+    "topics": [
+      "nature"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "עונה שבה העלים נושרים",
+    "shortClue": "עונת הנשירה"
+  },
+  {
+    "word": "אביב",
+    "topics": [
+      "nature"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "עונה שבה הפרחים פורחים אחרי החורף",
+    "shortClue": "עונת הפריחה"
+  },
+  {
+    "word": "חורף",
+    "topics": [
+      "nature"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "עונת הגשמים והקור",
+    "shortClue": "עונת הגשמים"
+  },
+  {
+    "word": "ארנב",
+    "topics": [
+      "animals"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "חיה עם אוזניים ארוכות שקופצת",
+    "shortClue": "אוזניים ארוכות"
+  },
+  {
+    "word": "צבי",
+    "topics": [
+      "animals"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "יונק רזה וזריז עם קרניים",
+    "shortClue": "יונק זריז"
+  },
+  {
+    "word": "יעל",
+    "topics": [
+      "animals"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "עז הרים עם קרניים מעוקלות",
+    "shortClue": "עז ההרים"
+  },
+  {
+    "word": "נמר",
+    "topics": [
+      "animals"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "חתול גדול וצהוב עם כתמים",
+    "shortClue": "חתול מנומר"
+  },
+  {
+    "word": "אריה",
+    "topics": [
+      "animals"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "חתול גדול עם רעמה, מלך החיות",
+    "shortClue": "מלך החיות"
+  },
+  {
+    "word": "פיל",
+    "topics": [
+      "animals"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "בעל חיים ענק עם חדק ושנהב",
+    "shortClue": "בעל חדק"
+  },
+  {
+    "word": "זברה",
+    "topics": [
+      "animals"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "סוס פראי עם פסים בשחור ולבן",
+    "shortClue": "חיה מפוספסת"
+  },
+  {
+    "word": "קוף",
+    "topics": [
+      "animals"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "יונק שמטפס על עצים ודומה לאדם",
+    "shortClue": "יונק מטפס"
+  },
+  {
+    "word": "קנגורו",
+    "topics": [
+      "animals"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "יונק קופץ שנושא גור בכיס",
+    "shortClue": "קופץ עם כיס"
+  },
+  {
+    "word": "פינגווין",
+    "topics": [
+      "animals"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "עוף שאינו עף, חי בקור ושוחה",
+    "shortClue": "עוף הקרח"
+  },
+  {
+    "word": "דולפין",
+    "topics": [
+      "animals"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "יונק ים חכם שמדלג בגלים",
+    "shortClue": "יונק ים חכם"
+  },
+  {
+    "word": "לווייתן",
+    "topics": [
+      "animals"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "היונק הגדול ביותר, חי באוקיינוס",
+    "shortClue": "ענק הים"
+  },
+  {
+    "word": "כריש",
+    "topics": [
+      "animals"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "דג טורף גדול עם סנפיר מעל המים",
+    "shortClue": "דג טורף"
+  },
+  {
+    "word": "תמנון",
+    "topics": [
+      "animals"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "יצור ים עם שמונה זרועות",
+    "shortClue": "שמונה זרועות"
+  },
+  {
+    "word": "סרטן",
+    "topics": [
+      "animals"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "בעל חיים ימי עם צבתות",
+    "shortClue": "בעל צבתות"
+  },
+  {
+    "word": "נחש",
+    "topics": [
+      "animals"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "זוחל ארוך בלי רגליים",
+    "shortClue": "זוחל ארוך"
+  },
+  {
+    "word": "לטאה",
+    "topics": [
+      "animals"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "זוחל קטן ומהיר על קירות וסלעים",
+    "shortClue": "זוחל מהיר"
+  },
+  {
+    "word": "תנין",
+    "topics": [
+      "animals"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "זוחל ענק עם לסת חזקה בנהרות חמים",
+    "shortClue": "זוחל הנהרות"
+  },
+  {
+    "word": "ינשוף",
+    "topics": [
+      "animals"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "עוף לילה עם עיניים גדולות",
+    "shortClue": "עוף הלילה"
+  },
+  {
+    "word": "עורב",
+    "topics": [
+      "animals"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "ציפור שחורה שמקרקרת",
+    "shortClue": "ציפור שחורה"
+  },
+  {
+    "word": "יונה",
+    "topics": [
+      "animals"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "ציפור אפורה ושמנמנה שחיה בעיר",
+    "shortClue": "ציפור העיר"
+  },
+  {
+    "word": "חסידה",
+    "topics": [
+      "animals"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "ציפור גדולה ארוכת רגליים שנודדת",
+    "shortClue": "ציפור נודדת"
+  },
+  {
+    "word": "תרנגול",
+    "topics": [
+      "animals"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "עוף משק שקורא עם עלות השחר",
+    "shortClue": "עוף קורא"
+  },
+  {
+    "word": "ברווז",
+    "topics": [
+      "animals"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "עוף מים עם מקור שטוח",
+    "shortClue": "עוף מים"
+  },
+  {
+    "word": "אווז",
+    "topics": [
+      "animals"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "עוף מים גדול עם צוואר ארוך",
+    "shortClue": "עוף צווארן"
+  },
+  {
+    "word": "חמור",
+    "topics": [
+      "animals"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "בהמת משא עם אוזניים ארוכות",
+    "shortClue": "בהמת משא"
+  },
+  {
+    "word": "גמל",
+    "topics": [
+      "animals"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "חיה עם דבשת שחיה במדבר",
+    "shortClue": "חיית דבשת"
+  },
+  {
+    "word": "נמלה",
+    "topics": [
+      "animals"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "חרק קטן שנושא משאות כבדים בשורה",
+    "shortClue": "חרק עובד"
+  },
+  {
+    "word": "עכביש",
+    "topics": [
+      "animals"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "בעל שמונה רגליים שטווה קורים",
+    "shortClue": "טווה קורים"
+  },
+  {
+    "word": "חיפושית",
+    "topics": [
+      "animals"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "חרק עם כנפיים קשות כמו מעטפת",
+    "shortClue": "חרק מצופה"
+  },
+  {
+    "word": "צרעה",
+    "topics": [
+      "animals"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "חרק עוקץ עם פסים צהובים",
+    "shortClue": "חרק מפוספס"
+  },
+  {
+    "word": "קיפוד",
+    "topics": [
+      "animals"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "יונק קטן עם קוצים על הגב",
+    "shortClue": "בעל קוצים"
+  },
+  {
+    "word": "סנאי",
+    "topics": [
+      "animals"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "מכרסם עם זנב מגודל שמטפס בעצים",
+    "shortClue": "מכרסם מטפס"
+  },
+  {
+    "word": "טווס",
+    "topics": [
+      "animals"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "עוף עם זנב צבעוני ענק",
+    "shortClue": "זנב מניפה"
+  },
+  {
+    "word": "תוכי",
+    "topics": [
+      "animals"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "ציפור צבעונית שחוזרת על מילים",
+    "shortClue": "ציפור מדברת"
+  },
+  {
+    "word": "שממית",
+    "topics": [
+      "animals"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "לטאה קטנה ורכה שרצה על קירות בלילה",
+    "shortClue": "רצה על קירות"
+  },
+  {
+    "word": "חמאה",
+    "topics": [
+      "food"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "מוצר חלב צהוב שמורחים על לחם",
+    "shortClue": "ממרח צהוב"
+  },
+  {
+    "word": "סוכר",
+    "topics": [
+      "food"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "גבישים מתוקים לקפה",
+    "shortClue": "מתוק לקפה"
+  },
+  {
+    "word": "קמח",
+    "topics": [
+      "food"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "אבקה שטוחנים מחיטה",
+    "shortClue": "אבקת חיטה"
+  },
+  {
+    "word": "אורז",
+    "topics": [
+      "food"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "דגן קטן שמבשלים בסיר",
+    "shortClue": "דגן מבושל"
+  },
+  {
+    "word": "אפונה",
+    "topics": [
+      "food"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "קטנייה עם גרגרים ירוקים בתרמיל",
+    "shortClue": "גרגרים ירוקים"
+  },
+  {
+    "word": "עגבנייה",
+    "topics": [
+      "food"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "ירק אדום ועסיסי שנאכל בסלט",
+    "shortClue": "ירק אדום ועסיסי"
+  },
+  {
+    "word": "חציל",
+    "topics": [
+      "food"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "ירק סגול וארוך שממנו מכינים סלט",
+    "shortClue": "ירק סגול"
+  },
+  {
+    "word": "פלפל",
+    "topics": [
+      "food"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "ירק צבעוני חריף או מתוק",
+    "shortClue": "ירק צבעוני"
+  },
+  {
+    "word": "תפוז",
+    "topics": [
+      "food"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "פרי הדר עגול וכתום",
+    "shortClue": "פרי הדר כתום"
+  },
+  {
+    "word": "בננה",
+    "topics": [
+      "food"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "פרי צהוב ארוך שמקלפים",
+    "shortClue": "פרי צהוב ארוך"
+  },
+  {
+    "word": "ענב",
+    "topics": [
+      "food"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "פרי קטן בצרור שגדל על גפן",
+    "shortClue": "פרי הגפן"
+  },
+  {
+    "word": "תאנה",
+    "topics": [
+      "food"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "פרי רך ומתוק עם זרעים קטנים",
+    "shortClue": "פרי רך ומתוק"
+  },
+  {
+    "word": "רימון",
+    "topics": [
+      "food"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "פרי אדום מלא גרגרים",
+    "shortClue": "פרי גרגרים"
+  },
+  {
+    "word": "אבטיח",
+    "topics": [
+      "food"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "פרי קיץ גדול, ירוק מבחוץ ואדום מבפנים",
+    "shortClue": "פרי קיץ ענק"
+  },
+  {
+    "word": "מלון",
+    "topics": [
+      "food"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "פרי קיץ מתוק וריחני עם קליפה גסה",
+    "shortClue": "פרי קיץ"
+  },
+  {
+    "word": "שזיף",
+    "topics": [
+      "food"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "פרי סגול קטן עם גלעין",
+    "shortClue": "פרי עם גלעין"
+  },
+  {
+    "word": "אגס",
+    "topics": [
+      "food"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "פרי מתוק בצורת טיפה",
+    "shortClue": "פרי בצורת טיפה"
+  },
+  {
+    "word": "דובדבן",
+    "topics": [
+      "food"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "פרי אדום קטן עם גבעול",
+    "shortClue": "פרי אדום זעיר"
+  },
+  {
+    "word": "אפרסק",
+    "topics": [
+      "food"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "פרי רך עם קליפה פלומתית",
+    "shortClue": "פרי פלומתי"
+  },
+  {
+    "word": "שקד",
+    "topics": [
+      "food"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "אגוז שפורח לפני האביב",
+    "shortClue": "אגוז פורח"
+  },
+  {
+    "word": "אגוז",
+    "topics": [
+      "food"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "פרי עם קליפה קשה ופנים מקומטות",
+    "shortClue": "פרי קליפה קשה"
+  },
+  {
+    "word": "בוטן",
+    "topics": [
+      "food"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "גרעין שגדל מתחת לאדמה ואוכלים קלוי",
+    "shortClue": "גרעין קלוי"
+  },
+  {
+    "word": "כמון",
+    "topics": [
+      "food"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "תבלין חום שנותן ריח לקציצות",
+    "shortClue": "תבלין חום"
+  },
+  {
+    "word": "קינמון",
+    "topics": [
+      "food"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "תבלין חום מקליפת עץ",
+    "shortClue": "תבלין מקליפה"
+  },
+  {
+    "word": "נענע",
+    "topics": [
+      "food"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "עשב ריחני לתה",
+    "shortClue": "עשב לתה"
+  },
+  {
+    "word": "עוגייה",
+    "topics": [
+      "food"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "מאפה קטן ומתוק",
+    "shortClue": "מאפה קטן"
+  },
+  {
+    "word": "שוקולד",
+    "topics": [
+      "food"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "חטיף חום שנמס בפה",
+    "shortClue": "חטיף חום"
+  },
+  {
+    "word": "גלידה",
+    "topics": [
+      "food"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "קינוח קר שמלקקים בקיץ",
+    "shortClue": "קינוח קר"
+  },
+  {
+    "word": "ריבה",
+    "topics": [
+      "food"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "ממרח מפירות מבושלים עם סוכר",
+    "shortClue": "ממרח פירות"
+  },
+  {
+    "word": "בורקס",
+    "topics": [
+      "food"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "מאפה עלים עם מילוי גבינה",
+    "shortClue": "מאפה במילוי"
+  },
+  {
+    "word": "טחינה",
+    "topics": [
+      "food"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "רוטב משומשום טחון",
+    "shortClue": "רוטב מטחון"
+  },
+  {
+    "word": "שניצל",
+    "topics": [
+      "food"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "פרוסת עוף בפירורי לחם מטוגנת",
+    "shortClue": "עוף מטוגן"
+  },
+  {
+    "word": "קציצה",
+    "topics": [
+      "food"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "כדור בשר טחון מטוגן או אפוי",
+    "shortClue": "כדור בשר טחון"
+  },
+  {
+    "word": "עדשים",
+    "topics": [
+      "food"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "קטנייה עגולה לבישול, בצבע חום או כתום",
+    "shortClue": "קטנייה עגולה"
+  },
+  {
+    "word": "כרוב",
+    "topics": [
+      "food"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "ירק עגול עם עלים צפופים",
+    "shortClue": "ירק עלים צפוף"
+  },
+  {
+    "word": "דלעת",
+    "topics": [
+      "food"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "ירק כתום גדול שמכינים ממנו מרק",
+    "shortClue": "ירק כתום ענק"
+  },
+  {
+    "word": "חסה",
+    "topics": [
+      "food"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "ירק עלים רך בסלט",
+    "shortClue": "עלה לסלט"
+  },
+  {
+    "word": "סובלנות",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "יכולת לקבל אנשים ודעות שונות משלנו",
+    "shortClue": "קבלת השונה"
+  },
+  {
+    "word": "אדישות",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "חוסר עניין במה שקורה סביבנו",
+    "shortClue": "חוסר עניין"
+  },
+  {
+    "word": "תעוזה",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "אומץ לעשות דבר חדש וקשה",
+    "shortClue": "אומץ ויוזמה"
+  },
+  {
+    "word": "אכזבה",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "רגש של מי שציפה ליותר",
+    "shortClue": "ציפייה שנכזבה"
+  },
+  {
+    "word": "מורכבות",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "תכונה של דבר שיש בו הרבה חלקים שקשורים זה בזה",
+    "shortClue": "היפוך הפשטות"
+  },
+  {
+    "word": "עדינות",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "התנהגות רכה ומתחשבת",
+    "shortClue": "התנהגות רכה"
+  },
+  {
+    "word": "רגישות",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "נטייה להגיב בחדות לדברים שסביבנו",
+    "shortClue": "הגבה חדה"
+  },
+  {
+    "word": "ערנות",
+    "topics": [
+      "general"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "מצב של מי שמרוכז ולא מנמנם",
+    "shortClue": "מרוכז ולא מנמנם"
+  },
+  {
+    "word": "אצטרובל",
+    "topics": [
+      "nature"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "פרי של עץ אורן שמכיל זרעים",
+    "shortClue": "פרי האורן"
+  },
+  {
+    "word": "נחשול",
+    "topics": [
+      "nature"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "גל גדול וחזק בים",
+    "shortClue": "גל גדול"
+  },
+  {
+    "word": "שלולית",
+    "topics": [
+      "nature"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "ברכה קטנה של מי גשם",
+    "shortClue": "ברכת גשם"
+  },
+  {
+    "word": "אלמוג",
+    "topics": [
+      "nature"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "חיה ימית זעירה שבונה שונית",
+    "shortClue": "בונה השונית"
+  },
+  {
+    "word": "חילזון",
+    "topics": [
+      "animals"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "רך גוף עם בית ספירלי על הגב",
+    "shortClue": "רך עם בית"
+  },
+  {
+    "word": "עטלף",
+    "topics": [
+      "animals"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "יונק מעופף שישן בראש למטה",
+    "shortClue": "יונק מעופף"
+  },
+  {
+    "word": "אנפה",
+    "topics": [
+      "animals"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "עוף מים ארוך רגליים ולבן",
+    "shortClue": "עוף מים לבן"
+  },
+  {
+    "word": "אפרוח",
+    "topics": [
+      "animals"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "גוזל קטן של תרנגולת",
+    "shortClue": "גוזל תרנגולת"
+  },
+  {
+    "word": "פטרוזיליה",
+    "topics": [
+      "food"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "עשב ירוק ומסולסל שמקשטים בו מנות",
+    "shortClue": "עשב מסולסל"
+  },
+  {
+    "word": "שומשום",
+    "topics": [
+      "food"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "גרגרים קטנים שמהם מכינים טחינה",
+    "shortClue": "גרגרי טחינה"
+  },
+  {
+    "word": "ארטישוק",
+    "topics": [
+      "food"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "ירק עם עלים קשקשיים שאוכלים את לבו",
+    "shortClue": "ירק קשקשי"
+  },
+  {
+    "word": "אקלים",
+    "topics": [
+      "geography"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "מזג האוויר הרגיל באזור לאורך שנים",
+    "shortClue": "מזג אוויר באזור"
+  },
+  {
+    "word": "דלתה",
+    "topics": [
+      "geography"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "שטח נחל בצורת משולש בשפך לים",
+    "shortClue": "שפך בצורת משולש"
+  },
+  {
+    "word": "טונדרה",
+    "topics": [
+      "geography"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "אזור קפוא ללא עצים בצפון הרחוק",
+    "shortClue": "אזור קפוא"
+  },
+  {
+    "word": "סוואנה",
+    "topics": [
+      "geography"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "ערבה עם עשב גבוה ועצים בודדים",
+    "shortClue": "ערבת אפריקה"
+  },
+  {
+    "word": "גלדיאטור",
+    "topics": [
+      "history"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "לוחם בזירה ברומא העתיקה",
+    "shortClue": "לוחם בזירה"
+  },
+  {
+    "word": "קטפולטה",
+    "topics": [
+      "history"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "מכונה עתיקה שזורקת אבנים",
+    "shortClue": "זורקת אבנים"
+  },
+  {
+    "word": "הירוגליף",
+    "topics": [
+      "history"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "כתב מצרי עתיק מציורים",
+    "shortClue": "כתב ציורי עתיק"
+  },
+  {
+    "word": "פוטוסינתזה",
+    "topics": [
+      "science"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "תהליך שבו צמחים הופכים אור לסוכר",
+    "shortClue": "הצמח והאור"
+  },
+  {
+    "word": "אטמוספרה",
+    "topics": [
+      "science"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "שכבת הגזים שעוטפת את כדור הארץ",
+    "shortClue": "מעטפת האוויר"
+  },
+  {
+    "word": "חלבון",
+    "topics": [
+      "science"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "חומר מזין בבשר ובביצים שבונה שרירים",
+    "shortClue": "חומר בונה"
+  },
+  {
+    "word": "ויטמין",
+    "topics": [
+      "science"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "חומר חיוני שיש בפירות וירקות",
+    "shortClue": "חומר חיוני"
+  },
+  {
+    "word": "טריאתלון",
+    "topics": [
+      "sport"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "תחרות של שחייה רכיבה וריצה",
+    "shortClue": "שלושה ענפים"
+  },
+  {
+    "word": "שחמט",
+    "topics": [
+      "sport"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "משחק לוח של מלך מלכה וצריחים",
+    "shortClue": "משחק מלכים"
+  },
+  {
+    "word": "קריקטורה",
+    "topics": [
+      "arts"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "ציור מצחיק שמגזים בתווי הפנים",
+    "shortClue": "ציור מצחיק"
+  },
+  {
+    "word": "סימפוניה",
+    "topics": [
+      "arts"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "יצירה גדולה לתזמורת",
+    "shortClue": "יצירה לתזמורת"
+  },
+  {
+    "word": "אקוורל",
+    "topics": [
+      "arts"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "ציור בצבעי מים",
+    "shortClue": "צבעי מים"
+  },
+  {
+    "word": "מלחציים",
+    "topics": [
+      "home"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "כלי עם שתי ידיות שאוחזים בו",
+    "shortClue": "כלי אחיזה"
+  },
+  {
+    "word": "מברג",
+    "topics": [
+      "home"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "כלי שמסובבים בו ברגים",
+    "shortClue": "מסובב ברגים"
+  },
+  {
+    "word": "ארכיאולוג",
+    "topics": [
+      "professions"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "חוקר שחופר שרידים עתיקים",
+    "shortClue": "חופר עתיקות"
+  },
+  {
+    "word": "בלשן",
+    "topics": [
+      "professions"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "חוקר שפות",
+    "shortClue": "חוקר שפות"
+  },
+  {
+    "word": "גבעה",
+    "topics": [
+      "geography"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "רמה קטנה שנמוכה מהר",
+    "shortClue": "הר נמוך"
+  },
+  {
+    "word": "מישור",
+    "topics": [
+      "geography"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "שטח רחב ושטוח בלי הרים",
+    "shortClue": "שטח שטוח"
+  },
+  {
+    "word": "קניון",
+    "topics": [
+      "geography"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "עמק צר ועמוק בין קירות סלע",
+    "shortClue": "עמק צר"
+  },
+  {
+    "word": "שונית",
+    "topics": [
+      "geography"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "רכס של אלמוגים וסלעים מתחת לים",
+    "shortClue": "רכס תת ימי"
+  },
+  {
+    "word": "קרחון",
+    "topics": [
+      "geography"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "גוש קרח ענק שנע לאט",
+    "shortClue": "גוש קרח ענק"
+  },
+  {
+    "word": "אחו",
+    "topics": [
+      "geography"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "שטח דשא ירוק שבו רועים בהמות",
+    "shortClue": "שדה דשא"
+  },
+  {
+    "word": "נמל",
+    "topics": [
+      "geography"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "מקום שבו עוגנות ספינות",
+    "shortClue": "מעגן ספינות"
+  },
+  {
+    "word": "יבשת",
+    "topics": [
+      "geography"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "שטח יבשה עצום כמו אפריקה",
+    "shortClue": "שטח יבשה ענק"
+  },
+  {
+    "word": "אוקיינוס",
+    "topics": [
+      "geography"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "גוף המים הגדול ביותר בעולם",
+    "shortClue": "ים עצום"
+  },
+  {
+    "word": "קוטב",
+    "topics": [
+      "geography"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "הנקודה הקרה ביותר בצפון או בדרום",
+    "shortClue": "קצה העולם"
+  },
+  {
+    "word": "מזרח",
+    "topics": [
+      "geography"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "הכיוון שממנו עולה השמש",
+    "shortClue": "כיוון הזריחה"
+  },
+  {
+    "word": "צפון",
+    "topics": [
+      "geography"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "הכיוון שאליו מצביע המצפן",
+    "shortClue": "כיוון המצפן"
+  },
+  {
+    "word": "אטלס",
+    "topics": [
+      "geography"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "ספר מפות של העולם",
+    "shortClue": "ספר מפות"
+  },
+  {
+    "word": "גיא",
+    "topics": [
+      "geography"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "עמק צר בין הרים",
+    "shortClue": "עמק צר"
+  },
+  {
+    "word": "מדבר",
+    "topics": [
+      "geography"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "אזור יבש וחם עם מעט גשם",
+    "shortClue": "אזור יבש"
+  },
+  {
+    "word": "תעלה",
+    "topics": [
+      "geography"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "נתיב מים שחפרו בני אדם",
+    "shortClue": "נתיב מים חפור"
+  },
+  {
+    "word": "נילוס",
+    "topics": [
+      "geography"
+    ],
+    "difficulty": 2,
+    "kind": "proper",
+    "clue": "הנהר הארוך של מצרים",
+    "shortClue": "נהר מצרים"
+  },
+  {
+    "word": "אמזונס",
+    "topics": [
+      "geography"
+    ],
+    "difficulty": 2,
+    "kind": "proper",
+    "clue": "נהר ענק ביער הגשם של דרום אמריקה",
+    "shortClue": "נהר היער"
+  },
+  {
+    "word": "פריז",
+    "topics": [
+      "geography"
+    ],
+    "difficulty": 1,
+    "kind": "proper",
+    "clue": "בירת צרפת על נהר הסן",
+    "shortClue": "בירת צרפת"
+  },
+  {
+    "word": "רומא",
+    "topics": [
+      "geography"
+    ],
+    "difficulty": 1,
+    "kind": "proper",
+    "clue": "בירת איטליה העתיקה",
+    "shortClue": "בירת איטליה"
+  },
+  {
+    "word": "אתונה",
+    "topics": [
+      "geography"
+    ],
+    "difficulty": 2,
+    "kind": "proper",
+    "clue": "בירת יוון",
+    "shortClue": "בירת יוון"
+  },
+  {
+    "word": "וינה",
+    "topics": [
+      "geography"
+    ],
+    "difficulty": 2,
+    "kind": "proper",
+    "clue": "בירת אוסטריה על נהר הדנובה",
+    "shortClue": "בירת אוסטריה"
+  },
+  {
+    "word": "יפן",
+    "topics": [
+      "geography"
+    ],
+    "difficulty": 1,
+    "kind": "proper",
+    "clue": "מדינת איים במזרח אסיה",
+    "shortClue": "איים במזרח אסיה"
+  },
+  {
+    "word": "ברזיל",
+    "topics": [
+      "geography"
+    ],
+    "difficulty": 1,
+    "kind": "proper",
+    "clue": "המדינה הגדולה בדרום אמריקה",
+    "shortClue": "מדינת הקפה"
+  },
+  {
+    "word": "טבריה",
+    "topics": [
+      "geography"
+    ],
+    "difficulty": 2,
+    "kind": "proper",
+    "clue": "עיר על חוף הכנרת",
+    "shortClue": "עיר על הכנרת"
+  },
+  {
+    "word": "חדרה",
+    "topics": [
+      "geography"
+    ],
+    "difficulty": 2,
+    "kind": "proper",
+    "clue": "עיר בשרון עם תחנת חשמל",
+    "shortClue": "עיר בשרון"
+  },
+  {
+    "word": "תבור",
+    "topics": [
+      "geography"
+    ],
+    "difficulty": 2,
+    "kind": "proper",
+    "clue": "הר עגול ובודד בגליל התחתון",
+    "shortClue": "הר עגול"
+  },
+  {
+    "word": "סיני",
+    "topics": [
+      "geography"
+    ],
+    "difficulty": 2,
+    "kind": "proper",
+    "clue": "חצי אי מדברי בין שני מפרצים",
+    "shortClue": "חצי אי מדברי"
+  },
+  {
+    "word": "אשדוד",
+    "topics": [
+      "geography"
+    ],
+    "difficulty": 2,
+    "kind": "proper",
+    "clue": "עיר נמל בדרום החוף",
+    "shortClue": "עיר נמל"
+  },
+  {
+    "word": "צרפת",
+    "topics": [
+      "geography"
+    ],
+    "difficulty": 1,
+    "kind": "proper",
+    "clue": "מדינה אירופית עם יין וגבינות",
+    "shortClue": "מדינה אירופית"
+  },
+  {
+    "word": "טירה",
+    "topics": [
+      "history"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "ארמון מבוצר של אציל באירופה",
+    "shortClue": "ארמון מבוצר"
+  },
+  {
+    "word": "חומה",
+    "topics": [
+      "history"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "קיר גבוה שמקיף עיר",
+    "shortClue": "קיר מקיף עיר"
+  },
+  {
+    "word": "מצודה",
+    "topics": [
+      "history"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "מבנה מבוצר על גבעה",
+    "shortClue": "בניין מבוצר"
+  },
+  {
+    "word": "אביר",
+    "topics": [
+      "history"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "לוחם רכוב על סוס בימי הביניים",
+    "shortClue": "לוחם רכוב"
+  },
+  {
+    "word": "ארמון",
+    "topics": [
+      "history"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "בית מפואר של מלך",
+    "shortClue": "בית המלך"
+  },
+  {
+    "word": "נסיך",
+    "topics": [
+      "history"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "בן של מלך או מלכה",
+    "shortClue": "בן המלך"
+  },
+  {
+    "word": "קיסר",
+    "topics": [
+      "history"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "שליט עליון של אימפריה",
+    "shortClue": "שליט אימפריה"
+  },
+  {
+    "word": "פרעה",
+    "topics": [
+      "history"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "מלך מצרים העתיקה",
+    "shortClue": "מלך מצרי"
+  },
+  {
+    "word": "מטבע",
+    "topics": [
+      "history"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "פיסת מתכת עגולה לתשלום",
+    "shortClue": "כסף ממתכת"
+  },
+  {
+    "word": "אמפורה",
+    "topics": [
+      "history"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "כד עתיק עם שתי ידיות",
+    "shortClue": "כד עם ידיות"
+  },
+  {
+    "word": "פפירוס",
+    "topics": [
+      "history"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "גיליון כתיבה ממצרים העתיקה",
+    "shortClue": "נייר מצרי עתיק"
+  },
+  {
+    "word": "לגיון",
+    "topics": [
+      "history"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "יחידת צבא גדולה ברומא",
+    "shortClue": "יחידה רומית"
+  },
+  {
+    "word": "חנית",
+    "topics": [
+      "history"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "מוט ארוך עם להב בקצה",
+    "shortClue": "מוט עם להב"
+  },
+  {
+    "word": "דפוס",
+    "topics": [
+      "history"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "המצאתו של גוטנברג שהפיצה ספרים בהמוניהם",
+    "shortClue": "המצאת גוטנברג"
+  },
+  {
+    "word": "קיטור",
+    "topics": [
+      "history"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "אד חם שהניע מכונות וקטרים",
+    "shortClue": "אד חם"
+  },
+  {
+    "word": "פנס",
+    "topics": [
+      "history"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "כלי תאורה שנושאים ביד",
+    "shortClue": "תאורה ניידת"
+  },
+  {
+    "word": "תקליט",
+    "topics": [
+      "history"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "דיסק שחור לשמיעת מוזיקה בימים עברו",
+    "shortClue": "דיסק מוזיקה"
+  },
+  {
+    "word": "חרס",
+    "topics": [
+      "history"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "אדמה שרופה שממנה עשויים כדים עתיקים",
+    "shortClue": "חומר לכדים"
+  },
+  {
+    "word": "שיירה",
+    "topics": [
+      "history"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "שורה של גמלים וסוחרים במדבר",
+    "shortClue": "שורת גמלים"
+  },
+  {
+    "word": "ממלכה",
+    "topics": [
+      "history"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "ארץ שיש בראשה כתר",
+    "shortClue": "ארץ עם כתר"
+  },
+  {
+    "word": "אימפריה",
+    "topics": [
+      "history"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "מדינה עצומה ששולטת בעמים רבים",
+    "shortClue": "מדינה עצומה"
+  },
+  {
+    "word": "סוחר",
+    "topics": [
+      "history"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "אדם שקונה ומוכר סחורה",
+    "shortClue": "קונה ומוכר"
+  },
+  {
+    "word": "גלימה",
+    "topics": [
+      "history"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "מעיל רחב ללא שרוולים",
+    "shortClue": "מעיל רחב"
+  },
+  {
+    "word": "קרון",
+    "topics": [
+      "history"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "עגלה מרוסנת ברכבת או בסוסים",
+    "shortClue": "עגלה ברכבת"
+  },
+  {
+    "word": "כרכרה",
+    "topics": [
+      "history"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "עגלה מקושטת עם סוסים",
+    "shortClue": "עגלת סוסים"
+  },
+  {
+    "word": "אלקטרון",
+    "topics": [
+      "science"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "חלקיק זעיר בעל מטען שלילי באטום",
+    "shortClue": "חלקיק שלילי"
+  },
+  {
+    "word": "מתכת",
+    "topics": [
+      "science"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "חומר קשה ומבריק שמוליך חשמל",
+    "shortClue": "חומר מבריק"
+  },
+  {
+    "word": "נוזל",
+    "topics": [
+      "science"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "חומר שזורם כמו מים",
+    "shortClue": "חומר זורם"
+  },
+  {
+    "word": "אדים",
+    "topics": [
+      "science"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "מים במצב גזי",
+    "shortClue": "מים כגז"
+  },
+  {
+    "word": "מסה",
+    "topics": [
+      "science"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "כמות החומר בגוף",
+    "shortClue": "כמות חומר"
+  },
+  {
+    "word": "אנרגיה",
+    "topics": [
+      "science"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "היכולת לבצע עבודה או להניע דברים",
+    "shortClue": "יכולת לפעול"
+  },
+  {
+    "word": "לחץ",
+    "topics": [
+      "science"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "כוח שפועל על שטח",
+    "shortClue": "כוח על שטח"
+  },
+  {
+    "word": "צפיפות",
+    "topics": [
+      "science"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "כמה חומר יש בנפח נתון",
+    "shortClue": "חומר בנפח"
+  },
+  {
+    "word": "תדר",
+    "topics": [
+      "science"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "מספר הגלים בשנייה",
+    "shortClue": "גלים בשנייה"
+  },
+  {
+    "word": "קוטר",
+    "topics": [
+      "science"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "קו ישר שעובר דרך מרכז העיגול",
+    "shortClue": "קו דרך המרכז"
+  },
+  {
+    "word": "זווית",
+    "topics": [
+      "science"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "הפתיחה בין שני קווים שנפגשים",
+    "shortClue": "פתיחה בין קווים"
+  },
+  {
+    "word": "משולש",
+    "topics": [
+      "science"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "צורה עם שלוש צלעות",
+    "shortClue": "שלוש צלעות"
+  },
+  {
+    "word": "מעגל",
+    "topics": [
+      "science"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "קו סגור שכל נקודה בו רחוקה מהמרכז באותה מידה",
+    "shortClue": "עיגול"
+  },
+  {
+    "word": "שבר",
+    "topics": [
+      "science"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "מספר כמו חצי או שליש",
+    "shortClue": "מספר חלקי"
+  },
+  {
+    "word": "ממוצע",
+    "topics": [
+      "science"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "סכום המספרים חלקי מספרם",
+    "shortClue": "סכום חלקי כמות"
+  },
+  {
+    "word": "משוואה",
+    "topics": [
+      "science"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "שוויון בין שני ביטויים עם נעלם",
+    "shortClue": "שוויון עם נעלם"
+  },
+  {
+    "word": "השערה",
+    "topics": [
+      "science"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "הנחה שעדיין צריך לבדוק",
+    "shortClue": "הנחה לבדיקה"
+  },
+  {
+    "word": "מעבדה",
+    "topics": [
+      "science"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "חדר שבו עושים ניסויים",
+    "shortClue": "חדר לניסויים"
+  },
+  {
+    "word": "מדחום",
+    "topics": [
+      "science"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "מכשיר שמודד כמה חם",
+    "shortClue": "מודד חום"
+  },
+  {
+    "word": "שביט",
+    "topics": [
+      "science"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "גוף שמימי עם זנב בוהק",
+    "shortClue": "גוף עם זנב"
+  },
+  {
+    "word": "מטאור",
+    "topics": [
+      "science"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "אבן שנשרפת באוויר ומשאירה פס אור",
+    "shortClue": "אבן נופלת"
+  },
+  {
+    "word": "גלקסיה",
+    "topics": [
+      "science"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "מערכת עצומה של כוכבים כמו שביל החלב",
+    "shortClue": "אי של כוכבים"
+  },
+  {
+    "word": "מסלול",
+    "topics": [
+      "science"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "הדרך שגוף עובר סביב גוף אחר",
+    "shortClue": "הקף סביב כוכב"
+  },
+  {
+    "word": "ליקוי",
+    "topics": [
+      "science"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "הסתרה זמנית של השמש או הירח",
+    "shortClue": "הסתרת השמש"
+  },
+  {
+    "word": "כבד",
+    "topics": [
+      "science"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "איבר גדול בבטן שמנקה את הדם",
+    "shortClue": "איבר בבטן"
+  },
+  {
+    "word": "כליה",
+    "topics": [
+      "science"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "איבר בצורת שעועית שמסנן את הדם",
+    "shortClue": "מסנן הדם"
+  },
+  {
+    "word": "עורק",
+    "topics": [
+      "science"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "צינור שמוביל דם מהלב",
+    "shortClue": "צינור דם"
+  },
+  {
+    "word": "שריר",
+    "topics": [
+      "science"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "רקמה שמתכווצת ומניעה את הגוף",
+    "shortClue": "רקמה מתכווצת"
+  },
+  {
+    "word": "מוח",
+    "topics": [
+      "science"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "האיבר שבראש ששולט בגוף",
+    "shortClue": "איבר בראש"
+  },
+  {
+    "word": "קיבה",
+    "topics": [
+      "science"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "שק שבו מתעכל האוכל",
+    "shortClue": "שק העיכול"
+  },
+  {
+    "word": "ריאה",
+    "topics": [
+      "science"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "איבר שבו נכנס האוויר בנשימה",
+    "shortClue": "איבר הנשימה"
+  },
+  {
+    "word": "מגרש",
+    "topics": [
+      "sport"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "שטח מסומן שמשחקים בו כדורגל",
+    "shortClue": "שטח משחק"
+  },
+  {
+    "word": "מאמן",
+    "topics": [
+      "sport"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "מי שמכין שחקנים לתחרות",
+    "shortClue": "מכין את הקבוצה"
+  },
+  {
+    "word": "שחקן",
+    "topics": [
+      "sport"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "מי שנמצא על המגרש ומשחק",
+    "shortClue": "חבר בקבוצה"
+  },
+  {
+    "word": "ניצחון",
+    "topics": [
+      "sport"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "תוצאה של מי שהשיג יותר נקודות מהיריב",
+    "shortClue": "הצלחה בתחרות"
+  },
+  {
+    "word": "תיקו",
+    "topics": [
+      "sport"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "תוצאה שבה שתי הקבוצות הבקיעו אותו מספר שערים",
+    "shortClue": "שוויון בתוצאה"
+  },
+  {
+    "word": "פנדל",
+    "topics": [
+      "sport"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "בעיטה אל השער מנקודה קרובה אחרי עבירה",
+    "shortClue": "בעיטה מסומנת"
+  },
+  {
+    "word": "נבדל",
+    "topics": [
+      "sport"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "מצב של שחקן שעומד קרוב מדי לשער היריב",
+    "shortClue": "עמדה אסורה"
+  },
+  {
+    "word": "אגרוף",
+    "topics": [
+      "sport"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "ענף שבו שני לוחמים מתקיפים בכפפות",
+    "shortClue": "קרב כפפות"
+  },
+  {
+    "word": "סיף",
+    "topics": [
+      "sport"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "ענף לחימה בחרב דקה",
+    "shortClue": "קרב בחרב"
+  },
+  {
+    "word": "חישוק",
+    "topics": [
+      "sport"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "טבעת שמטילים אליה כדור בכדורסל",
+    "shortClue": "טבעת ברשת"
+  },
+  {
+    "word": "חתירה",
+    "topics": [
+      "sport"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "תנועה במשוטים כדי להניע סירה",
+    "shortClue": "תנועת משוטים"
+  },
+  {
+    "word": "גלישה",
+    "topics": [
+      "sport"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "החלקה על הגלים על קרש",
+    "shortClue": "החלקה על גלים"
+  },
+  {
+    "word": "צלילה",
+    "topics": [
+      "sport"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "שחייה מתחת לפני המים",
+    "shortClue": "שחייה מתחת למים"
+  },
+  {
+    "word": "החלקה",
+    "topics": [
+      "sport"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "תנועה על קרח בנעליים מיוחדות",
+    "shortClue": "תנועה על קרח"
+  },
+  {
+    "word": "מדליה",
+    "topics": [
+      "sport"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "פרס עגול שתולים על הצוואר של הזוכה",
+    "shortClue": "פרס לצוואר"
+  },
+  {
+    "word": "אליפות",
+    "topics": [
+      "sport"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "תחרות גדולה שבסופה נקבע הטוב ביותר",
+    "shortClue": "תחרות גדולה"
+  },
+  {
+    "word": "תחרות",
+    "topics": [
+      "sport"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "מאבק בין מתמודדים על ניצחון",
+    "shortClue": "מאבק מתמודדים"
+  },
+  {
+    "word": "קורקינט",
+    "topics": [
+      "sport"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "רכב עם שני גלגלים שדוחפים ברגל",
+    "shortClue": "גלגלים ורגל"
+  },
+  {
+    "word": "אופניים",
+    "topics": [
+      "sport"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "רכב דו גלגלי עם דוושות",
+    "shortClue": "רכב דו גלגלי"
+  },
+  {
+    "word": "מקצה",
+    "topics": [
+      "sport"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "חלק אחד בתחרות ארוכה",
+    "shortClue": "שלב בתחרות"
+  },
+  {
+    "word": "חליל",
+    "topics": [
+      "arts"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "כלי נשיפה דק ומאורך",
+    "shortClue": "כלי נשיפה"
+  },
+  {
+    "word": "תוף",
+    "topics": [
+      "arts"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "כלי הקשה עם עור מתוח",
+    "shortClue": "כלי הקשה"
+  },
+  {
+    "word": "גיטרה",
+    "topics": [
+      "arts"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "כלי מיתר עם שש מיתרים",
+    "shortClue": "כלי מיתרים"
+  },
+  {
+    "word": "עוגב",
+    "topics": [
+      "arts"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "כלי ענק עם צינורות שמנגנים בו בכנסייה",
+    "shortClue": "כלי צינורות"
+  },
+  {
+    "word": "נבל",
+    "topics": [
+      "arts"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "כלי מיתר גדול בצורת משולש",
+    "shortClue": "כלי מיתרים גדול"
+  },
+  {
+    "word": "חצוצרה",
+    "topics": [
+      "arts"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "כלי נשיפה מפליז עם צליל חד",
+    "shortClue": "כלי נשיפה מפליז"
+  },
+  {
+    "word": "קלרינט",
+    "topics": [
+      "arts"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "כלי נשיפה מעץ עם לשונית",
+    "shortClue": "כלי נשיפה"
+  },
+  {
+    "word": "תזמורת",
+    "topics": [
+      "arts"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "קבוצה גדולה של נגנים",
+    "shortClue": "קבוצת נגנים"
+  },
+  {
+    "word": "מנצח",
+    "topics": [
+      "arts"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "מי שמכוון את הנגנים בשרביט",
+    "shortClue": "מכוון נגנים"
+  },
+  {
+    "word": "במאי",
+    "topics": [
+      "arts"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "מי שמנחה את השחקנים בסרט",
+    "shortClue": "מנחה שחקנים"
+  },
+  {
+    "word": "תסריט",
+    "topics": [
+      "arts"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "טקסט שהשחקנים מבצעים בסרט",
+    "shortClue": "טקסט לסרט"
+  },
+  {
+    "word": "במה",
+    "topics": [
+      "arts"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "הרצפה המוגבהת באולם שעליה מופיעים",
+    "shortClue": "רצפת המופע"
+  },
+  {
+    "word": "תפאורה",
+    "topics": [
+      "arts"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "הקישוטים שמסדרים על הבמה",
+    "shortClue": "קישוטי במה"
+  },
+  {
+    "word": "מסכה",
+    "topics": [
+      "arts"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "כיסוי לפנים בתחפושת",
+    "shortClue": "כיסוי לפנים"
+  },
+  {
+    "word": "ציור",
+    "topics": [
+      "arts"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "תמונה שנעשית בצבעים על דף",
+    "shortClue": "תמונה בצבעים"
+  },
+  {
+    "word": "קנבס",
+    "topics": [
+      "arts"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "בד מתוח שמציירים עליו",
+    "shortClue": "בד לציור"
+  },
+  {
+    "word": "פסיפס",
+    "topics": [
+      "arts"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "תמונה מאבנים קטנות צבעוניות",
+    "shortClue": "תמונה מאבנים"
+  },
+  {
+    "word": "דיוקן",
+    "topics": [
+      "arts"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "ציור של פני אדם",
+    "shortClue": "ציור של פנים"
+  },
+  {
+    "word": "משורר",
+    "topics": [
+      "arts"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "כותב שירים",
+    "shortClue": "כותב שירים"
+  },
+  {
+    "word": "מחזה",
+    "topics": [
+      "arts"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "יצירה לבמה עם דמויות ודיאלוג",
+    "shortClue": "יצירה לבמה"
+  },
+  {
+    "word": "פזמון",
+    "topics": [
+      "arts"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "חלק שחוזר בשיר",
+    "shortClue": "החלק החוזר"
+  },
+  {
+    "word": "לחן",
+    "topics": [
+      "arts"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "המנגינה של שיר",
+    "shortClue": "מנגינת השיר"
+  },
+  {
+    "word": "קונצרט",
+    "topics": [
+      "arts"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "מופע של מוזיקה באולם",
+    "shortClue": "מופע מוזיקלי"
+  },
+  {
+    "word": "אקורד",
+    "topics": [
+      "arts"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "כמה צלילים שמנגנים יחד",
+    "shortClue": "צלילים יחד"
+  },
+  {
+    "word": "גלריה",
+    "topics": [
+      "arts"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "מקום שבו מציגים תמונות למכירה",
+    "shortClue": "אולם תמונות"
+  },
+  {
+    "word": "תערוכה",
+    "topics": [
+      "arts"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "הצגה ציבורית של יצירות",
+    "shortClue": "הצגת יצירות"
+  },
+  {
+    "word": "צילום",
+    "topics": [
+      "arts"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "הפקת תמונה במצלמה",
+    "shortClue": "תמונה במצלמה"
+  },
+  {
+    "word": "בלט",
+    "topics": [
+      "arts"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "מחול קלאסי על קצות האצבעות",
+    "shortClue": "מחול קלאסי"
+  },
+  {
+    "word": "מחול",
+    "topics": [
+      "arts"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "אמנות התנועה לצלילי מוזיקה",
+    "shortClue": "אמנות התנועה"
+  },
+  {
+    "word": "מגירה",
+    "topics": [
+      "home"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "תא שמושך החוצה מתוך שולחן או ארון",
+    "shortClue": "תא בארון"
+  },
+  {
+    "word": "ארון",
+    "topics": [
+      "home"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "רהיט גדול לבגדים",
+    "shortClue": "רהיט לבגדים"
+  },
+  {
+    "word": "ספה",
+    "topics": [
+      "home"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "מושב רך לכמה אנשים בסלון",
+    "shortClue": "מושב רך"
+  },
+  {
+    "word": "שידה",
+    "topics": [
+      "home"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "ארון נמוך עם מגירות",
+    "shortClue": "ארון נמוך"
+  },
+  {
+    "word": "מדף",
+    "topics": [
+      "home"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "לוח אופקי שמניחים עליו ספרים",
+    "shortClue": "לוח לספרים"
+  },
+  {
+    "word": "וילון",
+    "topics": [
+      "home"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "בד שתולים על החלון",
+    "shortClue": "בד בחלון"
+  },
+  {
+    "word": "חלון",
+    "topics": [
+      "home"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "פתח עם זכוכית בקיר",
+    "shortClue": "פתח זכוכית"
+  },
+  {
+    "word": "מנעול",
+    "topics": [
+      "home"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "מנגנון שנועלים בו דלת",
+    "shortClue": "נועל הדלת"
+  },
+  {
+    "word": "ידית",
+    "topics": [
+      "home"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "חלק שאוחזים בו כדי לפתוח דלת",
+    "shortClue": "אחיזה בדלת"
+  },
+  {
+    "word": "ברז",
+    "topics": [
+      "home"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "פתח שמהם יוצאים מים בכיור",
+    "shortClue": "מקור מים"
+  },
+  {
+    "word": "כיור",
+    "topics": [
+      "home"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "גיגית במטבח לרחיצת כלים",
+    "shortClue": "גיגית רחצה"
+  },
+  {
+    "word": "אמבטיה",
+    "topics": [
+      "home"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "גיגית גדולה שמתרחצים בה",
+    "shortClue": "גיגית רחצה"
+  },
+  {
+    "word": "מקלחת",
+    "topics": [
+      "home"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "מקום שבו עומדים תחת מים זורמים",
+    "shortClue": "מים זורמים"
+  },
+  {
+    "word": "מטאטא",
+    "topics": [
+      "home"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "כלי עם שערות ארוכות לטאטא",
+    "shortClue": "כלי לטאטוא"
+  },
+  {
+    "word": "סמרטוט",
+    "topics": [
+      "home"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "בד ישן שמנגבים בו רצפה",
+    "shortClue": "בד לניגוב"
+  },
+  {
+    "word": "סבון",
+    "topics": [
+      "home"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "חומר מקציף לרחצה",
+    "shortClue": "מקציף ידיים"
+  },
+  {
+    "word": "מגבת",
+    "topics": [
+      "home"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "בד שמתנגבים בו אחרי מקלחת",
+    "shortClue": "בד לניגוב גוף"
+  },
+  {
+    "word": "ספוג",
+    "topics": [
+      "home"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "חומר רך שסופג נוזלים",
+    "shortClue": "סופג נוזלים"
+  },
+  {
+    "word": "דלי",
+    "topics": [
+      "home"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "כלי עם ידית למים",
+    "shortClue": "כלי למים"
+  },
+  {
+    "word": "גרזן",
+    "topics": [
+      "home"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "כלי לחיתוך עצים עם להב רחב",
+    "shortClue": "כלי לעצים"
+  },
+  {
+    "word": "מסור",
+    "topics": [
+      "home"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "כלי עם שיניים לחיתוך עץ",
+    "shortClue": "כלי משונן"
+  },
+  {
+    "word": "מקדחה",
+    "topics": [
+      "home"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "מכשיר שיוצר חור בקיר",
+    "shortClue": "עושה חורים"
+  },
+  {
+    "word": "בורג",
+    "topics": [
+      "home"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "מסמר עם תבריג",
+    "shortClue": "מסמר מתובריג"
+  },
+  {
+    "word": "מחבת",
+    "topics": [
+      "home"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "כלי שטוח לטיגון",
+    "shortClue": "כלי לטיגון"
+  },
+  {
+    "word": "צלחת",
+    "topics": [
+      "home"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "כלי שטוח שאוכלים ממנו",
+    "shortClue": "כלי אוכל שטוח"
+  },
+  {
+    "word": "תנור",
+    "topics": [
+      "home"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "מכשיר שאופים בו עוגה",
+    "shortClue": "מכשיר לאפייה"
+  },
+  {
+    "word": "מגהץ",
+    "topics": [
+      "home"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "מכשיר חם להחלקת בגדים",
+    "shortClue": "מחליק בגדים"
+  },
+  {
+    "word": "כפתור",
+    "topics": [
+      "home"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "עיגול קטן שסוגר חולצה",
+    "shortClue": "סוגר חולצה"
+  },
+  {
+    "word": "מסרק",
+    "topics": [
+      "home"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "כלי עם שיניים ליישור שיער",
+    "shortClue": "כלי לשיער"
+  },
+  {
+    "word": "שמיכה",
+    "topics": [
+      "home"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "מכסה חם למיטה",
+    "shortClue": "מכסה חם"
+  },
+  {
+    "word": "סדין",
+    "topics": [
+      "home"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "בד שפורשים על המזרן",
+    "shortClue": "בד למיטה"
+  },
+  {
+    "word": "מנורה",
+    "topics": [
+      "home"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "גוף תאורה על שולחן",
+    "shortClue": "גוף תאורה"
+  },
+  {
+    "word": "רוקח",
+    "topics": [
+      "professions"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "מי שמוכר תרופות בבית מרקחת",
+    "shortClue": "מוכר תרופות"
+  },
+  {
+    "word": "מנתח",
+    "topics": [
+      "professions"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "רופא שעושה ניתוחים",
+    "shortClue": "רופא בחדר ניתוח"
+  },
+  {
+    "word": "וטרינר",
+    "topics": [
+      "professions"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "רופא של בעלי חיים",
+    "shortClue": "רופא חיות"
+  },
+  {
+    "word": "סנדלר",
+    "topics": [
+      "professions"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "בעל מלאכה שמתקן נעליים",
+    "shortClue": "מתקן נעליים"
+  },
+  {
+    "word": "חייט",
+    "topics": [
+      "professions"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "מי שתופר חליפות לפי מידה",
+    "shortClue": "תופר חליפות"
+  },
+  {
+    "word": "צורף",
+    "topics": [
+      "professions"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "בעל מלאכה שעושה תכשיטים מזהב",
+    "shortClue": "עושה תכשיטים"
+  },
+  {
+    "word": "זגג",
+    "topics": [
+      "professions"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "בעל מלאכה שמתקין שמשות",
+    "shortClue": "מתקין זכוכית"
+  },
+  {
+    "word": "חשמלאי",
+    "topics": [
+      "professions"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "בעל מקצוע שמתקן תקלות בחוטים ובנורות",
+    "shortClue": "מתקן חוטים"
+  },
+  {
+    "word": "שרברב",
+    "topics": [
+      "professions"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "מי שמתקן צינורות וברזים",
+    "shortClue": "מתקן צנרת"
+  },
+  {
+    "word": "נהג",
+    "topics": [
+      "professions"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "מי שמוביל אוטובוס או משאית",
+    "shortClue": "מוביל אוטובוס"
+  },
+  {
+    "word": "קברניט",
+    "topics": [
+      "professions"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "מי שמפקד על ספינה",
+    "shortClue": "מפקד הספינה"
+  },
+  {
+    "word": "דייג",
+    "topics": [
+      "professions"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "מי שתופס דגים בים",
+    "shortClue": "תופס דגים"
+  },
+  {
+    "word": "רפתן",
+    "topics": [
+      "professions"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "מי שמטפל בעדר פרות",
+    "shortClue": "מטפל בפרות"
+  },
+  {
+    "word": "קצב",
+    "topics": [
+      "professions"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "מי שמוכר בשר",
+    "shortClue": "מוכר בשר"
+  },
+  {
+    "word": "דוור",
+    "topics": [
+      "professions"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "מי שמחלק מכתבים",
+    "shortClue": "מחלק מכתבים"
+  },
+  {
+    "word": "עיתונאי",
+    "topics": [
+      "professions"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "מי שכותב חדשות בעיתון",
+    "shortClue": "כותב חדשות"
+  },
+  {
+    "word": "צלם",
+    "topics": [
+      "professions"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "מי שמצלם תמונות",
+    "shortClue": "מצלם תמונות"
+  },
+  {
+    "word": "מעצב",
+    "topics": [
+      "professions"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "מי שמתכנן צורת חפצים ובגדים",
+    "shortClue": "מתכנן צורות"
+  },
+  {
+    "word": "מתרגם",
+    "topics": [
+      "professions"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "מי שמעביר טקסט משפה לשפה",
+    "shortClue": "מעביר לשפה אחרת"
+  },
+  {
+    "word": "פקיד",
+    "topics": [
+      "professions"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "עובד משרד שמטפל בניירת",
+    "shortClue": "עובד משרד"
+  },
+  {
+    "word": "מהנדס",
+    "topics": [
+      "professions"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "מתכנן בניינים וגשרים ומכונות",
+    "shortClue": "מתכנן גשרים"
+  },
+  {
+    "word": "כימאי",
+    "topics": [
+      "professions"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "חוקר חומרים ותגובות",
+    "shortClue": "חוקר חומרים"
+  },
+  {
+    "word": "מדען",
+    "topics": [
+      "professions"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "מי שחוקר את העולם בשיטות מדע",
+    "shortClue": "חוקר טבע"
+  },
+  {
+    "word": "רקדן",
+    "topics": [
+      "professions"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "מי שמופיע בתנועה על הבמה",
+    "shortClue": "מופיע בתנועה"
+  },
+  {
+    "word": "מלצר",
+    "topics": [
+      "professions"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "מי שמגיש אוכל במסעדה",
+    "shortClue": "מגיש אוכל"
+  },
+  {
+    "word": "מציל",
+    "topics": [
+      "professions"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "מי שמשגיח על הרוחצים בים",
+    "shortClue": "משגיח בים"
+  },
+  {
+    "word": "שוטר",
+    "topics": [
+      "professions"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "מי שמשגיח על הסדר בעיר",
+    "shortClue": "שומר הסדר"
+  },
+  {
+    "word": "גזבר",
+    "topics": [
+      "professions"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "מי שאחראי על הכסף בארגון",
+    "shortClue": "אחראי על כסף"
+  },
+  {
+    "word": "קיבוץ",
+    "topics": [
+      "localCulture"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "ישוב שיתופי עם רכוש משותף",
+    "shortClue": "ישוב שיתופי"
+  },
+  {
+    "word": "מושב",
+    "topics": [
+      "localCulture"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "ישוב חקלאי של משקים משפחתיים",
+    "shortClue": "ישוב חקלאי"
+  },
+  {
+    "word": "צבר",
+    "topics": [
+      "localCulture"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "פרי קוצני, וגם כינוי ליליד הארץ",
+    "shortClue": "פרי קוצני"
+  },
+  {
+    "word": "חמסה",
+    "topics": [
+      "localCulture"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "תליון בצורת כף יד נגד עין הרע",
+    "shortClue": "תליון כף יד"
+  },
+  {
+    "word": "בוסתן",
+    "topics": [
+      "localCulture"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "גן פרי ותיק",
+    "shortClue": "גן פרי"
+  },
+  {
+    "word": "כנאפה",
+    "topics": [
+      "localCulture"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "מתוק חם מגבינה ושערות בצק בסירופ",
+    "shortClue": "מתוק עם גבינה"
+  },
+  {
+    "word": "סביח",
+    "topics": [
+      "localCulture"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "פיתה עם חציל וביצה קשה",
+    "shortClue": "פיתה עם חציל"
+  },
+  {
+    "word": "שווארמה",
+    "topics": [
+      "localCulture"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "בשר פרוס משיפוד אנכי מסתובב, מוגש בפיתה",
+    "shortClue": "בשר בפיתה"
+  },
+  {
+    "word": "גרעינים",
+    "topics": [
+      "localCulture"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "זרעים קלויים של חמנייה או אבטיח שמפצחים בשיניים",
+    "shortClue": "חטיף לפיצוח"
+  },
+  {
+    "word": "חלוץ",
+    "topics": [
+      "localCulture"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "אחד ממקימי הישובים הראשונים",
+    "shortClue": "ממקימי הישוב"
+  },
+  {
+    "word": "חמסין",
+    "topics": [
+      "localCulture"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "רוח חמה ויבשה מן המדבר",
+    "shortClue": "רוח מדברית"
+  },
+  {
+    "word": "ואדי",
+    "topics": [
+      "localCulture"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "אפיק יבש שמתמלא במים בחורף",
+    "shortClue": "אפיק יבש"
+  },
+  {
+    "word": "שוק",
+    "topics": [
+      "localCulture"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "מקום עם דוכנים של ירקות ופירות",
+    "shortClue": "דוכני פירות"
+  },
+  {
+    "word": "דוכן",
+    "topics": [
+      "localCulture"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "שולחן של מוכר בשוק",
+    "shortClue": "שולחן בשוק"
+  },
+  {
+    "word": "בסטה",
+    "topics": [
+      "localCulture"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "דוכן קטן בשוק",
+    "shortClue": "דוכן שוק"
+  },
+  {
+    "word": "חמין",
+    "topics": [
+      "localCulture"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "תבשיל שנשאר חם מליל שישי עד הצהריים",
+    "shortClue": "תבשיל חם"
+  },
+  {
+    "word": "קוגל",
+    "topics": [
+      "localCulture"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "תבשיל אפוי של אטריות או תפוחי אדמה",
+    "shortClue": "תבשיל אפוי"
+  },
+  {
+    "word": "תחפושת",
+    "topics": [
+      "localCulture"
+    ],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "בגדים מיוחדים שילדים לובשים בפורים",
+    "shortClue": "בגדי פורים"
+  },
+  {
+    "word": "רעשן",
+    "topics": [
+      "localCulture"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "כלי רועש שמסובבים בפורים",
+    "shortClue": "כלי רועש"
+  },
+  {
+    "word": "סוכה",
+    "topics": [
+      "localCulture"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "בקתה זמנית שיושבים בה בחג",
+    "shortClue": "בקתת חג"
+  },
+  {
+    "word": "הורה",
+    "topics": [
+      "localCulture"
+    ],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "ריקוד עם במעגל",
+    "shortClue": "ריקוד במעגל"
+  },
+  {
+    "word": "סחלב",
+    "topics": [
+      "localCulture"
+    ],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "משקה חם וסמיך בחורף",
+    "shortClue": "משקה חורף"
+  },
+  {
+    "word": "דגניה",
+    "topics": [
+      "localCulture"
+    ],
+    "difficulty": 3,
+    "kind": "proper",
+    "clue": "הקיבוץ הראשון שנוסד בעמק הירדן",
+    "shortClue": "הקיבוץ הראשון"
+  },
+  {
+    "word": "שמשון",
+    "topics": [
+      "localCulture"
+    ],
+    "difficulty": 3,
+    "kind": "proper",
+    "clue": "גיבור מן המקרא בעל שיער ארוך",
+    "shortClue": "גיבור מקראי"
+  },
+  {
+    "word": "אסתר",
+    "topics": [
+      "localCulture"
+    ],
+    "difficulty": 3,
+    "kind": "proper",
+    "clue": "מלכה שהמגילה נקראת על שמה בפורים",
+    "shortClue": "מלכת פורים"
+  },
+  {
+    "word": "יפו",
+    "topics": [
+      "localCulture"
+    ],
+    "difficulty": 2,
+    "kind": "proper",
+    "clue": "עיר נמל עתיקה על חוף הים",
+    "shortClue": "עיר נמל עתיקה"
+  }
+]
