@@ -4,7 +4,7 @@
     "topics": ["general"],
     "difficulty": 1,
     "kind": "common",
-    "clue": "Eerste werkdag van de week",
+    "clue": "Begin van de werkweek, na het weekend",
     "shortClue": "Weekbegin"
   },
   {
@@ -12,8 +12,8 @@
     "topics": ["general"],
     "difficulty": 1,
     "kind": "common",
-    "clue": "Dag vlak voor zondag",
-    "shortClue": "Weekenddag"
+    "clue": "Begin van het weekend",
+    "shortClue": "Weekendbegin"
   },
   {
     "word": "ochtend",
@@ -28,8 +28,8 @@
     "topics": ["general"],
     "difficulty": 1,
     "kind": "common",
-    "clue": "Deel van de dag rond de lunch",
-    "shortClue": "Dagdeel"
+    "clue": "Tijd na de lunch, voor de avond",
+    "shortClue": "Na de lunch"
   },
   {
     "word": "avond",
@@ -860,8 +860,8 @@
     "topics": ["general"],
     "difficulty": 1,
     "kind": "common",
-    "clue": "Dag voor het weekend",
-    "shortClue": "Dag voor zaterdag"
+    "clue": "Laatste van de vijf in de werkweek",
+    "shortClue": "Einde werkweek"
   },
   {
     "word": "lente",
@@ -3956,8 +3956,8 @@
     "topics": ["localCulture"],
     "difficulty": 3,
     "kind": "proper",
-    "clue": "Dag van de troonrede in september",
-    "shortClue": "Septemberdag"
+    "clue": "Opening van het parlementaire jaar in september, met de troonrede",
+    "shortClue": "Troonrede"
   },
   {
     "word": "bokbier",

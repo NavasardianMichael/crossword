@@ -1,0 +1,4002 @@
+[
+  {
+    "word": "inzicht",
+    "topics": ["general"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Plotseling begrip van hoe iets zit",
+    "shortClue": "Helder begrip"
+  },
+  {
+    "word": "nadeel",
+    "topics": ["general"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Ongunstige kant van een zaak",
+    "shortClue": "Keerzijde"
+  },
+  {
+    "word": "voordeel",
+    "topics": ["general"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Gunstige kant van een zaak",
+    "shortClue": "Pluspunt"
+  },
+  {
+    "word": "toeval",
+    "topics": ["general"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Gebeurtenis zonder bedoeling of plan",
+    "shortClue": "Niet gepland"
+  },
+  {
+    "word": "gewoonte",
+    "topics": ["general"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Wat je steevast op dezelfde manier doet",
+    "shortClue": "Vast patroon"
+  },
+  {
+    "word": "regel",
+    "topics": ["general"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Voorschrift waaraan je je houdt",
+    "shortClue": "Voorschrift"
+  },
+  {
+    "word": "ervaring",
+    "topics": ["general"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Wat je door de jaren heen leert",
+    "shortClue": "Opgedane kennis"
+  },
+  {
+    "word": "kans",
+    "topics": ["general"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Mogelijkheid dat iets lukt",
+    "shortClue": "Gelegenheid"
+  },
+  {
+    "word": "gevaar",
+    "topics": ["general"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Kans op schade of letsel",
+    "shortClue": "Risico"
+  },
+  {
+    "word": "rust",
+    "topics": ["general"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Tijd zonder drukte of inspanning",
+    "shortClue": "Ontspanning"
+  },
+  {
+    "word": "haast",
+    "topics": ["general"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Gejaagd gevoel van tijdgebrek",
+    "shortClue": "Spoed"
+  },
+  {
+    "word": "plezier",
+    "topics": ["general"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Genoegen bij iets leuks",
+    "shortClue": "Pret"
+  },
+  {
+    "word": "humor",
+    "topics": ["general"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Gevoel voor het grappige",
+    "shortClue": "Gevoel voor grappen"
+  },
+  {
+    "word": "grap",
+    "topics": ["general"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Kort leuk verhaaltje om om te lachen",
+    "shortClue": "Mop"
+  },
+  {
+    "word": "traan",
+    "topics": ["general"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Druppel uit het oog bij verdriet",
+    "shortClue": "Oogdruppel"
+  },
+  {
+    "word": "zucht",
+    "topics": ["general"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Diepe, hoorbare uitademing",
+    "shortClue": "Diepe ademhaling"
+  },
+  {
+    "word": "gebaar",
+    "topics": ["general"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Beweging met hand of arm als teken",
+    "shortClue": "Handbeweging"
+  },
+  {
+    "word": "blik",
+    "topics": ["general"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Korte kijk in een richting",
+    "shortClue": "Oogopslag"
+  },
+  {
+    "word": "stem",
+    "topics": ["general"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Geluid waarmee je praat of zingt",
+    "shortClue": "Spraakklank"
+  },
+  {
+    "word": "gerucht",
+    "topics": ["general"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Onbevestigd verhaal dat de ronde doet",
+    "shortClue": "Praatje"
+  },
+  {
+    "word": "geheim",
+    "topics": ["general"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Wat niemand mag weten",
+    "shortClue": "Verborgen zaak"
+  },
+  {
+    "word": "waarheid",
+    "topics": ["general"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Wat echt zo is",
+    "shortClue": "Het ware"
+  },
+  {
+    "word": "leugen",
+    "topics": ["general"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Bewuste onwaarheid",
+    "shortClue": "Verzinsel"
+  },
+  {
+    "word": "vertrouwen",
+    "topics": ["general"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Geloof in andermans eerlijkheid",
+    "shortClue": "Zeker gevoel"
+  },
+  {
+    "word": "ruimte",
+    "topics": ["general"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Plek waar iets in past",
+    "shortClue": "Plaats"
+  },
+  {
+    "word": "verleden",
+    "topics": ["general"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Tijd die voorbij is",
+    "shortClue": "Vroegere tijd"
+  },
+  {
+    "word": "toekomst",
+    "topics": ["general"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Tijd die nog komt",
+    "shortClue": "Komende tijd"
+  },
+  {
+    "word": "moment",
+    "topics": ["general"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Zeer korte tijdsspanne",
+    "shortClue": "Ogenblik"
+  },
+  {
+    "word": "dinsdag",
+    "topics": ["general"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Tweede van de vijf in de werkweek",
+    "shortClue": "Na het weekbegin"
+  },
+  {
+    "word": "woensdag",
+    "topics": ["general"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Derde van de vijf in de werkweek",
+    "shortClue": "Weekmidden"
+  },
+  {
+    "word": "donderdag",
+    "topics": ["general"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Vierde van de vijf in de werkweek",
+    "shortClue": "Voor het weekend"
+  },
+  {
+    "word": "zondag",
+    "topics": ["general"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Laatste van de zeven in de week",
+    "shortClue": "Rustig weekeinde"
+  },
+  {
+    "word": "januari",
+    "topics": ["general"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Eerste maand van het jaar",
+    "shortClue": "Jaarbegin"
+  },
+  {
+    "word": "april",
+    "topics": ["general"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Lentemaand met wisselend weer",
+    "shortClue": "Lentemaand"
+  },
+  {
+    "word": "augustus",
+    "topics": ["general"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Achtste maand van het jaar",
+    "shortClue": "Zomermaand"
+  },
+  {
+    "word": "november",
+    "topics": ["general"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Elfde maand van het jaar",
+    "shortClue": "Herfstmaand"
+  },
+  {
+    "word": "gezin",
+    "topics": ["general"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Ouders met hun kinderen",
+    "shortClue": "Vader, moeder, kind"
+  },
+  {
+    "word": "baby",
+    "topics": ["general"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Kleine mens in de wieg",
+    "shortClue": "Zuigeling"
+  },
+  {
+    "word": "oom",
+    "topics": ["general"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Broer van je vader of moeder",
+    "shortClue": "Familielid"
+  },
+  {
+    "word": "zoon",
+    "topics": ["general"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Mannelijk kind van zijn ouders",
+    "shortClue": "Mannelijk kind"
+  },
+  {
+    "word": "bruid",
+    "topics": ["general"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Vrouw op haar trouwdag",
+    "shortClue": "Trouwende vrouw"
+  },
+  {
+    "word": "tempo",
+    "topics": ["general"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Snelheid waarmee iets verloopt",
+    "shortClue": "Vaart"
+  },
+  {
+    "word": "verschil",
+    "topics": ["general"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Wat twee dingen van elkaar scheidt",
+    "shortClue": "Ongelijkheid"
+  },
+  {
+    "word": "keuze",
+    "topics": ["general"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Beslissing tussen mogelijkheden",
+    "shortClue": "Voorkeur"
+  },
+  {
+    "word": "wens",
+    "topics": ["general"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Iets dat je graag wilt hebben",
+    "shortClue": "Gehoopte zaak"
+  },
+  {
+    "word": "doel",
+    "topics": ["general"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Waar je naartoe werkt",
+    "shortClue": "Streven"
+  },
+  {
+    "word": "plan",
+    "topics": ["general"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Vooraf bedachte aanpak",
+    "shortClue": "Voornemen"
+  },
+  {
+    "word": "moeite",
+    "topics": ["general"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Inspanning die iets kost",
+    "shortClue": "Inspanning"
+  },
+  {
+    "word": "succes",
+    "topics": ["general"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Goede afloop van een poging",
+    "shortClue": "Geslaagde poging"
+  },
+  {
+    "word": "winst",
+    "topics": ["general"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Wat je overhoudt na aftrek van de kosten",
+    "shortClue": "Opbrengst"
+  },
+  {
+    "word": "belang",
+    "topics": ["general"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Betekenis die iets voor je heeft",
+    "shortClue": "Gewicht"
+  },
+  {
+    "word": "tekort",
+    "topics": ["general"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Minder dan nodig is",
+    "shortClue": "Gebrek"
+  },
+  {
+    "word": "bezit",
+    "topics": ["general"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Wat iemand toebehoort",
+    "shortClue": "Eigendom"
+  },
+  {
+    "word": "gebruik",
+    "topics": ["general"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Het ergens voor inzetten",
+    "shortClue": "Toepassing"
+  },
+  {
+    "word": "schade",
+    "topics": ["general"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Verlies of kapotte spullen na een ongeval",
+    "shortClue": "Nadelig gevolg"
+  },
+  {
+    "word": "herinnering",
+    "topics": ["general"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Wat je nog weet van vroeger",
+    "shortClue": "Geheugenbeeld"
+  },
+  {
+    "word": "aandacht",
+    "topics": ["general"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Het bewust opletten",
+    "shortClue": "Oplettendheid"
+  },
+  {
+    "word": "fout",
+    "topics": ["general"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Iets dat niet klopt",
+    "shortClue": "Misser"
+  },
+  {
+    "word": "hulp",
+    "topics": ["general"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Wat je geeft aan wie het nodig heeft",
+    "shortClue": "Bijstand"
+  },
+  {
+    "word": "steun",
+    "topics": ["general"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Houvast dat je van anderen krijgt",
+    "shortClue": "Houvast"
+  },
+  {
+    "word": "raad",
+    "topics": ["general"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Wijze tip van iemand die het weet",
+    "shortClue": "Advies"
+  },
+  {
+    "word": "ruzie",
+    "topics": ["general"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Heftig meningsverschil",
+    "shortClue": "Twist"
+  },
+  {
+    "word": "respect",
+    "topics": ["general"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Eerbied voor iemand",
+    "shortClue": "Achting"
+  },
+  {
+    "word": "eer",
+    "topics": ["general"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Hoge achting die je geniet",
+    "shortClue": "Aanzien"
+  },
+  {
+    "word": "moed",
+    "topics": ["general"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Durf om iets engs te doen",
+    "shortClue": "Durf"
+  },
+  {
+    "word": "geest",
+    "topics": ["general"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Denkend deel van de mens",
+    "shortClue": "Verstand"
+  },
+  {
+    "word": "mening",
+    "topics": ["general"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Wat je ergens van vindt",
+    "shortClue": "Opvatting"
+  },
+  {
+    "word": "voorbeeld",
+    "topics": ["general"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Geval dat iets duidelijk maakt",
+    "shortClue": "Model"
+  },
+  {
+    "word": "soort",
+    "topics": ["general"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Groep van dingen met overeenkomsten",
+    "shortClue": "Categorie"
+  },
+  {
+    "word": "vorm",
+    "topics": ["general"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Uiterlijke gedaante van iets",
+    "shortClue": "Gedaante"
+  },
+  {
+    "word": "patroon",
+    "topics": ["general"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Terugkerend motief van lijnen of figuren",
+    "shortClue": "Herhaling"
+  },
+  {
+    "word": "teken",
+    "topics": ["general"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Iets dat een boodschap overbrengt",
+    "shortClue": "Symbool"
+  },
+  {
+    "word": "naam",
+    "topics": ["general"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Woord waarmee iemand wordt aangeduid",
+    "shortClue": "Benaming"
+  },
+  {
+    "word": "nummer",
+    "topics": ["general"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Cijfer waarmee je iets onderscheidt",
+    "shortClue": "Cijfercode"
+  },
+  {
+    "word": "getal",
+    "topics": ["general"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Wat je met cijfers opschrijft om te tellen",
+    "shortClue": "Telwaarde"
+  },
+  {
+    "word": "som",
+    "topics": ["general"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Rekenopgave op school",
+    "shortClue": "Optelling"
+  },
+  {
+    "word": "adres",
+    "topics": ["general"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Straat en nummer waar je woont",
+    "shortClue": "Bezorgplek"
+  },
+  {
+    "word": "honger",
+    "topics": ["general"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Gevoel dat je wilt eten",
+    "shortClue": "Lege maag"
+  },
+  {
+    "word": "dorst",
+    "topics": ["general"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Behoefte om te drinken",
+    "shortClue": "Drinklust"
+  },
+  {
+    "word": "slaap",
+    "topics": ["general"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Toestand met gesloten ogen in bed",
+    "shortClue": "Nachtrust"
+  },
+  {
+    "word": "overleg",
+    "topics": ["general"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Samen bespreken wat te doen",
+    "shortClue": "Beraad"
+  },
+  {
+    "word": "ingang",
+    "topics": ["general"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Plek waar je naar binnen gaat",
+    "shortClue": "Opening naar binnen"
+  },
+  {
+    "word": "uitgang",
+    "topics": ["general"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Plek waar je naar buiten gaat",
+    "shortClue": "Uitweg"
+  },
+  {
+    "word": "stap",
+    "topics": ["general"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Beweging van één voet vooruit",
+    "shortClue": "Pas"
+  },
+  {
+    "word": "sprong",
+    "topics": ["general"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Zet van de grond omhoog",
+    "shortClue": "Zet naar boven"
+  },
+  {
+    "word": "val",
+    "topics": ["general"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Plotselinge duik naar beneden",
+    "shortClue": "Onverwachte duik"
+  },
+  {
+    "word": "slag",
+    "topics": ["general"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Harde klap of mep",
+    "shortClue": "Harde klap"
+  },
+  {
+    "word": "greep",
+    "topics": ["general"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Het stevig vastpakken met de hand",
+    "shortClue": "Vaste pakking"
+  },
+  {
+    "word": "knik",
+    "topics": ["general"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Beweging van het hoofd als ja",
+    "shortClue": "Hoofdbeweging"
+  },
+  {
+    "word": "wenk",
+    "topics": ["general"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Kleine hint die de weg wijst",
+    "shortClue": "Aanwijzing"
+  },
+  {
+    "word": "zomer",
+    "topics": ["nature"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Warm jaargetijde na de lente",
+    "shortClue": "Warm seizoen"
+  },
+  {
+    "word": "winter",
+    "topics": ["nature"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Koudste jaargetijde met kans op sneeuw",
+    "shortClue": "Koud seizoen"
+  },
+  {
+    "word": "hagel",
+    "topics": ["nature"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "IJskorrels die uit een bui vallen",
+    "shortClue": "Ijskorrels"
+  },
+  {
+    "word": "regenboog",
+    "topics": ["nature"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Kleurig lichtverschijnsel aan de hemel na een bui",
+    "shortClue": "Hemelkleuren"
+  },
+  {
+    "word": "maan",
+    "topics": ["nature"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Hemellichaam dat om de aarde draait",
+    "shortClue": "Aardse satelliet"
+  },
+  {
+    "word": "getij",
+    "topics": ["nature"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Wisseling van eb en vloed",
+    "shortClue": "Eb en vloed"
+  },
+  {
+    "word": "branding",
+    "topics": ["nature"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Schuimend breken van golven aan de kust",
+    "shortClue": "Schuimende golven"
+  },
+  {
+    "word": "grot",
+    "topics": ["nature"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Natuurlijke holte in de bergwand",
+    "shortClue": "Rotsholte"
+  },
+  {
+    "word": "zand",
+    "topics": ["nature"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Fijne korrels op het strand",
+    "shortClue": "Strandkorrels"
+  },
+  {
+    "word": "waterval",
+    "topics": ["nature"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Stroom die loodrecht van een rots naar beneden stort",
+    "shortClue": "Stortstroom"
+  },
+  {
+    "word": "plas",
+    "topics": ["nature"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Ondiep water op de weg na een bui",
+    "shortClue": "Regenvocht"
+  },
+  {
+    "word": "paddenstoel",
+    "topics": ["nature"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Schimmel met hoed en steel in het bos",
+    "shortClue": "Bosschimmel"
+  },
+  {
+    "word": "mos",
+    "topics": ["nature"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Zacht groen plantje op stenen en bomen",
+    "shortClue": "Groene bedekking"
+  },
+  {
+    "word": "heide",
+    "topics": ["nature"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Open landschap met paars struikgewas",
+    "shortClue": "Paarse vlakte"
+  },
+  {
+    "word": "weide",
+    "topics": ["nature"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Grasland waar vee loopt",
+    "shortClue": "Graasveld"
+  },
+  {
+    "word": "esdoorn",
+    "topics": ["nature"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Boom met gelobde bladeren en gevleugelde zaden",
+    "shortClue": "Gelobde bladeren"
+  },
+  {
+    "word": "kastanje",
+    "topics": ["nature"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Glanzend bruine vrucht in een stekelschil",
+    "shortClue": "Herfstvrucht"
+  },
+  {
+    "word": "populier",
+    "topics": ["nature"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Hoge slanke boom met trillende bladeren",
+    "shortClue": "Hoge slanke boom"
+  },
+  {
+    "word": "lariks",
+    "topics": ["nature"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Naaldboom die zijn naalden in de herfst verliest",
+    "shortClue": "Kale naaldboom"
+  },
+  {
+    "word": "paardenbloem",
+    "topics": ["nature"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Gele wegbermplant met een pluizige zaadbol",
+    "shortClue": "Pluisplant"
+  },
+  {
+    "word": "distel",
+    "topics": ["nature"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Stekelige plant met een paarse kop",
+    "shortClue": "Prikplant"
+  },
+  {
+    "word": "brandnetel",
+    "topics": ["nature"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Plant met prikkelende haartjes die jeuk geven",
+    "shortClue": "Jeukplant"
+  },
+  {
+    "word": "klaver",
+    "topics": ["nature"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Plantje met drie blaadjes, soms vier",
+    "shortClue": "Geluksplantje"
+  },
+  {
+    "word": "zonnebloem",
+    "topics": ["nature"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Hoge plant met een grote gele schijf vol zaden",
+    "shortClue": "Gele reus"
+  },
+  {
+    "word": "lelie",
+    "topics": ["nature"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Sierplant met trompetvormige kelk",
+    "shortClue": "Witte sierplant"
+  },
+  {
+    "word": "krokus",
+    "topics": ["nature"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Vroege lentebolletje in paars, geel of wit",
+    "shortClue": "Vroege bloeier"
+  },
+  {
+    "word": "hyacint",
+    "topics": ["nature"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Geurige bolplant met dikke trossen",
+    "shortClue": "Geurige bol"
+  },
+  {
+    "word": "koe",
+    "topics": ["animals"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Melkgevend dier op de weide",
+    "shortClue": "Melkdier"
+  },
+  {
+    "word": "kip",
+    "topics": ["animals"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Pluimvee dat eieren legt",
+    "shortClue": "Eierleverancier"
+  },
+  {
+    "word": "eend",
+    "topics": ["animals"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Watervogel die kwaakt",
+    "shortClue": "Kwakker"
+  },
+  {
+    "word": "ezel",
+    "topics": ["animals"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Grijs lastdier met lange oren",
+    "shortClue": "Langoor"
+  },
+  {
+    "word": "kameel",
+    "topics": ["animals"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Woestijndier met een of twee bulten",
+    "shortClue": "Woestijnschip"
+  },
+  {
+    "word": "eekhoorn",
+    "topics": ["animals"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Roodbruin boomdier met pluimstaart",
+    "shortClue": "Boomklimmer"
+  },
+  {
+    "word": "egel",
+    "topics": ["animals"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Stekelig dier dat zich oprolt",
+    "shortClue": "Stekelbol"
+  },
+  {
+    "word": "mol",
+    "topics": ["animals"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Bijna blind dier dat gangen graaft",
+    "shortClue": "Gangengraver"
+  },
+  {
+    "word": "vleermuis",
+    "topics": ["animals"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Zoogdier dat in het donker met vleugelhuid vliegt",
+    "shortClue": "Nachtvlieger"
+  },
+  {
+    "word": "kraai",
+    "topics": ["animals"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Zwarte vogel die krast",
+    "shortClue": "Zwarte vogel"
+  },
+  {
+    "word": "specht",
+    "topics": ["animals"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Vogel die met zijn snavel op bomen hamert",
+    "shortClue": "Boomhamer"
+  },
+  {
+    "word": "ooievaar",
+    "topics": ["animals"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Grote witte vogel met rode snavel en lange poten",
+    "shortClue": "Babybrenger"
+  },
+  {
+    "word": "struisvogel",
+    "topics": ["animals"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Grote Afrikaanse loper die niet kan vliegen",
+    "shortClue": "Grote loper"
+  },
+  {
+    "word": "flamingo",
+    "topics": ["animals"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Roze steltloper die op één poot staat",
+    "shortClue": "Roze steltloper"
+  },
+  {
+    "word": "papegaai",
+    "topics": ["animals"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Kleurrijke vogel die woorden nabootst",
+    "shortClue": "Nabootser"
+  },
+  {
+    "word": "ekster",
+    "topics": ["animals"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Zwart-witte vogel met lange staart",
+    "shortClue": "Zwart-witte vogel"
+  },
+  {
+    "word": "zwaluw",
+    "topics": ["animals"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Wendbare trekvogel met gevorkte staart",
+    "shortClue": "Gevorkte staart"
+  },
+  {
+    "word": "koekoek",
+    "topics": ["animals"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Vogel die zijn eieren in andermans nest legt",
+    "shortClue": "Nestparasiet"
+  },
+  {
+    "word": "makreel",
+    "topics": ["animals"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Gestreepte zeevis, vaak gerookt",
+    "shortClue": "Gerookte zeevis"
+  },
+  {
+    "word": "schol",
+    "topics": ["animals"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Platvis met oranje stippen",
+    "shortClue": "Gevlekte platvis"
+  },
+  {
+    "word": "hommel",
+    "topics": ["animals"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Harig, dik insect dat bloemen bestuift",
+    "shortClue": "Bestuiver"
+  },
+  {
+    "word": "schildpad",
+    "topics": ["animals"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Reptiel met een harde rugschaal",
+    "shortClue": "Langzaam reptiel"
+  },
+  {
+    "word": "krokodil",
+    "topics": ["animals"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Reptiel met sterke kaken in tropisch water",
+    "shortClue": "Tropisch reptiel"
+  },
+  {
+    "word": "luipaard",
+    "topics": ["animals"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Gevlekte grote kat die in bomen klimt",
+    "shortClue": "Gevlekte kat"
+  },
+  {
+    "word": "kangoeroe",
+    "topics": ["animals"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Australisch buideldier dat springt",
+    "shortClue": "Buideldier"
+  },
+  {
+    "word": "walrus",
+    "topics": ["animals"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Zeezoogdier met lange slagtanden",
+    "shortClue": "Slagtanddier"
+  },
+  {
+    "word": "oester",
+    "topics": ["animals"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Schelpdier dat een parel kan maken",
+    "shortClue": "Schelpdier"
+  },
+  {
+    "word": "cavia",
+    "topics": ["animals"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Knaagdier uit Zuid-Amerika dat als huisdier wordt gehouden",
+    "shortClue": "Knaagdier"
+  },
+  {
+    "word": "tonijn",
+    "topics": ["animals"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Grote snelle zeevis uit blik",
+    "shortClue": "Blikvis"
+  },
+  {
+    "word": "pannenkoek",
+    "topics": ["food"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Ronde plak gebakken beslag met stroop of spek",
+    "shortClue": "Gebakken beslag"
+  },
+  {
+    "word": "wafel",
+    "topics": ["food"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Krokant gebak uit een ijzer met ruitpatroon",
+    "shortClue": "Ruitjesgebak"
+  },
+  {
+    "word": "friet",
+    "topics": ["food"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Lange gebakken aardappelreepjes met mayonaise",
+    "shortClue": "Aardappelreepjes"
+  },
+  {
+    "word": "beschuit",
+    "topics": ["food"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Knapperig rond gebak om te smeren",
+    "shortClue": "Droog rondje"
+  },
+  {
+    "word": "pistolet",
+    "topics": ["food"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Knapperig langwerpig ontbijtbolletje in België",
+    "shortClue": "Belgisch bolletje"
+  },
+  {
+    "word": "gouda",
+    "topics": ["food"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Platte ronde Hollandse kaas",
+    "shortClue": "Hollandse kaas"
+  },
+  {
+    "word": "edammer",
+    "topics": ["food"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Bolvormige kaas met een rode wasmantel",
+    "shortClue": "Rode kaasbol"
+  },
+  {
+    "word": "karnemelk",
+    "topics": ["food"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Zure drank die overblijft bij het maken van boter",
+    "shortClue": "Zure zuivel"
+  },
+  {
+    "word": "kwark",
+    "topics": ["food"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Verse zachte zuivel, dikker dan yoghurt",
+    "shortClue": "Verse zuivel"
+  },
+  {
+    "word": "hangop",
+    "topics": ["food"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Zuiveldessert van uitgelekte yoghurt",
+    "shortClue": "Uitgelekte yoghurt"
+  },
+  {
+    "word": "slagroom",
+    "topics": ["food"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Luchtig opgeklopt zuivelbeleg op taart",
+    "shortClue": "Luchtige topping"
+  },
+  {
+    "word": "andijvie",
+    "topics": ["food"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Bittere bladgroente voor in de stamppot",
+    "shortClue": "Bittere bladgroente"
+  },
+  {
+    "word": "spinazie",
+    "topics": ["food"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Donkergroene bladgroente vol ijzer",
+    "shortClue": "Bladgroente"
+  },
+  {
+    "word": "bloemkool",
+    "topics": ["food"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Witte, bolle kopgroente met kleine roosjes",
+    "shortClue": "Witte roosjes"
+  },
+  {
+    "word": "knoflook",
+    "topics": ["food"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Pittige bol met teentjes, sterk van geur",
+    "shortClue": "Teentjesbol"
+  },
+  {
+    "word": "venkel",
+    "topics": ["food"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Knolgroente met een anijssmaak",
+    "shortClue": "Anijsgroente"
+  },
+  {
+    "word": "radijs",
+    "topics": ["food"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Rood knolletje met een scherpe smaak",
+    "shortClue": "Rood knolletje"
+  },
+  {
+    "word": "zuurkool",
+    "topics": ["food"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Gegiste, fijn gesneden witte groente uit een pot",
+    "shortClue": "Gegiste groente"
+  },
+  {
+    "word": "asperge",
+    "topics": ["food"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Lange witte of groene stengelgroente in het voorjaar",
+    "shortClue": "Lentegroente"
+  },
+  {
+    "word": "postelein",
+    "topics": ["food"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Zachte, vlezige bladgroente voor in de salade",
+    "shortClue": "Vlezige bladgroente"
+  },
+  {
+    "word": "abrikoos",
+    "topics": ["food"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Oranje steenvrucht met fluweelzachte schil",
+    "shortClue": "Fluweelvrucht"
+  },
+  {
+    "word": "perzik",
+    "topics": ["food"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Zachte vrucht met donzige schil en harde pit",
+    "shortClue": "Donzige vrucht"
+  },
+  {
+    "word": "bosbes",
+    "topics": ["food"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Blauwzwarte vrucht aan lage struikjes in de heide",
+    "shortClue": "Blauwe vrucht"
+  },
+  {
+    "word": "aalbes",
+    "topics": ["food"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Glanzend rood trosvruchtje aan een struik",
+    "shortClue": "Rode trosvrucht"
+  },
+  {
+    "word": "vijg",
+    "topics": ["food"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Zoete vrucht vol zaadjes uit het Middellandse Zeegebied",
+    "shortClue": "Zoete zaadvrucht"
+  },
+  {
+    "word": "hachee",
+    "topics": ["food"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Gestoofd vlees met uien en azijn",
+    "shortClue": "Uienstoofpot"
+  },
+  {
+    "word": "waterzooi",
+    "topics": ["food"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Vlaamse stoofschotel van kip of vis in een romige saus",
+    "shortClue": "Vlaamse stoofpot"
+  },
+  {
+    "word": "kibbeling",
+    "topics": ["food"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Gebakken stukjes kabeljauw van de viskraam",
+    "shortClue": "Gebakken vishapjes"
+  },
+  {
+    "word": "bokking",
+    "topics": ["food"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Heel gerookte haring",
+    "shortClue": "Gerookte vis"
+  },
+  {
+    "word": "kaneel",
+    "topics": ["food"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Kruid uit de schors van een tropische boom",
+    "shortClue": "Bruin kruid"
+  },
+  {
+    "word": "nootmuskaat",
+    "topics": ["food"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Geraspt kruid uit een tropisch zaad",
+    "shortClue": "Geraspt kruid"
+  },
+  {
+    "word": "bieslook",
+    "topics": ["food"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Dun groen kruid met een mild uienaroma",
+    "shortClue": "Groen kruid"
+  },
+  {
+    "word": "dille",
+    "topics": ["food"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Fijn kruid voor bij zalm en augurk",
+    "shortClue": "Fijn kruid"
+  },
+  {
+    "word": "stoofvlees",
+    "topics": ["food"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Vlaams gerecht van langzaam gegaard rund met bier",
+    "shortClue": "Vlaams gerecht"
+  },
+  {
+    "word": "polder",
+    "topics": ["geography"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Land dat aan het water is ontnomen",
+    "shortClue": "Drooggelegd land"
+  },
+  {
+    "word": "continent",
+    "topics": ["geography"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Werelddeel zoals Azië of Afrika",
+    "shortClue": "Werelddeel"
+  },
+  {
+    "word": "evenaar",
+    "topics": ["geography"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Denkbeeldige lijn halverwege tussen de polen",
+    "shortClue": "Middenlijn"
+  },
+  {
+    "word": "halfrond",
+    "topics": ["geography"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Helft van de aarde, noord of zuid",
+    "shortClue": "Aardhelft"
+  },
+  {
+    "word": "meridiaan",
+    "topics": ["geography"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Cirkel over de aarde van pool naar pool",
+    "shortClue": "Lengtecirkel"
+  },
+  {
+    "word": "gebergte",
+    "topics": ["geography"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Aaneengesloten reeks hoge toppen",
+    "shortClue": "Hoge toppen"
+  },
+  {
+    "word": "zijrivier",
+    "topics": ["geography"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Stroompje dat in een hoofdstroom uitmondt",
+    "shortClue": "Bijstroom"
+  },
+  {
+    "word": "monding",
+    "topics": ["geography"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Plek waar een rivier de zee bereikt",
+    "shortClue": "Uitstroom"
+  },
+  {
+    "word": "lagune",
+    "topics": ["geography"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Ondiep water achter een smalle strook land",
+    "shortClue": "Kustmeertje"
+  },
+  {
+    "word": "atol",
+    "topics": ["geography"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Ringvormig koraaleiland",
+    "shortClue": "Ringeiland"
+  },
+  {
+    "word": "zandbank",
+    "topics": ["geography"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Ondiepte in zee die bij eb droogvalt",
+    "shortClue": "Droogvallende ondiepte"
+  },
+  {
+    "word": "fjord",
+    "topics": ["geography"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Lange smalle zeearm tussen steile rotswanden",
+    "shortClue": "Diepe zeearm"
+  },
+  {
+    "word": "steppe",
+    "topics": ["geography"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Droge grasvlakte in Oost-Europa en Azië",
+    "shortClue": "Grasvlakte"
+  },
+  {
+    "word": "toendra",
+    "topics": ["geography"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Boomloze koude vlakte in het hoge noorden",
+    "shortClue": "Noordelijke vlakte"
+  },
+  {
+    "word": "savanne",
+    "topics": ["geography"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Grasland met verspreide bomen in Afrika",
+    "shortClue": "Afrikaanse graslanden"
+  },
+  {
+    "word": "woestijn",
+    "topics": ["geography"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Droog gebied met zand en nauwelijks regen",
+    "shortClue": "Droog gebied"
+  },
+  {
+    "word": "plateau",
+    "topics": ["geography"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Uitgestrekt hoogland met een vlakke top",
+    "shortClue": "Hoogvlakte"
+  },
+  {
+    "word": "hoofdstad",
+    "topics": ["geography"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Plaats waar het bestuur van een land zetelt",
+    "shortClue": "Regeringszetel"
+  },
+  {
+    "word": "provincie",
+    "topics": ["geography"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Deel van een land met eigen bestuur",
+    "shortClue": "Landsdeel"
+  },
+  {
+    "word": "atlas",
+    "topics": ["geography"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Boek vol landkaarten",
+    "shortClue": "Kaartenboek"
+  },
+  {
+    "word": "Friesland",
+    "topics": ["geography"],
+    "difficulty": 1,
+    "kind": "proper",
+    "clue": "Noordelijke provincie met een eigen taal",
+    "shortClue": "Noordelijke provincie"
+  },
+  {
+    "word": "Flevoland",
+    "topics": ["geography"],
+    "difficulty": 2,
+    "kind": "proper",
+    "clue": "Provincie op drooggelegde bodem",
+    "shortClue": "Polderprovincie"
+  },
+  {
+    "word": "Overijssel",
+    "topics": ["geography"],
+    "difficulty": 2,
+    "kind": "proper",
+    "clue": "Provincie met Zwolle en Deventer",
+    "shortClue": "Provincie van Zwolle"
+  },
+  {
+    "word": "Antwerpen",
+    "topics": ["geography"],
+    "difficulty": 1,
+    "kind": "proper",
+    "clue": "Vlaamse havenstad aan de Schelde",
+    "shortClue": "Belgische havenstad"
+  },
+  {
+    "word": "Brugge",
+    "topics": ["geography"],
+    "difficulty": 1,
+    "kind": "proper",
+    "clue": "Westvlaamse stad met middeleeuws centrum en grachten",
+    "shortClue": "Stad met grachten"
+  },
+  {
+    "word": "Gent",
+    "topics": ["geography"],
+    "difficulty": 1,
+    "kind": "proper",
+    "clue": "Vlaamse stad met het Gravensteen",
+    "shortClue": "Gravensteenstad"
+  },
+  {
+    "word": "Mechelen",
+    "topics": ["geography"],
+    "difficulty": 2,
+    "kind": "proper",
+    "clue": "Vlaamse stad met een wereldberoemde beiaardschool",
+    "shortClue": "Beiaardstad"
+  },
+  {
+    "word": "Hasselt",
+    "topics": ["geography"],
+    "difficulty": 2,
+    "kind": "proper",
+    "clue": "Hoofdstad van de Belgische provincie Limburg",
+    "shortClue": "Limburgse hoofdstad"
+  },
+  {
+    "word": "Oostende",
+    "topics": ["geography"],
+    "difficulty": 2,
+    "kind": "proper",
+    "clue": "Belgische badplaats aan de Noordzee",
+    "shortClue": "Badplaats"
+  },
+  {
+    "word": "Schelde",
+    "topics": ["geography"],
+    "difficulty": 2,
+    "kind": "proper",
+    "clue": "Rivier die bij Antwerpen naar zee stroomt",
+    "shortClue": "Antwerpse rivier"
+  },
+  {
+    "word": "Amstel",
+    "topics": ["geography"],
+    "difficulty": 2,
+    "kind": "proper",
+    "clue": "Rivier die door de hoofdstad stroomt",
+    "shortClue": "Hoofdstadrivier"
+  },
+  {
+    "word": "Veluwe",
+    "topics": ["geography"],
+    "difficulty": 2,
+    "kind": "proper",
+    "clue": "Bosrijk heuvelgebied in Gelderland",
+    "shortClue": "Heuvelgebied"
+  },
+  {
+    "word": "Vaalserberg",
+    "topics": ["geography"],
+    "difficulty": 3,
+    "kind": "proper",
+    "clue": "Hoogste punt op het Nederlandse vasteland",
+    "shortClue": "Dak van Nederland"
+  },
+  {
+    "word": "IJsselmeer",
+    "topics": ["geography"],
+    "difficulty": 2,
+    "kind": "proper",
+    "clue": "Groot zoetwaterbekken achter de Afsluitdijk",
+    "shortClue": "Voormalige Zuiderzee"
+  },
+  {
+    "word": "Biesbosch",
+    "topics": ["geography"],
+    "difficulty": 3,
+    "kind": "proper",
+    "clue": "Nationaal park met kreken en wilgen bij Dordrecht",
+    "shortClue": "Kreken en wilgen"
+  },
+  {
+    "word": "Achterhoek",
+    "topics": ["geography"],
+    "difficulty": 2,
+    "kind": "proper",
+    "clue": "Gelderse streek met kastelen en weilanden",
+    "shortClue": "Gelderse streek"
+  },
+  {
+    "word": "Leuven",
+    "topics": ["geography"],
+    "difficulty": 2,
+    "kind": "proper",
+    "clue": "Vlaamse universiteitsstad",
+    "shortClue": "Studentenstad"
+  },
+  {
+    "word": "adel",
+    "topics": ["history"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Maatschappelijke bovenlaag met titels als graaf en baron",
+    "shortClue": "Hoge stand"
+  },
+  {
+    "word": "burg",
+    "topics": ["history"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Versterkte woonplaats van een heer in de middeleeuwen",
+    "shortClue": "Versterkt huis"
+  },
+  {
+    "word": "troon",
+    "topics": ["history"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Zetel van een vorst",
+    "shortClue": "Koningszetel"
+  },
+  {
+    "word": "markt",
+    "topics": ["history"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Plein waar kooplieden hun waar uitstallen",
+    "shortClue": "Handelsplein"
+  },
+  {
+    "word": "vlag",
+    "topics": ["history"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Gekleurd doek aan een mast",
+    "shortClue": "Wapperdoek"
+  },
+  {
+    "word": "speer",
+    "topics": ["history"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Lange stok met een metalen punt om te werpen",
+    "shortClue": "Werpwapen"
+  },
+  {
+    "word": "dolk",
+    "topics": ["history"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Kort scherp steekwapen",
+    "shortClue": "Korte kling"
+  },
+  {
+    "word": "bijl",
+    "topics": ["history"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Gereedschap met houten steel en een breed lemmet",
+    "shortClue": "Hakwapen"
+  },
+  {
+    "word": "galei",
+    "topics": ["history"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Oud schip met rijen roeiers",
+    "shortClue": "Roeischip"
+  },
+  {
+    "word": "kogge",
+    "topics": ["history"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Breed middeleeuws zeilschip van de Hanze",
+    "shortClue": "Hanzeschip"
+  },
+  {
+    "word": "vloot",
+    "topics": ["history"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Groep schepen onder één bevel",
+    "shortClue": "Scheepsmacht"
+  },
+  {
+    "word": "monnik",
+    "topics": ["history"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Man die in een klooster leeft",
+    "shortClue": "Kloosterling"
+  },
+  {
+    "word": "abdij",
+    "topics": ["history"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Klooster onder leiding van een abt",
+    "shortClue": "Kloostergemeenschap"
+  },
+  {
+    "word": "schout",
+    "topics": ["history"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Vroegere stedelijke ambtenaar die misdaden vervolgde",
+    "shortClue": "Oud ambtenaar"
+  },
+  {
+    "word": "baljuw",
+    "topics": ["history"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Middeleeuws bestuurder van een gewest",
+    "shortClue": "Gewestbestuurder"
+  },
+  {
+    "word": "regent",
+    "topics": ["history"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Bestuurder die voor een minderjarige vorst optreedt",
+    "shortClue": "Waarnemend bestuurder"
+  },
+  {
+    "word": "pachter",
+    "topics": ["history"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Landbouwer die land huurt van een eigenaar",
+    "shortClue": "Landhuurder"
+  },
+  {
+    "word": "legioen",
+    "topics": ["history"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Grote eenheid van het Romeinse leger",
+    "shortClue": "Romeinse eenheid"
+  },
+  {
+    "word": "hunebed",
+    "topics": ["history"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Grafmonument van grote stenen in Drenthe",
+    "shortClue": "Stenen grafkamer"
+  },
+  {
+    "word": "terp",
+    "topics": ["history"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Kunstmatige woonheuvel in Friesland of Groningen",
+    "shortClue": "Woonheuvel"
+  },
+  {
+    "word": "limes",
+    "topics": ["history"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Grens van het Romeinse Rijk langs de Rijn",
+    "shortClue": "Romeinse grens"
+  },
+  {
+    "word": "vesting",
+    "topics": ["history"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Stad omringd door sterke wallen en grachten",
+    "shortClue": "Wallenstad"
+  },
+  {
+    "word": "pelgrim",
+    "topics": ["history"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Reiziger naar een heilige plaats",
+    "shortClue": "Bedevaartganger"
+  },
+  {
+    "word": "rijk",
+    "topics": ["history"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Groot staatsverband onder een keizer",
+    "shortClue": "Grote staat"
+  },
+  {
+    "word": "hofnar",
+    "topics": ["history"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Grappenmaker in dienst van een vorst",
+    "shortClue": "Vorstelijke grappenmaker"
+  },
+  {
+    "word": "wapenrok",
+    "topics": ["history"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Kledingstuk met embleem over het harnas",
+    "shortClue": "Ridderkleed"
+  },
+  {
+    "word": "dijkgraaf",
+    "topics": ["history"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Hoofd van een waterschap",
+    "shortClue": "Waterheer"
+  },
+  {
+    "word": "raadhuis",
+    "topics": ["history"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Gemeentelijk bestuursgebouw met klokkentoren",
+    "shortClue": "Gemeentegebouw"
+  },
+  {
+    "word": "poorter",
+    "topics": ["history"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Stadsbewoner met burgerrechten",
+    "shortClue": "Burger vroeger"
+  },
+  {
+    "word": "kroniek",
+    "topics": ["history"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Geschreven verslag van gebeurtenissen in volgorde",
+    "shortClue": "Tijdschrijving"
+  },
+  {
+    "word": "astrolabium",
+    "topics": ["history"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Oud instrument om de stand van de sterren te meten",
+    "shortClue": "Sterrenmeter"
+  },
+  {
+    "word": "turf",
+    "topics": ["history"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Gedroogd veen als brandstof",
+    "shortClue": "Brandstof uit veen"
+  },
+  {
+    "word": "specerij",
+    "topics": ["history"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Gedroogd kruid uit verre landen, ooit goud waard",
+    "shortClue": "Oosters kruid"
+  },
+  {
+    "word": "gas",
+    "topics": ["science"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Stof zonder vaste vorm, zoals lucht",
+    "shortClue": "Luchtsoort"
+  },
+  {
+    "word": "damp",
+    "topics": ["science"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Waterdeeltjes in gasvorm",
+    "shortClue": "Gasvormig water"
+  },
+  {
+    "word": "ohm",
+    "topics": ["science"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Eenheid van elektrische weerstand",
+    "shortClue": "Weerstandseenheid"
+  },
+  {
+    "word": "volt",
+    "topics": ["science"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Eenheid van elektrische spanning",
+    "shortClue": "Spanningseenheid"
+  },
+  {
+    "word": "watt",
+    "topics": ["science"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Eenheid van vermogen",
+    "shortClue": "Vermogenseenheid"
+  },
+  {
+    "word": "joule",
+    "topics": ["science"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Eenheid van energie",
+    "shortClue": "Eenheid van arbeid"
+  },
+  {
+    "word": "hertz",
+    "topics": ["science"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Eenheid van frequentie",
+    "shortClue": "Trillingseenheid"
+  },
+  {
+    "word": "eiwit",
+    "topics": ["science"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Voedingsstof die uit aminozuren bestaat",
+    "shortClue": "Spierbouwstof"
+  },
+  {
+    "word": "zuur",
+    "topics": ["science"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Scherpe stof met een lage pH",
+    "shortClue": "Scherpe stof"
+  },
+  {
+    "word": "lava",
+    "topics": ["science"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Gesmolten gesteente aan het aardoppervlak",
+    "shortClue": "Gesteentestroom"
+  },
+  {
+    "word": "magma",
+    "topics": ["science"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Gloeiende gesteentemassa diep onder de grond",
+    "shortClue": "Gesmolten gesteente"
+  },
+  {
+    "word": "virus",
+    "topics": ["science"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Ziekteverwekker die cellen kaapt",
+    "shortClue": "Kleine ziektekiem"
+  },
+  {
+    "word": "darm",
+    "topics": ["science"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Buisvormig orgaan waar voedsel wordt opgenomen",
+    "shortClue": "Voedselbuis"
+  },
+  {
+    "word": "oor",
+    "topics": ["science"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Orgaan om mee te horen",
+    "shortClue": "Hoororgaan"
+  },
+  {
+    "word": "neus",
+    "topics": ["science"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Orgaan om mee te ruiken",
+    "shortClue": "Reukorgaan"
+  },
+  {
+    "word": "tong",
+    "topics": ["science"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Spier in de mond waarmee je proeft",
+    "shortClue": "Smaakorgaan"
+  },
+  {
+    "word": "kies",
+    "topics": ["science"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Brede tand achterin de mond",
+    "shortClue": "Maaltand"
+  },
+  {
+    "word": "knie",
+    "topics": ["science"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Gewricht in het midden van je been",
+    "shortClue": "Beengewricht"
+  },
+  {
+    "word": "heup",
+    "topics": ["science"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Gewricht tussen romp en bovenbeen",
+    "shortClue": "Bekkengewricht"
+  },
+  {
+    "word": "rib",
+    "topics": ["science"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Gebogen bot dat de borstkas beschermt",
+    "shortClue": "Borstkasbot"
+  },
+  {
+    "word": "vaccin",
+    "topics": ["science"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Prik die het lichaam leert ziekte te weerstaan",
+    "shortClue": "Afweerprik"
+  },
+  {
+    "word": "fossiel",
+    "topics": ["science"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Versteend overblijfsel van een uitgestorven dier",
+    "shortClue": "Versteend overblijfsel"
+  },
+  {
+    "word": "kern",
+    "topics": ["science"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Middelste deel van een atoom of cel",
+    "shortClue": "Middelpunt"
+  },
+  {
+    "word": "breuk",
+    "topics": ["science"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Deel van een geheel, geschreven met een streep",
+    "shortClue": "Rekengetal"
+  },
+  {
+    "word": "straal",
+    "topics": ["science"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Lijn van het midden van een cirkel naar de rand",
+    "shortClue": "Halve middellijn"
+  },
+  {
+    "word": "kubus",
+    "topics": ["science"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Ruimtelijke vorm met zes gelijke vierkante zijden",
+    "shortClue": "Dobbelsteenvorm"
+  },
+  {
+    "word": "bol",
+    "topics": ["science"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Ronde vorm in de ruimte",
+    "shortClue": "Ruimtelijke cirkel"
+  },
+  {
+    "word": "kegel",
+    "topics": ["science"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Ruimtelijke vorm met een cirkel als grondvlak en een punt",
+    "shortClue": "Puntvorm"
+  },
+  {
+    "word": "ruit",
+    "topics": ["science"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Scheve vierhoek met vier gelijke zijden",
+    "shortClue": "Scheve vierhoek"
+  },
+  {
+    "word": "lever",
+    "topics": ["science"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Orgaan rechtsboven in de buik dat gal maakt",
+    "shortClue": "Galorgaan"
+  },
+  {
+    "word": "slagader",
+    "topics": ["science"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Bloedvat dat bloed van het hart wegvoert",
+    "shortClue": "Hartvat"
+  },
+  {
+    "word": "antistof",
+    "topics": ["science"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Eiwit dat het afweersysteem tegen indringers maakt",
+    "shortClue": "Afweereiwit"
+  },
+  {
+    "word": "mutatie",
+    "topics": ["science"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Plotselinge verandering in erfelijk materiaal",
+    "shortClue": "Genverandering"
+  },
+  {
+    "word": "erosie",
+    "topics": ["science"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Het wegslijten van bodem door water of wind",
+    "shortClue": "Afslijting"
+  },
+  {
+    "word": "gewricht",
+    "topics": ["science"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Plek waar twee botten beweeglijk aan elkaar zitten",
+    "shortClue": "Botverbinding"
+  },
+  {
+    "word": "reflex",
+    "topics": ["science"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Onwillekeurige snelle reactie van een spier",
+    "shortClue": "Automatische reactie"
+  },
+  {
+    "word": "spectrum",
+    "topics": ["science"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Kleurenband van uit elkaar gelegd licht",
+    "shortClue": "Kleurenband"
+  },
+  {
+    "word": "neuron",
+    "topics": ["science"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Zenuwcel die prikkels doorgeeft",
+    "shortClue": "Prikkelcel"
+  },
+  {
+    "word": "set",
+    "topics": ["sport"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Afgerond deel van een partij tennis of volleybal",
+    "shortClue": "Deelpartij"
+  },
+  {
+    "word": "golf",
+    "topics": ["sport"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Balsport op grote grasvelden met kleine gaatjes",
+    "shortClue": "Grasveldsport"
+  },
+  {
+    "word": "finale",
+    "topics": ["sport"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Laatste wedstrijd van een toernooi",
+    "shortClue": "Slotduel"
+  },
+  {
+    "word": "start",
+    "topics": ["sport"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Beginmoment van een race",
+    "shortClue": "Beginschot"
+  },
+  {
+    "word": "baan",
+    "topics": ["sport"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Afgebakende strook voor hardlopers of zwemmers",
+    "shortClue": "Renstrook"
+  },
+  {
+    "word": "piste",
+    "topics": ["sport"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Strook gladde sneeuw voor skiërs",
+    "shortClue": "Sneeuwhelling"
+  },
+  {
+    "word": "mat",
+    "topics": ["sport"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Zachte ondergrond voor judo of turnen",
+    "shortClue": "Zachte ondergrond"
+  },
+  {
+    "word": "paal",
+    "topics": ["sport"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Verticale stang in een voetbaldoel",
+    "shortClue": "Doelstang"
+  },
+  {
+    "word": "lat",
+    "topics": ["sport"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Horizontale balk boven in het doel",
+    "shortClue": "Dwarsbalk"
+  },
+  {
+    "word": "koers",
+    "topics": ["sport"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Wielerwedstrijd op de weg",
+    "shortClue": "Wielerrace"
+  },
+  {
+    "word": "etappe",
+    "topics": ["sport"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Dagdeel van een meerdaagse koers",
+    "shortClue": "Rittendeel"
+  },
+  {
+    "word": "tijdrit",
+    "topics": ["sport"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Koers waarbij elke renner alleen tegen de klok strijdt",
+    "shortClue": "Eenmansrace"
+  },
+  {
+    "word": "zadel",
+    "topics": ["sport"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Zitje van een fietser",
+    "shortClue": "Fietszitje"
+  },
+  {
+    "word": "stuur",
+    "topics": ["sport"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Onderdeel waarmee je een fiets richting geeft",
+    "shortClue": "Richtingsgever"
+  },
+  {
+    "word": "wiel",
+    "topics": ["sport"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Rond onderdeel dat draait onder een fiets",
+    "shortClue": "Rond onderdeel"
+  },
+  {
+    "word": "schoolslag",
+    "topics": ["sport"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Rustige zwemstijl waarbij je als een kikker beweegt",
+    "shortClue": "Kikkerzwemstijl"
+  },
+  {
+    "word": "rugslag",
+    "topics": ["sport"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Liggende zwemstijl met het gezicht naar boven",
+    "shortClue": "Liggende zwemstijl"
+  },
+  {
+    "word": "korf",
+    "topics": ["sport"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Mand zonder bodem waar de bal in moet",
+    "shortClue": "Hooggeplaatste mand"
+  },
+  {
+    "word": "tatami",
+    "topics": ["sport"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Japanse vloerbedekking van rijststro voor vechtsport",
+    "shortClue": "Japanse mat"
+  },
+  {
+    "word": "polsstok",
+    "topics": ["sport"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Buigzaam hulpmiddel om over een hoge lat te komen",
+    "shortClue": "Springhulp"
+  },
+  {
+    "word": "hamer",
+    "topics": ["sport"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Zware kogel aan een draad die wordt weggeslingerd",
+    "shortClue": "Werpgewicht"
+  },
+  {
+    "word": "trofee",
+    "topics": ["sport"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Prijsvoorwerp voor de winnaar",
+    "shortClue": "Beloning"
+  },
+  {
+    "word": "titel",
+    "topics": ["sport"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Erenaam voor wie het toernooi wint",
+    "shortClue": "Kampioenschap"
+  },
+  {
+    "word": "arbiter",
+    "topics": ["sport"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Leider van een wedstrijd die de regels bewaakt",
+    "shortClue": "Wedstrijdleider"
+  },
+  {
+    "word": "tribune",
+    "topics": ["sport"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Rij zitplaatsen voor het publiek",
+    "shortClue": "Toeschouwersrij"
+  },
+  {
+    "word": "veld",
+    "topics": ["sport"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Grasvlak waarop gespeeld wordt",
+    "shortClue": "Speelvlak"
+  },
+  {
+    "word": "arena",
+    "topics": ["sport"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Rond sportgebouw met zitplaatsen rondom",
+    "shortClue": "Rond stadion"
+  },
+  {
+    "word": "circuit",
+    "topics": ["sport"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Gesloten rondbaan voor races",
+    "shortClue": "Racebaan"
+  },
+  {
+    "word": "parcours",
+    "topics": ["sport"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Vastgestelde route voor een wedstrijd",
+    "shortClue": "Wedstrijdroute"
+  },
+  {
+    "word": "rekstok",
+    "topics": ["sport"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Horizontale stang waaraan turners zwaaien",
+    "shortClue": "Turnstang"
+  },
+  {
+    "word": "salto",
+    "topics": ["sport"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Koprol in de lucht",
+    "shortClue": "Luchtkoprol"
+  },
+  {
+    "word": "balk",
+    "topics": ["sport"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Smal turntoestel waarop je evenwicht houdt",
+    "shortClue": "Evenwichtstoestel"
+  },
+  {
+    "word": "biljart",
+    "topics": ["sport"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Spel met keu en ballen op een groen laken",
+    "shortClue": "Keuspel"
+  },
+  {
+    "word": "schaak",
+    "topics": ["sport"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Strategiespel met zestien stukken per speler",
+    "shortClue": "Bordspel"
+  },
+  {
+    "word": "zeil",
+    "topics": ["sport"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Stuk doek dat de wind vangt op een boot",
+    "shortClue": "Windvanger"
+  },
+  {
+    "word": "slee",
+    "topics": ["sport"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Voertuig op glijders voor de sneeuw",
+    "shortClue": "Sneeuwvoertuig"
+  },
+  {
+    "word": "ski",
+    "topics": ["sport"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Lange plank onder je voet voor de sneeuw",
+    "shortClue": "Sneeuwplank"
+  },
+  {
+    "word": "strafschop",
+    "topics": ["sport"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Vrije kans vanaf elf meter na een overtreding",
+    "shortClue": "Elfmeter"
+  },
+  {
+    "word": "buitenspel",
+    "topics": ["sport"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Verboden positie van een aanvaller achter de laatste verdediger",
+    "shortClue": "Verboden positie"
+  },
+  {
+    "word": "bidon",
+    "topics": ["sport"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Drinkfles van een wielrenner",
+    "shortClue": "Rennersfles"
+  },
+  {
+    "word": "toon",
+    "topics": ["arts"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Klank met een bepaalde hoogte",
+    "shortClue": "Klank"
+  },
+  {
+    "word": "noot",
+    "topics": ["arts"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Muziekteken dat de hoogte en duur van een klank aangeeft",
+    "shortClue": "Muziekteken"
+  },
+  {
+    "word": "koor",
+    "topics": ["arts"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Groep zangers die samen zingt",
+    "shortClue": "Zanggroep"
+  },
+  {
+    "word": "duet",
+    "topics": ["arts"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Lied voor twee stemmen",
+    "shortClue": "Tweezang"
+  },
+  {
+    "word": "trio",
+    "topics": ["arts"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Muziekstuk of groep voor drie spelers",
+    "shortClue": "Drietal"
+  },
+  {
+    "word": "aria",
+    "topics": ["arts"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Solostuk voor zangstem in een opera",
+    "shortClue": "Zangsolo"
+  },
+  {
+    "word": "snaar",
+    "topics": ["arts"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Gespannen draad op een viool of gitaar",
+    "shortClue": "Klankdraad"
+  },
+  {
+    "word": "hobo",
+    "topics": ["arts"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Houtblazer met dubbel riet",
+    "shortClue": "Dubbelriet"
+  },
+  {
+    "word": "tuba",
+    "topics": ["arts"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Zeer groot koperen blaasinstrument met lage tonen",
+    "shortClue": "Laag koper"
+  },
+  {
+    "word": "hoorn",
+    "topics": ["arts"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Opgerold koperen blaasinstrument met wijde trechter",
+    "shortClue": "Gewonden koper"
+  },
+  {
+    "word": "orgel",
+    "topics": ["arts"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Toetsinstrument met pijpen in een kerk",
+    "shortClue": "Pijpeninstrument"
+  },
+  {
+    "word": "bekken",
+    "topics": ["arts"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Metalen schijf die je met een stok of tegen elkaar slaat",
+    "shortClue": "Metalen schijf"
+  },
+  {
+    "word": "banjo",
+    "topics": ["arts"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Snaarinstrument met een rond lijf en vel",
+    "shortClue": "Rond snaarinstrument"
+  },
+  {
+    "word": "kwast",
+    "topics": ["arts"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Haren borstel van de schilder",
+    "shortClue": "Verfborstel"
+  },
+  {
+    "word": "lijst",
+    "topics": ["arts"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Houten rand om een schilderij",
+    "shortClue": "Randafwerking"
+  },
+  {
+    "word": "schets",
+    "topics": ["arts"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Vluchtige eerste tekening",
+    "shortClue": "Voorstudie"
+  },
+  {
+    "word": "krijt",
+    "topics": ["arts"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Kalkachtig staafje om op een bord te schrijven",
+    "shortClue": "Schrijfstaafje"
+  },
+  {
+    "word": "mozaiek",
+    "topics": ["arts"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Beeld van kleine steentjes of stukjes glas",
+    "shortClue": "Steentjesbeeld"
+  },
+  {
+    "word": "sokkel",
+    "topics": ["arts"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Voetstuk onder een beeld",
+    "shortClue": "Voetstuk"
+  },
+  {
+    "word": "brons",
+    "topics": ["arts"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Legering van koper en tin",
+    "shortClue": "Beeldmetaal"
+  },
+  {
+    "word": "marmer",
+    "topics": ["arts"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Glad gesteente waar beeldhouwers mee werken",
+    "shortClue": "Beeldhouwersteen"
+  },
+  {
+    "word": "galerie",
+    "topics": ["arts"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Ruimte waar kunstwerken te koop zijn",
+    "shortClue": "Kunstzaal"
+  },
+  {
+    "word": "atelier",
+    "topics": ["arts"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Werkruimte van een kunstenaar",
+    "shortClue": "Werkplaats"
+  },
+  {
+    "word": "rijm",
+    "topics": ["arts"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Gelijke klank aan het eind van verzen",
+    "shortClue": "Eindklank"
+  },
+  {
+    "word": "strofe",
+    "topics": ["arts"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Groepje regels in een gedicht",
+    "shortClue": "Regelgroep"
+  },
+  {
+    "word": "vers",
+    "topics": ["arts"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Gedichtregel of gedeelte van een lied",
+    "shortClue": "Dichtregel"
+  },
+  {
+    "word": "epos",
+    "topics": ["arts"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Lang heldendicht",
+    "shortClue": "Heldendicht"
+  },
+  {
+    "word": "fabel",
+    "topics": ["arts"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Verhaal waarin dieren als mensen praten",
+    "shortClue": "Dierenverhaal"
+  },
+  {
+    "word": "sage",
+    "topics": ["arts"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Overgeleverd verhaal dat deels op een legende berust",
+    "shortClue": "Volksverhaal"
+  },
+  {
+    "word": "mythe",
+    "topics": ["arts"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Oud verhaal over goden en helden",
+    "shortClue": "Godenverhaal"
+  },
+  {
+    "word": "decor",
+    "topics": ["arts"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Achtergrond op een podium",
+    "shortClue": "Toneelachtergrond"
+  },
+  {
+    "word": "kostuum",
+    "topics": ["arts"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Kleding van een speler op het toneel",
+    "shortClue": "Speelkleding"
+  },
+  {
+    "word": "coulisse",
+    "topics": ["arts"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Zijkant van het toneel waarachter acteurs wachten",
+    "shortClue": "Toneelzijde"
+  },
+  {
+    "word": "rol",
+    "topics": ["arts"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Personage dat een acteur speelt",
+    "shortClue": "Toneelpersoon"
+  },
+  {
+    "word": "camera",
+    "topics": ["arts"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Apparaat dat beelden opneemt",
+    "shortClue": "Beeldopnemer"
+  },
+  {
+    "word": "klarinet",
+    "topics": ["arts"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Houtblazer met een enkel riet",
+    "shortClue": "Houtblazer"
+  },
+  {
+    "word": "refrein",
+    "topics": ["arts"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Terugkerend gedeelte van een lied",
+    "shortClue": "Herhaling"
+  },
+  {
+    "word": "akkoord",
+    "topics": ["arts"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Samenklank van drie of meer tonen",
+    "shortClue": "Samenklank"
+  },
+  {
+    "word": "klavecimbel",
+    "topics": ["arts"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Oud toetsinstrument waarvan de snaren worden getokkeld",
+    "shortClue": "Oud toetsinstrument"
+  },
+  {
+    "word": "sofa",
+    "topics": ["home"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Zachte zitbank voor meerdere personen",
+    "shortClue": "Zitbank"
+  },
+  {
+    "word": "divan",
+    "topics": ["home"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Laag bankje zonder leuning om op te liggen",
+    "shortClue": "Lage rustbank"
+  },
+  {
+    "word": "hangmat",
+    "topics": ["home"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Doek tussen twee bomen om in te slapen",
+    "shortClue": "Slaapdoek"
+  },
+  {
+    "word": "wieg",
+    "topics": ["home"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Bedje voor een pasgeboren baby",
+    "shortClue": "Babybedje"
+  },
+  {
+    "word": "kruk",
+    "topics": ["home"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Zitje zonder rugleuning",
+    "shortClue": "Rugloos zitje"
+  },
+  {
+    "word": "plank",
+    "topics": ["home"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Lang plat stuk hout",
+    "shortClue": "Houten plaat"
+  },
+  {
+    "word": "lade",
+    "topics": ["home"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Schuifbak in een kast",
+    "shortClue": "Schuifbak"
+  },
+  {
+    "word": "mand",
+    "topics": ["home"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Gevlochten bak met hengsel",
+    "shortClue": "Rieten bak"
+  },
+  {
+    "word": "dweil",
+    "topics": ["home"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Doek om de vloer mee te soppen",
+    "shortClue": "Vloerlap"
+  },
+  {
+    "word": "spons",
+    "topics": ["home"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Zacht, poreus voorwerp dat vocht opzuigt",
+    "shortClue": "Vochtopnemer"
+  },
+  {
+    "word": "zeep",
+    "topics": ["home"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Stuk waarmee je handen worden schoongewassen",
+    "shortClue": "Wasblok"
+  },
+  {
+    "word": "luik",
+    "topics": ["home"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Klep voor een raam of opening",
+    "shortClue": "Raamklep"
+  },
+  {
+    "word": "klink",
+    "topics": ["home"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Beweegbare hendel van een deur",
+    "shortClue": "Deurhendel"
+  },
+  {
+    "word": "kraan",
+    "topics": ["home"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Draaiknop waaruit water stroomt",
+    "shortClue": "Wateropening"
+  },
+  {
+    "word": "mok",
+    "topics": ["home"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Drinkvat met een handvat",
+    "shortClue": "Theebeker"
+  },
+  {
+    "word": "schotel",
+    "topics": ["home"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Plat bord onder een kopje",
+    "shortClue": "Onderbord"
+  },
+  {
+    "word": "bestek",
+    "topics": ["home"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Lepel, vork en mes samen",
+    "shortClue": "Eetgerei"
+  },
+  {
+    "word": "ketel",
+    "topics": ["home"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Pot met tuit waarin je water laat koken",
+    "shortClue": "Kookvat"
+  },
+  {
+    "word": "spade",
+    "topics": ["home"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Platte schep waarmee je de grond omwerkt",
+    "shortClue": "Tuinschep"
+  },
+  {
+    "word": "schoffel",
+    "topics": ["home"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Tuingereedschap om onkruid weg te halen",
+    "shortClue": "Onkruidhaker"
+  },
+  {
+    "word": "gieter",
+    "topics": ["home"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Kan met tuit om planten water te geven",
+    "shortClue": "Waterkan"
+  },
+  {
+    "word": "schop",
+    "topics": ["home"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Gereedschap om gaten te graven",
+    "shortClue": "Graafwerktuig"
+  },
+  {
+    "word": "tolk",
+    "topics": ["professions"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Iemand die gesproken woorden direct vertaalt",
+    "shortClue": "Mondeling vertaler"
+  },
+  {
+    "word": "ober",
+    "topics": ["professions"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Man die in een restaurant bedient",
+    "shortClue": "Bediende"
+  },
+  {
+    "word": "herder",
+    "topics": ["professions"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Iemand die schapen hoedt",
+    "shortClue": "Schapenhoeder"
+  },
+  {
+    "word": "pastoor",
+    "topics": ["professions"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Rooms-katholieke priester van een parochie",
+    "shortClue": "Parochiepriester"
+  },
+  {
+    "word": "tuinman",
+    "topics": ["professions"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Iemand die planten en gazons verzorgt",
+    "shortClue": "Plantenverzorger"
+  },
+  {
+    "word": "bloemist",
+    "topics": ["professions"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Winkelier die boeketten bindt",
+    "shortClue": "Boeketbinder"
+  },
+  {
+    "word": "brouwer",
+    "topics": ["professions"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Maker van bier",
+    "shortClue": "Biermaker"
+  },
+  {
+    "word": "kleermaker",
+    "topics": ["professions"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Iemand die pakken op maat naait",
+    "shortClue": "Pakkennaaier"
+  },
+  {
+    "word": "goudsmid",
+    "topics": ["professions"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Ambachtsman die sieraden maakt van edelmetaal",
+    "shortClue": "Sieradenmaker"
+  },
+  {
+    "word": "stukadoor",
+    "topics": ["professions"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Vakman die muren en plafonds gladpleistert",
+    "shortClue": "Pleisteraar"
+  },
+  {
+    "word": "loodgieter",
+    "topics": ["professions"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Vakman voor leidingen en afvoer",
+    "shortClue": "Leidingvakman"
+  },
+  {
+    "word": "postbode",
+    "topics": ["professions"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Iemand die brieven rondbrengt",
+    "shortClue": "Brievenbezorger"
+  },
+  {
+    "word": "monteur",
+    "topics": ["professions"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Vakman die machines of auto's installeert en repareert",
+    "shortClue": "Repareur"
+  },
+  {
+    "word": "lasser",
+    "topics": ["professions"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Metaalvakman die stukken aan elkaar smelt",
+    "shortClue": "Metaalverbinder"
+  },
+  {
+    "word": "bankier",
+    "topics": ["professions"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Iemand met een leidende functie bij een geldinstelling",
+    "shortClue": "Geldbeheerder"
+  },
+  {
+    "word": "jurist",
+    "topics": ["professions"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Iemand met kennis van het recht",
+    "shortClue": "Rechtsgeleerde"
+  },
+  {
+    "word": "griffier",
+    "topics": ["professions"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Ambtenaar die bij de rechtbank de zittingen vastlegt",
+    "shortClue": "Rechtbankschrijver"
+  },
+  {
+    "word": "deurwaarder",
+    "topics": ["professions"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Gerechtelijk ambtenaar die vonnissen uitvoert",
+    "shortClue": "Gerechtsambtenaar"
+  },
+  {
+    "word": "chirurg",
+    "topics": ["professions"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Arts die opereert",
+    "shortClue": "Operatiearts"
+  },
+  {
+    "word": "verloskundige",
+    "topics": ["professions"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Zorgverlener die bevallingen begeleidt",
+    "shortClue": "Bevallingshulp"
+  },
+  {
+    "word": "docent",
+    "topics": ["professions"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Lesgever aan een hogeschool of universiteit",
+    "shortClue": "Lesgever"
+  },
+  {
+    "word": "rector",
+    "topics": ["professions"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Hoofd van een school of universiteit",
+    "shortClue": "Schoolhoofd"
+  },
+  {
+    "word": "redacteur",
+    "topics": ["professions"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Iemand die teksten bewerkt voor een krant of tijdschrift",
+    "shortClue": "Tekstbewerker"
+  },
+  {
+    "word": "fotograaf",
+    "topics": ["professions"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Iemand die beelden vastlegt met een camera",
+    "shortClue": "Beeldmaker"
+  },
+  {
+    "word": "drukker",
+    "topics": ["professions"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Vakman achter de pers van kranten en boeken",
+    "shortClue": "Persvakman"
+  },
+  {
+    "word": "uitgever",
+    "topics": ["professions"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Bedrijf of persoon die boeken op de markt brengt",
+    "shortClue": "Boekenbrenger"
+  },
+  {
+    "word": "kaasmaker",
+    "topics": ["professions"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Zuivelvakman die wrongel tot ronde wielen perst",
+    "shortClue": "Zuivelambachter"
+  },
+  {
+    "word": "kapitein",
+    "topics": ["professions"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Gezagvoerder op een schip",
+    "shortClue": "Scheepsbevelhebber"
+  },
+  {
+    "word": "barman",
+    "topics": ["professions"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Iemand die achter de tap drankjes inschenkt",
+    "shortClue": "Tapper"
+  },
+  {
+    "word": "touwslager",
+    "topics": ["professions"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Ambachtsman die hennep tot scheepskabels draait",
+    "shortClue": "Kabeldraaier"
+  },
+  {
+    "word": "zeilmaker",
+    "topics": ["professions"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Vakman die windvangers voor schepen naait",
+    "shortClue": "Doeknaaier"
+  },
+  {
+    "word": "mandenmaker",
+    "topics": ["professions"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Ambachtsman die van riet en wilgentenen vlechtwerk maakt",
+    "shortClue": "Rietvlechter"
+  },
+  {
+    "word": "vertaler",
+    "topics": ["professions"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Iemand die teksten in een andere taal overzet",
+    "shortClue": "Tekstoverzetter"
+  },
+  {
+    "word": "mijter",
+    "topics": ["localCulture"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Spitse hoofdbedekking van Sinterklaas",
+    "shortClue": "Bisschopshoed"
+  },
+  {
+    "word": "pakjesavond",
+    "topics": ["localCulture"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Vijf december, wanneer de cadeaus worden uitgedeeld",
+    "shortClue": "Cadeaufeest"
+  },
+  {
+    "word": "pepernoot",
+    "topics": ["localCulture"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Kleine kruidige koekjes die met Sinterklaas worden gestrooid",
+    "shortClue": "Kruidig koekje"
+  },
+  {
+    "word": "kerstboom",
+    "topics": ["localCulture"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Versierde den in huis met lichtjes",
+    "shortClue": "Lichtjesden"
+  },
+  {
+    "word": "kribbe",
+    "topics": ["localCulture"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Voederbak waarin volgens het verhaal een kindje lag",
+    "shortClue": "Voederbak"
+  },
+  {
+    "word": "lampion",
+    "topics": ["localCulture"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Gekleurde lantaarn voor een optocht",
+    "shortClue": "Papieren lantaarn"
+  },
+  {
+    "word": "optocht",
+    "topics": ["localCulture"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Stoet door de straten met praalwagens",
+    "shortClue": "Stoet"
+  },
+  {
+    "word": "confetti",
+    "topics": ["localCulture"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Snippers die bij een feest worden gegooid",
+    "shortClue": "Papiersnippers"
+  },
+  {
+    "word": "krans",
+    "topics": ["localCulture"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Ring van gevlochten takken of bloemen als versiering",
+    "shortClue": "Versierde ring"
+  },
+  {
+    "word": "worstenbrood",
+    "topics": ["localCulture"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Brabants gebak met gekruid gehakt in bladerdeeg",
+    "shortClue": "Brabantse snack"
+  },
+  {
+    "word": "appeltaart",
+    "topics": ["localCulture"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Gebak met kaneel en schijfjes van een pitvrucht",
+    "shortClue": "Gebak met kaneel"
+  },
+  {
+    "word": "bitterbal",
+    "topics": ["localCulture"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Ronde warme borrelhap met ragout en krokant jasje",
+    "shortClue": "Borrelhap"
+  },
+  {
+    "word": "jenever",
+    "topics": ["localCulture"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Heldere graanbrandewijn die oorspronkelijk als medicijn diende",
+    "shortClue": "Heldere graandrank"
+  },
+  {
+    "word": "kaasmarkt",
+    "topics": ["localCulture"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Toeristische handelsplek in Alkmaar met dragers op houten sleden",
+    "shortClue": "Alkmaarse handel"
+  },
+  {
+    "word": "klederdracht",
+    "topics": ["localCulture"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Vaste dos van een streek of dorp, zoals in Volendam",
+    "shortClue": "Streekdos"
+  },
+  {
+    "word": "kroeg",
+    "topics": ["localCulture"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Gelegenheid waar je een pilsje drinkt",
+    "shortClue": "Drankgelegenheid"
+  },
+  {
+    "word": "terras",
+    "topics": ["localCulture"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Buitenplek met stoelen aan een horecazaak",
+    "shortClue": "Buitenzitplek"
+  },
+  {
+    "word": "ommegang",
+    "topics": ["localCulture"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Folkloristische processie door een Vlaamse stad",
+    "shortClue": "Historische stoet"
+  },
+  {
+    "word": "beiaard",
+    "topics": ["localCulture"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Klokkenspel in een toren, bespeeld met toetsen",
+    "shortClue": "Klokkenspel"
+  },
+  {
+    "word": "kantwerk",
+    "topics": ["localCulture"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Fijn weefsel van draadjes, beroemd uit Brugge",
+    "shortClue": "Brugse specialiteit"
+  },
+  {
+    "word": "praline",
+    "topics": ["localCulture"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Gevulde Belgische bonbon",
+    "shortClue": "Gevulde bonbon"
+  },
+  {
+    "word": "kriek",
+    "topics": ["localCulture"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Belgisch bier met kersen",
+    "shortClue": "Kersenbier"
+  },
+  {
+    "word": "Pasen",
+    "topics": ["localCulture"],
+    "difficulty": 1,
+    "kind": "proper",
+    "clue": "Christelijk feest in de lente met eieren",
+    "shortClue": "Eierfeest"
+  },
+  {
+    "word": "Pinksteren",
+    "topics": ["localCulture"],
+    "difficulty": 2,
+    "kind": "proper",
+    "clue": "Feest vijftig dagen na het christelijke paasfeest",
+    "shortClue": "Lentefeestdag"
+  },
+  {
+    "word": "Wilhelmus",
+    "topics": ["localCulture"],
+    "difficulty": 2,
+    "kind": "proper",
+    "clue": "Naam van het Nederlandse volkslied",
+    "shortClue": "Volkslied"
+  },
+  {
+    "word": "Nieuwjaar",
+    "topics": ["localCulture"],
+    "difficulty": 1,
+    "kind": "proper",
+    "clue": "Feest na middernacht op 31 december",
+    "shortClue": "Eerste januari"
+  },
+  {
+    "word": "bolus",
+    "topics": ["localCulture"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Plakkerig Zeeuws gebakje met bruine suiker",
+    "shortClue": "Zeeuws gebak"
+  },
+  {
+    "word": "kabouter",
+    "topics": ["localCulture"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Kleine tuinfiguur met puntmuts",
+    "shortClue": "Puntmutsje"
+  },
+  {
+    "word": "kleinkunst",
+    "topics": ["localCulture"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Cabaret en luisterlied in intieme zalen",
+    "shortClue": "Cabaretliedjes"
+  },
+  {
+    "word": "levenslied",
+    "topics": ["localCulture"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Sentimentele zang over liefde en verdriet",
+    "shortClue": "Sentimentele zang"
+  },
+  {
+    "word": "harmonie",
+    "topics": ["localCulture"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Muziekvereniging met houten en koperen blazers",
+    "shortClue": "Dorpsorkest"
+  },
+  {
+    "word": "fanfare",
+    "topics": ["localCulture"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Muziekkorps met koperen blaasinstrumenten en slagwerk",
+    "shortClue": "Koperkorps"
+  },
+  {
+    "word": "schutterij",
+    "topics": ["localCulture"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Plaatselijke vereniging die in uniform meetrekt in Limburg en Brabant",
+    "shortClue": "Uniformvereniging"
+  },
+  {
+    "word": "cabaret",
+    "topics": ["localCulture"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Voorstelling met liedjes en grappen over de actualiteit",
+    "shortClue": "Grappenshow"
+  },
+  {
+    "word": "hoempapa",
+    "topics": ["localCulture"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Ritmische muziek van een dorpskapel",
+    "shortClue": "Blaaskapelmuziek"
+  },
+  {
+    "word": "sfeer",
+    "topics": ["general"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Gevoel dat een plek of moment oproept",
+    "shortClue": "Omgevingsstemming"
+  },
+  {
+    "word": "taak",
+    "topics": ["general"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Karwei dat je moet doen",
+    "shortClue": "Karwei"
+  },
+  {
+    "word": "rand",
+    "topics": ["general"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Buitenste kant van iets",
+    "shortClue": "Zoom"
+  },
+  {
+    "word": "punt",
+    "topics": ["general"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Scherp uiteinde of kleine stip",
+    "shortClue": "Spits"
+  },
+  {
+    "word": "lijn",
+    "topics": ["general"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Dunne streep tussen twee punten",
+    "shortClue": "Streep"
+  },
+  {
+    "word": "kant",
+    "topics": ["general"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Zijde of rand van iets",
+    "shortClue": "Zijde"
+  },
+  {
+    "word": "maat",
+    "topics": ["general"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Afmeting van kleding of ruimte",
+    "shortClue": "Afmeting"
+  },
+  {
+    "word": "uur",
+    "topics": ["general"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Zestig minuten",
+    "shortClue": "Tijdsblok"
+  },
+  {
+    "word": "daad",
+    "topics": ["general"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Iets dat je werkelijk doet",
+    "shortClue": "Handeling"
+  },
+  {
+    "word": "pech",
+    "topics": ["general"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Tegenslag onderweg",
+    "shortClue": "Tegenspoed"
+  },
+  {
+    "word": "nood",
+    "topics": ["general"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Toestand van ernstig gebrek",
+    "shortClue": "Dringend gebrek"
+  },
+  {
+    "word": "last",
+    "topics": ["general"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Zware druk of vracht die je draagt",
+    "shortClue": "Vracht"
+  },
+  {
+    "word": "rots",
+    "topics": ["nature"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Grote harde steenmassa in de bergen",
+    "shortClue": "Harde steenmassa"
+  },
+  {
+    "word": "tak",
+    "topics": ["nature"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Zijtelg die uit de stam van een boom groeit",
+    "shortClue": "Zijtelg"
+  },
+  {
+    "word": "sloot",
+    "topics": ["nature"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Smalle watergang tussen weilanden",
+    "shortClue": "Watergang"
+  },
+  {
+    "word": "berm",
+    "topics": ["nature"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Grasstrook langs een weg",
+    "shortClue": "Wegrand"
+  },
+  {
+    "word": "lucht",
+    "topics": ["nature"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Gasmengsel dat je inademt",
+    "shortClue": "Ademgas"
+  },
+  {
+    "word": "kat",
+    "topics": ["animals"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Spinnend huisdier met snorharen",
+    "shortClue": "Snorharendier"
+  },
+  {
+    "word": "mus",
+    "topics": ["animals"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Kleine bruine vogel op straat",
+    "shortClue": "Stadsvogel"
+  },
+  {
+    "word": "vlo",
+    "topics": ["animals"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Springend insect dat bloed zuigt",
+    "shortClue": "Springend parasietje"
+  },
+  {
+    "word": "gier",
+    "topics": ["animals"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Grote roofvogel met kale kop die van kadavers leeft",
+    "shortClue": "Aaseter"
+  },
+  {
+    "word": "jam",
+    "topics": ["food"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Ingekookt fruit voor op brood",
+    "shortClue": "Broodbeleg"
+  },
+  {
+    "word": "saus",
+    "topics": ["food"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Vloeibare toevoeging bij het warme eten",
+    "shortClue": "Natte toevoeging"
+  },
+  {
+    "word": "ham",
+    "topics": ["food"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Gekookt of gerookt varkensvlees als broodbeleg",
+    "shortClue": "Varkensbeleg"
+  },
+  {
+    "word": "olie",
+    "topics": ["food"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Vloeibaar vet om in te bakken",
+    "shortClue": "Bakvet"
+  },
+  {
+    "word": "rozijn",
+    "topics": ["food"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Gedroogde druif",
+    "shortClue": "Zoet gedroogd fruit"
+  },
+  {
+    "word": "dal",
+    "topics": ["geography"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Laagte tussen hellingen",
+    "shortClue": "Laagte"
+  },
+  {
+    "word": "pool",
+    "topics": ["geography"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Uiterste noord- of zuidpunt van de aarde",
+    "shortClue": "Aardpunt"
+  },
+  {
+    "word": "dak",
+    "topics": ["home"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Bovenkant van een gebouw tegen regen",
+    "shortClue": "Overkapping"
+  },
+  {
+    "word": "muur",
+    "topics": ["home"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Stenen scheidingswand in een huis",
+    "shortClue": "Stenen wand"
+  },
+  {
+    "word": "tuin",
+    "topics": ["home"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Aangelegd stuk grond bij een huis",
+    "shortClue": "Groene buitenruimte"
+  },
+  {
+    "word": "hek",
+    "topics": ["home"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Afsluiting van latten of draad",
+    "shortClue": "Omheining"
+  },
+  {
+    "word": "zaag",
+    "topics": ["home"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Gereedschap met tanden voor hout",
+    "shortClue": "Tandenblad"
+  },
+  {
+    "word": "tang",
+    "topics": ["home"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Knijpgereedschap met twee armen",
+    "shortClue": "Knijper"
+  },
+  {
+    "word": "arts",
+    "topics": ["professions"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Iemand die zieken behandelt",
+    "shortClue": "Geneesheer"
+  },
+  {
+    "word": "gids",
+    "topics": ["professions"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Iemand die toeristen rondleidt",
+    "shortClue": "Rondleider"
+  },
+  {
+    "word": "jager",
+    "topics": ["professions"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Iemand die wild opspoort en schiet",
+    "shortClue": "Wildspeurder"
+  },
+  {
+    "word": "koerier",
+    "topics": ["professions"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Iemand die pakketten snel van A naar B brengt",
+    "shortClue": "Pakketbezorger"
+  },
+  {
+    "word": "koster",
+    "topics": ["professions"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Beheerder van een kerkgebouw",
+    "shortClue": "Kerkbeheerder"
+  },
+  {
+    "word": "bier",
+    "topics": ["localCulture"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Schuimende graandrank met hop",
+    "shortClue": "Hopdrank"
+  },
+  {
+    "word": "pils",
+    "topics": ["localCulture"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Lichtgouden bier in een smal glas",
+    "shortClue": "Heldere gerstedrank"
+  },
+  {
+    "word": "polka",
+    "topics": ["localCulture"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Vrolijke dans in tweekwartsmaat uit Bohemen",
+    "shortClue": "Levendige dans"
+  },
+  {
+    "word": "inkt",
+    "topics": ["home"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Vloeistof waarmee je schrijft of tekent met een pen",
+    "shortClue": "Pennenvocht"
+  }
+]

@@ -133,7 +133,7 @@
   {"word": "molenaar", "topics": ["professions"], "difficulty": 2, "kind": "common", "clue": "Iemand die graan tussen stenen maalt", "shortClue": "Graanmaler"},
   {"word": "sinterklaas", "topics": ["localCulture"], "difficulty": 1, "kind": "proper", "clue": "Heilige met mijter die in december langskomt", "shortClue": "Decemberheilige"},
   {"word": "kerstmis", "topics": ["localCulture"], "difficulty": 1, "kind": "proper", "clue": "Feest rond de geboorte in de winter", "shortClue": "Winterfeest"},
-  {"word": "koningsdag", "topics": ["localCulture"], "difficulty": 1, "kind": "proper", "clue": "Oranje feestdag eind april", "shortClue": "Oranje feestdag"},
+  {"word": "koningsdag", "topics": ["localCulture"], "difficulty": 1, "kind": "proper", "clue": "Oranje feest eind april", "shortClue": "Oranje feest"},
   {"word": "stroopwafel", "topics": ["localCulture"], "difficulty": 1, "kind": "common", "clue": "Rond dubbel koekje met zoete vulling", "shortClue": "Zoet dubbelkoek"},
   {"word": "hagelslag", "topics": ["localCulture"], "difficulty": 1, "kind": "common", "clue": "Chocoladekorrels op de snee", "shortClue": "Chocoladekorrels"},
   {"word": "oliebollen", "topics": ["localCulture"], "difficulty": 1, "kind": "common", "clue": "Gefrituurde deegbol aan het eind van december", "shortClue": "Decemberbol"},
@@ -141,6 +141,6 @@
   {"word": "elfstedentocht", "topics": ["localCulture"], "difficulty": 2, "kind": "proper", "clue": "Schaatstocht langs elf Friese steden", "shortClue": "Friese tocht"},
   {"word": "gezelligheid", "topics": ["localCulture"], "difficulty": 1, "kind": "common", "clue": "Aangename sfeer met mensen bij elkaar", "shortClue": "Knusse sfeer"},
   {"word": "keukenhof", "topics": ["localCulture"], "difficulty": 1, "kind": "proper", "clue": "Bollenpark bij Lisse in het voorjaar", "shortClue": "Bollenpark"},
-  {"word": "bevrijdingsdag", "topics": ["localCulture"], "difficulty": 2, "kind": "proper", "clue": "Nationale feestdag op vijf mei", "shortClue": "Vijf mei"},
+  {"word": "bevrijdingsdag", "topics": ["localCulture"], "difficulty": 2, "kind": "proper", "clue": "Nationaal feest op vijf mei", "shortClue": "Vijf mei"},
   {"word": "kermis", "topics": ["localCulture"], "difficulty": 1, "kind": "common", "clue": "Jaarmarkt met attracties en muziek", "shortClue": "Attractiemarkt"}
 ]
