@@ -1,0 +1,4002 @@
+[
+  {
+    "word": "colere",
+    "topics": ["general"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Emportement de celui qui voit rouge",
+    "shortClue": "Emportement"
+  },
+  {
+    "word": "surprise",
+    "topics": ["general"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Émotion devant l'inattendu",
+    "shortClue": "Effet de choc"
+  },
+  {
+    "word": "courage",
+    "topics": ["general"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Force d'âme devant le danger",
+    "shortClue": "Bravoure"
+  },
+  {
+    "word": "patience",
+    "topics": ["general"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Vertu de celui qui sait attendre",
+    "shortClue": "Calme d'attente"
+  },
+  {
+    "word": "audace",
+    "topics": ["general"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Goût du risque et de l'inconnu",
+    "shortClue": "Témérité"
+  },
+  {
+    "word": "rancune",
+    "topics": ["general"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Souvenir tenace d'une offense",
+    "shortClue": "Ressentiment"
+  },
+  {
+    "word": "silence",
+    "topics": ["general"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Absence de tout bruit",
+    "shortClue": "Calme absolu"
+  },
+  {
+    "word": "repos",
+    "topics": ["general"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Pause qui délasse le corps",
+    "shortClue": "Pause"
+  },
+  {
+    "word": "voyage",
+    "topics": ["general"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Déplacement vers un pays lointain",
+    "shortClue": "Périple"
+  },
+  {
+    "word": "ennui",
+    "topics": ["general"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Lassitude de qui n'a rien à faire",
+    "shortClue": "Temps qui traîne"
+  },
+  {
+    "word": "inquiet",
+    "topics": ["general"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Qui se ronge d'angoisse pour l'avenir",
+    "shortClue": "Soucieux"
+  },
+  {
+    "word": "gourmand",
+    "topics": ["general"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Qui aime les bons plats",
+    "shortClue": "Friand de mets"
+  },
+  {
+    "word": "curieux",
+    "topics": ["general"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Qui cherche à tout savoir",
+    "shortClue": "Avide d'apprendre"
+  },
+  {
+    "word": "paisible",
+    "topics": ["general"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Qui aime la tranquillité",
+    "shortClue": "Placide"
+  },
+  {
+    "word": "heureux",
+    "topics": ["general"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Comblé, content de son sort",
+    "shortClue": "Comblé"
+  },
+  {
+    "word": "marcher",
+    "topics": ["general"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Avancer un pas après l'autre",
+    "shortClue": "Aller à pied"
+  },
+  {
+    "word": "manger",
+    "topics": ["general"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Avaler des aliments",
+    "shortClue": "Se nourrir"
+  },
+  {
+    "word": "regarder",
+    "topics": ["general"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Poser les yeux sur quelque chose",
+    "shortClue": "Observer"
+  },
+  {
+    "word": "parler",
+    "topics": ["general"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "S'exprimer à voix haute",
+    "shortClue": "Dire des mots"
+  },
+  {
+    "word": "fermer",
+    "topics": ["general"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Boucher une ouverture",
+    "shortClue": "Clore"
+  },
+  {
+    "word": "apprendre",
+    "topics": ["general"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Acquérir un savoir",
+    "shortClue": "S'instruire"
+  },
+  {
+    "word": "oublier",
+    "topics": ["general"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Ne plus avoir en mémoire",
+    "shortClue": "Perdre le souvenir"
+  },
+  {
+    "word": "penser",
+    "topics": ["general"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Former des idées dans son esprit",
+    "shortClue": "Réfléchir"
+  },
+  {
+    "word": "aider",
+    "topics": ["general"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Apporter son soutien à quelqu'un",
+    "shortClue": "Soutenir"
+  },
+  {
+    "word": "choisir",
+    "topics": ["general"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Prendre une chose plutôt qu'une autre",
+    "shortClue": "Opter"
+  },
+  {
+    "word": "partir",
+    "topics": ["general"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Quitter un lieu",
+    "shortClue": "S'en aller"
+  },
+  {
+    "word": "rentrer",
+    "topics": ["general"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Revenir chez soi",
+    "shortClue": "Regagner son foyer"
+  },
+  {
+    "word": "semaine",
+    "topics": ["general"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Sept jours de suite",
+    "shortClue": "Sept jours"
+  },
+  {
+    "word": "dimanche",
+    "topics": ["general"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Jour du repos, après le samedi",
+    "shortClue": "Fin de semaine"
+  },
+  {
+    "word": "lundi",
+    "topics": ["general"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Premier jour ouvré de la semaine",
+    "shortClue": "Début de semaine"
+  },
+  {
+    "word": "bientot",
+    "topics": ["general"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Dans très peu de temps",
+    "shortClue": "Sous peu"
+  },
+  {
+    "word": "jamais",
+    "topics": ["general"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "À aucun moment",
+    "shortClue": "En aucun temps"
+  },
+  {
+    "word": "parfois",
+    "topics": ["general"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "De temps en temps",
+    "shortClue": "À l'occasion"
+  },
+  {
+    "word": "souvent",
+    "topics": ["general"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "À de nombreuses reprises",
+    "shortClue": "Fréquemment"
+  },
+  {
+    "word": "beaucoup",
+    "topics": ["general"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "En grande quantité",
+    "shortClue": "Énormément"
+  },
+  {
+    "word": "trop",
+    "topics": ["general"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Plus qu'il ne faut",
+    "shortClue": "À l'excès"
+  },
+  {
+    "word": "rien",
+    "topics": ["general"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Aucune chose",
+    "shortClue": "Néant"
+  },
+  {
+    "word": "chiffre",
+    "topics": ["general"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Signe de zéro à neuf",
+    "shortClue": "Signe numérique"
+  },
+  {
+    "word": "tiers",
+    "topics": ["general"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Une part sur trois",
+    "shortClue": "Un sur trois"
+  },
+  {
+    "word": "paire",
+    "topics": ["general"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Ensemble de deux choses assorties",
+    "shortClue": "Duo"
+  },
+  {
+    "word": "carre",
+    "topics": ["general"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Figure à quatre côtés égaux",
+    "shortClue": "Quatre côtés"
+  },
+  {
+    "word": "triangle",
+    "topics": ["general"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Forme d'une pointe de pizza ou d'un fronton",
+    "shortClue": "Forme pointue"
+  },
+  {
+    "word": "epais",
+    "topics": ["general"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Gros, en parlant d'une tranche",
+    "shortClue": "Pas mince"
+  },
+  {
+    "word": "lisse",
+    "topics": ["general"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Sans aspérité au toucher",
+    "shortClue": "Sans relief"
+  },
+  {
+    "word": "brillant",
+    "topics": ["general"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Qui renvoie la lumière",
+    "shortClue": "Éclatant"
+  },
+  {
+    "word": "clair",
+    "topics": ["general"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Qui ne laisse aucun doute",
+    "shortClue": "Limpide"
+  },
+  {
+    "word": "conseil",
+    "topics": ["general"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Avis donné pour guider quelqu'un",
+    "shortClue": "Avis"
+  },
+  {
+    "word": "promesse",
+    "topics": ["general"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Engagement de tenir parole",
+    "shortClue": "Parole donnée"
+  },
+  {
+    "word": "vacances",
+    "topics": ["general"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Période de congé loin du travail",
+    "shortClue": "Temps de congé"
+  },
+  {
+    "word": "fete",
+    "topics": ["general"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Réjouissance qui marque un jour spécial",
+    "shortClue": "Réjouissance"
+  },
+  {
+    "word": "anniversaire",
+    "topics": ["general"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Jour où l'on souffle des bougies",
+    "shortClue": "Jour des bougies"
+  },
+  {
+    "word": "piege",
+    "topics": ["general"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Dispositif pour attraper une proie",
+    "shortClue": "Traquenard"
+  },
+  {
+    "word": "hesitation",
+    "topics": ["general"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Moment d'incertitude avant d'agir",
+    "shortClue": "Temps d'arrêt"
+  },
+  {
+    "word": "indulgence",
+    "topics": ["general"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Disposition à pardonner les fautes",
+    "shortClue": "Clémence"
+  },
+  {
+    "word": "perseverance",
+    "topics": ["general"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Constance dans l'effort malgré les obstacles",
+    "shortClue": "Persistance"
+  },
+  {
+    "word": "bienveillance",
+    "topics": ["general"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Bonté attentive envers autrui",
+    "shortClue": "Bonté attentive"
+  },
+  {
+    "word": "discretion",
+    "topics": ["general"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Art de ne pas révéler ce qu'on sait",
+    "shortClue": "Réserve"
+  },
+  {
+    "word": "sincerite",
+    "topics": ["general"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Qualité de qui dit ce qu'il pense",
+    "shortClue": "Franchise"
+  },
+  {
+    "word": "ressemblance",
+    "topics": ["general"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Traits communs entre deux êtres",
+    "shortClue": "Air de famille"
+  },
+  {
+    "word": "difference",
+    "topics": ["general"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Ce qui distingue une chose d'une autre",
+    "shortClue": "Écart"
+  },
+  {
+    "word": "habitude",
+    "topics": ["general"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Manière d'agir répétée sans y penser",
+    "shortClue": "Pli pris"
+  },
+  {
+    "word": "coutume",
+    "topics": ["general"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Usage ancien transmis dans un groupe",
+    "shortClue": "Usage ancien"
+  },
+  {
+    "word": "question",
+    "topics": ["general"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Phrase qui attend une réponse",
+    "shortClue": "Interrogation"
+  },
+  {
+    "word": "accident",
+    "topics": ["general"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Événement fâcheux et imprévu",
+    "shortClue": "Mésaventure"
+  },
+  {
+    "word": "visiteur",
+    "topics": ["general"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Personne qui vient voir quelqu'un",
+    "shortClue": "Hôte de passage"
+  },
+  {
+    "word": "dispute",
+    "topics": ["general"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Échange de mots vifs entre deux personnes",
+    "shortClue": "Querelle"
+  },
+  {
+    "word": "reconciliation",
+    "topics": ["general"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Retour à l'entente après une brouille",
+    "shortClue": "Retour à l'entente"
+  },
+  {
+    "word": "remerciement",
+    "topics": ["general"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Mot de gratitude adressé à qui a aidé",
+    "shortClue": "Gratitude exprimée"
+  },
+  {
+    "word": "salut",
+    "topics": ["general"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Mot lancé en croisant un ami",
+    "shortClue": "Bonjour familier"
+  },
+  {
+    "word": "distance",
+    "topics": ["general"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Espace qui sépare deux points",
+    "shortClue": "Éloignement"
+  },
+  {
+    "word": "poids",
+    "topics": ["general"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Mesure que donne la balance",
+    "shortClue": "Lourdeur"
+  },
+  {
+    "word": "moyen",
+    "topics": ["general"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Manière d'atteindre un but",
+    "shortClue": "Procédé"
+  },
+  {
+    "word": "facile",
+    "topics": ["general"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Qui ne demande aucun effort",
+    "shortClue": "Sans peine"
+  },
+  {
+    "word": "difficile",
+    "topics": ["general"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Qui demande beaucoup d'efforts",
+    "shortClue": "Pénible"
+  },
+  {
+    "word": "etrange",
+    "topics": ["general"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Qui sort de l'ordinaire et intrigue",
+    "shortClue": "Bizarre"
+  },
+  {
+    "word": "vide",
+    "topics": ["general"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Qui ne contient rien",
+    "shortClue": "Sans contenu"
+  },
+  {
+    "word": "plein",
+    "topics": ["general"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Rempli jusqu'au bord",
+    "shortClue": "Rempli"
+  },
+  {
+    "word": "agir",
+    "topics": ["general"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Passer à l'acte",
+    "shortClue": "Entreprendre"
+  },
+  {
+    "word": "changer",
+    "topics": ["general"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Rendre différent",
+    "shortClue": "Transformer"
+  },
+  {
+    "word": "finir",
+    "topics": ["general"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Arriver à son terme",
+    "shortClue": "Terminer"
+  },
+  {
+    "word": "gagner",
+    "topics": ["general"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Remporter la victoire",
+    "shortClue": "Vaincre"
+  },
+  {
+    "word": "perdre",
+    "topics": ["general"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Être battu, ou égarer",
+    "shortClue": "Égarer"
+  },
+  {
+    "word": "economiser",
+    "topics": ["general"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Mettre de l'argent de côté",
+    "shortClue": "Épargner"
+  },
+  {
+    "word": "partager",
+    "topics": ["general"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Diviser pour donner à chacun",
+    "shortClue": "Répartir"
+  },
+  {
+    "word": "cacher",
+    "topics": ["general"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Mettre hors de vue",
+    "shortClue": "Dissimuler"
+  },
+  {
+    "word": "montrer",
+    "topics": ["general"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Faire voir",
+    "shortClue": "Exhiber"
+  },
+  {
+    "word": "rappeler",
+    "topics": ["general"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Remettre en mémoire",
+    "shortClue": "Évoquer"
+  },
+  {
+    "word": "inventer",
+    "topics": ["general"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Imaginer ou créer une chose nouvelle",
+    "shortClue": "Concevoir"
+  },
+  {
+    "word": "soupir",
+    "topics": ["general"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Souffle long qui traduit la fatigue ou le regret",
+    "shortClue": "Longue expiration"
+  },
+  {
+    "word": "frisson",
+    "topics": ["general"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Tremblement dû au froid ou à l'émotion",
+    "shortClue": "Tremblement"
+  },
+  {
+    "word": "peuplier",
+    "topics": ["nature"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Grand arbre élancé des bords de rivière",
+    "shortClue": "Arbre élancé"
+  },
+  {
+    "word": "noyer",
+    "topics": ["nature"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Arbre dont le fruit est une noix",
+    "shortClue": "Arbre à noix"
+  },
+  {
+    "word": "frene",
+    "topics": ["nature"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Arbre aux feuilles composées, au bois élastique",
+    "shortClue": "Bois élastique"
+  },
+  {
+    "word": "tulipe",
+    "topics": ["nature"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Fleur en coupe, reine des champs de Hollande",
+    "shortClue": "Fleur de Hollande"
+  },
+  {
+    "word": "coquelicot",
+    "topics": ["nature"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Fleur rouge qui pare les blés",
+    "shortClue": "Fleur des blés"
+  },
+  {
+    "word": "cepe",
+    "topics": ["nature"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Champignon brun à pied renflé, très recherché",
+    "shortClue": "Bolet brun"
+  },
+  {
+    "word": "mousse",
+    "topics": ["nature"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Tapis vert doux sur les troncs et les pierres",
+    "shortClue": "Tapis vert"
+  },
+  {
+    "word": "ronce",
+    "topics": ["nature"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Arbuste épineux qui donne des mûres",
+    "shortClue": "Arbuste épineux"
+  },
+  {
+    "word": "humus",
+    "topics": ["nature"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Couche noire riche en feuilles décomposées",
+    "shortClue": "Terre de feuilles"
+  },
+  {
+    "word": "aurore",
+    "topics": ["nature"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Lueur rose qui précède le lever du jour",
+    "shortClue": "Premières lueurs"
+  },
+  {
+    "word": "crepuscule",
+    "topics": ["nature"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Lumière déclinante après le coucher du soleil",
+    "shortClue": "Fin du jour"
+  },
+  {
+    "word": "tonnerre",
+    "topics": ["nature"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Grondement qui suit l'éclair",
+    "shortClue": "Fracas du ciel"
+  },
+  {
+    "word": "tempete",
+    "topics": ["nature"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Violent coup de vent en mer",
+    "shortClue": "Vent violent"
+  },
+  {
+    "word": "tornade",
+    "topics": ["nature"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Tourbillon de vent destructeur",
+    "shortClue": "Vent tourbillonnant"
+  },
+  {
+    "word": "mistral",
+    "topics": ["nature"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Vent froid et sec de la vallée du Rhône",
+    "shortClue": "Vent du Midi"
+  },
+  {
+    "word": "automne",
+    "topics": ["nature"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Saison des feuilles mortes",
+    "shortClue": "Saison rousse"
+  },
+  {
+    "word": "hiver",
+    "topics": ["nature"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Saison la plus froide de l'année",
+    "shortClue": "Saison de neige"
+  },
+  {
+    "word": "canicule",
+    "topics": ["nature"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Période de très forte chaleur",
+    "shortClue": "Chaleur extrême"
+  },
+  {
+    "word": "sable",
+    "topics": ["nature"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Grains fins des dunes et des plages",
+    "shortClue": "Grains de plage"
+  },
+  {
+    "word": "silex",
+    "topics": ["nature"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Roche très dure qui donne des étincelles",
+    "shortClue": "Pierre à feu"
+  },
+  {
+    "word": "ruisseau",
+    "topics": ["nature"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Petit cours d'eau qui murmure dans les prés",
+    "shortClue": "Filet courant"
+  },
+  {
+    "word": "cascade",
+    "topics": ["nature"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Chute d'eau",
+    "shortClue": "Eau qui tombe"
+  },
+  {
+    "word": "etang",
+    "topics": ["nature"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Étendue d'eau stagnante peu profonde",
+    "shortClue": "Eau dormante"
+  },
+  {
+    "word": "cactus",
+    "topics": ["nature"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Plante grasse épineuse du désert",
+    "shortClue": "Plante épineuse"
+  },
+  {
+    "word": "dune",
+    "topics": ["nature"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Colline de sable bâtie par le vent",
+    "shortClue": "Butte de sable"
+  },
+  {
+    "word": "algue",
+    "topics": ["nature"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Végétal marin sans racines",
+    "shortClue": "Plante de mer"
+  },
+  {
+    "word": "brindille",
+    "topics": ["nature"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Fine petite branche sèche",
+    "shortClue": "Menue branche"
+  },
+  {
+    "word": "avalanche",
+    "topics": ["nature"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Masse de neige qui dévale la pente",
+    "shortClue": "Coulée de neige"
+  },
+  {
+    "word": "crete",
+    "topics": ["nature"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Ligne de faîte d'une montagne",
+    "shortClue": "Ligne de faîte"
+  },
+  {
+    "word": "merle",
+    "topics": ["animals"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Oiseau noir au bec orangé qui siffle dans les jardins",
+    "shortClue": "Siffleur noir"
+  },
+  {
+    "word": "moineau",
+    "topics": ["animals"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Petit oiseau brun des villes",
+    "shortClue": "Oiseau des villes"
+  },
+  {
+    "word": "mesange",
+    "topics": ["animals"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Petit oiseau bleu et jaune des jardins",
+    "shortClue": "Oiseau bleu"
+  },
+  {
+    "word": "geai",
+    "topics": ["animals"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Oiseau forestier à plumes bleues sur l'aile",
+    "shortClue": "Oiseau des bois"
+  },
+  {
+    "word": "cigogne",
+    "topics": ["animals"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Échassier blanc qui niche sur les toits d'Alsace",
+    "shortClue": "Échassier blanc"
+  },
+  {
+    "word": "heron",
+    "topics": ["animals"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Grand échassier gris qui guette les poissons",
+    "shortClue": "Échassier gris"
+  },
+  {
+    "word": "agneau",
+    "topics": ["animals"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Petit du mouton",
+    "shortClue": "Jeune ovin"
+  },
+  {
+    "word": "chaton",
+    "topics": ["animals"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Jeune félin domestique",
+    "shortClue": "Jeune félin"
+  },
+  {
+    "word": "chiot",
+    "topics": ["animals"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Jeune canidé domestique",
+    "shortClue": "Jeune canidé"
+  },
+  {
+    "word": "veau",
+    "topics": ["animals"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Jeune bovin",
+    "shortClue": "Petit bovin"
+  },
+  {
+    "word": "faon",
+    "topics": ["animals"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Petit de la biche",
+    "shortClue": "Jeune cervidé"
+  },
+  {
+    "word": "saumon",
+    "topics": ["animals"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Poisson qui remonte les rivières pour pondre",
+    "shortClue": "Poisson migrateur"
+  },
+  {
+    "word": "anguille",
+    "topics": ["animals"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Poisson long et glissant comme un serpent",
+    "shortClue": "Poisson serpentin"
+  },
+  {
+    "word": "morse",
+    "topics": ["animals"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Mammifère polaire aux longues défenses",
+    "shortClue": "Défenses polaires"
+  },
+  {
+    "word": "orque",
+    "topics": ["animals"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Grand cétacé noir et blanc",
+    "shortClue": "Cétacé bicolore"
+  },
+  {
+    "word": "lezard",
+    "topics": ["animals"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Petit reptile qui se chauffe sur les murs",
+    "shortClue": "Petit reptile"
+  },
+  {
+    "word": "serpent",
+    "topics": ["animals"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Reptile sans pattes qui rampe",
+    "shortClue": "Reptile rampant"
+  },
+  {
+    "word": "vipere",
+    "topics": ["animals"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Serpent venimeux à pupille verticale",
+    "shortClue": "Serpent venimeux"
+  },
+  {
+    "word": "cameleon",
+    "topics": ["animals"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Reptile qui change de couleur",
+    "shortClue": "Maître du camouflage"
+  },
+  {
+    "word": "fourmi",
+    "topics": ["animals"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Petit insecte qui vit en colonie très active",
+    "shortClue": "Insecte laborieux"
+  },
+  {
+    "word": "guepe",
+    "topics": ["animals"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Insecte rayé de jaune et noir, armé d'un dard",
+    "shortClue": "Insecte rayé"
+  },
+  {
+    "word": "moustique",
+    "topics": ["animals"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Insecte dont la femelle pique",
+    "shortClue": "Petit piqueur"
+  },
+  {
+    "word": "coccinelle",
+    "topics": ["animals"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Petite bête rouge à points noirs",
+    "shortClue": "Insecte pointillé"
+  },
+  {
+    "word": "cigale",
+    "topics": ["animals"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Insecte dont le chant remplit l'été provençal",
+    "shortClue": "Chanteuse du Midi"
+  },
+  {
+    "word": "girafe",
+    "topics": ["animals"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Animal au très long cou",
+    "shortClue": "Long cou"
+  },
+  {
+    "word": "lion",
+    "topics": ["animals"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Félin d'Afrique à crinière",
+    "shortClue": "Félin à crinière"
+  },
+  {
+    "word": "guepard",
+    "topics": ["animals"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Félin le plus rapide à la course",
+    "shortClue": "Félin véloce"
+  },
+  {
+    "word": "hyene",
+    "topics": ["animals"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Charognard de la savane au cri qui ressemble à un rire",
+    "shortClue": "Rieuse de savane"
+  },
+  {
+    "word": "cerf",
+    "topics": ["animals"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Mâle de la biche, au bois ramifié",
+    "shortClue": "Mâle à bois"
+  },
+  {
+    "word": "entrecote",
+    "topics": ["food"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Pièce de bœuf grillée, servie avec des frites",
+    "shortClue": "Pièce de bœuf"
+  },
+  {
+    "word": "madeleine",
+    "topics": ["food"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Petit gâteau moelleux en forme de coquille",
+    "shortClue": "Gâteau en coquille"
+  },
+  {
+    "word": "meringue",
+    "topics": ["food"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Blanc d'œuf battu avec du sucre et cuit doucement",
+    "shortClue": "Blancs sucrés"
+  },
+  {
+    "word": "chantilly",
+    "topics": ["food"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Crème fouettée et sucrée",
+    "shortClue": "Crème fouettée"
+  },
+  {
+    "word": "poivre",
+    "topics": ["food"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Épice noire ou blanche qu'on moud sur les plats",
+    "shortClue": "Épice du moulin"
+  },
+  {
+    "word": "persil",
+    "topics": ["food"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Herbe verte aux feuilles frisées ou plates",
+    "shortClue": "Herbe de cuisine"
+  },
+  {
+    "word": "jambon",
+    "topics": ["food"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Cuisse de porc salée ou cuite",
+    "shortClue": "Cuisse de porc"
+  },
+  {
+    "word": "brochette",
+    "topics": ["food"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Morceaux de viande enfilés sur une pique",
+    "shortClue": "Viande sur pique"
+  },
+  {
+    "word": "cerise",
+    "topics": ["food"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Petit fruit rouge à noyau, posé sur le gâteau",
+    "shortClue": "Petit fruit rouge"
+  },
+  {
+    "word": "fraise",
+    "topics": ["food"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Fruit rouge et parfumé du printemps",
+    "shortClue": "Fruit parfumé"
+  },
+  {
+    "word": "framboise",
+    "topics": ["food"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Baie rouge au parfum délicat",
+    "shortClue": "Baie rouge"
+  },
+  {
+    "word": "citron",
+    "topics": ["food"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Agrume jaune et acide",
+    "shortClue": "Agrume acide"
+  },
+  {
+    "word": "ananas",
+    "topics": ["food"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Fruit tropical à la couronne de feuilles piquantes",
+    "shortClue": "Fruit tropical"
+  },
+  {
+    "word": "carotte",
+    "topics": ["food"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Racine orange qui, dit-on, donne bonne vue",
+    "shortClue": "Racine orange"
+  },
+  {
+    "word": "chou",
+    "topics": ["food"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Légume aux feuilles serrées en boule",
+    "shortClue": "Légume pommé"
+  },
+  {
+    "word": "radis",
+    "topics": ["food"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Petite racine rouge qu'on croque avec du beurre",
+    "shortClue": "Racine à croquer"
+  },
+  {
+    "word": "oignon",
+    "topics": ["food"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Bulbe qui fait pleurer quand on le coupe",
+    "shortClue": "Bulbe larmoyant"
+  },
+  {
+    "word": "epinard",
+    "topics": ["food"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Légume à feuilles vertes qui réduit à la cuisson",
+    "shortClue": "Feuille verte cuite"
+  },
+  {
+    "word": "artichaut",
+    "topics": ["food"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Légume dont on mange le cœur et la base des feuilles",
+    "shortClue": "Fond de légume"
+  },
+  {
+    "word": "betterave",
+    "topics": ["food"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Racine rouge sombre qu'on mange en salade",
+    "shortClue": "Racine rouge sombre"
+  },
+  {
+    "word": "sardine",
+    "topics": ["food"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Petit poisson gras qu'on met en boîte",
+    "shortClue": "Poisson en boîte"
+  },
+  {
+    "word": "thon",
+    "topics": ["food"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Grand poisson de mer rapide",
+    "shortClue": "Grand poisson rapide"
+  },
+  {
+    "word": "sole",
+    "topics": ["food"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Poisson plat à la chair fine",
+    "shortClue": "Poisson plat"
+  },
+  {
+    "word": "morue",
+    "topics": ["food"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Poisson salé ou séché, nommé cabillaud quand il est frais",
+    "shortClue": "Cabillaud salé"
+  },
+  {
+    "word": "flan",
+    "topics": ["food"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Entremets lisse cuit au four, aux œufs",
+    "shortClue": "Dessert aux œufs"
+  },
+  {
+    "word": "colline",
+    "topics": ["geography"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Petite hauteur arrondie",
+    "shortClue": "Petite butte"
+  },
+  {
+    "word": "baie",
+    "topics": ["geography"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Large échancrure de la côte",
+    "shortClue": "Échancrure côtière"
+  },
+  {
+    "word": "fjord",
+    "topics": ["geography"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Bras de mer étroit entre des falaises, en Norvège",
+    "shortClue": "Mer entre falaises"
+  },
+  {
+    "word": "altitude",
+    "topics": ["geography"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Hauteur d'un lieu au-dessus de la mer",
+    "shortClue": "Hauteur du lieu"
+  },
+  {
+    "word": "tropique",
+    "topics": ["geography"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Parallèle limite de la zone chaude",
+    "shortClue": "Parallèle chaud"
+  },
+  {
+    "word": "mousson",
+    "topics": ["geography"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Vent saisonnier d'Asie qui amène des pluies",
+    "shortClue": "Vent des pluies"
+  },
+  {
+    "word": "longitude",
+    "topics": ["geography"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Position d'un lieu mesurée vers l'est ou l'ouest",
+    "shortClue": "Mesure est-ouest"
+  },
+  {
+    "word": "relief",
+    "topics": ["geography"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Ensemble des bosses et des creux de la terre",
+    "shortClue": "Bosses et creux"
+  },
+  {
+    "word": "Bruxelles",
+    "topics": ["geography"],
+    "difficulty": 1,
+    "kind": "proper",
+    "clue": "Capitale de la Belgique",
+    "shortClue": "Capitale belge"
+  },
+  {
+    "word": "Geneve",
+    "topics": ["geography"],
+    "difficulty": 2,
+    "kind": "proper",
+    "clue": "Ville suisse au bord d'un grand lac",
+    "shortClue": "Ville du Léman"
+  },
+  {
+    "word": "Quebec",
+    "topics": ["geography"],
+    "difficulty": 1,
+    "kind": "proper",
+    "clue": "Province du Canada, et sa vieille capitale",
+    "shortClue": "Province canadienne"
+  },
+  {
+    "word": "Montreal",
+    "topics": ["geography"],
+    "difficulty": 1,
+    "kind": "proper",
+    "clue": "Plus grande ville du Québec",
+    "shortClue": "Métropole québécoise"
+  },
+  {
+    "word": "Dakar",
+    "topics": ["geography"],
+    "difficulty": 2,
+    "kind": "proper",
+    "clue": "Capitale du Sénégal",
+    "shortClue": "Capitale sénégalaise"
+  },
+  {
+    "word": "Rabat",
+    "topics": ["geography"],
+    "difficulty": 3,
+    "kind": "proper",
+    "clue": "Capitale du Maroc",
+    "shortClue": "Capitale marocaine"
+  },
+  {
+    "word": "Abidjan",
+    "topics": ["geography"],
+    "difficulty": 3,
+    "kind": "proper",
+    "clue": "Grande ville de Côte d'Ivoire",
+    "shortClue": "Métropole ivoirienne"
+  },
+  {
+    "word": "Bordeaux",
+    "topics": ["geography"],
+    "difficulty": 2,
+    "kind": "proper",
+    "clue": "Ville du vin sur la Garonne",
+    "shortClue": "Capitale du vin"
+  },
+  {
+    "word": "Alsace",
+    "topics": ["geography"],
+    "difficulty": 2,
+    "kind": "proper",
+    "clue": "Région de l'est de la France, bordée par le Rhin",
+    "shortClue": "Région du Rhin"
+  },
+  {
+    "word": "Rhin",
+    "topics": ["geography"],
+    "difficulty": 2,
+    "kind": "proper",
+    "clue": "Grand fleuve d'Europe qui passe à Strasbourg",
+    "shortClue": "Fleuve d'Europe"
+  },
+  {
+    "word": "Congo",
+    "topics": ["geography"],
+    "difficulty": 2,
+    "kind": "proper",
+    "clue": "Grand fleuve d'Afrique centrale",
+    "shortClue": "Fleuve équatorial"
+  },
+  {
+    "word": "Madagascar",
+    "topics": ["geography"],
+    "difficulty": 2,
+    "kind": "proper",
+    "clue": "Grande île de l'océan Indien",
+    "shortClue": "Île de l'Indien"
+  },
+  {
+    "word": "Tahiti",
+    "topics": ["geography"],
+    "difficulty": 2,
+    "kind": "proper",
+    "clue": "Île principale de la Polynésie française",
+    "shortClue": "Île polynésienne"
+  },
+  {
+    "word": "Luxembourg",
+    "topics": ["geography"],
+    "difficulty": 2,
+    "kind": "proper",
+    "clue": "Grand-duché entre la France, la Belgique et l'Allemagne",
+    "shortClue": "Grand-duché"
+  },
+  {
+    "word": "Monaco",
+    "topics": ["geography"],
+    "difficulty": 1,
+    "kind": "proper",
+    "clue": "Principauté sur la Côte d'Azur",
+    "shortClue": "Principauté du Rocher"
+  },
+  {
+    "word": "pharaon",
+    "topics": ["history"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Souverain de l'Égypte ancienne",
+    "shortClue": "Roi d'Égypte"
+  },
+  {
+    "word": "stele",
+    "topics": ["history"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Dalle de pierre dressée portant une inscription",
+    "shortClue": "Dalle gravée"
+  },
+  {
+    "word": "empereur",
+    "topics": ["history"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Titre d'Auguste ou de Napoléon",
+    "shortClue": "Titre d'Auguste"
+  },
+  {
+    "word": "centurion",
+    "topics": ["history"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Officier de légion romaine",
+    "shortClue": "Officier romain"
+  },
+  {
+    "word": "toge",
+    "topics": ["history"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Ample vêtement drapé du citoyen romain",
+    "shortClue": "Drapé de citoyen"
+  },
+  {
+    "word": "thermes",
+    "topics": ["history"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Bains publics de l'ancienne Rome",
+    "shortClue": "Bains romains"
+  },
+  {
+    "word": "consul",
+    "topics": ["history"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Magistrat suprême de la république romaine",
+    "shortClue": "Magistrat suprême"
+  },
+  {
+    "word": "douve",
+    "topics": ["history"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Fossé rempli d'eau au pied d'un château",
+    "shortClue": "Fossé de château"
+  },
+  {
+    "word": "creneau",
+    "topics": ["history"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Ouverture dentelée au sommet d'une muraille",
+    "shortClue": "Dentelure de mur"
+  },
+  {
+    "word": "herse",
+    "topics": ["history"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Grille levée à la porte d'un château fort",
+    "shortClue": "Grille de porte"
+  },
+  {
+    "word": "ecuyer",
+    "topics": ["history"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Jeune noble au service d'un chevalier",
+    "shortClue": "Aide du chevalier"
+  },
+  {
+    "word": "armure",
+    "topics": ["history"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Protection de métal du chevalier",
+    "shortClue": "Protection d'acier"
+  },
+  {
+    "word": "heaume",
+    "topics": ["history"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Casque fermé du chevalier",
+    "shortClue": "Casque ancien"
+  },
+  {
+    "word": "joute",
+    "topics": ["history"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Combat de deux cavaliers lance en avant",
+    "shortClue": "Combat à cheval"
+  },
+  {
+    "word": "destrier",
+    "topics": ["history"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Cheval de bataille du chevalier",
+    "shortClue": "Cheval de bataille"
+  },
+  {
+    "word": "explorateur",
+    "topics": ["history"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Voyageur qui part découvrir des terres inconnues",
+    "shortClue": "Découvreur de terres"
+  },
+  {
+    "word": "astrolabe",
+    "topics": ["history"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Instrument ancien pour mesurer la hauteur des étoiles",
+    "shortClue": "Instrument de marin"
+  },
+  {
+    "word": "humanisme",
+    "topics": ["history"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Mouvement de la Renaissance qui redécouvre les Anciens",
+    "shortClue": "Courant de pensée"
+  },
+  {
+    "word": "brevet",
+    "topics": ["history"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Titre qui protège le droit d'un inventeur",
+    "shortClue": "Titre d'inventeur"
+  },
+  {
+    "word": "vapeur",
+    "topics": ["history"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Gaz d'eau chaude qui fit tourner les machines",
+    "shortClue": "Force des machines"
+  },
+  {
+    "word": "catapulte",
+    "topics": ["history"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Machine de siège qui lance des pierres",
+    "shortClue": "Machine de siège"
+  },
+  {
+    "word": "dague",
+    "topics": ["history"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Arme blanche courte à double tranchant",
+    "shortClue": "Arme blanche courte"
+  },
+  {
+    "word": "duc",
+    "topics": ["history"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Noble titré au-dessus du marquis",
+    "shortClue": "Titre de noblesse"
+  },
+  {
+    "word": "marquis",
+    "topics": ["history"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Titre noble entre duc et comte",
+    "shortClue": "Noble titré"
+  },
+  {
+    "word": "fouille",
+    "topics": ["history"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Exploration méthodique d'un site ancien",
+    "shortClue": "Chantier d'archéologues"
+  },
+  {
+    "word": "dolmen",
+    "topics": ["history"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Monument préhistorique fait d'une dalle posée sur des piliers",
+    "shortClue": "Table de pierre"
+  },
+  {
+    "word": "menhir",
+    "topics": ["history"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Grande pierre dressée de la préhistoire",
+    "shortClue": "Pierre dressée"
+  },
+  {
+    "word": "forgeron",
+    "topics": ["history"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Artisan qui martèle le fer chaud",
+    "shortClue": "Martèle le fer"
+  },
+  {
+    "word": "sodium",
+    "topics": ["science"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Métal mou qui, uni au chlore, fait le sel",
+    "shortClue": "Métal du sel"
+  },
+  {
+    "word": "calcium",
+    "topics": ["science"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Minéral qui fortifie les os",
+    "shortClue": "Minéral des os"
+  },
+  {
+    "word": "soufre",
+    "topics": ["science"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Élément jaune à l'odeur d'œuf pourri",
+    "shortClue": "Élément jaune"
+  },
+  {
+    "word": "plomb",
+    "topics": ["science"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Métal gris très lourd",
+    "shortClue": "Métal lourd"
+  },
+  {
+    "word": "neon",
+    "topics": ["science"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Gaz rare des enseignes lumineuses",
+    "shortClue": "Gaz des enseignes"
+  },
+  {
+    "word": "argon",
+    "topics": ["science"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Gaz noble, troisième composant de l'air",
+    "shortClue": "Gaz noble"
+  },
+  {
+    "word": "chlore",
+    "topics": ["science"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Gaz verdâtre qui désinfecte les piscines",
+    "shortClue": "Gaz désinfectant"
+  },
+  {
+    "word": "iode",
+    "topics": ["science"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Élément brun qu'on met sur les plaies",
+    "shortClue": "Antiseptique brun"
+  },
+  {
+    "word": "noyau",
+    "topics": ["science"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Centre de l'atome ou de la cellule",
+    "shortClue": "Centre de l'atome"
+  },
+  {
+    "word": "meteorite",
+    "topics": ["science"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Pierre tombée du ciel",
+    "shortClue": "Pierre du ciel"
+  },
+  {
+    "word": "pression",
+    "topics": ["science"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Force exercée sur une surface",
+    "shortClue": "Poussée sur surface"
+  },
+  {
+    "word": "inertie",
+    "topics": ["science"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Tendance d'un corps à garder son mouvement",
+    "shortClue": "Résistance au changement"
+  },
+  {
+    "word": "levier",
+    "topics": ["science"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Barre rigide qui soulève une charge autour d'un point",
+    "shortClue": "Barre rigide"
+  },
+  {
+    "word": "ressort",
+    "topics": ["science"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Pièce en spirale qui se détend après avoir été comprimée",
+    "shortClue": "Spirale élastique"
+  },
+  {
+    "word": "muscle",
+    "topics": ["science"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Organe qui se contracte pour mouvoir le corps",
+    "shortClue": "Organe contractile"
+  },
+  {
+    "word": "poumon",
+    "topics": ["science"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Organe de la respiration",
+    "shortClue": "Organe respiratoire"
+  },
+  {
+    "word": "artere",
+    "topics": ["science"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Vaisseau qui part du cœur",
+    "shortClue": "Vaisseau sanguin"
+  },
+  {
+    "word": "entonnoir",
+    "topics": ["science"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Cône qui guide un liquide dans un goulot",
+    "shortClue": "Cône à verser"
+  },
+  {
+    "word": "mica",
+    "topics": ["science"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Minéral qui se débite en lamelles brillantes",
+    "shortClue": "Minéral feuilleté"
+  },
+  {
+    "word": "diamant",
+    "topics": ["science"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Pierre la plus dure",
+    "shortClue": "Pierre très dure"
+  },
+  {
+    "word": "courant",
+    "topics": ["science"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Déplacement des charges dans un fil",
+    "shortClue": "Flux d'électrons"
+  },
+  {
+    "word": "circuit",
+    "topics": ["science"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Parcours fermé du courant",
+    "shortClue": "Parcours fermé"
+  },
+  {
+    "word": "racine",
+    "topics": ["science"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Partie souterraine du végétal qui puise l'eau",
+    "shortClue": "Partie souterraine"
+  },
+  {
+    "word": "seve",
+    "topics": ["science"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Liquide qui circule dans les plantes",
+    "shortClue": "Liquide végétal"
+  },
+  {
+    "word": "pollen",
+    "topics": ["science"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Poudre jaune que portent les abeilles",
+    "shortClue": "Poudre des fleurs"
+  },
+  {
+    "word": "bourgeon",
+    "topics": ["science"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Jeune pousse enveloppée avant l'éclosion",
+    "shortClue": "Pousse naissante"
+  },
+  {
+    "word": "corner",
+    "topics": ["sport"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Coup de pied tiré depuis l'angle du terrain",
+    "shortClue": "Tir d'angle"
+  },
+  {
+    "word": "penalty",
+    "topics": ["sport"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Tir accordé pour une faute dans la surface",
+    "shortClue": "Tir de réparation"
+  },
+  {
+    "word": "buteur",
+    "topics": ["sport"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Attaquant qui fait trembler les filets",
+    "shortClue": "Attaquant efficace"
+  },
+  {
+    "word": "panier",
+    "topics": ["sport"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Anneau garni d'un filet où l'on envoie le ballon",
+    "shortClue": "Cible du basket"
+  },
+  {
+    "word": "rebond",
+    "topics": ["sport"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Retour de la balle ou du ballon sur le sol",
+    "shortClue": "Retour du ballon"
+  },
+  {
+    "word": "service",
+    "topics": ["sport"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Coup qui lance l'échange au tennis",
+    "shortClue": "Coup d'envoi"
+  },
+  {
+    "word": "smash",
+    "topics": ["sport"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Frappe puissante au-dessus de la tête au tennis",
+    "shortClue": "Frappe aérienne"
+  },
+  {
+    "word": "lob",
+    "topics": ["sport"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Balle qui passe au-dessus de l'adversaire",
+    "shortClue": "Balle en chandelle"
+  },
+  {
+    "word": "sprint",
+    "topics": ["sport"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Course de vitesse sur courte distance",
+    "shortClue": "Course rapide"
+  },
+  {
+    "word": "haie",
+    "topics": ["sport"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Barrière à franchir en athlétisme",
+    "shortClue": "Obstacle de piste"
+  },
+  {
+    "word": "chrono",
+    "topics": ["sport"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Appareil qui mesure le temps d'une course",
+    "shortClue": "Compteur de secondes"
+  },
+  {
+    "word": "crawl",
+    "topics": ["sport"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Nage rapide, bras alternés",
+    "shortClue": "Nage rapide"
+  },
+  {
+    "word": "bassin",
+    "topics": ["sport"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Grande cuve où nagent les athlètes",
+    "shortClue": "Piscine"
+  },
+  {
+    "word": "selle",
+    "topics": ["sport"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Siège du cycliste ou du cavalier",
+    "shortClue": "Siège du cavalier"
+  },
+  {
+    "word": "maillot",
+    "topics": ["sport"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Tunique de l'équipe ou du cycliste leader",
+    "shortClue": "Tunique sportive"
+  },
+  {
+    "word": "podium",
+    "topics": ["sport"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Estrade où montent les trois premiers",
+    "shortClue": "Estrade des vainqueurs"
+  },
+  {
+    "word": "record",
+    "topics": ["sport"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Meilleure performance jamais réalisée",
+    "shortClue": "Meilleur résultat"
+  },
+  {
+    "word": "sabre",
+    "topics": ["sport"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Arme d'escrime qui touche de taille et d'estoc",
+    "shortClue": "Arme d'escrime"
+  },
+  {
+    "word": "touche",
+    "topics": ["sport"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Point marqué à l'escrime",
+    "shortClue": "Point d'escrime"
+  },
+  {
+    "word": "botte",
+    "topics": ["sport"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Coup porté à la pointe de l'épée",
+    "shortClue": "Coup d'escrime"
+  },
+  {
+    "word": "voilier",
+    "topics": ["sport"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Embarcation poussée par le vent",
+    "shortClue": "Bateau à vent"
+  },
+  {
+    "word": "gouvernail",
+    "topics": ["sport"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Pièce qui dirige un bateau",
+    "shortClue": "Barre du navire"
+  },
+  {
+    "word": "sifflet",
+    "topics": ["sport"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Objet qui retentit sur le terrain pour arrêter le jeu",
+    "shortClue": "Objet strident"
+  },
+  {
+    "word": "carton",
+    "topics": ["sport"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Avertissement jaune ou rouge brandi par l'arbitre",
+    "shortClue": "Jaune ou rouge"
+  },
+  {
+    "word": "pelouse",
+    "topics": ["sport"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Gazon du terrain de foot",
+    "shortClue": "Gazon du stade"
+  },
+  {
+    "word": "vestiaire",
+    "topics": ["sport"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Salle où les joueurs se changent",
+    "shortClue": "Salle des joueurs"
+  },
+  {
+    "word": "flute",
+    "topics": ["arts"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Instrument à vent où l'on souffle sur le bord d'un trou",
+    "shortClue": "Instrument à vent"
+  },
+  {
+    "word": "tuba",
+    "topics": ["arts"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Gros cuivre grave à pistons",
+    "shortClue": "Cuivre grave"
+  },
+  {
+    "word": "trombone",
+    "topics": ["arts"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Cuivre à coulisse",
+    "shortClue": "Instrument à coulisse"
+  },
+  {
+    "word": "cymbale",
+    "topics": ["arts"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Disque de laiton qu'on entrechoque",
+    "shortClue": "Disque de percussion"
+  },
+  {
+    "word": "tambour",
+    "topics": ["arts"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Instrument à peau frappé avec des baguettes",
+    "shortClue": "Instrument à peau"
+  },
+  {
+    "word": "saxophone",
+    "topics": ["arts"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Instrument à anche aux accents de jazz",
+    "shortClue": "Instrument à anche"
+  },
+  {
+    "word": "guitare",
+    "topics": ["arts"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Instrument à cordes pincées et à caisse plate",
+    "shortClue": "Instrument à cordes"
+  },
+  {
+    "word": "piano",
+    "topics": ["arts"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Instrument à clavier et à marteaux",
+    "shortClue": "Instrument à clavier"
+  },
+  {
+    "word": "orgue",
+    "topics": ["arts"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Grand instrument à tuyaux et à claviers",
+    "shortClue": "Instrument à tuyaux"
+  },
+  {
+    "word": "aria",
+    "topics": ["arts"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Air chanté par un soliste dans un opéra",
+    "shortClue": "Air d'opéra"
+  },
+  {
+    "word": "soprano",
+    "topics": ["arts"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Voix de femme la plus aiguë",
+    "shortClue": "Voix aiguë"
+  },
+  {
+    "word": "tenor",
+    "topics": ["arts"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Voix d'homme aiguë",
+    "shortClue": "Voix d'homme aiguë"
+  },
+  {
+    "word": "pirouette",
+    "topics": ["arts"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Tour du danseur sur lui-même",
+    "shortClue": "Rotation du danseur"
+  },
+  {
+    "word": "tutu",
+    "topics": ["arts"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Jupe de gaze raide de la danseuse classique",
+    "shortClue": "Jupe de danseuse"
+  },
+  {
+    "word": "pinceau",
+    "topics": ["arts"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Outil à poils du peintre",
+    "shortClue": "Outil à poils"
+  },
+  {
+    "word": "toile",
+    "topics": ["arts"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Tissu tendu sur lequel on peint",
+    "shortClue": "Support de peinture"
+  },
+  {
+    "word": "pastel",
+    "topics": ["arts"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Bâton de couleur tendre qu'on estompe",
+    "shortClue": "Craie colorée"
+  },
+  {
+    "word": "portrait",
+    "topics": ["arts"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Image d'une personne peinte ou dessinée",
+    "shortClue": "Image de visage"
+  },
+  {
+    "word": "statue",
+    "topics": ["arts"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Figure sculptée en pied",
+    "shortClue": "Figure sculptée"
+  },
+  {
+    "word": "buste",
+    "topics": ["arts"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Sculpture de la tête et des épaules",
+    "shortClue": "Tête et épaules"
+  },
+  {
+    "word": "strophe",
+    "topics": ["arts"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Groupe de vers formant une unité de poème",
+    "shortClue": "Couplet de poème"
+  },
+  {
+    "word": "haiku",
+    "topics": ["arts"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Court poème japonais",
+    "shortClue": "Poème bref"
+  },
+  {
+    "word": "epopee",
+    "topics": ["arts"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Long poème qui chante les exploits d'un héros",
+    "shortClue": "Long poème héroïque"
+  },
+  {
+    "word": "diese",
+    "topics": ["arts"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Signe qui hausse une note d'un demi-ton",
+    "shortClue": "Note haussée"
+  },
+  {
+    "word": "bemol",
+    "topics": ["arts"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Signe qui baisse une note d'un demi-ton",
+    "shortClue": "Note baissée"
+  },
+  {
+    "word": "gamme",
+    "topics": ["arts"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Suite de notes montant ou descendant",
+    "shortClue": "Suite de notes"
+  },
+  {
+    "word": "tempo",
+    "topics": ["arts"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Vitesse d'exécution d'un morceau",
+    "shortClue": "Vitesse musicale"
+  },
+  {
+    "word": "rideau",
+    "topics": ["arts"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Voile de scène qui s'ouvre sur la pièce",
+    "shortClue": "Voile de scène"
+  },
+  {
+    "word": "tragedie",
+    "topics": ["arts"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Pièce où les héros courent à leur perte",
+    "shortClue": "Pièce funeste"
+  },
+  {
+    "word": "galerie",
+    "topics": ["arts"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Salle où l'on expose des tableaux",
+    "shortClue": "Salle d'exposition"
+  },
+  {
+    "word": "intrigue",
+    "topics": ["arts"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Nœud des événements d'un récit",
+    "shortClue": "Nœud du récit"
+  },
+  {
+    "word": "chapitre",
+    "topics": ["arts"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Division d'un livre",
+    "shortClue": "Partie de livre"
+  },
+  {
+    "word": "casserole",
+    "topics": ["home"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Récipient à manche pour cuire sur le feu",
+    "shortClue": "Récipient à manche"
+  },
+  {
+    "word": "fouet",
+    "topics": ["home"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Ustensile de fils métalliques pour battre les œufs",
+    "shortClue": "Bat les œufs"
+  },
+  {
+    "word": "canape",
+    "topics": ["home"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Siège à plusieurs places du salon",
+    "shortClue": "Siège du salon"
+  },
+  {
+    "word": "fauteuil",
+    "topics": ["home"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Siège à dossier et accoudoirs",
+    "shortClue": "Siège à accoudoirs"
+  },
+  {
+    "word": "armoire",
+    "topics": ["home"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Grand meuble pour ranger les vêtements",
+    "shortClue": "Meuble à penderie"
+  },
+  {
+    "word": "matelas",
+    "topics": ["home"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Épaisse garniture moelleuse du sommier",
+    "shortClue": "Garniture du lit"
+  },
+  {
+    "word": "drap",
+    "topics": ["home"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Pièce de tissu étendue sur le matelas",
+    "shortClue": "Linge de lit"
+  },
+  {
+    "word": "lavabo",
+    "topics": ["home"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Cuvette fixée au mur de la salle de bain",
+    "shortClue": "Cuvette murale"
+  },
+  {
+    "word": "robinet",
+    "topics": ["home"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Dispositif qui laisse couler l'eau",
+    "shortClue": "Fait couler l'eau"
+  },
+  {
+    "word": "peignoir",
+    "topics": ["home"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Vêtement ample pour sortir du bain",
+    "shortClue": "Sortie de bain"
+  },
+  {
+    "word": "serpilliere",
+    "topics": ["home"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Toile qui lave le carrelage",
+    "shortClue": "Toile à laver"
+  },
+  {
+    "word": "poubelle",
+    "topics": ["home"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Récipient où l'on jette les déchets",
+    "shortClue": "Bac à ordures"
+  },
+  {
+    "word": "marteau",
+    "topics": ["home"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Outil à tête de fer pour enfoncer les clous",
+    "shortClue": "Outil à clous"
+  },
+  {
+    "word": "grenier",
+    "topics": ["home"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Pièce sous le toit où l'on stocke de vieilles choses",
+    "shortClue": "Sous les combles"
+  },
+  {
+    "word": "escalier",
+    "topics": ["home"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Suite de marches reliant deux étages",
+    "shortClue": "Suite de marches"
+  },
+  {
+    "word": "couloir",
+    "topics": ["home"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Passage étroit qui dessert les pièces",
+    "shortClue": "Passage étroit"
+  },
+  {
+    "word": "balcon",
+    "topics": ["home"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Plate-forme en saillie devant une fenêtre",
+    "shortClue": "Saillie de façade"
+  },
+  {
+    "word": "cheminee",
+    "topics": ["home"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Conduit qui évacue la fumée du foyer",
+    "shortClue": "Conduit de fumée"
+  },
+  {
+    "word": "plafond",
+    "topics": ["home"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Surface qui ferme une pièce en haut",
+    "shortClue": "Haut de pièce"
+  },
+  {
+    "word": "radiateur",
+    "topics": ["home"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Appareil de chauffage fixé au mur",
+    "shortClue": "Chauffage mural"
+  },
+  {
+    "word": "ventilateur",
+    "topics": ["home"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Appareil à pales qui brasse l'air en été",
+    "shortClue": "Brasseur d'air"
+  },
+  {
+    "word": "interrupteur",
+    "topics": ["home"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Bouton mural qui allume la lumière",
+    "shortClue": "Bouton mural"
+  },
+  {
+    "word": "ruban",
+    "topics": ["home"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Bande de tissu fine pour nouer un paquet",
+    "shortClue": "Bande de tissu"
+  },
+  {
+    "word": "bouton",
+    "topics": ["home"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Petit disque cousu pour fermer un vêtement",
+    "shortClue": "Petit disque cousu"
+  },
+  {
+    "word": "fil",
+    "topics": ["home"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Brin tordu qui sert à coudre",
+    "shortClue": "Brin à coudre"
+  },
+  {
+    "word": "dentiste",
+    "topics": ["professions"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Praticien qui soigne les caries",
+    "shortClue": "Soigneur de caries"
+  },
+  {
+    "word": "pediatre",
+    "topics": ["professions"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Médecin des enfants",
+    "shortClue": "Docteur des petits"
+  },
+  {
+    "word": "psychologue",
+    "topics": ["professions"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Spécialiste du comportement et de l'esprit",
+    "shortClue": "Étudie le mental"
+  },
+  {
+    "word": "soudeur",
+    "topics": ["professions"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Assemble des pièces métalliques à la flamme",
+    "shortClue": "Assemble le métal"
+  },
+  {
+    "word": "jardinier",
+    "topics": ["professions"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Entretient pelouses et massifs",
+    "shortClue": "Entretient le parc"
+  },
+  {
+    "word": "couvreur",
+    "topics": ["professions"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Pose les ardoises ou les tuiles sur un toit",
+    "shortClue": "Pose les tuiles"
+  },
+  {
+    "word": "vitrier",
+    "topics": ["professions"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Pose le verre aux fenêtres",
+    "shortClue": "Pose le verre"
+  },
+  {
+    "word": "serveur",
+    "topics": ["professions"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Apporte les plats à table",
+    "shortClue": "Apporte les plats"
+  },
+  {
+    "word": "barman",
+    "topics": ["professions"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Prépare les cocktails derrière le comptoir",
+    "shortClue": "Prépare les cocktails"
+  },
+  {
+    "word": "plongeur",
+    "topics": ["professions"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Au restaurant, lave la vaisselle",
+    "shortClue": "Lave la vaisselle"
+  },
+  {
+    "word": "boucher",
+    "topics": ["professions"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Découpe et vend la viande",
+    "shortClue": "Vend la viande"
+  },
+  {
+    "word": "traiteur",
+    "topics": ["professions"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Prépare des repas pour les réceptions",
+    "shortClue": "Cuisine pour fêtes"
+  },
+  {
+    "word": "concierge",
+    "topics": ["professions"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Garde l'immeuble ou l'accueil de l'hôtel",
+    "shortClue": "Gardien d'immeuble"
+  },
+  {
+    "word": "informaticien",
+    "topics": ["professions"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Spécialiste des ordinateurs et des programmes",
+    "shortClue": "Pro des machines"
+  },
+  {
+    "word": "avocat",
+    "topics": ["professions"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Défend ses clients devant le tribunal",
+    "shortClue": "Défenseur de clients"
+  },
+  {
+    "word": "huissier",
+    "topics": ["professions"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Officier qui signifie les actes de justice",
+    "shortClue": "Officier de justice"
+  },
+  {
+    "word": "greffier",
+    "topics": ["professions"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Tient les écritures d'un tribunal",
+    "shortClue": "Scribe du tribunal"
+  },
+  {
+    "word": "professeur",
+    "topics": ["professions"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Enseigne une matière à des élèves",
+    "shortClue": "Enseigne un cours"
+  },
+  {
+    "word": "bibliothecaire",
+    "topics": ["professions"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Classe et prête des livres",
+    "shortClue": "Prête des livres"
+  },
+  {
+    "word": "capitaine",
+    "topics": ["professions"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Commande un navire",
+    "shortClue": "Chef de navire"
+  },
+  {
+    "word": "berger",
+    "topics": ["professions"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Garde les moutons dans les pâturages",
+    "shortClue": "Garde les moutons"
+  },
+  {
+    "word": "eleveur",
+    "topics": ["professions"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Soigne des bêtes pour les vendre",
+    "shortClue": "Soigne le bétail"
+  },
+  {
+    "word": "bucheron",
+    "topics": ["professions"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Abat les arbres de la forêt",
+    "shortClue": "Abat les arbres"
+  },
+  {
+    "word": "pecheur",
+    "topics": ["professions"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Prend du poisson avec filet ou canne",
+    "shortClue": "Prend du poisson"
+  },
+  {
+    "word": "chimiste",
+    "topics": ["professions"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Spécialiste des molécules et des réactions",
+    "shortClue": "Savant des réactions"
+  },
+  {
+    "word": "geologue",
+    "topics": ["professions"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Étudie les roches et les couches de la Terre",
+    "shortClue": "Étudie les roches"
+  },
+  {
+    "word": "vendeur",
+    "topics": ["professions"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Propose des articles aux clients",
+    "shortClue": "Propose les articles"
+  },
+  {
+    "word": "carillon",
+    "topics": ["localCulture"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Jeu de cloches accordées",
+    "shortClue": "Cloches accordées"
+  },
+  {
+    "word": "vendanges",
+    "topics": ["localCulture"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Récolte du raisin",
+    "shortClue": "Cueillette du raisin"
+  },
+  {
+    "word": "kora",
+    "topics": ["localCulture"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Harpe-luth d'Afrique de l'Ouest",
+    "shortClue": "Harpe africaine"
+  },
+  {
+    "word": "gourmet",
+    "topics": ["localCulture"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Fin connaisseur des bons mets",
+    "shortClue": "Fin connaisseur"
+  },
+  {
+    "word": "aperitif",
+    "topics": ["localCulture"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Boisson qui précède le repas",
+    "shortClue": "Avant le repas"
+  },
+  {
+    "word": "sommelier",
+    "topics": ["localCulture"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Spécialiste des vins au restaurant",
+    "shortClue": "Expert en vins"
+  },
+  {
+    "word": "nouvelle",
+    "topics": ["localCulture"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Récit court en prose",
+    "shortClue": "Récit bref"
+  },
+  {
+    "word": "academie",
+    "topics": ["localCulture"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Compagnie des Immortels, sous la Coupole",
+    "shortClue": "Sous la Coupole"
+  },
+  {
+    "word": "dictionnaire",
+    "topics": ["localCulture"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Livre qui donne le sens des mots",
+    "shortClue": "Livre des mots"
+  },
+  {
+    "word": "alexandrin",
+    "topics": ["localCulture"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Vers classique de douze pieds",
+    "shortClue": "Vers classique"
+  },
+  {
+    "word": "clap",
+    "topics": ["localCulture"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Claquette de tournage",
+    "shortClue": "Claquette de film"
+  },
+  {
+    "word": "belote",
+    "topics": ["localCulture"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Jeu de cartes des cafés",
+    "shortClue": "Jeu de cartes"
+  },
+  {
+    "word": "boule",
+    "topics": ["localCulture"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Sphère que l'on lance au jeu de pétanque",
+    "shortClue": "Sphère de jeu"
+  },
+  {
+    "word": "bille",
+    "topics": ["localCulture"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Petite boule de verre des cours de récréation",
+    "shortClue": "Boule de verre"
+  },
+  {
+    "word": "loto",
+    "topics": ["localCulture"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Jeu où l'on coche des numéros tirés au sort",
+    "shortClue": "Jeu de numéros"
+  },
+  {
+    "word": "etal",
+    "topics": ["localCulture"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Table où le marchand expose sa marchandise",
+    "shortClue": "Table de marché"
+  },
+  {
+    "word": "halle",
+    "topics": ["localCulture"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Grand bâtiment couvert d'un marché",
+    "shortClue": "Marché couvert"
+  },
+  {
+    "word": "ogre",
+    "topics": ["localCulture"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Monstre gourmand des contes",
+    "shortClue": "Monstre des contes"
+  },
+  {
+    "word": "fee",
+    "topics": ["localCulture"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Être féminin qui accomplit des vœux grâce à sa baguette",
+    "shortClue": "Marraine magique"
+  },
+  {
+    "word": "lutin",
+    "topics": ["localCulture"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Petit esprit espiègle des contes",
+    "shortClue": "Petit esprit malin"
+  },
+  {
+    "word": "sorciere",
+    "topics": ["localCulture"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Femme qui jette des sorts, dans les contes",
+    "shortClue": "Jette des sorts"
+  },
+  {
+    "word": "cape",
+    "topics": ["localCulture"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Vêtement sans manches qui tombe des épaules",
+    "shortClue": "Manteau sans manches"
+  },
+  {
+    "word": "kepi",
+    "topics": ["localCulture"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Coiffure militaire rigide à visière",
+    "shortClue": "Coiffure à visière"
+  },
+  {
+    "word": "espadrille",
+    "topics": ["localCulture"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Chaussure de toile à semelle de corde",
+    "shortClue": "Chaussure de toile"
+  },
+  {
+    "word": "coiffe",
+    "topics": ["localCulture"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Couvre-chef de dentelle des Bretonnes",
+    "shortClue": "Parure de tête"
+  },
+  {
+    "word": "dentelle",
+    "topics": ["localCulture"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Tissu ajouré aux motifs délicats",
+    "shortClue": "Tissu ajouré"
+  },
+  {
+    "word": "Cyrano",
+    "topics": ["localCulture"],
+    "difficulty": 2,
+    "kind": "proper",
+    "clue": "Poète au grand nez de la pièce de Rostand",
+    "shortClue": "Héros de Rostand"
+  },
+  {
+    "word": "Piaf",
+    "topics": ["localCulture"],
+    "difficulty": 2,
+    "kind": "proper",
+    "clue": "Chanteuse de La Vie en rose",
+    "shortClue": "Môme chanteuse"
+  },
+  {
+    "word": "Zola",
+    "topics": ["localCulture"],
+    "difficulty": 2,
+    "kind": "proper",
+    "clue": "Auteur de Germinal",
+    "shortClue": "Écrivain naturaliste"
+  },
+  {
+    "word": "Pagnol",
+    "topics": ["localCulture"],
+    "difficulty": 2,
+    "kind": "proper",
+    "clue": "Auteur de Marius et de La Gloire de mon père",
+    "shortClue": "Cinéaste marseillais"
+  },
+  {
+    "word": "calme",
+    "topics": ["general"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Absence d'agitation",
+    "shortClue": "Tranquillité"
+  },
+  {
+    "word": "soif",
+    "topics": ["general"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Besoin de boire",
+    "shortClue": "Envie de boire"
+  },
+  {
+    "word": "faim",
+    "topics": ["general"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Besoin de manger",
+    "shortClue": "Creux à l'estomac"
+  },
+  {
+    "word": "lire",
+    "topics": ["general"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Déchiffrer un texte écrit",
+    "shortClue": "Parcourir un texte"
+  },
+  {
+    "word": "dire",
+    "topics": ["general"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Exprimer avec des mots",
+    "shortClue": "Énoncer"
+  },
+  {
+    "word": "crier",
+    "topics": ["general"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Parler très fort",
+    "shortClue": "Hurler"
+  },
+  {
+    "word": "fuir",
+    "topics": ["general"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "S'échapper devant un danger",
+    "shortClue": "S'échapper"
+  },
+  {
+    "word": "faire",
+    "topics": ["general"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Réaliser, fabriquer",
+    "shortClue": "Accomplir"
+  },
+  {
+    "word": "aller",
+    "topics": ["general"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Se rendre quelque part",
+    "shortClue": "Se déplacer"
+  },
+  {
+    "word": "venir",
+    "topics": ["general"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Arriver auprès de quelqu'un",
+    "shortClue": "S'approcher"
+  },
+  {
+    "word": "tot",
+    "topics": ["general"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Avant l'heure prévue",
+    "shortClue": "De bonne heure"
+  },
+  {
+    "word": "jour",
+    "topics": ["general"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Période qui sépare deux nuits",
+    "shortClue": "Période diurne"
+  },
+  {
+    "word": "fois",
+    "topics": ["general"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Occasion qui se répète",
+    "shortClue": "Occurrence"
+  },
+  {
+    "word": "gout",
+    "topics": ["general"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Sens qui perçoit les saveurs",
+    "shortClue": "Sens des saveurs"
+  },
+  {
+    "word": "odeur",
+    "topics": ["general"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Ce que perçoit le nez",
+    "shortClue": "Senteur"
+  },
+  {
+    "word": "voix",
+    "topics": ["general"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Son produit par la gorge",
+    "shortClue": "Son de gorge"
+  },
+  {
+    "word": "geste",
+    "topics": ["general"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Mouvement du bras ou de la main",
+    "shortClue": "Mouvement de main"
+  },
+  {
+    "word": "mot",
+    "topics": ["general"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Suite de lettres qui a un sens",
+    "shortClue": "Unité de langue"
+  },
+  {
+    "word": "nom",
+    "topics": ["general"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Ce par quoi on désigne quelqu'un",
+    "shortClue": "Appellation"
+  },
+  {
+    "word": "lettre",
+    "topics": ["general"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Signe de l'alphabet",
+    "shortClue": "Signe d'alphabet"
+  },
+  {
+    "word": "titre",
+    "topics": ["general"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Intitulé d'un livre",
+    "shortClue": "Nom d'ouvrage"
+  },
+  {
+    "word": "loi",
+    "topics": ["general"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Règle édictée par l'État",
+    "shortClue": "Règle officielle"
+  },
+  {
+    "word": "talent",
+    "topics": ["general"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Don naturel pour une activité",
+    "shortClue": "Don naturel"
+  },
+  {
+    "word": "doux",
+    "topics": ["general"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Agréable au toucher, sans rudesse",
+    "shortClue": "Tendre"
+  },
+  {
+    "word": "pale",
+    "topics": ["general"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Sans couleur, en parlant du teint",
+    "shortClue": "Sans couleur"
+  },
+  {
+    "word": "terne",
+    "topics": ["general"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Sans éclat",
+    "shortClue": "Sans éclat"
+  },
+  {
+    "word": "drole",
+    "topics": ["general"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Qui fait rire",
+    "shortClue": "Amusant"
+  },
+  {
+    "word": "gai",
+    "topics": ["general"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Plein d'entrain",
+    "shortClue": "Enjoué"
+  },
+  {
+    "word": "ete",
+    "topics": ["nature"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Saison chaude après le printemps",
+    "shortClue": "Saison chaude"
+  },
+  {
+    "word": "vent",
+    "topics": ["nature"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Air en mouvement",
+    "shortClue": "Souffle d'air"
+  },
+  {
+    "word": "neige",
+    "topics": ["nature"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Flocons blancs de l'hiver",
+    "shortClue": "Manteau blanc"
+  },
+  {
+    "word": "ciel",
+    "topics": ["nature"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Voûte bleue au-dessus de nos têtes",
+    "shortClue": "Voûte bleue"
+  },
+  {
+    "word": "pre",
+    "topics": ["nature"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Terrain d'herbe où paissent les vaches",
+    "shortClue": "Petite prairie"
+  },
+  {
+    "word": "pie",
+    "topics": ["animals"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Oiseau noir et blanc réputé voleur",
+    "shortClue": "Oiseau voleur"
+  },
+  {
+    "word": "rat",
+    "topics": ["animals"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Rongeur à longue queue des égouts",
+    "shortClue": "Rongeur d'égout"
+  },
+  {
+    "word": "ane",
+    "topics": ["animals"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Cousin du cheval aux longues oreilles",
+    "shortClue": "Longues oreilles"
+  },
+  {
+    "word": "oie",
+    "topics": ["animals"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Oiseau de basse-cour au long cou",
+    "shortClue": "Oiseau de ferme"
+  },
+  {
+    "word": "paon",
+    "topics": ["animals"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Oiseau qui déploie sa queue en éventail",
+    "shortClue": "Oiseau à éventail"
+  },
+  {
+    "word": "the",
+    "topics": ["food"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Boisson infusée de feuilles séchées",
+    "shortClue": "Feuilles infusées"
+  },
+  {
+    "word": "vin",
+    "topics": ["food"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Boisson tirée du raisin",
+    "shortClue": "Jus fermenté"
+  },
+  {
+    "word": "kiwi",
+    "topics": ["food"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Fruit à chair verte et peau velue",
+    "shortClue": "Fruit velu"
+  },
+  {
+    "word": "mais",
+    "topics": ["food"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Céréale aux épis dorés",
+    "shortClue": "Céréale dorée"
+  },
+  {
+    "word": "ail",
+    "topics": ["food"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Bulbe à gousses à l'odeur forte",
+    "shortClue": "Bulbe odorant"
+  },
+  {
+    "word": "lard",
+    "topics": ["food"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Graisse de porc salée",
+    "shortClue": "Graisse salée"
+  },
+  {
+    "word": "pate",
+    "topics": ["food"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Mélange de farine et d'eau qu'on étale",
+    "shortClue": "Farine et eau"
+  },
+  {
+    "word": "miche",
+    "topics": ["food"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Gros pain rond",
+    "shortClue": "Gros pain rond"
+  },
+  {
+    "word": "rhum",
+    "topics": ["food"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Alcool de canne à sucre",
+    "shortClue": "Alcool de canne"
+  },
+  {
+    "word": "lac",
+    "topics": ["geography"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Étendue d'eau entourée de terres",
+    "shortClue": "Eau intérieure"
+  },
+  {
+    "word": "cap",
+    "topics": ["geography"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Pointe de terre qui avance dans la mer",
+    "shortClue": "Pointe côtière"
+  },
+  {
+    "word": "erg",
+    "topics": ["geography"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Désert de dunes du Sahara",
+    "shortClue": "Champ de dunes"
+  },
+  {
+    "word": "plage",
+    "topics": ["geography"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Rivage couvert de sable ou de galets",
+    "shortClue": "Rive sableuse"
+  },
+  {
+    "word": "tsar",
+    "topics": ["history"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Souverain de la Russie d'autrefois",
+    "shortClue": "Souverain russe"
+  },
+  {
+    "word": "cite",
+    "topics": ["history"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Ville-État de la Grèce antique",
+    "shortClue": "Ville grecque"
+  },
+  {
+    "word": "hache",
+    "topics": ["history"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Outil ou arme à lame large",
+    "shortClue": "Arme tranchante"
+  },
+  {
+    "word": "arc",
+    "topics": ["history"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Arme souple qui lance des flèches",
+    "shortClue": "Arme de jet"
+  },
+  {
+    "word": "fleche",
+    "topics": ["history"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Trait lancé par un arc",
+    "shortClue": "Trait d'archer"
+  },
+  {
+    "word": "gaz",
+    "topics": ["science"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Matière sans forme ni volume propres",
+    "shortClue": "État fluide"
+  },
+  {
+    "word": "nerf",
+    "topics": ["science"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Fibre qui transmet les messages au cerveau",
+    "shortClue": "Fibre sensible"
+  },
+  {
+    "word": "veine",
+    "topics": ["science"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Vaisseau qui ramène le sang au cœur",
+    "shortClue": "Vaisseau de retour"
+  },
+  {
+    "word": "crane",
+    "topics": ["science"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Boîte osseuse du cerveau",
+    "shortClue": "Boîte osseuse"
+  },
+  {
+    "word": "ozone",
+    "topics": ["science"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Gaz qui filtre les ultraviolets",
+    "shortClue": "Gaz protecteur"
+  },
+  {
+    "word": "volt",
+    "topics": ["science"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Unité de tension électrique",
+    "shortClue": "Unité électrique"
+  },
+  {
+    "word": "onde",
+    "topics": ["science"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Vibration qui se propage",
+    "shortClue": "Vibration propagée"
+  },
+  {
+    "word": "pile",
+    "topics": ["science"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Source portable de courant",
+    "shortClue": "Source portable"
+  },
+  {
+    "word": "match",
+    "topics": ["sport"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Rencontre entre deux équipes",
+    "shortClue": "Rencontre"
+  },
+  {
+    "word": "score",
+    "topics": ["sport"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Résultat chiffré d'une rencontre",
+    "shortClue": "Résultat chiffré"
+  },
+  {
+    "word": "ring",
+    "topics": ["sport"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Estrade carrée de la boxe",
+    "shortClue": "Estrade de boxe"
+  },
+  {
+    "word": "rame",
+    "topics": ["sport"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Pale qu'on actionne pour avancer sur l'eau",
+    "shortClue": "Pale de barque"
+  },
+  {
+    "word": "set",
+    "topics": ["sport"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Manche d'un match de tennis",
+    "shortClue": "Manche de tennis"
+  },
+  {
+    "word": "balle",
+    "topics": ["sport"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Petite sphère qu'on frappe avec une raquette",
+    "shortClue": "Petite sphère"
+  },
+  {
+    "word": "note",
+    "topics": ["arts"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Signe qui représente un son",
+    "shortClue": "Signe musical"
+  },
+  {
+    "word": "scene",
+    "topics": ["arts"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Plancher où jouent les acteurs",
+    "shortClue": "Plancher d'acteurs"
+  },
+  {
+    "word": "banc",
+    "topics": ["home"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Siège long pour plusieurs personnes",
+    "shortClue": "Siège allongé"
+  },
+  {
+    "word": "nappe",
+    "topics": ["home"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Tissu qui couvre la table",
+    "shortClue": "Tissu de table"
+  },
+  {
+    "word": "hotte",
+    "topics": ["home"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Appareil qui aspire les fumées de la cuisine",
+    "shortClue": "Aspire les fumées"
+  },
+  {
+    "word": "pelle",
+    "topics": ["home"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Outil à manche pour creuser la terre",
+    "shortClue": "Outil à creuser"
+  },
+  {
+    "word": "vis",
+    "topics": ["home"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Tige filetée pour assembler",
+    "shortClue": "Tige filetée"
+  },
+  {
+    "word": "colle",
+    "topics": ["home"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Substance qui fait adhérer",
+    "shortClue": "Adhésif"
+  },
+  {
+    "word": "tuile",
+    "topics": ["home"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Plaque cuite qui couvre un toit",
+    "shortClue": "Plaque de toit"
+  },
+  {
+    "word": "pince",
+    "topics": ["home"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Outil à deux branches pour serrer",
+    "shortClue": "Outil de serrage"
+  },
+  {
+    "word": "plat",
+    "topics": ["home"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Récipient où l'on sert les mets",
+    "shortClue": "Grand récipient"
+  },
+  {
+    "word": "agent",
+    "topics": ["professions"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Représentant chargé d'une mission",
+    "shortClue": "Représentant"
+  },
+  {
+    "word": "cadre",
+    "topics": ["professions"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Responsable d'une équipe en entreprise",
+    "shortClue": "Responsable"
+  },
+  {
+    "word": "clown",
+    "topics": ["professions"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Artiste au nez rouge qui fait rire",
+    "shortClue": "Artiste de cirque"
+  },
+  {
+    "word": "poete",
+    "topics": ["professions"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Auteur de vers",
+    "shortClue": "Auteur de vers"
+  },
+  {
+    "word": "valet",
+    "topics": ["professions"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Serviteur d'une maison",
+    "shortClue": "Serviteur"
+  },
+  {
+    "word": "bal",
+    "topics": ["localCulture"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Soirée où l'on danse",
+    "shortClue": "Soirée dansante"
+  },
+  {
+    "word": "bise",
+    "topics": ["localCulture"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Baiser sur la joue, en guise de salut",
+    "shortClue": "Salut de joue"
+  },
+  {
+    "word": "mont",
+    "topics": ["geography"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Grande élévation de terrain",
+    "shortClue": "Haute colline"
+  },
+  {
+    "word": "rive",
+    "topics": ["geography"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Bord d'un cours d'eau",
+    "shortClue": "Bord du fleuve"
+  },
+  {
+    "word": "source",
+    "topics": ["geography"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Lieu où naît un cours d'eau",
+    "shortClue": "Naissance de rivière"
+  },
+  {
+    "word": "pic",
+    "topics": ["geography"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Sommet pointu et rocheux",
+    "shortClue": "Cime aiguë"
+  },
+  {
+    "word": "presque",
+    "topics": ["general"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Pas tout à fait, il s'en faut de peu",
+    "shortClue": "Quasiment"
+  },
+  {
+    "word": "grimace",
+    "topics": ["general"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Contorsion du visage",
+    "shortClue": "Moue exagérée"
+  },
+  {
+    "word": "Alger",
+    "topics": ["geography"],
+    "difficulty": 2,
+    "kind": "proper",
+    "clue": "Capitale du plus vaste pays d'Afrique",
+    "shortClue": "Ville blanche"
+  },
+  {
+    "word": "Tunis",
+    "topics": ["geography"],
+    "difficulty": 2,
+    "kind": "proper",
+    "clue": "Capitale proche des ruines de Carthage",
+    "shortClue": "Capitale maghrébine"
+  },
+  {
+    "word": "voir",
+    "topics": ["general"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Saisir par le regard",
+    "shortClue": "Utiliser la vue"
+  },
+  {
+    "word": "oued",
+    "topics": ["geography"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Cours d'eau saisonnier du désert",
+    "shortClue": "Rivière sèche"
+  },
+  {
+    "word": "cratere",
+    "topics": ["geography"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Cuvette au sommet d'un volcan",
+    "shortClue": "Cuvette de volcan"
+  },
+  {
+    "word": "allure",
+    "topics": ["general"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Cadence d'un déplacement",
+    "shortClue": "Cadence"
+  },
+  {
+    "word": "standardiste",
+    "topics": ["professions"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Répond au téléphone d'une entreprise",
+    "shortClue": "Voix de l'accueil"
+  },
+  {
+    "word": "athlete",
+    "topics": ["sport"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Sportif de haut niveau",
+    "shortClue": "Sportif accompli"
+  },
+  {
+    "word": "tailleur",
+    "topics": ["professions"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Fait des costumes sur mesure",
+    "shortClue": "Fait des costumes"
+  },
+  {
+    "word": "dragee",
+    "topics": ["localCulture"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Amande enrobée de sucre durci qu'on offre en fête",
+    "shortClue": "Amande sucrée"
+  },
+  {
+    "word": "jouer",
+    "topics": ["general"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Se divertir avec des cartes ou un ballon",
+    "shortClue": "S'amuser"
+  },
+  {
+    "word": "possible",
+    "topics": ["general"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Qui est en mesure de se réaliser",
+    "shortClue": "Faisable"
+  },
+  {
+    "word": "vivre",
+    "topics": ["general"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Avoir une existence",
+    "shortClue": "Exister"
+  },
+  {
+    "word": "pedale",
+    "topics": ["sport"],
+    "difficulty": 1,
+    "kind": "common",
+    "clue": "Organe actionné par le cycliste pour avancer",
+    "shortClue": "Levier du cycliste"
+  },
+  {
+    "word": "astronome",
+    "topics": ["professions"],
+    "difficulty": 2,
+    "kind": "common",
+    "clue": "Scrute le firmament",
+    "shortClue": "Guette les étoiles"
+  },
+  {
+    "word": "tourtiere",
+    "topics": ["localCulture"],
+    "difficulty": 3,
+    "kind": "common",
+    "clue": "Plat de viande québécois des fêtes, cuit en croûte",
+    "shortClue": "Plat québécois"
+  }
+]
